@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What's Cooking — Feature Overview</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #FAF8F4;
+      color: #3D2817;
+      line-height: 1.6;
+      padding: 48px 32px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    @media print {
+      body { padding: 24px; background: #fff; }
+      .phase { break-inside: avoid; }
+    }
+
+    /* Header */
+    .header { text-align: center; margin-bottom: 56px; }
+    .header .eyebrow {
+      display: inline-block;
+      font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      color: #828E6F; margin-bottom: 12px;
+    }
+    .header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 42px; font-weight: 700; color: #3D2817;
+      line-height: 1.15; margin-bottom: 10px;
+    }
+    .header h1 span { color: #828E6F; }
+    .header p { font-size: 15px; color: #6B5B52; max-width: 520px; margin: 0 auto; }
+    .header-rule { width: 64px; height: 3px; background: #828E6F; margin: 24px auto; border-radius: 2px; }
+
+    /* Phase */
+    .phase { margin-bottom: 48px; }
+    .phase-header {
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1.5px solid #DDD5C8;
+    }
+    .phase-number {
+      width: 36px; height: 36px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 700; flex-shrink: 0;
+    }
+    .phase-title {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 20px; font-weight: 700;
+    }
+    .phase-subtitle { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+
+    /* Feature cards */
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .feature {
+      background: #fff; border-radius: 14px;
+      padding: 18px 20px;
+      border: 1px solid #E8E0D4;
+    }
+    .feature.full { grid-column: span 2; }
+    .feature-icon { font-size: 22px; margin-bottom: 8px; }
+    .feature-name {
+      font-size: 14px; font-weight: 700; color: #3D2817; margin-bottom: 4px;
+    }
+    .feature-desc { font-size: 13px; color: #6B5B52; line-height: 1.55; margin-bottom: 10px; }
+    .feature-badge {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      padding: 2px 8px; border-radius: 20px; letter-spacing: 0.5px;
+    }
+
+    /* Phase colour tokens */
+    .p1 .phase-number { background: #C85A2F20; color: #C85A2F; }
+    .p1 .phase-title  { color: #C85A2F; }
+    .p1 .phase-subtitle { color: #C85A2F; opacity: 0.65; }
+
+    .p2 .phase-number { background: #5D403720; color: #5D4037; }
+    .p2 .phase-title  { color: #5D4037; }
+    .p2 .phase-subtitle { color: #5D4037; opacity: 0.65; }
+
+    .p3 .phase-number { background: #828E6F20; color: #828E6F; }
+    .p3 .phase-title  { color: #828E6F; }
+    .p3 .phase-subtitle { color: #828E6F; opacity: 0.65; }
+
+    .p4 .phase-number { background: #C9A84C20; color: #9C7820; }
+    .p4 .phase-title  { color: #9C7820; }
+    .p4 .phase-subtitle { color: #9C7820; opacity: 0.65; }
+
+    .p5 .phase-number { background: #4CAF5020; color: #2E7D32; }
+    .p5 .phase-title  { color: #2E7D32; }
+    .p5 .phase-subtitle { color: #2E7D32; opacity: 0.65; }
+
+    /* Badge colours */
+    .badge-orange  { background: #FFF0E6; color: #C85A2F; }
+    .badge-walnut  { background: #F5EDE6; color: #5D4037; }
+    .badge-sage    { background: #EEF3E8; color: #828E6F; }
+    .badge-gold    { background: #FFF8E1; color: #9C7820; }
+    .badge-green   { background: #E8F5E9; color: #2E7D32; }
+    .badge-blue    { background: #E3F2FD; color: #1565C0; }
+
+    /* Footer */
+    footer {
+      margin-top: 56px; padding-top: 24px; border-top: 1px solid #DDD5C8;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 11px; color: #A69180;
+    }
+    footer strong { color: #3D2817; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="eyebrow">Product Feature Overview · 2026</div>
+    <h1>What's Cooking<br><span>The Intelligent Kitchen OS</span></h1>
+    <div class="header-rule"></div>
+    <p>Every feature follows the natural flow of a meal — from discovering what to cook, through cooking it, to clearing up after. No hunting for tools. Each phase is where you'd expect it.</p>
+  </div>
+
+  <!-- PHASE I -->
+  <div class="phase p1">
+    <div class="phase-header">
+      <div class="phase-number">I</div>
+      <div>
+        <div class="phase-title">Discover</div>
+        <div class="phase-subtitle">Find what to cook tonight</div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🔥</div>
+        <div class="feature-name">Hot Right Now</div>
+        <div class="feature-desc">A horizontally scrolling strip of the highest-ranked recipes on the platform, updated in real time by community ratings. Appears at the top of Discover so the best food is always front and centre.</div>
+        <span class="feature-badge badge-orange">Live ranking · ranked_score</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🥬</div>
+        <div class="feature-name">Pantry-First Search</div>
+        <div class="feature-desc">Toggle "Pantry-First" in Discover to filter the recipe grid to only dishes you can already mostly make. Every recipe card shows a pantry match percentage (green 80%+, amber 50–79%) so you see at a glance how stocked you are.</div>
+        <span class="feature-badge badge-sage">Requires pantry items · zero waste</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⭐</div>
+        <div class="feature-name">Premium Instagram Collection</div>
+        <div class="feature-desc">800+ hand-picked recipes sourced from elite food creators. Each card links to the original post. Use the AI Extract button to reconstruct full ingredients and step-by-step instructions from any post caption.</div>
+        <span class="feature-badge badge-gold">AI extraction · Gemini</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-name">Kitchen Hacks</div>
+        <div class="feature-desc">A curated library of viral techniques (like the salt-crust method or dry-brine trick) displayed as quick-expand cards. Extract any hack into step-by-step instructions directly in the app.</div>
+        <span class="feature-badge badge-walnut">Expandable · in-page modal</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌍</div>
+        <div class="feature-name">World Cuisines</div>
+        <div class="feature-desc">Filter the entire recipe library by cuisine — from Moroccan tagines to Japanese ramen. Each cuisine card shows a hero image, signature dishes, and a one-line character description.</div>
+        <span class="feature-badge badge-blue">25+ cuisines · regional grouping</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌿</div>
+        <div class="feature-name">Seasonal Filter</div>
+        <div class="feature-desc">Highlights recipes that use ingredients currently in season in your region. Reduces shopping cost and supports local produce — what's good right now is always visible.</div>
+        <span class="feature-badge badge-sage">Produce-aware · regional</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE II -->
+  <div class="phase p2">
+    <div class="phase-header">
+      <div class="phase-number">II</div>
+      <div>
+        <div class="phase-title">Prepare</div>
+        <div class="phase-subtitle">Get your kitchen ready</div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🧺</div>
+        <div class="feature-name">Pantry Manager</div>
+        <div class="feature-desc">Track everything you own — categorised by type (produce, dairy, dry goods etc.) with category icons and colours. What's in your pantry drives the Pantry-First filter in Discover, so your inventory directly shapes what you can cook.</div>
+        <span class="feature-badge badge-sage">Category icons · quantity tracking</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🥗</div>
+        <div class="feature-name">Adapted Ingredients</div>
+        <div class="feature-desc">On each recipe page, your active dietary mode (vegan, gluten-free, etc.) is applied to the ingredient list with visual callouts — so you know before starting whether a swap is needed.</div>
+        <span class="feature-badge badge-walnut">Dietary-aware · emoji icons</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⏱</div>
+        <div class="feature-name">Time Breakdown Bar</div>
+        <div class="feature-desc">A visual bar splitting total time into prep and cook segments, with estimated hands-on effort. Instantly shows whether a recipe is quick-fire or a slow weekend project.</div>
+        <span class="feature-badge badge-walnut">Prep + cook split</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📅</div>
+        <div class="feature-name">Meal Planner</div>
+        <div class="feature-desc">Build weekly meal plans with AI-suggested recipes. The AI avoids repeating the same recipe across days, prioritises ★ MEAL-PREP flagged dishes for lunches, and varies cuisines and protein sources automatically.</div>
+        <span class="feature-badge badge-gold">AI-suggested · no repeats</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE III -->
+  <div class="phase p3">
+    <div class="phase-header">
+      <div class="phase-number">III</div>
+      <div>
+        <div class="phase-title">Cook</div>
+        <div class="phase-subtitle">Step-by-step execution</div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🚇</div>
+        <div class="feature-name">Subway Roadmap</div>
+        <div class="feature-desc">Recipe instructions rendered as an interactive subway map. Click or tap any station to jump to that step. Completed steps show a checkmark and strike-through. A progress bar shows overall cooking progress. Inline cooking-technique tips appear for the active step.</div>
+        <span class="feature-badge badge-sage">Sage &amp; Walnut palette · prev/next nav</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📖</div>
+        <div class="feature-name">Living Cookbook Ticker</div>
+        <div class="feature-desc">A rotating carousel of community cooking wisdom — tips like "let meat rest before cutting" or "bloom your spices first" that appear above the instructions. Rotates every 8 seconds with a slide-fade transition and dot navigation.</div>
+        <span class="feature-badge badge-sage">10 tips · 8s interval · manual nav</span>
+      </div>
+      <div class="feature full">
+        <div class="feature-icon">💡</div>
+        <div class="feature-name">Inline Technique Tips</div>
+        <div class="feature-desc">As you progress through the Subway Roadmap, cooking techniques detected in each step (e.g. "sauté", "deglaze", "fold") trigger contextual pop-up tips explaining the technique — so you learn while you cook, not before. Each tip appears only once per recipe to avoid repetition.</div>
+        <span class="feature-badge badge-sage">Auto-detected · deduplicated</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE IV -->
+  <div class="phase p4">
+    <div class="phase-header">
+      <div class="phase-number">IV</div>
+      <div>
+        <div class="phase-title">Serve</div>
+        <div class="phase-subtitle">Plate it. Rate it. Share it.</div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🕯️</div>
+        <div class="feature-name">Table Stylist</div>
+        <div class="feature-desc">Three occasion modes — Casual, Intimate, Festive — each with tailored plating advice: which plate to use, how to garnish, layout guidance, drink pairings, and a pro plating tip. The app auto-detects the occasion from the recipe title so the right mode is pre-selected.</div>
+        <span class="feature-badge badge-gold">Casual · Intimate · Festive</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⭐</div>
+        <div class="feature-name">Recipe Ratings</div>
+        <div class="feature-desc">Rate any recipe across four dimensions: taste, difficulty, value for effort, and presentation. Aggregate scores are displayed on the recipe page and feed directly into the Hot Right Now ranking algorithm.</div>
+        <span class="feature-badge badge-gold">4-axis · feeds ranking</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💬</div>
+        <div class="feature-name">Community Comments</div>
+        <div class="feature-desc">Leave tips, tweaks, and variations on any recipe. Comments show the author's name and are visible to everyone — forming the feedback loop that makes recipes get better over time.</div>
+        <span class="feature-badge badge-gold">Real-time · attributed</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔖</div>
+        <div class="feature-name">Recipe Saves</div>
+        <div class="feature-desc">Bookmark any recipe to your saved collection with one tap. Saved recipes are synced across devices and accessible from your profile — a personal cookbook that builds itself as you explore.</div>
+        <span class="feature-badge badge-walnut">Instant · synced</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE V -->
+  <div class="phase p5">
+    <div class="phase-header">
+      <div class="phase-number">V</div>
+      <div>
+        <div class="phase-title">Restore</div>
+        <div class="phase-subtitle">Store leftovers. Reset the kitchen.</div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">❄️</div>
+        <div class="feature-name">Zero-Waste Storage Guide</div>
+        <div class="feature-desc">Auto-detects the recipe category (meat, fish, pasta, rice, soup, salad, baked, curry) and displays: how many days it will keep in the fridge, the best reheating method, and a zero-waste tip specific to that food type.</div>
+        <span class="feature-badge badge-green">8 categories · AI-calculated</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🧹</div>
+        <div class="feature-name">Cleanup Concierge</div>
+        <div class="feature-desc">Toggle between Dishwasher and Hand-Wash modes. Each mode shows a Safe list and a No-Go list of common kitchenware — so you never ruin a cast iron pan or dull a good knife again. No separate research needed.</div>
+        <span class="feature-badge badge-green">Dishwasher · Hand-wash modes</span>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">✅</div>
+        <div class="feature-name">Kitchen Reset Button</div>
+        <div class="feature-desc">A single button to mark your kitchen as fully reset. Triggers a satisfying confirmation state with a celebration icon — a small ritual that closes the loop on the cooking session and builds positive habit reinforcement.</div>
+        <span class="feature-badge badge-green">Habit loop · celebration state</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div><strong>What's Cooking</strong> · The Intelligent Kitchen OS</div>
+    <div>Feature Overview · April 2026 · All phases live</div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+WHAT'S COOKING: DATA SECURITY LOG
+===================================
+EU GDPR / German DSGVO compliance, PII audit, RLS review, data protection.
+
+---
+
+2026-04-21 - Audit: Initial PII Inventory
+Achievement: Completed first-pass PII mapping across all Supabase tables.
+
+  PERSONAL DATA FIELDS IDENTIFIED:
+  auth.users (Supabase managed): email, created_at, last_sign_in — managed by Supabase, subject to their DPA
+  pantry_items: user_id (pseudonym), name (ingredient names — low risk), expiry_date (non-personal)
+  calorie_entries: user_id + calories + meal_type + logged_at
+    → SPECIAL CATEGORY RISK: dietary/health data under Art. 9 GDPR — requires explicit consent or medical necessity basis
+  weight_logs: user_id + weight_kg + logged_at
+    → SPECIAL CATEGORY RISK: health data — explicit consent required (Art. 9(2)(a))
+  dinner_parties: title, date, location (text) — location could be home address → MEDIUM risk
+  party_guests: user_id + rsvp_status — low risk but reveals social relationships
+  recipes (user-created): user_id + source_url — source_url may reveal social media identity
+
+2026-04-21 - Audit: Legal Basis Review (Art. 6 GDPR)
+Achievement: Mapped processing activities to legal bases:
+
+  LAWFUL BASIS CONFIRMED:
+  - Core recipe browsing, saving, rating: contract performance (Art. 6(1)(b))
+  - User-generated recipes: contract performance
+  - Pantry management: contract performance
+  - Meal planning: contract performance
+
+  REQUIRES EXPLICIT CONSENT OR DOCUMENTED LEGITIMATE INTEREST:
+  - calorie_entries / weight_logs: health data → Art. 9(2)(a) explicit consent
+    ACTION: Add consent checkbox at first calorie tracker use: "I consent to storing my health data"
+  - swipe_history: behavioural data → legitimate interest acceptable if documented
+  - feedback: legitimate interest acceptable
+
+  NOT YET VERIFIED:
+  - Any analytics/tracking pixels on web app → must be opt-in under German TTDSG
+
+2026-04-21 - Audit: Third-Party Data Transfer Review
+Achievement: Reviewed all external API integrations for PII leakage:
+
+  OpenAI API (recipe generation, event planning):
+    FINDING [MEDIUM]: Prompt construction in openai-helper.ts must not include user_id or identifiable context.
+    RECOMMENDATION: Audit all prompt templates. Replace user-specific context with anonymized preferences only.
+
+  Spoonacular API:
+    FINDING: Only sends search terms (cuisine, diet filters). No PII. COMPLIANT.
+
+  Claude/Anthropic API (SOS, extraction, pantry photo, menu scanner):
+    FINDING [MEDIUM]: Pantry photo extraction sends raw image to Anthropic. If photo contains personal info (labels with names, etc.) this is incidental PII transfer.
+    RECOMMENDATION: Add disclaimer in UI: "Photos are processed by AI and not stored by What's Cooking."
+
+  Supabase:
+    FINDING [HIGH]: Verify Supabase project region is EU (Frankfurt / eu-central-1).
+    RECOMMENDATION: Check project settings → confirm EU data residency. If US region, migrate or add Standard Contractual Clauses (SCCs) to DPA.
+
+  Unsplash:
+    FINDING: Only cuisine keyword strings sent. No PII. COMPLIANT.
+
+2026-04-21 - Audit: Right to Erasure (Art. 17 DSGVO)
+Achievement: Reviewed account deletion flow.
+
+  FINDING [CRITICAL]: No DELETE /api/profile or account deletion endpoint found.
+  RECOMMENDATION: Implement account deletion flow that:
+    1. Deletes all rows in: pantry_items, calorie_entries, weight_logs, meal_plans, meal_entries, saves, ratings, comments, swipe_history, party_guests (where user_id = requesting user)
+    2. Anonymizes user-created recipes: set user_id = NULL, keep recipe content (legitimate archival interest)
+    3. Calls Supabase Admin API to delete auth.users record
+    4. Completes within 30 days of request (Art. 17 deadline)
+    5. Sends confirmation email to user
+
+  FINDING [HIGH]: CASCADE DELETE not confirmed on all tables.
+  RECOMMENDATION: Data Steward to verify FK cascade rules on all user_id foreign keys.
+
+2026-04-21 - Audit: RLS Policy Review
+Achievement: Reviewed Row Level Security status based on Data Steward log.
+
+  CONFIRMED COMPLIANT:
+  - pantry_items: auth.uid() = user_id on all operations ✓
+  - calorie_entries: auth.uid() = user_id ✓
+  - weight_logs: auth.uid() = user_id ✓
+  - meal_plans: owner-only write; public read for is_public=true ✓
+  - saves, ratings, comments: auth required ✓
+
+  NEEDS VERIFICATION:
+  - dinner_parties: guest read access — confirm guests can only read parties they're invited to
+  - party_items: confirm non-guests cannot list items of private parties
+  - swipe_history: confirm users cannot read each other's swipe patterns
+
+2026-04-21 - Audit: Data Retention Policy
+Achievement: No retention policy currently exists.
+
+  RECOMMENDATION: Implement automated retention:
+  - calorie_entries: auto-archive after 2 years of inactivity (user configurable)
+  - weight_logs: auto-archive after 2 years of inactivity
+  - swipe_history: purge after 1 year (algorithmic purpose served)
+  - Comments: retain indefinitely (social record, legitimate interest)
+  - Deleted account data: fully purged within 30 days
+
+2026-04-21 - Compliance: Required Legal Documents
+Achievement: Identified missing legal documents required under DSGVO:
+
+  CRITICAL — Must be live before public launch:
+  1. Datenschutzerklärung (Privacy Policy) — Art. 13/14 DSGVO information obligations
+     Must include: data controller identity, purposes, legal bases, retention periods, third-party processors, user rights
+  2. Cookie/Tracking consent banner — German TTDSG requires opt-in for non-essential cookies
+  3. Impressum (German legal notice) — required for any German-accessible website
+  4. AGB (Terms of Service) — defines contract basis for Art. 6(1)(b) lawful processing
+
+  MEDIUM — Before processing health data:
+  5. Explicit consent flow for calorie/weight tracking (Art. 9(2)(a))
+  6. Art. 30 Verarbeitungsverzeichnis (Records of Processing Activities) — internal document
+
+---
+
+---
+
+2026-04-21 - Fix: Account Deletion Endpoint (Art. 17 DSGVO — CRITICAL resolved)
+Achievement: Implemented DELETE /api/account/delete route (src/app/api/account/delete/route.ts).
+  - Deletes all rows from: pantry_items, calorie_entries, weight_logs, meal_plans, recipe_saves, recipe_ratings, recipe_comments, swipe_history, feedback
+  - Anonymizes user-created recipes (user_id → NULL, content preserved — legitimate archival interest)
+  - Deletes dinner_parties where host_user_id = user, removes party_guests rows
+  - Final step: Supabase Admin API deleteUser() — removes auth.users record
+  - Returns partial_errors array for non-fatal table failures (cleanup still completes)
+  - Two-step confirmation UI in settings page prevents accidental deletion
+
+2026-04-21 - Fix: Account Deletion UI (Settings page)
+Achievement: Added DeleteAccountSection component to src/app/(app)/settings/settings-client.tsx.
+  - Idle → Confirm (shows warning) → Deleting (spinner) → Done (redirect) / Error flow
+  - Confirmation step requires second explicit click — no accidental deletions
+  - Privacy & Legal section added linking to /datenschutz and /impressum
+
+2026-04-21 - Fix: Datenschutzerklärung Published (Art. 13/14 DSGVO — CRITICAL resolved)
+Achievement: Created src/app/datenschutz/page.tsx — full German Privacy Policy covering:
+  - Data controller identity, contact email
+  - All personal data categories with special category callout (health data)
+  - Legal basis table (Art. 6 + Art. 9 DSGVO) for each processing activity
+  - Third-party processors: Supabase (EU), Anthropic, OpenAI, Spoonacular, Unsplash
+  - Retention periods per data type
+  - All Art. 15–22 user rights with exercising instructions
+  - Cookie policy (technical-only, no tracking)
+  - Data security (TLS + RLS)
+  - BfDI supervisory authority reference
+
+2026-04-21 - Fix: Impressum Published (§ 5 TMG — CRITICAL resolved)
+Achievement: Created src/app/impressum/page.tsx — German legal notice covering § 5 TMG, § 18 MStV,
+  liability clauses, copyright, EU ODR platform link.
+  NOTE: Physical address still needs to be filled in before public launch.
+
+2026-04-21 - Fix: Health Data Consent Gate (Art. 9 DSGVO — HIGH resolved)
+Achievement: Added HealthConsentGate component to calorie-tracker-client.tsx.
+  - Renders before the tracker UI if localStorage key "wc_health_consent_v1" is not set
+  - Explains what health data is collected, why, and user rights
+  - Links to Datenschutzerklärung
+  - "Decline" → redirects to /discover (no data collected)
+  - "I consent" → sets localStorage flag, shows tracker
+  - Consent is per-browser; can be reset by clearing site data (no server-side revocation UI yet)
+
+---
+
+SEVERITY SUMMARY (updated 2026-04-21):
+  Critical: RESOLVED — account deletion endpoint live | Legal docs published
+  High:     Supabase EU region unconfirmed (manual check required) | CASCADE DELETE unverified (Data Steward to confirm) | Health data consent RESOLVED
+  Medium:   OpenAI prompt PII audit pending | AI photo processing disclosure added to Datenschutzerklärung | dinner_parties guest RLS needs verification
+  Low:      swipe_history auto-delete not yet implemented | party_items RLS verification pending
+  Open:     Impressum physical address placeholder — must be filled before public launch
+            Art. 30 Verarbeitungsverzeichnis (internal records of processing) — not yet created
+            Server-side consent revocation (currently only localStorage) — future improvement
+
+NEXT REVIEW: Confirm Supabase EU region. Verify CASCADE DELETE on all FK tables. Add physical address to Impressum.

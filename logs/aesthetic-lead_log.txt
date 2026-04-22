@@ -1,0 +1,64 @@
+WHAT'S COOKING: AESTHETIC LEAD LOG
+====================================
+Visual system, layout, spacing, dark/light mode, kitchen-readable UX.
+
+---
+
+2026-04-14 - Layout: App Navigation Structure
+Achievement: Designed sidebar layout: icon-only collapsed (56px wide), full labels on hover (224px). CSS width transition 0.25s ease. Established visual hierarchy: Discovery group at top, Planning in middle, Kitchen at bottom. Profile + Settings pinned to sidebar bottom with separator.
+
+2026-04-15 - Layout: Recipe Card Grid System
+Achievement: Established responsive recipe card grid: 1 col mobile, 2 col tablet, 3-4 col desktop. Card aspect ratio locked at 4:3 for image. Soft-lift hover: translateY(-2px), box-shadow expand, 0.2s ease. All cards use 16px corner radius.
+
+2026-04-16 - Design: Dietary Color Coding System
+Achievement: Designed dietary-tint.tsx color system. Each dietary tag maps to a distinct tint overlay on recipe card images (vegan → Sage, keto → Walnut, halal → warm gold). dietary-banner.tsx shows icon strip on card corners. High-contrast, readable in kitchen lighting.
+
+2026-04-20 - Design: Dark Mode Token System (Phase 1)
+Achievement: Added full dark mode CSS custom property set to globals.css:
+  Dark floor: --wc-floor #1F1B19
+  Dark surface 1: --wc-surface-1 #2C2724
+  Dark surface 2: --wc-surface-2 #3A3430
+  Dark accent: --wc-accent-saffron #F4A261
+  Transitions: background-color 0.3s ease, color 0.3s ease on body + structural elements
+
+2026-04-20 - Design: Light Mode Soft Light Tokens (Phase 1)
+Achievement: Added light mode token set:
+  --wc-light-bg #F9F7F4
+  --wc-light-surface #F0EDE9
+  --wc-light-elev #E4E0DB
+  --wc-light-text #2D2926
+  Floor/surface/saffron updated for light theme.
+  All components reference CSS vars — zero hardcoded hex in component files.
+
+2026-04-20 - Design: Surface Utility Classes (Phase 1)
+Achievement: Added .wc-level-0, .wc-level-1, .wc-level-2 utility classes for elevation hierarchy. Added .wc-accent-text, .wc-accent-border for consistent saffron theming. All new components use these classes rather than bg-/border- Tailwind utilities directly.
+
+2026-04-20 - Design: Spring Card Animation (Phase 2)
+Achievement: Added .wc-card-hover CSS class using cubic-bezier(0.34, 1.56, 0.64, 1) spring curve. scale(1.02) on hover. Applied to recipe cards, dinner party cards, plan cards. Consistent tactile feel across all card interactions.
+
+2026-04-20 - Layout: Sidebar Nav Overhaul (Phase 2)
+Achievement: Refactored app-nav.tsx NAV_ITEMS into NAV_GROUPS structure:
+  - Discovery: Discover, Swipe, Cuisines, Events, World Map
+  - Planning: Plans, Calorie Tracker, Dinner Parties
+  - Kitchen: Pantry, My Recipes, Saved, Menu Scanner
+  "My Pantry" renamed to "Kitchen Management". Group labels in Saffron at 0.65 opacity when sidebar expanded. Nav background: --wc-floor (#1F1B19). Inactive item opacity: 0.6.
+
+2026-04-20 - Layout: Calorie Tracker Layout (Phase 3.2)
+Achievement: Redesigned calorie-tracker-client.tsx to 2-column layout. 60% left: macro rings + entry log. 40% right: weight chart + macro tips + collapsible goals accordion. Slim 6px Saffron kcal bar (was 12px). All hardcoded hex replaced with CSS var() tokens.
+
+2026-04-20 - Layout: Dinner Parties View (Phase 3.3)
+Achievement: CoverCardView pattern: hero card for next upcoming party (full-width, accent-color border), grid for remaining upcoming, opacity-60 faded list for past parties. View toggle: Cards (default) | Calendar. PartyCard uses CSS token colors for dark/light compatibility.
+
+---
+
+REMAINING OVERHAUL PHASES:
+  P3.1: Cuisine Atlas — sticky nav + snap-scroll (pending)
+  P4.1: Recipe card visual refresh (pending)
+  P4.2: Recipe detail page overhaul (pending)
+  P5:   Profile / Chef Hub overhaul (pending)
+  P6:   Pantry leftovers section polish (pending)
+
+DESIGN STANDARDS:
+  Palette: Linen #F2EFE8 | Walnut #5D4037 | Sage #828E6F | Coffee #2C1B18 | Toffee #B07A52 | Saffron #F4A261
+  Type: Libre Baskerville (h1-h4) | Inter (UI)
+  Radius: 16px | Hover: translateY(-2px) + shadow | Spring: cubic-bezier(0.34,1.56,0.64,1)

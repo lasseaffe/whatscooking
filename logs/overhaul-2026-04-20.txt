@@ -1,0 +1,114 @@
+UI OVERHAUL LOG — 2026-04-20
+=============================================================
+
+AESTHETIC-LEAD — Phase 1 & 2 complete
+Files: src/app/globals.css, src/components/app-nav.tsx
+
+globals.css changes:
+  - Dark mode tokens: --wc-floor #1F1B19, --wc-surface-1 #2C2724, --wc-surface-2 #3A3430
+  - Dark mode: --wc-accent-saffron #F4A261, --wc-accent-primary #F4A261
+  - Light mode Soft Light tokens added: --wc-light-bg #F9F7F4, --wc-light-surface #F0EDE9, --wc-light-elev #E4E0DB, --wc-light-text #2D2926
+  - Light mode floor/surface/saffron updated accordingly
+  - body + structural elements: transition background-color 0.3s ease, color 0.3s ease
+  - Added .wc-card-hover spring animation (cubic-bezier 0.34,1.56,0.64,1, scale 1.02 on hover)
+  - Added .wc-level-0/1/2 surface utility classes + .wc-accent-text / .wc-accent-border
+
+app-nav.tsx changes:
+  - .wc-item-desc permanently hidden (display: none)
+  - Inactive item opacity: 0.5 -> 0.6
+  - Active item: color + left-border use --wc-accent-saffron (#F4A261), border width 3px
+  - NAV_ITEMS refactored into NAV_GROUPS: Discovery / Planning / Kitchen
+  - "My Pantry" renamed to "Kitchen Management"
+  - Group labels rendered in Saffron at 0.65 opacity when sidebar expanded
+  - Profile + Settings pinned below groups with subtle separator
+  - Sidebar nav background: --wc-floor (#1F1B19)
+
+ARTISAN — Phase 3.2 (Nutrient Tracker) complete
+File: src/app/(app)/calorie-tracker/calorie-tracker-client.tsx
+
+  - Persistent "What did you eat?" bar at top of page (Level 2 surface)
+  - 2-column grid layout: 60% left (macro rings + entry log) / 40% right (weight chart + macro tips + collapsible goals)
+  - Slim kcal progress bar: 6px height (was 12px / h-3), Saffron fill
+  - All hardcoded hex colors replaced with CSS var() tokens (fg-primary, bg-secondary, etc.)
+  - Nutrition Goals moved into collapsible accordion on right column
+  - Macro tips moved to compact right column card
+
+ARTISAN — Phase 3.3 (Dinner Parties) complete
+File: src/app/(app)/dinner-parties/dinner-party-calendar.tsx
+
+  - CoverCardView component added: hero card for next upcoming party, grid for rest, opacity-60 past list
+  - Hero card: dynamic accent-color border, guest avatars, RSVP status, location/date/time details
+  - View toggle: Cards (default) | Calendar
+  - PartyCard updated to use CSS token colors (bg-primary, border-tertiary) for dark/light compatibility
+  - PartyCard now uses .wc-card-hover class for spring scale animation
+
+AESTHETIC-LEAD — Phase 3.1 (Cuisine Atlas) complete
+Files: src/components/cuisine-nav.tsx, src/app/(app)/cuisines/page.tsx, src/app/(app)/cuisines/cuisines-page-wrapper.tsx
+
+  - CuisineNav component: position sticky, top 0, z-index 50 with backdrop-filter blur(10px)
+  - IntersectionObserver tracks which continent section is in view → highlights active tab
+  - Framer Motion layoutId="cuisine-nav-indicator" animated underline slides between tabs
+  - Per-continent snap-scroll rows: scroll-snap-type x mandatory, scroll-snap-align start
+  - Card width: 38vw (max 320px), 72vw on mobile — consistent browseable tiles
+  - Cuisine card hover: scale(1.02) + image zoom (scale 1.06) + background shift
+  - Dish pills slide-up on hover: max-height 0 → 80px, opacity 0 → 1, translateY 8px → 0
+  - CuisinesPageWrapper: fixed full-page background image, crossfade on continent hover (300ms)
+
+AESTHETIC-LEAD / ARTISAN — Phase 4.1 (Recipe Cards) complete
+Files: src/components/recipe-card.tsx, src/app/globals.css
+
+  - .recipe-card-hover class: spring cubic-bezier(0.34,1.56,0.64,1) scale(1.02) + box-shadow 0 12px 32px
+  - Framer Motion entrance: opacity 0→1, scale 0.97→1, stagger delay index * 0.06s
+  - prefers-reduced-motion respected (animations disabled)
+  - Full-bleed hero image with image scrim (0,0,0,0.75 bottom → transparent 70%)
+  - Premium badge (top-left), Meal Plan Match badge (top-right), Save button (bottom-right, 44×44 touch)
+  - Save icon pulse animation (save-pulse keyframe, 300ms)
+  - ChefHatRating: 5 chef-hat icons, Saffron fill for rated count
+  - Difficulty badge: Sage (easy), orange (medium), blue (hard)
+  - Metadata always visible (not hover-only): time pill + difficulty badge
+
+ARTISAN — Phase 4.2 (Recipe Detail Page) complete
+Files: src/app/(app)/recipes/[id]/page.tsx, recipe-hero-image.tsx, recipe-columns-client.tsx, ingredients-column.tsx, instructions-with-tips.tsx
+
+  - Full-width hero: 40vh height with gradient fade to page background
+  - Master-detail desktop grid: 320px sticky left column + 1fr right scrollable
+  - Left column: sticky ingredients list, key metrics (kcal, time, servings, protein), time breakdown bar, dietary tags, rating summary
+  - Right column: subway roadmap instructions, cooking tips, adapted ingredient toggles
+  - Premium recipe auto-extraction: if premium && !hasFullContent → extractAndSaveRecipe() on page load
+  - SOS Kitchen Helper widget embedded in detail page
+  - CookingModeWrapper: large-text cooking mode toggle (1.25em scale on all text)
+
+ARTISAN — Phase 5 (Profile / Chef Hub) complete
+File: src/app/(app)/profile/profile-client.tsx
+
+  - Chef rank system: Home Cook → Sous Chef → Line Cook → Chef de Partie → Executive Chef
+  - Flavor Profile Radar Chart: SVG hexagonal radar, 6 axes (Spicy, Savory, Sweet, Healthy, Complex, Quick)
+  - Achievement badge grid: bronze/silver/gold/platinum tiers from achievements.ts
+  - World cuisine pins: countries explored with flag display via flagToAlpha2()
+  - Stats row: saved, rated, created, published recipe counts
+  - PaletteSwitcher + ThemeToggle embedded in profile for user personalization
+  - CUISINE_SLUG_TO_COUNTRY mapping for globe visualization
+
+ARTISAN — Phase 6 (Pantry Leftovers) complete
+Files: src/app/(app)/pantry/pantry-client.tsx, leftover-storage.tsx, pantry-scramble.tsx
+
+  - LeftoverStorage component: expiry date tracking, alerts for items expiring within 3 days (AlertTriangle icon)
+  - PantryScramble: recipes makeable from current pantry, match percentage display
+  - Multi-language pantry labels: English, Spanish, German (LABELS object)
+  - Metric/Imperial unit system toggle with smart unit suggestions by ingredient type (liquid vs solid)
+  - Category-based organization with CategoryBadge + ingredient emoji mapping
+  - Photo upload → Claude vision → auto-categorized ingredient extraction
+  - Bulk selection + delete, search/filter, quantity + unit editing
+
+MOTION DESIGNER — Framer Motion Status (resolved)
+  framer-motion installed and in use. Applied in:
+  - cuisine-nav.tsx: layoutId spring underline indicator
+  - recipe-card.tsx: entrance animation with stagger
+  - swipe-client.tsx: drag constraints for card stack
+  - plans drag-to-reorder
+  Status: UNBLOCKED
+
+=============================================================
+OVERHAUL COMPLETE — All 6 phases shipped as of 2026-04-21
+P1 ✓ | P2 ✓ | P3.1 ✓ | P3.2 ✓ | P3.3 ✓ | P4.1 ✓ | P4.2 ✓ | P5 ✓ | P6 ✓
+=============================================================

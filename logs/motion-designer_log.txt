@@ -1,0 +1,45 @@
+WHAT'S COOKING: MOTION DESIGNER LOG
+=====================================
+Micro-interactions, CSS animations, loading states, and page transitions.
+
+---
+
+2026-04-15 - Animation: Subway Roadmap Node Pulse
+Achievement: Implemented pulsing Sage Green station nodes in subway-roadmap.tsx. Keyframe: scale(1) → scale(1.15) → scale(1), duration 2s, infinite. Active step node pulses; completed nodes solid Walnut; upcoming nodes 40% opacity. Smooth step-completion transition: 0.4s ease to solid state.
+
+2026-04-15 - Animation: Loading Skeletons
+Achievement: Implemented shimmer loading skeletons across recipe cards, plan grids, and pantry list. Background-position sweep: 200% → -200%, 1.6s infinite linear. Color: gradient from surface-1 through surface-2 through surface-1.
+
+2026-04-15 - Animation: Bouncing Dots (SOS / Loading)
+Achievement: Built ui/bouncing-dots.tsx. Three dots stagger-animate vertically: translateY(-6px), 0.6s ease-in-out, stagger 0.15s between dots. Used in sos-cooking-helper.tsx typing indicator and global loading states.
+
+2026-04-15 - Animation: Hover Lift (Global)
+Achievement: Established global hover-lift utility via .wc-card-hover class: translateY(-2px), box-shadow expand, 0.2s ease. Applied to recipe cards, dinner party cards, plan cards, pantry items.
+
+2026-04-20 - Animation: Spring Card Hover (Overhaul Phase 2)
+Achievement: Upgraded .wc-card-hover to spring physics: cubic-bezier(0.34, 1.56, 0.64, 1), scale(1.02). Replaced linear ease hover with overshoot spring for more tactile, premium feel.
+
+2026-04-20 - Animation: Page Transitions (CSS)
+Achievement: Implemented fadeInUp page entry animation in globals.css. translateY(24px → 0), opacity(0 → 1), 0.65s cubic-bezier(0.22, 1, 0.36, 1). Applied to main content areas on route change via .page-enter class.
+
+2026-04-20 - Animation: Theme Transition
+Achievement: Added smooth theme toggle transition: background-color 0.3s ease, color 0.3s ease on body + all structural elements. No flash-of-wrong-theme on page load due to CSS custom property system.
+
+2026-04-20 - Animation: Sidebar Expand/Collapse
+Achievement: Sidebar expand: CSS width transition 56px → 224px, 0.25s ease. Label fade-in: opacity 0 → 1, 0.15s delay (waits for width to open). Collapse: immediate label hide, then width contracts.
+
+2026-04-21 - Animation: Scroll Reveal
+Achievement: Built scroll-reveal.tsx wrapper component. Uses IntersectionObserver (threshold 0.1). Observed elements animate: translateY(16px → 0) + opacity(0 → 1), 0.5s ease. Used on recipe grids, feature sections, and dashboard modules.
+
+---
+
+STATUS: Framer Motion
+  framer-motion is listed in package.json dependencies.
+  Complex sequences (drag-to-reorder in plans, swipe card physics) use Framer Motion.
+  Swipe feature (swipe-client.tsx) uses Framer Motion drag constraints for card stack.
+  All other animations use CSS keyframes (no runtime JS cost).
+
+ANIMATION INVENTORY:
+  CSS keyframes:   shimmer, pulse-node, fadeInUp, spring-card-hover, theme-transition
+  Framer Motion:   swipe card drag, plans drag-to-reorder
+  Utilities:       .wc-card-hover, .page-enter, scroll-reveal.tsx, bouncing-dots.tsx

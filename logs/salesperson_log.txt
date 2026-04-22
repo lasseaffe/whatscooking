@@ -1,0 +1,44 @@
+WHAT'S COOKING: SALESPERSON LOG
+=================================
+Feature summaries, marketing copy, user-facing release notes, and pitch content.
+
+---
+
+2026-04-21 - Copy: Platform Overview (Pitch Summary)
+Achievement: What's Cooking is an AI-powered culinary ecosystem for home cooks who want to eat better without wasting time or ingredients. From pantry to plate — discover recipes, build meal plans, scan restaurant menus, and host dinner parties, all from one premium app.
+
+2026-04-21 - Copy: Feature Highlights
+Achievement: Drafted benefit-first feature descriptions for all major shipped features:
+
+  Pantry-First Search: "Tell us what's in your fridge. We'll tell you what's for dinner — with smart substitutions for what you're missing."
+
+  AI Recipe Generation: "Describe a craving, get a full recipe with macros. Our AI chef never runs out of ideas."
+
+  SOS Kitchen Helper: "Stuck mid-cook? Ask anything — real-time AI answers, streamed instantly. Your sous chef, always on call."
+
+  Menu Scanner: "Point your camera at any restaurant menu. We'll extract every dish and help you recreate your favorites at home."
+
+  Meal Planning Suite: "Plan your week in minutes. Choose a template, get AI suggestions, generate your shopping list — done."
+
+  Subway Roadmap Instructions: "Recipe steps presented as a subway map. Tap each station as you go. Cooking made as clear as a commute."
+
+  Cuisine Atlas: "Explore cuisines from 195 countries. Track where you've cooked. Unlock your inner world traveler — one dish at a time."
+
+  Dinner Party Planner: "Host with confidence. Manage guests, RSVPs, themes, and dish assignments. Let AI plan the menu."
+
+  Achievement System: "Bronze to Platinum — earn badges for cooking streaks, cuisine variety, and pantry mastery. Your kitchen, gamified."
+
+  Premium Recipes: "Exclusive chef-level recipes, hidden behind a taste of what's possible. Upgrade to unlock the full cookbook."
+
+2026-04-21 - Copy: Value Proposition (Pitch Deck Slide)
+Achievement: Problem: Home cooks waste 30% of groceries and spend 45 minutes daily deciding what to eat.
+Solution: What's Cooking turns your pantry into a personal chef, a meal planner, and a culinary passport.
+Traction: Full-stack MVP with AI recipe extraction, real-time SOS help, meal planning, and dinner party hosting — built and live.
+
+---
+
+NEXT OUTPUTS:
+  - App Store description copy (250 words, benefit-led)
+  - Landing page hero headline + subhead
+  - Feature comparison table (Free vs Premium)
+  - Social media launch announcement copy

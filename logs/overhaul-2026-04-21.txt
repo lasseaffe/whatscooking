@@ -1,0 +1,378 @@
+UI OVERHAUL LOG — 2026-04-21
+=============================================================
+Session: Full UI overhaul based on Modern UI Blueprint (Lovable reference)
+         + attached design docs (CLAUDE.md, Refactor Roadmap, Cuisine Atlas,
+           Navigation Bar, Nutrient Tracker, Sidebar restructuring PDFs)
+
+=============================================================
+FIX: THEME / PALETTE CSS VARIABLE SYSTEM
+Agent: aesthetic-lead
+=============================================================
+Root cause identified: components used hardcoded hex colors instead of
+CSS variables, so only the logo (which already used var(--wc-pal-accent))
+responded to palette/theme switching.
+
+Files modified:
+  src/app/(app)/profile/profile-client.tsx
+    - All hardcoded hex values replaced with CSS variables
+    - Avatar gradient: var(--wc-pal-lightest) / var(--wc-pal-mid) / var(--wc-pal-accent)
+    - Text: var(--wc-pal-darkest), var(--wc-pal-mid)
+    - Card backgrounds: var(--wc-bg-card), var(--wc-border-default)
+
+  src/components/palette-switcher.tsx
+    - Palette icon, heading, active/inactive row states, check circle, swatch border
+      all use CSS variables
+    - Active border uses var(--wc-pal-accent)
+    - color-mix() used for box-shadow alpha
+
+  src/app/(app)/dashboard/dashboard-scramble.tsx
+    - All dark brown hex values replaced: var(--bg-base), var(--bg-secondary),
+      var(--wc-pal-accent), var(--wc-pal-dark), var(--wc-pal-mid),
+      var(--fg-primary), var(--wc-border-default)
+    - Semantic green (#22c55e) retained as fixed color
+
+  src/components/app-nav.tsx
+    - Line 366 brand label color: "#EFE3CE" → var(--fg-primary)
+
+  src/app/(app)/calorie-tracker/calorie-tracker-client.tsx
+    - Line 121 background "#FAF7F2" → var(--wc-pal-lightest)
+    - Adjacent muted text "#A69180" → var(--wc-pal-mid)
+
+Color mapping applied:
+  #C85A2F / #B07D56 / #C8522A  → var(--wc-pal-accent)
+  #3D2817 / #1A1208 / #2C1A0A  → var(--wc-pal-darkest)
+  #5F3E2D / #4A2E18             → var(--wc-pal-dark)
+  #6B5B52 / #8A6050 / #A69180  → var(--wc-pal-mid)
+  #F3F1ED / #FFF0E6 / #FAF7F2  → var(--wc-pal-lightest)
+  #241809 / #1C1209 / #0D0D0C  → var(--bg-base)
+  #EFE3CE / #F2EAD8             → var(--fg-primary)
+
+=============================================================
+PHASE 3.1: CUISINE ATLAS — STICKY NAV + SNAP-SCROLL
+Agent: artisan (aesthetic-lead + motion-designer)
+=============================================================
+Files created/modified:
+  src/components/cuisine-nav.tsx (NEW)
+  src/app/(app)/cuisines/page.tsx (overhauled)
+
+CuisineNav component:
+  - position: sticky; top: 0; z-index: 50
+  - Background: var(--wc-surface-2) at 85% opacity via color-mix() +
+    backdrop-filter: blur(10px)
+  - 1px border-bottom rgba(255,255,255,0.08) dark / rgba(0,0,0,0.08) light
+  - Items: small-caps, 700 weight, 0.75rem, 0.1em letter-spacing
+  - Active: Saffron (var(--wc-accent-saffron)) 2px underline, framer-motion
+    layoutId="cuisine-nav-indicator" for smooth sliding between items
+  - Inactive: 55% opacity
+  - Intersection Observer (threshold 0.3) drives scroll-spy
+  - Click → scrollIntoView({ behavior: 'smooth', block: 'start' })
+
+Continent sections:
+  - id="continent-europe" etc. on each section
+  - scroll-margin-top: 5rem (prevents sticky nav overlap)
+  - Header: Libre Baskerville/Georgia serif, gradient background
+    var(--wc-pal-accent) → var(--wc-floor)
+  - Ghost-text watermark at 4% opacity
+  - Subtitle: "X recipes across Y cuisines" from live countMap data
+  - Page title changed from "World Cuisines" → "Cuisine Atlas"
+
+Horizontal snap-scroll cards:
+  - scroll-snap-type: x mandatory, gap: 16px, padding-bottom: 16px
+  - Desktop: 38vw wide (max 320px), mobile: 72vw — 2.5 cards visible
+  - scrollbar-width: thin; scrollbar-color: var(--wc-surface-2) transparent
+  - Background var(--wc-surface-1), hover → var(--wc-surface-2), 12px radius
+  - Dynamic 2px top-border accent per cuisine using cuisine.color
+  - Popular Dishes pills slide up via max-height + translateY CSS on card hover
+  - Hover: scale(1.02), transition: 0.2s ease
+
+=============================================================
+PHASE 4: RECIPE CARDS OVERHAUL
+Agent: artisan (aesthetic-lead)
+=============================================================
+Files modified:
+  src/components/recipe-card.tsx (full rewrite)
+  src/app/globals.css (card hover spring animation)
+
+Changes:
+  - ChefHatRating component: 5 ChefHat icons at 14px, saffron filled vs outline
+    based on rating field (null/undefined = 0)
+  - Always-visible metadata: Prep/cook time pill + difficulty badge always shown,
+    removed hover-only dependency
+  - Image scrim: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 40%,
+    transparent 70%) spanning full card
+  - Featured/hero card: aspect-ratio 16/9, title 2rem Libre Baskerville serif,
+    line-clamp-2 caption
+  - Optional mealPlanMatch prop → sage badge at top-right
+  - Card hover: scale(1.02), box-shadow lift, 0.2s cubic-bezier(0.34,1.56,0.64,1)
+  - globals.css: .recipe-card-meta-overlay opacity permanently 1 (always visible)
+  - Card gap increased (gap-4 → gap-5/6)
+
+=============================================================
+PHASE 4.2: RECIPE DETAIL — MASTER-DETAIL LAYOUT
+Agent: artisan
+=============================================================
+Files modified:
+  src/app/(app)/recipes/[id]/page.tsx
+  src/app/(app)/recipes/[id]/recipe-hero-image.tsx
+  src/app/(app)/recipes/[id]/recipe-columns-client.tsx
+
+Hero image:
+  - Full width, 40vh height (min 240px, max 480px)
+  - object-fit: cover
+  - var(--bg-base) gradient fade overlay at bottom edge
+  - RecipeHeroImage fills parent container
+
+Master-Detail layout:
+  - CSS grid: gridTemplateColumns "320px 1fr" on md+, single column mobile
+  - Left column: position sticky, top 0, height calc(100vh - 64px)
+    Contains: title, key metrics, time breakdown, dietary tags, rating summary
+  - Right column: RecipeColumnsClient (instructions + interactive content)
+
+Interactive ingredients:
+  - Checkbox per ingredient; "X/Y checked" count at top
+  - "Add all to shopping list" button → toast "Shopping list coming soon"
+  - All checked → collapses to "All done!" panel with Reset link
+  - Unit conversion applied to each ingredient label
+
+Metric/Imperial toggle:
+  - Local useState pill toggle [Metric] [Imperial] near recipe title
+  - convertUnit() pure function: g→oz, kg→lb, ml→fl oz, l→fl oz
+  - Threaded to UnitToggle + InteractiveIngredients
+
+Focus Mode (instructions):
+  - Click a step → active: border-left 3px solid var(--wc-accent-saffron),
+    background var(--wc-surface-2), increased padding
+  - One active step at a time
+
+Chef Tips:
+  - ChefTipBox component: var(--wc-surface-2) bg, 3px saffron left border,
+    Lightbulb icon; renders inline in instructions
+
+=============================================================
+PHASE 5: PROFILE / CHEF HUB
+Agent: artisan
+=============================================================
+Files modified:
+  src/app/(app)/profile/page.tsx (container max-w-5xl)
+  src/app/(app)/profile/profile-client.tsx (full overhaul)
+
+2-column Command Center Grid:
+  - display: grid; grid-template-columns: 65fr 35fr; gap: 24px
+  - Collapses to 1fr at max-width: 640px
+  - Left (65%): World Collection, Achievements, Quick Links icon-grid
+  - Right (35%): Color Palette compact switcher, Appearance/theme toggle,
+    Kitchen Stats mini-widget
+
+Chef Profile Header:
+  - Avatar: 64×64px with var(--wc-surface-2) ring shadow
+  - Chef Rank via getChefRank(ownRecipeCount):
+      0–5   → "Home Cook"
+      6–20  → "Sous Chef"
+      21–50 → "Line Cook"
+      51–100→ "Chef de Partie"
+      100+  → "Executive Chef"
+  - Rank label color: var(--wc-pal-accent)
+
+Passport Stamp Grid:
+  - Replaced progress bar with country code chips (2.5rem × 2rem, rounded)
+  - flagToAlpha2() derives 2-letter code from flag emoji code points
+  - Cooked: background var(--wc-accent-saffron), rgba glow shadow, clickable →
+    inline detail row linking to cuisine route
+  - Uncooked: var(--wc-surface-2) bg, 55% opacity
+
+Achievements upgrade:
+  - Background: var(--wc-surface-2)
+  - Bronze: border #CD7F32, box-shadow rgba(205,127,50,0.25)
+  - Silver: border #C0C0C0, box-shadow rgba(192,192,192,0.25)
+  - Gold:   border var(--wc-accent-saffron), box-shadow rgba(244,162,97,0.3)
+  - Blue:   border #0284C7 (for digital badges)
+
+Flavor Profile Radar Chart (SVG):
+  - Pure SVG, viewBox 0 0 200 200, center 100,100, radius 75
+  - 6 axes at 60° intervals: Spicy, Savory, Sweet, Healthy, Complex, Quick
+  - Grid rings at 25/50/75/100% of radius
+  - Filled polygon: var(--wc-accent-saffron) at 30% opacity, 1.5px stroke
+  - No data → all axes default to 30%
+
+Right column:
+  - <PaletteSwitcher compact /> in a card
+  - <ThemeToggle variant="pill" /> in Appearance card
+  - Kitchen Stats: 4 thin progress bars with saffron fill, var(--wc-surface-2) track
+
+=============================================================
+PHASE 6: PANTRY LEFTOVERS & STORAGE
+Agent: artisan
+=============================================================
+Files modified:
+  src/app/(app)/pantry/leftover-storage.tsx
+  src/app/(app)/recipes/[id]/recipe-columns-client.tsx
+
+leftover-storage.tsx:
+  - Added Archive icon (lucide-react)
+  - prefillName? prop: when provided, form opens pre-filled with recipe name
+  - addedToast state: confirmation "Added [name] to your pantry!" fires after save
+
+recipe-columns-client.tsx:
+  - AddToStorageButton component:
+    * POST { name: recipeTitle, quantity: "1 batch" } to /api/pantry/items
+    * Loading spinner → success state (prevents double-submit)
+    * Fixed-position toast: "Added [Recipe Name] to your pantry!"
+    * Style: var(--wc-surface-2) bg, var(--wc-accent-saffron) border + text
+    * After save: disabled, turns sage-green with checkmark
+  - Button renders in post-pantry phase block below PantryDeductPrompt
+
+=============================================================
+PHASE 6B: FRAMER-MOTION ANIMATIONS
+Agent: artisan (motion-designer)
+=============================================================
+framer-motion already at ^12.38.0 in package.json — no install needed.
+
+usePrefersReducedMotion() hook added per-file (local, no shared import chain).
+Reads window.matchMedia("(prefers-reduced-motion: reduce)"), listens for changes.
+All animations: initial={reduced ? false : { ... }} — fully bypassed for opt-out users.
+
+Files modified:
+  src/app/(app)/dinner-parties/dinner-party-calendar.tsx
+    - Hero card: motion.div, initial opacity:0 y:16 → animate opacity:1 y:0, 380ms
+    - "More Coming Up" grid cards: stagger delay index * 0.06s
+    - Past Gatherings list: same stagger, shorter duration
+
+  src/app/(app)/calorie-tracker/calorie-tracker-client.tsx
+    - Meal entry rows: motion.div, initial opacity:0 x:-12 → animate opacity:1 x:0
+    - AnimatePresence wraps meal list — deleted items animate out to x:12
+
+  src/components/recipe-card.tsx
+    - Root element: motion.div, initial opacity:0 scale:0.97 → animate opacity:1 scale:1
+    - Optional index prop (default 0) → delay: index * 0.06s for grid stagger
+
+  src/components/cuisine-nav.tsx
+    - CSS ::after underline removed
+    - Active item renders <motion.div layoutId="cuisine-nav-indicator" />
+    - layoutId makes Framer Motion slide saffron underline between items
+    - Spring transition: stiffness 380, damping 30
+
+=============================================================
+SUMMARY: ALL PHASES COMPLETE
+=============================================================
+Phase 1  (Sidebar restructure)          ✓ — 2026-04-20
+Phase 2  (Soft Light mode tokens)       ✓ — 2026-04-20
+Phase 3  (Nutrient Tracker dashboard)   ✓ — 2026-04-20
+Phase 3  (Dinner Parties cover cards)   ✓ — 2026-04-20
+Phase 3.1 (Cuisine Atlas)               ✓ — 2026-04-21
+Fix      (Palette/theme CSS variables)  ✓ — 2026-04-21
+Phase 4  (Recipe cards overhaul)        ✓ — 2026-04-21
+Phase 4.2 (Recipe detail master-detail) ✓ — 2026-04-21
+Phase 5  (Profile / Chef Hub)           ✓ — 2026-04-21
+Phase 6  (Pantry leftovers/storage)     ✓ — 2026-04-21
+Phase 6B (framer-motion animations)     ✓ — 2026-04-21
+
+=============================================================
+FEATURE: DIETARY FILTER MODE SWITCH (Adapt Meals / Filter Meals)
+Agent: artisan
+=============================================================
+Added a persistent mode switch to toggle between two dietary behaviours.
+
+Files modified:
+  src/lib/dietary-mode-context.tsx
+    - Added DietaryFilterMode type ("adapt" | "filter")
+    - Added filterMode state + setFilterMode callback
+    - Persisted to localStorage key wc_filter_mode_v1
+
+  src/components/dietary-banner.tsx
+    - Removed white sticky inactive bar (now returns null when !active)
+    - Removed dead ExplainerPanel component and showExplainer state
+
+  src/components/dietary-filters-panel.tsx
+    - Added FlipButton mode switch (Adapt Meals / Filter Meals)
+    - Added two explainer cards below switch, highlighted by active mode
+    - Imported RefreshCw, Filter, FlipButton
+
+  src/components/top-bar.tsx
+    - Added filterMode/setFilterMode from context
+    - Replaced "Adapt Recipes" CTA with FlipButton switch + explainer card
+    - Card description updates live when mode changes
+
+  src/components/ui/flip-button.tsx  [NEW]
+    - Copied FlipButton component (motion/react spring animation)
+    - Used in dietary panel for mode switching
+
+  package.json / package-lock.json
+    - Installed: motion
+
+=============================================================
+FEATURE: SHOPPING LIST + INGREDIENT PANEL IMPROVEMENTS
+Agent: artisan
+=============================================================
+Built end-to-end shopping list: add from recipe, manage on dedicated page.
+
+Files created:
+  src/lib/shopping-list.ts
+    - ShoppingItem type
+    - loadShoppingList, saveShoppingList, addToShoppingList
+    - toggleShoppingItem, removeShoppingItem, clearCheckedItems
+    - All backed by localStorage key wc_shopping_list_v1
+
+  src/app/(app)/shopping-list/page.tsx  [NEW PAGE]
+  src/app/(app)/shopping-list/shopping-list-client.tsx  [NEW]
+    - Lists items grouped by recipe title
+    - Toggle to cart (strikethrough), remove individual, clear all done
+    - Empty state with instructions
+
+Files modified:
+  src/components/app-nav.tsx
+    - "Kitchen Management" nav item now has flyout children
+    - Added "My Shopping List" child → /shopping-list (ShoppingCart icon)
+
+  src/app/(app)/recipes/[id]/recipe-columns-client.tsx
+    - Imported addToShoppingList, ChevronDown, PackageMinus
+    - Removed ShoppingListToast (replaced with inline toast)
+    - InteractiveIngredients now accepts pantryItems + recipeTitle
+    - Added collapsable ingredient list (Show/Hide toggle)
+    - "Add all to list" — actually adds all ingredients to localStorage list
+    - "Add missing" — cross-refs pantry, only adds ingredients not matched
+    - "pantry" badge shown next to ingredients already in pantry
+
+=============================================================
+BUILD FIXES — 2026-04-22
+Agent: manual (inline fixes)
+=============================================================
+All errors discovered by running `npm run build`. Build passes clean
+after these fixes (49/49 static pages generated).
+
+1. Deleted stray root-level Index.tsx
+   - File was a Modern UI Blueprint reference page accidentally left
+     in the project root
+   - Imported @/components/guidelines/* which never existed
+   - Fix: deleted the file entirely
+
+2. src/app/(app)/dinner-parties/[id]/party-detail.tsx
+   - `title` prop on Lucide Crown icon — not a valid Lucide prop
+   - Fix: replaced with aria-label="You're hosting"
+   - Also replaced hardcoded #3D2817, #FFF0E6, #C85A2F with
+     var(--wc-pal-darkest), var(--wc-pal-lightest), var(--wc-pal-accent)
+
+3. src/app/(app)/plans/share/[id]/page.tsx
+   - e.day_number possibly null in forEach callback — TypeScript couldn't
+     narrow inside inline `&&` chain
+   - Fix: extracted to local `const d = e.day_number` then checked `d != null`
+
+4. src/app/(app)/shopping-list/shopping-list-client.tsx
+   - page.tsx imported { ShoppingListClient } but the file didn't exist
+   - File had since been created by a previous agent with the full
+     localStorage-backed implementation
+   - Turbopack cache was stale — clearing .next resolved the
+     "module has no exports" error
+
+5. src/app/api/budget/route.ts
+   - Unsafe cast between Supabase query result and typed array
+   - TypeScript: neither type sufficiently overlaps with the other
+   - Fix: intermediate cast via `unknown` first
+
+6. src/app/(app)/recipes/[id]/page.tsx
+   src/lib/extract-recipe.ts
+   - `?.length >= 2` comparisons fail when optional chain returns undefined
+   - Fix: `(??.length ?? 0) >= N` on both files
+
+7. src/app/api/plans/[id]/shopping/route.ts
+   - `.some((w) => ...)` callback parameter implicitly typed as any
+   - Fix: explicit `: string` annotation on both `.some()` callbacks

@@ -1,0 +1,44 @@
+WHAT'S COOKING: LIBRARIAN LOG
+==============================
+Data validation, OCR accuracy, and recipe schema integrity.
+
+---
+
+2026-04-14 - Data: RecipeModel Schema Definition
+Achievement: Defined canonical RecipeModel in types.ts. Required fields: id (uuid), title (string), description (string), source_url (string|null), image_url (string|null), cuisine_type (string), prep_time_minutes (number), cook_time_minutes (number), calories (number), dietary_tags (string[]), dish_types (string[]), ingredients (jsonb array: {name, amount, unit}), instructions (string[]), is_premium (boolean). All downstream validation checks against this schema.
+
+2026-04-15 - Data: OCR Extraction Validation
+Achievement: Reviewed extract-recipe.ts extraction pipeline (Claude claude-haiku-4-5). Established confidence rules:
+  - Title = "Instagram Recipe" → low-confidence flag, Toffee (#B07A52) indicator, queued for re-extraction
+  - Missing calories → mark as estimated, show warning badge
+  - Missing instructions (empty array) → block recipe from publish
+  - ingredient.amount = null → allowed for "to taste" cases, not flagged as error
+  - Validated that structured JSON output matches RecipeModel on every extraction call
+
+2026-04-16 - Data: Deduplication Guard
+Achievement: Confirmed source_url uniqueness check before Supabase insert in all recipe creation routes. Prevents duplicate recipes from re-scraping same Instagram/TikTok URL. Duplicate detected → update existing record, do not insert new row.
+
+2026-04-16 - Data: Pantry Item Schema
+Achievement: Validated PantryItem type (types.ts): id, user_id, name, quantity, unit, category, expiry_date (optional). Confirmed category enum conforms to ingredient-categories used in cost-estimator.ts (produce, protein, dairy, pantry, spice, beverage).
+
+2026-04-17 - Data: Meal Plan Integrity
+Achievement: Validated MealPlan + MealEntry types. MealEntry links plan_id, recipe_id, day_of_week (0-6), meal_type (breakfast|lunch|dinner|snack). Confirmed no orphan entries possible — recipe_id FK enforced at DB level.
+
+2026-04-18 - Data: Menu Scanner Output Validation
+Achievement: Reviewed menu-scanner pipeline. Each extracted dish validated for: name (required), price (number or null if unreadable), description (optional). Low-confidence extractions (blurry menus) flagged with confidence_score < 0.7 in Toffee. Import endpoint rejects any dish missing a name field.
+
+2026-04-19 - Data: Nutritional Data Integrity
+Achievement: POST /api/nutrients/calculate output validated: calories, protein_g, carbs_g, fat_g, fiber_g all required as non-negative numbers. If Claude returns null for any macro → default to 0, add estimation flag. NutritionInfo type confirmed in types.ts.
+
+2026-04-20 - Data: Achievement Badge Schema
+Achievement: Validated achievements.ts badge structure: {id, name, tier (bronze|silver|gold|platinum), condition, icon}. Confirmed tier progression logic is monotone (higher tier always supersedes lower). No duplicate badge IDs in registry.
+
+2026-04-21 - Data: Image URL Audit
+Achievement: Reviewed image fallback system (recipe-image.ts). Cascade validated: primary → Unsplash by cuisine tag → generic placeholder. Audit script output reviewed — 0 broken URLs reach the client after fallback. Confirmed Unsplash URLs use correct food-photography search terms per cuisine type.
+
+---
+
+SCHEMA INVENTORY:
+  Core types:    Recipe, MealPlan, MealEntry, PantryItem, NutritionInfo, DietaryFilter, BudgetState
+  Validation:    extract-recipe.ts confidence flags, dedup guard, schema conformance on every write
+  OCR pipeline:  Claude Haiku 4.5 → structured JSON → Librarian validation → Supabase insert

@@ -1,0 +1,78 @@
+WHAT'S COOKING: ARTISAN LOG
+============================
+UI components, page layouts, and coordination of specialist work.
+
+---
+
+2026-04-14 - UI/UX: Core Navigation System
+Achievement: Built app-nav.tsx with icon-only collapsed sidebar (56px) and full labels on hover (224px). CSS width transition 0.25s ease. NAV_ITEMS refactored into NAV_GROUPS: Discovery / Planning / Kitchen. Profile + Settings pinned below groups.
+
+2026-04-14 - UI/UX: Recipe Card System
+Achievement: Built recipe-card.tsx as primary recipe display unit. Includes: lazy-loaded image via recipe-image.tsx, dietary-tint.tsx color coding, category-badge.tsx, budget-ticker.tsx cost display, .wc-card-hover spring animation on hover. Supports grid and list view modes.
+
+2026-04-14 - UI/UX: Discover Page
+Achievement: Built /discover (discover-client.tsx). Features: filter-bar.tsx with dietary toggles, seasonal-filter.tsx for seasonal produce, cuisine filter strip. Displays recipe grid with infinite scroll. Connected to /api/recipes/search.
+
+2026-04-15 - UI/UX: Subway Roadmap (Recipe Instructions)
+Achievement: Built subway-roadmap.tsx for step-by-step recipe instructions. Each step is a station node with pulsing Sage Green indicator. Progress tracked as user ticks steps. cooking-tip.tsx overlays technique detection (e.g., "sauté" → explains Maillard reaction).
+
+2026-04-15 - UI/UX: SOS Kitchen Helper Widget
+Achievement: Built sos-cooking-helper.tsx — floating AI help panel. Streams real-time responses from /api/sos. Includes bounce-in entry animation, typing indicator (bouncing-dots.tsx), and scrolling response area.
+
+2026-04-15 - UI/UX: Swipe Feature
+Achievement: Built swipe-client.tsx — Tinder-style recipe discovery. Card stack with drag gesture, like/dislike actions, match percentage display. Calls /api/swipe/like on positive swipe.
+
+2026-04-16 - UI/UX: Pantry Page
+Achievement: Built pantry page components: pantry-scramble.tsx (shows recipes makeable from pantry), leftover-storage.tsx (expiry tracking), zero-waste-guide.tsx (recipe suggestions from expiring items). Category grid with drag-to-reorder.
+
+2026-04-16 - UI/UX: Social Import Forms
+Achievement: Built social-import-form.tsx for Instagram/TikTok URL → recipe extraction. photo-recipe-import.tsx for camera/upload → structured recipe. Both show loading skeleton during extraction, then editable recipe form.
+
+2026-04-17 - UI/UX: Meal Plans Suite
+Achievement: Built full plans section:
+  - /plans — list of user plans with status badges and quick-add
+  - /plans/new — template picker (plan-templates.ts: Bulk Prep, Date Night, Athlete, Budget Week, etc.)
+  - /plans/[id] — week grid builder with drag-to-assign recipes, daily macro summary bar
+  - /plans/share/[id] — public read-only plan view
+
+2026-04-18 - UI/UX: Calorie Tracker
+Achievement: Built calorie-tracker-client.tsx. Persistent "What did you eat?" bar at top. 2-column layout: 60% left (macro rings + entry log) / 40% right (weight chart + macro tips + collapsible goals). Slim 6px Saffron kcal progress bar. All colors via CSS var() tokens.
+
+2026-04-18 - UI/UX: Menu Scanner
+Achievement: Built menu-scanner.tsx — upload restaurant menu photo, shows extracted dish cards with prices/descriptions. Import button sends selection to saved recipes. Handles low-confidence extractions with Toffee (#B07A52) warning flag.
+
+2026-04-19 - UI/UX: World Map (Cuisine Explorer)
+Achievement: Built world-map.tsx — interactive SVG world map. Countries highlighted when user has explored that cuisine. Hover shows cuisine name + count. Click navigates to /cuisines/[slug]. Pulls from /api/world-map + country-cuisine-map.ts.
+
+2026-04-19 - UI/UX: Cuisines Atlas
+Achievement: Built cuisines page with cuisines-tabs.tsx. Tabs by world region. Each cuisine card shows flag, dish count, user visit status. Dynamic [slug] pages with featured dishes and scrollable recipe list.
+
+2026-04-20 - UI/UX: Dinner Parties
+Achievement: Built dinner-party-calendar.tsx. CoverCardView: hero card for next party + grid for upcoming + opacity-60 past events. View toggle (Cards | Calendar). Party cards use .wc-card-hover spring animation and CSS token colors.
+
+2026-04-20 - UI/UX: Hot Right Now / Living Cookbook Tickers
+Achievement: Built hot-right-now.tsx (trending recipe marquee) and living-cookbook-ticker.tsx (community recipe submission feed). Both use CSS marquee animation and display live data from /api/recipes/search sorted by rating/date.
+
+2026-04-20 - UI/UX: Premium Page
+Achievement: Built premium-client.tsx — subscription tiers display, feature comparison table, premium recipe teaser cards (blurred). Paywall gate for premium content routes.
+
+2026-04-21 - UI/UX: Events Feature
+Achievement: Built events-client.tsx for event planning. AI-generated event plan (theme, menu, timeline) via /api/events/plan. Integration with dinner-parties for event creation.
+
+---
+
+COMPONENT INVENTORY (37 components):
+  Navigation:    app-nav.tsx, top-bar.tsx, cuisine-nav.tsx
+  Recipe:        recipe-card.tsx, recipe-image.tsx, filter-bar.tsx, dietary-filters-panel.tsx, dietary-banner.tsx, dietary-tint.tsx, category-badge.tsx, seasonal-filter.tsx
+  Feature:       subway-roadmap.tsx, cooking-tip.tsx, sos-cooking-helper.tsx, zero-waste-guide.tsx, menu-scanner.tsx, social-import-form.tsx, photo-recipe-import.tsx, world-map.tsx
+  Discovery:     hot-right-now.tsx, living-cookbook-ticker.tsx, budget-ticker.tsx
+  UI System:     ui/animated-tabs.tsx, ui/flip-button.tsx, ui/bouncing-dots.tsx, ui/sparks-carousel.tsx, ui/toolbar.tsx
+  Context/UX:    theme-toggle.tsx, palette-switcher.tsx, language-switcher.tsx, scroll-reveal.tsx, background-decorations.tsx, table-stylist.tsx, confirm-delete-dialog.tsx, feedback-button.tsx
+
+2026-04-21 - UI/UX: Dietary Filter Mode Switch
+Achievement: Added FlipButton toggle (Adapt Meals / Filter Meals) to both the top-bar dietary panel and the full dietary-filters-panel. Removed white inactive sticky bar from dietary-banner. Mode persisted to localStorage. Explainer cards update live based on selected mode.
+Files: dietary-mode-context.tsx, dietary-banner.tsx, dietary-filters-panel.tsx, top-bar.tsx, ui/flip-button.tsx
+
+2026-04-21 - UI/UX: Shopping List + Ingredient Panel
+Achievement: Full shopping list system built on localStorage. Nav "Kitchen Management" flyout now includes "My Shopping List" → /shopping-list. Recipe ingredient panel: collapsable list, working "Add all to list", "Add missing" (pantry cross-ref), "pantry" badge on owned items.
+Files: lib/shopping-list.ts [new], shopping-list/page.tsx [new], shopping-list/shopping-list-client.tsx [new], app-nav.tsx, recipe-columns-client.tsx

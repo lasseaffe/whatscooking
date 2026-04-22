@@ -1,0 +1,42 @@
+SOURCES = [
+    {
+        "name": "AllRecipes",
+        "domain": "allrecipes.com",
+        "category": "Classic",
+        "cuisine_type": None,
+        "queries": ["dinner recipes", "easy weeknight meals", "quick chicken recipes"],
+        "google_budget": 3,
+    },
+    {
+        "name": "Serious Eats",
+        "domain": "seriouseats.com",
+        "category": "Haute Cuisine",
+        "cuisine_type": None,
+        "queries": ["best recipes", "technique recipes"],
+        "google_budget": 2,
+    },
+    {
+        "name": "Smitten Kitchen",
+        "domain": "smittenkitchen.com",
+        "category": "Classic",
+        "cuisine_type": None,
+        "queries": ["seasonal recipes", "baking recipes"],
+        "google_budget": 2,
+    },
+    {
+        "name": "Half Baked Harvest",
+        "domain": "halfbakedharvest.com",
+        "category": "Comfort",
+        "cuisine_type": None,
+        "queries": ["weeknight dinner", "meal prep"],
+        "google_budget": 2,
+    },
+    {
+        "name": "Epicurious",
+        "domain": "epicurious.com",
+        "category": "Haute Cuisine",
+        "cuisine_type": None,
+        "queries": ["chef recipes", "holiday cooking"],
+        "google_budget": 2,
+    },
+]

@@ -1,0 +1,48 @@
+WHAT'S COOKING: VISUAL ARTIST LOG
+===================================
+Imagery, iconography, brand assets, and illustrated elements.
+
+---
+
+2026-04-14 - Imagery: Recipe Image System
+Achievement: Designed recipe-image.tsx lazy-loading component. Uses Next.js Image with priority flag for above-fold cards. Heavy bottom gradient overlay: rgba(0,0,0,0.7) for text legibility over any food photo. Consistent warm editorial photography style: overhead shots preferred, natural lighting.
+
+2026-04-14 - Brand: Color Token Application
+Achievement: Applied Walnut & Linen brand palette across all UI surfaces:
+  Linen #F2EFE8 — light mode background, card surfaces
+  Walnut #5D4037 — primary CTAs, headers, active states
+  Sage #828E6F — secondary text, tags, supporting elements
+  Roasted Coffee #2C1B18 — dark backgrounds, depth elements
+  Toffee #B07A52 — warnings, alerts, low-confidence flags
+  Saffron #F4A261 — dark mode accent, energy, highlights
+
+2026-04-15 - Iconography: Dietary Icons
+Achievement: Selected and standardized dietary icons for dietary-banner.tsx. Each dietary mode uses a distinctive icon from Lucide: Leaf (vegan), Egg (vegetarian), Flame (keto), Wheat (gluten-free), Star (halal), etc. Icons sized 16px for card use, 20px for filter panels.
+
+2026-04-16 - Imagery: Cuisine Category Visuals
+Achievement: Mapped cuisine types to representative hero imagery for cuisines atlas. Each cuisine card uses consistent Unsplash food photography. Country flags used for region identification. Warm-toned editorial style maintained across all 20+ cuisine categories.
+
+2026-04-17 - Imagery: Meal Plan Templates Visual Identity
+Achievement: Each plan template (Bulk Prep, Date Night, Athlete, Budget Week) has a distinct visual mood. Bulk Prep: industrial grey + orange. Date Night: deep wine + candlelight. Athlete: clean white + electric blue. Budget Week: warm market photography. Applied via template card banner images.
+
+2026-04-19 - Asset: World Map Visual
+Achievement: world-map.tsx uses SVG country paths with fill transitions. Unvisited countries: --wc-surface-2 fill. Visited countries: --wc-accent-saffron with 0.8 opacity. Hover state: 1.0 opacity + subtle glow. Country outlines: 1px Walnut stroke.
+
+2026-04-20 - Brand: Background Decorations
+Achievement: background-decorations.tsx provides subtle animated food-themed SVG elements for empty states and hero areas. Floating herb leaves, spice dots. Very low opacity (0.06-0.12) to not distract from content. Used in dashboard hero and empty pantry state.
+
+2026-04-21 - Imagery: Image Fallback Cascade
+Achievement: Built image fallback cascade in recipe-image.ts:
+  1. Primary: recipe.image_url from DB
+  2. Fallback: Unsplash search by cuisine_type (e.g., "italian food photography")
+  3. Final: Generic warm food placeholder (consistent off-white linen background)
+  Audit script identified and catalogued all broken primary URLs for async re-fetch job.
+
+---
+
+BRAND STANDARDS:
+  Photography: Warm, editorial, overhead or 45-degree angle. Natural lighting. Artisan/rustic props.
+  Colors: Walnut & Linen palette only. No saturated primaries.
+  Icons: Lucide (consistent stroke weight). 16px card use, 20px panels, 24px nav.
+  Gradients: Linear bottom-to-top, rgba(0,0,0,0.7) for text overlay.
+  Logo: Oval badge format with cook figure — rounded, artisan aesthetic.

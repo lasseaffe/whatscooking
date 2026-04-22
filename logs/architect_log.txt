@@ -1,0 +1,84 @@
+WHAT'S COOKING: ARCHITECT LOG
+=================================
+Backend logic, API routes, Supabase, and business logic.
+
+---
+
+2026-04-14 - Logic: Recipe Extraction Pipeline
+Achievement: Built extract-recipe.ts using Claude claude-haiku-4-5 to convert raw image/text into structured RecipeModel JSON. Implemented confidence fallback: if title is placeholder ("Instagram Recipe"), flags for re-extraction. Route: POST /api/recipes/[id]/extract and POST /api/recipes/extract-from-image.
+
+2026-04-14 - Logic: OpenAI Recipe Generation
+Achievement: Implemented openai.ts + openai-helper.ts wrappers for AI-powered recipe generation. Route: POST /api/recipes/generate. Includes full nutritional profile, serving size scaling, and ingredient list structuring.
+
+2026-04-14 - Logic: Spoonacular Integration
+Achievement: Built spoonacular.ts integration layer for external recipe aggregation. Supports search, nutritional data fetch, and diet/allergy filters. Powers GET /api/recipes/search.
+
+2026-04-15 - Logic: Pantry-First Search (Scramble)
+Achievement: Implemented Pantry-First Search algorithm in GET /api/pantry/scramble. Scores recipes by ingredient overlap percentage using ingredient-substitutes.ts substitution map. Substitution scoring accounts for ingredient categories (e.g., any milk → oat milk). Returns ranked recipe suggestions from pantry contents.
+
+2026-04-15 - Logic: Cost Estimator
+Achievement: Built cost-estimator.ts with category-based pricing engine. Assigns per-unit costs to ingredients by category (produce, protein, dairy, pantry). Powers GET /api/budget endpoint. Plugs into recipe cards for per-serving cost display.
+
+2026-04-16 - Logic: Pantry API Suite
+Achievement: Implemented 4 pantry endpoints:
+  - POST /api/pantry/items — add/update pantry items
+  - GET /api/pantry/items — list user's pantry
+  - POST /api/pantry/extract-from-photo — Claude vision → ingredient list
+  - POST /api/pantry/categorize — auto-categorize items by type
+
+2026-04-16 - Logic: Nutrition & Health API Suite
+Achievement: Built calorie/nutrition endpoints:
+  - POST /api/nutrients/calculate — full macro breakdown from ingredient list
+  - POST /api/calorie-entries — log daily meal intake
+  - GET /api/calorie-goal — fetch user calorie targets
+  - POST /api/weight-logs — weight tracking
+All routes auth-gated via Supabase session.
+
+2026-04-17 - Logic: Meal Plans API Suite
+Achievement: Implemented 7 meal plan endpoints:
+  - POST /api/plans/generate — Claude-powered plan generation from user goals
+  - GET/POST /api/plans — list + create plans
+  - GET/POST /api/plans/[id] — detail + update
+  - POST /api/plans/[id]/entries — manage daily meal slots
+  - GET /api/plans/[id]/shopping — auto-generate shopping list from plan
+  - POST /api/plans/[id]/suggest — AI recipe suggestions for open slots
+
+2026-04-18 - Logic: Dinner Parties API Suite
+Achievement: Built 7 dinner party endpoints:
+  - POST/GET /api/dinner-parties — create + list (hosted + invited)
+  - GET/POST /api/dinner-parties/[id] — detail + update
+  - POST /api/dinner-parties/[id]/guests — guest management with RSVP status
+  - POST /api/dinner-parties/[id]/comments — party discussion
+  - POST /api/dinner-parties/[id]/items — dish assignment per guest
+
+2026-04-18 - Logic: SOS Kitchen Helper (Streaming)
+Achievement: POST /api/sos — real-time streaming AI cooking advice via Claude. Uses ReadableStream / SSE. Detects ingredient substitution requests, timing questions, and technique problems. Returns chunked response for live display in SOS widget.
+
+2026-04-19 - Logic: Menu Scanner Pipeline
+Achievement: Built restaurant menu parsing pipeline:
+  - POST /api/menu-scanner — Claude vision extracts dishes, prices, descriptions from menu photo
+  - POST /api/menu-scanner/import — imports parsed dishes into user's saved recipes
+Supports blurry/low-contrast menus via pre-processing hints.
+
+2026-04-20 - Logic: Events AI Planner
+Achievement: POST /api/events/plan — Claude Sonnet 4.6 generates structured event plans (theme, menu, timeline, guest count). Integrates with dinner-parties flow.
+
+2026-04-20 - Logic: Achievement & Badge System
+Achievement: Built achievements.ts with 4 tiers (bronze, silver, gold, platinum). Tracks cooking streaks, recipe count milestones, cuisine diversity, pantry usage. Surfaced in profile and dashboard.
+
+2026-04-20 - Logic: Seasonal & Geography Utilities
+Achievement: seasonal.ts — maps produce to climate zones and seasons. country-cuisine-map.ts — maps 195 countries to cuisine types. Both power the Cuisine Atlas and Discover filters. GET /api/world-map serves geography data.
+
+2026-04-21 - Logic: Robust Image Fallback System
+Achievement: Built recipe-image.ts with cascading fallback: primary image_url → Unsplash fallback by cuisine tag → generic food placeholder. Included image audit script to detect broken URLs across the recipe table.
+
+---
+
+API ROUTE INVENTORY (48 endpoints):
+  Recipes:    /api/recipes/search, by-title, by-ingredients, suggestions, user, generate, extract-from-image, [id], [id]/extract, [id]/detail
+  Pantry:     /api/pantry/items (GET+POST), extract-from-photo, categorize, scramble
+  Plans:      /api/plans (GET+POST), /[id] (GET+POST), [id]/entries, [id]/shopping, [id]/suggest, generate
+  Parties:    /api/dinner-parties (GET+POST), [id] (GET+POST), [id]/guests, [id]/comments, [id]/items
+  Nutrition:  /api/nutrients/calculate, calorie-entries, calorie-goal, weight-logs, budget
+  AI/Utils:   /api/sos, menu-scanner, menu-scanner/import, geocode, events/plan, feedback, world-map
+  Social:     /api/saves, ratings, comments, swipe/like

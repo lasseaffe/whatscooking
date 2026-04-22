@@ -1,0 +1,62 @@
+WHAT'S COOKING: DATA STEWARD LOG
+==================================
+Supabase schema design, RLS policies, PostgreSQL optimization, and data security.
+
+---
+
+2026-04-14 - Schema: Initial Database Setup
+Achievement: Configured Supabase project with dual client setup: supabase/client.ts (browser, uses NEXT_PUBLIC_SUPABASE_ANON_KEY) and supabase/server.ts (server components + API routes, uses SUPABASE_SERVICE_ROLE_KEY). Service role key never exposed to client bundle.
+
+2026-04-14 - Schema: Recipes Table
+Achievement: Designed recipes table schema:
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid()
+  title text NOT NULL
+  description text
+  source_url text UNIQUE
+  image_url text
+  cuisine_type text
+  prep_time_minutes int
+  cook_time_minutes int
+  calories int
+  dietary_tags text[]
+  dish_types text[]
+  ingredients jsonb NOT NULL DEFAULT '[]'
+  instructions text[] NOT NULL DEFAULT '{}'
+  is_premium boolean NOT NULL DEFAULT false
+  user_id uuid REFERENCES auth.users
+  created_at timestamptz DEFAULT now()
+  Indexes: GIN on dish_types (for @> filter), GIN on dietary_tags, btree on created_at.
+
+2026-04-14 - RLS: Recipes Row Level Security
+Achievement: RLS policies on recipes table:
+  SELECT: public recipes visible to all (anon + auth). User's own draft recipes: auth.uid() = user_id.
+  INSERT: auth users only (auth.uid() IS NOT NULL).
+  UPDATE/DELETE: auth.uid() = user_id only. Admins excluded from RLS via service role.
+
+2026-04-15 - Schema: Pantry & User Tables
+Achievement: Designed pantry_items table:
+  id, user_id (FK auth.users), name, quantity (numeric), unit, category, expiry_date (date nullable), created_at.
+  RLS: all operations require auth.uid() = user_id. No cross-user pantry leakage possible.
+
+2026-04-16 - Schema: Nutrition & Health Tables
+Achievement: Designed calorie_entries (id, user_id, recipe_id nullable, custom_name, calories, meal_type, logged_at) and weight_logs (id, user_id, weight_kg, logged_at). Both tables: full RLS, user_id = auth.uid() on all operations.
+
+2026-04-17 - Schema: Meal Plans
+Achievement: Designed meal_plans (id, user_id, title, is_public bool, created_at) and meal_entries (id, plan_id FK, recipe_id FK, day_of_week int 0-6, meal_type text). RLS on meal_plans: public plans readable by all; private plans only by owner. RLS on meal_entries: read follows plan visibility, write restricted to plan owner.
+
+2026-04-18 - Schema: Dinner Parties
+Achievement: Designed dinner_parties (id, host_user_id, title, date, location, theme, guest_count, is_recurring) and party_guests (party_id FK, user_id FK, rsvp_status enum: pending|accepted|declined) and party_items (party_id FK, dish_name, assigned_to user_id nullable). RLS: host sees all; guests see party details if invited.
+
+2026-04-19 - Performance: Query Optimization
+Achievement: Added GIN indexes on dish_types and dietary_tags arrays for @> containment queries. Confirmed pantry scramble query uses ingredient overlap count — no full-table scan. Added index on source_url for deduplication check performance.
+
+2026-04-20 - Schema: Social & Interaction Tables
+Achievement: Designed saves (user_id, recipe_id, created_at, UNIQUE), ratings (user_id, recipe_id, score int 1-5, UNIQUE), comments (id, user_id, recipe_id, body text, created_at). Swipe_history (user_id, recipe_id, action: like|dislike, created_at). All with RLS.
+
+---
+
+SUPABASE SETUP:
+  Project env: NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY (public), SUPABASE_SERVICE_ROLE_KEY (server-only)
+  RLS: enabled on all tables, every table has explicit policies
+  Client split: browser client (anon key) / server client (service role)
+  Key indexes: GIN on dish_types[], GIN on dietary_tags[], btree on created_at, unique on source_url
