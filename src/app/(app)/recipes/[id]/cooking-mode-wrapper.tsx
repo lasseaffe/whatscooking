@@ -1,72 +1,23 @@
 "use client";
 
-import { useState, useRef, useCallback, useEffect } from "react";
 import { ChefHat, X } from "lucide-react";
+import { CookingModeProvider, useCookingMode } from "@/lib/cooking-mode-context";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-export function CookingModeWrapper({ children }: Props) {
-  const [active, setActive] = useState(false);
-  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
-
-  const activate = useCallback(async () => {
-    setActive(true);
-    try {
-      if (typeof navigator !== "undefined" && "wakeLock" in navigator) {
-        wakeLockRef.current = await (navigator as Navigator & { wakeLock: { request: (type: string) => Promise<WakeLockSentinel> } }).wakeLock.request("screen");
-      }
-    } catch {
-      // Wake lock not supported or denied — continue without it
-    }
-  }, []);
-
-  const deactivate = useCallback(() => {
-    setActive(false);
-    if (wakeLockRef.current) {
-      wakeLockRef.current.release().catch(() => {});
-      wakeLockRef.current = null;
-    }
-  }, []);
-
-  // Re-acquire wake lock when tab becomes visible again (browser may release it on tab hide)
-  useEffect(() => {
-    if (!active) return;
-    function handleVisibilityChange() {
-      if (document.visibilityState === "visible" && active) {
-        activate();
-      }
-    }
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-    return () => document.removeEventListener("visibilitychange", handleVisibilityChange);
-  }, [active, activate]);
-
-  // Release on unmount
-  useEffect(() => {
-    return () => {
-      if (wakeLockRef.current) {
-        wakeLockRef.current.release().catch(() => {});
-      }
-    };
-  }, []);
-
+function CookingModeButtons() {
+  const { active, activate, deactivate } = useCookingMode();
   return (
-    <div
-      className={active ? "cooking-mode-active" : ""}
-      style={{ minHeight: "calc(100vh - 48px)", position: "relative" }}
-    >
-      {children}
+    <div style={{ position: "fixed", bottom: "1.5rem", right: "1.5rem", zIndex: 60 }}>
+      <div className="group relative">
+        {/* Tooltip */}
+        <div
+          className="absolute bottom-full right-0 mb-2 px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-150"
+          style={{ background: "rgba(13,9,7,0.95)", color: "#EFE3CE", border: "1px solid rgba(58,36,22,0.6)" }}
+        >
+          {active
+            ? "Exit cooking mode — releases screen lock"
+            : "Keep screen on while you cook"}
+        </div>
 
-      {/* Cooking Mode toggle — fixed bottom-right, always accessible */}
-      <div
-        style={{
-          position: "fixed",
-          bottom: "1.5rem",
-          right: "1.5rem",
-          zIndex: 60,
-        }}
-      >
         {active ? (
           <button
             type="button"
@@ -109,8 +60,19 @@ export function CookingModeWrapper({ children }: Props) {
           </button>
         )}
       </div>
+    </div>
+  );
+}
 
-      {/* Cooking Mode active banner */}
+function CookingModeWrapperInner({ children }: { children: React.ReactNode }) {
+  const { active } = useCookingMode();
+  return (
+    <div
+      className={active ? "cooking-mode-active" : ""}
+      style={{ minHeight: "calc(100vh - 48px)", position: "relative" }}
+    >
+      {children}
+      <CookingModeButtons />
       {active && (
         <div
           style={{
@@ -121,11 +83,18 @@ export function CookingModeWrapper({ children }: Props) {
             zIndex: 55,
             height: 3,
             background: "linear-gradient(90deg, #C8522A, #B07D56, #828E6F)",
-            animation: "none",
           }}
           aria-hidden
         />
       )}
     </div>
+  );
+}
+
+export function CookingModeWrapper({ children }: { children: React.ReactNode }) {
+  return (
+    <CookingModeProvider>
+      <CookingModeWrapperInner>{children}</CookingModeWrapperInner>
+    </CookingModeProvider>
   );
 }
