@@ -1,9 +1,11 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react";
-import { Utensils, BookOpen, ChevronRight, SkipForward, CheckCircle2, Star, ThumbsUp, ThumbsDown, Loader2, Minus, Plus, ShoppingCart, Lightbulb, Archive, ChevronDown, PackageMinus } from "lucide-react";
+import { Utensils, BookOpen, ChevronLeft, ChevronRight, SkipForward, CheckCircle2, Star, ThumbsUp, ThumbsDown, Loader2, Minus, Plus, ShoppingCart, Lightbulb, Archive, ChevronDown, PackageMinus, Users } from "lucide-react";
 import { addToShoppingList } from "@/lib/shopping-list";
 import { IngredientsColumn } from "./ingredients-column";
+import { useCookingMode } from "@/lib/cooking-mode-context";
+import { useRouter } from "next/navigation";
 import { SubwayRoadmap } from "@/components/subway-roadmap";
 import { LivingCookbookTicker } from "@/components/living-cookbook-ticker";
 import { TableStylist } from "@/components/table-stylist";
@@ -24,6 +26,7 @@ interface Props {
   pantryItems: PantryItem[];
   recipeTitle: string;
   dietaryTags: string[];
+  baseServings?: number | null;
 }
 
 // ── Phase stepper ─────────────────────────────────────────────
@@ -414,46 +417,51 @@ function PhaseHeader({ roman, label, emoji }: { roman: string; label: string; em
 // ── Add to Pantry Storage ─────────────────────────────────────
 function AddToStorageButton({ recipeTitle }: { recipeTitle: string }) {
   const [saved, setSaved] = useState(false);
-  const [saving, setSaving] = useState(false);
   const [toast, setToast] = useState(false);
 
-  async function handleAdd() {
-    setSaving(true);
+  function handleAdd() {
+    const STORAGE_KEY = "wc_leftover_storage_v1";
+    const item = {
+      id: Math.random().toString(36).slice(2) + Date.now().toString(36),
+      name: recipeTitle,
+      storedAt: new Date().toISOString(),
+      storageType: "fridge" as const,
+    };
     try {
-      await fetch("/api/pantry/items", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: recipeTitle, quantity: "1 batch" }),
-      });
-      setSaved(true);
-      setToast(true);
-      setTimeout(() => setToast(false), 2800);
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const existing: unknown[] = raw ? JSON.parse(raw) : [];
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([item, ...existing]));
     } catch {
-      // silently fail — pantry is non-critical here
-    } finally {
-      setSaving(false);
+      // localStorage unavailable — silently skip
     }
+    setSaved(true);
+    setToast(true);
+    setTimeout(() => setToast(false), 3200);
   }
 
   return (
     <>
       {toast && (
         <div
-          className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold shadow-lg"
+          className="fixed bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold shadow-lg"
           style={{
+            zIndex: 9999,
             background: "var(--wc-surface-1, #2C2724)",
-            color: "var(--fg-primary, #EFE3CE)",
+            color: "#EFE3CE",
             border: "1px solid rgba(244,162,97,0.3)",
           }}
         >
-          <Archive style={{ width: 15, height: 15, color: "var(--wc-accent-saffron, #F4A261)" }} />
-          Added &quot;{recipeTitle}&quot; to your pantry!
+          <Archive style={{ width: 15, height: 15, color: "#F4A261" }} />
+          <span>Stored!</span>
+          <a href="/pantry?tab=leftovers" className="underline font-bold" style={{ color: "#F4A261" }}>
+            View in Pantry →
+          </a>
         </div>
       )}
       <button
         type="button"
         onClick={handleAdd}
-        disabled={saving || saved}
+        disabled={saved}
         className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all hover:opacity-90 disabled:opacity-60"
         style={{
           background: saved ? "rgba(130,142,111,0.15)" : "var(--wc-surface-2, rgba(42,24,8,0.5))",
@@ -461,16 +469,54 @@ function AddToStorageButton({ recipeTitle }: { recipeTitle: string }) {
           color: saved ? "#828E6F" : "var(--wc-accent-saffron, #F4A261)",
         }}
       >
-        {saving ? (
-          <Loader2 style={{ width: 15, height: 15 }} className="animate-spin" />
-        ) : saved ? (
+        {saved ? (
           <CheckCircle2 style={{ width: 15, height: 15 }} />
         ) : (
           <Archive style={{ width: 15, height: 15 }} />
         )}
-        {saved ? "Added to pantry storage" : "Add to my pantry storage"}
+        {saved ? "Stored in pantry" : "Store leftovers"}
       </button>
     </>
+  );
+}
+
+// ── Serving size multiplier ───────────────────────────────────
+function ServingControl({
+  base,
+  current,
+  onChange,
+}: {
+  base: number;
+  current: number;
+  onChange: (n: number) => void;
+}) {
+  return (
+    <div className="flex items-center gap-1.5 rounded-full p-0.5" style={{ background: "rgba(42,24,8,0.6)", border: "1px solid rgba(58,36,22,0.6)" }}>
+      <button
+        type="button"
+        aria-label="Fewer servings"
+        onClick={() => onChange(Math.max(1, current - 1))}
+        className="w-6 h-6 rounded-full flex items-center justify-center transition-opacity hover:opacity-70"
+        style={{ background: current === base ? "transparent" : "rgba(176,125,86,0.2)" }}
+      >
+        <Minus style={{ width: 10, height: 10, color: "#8A6A4A" }} />
+      </button>
+      <div className="flex items-center gap-1 px-1">
+        <Users style={{ width: 11, height: 11, color: "var(--wc-pal-accent, #B07D56)" }} />
+        <span className="text-xs font-bold tabular-nums" style={{ color: "var(--wc-pal-accent, #B07D56)", minWidth: "1.5ch", textAlign: "center" }}>
+          {current}
+        </span>
+      </div>
+      <button
+        type="button"
+        aria-label="More servings"
+        onClick={() => onChange(Math.min(99, current + 1))}
+        className="w-6 h-6 rounded-full flex items-center justify-center transition-opacity hover:opacity-70"
+        style={{ background: current === base ? "transparent" : "rgba(176,125,86,0.2)" }}
+      >
+        <Plus style={{ width: 10, height: 10, color: "#8A6A4A" }} />
+      </button>
+    </div>
   );
 }
 
@@ -519,11 +565,13 @@ function convertUnit(amount: number | null | undefined, unit: string | null | un
 function InteractiveIngredients({
   ingredients,
   unitSystem,
+  multiplier,
   pantryItems,
   recipeTitle,
 }: {
   ingredients: Ingredient[];
   unitSystem: UnitSystem;
+  multiplier: number;
   pantryItems: PantryItem[];
   recipeTitle: string;
 }) {
@@ -532,6 +580,13 @@ function InteractiveIngredients({
   const [addedToast, setAddedToast] = useState<string | null>(null);
 
   const allChecked = ingredients.length > 0 && checked.size === ingredients.length;
+
+  // Auto-collapse after a brief celebration delay when all items are checked
+  useEffect(() => {
+    if (!allChecked) return;
+    const t = setTimeout(() => setCollapsed(true), 1400);
+    return () => clearTimeout(t);
+  }, [allChecked]);
 
   function toggle(i: number) {
     setChecked((prev) => {
@@ -557,7 +612,7 @@ function InteractiveIngredients({
 
   function handleAddAll() {
     const converted = ingredients.map((ing) => {
-      const c = convertUnit(ing.amount, ing.unit, unitSystem);
+      const c = convertUnit((ing.amount ?? 0) * multiplier, ing.unit, unitSystem);
       return { name: ing.name, amount: c.amount, unit: c.unit, recipeTitle };
     });
     addToShoppingList(converted);
@@ -568,7 +623,7 @@ function InteractiveIngredients({
     const missing = ingredients.filter((ing) => !isPantryMatch(ing.name));
     if (missing.length === 0) { showToast("Nothing missing — all ingredients are in your pantry!"); return; }
     const converted = missing.map((ing) => {
-      const c = convertUnit(ing.amount, ing.unit, unitSystem);
+      const c = convertUnit((ing.amount ?? 0) * multiplier, ing.unit, unitSystem);
       return { name: ing.name, amount: c.amount, unit: c.unit, recipeTitle };
     });
     addToShoppingList(converted);
@@ -654,7 +709,8 @@ function InteractiveIngredients({
           <ol className="flex flex-col gap-2">
             {ingredients.map((ing, i) => {
               const isChecked = checked.has(i);
-              const converted = convertUnit(ing.amount, ing.unit, unitSystem);
+              const scaled = ing.amount != null ? ing.amount * multiplier : ing.amount;
+              const converted = convertUnit(scaled, ing.unit, unitSystem);
               const label = [converted.amount, converted.unit, ing.name].filter(Boolean).join(" ");
               const inPantry = isPantryMatch(ing.name);
 
@@ -749,12 +805,19 @@ function ChefTipBox({ tip }: { tip: string }) {
 function NumberedInstructions({
   instructions,
   onComplete,
+  onStepChange,
 }: {
   instructions: string[];
   onComplete: () => void;
+  onStepChange?: (text: string) => void;
 }) {
   const [currentStep, setCurrentStep] = useState(0);
   const allDone = currentStep >= instructions.length;
+
+  function goToStep(i: number) {
+    setCurrentStep(i);
+    onStepChange?.(instructions[i] ?? "");
+  }
 
   return (
     <div className="mt-4">
@@ -791,7 +854,7 @@ function NumberedInstructions({
               {/* Step number bubble */}
               <button
                 type="button"
-                onClick={() => setCurrentStep(i)}
+                onClick={() => goToStep(i)}
                 className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold mt-0.5 transition-all"
                 style={{
                   background: isDone
@@ -828,36 +891,57 @@ function NumberedInstructions({
 
                 {/* Chef Tip — shown inline on active step */}
                 {tip && isActive && <ChefTipBox tip={tip} />}
-
-                {/* Next/Done button on active step */}
-                {isActive && (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      if (i + 1 >= instructions.length) {
-                        setCurrentStep(instructions.length);
-                        onComplete();
-                      } else {
-                        setCurrentStep(i + 1);
-                      }
-                    }}
-                    className="mt-3 flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all hover:opacity-90"
-                    style={{ background: "var(--wc-pal-accent, #B07D56)", color: "#fff" }}
-                  >
-                    {i + 1 >= instructions.length ? "Done cooking" : `Next: Step ${i + 2}`}
-                  </button>
-                )}
               </div>
             </li>
           );
         })}
       </ol>
 
-      {allDone && (
+      {allDone ? (
         <div className="mt-5 rounded-xl px-4 py-3 flex items-center gap-3"
           style={{ background: "rgba(130,142,111,0.12)", border: "1px solid rgba(130,142,111,0.2)" }}>
           <CheckCircle2 style={{ width: 18, height: 18, color: "#828E6F", flexShrink: 0 }} />
           <p className="text-sm font-semibold" style={{ color: "#828E6F" }}>All steps complete!</p>
+        </div>
+      ) : (
+        <div
+          className="sticky bottom-0 flex items-center justify-between gap-3 mt-4 pt-3"
+          style={{
+            borderTop: "1px solid rgba(42,24,8,0.6)",
+            background: "rgba(18,12,7,0.95)",
+            backdropFilter: "blur(8px)",
+            padding: "10px 0",
+          }}
+        >
+          <button
+            type="button"
+            onClick={() => goToStep(Math.max(0, currentStep - 1))}
+            disabled={currentStep === 0}
+            className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold transition-all hover:opacity-80 disabled:opacity-30"
+            style={{ background: "rgba(42,24,8,0.6)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.5)" }}
+          >
+            <ChevronLeft style={{ width: 12, height: 12 }} /> Prev
+          </button>
+          <span className="text-xs font-semibold" style={{ color: "#6B4E36" }}>
+            {currentStep + 1} / {instructions.length}
+          </span>
+          <button
+            type="button"
+            onClick={() => {
+              if (currentStep + 1 >= instructions.length) {
+                setCurrentStep(instructions.length);
+                onStepChange?.("");
+                onComplete();
+              } else {
+                goToStep(currentStep + 1);
+              }
+            }}
+            className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all hover:opacity-90"
+            style={{ background: "var(--wc-pal-accent, #B07D56)", color: "#fff" }}
+          >
+            {currentStep + 1 >= instructions.length ? "Done" : "Next"}
+            <ChevronRight style={{ width: 12, height: 12 }} />
+          </button>
         </div>
       )}
     </div>
@@ -865,12 +949,12 @@ function NumberedInstructions({
 }
 
 // ── Split instructions into labelled phases for tabs ─────────
-function splitIntoPhaseTabs(instructions: string[], onComplete: () => void): Tab[] {
+function splitIntoPhaseTabs(instructions: string[], onComplete: () => void, onStepChange?: (text: string) => void): Tab[] {
   if (instructions.length <= 4) {
     return [{
       id: "cook",
       label: "🍳 Cook",
-      content: <NumberedInstructions instructions={instructions} onComplete={onComplete} />,
+      content: <NumberedInstructions instructions={instructions} onComplete={onComplete} onStepChange={onStepChange} />,
     }];
   }
 
@@ -900,7 +984,7 @@ function splitIntoPhaseTabs(instructions: string[], onComplete: () => void): Tab
     tabs.push({
       id: "prep",
       label: "🥣 Prep",
-      content: <NumberedInstructions instructions={prepSteps} onComplete={() => {}} />,
+      content: <NumberedInstructions instructions={prepSteps} onComplete={() => {}} onStepChange={onStepChange} />,
     });
   }
   if (cookSteps.length > 0) {
@@ -911,6 +995,7 @@ function splitIntoPhaseTabs(instructions: string[], onComplete: () => void): Tab
         <NumberedInstructions
           instructions={cookSteps}
           onComplete={finishSteps.length === 0 ? onComplete : () => {}}
+          onStepChange={onStepChange}
         />
       ),
     });
@@ -919,7 +1004,7 @@ function splitIntoPhaseTabs(instructions: string[], onComplete: () => void): Tab
     tabs.push({
       id: "finish",
       label: "✨ Finish",
-      content: <NumberedInstructions instructions={finishSteps} onComplete={onComplete} />,
+      content: <NumberedInstructions instructions={finishSteps} onComplete={onComplete} onStepChange={onStepChange} />,
     });
   }
   return tabs;
@@ -935,12 +1020,23 @@ export function RecipeColumnsClient({
   pantryItems,
   recipeTitle,
   dietaryTags,
+  baseServings,
 }: Props) {
   const [ingredients, setIngredients] = useState<Ingredient[]>(initialIngredients);
   const [instructions, setInstructions] = useState<string[]>(initialInstructions);
   const [phase, setPhase] = useState<Phase>("cook");
   const [cookingDone, setCookingDone] = useState(false);
   const [unitSystem, setUnitSystem] = useState<UnitSystem>("metric");
+  const base = baseServings ?? 4;
+  const [servings, setServings] = useState(base);
+  const multiplier = servings / base;
+  const { active: cookingModeActive, setCurrentStepText } = useCookingMode();
+  const [ingredientsCollapsed, setIngredientsCollapsed] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (cookingModeActive) setIngredientsCollapsed(true);
+  }, [cookingModeActive]);
 
   function handleExtracted(recipe: Record<string, unknown>) {
     if (Array.isArray(recipe.ingredients) && recipe.ingredients.length > 0) {
@@ -968,51 +1064,87 @@ export function RecipeColumnsClient({
       <div
         className="flex flex-col shrink-0"
         style={{
-          width: "38%",
-          minWidth: 240,
+          width: ingredientsCollapsed ? "48px" : "38%",
+          minWidth: ingredientsCollapsed ? "48px" : 240,
           borderRight: "1px solid rgba(42,24,8,0.5)",
           background: "rgba(18,12,7,0.4)",
-          overflowY: "auto",
+          overflowY: ingredientsCollapsed ? "hidden" : "auto",
+          overflowX: "hidden",
           maxHeight: "calc(100vh - 96px)",
           position: "sticky",
           top: 0,
+          transition: "width 0.3s ease, min-width 0.3s ease",
+          flexShrink: 0,
         }}
       >
-        <div className="p-5">
-          <div className="flex items-center gap-2 mb-3">
-            <div className="w-8 h-8 rounded-xl flex items-center justify-center shrink-0"
-              style={{ background: "rgba(42,24,8,0.7)", border: "1px solid rgba(90,50,20,0.4)" }}>
-              <Utensils style={{ width: 15, height: 15, color: "var(--wc-pal-accent, #B07D56)" }} />
-            </div>
-            <div className="flex-1 min-w-0">
-              <div className="text-xs font-bold uppercase tracking-widest" style={{ color: "#4A3020" }}>Phase II</div>
-              <div className="text-base font-bold" style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
-                Ingredients
+        {ingredientsCollapsed ? (
+          <button
+            type="button"
+            onClick={() => setIngredientsCollapsed(false)}
+            className="flex flex-col items-center gap-2.5 w-full h-full justify-start transition-opacity hover:opacity-80"
+            style={{ padding: "24px 0 0 0", color: "var(--wc-pal-accent, #B07D56)" }}
+            aria-label="Expand Ingredients"
+          >
+            <Utensils style={{ width: 16, height: 16 }} />
+            <span
+              style={{
+                writingMode: "vertical-rl",
+                transform: "rotate(180deg)",
+                fontSize: "0.62rem",
+                fontWeight: 700,
+                letterSpacing: "0.12em",
+                textTransform: "uppercase",
+                color: "#5A3A28",
+                marginTop: 8,
+              }}
+            >
+              Ingredients
+            </span>
+          </button>
+        ) : (
+          <div className="p-5">
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-8 h-8 rounded-xl flex items-center justify-center shrink-0"
+                style={{ background: "rgba(42,24,8,0.7)", border: "1px solid rgba(90,50,20,0.4)" }}>
+                <Utensils style={{ width: 15, height: 15, color: "var(--wc-pal-accent, #B07D56)" }} />
               </div>
+              <div className="flex-1 min-w-0">
+                <div className="text-xs font-bold uppercase tracking-widest" style={{ color: "#4A3020" }}>Phase II</div>
+                <div className="text-base font-bold" style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
+                  Ingredients
+                </div>
+              </div>
+              <UnitToggle value={unitSystem} onChange={setUnitSystem} />
+              <button
+                type="button"
+                onClick={() => setIngredientsCollapsed(true)}
+                className="p-1.5 rounded-lg ml-1 transition-opacity hover:opacity-70"
+                style={{ color: "#4A3020" }}
+                title="Collapse ingredients"
+              >
+                <ChevronLeft style={{ width: 14, height: 14 }} />
+              </button>
             </div>
-            {/* Metric / Imperial toggle */}
-            <UnitToggle value={unitSystem} onChange={setUnitSystem} />
+            {ingredients.length > 0 ? (
+              <InteractiveIngredients
+                ingredients={ingredients}
+                unitSystem={unitSystem}
+                multiplier={multiplier}
+                pantryItems={pantryItems}
+                recipeTitle={recipeTitle}
+              />
+            ) : (
+              <IngredientsColumn
+                recipeId={recipeId}
+                initialIngredients={ingredients}
+                sourceUrl={sourceUrl}
+                isPremium={isPremium}
+                onExtracted={handleExtracted}
+                pantryItems={pantryItems}
+              />
+            )}
           </div>
-
-          {/* Interactive ingredient checklist */}
-          {ingredients.length > 0 ? (
-            <InteractiveIngredients
-              ingredients={ingredients}
-              unitSystem={unitSystem}
-              pantryItems={pantryItems}
-              recipeTitle={recipeTitle}
-            />
-          ) : (
-            <IngredientsColumn
-              recipeId={recipeId}
-              initialIngredients={ingredients}
-              sourceUrl={sourceUrl}
-              isPremium={isPremium}
-              onExtracted={handleExtracted}
-              pantryItems={pantryItems}
-            />
-          )}
-        </div>
+        )}
       </div>
 
       {/* ── INSTRUCTIONS + PHASE RUNNER (right half) ── */}
@@ -1036,7 +1168,7 @@ export function RecipeColumnsClient({
                   <LivingCookbookTicker />
                   {instructions.length > 0 ? (
                     <AnimatedTabs
-                      tabs={splitIntoPhaseTabs(instructions, handleCookingComplete)}
+                      tabs={splitIntoPhaseTabs(instructions, handleCookingComplete, setCurrentStepText)}
                       className="mt-4"
                     />
                   ) : (
@@ -1103,8 +1235,8 @@ export function RecipeColumnsClient({
               <PhaseHeader roman="V" label="Restore" emoji="♻️" />
               <ZeroWasteGuide title={recipeTitle} ingredients={ingredients} />
               <PhaseActions
-                onDone={() => {}}
-                onSkip={() => {}}
+                onDone={() => router.push("/dashboard")}
+                onSkip={() => router.push("/dashboard")}
                 doneLabel="All done!"
               />
             </div>
