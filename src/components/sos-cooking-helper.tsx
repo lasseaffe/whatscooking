@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { useCookingMode } from "@/lib/cooking-mode-context";
 
 interface Message {
   role: "user" | "assistant";
@@ -20,6 +21,7 @@ const QUICK_PROMPTS = [
 ];
 
 export function SOSCookingHelper({ recipeTitle, ingredients }: Props) {
+  const { currentStepText } = useCookingMode();
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
@@ -89,21 +91,38 @@ export function SOSCookingHelper({ recipeTitle, ingredients }: Props) {
 
   return (
     <>
-      {/* Floating SOS button */}
-      <button
-        onClick={() => setOpen(true)}
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 rounded-2xl font-bold text-sm shadow-lg transition-all hover:scale-105 active:scale-95"
+      {/* Floating SOS button — bottom-left, with tooltip */}
+      <div
+        className="group"
         style={{
-          background: "linear-gradient(135deg, #C85A2F 0%, #A84520 100%)",
-          color: "#fff",
-          boxShadow: "0 4px 20px rgba(200,90,47,0.4)",
-          display: open ? "none" : "flex",
+          position: "fixed",
+          bottom: "1.5rem",
+          left: "1.5rem",
+          zIndex: 50,
+          display: open ? "none" : "block",
         }}
-        aria-label="SOS Kitchen Help"
       >
-        <span style={{ fontSize: 18 }}>🆘</span>
-        <span>SOS Help</span>
-      </button>
+        {/* Tooltip */}
+        <div
+          className="absolute bottom-full left-0 mb-2 px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-150"
+          style={{ background: "rgba(13,9,7,0.95)", color: "#EFE3CE", border: "1px solid rgba(58,36,22,0.6)" }}
+        >
+          Get instant help when something goes wrong mid-cook
+        </div>
+        <button
+          onClick={() => setOpen(true)}
+          className="flex items-center gap-2 px-4 py-3 rounded-2xl font-bold text-sm shadow-lg transition-all hover:scale-105 active:scale-95"
+          style={{
+            background: "linear-gradient(135deg, #C85A2F 0%, #A84520 100%)",
+            color: "#fff",
+            boxShadow: "0 4px 20px rgba(200,90,47,0.4)",
+          }}
+          aria-label="SOS Kitchen Help"
+        >
+          <span style={{ fontSize: 18 }}>🆘</span>
+          <span>SOS Help</span>
+        </button>
+      </div>
 
       {/* Modal overlay */}
       {open && (
@@ -152,6 +171,15 @@ export function SOSCookingHelper({ recipeTitle, ingredients }: Props) {
                     Stuck mid-cook? Ask anything — I&apos;m here.
                   </p>
                   <div className="grid grid-cols-2 gap-2">
+                    {currentStepText && (
+                      <button
+                        onClick={() => send(`Help with: "${currentStepText.slice(0, 60)}${currentStepText.length > 60 ? "…" : ""}"`)}
+                        className="col-span-2 text-xs px-3 py-2.5 rounded-xl text-left transition-all hover:opacity-80"
+                        style={{ background: "rgba(200,82,42,0.15)", color: "#C85A2F", border: "1px solid rgba(200,82,42,0.3)" }}
+                      >
+                        🎯 Help with current step
+                      </button>
+                    )}
                     {QUICK_PROMPTS.map((p) => (
                       <button
                         key={p}
