@@ -29,10 +29,13 @@ def _ddg_search(query: str, domain: str, num: int = 10, retries: int = 3) -> lis
                     f"site:{domain} {query}",
                     max_results=num,
                 ))
-            time.sleep(3)
+            if not results:
+                print(f"[discover] DDG returned 0 results for: site:{domain} {query}")
+                return []
+            time.sleep(5)
             return [r["href"] for r in results if domain in r.get("href", "")]
         except Exception as e:
-            wait = 10 * (attempt + 1)
+            wait = 15 * (attempt + 1)
             print(f"[discover] DDG error (attempt {attempt + 1}/{retries}): {e} — retrying in {wait}s")
             time.sleep(wait)
     print(f"[discover] DDG gave up for query: {query}")
