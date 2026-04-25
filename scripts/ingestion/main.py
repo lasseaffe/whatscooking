@@ -36,23 +36,25 @@ def run():
 
     for source in SOURCES:
         print(f"\n[main] Processing source: {source['name']}")
+        try:
+            raw_urls = discover_urls(source, google_api_key, google_cse_id)
+            new_urls = filter_new_urls(raw_urls, existing_urls)
+            print(f"[main] {len(raw_urls)} URLs discovered, {len(new_urls)} new")
 
-        raw_urls = discover_urls(source, google_api_key, google_cse_id)
-        new_urls = filter_new_urls(raw_urls, existing_urls)
-        print(f"[main] {len(raw_urls)} URLs discovered, {len(new_urls)} new")
+            recipes = []
+            for url in new_urls:
+                recipe = scrape_url(url, source)
+                if recipe:
+                    recipes.append(recipe)
+                time.sleep(0.5)
 
-        recipes = []
-        for url in new_urls:
-            recipe = scrape_url(url, source)
-            if recipe:
-                recipes.append(recipe)
-            time.sleep(0.5)  # polite crawl delay
-
-        all_recipes.extend(recipes)
-        inserted, skipped = upsert_recipes(recipes, supabase)
-        total_inserted += inserted
-        total_skipped += skipped
-        print(f"[main] {source['name']}: {inserted} inserted, {skipped} skipped")
+            all_recipes.extend(recipes)
+            inserted, skipped = upsert_recipes(recipes, supabase)
+            total_inserted += inserted
+            total_skipped += skipped
+            print(f"[main] {source['name']}: {inserted} inserted, {skipped} skipped")
+        except Exception as e:
+            print(f"[main] ERROR processing {source['name']}: {e} — skipping source")
 
     if all_recipes:
         save_backup(all_recipes, run_timestamp)
