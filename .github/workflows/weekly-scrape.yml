@@ -1,4 +1,5 @@
 name: Weekly Recipe Scrape
+# v2
 
 on:
   schedule:
