@@ -29,16 +29,3 @@ jobs:
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
         run: python -m scripts.ingestion.main
 
-      - name: Open reminder issue
-        if: success()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const today = new Date().toISOString().split('T')[0];
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Weekly scrape complete (${today}) — add sources for next week?`,
-              body: `The weekly recipe scrape just ran.\n\nTo add a new source for next week, edit [\`scripts/ingestion/sources.py\`](../../blob/main/scripts/ingestion/sources.py) and commit.\n\nNo action needed if you're happy with the current sources.`,
-              labels: ['recipe-ingestion'],
-            });

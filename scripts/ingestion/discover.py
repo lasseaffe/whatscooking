@@ -1,7 +1,7 @@
 import time
 from functools import lru_cache
 from typing import Optional
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 from googleapiclient.discovery import build
 
 
