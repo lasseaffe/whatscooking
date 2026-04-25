@@ -21,14 +21,22 @@ def _google_search(query: str, domain: str, api_key: str, cse_id: str, num: int 
     return [item["link"] for item in items]
 
 
-def _ddg_search(query: str, domain: str, num: int = 10) -> list[str]:
-    with DDGS() as ddgs:
-        results = list(ddgs.text(
-            f"site:{domain} {query}",
-            max_results=num,
-        ))
-    time.sleep(1)  # DDG rate limit courtesy
-    return [r["href"] for r in results if domain in r.get("href", "")]
+def _ddg_search(query: str, domain: str, num: int = 10, retries: int = 3) -> list[str]:
+    for attempt in range(retries):
+        try:
+            with DDGS() as ddgs:
+                results = list(ddgs.text(
+                    f"site:{domain} {query}",
+                    max_results=num,
+                ))
+            time.sleep(3)
+            return [r["href"] for r in results if domain in r.get("href", "")]
+        except Exception as e:
+            wait = 10 * (attempt + 1)
+            print(f"[discover] DDG error (attempt {attempt + 1}/{retries}): {e} — retrying in {wait}s")
+            time.sleep(wait)
+    print(f"[discover] DDG gave up for query: {query}")
+    return []
 
 
 def discover_urls(

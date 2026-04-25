@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 from scripts.ingestion.sources import SOURCES
 from scripts.ingestion.discover import discover_urls
@@ -24,7 +24,7 @@ def save_backup(recipes: list[dict], run_timestamp: str) -> None:
 def run():
     google_api_key = os.environ.get("GOOGLE_CSE_KEY")
     google_cse_id = os.environ.get("GOOGLE_CSE_ID")
-    run_timestamp = datetime.utcnow().strftime("%Y-%m-%dT%H-%M-%S")
+    run_timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
 
     supabase = get_supabase()
     existing_urls = fetch_existing_urls(supabase)
