@@ -133,7 +133,7 @@ export async function runImageMonitor(options: MonitorOptions): Promise<MonitorR
   }
   for (const [, ids] of urlToIds) {
     if (ids.length < 2) continue;
-    for (const id of ids) {
+    for (const id of ids.slice(1)) {
       if (issueMap.has(id)) continue;
       const r = recipes.find(x => x.id === id)!;
       issueMap.set(id, {
@@ -178,7 +178,7 @@ export async function runImageMonitor(options: MonitorOptions): Promise<MonitorR
   );
 
   const brokenUrls = new Set(
-    pingResults.filter(p => !p.ok && (p.status === 404 || p.status === 410)).map(p => p.url),
+    pingResults.filter(p => !p.ok).map(p => p.url),
   );
   for (const r of withImages) {
     if (!r.image_url || !brokenUrls.has(r.image_url)) continue;
