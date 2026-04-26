@@ -155,7 +155,6 @@ export default async function WorldCup2026Page() {
               <div
                 className="h-full rounded-full"
                 style={{
-                  width: `${pct}%`,
                   background: "linear-gradient(90deg, #206820, #F4A261)",
                   animation: `wc-progress-fill 800ms cubic-bezier(0.34,1.56,0.64,1) both`,
                 }}
