@@ -22,7 +22,8 @@ export function WcFlagCard({
 }: WcFlagCardProps) {
   const stamped = cookedCount >= threshold;
   const started = cookedCount > 0 && !stamped;
-  const isoLower = code.toLowerCase();
+  // flagcdn.com uses ISO 3166-1 alpha-2 only — map subdivisions to parent country
+  const flagCode = code === "GB-ENG" || code === "GB-SCT" ? "gb" : code.toLowerCase();
 
   const statusBg = stamped
     ? "rgba(20,80,10,0.75)"
@@ -51,7 +52,7 @@ export function WcFlagCard({
       }
     >
       <img
-        src={`https://flagcdn.com/w80/${isoLower}.png`}
+        src={`https://flagcdn.com/w80/${flagCode}.png`}
         alt={`${name} flag`}
         width={80}
         height={54}
