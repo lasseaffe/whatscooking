@@ -2,6 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import { Globe2, Trophy } from "lucide-react";
 import { WcFlagCard } from "@/components/wc-flag-card";
+import { WcMatchdayPanel } from "@/components/wc-matchday-panel";
 
 export const dynamic = "force-dynamic";
 
@@ -231,6 +232,7 @@ export default async function WorldCup2026Page() {
         </Link>
       </div>
 
+      <WcMatchdayPanel />
     </div>
   );
 }
