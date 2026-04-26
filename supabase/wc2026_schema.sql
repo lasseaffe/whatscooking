@@ -8,8 +8,8 @@ create table if not exists wc_fixtures (
   match_day   int  not null,
   stage       text not null check (stage in ('group','r16','qf','sf','final')),
   match_date  timestamptz not null,
-  home_code   char(2) not null,
-  away_code   char(2) not null,
+  home_code   varchar(6) not null,
+  away_code   varchar(6) not null,
   home_score  int,
   away_score  int,
   venue       text,
@@ -17,6 +17,7 @@ create table if not exists wc_fixtures (
 );
 
 alter table wc_fixtures enable row level security;
+drop policy if exists "Public read fixtures" on wc_fixtures;
 create policy "Public read fixtures"
   on wc_fixtures for select using (true);
 
@@ -31,26 +32,43 @@ create table if not exists wc_match_photos (
 );
 
 alter table wc_match_photos enable row level security;
+drop policy if exists "Public read photos" on wc_match_photos;
 create policy "Public read photos"
   on wc_match_photos for select using (true);
+drop policy if exists "Auth users insert own photos" on wc_match_photos;
 create policy "Auth users insert own photos"
   on wc_match_photos for insert
   with check (auth.uid() = user_id);
+drop policy if exists "Users delete own photos" on wc_match_photos;
 create policy "Users delete own photos"
   on wc_match_photos for delete
   using (auth.uid() = user_id);
+drop policy if exists "Users update own photos" on wc_match_photos;
+create policy "Users update own photos"
+  on wc_match_photos for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
 
 -- ── wc_recipe_tags ───────────────────────────────────────────
 create table if not exists wc_recipe_tags (
   recipe_id      uuid references recipes(id) on delete cascade,
-  nation_code    char(2) not null,
+  nation_code    varchar(6) not null,
   is_event_badge boolean default true,
   primary key (recipe_id, nation_code)
 );
 
 alter table wc_recipe_tags enable row level security;
+drop policy if exists "Public read recipe tags" on wc_recipe_tags;
 create policy "Public read recipe tags"
   on wc_recipe_tags for select using (true);
+
+-- NOTE: Admin writes only via service role API (no public insert/update/delete policies)
+-- Prevents unauthorized users from tagging arbitrary recipes with nation codes
+
+-- ── Indexes ──────────────────────────────────────────────────
+create index if not exists wc_match_photos_fixture_id_idx on wc_match_photos(fixture_id);
+create index if not exists wc_match_photos_user_id_idx on wc_match_photos(user_id);
+create index if not exists wc_recipe_tags_nation_code_idx on wc_recipe_tags(nation_code);
 
 -- ── Storage bucket note ───────────────────────────────────────
 -- Create bucket "wc-photos" (Public: ON) manually in Supabase dashboard → Storage
