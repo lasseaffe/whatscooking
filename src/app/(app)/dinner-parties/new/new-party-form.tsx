@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Plus, Trash2, Loader2, ArrowLeft, Repeat } from "lucide-react";
 import Link from "next/link";
@@ -11,6 +11,7 @@ const THEMES = [
   "Farm to Table 🌿", "Wine & Cheese 🧀", "Vegan Feast 🌱", "Comfort Food 🍲",
   "Cocktail Night 🍸", "Mocktail Party 🧃", "Speakeasy Night 🥃", "Aperitivo Hour 🍷",
   "Bottomless Brunch 🥂", "Tiki Night 🌴", "Garden Sangria Party 🍹",
+  "Sports Night ⚽",
 ];
 
 const COLORS = [
@@ -22,7 +23,19 @@ type Plan = { id: string; title: string };
 
 interface GuestInput { email: string; display_name: string }
 
-export function NewPartyForm({ plans, defaultDate }: { plans: Plan[]; defaultDate?: string }) {
+export function NewPartyForm({
+  plans,
+  defaultDate,
+  watchPartyMatch,
+  watchPartyHome,
+  watchPartyAway,
+}: {
+  plans: Plan[];
+  defaultDate?: string;
+  watchPartyMatch?: string;
+  watchPartyHome?: string;
+  watchPartyAway?: string;
+}) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -40,6 +53,17 @@ export function NewPartyForm({ plans, defaultDate }: { plans: Plan[]; defaultDat
   const [isRecurring, setIsRecurring] = useState(false);
   const [recurrenceRule, setRecurrenceRule] = useState("monthly");
   const [guests, setGuests] = useState<GuestInput[]>([{ email: "", display_name: "" }]);
+
+  useEffect(() => {
+    if (!watchPartyMatch || !watchPartyHome || !watchPartyAway) return;
+    setTheme("Sports Night ⚽");
+    setTitle(`${watchPartyHome} vs ${watchPartyAway} Watch Party ⚽`);
+    setDescription(
+      `World Cup 2026 match: ${watchPartyHome} vs ${watchPartyAway}. ` +
+      `Suggest classic sports viewing foods (wings, nachos, sliders, dips, guacamole) ` +
+      `plus 1–2 signature dishes from ${watchPartyHome} and ${watchPartyAway} cuisine.`
+    );
+  }, [watchPartyMatch, watchPartyHome, watchPartyAway]);
 
   function addGuest() { setGuests((g) => [...g, { email: "", display_name: "" }]); }
   function removeGuest(i: number) { setGuests((g) => g.filter((_, j) => j !== i)); }

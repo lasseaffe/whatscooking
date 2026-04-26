@@ -6,9 +6,10 @@ export const dynamic = "force-dynamic";
 export default async function NewDinnerPartyPage({
   searchParams,
 }: {
-  searchParams: Promise<{ date?: string }>;
+  searchParams: Promise<{ date?: string; theme?: string; match?: string; home?: string; away?: string }>;
 }) {
-  const { date } = await searchParams;
+  const { date, theme, match, home, away } = await searchParams;
+  const isWorldCup = theme === "worldcup";
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return null;
@@ -27,7 +28,13 @@ export default async function NewDinnerPartyPage({
       <p className="text-sm mb-8" style={{ color: "#6B5B52" }}>
         Set the date, theme, and invite your people.
       </p>
-      <NewPartyForm plans={plans ?? []} defaultDate={date} />
+      <NewPartyForm
+        plans={plans ?? []}
+        defaultDate={date}
+        watchPartyMatch={isWorldCup ? match : undefined}
+        watchPartyHome={isWorldCup ? home : undefined}
+        watchPartyAway={isWorldCup ? away : undefined}
+      />
     </div>
   );
 }
