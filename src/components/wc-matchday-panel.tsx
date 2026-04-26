@@ -18,7 +18,8 @@ type Fixture = {
 };
 
 function flagUrl(code: string) {
-  return `https://flagcdn.com/w40/${code.toLowerCase()}.png`;
+  const c = code === "GB-ENG" || code === "GB-SCT" ? "gb" : code.toLowerCase();
+  return `https://flagcdn.com/w40/${c}.png`;
 }
 
 function formatKickoff(iso: string) {

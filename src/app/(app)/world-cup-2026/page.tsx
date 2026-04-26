@@ -72,18 +72,19 @@ export default async function WorldCup2026Page() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  // Count rated recipes per cuisine type — proxy for "cooked this"
-  const { data: ratedRecipes } = await supabase
-    .from("recipe_ratings")
-    .select("recipe:recipes(cuisine_type)")
-    .eq("user_id", user!.id);
-
   const cuisineCounts = new Map<string, number>();
-  for (const row of ratedRecipes ?? []) {
-    const ct = (row.recipe as { cuisine_type?: string | null } | null)?.cuisine_type;
-    if (ct) {
-      const key = ct.toLowerCase();
-      cuisineCounts.set(key, (cuisineCounts.get(key) ?? 0) + 1);
+  if (user) {
+    const { data: ratedRecipes } = await supabase
+      .from("recipe_ratings")
+      .select("recipe:recipes(cuisine_type)")
+      .eq("user_id", user.id);
+
+    for (const row of ratedRecipes ?? []) {
+      const ct = (row.recipe as { cuisine_type?: string | null } | null)?.cuisine_type;
+      if (ct) {
+        const key = ct.toLowerCase();
+        cuisineCounts.set(key, (cuisineCounts.get(key) ?? 0) + 1);
+      }
     }
   }
 

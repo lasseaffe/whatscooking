@@ -15,7 +15,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Missing file or fixture_id" }, { status: 400 });
   }
 
-  const ext = file.name.split(".").pop() ?? "jpg";
+  const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+  if (!UUID_RE.test(fixtureId)) {
+    return NextResponse.json({ error: "Invalid fixture_id" }, { status: 400 });
+  }
+
+  const rawExt = (file.name.split(".").pop() ?? "jpg").toLowerCase();
+  const ext = ["jpg", "jpeg", "png", "gif", "webp", "avif", "heic"].includes(rawExt) ? rawExt : "jpg";
   const storagePath = `${fixtureId}/${user.id}/${crypto.randomUUID()}.${ext}`;
 
   const { error: uploadError } = await supabase.storage
