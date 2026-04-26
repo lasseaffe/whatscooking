@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync-premium": "node scripts/generate-premium-sql.mjs"
+    "sync-premium": "node scripts/generate-premium-sql.mjs",
+    "monitor-images": "npx tsx scripts/monitor-images.ts",
+    "monitor-images:dry": "npx tsx scripts/monitor-images.ts --dry-run"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",
@@ -42,6 +44,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
