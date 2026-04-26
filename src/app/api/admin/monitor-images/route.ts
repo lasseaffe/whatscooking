@@ -2,13 +2,16 @@ import { NextRequest, NextResponse } from "next/server";
 import { runImageMonitor } from "@/lib/image-monitor";
 
 export async function GET(req: NextRequest) {
-  const secret = process.env.MONITOR_SECRET;
-  if (!secret) {
-    return NextResponse.json({ error: "MONITOR_SECRET not configured" }, { status: 500 });
+  const monitorSecret = process.env.MONITOR_SECRET;
+  const cronSecret = process.env.CRON_SECRET;
+
+  if (!monitorSecret && !cronSecret) {
+    return NextResponse.json({ error: "No auth secret configured" }, { status: 500 });
   }
 
   const auth = req.headers.get("authorization") ?? "";
-  if (auth !== `Bearer ${secret}`) {
+  const validSecrets = [monitorSecret, cronSecret].filter(Boolean);
+  if (!validSecrets.some(s => auth === `Bearer ${s}`)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
