@@ -1,0 +1,257 @@
+# World Cup 2026 Recipe Targets
+# Used by the ddgs + recipe-scrapers pipeline
+# Update current_count after each pipeline run
+# Min needed: 5 per nation
+
+targets:
+  # HOST
+  - nation: United States
+    code: US
+    cuisine_slug: american
+    current_count: 0
+    needed: 5
+  - nation: Canada
+    code: CA
+    cuisine_slug: canadian
+    current_count: 0
+    needed: 5
+  - nation: Mexico
+    code: MX
+    cuisine_slug: mexican
+    current_count: 0
+    needed: 5
+  # CONMEBOL
+  - nation: Brazil
+    code: BR
+    cuisine_slug: brazilian
+    current_count: 0
+    needed: 5
+  - nation: Argentina
+    code: AR
+    cuisine_slug: argentinian
+    current_count: 0
+    needed: 5
+  - nation: Uruguay
+    code: UY
+    cuisine_slug: south-american
+    current_count: 0
+    needed: 5
+  - nation: Chile
+    code: CL
+    cuisine_slug: south-american
+    current_count: 0
+    needed: 5
+  - nation: Colombia
+    code: CO
+    cuisine_slug: south-american
+    current_count: 0
+    needed: 5
+  - nation: Paraguay
+    code: PY
+    cuisine_slug: south-american
+    current_count: 0
+    needed: 5
+  # UEFA
+  - nation: Germany
+    code: DE
+    cuisine_slug: german
+    current_count: 0
+    needed: 5
+  - nation: France
+    code: FR
+    cuisine_slug: french
+    current_count: 0
+    needed: 5
+  - nation: Spain
+    code: ES
+    cuisine_slug: spanish
+    current_count: 0
+    needed: 5
+  - nation: Portugal
+    code: PT
+    cuisine_slug: portuguese
+    current_count: 0
+    needed: 5
+  - nation: England
+    code: GB-ENG
+    cuisine_slug: british
+    current_count: 0
+    needed: 5
+  - nation: Netherlands
+    code: NL
+    cuisine_slug: european
+    current_count: 0
+    needed: 5
+  - nation: Belgium
+    code: BE
+    cuisine_slug: european
+    current_count: 0
+    needed: 5
+  - nation: Italy
+    code: IT
+    cuisine_slug: italian
+    current_count: 0
+    needed: 5
+  - nation: Poland
+    code: PL
+    cuisine_slug: polish
+    current_count: 0
+    needed: 5
+  - nation: Austria
+    code: AT
+    cuisine_slug: european
+    current_count: 0
+    needed: 5
+  - nation: Switzerland
+    code: CH
+    cuisine_slug: european
+    current_count: 0
+    needed: 5
+  - nation: Denmark
+    code: DK
+    cuisine_slug: scandinavian
+    current_count: 0
+    needed: 5
+  - nation: Hungary
+    code: HU
+    cuisine_slug: eastern-european
+    current_count: 0
+    needed: 5
+  - nation: Romania
+    code: RO
+    cuisine_slug: eastern-european
+    current_count: 0
+    needed: 5
+  - nation: Greece
+    code: GR
+    cuisine_slug: greek
+    current_count: 0
+    needed: 5
+  - nation: Slovakia
+    code: SK
+    cuisine_slug: eastern-european
+    current_count: 0
+    needed: 5
+  - nation: Ukraine
+    code: UA
+    cuisine_slug: eastern-european
+    current_count: 0
+    needed: 5
+  - nation: Slovenia
+    code: SI
+    cuisine_slug: european
+    current_count: 0
+    needed: 5
+  - nation: Scotland
+    code: GB-SCT
+    cuisine_slug: british
+    current_count: 0
+    needed: 5
+  # CAF
+  - nation: Morocco
+    code: MA
+    cuisine_slug: moroccan
+    current_count: 0
+    needed: 5
+  - nation: Nigeria
+    code: NG
+    cuisine_slug: nigerian
+    current_count: 0
+    needed: 5
+  - nation: South Africa
+    code: ZA
+    cuisine_slug: south-african
+    current_count: 0
+    needed: 5
+  - nation: Senegal
+    code: SN
+    cuisine_slug: senegalese
+    current_count: 0
+    needed: 5
+  - nation: Egypt
+    code: EG
+    cuisine_slug: egyptian
+    current_count: 0
+    needed: 5
+  - nation: Cameroon
+    code: CM
+    cuisine_slug: west-african
+    current_count: 0
+    needed: 5
+  - nation: Mali
+    code: ML
+    cuisine_slug: west-african
+    current_count: 0
+    needed: 5
+  - nation: Zambia
+    code: ZM
+    cuisine_slug: east-african
+    current_count: 0
+    needed: 5
+  - nation: Tanzania
+    code: TZ
+    cuisine_slug: east-african
+    current_count: 0
+    needed: 5
+  # AFC
+  - nation: Japan
+    code: JP
+    cuisine_slug: japanese
+    current_count: 0
+    needed: 5
+  - nation: South Korea
+    code: KR
+    cuisine_slug: korean
+    current_count: 0
+    needed: 5
+  - nation: Iran
+    code: IR
+    cuisine_slug: persian
+    current_count: 0
+    needed: 5
+  - nation: Australia
+    code: AU
+    cuisine_slug: australian
+    current_count: 0
+    needed: 5
+  - nation: Saudi Arabia
+    code: SA
+    cuisine_slug: middle-eastern
+    current_count: 0
+    needed: 5
+  - nation: Palestine
+    code: PS
+    cuisine_slug: middle-eastern
+    current_count: 0
+    needed: 5
+  - nation: Uzbekistan
+    code: UZ
+    cuisine_slug: central-asian
+    current_count: 0
+    needed: 5
+  - nation: Qatar
+    code: QA
+    cuisine_slug: middle-eastern
+    current_count: 0
+    needed: 5
+  # CONCACAF
+  - nation: Costa Rica
+    code: CR
+    cuisine_slug: central-american
+    current_count: 0
+    needed: 5
+  - nation: Panama
+    code: PA
+    cuisine_slug: central-american
+    current_count: 0
+    needed: 5
+  - nation: Jamaica
+    code: JM
+    cuisine_slug: caribbean
+    current_count: 0
+    needed: 5
+  - nation: El Salvador
+    code: SV
+    cuisine_slug: central-american
+    current_count: 0
+    needed: 5
