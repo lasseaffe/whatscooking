@@ -118,6 +118,7 @@ export default async function WorldCup2026Page() {
         style={{
           background: "linear-gradient(135deg, #0A1A08 0%, #1A2810 50%, #0A1808 100%)",
           border: "1px solid rgba(30,80,20,0.4)",
+          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='8' fill='none' stroke='white' stroke-width='0.5' opacity='0.06'/%3E%3C/svg%3E")`,
         }}
       >
         <div className="px-6 py-10 relative z-10">
@@ -152,15 +153,26 @@ export default async function WorldCup2026Page() {
             </div>
             <div className="h-2 rounded-full overflow-hidden" style={{ background: "rgba(255,255,255,0.06)" }}>
               <div
-                className="h-full rounded-full transition-all duration-700"
+                className="h-full rounded-full"
                 style={{
                   width: `${pct}%`,
                   background: "linear-gradient(90deg, #206820, #F4A261)",
+                  animation: `wc-progress-fill 800ms cubic-bezier(0.34,1.56,0.64,1) both`,
                 }}
               />
             </div>
           </div>
         </div>
+        <style>{`
+          @keyframes wc-progress-fill {
+            from { width: 0%; }
+            to   { width: ${pct}%; }
+          }
+          @keyframes wc-conf-pulse {
+            0%, 100% { opacity: 0.65; }
+            50%       { opacity: 1; }
+          }
+        `}</style>
       </div>
 
       {/* ── Nation grid by confederation ── */}
@@ -174,7 +186,7 @@ export default async function WorldCup2026Page() {
             <div key={conf}>
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-xs font-bold px-2.5 py-0.5 rounded-full"
-                  style={{ background: `${color}18`, color, border: `1px solid ${color}30` }}>
+                  style={{ background: `${color}18`, color, border: `1px solid ${color}30`, animation: "wc-conf-pulse 3s ease-in-out infinite" }}>
                   {conf}
                 </span>
                 <span className="text-xs" style={{ color: "#4A3020" }}>
