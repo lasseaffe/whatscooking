@@ -2,6 +2,29 @@
 
 ## [Unreleased] — 2026-04-27
 
+### Image Monitor System
+
+**5-task implementation. TypeScript clean.**
+
+#### New files
+- `src/lib/image-monitor.ts` — core logic: null check, duplicate check, relevance check (inverted index), HEAD ping, auto-fix via Supabase update
+- `scripts/monitor-images.ts` — CLI entry point; run with `npm run monitor-images` or `npm run monitor-images:dry`
+- `src/app/api/admin/monitor-images/route.ts` — GET route protected by `MONITOR_SECRET` or `CRON_SECRET`
+- `vercel.json` — Vercel Cron schedule: daily 03:00 UTC
+
+#### Modified files
+- `src/lib/recipe-image.ts` — exported `CATEGORY_PHOTOS` for use by monitor
+- `package.json` — added `monitor-images` and `monitor-images:dry` npm scripts
+
+#### Notes
+- Duplicate check keeps the first recipe's URL, fixes all subsequent copies
+- Relevance check only applies to Unsplash URLs (known photo IDs); external URLs are liveness-checked only
+- Known: several Unsplash photo IDs are reused across categories in `CATEGORY_PHOTOS` — may cause occasional false-positive relevance flags; cleanup tracked for future sprint
+
+---
+
+## [Unreleased] — 2026-04-27
+
 ### World Cup 2026 — Full Live-Event Feature
 
 **9-task implementation. TypeScript clean. Pushed to master.**
