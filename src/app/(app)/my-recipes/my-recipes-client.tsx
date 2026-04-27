@@ -70,12 +70,12 @@ export function MyRecipesClient({ initialRecipes }: { initialRecipes: Recipe[] }
                     )}
                     <div className="absolute top-2 right-2">
                       {r.is_published ? (
-                        <span className="flex items-center gap-1 text-xs px-2 py-1 rounded-full backdrop-blur-sm"
+                        <span className="flex items-center gap-1 text-xs px-2 py-1 rounded-full"
                           style={{ background: "rgba(45,122,79,0.85)", color: "#fff" }}>
                           <Globe className="w-3 h-3" /> Published
                         </span>
                       ) : (
-                        <span className="flex items-center gap-1 text-xs px-2 py-1 rounded-full backdrop-blur-sm"
+                        <span className="flex items-center gap-1 text-xs px-2 py-1 rounded-full"
                           style={{ background: "rgba(0,0,0,0.4)", color: "#fff" }}>
                           <Lock className="w-3 h-3" /> Private
                         </span>
