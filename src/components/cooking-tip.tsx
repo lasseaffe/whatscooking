@@ -299,7 +299,7 @@ export function CookingTip({ technique }: CookingTipProps) {
               ) : (
                 <button
                   onClick={() => setVideoOpen(true)}
-                  className="w-full flex items-center gap-3 px-4 py-3 hover:bg-white/10 transition-colors text-left"
+                  className="w-full flex items-center gap-3 px-4 py-3 hover:bg-[var(--glow-on-neutral-hover)] transition-colors text-left"
                 >
                   <div className="w-9 h-9 rounded-full flex items-center justify-center shrink-0" style={{ background: "#FF0000" }}>
                     <Play className="w-4 h-4 text-white fill-white" />
