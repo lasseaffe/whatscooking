@@ -65,7 +65,7 @@ export function DirtySodaSlideshow({ slides }: { slides: SodaSlide[] }) {
         href="https://holyflex.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute top-4 right-4 z-10 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold tracking-wide backdrop-blur-sm transition-opacity hover:opacity-90"
+        className="absolute top-4 right-4 z-10 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold tracking-wide transition-opacity hover:opacity-90 bg-[var(--bg-tertiary)] border border-[var(--border-primary)]"
         style={{ background: "rgba(200,90,47,0.85)", color: "#fff" }}
       >
         <span>★</span> HolyFlex
