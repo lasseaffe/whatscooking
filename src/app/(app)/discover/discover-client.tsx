@@ -215,6 +215,9 @@ function HackCard({ hack, index, onOpen }: { hack: HackRow; index: number; onOpe
             {hack.description}
           </p>
         )}
+        <div className="mt-1.5">
+          <ReportButton recipeId={hack.id} recipeName={hack.title} iconSize={11} />
+        </div>
       </div>
     </button>
   );
@@ -302,14 +305,14 @@ function PremiumCard({ r: initialR }: { r: PremiumRow }) {
       {/* Top-left badge */}
       {r.cuisine_type && !isStub ? (
         <div className="absolute top-2 left-2">
-          <span className="text-xs px-2 py-0.5 rounded-full font-medium backdrop-blur-sm"
+          <span className="text-xs px-2 py-0.5 rounded-full font-medium"
             style={{ background: "rgba(232,200,112,0.2)", color: "#E8C870", border: "1px solid rgba(232,200,112,0.3)" }}>
             {r.cuisine_type}
           </span>
         </div>
       ) : isStub ? (
         <div className="absolute top-2 left-2">
-          <span className="text-xs px-2 py-0.5 rounded-full font-medium backdrop-blur-sm"
+          <span className="text-xs px-2 py-0.5 rounded-full font-medium"
             style={{ background: "rgba(200,160,48,0.25)", color: "#E8C870", border: "1px solid rgba(200,160,48,0.3)" }}>
             ✦ Tap to reveal
           </span>
@@ -323,7 +326,7 @@ function PremiumCard({ r: initialR }: { r: PremiumRow }) {
           target="_blank"
           rel="noopener noreferrer"
           onClick={(e) => e.stopPropagation()}
-          className="absolute top-2 right-2 flex items-center gap-1 text-xs px-2 py-1 rounded-lg font-medium backdrop-blur-sm"
+          className="absolute top-2 right-2 flex items-center gap-1 text-xs px-2 py-1 rounded-lg font-medium"
           style={{ background: "rgba(0,0,0,0.5)", color: "rgba(255,255,255,0.8)" }}
         >
           <ExternalLink className="w-3 h-3" /> Post
@@ -395,6 +398,7 @@ function PremiumCard({ r: initialR }: { r: PremiumRow }) {
             {r.calories && !isStub && (
               <span className="text-xs" style={{ color: "rgba(255,255,255,0.6)" }}>{r.calories} kcal</span>
             )}
+            <ReportButton recipeId={r.id} recipeName={r.title ?? "Premium Recipe"} iconSize={11} />
           </div>
           <div className="flex items-center gap-1.5">
             {extracted && ingredients.length > 0 && (
@@ -417,6 +421,7 @@ function PremiumCard({ r: initialR }: { r: PremiumRow }) {
   );
 }
 import { RecipeCard } from "@/components/recipe-card";
+import { ReportButton } from "@/components/report-button";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { FilterBar, DietFilterBar, DifficultyFilterBar } from "@/components/filter-bar";
 import { SeasonalFilter, type SeasonalState } from "@/components/seasonal-filter";
@@ -426,6 +431,7 @@ import { CUISINES, CUISINE_REGIONS, getCuisineBySlug } from "@/lib/cuisines";
 import type { Recipe } from "@/lib/types";
 import { Globe2, SlidersHorizontal } from "lucide-react";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
+import { FilterDrawer, type FilterState as DrawerFilterState } from "@/components/filter-drawer";
 
 function flagEmoji(code: string): string {
   if (code.length !== 2) return "";
@@ -678,90 +684,18 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
             </div>
           </div>
 
-          {/* ── Filter Drawer Overlay + Panel ── */}
+          {/* ── Filter Drawer — Progressive Questionnaire ── */}
           {showFilterDrawer && (
-            <>
-              <div className="filter-drawer-overlay" onClick={() => setShowFilterDrawer(false)} />
-              <div className="filter-drawer-panel">
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-base font-bold" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
-                    Filters
-                  </h3>
-                  <button
-                    onClick={() => setShowFilterDrawer(false)}
-                    className="w-8 h-8 rounded-full flex items-center justify-center transition-opacity hover:opacity-70"
-                    style={{ background: "rgba(42,24,8,0.6)" }}
-                  >
-                    <X className="w-4 h-4" style={{ color: "#8A6A4A" }} />
-                  </button>
-                </div>
-
-                <div className="space-y-6">
-                  {/* Difficulty */}
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#6B4E36" }}>Difficulty</p>
-                    <DifficultyFilterBar active={difficultyFilter} onChange={setDifficultyFilter} />
-                  </div>
-
-                  {/* Dietary */}
-                  <div>
-                    <div className="flex items-center gap-2 mb-3">
-                      <p className="text-xs font-bold uppercase tracking-wider" style={{ color: "#6B4E36" }}>Dietary</p>
-                      {dietFilters.length > 0 && (
-                        <span className="text-xs font-semibold px-2 py-0.5 rounded-full"
-                          style={{ background: "rgba(30,80,200,0.2)", color: "#93C5FD" }}>
-                          {dietFilters.length} active
-                        </span>
-                      )}
-                    </div>
-                    <DietFilterBar active={dietFilters} onChange={setDietFilters} />
-                  </div>
-
-                  {/* Seasonal */}
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#6B4E36" }}>Seasonal</p>
-                    <SeasonalFilter key={seasonalKey} onChange={setSeasonal} />
-                  </div>
-
-                  {/* Pantry-First */}
-                  {pantryNames.length > 0 && (
-                    <div>
-                      <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#6B4E36" }}>Pantry</p>
-                      <button
-                        onClick={() => setPantryFirst(v => !v)}
-                        className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition-all w-full"
-                        style={{
-                          background: pantryFirst ? "#828E6F" : "#1C1209",
-                          color: pantryFirst ? "#fff" : "#828E6F",
-                          border: "1.5px solid #828E6F",
-                        }}
-                      >
-                        Pantry-First {pantryFirst ? "ON" : "OFF"}
-                        <span className="text-xs opacity-75">— show only recipes you can mostly make</span>
-                      </button>
-                    </div>
-                  )}
-
-                  {/* Apply / Clear */}
-                  <div className="flex gap-3 pt-2">
-                    <button
-                      onClick={() => { setDietFilters([]); setDifficultyFilter(null); setPantryFirst(false); setSeasonalKey(k => k + 1); }}
-                      className="flex-1 py-2.5 rounded-xl text-sm font-semibold border transition-all hover:opacity-80"
-                      style={{ borderColor: "#3A2416", color: "#8A6A4A", background: "#1C1209" }}
-                    >
-                      Clear all
-                    </button>
-                    <button
-                      onClick={() => setShowFilterDrawer(false)}
-                      className="flex-1 py-2.5 rounded-xl text-sm font-bold transition-all hover:opacity-90"
-                      style={{ background: "#C8522A", color: "#fff" }}
-                    >
-                      Apply
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </>
+            <FilterDrawer
+              onClose={() => setShowFilterDrawer(false)}
+              initial={{ dietary: dietFilters, difficulty: difficultyFilter ?? "", seasonality: seasonal.active ? seasonal.label : "" }}
+              onApply={(f: DrawerFilterState) => {
+                setDietFilters(f.dietary);
+                setDifficultyFilter(f.difficulty && f.difficulty !== "any" ? f.difficulty : null);
+                if (f.category && f.category !== "any") setType(f.category);
+                setShowFilterDrawer(false);
+              }}
+            />
           )}
         </div>
       </div>
@@ -1177,7 +1111,7 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="flex flex-col justify-center gap-1 py-3 pr-4">
+                    <div className="flex flex-col justify-center gap-1 py-3 pr-4 flex-1">
                       <p className="font-semibold text-sm leading-tight" style={{ color: "var(--fg-primary, #EFE3CE)" }}>{recipe.title}</p>
                       {recipe.description && (
                         <p className="text-xs line-clamp-2" style={{ color: "rgba(239,227,206,0.55)" }}>{recipe.description}</p>
@@ -1187,6 +1121,9 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
                           {(recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0)} min
                         </span>
                       )}
+                    </div>
+                    <div className="flex items-center pr-3" onClick={(e) => e.stopPropagation()}>
+                      <ReportButton recipeId={recipe.id} recipeName={recipe.title} iconSize={12} />
                     </div>
                   </div>
                 ))}
@@ -1212,7 +1149,10 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
                       className="absolute bottom-0 left-0 right-0 px-3 pb-3 pt-8"
                       style={{ background: "linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%)" }}
                     >
-                      <p className="text-sm font-semibold leading-tight" style={{ color: "#fff" }}>{recipe.title}</p>
+                      <p className="text-sm font-semibold leading-tight mb-1" style={{ color: "#fff" }}>{recipe.title}</p>
+                      <div onClick={(e) => e.stopPropagation()}>
+                        <ReportButton recipeId={recipe.id} recipeName={recipe.title} iconSize={11} />
+                      </div>
                     </div>
                   </div>
                 ))}
