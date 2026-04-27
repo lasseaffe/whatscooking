@@ -1,146 +1,272 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Sparkles, CalendarDays, Utensils, ChevronDown, ChevronUp } from "lucide-react";
+import { PLAN_TEMPLATES } from "./plan-templates";
+import { TemplateCard } from "./template-card";
+import { MealPlanDndBuilder } from "./dnd-builder";
 
-// --- Sub-Component: Skeleton Loader ---
-const RecipeSkeleton = () => (
-  <div className="animate-pulse space-y-4">
-    <div className="h-8 bg-gray-200 rounded w-3/4"></div>
-    <div className="flex gap-2">
-      <div className="h-4 bg-gray-200 rounded w-20"></div>
-      <div className="h-4 bg-gray-200 rounded w-20"></div>
-    </div>
-    <div className="space-y-2 pt-4">
-      <div className="h-4 bg-gray-100 rounded w-full"></div>
-      <div className="h-4 bg-gray-100 rounded w-5/6"></div>
-      <div className="h-4 bg-gray-100 rounded w-full"></div>
-    </div>
-  </div>
-);
+const DIETARY_OPTIONS = [
+  "vegetarian", "vegan", "gluten-free", "dairy-free",
+  "high-protein", "keto", "paleo", "low-carb",
+];
 
-// --- Main Page Component ---
-export default function NewRecipePage() {
-  const [loading, setLoading] = useState(false);
-  const [url, setUrl] = useState('');
-  
-  // Form State
-  const [recipeName, setRecipeName] = useState('');
-  const [ingredients, setIngredients] = useState([]);
+export default function NewPlanPage() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const presetId = searchParams.get("template");
 
- const handleImport = async () => {
-  if (!importUrl) return;
-  setIsLoading(true);
-  
-  try {
-    const res = await fetch('/api/scrape', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url: importUrl }),
-    });
+  const [selectedTemplate, setSelectedTemplate] = useState(
+    presetId ? PLAN_TEMPLATES.find((t) => t.id === presetId) ?? null : null
+  );
+  const [title, setTitle] = useState("");
+  const [durationDays, setDurationDays] = useState(7);
+  const [mealsPerDay, setMealsPerDay] = useState(3);
+  const [dietaryFilters, setDietaryFilters] = useState([]);
+  const [showCustom, setShowCustom] = useState(!presetId);
+  const [creating, setCreating] = useState(false);
+  const [error, setError] = useState("");
 
-    const data = await res.json();
-
-    // SUCCESS CASE: We got at least a title
-    if (data.title && data.title !== "Import Error") {
-      setRecipeName(data.title);
-      setIngredients(data.ingredients || []);
-      
-      // If ingredients are empty, we just show a small notification 
-      // instead of a giant error box that blocks the UI.
-      if (!data.ingredients || data.ingredients.length === 0) {
-        console.log("Bouncer blocked ingredients, but we got the title!");
-      }
-    } else {
-      // ACTUAL FAIL CASE: No title and no ingredients
-      alert("Chef couldn't even find the recipe name. Is the URL correct?");
+  // When a template is selected, pre-fill fields
+  useEffect(() => {
+    if (selectedTemplate) {
+      setTitle(selectedTemplate.title);
+      setDurationDays(selectedTemplate.durationDays);
+      setMealsPerDay(selectedTemplate.mealsPerDay);
+      setDietaryFilters(selectedTemplate.dietaryFilters);
     }
-  } catch (err) {
-    console.error("Import failed:", err);
-    alert("Connection error. Check your terminal!");
-  } finally {
-    setIsLoading(false);
+  }, [selectedTemplate]);
+
+  function toggleDiet(tag) {
+    setDietaryFilters((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+    );
   }
-};
+
+  async function create() {
+    if (!title.trim()) { setError("Give your plan a name."); return; }
+    setCreating(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/plans", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: title.trim(),
+          dietary_tags: dietaryFilters,
+          tags: selectedTemplate ? selectedTemplate.tags : [],
+          // Store duration/meals-per-day as part of description for now
+          description: selectedTemplate
+            ? selectedTemplate.description
+            : `${durationDays}-day plan, ${mealsPerDay} meals/day`,
+        }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json();
+        setError(data.error ?? "Failed to create plan.");
+        setCreating(false);
+        return;
+      }
+
+      const plan = await res.json();
+      router.push(`/plans/${plan.id}`);
+    } catch {
+      setError("Something went wrong. Please try again.");
+      setCreating(false);
+    }
+  }
+
+  // When arriving with a template param, skip the picker and go straight to the DnD builder
+  if (selectedTemplate && presetId) {
+    return (
+      <div className="px-4 sm:px-6 py-8 max-w-6xl mx-auto">
+        <div className="mb-6">
+          <h1
+            className="text-2xl font-bold flex items-center gap-2"
+            style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}
+          >
+            <span className="text-2xl">{selectedTemplate.emoji}</span>
+            {selectedTemplate.title}
+          </h1>
+          <p className="text-sm mt-1" style={{ color: "#8A6A4A" }}>
+            {selectedTemplate.subtitle} · {selectedTemplate.durationDays} days · {selectedTemplate.mealsPerDay} meals/day
+          </p>
+        </div>
+        <MealPlanDndBuilder template={selectedTemplate} />
+      </div>
+    );
+  }
 
   return (
-    <div className="p-6 max-w-3xl mx-auto min-h-screen pb-20">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">Create New Plan</h1>
-        <p className="text-gray-500">Import from the web or start from scratch.</p>
-      </header>
-      
-      {/* URL Input Section */}
-      <div className="flex gap-2 mb-10 p-4 bg-orange-50 rounded-2xl border border-orange-100 shadow-sm">
-        <input 
-          type="text" 
-          placeholder="Paste recipe URL (AllRecipes, FoodNetwork, etc.)"
-          className="flex-1 p-3 border-none rounded-xl focus:ring-2 focus:ring-orange-500 outline-none shadow-inner"
-          value={url}
-          onChange={(e) => setUrl(e.target.value)}
-        />
-        <button 
-          onClick={handleImport}
-          disabled={loading || !url}
-          className="bg-orange-500 text-white px-6 py-3 rounded-xl font-medium hover:bg-orange-600 disabled:bg-gray-300 transition-all shadow-md"
+    <div className="px-4 sm:px-6 py-8 max-w-4xl mx-auto">
+      <div className="mb-7">
+        <h1
+          className="text-2xl font-bold flex items-center gap-2"
+          style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}
         >
-          {loading ? 'Analyzing...' : 'Magic Import ✨'}
-        </button>
+          <CalendarDays className="w-6 h-6" style={{ color: "#C8522A" }} />
+          New Meal Plan
+        </h1>
+        <p className="text-sm mt-1" style={{ color: "#8A6A4A" }}>
+          Start from a template or build your own.
+        </p>
       </div>
 
-      <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
-        {loading ? (
-          <div className="py-10">
-            <p className="text-sm text-orange-400 mb-6 animate-bounce font-medium text-center">
-              Chef is reading the secret ingredients...
-            </p>
-            <RecipeSkeleton />
-          </div>
-        ) : recipeName ? (
-          <div className="space-y-8 fade-in">
-            {/* Title Field */}
+      {/* ── Template grid ─────────────────────────────────────────── */}
+      <section className="mb-8">
+        <div className="flex items-center gap-2 mb-4">
+          <Sparkles className="w-4 h-4" style={{ color: "#C8522A" }} />
+          <h2 className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>Choose a Template</h2>
+          <span className="text-xs" style={{ color: "#6B4E36" }}>— optional</span>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {PLAN_TEMPLATES.map((tpl) => (
+            <TemplateCard
+              key={tpl.id}
+              template={tpl}
+              selected={selectedTemplate?.id === tpl.id}
+              onSelect={() => {
+                if (selectedTemplate?.id === tpl.id) {
+                  setSelectedTemplate(null);
+                  setTitle("");
+                } else {
+                  setSelectedTemplate(tpl);
+                  setShowCustom(false);
+                }
+              }}
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* ── Plan details ───────────────────────────────────────────── */}
+      <section
+        className="rounded-2xl border p-5 space-y-5"
+        style={{ borderColor: "#3A2416", background: "#1C1209" }}
+      >
+        <button
+          type="button"
+          onClick={() => setShowCustom((v) => !v)}
+          className="flex items-center gap-2 text-sm font-semibold w-full text-left"
+          style={{ color: "#EFE3CE" }}
+        >
+          <Utensils className="w-4 h-4" style={{ color: "#C8522A" }} />
+          Customise plan details
+          {showCustom
+            ? <ChevronUp className="w-4 h-4 ml-auto" style={{ color: "#6B4E36" }} />
+            : <ChevronDown className="w-4 h-4 ml-auto" style={{ color: "#6B4E36" }} />}
+        </button>
+
+        {showCustom && (
+          <div className="space-y-4 pt-1">
             <div>
-              <label className="text-xs font-bold uppercase text-gray-400 tracking-wider">Recipe Name</label>
-              <input 
-                type="text" 
-                value={recipeName} 
-                onChange={(e) => setRecipeName(e.target.value)}
-                className="text-3xl font-bold w-full border-b border-gray-100 focus:border-orange-500 outline-none py-2 transition-all"
+              <label className="text-xs font-medium block mb-1" style={{ color: "#8A6A4A" }}>
+                Plan name *
+              </label>
+              <input
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+                placeholder="e.g. My High-Protein Week"
+                className="w-full px-3 py-2 rounded-xl border text-sm focus:outline-none"
+                style={{ borderColor: "#3A2416", background: "#130C05", color: "#EFE3CE" }}
               />
             </div>
 
-            {/* Ingredients Field */}
-            <div>
-              <label className="text-xs font-bold uppercase text-gray-400 tracking-wider">Ingredients</label>
-              <ul className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-                {ingredients.map((ing, i) => (
-                  <li key={i} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl border border-gray-100">
-                    <span className="h-2 w-2 bg-orange-500 rounded-full"></span>
-                    <span className="text-gray-700 text-sm">{ing}</span>
-                  </li>
-                ))}
-              </ul>
-              <button className="mt-4 text-orange-500 text-sm font-semibold hover:underline">+ Add manual ingredient</button>
+            <div className="grid grid-cols-2 gap-3">
+              <div>
+                <label className="text-xs font-medium block mb-1" style={{ color: "#8A6A4A" }}>
+                  Duration (days)
+                </label>
+                <input
+                  type="number"
+                  min={1}
+                  max={30}
+                  value={durationDays}
+                  onChange={(e) => setDurationDays(Number(e.target.value))}
+                  className="w-full px-3 py-2 rounded-xl border text-sm focus:outline-none"
+                  style={{ borderColor: "#3A2416", background: "#130C05", color: "#EFE3CE" }}
+                />
+              </div>
+              <div>
+                <label className="text-xs font-medium block mb-1" style={{ color: "#8A6A4A" }}>
+                  Meals per day
+                </label>
+                <input
+                  type="number"
+                  min={1}
+                  max={6}
+                  value={mealsPerDay}
+                  onChange={(e) => setMealsPerDay(Number(e.target.value))}
+                  className="w-full px-3 py-2 rounded-xl border text-sm focus:outline-none"
+                  style={{ borderColor: "#3A2416", background: "#130C05", color: "#EFE3CE" }}
+                />
+              </div>
             </div>
 
-            {/* Action Buttons */}
-            <div className="pt-6 flex justify-end gap-3">
-               <button className="px-6 py-2 text-gray-500 font-medium">Cancel</button>
-               <button className="px-8 py-2 bg-black text-white rounded-xl font-medium shadow-lg hover:bg-gray-800 transition-all">
-                 Save Recipe
-               </button>
+            <div>
+              <label className="text-xs font-medium block mb-2" style={{ color: "#8A6A4A" }}>
+                Dietary filters
+              </label>
+              <div className="flex flex-wrap gap-2">
+                {DIETARY_OPTIONS.map((tag) => (
+                  <button
+                    key={tag}
+                    type="button"
+                    onClick={() => toggleDiet(tag)}
+                    className="text-xs px-3 py-1.5 rounded-full border transition-all"
+                    style={{
+                      borderColor: dietaryFilters.includes(tag) ? "#C8522A" : "#3A2416",
+                      background: dietaryFilters.includes(tag) ? "#2A1010" : "#130C05",
+                      color: dietaryFilters.includes(tag) ? "#C8522A" : "#6B4E36",
+                    }}
+                  >
+                    {tag}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
-        ) : (
-          <div className="text-center py-20">
-            <div className="w-16 h-16 bg-gray-50 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-gray-300">🍳</span>
-            </div>
-            <h3 className="text-gray-900 font-semibold">Your pan is empty</h3>
-            <p className="text-gray-400 text-sm max-w-xs mx-auto">
-              Paste a URL above to autofill your recipe, or click here to start typing manually.
-            </p>
           </div>
         )}
+
+        {/* Name input always visible when template pre-fills it */}
+        {!showCustom && selectedTemplate && (
+          <div>
+            <label className="text-xs font-medium block mb-1" style={{ color: "#8A6A4A" }}>
+              Plan name *
+            </label>
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              className="w-full px-3 py-2 rounded-xl border text-sm focus:outline-none"
+              style={{ borderColor: "#3A2416", background: "#130C05", color: "#EFE3CE" }}
+            />
+          </div>
+        )}
+      </section>
+
+      {error && (
+        <p className="mt-3 text-sm" style={{ color: "#DC2626" }}>{error}</p>
+      )}
+
+      <div className="mt-6 flex gap-3">
+        <button
+          onClick={() => router.back()}
+          className="px-5 py-3 rounded-xl border text-sm font-medium"
+          style={{ borderColor: "#3A2416", color: "#6B4E36" }}
+        >
+          Cancel
+        </button>
+        <button
+          onClick={create}
+          disabled={creating || !title.trim()}
+          className="flex-1 py-3 rounded-xl font-semibold text-sm disabled:opacity-50"
+          style={{ background: "#C8522A", color: "#fff" }}
+        >
+          {creating ? "Creating…" : "Create plan →"}
+        </button>
       </div>
     </div>
   );
