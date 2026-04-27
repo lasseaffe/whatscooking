@@ -156,7 +156,7 @@ export function SOSCookingHelper({ recipeTitle, ingredients }: Props) {
               </div>
               <button
                 onClick={() => setOpen(false)}
-                className="w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-white/20"
+                className="w-8 h-8 rounded-full flex items-center justify-center transition-all hover:bg-[var(--glow-on-neutral-hover)]"
                 style={{ color: "#fff" }}
               >
                 ✕
