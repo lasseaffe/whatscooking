@@ -76,7 +76,7 @@ export const SparksCarousel = React.forwardRef<HTMLDivElement, SparksCarouselPro
                 transition={{ duration: 0.4, delay: index * 0.08 }}
                 onClick={() => onItemClick?.(item)}
               >
-                <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20 backdrop-blur-sm shadow-sm transition-shadow hover:shadow-md">
+                <div className="overflow-hidden rounded-2xl border border-[var(--border-primary)] bg-[var(--bg-secondary)] shadow-sm transition-shadow hover:shadow-md">
                   <div className="relative aspect-video overflow-hidden">
                     <img
                       alt={item.title}
@@ -84,7 +84,7 @@ export const SparksCarousel = React.forwardRef<HTMLDivElement, SparksCarouselPro
                       src={item.imageSrc}
                     />
                     {item.badge && (
-                      <span className="absolute top-2 right-2 text-xs font-bold px-2 py-0.5 rounded-full bg-black/50 text-white backdrop-blur-sm">
+                      <span className="absolute top-2 right-2 text-xs font-bold px-2 py-0.5 rounded-full bg-[var(--bg-tertiary)] text-[var(--fg-primary)] border border-[var(--border-primary)]">
                         {item.badge}
                       </span>
                     )}
@@ -100,7 +100,7 @@ export const SparksCarousel = React.forwardRef<HTMLDivElement, SparksCarouselPro
           {!isAtStart && (
             <button
               onClick={() => scroll("left")}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full bg-black/60 backdrop-blur-sm border border-white/10 text-white shadow-md hover:bg-black/80 transition-colors"
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full bg-[var(--bg-tertiary)] border border-[var(--border-primary)] text-[var(--fg-primary)] shadow-md hover:bg-[var(--bg-quaternary)] transition-colors"
               aria-label="Scroll left"
             >
               <ChevronLeft className="h-5 w-5" />
@@ -109,7 +109,7 @@ export const SparksCarousel = React.forwardRef<HTMLDivElement, SparksCarouselPro
           {!isAtEnd && (
             <button
               onClick={() => scroll("right")}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full bg-black/60 backdrop-blur-sm border border-white/10 text-white shadow-md hover:bg-black/80 transition-colors"
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full bg-[var(--bg-tertiary)] border border-[var(--border-primary)] text-[var(--fg-primary)] shadow-md hover:bg-[var(--bg-quaternary)] transition-colors"
               aria-label="Scroll right"
             >
               <ChevronRight className="h-5 w-5" />
