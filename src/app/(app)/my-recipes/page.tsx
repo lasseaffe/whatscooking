@@ -103,7 +103,7 @@ export default async function MyRecipesPage() {
                         </div>
                       )}
                       <div className="absolute top-2 right-2">
-                        <span className="flex items-center gap-1 text-xs px-2 py-1 rounded-full backdrop-blur-sm"
+                        <span className="flex items-center gap-1 text-xs px-2 py-1 rounded-full"
                           style={{ background: "rgba(200,82,42,0.85)", color: "#fff" }}>
                           <Shuffle className="w-3 h-3" /> Swipe
                         </span>
