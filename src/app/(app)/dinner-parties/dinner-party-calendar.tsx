@@ -310,13 +310,13 @@ export function DinnerPartyCalendar({ parties, userId }: { parties: Party[]; use
         {/* Month header */}
         <div className="flex items-center justify-between px-5 py-4"
           style={{ background: "linear-gradient(135deg, #FFF8F0, #FFF0E0)" }}>
-          <button onClick={prevMonth} className="p-1.5 rounded-lg hover:bg-white/60 transition-colors">
+          <button onClick={prevMonth} className="p-1.5 rounded-lg hover:bg-[var(--bg-quaternary)] transition-colors">
             <ChevronLeft className="w-4 h-4" style={{ color: "#3D2817" }} />
           </button>
           <h2 className="font-bold text-base" style={{ color: "#3D2817" }}>
             {MONTHS[month]} {year}
           </h2>
-          <button onClick={nextMonth} className="p-1.5 rounded-lg hover:bg-white/60 transition-colors">
+          <button onClick={nextMonth} className="p-1.5 rounded-lg hover:bg-[var(--bg-quaternary)] transition-colors">
             <ChevronRight className="w-4 h-4" style={{ color: "#3D2817" }} />
           </button>
         </div>
