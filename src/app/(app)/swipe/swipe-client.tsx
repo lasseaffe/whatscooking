@@ -44,6 +44,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: Recipe[]; i
   const { restrictions, customAvoid } = useDietaryMode();
   const [difficultyFilter, setDifficultyFilter] = useState<"all" | "easy" | "medium" | "hard">("all");
   const [showFilters, setShowFilters] = useState(false);
+  const [sessionKey, setSessionKey] = useState(0);
 
   const filteredRecipes = useMemo(() => {
     return recipes.filter((r) => {
@@ -60,7 +61,10 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: Recipe[]; i
     });
   }, [recipes, restrictions, customAvoid, difficultyFilter]);
 
-  const [deck, setDeck] = useState(filteredRecipes);
+  const filteredRef = useRef(filteredRecipes);
+  filteredRef.current = filteredRecipes;
+
+  const [deck, setDeck] = useState(() => [...filteredRecipes].sort(() => Math.random() - 0.5));
   const [liked, setLiked] = useState<Recipe[]>([]);
   const [skipped, setSkipped] = useState<Recipe[]>([]);
   const [done, setDone] = useState(false);
@@ -68,12 +72,13 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: Recipe[]; i
   const [previewRecipe, setPreviewRecipe] = useState<Recipe | null>(null);
 
   useEffect(() => {
-    setDeck([...filteredRecipes]);
+    const next = filteredRef.current.length > 0 ? filteredRef.current : recipes;
+    setDeck([...next].sort(() => Math.random() - 0.5));
     setLiked([]);
     setSkipped([]);
     setDone(false);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [restrictions.join(","), customAvoid.join(","), difficultyFilter]);
+  }, [restrictions.join(","), customAvoid.join(","), difficultyFilter, sessionKey]);
 
   // Drag state
   const [dragging, setDragging] = useState(false);
@@ -182,22 +187,26 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: Recipe[]; i
   const nopeOpacity = Math.max(0, Math.min(1, (-dragX - 20) / 80));
   const filteredOut = recipes.length - filteredRecipes.length;
 
+  const handleRestart = useCallback(() => {
+    const source = filteredRef.current.length > 0 ? filteredRef.current : recipes;
+    const fresh = [...source].sort(() => Math.random() - 0.5);
+    setDeck(fresh);
+    setLiked([]);
+    setSkipped([]);
+    setDone(false);
+    setExiting(null);
+    setDragX(0);
+    setDragY(0);
+    setDragging(false);
+  }, [recipes]);
+
   if (done || deck.length === 0) {
     return (
       <MatchScreen
         liked={liked}
         savedIds={savedIds}
         onToggleSave={toggleSave}
-        onRestart={() => {
-        setDeck([...filteredRecipes].sort(() => Math.random() - 0.5));
-        setLiked([]);
-        setSkipped([]);
-        setDone(false);
-        setExiting(null);
-        setDragX(0);
-        setDragY(0);
-        setDragging(false);
-      }}
+        onRestart={handleRestart}
       />
     );
   }
@@ -309,13 +318,13 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: Recipe[]; i
 
       {/* Action buttons */}
       <div className="flex items-center gap-6 mt-4">
-        <button onClick={() => commitSwipe("left")} disabled={!!exiting}
+        <button type="button" onClick={() => commitSwipe("left")} disabled={!!exiting}
           className="w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform active:scale-90 hover:scale-110"
           style={{ background: "#fff", border: "2px solid #F5E6D3" }} aria-label="Skip">
           <X className="w-6 h-6" style={{ color: "#C85A2F" }} />
         </button>
 
-        <button onClick={() => currentCard && toggleSave(currentCard)} disabled={!currentCard}
+        <button type="button" onClick={() => currentCard && toggleSave(currentCard)} disabled={!currentCard}
           className="w-12 h-12 rounded-full flex items-center justify-center shadow-md transition-transform active:scale-90 hover:scale-110 disabled:opacity-30"
           style={{ background: "#fff", border: "2px solid #F5E6D3" }} aria-label="Save to My Recipes">
           {currentCard && savedIds.has(currentCard.id)
@@ -323,14 +332,14 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: Recipe[]; i
             : <Bookmark className="w-5 h-5" style={{ color: "#A69180" }} />}
         </button>
 
-        <button onClick={() => commitSwipe("right")} disabled={!!exiting}
+        <button type="button" onClick={() => commitSwipe("right")} disabled={!!exiting}
           className="w-18 h-18 rounded-full flex items-center justify-center shadow-xl transition-transform active:scale-90 hover:scale-110"
           style={{ width: 72, height: 72, background: "linear-gradient(135deg, #C85A2F, #E8834A)" }}
           aria-label="Like">
           <Heart className="w-8 h-8 fill-white text-white" />
         </button>
 
-        <button onClick={() => currentCard && setPreviewRecipe(currentCard)} disabled={!currentCard}
+        <button type="button" onClick={() => currentCard && setPreviewRecipe(currentCard)} disabled={!currentCard}
           className="w-12 h-12 rounded-full flex items-center justify-center shadow-md transition-transform active:scale-90 hover:scale-110 disabled:opacity-30"
           style={{ background: "#fff", border: "2px solid #F5E6D3" }} aria-label="View recipe">
           <Info className="w-5 h-5" style={{ color: "#A69180" }} />
@@ -393,7 +402,7 @@ function RecipeCard({
         <button
           onPointerDown={(e) => e.stopPropagation()}
           onClick={(e) => { e.stopPropagation(); onInfo(); }}
-          className="w-9 h-9 rounded-full flex items-center justify-center backdrop-blur-sm transition-opacity hover:opacity-80"
+          className="w-9 h-9 rounded-full flex items-center justify-center transition-opacity hover:opacity-80"
           style={{ background: "rgba(0,0,0,0.35)" }}
           aria-label="View details"
         >
@@ -402,7 +411,7 @@ function RecipeCard({
         <button
           onPointerDown={(e) => e.stopPropagation()}
           onClick={(e) => { e.stopPropagation(); onToggleSave(); }}
-          className="w-9 h-9 rounded-full flex items-center justify-center backdrop-blur-sm transition-opacity hover:opacity-80"
+          className="w-9 h-9 rounded-full flex items-center justify-center transition-opacity hover:opacity-80"
           style={{ background: saved ? "rgba(44,74,140,0.8)" : "rgba(0,0,0,0.35)" }}
           aria-label="Save"
         >
@@ -652,7 +661,7 @@ function RecipePreviewSheet({
 
           {/* Action buttons */}
           <div className="flex gap-3">
-            <button onClick={onSkip}
+            <button type="button" onClick={onSkip}
               className="flex-1 py-3.5 rounded-2xl font-semibold text-sm transition-opacity hover:opacity-80 flex items-center justify-center gap-2"
               style={{ background: "#F5EDE4", color: "#6B5B52" }}>
               <X className="w-4 h-4" /> Skip
@@ -664,7 +673,7 @@ function RecipePreviewSheet({
               {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
               {saved ? "Saved" : "Save"}
             </button>
-            <button onClick={onLike}
+            <button type="button" onClick={onLike}
               className="flex-1 py-3.5 rounded-2xl font-semibold text-sm text-white transition-opacity hover:opacity-90 flex items-center justify-center gap-2"
               style={{ background: "linear-gradient(135deg, #C85A2F, #E8834A)" }}>
               <Heart className="w-4 h-4 fill-white" /> Like
@@ -774,7 +783,7 @@ function MatchScreen({ liked, savedIds, onToggleSave, onRestart }: {
       )}
 
       <div className="flex flex-col gap-3">
-        <button onClick={onRestart}
+        <button type="button" onClick={onRestart}
           className="w-full py-3.5 rounded-2xl font-semibold text-white transition-opacity hover:opacity-90"
           style={{ background: "linear-gradient(135deg, #C85A2F, #E8834A)" }}>
           Swipe Again
