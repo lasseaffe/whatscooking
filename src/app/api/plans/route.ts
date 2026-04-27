@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const body = await req.json();
-  const { title, cuisine, plan_type, serves, start_date, end_date, description, is_public, dietary_tags, tags } = body;
+  const { title, cuisine, plan_type, serves, start_date, end_date, description, is_public, dietary_tags, tags, duration_days, meals_per_day } = body;
 
   if (!title?.trim()) return NextResponse.json({ error: "Title is required" }, { status: 400 });
 
@@ -50,6 +50,8 @@ export async function POST(req: NextRequest) {
       dietary_tags: dietary_tags ?? [],
       tags: tags ?? [],
       status: "draft",
+      duration_days: duration_days ?? null,
+      meals_per_day: meals_per_day ?? null,
     })
     .select()
     .single();
