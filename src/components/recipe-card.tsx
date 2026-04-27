@@ -119,7 +119,7 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
       {/* Premium badge — top-left */}
       {isPremium && (
         <div className="absolute top-2 left-2 z-10">
-          <span className="rc-card__badge rc-card__badge--premium backdrop-blur-sm">
+          <span className="rc-card__badge rc-card__badge--premium">
             ★ Premium
           </span>
         </div>
@@ -129,7 +129,7 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
       {mealPlanMatch && (
         <div className="absolute top-2 right-2 z-10">
           <span
-            className="rc-card__badge backdrop-blur-sm"
+            className="rc-card__badge"
             style={{ background: "rgba(115,190,89,0.85)", color: "#fff" }}
           >
             Plan Match
