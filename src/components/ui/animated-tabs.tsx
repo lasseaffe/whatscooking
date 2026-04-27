@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 export interface Tab {
   id: string;
-  label: string;
+  label: React.ReactNode;
   content: React.ReactNode;
 }
 
@@ -14,16 +14,24 @@ interface AnimatedTabsProps {
   tabs: Tab[];
   defaultTab?: string;
   className?: string;
+  /** Controlled active tab. When provided, pairs with onTabChange. */
+  activeTab?: string;
+  onTabChange?: (id: string) => void;
 }
 
-export const AnimatedTabs = ({ tabs, defaultTab, className }: AnimatedTabsProps) => {
-  const [activeTab, setActiveTab] = useState<string>(defaultTab || tabs[0]?.id);
+export const AnimatedTabs = ({ tabs, defaultTab, className, activeTab: controlledTab, onTabChange }: AnimatedTabsProps) => {
+  const [internalTab, setInternalTab] = useState<string>(defaultTab || tabs[0]?.id);
+  const activeTab = controlledTab ?? internalTab;
+  const setActiveTab = (id: string) => {
+    if (controlledTab === undefined) setInternalTab(id);
+    onTabChange?.(id);
+  };
 
   if (!tabs?.length) return null;
 
   return (
     <div className={cn("w-full flex flex-col gap-y-1", className)}>
-      <div className="flex gap-2 flex-wrap bg-black/30 backdrop-blur-sm p-1 rounded-xl">
+      <div className="flex gap-2 flex-wrap bg-[var(--bg-secondary)] border border-[var(--border-primary)] p-1 rounded-xl">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -33,7 +41,7 @@ export const AnimatedTabs = ({ tabs, defaultTab, className }: AnimatedTabsProps)
             {activeTab === tab.id && (
               <motion.div
                 layoutId="active-tab"
-                className="absolute inset-0 bg-black/50 shadow-md backdrop-blur-sm !rounded-lg"
+                className="absolute inset-0 bg-[var(--bg-tertiary)] shadow-md !rounded-lg"
                 transition={{ type: "spring", duration: 0.6 }}
               />
             )}
@@ -42,7 +50,7 @@ export const AnimatedTabs = ({ tabs, defaultTab, className }: AnimatedTabsProps)
         ))}
       </div>
 
-      <div className="p-4 bg-black/30 backdrop-blur-sm rounded-xl border border-white/10 min-h-20">
+      <div className="p-4 bg-[var(--bg-secondary)] rounded-xl border border-[var(--border-primary)] min-h-20">
         {tabs.map(
           (tab) =>
             activeTab === tab.id && (
