@@ -1,35 +1,43 @@
 import Link from "next/link";
-import { Sparkles, ExternalLink, BookOpen, Flame, Users, TrendingUp, Heart, Calendar, ShoppingBasket } from "lucide-react";
+import { Sparkles, ExternalLink, BookOpen, Flame, Users, TrendingUp, Heart, Calendar, ShoppingBasket, UtensilsCrossed } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col" style={{ background: "#0D0907", color: "#EFE3CE" }}>
+    <div className="min-h-screen flex flex-col" style={{ color: "var(--fg-primary, #fff)" }}>
 
-      {/* ── Nav ─────────────────────────────────────────── */}
+      {/* ── Nav ─────────────────────────────────────────────── */}
       <header
         className="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-8 py-4"
-        style={{ background: "rgba(13,9,7,0.55)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(255,255,255,0.06)" }}
+        style={{
+          background: "color-mix(in srgb, var(--bg-depth, #090908) 70%, transparent)",
+          backdropFilter: "blur(14px)",
+          borderBottom: "1px solid color-mix(in srgb, var(--wc-pal-accent, #B07040) 18%, transparent)",
+        }}
       >
-        {/* Logo */}
-        <div className="flex items-center gap-2.5">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden>
-            <circle cx="11" cy="11" r="10" stroke="#C8522A" strokeWidth="1.5" />
-            <path d="M7 11 C7 8 11 6 15 11 C11 16 7 14 7 11Z" fill="#C8522A" opacity="0.7" />
-          </svg>
-          <span className="font-serif-display text-sm tracking-widest uppercase" style={{ color: "#EFE3CE", letterSpacing: "0.12em" }}>
+        {/* Logotype */}
+        <div className="flex items-center gap-3">
+          <UtensilsCrossed
+            className="w-[18px] h-[18px]"
+            strokeWidth={1.4}
+            style={{ color: "var(--wc-accent-persimmon, #8B2635)" }}
+          />
+          <span
+            className="font-serif-display text-sm tracking-[0.12em] uppercase"
+            style={{ color: "var(--fg-primary, #EFE3CE)" }}
+          >
             What&apos;s Cooking
           </span>
         </div>
 
         {/* Nav links */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-10">
           {["Discover", "Recipes", "Plans", "Premium"].map((label) => (
             <Link
               key={label}
               href={`/${label.toLowerCase()}`}
-              className="text-xs tracking-widest uppercase transition-opacity hover:opacity-100 opacity-70"
-              style={{ color: "#EFE3CE", letterSpacing: "0.1em" }}
+              className="label-ornament transition-opacity opacity-55 hover:opacity-100"
+              style={{ color: "var(--fg-primary, #EFE3CE)" }}
             >
               {label}
             </Link>
@@ -41,89 +49,85 @@ export default function LandingPage() {
           <ThemeToggle variant="compact" />
           <Link
             href="/login"
-            className="text-xs tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity hidden sm:block"
-            style={{ color: "#EFE3CE" }}
+            className="label-ornament opacity-50 hover:opacity-90 transition-opacity hidden sm:block"
+            style={{ color: "var(--fg-primary, #EFE3CE)" }}
           >
             Sign in
           </Link>
           <Link
             href="/signup"
-            className="text-xs tracking-widest uppercase px-4 py-2 rounded-sm transition-all hover:opacity-90"
-            style={{ background: "#C8522A", color: "#fff", letterSpacing: "0.08em" }}
+            className="label-ornament px-5 py-2.5 transition-all hover:opacity-90"
+            style={{
+              background: "var(--wc-accent-persimmon, #8B2635)",
+              color: "#F8F3E8",
+              letterSpacing: "0.08em",
+            }}
           >
             Get started
           </Link>
         </div>
       </header>
 
-      {/* ── Hero ────────────────────────────────────────── */}
+      {/* ── Hero — full-bleed video ───────────────────────────── */}
       <section className="relative w-full" style={{ height: "100svh", minHeight: 600 }}>
-
-        {/* Full-bleed video background */}
         <div className="absolute inset-0 overflow-hidden">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover"
-          >
+          <video autoPlay muted loop playsInline className="w-full h-full object-cover">
             <source src="/boiling-sauce.mp4" type="video/mp4" />
           </video>
-          {/* Dark overlay gradient */}
           <div
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(to bottom, rgba(13,9,7,0.45) 0%, rgba(13,9,7,0.22) 30%, rgba(13,9,7,0.60) 70%, rgba(13,9,7,0.90) 100%)",
+                "linear-gradient(to bottom, rgba(13,9,7,0.40) 0%, rgba(13,9,7,0.18) 28%, rgba(13,9,7,0.58) 68%, rgba(13,9,7,0.92) 100%)",
             }}
           />
         </div>
 
-        {/* Hero copy — centred */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 gap-8">
-
-          {/* Eyebrow */}
-          <p
-            className="text-xs tracking-widest uppercase animate-fade-in"
-            style={{ color: "rgba(239,227,206,0.6)", letterSpacing: "0.18em" }}
-          >
-            Established 2024
-          </p>
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 gap-7">
+          {/* Eyebrow ornament */}
+          <div className="flex items-center gap-4 animate-fade-in" style={{ color: "rgba(239,227,206,0.5)" }}>
+            <span className="h-px w-8" style={{ background: "var(--wc-accent-persimmon, #8B2635)" }} />
+            <span className="label-ornament">Established 2024 — Volume I</span>
+            <span className="h-px w-8" style={{ background: "var(--wc-accent-persimmon, #8B2635)" }} />
+          </div>
 
           {/* Headline */}
           <h1
             className="font-serif-display animate-fade-in-up"
             style={{
-              fontSize: "clamp(2.6rem, 6.5vw, 5.5rem)",
-              lineHeight: 1.12,
+              fontSize: "clamp(2.8rem, 7vw, 6rem)",
+              lineHeight: 1.08,
               color: "#F5EDD8",
-              maxWidth: "14ch",
-              textShadow: "0 2px 32px rgba(0,0,0,0.55)",
+              maxWidth: "15ch",
+              textShadow: "0 2px 40px rgba(0,0,0,0.6)",
               fontStyle: "italic",
+              fontWeight: 300,
             }}
           >
-            The soul of the home is the simmer of the stove.
+            The soul of the home is the{" "}
+            <em style={{ color: "var(--wc-accent-persimmon, #8B2635)", fontStyle: "italic" }}>
+              simmer of the stove.
+            </em>
           </h1>
 
           {/* CTAs */}
-          <div className="flex flex-wrap gap-3 justify-center animate-fade-in delay-200">
+          <div className="flex flex-wrap gap-3 justify-center animate-fade-in" style={{ animationDelay: "200ms" }}>
             <Link
               href="/discover"
-              className="px-7 py-3 text-xs tracking-widest uppercase font-medium transition-all hover:opacity-90 btn-primary-glow"
-              style={{ background: "#C8522A", color: "#fff", letterSpacing: "0.1em" }}
+              className="label-ornament px-8 py-3.5 transition-all hover:opacity-90 btn-primary-glow"
+              style={{ background: "var(--wc-accent-persimmon, #8B2635)", color: "#F8F3E8", letterSpacing: "0.1em" }}
             >
               Explore the journal
             </Link>
             <Link
               href="/signup"
-              className="px-7 py-3 text-xs tracking-widest uppercase font-medium transition-all hover:bg-white/10"
+              className="label-ornament px-8 py-3.5 transition-all hover:bg-[var(--glow-on-neutral-hover)]"
               style={{
-                border: "1px solid rgba(239,227,206,0.5)",
+                border: "1px solid rgba(239,227,206,0.4)",
                 color: "#EFE3CE",
                 letterSpacing: "0.1em",
-                background: "rgba(13,9,7,0.25)",
-                backdropFilter: "blur(6px)",
+                background: "rgba(13,9,7,0.2)",
+                backdropFilter: "blur(8px)",
               }}
             >
               Today&apos;s specials
@@ -133,72 +137,181 @@ export default function LandingPage() {
 
         {/* Scroll hint */}
         <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in delay-500"
-          style={{ color: "rgba(239,227,206,0.4)" }}
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+          style={{ color: "rgba(239,227,206,0.35)" }}
           aria-hidden
         >
-          <span className="text-xs tracking-widest uppercase" style={{ letterSpacing: "0.14em", fontSize: "0.6rem" }}>Scroll</span>
-          <div className="w-px h-10" style={{ background: "linear-gradient(to bottom, rgba(239,227,206,0.3), transparent)" }} />
+          <span className="label-ornament" style={{ fontSize: "0.55rem" }}>Scroll</span>
+          <div className="w-px h-10" style={{ background: "linear-gradient(to bottom, rgba(239,227,206,0.28), transparent)" }} />
         </div>
       </section>
 
-      {/* ── Features strip ──────────────────────────────── */}
-      <section className="px-8 py-24 max-w-6xl mx-auto w-full">
-        <div className="flex items-center gap-4 mb-14">
-          <div className="h-px flex-1" style={{ background: "linear-gradient(to right, transparent, #3A2416)" }} />
+      {/* ── Section divider ornament ─────────────────────── */}
+      <SectionDivider />
+
+      {/* ── Features grid ────────────────────────────────── */}
+      <section className="relative z-10 px-8 py-20 max-w-6xl mx-auto w-full">
+        {/* Section label */}
+        <div className="text-center mb-16 space-y-4">
+          <p className="label-ornament" style={{ color: "var(--wc-accent-persimmon, #8B2635)", letterSpacing: "0.45em" }}>
+            — The Kitchen, Reimagined —
+          </p>
           <h2
-            className="font-serif-display text-center"
-            style={{ color: "#8A6A4A", fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase" }}
+            className="font-serif-display"
+            style={{
+              fontSize: "clamp(2rem, 5vw, 3.8rem)",
+              color: "var(--fg-primary, #EFE3CE)",
+              fontWeight: 300,
+              fontStyle: "italic",
+            }}
           >
-            The kitchen, reimagined
+            Four courses of <em style={{ color: "var(--wc-accent-persimmon, #8B2635)" }}>software</em>
           </h2>
-          <div className="h-px flex-1" style={{ background: "linear-gradient(to left, transparent, #3A2416)" }} />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px" style={{ background: "#261708" }}>
+        {/* Grid */}
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px"
+          style={{
+            background: "color-mix(in srgb, var(--wc-pal-accent, #B07040) 15%, transparent)",
+            border: "1px solid color-mix(in srgb, var(--wc-pal-accent, #B07040) 20%, transparent)",
+          }}
+        >
           {features.map((f, i) => (
             <div
               key={i}
-              className="p-8 transition-colors feature-cell"
+              className="p-9 transition-colors feature-cell group"
+              style={{ background: "var(--bg-primary, #121211)" }}
             >
-              <div className="w-8 h-8 flex items-center justify-center mb-5 rounded-sm" style={{ background: "#1C1209" }}>
-                <f.icon className="w-4 h-4" style={{ color: "#C8522A" }} />
+              <div
+                className="flex items-start justify-between mb-6"
+              >
+                <div
+                  className="w-9 h-9 flex items-center justify-center"
+                  style={{ background: "color-mix(in srgb, var(--wc-accent-persimmon, #8B2635) 12%, transparent)" }}
+                >
+                  <f.icon
+                    className="w-4 h-4"
+                    strokeWidth={1.3}
+                    style={{ color: "var(--wc-accent-persimmon, #8B2635)" }}
+                  />
+                </div>
+                <span className="label-ornament opacity-40" style={{ fontSize: "0.58rem", letterSpacing: "0.3em" }}>
+                  Course {(i + 1).toString().padStart(2, "0")}
+                </span>
               </div>
               <h3
-                className="font-serif-display mb-3"
-                style={{ color: "#EFE3CE", fontSize: "1.05rem" }}
+                className="font-serif-display mb-3 group-hover:text-claret transition-colors"
+                style={{ color: "var(--fg-primary, #EFE3CE)", fontSize: "1.1rem", fontWeight: 400 }}
               >
                 {f.title}
               </h3>
-              <p className="text-sm leading-relaxed" style={{ color: "#6B4E36" }}>{f.description}</p>
+              <p className="text-sm leading-relaxed" style={{ color: "var(--fg-tertiary, #9c9c9b)" }}>
+                {f.description}
+              </p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* ── Plan Your Event teaser ───────────────────────── */}
-      <section className="px-8 pb-16 max-w-6xl mx-auto w-full">
-        <div className="relative overflow-hidden rounded-sm" style={{background:"linear-gradient(135deg,#1C0E06,#2A1206)", border:"1px solid #3A2416"}}>
+      {/* ── Editorial quote ───────────────────────────────── */}
+      <section className="relative z-10 px-8 py-20 max-w-5xl mx-auto w-full">
+        <div className="text-center space-y-6">
+          <hr className="rule-editorial max-w-xs mx-auto" />
+          <blockquote
+            className="font-serif-display"
+            style={{
+              fontSize: "clamp(1.5rem, 4vw, 2.8rem)",
+              color: "var(--fg-primary, #EFE3CE)",
+              fontStyle: "italic",
+              fontWeight: 300,
+              lineHeight: 1.35,
+              maxWidth: "34ch",
+              margin: "0 auto",
+            }}
+          >
+            &ldquo;Cooking is at once child&apos;s play and adult joy.{" "}
+            <em style={{ color: "var(--wc-accent-persimmon, #8B2635)" }}>
+              And cooking done with care
+            </em>{" "}
+            is an act of love.&rdquo;
+          </blockquote>
+          <footer className="label-ornament opacity-40" style={{ fontSize: "0.6rem" }}>
+            — Craig Claiborne
+          </footer>
+          <hr className="rule-editorial max-w-xs mx-auto" />
+        </div>
+      </section>
+
+      {/* ── Plan Your Event teaser ────────────────────────── */}
+      <section className="relative z-10 px-8 pb-12 max-w-6xl mx-auto w-full">
+        <div
+          className="relative overflow-hidden"
+          style={{
+            background: "linear-gradient(135deg, var(--bg-secondary, #171716), var(--bg-tertiary, #1f1f1e))",
+            border: "1px solid color-mix(in srgb, var(--wc-pal-accent, #B07040) 18%, transparent)",
+          }}
+        >
+          {/* Top accent rule */}
+          <div
+            className="absolute top-0 left-0 right-0"
+            style={{
+              height: "2px",
+              background: "linear-gradient(to right, transparent, var(--wc-accent-persimmon, #8B2635), transparent)",
+              opacity: 0.6,
+            }}
+          />
           <div className="px-10 py-10 flex flex-col sm:flex-row items-start sm:items-center gap-8">
             <div className="flex-1">
-              <p className="text-xs tracking-widest uppercase mb-3" style={{color:"#8A6A4A",letterSpacing:"0.16em"}}>New feature</p>
-              <h2 className="font-serif-display text-2xl mb-3" style={{color:"#EFE3CE"}}>Plan the perfect occasion</h2>
-              <p className="text-sm leading-relaxed max-w-lg" style={{color:"#8A6A4A"}}>Date night, family brunch, birthday party — pick your occasion and get AI-curated recipes, decoration ideas, and a full itinerary.</p>
-              <Link href="/events" className="inline-block mt-5 text-xs px-5 py-2.5 tracking-widest uppercase" style={{background:"#C8522A",color:"#fff",letterSpacing:"0.08em"}}>Plan an event</Link>
+              <p className="label-ornament mb-3" style={{ color: "var(--wc-pal-accent, #B07040)", letterSpacing: "0.4em" }}>
+                New feature
+              </p>
+              <h2
+                className="font-serif-display text-2xl mb-3"
+                style={{ color: "var(--fg-primary, #EFE3CE)", fontWeight: 300, fontStyle: "italic" }}
+              >
+                Plan the perfect occasion
+              </h2>
+              <p className="text-sm leading-relaxed max-w-lg" style={{ color: "var(--fg-tertiary, #9c9c9b)" }}>
+                Date night, family brunch, birthday party — pick your occasion and get AI-curated recipes,
+                decoration ideas, and a full itinerary.
+              </p>
+              <Link
+                href="/events"
+                className="inline-block mt-5 label-ornament px-5 py-2.5 transition-all hover:opacity-90"
+                style={{ background: "var(--wc-accent-persimmon, #8B2635)", color: "#F8F3E8", letterSpacing: "0.08em" }}
+              >
+                Plan an event
+              </Link>
             </div>
-            <div className="text-6xl shrink-0 hidden sm:block select-none opacity-70">🎉</div>
+            {/* Editorial accent block */}
+            <div
+              className="shrink-0 hidden sm:flex items-center justify-center w-24 h-24"
+              style={{
+                border: "1px solid color-mix(in srgb, var(--wc-accent-persimmon, #8B2635) 30%, transparent)",
+              }}
+            >
+              <Calendar
+                className="w-8 h-8"
+                strokeWidth={1}
+                style={{ color: "var(--wc-accent-persimmon, #8B2635)", opacity: 0.6 }}
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ── Flavour ad ──────────────────────────────────── */}
-      <section className="px-8 pb-24 max-w-6xl mx-auto w-full">
+      {/* ── Flavour ad — Dirty Soda ───────────────────────── */}
+      <section className="relative z-10 px-8 pb-24 max-w-6xl mx-auto w-full">
         <div
           className="relative overflow-hidden"
-          style={{ background: "linear-gradient(120deg, #1C0E06 0%, #2A1206 50%, #3A1A08 100%)", border: "1px solid #3A2416" }}
+          style={{
+            background: "linear-gradient(120deg, var(--bg-secondary, #171716) 0%, var(--bg-tertiary, #1f1f1e) 100%)",
+            border: "1px solid color-mix(in srgb, var(--wc-pal-accent, #B07040) 15%, transparent)",
+          }}
         >
           <div
-            className="absolute inset-0 opacity-10"
+            className="absolute inset-0 opacity-[0.08]"
             style={{
               backgroundImage: `url("https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=60")`,
               backgroundSize: "cover",
@@ -207,21 +320,24 @@ export default function LandingPage() {
           />
           <div className="relative px-10 py-10 flex flex-col sm:flex-row items-start sm:items-center gap-8">
             <div className="flex-1">
-              <p className="text-xs tracking-widest uppercase mb-3" style={{ color: "#8A6A4A", letterSpacing: "0.16em" }}>
+              <p className="label-ornament mb-3" style={{ color: "var(--wc-pal-accent, #B07040)", letterSpacing: "0.4em" }}>
                 Trending in communities
               </p>
-              <h2 className="font-serif-display text-2xl mb-3" style={{ color: "#EFE3CE" }}>
+              <h2
+                className="font-serif-display text-2xl mb-3"
+                style={{ color: "var(--fg-primary, #EFE3CE)", fontWeight: 300, fontStyle: "italic" }}
+              >
                 Utah&apos;s Dirty Soda Culture
               </h2>
-              <p className="text-sm leading-relaxed max-w-lg" style={{ color: "#8A6A4A" }}>
+              <p className="text-sm leading-relaxed max-w-lg" style={{ color: "var(--fg-tertiary, #9c9c9b)" }}>
                 Coconut cream, house-made syrups, zero alcohol — the soda-shop drinks that became a beloved
                 community tradition. Explore the recipes, or discover AI-powered gospel content on HolyFlex.
               </p>
               <div className="flex flex-wrap gap-3 mt-6">
                 <Link
                   href="/discover"
-                  className="text-xs px-5 py-2.5 tracking-widest uppercase transition-all hover:opacity-90"
-                  style={{ background: "#C8522A", color: "#fff", letterSpacing: "0.08em" }}
+                  className="label-ornament px-5 py-2.5 transition-all hover:opacity-90"
+                  style={{ background: "var(--wc-accent-persimmon, #8B2635)", color: "#F8F3E8", letterSpacing: "0.08em" }}
                 >
                   See recipes
                 </Link>
@@ -229,8 +345,12 @@ export default function LandingPage() {
                   href="https://holyflex.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs px-5 py-2.5 tracking-widest uppercase flex items-center gap-2 transition-all hover:opacity-80"
-                  style={{ border: "1px solid #3A2416", color: "#8A6A4A", letterSpacing: "0.08em" }}
+                  className="label-ornament px-5 py-2.5 flex items-center gap-2 transition-all hover:opacity-80"
+                  style={{
+                    border: "1px solid color-mix(in srgb, var(--wc-pal-accent, #B07040) 30%, transparent)",
+                    color: "var(--wc-pal-accent, #B07040)",
+                    letterSpacing: "0.08em",
+                  }}
                 >
                   <Sparkles className="w-3.5 h-3.5" />
                   HolyFlex
@@ -238,20 +358,72 @@ export default function LandingPage() {
                 </a>
               </div>
             </div>
-            <div className="text-6xl shrink-0 hidden sm:block select-none opacity-70">🥤</div>
+            <div
+              className="shrink-0 hidden sm:flex items-center justify-center w-24 h-24"
+              style={{
+                border: "1px solid color-mix(in srgb, var(--wc-pal-accent, #B07040) 20%, transparent)",
+              }}
+            >
+              <span
+                className="font-serif-display"
+                style={{ fontSize: "2.5rem", color: "var(--wc-pal-accent, #B07040)", opacity: 0.55, fontStyle: "italic" }}
+              >
+                🥤
+              </span>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ── Footer ──────────────────────────────────────── */}
+      {/* ── Footer ───────────────────────────────────────── */}
       <footer
-        className="border-t py-8 text-center"
-        style={{ borderColor: "#261708", color: "#3D2A1A" }}
+        className="relative z-10 border-t py-10 text-center"
+        style={{
+          borderColor: "color-mix(in srgb, var(--wc-pal-accent, #B07040) 15%, transparent)",
+        }}
       >
-        <p className="text-xs tracking-widest uppercase" style={{ letterSpacing: "0.14em", fontSize: "0.6rem" }}>
-          What&apos;s Cooking — Plan smarter, cook better.
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <span className="h-px w-12" style={{ background: "color-mix(in srgb, var(--wc-pal-accent, #B07040) 25%, transparent)" }} />
+          <UtensilsCrossed
+            className="w-3.5 h-3.5"
+            strokeWidth={1.4}
+            style={{ color: "var(--wc-accent-persimmon, #8B2635)", opacity: 0.5 }}
+          />
+          <span className="h-px w-12" style={{ background: "color-mix(in srgb, var(--wc-pal-accent, #B07040) 25%, transparent)" }} />
+        </div>
+        <p
+          className="label-ornament opacity-35"
+          style={{ fontSize: "0.58rem", color: "var(--fg-tertiary, #9c9c9b)" }}
+        >
+          What&apos;s Cooking · Plan smarter, cook better · MMXXIV
         </p>
       </footer>
+    </div>
+  );
+}
+
+function SectionDivider() {
+  return (
+    <div className="relative z-10 flex items-center gap-6 px-8 py-4 max-w-6xl mx-auto w-full">
+      <div
+        className="flex-1"
+        style={{
+          height: "1px",
+          background: "linear-gradient(to right, transparent, color-mix(in srgb, var(--wc-pal-accent, #B07040) 28%, transparent))",
+        }}
+      />
+      <UtensilsCrossed
+        className="w-3.5 h-3.5 shrink-0"
+        strokeWidth={1.4}
+        style={{ color: "var(--wc-accent-persimmon, #8B2635)", opacity: 0.45 }}
+      />
+      <div
+        className="flex-1"
+        style={{
+          height: "1px",
+          background: "linear-gradient(to left, transparent, color-mix(in srgb, var(--wc-pal-accent, #B07040) 28%, transparent))",
+        }}
+      />
     </div>
   );
 }
