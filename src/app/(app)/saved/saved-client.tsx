@@ -2,8 +2,19 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Heart, Clock, Flame, ExternalLink, Trash2 } from "lucide-react";
+import { Heart, Clock, Flame, ExternalLink, Trash2, MapPin } from "lucide-react";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
+
+const TRAVEL_PLANNER_URL = "http://localhost:3001";
+
+function sendToTravelPlanner(recipe: {
+  id: string; title: string; description: string | null; cuisine_type: string | null;
+  dietary_tags: string[] | null; prep_time_minutes: number | null; cook_time_minutes: number | null;
+  calories: number | null; source_name: string | null; source_url: string | null;
+}) {
+  const payload = btoa(JSON.stringify(recipe));
+  window.open(`${TRAVEL_PLANNER_URL}?culinary=${payload}`, "_blank", "noopener");
+}
 
 type SavedRecipe = {
   id: string;
@@ -77,7 +88,7 @@ export function SavedClient({ initialRecipes }: { initialRecipes: SavedRecipe[] 
                   {(r.dietary_tags ?? []).length > 0 && (
                     <div className="absolute top-2 left-2 flex gap-1">
                       {(r.dietary_tags ?? []).slice(0, 2).map((tag) => (
-                        <span key={tag} className="text-xs px-2 py-0.5 rounded-full backdrop-blur-sm"
+                        <span key={tag} className="text-xs px-2 py-0.5 rounded-full"
                           style={{ background: "rgba(255,255,255,0.85)", color: "#C85A2F" }}>{tag}</span>
                       ))}
                     </div>
@@ -98,10 +109,20 @@ export function SavedClient({ initialRecipes }: { initialRecipes: SavedRecipe[] 
                 </div>
               </Link>
 
+              {/* Send to Travel Planner */}
+              <button
+                onClick={() => sendToTravelPlanner(r)}
+                className="absolute top-2 right-10 p-1.5 rounded-xl transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
+                style={{ background: "rgba(34,197,94,0.85)", color: "#fff" }}
+                title="Send to Travel Planner as Culinary Anchor"
+              >
+                <MapPin className="w-3.5 h-3.5" />
+              </button>
+
               {/* Remove button */}
               <button
                 onClick={() => setPending(r.id)}
-                className="absolute top-2 right-2 p-1.5 rounded-xl backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
+                className="absolute top-2 right-2 p-1.5 rounded-xl transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
                 style={{ background: "rgba(220,38,38,0.85)", color: "#fff" }}
                 title="Remove from saved"
               >
