@@ -4,19 +4,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
-  Target, User, LogOut, Heart, BookOpen, Shuffle, Globe,
-  Leaf, X, Plus, ShieldAlert, ChevronRight, Settings, ShoppingCart,
+  Target, LogOut, Shuffle, Globe, Trophy,
+  ChevronRight, ShoppingCart,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
-import { useDietaryMode } from "@/lib/dietary-mode-context";
-import { DIETARY_LABELS, DIETARY_COLORS, type DietaryRestriction } from "@/lib/dietary-substitutions";
 import { useState, useRef, useEffect, useCallback } from "react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { PaletteSwitcher } from "@/components/palette-switcher";
 import { DietaryFiltersPanel } from "@/components/dietary-filters-panel";
-
-const RESTRICTIONS: DietaryRestriction[] = ["vegan", "vegetarian", "gluten-free", "dairy-free", "nut-free", "egg-free", "halal", "kosher"];
 
 type NavItem = {
   href: string;
@@ -30,43 +26,42 @@ type NavGroup = { group: string; items: NavItem[] };
 
 const NAV_GROUPS: NavGroup[] = [
   {
-    group: "Discovery",
+    group: "Discover",
     items: [
       {
-        href: "/discover",
-        label: "Recipes",
+        href: "/recipes",
+        label: "All Recipes",
         icon: UtensilsCrossed,
-        desc: "Browse all recipes",
+        desc: "",
         children: [
-          { href: "/discover",   label: "Find Recipes",   icon: UtensilsCrossed, desc: "Browse all recipes" },
-          { href: "/my-recipes", label: "My Recipes",     icon: BookOpen,        desc: "Recipes you created" },
-          { href: "/saved",      label: "Saved Recipes",  icon: Heart,           desc: "Your favourites" },
-          { href: "/swipe",      label: "Meal Swipe",     icon: Shuffle,         desc: "Swipe to discover" },
-          { href: "/cuisines",   label: "World Cuisines", icon: Globe,           desc: "Browse by origin" },
+          { href: "/recipes",        label: "All Recipes",    icon: UtensilsCrossed, desc: "" },
+          { href: "/swipe",          label: "Meal Swipe",     icon: Shuffle,         desc: "" },
+          { href: "/cuisines",       label: "World Cuisines", icon: Globe,           desc: "" },
+          { href: "/world-cup-2026", label: "World Cup 2026", icon: Trophy,          desc: "" },
         ],
       },
     ],
   },
   {
-    group: "Planning",
+    group: "Plan & Host",
     items: [
       {
         href: "/plans",
         label: "Meal Plans",
         icon: Calendar,
-        desc: "Plan your week with balanced meal schedules.",
-      },
-      {
-        href: "/dinner-parties",
-        label: "Dinner Party",
-        icon: PartyPopper,
-        desc: "Plan menus for groups.",
+        desc: "",
       },
       {
         href: "/events",
-        label: "Event Planner",
+        label: "Dinner & Events",
         icon: PartyPopper,
-        desc: "AI itinerary for any occasion.",
+        desc: "",
+      },
+      {
+        href: "/calorie-tracker",
+        label: "Nutrient Tracker",
+        icon: Target,
+        desc: "",
       },
     ],
   },
@@ -75,19 +70,13 @@ const NAV_GROUPS: NavGroup[] = [
     items: [
       {
         href: "/pantry",
-        label: "Kitchen Management",
+        label: "My Pantry",
         icon: ShoppingBasket,
-        desc: "Track what's in your kitchen.",
+        desc: "",
         children: [
-          { href: "/pantry",         label: "Kitchen Management", icon: ShoppingBasket, desc: "Track what's in your kitchen." },
-          { href: "/shopping-list",  label: "My Shopping List",   icon: ShoppingCart,   desc: "Ingredients to buy" },
+          { href: "/pantry",        label: "My Pantry",     icon: ShoppingBasket, desc: "" },
+          { href: "/shopping-list", label: "Shopping List", icon: ShoppingCart,   desc: "" },
         ],
-      },
-      {
-        href: "/calorie-tracker",
-        label: "Nutrient Tracker",
-        icon: Target,
-        desc: "Log meals and track macros.",
       },
     ],
   },
@@ -102,11 +91,7 @@ type FlyoutState = { key: string; top: number; items: readonly FlyoutItem[] } | 
 export function AppNav() {
   const pathname = usePathname();
   const router = useRouter();
-  const { restrictions, customAvoid, toggleRestriction, clearRestrictions, addCustomAvoid, removeCustomAvoid, active } = useDietaryMode();
-  const [customInput, setCustomInput] = useState("");
-  const [showDietaryPicker, setShowDietaryPicker] = useState(false);
   const [showDietaryPanel, setShowDietaryPanel] = useState(false);
-  const customInputRef = useRef<HTMLInputElement>(null);
 
   // Flyout state — key + fixed Y coordinate
   const [flyout, setFlyout] = useState<FlyoutState>(null);
@@ -361,12 +346,12 @@ export function AppNav() {
 
       <nav
         ref={navRef}
-        className={`wc-nav flex flex-col border-r h-screen sticky top-0 z-40${flyout ? " wc-nav--flyout-open" : ""}`}
+        className={`wc-nav flex flex-col border-r h-screen fixed top-0 left-0 z-50${flyout ? " wc-nav--flyout-open" : ""}`}
         style={{ borderColor: "var(--wc-border-subtle)", background: "var(--wc-floor, #1F1B19)", overflow: "visible" }}
       >
         {/* ── Logo ── */}
         <div className="px-3 py-4 border-b shrink-0" style={{ borderColor: "var(--wc-border-subtle)", overflow: "hidden" }}>
-          <Link href="/discover" className="flex items-center gap-2.5 min-w-0">
+          <Link href="/dashboard" className="flex items-center gap-2.5 min-w-0">
             <div
               className="wc-logo shrink-0 flex items-center justify-center rounded-xl"
               style={{ width: 42, height: 42, background: "linear-gradient(135deg, var(--wc-pal-accent, #B07D56), var(--wc-pal-mid, #5F3E2D))", flexShrink: 0 }}
@@ -438,99 +423,10 @@ export function AppNav() {
             </div>
           ))}
 
-          {/* Profile & Settings — pinned below groups */}
-          <div className="flex flex-col gap-0.5 mt-auto pt-2" style={{ borderTop: "1px solid var(--wc-border-subtle, rgba(90,50,20,0.25))" }}>
-            {[
-              { href: "/profile",  label: "Profile",  icon: User     },
-              { href: "/settings", label: "Settings", icon: Settings },
-            ].map(({ href, label, icon: Icon }) => {
-              const isActive = pathname === href || pathname.startsWith(href + "/");
-              return (
-                <Link key={href} href={href}
-                  className={`wc-item${isActive ? " wc-active" : ""}`}
-                  title={label}
-                  style={{ alignItems: "center" }}>
-                  <Icon className="wc-item-icon" style={{ width: 22, height: 22, flexShrink: 0 }} />
-                  <span className="wc-lbl">{label}</span>
-                </Link>
-              );
-            })}
-          </div>
         </div>
 
         {/* ── Bottom section ── */}
         <div className="px-1.5 pb-3 flex flex-col gap-2 shrink-0" style={{ overflow: "visible" }}>
-
-          {/* Dietary Filters — collapsed: icon-only button with badge */}
-          <div className="wc-dietary-collapsed justify-center px-2 py-1">
-            <button
-              onClick={() => setShowDietaryPanel(true)}
-              className="relative flex items-center justify-center rounded-xl transition-all hover:opacity-80"
-              style={{
-                width: 36,
-                height: 36,
-                background: active ? "color-mix(in srgb, var(--wc-pal-accent,#C08F68) 20%, var(--wc-bg-base,#2A1E10))" : "rgba(26,16,8,0.4)",
-              }}
-              title="Dietary Filters"
-            >
-              <Leaf style={{ width: 16, height: 16, color: active ? "var(--wc-pal-accent, #C08F68)" : "#5A3A28" }} />
-              {/* Active count badge */}
-              {active && (
-                <span
-                  className="absolute -top-1 -right-1 flex items-center justify-center text-white font-bold rounded-full"
-                  style={{
-                    width: 16, height: 16, fontSize: "9px",
-                    background: "var(--wc-pal-accent, #C08F68)",
-                    border: "1.5px solid var(--wc-bg-base, #2A1E10)",
-                  }}
-                >
-                  {restrictions.length + (customAvoid?.length ?? 0)}
-                </span>
-              )}
-            </button>
-          </div>
-
-          {/* Dietary Filters — expanded: full button row with label + badge */}
-          <div className="wc-dietary-expanded">
-            <button
-              onClick={() => setShowDietaryPanel(true)}
-              className="wc-item w-full"
-              style={{ alignItems: "center" }}
-            >
-              <div className="relative wc-item-icon">
-                <Leaf style={{ width: 18, height: 18, color: active ? "var(--wc-pal-accent, #C08F68)" : "var(--wc-text-4, #7A5A40)" }} />
-                {active && (
-                  <span
-                    className="absolute -top-1.5 -right-1.5 flex items-center justify-center text-white font-bold rounded-full"
-                    style={{
-                      width: 15, height: 15, fontSize: "8px",
-                      background: "var(--wc-pal-accent, #C08F68)",
-                      border: "1.5px solid var(--wc-bg-base, #2A1E10)",
-                    }}
-                  >
-                    {restrictions.length + (customAvoid?.length ?? 0)}
-                  </span>
-                )}
-              </div>
-              <div className="wc-lbl flex items-center gap-2" style={{ overflow: "visible" }}>
-                <span style={{ color: active ? "var(--wc-pal-accent, #C08F68)" : "var(--wc-text-4, #7A5A40)", fontSize: "0.8rem" }}>
-                  Dietary Filters
-                </span>
-                {active && (
-                  <span
-                    className="text-xs font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap"
-                    style={{
-                      background: "color-mix(in srgb, var(--wc-pal-accent,#C08F68) 18%, transparent)",
-                      color: "var(--wc-pal-accent, #C08F68)",
-                      fontSize: "10px",
-                    }}
-                  >
-                    {restrictions.length + (customAvoid?.length ?? 0)} active
-                  </span>
-                )}
-              </div>
-            </button>
-          </div>
 
           {/* Palette quick-pick */}
           <div className="wc-dietary-expanded">
