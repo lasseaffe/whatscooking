@@ -6,7 +6,7 @@ import {
   Leaf, Star, Bell, Sparkles, ShoppingBasket,
   X, Plus, ShieldAlert, Check, RefreshCw, Filter, User, Settings, Shuffle,
 } from "lucide-react";
-import { useDietaryMode } from "@/lib/dietary-mode-context";
+import { useDietaryMode, UTENSILS } from "@/lib/dietary-mode-context";
 import { DIETARY_LABELS, DIETARY_COLORS, type DietaryRestriction } from "@/lib/dietary-substitutions";
 import { FlipButton } from "@/components/ui/flip-button";
 
@@ -18,7 +18,7 @@ const ALL_RESTRICTIONS: DietaryRestriction[] = [
 ];
 
 export function TopBar() {
-  const { restrictions, customAvoid, filterMode, setFilterMode, toggleRestriction, clearRestrictions, addCustomAvoid, removeCustomAvoid, active } = useDietaryMode();
+  const { restrictions, customAvoid, filterMode, setFilterMode, toggleRestriction, clearRestrictions, addCustomAvoid, removeCustomAvoid, active, missingUtensils, utensilMode, toggleUtensil, setUtensilMode } = useDietaryMode();
 
   const [notifOpen, setNotifOpen] = useState(false);
   const [hasRead, setHasRead] = useState(false);
@@ -491,6 +491,45 @@ export function TopBar() {
                       </p>
                     </div>
                   </div>
+                </div>
+
+                {/* ── Utensil filter ── */}
+                <div className="px-4 pb-3 pt-0" style={{ borderTop: "1px solid var(--wc-border-subtle)" }}>
+                  <span style={{ fontSize: "0.6rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wc-text-4)", display: "block", marginBottom: 8, marginTop: 12 }}>
+                    I don&apos;t have…
+                  </span>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                    {UTENSILS.map((u) => {
+                      const isMissing = missingUtensils.includes(u);
+                      return (
+                        <button key={u} onClick={() => toggleUtensil(u)} style={{
+                          padding: "5px 11px", borderRadius: 99, fontSize: "0.72rem", fontWeight: 600,
+                          background: isMissing ? "rgba(200,100,58,0.18)" : "var(--wc-bg-elevated)",
+                          color: isMissing ? "var(--wc-terracotta)" : "var(--wc-text-3)",
+                          border: `1px solid ${isMissing ? "rgba(200,100,58,0.35)" : "var(--wc-border-default)"}`,
+                          cursor: "pointer", transition: "all 0.15s ease", textTransform: "capitalize",
+                        }}>
+                          {isMissing && <span style={{ marginRight: 4 }}>✕</span>}
+                          {u}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {missingUtensils.length > 0 && (
+                    <div style={{ display: "flex", gap: 8, marginTop: 10 }}>
+                      {(["adapt", "filter"] as const).map((mode) => (
+                        <button key={mode} onClick={() => setUtensilMode(mode)} style={{
+                          flex: 1, padding: "6px 0", borderRadius: 10, fontSize: "0.72rem", fontWeight: 600,
+                          background: utensilMode === mode ? "rgba(176,125,86,0.2)" : "var(--wc-bg-elevated)",
+                          color: utensilMode === mode ? "#C08F68" : "var(--wc-text-3)",
+                          border: `1px solid ${utensilMode === mode ? "rgba(176,125,86,0.35)" : "var(--wc-border-default)"}`,
+                          cursor: "pointer",
+                        }}>
+                          {mode === "adapt" ? "Adapt recipes" : "Filter recipes"}
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             )}
