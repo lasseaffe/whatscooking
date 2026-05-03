@@ -488,6 +488,8 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
   const [showCuisines, setShowCuisines] = useState(false);
   const [difficultyFilter, setDifficultyFilter] = useState<string | null>(null);
   const [pantryFirst, setPantryFirst] = useState(false);
+  const [tagFilters, setTagFilters] = useState<string[]>([]);
+  const [utensilFilters, setUtensilFilters] = useState<string[]>([]);
   const [showFilterDrawer, setShowFilterDrawer] = useState(false);
   const [viewMode, setViewMode] = useState<"grid" | "list" | "gallery">("grid");
   const recipesRef = useRef<HTMLElement>(null);
@@ -507,7 +509,7 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
   }
   const { restrictions: globalRestrictions, customAvoid } = useDietaryMode();
 
-  const hasFilters = q.length > 0 || type !== "all" || dietFilters.length > 0 || seasonal.active || cuisineFilter !== "all" || customAvoid.length > 0 || difficultyFilter !== null || pantryFirst;
+  const hasFilters = q.length > 0 || type !== "all" || dietFilters.length > 0 || seasonal.active || cuisineFilter !== "all" || customAvoid.length > 0 || difficultyFilter !== null || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0;
 
   // Deterministic daily random premium recipe (same for everyone, changes at midnight)
   const dailyPremium = useMemo(() => {
@@ -576,9 +578,18 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
       if (pantryFirst && pantryNames.length > 0) {
         if (pantryMatchPct(r, pantryNames) < 40) return false;
       }
+      // Utensil filter — exclude recipes that require any utensil the user says they lack
+      if (utensilFilters.length > 0) {
+        const required = (r as R & { required_utensils?: string[] }).required_utensils ?? [];
+        // Map drawer "no-oven" → "oven", "no-pot" → "pot", etc.
+        const lacking = utensilFilters
+          .map((u) => u.startsWith("no-") ? u.slice(3) : null)
+          .filter((u): u is string => u !== null);
+        if (lacking.length > 0 && required.some((req) => lacking.includes(req))) return false;
+      }
       return true;
     });
-  }, [initialRecipes, q, type, dietFilters, cuisineFilter, seasonal, customAvoid, difficultyFilter, pantryFirst, pantryNames]);
+  }, [initialRecipes, q, type, dietFilters, cuisineFilter, seasonal, customAvoid, difficultyFilter, pantryFirst, pantryNames, utensilFilters]);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -668,16 +679,16 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
                 onClick={() => setShowFilterDrawer(true)}
                 className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all border"
                 style={{
-                  borderColor: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst) ? "#C8522A" : "#3A2416",
-                  background: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst) ? "rgba(200,82,42,0.15)" : "#1C1209",
-                  color: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst) ? "#C8522A" : "#8A6A4A",
+                  borderColor: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0) ? "#C8522A" : "#3A2416",
+                  background: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0) ? "rgba(200,82,42,0.15)" : "#1C1209",
+                  color: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0) ? "#C8522A" : "#8A6A4A",
                 }}
               >
                 <SlidersHorizontal style={{ width: 12, height: 12 }} />
                 More Filters
-                {(dietFilters.length + (difficultyFilter ? 1 : 0) + (seasonal.active ? 1 : 0) + (pantryFirst ? 1 : 0)) > 0 && (
+                {(dietFilters.length + (difficultyFilter ? 1 : 0) + (seasonal.active ? 1 : 0) + (pantryFirst ? 1 : 0) + tagFilters.length + utensilFilters.length) > 0 && (
                   <span className="ml-0.5 font-bold">
-                    ({dietFilters.length + (difficultyFilter ? 1 : 0) + (seasonal.active ? 1 : 0) + (pantryFirst ? 1 : 0)})
+                    ({dietFilters.length + (difficultyFilter ? 1 : 0) + (seasonal.active ? 1 : 0) + (pantryFirst ? 1 : 0) + tagFilters.length + utensilFilters.length})
                   </span>
                 )}
               </button>
@@ -693,6 +704,8 @@ export function DiscoverClient({ initialRecipes, hacks, premiumRecipes, initialQ
                 setDietFilters(f.dietary);
                 setDifficultyFilter(f.difficulty && f.difficulty !== "any" ? f.difficulty : null);
                 if (f.category && f.category !== "any") setType(f.category);
+                setTagFilters(f.tags ?? []);
+                setUtensilFilters(f.utensils ?? []);
                 setShowFilterDrawer(false);
               }}
             />
