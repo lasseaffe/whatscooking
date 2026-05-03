@@ -76,7 +76,7 @@ export function CuisineNav({ continents }: CuisineNavProps) {
         .cuisine-sticky-nav {
           position: sticky;
           top: 0;
-          z-index: 50;
+          z-index: 40;
           background: color-mix(in srgb, var(--wc-surface-2, #3A3430) 85%, transparent);
           backdrop-filter: blur(10px);
           -webkit-backdrop-filter: blur(10px);
