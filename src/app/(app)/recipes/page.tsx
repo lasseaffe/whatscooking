@@ -1,23 +1,18 @@
 import { createClient } from "@/lib/supabase/server";
+import { AllRecipesClient } from "./all-recipes-client";
+
+export const dynamic = "force-dynamic";
 
 export default async function RecipesPage() {
   const supabase = await createClient();
 
-  const { data: wcTags } = await supabase
-    .from("wc_recipe_tags")
-    .select("recipe_id, nation_code")
-    .eq("is_event_badge", true);
+  const { data: recipes } = await supabase
+    .from("recipes")
+    .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, difficulty_level, required_utensils")
+    .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
+    .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+    .order("created_at", { ascending: false })
+    .limit(1000);
 
-  const wcTagMap = new Map<string, string>(
-    (wcTags ?? []).map((t) => [t.recipe_id, t.nation_code])
-  );
-
-  void wcTagMap; // used when RecipeCard is rendered in this page
-
-  return (
-    <div className="px-6 py-8 max-w-5xl mx-auto">
-      <h1 className="text-2xl font-bold" style={{ color: "#3D2817" }}>My Recipes</h1>
-      <p className="text-sm mt-1" style={{ color: "#6B5B52" }}>Save your favorite recipes here.</p>
-    </div>
-  );
+  return <AllRecipesClient recipes={recipes ?? []} />;
 }
