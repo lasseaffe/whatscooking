@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
-  Target, LogOut, Shuffle, Globe, Trophy,
+  Target, LogOut, Shuffle, Globe, Trophy, Compass,
   ChevronRight, ShoppingCart,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
@@ -29,40 +29,41 @@ const NAV_GROUPS: NavGroup[] = [
     group: "Discover",
     items: [
       {
+        href: "/discover",
+        label: "Discover",
+        icon: Compass,
+        desc: "",
+      },
+      {
+        href: "/swipe",
+        label: "Meal Swipe",
+        icon: Shuffle,
+        desc: "",
+      },
+      {
+        href: "/cuisines",
+        label: "World Cuisines",
+        icon: Globe,
+        desc: "",
+        children: [
+          { href: "/cuisines/fusion",        label: "Fusion Foods",   icon: Globe,  desc: "" },
+          { href: "/cuisines/world-cup-2026", label: "World Cup 2026", icon: Trophy, desc: "" },
+        ],
+      },
+      {
         href: "/recipes",
         label: "All Recipes",
         icon: UtensilsCrossed,
         desc: "",
-        children: [
-          { href: "/recipes",        label: "All Recipes",    icon: UtensilsCrossed, desc: "" },
-          { href: "/swipe",          label: "Meal Swipe",     icon: Shuffle,         desc: "" },
-          { href: "/cuisines",       label: "World Cuisines", icon: Globe,           desc: "" },
-          { href: "/world-cup-2026", label: "World Cup 2026", icon: Trophy,          desc: "" },
-        ],
       },
     ],
   },
   {
     group: "Plan & Host",
     items: [
-      {
-        href: "/plans",
-        label: "Meal Plans",
-        icon: Calendar,
-        desc: "",
-      },
-      {
-        href: "/events",
-        label: "Dinner & Events",
-        icon: PartyPopper,
-        desc: "",
-      },
-      {
-        href: "/calorie-tracker",
-        label: "Nutrient Tracker",
-        icon: Target,
-        desc: "",
-      },
+      { href: "/plans",           label: "Meal Plans",       icon: Calendar,    desc: "" },
+      { href: "/events",          label: "Dinner & Events",  icon: PartyPopper, desc: "" },
+      { href: "/calorie-tracker", label: "Nutrient Tracker", icon: Target,      desc: "" },
     ],
   },
   {
@@ -95,9 +96,11 @@ export function AppNav() {
 
   // Flyout state — key + fixed Y coordinate
   const [flyout, setFlyout] = useState<FlyoutState>(null);
+  const [navHovered, setNavHovered] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const navRef = useRef<HTMLElement>(null);
   const NAV_COLLAPSED_W = 70; // px — must match CSS
+  const NAV_EXPANDED_W = 320; // px — must match CSS
 
   const cancelClose = useCallback(() => {
     if (closeTimer.current) { clearTimeout(closeTimer.current); closeTimer.current = null; }
@@ -110,6 +113,31 @@ export function AppNav() {
 
   useEffect(() => { setFlyout(null); }, [pathname]);
   useEffect(() => () => { if (closeTimer.current) clearTimeout(closeTimer.current); }, []);
+
+  // Track nav hover state via listeners
+  useEffect(() => {
+    const el = navRef.current;
+    if (!el) return;
+    const onEnter = () => setNavHovered(true);
+    const onLeave = () => setNavHovered(false);
+    el.addEventListener("mouseenter", onEnter);
+    el.addEventListener("mouseleave", onLeave);
+    return () => {
+      el.removeEventListener("mouseenter", onEnter);
+      el.removeEventListener("mouseleave", onLeave);
+    };
+  }, []);
+
+  // Push main content when nav is hovered OR a flyout is open — prevents
+  // the margin collapsing while the cursor is on the fixed-position flyout panel
+  useEffect(() => {
+    if (navHovered || flyout !== null) {
+      document.body.dataset.navExpanded = "true";
+    } else {
+      delete document.body.dataset.navExpanded;
+    }
+    return () => { delete document.body.dataset.navExpanded; };
+  }, [navHovered, flyout]);
 
   function openFlyout(key: string, el: HTMLElement, items: readonly FlyoutItem[]) {
     cancelClose();
@@ -138,6 +166,13 @@ export function AppNav() {
         /* Delay collapse so cursor can move to flyout panel */
         .wc-nav:not(:hover):not(.wc-nav--flyout-open) {
           transition-delay: 0.15s;
+        }
+        /* Push main content when sidebar expands */
+        body[data-nav-expanded="true"] .wc-main-content {
+          margin-left: 320px;
+        }
+        .wc-main-content {
+          transition: margin-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
         }
 
         /* Labels */
@@ -308,7 +343,7 @@ export function AppNav() {
           <div
             className="wc-flyout-bridge"
             style={{
-              left: NAV_COLLAPSED_W,
+              left: NAV_EXPANDED_W,
               top: flyout.top - 12,
               height: flyout.items.length * 54 + 48 + 24,
             }}
@@ -317,7 +352,7 @@ export function AppNav() {
           />
           <div
             className="wc-flyout-panel"
-            style={{ left: NAV_COLLAPSED_W + 12, top: flyout.top }}
+            style={{ left: NAV_EXPANDED_W + 8, top: flyout.top }}
             onMouseEnter={cancelClose}
             onMouseLeave={schedulClose}
           >
