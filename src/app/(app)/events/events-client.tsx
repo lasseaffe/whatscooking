@@ -39,6 +39,8 @@ export function EventsClient() {
   const [loading, setLoading] = useState(false);
   const [plan, setPlan] = useState<EventPlan | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
+  const [savedId, setSavedId] = useState<string | null>(null);
 
   async function handlePlan() {
     if (!occasion) return;
@@ -58,6 +60,29 @@ export function EventsClient() {
       setError(e instanceof Error ? e.message : "Failed to generate plan");
     }
     setLoading(false);
+  }
+
+  async function handleSave() {
+    if (!plan || !occasion) return;
+    setSaving(true);
+    try {
+      const res = await fetch('/api/events/create', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          occasion,
+          guests,
+          plan,
+          avatarEmoji: selectedOccasion?.emoji ?? '🍽️',
+        }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error);
+      window.location.href = `/events/${json.id}`;
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Failed to save');
+    }
+    setSaving(false);
   }
 
   const selectedOccasion = OCCASIONS.find(o => o.id === occasion);
@@ -392,6 +417,15 @@ export function EventsClient() {
                 ))}
               </div>
             </div>
+
+            <button
+              onClick={handleSave}
+              disabled={saving}
+              className="w-full py-4 rounded-2xl font-semibold text-white transition-all hover:opacity-90 disabled:opacity-40 flex items-center justify-center gap-3 mb-3"
+              style={{ background: 'linear-gradient(135deg,#C8522A,#E8834A)' }}
+            >
+              {saving ? <><Loader2 className="w-5 h-5 animate-spin" /> Saving...</> : <><Calendar className="w-5 h-5" /> Save &amp; Edit Event</>}
+            </button>
 
             <button
               onClick={handlePlan}
