@@ -56,6 +56,9 @@ export async function GET(req: NextRequest) {
     const offset = searchParams.get("offset")
       ? parseInt(searchParams.get("offset")!)
       : 0;
+    const maxReadyMinutes = searchParams.get("maxReadyMinutes")
+      ? parseInt(searchParams.get("maxReadyMinutes")!, 10)
+      : undefined;
 
     const result = await searchRecipes({
       query,
@@ -71,6 +74,7 @@ export async function GET(req: NextRequest) {
       maxFat,
       number,
       offset,
+      maxReadyTime: maxReadyMinutes,
     });
 
     return NextResponse.json(result);

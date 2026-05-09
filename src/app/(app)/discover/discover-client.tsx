@@ -16,9 +16,17 @@ import { SuggestionPanel } from "@/components/suggestion-panel";
 import { isSeasonalRecipe } from "@/lib/seasonal";
 import { CUISINES, CUISINE_REGIONS, getCuisineBySlug } from "@/lib/cuisines";
 import type { Recipe } from "@/lib/types";
-import { Globe2, SlidersHorizontal } from "lucide-react";
+import { Globe2 } from "lucide-react";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 import { FilterDrawer, type FilterState as DrawerFilterState } from "@/components/filter-drawer";
+import { HeroFilterCard, type HeroFilterState } from "@/components/hero-filter-card";
+
+const TIME_OPTIONS = [
+  { label: "≤ 15 min", value: 15 },
+  { label: "≤ 30 min", value: 30 },
+  { label: "≤ 45 min", value: 45 },
+  { label: "≤ 60 min", value: 60 },
+];
 
 function flagEmoji(code: string): string {
   if (code.length !== 2) return "";
@@ -59,6 +67,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
   const [pantryFirst, setPantryFirst] = useState(false);
   const [tagFilters, setTagFilters] = useState<string[]>([]);
   const [utensilFilters, setUtensilFilters] = useState<string[]>([]);
+  const [maxReadyMinutes, setMaxReadyMinutes] = useState<number | null>(null);
   const [showFilterDrawer, setShowFilterDrawer] = useState(false);
   const [viewMode, setViewMode] = useState<"grid" | "list" | "gallery">("grid");
   const recipesRef = useRef<HTMLElement>(null);
@@ -78,7 +87,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
   }
   const { restrictions: globalRestrictions, customAvoid } = useDietaryMode();
 
-  const hasFilters = q.length > 0 || type !== "all" || dietFilters.length > 0 || seasonal.active || cuisineFilter !== "all" || customAvoid.length > 0 || difficultyFilter !== null || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0;
+  const hasFilters = q.length > 0 || type !== "all" || dietFilters.length > 0 || seasonal.active || cuisineFilter !== "all" || customAvoid.length > 0 || difficultyFilter !== null || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0 || maxReadyMinutes !== null;
 
   const filtered = useMemo(() => {
     // Deduplicate by title first
@@ -122,23 +131,34 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
       if (pantryFirst && pantryNames.length > 0) {
         if (pantryMatchPct(r, pantryNames) < 40) return false;
       }
-      // Utensil filter — exclude recipes that require any utensil the user says they lack
+      // Utensil filter — two modes:
+      // "no-*" values: exclude recipes that require the named utensil
+      // Positive values (e.g. "air-fryer"): show only recipes that use that utensil
       if (utensilFilters.length > 0) {
-        const required = (r as R & { required_utensils?: string[] }).required_utensils ?? [];
-        // Map drawer "no-oven" → "oven", "no-pot" → "pot", etc.
+        const required: string[] = (r as R & { required_utensils?: string[] }).required_utensils ?? [];
         const lacking = utensilFilters
-          .map((u) => u.startsWith("no-") ? u.slice(3) : null)
-          .filter((u): u is string => u !== null);
+          .filter((u) => u.startsWith("no-"))
+          .map((u) => u.slice(3));
+        const positive = utensilFilters.filter((u) => !u.startsWith("no-") && u !== "no-special");
+        // Exclude if recipe requires a utensil the user says they lack
         if (lacking.length > 0 && required.some((req) => lacking.includes(req))) return false;
+        // "Basic Kitchen" / no-special — exclude recipes that require any special utensil
+        if (utensilFilters.includes("no-special") && required.length > 0) return false;
+        // Positive filter — only show recipes that require at least one of the selected utensils
+        if (positive.length > 0 && !positive.some((u) => required.includes(u))) return false;
+      }
+      if (maxReadyMinutes !== null) {
+        const totalMinutes = (r.prep_time_minutes ?? 0) + (r.cook_time_minutes ?? 0);
+        if (totalMinutes <= 0 || totalMinutes > maxReadyMinutes) return false;
       }
       return true;
     });
-  }, [initialRecipes, q, type, dietFilters, cuisineFilter, seasonal, customAvoid, difficultyFilter, pantryFirst, pantryNames, utensilFilters]);
+  }, [initialRecipes, q, type, dietFilters, cuisineFilter, seasonal, customAvoid, difficultyFilter, pantryFirst, pantryNames, utensilFilters, maxReadyMinutes]);
 
   return (
     <div className="flex flex-col min-h-screen">
       {/* ── HERO HEADER ─────────────────────────────────────────── */}
-      <div className="wc-zone-hero relative overflow-hidden">
+      <div className="relative overflow-hidden" style={{ background: "linear-gradient(to bottom, #090908 0%, #090908 70%, transparent 100%)" }}>
         <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden>
           <span className="absolute top-6 right-12 opacity-5 rotate-12" style={{ fontSize: "3.5rem" }}>🍕</span>
           <span className="absolute top-20 right-36 opacity-5 -rotate-6" style={{ fontSize: "2.5rem" }}>🥑</span>
@@ -174,65 +194,37 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
             />
           </div>
 
-          {/* ── Single horizontal filter row + More Filters ── */}
-          <div className="mt-5">
-            <div className="flex items-center gap-2">
-              {/* Cuisine scroll row with fade mask */}
-              <div className="cuisine-scroll-row-wrapper flex-1 min-w-0">
-                <div className="cuisine-scroll-row">
-                  {/* Dish type pills */}
-                  {[
-                    { value: "all", label: "All" },
-                    { value: "main course", label: "🍽 Mains" },
-                    { value: "pasta", label: "🍝 Pasta" },
-                    { value: "soup", label: "🍲 Soups" },
-                    { value: "salad", label: "🥬 Salads" },
-                    { value: "breakfast", label: "🍳 Breakfast" },
-                    { value: "dessert", label: "🍰 Desserts" },
-                    { value: "snack", label: "🍿 Snacks" },
-                    { value: "curry", label: "🍛 Curry" },
-                    { value: "pizza", label: "🍕 Pizza" },
-                    { value: "burger", label: "🍔 Burgers" },
-                  ].map((f) => {
-                    const on = type === f.value;
-                    return (
-                      <button
-                        key={f.value}
-                        type="button"
-                        onClick={() => setType(f.value)}
-                        className="shrink-0 px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-all border"
-                        style={{
-                          borderColor: on ? "#C8522A" : "#3A2416",
-                          background: on ? "#C8522A" : "#1C1209",
-                          color: on ? "#fff" : "#8A6A4A",
-                        }}
-                      >
-                        {f.label}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
+          {/* ── Hero Filter Questionnaire Card ── */}
+          <div className="mt-5 max-w-2xl">
+            <HeroFilterCard
+              onApply={(f: HeroFilterState) => {
+                setType(f.category || "all");
+                setDietFilters(f.dietary);
+                setDifficultyFilter(f.difficulty || null);
+                setUtensilFilters(f.utensils);
+              }}
+            />
+          </div>
 
-              {/* More Filters button */}
-              <button
-                type="button"
-                onClick={() => setShowFilterDrawer(true)}
-                className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all border"
-                style={{
-                  borderColor: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0) ? "#C8522A" : "#3A2416",
-                  background: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0) ? "rgba(200,82,42,0.15)" : "#1C1209",
-                  color: (dietFilters.length > 0 || difficultyFilter || seasonal.active || pantryFirst || tagFilters.length > 0 || utensilFilters.length > 0) ? "#C8522A" : "#8A6A4A",
-                }}
-              >
-                <SlidersHorizontal style={{ width: 12, height: 12 }} />
-                More Filters
-                {(dietFilters.length + (difficultyFilter ? 1 : 0) + (seasonal.active ? 1 : 0) + (pantryFirst ? 1 : 0) + tagFilters.length + utensilFilters.length) > 0 && (
-                  <span className="ml-0.5 font-bold">
-                    ({dietFilters.length + (difficultyFilter ? 1 : 0) + (seasonal.active ? 1 : 0) + (pantryFirst ? 1 : 0) + tagFilters.length + utensilFilters.length})
-                  </span>
-                )}
-              </button>
+          {/* ── Ready In chips ── */}
+          <div className="mt-4 max-w-2xl">
+            <p className="text-xs font-semibold mb-2" style={{ color: "#8A6A4A" }}>Ready in</p>
+            <div className="flex flex-wrap gap-2">
+              {TIME_OPTIONS.map(({ label, value }) => (
+                <button
+                  key={value}
+                  type="button"
+                  onClick={() => setMaxReadyMinutes(prev => prev === value ? null : value)}
+                  className="px-3 py-1.5 rounded-full border text-xs font-medium transition-all"
+                  style={{
+                    borderColor: maxReadyMinutes === value ? "#C8522A" : "#3A2416",
+                    background: maxReadyMinutes === value ? "#2A1808" : "#1C1209",
+                    color: maxReadyMinutes === value ? "#C8522A" : "#8A6A4A",
+                  }}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
           </div>
 
@@ -265,14 +257,14 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
         <button
           onClick={() => setShowCuisines(v => !v)}
           className="w-full flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all"
-          style={{ background: "#1C1209", border: "1.5px solid #3A2416" }}
+          style={{ background: "rgba(28,18,9,0.6)", backdropFilter: "blur(6px)", border: "1.5px solid #3A2416" }}
         >
           <Globe2 className="w-5 h-5 shrink-0" style={{ color: "#828E6F" }} />
           <div className="flex-1">
             <div className="flex items-center gap-2">
               <span className="font-bold text-base" style={{ color: "#EFE3CE" }}>World Cuisines</span>
               <span className="text-xs font-medium px-2 py-0.5 rounded-full"
-                style={{ background: "#1A2010", color: "#828E6F", border: "1px solid #828E6F30" }}>
+                style={{ background: "#1C1209", color: "#828E6F", border: "1px solid #828E6F30" }}>
                 {CUISINES.length} cuisines
               </span>
               {cuisineFilter !== "all" && (
@@ -286,7 +278,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
               Filter recipes by cuisine — from Moroccan tagines to Japanese ramen
             </p>
           </div>
-          <div className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center" style={{ background: "#1A2010" }}>
+          <div className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center" style={{ background: "#1C1209" }}>
             {showCuisines
               ? <ChevronUp className="w-4 h-4" style={{ color: "#828E6F" }} />
               : <ChevronDown className="w-4 h-4" style={{ color: "#828E6F" }} />}
@@ -374,7 +366,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
       <section className="px-6 sm:px-10 pb-2 max-w-5xl mx-auto w-full">
         <Link href="/menu-scanner"
           className="group flex items-stretch gap-0 rounded-2xl overflow-hidden transition-all hover:shadow-lg hover:-translate-y-0.5"
-          style={{ border: "1.5px solid #3A2416", background: "linear-gradient(120deg, #1C1209 0%, #241A0D 100%)" }}>
+          style={{ border: "1.5px solid #3A2416", background: "linear-gradient(120deg, rgba(28,18,9,0.7) 0%, rgba(36,26,13,0.7) 100%)", backdropFilter: "blur(6px)" }}>
           {/* Left: image strip */}
           <div className="hidden sm:flex flex-col shrink-0 overflow-hidden" style={{ width: 120 }}>
             <div className="flex-1 bg-cover bg-center" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=240&q=70)" }} />
@@ -436,7 +428,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
           </div>
           {hasFilters && (
             <button
-              onClick={() => { setQ(""); setType("all"); setDietFilters([]); setCuisineFilter("all"); setDifficultyFilter(null); setPantryFirst(false); setSeasonalKey(k => k + 1); }}
+              onClick={() => { setQ(""); setType("all"); setDietFilters([]); setCuisineFilter("all"); setDifficultyFilter(null); setPantryFirst(false); setSeasonalKey(k => k + 1); setMaxReadyMinutes(null); }}
               className="text-sm font-medium px-3 py-1.5 rounded-lg"
               style={{ color: "#C8522A", background: "#2A1808" }}
             >
@@ -569,7 +561,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
                 : "Try adjusting your search or filters."}
             </p>
             <button
-              onClick={() => { setQ(""); setType("all"); setDietFilters([]); setCuisineFilter("all"); setDifficultyFilter(null); setPantryFirst(false); setSeasonalKey(k => k + 1); }}
+              onClick={() => { setQ(""); setType("all"); setDietFilters([]); setCuisineFilter("all"); setDifficultyFilter(null); setPantryFirst(false); setSeasonalKey(k => k + 1); setMaxReadyMinutes(null); }}
               className="text-sm font-semibold px-5 py-2 rounded-xl"
               style={{ background: "#C8522A", color: "#fff" }}
             >
