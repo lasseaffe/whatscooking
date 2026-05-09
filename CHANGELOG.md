@@ -277,6 +277,21 @@ the `--wc-floor / --wc-surface-1 / --wc-surface-2` depth tokens.
 - TypeScript compiles clean (npx tsc --noEmit)
 - Commit: `85456d0`
 
+### Baby & Family Hub — Task 7: Static Guide Content
+
+**Created:** `src/lib/guides-content.ts`
+
+- **8 cornerstone guides exported as static array:** Signs of Readiness, First Foods, Allergens, BLW vs. Spoon Feeding, Mashed & Lumpy Textures, Finger Foods, Foods to Avoid, Eating at Family Table
+- **Type system:** `MilestoneRelevance` union (pre_solids | started_solids | started_solids_to_soft_lumps | handles_soft_lumps | finger_foods | family_table | all_stages)
+- **`GuideArticle` interface:** slug, title, milestoneRelevance, summary, body (markdown)
+- **`MILESTONE_GUIDE_MAP`:** Record mapping milestone keys to relevant guide slugs for quick filtering on guides pages
+- **Content quality:** WHO/AAP pediatric nutrition guidelines, emphasis on pediatrician consultation, actionable safety rules, texture progression tables
+- TypeScript clean: no external dependencies
+
+Commit: `de2a23e`
+
+---
+
 ### feat: add POST /api/events/create
 - Created src/app/api/events/create/route.ts
 - Inserts into dinner_parties, then seeds event_menu_items, event_timeline_items, event_shopping_items in parallel
