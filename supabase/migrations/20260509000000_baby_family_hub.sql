@@ -34,6 +34,13 @@ CREATE TABLE member_allergens (
   UNIQUE (member_id, allergen_key)
 );
 
+-- ── Indexes ─────────────────────────────────────────────────
+
+CREATE INDEX ON household_members (kitchen_group_id);
+CREATE INDEX ON household_members (created_by);
+CREATE INDEX ON member_milestones (member_id);
+CREATE INDEX ON member_allergens  (member_id);
+
 -- ── Extend recipes ───────────────────────────────────────────
 
 ALTER TABLE recipes ADD COLUMN IF NOT EXISTS baby_stages    text[]  DEFAULT '{}';
@@ -43,8 +50,8 @@ ALTER TABLE recipes ADD COLUMN IF NOT EXISTS baby_variant_recipe_id uuid REFEREN
 
 -- ── Extend shopping lists ────────────────────────────────────
 
-ALTER TABLE personal_shopping_items ADD COLUMN IF NOT EXISTS for_member_id uuid REFERENCES household_members(id);
-ALTER TABLE group_shopping_items    ADD COLUMN IF NOT EXISTS for_member_id uuid REFERENCES household_members(id);
+ALTER TABLE personal_shopping_items ADD COLUMN IF NOT EXISTS for_member_id uuid REFERENCES household_members(id) ON DELETE SET NULL;
+ALTER TABLE group_shopping_items    ADD COLUMN IF NOT EXISTS for_member_id uuid REFERENCES household_members(id) ON DELETE SET NULL;
 
 -- ── Extend user_preferences ──────────────────────────────────
 
@@ -61,7 +68,7 @@ CREATE POLICY "group members can read household_members"
   ON household_members FOR SELECT
   USING (
     kitchen_group_id IN (
-      SELECT kitchen_group_id FROM kitchen_group_members WHERE user_id = auth.uid()
+      SELECT group_id FROM kitchen_group_members WHERE user_id = auth.uid()
     )
   );
 
@@ -69,7 +76,7 @@ CREATE POLICY "group members can insert household_members"
   ON household_members FOR INSERT
   WITH CHECK (
     kitchen_group_id IN (
-      SELECT kitchen_group_id FROM kitchen_group_members WHERE user_id = auth.uid()
+      SELECT group_id FROM kitchen_group_members WHERE user_id = auth.uid()
     )
     AND created_by = auth.uid()
   );
@@ -78,7 +85,7 @@ CREATE POLICY "group members can update household_members"
   ON household_members FOR UPDATE
   USING (
     kitchen_group_id IN (
-      SELECT kitchen_group_id FROM kitchen_group_members WHERE user_id = auth.uid()
+      SELECT group_id FROM kitchen_group_members WHERE user_id = auth.uid()
     )
   );
 
@@ -92,7 +99,14 @@ CREATE POLICY "group members can manage member_milestones"
   USING (
     member_id IN (
       SELECT hm.id FROM household_members hm
-      JOIN kitchen_group_members kgm ON kgm.kitchen_group_id = hm.kitchen_group_id
+      JOIN kitchen_group_members kgm ON kgm.group_id = hm.kitchen_group_id
+      WHERE kgm.user_id = auth.uid()
+    )
+  )
+  WITH CHECK (
+    member_id IN (
+      SELECT hm.id FROM household_members hm
+      JOIN kitchen_group_members kgm ON kgm.group_id = hm.kitchen_group_id
       WHERE kgm.user_id = auth.uid()
     )
   );
@@ -103,7 +117,14 @@ CREATE POLICY "group members can manage member_allergens"
   USING (
     member_id IN (
       SELECT hm.id FROM household_members hm
-      JOIN kitchen_group_members kgm ON kgm.kitchen_group_id = hm.kitchen_group_id
+      JOIN kitchen_group_members kgm ON kgm.group_id = hm.kitchen_group_id
+      WHERE kgm.user_id = auth.uid()
+    )
+  )
+  WITH CHECK (
+    member_id IN (
+      SELECT hm.id FROM household_members hm
+      JOIN kitchen_group_members kgm ON kgm.group_id = hm.kitchen_group_id
       WHERE kgm.user_id = auth.uid()
     )
   );
