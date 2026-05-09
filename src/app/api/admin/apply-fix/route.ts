@@ -5,10 +5,12 @@ import path from "path";
 
 const MONITOR_SECRET = process.env.MONITOR_SECRET ?? "";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+function getSupabase() {
+  return createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+}
 
 interface QueueEntry {
   recipeId: string;
@@ -35,6 +37,7 @@ async function writeQueue(queue: QueueEntry[]): Promise<void> {
 }
 
 export async function POST(req: NextRequest) {
+  const supabase = getSupabase();
   const auth = req.headers.get("authorization") ?? "";
   if (MONITOR_SECRET && auth !== `Bearer ${MONITOR_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
