@@ -149,7 +149,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
       }
       if (maxReadyMinutes !== null) {
         const totalMinutes = (r.prep_time_minutes ?? 0) + (r.cook_time_minutes ?? 0);
-        if (totalMinutes <= 0 || totalMinutes > maxReadyMinutes) return false;
+        if (totalMinutes > 0 && totalMinutes > maxReadyMinutes) return false;
       }
       return true;
     });
