@@ -186,6 +186,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags }:
   const categoryMap = useMemo(() => new Map(categories.map((c) => [c.id, c])), [categories]);
 
   async function handleToggleTag(tag: string) {
+    const prev = householdTags;
     const next = householdTags.includes(tag)
       ? householdTags.filter((t) => t !== tag)
       : [...householdTags, tag];
@@ -197,8 +198,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags }:
       body: JSON.stringify({ tags: next }),
     });
     if (!res.ok) {
-      // rollback
-      setHouseholdTags(householdTags);
+      setHouseholdTags(prev);
     }
     setSavingTags(false);
   }
