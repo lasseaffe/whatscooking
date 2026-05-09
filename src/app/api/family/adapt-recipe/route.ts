@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       context: "recipe_page" | "planner";
     };
 
-    if (!recipe_title || !milestone || !member_name || !context) {
+    if (!recipe_title || !Array.isArray(ingredients) || !milestone || !member_name || !context) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
@@ -43,8 +43,8 @@ export async function POST(req: NextRequest) {
       ],
     });
 
-    const text = (completion as { choices: Array<{ message: { content: string | null } }> })
-      .choices[0]?.message?.content ?? "";
+    type CompletionLike = { choices: Array<{ message: { content: string | null } }> };
+    const text = (completion as CompletionLike).choices[0]?.message?.content ?? "";
 
     return NextResponse.json({ adaptation: text });
   } catch (err) {
