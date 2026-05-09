@@ -101,6 +101,11 @@ export interface Recipe {
   source_name?: string;
   difficulty_level?: "easy" | "medium" | "hard" | null;
   created_at: string;
+  // Baby & family fields
+  baby_stages?: string[];
+  allergen_flags?: string[];
+  has_baby_variant?: boolean;
+  baby_variant_recipe_id?: string | null;
 }
 
 // ============================================================
