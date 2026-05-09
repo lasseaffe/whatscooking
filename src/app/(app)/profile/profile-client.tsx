@@ -4,9 +4,120 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   Globe2, Trophy, MapPin, BookOpen, Heart, Star,
-  ChefHat, ArrowRight, Loader2, Palette, Sun, Moon,
+  ChefHat, ArrowRight, Loader2, Palette, Zap, X, ExternalLink, Clock, Sparkles, Home,
 } from "lucide-react";
 import { TIER_STYLES, TIER_ORDER, type BadgeTier } from "@/lib/achievements";
+
+// ── Kitchen Hack types & components ─────────────────────────────────────────
+interface HackRow {
+  id: string; title: string; description: string | null; source_url: string | null; image_url: string | null;
+  ingredients?: { name: string; amount?: number | null; unit?: string | null }[] | null;
+  instructions?: string[] | null;
+  prep_time_minutes?: number | null; cook_time_minutes?: number | null;
+}
+
+const HACK_FALLBACKS = [
+  "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=70",
+  "https://images.unsplash.com/photo-1464347744102-11db6282f854?w=600&q=70",
+  "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=600&q=70",
+  "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=70",
+];
+
+function HackModal({ hack, onClose }: { hack: HackRow; onClose: () => void }) {
+  const instructions = (hack.instructions ?? []) as string[];
+  const ingredients = (hack.ingredients ?? []) as { name: string; amount?: number | null; unit?: string | null }[];
+  const totalTime = (hack.prep_time_minutes ?? 0) + (hack.cook_time_minutes ?? 0);
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4"
+      onClick={(e) => e.target === e.currentTarget && onClose()}>
+      <div className="absolute inset-0" style={{ background: "rgba(30,18,8,0.55)", backdropFilter: "blur(4px)" }} onClick={onClose} />
+      <div className="relative w-full sm:max-w-lg max-h-[90vh] overflow-y-auto rounded-t-3xl sm:rounded-2xl shadow-2xl" style={{ background: "#1C1209" }}>
+        {hack.image_url && (
+          <div className="relative h-48 overflow-hidden rounded-t-3xl sm:rounded-t-2xl">
+            <img src={hack.image_url} alt={hack.title} className="w-full h-full object-cover" />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(30,18,8,0.7) 0%, transparent 60%)" }} />
+          </div>
+        )}
+        <button onClick={onClose} className="absolute top-3 right-3 w-8 h-8 rounded-full flex items-center justify-center z-10"
+          style={{ background: "rgba(0,0,0,0.35)" }}>
+          <X className="w-4 h-4 text-white" />
+        </button>
+        <div className="p-5">
+          <div className="flex items-start gap-3 mb-4">
+            <div className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center" style={{ background: "#2A1808" }}>
+              <Zap className="w-4 h-4" style={{ color: "#C8522A" }} />
+            </div>
+            <div>
+              <div className="flex items-center gap-2 mb-0.5">
+                <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full" style={{ background: "#2A1808", color: "#C8522A" }}>Kitchen Hack</span>
+                {totalTime > 0 && (
+                  <span className="flex items-center gap-1 text-xs" style={{ color: "#8A6A4A" }}>
+                    <Clock className="w-3 h-3" />{totalTime} min
+                  </span>
+                )}
+              </div>
+              <h2 className="font-bold text-base leading-snug" style={{ color: "#EFE3CE" }}>{hack.title}</h2>
+            </div>
+          </div>
+          {hack.description && <p className="text-sm leading-relaxed mb-4" style={{ color: "#8A6A4A" }}>{hack.description}</p>}
+          {instructions.length > 0 && (
+            <div className="mb-4">
+              <h3 className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#6B4E36" }}>The Technique</h3>
+              <div className="flex flex-col gap-2.5">
+                {instructions.map((step, i) => (
+                  <div key={i} className="flex gap-3">
+                    <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold" style={{ background: "#2A1808", color: "#C8522A" }}>{i + 1}</span>
+                    <p className="text-sm leading-relaxed" style={{ color: "#EFE3CE" }}>{step}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {hack.source_url && (
+            <a href={hack.source_url} target="_blank" rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl text-sm font-semibold border"
+              style={{ borderColor: "#3A2416", color: "#8A6A4A", background: "#161009" }}>
+              <ExternalLink className="w-4 h-4" /> Watch original video
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HackCard({ hack, index, onOpen }: { hack: HackRow; index: number; onOpen: () => void }) {
+  const fallback = HACK_FALLBACKS[index % HACK_FALLBACKS.length];
+  const [imgSrc, setImgSrc] = useState(hack.image_url || fallback);
+  const [failed, setFailed] = useState(false);
+
+  return (
+    <button type="button" onClick={onOpen}
+      className="group rounded-xl overflow-hidden border transition-all hover:-translate-y-1 hover:shadow-md text-left w-full"
+      style={{ borderColor: "#3A2416", background: "#1C1209" }}>
+      <div className="relative h-28 overflow-hidden">
+        {!failed ? (
+          <img src={imgSrc} alt={hack.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            onError={() => { if (imgSrc !== fallback) setImgSrc(fallback); else setFailed(true); }} />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center" style={{ background: "linear-gradient(135deg, #1A1208 0%, #2A1A0A 100%)" }}>
+            <Zap className="w-8 h-8" style={{ color: "#C8522A", opacity: 0.3 }} />
+          </div>
+        )}
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(74,60,30,0.85) 0%, transparent 60%)" }} />
+        <div className="absolute top-2 right-2 px-1.5 py-0.5 rounded text-xs font-bold" style={{ background: "#2A1808", color: "#C8522A" }}>HACK</div>
+        <div className="absolute bottom-2 left-2">
+          <span className="text-xs font-semibold text-white group-hover:underline">Tap to learn →</span>
+        </div>
+      </div>
+      <div className="p-2.5">
+        <p className="text-xs font-medium leading-snug line-clamp-2" style={{ color: "#EFE3CE" }}>{hack.title}</p>
+        {hack.description && <p className="text-xs mt-1 line-clamp-1" style={{ color: "#6B4E36" }}>{hack.description}</p>}
+      </div>
+    </button>
+  );
+}
 import { CUISINE_SLUG_TO_COUNTRY, CUISINE_COUNTRIES } from "@/lib/country-cuisine-map";
 import { PaletteSwitcher } from "@/components/palette-switcher";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -257,9 +368,10 @@ const TIER_BORDER_COLOR: Record<BadgeTier, string> = {
 };
 
 // ── Main component ───────────────────────────────────────────────────────────
-export function ProfileClient({ userId, email }: { userId: string; email: string }) {
+export function ProfileClient({ userId, email, hacks }: { userId: string; email: string; hacks: HackRow[] }) {
   const [data, setData] = useState<WorldMapData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [selectedHack, setSelectedHack] = useState<HackRow | null>(null);
 
   useEffect(() => {
     fetch("/api/world-map")
@@ -528,6 +640,7 @@ export function ProfileClient({ userId, email }: { userId: string; email: string
               { href: "/saved",      icon: Heart,     label: "Saved"          },
               { href: "/cuisines",   icon: Globe2,    label: "World Cuisines" },
               { href: "/plans",      icon: BookOpen,  label: "Meal Plans"     },
+              { href: "/household",  icon: Home,      label: "Household"      },
             ].map(({ href, icon: Icon, label }) => (
               <Link
                 key={href}
@@ -633,6 +746,40 @@ export function ProfileClient({ userId, email }: { userId: string; email: string
           </div>
         </div>
       </div>
+
+      {/* ── KITCHEN HACKS ─────────────────────────────────────────── */}
+      {hacks.length > 0 && (
+        <div>
+          {/* Hack modal */}
+          {selectedHack && (
+            <HackModal hack={selectedHack} onClose={() => setSelectedHack(null)} />
+          )}
+
+          <div className="flex items-center gap-2 mb-4">
+            <Zap className="w-4 h-4" style={{ color: "#C8522A" }} />
+            <h2 className="font-bold text-base" style={{ color: "var(--fg-primary)" }}>
+              Kitchen Hacks
+            </h2>
+            <span
+              className="text-xs font-medium px-2 py-0.5 rounded-full"
+              style={{ background: "var(--wc-surface-2)", color: "#C8522A" }}
+            >
+              {hacks.length} tips
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {hacks.map((hack, i) => (
+              <HackCard
+                key={hack.id}
+                hack={hack}
+                index={i}
+                onOpen={() => setSelectedHack(hack)}
+              />
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Responsive grid override — collapses to single column on small screens */}
       <style>{`
