@@ -26,7 +26,10 @@ export default async function CookbooksPage() {
           Curated recipe collections from creators around the world
         </p>
       </div>
-      <CookbooksClient initialCookbooks={cookbooks ?? []} />
+      <CookbooksClient initialCookbooks={(cookbooks ?? []).map((cb) => ({
+        ...cb,
+        profiles: Array.isArray(cb.profiles) ? cb.profiles[0] ?? null : cb.profiles,
+      }))} />
     </main>
   );
 }
