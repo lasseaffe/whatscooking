@@ -22,33 +22,11 @@ export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTag
         cuisine={cuisine}
         dietaryTags={dietaryTags}
       />
-      {/* Scrim — spec gradient */}
+      {/* Subtle vignette for depth */}
       <div
         className="absolute inset-0 pointer-events-none"
-        style={{ background: "linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 40%, transparent 70%)" }}
+        style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, transparent 40%, rgba(0,0,0,0.18) 100%)" }}
       />
-
-      {/* Title overlaid on the hero — recipe presentation style */}
-      <div className="absolute bottom-0 left-0 right-0 px-5 pb-6">
-        <h1
-          className="font-serif-display leading-tight mb-2"
-          style={{ color: "#F5EDD8", fontSize: "clamp(1.4rem, 4vw, 2rem)", textShadow: "0 2px 16px rgba(0,0,0,0.6)" }}
-        >
-          {title}
-        </h1>
-        <div className="flex items-center gap-2 flex-wrap">
-          {cuisine && (
-            <span className="text-xs font-medium px-2.5 py-1 rounded-full" style={{ background: "rgba(200,82,42,0.25)", color: "#C8522A", border: "1px solid rgba(200,82,42,0.3)", backdropFilter: "blur(4px)" }}>
-              {cuisine}
-            </span>
-          )}
-          {(dietaryTags ?? []).slice(0, 2).map((tag) => (
-            <span key={tag} className="text-xs px-2.5 py-1 rounded-full" style={{ background: "rgba(13,9,7,0.5)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.6)", backdropFilter: "blur(4px)" }}>
-              {tag}
-            </span>
-          ))}
-        </div>
-      </div>
 
       {sourceUrl && (
         <a

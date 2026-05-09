@@ -1,100 +1,135 @@
 "use client";
 
-import { ChefHat, X } from "lucide-react";
+import { ChefHat } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 import { CookingModeProvider, useCookingMode } from "@/lib/cooking-mode-context";
+import { CookingModeScreen } from "./cooking-mode-screen";
 
-function CookingModeButtons() {
+export interface CookingModeWrapperProps {
+  children: React.ReactNode;
+  recipeTitle: string;
+  chefName?: string | null;
+  rating?: string | null;
+  reviewCount?: number;
+  imageUrl?: string | null;
+  baseServings?: number | null;
+  instructions?: string[];
+  ingredients?: { name: string; amount?: number | null; unit?: string | null }[];
+}
+
+function CookingModeWrapperInner({
+  children,
+  recipeTitle,
+  chefName,
+  rating,
+  reviewCount,
+  imageUrl,
+  baseServings,
+  instructions = [],
+  ingredients = [],
+}: CookingModeWrapperProps) {
   const { active, activate, deactivate } = useCookingMode();
-  return (
-    <div style={{ position: "fixed", bottom: "1.5rem", right: "1.5rem", zIndex: 60 }}>
-      <div className="group relative">
-        {/* Tooltip */}
-        <div
-          className="absolute bottom-full right-0 mb-2 px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-150"
-          style={{ background: "rgba(13,9,7,0.95)", color: "#EFE3CE", border: "1px solid rgba(58,36,22,0.6)" }}
-        >
-          {active
-            ? "Exit cooking mode — releases screen lock"
-            : "Keep screen on while you cook"}
-        </div>
 
-        {active ? (
-          <button
-            type="button"
-            onClick={deactivate}
-            aria-label="Exit Cooking Mode"
-            className="flex items-center gap-2 font-bold rounded-2xl shadow-2xl transition-all hover:opacity-90 active:scale-95"
-            style={{
-              minWidth: 44,
-              minHeight: 44,
-              padding: "0.6rem 1.1rem",
-              background: "rgba(200,82,42,0.95)",
-              color: "#fff",
-              backdropFilter: "blur(8px)",
-              border: "1.5px solid rgba(255,255,255,0.15)",
-              fontSize: "0.8rem",
-            }}
-          >
-            <X style={{ width: 16, height: 16, flexShrink: 0 }} />
-            Exit Cooking Mode
-          </button>
-        ) : (
+  if (active) {
+    return (
+      <CookingModeScreen
+        recipeTitle={recipeTitle}
+        chefName={chefName}
+        rating={rating ? parseFloat(rating) : null}
+        reviewCount={reviewCount}
+        imageUrl={imageUrl}
+        baseServings={baseServings ?? 2}
+        instructions={instructions}
+        ingredients={ingredients}
+        onExit={deactivate}
+      />
+    );
+  }
+
+  return (
+    <div style={{ minHeight: "calc(100vh - 48px)", position: "relative" }}>
+      {children}
+    </div>
+  );
+}
+
+// Sticky mobile CTA — appears when comments section scrolls into view
+export function MobileStickyCTA({ hasInstructions }: { hasInstructions: boolean }) {
+  const { activate } = useCookingMode();
+  const [visible, setVisible] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!hasInstructions) return;
+    const el = sentinelRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setVisible(entry.isIntersecting),
+      { threshold: 0 }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [hasInstructions]);
+
+  return (
+    <>
+      {/* Invisible sentinel placed at the top of the comments/interactions section */}
+      <div ref={sentinelRef} aria-hidden="true" />
+      {visible && hasInstructions && (
+        <div
+          className="fixed bottom-0 left-0 right-0 z-50 lg:hidden px-4 pb-4 pt-2"
+          style={{ background: "linear-gradient(to top, rgba(13,10,7,0.98) 60%, transparent)" }}
+        >
           <button
             type="button"
             onClick={activate}
-            aria-label="Enter Cooking Mode"
-            className="flex items-center gap-2 font-bold rounded-2xl shadow-2xl transition-all hover:opacity-90 active:scale-95"
+            className="w-full flex items-center justify-center gap-3 rounded-2xl font-bold text-base transition-all hover:opacity-90 active:scale-[0.98]"
             style={{
-              minWidth: 44,
-              minHeight: 44,
-              padding: "0.6rem 1.1rem",
-              background: "rgba(28,18,9,0.92)",
-              color: "var(--wc-pal-accent, #B07D56)",
-              backdropFilter: "blur(8px)",
+              padding: "1rem 1.5rem",
+              background: "linear-gradient(135deg, rgba(200,82,42,0.25) 0%, rgba(176,125,86,0.18) 100%)",
               border: "1.5px solid var(--wc-pal-accent, #B07D56)",
-              fontSize: "0.8rem",
+              color: "var(--wc-pal-accent, #B07D56)",
             }}
           >
-            <ChefHat style={{ width: 16, height: 16, flexShrink: 0 }} />
-            Cooking Mode
+            <ChefHat style={{ width: 20, height: 20, flexShrink: 0 }} />
+            Start Cooking Mode
           </button>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function CookingModeWrapperInner({ children }: { children: React.ReactNode }) {
-  const { active } = useCookingMode();
-  return (
-    <div
-      className={active ? "cooking-mode-active" : ""}
-      style={{ minHeight: "calc(100vh - 48px)", position: "relative" }}
-    >
-      {children}
-      <CookingModeButtons />
-      {active && (
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 55,
-            height: 3,
-            background: "linear-gradient(90deg, #C8522A, #B07D56, #828E6F)",
-          }}
-          aria-hidden
-        />
+        </div>
       )}
-    </div>
+    </>
   );
 }
 
-export function CookingModeWrapper({ children }: { children: React.ReactNode }) {
+export function CookingModeWrapper(props: CookingModeWrapperProps) {
   return (
     <CookingModeProvider>
-      <CookingModeWrapperInner>{children}</CookingModeWrapperInner>
+      <CookingModeWrapperInner {...props} />
     </CookingModeProvider>
+  );
+}
+
+// Standalone CTA — must be rendered inside a CookingModeWrapper (shared context).
+export function CookingModeCTA() {
+  const { activate } = useCookingMode();
+  return (
+    <button
+      type="button"
+      onClick={activate}
+      aria-label="Enter Cooking Mode"
+      className="flex items-center justify-center gap-3 w-full rounded-2xl font-bold transition-all hover:opacity-90 active:scale-[0.98] shadow-lg"
+      style={{
+        padding: "1rem 1.5rem",
+        background: "linear-gradient(135deg, rgba(200,82,42,0.18) 0%, rgba(176,125,86,0.12) 100%)",
+        border: "1.5px solid var(--wc-pal-accent, #B07D56)",
+        color: "var(--wc-pal-accent, #B07D56)",
+        fontSize: "1rem",
+      }}
+    >
+      <ChefHat style={{ width: 20, height: 20, flexShrink: 0 }} />
+      <span>Start Cooking Mode</span>
+      <span className="text-xs font-normal opacity-60 hidden sm:inline" style={{ marginLeft: 4 }}>
+        — keeps screen on
+      </span>
+    </button>
   );
 }

@@ -8,7 +8,7 @@ import { RecipeColumnsClient } from "./recipe-columns-client";
 import { extractAndSaveRecipe } from "@/lib/extract-recipe";
 import { RecipeHeroImage } from "./recipe-hero-image";
 import { SOSCookingHelper } from "@/components/sos-cooking-helper";
-import { CookingModeWrapper, CookingModeCTA } from "./cooking-mode-wrapper";
+import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-mode-wrapper";
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
 
@@ -39,13 +39,14 @@ export default async function RecipePage({
     if (extracted) recipeData = extracted as typeof recipe;
   }
 
-  const [{ data: ratingsData }, { data: commentsData }, { data: saveData }, { data: myRating }, { data: pantryData }, { data: recipeTags }] = await Promise.all([
+  const [{ data: ratingsData }, { data: commentsData }, { data: saveData }, { data: myRating }, { data: pantryData }, { data: recipeTags }, { data: householdMembers }] = await Promise.all([
     supabase.from("recipe_ratings").select("taste,difficulty,prep_time_rating,value_for_effort,presentation").eq("recipe_id", id),
     supabase.from("recipe_comments").select("*, profile:profiles(full_name, id)").eq("recipe_id", id).order("created_at", { ascending: false }),
     supabase.from("recipe_saves").select("recipe_id").eq("user_id", user!.id).eq("recipe_id", id).maybeSingle(),
     supabase.from("recipe_ratings").select("*").eq("user_id", user!.id).eq("recipe_id", id).maybeSingle(),
     supabase.from("pantry_items").select("id, name, quantity").eq("user_id", user!.id),
     supabase.from("wc_recipe_feature_tags").select("tag_id, wc_feature_tags(id, name, label)").eq("recipe_id", id),
+    supabase.from("household_members").select("id, display_name, avatar_emoji, age_group, filter_strictness").eq("owner_user_id", user!.id),
   ]);
 
   const featureTags: FeatureTag[] = (recipeTags ?? [])
@@ -83,6 +84,26 @@ export default async function RecipePage({
       instructions={instructions}
       ingredients={ingredients}
     >
+      {/* ══ MOBILE HERO IMAGE — full-bleed, hidden on desktop ══ */}
+      {recipeData.image_url && (
+        <div className="lg:hidden relative w-full" style={{ height: "56vw", maxHeight: 300, minHeight: 160 }}>
+          <RecipeHeroImage
+            recipeId={id}
+            imageUrl={recipeData.image_url}
+            title={displayTitle}
+            cuisine={recipeData.cuisine_type}
+            dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
+            sourceUrl={recipeData.source_url}
+            sourceName={recipeData.source_name}
+          />
+          {/* Gradient fade into page background */}
+          <div
+            className="absolute bottom-0 left-0 right-0 h-16 pointer-events-none"
+            style={{ background: "linear-gradient(to bottom, transparent, var(--wc-bg, #0d0a07))" }}
+          />
+        </div>
+      )}
+
       {/* ══ EDITORIAL HEADER — left: title/meta, right: image panel ══ */}
       <div
         className="px-6 lg:px-10 pt-6 pb-8"
@@ -236,6 +257,9 @@ export default async function RecipePage({
       {/* ══════════════════════════════════════════════════════
           FULL-WIDTH BOTTOM SECTIONS
       ══════════════════════════════════════════════════════ */}
+      {/* Mobile sticky CTA sentinel — triggers when interactions section enters view */}
+      <MobileStickyCTA hasInstructions={instructions.length > 0} />
+
       <div className="px-6 py-8 max-w-5xl mx-auto space-y-8">
         <RecipeInteractions
           recipeId={id}
@@ -244,6 +268,8 @@ export default async function RecipePage({
           initialSaved={!!saveData}
           myExistingRating={myRating ?? null}
           isOriginalCreator={recipeData.created_by === user!.id}
+          householdMembers={householdMembers ?? []}
+          recipeIngredients={ingredients.map((i) => i.name)}
         />
       </div>
 

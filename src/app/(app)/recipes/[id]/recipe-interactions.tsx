@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Star, Heart, MessageSquare, X, ChevronDown, ChevronUp, Check } from "lucide-react";
+import { RichTextarea } from "@/components/ui/rich-textarea";
 
 type Comment = {
   id: string;
@@ -20,6 +21,21 @@ type Rating = {
   value_for_effort: number | null;
   presentation: number | null;
   would_make_again: boolean | null;
+};
+
+type HouseholdMemberSlim = {
+  id: string;
+  display_name: string;
+  avatar_emoji: string;
+  age_group: string;
+};
+
+type MemberReactionDraft = {
+  member_id: string;
+  rating: 1 | 2 | 3 | null;
+  notes: string;
+  disliked_ingredients: string[];
+  wasntHome: boolean;
 };
 
 const TAG_LABELS: Record<string, { label: string; color: string; bg: string }> = {
@@ -66,6 +82,8 @@ export function RecipeInteractions({
   initialSaved,
   myExistingRating,
   isOriginalCreator,
+  householdMembers,
+  recipeIngredients,
 }: {
   recipeId: string;
   userId: string;
@@ -73,6 +91,8 @@ export function RecipeInteractions({
   initialSaved: boolean;
   myExistingRating: Rating | null;
   isOriginalCreator: boolean;
+  householdMembers?: HouseholdMemberSlim[];
+  recipeIngredients?: string[];
 }) {
   const [saved, setSaved] = useState(initialSaved);
   const [savingState, setSavingState] = useState(false);
@@ -83,6 +103,15 @@ export function RecipeInteractions({
     myExistingRating ?? { taste: null, difficulty: null, prep_time_rating: null, value_for_effort: null, presentation: null, would_make_again: null }
   );
   const [submittingRating, setSubmittingRating] = useState(false);
+  const [memberReactions, setMemberReactions] = useState<MemberReactionDraft[]>(
+    (householdMembers ?? []).map((m) => ({
+      member_id: m.id,
+      rating: null,
+      notes: "",
+      disliked_ingredients: [],
+      wasntHome: false,
+    }))
+  );
 
   const [comments, setComments] = useState<Comment[]>(initialComments);
   const [commentText, setCommentText] = useState("");
@@ -111,6 +140,24 @@ export function RecipeInteractions({
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ recipe_id: recipeId, ...rating }),
     });
+
+    const reactionsToSave = memberReactions.filter((r) => !r.wasntHome && r.rating !== null);
+    if (reactionsToSave.length > 0) {
+      await fetch("/api/household/reactions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          recipe_id: recipeId,
+          reactions: reactionsToSave.map((r) => ({
+            member_id: r.member_id,
+            rating: r.rating,
+            notes: r.notes || undefined,
+            disliked_ingredients: r.disliked_ingredients,
+          })),
+        }),
+      });
+    }
+
     setRatingSubmitted(true);
     setShowRatingForm(false);
     setSubmittingRating(false);
@@ -201,6 +248,82 @@ export function RecipeInteractions({
             style={{ background: "#C8522A", color: "#fff" }}>
             {submittingRating ? "Saving…" : "Submit rating"}
           </button>
+
+          {(householdMembers ?? []).length > 0 && (
+            <div className="pt-4 border-t space-y-4" style={{ borderColor: "#3A2416" }}>
+              <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>How did everyone react?</p>
+              {(householdMembers ?? []).map((member, idx) => {
+                const draft = memberReactions[idx];
+                if (!draft) return null;
+
+                const ingredientChips = (recipeIngredients ?? []).slice(0, 6);
+
+                return (
+                  <div key={member.id} className="rounded-xl border p-3 space-y-2" style={{ borderColor: "#3A2416", background: "#161009", opacity: draft.wasntHome ? 0.5 : 1 }}>
+                    <div className="flex items-center gap-2">
+                      <span className="text-xl">{member.avatar_emoji}</span>
+                      <span className="text-sm font-medium" style={{ color: "#EFE3CE" }}>{member.display_name}</span>
+                      <button
+                        type="button"
+                        onClick={() => setMemberReactions((prev) => prev.map((r, i) => i === idx ? { ...r, wasntHome: !r.wasntHome } : r))}
+                        className="ml-auto text-xs px-2 py-0.5 rounded-full"
+                        style={{ background: draft.wasntHome ? "#2A1808" : "transparent", border: "1px solid #3A2416", color: "#6B4E36" }}>
+                        {draft.wasntHome ? "Wasn't home ✓" : "Wasn't home"}
+                      </button>
+                    </div>
+
+                    {!draft.wasntHome && (
+                      <>
+                        <div className="flex gap-3">
+                          {([1, 2, 3] as const).map((v) => (
+                            <button key={v} type="button"
+                              onClick={() => setMemberReactions((prev) => prev.map((r, i) => i === idx ? { ...r, rating: v } : r))}
+                              className="flex-1 py-2 rounded-xl text-xl transition-all"
+                              style={{ background: draft.rating === v ? "#2A1808" : "transparent", border: `1px solid ${draft.rating === v ? "#C8522A" : "#3A2416"}` }}>
+                              {["😞", "😐", "😋"][v - 1]}
+                            </button>
+                          ))}
+                        </div>
+
+                        {ingredientChips.length > 0 && (
+                          <div>
+                            <p className="text-xs mb-1.5" style={{ color: "#6B4E36" }}>Didn&apos;t eat?</p>
+                            <div className="flex flex-wrap gap-1.5">
+                              {ingredientChips.map((ing) => {
+                                const selected = draft.disliked_ingredients.includes(ing);
+                                return (
+                                  <button key={ing} type="button"
+                                    onClick={() => setMemberReactions((prev) => prev.map((r, i) =>
+                                      i === idx ? {
+                                        ...r,
+                                        disliked_ingredients: selected
+                                          ? r.disliked_ingredients.filter((x) => x !== ing)
+                                          : [...r.disliked_ingredients, ing],
+                                      } : r
+                                    ))}
+                                    className="text-xs px-2 py-1 rounded-full"
+                                    style={{ background: selected ? "#2A1808" : "#1C1209", border: `1px solid ${selected ? "#C8522A" : "#3A2416"}`, color: selected ? "#C8522A" : "#8A6A4A" }}>
+                                    {ing}
+                                  </button>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+
+                        <input
+                          value={draft.notes}
+                          onChange={(e) => setMemberReactions((prev) => prev.map((r, i) => i === idx ? { ...r, notes: e.target.value } : r))}
+                          placeholder="Add a note…"
+                          className="w-full px-3 py-1.5 rounded-xl text-xs outline-none"
+                          style={{ background: "#1C1209", border: "1px solid #3A2416", color: "#EFE3CE" }} />
+                      </>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
 
@@ -215,14 +338,13 @@ export function RecipeInteractions({
 
         {/* Write comment */}
         <div className="rounded-2xl border p-4 mb-5" style={{ borderColor: "#3A2416", background: "#1C1209" }}>
-          <textarea
+          <RichTextarea
             value={commentText}
-            onChange={(e) => setCommentText(e.target.value)}
+            onChange={setCommentText}
             placeholder="Share your experience, tips, or variations…"
             rows={3}
             suppressHydrationWarning
-            className="w-full text-sm resize-none focus:outline-none bg-transparent"
-            style={{ color: "#EFE3CE" }}
+            theme="dark"
           />
 
           {/* Tag selector */}

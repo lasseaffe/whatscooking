@@ -64,15 +64,15 @@ export function PremiumRecipeView({ initialRecipe }: { initialRecipe: RecipeData
           <img src={recipe.image_url} alt={recipe.title} className="w-full h-full object-cover" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)" }} />
           {recipe.cuisine_type && (
-            <span className="absolute bottom-4 left-4 text-xs font-medium px-3 py-1.5 rounded-full"
-              style={{ background: "rgba(13,9,7,0.8)", color: "#EFE3CE", backdropFilter: "blur(4px)" }}>
+            <span className="rc-card__badge absolute bottom-4 left-4 font-medium px-3 py-1.5 rounded-full"
+              style={{ background: "rgba(13,9,7,0.82)", color: "var(--rc-title, #EFE3CE)", backdropFilter: "blur(4px)" }}>
               {recipe.cuisine_type}
             </span>
           )}
           {recipe.source_url && (
             <a href={recipe.source_url} target="_blank" rel="noopener noreferrer"
-              className="absolute top-4 right-4 flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg"
-              style={{ background: "rgba(13,9,7,0.75)", color: "#8A6A4A", backdropFilter: "blur(4px)" }}>
+              className="rc-card__badge absolute top-4 right-4 flex items-center gap-1 px-3 py-1.5 rounded-lg"
+              style={{ background: "rgba(13,9,7,0.78)", color: "var(--rc-meta, #A08060)", backdropFilter: "blur(4px)" }}>
               <ExternalLink className="w-3 h-3" /> View original
             </a>
           )}
@@ -82,55 +82,57 @@ export function PremiumRecipeView({ initialRecipe }: { initialRecipe: RecipeData
       {/* Title */}
       <div className="mb-4">
         <div className="flex items-start justify-between gap-4 mb-2">
-          <h1 className="text-2xl font-bold leading-snug" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>{recipe.title}</h1>
+          <h1 className="font-bold leading-snug" style={{ color: "var(--rc-title, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}>{recipe.title}</h1>
           {recipe.servings && (
-            <div className="flex items-center gap-1.5 shrink-0 px-3 py-1.5 rounded-full text-sm font-medium"
-              style={{ background: "#2A1808", color: "#C8522A" }}>
+            <div className="flex items-center gap-1.5 shrink-0 px-3 py-1.5 rounded-full font-medium"
+              style={{ background: "var(--rc-badge-bg, #2A1808)", color: "var(--rc-accent-alt, #E85D20)", fontSize: "var(--wc-text-sm, 0.8rem)" }}>
               <Users className="w-3.5 h-3.5" />
               {recipe.servings} serves
             </div>
           )}
         </div>
         {recipe.description && (
-          <p className="text-sm leading-relaxed" style={{ color: "#8A6A4A", lineHeight: "1.7" }}>{recipe.description}</p>
+          <p className="wc-text-sm leading-relaxed" style={{ color: "var(--rc-sub, #6B4E36)", lineHeight: "1.7" }}>{recipe.description}</p>
         )}
       </div>
 
       {/* Time */}
       {totalTime > 0 && (
-        <div className="flex items-center gap-4 mb-5 text-sm" style={{ color: "#6B4E36" }}>
+        <div className="flex items-center gap-4 mb-5 wc-text-sm" style={{ color: "var(--rc-sub, #6B4E36)" }}>
           {recipe.prep_time_minutes && <span>Prep {recipe.prep_time_minutes}m</span>}
           {recipe.cook_time_minutes && <span>Cook {recipe.cook_time_minutes}m</span>}
-          {totalTime > 0 && <span className="font-medium" style={{ color: "#EFE3CE" }}>Total {totalTime}m</span>}
+          {totalTime > 0 && <span className="font-semibold" style={{ color: "var(--rc-title, #EFE3CE)" }}>Total {totalTime}m</span>}
         </div>
       )}
 
       {/* Nutrition */}
       {(recipe.calories || recipe.protein_g || recipe.carbs_g || recipe.fat_g) && (
-        <div className="rounded-2xl border px-4 py-3 mb-6 flex flex-wrap gap-4"
-          style={{ borderColor: "#3A2416", background: "#1C1209" }}>
+        <div className="rounded-2xl flex flex-wrap gap-3 mb-6"
+          style={{ background: "var(--rc-bg, #1F1B19)", border: "1px solid var(--rc-rim, #3A3430)", padding: "var(--wc-space-2, 1rem)" }}>
           {recipe.calories && (
-            <div className="flex items-center gap-2">
-              <Flame className="w-4 h-4" style={{ color: "#C8522A" }} />
-              <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{recipe.calories} kcal</span>
+            <div className="wc-nutrition-chip flex items-center gap-2">
+              <Flame className="w-4 h-4" style={{ color: "var(--rc-accent-alt, #E85D20)" }} />
+              {recipe.calories} kcal
             </div>
           )}
           {recipe.protein_g && (
-            <div className="flex items-center gap-2">
+            <div className="wc-nutrition-chip flex items-center gap-2">
               <Dumbbell className="w-4 h-4" style={{ color: "#828E6F" }} />
-              <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{recipe.protein_g}g protein</span>
+              {recipe.protein_g}g protein
             </div>
           )}
           {recipe.carbs_g && (
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold px-1.5 py-0.5 rounded" style={{ background: "#2A1808", color: "#C8A030" }}>C</span>
-              <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{recipe.carbs_g}g carbs</span>
+            <div className="wc-nutrition-chip flex items-center gap-2">
+              <span className="wc-text-xs font-bold px-1.5 py-0.5 rounded"
+                style={{ background: "var(--rc-badge-bg, #2A1808)", color: "var(--rc-accent, #F4A261)" }}>C</span>
+              {recipe.carbs_g}g carbs
             </div>
           )}
           {recipe.fat_g && (
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold px-1.5 py-0.5 rounded" style={{ background: "#2A1808", color: "#C8A030" }}>F</span>
-              <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{recipe.fat_g}g fat</span>
+            <div className="wc-nutrition-chip flex items-center gap-2">
+              <span className="wc-text-xs font-bold px-1.5 py-0.5 rounded"
+                style={{ background: "var(--rc-badge-bg, #2A1808)", color: "var(--rc-accent, #F4A261)" }}>F</span>
+              {recipe.fat_g}g fat
             </div>
           )}
         </div>
@@ -140,8 +142,7 @@ export function PremiumRecipeView({ initialRecipe }: { initialRecipe: RecipeData
       {(recipe.dietary_tags ?? []).length > 0 && (
         <div className="flex flex-wrap gap-2 mb-6">
           {(recipe.dietary_tags as string[]).map((tag) => (
-            <span key={tag} className="text-xs px-3 py-1 rounded-full font-medium"
-              style={{ background: "#2A1808", color: "#8A6A4A" }}>{tag}</span>
+            <span key={tag} className="rc-card__badge">{tag}</span>
           ))}
         </div>
       )}
@@ -159,15 +160,14 @@ export function PremiumRecipeView({ initialRecipe }: { initialRecipe: RecipeData
           {/* Ingredients */}
           {ingredients.length > 0 && (
             <div className="mb-8">
-              <h2 className="text-lg font-bold mb-3" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>Ingredients</h2>
-              <div className="rounded-2xl border overflow-hidden" style={{ borderColor: "#3A2416" }}>
+              <h2 className="font-bold mb-3" style={{ color: "var(--rc-title, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}>Ingredients</h2>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid var(--rc-rim, #3A3430)" }}>
                 {ingredients.map((ing, i) => (
-                  <div key={i} className="flex items-center gap-3 px-4 py-3 border-b last:border-b-0 text-sm"
-                    style={{ borderColor: "#3A2416", background: i % 2 === 0 ? "#1C1209" : "#161009" }}>
+                  <div key={i} className="wc-ingredient-row flex items-center gap-3 wc-text-sm">
                     <span className="text-lg w-7 text-center">{getIngredientEmoji(ing.name)}</span>
-                    <span className="flex-1 font-medium" style={{ color: "#EFE3CE" }}>{ing.name}</span>
+                    <span className="flex-1 font-medium" style={{ color: "var(--rc-title, #EFE3CE)" }}>{ing.name}</span>
                     {(ing.amount || ing.unit) && (
-                      <span className="text-sm" style={{ color: "#6B4E36" }}>{ing.amount} {ing.unit}</span>
+                      <span style={{ color: "var(--rc-sub, #6B4E36)" }}>{ing.amount} {ing.unit}</span>
                     )}
                   </div>
                 ))}

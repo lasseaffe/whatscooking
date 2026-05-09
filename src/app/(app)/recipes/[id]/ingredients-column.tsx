@@ -47,27 +47,25 @@ export function IngredientsColumn({ recipeId, initialIngredients, sourceUrl, isP
   // No ingredients yet — show extraction UI for premium recipes
   if (isPremium) {
     return (
-      <div
-        className="rounded-2xl overflow-hidden"
-        style={{ border: "1px solid rgba(176,125,86,0.3)", background: "rgba(26,16,8,0.7)" }}
-      >
+      <div className="wc-panel wc-panel--sm overflow-hidden">
         {/* Premium gradient header */}
         <div
           className="px-5 py-4"
-          style={{ background: "linear-gradient(135deg, #1A1206 0%, #2E1D0A 60%, #3A2410 100%)", borderBottom: "1px solid rgba(176,125,86,0.2)" }}
+          style={{
+            background: "linear-gradient(135deg, var(--rc-bg, #1F1B19) 0%, var(--rc-surface, #2C2724) 100%)",
+            borderBottom: "1px solid var(--rc-rim, #3A3430)",
+          }}
         >
           <div className="flex items-center gap-2 mb-1.5">
-            <div
-              className="w-6 h-6 rounded-lg flex items-center justify-center"
-              style={{ background: "rgba(201,168,76,0.2)" }}
-            >
-              <Sparkles style={{ width: 13, height: 13, color: "#C9A84C" }} />
+            <div className="w-6 h-6 rounded-lg flex items-center justify-center"
+              style={{ background: "rgba(201,168,76,0.18)" }}>
+              <Sparkles style={{ width: 13, height: 13, color: "var(--rc-accent, #F4A261)" }} />
             </div>
-            <span className="text-xs font-bold uppercase tracking-wider" style={{ color: "#C9A84C" }}>
+            <span className="wc-section-label" style={{ color: "var(--rc-accent, #F4A261)" }}>
               Premium Recipe
             </span>
           </div>
-          <p className="text-sm leading-snug" style={{ color: "rgba(239,227,206,0.75)" }}>
+          <p className="wc-text-sm leading-snug" style={{ color: "var(--rc-meta, #A08060)" }}>
             Ingredients will be reconstructed by AI from the original source.
           </p>
         </div>
@@ -76,8 +74,8 @@ export function IngredientsColumn({ recipeId, initialIngredients, sourceUrl, isP
           <button
             onClick={handleExtract}
             disabled={extracting}
-            className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-bold disabled:opacity-60 transition-all hover:opacity-90"
-            style={{ background: "linear-gradient(135deg, #C8522A, #B07D56)", color: "#fff" }}
+            className="w-full flex items-center justify-center gap-2 py-3 rounded-xl wc-text-sm font-bold disabled:opacity-60 transition-all hover:opacity-90"
+            style={{ background: "linear-gradient(135deg, var(--rc-accent-alt, #E85D20), var(--rc-accent, #F4A261))", color: "#fff" }}
           >
             {extracting ? (
               <><Loader2 style={{ width: 15, height: 15 }} className="animate-spin" /> Extracting ingredients…</>
@@ -91,8 +89,8 @@ export function IngredientsColumn({ recipeId, initialIngredients, sourceUrl, isP
               href={sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all hover:opacity-80"
-              style={{ background: "rgba(42,24,8,0.6)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.6)" }}
+              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl wc-text-sm font-semibold transition-all hover:opacity-80"
+              style={{ background: "var(--rc-badge-bg, #2A1808)", color: "var(--rc-meta, #A08060)", border: "1px solid var(--rc-rim, #3A3430)" }}
             >
               <ExternalLink style={{ width: 14, height: 14 }} />
               View original source
@@ -100,10 +98,10 @@ export function IngredientsColumn({ recipeId, initialIngredients, sourceUrl, isP
           )}
 
           {error && (
-            <p className="text-xs text-center" style={{ color: "#ef4444" }}>{error}</p>
+            <p className="wc-text-xs text-center" style={{ color: "#ef4444" }}>{error}</p>
           )}
 
-          <p className="text-xs text-center leading-relaxed" style={{ color: "#4A3020" }}>
+          <p className="wc-text-xs text-center leading-relaxed" style={{ color: "var(--rc-sub, #6B4E36)" }}>
             AI reconstructs the ingredients from available recipe data and source information.
           </p>
         </div>
@@ -115,17 +113,17 @@ export function IngredientsColumn({ recipeId, initialIngredients, sourceUrl, isP
   return (
     <div
       className="rounded-xl p-6 text-center"
-      style={{ background: "rgba(26,16,8,0.5)", border: "1px dashed rgba(42,24,8,0.7)" }}
+      style={{ background: "var(--rc-bg, #1F1B19)", border: "1px dashed var(--rc-rim, #3A3430)" }}
     >
-      <Utensils style={{ width: 28, height: 28, margin: "0 auto 12px", color: "#3A2416" }} />
-      <p className="text-sm font-medium mb-1" style={{ color: "#6B4E36" }}>Ingredients not extracted yet</p>
+      <Utensils style={{ width: 28, height: 28, margin: "0 auto 12px", color: "var(--rc-sub, #6B4E36)" }} />
+      <p className="wc-text-sm font-medium mb-1" style={{ color: "var(--rc-meta, #A08060)" }}>Ingredients not extracted yet</p>
       {sourceUrl && (
         <a
           href={sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs underline hover:opacity-80"
-          style={{ color: "var(--wc-pal-accent, #B07D56)" }}
+          className="wc-text-xs underline hover:opacity-80"
+          style={{ color: "var(--rc-accent, #F4A261)" }}
         >
           View original recipe →
         </a>
