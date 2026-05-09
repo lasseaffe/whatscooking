@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useRef, useEffect } from "react";
-import { Plus, X, Search, ShoppingBasket, Loader2, Camera, CheckSquare, Square, PackagePlus, Calendar, AlertTriangle, ChefHat, Bell, BellOff, Leaf } from "lucide-react";
+import { Plus, X, Search, ShoppingBasket, Loader2, Camera, CheckSquare, Square, PackagePlus, Calendar, AlertTriangle, ChefHat, Bell, BellOff, Leaf, Users, Share2, Copy, Check, UserCircle2 } from "lucide-react";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
 import { CategoryBadge } from "@/components/category-badge";
 import { getIngredientEmoji } from "@/lib/ingredient-emoji";
@@ -155,10 +155,12 @@ export function PantryClient({ initialItems, categories }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const L = LABELS[lang];
   const [activeTab, setActiveTab] = useState<"pantry" | "leftovers">("pantry");
-  // Expiry dates stored locally: { [itemId]: ISO date string }
-  const [expiryDates, setExpiryDates] = useState<Record<string, string>>(() => {
-    try { return JSON.parse(localStorage.getItem("wc_pantry_expiry_v1") || "{}"); } catch { return {}; }
-  });
+  // Household pantry view: "shared" | "mine" — shared is default
+  const [pantryView, setPantryView] = useState<"shared" | "mine">("shared");
+  const [showSharePanel, setShowSharePanel] = useState(false);
+  const [inviteCopied, setInviteCopied] = useState(false);
+  // Household items (stubbed — will come from DB once sharing is live)
+  const [householdItems] = useState<PantryItem[]>([]);
   const [editingExpiry, setEditingExpiry] = useState<string | null>(null);
   const [notifEnabled, setNotifEnabled] = useState<boolean>(() => {
     try { return JSON.parse(localStorage.getItem("wc_expiry_notif_v1") ?? "true"); } catch { return true; }
@@ -221,11 +223,12 @@ export function PantryClient({ initialItems, categories }: Props) {
     } catch { /* uncategorised fallback */ }
 
     const quantityStr = quantity.trim() ? `${quantity.trim()} ${unit}`.trim() : null;
+    const expiryDate = suggestExpiryDate(name);
 
     const res = await fetch("/api/pantry/items", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, quantity: quantityStr, category_id: categoryId ?? null }),
+      body: JSON.stringify({ name, quantity: quantityStr, category_id: categoryId ?? null, expires_at: expiryDate }),
     });
     const json = await res.json();
 
@@ -233,9 +236,6 @@ export function PantryClient({ initialItems, categories }: Props) {
       setError(`${L.failed} (${json.error ?? res.status})`);
     } else if (json.item) {
       setItems((prev) => [json.item as PantryItem, ...prev]);
-      // Auto-suggest expiry date based on ingredient type
-      const expiry = suggestExpiryDate(name);
-      setItemExpiry(json.item.id, expiry);
       setInput("");
       setQuantity("");
     }
@@ -326,22 +326,31 @@ export function PantryClient({ initialItems, categories }: Props) {
 
   const unitOptions = getUnitOptions(input, unitSystem);
 
-  function setItemExpiry(id: string, date: string) {
-    const updated = { ...expiryDates, [id]: date };
-    setExpiryDates(updated);
-    try { localStorage.setItem("wc_pantry_expiry_v1", JSON.stringify(updated)); } catch {}
+  async function setItemExpiry(id: string, date: string) {
+    setItems((prev) =>
+      prev.map((i) => (i.id === id ? { ...i, expires_at: date } : i))
+    );
     setEditingExpiry(null);
+    await fetch(`/api/pantry/items/${id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expires_at: date }),
+    });
   }
 
-  function clearItemExpiry(id: string) {
-    const updated = { ...expiryDates };
-    delete updated[id];
-    setExpiryDates(updated);
-    try { localStorage.setItem("wc_pantry_expiry_v1", JSON.stringify(updated)); } catch {}
+  async function clearItemExpiry(id: string) {
+    setItems((prev) =>
+      prev.map((i) => (i.id === id ? { ...i, expires_at: null } : i))
+    );
+    await fetch(`/api/pantry/items/${id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expires_at: null }),
+    });
   }
 
-  function getExpiryStatus(id: string): null | { label: string; color: string; bg: string; daysLeft: number } {
-    const exp = expiryDates[id];
+  function getExpiryStatus(item: PantryItem): null | { label: string; color: string; bg: string; daysLeft: number } {
+    const exp = item.expires_at;
     if (!exp) return null;
     const now = new Date();
     const expDate = new Date(exp);
@@ -354,7 +363,7 @@ export function PantryClient({ initialItems, categories }: Props) {
   }
 
   const expiringSoonCount = items.filter((i) => {
-    const s = getExpiryStatus(i.id);
+    const s = getExpiryStatus(i);
     return s && s.daysLeft <= 3;
   }).length;
 
@@ -436,6 +445,105 @@ export function PantryClient({ initialItems, categories }: Props) {
           </button>
         </div>
       )}
+
+      {/* Pantry view toggle: Shared Household / My Pantry */}
+      <div className="flex gap-1 mb-4 p-1 rounded-2xl" style={{ background: "#F5E6D3" }}>
+        <button
+          onClick={() => setPantryView("shared")}
+          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
+          style={{
+            background: pantryView === "shared" ? "#fff" : "transparent",
+            color: pantryView === "shared" ? "#3D2817" : "#A69180",
+            boxShadow: pantryView === "shared" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
+          }}
+        >
+          <Users className="w-4 h-4" /> Household
+        </button>
+        <button
+          onClick={() => setPantryView("mine")}
+          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
+          style={{
+            background: pantryView === "mine" ? "#fff" : "transparent",
+            color: pantryView === "mine" ? "#3D2817" : "#A69180",
+            boxShadow: pantryView === "mine" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
+          }}
+        >
+          <UserCircle2 className="w-4 h-4" /> My Pantry
+        </button>
+      </div>
+
+      {/* Share button + description — shown on Household view */}
+      {pantryView === "shared" && (
+        <div className="mb-5 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.8)" }}>
+          <div className="flex items-center justify-between gap-4">
+            <div className="flex items-start gap-3">
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0"
+                style={{ background: "#FFF0E6" }}>
+                <Share2 className="w-4 h-4" style={{ color: "#C85A2F" }} />
+              </div>
+              <div>
+                <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>Share your household pantry</p>
+                <p className="text-xs mt-0.5 leading-relaxed" style={{ color: "#6B5B52" }}>
+                  Create a shared household list with your family and friends and change your grocery planning forever.
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => setShowSharePanel((v) => !v)}
+              className="shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-xl font-semibold text-sm"
+              style={{ background: "#C85A2F", color: "#fff" }}
+            >
+              <Share2 className="w-4 h-4" />
+              Share
+            </button>
+          </div>
+
+          {/* Inline share panel */}
+          {showSharePanel && (
+            <div className="mt-4 pt-4 border-t" style={{ borderColor: "#F5E6D3" }}>
+              <p className="text-xs font-semibold mb-2" style={{ color: "#3D2817" }}>Invite your household</p>
+              <p className="text-xs mb-3" style={{ color: "#6B5B52" }}>
+                Send this link to family or housemates — they&apos;ll join your shared pantry automatically.
+              </p>
+              <div className="flex items-center gap-2">
+                <div className="flex-1 px-3 py-2 rounded-xl border text-xs font-mono truncate"
+                  style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#6B5B52" }}>
+                  whatscooking.app/join/household-invite-coming-soon
+                </div>
+                <button
+                  onClick={() => {
+                    navigator.clipboard?.writeText("whatscooking.app/join/household-invite-coming-soon");
+                    setInviteCopied(true);
+                    setTimeout(() => setInviteCopied(false), 2000);
+                  }}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl border text-xs font-semibold transition-colors"
+                  style={{ borderColor: "#E8D4C0", background: inviteCopied ? "#F0FDF4" : "#FAF7F2", color: inviteCopied ? "#16A34A" : "#3D2817" }}
+                >
+                  {inviteCopied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                  {inviteCopied ? "Copied!" : "Copy"}
+                </button>
+              </div>
+              <p className="text-xs mt-3 opacity-60" style={{ color: "#6B5B52" }}>
+                Household sharing is coming soon — sign up and you&apos;ll be first to try it.
+              </p>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Household empty state */}
+      {pantryView === "shared" && householdItems.length === 0 && (
+        <div className="rounded-2xl border p-10 text-center mb-6" style={{ borderColor: "#F5E6D3", borderStyle: "dashed" }}>
+          <Users className="w-8 h-8 mx-auto mb-3" style={{ color: "#C85A2F", opacity: 0.35 }} />
+          <p className="text-sm font-medium mb-1" style={{ color: "#3D2817" }}>No household pantry yet</p>
+          <p className="text-xs" style={{ color: "#6B5B52" }}>
+            Invite family or housemates above to build a shared list together.
+          </p>
+        </div>
+      )}
+
+      {/* Show individual pantry content only on "mine" view */}
+      {pantryView === "shared" ? null : <>
 
       {/* Header + controls */}
       <div className="flex items-start justify-between gap-4 mb-6">
@@ -679,13 +787,14 @@ export function PantryClient({ initialItems, categories }: Props) {
               </div>
               <div className="flex flex-wrap gap-2">
                 {catItems.map((item) => {
-                  const expiryStatus = getExpiryStatus(item.id);
+                  const expiryStatus = getExpiryStatus(item);
                   return (
                     <div key={item.id}
                       className="flex items-center gap-2 px-3 py-1.5 rounded-full border text-sm"
                       style={{
-                        borderColor: expiryStatus ? expiryStatus.color + "50" : "#E8D4C0",
-                        background: expiryStatus ? expiryStatus.bg : "#fff",
+                        borderColor: "#E8D4C0",
+                        background: "rgba(255,255,255,0.75)",
+                        backdropFilter: "blur(8px)",
                         color: "#3D2817",
                       }}>
                       <span className="text-base">{getIngredientEmoji(item.name)}</span>
@@ -750,17 +859,17 @@ export function PantryClient({ initialItems, categories }: Props) {
 
       {/* Waste Not widget */}
       {(() => {
-        const atRisk = items.filter(i => { const s = getExpiryStatus(i.id); return s && s.daysLeft >= 0 && s.daysLeft <= 5; });
+        const atRisk = items.filter(i => { const s = getExpiryStatus(i); return s && s.daysLeft >= 0 && s.daysLeft <= 5; });
         if (atRisk.length === 0) return null;
         return (
-          <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#BBF7D0", background: "#F0FDF4" }}>
+          <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)", backdropFilter: "blur(8px)" }}>
             <div className="flex items-center gap-2 mb-2">
               <Leaf className="w-4 h-4" style={{ color: "#16A34A" }} />
-              <p className="text-sm font-semibold" style={{ color: "#15803D" }}>
+              <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
                 Waste Not — {atRisk.length} item{atRisk.length !== 1 ? "s" : ""} expiring soon
               </p>
             </div>
-            <p className="text-xs mb-3" style={{ color: "#166534" }}>
+            <p className="text-xs mb-3" style={{ color: "#6B5B52" }}>
               Use up: {atRisk.map(i => i.name).join(", ")}
             </p>
             <button
@@ -791,9 +900,9 @@ export function PantryClient({ initialItems, categories }: Props) {
             {wasteNotRecipes && wasteNotRecipes.length > 0 && (
               <div className="mt-3 flex flex-col gap-2">
                 {wasteNotRecipes.map((r, i) => (
-                  <div key={i} className="rounded-xl p-3" style={{ background: "#dcfce7" }}>
-                    <p className="text-sm font-semibold" style={{ color: "#15803D" }}>{r.title}</p>
-                    {r.reason && <p className="text-xs mt-0.5" style={{ color: "#166534" }}>{r.reason}</p>}
+                  <div key={i} className="rounded-xl p-3 border" style={{ background: "#fff", borderColor: "#E8D4C0" }}>
+                    <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>{r.title}</p>
+                    {r.reason && <p className="text-xs mt-0.5" style={{ color: "#6B5B52" }}>{r.reason}</p>}
                   </div>
                 ))}
               </div>
@@ -819,8 +928,8 @@ export function PantryClient({ initialItems, categories }: Props) {
           aria-label="Toggle expiry alerts"
         >
           <span
-            className="absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform"
-            style={{ transform: notifEnabled ? "translateX(20px)" : "translateX(2px)" }}
+            className="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform"
+            style={{ transform: notifEnabled ? "translateX(20px)" : "translateX(0px)" }}
           />
         </button>
       </div>
@@ -828,7 +937,7 @@ export function PantryClient({ initialItems, categories }: Props) {
       {/* Find recipes CTA */}
       {items.length >= 2 && (
         <div className="mt-6 rounded-2xl border p-5 flex items-center justify-between gap-4"
-          style={{ borderColor: "#F5E6D3", background: "#FFF8F3" }}>
+          style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)", backdropFilter: "blur(8px)" }}>
           <div>
             <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
               {L.youHave} {items.length} {L.ingredients}
@@ -842,6 +951,7 @@ export function PantryClient({ initialItems, categories }: Props) {
           </a>
         </div>
       )}
+      </>}
       </>}
     </div>
   );

@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-    const { name, quantity, category_id } = await req.json();
+    const { name, quantity, category_id, expires_at } = await req.json();
     if (!name?.trim()) return NextResponse.json({ error: "name required" }, { status: 400 });
 
     // Ensure a profile row exists for this user (handles accounts created before
@@ -25,6 +25,7 @@ export async function POST(req: NextRequest) {
         name: name.trim(),
         quantity: quantity ?? null,
         category_id: category_id ?? null,
+        expires_at: expires_at ?? null,
       })
       .select("*, category:ingredient_categories(id, name, emoji, color)")
       .single();
