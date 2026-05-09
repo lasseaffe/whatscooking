@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "shadcn/tailwind.css";
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is([data-theme="dark"] *));
@@ -894,10 +893,10 @@ html[data-theme="dark"], :root {
 ══════════════════════════════════════════════════ */
 .scroll-reveal {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(12px);
   transition:
-    opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+    opacity 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .scroll-reveal.is-visible {
   opacity: 1;
@@ -905,18 +904,18 @@ html[data-theme="dark"], :root {
 }
 .scroll-reveal-group > * {
   opacity: 0;
-  transform: translateY(14px);
+  transform: translateY(8px);
   transition:
-    opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    opacity 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.scroll-reveal-group.is-visible > *:nth-child(1)   { opacity: 1; transform: none; transition-delay: 0s;     }
-.scroll-reveal-group.is-visible > *:nth-child(2)   { opacity: 1; transform: none; transition-delay: 0.07s;  }
-.scroll-reveal-group.is-visible > *:nth-child(3)   { opacity: 1; transform: none; transition-delay: 0.14s;  }
-.scroll-reveal-group.is-visible > *:nth-child(4)   { opacity: 1; transform: none; transition-delay: 0.21s;  }
-.scroll-reveal-group.is-visible > *:nth-child(5)   { opacity: 1; transform: none; transition-delay: 0.28s;  }
-.scroll-reveal-group.is-visible > *:nth-child(6)   { opacity: 1; transform: none; transition-delay: 0.35s;  }
-.scroll-reveal-group.is-visible > *:nth-child(n+7) { opacity: 1; transform: none; transition-delay: 0.4s;   }
+.scroll-reveal-group.is-visible > *:nth-child(1)   { opacity: 1; transform: none; transition-delay: 0s;    }
+.scroll-reveal-group.is-visible > *:nth-child(2)   { opacity: 1; transform: none; transition-delay: 0.04s; }
+.scroll-reveal-group.is-visible > *:nth-child(3)   { opacity: 1; transform: none; transition-delay: 0.08s; }
+.scroll-reveal-group.is-visible > *:nth-child(4)   { opacity: 1; transform: none; transition-delay: 0.12s; }
+.scroll-reveal-group.is-visible > *:nth-child(5)   { opacity: 1; transform: none; transition-delay: 0.16s; }
+.scroll-reveal-group.is-visible > *:nth-child(6)   { opacity: 1; transform: none; transition-delay: 0.20s; }
+.scroll-reveal-group.is-visible > *:nth-child(n+7) { opacity: 1; transform: none; transition-delay: 0.24s; }
 
 .scroll-bleed-container {
   mask-image: linear-gradient(to bottom, transparent 0%, black 4%, black 94%, transparent 100%);
@@ -1555,4 +1554,11 @@ html[data-theme="light"] {
   color: var(--rc-title, #EFE3CE);
   font-size: var(--wc-text-sm, 0.8rem);
   font-weight: 600;
+}
+
+/* Notes WYSIWYG editor — placeholder */
+.wc-notes-editor:empty::before {
+  content: attr(data-placeholder);
+  color: rgba(107, 78, 54, 0.5);
+  pointer-events: none;
 }
