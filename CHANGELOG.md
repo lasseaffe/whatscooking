@@ -1,5 +1,93 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-09
+
+### Baby & Family Hub — Task 4: API — Milestones & Allergens
+
+**Created:** 
+- `src/app/api/family/milestones/route.ts`
+- `src/app/api/family/allergens/route.ts`
+
+**API Routes:**
+- `POST /api/family/milestones` — Confirm (upsert) a milestone for a household member
+  - Validates `member_id` exists and `milestone_key` in `MILESTONE_KEYS`
+  - Upserts to `member_milestones` table with `confirmed_by: user.id`
+  - Returns `{ milestone: data }` on success (201)
+- `DELETE /api/family/milestones` — Un-confirm (remove) a milestone
+  - Validates input and deletes matching row
+  - Returns `{ ok: true }` on success (200)
+- `POST /api/family/allergens` — Introduce (upsert) an allergen for a member
+  - Validates `member_id` and `allergen_key` in `ALLERGEN_KEYS`
+  - Upserts to `member_allergens` table with `introduced_by: user.id`
+  - Returns `{ allergen: data }` on success (201)
+- `DELETE /api/family/allergens` — Remove an allergen entry
+  - Validates input and deletes matching row
+  - Returns `{ ok: true }` on success (200)
+
+**Implementation Notes:**
+- Both routes use Supabase `upsert()` with `onConflict` constraints to prevent duplicates
+- Auth check: return 401 if user not authenticated
+- Input validation: return 400 if payload invalid
+- Error handling: wrapped in try/catch with console logging
+- Type-safe: uses `MilestoneKey` and `AllergenKey` from `family-types.ts`
+
+Commit: `8f42090`
+
+---
+
+### Baby & Family Hub — Task 2: TypeScript Types
+
+**Created:** `src/lib/family-types.ts`
+**Modified:** `src/lib/types.ts`
+
+- Created `family-types.ts` with complete family member type system:
+  - `MemberType` union: "baby" | "toddler" | "child" | "adult"
+  - `MilestoneKey` & `AllergenKey` unions with full label + description maps
+  - `HouseholdMember`, `MemberMilestone`, `MemberAllergen` interfaces
+  - Utility functions: `currentMilestone()` (highest confirmed stage), `ageLabel()` (human-readable age)
+  - Constants: `MILESTONE_KEYS`, `ALLERGEN_KEYS` arrays for iteration
+- Extended `Recipe` interface with baby & family fields:
+  - `baby_stages?: string[]` — developmental stages this recipe suits
+  - `allergen_flags?: string[]` — allergens present
+  - `has_baby_variant?: boolean` — whether a baby-adapted version exists
+  - `baby_variant_recipe_id?: string | null` — link to baby variant
+- TypeScript clean: no new errors introduced
+
+Commit: `13093dd`
+
+---
+
+## [Unreleased] — 2026-04-27
+
+### Pantry Shopping UX — Task A3: Auto-Categorize Shopping Items
+
+**Created:** `src/lib/shopping-list-categorize.ts`
+
+- `categorizeMissingItems()` async function queries `/api/pantry/categorize` for items lacking category
+- Implements localStorage cache (`wc_shopping_cat_cache_v1`) to avoid re-querying identical ingredients
+- Patches items in-place: sets `category_id` and `category_name` from API response
+- Handles edge cases: empty uncategorized list, API failures (returns items unchanged), cache hits
+- TypeScript clean: no new errors introduced
+
+Commit: `0a19206`
+
+---
+
+## [Unreleased] — 2026-04-27
+
+### Pantry Shopping UX — Task A1: ShoppingItem Type Extension
+
+**Created:** `src/lib/shopping-list.ts`
+
+- Extended `ShoppingItem` type with optional `category_id` and `category_name` fields
+- All existing localStorage shopping list functions (`loadShoppingList`, `saveShoppingList`, `addToShoppingList`, `toggleShoppingItem`, `removeShoppingItem`, `clearCheckedItems`) remain compatible
+- Optional fields ensure backward compatibility with existing localStorage data
+- TypeScript clean: no new errors introduced
+
+Commit: `e855fff`
+
+---
+
 ## [Unreleased] — 2026-04-27
 
 ### Image Monitor System
@@ -147,3 +235,20 @@ the `--wc-floor / --wc-surface-1 / --wc-surface-2` depth tokens.
 - `src/app/(app)/world-cup-2026/page.tsx` — 3-recipe stamp threshold, started/stamped states
 - `src/app/api/calorie-entries/suggestions/route.ts` — meal plan items added to smart search priority
 - `src/app/(app)/cuisines/page.tsx` — saffron glow + ★ cooked badge on user-cooked cuisines
+
+## 2026-05-09
+### Household Member System — Task 2: TypeScript Types
+- Modified: `src/lib/types.ts`
+- Added household member type system:
+  - `MemberAgeGroup`, `MemberFilterStrictness`, `IngredientSentiment`, `PreferenceSource` unions
+  - `HouseholdMember` interface: id, owner_user_id, linked_user_id, display_name, avatar_emoji, age_group, filter_strictness, created_at
+  - `MemberIngredientPreference` interface: id, member_id, ingredient_id, ingredient_text, sentiment, source, created_at
+  - `MemberReaction` interface: id, member_id, recipe_id, rating (1|2|3), notes, reported_by, cooked_at
+  - `HouseholdMemberWithPreferences` composite interface extending HouseholdMember
+- TypeScript compiles clean (npx tsc --noEmit)
+- Commit: `85456d0`
+
+### feat: add POST /api/events/create
+- Created src/app/api/events/create/route.ts
+- Inserts into dinner_parties, then seeds event_menu_items, event_timeline_items, event_shopping_items in parallel
+- Auth-gated via Supabase getUser()
