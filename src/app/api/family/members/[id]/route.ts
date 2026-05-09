@@ -12,11 +12,19 @@ export async function PATCH(
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  const body = await req.json() as { name?: string; date_of_birth?: string };
+  const body = await req.json() as { name?: string; date_of_birth?: string | null };
+
+  const updates: { name?: string; date_of_birth?: string | null } = {};
+  if (body.name !== undefined) updates.name = body.name;
+  if (body.date_of_birth !== undefined) updates.date_of_birth = body.date_of_birth;
+
+  if (Object.keys(updates).length === 0) {
+    return NextResponse.json({ error: "No fields to update" }, { status: 400 });
+  }
 
   const { data: member, error } = await supabase
     .from("household_members")
-    .update({ name: body.name, date_of_birth: body.date_of_birth ?? null })
+    .update(updates)
     .eq("id", id)
     .select()
     .single();
