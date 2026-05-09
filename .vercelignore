@@ -1,0 +1,42 @@
+# Large model files
+Llama-3.1-8B/
+Llama-3.2-1B/
+Llama-3.2-3B/
+free-claude-code/
+
+# Scripts and ingestion tooling
+scripts/ingestion/
+scripts/scraping/
+insta_recipes/
+
+# Logs and reports
+logs/
+image-audit-report.json
+scrape_progress.json
+
+# One-off fix scripts
+*.bat
+*.mjs
+*.py
+process_recipes.py
+fix_*.mjs
+scrape_*.mjs
+
+# Misc large/irrelevant files
+"Modern UI Blueprint - Lovable_files/"
+recipes.json
+Llama*/
+*.docx
+*.jpg
+*.png
+Gemini_Generated_Image_*.png
+
+# Python
+__pycache__/
+.pytest_cache/
+venv/
+free-claude-code/.venv/
+
+# Dev
+.worktrees/
+supabase/.temp/
