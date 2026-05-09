@@ -2,6 +2,35 @@
 
 ## [Unreleased] — 2026-05-09
 
+### Baby & Family Hub — Task 6: Baby Recipe Adaptation Snippet API
+
+**Created:**
+- `src/app/api/family/adapt-recipe/route.ts`
+
+**API Route:**
+- `POST /api/family/adapt-recipe` — Generate recipe adaptation guidance for a family member
+  - Input: `recipe_title` (string), `ingredients` (string[]), `milestone` (MilestoneKey), `member_name` (string), `context` ("recipe_page" | "planner")
+  - Validates auth (401 if not authenticated)
+  - Validates required fields and milestone validity (400 if invalid)
+  - Routes through `ai.chat.completions.create()` to local llama.cpp or Ollama fallback
+  - System prompt: pediatric nutrition assistant, WHO/AAP guidelines aligned, emphasizes pediatrician consultation
+  - User prompt differs by context:
+    - `"planner"`: 2-sentence adaptation for meal prep context
+    - `"recipe_page"`: 2-3 sentence preparation note with texture/size/substitution specifics
+  - Returns `{ adaptation: string }` on success (200)
+  - Returns `{ error: string }` on failure (400/401/500)
+
+**Implementation Notes:**
+- Uses `ai` from `src/lib/ai.ts` (smart routing to local models)
+- Type-safe: imports `MILESTONE_LABELS`, `MilestoneKey` from `family-types.ts`
+- Auth check: Supabase server client to verify user session
+- Error handling: wrapped in try/catch with console logging
+- Model name placeholder (`gpt-4o-mini`) is overridden by `ai.ts` smart router to llama.cpp
+
+Commit: `4ee5b1b`
+
+---
+
 ### Baby & Family Hub — Task 4: API — Milestones & Allergens
 
 **Created:** 
