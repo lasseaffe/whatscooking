@@ -14,7 +14,7 @@
 DO $$
 DECLARE
   -- !! Replace this with a real UUID from: SELECT id FROM auth.users LIMIT 5;
-  real_uid uuid := 'YOUR-REAL-USER-UUID-HERE';
+  real_uid uuid := 'ff6f52af-df0b-4c5e-84ad-0d3eb16a2154';
 
   cb1 uuid := '00000000-0000-0000-0001-000000000001';
   cb2 uuid := '00000000-0000-0000-0001-000000000002';
@@ -110,70 +110,119 @@ END $$;
 -- Then run this block with real UUIDs filled in:
 -- =============================================================
 
-/*
 INSERT INTO cookbook_recipes (id, cookbook_id, chapter_id, recipe_id, position, chef_note)
 VALUES
-  -- Weeknight Wins / Under 30 Minutes
+  -- ── Weeknight Wins / Under 30 Minutes ──
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000001',
-   '<RECIPE_UUID_1>', 1,
-   'I add a splash of fish sauce here instead of salt — totally optional but it adds a depth you can''t quite identify.'),
+   'bcee5950-aefb-4b1f-b741-1b95fa66a0a9', 1,
+   'Use chili crisp from a jar if you don''t have time to make the oil — Laoganma is my go-to. These are done in 10 minutes flat.'),
 
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000001',
-   '<RECIPE_UUID_2>', 2,
-   'Make double the sauce. You''ll want it on everything for the rest of the week.'),
+   '59bf9fdf-fe91-4533-826e-21c0cec4f23a', 2,
+   'Reserve a full cup of pasta water before you drain — the starch is what makes the sauce silky. Don''t skip it.'),
 
-  -- Weeknight Wins / One Pan Wonders
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000001',
+   '366ee682-35ea-47e2-841a-1ae7ae509a34', 3,
+   'Swap the tofu for a fried egg on top if you want extra protein without extra prep. Either way, make double the sauce.'),
+
+  -- ── Weeknight Wins / One Pan Wonders ──
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000002',
-   '<RECIPE_UUID_3>', 1,
-   'Use the heaviest pan you own — better browning, less steaming.'),
+   '09da10f6-4fb9-43e9-b9fa-e991946a7ee7', 1,
+   'The caramelisation is everything here — don''t rush the onions. Low heat, 40 minutes minimum. The pasta practically seasons itself after that.'),
 
-  -- Plant & Proud / Morning Bowls
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000002',
+   '64ef8f5b-67db-4e27-bc22-93c16d61b401', 2,
+   'Use a block of good feta, not crumbled — it melts into a proper sauce. Cherry tomatoes from the vine have the best flavour here.'),
+
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000002',
+   '467ee606-ccbd-4187-b28c-deafba9ae638', 3,
+   'I make this every time the fridge looks bare. Throw in whatever veg needs using — courgette, peppers, spinach — it all works.'),
+
+  -- ── Weeknight Wins / Fridge Cleaners ──
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000003',
+   'ae0f7917-02cc-4489-86e5-454f63fed0f2', 1,
+   'This is my template for using up the random veg at the end of the week. Any roasted root + bitter leaves + sharp cheese = a great autumn salad.'),
+
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000001', '00000000-0000-0000-0002-000000000003',
+   'c213ea47-13d9-4324-a07b-b7b89939ca84', 2,
+   'Make on Sunday, eat all week. Gets better as the dressing soaks in. Add whatever protein you have going spare.'),
+
+  -- ── Plant & Proud / Morning Bowls ──
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000002', '00000000-0000-0000-0002-000000000004',
-   '<RECIPE_UUID_4>', 1,
-   'Soak the oats overnight if you have time. Cuts cooking time in half and improves texture.'),
+   '38279576-128d-4fd5-9480-dab867c0ff76', 1,
+   'Freeze your banana the night before for a thicker base. Add a tablespoon of almond butter for staying power that gets you past lunch.'),
 
-  -- Plant & Proud / Hearty Mains
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000002', '00000000-0000-0000-0002-000000000004',
+   '367c3a55-80bd-4f9e-bf7b-e6f88bc28368', 2,
+   'Soak the oats overnight — it cuts morning prep to literally zero. I make 5 jars on Sunday and grab one each day.'),
+
+  -- ── Plant & Proud / Hearty Mains ──
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000002', '00000000-0000-0000-0002-000000000005',
-   '<RECIPE_UUID_5>', 1,
-   'Swap tempeh for chickpeas if you can''t find it — the texture holds up well.'),
+   '3db162d4-35d5-4df1-be91-61441ef88669', 1,
+   'Use arborio and don''t skip the white wine — it''s what gives risotto its backbone. Finish with a generous knob of vegan butter and extra nutritional yeast.'),
 
-  -- Fire & Smoke / The Rubs & Marinades
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000002', '00000000-0000-0000-0002-000000000005',
+   'b82411dc-efce-4023-ba4a-11d2bff69851', 2,
+   'Bloom the spices in oil before adding anything else — 60 seconds in a hot pan transforms the whole dish. Don''t rush this step.'),
+
+  -- ── Plant & Proud / Snacks That Slap ──
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000002', '00000000-0000-0000-0002-000000000006',
+   '31ced2b1-9b72-4c4f-9d48-f0ac65a2e7cf', 1,
+   'Char the aubergine directly on a gas flame if you can — the smoky flavour is what separates great baba ganoush from mediocre. No gas? Max oven grill, as close to the element as possible.'),
+
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000002', '00000000-0000-0000-0002-000000000006',
+   'ec1d66d3-fb47-491a-a8fb-dee5913a6fe5', 2,
+   'Sounds too simple to be good. It''s not. Great for when you want something crunchy without the deep-fry. Season immediately out of the air fryer while they''re still hot.'),
+
+  -- ── Fire & Smoke / The Rubs & Marinades ──
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000003', '00000000-0000-0000-0002-000000000007',
-   '<RECIPE_UUID_6>', 1,
-   'Apply the rub 24 hours ahead minimum. 48 hours if you can. The dry brine effect is real.'),
+   '3987e9fe-5a2b-439f-98cf-7fe3d5c82c66', 1,
+   'The achiote marinade here is the same base I use for competition chicken. Marinate overnight minimum — the acid needs time to work through the fish. Works just as well on shrimp.'),
 
-  -- Fire & Smoke / Low & Slow
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000003', '00000000-0000-0000-0002-000000000007',
+   '4af5f64f-d94e-430c-8bec-bcc03c484354', 2,
+   'The salt cod technique here — the desalting process — is the same principle behind dry brining meat. Patience is the ingredient. Don''t skip the 24-hour soak.'),
+
+  -- ── Fire & Smoke / Low & Slow ──
   (gen_random_uuid(), '00000000-0000-0000-0001-000000000003', '00000000-0000-0000-0002-000000000008',
-   '<RECIPE_UUID_7>', 1,
-   'Pull at 203°F internal, not 190°F. That extra 13 degrees is where the magic happens.');
-*/
+   'b904702c-1115-4dcd-9e98-d74346266dfb', 1,
+   'The 24-hour process here mirrors what I do with brisket prep. Your body knows when food has been given time. So does everyone at the table.'),
+
+  -- ── Fire & Smoke / Sides Worth Making ──
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000003', '00000000-0000-0000-0002-000000000009',
+   'cdd3f458-6205-45b2-863e-6ef08c8f69a2', 1,
+   'I serve this alongside smoked meats instead of a thin broth — the 30-clove depth holds its own next to heavy BBQ flavours. Make it the night before and reheat slowly.'),
+
+  (gen_random_uuid(), '00000000-0000-0000-0001-000000000003', '00000000-0000-0000-0002-000000000009',
+   '8d306d98-9bd7-467b-8e9f-a618ba0c1f10', 2,
+   'Classic for a reason. I make mine with smoked salt and a splash of bourbon in the crumble. Serve warm with the fat from the resting brisket drizzled over. Don''t knock it.')
+ON CONFLICT DO NOTHING;
 
 -- =============================================================
 -- STEP 5 (optional): Seed reader meal photos.
 -- Uncomment after step 4 — needs real recipe_ids from above.
 -- =============================================================
 
-/*
 INSERT INTO cookbook_meal_photos (id, cookbook_id, recipe_id, user_id, photo_url, caption, is_featured, created_at)
 VALUES
   (gen_random_uuid(),
-   '00000000-0000-0000-0001-000000000001', '<RECIPE_UUID_1>',
-   (SELECT id FROM auth.users LIMIT 1),
+   '00000000-0000-0000-0001-000000000001', 'bcee5950-aefb-4b1f-b741-1b95fa66a0a9',
+   'ff6f52af-df0b-4c5e-84ad-0d3eb16a2154',
    'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
    'Made this on a Monday and my partner thought I''d ordered in. High praise.',
    true, now() - interval '3 weeks'),
 
   (gen_random_uuid(),
-   '00000000-0000-0000-0001-000000000002', '<RECIPE_UUID_4>',
-   (SELECT id FROM auth.users LIMIT 1),
+   '00000000-0000-0000-0001-000000000002', '38279576-128d-4fd5-9480-dab867c0ff76',
+   'ff6f52af-df0b-4c5e-84ad-0d3eb16a2154',
    'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600',
    'Added some toasted pepitas on top — 10/10 would recommend.',
    true, now() - interval '2 weeks'),
 
   (gen_random_uuid(),
-   '00000000-0000-0000-0001-000000000003', '<RECIPE_UUID_6>',
-   (SELECT id FROM auth.users LIMIT 1),
+   '00000000-0000-0000-0001-000000000003', '3987e9fe-5a2b-439f-98cf-7fe3d5c82c66',
+   'ff6f52af-df0b-4c5e-84ad-0d3eb16a2154',
    'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=600',
    '14 hour cook. Zero regrets. The bark on this was unreal.',
-   true, now() - interval '5 weeks');
-*/
+   true, now() - interval '5 weeks')
+ON CONFLICT DO NOTHING;
