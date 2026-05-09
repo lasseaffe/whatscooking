@@ -40,35 +40,42 @@ export async function GET(req: NextRequest) {
 
     // If allergen_free + member_id: exclude recipes with allergens not yet introduced
     if (allergenFree && memberId) {
-      const { data: introduced } = await supabase
-        .from("member_allergens")
-        .select("allergen_key")
-        .eq("member_id", memberId);
+      // Verify caller belongs to the member's kitchen group
+      const { data: memberRow } = await supabase
+        .from("household_members")
+        .select("kitchen_group_id")
+        .eq("id", memberId)
+        .maybeSingle();
 
-      const introducedKeys = (introduced ?? []).map((a) => a.allergen_key);
-      const notIntroduced = ["egg","dairy","gluten","peanut","tree_nut","soy","fish","shellfish"]
-        .filter((k) => !introducedKeys.includes(k));
+      if (memberRow) {
+        const { data: membership } = await supabase
+          .from("kitchen_group_members")
+          .select("id")
+          .eq("group_id", memberRow.kitchen_group_id)
+          .eq("user_id", user.id)
+          .maybeSingle();
 
-      for (const allergen of notIntroduced) {
-        query = query.not("allergen_flags", "cs", `{${allergen}}`);
+        if (membership) {
+          // Only apply allergen filter if caller is authorized
+          const { data: introduced } = await supabase
+            .from("member_allergens")
+            .select("allergen_key")
+            .eq("member_id", memberId);
+
+          const introducedKeys = (introduced ?? []).map((a) => a.allergen_key);
+          const notIntroduced = ["egg","dairy","gluten","peanut","tree_nut","soy","fish","shellfish"]
+            .filter((k) => !introducedKeys.includes(k));
+
+          for (const allergen of notIntroduced) {
+            query = query.not("allergen_flags", "cs", `{${allergen}}`);
+          }
+        }
       }
     }
 
-    // Pantry mode: filter to recipes whose ingredients overlap with user's pantry
-    if (pantryMode) {
-      const { data: pantryItems } = await supabase
-        .from("pantry_items")
-        .select("name")
-        .eq("user_id", user.id);
-
-      if (pantryItems?.length) {
-        // NOTE: ingredients is a JSONB array of objects {name, amount, unit}.
-        // Text overlap filtering requires a DB function or full-text search.
-        // For now, pantry filtering is a no-op — recipes are returned unfiltered
-        // when pantry=true. This can be implemented properly with a Postgres function.
-        // The UI shows the toggle but it does not restrict results yet.
-      }
-    }
+    // Pantry mode: not yet implemented.
+    // ingredients is a JSONB array of objects {name, amount, unit} — text overlap
+    // filtering requires a Postgres function. Results are unfiltered when pantry=true.
 
     const { data: recipes, error } = await query;
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
