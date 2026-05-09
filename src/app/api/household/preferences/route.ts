@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import type { SupabaseClient } from "@supabase/supabase-js";
 
 export const runtime = "nodejs";
 
@@ -11,6 +12,16 @@ export async function GET(req: NextRequest) {
 
   const memberId = req.nextUrl.searchParams.get("member_id");
   if (!memberId) return NextResponse.json({ error: "member_id required" }, { status: 400 });
+
+  // Verify the member belongs to this user
+  const { data: memberCheck } = await supabase
+    .from("household_members")
+    .select("id")
+    .eq("id", memberId)
+    .eq("owner_user_id", user.id)
+    .single();
+
+  if (!memberCheck) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
   const { data, error } = await supabase
     .from("member_ingredient_preferences")
@@ -68,6 +79,18 @@ export async function DELETE(req: NextRequest) {
   const prefId = req.nextUrl.searchParams.get("id");
   if (!prefId) return NextResponse.json({ error: "id required" }, { status: 400 });
 
+  // Verify ownership: the preference's member must belong to this user
+  const { data: pref } = await supabase
+    .from("member_ingredient_preferences")
+    .select("id, member:household_members!inner(owner_user_id)")
+    .eq("id", prefId)
+    .single();
+
+  const memberOwner = Array.isArray(pref?.member) ? pref.member[0] : pref?.member;
+  if (!pref || (memberOwner as { owner_user_id: string } | null)?.owner_user_id !== user.id) {
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
+
   const { error } = await supabase
     .from("member_ingredient_preferences")
     .delete()
@@ -79,8 +102,7 @@ export async function DELETE(req: NextRequest) {
 
 // Lightweight inference: if member has 3+ dislikes/avoids in the same parent category,
 // insert an inferred category-level preference
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-async function runInferenceCheck(supabase: any, memberId: string) {
+async function runInferenceCheck(supabase: SupabaseClient, memberId: string) {
   // Get all reported dislikes/avoids for this member with ingredient_id set
   const { data: prefs } = await supabase
     .from("member_ingredient_preferences")

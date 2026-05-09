@@ -229,7 +229,7 @@ export async function POST(req: NextRequest) {
       const badges: string[] = [];
       const recipeText = `${r.title ?? ""} ${r.description ?? ""}`.toLowerCase();
 
-      // Family favourite: >= 2 members have rated this recipe 3 stars
+      // Family favourite: >= 2 members have rated this recipe 3 stars at least once
       const highRatingCount = (householdMembers ?? []).filter((m) =>
         (memberReactionMap[m.id] ?? []).some((rx) => rx.recipe_id === r.id && rx.rating === 3)
       ).length;
