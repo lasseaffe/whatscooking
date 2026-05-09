@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { pantryHasIngredient, getSubScore } from "@/lib/ingredient-substitutes";
+import { ai, getModel } from "@/lib/ai";
 
 export const runtime = "nodejs";
 
@@ -116,4 +117,44 @@ export async function GET() {
   });
 
   return NextResponse.json({ results, pantryEmpty: false });
+}
+
+export async function POST(req: NextRequest) {
+  try {
+    const supabase = await createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+    const body = await req.json() as { ingredients?: string[] };
+    const ingredients = body.ingredients ?? [];
+
+    if (!Array.isArray(ingredients) || ingredients.length === 0) {
+      return NextResponse.json({ recipes: [] });
+    }
+
+    const response = await ai.chat.completions.create({
+      model: getModel(),
+      max_tokens: 600,
+      messages: [
+        {
+          role: "user",
+          content: `You are a creative chef assistant. Suggest 4 recipes that prominently feature the following ingredient(s): ${ingredients.join(", ")}.
+
+For each recipe, provide:
+- title: the recipe name
+- reason: one sentence explaining how this ingredient is used in the dish
+
+Return a JSON object only, no markdown: { "recipes": [{ "title": "...", "reason": "..." }, ...] }`,
+        },
+      ],
+    });
+
+    const raw = response.choices[0]?.message?.content?.trim() ?? '{"recipes":[]}';
+    const cleaned = raw.replace(/^```(?:json)?\n?/m, "").replace(/\n?```$/m, "").trim();
+    const parsed = JSON.parse(cleaned);
+    return NextResponse.json({ recipes: parsed.recipes ?? [] });
+  } catch (err) {
+    console.error("[scramble POST]", err);
+    return NextResponse.json({ recipes: [] }, { status: 500 });
+  }
 }

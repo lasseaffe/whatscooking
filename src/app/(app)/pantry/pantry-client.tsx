@@ -172,6 +172,7 @@ export function PantryClient({ initialItems, categories }: Props) {
   const [rescueItemId, setRescueItemId] = useState<string | null>(null);
   const [rescueLoading, setRescueLoading] = useState(false);
   const [rescueRecipes, setRescueRecipes] = useState<{ title: string; reason: string }[] | null>(null);
+  const rescueRequestRef = useRef<string | null>(null);
 
   const categoryMap = useMemo(() => new Map(categories.map((c) => [c.id, c])), [categories]);
 
@@ -184,23 +185,26 @@ export function PantryClient({ initialItems, categories }: Props) {
     setRescueItemId(item.id);
     setRescueLoading(true);
     setRescueRecipes(null);
+    rescueRequestRef.current = item.id;
     try {
       const res = await fetch("/api/pantry/scramble", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ingredients: [item.name] }),
       });
+      if (rescueRequestRef.current !== item.id) return; // stale response
       if (!res.ok) {
         setRescueRecipes([]);
         setRescueLoading(false);
         return;
       }
       const json = await res.json();
+      if (rescueRequestRef.current !== item.id) return; // stale response
       setRescueRecipes(json.recipes ?? []);
     } catch {
-      setRescueRecipes([]);
+      if (rescueRequestRef.current === item.id) setRescueRecipes([]);
     }
-    setRescueLoading(false);
+    if (rescueRequestRef.current === item.id) setRescueLoading(false);
   }
 
   // Autocomplete
@@ -403,6 +407,45 @@ export function PantryClient({ initialItems, categories }: Props) {
     const s = getExpiryStatus(i);
     return s && s.daysLeft <= 3;
   }).length;
+
+  const rescueItem = rescueItemId ? items.find(i => i.id === rescueItemId) ?? null : null;
+  const rescuePanel = rescueItem ? (
+    <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)" }}>
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <ChefHat className="w-4 h-4" style={{ color: "#C85A2F" }} />
+          <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
+            What to make with {rescueItem.name}
+          </p>
+        </div>
+        <button
+          onClick={() => { setRescueItemId(null); setRescueRecipes(null); }}
+          className="text-xs" style={{ color: "#A69180" }}
+        >
+          <X className="w-4 h-4" />
+        </button>
+      </div>
+      {rescueLoading && (
+        <div className="flex items-center gap-2 py-4 justify-center">
+          <Loader2 className="w-4 h-4 animate-spin" style={{ color: "#C85A2F" }} />
+          <span className="text-sm" style={{ color: "#6B5B52" }}>Finding recipes…</span>
+        </div>
+      )}
+      {rescueRecipes && rescueRecipes.length === 0 && !rescueLoading && (
+        <p className="text-xs" style={{ color: "#A69180" }}>No recipes found — try adding more pantry items.</p>
+      )}
+      {rescueRecipes && rescueRecipes.length > 0 && (
+        <div className="flex flex-col gap-2">
+          {rescueRecipes.map((r, i) => (
+            <div key={i} className="rounded-xl p-3 border" style={{ background: "#fff", borderColor: "#E8D4C0" }}>
+              <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>{r.title}</p>
+              {r.reason && <p className="text-xs mt-0.5" style={{ color: "#6B5B52" }}>{r.reason}</p>}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  ) : null;
 
   return (
     <div className="px-4 sm:px-6 py-8 max-w-3xl mx-auto">
@@ -898,47 +941,7 @@ export function PantryClient({ initialItems, categories }: Props) {
         })}
       </div>
 
-      {rescueItemId && (() => {
-        const rescueItem = items.find(i => i.id === rescueItemId);
-        if (!rescueItem) return null;
-        return (
-          <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)" }}>
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <ChefHat className="w-4 h-4" style={{ color: "#C85A2F" }} />
-                <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
-                  What to make with {rescueItem.name}
-                </p>
-              </div>
-              <button
-                onClick={() => { setRescueItemId(null); setRescueRecipes(null); }}
-                className="text-xs" style={{ color: "#A69180" }}
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-            {rescueLoading && (
-              <div className="flex items-center gap-2 py-4 justify-center">
-                <Loader2 className="w-4 h-4 animate-spin" style={{ color: "#C85A2F" }} />
-                <span className="text-sm" style={{ color: "#6B5B52" }}>Finding recipes…</span>
-              </div>
-            )}
-            {rescueRecipes && rescueRecipes.length === 0 && (
-              <p className="text-xs" style={{ color: "#A69180" }}>No recipes found — try adding more pantry items.</p>
-            )}
-            {rescueRecipes && rescueRecipes.length > 0 && (
-              <div className="flex flex-col gap-2">
-                {rescueRecipes.map((r, i) => (
-                  <div key={i} className="rounded-xl p-3 border" style={{ background: "#fff", borderColor: "#E8D4C0" }}>
-                    <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>{r.title}</p>
-                    {r.reason && <p className="text-xs mt-0.5" style={{ color: "#6B5B52" }}>{r.reason}</p>}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        );
-      })()}
+      {rescuePanel}
 
       {/* Scramble feature */}
       {items.length >= 2 && (
