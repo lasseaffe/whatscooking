@@ -130,9 +130,10 @@ function suggestExpiryDate(name: string): string {
 interface Props {
   initialItems: PantryItem[];
   categories: IngredientCategory[];
+  initialHouseholdTags: string[];
 }
 
-export function PantryClient({ initialItems, categories }: Props) {
+export function PantryClient({ initialItems, categories, initialHouseholdTags }: Props) {
   const [items, setItems] = useState<PantryItem[]>(initialItems);
   const [input, setInput] = useState("");
   const [quantity, setQuantity] = useState("");
@@ -165,6 +166,14 @@ export function PantryClient({ initialItems, categories }: Props) {
   const [notifEnabled, setNotifEnabled] = useState<boolean>(() => {
     try { return JSON.parse(localStorage.getItem("wc_expiry_notif_v1") ?? "true"); } catch { return true; }
   });
+  const DIETARY_TAG_OPTIONS = [
+    "vegetarian", "vegan", "gluten-free", "dairy-free",
+    "keto", "paleo", "low-carb", "high-protein", "halal", "kosher", "nut-free",
+  ] as const;
+
+  const [householdTags, setHouseholdTags] = useState<string[]>(initialHouseholdTags);
+  const [savingTags, setSavingTags] = useState(false);
+
   // Waste Not
   const [wasteNotLoading, setWasteNotLoading] = useState(false);
   const [wasteNotRecipes, setWasteNotRecipes] = useState<{ title: string; reason: string }[] | null>(null);
@@ -175,6 +184,24 @@ export function PantryClient({ initialItems, categories }: Props) {
   const rescueRequestRef = useRef<string | null>(null);
 
   const categoryMap = useMemo(() => new Map(categories.map((c) => [c.id, c])), [categories]);
+
+  async function handleToggleTag(tag: string) {
+    const next = householdTags.includes(tag)
+      ? householdTags.filter((t) => t !== tag)
+      : [...householdTags, tag];
+    setHouseholdTags(next);
+    setSavingTags(true);
+    const res = await fetch("/api/pantry/household-diets", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tags: next }),
+    });
+    if (!res.ok) {
+      // rollback
+      setHouseholdTags(householdTags);
+    }
+    setSavingTags(false);
+  }
 
   async function handleRescue(item: PantryItem) {
     if (rescueItemId === item.id) {
@@ -607,6 +634,45 @@ export function PantryClient({ initialItems, categories }: Props) {
                 Household sharing is coming soon — sign up and you&apos;ll be first to try it.
               </p>
             </div>
+          )}
+        </div>
+      )}
+
+      {/* Dietary profile */}
+      {pantryView === "shared" && (
+        <div className="mb-5 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.8)" }}>
+          <div className="flex items-center gap-2 mb-3">
+            <Leaf className="w-4 h-4" style={{ color: "#16A34A" }} />
+            <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>Your dietary needs</p>
+            {savingTags && <Loader2 className="w-3 h-3 animate-spin ml-auto" style={{ color: "#A69180" }} />}
+          </div>
+          <p className="text-xs mb-3" style={{ color: "#6B5B52" }}>
+            Tag your restrictions — the household view will flag recipes that don&apos;t work for you.
+          </p>
+          <div className="flex flex-wrap gap-1.5">
+            {DIETARY_TAG_OPTIONS.map((tag) => {
+              const active = householdTags.includes(tag);
+              return (
+                <button
+                  key={tag}
+                  type="button"
+                  onClick={() => handleToggleTag(tag)}
+                  className="px-3 py-1.5 rounded-full border text-xs font-medium transition-all"
+                  style={{
+                    borderColor: active ? "#C85A2F" : "#E8D4C0",
+                    background: active ? "#FFF0E6" : "#FAF7F2",
+                    color: active ? "#C85A2F" : "#6B5B52",
+                  }}
+                >
+                  {tag}
+                </button>
+              );
+            })}
+          </div>
+          {householdTags.length > 0 && (
+            <p className="text-xs mt-3 font-medium" style={{ color: "#C85A2F" }}>
+              Active: {householdTags.join(", ")}
+            </p>
           )}
         </div>
       )}
