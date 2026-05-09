@@ -31,7 +31,12 @@ export async function PATCH(
       .select("*, category:ingredient_categories(id, name, emoji, color)")
       .single();
 
-    if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+    if (error) {
+      if (error.code === "PGRST116") {
+        return NextResponse.json({ error: "Item not found" }, { status: 404 });
+      }
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
     return NextResponse.json({ item: data });
   } catch (err) {
     console.error("[pantry/items PATCH]", err);

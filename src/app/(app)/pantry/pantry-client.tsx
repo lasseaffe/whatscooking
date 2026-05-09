@@ -327,33 +327,38 @@ export function PantryClient({ initialItems, categories }: Props) {
   const unitOptions = getUnitOptions(input, unitSystem);
 
   async function setItemExpiry(id: string, date: string) {
-    setItems((prev) =>
-      prev.map((i) => (i.id === id ? { ...i, expires_at: date } : i))
+    const prev = items;
+    setItems((cur) =>
+      cur.map((i) => (i.id === id ? { ...i, expires_at: date } : i))
     );
     setEditingExpiry(null);
-    await fetch(`/api/pantry/items/${id}`, {
+    const res = await fetch(`/api/pantry/items/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ expires_at: date }),
     });
+    if (!res.ok) setItems(prev);
   }
 
   async function clearItemExpiry(id: string) {
-    setItems((prev) =>
-      prev.map((i) => (i.id === id ? { ...i, expires_at: null } : i))
+    const prev = items;
+    setItems((cur) =>
+      cur.map((i) => (i.id === id ? { ...i, expires_at: null } : i))
     );
-    await fetch(`/api/pantry/items/${id}`, {
+    const res = await fetch(`/api/pantry/items/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ expires_at: null }),
     });
+    if (!res.ok) setItems(prev);
   }
 
   function getExpiryStatus(item: PantryItem): null | { label: string; color: string; bg: string; daysLeft: number } {
     const exp = item.expires_at;
     if (!exp) return null;
     const now = new Date();
-    const expDate = new Date(exp);
+    const [y, m, d] = exp.split("-").map(Number);
+    const expDate = new Date(y, m - 1, d); // local midnight
     const daysLeft = Math.ceil((expDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
     if (daysLeft < 0) return { label: "Expired", color: "#DC2626", bg: "#FEF2F2", daysLeft };
     if (daysLeft === 0) return { label: "Today!", color: "#EA580C", bg: "#FFF7ED", daysLeft };
