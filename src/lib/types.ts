@@ -210,3 +210,48 @@ export interface RecipeCostEstimate {
   cost_per_serving_usd: number;
   estimated_at: string;
 }
+
+// ============================================================
+// Household
+// ============================================================
+
+export type MemberAgeGroup = 'baby' | 'child' | 'teen' | 'adult';
+export type MemberFilterStrictness = 'allergy' | 'dislike' | 'soft';
+export type IngredientSentiment = 'dislike' | 'avoid' | 'love';
+export type PreferenceSource = 'reported' | 'inferred';
+
+export interface HouseholdMember {
+  id: string;
+  owner_user_id: string;
+  linked_user_id: string | null;
+  display_name: string;
+  avatar_emoji: string;
+  age_group: MemberAgeGroup;
+  filter_strictness: MemberFilterStrictness;
+  created_at: string;
+}
+
+export interface MemberIngredientPreference {
+  id: string;
+  member_id: string;
+  ingredient_id: string | null;
+  ingredient_text: string;
+  sentiment: IngredientSentiment;
+  source: PreferenceSource;
+  created_at: string;
+}
+
+export interface MemberReaction {
+  id: string;
+  member_id: string;
+  recipe_id: string;
+  rating: 1 | 2 | 3;
+  notes: string | null;
+  reported_by: string;
+  cooked_at: string;
+}
+
+export interface HouseholdMemberWithPreferences extends HouseholdMember {
+  preferences: MemberIngredientPreference[];
+  reactions: MemberReaction[];
+}
