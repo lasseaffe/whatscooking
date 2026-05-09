@@ -2,6 +2,8 @@
 // Enums & Union Types
 // ============================================================
 
+import type { MilestoneKey, AllergenKey } from "./family-types";
+
 export type MealStatus = "planning" | "active" | "completed";
 export type MealType = "breakfast" | "lunch" | "dinner" | "snack";
 export type RecipeSource = "spoonacular" | "ai" | "curated" | "social" | "user";
@@ -102,8 +104,8 @@ export interface Recipe {
   difficulty_level?: "easy" | "medium" | "hard" | null;
   created_at: string;
   // Baby & family fields
-  baby_stages?: string[];
-  allergen_flags?: string[];
+  baby_stages?: MilestoneKey[];
+  allergen_flags?: AllergenKey[];
   has_baby_variant?: boolean;
   baby_variant_recipe_id?: string | null;
 }

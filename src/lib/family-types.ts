@@ -94,7 +94,9 @@ export function ageLabel(dateOfBirth: string | null | undefined): string | null 
   if (!dateOfBirth) return null;
   const dob = new Date(dateOfBirth);
   const now = new Date();
-  const months = (now.getFullYear() - dob.getFullYear()) * 12 + (now.getMonth() - dob.getMonth());
+  let months = (now.getFullYear() - dob.getFullYear()) * 12 + (now.getMonth() - dob.getMonth());
+  if (now.getDate() < dob.getDate()) months -= 1;
+  if (months <= 0) return null;
   if (months < 24) return `${months} month${months !== 1 ? "s" : ""}`;
   const years = Math.floor(months / 12);
   return `${years} year${years !== 1 ? "s" : ""}`;
