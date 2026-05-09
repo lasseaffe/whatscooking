@@ -1,10 +1,12 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
-import { Utensils, BookOpen, ChevronLeft, ChevronRight, SkipForward, CheckCircle2, Star, ThumbsUp, ThumbsDown, Loader2, Minus, Plus, ShoppingCart, Lightbulb, Archive, ChevronDown, PackageMinus, Users } from "lucide-react";
+import { useState, useCallback, useEffect, useRef, useMemo } from "react";
+import { Utensils, BookOpen, ChevronLeft, ChevronRight, SkipForward, CheckCircle2, Star, ThumbsUp, ThumbsDown, Loader2, Minus, Plus, ShoppingCart, Lightbulb, Archive, ChevronDown, PackageMinus, Users, AlertTriangle, Send, RefreshCw } from "lucide-react";
 import { addToShoppingList } from "@/lib/shopping-list";
 import { IngredientsColumn } from "./ingredients-column";
 import { useCookingMode } from "@/lib/cooking-mode-context";
+import { useDietaryMode } from "@/lib/dietary-mode-context";
+import { adaptIngredients, DIETARY_LABELS, DIETARY_COLORS } from "@/lib/dietary-substitutions";
 import { useRouter } from "next/navigation";
 import { SubwayRoadmap } from "@/components/subway-roadmap";
 import { LivingCookbookTicker } from "@/components/living-cookbook-ticker";
@@ -578,6 +580,30 @@ function InteractiveIngredients({
   const [checked, setChecked] = useState<Set<number>>(new Set());
   const [collapsed, setCollapsed] = useState(false);
   const [addedToast, setAddedToast] = useState<string | null>(null);
+  const { restrictions, active } = useDietaryMode();
+
+  // Build adapted ingredient map: index → { replacement, note, confidence, restriction }
+  const adaptedMap = useMemo(() => {
+    if (!active || restrictions.length === 0) return new Map<number, { replacement: string; note?: string; confidence: number; restriction: string }>();
+    const map = new Map<number, { replacement: string; note?: string; confidence: number; restriction: string }>();
+    for (const r of restrictions) {
+      const result = adaptIngredients(ingredients, r);
+      result.ingredients.forEach((adapted, i) => {
+        if (adapted.adapted && !map.has(i) && adapted.replacement) {
+          map.set(i, { replacement: adapted.replacement, note: adapted.note, confidence: adapted.confidence ?? 0.5, restriction: r });
+        }
+      });
+    }
+    return map;
+  }, [ingredients, restrictions, active]);
+
+  const adaptedCount = adaptedMap.size;
+  const avgConfidence = adaptedCount > 0
+    ? Array.from(adaptedMap.values()).reduce((a, b) => a + b.confidence, 0) / adaptedCount
+    : 1;
+  const confidenceLabel = adaptedCount === 0 ? "none" : avgConfidence >= 0.85 ? "high" : avgConfidence >= 0.65 ? "medium" : "low";
+  const primaryRestriction = restrictions[0];
+  const dietaryColor = primaryRestriction ? DIETARY_COLORS[primaryRestriction] : { color: "#C8522A", bg: "#2A1808" };
 
   const allChecked = ingredients.length > 0 && checked.size === ingredients.length;
 
@@ -640,6 +666,28 @@ function InteractiveIngredients({
         >
           <ShoppingCart style={{ width: 15, height: 15, color: "#F4A261" }} />
           {addedToast}
+        </div>
+      )}
+
+      {/* Dietary adaptation banner */}
+      {active && adaptedCount > 0 && (
+        <div className="flex items-center gap-2 px-3 py-2 rounded-xl mb-3"
+          style={{ background: dietaryColor.bg }}>
+          <RefreshCw style={{ width: 13, height: 13, color: dietaryColor.color, flexShrink: 0 }} />
+          <div className="flex-1 min-w-0">
+            <span className="text-xs font-bold" style={{ color: dietaryColor.color }}>
+              {restrictions.map((r) => DIETARY_LABELS[r]).join(" + ")} — {adaptedCount} ingredient{adaptedCount !== 1 ? "s" : ""} swapped
+            </span>
+          </div>
+          <span
+            className="text-xs font-semibold px-2 py-0.5 rounded-full shrink-0"
+            style={{
+              background: confidenceLabel === "high" ? "#DCFCE7" : confidenceLabel === "medium" ? "#FEF3C7" : "#FEE2E2",
+              color: confidenceLabel === "high" ? "#16a34a" : confidenceLabel === "medium" ? "#D97706" : "#DC2626",
+            }}
+          >
+            {confidenceLabel === "high" ? "High" : confidenceLabel === "medium" ? "Med" : "Low"} confidence
+          </span>
         </div>
       )}
 
@@ -711,8 +759,9 @@ function InteractiveIngredients({
               const isChecked = checked.has(i);
               const scaled = ing.amount != null ? ing.amount * multiplier : ing.amount;
               const converted = convertUnit(scaled, ing.unit, unitSystem);
-              const label = [converted.amount, converted.unit, ing.name].filter(Boolean).join(" ");
+              const amountStr = [converted.amount, converted.unit].filter(Boolean).join(" ");
               const inPantry = isPantryMatch(ing.name);
+              const swap = adaptedMap.get(i);
 
               return (
                 <li key={i}>
@@ -735,16 +784,47 @@ function InteractiveIngredients({
                         </svg>
                       )}
                     </span>
-                    <span
-                      style={{
-                        fontSize: "0.82rem",
-                        color: isChecked ? "#5A3A28" : "var(--wc-text, #EFE3CE)",
-                        lineHeight: 1.5,
-                        flex: 1,
-                        textDecoration: isChecked ? "line-through" : "none",
-                      }}
-                    >
-                      {label}
+                    <span className="flex-1 min-w-0" style={{ lineHeight: 1.5 }}>
+                      {swap ? (
+                        <>
+                          {/* Original crossed out */}
+                          <span style={{ fontSize: "0.72rem", color: "#6B4E36", textDecoration: "line-through", display: "block" }}>
+                            {[amountStr, ing.name].filter(Boolean).join(" ")}
+                          </span>
+                          {/* Replacement */}
+                          <span style={{ fontSize: "0.82rem", color: "#828E6F", fontWeight: 600, display: "block" }}>
+                            {[amountStr, swap.replacement].filter(Boolean).join(" ")}
+                          </span>
+                          {/* Note + confidence */}
+                          <span className="flex items-center gap-1.5 mt-0.5 flex-wrap">
+                            {swap.note && (
+                              <span style={{ fontSize: "0.65rem", color: "#8A6A4A" }}>{swap.note}</span>
+                            )}
+                            <span
+                              style={{
+                                fontSize: "0.6rem",
+                                fontWeight: 700,
+                                padding: "1px 5px",
+                                borderRadius: 99,
+                                background: swap.confidence >= 0.85 ? "#DCFCE7" : swap.confidence >= 0.65 ? "#FEF3C7" : "#FEE2E2",
+                                color: swap.confidence >= 0.85 ? "#16a34a" : swap.confidence >= 0.65 ? "#D97706" : "#DC2626",
+                              }}
+                            >
+                              {Math.round(swap.confidence * 100)}% match
+                            </span>
+                          </span>
+                        </>
+                      ) : (
+                        <span
+                          style={{
+                            fontSize: "0.82rem",
+                            color: isChecked ? "#5A3A28" : "var(--wc-text, #EFE3CE)",
+                            textDecoration: isChecked ? "line-through" : "none",
+                          }}
+                        >
+                          {[amountStr, ing.name].filter(Boolean).join(" ")}
+                        </span>
+                      )}
                     </span>
                     {inPantry && !isChecked && (
                       <span
@@ -802,6 +882,170 @@ function ChefTipBox({ tip }: { tip: string }) {
   );
 }
 
+// ── Inline SOS Helper — scoped to one instruction step ────────
+function InlineSOSHelper({ stepText }: { stepText: string }) {
+  const [open, setOpen] = useState(false);
+  const [messages, setMessages] = useState<{ role: "user" | "assistant"; text: string }[]>([]);
+  const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const bottomRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (open) setTimeout(() => inputRef.current?.focus(), 80);
+  }, [open]);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages, loading]);
+
+  async function send(text: string) {
+    if (!text.trim() || loading) return;
+    setMessages((m) => [...m, { role: "user", text: text.trim() }, { role: "assistant", text: "" }]);
+    setInput("");
+    setLoading(true);
+    try {
+      const res = await fetch("/api/sos", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text.trim(), stepContext: stepText }),
+      });
+      if (!res.body) throw new Error("no body");
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value);
+        setMessages((m) => {
+          const updated = [...m];
+          updated[updated.length - 1] = { ...updated[updated.length - 1], text: updated[updated.length - 1].text + chunk };
+          return updated;
+        });
+      }
+    } catch {
+      setMessages((m) => {
+        const updated = [...m];
+        updated[updated.length - 1] = { role: "assistant", text: "Something went wrong. Try again." };
+        return updated;
+      });
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const QUICK = ["This step isn't working", "Substitute an ingredient", "How do I know it's done?"];
+
+  if (!open) {
+    return (
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="mt-3 flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg transition-all hover:opacity-80"
+        style={{ background: "rgba(200,82,42,0.12)", color: "#C8522A", border: "1px solid rgba(200,82,42,0.25)" }}
+      >
+        <AlertTriangle style={{ width: 11, height: 11 }} />
+        SOS Helper
+      </button>
+    );
+  }
+
+  return (
+    <div className="mt-3 rounded-xl overflow-hidden" style={{ border: "1px solid rgba(200,82,42,0.3)", background: "#1A0C06" }}>
+      <div className="flex items-center justify-between px-3 py-2"
+        style={{ background: "rgba(200,82,42,0.15)", borderBottom: "1px solid rgba(200,82,42,0.2)" }}>
+        <span className="text-xs font-bold" style={{ color: "#C8522A" }}>🆘 SOS — step context loaded</span>
+        <button type="button" onClick={() => setOpen(false)} className="text-xs hover:opacity-70" style={{ color: "#6B4E36" }}>✕</button>
+      </div>
+
+      <div className="px-3 py-2 space-y-2 overflow-y-auto" style={{ maxHeight: 180, minHeight: 48 }}>
+        {messages.length === 0 && (
+          <div className="flex flex-wrap gap-1.5 pt-1">
+            {QUICK.map((p) => (
+              <button key={p} type="button" onClick={() => send(p)}
+                className="text-xs px-2.5 py-1.5 rounded-lg transition-opacity hover:opacity-80"
+                style={{ background: "rgba(42,24,8,0.7)", color: "#8A6A4A", border: "1px solid #3A2416" }}>
+                {p}
+              </button>
+            ))}
+          </div>
+        )}
+        {messages.map((msg, i) => (
+          <div key={i} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
+            {msg.role === "assistant" && <span className="text-sm mr-1.5 shrink-0 mt-0.5">👨‍🍳</span>}
+            <div className="rounded-xl px-3 py-2 text-xs leading-relaxed max-w-[90%]"
+              style={{
+                background: msg.role === "user" ? "#C85A2F" : "rgba(42,24,8,0.8)",
+                color: msg.role === "user" ? "#fff" : "#C8A882",
+                borderRadius: msg.role === "user" ? "12px 12px 3px 12px" : "12px 12px 12px 3px",
+              }}>
+              {msg.text || (
+                <span className="flex gap-1">
+                  <span className="animate-bounce" style={{ animationDelay: "0ms" }}>·</span>
+                  <span className="animate-bounce" style={{ animationDelay: "150ms" }}>·</span>
+                  <span className="animate-bounce" style={{ animationDelay: "300ms" }}>·</span>
+                </span>
+              )}
+            </div>
+          </div>
+        ))}
+        <div ref={bottomRef} />
+      </div>
+
+      <div className="flex gap-1.5 px-3 pb-3 pt-1.5" style={{ borderTop: "1px solid rgba(42,24,8,0.5)" }}>
+        <input
+          ref={inputRef}
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter") send(input); }}
+          placeholder="What's going wrong?"
+          className="flex-1 rounded-lg px-3 py-1.5 text-xs outline-none"
+          style={{ background: "rgba(42,24,8,0.8)", color: "#EFE3CE", border: "1px solid #3A2416" }}
+        />
+        <button type="button" onClick={() => send(input)} disabled={!input.trim() || loading}
+          className="px-3 py-1.5 rounded-lg text-xs font-semibold disabled:opacity-40 transition-all"
+          style={{ background: "#C85A2F", color: "#fff" }}>
+          <Send style={{ width: 11, height: 11 }} />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// ── Mobile-only bullet list instructions ─────────────────────
+function MobileBulletInstructions({ instructions }: { instructions: string[] }) {
+  return (
+    <ol className="flex flex-col gap-4 mt-4">
+      {instructions.map((step, i) => (
+        <li key={i} className="flex gap-3">
+          <span
+            className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold mt-0.5"
+            style={{
+              background: "rgba(244,162,97,0.15)",
+              color: "#F4A261",
+              border: "1px solid rgba(244,162,97,0.3)",
+            }}
+          >
+            {i + 1}
+          </span>
+          <p className="flex-1 text-sm leading-relaxed" style={{ color: "#C8B49A", lineHeight: 1.8 }}>
+            {step}
+          </p>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+/** Derive a short display title from the first verb phrase of a step. */
+function stepTitle(text: string): string {
+  // Take first sentence or up to 6 words, whichever is shorter
+  const first = text.split(/[.,;]/)[0].trim();
+  const words = first.split(/\s+/);
+  return words.slice(0, 6).join(" ");
+}
+
 function NumberedInstructions({
   instructions,
   onComplete,
@@ -819,141 +1063,152 @@ function NumberedInstructions({
     onStepChange?.(instructions[i] ?? "");
   }
 
+  const step = instructions[currentStep] ?? "";
+  const tip = allDone ? null : getProTip(step);
+
   return (
-    <div className="mt-4">
-      <div className="flex items-center justify-between mb-4">
-        <h3 className="text-sm font-bold uppercase tracking-wider" style={{ color: "#4A3020" }}>
-          Instructions
-        </h3>
+    <div className="mt-4 flex flex-col" style={{ minHeight: 320 }}>
+      {/* Step pill + counter row */}
+      <div className="flex items-center justify-between mb-6">
         {!allDone && (
-          <span className="text-xs font-semibold px-2.5 py-1 rounded-full"
-            style={{ background: "rgba(42,24,8,0.6)", color: "var(--wc-pal-accent, #B07D56)" }}>
-            Step {currentStep + 1} / {instructions.length}
+          <span
+            className="text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full"
+            style={{ background: "rgba(180,90,40,0.18)", color: "#C8522A", letterSpacing: "0.12em" }}
+          >
+            Step {currentStep + 1}
+          </span>
+        )}
+        {!allDone && (
+          <span className="text-xs font-semibold" style={{ color: "#5A3A28" }}>
+            {currentStep + 1} / {instructions.length}
           </span>
         )}
       </div>
 
-      <ol className="flex flex-col gap-3">
-        {instructions.map((step, i) => {
-          const isActive = i === currentStep;
-          const isDone = i < currentStep;
-          const tip = getProTip(step);
-
-          return (
-            <li
-              key={i}
-              className="flex gap-3 rounded-xl transition-all"
-              style={{
-                opacity: isDone ? 0.45 : 1,
-                // Focus mode: active step gets saffron left border + surface-2 bg + padding
-                borderLeft: isActive ? "3px solid var(--wc-accent-saffron, #F4A261)" : "3px solid transparent",
-                background: isActive ? "var(--wc-surface-2, rgba(58,52,48,0.7))" : "transparent",
-                padding: isActive ? "12px 12px 12px 12px" : "4px 4px 4px 4px",
-              }}
-            >
-              {/* Step number bubble */}
-              <button
-                type="button"
-                onClick={() => goToStep(i)}
-                className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold mt-0.5 transition-all"
-                style={{
-                  background: isDone
-                    ? "rgba(130,142,111,0.3)"
-                    : isActive
-                      ? "var(--wc-accent-saffron, #F4A261)"
-                      : "rgba(42,24,8,0.6)",
-                  color: isDone ? "#828E6F" : isActive ? "#1a1208" : "#5A3A28",
-                  border: isDone ? "1px solid rgba(130,142,111,0.3)" : isActive ? "none" : "1px solid #3A2416",
-                  cursor: "pointer",
-                }}
-                aria-label={isDone ? `Go back to step ${i + 1}` : `Jump to step ${i + 1}`}
-              >
-                {isDone ? (
-                  <svg viewBox="0 0 10 8" width="10" height="8" fill="none">
-                    <path d="M1 4l3 3 5-6" stroke="#828E6F" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                ) : (
-                  i + 1
-                )}
-              </button>
-
-              <div className="flex-1 min-w-0">
-                <p
-                  className="text-sm leading-relaxed"
-                  style={{
-                    color: isActive ? "var(--fg-primary, #EFE3CE)" : "#8A6A4A",
-                    lineHeight: 1.75,
-                    fontWeight: isActive ? 500 : 400,
-                  }}
-                >
-                  {step}
-                </p>
-
-                {/* Chef Tip — shown inline on active step */}
-                {tip && isActive && <ChefTipBox tip={tip} />}
-              </div>
-            </li>
-          );
-        })}
-      </ol>
-
       {allDone ? (
-        <div className="mt-5 rounded-xl px-4 py-3 flex items-center gap-3"
-          style={{ background: "rgba(130,142,111,0.12)", border: "1px solid rgba(130,142,111,0.2)" }}>
-          <CheckCircle2 style={{ width: 18, height: 18, color: "#828E6F", flexShrink: 0 }} />
-          <p className="text-sm font-semibold" style={{ color: "#828E6F" }}>All steps complete!</p>
+        <div className="flex-1 flex flex-col items-center justify-center gap-3 py-12">
+          <CheckCircle2 style={{ width: 36, height: 36, color: "#828E6F" }} />
+          <p className="text-lg font-bold" style={{ color: "#828E6F", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
+            All steps complete!
+          </p>
         </div>
       ) : (
-        <div
-          className="sticky bottom-0 flex items-center justify-between gap-3 mt-4 pt-3"
-          style={{
-            borderTop: "1px solid rgba(42,24,8,0.6)",
-            background: "rgba(18,12,7,0.95)",
-            backdropFilter: "blur(8px)",
-            padding: "10px 0",
-          }}
-        >
-          <button
-            type="button"
-            onClick={() => goToStep(Math.max(0, currentStep - 1))}
-            disabled={currentStep === 0}
-            className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold transition-all hover:opacity-80 disabled:opacity-30"
-            style={{ background: "rgba(42,24,8,0.6)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.5)" }}
-          >
-            <ChevronLeft style={{ width: 12, height: 12 }} /> Prev
-          </button>
-          <span className="text-xs font-semibold" style={{ color: "#6B4E36" }}>
-            {currentStep + 1} / {instructions.length}
-          </span>
-          <button
-            type="button"
-            onClick={() => {
-              if (currentStep + 1 >= instructions.length) {
-                setCurrentStep(instructions.length);
-                onStepChange?.("");
-                onComplete();
-              } else {
-                goToStep(currentStep + 1);
-              }
+        <div className="flex-1">
+          {/* Big editorial heading */}
+          <h2
+            className="font-bold leading-tight mb-4"
+            style={{
+              color: "#EFE3CE",
+              fontFamily: "'Libre Baskerville', Georgia, serif",
+              fontSize: "clamp(1.6rem, 4vw, 2.4rem)",
+              lineHeight: 1.15,
             }}
-            className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all hover:opacity-90"
-            style={{ background: "var(--wc-pal-accent, #B07D56)", color: "#fff" }}
           >
-            {currentStep + 1 >= instructions.length ? "Done" : "Next"}
-            <ChevronRight style={{ width: 12, height: 12 }} />
-          </button>
+            {stepTitle(step)}
+          </h2>
+
+          {/* Full step body */}
+          <p
+            className="leading-relaxed mb-5"
+            style={{ color: "#B09070", fontSize: "0.95rem", lineHeight: 1.8 }}
+          >
+            {step}
+          </p>
+
+          {tip && <ChefTipBox tip={tip} />}
+          <InlineSOSHelper stepText={step} />
         </div>
       )}
+
+      {/* Prev / Next bar */}
+      <div
+        className="cook-next-bar"
+        style={{ backdropFilter: "blur(10px)", marginTop: "1.5rem" }}
+      >
+        <button
+          type="button"
+          onClick={() => goToStep(Math.max(0, currentStep - 1))}
+          disabled={currentStep === 0}
+          className="flex items-center gap-1.5 px-4 py-3 rounded-xl text-xs font-semibold transition-all hover:brightness-125 disabled:opacity-25"
+          style={{ background: "rgba(244,162,97,0.12)", color: "#D4956A", border: "1.5px solid rgba(244,162,97,0.35)", minWidth: 72 }}
+        >
+          <ChevronLeft style={{ width: 13, height: 13 }} /> Prev
+        </button>
+        <button
+          type="button"
+          onClick={() => {
+            if (currentStep + 1 >= instructions.length) {
+              setCurrentStep(instructions.length);
+              onStepChange?.("");
+              onComplete();
+            } else {
+              goToStep(currentStep + 1);
+            }
+          }}
+          className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-bold transition-all hover:opacity-90"
+          style={{ background: "var(--wc-accent-saffron, #F4A261)", color: "#1A0E04" }}
+        >
+          {currentStep + 1 >= instructions.length ? "All Done!" : "Next Step"}
+          <ChevronRight style={{ width: 15, height: 15 }} />
+        </button>
+      </div>
     </div>
   );
 }
 
+// ── Phase tab icons ───────────────────────────────────────────
+function PrepIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M6 3v6a6 6 0 0012 0V3" stroke="#8A6A4A" strokeWidth="2" strokeLinecap="round" />
+      <line x1="12" y1="15" x2="12" y2="21" stroke="#8A6A4A" strokeWidth="2" strokeLinecap="round" />
+      <line x1="8" y1="21" x2="16" y2="21" stroke="#F4A261" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function CookIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <ellipse cx="12" cy="17" rx="8" ry="3" stroke="#8A6A4A" strokeWidth="2" />
+      <path d="M4 17v1a8 8 0 0016 0v-1" stroke="#8A6A4A" strokeWidth="2" />
+      <path d="M8 10c0-2 1-4 4-4s4 2 4 4" stroke="#F4A261" strokeWidth="2" strokeLinecap="round" />
+      <line x1="12" y1="3" x2="12" y2="6" stroke="#F4A261" strokeWidth="2" strokeLinecap="round" />
+      <line x1="8.5" y1="4" x2="9.5" y2="6.7" stroke="#F4A261" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="15.5" y1="4" x2="14.5" y2="6.7" stroke="#F4A261" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function FinishIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <circle cx="12" cy="12" r="8" stroke="#8A6A4A" strokeWidth="2" />
+      <path d="M8 12l3 3 5-5" stroke="#F4A261" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function TabLabel({ icon, text }: { icon: React.ReactNode; text: string }) {
+  return (
+    <span className="flex items-center gap-1.5">
+      {icon}
+      {text}
+    </span>
+  );
+}
+
 // ── Split instructions into labelled phases for tabs ─────────
-function splitIntoPhaseTabs(instructions: string[], onComplete: () => void, onStepChange?: (text: string) => void): Tab[] {
+function splitIntoPhaseTabs(
+  instructions: string[],
+  onComplete: () => void,
+  onStepChange: ((text: string) => void) | undefined,
+  setActivePhaseTab: (id: string) => void,
+): Tab[] {
   if (instructions.length <= 4) {
     return [{
       id: "cook",
-      label: "🍳 Cook",
+      label: <TabLabel icon={<CookIcon />} text="Cook" />,
       content: <NumberedInstructions instructions={instructions} onComplete={onComplete} onStepChange={onStepChange} />,
     }];
   }
@@ -983,18 +1238,24 @@ function splitIntoPhaseTabs(instructions: string[], onComplete: () => void, onSt
   if (prepSteps.length > 0) {
     tabs.push({
       id: "prep",
-      label: "🥣 Prep",
-      content: <NumberedInstructions instructions={prepSteps} onComplete={() => {}} onStepChange={onStepChange} />,
+      label: <TabLabel icon={<PrepIcon />} text="Prep" />,
+      content: (
+        <NumberedInstructions
+          instructions={prepSteps}
+          onComplete={() => setActivePhaseTab("cook")}
+          onStepChange={onStepChange}
+        />
+      ),
     });
   }
   if (cookSteps.length > 0) {
     tabs.push({
       id: "cook",
-      label: "🍳 Cook",
+      label: <TabLabel icon={<CookIcon />} text="Cook" />,
       content: (
         <NumberedInstructions
           instructions={cookSteps}
-          onComplete={finishSteps.length === 0 ? onComplete : () => {}}
+          onComplete={finishSteps.length === 0 ? onComplete : () => setActivePhaseTab("finish")}
           onStepChange={onStepChange}
         />
       ),
@@ -1003,11 +1264,85 @@ function splitIntoPhaseTabs(instructions: string[], onComplete: () => void, onSt
   if (finishSteps.length > 0) {
     tabs.push({
       id: "finish",
-      label: "✨ Finish",
+      label: <TabLabel icon={<FinishIcon />} text="Finish" />,
       content: <NumberedInstructions instructions={finishSteps} onComplete={onComplete} onStepChange={onStepChange} />,
     });
   }
   return tabs;
+}
+
+// ── Cook This — add missing to shopping list ─────────────────
+function CookThisButton({
+  ingredients,
+  pantryItems,
+}: {
+  ingredients: { name: string; amount?: number | null; unit?: string | null }[];
+  pantryItems: { id: string; name: string; quantity?: string | null }[];
+}) {
+  const [state, setState] = useState<"idle" | "loading" | "done">("idle");
+  const [addedCount, setAddedCount] = useState(0);
+
+  async function handleCookThis() {
+    setState("loading");
+    try {
+      const res = await fetch("/api/pantry/gap", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ingredients }),
+      });
+      const json = await res.json() as {
+        missing: { name: string; amount?: number; unit?: string }[];
+      };
+      if (json.missing.length === 0) {
+        setState("done");
+        setAddedCount(0);
+        return;
+      }
+      addToShoppingList(
+        json.missing.map((m) => ({
+          name: m.name,
+          amount: m.amount !== undefined ? String(m.amount) : undefined,
+          unit: m.unit,
+        }))
+      );
+      setAddedCount(json.missing.length);
+      setState("done");
+    } catch {
+      setState("idle");
+    }
+  }
+
+  if (state === "done") {
+    return (
+      <div
+        className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold mb-3"
+        style={{ background: "rgba(130,142,111,0.2)", color: "#828E6F", border: "1px solid rgba(130,142,111,0.3)" }}
+      >
+        <CheckCircle2 style={{ width: 16, height: 16 }} />
+        {addedCount === 0
+          ? "You have everything!"
+          : `${addedCount} missing item${addedCount !== 1 ? "s" : ""} added to list`}
+      </div>
+    );
+  }
+
+  return (
+    <button
+      onClick={handleCookThis}
+      disabled={state === "loading"}
+      className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition-all disabled:opacity-50 mb-3 w-full justify-center"
+      style={{
+        background: "rgba(176,125,86,0.18)",
+        color: "#B07D56",
+        border: "1px solid rgba(176,125,86,0.3)",
+      }}
+    >
+      {state === "loading"
+        ? <Loader2 style={{ width: 16, height: 16 }} className="animate-spin" />
+        : <ShoppingCart style={{ width: 16, height: 16 }} />}
+      {state === "loading" ? "Checking pantry…" : "Cook This — add missing to list"}
+    </button>
+  );
 }
 
 // ── Main component ────────────────────────────────────────────
@@ -1026,6 +1361,10 @@ export function RecipeColumnsClient({
   const [instructions, setInstructions] = useState<string[]>(initialInstructions);
   const [phase, setPhase] = useState<Phase>("cook");
   const [cookingDone, setCookingDone] = useState(false);
+  const [activePhaseTab, setActivePhaseTab] = useState<string>(() => {
+    const PREP_KEYWORDS = /\b(prepare|prep|chop|dice|slice|mince|peel|wash|rinse|marinate|season|mix|combine|measure|gather|cut|trim|soak)\b/i;
+    return initialInstructions.length > 4 && PREP_KEYWORDS.test(initialInstructions[0] ?? "") ? "prep" : "cook";
+  });
   const [unitSystem, setUnitSystem] = useState<UnitSystem>("metric");
   const base = baseServings ?? 4;
   const [servings, setServings] = useState(base);
@@ -1054,25 +1393,22 @@ export function RecipeColumnsClient({
 
   return (
     <div
-      className="flex"
+      className="flex flex-col lg:flex-row"
       style={{
         minHeight: "calc(100vh - 96px)",
         alignItems: "flex-start",
       }}
     >
-      {/* ── INGREDIENTS PANEL (left half of right side) ── */}
+      {/* ── INGREDIENTS PANEL (left half of right side on desktop, full-width on mobile) ── */}
       <div
-        className="flex flex-col shrink-0"
+        className={`flex flex-col shrink-0 w-full lg:sticky lg:top-0 lg:max-h-[calc(100vh-96px)] ${ingredientsCollapsed ? "" : "lg:w-[38%]"}`}
         style={{
-          width: ingredientsCollapsed ? "48px" : "38%",
-          minWidth: ingredientsCollapsed ? "48px" : 240,
+          width: ingredientsCollapsed ? "48px" : undefined,
+          minWidth: ingredientsCollapsed ? "48px" : undefined,
           borderRight: "1px solid rgba(42,24,8,0.5)",
           background: "rgba(18,12,7,0.4)",
           overflowY: ingredientsCollapsed ? "hidden" : "auto",
           overflowX: "hidden",
-          maxHeight: "calc(100vh - 96px)",
-          position: "sticky",
-          top: 0,
           transition: "width 0.3s ease, min-width 0.3s ease",
           flexShrink: 0,
         }}
@@ -1125,14 +1461,29 @@ export function RecipeColumnsClient({
                 <ChevronLeft style={{ width: 14, height: 14 }} />
               </button>
             </div>
+            {/* Serving size multiplier */}
+            <div className="flex items-center gap-2 mb-3 pl-10">
+              <span className="text-xs font-semibold" style={{ color: "#4A3020" }}>Servings</span>
+              <ServingControl base={base} current={servings} onChange={setServings} />
+              {multiplier !== 1 && (
+                <span className="text-xs font-semibold tabular-nums" style={{ color: "rgba(176,125,86,0.55)" }}>
+                  ×{parseFloat(multiplier.toFixed(2))}
+                </span>
+              )}
+            </div>
             {ingredients.length > 0 ? (
-              <InteractiveIngredients
-                ingredients={ingredients}
-                unitSystem={unitSystem}
-                multiplier={multiplier}
-                pantryItems={pantryItems}
-                recipeTitle={recipeTitle}
-              />
+              <>
+                {pantryItems && pantryItems.length >= 0 && (
+                  <CookThisButton ingredients={ingredients} pantryItems={pantryItems} />
+                )}
+                <InteractiveIngredients
+                  ingredients={ingredients}
+                  unitSystem={unitSystem}
+                  multiplier={multiplier}
+                  pantryItems={pantryItems}
+                  recipeTitle={recipeTitle}
+                />
+              </>
             ) : (
               <IngredientsColumn
                 recipeId={recipeId}
@@ -1149,11 +1500,9 @@ export function RecipeColumnsClient({
 
       {/* ── INSTRUCTIONS + PHASE RUNNER (right half) ── */}
       <div
-        className="flex-1 flex flex-col min-w-0"
+        className="flex-1 flex flex-col min-w-0 lg:overflow-y-auto lg:max-h-[calc(100vh-96px)]"
         style={{
           background: "rgba(22,14,8,0.3)",
-          overflowY: "auto",
-          maxHeight: "calc(100vh - 96px)",
         }}
       >
         {/* Phase progress stepper */}
@@ -1167,10 +1516,21 @@ export function RecipeColumnsClient({
                 <>
                   <LivingCookbookTicker />
                   {instructions.length > 0 ? (
-                    <AnimatedTabs
-                      tabs={splitIntoPhaseTabs(instructions, handleCookingComplete, setCurrentStepText)}
-                      className="mt-4"
-                    />
+                    <>
+                      {/* Mobile: simple numbered bullet list */}
+                      <div className="md:hidden">
+                        <MobileBulletInstructions instructions={instructions} />
+                      </div>
+                      {/* Desktop: interactive step-by-step tabs */}
+                      <div className="hidden md:block">
+                        <AnimatedTabs
+                          tabs={splitIntoPhaseTabs(instructions, handleCookingComplete, setCurrentStepText, setActivePhaseTab)}
+                          activeTab={activePhaseTab}
+                          onTabChange={setActivePhaseTab}
+                          className="mt-4"
+                        />
+                      </div>
+                    </>
                   ) : (
                     <div className="rounded-xl p-8 text-center mt-4"
                       style={{ background: "rgba(26,16,8,0.5)", border: "1px dashed rgba(42,24,8,0.7)" }}>
