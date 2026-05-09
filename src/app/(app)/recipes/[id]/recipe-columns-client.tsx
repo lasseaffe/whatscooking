@@ -1274,10 +1274,8 @@ function splitIntoPhaseTabs(
 // ── Cook This — add missing to shopping list ─────────────────
 function CookThisButton({
   ingredients,
-  pantryItems,
 }: {
   ingredients: { name: string; amount?: number | null; unit?: string | null }[];
-  pantryItems: { id: string; name: string; quantity?: string | null }[];
 }) {
   const [state, setState] = useState<"idle" | "loading" | "done">("idle");
   const [addedCount, setAddedCount] = useState(0);
@@ -1290,22 +1288,27 @@ function CookThisButton({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ingredients }),
       });
+      if (!res.ok) {
+        setState("idle");
+        return;
+      }
       const json = await res.json() as {
-        missing: { name: string; amount?: number; unit?: string }[];
+        missing?: { name: string; amount?: number; unit?: string }[];
       };
-      if (json.missing.length === 0) {
+      const missing = json.missing ?? [];
+      if (missing.length === 0) {
         setState("done");
         setAddedCount(0);
         return;
       }
       addToShoppingList(
-        json.missing.map((m) => ({
+        missing.map((m) => ({
           name: m.name,
           amount: m.amount !== undefined ? String(m.amount) : undefined,
           unit: m.unit,
         }))
       );
-      setAddedCount(json.missing.length);
+      setAddedCount(missing.length);
       setState("done");
     } catch {
       setState("idle");
@@ -1474,7 +1477,7 @@ export function RecipeColumnsClient({
             {ingredients.length > 0 ? (
               <>
                 {pantryItems && pantryItems.length >= 0 && (
-                  <CookThisButton ingredients={ingredients} pantryItems={pantryItems} />
+                  <CookThisButton ingredients={ingredients} />
                 )}
                 <InteractiveIngredients
                   ingredients={ingredients}

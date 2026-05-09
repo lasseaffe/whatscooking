@@ -29,9 +29,13 @@ export async function POST(req: NextRequest) {
 
     const missing = ingredients.filter((ing) => {
       const ingLower = ing.name.toLowerCase();
-      return !pantryNames.some(
-        (p) => p.includes(ingLower) || ingLower.includes(p)
-      );
+      return !pantryNames.some((p) => {
+        // exact match or pantry contains ingredient name
+        if (p === ingLower || p.includes(ingLower)) return true;
+        // pantry word appears as whole word in ingredient
+        const escaped = p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        return new RegExp(`\\b${escaped}\\b`).test(ingLower);
+      });
     });
 
     return NextResponse.json({ missing });
