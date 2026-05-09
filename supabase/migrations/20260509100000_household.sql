@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS member_meal_reactions (
   notes        TEXT,
   reported_by  UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
   cooked_at    TIMESTAMPTZ NOT NULL DEFAULT now(),
-  UNIQUE (member_id, recipe_id, cooked_at)
+  UNIQUE (member_id, recipe_id)
 );
 
 -- RLS (household_members already has RLS enabled from baby_family_hub migration)
@@ -65,9 +65,21 @@ ALTER TABLE member_meal_reactions ENABLE ROW LEVEL SECURITY;
 DROP POLICY IF EXISTS "owner manages members" ON household_members;
 DROP POLICY IF EXISTS "linked user reads own entry" ON household_members;
 
+-- Drop any conflicting policies from earlier baby_family_hub migration
+DO $$
+DECLARE pol_name TEXT;
+BEGIN
+  FOR pol_name IN
+    SELECT policyname FROM pg_policies WHERE tablename = 'household_members' AND policyname != 'owner manages members' AND policyname != 'linked user reads own entry'
+  LOOP
+    EXECUTE format('DROP POLICY IF EXISTS %I ON household_members', pol_name);
+  END LOOP;
+END $$;
+
 CREATE POLICY "owner manages members"
   ON household_members FOR ALL
-  USING (owner_user_id = auth.uid());
+  USING (owner_user_id = auth.uid())
+  WITH CHECK (owner_user_id = auth.uid());
 
 CREATE POLICY "linked user reads own entry"
   ON household_members FOR SELECT
@@ -100,3 +112,8 @@ CREATE POLICY "owner manages reactions"
 CREATE POLICY "reporter inserts own reactions"
   ON member_meal_reactions FOR INSERT
   WITH CHECK (reported_by = auth.uid());
+
+-- Indexes for common query patterns
+CREATE INDEX IF NOT EXISTS idx_household_members_owner ON household_members(owner_user_id);
+CREATE INDEX IF NOT EXISTS idx_member_preferences_member ON member_ingredient_preferences(member_id);
+CREATE INDEX IF NOT EXISTS idx_member_reactions_member ON member_meal_reactions(member_id);
