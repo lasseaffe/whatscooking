@@ -1,10 +1,16 @@
 // src/lib/crypto.ts
 import { createCipheriv, createDecipheriv, randomBytes } from 'crypto';
 
-const KEY = Buffer.from(process.env.SPOTIFY_ENCRYPTION_KEY!, 'hex');
 const ALG = 'aes-256-gcm';
 
+function getKey() {
+  const raw = process.env.SPOTIFY_ENCRYPTION_KEY;
+  if (!raw) throw new Error('SPOTIFY_ENCRYPTION_KEY env var is not set');
+  return Buffer.from(raw, 'hex');
+}
+
 export function encrypt(text: string): string {
+  const KEY = getKey();
   const iv = randomBytes(12);
   const cipher = createCipheriv(ALG, KEY, iv);
   const encrypted = Buffer.concat([cipher.update(text, 'utf8'), cipher.final()]);
@@ -13,6 +19,7 @@ export function encrypt(text: string): string {
 }
 
 export function decrypt(payload: string): string {
+  const KEY = getKey();
   const [ivHex, tagHex, encHex] = payload.split(':');
   const decipher = createDecipheriv(ALG, KEY, Buffer.from(ivHex, 'hex'));
   decipher.setAuthTag(Buffer.from(tagHex, 'hex'));

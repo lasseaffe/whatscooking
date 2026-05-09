@@ -20,13 +20,12 @@ export default async function EventsPage() {
     .select('party_id,rsvp,dinner_parties(id,title,scheduled_at,avatar_emoji,avatar_url,status)')
     .eq('user_id', user.id);
 
-  const attending = (guestRows ?? []).map((g: {
-    rsvp: string;
-    dinner_parties: { id: string; title: string; scheduled_at: string; avatar_emoji: string | null; avatar_url: string | null; status: string } | null;
-  }) => ({
-    ...g.dinner_parties,
-    rsvp: g.rsvp,
-  })).filter(Boolean);
+  // Supabase returns related rows as array; take first element
+  const attending = (guestRows ?? []).map((g) => {
+    const party = Array.isArray(g.dinner_parties) ? g.dinner_parties[0] : g.dinner_parties;
+    if (!party) return null;
+    return { ...party, rsvp: g.rsvp };
+  }).filter(Boolean) as { id: string; title: string; scheduled_at: string; avatar_emoji: string | null; avatar_url: string | null; status: string; rsvp: string }[];
 
   const allEvents = [
     ...(hosting ?? []).map(e => ({ ...e, role: 'Hosting' as const })),
