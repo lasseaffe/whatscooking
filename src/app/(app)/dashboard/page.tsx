@@ -2,7 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import {
   Sparkles, UtensilsCrossed, ShoppingBasket, ChefHat,
-  Clock, Flame, ArrowRight, Heart, BookOpen, Target,
+  Clock, Flame, ArrowRight, Heart, BookOpen, Target, Globe2, Library,
 } from "lucide-react";
 import type { MealPlan } from "@/lib/types";
 import { DirtySodaSlideshow, type SodaSlide } from "./dirty-soda-slideshow";
@@ -34,6 +34,7 @@ export default async function DashboardPage() {
     { count: pantryCount },
     { data: sodaRows },
     { data: featuredRows },
+    { data: myCookbooks },
   ] = await Promise.all([
     supabase.from("profiles").select("full_name").eq("id", user!.id).single(),
     supabase
@@ -57,6 +58,12 @@ export default async function DashboardPage() {
       .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, calories, source_name, source_url")
       .eq("source", "curated")
       .not("dish_types", "cs", '["drink"]')
+      .limit(4),
+    supabase
+      .from("cookbooks")
+      .select("id, title, slug, cover_image_url, theme_color, status, price")
+      .eq("user_id", user!.id)
+      .order("updated_at", { ascending: false })
       .limit(4),
   ]);
 
@@ -126,8 +133,7 @@ export default async function DashboardPage() {
           {/* AI Meal Plans */}
           <Link
             href="/plans/new"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #2A1808 0%, #1C1209 100%)" }} />
@@ -153,8 +159,7 @@ export default async function DashboardPage() {
           {/* Find Recipes */}
           <Link
             href="/discover"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #1E2010 0%, #1C1209 100%)" }} />
@@ -180,8 +185,7 @@ export default async function DashboardPage() {
           {/* My Pantry */}
           <Link
             href="/pantry"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #241A08 0%, #1C1209 100%)" }} />
@@ -216,8 +220,7 @@ export default async function DashboardPage() {
           {/* Meal Plans */}
           <Link
             href="/plans"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #1E1A08 0%, #1C1209 100%)" }} />
@@ -243,8 +246,7 @@ export default async function DashboardPage() {
           {/* Saved Recipes */}
           <Link
             href="/saved"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #2A1410 0%, #1C1209 100%)" }} />
@@ -270,8 +272,7 @@ export default async function DashboardPage() {
           {/* My Recipes */}
           <Link
             href="/my-recipes"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #18201A 0%, #1C1209 100%)" }} />
@@ -297,8 +298,7 @@ export default async function DashboardPage() {
           {/* Calorie Tracker */}
           <Link
             href="/calorie-tracker"
-            className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
-            style={{ borderColor: "#3A2416", background: "#1C1209" }}
+            className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
               style={{ background: "linear-gradient(135deg, #162018 0%, #1C1209 100%)" }} />
@@ -317,6 +317,38 @@ export default async function DashboardPage() {
               </div>
               <div className="inline-flex items-center gap-1.5 text-xs font-semibold" style={{ color: "#828E6F" }}>
                 Track progress <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+              </div>
+            </div>
+          </Link>
+
+          {/* World Cup 2026 */}
+          <Link
+            href="/world-cup-2026"
+            className="feature-card group relative"
+          >
+            <div className="absolute inset-0 opacity-50"
+              style={{ background: "linear-gradient(135deg, #0A1A0A 0%, #1C1209 100%)" }} />
+            <div className="relative p-5 flex flex-col gap-3">
+              <div className="flex items-center gap-2">
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
+                  style={{ background: "linear-gradient(135deg, #1A6A2A, #0A4010)" }}>
+                  <Globe2 className="w-5 h-5 text-white" />
+                </div>
+                <span className="text-xs px-2 py-0.5 rounded-full font-bold animate-pulse"
+                  style={{ background: "rgba(250,200,0,0.12)", color: "#F4A261", border: "1px solid rgba(244,162,97,0.3)" }}>
+                  June 2026
+                </span>
+              </div>
+              <div>
+                <h3 className="font-bold text-sm" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
+                  World Cup 2026
+                </h3>
+                <p className="text-xs mt-1 leading-relaxed" style={{ color: "#8A6A4A" }}>
+                  Cook a dish from every nation. Earn passport stamps and unlock new cuisine badges.
+                </p>
+              </div>
+              <div className="inline-flex items-center gap-1.5 text-xs font-semibold" style={{ color: "#F4A261" }}>
+                Start the challenge <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
               </div>
             </div>
           </Link>
@@ -410,6 +442,97 @@ export default async function DashboardPage() {
         </div>
         </ScrollReveal>
       )}
+
+      {/* ── My Cookbooks ── */}
+      <ScrollReveal delay={60}>
+      <div>
+        <div className="flex items-center justify-between mb-4">
+          <h2
+            className="font-bold text-lg"
+            style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}
+          >
+            My Cookbooks
+          </h2>
+          <div className="flex items-center gap-3">
+            <Link href="/cookbooks/new" className="text-xs font-semibold uppercase tracking-wider hover:opacity-70 transition-opacity"
+              style={{ color: "#C8522A" }}>
+              + New
+            </Link>
+            <Link href="/cookbooks" className="text-xs font-semibold uppercase tracking-wider hover:opacity-70 transition-opacity"
+              style={{ color: "#6B4E36" }}>
+              Browse →
+            </Link>
+          </div>
+        </div>
+
+        {myCookbooks && myCookbooks.length > 0 ? (
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {myCookbooks.map((cb) => (
+              <Link key={cb.id} href={`/cookbooks/${cb.slug}`}>
+                <div className="group rounded-2xl overflow-hidden border transition-all hover:-translate-y-1"
+                  style={{ borderColor: "#3A2416", background: "#1C1209" }}>
+                  <div
+                    className="h-24 w-full relative"
+                    style={{ background: cb.theme_color ? cb.theme_color + "55" : "#241809" }}
+                  >
+                    {cb.cover_image_url ? (
+                      <img
+                        src={cb.cover_image_url}
+                        alt={cb.title}
+                        className="w-full h-full object-cover"
+                        style={{ filter: "brightness(0.7)" }}
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center">
+                        <Library className="w-7 h-7" style={{ color: cb.theme_color ?? "#4A3020" }} />
+                      </div>
+                    )}
+                    <span
+                      className="absolute top-2 right-2 text-xs px-1.5 py-0.5 rounded-md font-semibold"
+                      style={{
+                        background: "rgba(0,0,0,0.55)",
+                        color: cb.status === "published" ? "#A8D5A2" : "#C89818",
+                        backdropFilter: "blur(4px)",
+                      }}
+                    >
+                      {cb.status === "published" ? "Live" : "Draft"}
+                    </span>
+                  </div>
+                  <div className="p-3">
+                    <p className="font-semibold text-xs leading-snug line-clamp-2" style={{ color: "#EFE3CE" }}>
+                      {cb.title}
+                    </p>
+                    <p className="text-xs mt-1" style={{ color: "#6B4E36" }}>
+                      {cb.price === 0 ? "Free" : `$${cb.price}`}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div className="rounded-2xl border p-8 text-center"
+            style={{ borderColor: "#2A1A0C", borderStyle: "dashed", background: "#161009" }}>
+            <Library className="w-7 h-7 mx-auto mb-3" style={{ color: "#3A2416" }} />
+            <p className="text-sm mb-1 font-semibold" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
+              No cookbooks yet
+            </p>
+            <p className="text-xs mb-4" style={{ color: "#6B4E36" }}>
+              Curate your recipes into a shareable, editorial collection.
+            </p>
+            <Link
+              href="/cookbooks/new"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm"
+              style={{ background: "#C8522A", color: "#fff" }}
+            >
+              <Library className="w-4 h-4" />
+              Create cookbook
+            </Link>
+          </div>
+        )}
+      </div>
+      </ScrollReveal>
 
       {/* ── Recent Meal Plans ── */}
       <ScrollReveal delay={80}>

@@ -6,7 +6,7 @@ import { useState } from "react";
 import {
   LayoutDashboard, UtensilsCrossed, Calendar, ShoppingBasket,
   ChefHat, Heart, BookOpen, Globe, Shuffle, Target,
-  PartyPopper, User, Settings, X, LogOut, Leaf,
+  PartyPopper, User, Settings, X, LogOut, Leaf, Trophy,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
@@ -21,8 +21,10 @@ const PRIMARY_TABS = [
 const MORE_ITEMS = [
   { href: "/saved",          label: "Saved Recipes",   icon: Heart },
   { href: "/my-recipes",     label: "My Recipes",      icon: BookOpen },
+  { href: "/cookbooks",      label: "Cookbooks",       icon: BookOpen },
   { href: "/swipe",          label: "Meal Swipe",      icon: Shuffle },
-  { href: "/cuisines",       label: "World Cuisines",  icon: Globe },
+  { href: "/cuisines",        label: "World Cuisines",  icon: Globe },
+  { href: "/world-cup-2026",  label: "World Cup 2026",  icon: Trophy },
   { href: "/calorie-tracker",label: "Nutrient Tracker",icon: Target },
   { href: "/dinner-parties", label: "Dinner Party",    icon: PartyPopper },
   { href: "/profile",        label: "Profile",         icon: User },
