@@ -11,6 +11,44 @@ export async function POST(req: NextRequest) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
+  // Fetch household members and their preferences for scoring
+  const { data: householdMembers } = await supabase
+    .from("household_members")
+    .select("id, filter_strictness, age_group")
+    .eq("owner_user_id", user.id);
+
+  type MemberPref = { ingredient_text: string; sentiment: string };
+  type MemberReactionRow = { recipe_id: string; rating: number };
+
+  let memberPrefs: Record<string, MemberPref[]> = {};
+  let memberReactionMap: Record<string, MemberReactionRow[]> = {};
+
+  if (householdMembers?.length) {
+    const memberIds = householdMembers.map((m) => m.id);
+
+    const [{ data: prefs }, { data: reactions }] = await Promise.all([
+      supabase
+        .from("member_ingredient_preferences")
+        .select("member_id, ingredient_text, sentiment")
+        .in("member_id", memberIds)
+        .in("sentiment", ["dislike", "avoid"]),
+      supabase
+        .from("member_meal_reactions")
+        .select("member_id, recipe_id, rating")
+        .in("member_id", memberIds),
+    ]);
+
+    for (const p of prefs ?? []) {
+      if (!memberPrefs[p.member_id]) memberPrefs[p.member_id] = [];
+      memberPrefs[p.member_id].push({ ingredient_text: p.ingredient_text, sentiment: p.sentiment });
+    }
+
+    for (const r of reactions ?? []) {
+      if (!memberReactionMap[r.member_id]) memberReactionMap[r.member_id] = [];
+      memberReactionMap[r.member_id].push({ recipe_id: r.recipe_id, rating: r.rating });
+    }
+  }
+
   const body = await req.json().catch(() => ({}));
   const {
     seedIds = [],         // Manually added recipe IDs
@@ -142,12 +180,15 @@ export async function POST(req: NextRequest) {
 
   // 5. Score candidates
   const seenIdSet = new Set(allSeedIds);
+  type CandidateRow = { id: string; title: string; description: string | null; image_url: string | null; cuisine_type: string | null; dish_types: string[] | null; dietary_tags: string[] | null; prep_time_minutes: number | null; cook_time_minutes: number | null; calories: number | null; source_name: string | null; source_url: string | null };
   const scored = candidates
     .filter((r) => !seenIdSet.has(r.id))
-    .map((r) => {
+    .reduce<Array<{ _score: number } & CandidateRow>>((acc, r) => {
       let score = 0;
+      let hardFiltered = false;
+
+      // Existing taste-profile scoring
       if (r.cuisine_type && topCuisines.includes(r.cuisine_type)) {
-        // Higher score for top cuisines
         score += (topCuisines.length - topCuisines.indexOf(r.cuisine_type)) * 3;
       }
       for (const t of r.dish_types ?? []) {
@@ -156,8 +197,37 @@ export async function POST(req: NextRequest) {
       for (const t of r.dietary_tags ?? []) {
         if (topDietaryTags.includes(t)) score += 1;
       }
-      return { ...r, _score: score };
-    })
+
+      // Household scoring pass
+      for (const member of householdMembers ?? []) {
+        if (hardFiltered) break;
+        const prefs = memberPrefs[member.id] ?? [];
+        const reactions = memberReactionMap[member.id] ?? [];
+        const recipeText = `${r.title ?? ""} ${r.description ?? ""}`.toLowerCase();
+
+        for (const pref of prefs) {
+          if (!recipeText.includes(pref.ingredient_text.toLowerCase())) continue;
+
+          if (member.filter_strictness === "allergy") {
+            hardFiltered = true;
+            break;
+          } else if (member.filter_strictness === "dislike") {
+            score -= 4;
+          } else {
+            score -= 1;
+          }
+        }
+
+        for (const reaction of reactions) {
+          if (reaction.recipe_id !== r.id) continue;
+          if (reaction.rating === 3) score += 2;
+          if (reaction.rating === 1) score -= 3;
+        }
+      }
+
+      if (!hardFiltered) acc.push({ ...r, _score: score });
+      return acc;
+    }, [])
     .sort((a, b) => b._score - a._score);
 
   // Return top 16, with some randomness at the bottom to avoid staleness
