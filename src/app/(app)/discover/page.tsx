@@ -22,9 +22,9 @@ export default async function DiscoverPage({
     supabase
       .from("recipes")
       .select("*", { count: "exact" })
-      .or('dish_types.is.null,dish_types.not.cs.{"drink"}')
-      .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
-      .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+      .or('dish_types.is.null,dish_types.not.cs.{drink}')
+      .or('dish_types.is.null,dish_types.not.cs.{hack}')
+      .or('dish_types.is.null,dish_types.not.cs.{premium}')
       .limit(300),
 
     // User's pantry ingredient names for match scoring

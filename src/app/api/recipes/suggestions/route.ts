@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
   // Fetch household members and their preferences for scoring
   const { data: householdMembers } = await supabase
     .from("household_members")
-    .select("id, filter_strictness, age_group")
+    .select("id, display_name, filter_strictness, age_group")
     .eq("owner_user_id", user.id);
 
   type MemberPref = { ingredient_text: string; sentiment: string };
@@ -183,7 +183,7 @@ export async function POST(req: NextRequest) {
   type CandidateRow = { id: string; title: string; description: string | null; image_url: string | null; cuisine_type: string | null; dish_types: string[] | null; dietary_tags: string[] | null; prep_time_minutes: number | null; cook_time_minutes: number | null; calories: number | null; source_name: string | null; source_url: string | null };
   const scored = candidates
     .filter((r) => !seenIdSet.has(r.id))
-    .reduce<Array<{ _score: number } & CandidateRow>>((acc, r) => {
+    .reduce<Array<{ _score: number; _badges: string[] } & CandidateRow>>((acc, r) => {
       let score = 0;
       let hardFiltered = false;
 
@@ -225,7 +225,38 @@ export async function POST(req: NextRequest) {
         }
       }
 
-      if (!hardFiltered) acc.push({ ...r, _score: score });
+      // Compute household badges for this recipe
+      const badges: string[] = [];
+      const recipeText = `${r.title ?? ""} ${r.description ?? ""}`.toLowerCase();
+
+      // Family favourite: >= 2 members have rated this recipe 3 stars
+      const highRatingCount = (householdMembers ?? []).filter((m) =>
+        (memberReactionMap[m.id] ?? []).some((rx) => rx.recipe_id === r.id && rx.rating === 3)
+      ).length;
+      if (highRatingCount >= 2) badges.push("family_favourite");
+
+      // Baby-friendly: baby-age members have no dislike match
+      const babyMembers = (householdMembers ?? []).filter((m) => m.age_group === "baby");
+      const babyConflict = babyMembers.some((m) =>
+        (memberPrefs[m.id] ?? []).some((pref) =>
+          recipeText.includes(pref.ingredient_text.toLowerCase())
+        )
+      );
+      if (babyMembers.length > 0 && !babyConflict) badges.push("baby_friendly");
+
+      // Won't eat: members with dislike/allergy match (non-soft strictness)
+      const wontEatMembers = (householdMembers ?? [])
+        .filter((m) => m.filter_strictness !== "soft")
+        .filter((m) =>
+          (memberPrefs[m.id] ?? []).some((pref) =>
+            recipeText.includes(pref.ingredient_text.toLowerCase())
+          )
+        );
+      if (wontEatMembers.length > 0) {
+        badges.push(`wont_eat:${wontEatMembers.map((m) => m.id).join(",")}`);
+      }
+
+      if (!hardFiltered) acc.push({ ...r, _score: score, _badges: badges });
       return acc;
     }, [])
     .sort((a, b) => b._score - a._score);
@@ -238,7 +269,7 @@ export async function POST(req: NextRequest) {
     const j = Math.floor(Math.random() * (i + 1));
     [rest[i], rest[j]] = [rest[j], rest[i]];
   }
-  const suggestions = [...top, ...rest.slice(0, 8)].map(({ _score: _, ...r }) => r);
+  const suggestions = [...top, ...rest.slice(0, 8)].map(({ _score: _, _badges, ...r }) => ({ ...r, badges: _badges }));
 
-  return NextResponse.json({ suggestions, seedCount: seedRecipes.length, profile });
+  return NextResponse.json({ suggestions, seedCount: seedRecipes.length, profile, householdMembers: householdMembers ?? [] });
 }

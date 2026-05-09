@@ -11,6 +11,7 @@ import { SOSCookingHelper } from "@/components/sos-cooking-helper";
 import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-mode-wrapper";
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
+import { FamilyFitBar } from "@/components/family-fit-bar";
 
 export default async function RecipePage({
   params,
@@ -46,8 +47,23 @@ export default async function RecipePage({
     supabase.from("recipe_ratings").select("*").eq("user_id", user!.id).eq("recipe_id", id).maybeSingle(),
     supabase.from("pantry_items").select("id, name, quantity").eq("user_id", user!.id),
     supabase.from("wc_recipe_feature_tags").select("tag_id, wc_feature_tags(id, name, label)").eq("recipe_id", id),
-    supabase.from("household_members").select("id, display_name, avatar_emoji, age_group, filter_strictness").eq("owner_user_id", user!.id),
+    supabase.from("household_members").select("id, display_name, avatar_emoji, age_group, filter_strictness, owner_user_id, linked_user_id, created_at").eq("owner_user_id", user!.id),
   ]);
+
+  // Fetch member ingredient preferences for FamilyFitBar
+  const memberIds = (householdMembers ?? []).map((m) => m.id);
+  const { data: memberPrefsRaw } = memberIds.length > 0
+    ? await supabase
+        .from("member_ingredient_preferences")
+        .select("member_id, ingredient_id, ingredient_text, sentiment, source, id, created_at")
+        .in("member_id", memberIds)
+    : { data: [] };
+
+  const memberPrefsMap: Record<string, import("@/lib/types").MemberIngredientPreference[]> = {};
+  for (const p of memberPrefsRaw ?? []) {
+    if (!memberPrefsMap[p.member_id]) memberPrefsMap[p.member_id] = [];
+    memberPrefsMap[p.member_id].push(p as import("@/lib/types").MemberIngredientPreference);
+  }
 
   const featureTags: FeatureTag[] = (recipeTags ?? [])
     .map((rt) => rt.wc_feature_tags as unknown as FeatureTag)
@@ -213,6 +229,16 @@ export default async function RecipePage({
                   </span>
                 ))}
               </div>
+            )}
+
+            {/* Family fit indicator */}
+            {(householdMembers ?? []).length > 0 && (
+              <FamilyFitBar
+                members={(householdMembers ?? []) as import("@/lib/types").HouseholdMember[]}
+                memberPrefs={memberPrefsMap}
+                recipeTitle={displayTitle}
+                recipeDescription={recipeData.description ?? ""}
+              />
             )}
 
           </div>
