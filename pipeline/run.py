@@ -1,27 +1,33 @@
-# Scheduled via Windows Task Scheduler: weekly Monday 07:00
-# Setup: see docs/superpowers/plans/2026-05-10-weekly-recipe-pipeline.md Task 7
-import json
-import sys
+# Scheduled via Windows Task Scheduler:
+#   Daily 07:00:   python pipeline/run.py --schedule=daily
+#   Weekly Mon:    python pipeline/run.py --schedule=weekly
+import argparse
 import logging
-from datetime import date
+import sys
+from datetime import datetime
 from pathlib import Path
 
-from pipeline.config import (
-    CATEGORIES_ROTATION, CATEGORIES_PER_RUN,
-    OUTPUT_DIR, ROTATION_STATE_FILE
-)
-from pipeline.compose import check_ollama_reachable, compose_recipe
-from pipeline.scrape import scrape_category, get_existing_urls
-from pipeline.emit_sql import write_sql_file
+from pipeline.config import SCHEDULE_DAILY, SCHEDULE_WEEKLY, LOGS_DIR
+from pipeline.lib.compose import check_ollama_reachable
+from pipeline.lib.apply import upsert_recipes
 
 
-def setup_logging(output_dir: str) -> logging.Logger:
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
-    log_path = Path(output_dir) / f"{date.today().isoformat()}.log"
+STRATEGY_MAP = {
+    "trending":  lambda: __import__("pipeline.strategies.trending",  fromlist=["TrendingStrategy"]).TrendingStrategy(),
+    "seasonal":  lambda: __import__("pipeline.strategies.seasonal",  fromlist=["SeasonalStrategy"]).SeasonalStrategy(),
+    "haute":     lambda: __import__("pipeline.strategies.haute",     fromlist=["HauteStrategy"]).HauteStrategy(),
+    "superfood": lambda: __import__("pipeline.strategies.superfood", fromlist=["SuperfoodStrategy"]).SuperfoodStrategy(),
+    "mealplan":  lambda: __import__("pipeline.strategies.mealplan",  fromlist=["MealplanStrategy"]).MealplanStrategy(),
+    "standard":  lambda: __import__("pipeline.strategies.standard",  fromlist=["StandardStrategy"]).StandardStrategy(),
+}
+
+
+def setup_logging() -> logging.Logger:
+    Path(LOGS_DIR).mkdir(parents=True, exist_ok=True)
+    log_path = Path(LOGS_DIR) / f"{datetime.now().strftime('%Y-%m-%d-%H')}.log"
 
     logger = logging.getLogger("pipeline")
     logger.setLevel(logging.INFO)
-
     fmt = logging.Formatter("%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
 
     fh = logging.FileHandler(log_path, encoding="utf-8")
@@ -35,96 +41,69 @@ def setup_logging(output_dir: str) -> logging.Logger:
     return logger
 
 
-def load_rotation_state() -> int:
-    """Return the index of the next category to start from."""
-    state_path = Path(ROTATION_STATE_FILE)
-    if state_path.exists():
-        try:
-            return json.loads(state_path.read_text())["next_index"]
-        except Exception:
-            pass
-    return 0
+def run_strategy(name: str, logger: logging.Logger) -> tuple[int, int, int]:
+    """Run one strategy. Returns (attempted, inserted, failed)."""
+    logger.info(f"--- Strategy: {name} ---")
+    strategy = STRATEGY_MAP[name]()
 
+    raw_batches = strategy.scrape()
+    logger.info(f"  Scraped {len(raw_batches)} batches")
 
-def save_rotation_state(next_index: int) -> None:
-    Path(ROTATION_STATE_FILE).write_text(json.dumps({"next_index": next_index}))
+    composed = []
+    failed = 0
 
+    for raw in raw_batches:
+        recipe = strategy.compose([raw])
+        if recipe is None:
+            logger.warning(f"  compose() returned None for batch in {name}")
+            failed += 1
+            continue
+        if not strategy.validate(recipe):
+            logger.warning(f"  validate() failed for '{recipe.get('title', '?')}' in {name}")
+            failed += 1
+            continue
+        composed.append(recipe)
 
-def pick_categories(start_index: int) -> tuple[list[str], int]:
-    """Pick CATEGORIES_PER_RUN categories round-robin, return (categories, new_next_index)."""
-    total = len(CATEGORIES_ROTATION)
-    indices = [(start_index + i) % total for i in range(CATEGORIES_PER_RUN)]
-    categories = [CATEGORIES_ROTATION[i] for i in indices]
-    next_index = (start_index + CATEGORIES_PER_RUN) % total
-    return categories, next_index
+    attempted = len(raw_batches)
+    if not composed:
+        logger.warning(f"  No valid recipes produced by {name}")
+        return attempted, 0, failed
+
+    result = upsert_recipes(composed)
+    logger.info(f"  Upserted: inserted={result.inserted} skipped={result.skipped} errors={len(result.errors)}")
+    for err in result.errors:
+        logger.error(f"    {err}")
+
+    return attempted, result.inserted, failed + len(result.errors)
 
 
 def main() -> None:
-    logger = setup_logging(OUTPUT_DIR)
-    logger.info("=== Weekly Recipe Pipeline starting ===")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--schedule", choices=["daily", "weekly"], required=True)
+    args = parser.parse_args()
 
-    # Check Ollama
+    logger = setup_logging()
+    logger.info(f"=== Pipeline starting — schedule={args.schedule} ===")
+
     if not check_ollama_reachable():
         logger.error("Ollama is not reachable at http://localhost:11434. Start Ollama and retry.")
         sys.exit(1)
     logger.info("Ollama reachable ✓")
 
-    # Pick this week's categories
-    start_index = load_rotation_state()
-    categories, next_index = pick_categories(start_index)
-    logger.info(f"Categories this run: {categories}")
+    strategies = SCHEDULE_DAILY if args.schedule == "daily" else SCHEDULE_WEEKLY
+    totals = {"attempted": 0, "inserted": 0, "failed": 0}
 
-    # Fetch existing URLs for dedup
-    existing_urls = get_existing_urls()
-    logger.info(f"Existing curated URLs in DB: {len(existing_urls)}")
+    for name in strategies:
+        attempted, inserted, failed = run_strategy(name, logger)
+        totals["attempted"] += attempted
+        totals["inserted"] += inserted
+        totals["failed"] += failed
 
-    composed_recipes = []
-    validation_failures = []
-
-    for category in categories:
-        logger.info(f"--- Category: {category} ---")
-
-        # Stage 1: Scrape
-        raw_recipes = scrape_category(category, existing_urls)
-        logger.info(f"  Scraped {len(raw_recipes)} raw recipes for '{category}'")
-
-        if len(raw_recipes) < 1:
-            logger.warning(f"  Not enough scraped recipes for '{category}', skipping composition")
-            continue
-
-        # Stage 2: Compose
-        recipe = compose_recipe(raw_recipes, category)
-        if recipe is None:
-            msg = f"Composition failed for category '{category}'"
-            logger.warning(f"  {msg}")
-            validation_failures.append(msg)
-            continue
-
-        composed_recipes.append(recipe)
-        logger.info(f"  Composed: '{recipe['title']}'")
-
-    # Stage 3: Emit SQL
-    if composed_recipes:
-        sql_path = write_sql_file(composed_recipes, OUTPUT_DIR)
-        logger.info(f"SQL written to: {sql_path}")
-    else:
-        logger.warning("No recipes composed this run — no SQL file written")
-        sql_path = None
-
-    # Save rotation state
-    save_rotation_state(next_index)
-
-    # Summary
     logger.info("=== Run complete ===")
-    logger.info(f"  Categories targeted: {categories}")
-    logger.info(f"  Recipes composed: {len(composed_recipes)}")
-    logger.info(f"  Validation failures: {len(validation_failures)}")
-    if validation_failures:
-        for f in validation_failures:
-            logger.info(f"    - {f}")
-    if sql_path:
-        logger.info(f"  Output: {sql_path}")
-        logger.info("  Next step: review SQL file and apply via Supabase SQL editor")
+    logger.info(f"  Strategies run: {strategies}")
+    logger.info(f"  Recipes attempted: {totals['attempted']}")
+    logger.info(f"  Recipes inserted:  {totals['inserted']}")
+    logger.info(f"  Failures:          {totals['failed']}")
 
 
 if __name__ == "__main__":
