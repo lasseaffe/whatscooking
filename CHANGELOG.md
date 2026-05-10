@@ -2,6 +2,23 @@
 
 ## [Unreleased] — 2026-05-11
 
+### Discover Swipe — Accessibility & UX Fixes
+
+**Fixed:**
+- Expanded swipe deck query to include all fields needed by HeroSwiper: `difficulty_level, ingredients, instructions, servings, protein_g, carbs_g, fat_g, dish_types`
+- Added missing `type="button"` to difficulty filter chip buttons
+- Improved deck count contrast from `#4A3020` to `#8A6A4A` for visibility on dark background
+- Added `touchAction: "none"` to card stack container to prevent mobile browser scroll interception
+- Disabled pointer events on back card to prevent accidental button activation
+
+**Files Changed:**
+- `src/app/(app)/discover/page.tsx` — query expansion
+- `src/app/(app)/discover/hero-swiper.tsx` — 4 fixes (button type, contrast, touch-action, pointer-events)
+
+**Commit:** `508db49`
+
+---
+
 ### Swipe UI — Task 2: Shared Swipe Card Components
 
 **Created:**
