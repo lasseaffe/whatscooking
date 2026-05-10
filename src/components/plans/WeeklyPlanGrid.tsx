@@ -83,7 +83,15 @@ export function WeeklyPlanGrid({
   onAutofillAccept,
   onOpenRecipeBank,
 }: WeeklyPlanGridProps) {
-  const [hiddenRows, setHiddenRows] = useState<Set<MealType>>(new Set());
+  const [hiddenRows, setHiddenRows] = useState<Set<MealType>>(() => {
+    if (typeof window === "undefined") return new Set();
+    try {
+      const stored = JSON.parse(localStorage.getItem("wc-hidden-rows") ?? "[]") as MealType[];
+      return new Set(stored);
+    } catch {
+      return new Set();
+    }
+  });
   const [autofillState, setAutofillState] = useState<
     Record<string, { status: "loading" | "suggesting"; suggestions: AutofillSuggestion[]; idx: number }>
   >({});
@@ -92,17 +100,12 @@ export function WeeklyPlanGrid({
     setHiddenRows((prev) => {
       const next = new Set(prev);
       next.has(mt) ? next.delete(mt) : next.add(mt);
+      if (typeof window !== "undefined") {
+        localStorage.setItem("wc-hidden-rows", JSON.stringify([...next]));
+      }
       return next;
     });
-    if (typeof window !== "undefined") {
-      const stored = JSON.parse(localStorage.getItem("wc-hidden-rows") ?? "[]") as MealType[];
-      const isCurrentlyHidden = hiddenRows.has(mt);
-      const updated = isCurrentlyHidden
-        ? stored.filter((r) => r !== mt)
-        : [...stored, mt];
-      localStorage.setItem("wc-hidden-rows", JSON.stringify(updated));
-    }
-  }, [hiddenRows]);
+  }, []);
 
   const handleAutofill = useCallback(async (day: number, mt: MealType) => {
     const key = `${day}-${mt}`;
@@ -152,10 +155,7 @@ export function WeeklyPlanGrid({
             return (
               <div key={i} className="text-center py-1">
                 <div className="text-xs font-semibold" style={{ color: "#EFE3CE" }}>{lbl.short}</div>
-                {lbl.sub
-                  ? <div className="text-xs" style={{ color: "#6B4E36" }}>{lbl.sub}</div>
-                  : <div className="text-xs" style={{ color: "#6B4E36" }}>Day {i + 1}</div>
-                }
+                {lbl.sub && <div className="text-xs" style={{ color: "#6B4E36" }}>{lbl.sub}</div>}
               </div>
             );
           })}
