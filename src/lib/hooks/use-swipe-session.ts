@@ -77,6 +77,7 @@ export function useSwipeSession(
   const startX = useRef(0);
   const startY = useRef(0);
   const moved = useRef(false);
+  const draggingRef = useRef(false);
   const cardRef = useRef<HTMLDivElement>(null);
   const [exiting, setExiting] = useState<"left" | "right" | null>(null);
 
@@ -89,16 +90,20 @@ export function useSwipeSession(
     setTimeout(() => {
       if (dir === "right") setLiked((prev) => [currentCard, ...prev]);
       else setSkipped((prev) => [currentCard, ...prev]);
-      setDeck((prev) => prev.slice(0, -1));
+      setDeck((prev) => {
+        const next = prev.slice(0, -1);
+        if (next.length === 0) setDone(true);
+        return next;
+      });
       setExiting(null);
       setDragX(0);
       setDragY(0);
-      if (deck.length === 1) setDone(true);
     }, 350);
-  }, [currentCard, deck.length, exiting]);
+  }, [currentCard, exiting]);
 
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     if (exiting) return;
+    draggingRef.current = true;
     setDragging(true);
     moved.current = false;
     startX.current = e.clientX;
@@ -107,16 +112,17 @@ export function useSwipeSession(
   }, [exiting]);
 
   const onPointerMove = useCallback((e: React.PointerEvent) => {
-    if (!dragging) return;
+    if (!draggingRef.current) return;
     const dx = e.clientX - startX.current;
     const dy = e.clientY - startY.current;
     if (Math.abs(dx) > TAP_THRESHOLD || Math.abs(dy) > TAP_THRESHOLD) moved.current = true;
     setDragX(dx);
     setDragY(dy);
-  }, [dragging]);
+  }, []);
 
   const onPointerUp = useCallback(() => {
-    if (!dragging) return;
+    if (!draggingRef.current) return;
+    draggingRef.current = false;
     setDragging(false);
     if (!moved.current && currentCard) {
       setPreviewRecipe(currentCard);
@@ -127,7 +133,7 @@ export function useSwipeSession(
     if (dragX > SWIPE_THRESHOLD) commitSwipe("right");
     else if (dragX < -SWIPE_THRESHOLD) commitSwipe("left");
     else { setDragX(0); setDragY(0); }
-  }, [dragging, currentCard, dragX, commitSwipe]);
+  }, [currentCard, dragX, commitSwipe]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -154,12 +160,14 @@ export function useSwipeSession(
   }, [dragX, dragY, exiting, dragging]);
 
   const toggleSave = useCallback(async (recipe: SwipeRecipe) => {
-    const alreadySaved = savedIds.has(recipe.id);
+    let alreadySaved = false;
     setSavedIds((prev) => {
+      alreadySaved = prev.has(recipe.id);
       const next = new Set(prev);
       alreadySaved ? next.delete(recipe.id) : next.add(recipe.id);
       return next;
     });
+    await new Promise<void>((resolve) => setTimeout(resolve, 0));
     if (alreadySaved) {
       await fetch(`/api/swipe/like?recipe_id=${recipe.id}`, { method: "DELETE" });
     } else {
@@ -169,7 +177,7 @@ export function useSwipeSession(
         body: JSON.stringify({ recipe_id: recipe.id }),
       });
     }
-  }, [savedIds]);
+  }, []);
 
   const handleRestart = useCallback(() => {
     const source = filteredRef.current.length > 0 ? filteredRef.current : recipes;
