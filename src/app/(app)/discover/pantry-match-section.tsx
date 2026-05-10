@@ -17,6 +17,15 @@ interface Props {
 }
 
 export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }: Props) {
+  const heading = (
+    <h2
+      className="text-sm font-bold mb-3"
+      style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}
+    >
+      🧺 Cook from Pantry
+    </h2>
+  );
+
   // No pantry items: show CTA
   if (pantryItemCount === 0) {
     return (
@@ -24,12 +33,7 @@ export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }
         className="px-4 py-5"
         style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
       >
-        <h2
-          className="text-sm font-bold mb-3"
-          style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}
-        >
-          🧺 Cook from Pantry
-        </h2>
+        {heading}
         <Link
           href="/pantry"
           className="flex items-center gap-3 px-4 py-3 rounded-xl"
@@ -58,12 +62,7 @@ export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }
       style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
     >
       <div className="flex items-center justify-between mb-3">
-        <h2
-          className="text-sm font-bold"
-          style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}
-        >
-          🧺 Cook from Pantry
-        </h2>
+        {heading}
         <Link href="/pantry" className="text-xs font-semibold" style={{ color: "var(--wc-accent-saffron, #F4A261)" }}>
           My Pantry →
         </Link>
@@ -96,7 +95,7 @@ export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }
       </div>
 
       {/* Top 2 match cards */}
-      {matches.length > 0 && (
+      {matches.length > 0 ? (
         <div className="grid grid-cols-2 gap-3">
           {matches.map((m) => (
             <Link
@@ -123,6 +122,10 @@ export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }
             </Link>
           ))}
         </div>
+      ) : (
+        <p className="text-xs text-center py-3" style={{ color: "var(--fg-secondary, #8A6A4A)" }}>
+          Add more pantry items to find recipe matches.
+        </p>
       )}
     </div>
   );
