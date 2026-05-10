@@ -2,6 +2,47 @@
 
 ## [Unreleased] — 2026-05-11
 
+### Pantry — Contrast & Accessibility Fixes
+
+**Fixed (Critical):**
+- Error text color: `#991B1B` (2:1 contrast) → `#F87171` (bright red, readable on dark)
+  - Form error message (line 635)
+  - Photo extraction error message (line 657)
+- Waste Not empty state text: `#166534` (2.6:1 contrast) → `#4ADE80` (bright green, readable on dark)
+
+**Fixed (Minor):**
+- Expiry dismiss button hover state: `hover:bg-orange-100` (cream) → `hover:bg-[#5A2800]` (dark brown, on-theme)
+
+**Files Changed:**
+- `src/app/(app)/pantry/pantry-client.tsx` — 4 lines
+
+**Commit:** `d7d7a14`
+
+---
+
+### Onboarding Wizard — Task 1: TypeScript Interfaces
+
+**Created:**
+- `src/components/onboarding/onboarding.types.ts` — Foundation type definitions for entire onboarding system
+
+**Exported Interfaces:**
+- `OnboardingTheme` — Visual theme configuration (motion, accent, colors, storage key)
+- `WizardStepProps` — Props contract for preference card step components
+- `OnboardingWizardStep` — Step definition (id, component, title, multiSelect option)
+- `OnboardingWaypoint` — Tour waypoint (type, target, positioning, completion triggers, celebration)
+- `OnboardingBeacon` — Beacon markers for contextual hints
+- `OnboardingConfig` — Master config object (theme, wizard steps, tour waypoints, beacons)
+- `OnboardingState` — Persisted onboarding state (mode, step tracking, answers, dismissals, completions)
+
+**Purpose:**
+- Foundation for 22-task onboarding wizard build (Duolingo-inspired)
+- All subsequent components depend on these type definitions
+- Supports multiple onboarding modes: wizard, tour, beacons, done
+
+**Commit:** `7678a27`
+
+---
+
 ### Pantry Client — Orphaned Fragment Removal
 
 **Fixed:**
