@@ -1,5 +1,33 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-11
+
+### Swipe UI — Task 2: Shared Swipe Card Components
+
+**Created:**
+- `src/components/swipe/swipe-cards.tsx` — pure presentational components for swipe interface
+
+**Exported Components:**
+- `RecipeCard` — Full-screen recipe card with LIKE/NOPE stamps, image overlay with gradient, difficulty badge, cuisine tags, dietary tags, time, calories info
+- `RecipePreviewSheet` — Bottom-sheet modal with full recipe details: expandable ingredients & instructions, nutrition macros, dietary tags, action buttons (Skip/Save/Like), link to full recipe page
+- `MatchScreen` — Results screen showing liked recipes in compact card list with save toggles, filtering, swipe-again button, navigation back to discover
+
+**Features:**
+- `DIFFICULTY_CONFIG` export for shared difficulty level styling (Easy/Medium/Challenging)
+- Consistent styling: warm palette (#C85A2F Ember, #F5EDE4 backgrounds, #3D2817 text)
+- LIKE stamp (green #4CAF50) and NOPE stamp (orange) with rotated animations
+- Expandable accordion sections for ingredients and instructions (useState toggles)
+- Conditional rendering of nutrition badges (protein/carbs/fat) and dietary tags
+- Responsive layout with image fallback emoji placeholders
+- Interactive buttons with proper event propagation handling (onPointerDown stops propagation)
+
+**Type Dependencies:**
+- `SwipeRecipe` type imported from `@/lib/hooks/use-swipe-session` (created in Task 1)
+
+**Commit:** `3f04f7f`
+
+---
+
 ## [Unreleased] — 2026-05-10
 
 ### Discover Feed — Task 3: TrendingSection Component
