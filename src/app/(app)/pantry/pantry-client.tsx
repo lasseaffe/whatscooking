@@ -535,8 +535,6 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
         </div>
       )}
 
-      <>
-
       {/* Header + controls */}
       <div className="flex items-start justify-between gap-4 mb-6">
         <div>
@@ -954,7 +952,6 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           </a>
         </div>
       )}
-      </>
       </>}
     </div>
   );
