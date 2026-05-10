@@ -10,10 +10,16 @@ export async function POST(req: Request, { params }: Params) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const { name, quantity } = await req.json();
+  const { name, quantity, category } = await req.json();
   const { data, error } = await supabase
     .from('event_shopping_items')
-    .insert({ party_id: id, name, quantity: quantity ?? null, created_by: user.id })
+    .insert({
+      party_id: id,
+      name,
+      quantity: quantity ?? null,
+      category: category ?? 'other',
+      created_by: user.id,
+    })
     .select().single();
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });

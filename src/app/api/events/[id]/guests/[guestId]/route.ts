@@ -5,17 +5,25 @@ export const dynamic = 'force-dynamic';
 type Params = { params: Promise<{ id: string; guestId: string }> };
 
 export async function PATCH(req: Request, { params }: Params) {
-  const { guestId } = await params;
+  const { id, guestId } = await params;
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const { rsvp } = await req.json();
+  const body = await req.json();
+
+  const { data: party } = await supabase.from('dinner_parties').select('host_id').eq('id', id).single();
+  const isHost = party?.host_id === user.id;
+
+  const patch: Record<string, string> = {};
+  if (body.rsvp) patch.rsvp = body.rsvp;
+  if (body.rsvp) patch.responded_at = new Date().toISOString();
+  if (isHost && body.role && ['editor', 'viewer'].includes(body.role)) patch.role = body.role;
+
   const { data, error } = await supabase
     .from('dinner_party_guests')
-    .update({ rsvp, responded_at: new Date().toISOString() })
+    .update(patch)
     .eq('id', guestId)
-    .eq('user_id', user.id)
     .select().single();
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });

@@ -10,10 +10,16 @@ export async function POST(req: Request, { params }: Params) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const { name, address, notes } = await req.json();
+  const { name, address, notes, location_type } = await req.json();
   const { data, error } = await supabase
     .from('event_location_options')
-    .insert({ party_id: id, name, address: address ?? null, notes: notes ?? null })
+    .insert({
+      party_id: id,
+      name,
+      address: address ?? null,
+      notes: notes ?? null,
+      location_type: location_type ?? null,
+    })
     .select().single();
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
