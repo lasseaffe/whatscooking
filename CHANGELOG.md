@@ -2,6 +2,21 @@
 
 ## [Unreleased] — 2026-05-11
 
+### Pantry Client — Orphaned Fragment Removal
+
+**Fixed:**
+- Removed unnecessary nested `<>...</>` fragment wrapper in pantry tab content (lines 538–957)
+- This was leftover from a previous refactor and served no functional purpose
+
+**Files Changed:**
+- `src/app/(app)/pantry/pantry-client.tsx` — removed 2 lines
+
+**Commit:** `db10392`
+
+---
+
+## [Unreleased] — 2026-05-11
+
 ### Discover Swipe — Accessibility & UX Fixes
 
 **Fixed:**
