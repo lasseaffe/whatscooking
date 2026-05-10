@@ -6,7 +6,7 @@ export default async function PantryPage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  const [{ data: items }, { data: categories }, { data: prefs }] = await Promise.all([
+  const [{ data: items }, { data: categories }] = await Promise.all([
     supabase
       .from("pantry_items")
       .select("*, category:ingredient_categories(id, name, emoji, color)")
@@ -16,18 +16,12 @@ export default async function PantryPage() {
       .from("ingredient_categories")
       .select("id, name, emoji, color")
       .order("name"),
-    supabase
-      .from("user_preferences")
-      .select("household_dietary_tags")
-      .eq("user_id", user!.id)
-      .maybeSingle(),
   ]);
 
   return (
     <PantryClient
       initialItems={(items ?? []) as PantryItem[]}
       categories={(categories ?? []) as IngredientCategory[]}
-      initialHouseholdTags={(prefs?.household_dietary_tags ?? []) as string[]}
       userId={user?.id ?? ""}
     />
   );

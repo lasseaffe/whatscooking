@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useRef, useEffect } from "react";
-import { Plus, X, Search, ShoppingBasket, Loader2, Camera, CheckSquare, Square, PackagePlus, Calendar, AlertTriangle, ChefHat, Bell, BellOff, Leaf, Users, Share2, Copy, Check, UserCircle2 } from "lucide-react";
+import { Plus, X, Search, ShoppingBasket, Loader2, Camera, CheckSquare, Square, PackagePlus, Calendar, AlertTriangle, ChefHat, Bell, BellOff, Leaf, Users } from "lucide-react";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
 import { CategoryBadge } from "@/components/category-badge";
 import { getIngredientEmoji } from "@/lib/ingredient-emoji";
@@ -131,11 +131,10 @@ function suggestExpiryDate(name: string): string {
 interface Props {
   initialItems: PantryItem[];
   categories: IngredientCategory[];
-  initialHouseholdTags: string[];
   userId: string;
 }
 
-export function PantryClient({ initialItems, categories, initialHouseholdTags, userId }: Props) {
+export function PantryClient({ initialItems, categories, userId }: Props) {
   const [items, setItems] = useState<PantryItem[]>(initialItems);
   const [input, setInput] = useState("");
   const [quantity, setQuantity] = useState("");
@@ -158,24 +157,10 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags, u
   const inputRef = useRef<HTMLInputElement>(null);
   const L = LABELS[lang];
   const [activeTab, setActiveTab] = useState<"pantry" | "leftovers" | "shared">("pantry");
-  // Household pantry view: "shared" | "mine" — shared is default
-  const [pantryView, setPantryView] = useState<"shared" | "mine">("shared");
-  const [showSharePanel, setShowSharePanel] = useState(false);
-  const [inviteCopied, setInviteCopied] = useState(false);
-  // Household items (stubbed — will come from DB once sharing is live)
-  const [householdItems] = useState<PantryItem[]>([]);
   const [editingExpiry, setEditingExpiry] = useState<string | null>(null);
   const [notifEnabled, setNotifEnabled] = useState<boolean>(() => {
     try { return JSON.parse(localStorage.getItem("wc_expiry_notif_v1") ?? "true"); } catch { return true; }
   });
-  const DIETARY_TAG_OPTIONS = [
-    "vegetarian", "vegan", "gluten-free", "dairy-free",
-    "keto", "paleo", "low-carb", "high-protein", "halal", "kosher", "nut-free",
-  ] as const;
-
-  const [householdTags, setHouseholdTags] = useState<string[]>(initialHouseholdTags);
-  const [savingTags, setSavingTags] = useState(false);
-
   // Waste Not
   const [wasteNotLoading, setWasteNotLoading] = useState(false);
   const [wasteNotRecipes, setWasteNotRecipes] = useState<{ title: string; reason: string }[] | null>(null);
@@ -186,24 +171,6 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags, u
   const rescueRequestRef = useRef<string | null>(null);
 
   const categoryMap = useMemo(() => new Map(categories.map((c) => [c.id, c])), [categories]);
-
-  async function handleToggleTag(tag: string) {
-    const prev = householdTags;
-    const next = householdTags.includes(tag)
-      ? householdTags.filter((t) => t !== tag)
-      : [...householdTags, tag];
-    setHouseholdTags(next);
-    setSavingTags(true);
-    const res = await fetch("/api/pantry/household-diets", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ tags: next }),
-    });
-    if (!res.ok) {
-      setHouseholdTags(prev);
-    }
-    setSavingTags(false);
-  }
 
   async function handleRescue(item: PantryItem) {
     if (rescueItemId === item.id) {
@@ -521,7 +488,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags, u
             boxShadow: activeTab === "leftovers" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
           }}
         >
-          <ChefHat className="w-4 h-4" /> Leftovers & Storage
+          <ChefHat className="w-4 h-4" /> Leftovers
         </button>
         <button
           onClick={() => setActiveTab("shared")}
@@ -532,7 +499,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags, u
             boxShadow: activeTab === "shared" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
           }}
         >
-          <Users className="w-4 h-4" /> Shared Pantry
+          <Users className="w-4 h-4" /> Shared
         </button>
       </div>
 
@@ -568,143 +535,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags, u
         </div>
       )}
 
-      {/* Pantry view toggle: Shared Household / My Pantry */}
-      <div className="flex gap-1 mb-4 p-1 rounded-2xl" style={{ background: "#F5E6D3" }}>
-        <button
-          onClick={() => setPantryView("shared")}
-          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
-          style={{
-            background: pantryView === "shared" ? "#fff" : "transparent",
-            color: pantryView === "shared" ? "#3D2817" : "#A69180",
-            boxShadow: pantryView === "shared" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
-          }}
-        >
-          <Users className="w-4 h-4" /> Household
-        </button>
-        <button
-          onClick={() => setPantryView("mine")}
-          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
-          style={{
-            background: pantryView === "mine" ? "#fff" : "transparent",
-            color: pantryView === "mine" ? "#3D2817" : "#A69180",
-            boxShadow: pantryView === "mine" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
-          }}
-        >
-          <UserCircle2 className="w-4 h-4" /> My Pantry
-        </button>
-      </div>
-
-      {/* Share button + description — shown on Household view */}
-      {pantryView === "shared" && (
-        <div className="mb-5 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.8)" }}>
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex items-start gap-3">
-              <div className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0"
-                style={{ background: "#FFF0E6" }}>
-                <Share2 className="w-4 h-4" style={{ color: "#C85A2F" }} />
-              </div>
-              <div>
-                <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>Share your household pantry</p>
-                <p className="text-xs mt-0.5 leading-relaxed" style={{ color: "#6B5B52" }}>
-                  Create a shared household list with your family and friends and change your grocery planning forever.
-                </p>
-              </div>
-            </div>
-            <button
-              onClick={() => setShowSharePanel((v) => !v)}
-              className="shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-xl font-semibold text-sm"
-              style={{ background: "#C85A2F", color: "#fff" }}
-            >
-              <Share2 className="w-4 h-4" />
-              Share
-            </button>
-          </div>
-
-          {/* Inline share panel */}
-          {showSharePanel && (
-            <div className="mt-4 pt-4 border-t" style={{ borderColor: "#F5E6D3" }}>
-              <p className="text-xs font-semibold mb-2" style={{ color: "#3D2817" }}>Invite your household</p>
-              <p className="text-xs mb-3" style={{ color: "#6B5B52" }}>
-                Send this link to family or housemates — they&apos;ll join your shared pantry automatically.
-              </p>
-              <div className="flex items-center gap-2">
-                <div className="flex-1 px-3 py-2 rounded-xl border text-xs font-mono truncate"
-                  style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#6B5B52" }}>
-                  whatscooking.app/join/household-invite-coming-soon
-                </div>
-                <button
-                  onClick={() => {
-                    navigator.clipboard?.writeText("whatscooking.app/join/household-invite-coming-soon");
-                    setInviteCopied(true);
-                    setTimeout(() => setInviteCopied(false), 2000);
-                  }}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl border text-xs font-semibold transition-colors"
-                  style={{ borderColor: "#E8D4C0", background: inviteCopied ? "#F0FDF4" : "#FAF7F2", color: inviteCopied ? "#16A34A" : "#3D2817" }}
-                >
-                  {inviteCopied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                  {inviteCopied ? "Copied!" : "Copy"}
-                </button>
-              </div>
-              <p className="text-xs mt-3 opacity-60" style={{ color: "#6B5B52" }}>
-                Household sharing is coming soon — sign up and you&apos;ll be first to try it.
-              </p>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Dietary profile */}
-      {pantryView === "shared" && (
-        <div className="mb-5 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.8)" }}>
-          <div className="flex items-center gap-2 mb-3">
-            <Leaf className="w-4 h-4" style={{ color: "#16A34A" }} />
-            <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>Your dietary needs</p>
-            {savingTags && <Loader2 className="w-3 h-3 animate-spin ml-auto" style={{ color: "#A69180" }} />}
-          </div>
-          <p className="text-xs mb-3" style={{ color: "#6B5B52" }}>
-            Tag your restrictions — the household view will flag recipes that don&apos;t work for you.
-          </p>
-          <div className="flex flex-wrap gap-1.5">
-            {DIETARY_TAG_OPTIONS.map((tag) => {
-              const active = householdTags.includes(tag);
-              return (
-                <button
-                  key={tag}
-                  type="button"
-                  onClick={() => handleToggleTag(tag)}
-                  className="px-3 py-1.5 rounded-full border text-xs font-medium transition-all"
-                  style={{
-                    borderColor: active ? "#C85A2F" : "#E8D4C0",
-                    background: active ? "#FFF0E6" : "#FAF7F2",
-                    color: active ? "#C85A2F" : "#6B5B52",
-                  }}
-                >
-                  {tag}
-                </button>
-              );
-            })}
-          </div>
-          {householdTags.length > 0 && (
-            <p className="text-xs mt-3 font-medium" style={{ color: "#C85A2F" }}>
-              Active: {householdTags.join(", ")}
-            </p>
-          )}
-        </div>
-      )}
-
-      {/* Household empty state */}
-      {pantryView === "shared" && householdItems.length === 0 && (
-        <div className="rounded-2xl border p-10 text-center mb-6" style={{ borderColor: "#F5E6D3", borderStyle: "dashed" }}>
-          <Users className="w-8 h-8 mx-auto mb-3" style={{ color: "#C85A2F", opacity: 0.35 }} />
-          <p className="text-sm font-medium mb-1" style={{ color: "#3D2817" }}>No household pantry yet</p>
-          <p className="text-xs" style={{ color: "#6B5B52" }}>
-            Invite family or housemates above to build a shared list together.
-          </p>
-        </div>
-      )}
-
-      {/* Show individual pantry content only on "mine" view */}
-      {pantryView === "shared" ? null : <>
+      <>
 
       {/* Header + controls */}
       <div className="flex items-start justify-between gap-4 mb-6">
@@ -1123,7 +954,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags, u
           </a>
         </div>
       )}
-      </>}
+      </>
       </>}
     </div>
   );
