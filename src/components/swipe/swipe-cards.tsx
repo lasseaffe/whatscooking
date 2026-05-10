@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import {
-  Heart, X, Clock, Flame, ExternalLink, Bookmark, BookmarkCheck,
+  Heart, X, Clock, Flame, ExternalLink, Info, Bookmark, BookmarkCheck,
   ChevronDown, ChevronUp, Zap, Mountain,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
@@ -61,7 +61,7 @@ export function RecipeCard({
           style={{ background: "rgba(0,0,0,0.35)" }}
           aria-label="View details"
         >
-          <ExternalLink className="w-4 h-4 text-white" />
+          <Info className="w-4 h-4 text-white" />
         </button>
         <button
           onPointerDown={(e) => e.stopPropagation()}
@@ -292,7 +292,7 @@ export function RecipePreviewSheet({
               style={{ background: "#F5EDE4", color: "#6B5B52" }}>
               <X className="w-4 h-4" /> Skip
             </button>
-            <button onClick={onToggleSave}
+            <button type="button" onClick={onToggleSave}
               className="flex items-center justify-center gap-1.5 px-4 py-3.5 rounded-2xl font-semibold text-sm hover:opacity-80"
               style={{ background: saved ? "#EEF2FA" : "#F5EDE4", color: saved ? "#2C4A8C" : "#6B5B52" }}>
               {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
@@ -321,7 +321,7 @@ export function MatchScreen({
   onRestart: () => void;
 }) {
   return (
-    <div className="px-4 py-8 max-w-lg mx-auto w-full" style={{ color: "#EFE3CE" }}>
+    <div className="px-4 py-8 max-w-lg mx-auto w-full min-h-screen" style={{ color: "#EFE3CE", background: "#1C1209" }}>
       <div className="text-center mb-8">
         <div className="text-5xl mb-3">🎉</div>
         <h1 className="text-2xl font-bold mb-1" style={{ color: "#EFE3CE" }}>Your Matches</h1>
