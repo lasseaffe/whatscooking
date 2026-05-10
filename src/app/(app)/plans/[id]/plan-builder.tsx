@@ -192,7 +192,7 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
       if (overId.startsWith("cell-")) {
         const withoutPrefix = overId.slice("cell-".length);
         const dashIdx = withoutPrefix.indexOf("-");
-        const dayNum = parseInt(withoutPrefix.slice(0, dashIdx));
+        const dayNum = parseInt(withoutPrefix.slice(0, dashIdx), 10);
         const mealType = withoutPrefix.slice(dashIdx + 1) as MealType;
         const recipe = active.data.current.recipe as AutocompleteResult;
         addEntry(dayNum, {
