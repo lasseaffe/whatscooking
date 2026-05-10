@@ -28,7 +28,7 @@ export function EventHub({ initialData, eventId, userId }: {
   }
 
   const isHost = data.userRole === 'host';
-  const canInteract = data.userRole === 'host' || data.userRole === 'accepted';
+  const canInteract = isHost || data.guestRole === 'editor';
 
   return (
     <div className="min-h-screen pb-24" style={{ background: '#0D0907', color: '#EFE3CE' }}>
@@ -61,7 +61,7 @@ export function EventHub({ initialData, eventId, userId }: {
 
       <div className="max-w-2xl mx-auto px-4 pt-6">
         {activeTab === 'Overview'  && <OverviewTab  data={data} isHost={isHost} eventId={eventId} onReload={reload} />}
-        {activeTab === 'Guests'    && <GuestsTab    data={data} isHost={isHost} eventId={eventId} userId={userId} onReload={reload} />}
+        {activeTab === 'Guests'    && <GuestsTab    data={data} isHost={isHost} eventId={eventId} userId={userId} guestRole={data.guestRole} onReload={reload} />}
         {activeTab === 'Shopping'  && <ShoppingTab  data={data} canInteract={canInteract} eventId={eventId} userId={userId} onReload={reload} />}
         {activeTab === 'Location'  && <LocationTab  data={data} isHost={isHost} canInteract={canInteract} eventId={eventId} onReload={reload} />}
         {activeTab === 'Playlist'  && <PlaylistTab  data={data} canInteract={canInteract} eventId={eventId} onReload={reload} />}

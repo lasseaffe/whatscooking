@@ -19,11 +19,14 @@ export type EventTimelineItem = {
   sort_order: number;
 };
 
+export type ShoppingCategory = 'ingredient' | 'beverage' | 'equipment' | 'other';
+
 export type EventShoppingItem = {
   id: string;
   party_id: string;
   name: string;
   quantity: string | null;
+  category: ShoppingCategory;
   assigned_to: string | null;
   checked: boolean;
   checked_by: string | null;
@@ -32,12 +35,15 @@ export type EventShoppingItem = {
   created_at: string;
 };
 
+export type LocationType = 'private' | 'restaurant' | 'public' | 'other';
+
 export type EventLocationOption = {
   id: string;
   party_id: string;
   name: string;
   address: string | null;
   notes: string | null;
+  location_type: LocationType | null;
   is_winner: boolean;
   vote_count?: number;
   user_voted?: boolean;
@@ -56,6 +62,8 @@ export type EventPlaylistTrack = {
   submitter_name?: string;
 };
 
+export type GuestRole = 'editor' | 'viewer';
+
 export type DinnerPartyGuest = {
   id: string;
   party_id: string;
@@ -63,6 +71,7 @@ export type DinnerPartyGuest = {
   email: string | null;
   display_name: string | null;
   rsvp: 'invited' | 'accepted' | 'declined' | 'maybe';
+  role: GuestRole;
   invited_at: string;
   responded_at: string | null;
 };
@@ -81,6 +90,7 @@ export type EventDetail = {
   avatar_url: string | null;
   avatar_emoji: string | null;
   spotify_playlist_id: string | null;
+  invite_token: string | null;
   created_at: string;
   updated_at: string;
 };
@@ -93,5 +103,6 @@ export type FullEventData = {
   shoppingItems: EventShoppingItem[];
   locationOptions: EventLocationOption[];
   tracks: EventPlaylistTrack[];
-  userRole: 'host' | 'accepted' | 'invited' | 'maybe';
+  userRole: 'host' | 'accepted' | 'invited' | 'maybe' | 'none';
+  guestRole: GuestRole | null;
 };

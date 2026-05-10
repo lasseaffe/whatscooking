@@ -14,7 +14,7 @@ export async function GET(_req: Request, { params }: Params) {
 
   const { data: party } = await supabase
     .from('dinner_parties')
-    .select('id,host_id,title,description,scheduled_at,location,theme,status,cover_color,avatar_url,avatar_emoji,spotify_playlist_id,created_at,updated_at')
+    .select('id,host_id,title,description,scheduled_at,location,theme,status,cover_color,avatar_url,avatar_emoji,spotify_playlist_id,invite_token,created_at,updated_at')
     .eq('id', id)
     .single();
 
@@ -60,6 +60,10 @@ export async function GET(_req: Request, { params }: Params) {
     : guestRecord?.rsvp === 'maybe' ? 'maybe'
     : 'invited';
 
+  const guestRole: 'editor' | 'viewer' | null = party.host_id === user.id
+    ? null
+    : (guestRecord?.role as 'editor' | 'viewer' | undefined) ?? 'viewer';
+
   return NextResponse.json({
     party,
     guests: guests ?? [],
@@ -69,6 +73,7 @@ export async function GET(_req: Request, { params }: Params) {
     locationOptions: enrichedOptions,
     tracks: tracks ?? [],
     userRole,
+    guestRole,
   });
 }
 
