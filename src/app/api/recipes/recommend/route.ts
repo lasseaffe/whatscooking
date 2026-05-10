@@ -5,6 +5,9 @@ import { createClient } from "@/lib/supabase/server";
 // Returns up to 10 scored recipes: dietary fit + saved boost + deduplication.
 export async function GET(req: NextRequest) {
   const planId = req.nextUrl.searchParams.get("plan_id");
+  // day_number and meal_type are accepted but not yet used for filtering
+  // const dayNumber = req.nextUrl.searchParams.get("day_number");
+  // const mealType = req.nextUrl.searchParams.get("meal_type");
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
@@ -14,7 +17,15 @@ export async function GET(req: NextRequest) {
       .from("recipes")
       .select("id, title, image_url, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
       .limit(10);
-    return NextResponse.json(data ?? []);
+    let fallbackSavedIds = new Set<string>();
+    if (user) {
+      const { data: saved } = await supabase
+        .from("user_saved_recipes")
+        .select("recipe_id")
+        .eq("user_id", user.id);
+      fallbackSavedIds = new Set((saved ?? []).map((r: { recipe_id: string }) => r.recipe_id));
+    }
+    return NextResponse.json((data ?? []).map((r) => ({ ...r, is_saved: fallbackSavedIds.has(r.id) })));
   }
 
   // Fetch plan context and existing entries in parallel

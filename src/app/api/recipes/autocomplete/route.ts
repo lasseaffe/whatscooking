@@ -29,6 +29,8 @@ export async function GET(req: NextRequest) {
     savedIds = new Set((saved ?? []).map((r) => r.recipe_id));
   }
 
-  const results = (data ?? []).map((r) => ({ ...r, is_saved: savedIds.has(r.id) }));
+  const results = (data ?? []).map((r) =>
+    includeSaved && user ? { ...r, is_saved: savedIds.has(r.id) } : r
+  );
   return NextResponse.json(results);
 }
