@@ -15,20 +15,24 @@ interface Report {
   created_at: string;
   resolved_at: string | null;
   resolved_by: string | null;
+  fix_file_path: string | null;
+  fix_status: "applied" | "pending" | "pending_review" | null;
 }
 
 const ISSUE_ICONS: Record<string, React.ReactNode> = {
-  faulty_image: <ImageOff style={{ width: 14, height: 14 }} />,
-  wrong_ingredients: <FileQuestion style={{ width: 14, height: 14 }} />,
+  faulty_image:       <ImageOff style={{ width: 14, height: 14 }} />,
+  wrong_ingredients:  <FileQuestion style={{ width: 14, height: 14 }} />,
   wrong_instructions: <FileQuestion style={{ width: 14, height: 14 }} />,
-  other: <Bug style={{ width: 14, height: 14 }} />,
+  wrong_info:         <FileQuestion style={{ width: 14, height: 14 }} />,
+  other:              <Bug style={{ width: 14, height: 14 }} />,
 };
 
 const ISSUE_LABEL: Record<string, string> = {
-  faulty_image: "Faulty Image",
-  wrong_ingredients: "Wrong Ingredients",
+  faulty_image:       "Faulty Image",
+  wrong_ingredients:  "Wrong Ingredients",
   wrong_instructions: "Wrong Instructions",
-  other: "Other",
+  wrong_info:         "Wrong Title / Info",
+  other:              "Other",
 };
 
 function issueLabel(type: string | null): string {
@@ -45,6 +49,19 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
+  const [prefilled, setPrefilled] = useState(false);
+
+  async function loadPendingDescription() {
+    if (!report.recipe_id || report.fix_status !== "pending_review" || prefilled) return;
+    try {
+      const res = await fetch(`/api/admin/fix-description?recipeId=${report.recipe_id}`);
+      if (res.ok) {
+        const { content } = await res.json();
+        setText(content);
+        setPrefilled(true);
+      }
+    } catch { /* ignore */ }
+  }
 
   async function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -64,6 +81,25 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
       else setMsg("Failed");
     };
     reader.readAsDataURL(file);
+  }
+
+  async function applyUserImage() {
+    if (!report.recipe_id || !report.fix_file_path) return;
+    setBusy(true);
+    setMsg(null);
+    const res = await fetch("/api/admin/apply-fix", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        recipeId: report.recipe_id,
+        reportId: report.id,
+        type: "image",
+        content: `already-applied:${report.fix_file_path}`,
+      }),
+    });
+    setBusy(false);
+    if (res.ok) { setMsg("Marked as applied"); onResolved(report.id); }
+    else setMsg("Failed");
   }
 
   async function handleInstructionsSubmit() {
@@ -100,11 +136,14 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
     );
   }
 
+  const hasPendingReview = report.fix_status === "pending_review" && !!report.fix_file_path;
+  const hasApplied = report.fix_status === "applied";
+
   return (
     <div>
       <button
         type="button"
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => { setOpen((v) => !v); if (!open) loadPendingDescription(); }}
         className="text-xs px-3 py-1.5 rounded-full font-semibold transition-all"
         style={{ background: "rgba(200,82,42,0.15)", color: "#C8522A", border: "1px solid rgba(200,82,42,0.3)" }}
       >
@@ -141,12 +180,33 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
           </div>
 
           {mode === "image" ? (
-            <label className="block cursor-pointer">
-              <span className="text-xs" style={{ color: "#8A6A4A" }}>Upload replacement image (.jpg / .png)</span>
-              <input type="file" accept="image/*" onChange={handleImageUpload} disabled={busy} className="mt-1 block text-xs w-full" />
-            </label>
+            <div className="space-y-2">
+              {hasApplied && (
+                <div className="rounded-lg p-2 text-xs" style={{ background: "rgba(0,180,80,0.1)", color: "#4CAF50" }}>
+                  ✓ User image already applied to disk. Click below to mark resolved in Supabase.
+                  <button
+                    type="button"
+                    onClick={applyUserImage}
+                    disabled={busy}
+                    className="block mt-1 px-3 py-1 rounded-full text-xs font-semibold"
+                    style={{ background: "rgba(0,180,80,0.2)", color: "#4CAF50", border: "1px solid rgba(0,180,80,0.3)" }}
+                  >
+                    {busy ? "Saving..." : "Mark Applied"}
+                  </button>
+                </div>
+              )}
+              <label className="block cursor-pointer">
+                <span className="text-xs" style={{ color: "#8A6A4A" }}>Upload replacement image (.jpg / .png)</span>
+                <input type="file" accept="image/*" onChange={handleImageUpload} disabled={busy} className="mt-1 block text-xs w-full" />
+              </label>
+            </div>
           ) : (
             <div>
+              {hasPendingReview && !prefilled && (
+                <p className="text-xs mb-1" style={{ color: "#8A6A4A" }}>
+                  Loading user-submitted correction…
+                </p>
+              )}
               <textarea
                 value={text}
                 onChange={(e) => setText(e.target.value)}
@@ -187,15 +247,18 @@ export function ReportsClient({ reports }: { reports: Report[] }) {
     return ["all", ...Array.from(types)];
   }, [reports]);
 
+  const [userFixOnly, setUserFixOnly] = useState(false);
+
   const grouped = useMemo(() => {
-    const filtered = filterType === "all" ? reports : reports.filter((r) => (r.issue_type ?? "other") === filterType);
+    let filtered = filterType === "all" ? reports : reports.filter((r) => (r.issue_type ?? "other") === filterType);
+    if (userFixOnly) filtered = filtered.filter((r) => !!r.fix_file_path);
     const map: Record<string, Report[]> = {};
     for (const r of filtered) {
       const key = r.issue_type ?? "other";
       (map[key] ??= []).push(r);
     }
     return map;
-  }, [reports, filterType]);
+  }, [reports, filterType, userFixOnly]);
 
   return (
     <div
@@ -241,6 +304,19 @@ export function ReportsClient({ reports }: { reports: Report[] }) {
             {type === "all" ? `All (${reports.length})` : `${issueLabel(type)} (${reports.filter((r) => (r.issue_type ?? "other") === type).length})`}
           </button>
         ))}
+        <button
+          key="user-fix"
+          type="button"
+          onClick={() => setUserFixOnly((v) => !v)}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all"
+          style={{
+            background: userFixOnly ? "rgba(200,82,42,0.2)" : "rgba(42,24,8,0.5)",
+            color: userFixOnly ? "#C8522A" : "#8A6A4A",
+            border: userFixOnly ? "1px solid rgba(200,82,42,0.4)" : "1px solid rgba(58,36,22,0.5)",
+          }}
+        >
+          📎 User Submitted ({reports.filter((r) => !!r.fix_file_path).length})
+        </button>
       </div>
 
       {/* Grouped sections */}
@@ -317,11 +393,19 @@ export function ReportsClient({ reports }: { reports: Report[] }) {
                         {r.source_url}
                       </a>
                     )}
-                    <div className="mt-3 flex items-center justify-between">
+                    <div className="mt-3 flex items-center justify-between gap-2 flex-wrap">
                       <FixPanel
                         report={{ ...r, resolved_at: resolvedIds.has(r.id) ? new Date().toISOString() : r.resolved_at ?? null, resolved_by: r.resolved_by ?? null }}
                         onResolved={handleResolved}
                       />
+                      {r.fix_file_path && (
+                        <span
+                          className="text-xs px-2 py-0.5 rounded-full font-semibold"
+                          style={{ background: "rgba(200,82,42,0.12)", color: "#C8522A", border: "1px solid rgba(200,82,42,0.25)" }}
+                        >
+                          {r.fix_status === "applied" ? "✓ User image applied" : "📎 User fix attached"}
+                        </span>
+                      )}
                     </div>
                   </div>
                 ))}
