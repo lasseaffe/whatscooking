@@ -1,24 +1,13 @@
 "use client";
 
-import { SwipeSection } from "./swipe-section";
+import { HeroSwiper } from "./hero-swiper";
+import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
 import { TrendingSection } from "./trending-section";
 import { PantryMatchSection } from "./pantry-match-section";
 import { QuickEasySection } from "./quick-easy-section";
 import { AllRecipesClient } from "../recipes/all-recipes-client";
 import Link from "next/link";
 import type { CuisineInfo } from "@/lib/cuisines";
-
-interface SwipeRecipe {
-  id: string;
-  title: string;
-  description?: string | null;
-  image_url?: string | null;
-  cuisine_type?: string | null;
-  dietary_tags?: string[] | null;
-  prep_time_minutes?: number | null;
-  cook_time_minutes?: number | null;
-  calories?: number | null;
-}
 
 interface TrendingRecipe {
   id: string;
@@ -96,23 +85,7 @@ export function DiscoverFeedClient({
     <div className="min-h-screen" style={{ background: "var(--bg-base, #1C1209)" }}>
 
       {/* ── 1. Meal Swipe ── */}
-      <div style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
-        <div className="px-4 pt-5 pb-2">
-          <span
-            className="text-xs font-bold tracking-widest uppercase"
-            style={{ color: "var(--wc-accent-saffron, #F4A261)", opacity: 0.7 }}
-          >
-            Today&apos;s Picks
-          </span>
-          <h1
-            className="text-xl font-bold"
-            style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}
-          >
-            Meal Swipe
-          </h1>
-        </div>
-        <SwipeSection recipes={swipeRecipes} />
-      </div>
+      <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
 
       {/* ── 2. Trending Now ── */}
       <TrendingSection recipes={trendingRecipes} totalCount={trendingTotal} />
