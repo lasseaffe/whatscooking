@@ -9,6 +9,15 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
+import {
+  DndContext,
+  PointerSensor,
+  useSensor,
+  useSensors,
+  type DragEndEvent,
+} from "@dnd-kit/core";
+import { WeeklyPlanGrid, type GridEntry, type AutofillSuggestion } from "@/components/plans/WeeklyPlanGrid";
+import { RecipeBank } from "@/components/plans/RecipeBank";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -70,14 +79,26 @@ interface RecipeDetail {
   fat_g?: number | null;
 }
 
+// Type alias for autocomplete result used in drag-drop from RecipeBank
+interface AutocompleteResult {
+  id: string;
+  title: string;
+  calories?: number | null;
+  protein_g?: number | null;
+  carbs_g?: number | null;
+  fat_g?: number | null;
+}
+
 interface Props {
   planId: string;
   planTitle: string;
   durationDays: number;
+  weekStart?: string | null;
   dietaryFilters: string[];
   nutritionalGoals: Record<string, number>;
   initialEntries: BuilderEntry[];
   isPublic?: boolean;
+  viewMode?: "grid" | "list";
 }
 
 // ── Earthy meal type config ───────────────────────────────────────────────────
@@ -117,7 +138,7 @@ function getIngredientEmoji(name: string): string {
 
 // ── Main component ────────────────────────────────────────────────────────────
 
-export function PlanBuilder({ planId, planTitle, durationDays, dietaryFilters, nutritionalGoals, initialEntries, isPublic: initialIsPublic }: Props) {
+export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietaryFilters, nutritionalGoals, initialEntries, isPublic: initialIsPublic, viewMode = "list" }: Props) {
   const [days, setDays] = useState<DayData[]>(() => {
     const dayMap = new Map<number, BuilderEntry[]>();
     for (let d = 1; d <= durationDays; d++) dayMap.set(d, []);
@@ -157,6 +178,38 @@ export function PlanBuilder({ planId, planTitle, durationDays, dietaryFilters, n
   const shareUrl = typeof window !== "undefined"
     ? `${window.location.origin}/plans/share/${planId}`
     : `/plans/share/${planId}`;
+
+  // ── DnD sensors ───────────────────────────────────────────────────────────
+
+  const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 5 } }));
+
+  function handleDragEnd(event: DragEndEvent) {
+    const { active, over } = event;
+    if (!over) return;
+
+    if (active.data.current?.type === "recipe-bank") {
+      const overId = String(over.id);
+      if (overId.startsWith("cell-")) {
+        const withoutPrefix = overId.slice("cell-".length);
+        const dashIdx = withoutPrefix.indexOf("-");
+        const dayNum = parseInt(withoutPrefix.slice(0, dashIdx));
+        const mealType = withoutPrefix.slice(dashIdx + 1) as MealType;
+        const recipe = active.data.current.recipe as AutocompleteResult;
+        addEntry(dayNum, {
+          recipe_id: recipe.id,
+          recipe_title: recipe.title,
+          meal_type: mealType,
+          calories: recipe.calories ?? null,
+          protein_g: recipe.protein_g ?? null,
+          carbs_g: recipe.carbs_g ?? null,
+          fat_g: recipe.fat_g ?? null,
+          from_database: true,
+          isEditing: false,
+        });
+      }
+      return;
+    }
+  }
 
   // ── Track dirtiness ───────────────────────────────────────────────────────
 
@@ -352,7 +405,77 @@ export function PlanBuilder({ planId, planTitle, durationDays, dietaryFilters, n
   // ── Render ────────────────────────────────────────────────────────────────
 
   return (
-    <div className="flex flex-col gap-5">
+    <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
+    <div className="flex gap-5">
+
+      {/* ── Main content area ───────────────────────────────────────────── */}
+      <div className="flex flex-col gap-5 flex-1 min-w-0">
+
+      {/* ── Grid view ───────────────────────────────────────────────────── */}
+      {viewMode === "grid" && (
+        <WeeklyPlanGrid
+          entries={days.flatMap((d) =>
+            d.entries.map((e) => ({
+              clientId: e.clientId,
+              day_number: e.day_number,
+              meal_type: e.meal_type as import("@/components/plans/WeeklyPlanGrid").MealType,
+              recipe_title: e.recipe_title,
+              image_url: null,
+              calories: e.calories ?? null,
+              protein_g: e.protein_g ?? null,
+              carbs_g: e.carbs_g ?? null,
+              fat_g: e.fat_g ?? null,
+            }))
+          )}
+          durationDays={days.length}
+          weekStart={weekStart}
+          nutritionalGoals={nutritionalGoals}
+          onRemove={(clientId) => {
+            setDays((prev) => prev.map((d) => ({ ...d, entries: d.entries.filter((e) => e.clientId !== clientId) })));
+            markDirty();
+          }}
+          onAddDay={() => {
+            const nextDay = days.length + 1;
+            setDays((prev) => [...prev, { day_number: nextDay, entries: [], expanded: true, suggesting: false, suggestionPrompt: "" }]);
+            markDirty();
+          }}
+          onAutofill={async (day, mealType) => {
+            const existing_titles = days.flatMap((d) => d.entries.map((e) => e.recipe_title));
+            const res = await fetch(`/api/plans/${planId}/suggest`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                day_number: day,
+                meal_type: mealType,
+                existing_titles,
+                all_plan_titles: existing_titles,
+                dietary_filters: dietaryFilters,
+              }),
+            });
+            if (!res.ok) return [];
+            const data = await res.json();
+            return (Array.isArray(data) ? data : []).map((s: Record<string, unknown>) => ({
+              title: String(s.title ?? ""),
+              description: s.description as string | undefined,
+              calories: s.calories as number | undefined,
+              tag: Array.isArray(s.tags) ? (s.tags[0] as string) : undefined,
+            } satisfies AutofillSuggestion));
+          }}
+          onAutofillAccept={(day, mealType, suggestion) => {
+            addEntry(day, {
+              recipe_title: suggestion.title,
+              meal_type: mealType,
+              calories: suggestion.calories ?? null,
+              isEditing: false,
+            });
+            markDirty();
+          }}
+          onOpenRecipeBank={() => {/* sidebar always visible */}}
+        />
+      )}
+
+      {/* ── List view (action bar + day cards) ──────────────────────────── */}
+      {viewMode !== "grid" && <>
 
       {/* ── Action bar ──────────────────────────────────────────────────── */}
       <div className="flex items-center gap-2 flex-wrap">
@@ -445,7 +568,19 @@ export function PlanBuilder({ planId, planTitle, durationDays, dietaryFilters, n
           onClose={() => setShowShareModal(false)}
         />
       )}
+      </>}
+      </div>{/* end main content area */}
+
+      {/* ── Recipe bank sidebar ──────────────────────────────────────────── */}
+      <div className="hidden lg:block w-72 shrink-0">
+        <RecipeBank
+          planId={planId}
+          dietaryFilters={dietaryFilters as string[]}
+        />
+      </div>
+
     </div>
+    </DndContext>
   );
 }
 

@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { LayoutGrid, List } from "lucide-react";
 import { PlanBuilder, type BuilderEntry } from "./plan-builder";
-import { PlanGrid } from "./plan-grid";
 
 interface PlanMeta {
   id: string;
@@ -59,26 +58,16 @@ export function PlanPageClient({ plan, initialEntries }: Props) {
         </div>
       </div>
 
-      {viewMode === "grid" ? (
-        <PlanGrid
-          planId={plan.id}
-          planTitle={plan.title}
-          durationDays={plan.duration_days ?? 7}
-          weekStart={plan.week_start}
-          dietaryFilters={plan.dietary_filters ?? []}
-          nutritionalGoals={plan.nutritional_goals ?? {}}
-          initialEntries={initialEntries}
-        />
-      ) : (
-        <PlanBuilder
-          planId={plan.id}
-          planTitle={plan.title}
-          durationDays={plan.duration_days ?? 7}
-          dietaryFilters={plan.dietary_filters ?? []}
-          nutritionalGoals={plan.nutritional_goals ?? {}}
-          initialEntries={initialEntries}
-        />
-      )}
+      <PlanBuilder
+        planId={plan.id}
+        planTitle={plan.title}
+        durationDays={plan.duration_days ?? 7}
+        weekStart={plan.week_start}
+        dietaryFilters={plan.dietary_filters ?? []}
+        nutritionalGoals={plan.nutritional_goals ?? {}}
+        initialEntries={initialEntries}
+        viewMode={viewMode}
+      />
     </div>
   );
 }
