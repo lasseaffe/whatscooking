@@ -28,6 +28,7 @@ export default async function PantryPage() {
       initialItems={(items ?? []) as PantryItem[]}
       categories={(categories ?? []) as IngredientCategory[]}
       initialHouseholdTags={(prefs?.household_dietary_tags ?? []) as string[]}
+      userId={user?.id ?? ""}
     />
   );
 }
