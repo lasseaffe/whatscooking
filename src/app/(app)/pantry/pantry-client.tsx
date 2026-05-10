@@ -527,7 +527,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
               setNotifEnabled(updated);
               try { localStorage.setItem("wc_expiry_notif_v1", JSON.stringify(updated)); } catch {}
             }}
-            className="shrink-0 p-1.5 rounded-lg transition-colors hover:bg-orange-100"
+            className="shrink-0 p-1.5 rounded-lg transition-colors hover:bg-[#5A2800]"
             title="Toggle expiry alerts"
           >
             {notifEnabled ? <Bell className="w-4 h-4" style={{ color: "#C2410C" }} /> : <BellOff className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
@@ -632,7 +632,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           </button>
         </div>
 
-        {error && <p className="text-xs mt-1" style={{ color: "#991B1B" }}>{error}</p>}
+        {error && <p className="text-xs mt-1" style={{ color: "#F87171" }}>{error}</p>}
         <p className="text-xs mt-2" style={{ color: "#8A6A4A" }}>{L.aiNote}</p>
 
         {/* Photo / receipt extraction */}
@@ -654,7 +654,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           </p>
 
           {photoError && (
-            <p className="text-xs mt-2" style={{ color: "#991B1B" }}>{photoError}</p>
+            <p className="text-xs mt-2" style={{ color: "#F87171" }}>{photoError}</p>
           )}
 
           {/* Extracted ingredients confirmation */}
@@ -895,7 +895,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
               {wasteNotLoading ? "Finding recipes…" : "Find waste-not recipes"}
             </button>
             {wasteNotRecipes && wasteNotRecipes.length === 0 && (
-              <p className="text-xs mt-3" style={{ color: "#166534" }}>No recipes found — try adding more ingredients.</p>
+              <p className="text-xs mt-3" style={{ color: "#4ADE80" }}>No recipes found — try adding more ingredients.</p>
             )}
             {wasteNotRecipes && wasteNotRecipes.length > 0 && (
               <div className="mt-3 flex flex-col gap-2">
