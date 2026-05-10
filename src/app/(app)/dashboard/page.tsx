@@ -8,6 +8,7 @@ import type { MealPlan } from "@/lib/types";
 import { DirtySodaSlideshow, type SodaSlide } from "./dirty-soda-slideshow";
 import { DashboardScramble } from "./dashboard-scramble";
 import { ScrollReveal } from "@/components/scroll-reveal";
+import DashboardOnboardingGate from "@/components/onboarding/DashboardOnboardingGate";
 
 type FeaturedRecipe = {
   id: string;
@@ -81,6 +82,7 @@ export default async function DashboardPage() {
 
   return (
     <div className="max-w-5xl mx-auto space-y-10">
+      <DashboardOnboardingGate />
 
       {/* ── Video Hero ── */}
       <div className="relative overflow-hidden" style={{ minHeight: "38vh" }}>
