@@ -39,7 +39,7 @@ async function writeQueue(queue: QueueEntry[]): Promise<void> {
 export async function POST(req: NextRequest) {
   const supabase = getSupabase();
   const auth = req.headers.get("authorization") ?? "";
-  if (MONITOR_SECRET && auth !== `Bearer ${MONITOR_SECRET}`) {
+  if (!MONITOR_SECRET || auth !== `Bearer ${MONITOR_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
