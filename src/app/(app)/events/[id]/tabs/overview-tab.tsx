@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Calendar, MapPin, Users, Clock, ChefHat, Edit2, Check, X } from 'lucide-react';
 import type { FullEventData } from '@/lib/event-types';
 
@@ -21,6 +21,8 @@ export function OverviewTab({ data, isHost, eventId, onReload }: {
   const [location, setLocation] = useState(party.location ?? '');
   const [description, setDescription] = useState(party.description ?? '');
   const [saving, setSaving] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   async function handleSave() {
     setSaving(true);
@@ -31,6 +33,17 @@ export function OverviewTab({ data, isHost, eventId, onReload }: {
     });
     setSaving(false);
     setEditing(false);
+    onReload();
+  }
+
+  async function handleAvatarUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    const fd = new FormData();
+    fd.append('file', file);
+    await fetch(`/api/events/${eventId}/avatar`, { method: 'POST', body: fd });
+    setUploading(false);
     onReload();
   }
 
@@ -46,11 +59,27 @@ export function OverviewTab({ data, isHost, eventId, onReload }: {
       {/* Event card */}
       <div className="rounded-2xl p-5 border" style={{ background: 'rgba(255,255,255,0.03)', borderColor: 'rgba(255,255,255,0.07)' }}>
         <div className="flex items-start justify-between gap-3 mb-4">
-          <div className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl shrink-0"
-            style={{ background: 'rgba(200,82,42,0.15)' }}>
+          <div
+            className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl shrink-0 relative overflow-hidden"
+            style={{ background: 'rgba(200,82,42,0.15)', cursor: isHost ? 'pointer' : 'default' }}
+            onClick={() => isHost && fileInputRef.current?.click()}
+          >
             {party.avatar_url
               ? <img src={party.avatar_url} className="w-14 h-14 rounded-xl object-cover" alt="" />
               : (party.avatar_emoji ?? '🍽️')}
+            {isHost && (
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity rounded-xl"
+                style={{ background: 'rgba(0,0,0,0.5)', fontSize: '11px', color: '#fff' }}>
+                {uploading ? '…' : '📷'}
+              </div>
+            )}
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              className="hidden"
+              onChange={handleAvatarUpload}
+            />
           </div>
           {isHost && !editing && (
             <button onClick={() => setEditing(true)}

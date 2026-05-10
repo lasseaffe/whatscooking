@@ -4,6 +4,20 @@ import { useState } from 'react';
 import { MapPin, Plus, ThumbsUp, Trophy, Trash2 } from 'lucide-react';
 import type { FullEventData } from '@/lib/event-types';
 
+const LOCATION_TYPE_OPTIONS = [
+  { value: 'private',    label: '🏠 Private'    },
+  { value: 'restaurant', label: '🍽️ Restaurant' },
+  { value: 'public',     label: '🌳 Public'     },
+  { value: 'other',      label: '📍 Other'      },
+] as const;
+
+type LocationTypeValue = 'private' | 'restaurant' | 'public' | 'other';
+
+function locationTypeLabel(t: string | null | undefined) {
+  if (!t) return null;
+  return LOCATION_TYPE_OPTIONS.find(o => o.value === t)?.label ?? null;
+}
+
 export function LocationTab({ data, isHost, canInteract, eventId, onReload }: {
   data: FullEventData;
   isHost: boolean;
@@ -15,6 +29,7 @@ export function LocationTab({ data, isHost, canInteract, eventId, onReload }: {
   const [name, setName] = useState('');
   const [address, setAddress] = useState('');
   const [notes, setNotes] = useState('');
+  const [locationType, setLocationType] = useState<LocationTypeValue | null>(null);
   const [adding, setAdding] = useState(false);
   const [showForm, setShowForm] = useState(false);
 
@@ -24,9 +39,14 @@ export function LocationTab({ data, isHost, canInteract, eventId, onReload }: {
     await fetch(`/api/events/${eventId}/locations`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: name.trim(), address: address.trim() || null, notes: notes.trim() || null }),
+      body: JSON.stringify({
+        name: name.trim(),
+        address: address.trim() || null,
+        notes: notes.trim() || null,
+        location_type: locationType,
+      }),
     });
-    setName(''); setAddress(''); setNotes('');
+    setName(''); setAddress(''); setNotes(''); setLocationType(null);
     setAdding(false);
     setShowForm(false);
     onReload();
@@ -68,6 +88,24 @@ export function LocationTab({ data, isHost, canInteract, eventId, onReload }: {
       {showForm && (
         <div className="rounded-2xl p-4 border flex flex-col gap-3"
           style={{ background: 'rgba(255,255,255,0.03)', borderColor: 'rgba(255,255,255,0.07)' }}>
+          {/* Location type selector */}
+          <div className="flex gap-2 flex-wrap">
+            {LOCATION_TYPE_OPTIONS.map(opt => (
+              <button
+                key={opt.value}
+                type="button"
+                onClick={() => setLocationType(opt.value)}
+                className="px-3 py-1.5 rounded-xl text-xs font-medium"
+                style={{
+                  background: locationType === opt.value ? 'rgba(200,82,42,0.25)' : 'rgba(255,255,255,0.06)',
+                  color: locationType === opt.value ? '#C8522A' : 'rgba(239,227,206,0.5)',
+                  border: `1px solid ${locationType === opt.value ? 'rgba(200,82,42,0.4)' : 'rgba(255,255,255,0.08)'}`,
+                }}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
           <input value={name} onChange={e => setName(e.target.value)}
             placeholder="Location name *"
             className="w-full rounded-xl px-3 py-2 text-sm"
@@ -115,6 +153,12 @@ export function LocationTab({ data, isHost, canInteract, eventId, onReload }: {
                     {option.is_winner && <Trophy className="w-4 h-4 shrink-0" style={{ color: '#C8522A' }} />}
                     <p className="text-sm font-semibold" style={{ color: '#EFE3CE' }}>{option.name}</p>
                   </div>
+                  {option.location_type && (
+                    <span className="inline-block text-xs px-2 py-0.5 rounded-full mt-1"
+                      style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(239,227,206,0.5)' }}>
+                      {locationTypeLabel(option.location_type)}
+                    </span>
+                  )}
                   {option.address && <p className="text-xs mt-0.5" style={{ color: 'rgba(239,227,206,0.5)' }}>{option.address}</p>}
                   {option.notes && <p className="text-xs mt-1" style={{ color: 'rgba(239,227,206,0.4)' }}>{option.notes}</p>}
                 </div>

@@ -57,7 +57,7 @@ export function PlaylistTab({ data, canInteract, eventId, onReload }: {
         </div>
       )}
 
-      {canInteract && party.spotify_playlist_id && (
+      {canInteract && (
         <div className="rounded-2xl p-4 border flex flex-col gap-3"
           style={{ background: 'rgba(255,255,255,0.03)', borderColor: 'rgba(255,255,255,0.07)' }}>
           <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: 'rgba(239,227,206,0.4)' }}>
@@ -71,6 +71,11 @@ export function PlaylistTab({ data, canInteract, eventId, onReload }: {
             className="w-full rounded-xl px-3 py-2 text-sm"
             style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', color: '#EFE3CE' }}
           />
+          {!party.spotify_playlist_id && (
+            <p className="text-xs" style={{ color: 'rgba(239,227,206,0.35)' }}>
+              Spotify not connected — tracks will sync when the host connects Spotify
+            </p>
+          )}
           {error && <p className="text-xs" style={{ color: '#ef4444' }}>{error}</p>}
           <button onClick={handleAdd} disabled={adding || !url.trim()}
             className="flex items-center gap-1.5 text-sm px-4 py-2 rounded-xl font-semibold disabled:opacity-40 w-fit"
@@ -109,8 +114,10 @@ export function PlaylistTab({ data, canInteract, eventId, onReload }: {
                   </p>
                 )}
               </div>
-              {track.added_to_spotify && (
-                <div className="w-2 h-2 rounded-full shrink-0" style={{ background: '#1ED760' }} />
+              {track.added_to_spotify ? (
+                <div className="w-2 h-2 rounded-full shrink-0" style={{ background: '#1ED760' }} title="On Spotify" />
+              ) : (
+                <div className="w-2 h-2 rounded-full shrink-0" style={{ background: 'rgba(239,227,206,0.2)' }} title="Pending sync" />
               )}
             </div>
           ))}
