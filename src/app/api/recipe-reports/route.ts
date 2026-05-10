@@ -1,8 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 import { spawn } from "child_process";
-import { writeFile, mkdir } from "fs/promises";
-import { readFileSync } from "fs";
+import { writeFile, mkdir, appendFile } from "fs/promises";
 import path from "path";
 
 export const runtime = "nodejs";
@@ -27,13 +26,8 @@ interface FixLogEntry {
 }
 
 async function persistFix(entry: FixLogEntry): Promise<void> {
-  // 1. Append to recipe-fixes.json (audit log)
-  let log: FixLogEntry[] = [];
-  try {
-    log = JSON.parse(readFileSync(FIXES_LOG, "utf-8"));
-  } catch { /* file doesn't exist yet — start fresh */ }
-  log.push(entry);
-  await writeFile(FIXES_LOG, JSON.stringify(log, null, 2));
+  // 1. Append one JSON line to recipe-fixes.json (audit log — atomic append)
+  await appendFile(FIXES_LOG, JSON.stringify(entry) + "\n");
 
   // 2. Upsert fixes/<recipeId>.json (latest fix per recipe)
   await mkdir(FIXES_DIR, { recursive: true });
@@ -150,17 +144,21 @@ export async function POST(req: NextRequest) {
       console.error("[recipe-reports] Supabase insert failed:", err);
     }
 
-    // Local persistence
+    // Local persistence (non-blocking — filesystem failure must not affect client response)
     if (recipeId) {
-      await persistFix({
-        recipeId,
-        recipeName: recipeName ?? null,
-        issueType,
-        fixStatus,
-        fixFilePath,
-        reportedAt: new Date().toISOString(),
-        reportId,
-      });
+      try {
+        await persistFix({
+          recipeId,
+          recipeName: recipeName ?? null,
+          issueType,
+          fixStatus,
+          fixFilePath,
+          reportedAt: new Date().toISOString(),
+          reportId,
+        });
+      } catch (err) {
+        console.error("[recipe-reports] persistFix failed:", err);
+      }
     }
 
     return NextResponse.json({
