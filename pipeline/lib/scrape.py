@@ -141,22 +141,23 @@ def scrape_urls(urls: list[str], existing_urls: set[str], limit: int) -> list[di
     collected = []
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.set_extra_http_headers({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        try:
+            page = browser.new_page()
+            page.set_extra_http_headers({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
 
-        for url in urls:
-            if len(collected) >= limit:
-                break
-            if url in existing_urls:
-                print(f"  [scrape] Skip (already in DB): {url}")
-                continue
-            print(f"  [scrape] Extracting: {url}")
-            recipe = extract_recipe(url, page=page)
-            if recipe and recipe.get("title") and recipe.get("ingredients"):
-                collected.append(recipe)
-                time.sleep(1.5)
-
-        browser.close()
+            for url in urls:
+                if len(collected) >= limit:
+                    break
+                if url in existing_urls:
+                    print(f"  [scrape] Skip (already in DB): {url}")
+                    continue
+                print(f"  [scrape] Extracting: {url}")
+                recipe = extract_recipe(url, page=page)
+                if recipe and recipe.get("title") and recipe.get("ingredients"):
+                    collected.append(recipe)
+                    time.sleep(1.5)
+        finally:
+            browser.close()
 
     return collected
 
@@ -165,8 +166,10 @@ def get_links_from_listing(listing_url: str, limit: int = 10) -> list[str]:
     """Open a Playwright browser just to collect recipe links from a listing page."""
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.set_extra_http_headers({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-        links = collect_recipe_links(page, listing_url, limit)
-        browser.close()
+        try:
+            page = browser.new_page()
+            page.set_extra_http_headers({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            links = collect_recipe_links(page, listing_url, limit)
+        finally:
+            browser.close()
     return links

@@ -22,6 +22,10 @@ def upsert_recipes(recipes: list[dict[str, Any]]) -> ApplyResult:
     if not recipes:
         return result
 
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        result.errors.append("Missing Supabase credentials — set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY in .env.local")
+        return result
+
     client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
     for recipe in recipes:
