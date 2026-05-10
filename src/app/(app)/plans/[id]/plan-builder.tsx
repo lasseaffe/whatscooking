@@ -274,6 +274,31 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
     setDetailRecipe(null);
   }
 
+  // ── Grid autofill (stable useCallback for WeeklyPlanGrid) ────────────────
+
+  const handleGridAutofill = useCallback(async (day: number, mealType: MealType) => {
+    const existing_titles = days.flatMap((d) => d.entries.map((e) => e.recipe_title));
+    const res = await fetch(`/api/plans/${planId}/suggest`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        day_number: day,
+        meal_type: mealType,
+        existing_titles,
+        all_plan_titles: existing_titles,
+        dietary_filters: dietaryFilters,
+      }),
+    });
+    if (!res.ok) throw new Error("Autofill failed");
+    const data = await res.json();
+    return (Array.isArray(data) ? data : []).map((s: Record<string, unknown>) => ({
+      title: String(s.title ?? ""),
+      description: s.description as string | undefined,
+      calories: s.calories as number | undefined,
+      tag: Array.isArray(s.tags) ? (s.tags[0] as string) : undefined,
+    } satisfies AutofillSuggestion));
+  }, [days, planId, dietaryFilters]);
+
   // ── AI suggest ────────────────────────────────────────────────────────────
 
   async function suggestForDay(dayNum: number) {
@@ -439,28 +464,7 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
             setDays((prev) => [...prev, { day_number: nextDay, entries: [], expanded: true, suggesting: false, suggestionPrompt: "" }]);
             markDirty();
           }}
-          onAutofill={async (day, mealType) => {
-            const existing_titles = days.flatMap((d) => d.entries.map((e) => e.recipe_title));
-            const res = await fetch(`/api/plans/${planId}/suggest`, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                day_number: day,
-                meal_type: mealType,
-                existing_titles,
-                all_plan_titles: existing_titles,
-                dietary_filters: dietaryFilters,
-              }),
-            });
-            if (!res.ok) return [];
-            const data = await res.json();
-            return (Array.isArray(data) ? data : []).map((s: Record<string, unknown>) => ({
-              title: String(s.title ?? ""),
-              description: s.description as string | undefined,
-              calories: s.calories as number | undefined,
-              tag: Array.isArray(s.tags) ? (s.tags[0] as string) : undefined,
-            } satisfies AutofillSuggestion));
-          }}
+          onAutofill={handleGridAutofill}
           onAutofillAccept={(day, mealType, suggestion) => {
             addEntry(day, {
               recipe_title: suggestion.title,

@@ -112,6 +112,10 @@ export function WeeklyPlanGrid({
     setAutofillState((prev) => ({ ...prev, [key]: { status: "loading", suggestions: [], idx: 0 } }));
     try {
       const suggestions = await onAutofill(day, mt);
+      if (suggestions.length === 0) {
+        setAutofillState((prev) => { const next = { ...prev }; delete next[key]; return next; });
+        return;
+      }
       setAutofillState((prev) => ({ ...prev, [key]: { status: "suggesting", suggestions, idx: 0 } }));
     } catch {
       setAutofillState((prev) => { const next = { ...prev }; delete next[key]; return next; });
