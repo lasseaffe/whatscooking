@@ -53,6 +53,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
           {(["all", "easy", "medium", "hard"] as const).map((d) => (
             <button
               key={d}
+              type="button"
               onClick={() => setDifficultyFilter(d)}
               className="px-2.5 py-1 rounded-full text-xs font-semibold transition-all"
               style={{
@@ -64,7 +65,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
             </button>
           ))}
         </div>
-        <span className="ml-auto text-xs font-medium" style={{ color: "#4A3020" }}>
+        <span className="ml-auto text-xs font-medium" style={{ color: "#8A6A4A" }}>
           {session.deck.length} left · {liked.length} liked
         </span>
       </div>
@@ -81,9 +82,9 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
       </div>
 
       {/* Card stack */}
-      <div className="relative flex-1 mx-4 mb-2">
+      <div className="relative flex-1 mx-4 mb-2" style={{ touchAction: "none" }}>
         {nextCard && (
-          <div className="absolute inset-0 rounded-3xl overflow-hidden" style={session.cardStyle(false)}>
+          <div className="absolute inset-0 rounded-3xl overflow-hidden" style={{ ...session.cardStyle(false), pointerEvents: "none" }}>
             <RecipeCard
               recipe={nextCard}
               likeOpacity={0}
