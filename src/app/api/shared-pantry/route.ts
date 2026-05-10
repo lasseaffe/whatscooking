@@ -73,7 +73,7 @@ export async function GET() {
     .eq("user_id", user.id);
 
   const pantries = (memberships ?? []).map((m) => ({
-    ...(m.shared_pantries as Record<string, unknown>),
+    ...(m.shared_pantries as unknown as Record<string, unknown>),
     role: m.role,
   }));
 
