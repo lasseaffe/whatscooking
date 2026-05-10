@@ -63,6 +63,18 @@ export async function POST(req: NextRequest) {
 
   await mkdir(path.join(fixesDir, subDir), { recursive: true });
 
+  // "already-applied:<path>" means the file is already on disk — skip write, just mark resolved
+  if (type === "image" && content.startsWith("already-applied:")) {
+    const now = new Date().toISOString();
+    if (reportId) {
+      await supabase
+        .from("recipe_bug_reports")
+        .update({ resolved_at: now, resolved_by: "admin-ui" })
+        .eq("id", reportId);
+    }
+    return NextResponse.json({ ok: true, filePath: content.replace("already-applied:", "") });
+  }
+
   const fileData =
     type === "image"
       ? Buffer.from(content.replace(/^data:[^;]+;base64,/, ""), "base64")
