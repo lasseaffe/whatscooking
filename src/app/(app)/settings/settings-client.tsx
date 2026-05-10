@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink } from "lucide-react";
+import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen } from "lucide-react";
+import Link from "next/link";
 import { PaletteSwitcher } from "@/components/palette-switcher";
 import { useTheme } from "@/lib/theme-context";
 
@@ -180,6 +181,25 @@ export function SettingsClient() {
             );
           })}
         </div>
+      </Section>
+
+      {/* ── App Tour ── */}
+      <Section icon={<BookOpen style={{ width: 16, height: 16 }} />} title="App Tour">
+        <p className="text-xs mb-4" style={{ color: "#7A5A40", lineHeight: 1.6 }}>
+          New here? Take a guided tour of everything What&apos;s Cooking can do.
+          You can restart it anytime — it only takes two minutes.
+        </p>
+        <Link
+          href="/onboarding/welcome"
+          className="inline-block text-xs font-semibold px-4 py-2 rounded-xl transition-all hover:opacity-80"
+          style={{
+            background: "rgba(176,125,86,0.15)",
+            color: "var(--wc-pal-accent, #B07D56)",
+            border: "1px solid rgba(176,125,86,0.3)",
+          }}
+        >
+          Start Tour →
+        </Link>
       </Section>
 
       {/* ── Notifications placeholder ── */}
