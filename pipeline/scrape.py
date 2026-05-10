@@ -34,11 +34,16 @@ def collect_recipe_links(page: Page, url: str, limit: int) -> list[str]:
         print(f"  [scrape] Timeout loading {url}")
         return []
 
-    # Collect all <a> hrefs that look like recipe pages
+    # Collect hrefs that look like individual recipe detail pages (not category/search pages)
     links = page.evaluate("""() => {
         return Array.from(document.querySelectorAll('a[href]'))
             .map(a => a.href)
-            .filter(href => href.includes('/recipe') || href.includes('-recipe'))
+            .filter(href => {
+                // Bon Appétit individual recipes: /recipe/<slug>
+                if (href.includes('bonappetit.com/recipe/') &&
+                    !/bonappetit\\.com\\/recipe\\/?$/.test(href)) return true;
+                return false;
+            })
     }""")
 
     seen = set()
@@ -53,73 +58,101 @@ def collect_recipe_links(page: Page, url: str, limit: int) -> list[str]:
     return unique[:limit]
 
 
-def extract_recipe(url: str) -> dict[str, Any] | None:
-    """Extract structured recipe data from a URL using recipe-scrapers."""
+def extract_recipe(url: str, page: Page | None = None) -> dict[str, Any] | None:
+    """Extract structured recipe data via Playwright (primary) or recipe-scrapers fallback."""
+    if page is not None:
+        result = _extract_via_playwright(url, page)
+        if result:
+            return result
+
     try:
         scraper = scrape_me(url, wild_mode=True)
         ingredients = scraper.ingredients() or []
         instructions_text = scraper.instructions() or ""
         instructions = [s.strip() for s in re.split(r'\n+|\.\s+', instructions_text) if s.strip()]
-
-        return {
-            "title": scraper.title() or "",
-            "ingredients": ingredients,
-            "instructions": instructions[:20],  # cap at 20 steps
-            "image_url": scraper.image() or None,
-            "cook_time_minutes": scraper.total_time() or None,
-            "prep_time_minutes": None,
-            "servings": scraper.yields() or None,
-            "cuisine_type": None,
-            "dietary_tags": [],
-            "source_url": url,
-            "source_name": urlparse(url).netloc.replace("www.", "").split(".")[0].title(),
-        }
-    except Exception as e:
-        # Fallback: try ld+json extraction
-        return _extract_ldjson(url, e)
-
-
-def _extract_ldjson(url: str, original_error: Exception) -> dict[str, Any] | None:
-    """Fallback extraction using ld+json from raw page HTML."""
-    try:
-        import requests
-        resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
-        matches = re.findall(
-            r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>',
-            resp.text, re.DOTALL
-        )
-        for match in matches:
-            try:
-                data = json.loads(match)
-                if isinstance(data, list):
-                    data = next((d for d in data if d.get("@type") == "Recipe"), None)
-                if data and data.get("@type") == "Recipe":
-                    raw_instructions = data.get("recipeInstructions", [])
-                    instructions = []
-                    for step in raw_instructions:
-                        if isinstance(step, str):
-                            instructions.append(step)
-                        elif isinstance(step, dict):
-                            instructions.append(step.get("text", ""))
-                    return {
-                        "title": data.get("name", ""),
-                        "ingredients": data.get("recipeIngredient", []),
-                        "instructions": [s for s in instructions if s],
-                        "image_url": (data.get("image") or [None])[0] if isinstance(data.get("image"), list) else data.get("image"),
-                        "cook_time_minutes": None,
-                        "prep_time_minutes": None,
-                        "servings": None,
-                        "cuisine_type": None,
-                        "dietary_tags": [],
-                        "source_url": url,
-                        "source_name": urlparse(url).netloc.replace("www.", "").split(".")[0].title(),
-                    }
-            except json.JSONDecodeError:
-                continue
+        title = scraper.title() or ""
+        if title and ingredients:
+            return {
+                "title": title,
+                "ingredients": ingredients,
+                "instructions": instructions[:20],
+                "image_url": scraper.image() or None,
+                "cook_time_minutes": scraper.total_time() or None,
+                "prep_time_minutes": None,
+                "servings": scraper.yields() or None,
+                "cuisine_type": None,
+                "dietary_tags": [],
+                "source_url": url,
+                "source_name": urlparse(url).netloc.replace("www.", "").split(".")[0].title(),
+            }
     except Exception:
         pass
 
-    print(f"  [scrape] Could not extract {url}: {original_error}")
+    print(f"  [scrape] Could not extract {url}")
+    return None
+
+
+def _extract_via_playwright(url: str, page: Page) -> dict[str, Any] | None:
+    """Extract ld+json recipe data using an already-open Playwright page (bypasses bot detection)."""
+    try:
+        page.goto(url, timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(1500)
+        html = page.content()
+    except PlaywrightTimeout:
+        return None
+
+    matches = re.findall(
+        r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>',
+        html, re.DOTALL
+    )
+    for match in matches:
+        try:
+            data = json.loads(match)
+            # Handle @graph wrapper
+            if isinstance(data, dict) and "@graph" in data:
+                data = next((d for d in data["@graph"] if d.get("@type") == "Recipe"), None)
+            if isinstance(data, list):
+                data = next((d for d in data if d.get("@type") == "Recipe"), None)
+            if not data or data.get("@type") != "Recipe":
+                continue
+
+            raw_instructions = data.get("recipeInstructions", [])
+            instructions = []
+            for step in raw_instructions:
+                if isinstance(step, str):
+                    instructions.append(step.strip())
+                elif isinstance(step, dict):
+                    text = step.get("text", "").strip()
+                    if text:
+                        instructions.append(text)
+
+            ingredients = data.get("recipeIngredient", [])
+            title = data.get("name", "")
+            if not title or not ingredients:
+                continue
+
+            image = data.get("image")
+            if isinstance(image, list):
+                image = image[0] if image else None
+            elif isinstance(image, dict):
+                image = image.get("url")
+
+            return {
+                "title": title,
+                "ingredients": ingredients,
+                "instructions": instructions,
+                "image_url": image,
+                "cook_time_minutes": None,
+                "prep_time_minutes": None,
+                "servings": None,
+                "cuisine_type": None,
+                "dietary_tags": [],
+                "source_url": url,
+                "source_name": urlparse(url).netloc.replace("www.", "").split(".")[0].title(),
+            }
+        except (json.JSONDecodeError, StopIteration):
+            continue
+
     return None
 
 
@@ -149,7 +182,7 @@ def scrape_category(category: str, existing_urls: set[str]) -> list[dict[str, An
                     print(f"  [scrape] Skip (already in DB): {link}")
                     continue
                 print(f"  [scrape] Extracting: {link}")
-                recipe = extract_recipe(link)
+                recipe = extract_recipe(link, page=page)
                 if recipe and recipe.get("title") and recipe.get("ingredients"):
                     collected.append(recipe)
                     time.sleep(1.5)  # polite delay between requests

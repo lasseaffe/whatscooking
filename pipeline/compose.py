@@ -1,4 +1,5 @@
 import json
+import re
 import requests
 from typing import Any
 from pipeline.config import OLLAMA_URL, OLLAMA_MODEL, OLLAMA_TIMEOUT
@@ -119,7 +120,15 @@ def compose_recipe(raw_recipes: list[dict], category: str) -> dict[str, Any] | N
     try:
         response = requests.post(
             f"{OLLAMA_URL}/api/generate",
-            json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False},
+            json={
+                "model": OLLAMA_MODEL,
+                "prompt": prompt,
+                "stream": False,
+                "options": {
+                    "temperature": 0.7,
+                    "num_predict": 1800,  # cap tokens — generous enough for a full recipe JSON
+                },
+            },
             timeout=OLLAMA_TIMEOUT,
         )
         response.raise_for_status()
@@ -138,6 +147,9 @@ def compose_recipe(raw_recipes: list[dict], category: str) -> dict[str, Any] | N
         text = text.strip()
     if text.endswith("```"):
         text = text[:-3].strip()
+
+    # Replace fraction literals (e.g. 1/2 → 0.5) that LLMs emit but JSON rejects
+    text = re.sub(r'\b(\d+)/(\d+)\b', lambda m: str(int(m.group(1)) / int(m.group(2))), text)
 
     try:
         recipe = json.loads(text)
