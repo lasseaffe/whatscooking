@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-04-26T23:30:34.919Z",
+  "totalRecipes": 5,
+  "checked": 5,
+  "issues": [
+    {
+      "id": "ff600846-d6b9-41fd-aca1-755aeb0fbf4e",
+      "title": "Salade Niçoise",
+      "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+      "reason": "mismatched",
+      "fixedUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=75"
+    },
+    {
+      "id": "224d9f4e-c77d-4f86-8916-2f6405bd8902",
+      "title": "Spicy Peanut Noodles",
+      "image_url": "https://scontent-muc2-1.cdninstagram.com/v/t51.71878-15/502172870_1389405585596505_5913550556386060647_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=uNJ6RonSil4Q7kNvwGtbWeY&_nc_oc=AdqSx3iX4jr_jc3CRR4XWUuW7R23ZdBfmqAV_p_Ezrk-sSbvz6ZVQ6ClG7mlxgM13UU&_nc_zt=23&_nc_ht=scontent-muc2-1.cdninstagram.com&_nc_gid=IAvLnqLTJWF8v3yy7j5lXg&_nc_ss=7a289&oh=00_Af0T4kOAosFnPAndWFWZTpYNKkvzglUmo5RkCgX88WwdHA&oe=69E61551",
+      "reason": "broken",
+      "fixedUrl": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&q=75"
+    },
+    {
+      "id": "9f7b34da-6f2c-4179-88fa-8c9533373a69",
+      "title": "Sheet-Pan Chicken Thighs with Potatoes & Arugula",
+      "image_url": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=800&q=80",
+      "reason": "broken",
+      "fixedUrl": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=75"
+    }
+  ],
+  "fixed": 0,
+  "dryRun": true
+}

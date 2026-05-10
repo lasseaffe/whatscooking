@@ -2,6 +2,22 @@
 
 ## [Unreleased] — 2026-05-10
 
+### Discover Feed — Task 3: TrendingSection Component
+
+**Created:**
+- `src/app/(app)/discover/trending-section.tsx` — horizontal scrolling trending recipes component with save counts, prep/cook times, and "+N more" pagination tile
+
+**Features:**
+- Displays trending recipes in a compact 90px card layout with image preview
+- Shows saved count (with 1k formatting) or total prep+cook time
+- Conditional "+N more" tile links to full trending recipes page
+- Client-rendered with CSS custom properties for dark theme integration
+- Includes alt recipe emoji fallback for missing images
+
+**Commit:** `40ec785`
+
+---
+
 ### Unified Recipe Pipeline — Task 1: Directory Scaffolding & Requirements Update
 
 **Created:**

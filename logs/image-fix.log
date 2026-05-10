@@ -1,0 +1,25 @@
+[2026-04-28 00:00] Setup: fix_reported_images pipeline created
+
+[2026-04-28] Auto-fix wired into recipe-reports POST API
+- faulty_image reports now trigger hero_shot.py automatically (fire-and-forget)
+- source_url looked up from recipes table if not provided by client
+- PYTHON_PATH and INSTAGRAM_COOKIES_FILE configurable via .env.local
+
+[2026-04-28] Smart routing added to recipe-reports API
+- Instagram URLs → hero_shot.py (yt-dlp frame extraction)
+- All other URLs → site_screenshotter.py (Playwright element screenshot)
+- site_screenshotter.py copied to scripts/ingestion/
+[2026-04-28 22:34:31] === fix_reported_images starting ===
+[2026-04-28 22:34:31] Found 0 total reports, 0 faulty_image
+[2026-04-28 22:34:31] Nothing to fix.
+[2026-04-28 22:34:36] === fix_reported_images starting ===
+[2026-04-28 22:34:37] Found 0 total reports, 0 faulty_image
+[2026-04-28 22:34:37] Nothing to fix.
+[2026-04-28 22:36:17] === fix_reported_images starting ===
+[2026-04-28 22:36:17] Found 0 total reports, 0 faulty_image
+[2026-04-28 22:36:17] Nothing to fix.
+[2026-04-28 22:36:36] === fix_reported_images starting ===
+[2026-04-28 22:36:36] Found 0 total reports, 0 faulty_image
+[2026-04-28 22:36:36] Nothing to fix.
+[2026-05-04 01:28:01] === fix_reported_images starting ===
+[2026-05-06 13:52:00] === fix_reported_images starting ===

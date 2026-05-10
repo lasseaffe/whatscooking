@@ -6,6 +6,7 @@ import {
   LayoutGrid, List,
 } from "lucide-react";
 import Link from "next/link";
+import { ReportButton } from "@/components/report-button";
 
 type Recipe = {
   id: string;
@@ -130,6 +131,9 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
             )}
           </div>
         </div>
+        <div className="shrink-0 pr-3" onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+          <ReportButton recipeId={recipe.id} recipeName={recipe.title} iconSize={12} />
+        </div>
       </Link>
     );
   }
@@ -157,6 +161,9 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
             <Clock className="w-3 h-3" />{totalTime}m
           </span>
         )}
+        <div className="absolute bottom-2 right-2 z-10" onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+          <ReportButton recipeId={recipe.id} recipeName={recipe.title} iconSize={12} />
+        </div>
       </div>
       <div className="p-3">
         <p className="font-semibold text-sm leading-snug line-clamp-2" style={{ color: "#EFE3CE" }}>{recipe.title}</p>
