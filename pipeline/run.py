@@ -1,6 +1,10 @@
 # Scheduled via Windows Task Scheduler:
 #   Daily 07:00:   python pipeline/run.py --schedule=daily
 #   Weekly Mon:    python pipeline/run.py --schedule=weekly
+import sys
+import os
+# Ensure project root is on sys.path when run as `python pipeline/run.py`
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import argparse
 import logging
 import sys
