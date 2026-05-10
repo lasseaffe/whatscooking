@@ -6,11 +6,13 @@ export async function GET(req: NextRequest) {
   const q = req.nextUrl.searchParams.get("q")?.trim();
   if (!q || q.length < 2) return NextResponse.json([]);
 
-  const limit = Math.min(parseInt(req.nextUrl.searchParams.get("limit") ?? "8"), 20);
+  const parsedLimit = parseInt(req.nextUrl.searchParams.get("limit") ?? "8");
+  const limit = Math.min(isNaN(parsedLimit) ? 8 : parsedLimit, 20);
   const includeSaved = req.nextUrl.searchParams.get("saved") === "true";
   const supabase = await createClient();
 
-  const { data: { user } } = await supabase.auth.getUser();
+  const { data: authData } = await supabase.auth.getUser();
+  const user = authData?.user ?? null;
 
   const { data, error } = await supabase
     .from("recipes")
@@ -25,7 +27,8 @@ export async function GET(req: NextRequest) {
     const { data: saved } = await supabase
       .from("user_saved_recipes")
       .select("recipe_id")
-      .eq("user_id", user.id);
+      .eq("user_id", user.id)
+      .limit(500);
     savedIds = new Set((saved ?? []).map((r) => r.recipe_id));
   }
 

@@ -9,31 +9,40 @@ export async function GET(req: NextRequest) {
   // const dayNumber = req.nextUrl.searchParams.get("day_number");
   // const mealType = req.nextUrl.searchParams.get("meal_type");
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  const { data: authData } = await supabase.auth.getUser();
+  const user = authData?.user ?? null;
 
   // Fallback: return popular recipes when no plan context
   if (!planId) {
     const { data } = await supabase
       .from("recipes")
       .select("id, title, image_url, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
+      .order("created_at", { ascending: false })
       .limit(10);
     let fallbackSavedIds = new Set<string>();
     if (user) {
       const { data: saved } = await supabase
         .from("user_saved_recipes")
         .select("recipe_id")
-        .eq("user_id", user.id);
+        .eq("user_id", user.id)
+        .limit(500);
       fallbackSavedIds = new Set((saved ?? []).map((r: { recipe_id: string }) => r.recipe_id));
     }
     return NextResponse.json((data ?? []).map((r) => ({ ...r, is_saved: fallbackSavedIds.has(r.id) })));
   }
 
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
   // Fetch plan context and existing entries in parallel
   // Note: entries table is "meal_entries" with FK column "meal_plan_id"
   const [{ data: plan }, { data: entries }] = await Promise.all([
-    supabase.from("meal_plans").select("dietary_filters, nutritional_goals").eq("id", planId).single(),
+    supabase.from("meal_plans").select("dietary_filters, nutritional_goals, user_id").eq("id", planId).single(),
     supabase.from("meal_entries").select("recipe_title").eq("meal_plan_id", planId),
   ]);
+
+  if (!plan || plan.user_id !== user.id) {
+    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  }
 
   const dietaryFilters: string[] = plan?.dietary_filters ?? [];
   const existingTitles = new Set((entries ?? []).map((e: { recipe_title: string }) => e.recipe_title));
@@ -45,7 +54,8 @@ export async function GET(req: NextRequest) {
     const { data: saved } = await supabase
       .from("user_saved_recipes")
       .select("recipe_id")
-      .eq("user_id", user.id);
+      .eq("user_id", user.id)
+      .limit(500);
     savedIds = new Set((saved ?? []).map((r: { recipe_id: string }) => r.recipe_id));
   }
 
@@ -53,6 +63,7 @@ export async function GET(req: NextRequest) {
   const { data: candidates } = await supabase
     .from("recipes")
     .select("id, title, image_url, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
+    .order("created_at", { ascending: false })
     .limit(60);
 
   if (!candidates) return NextResponse.json([]);
