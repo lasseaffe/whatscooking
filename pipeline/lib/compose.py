@@ -60,14 +60,16 @@ def call_ollama(prompt: str) -> dict[str, Any] | None:
     raw_text = response.json().get("response", "")
     text = raw_text.strip()
     if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-        text = text.strip()
+        parts = text.split("```")
+        if len(parts) >= 2:
+            text = parts[1]
+            if text.startswith("json"):
+                text = text[4:]
+            text = text.strip()
     if text.endswith("```"):
         text = text[:-3].strip()
 
-    text = re.sub(r'\b(\d+)/(\d+)\b', lambda m: str(int(m.group(1)) / int(m.group(2))), text)
+    text = re.sub(r'(?<![/\w])(\d+)/(\d+)(?![/\w])', lambda m: str(int(m.group(1)) / int(m.group(2))), text)
 
     try:
         recipe = json.loads(text)
@@ -89,7 +91,9 @@ def build_composite_prompt(raw_recipes: list[dict], category: str, extra_instruc
     for i, r in enumerate(raw_recipes, 1):
         sources_text += f"\n--- Source {i}: {r.get('source_name', 'Unknown')} ---\n"
         sources_text += f"Title: {r['title']}\n"
-        sources_text += f"Ingredients: {', '.join(r.get('ingredients', []))}\n"
+        raw_ings = r.get('ingredients', [])
+        ing_strs = [i.get('name', str(i)) if isinstance(i, dict) else str(i) for i in raw_ings]
+        sources_text += f"Ingredients: {', '.join(ing_strs)}\n"
         instructions = r.get('instructions', [])
         sources_text += f"Instructions: {' '.join(instructions[:5])}\n"
         sources_text += f"URL: {r.get('source_url', '')}\n"

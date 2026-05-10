@@ -46,3 +46,18 @@ def test_ingredient_missing_name_returns_error():
     r = {**VALID, "ingredients": [{"amount": 1, "unit": "cup"}]}
     errors = validate_recipe(r)
     assert any("name" in e for e in errors)
+
+def test_negative_calories_returns_error():
+    r = {**VALID, "calories": -100}
+    errors = validate_recipe(r)
+    assert any("calories" in e for e in errors)
+
+def test_empty_instructions_returns_error():
+    r = {**VALID, "instructions": []}
+    errors = validate_recipe(r)
+    assert any("instructions" in e for e in errors)
+
+def test_zero_servings_returns_error():
+    r = {**VALID, "servings": 0}
+    errors = validate_recipe(r)
+    assert any("servings" in e for e in errors)
