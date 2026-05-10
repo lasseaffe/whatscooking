@@ -406,17 +406,17 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
 
   const rescueItem = rescueItemId ? items.find(i => i.id === rescueItemId) ?? null : null;
   const rescuePanel = rescueItem ? (
-    <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)" }}>
+    <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#3A2416", background: "#2A1804" }}>
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
           <ChefHat className="w-4 h-4" style={{ color: "#C85A2F" }} />
-          <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
+          <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>
             What to make with {rescueItem.name}
           </p>
         </div>
         <button
           onClick={() => { setRescueItemId(null); setRescueRecipes(null); }}
-          className="text-xs" style={{ color: "#A69180" }}
+          className="text-xs" style={{ color: "#8A6A4A" }}
         >
           <X className="w-4 h-4" />
         </button>
@@ -424,18 +424,18 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       {rescueLoading && (
         <div className="flex items-center gap-2 py-4 justify-center">
           <Loader2 className="w-4 h-4 animate-spin" style={{ color: "#C85A2F" }} />
-          <span className="text-sm" style={{ color: "#6B5B52" }}>Finding recipes…</span>
+          <span className="text-sm" style={{ color: "#8A6A4A" }}>Finding recipes…</span>
         </div>
       )}
       {rescueRecipes && rescueRecipes.length === 0 && !rescueLoading && (
-        <p className="text-xs" style={{ color: "#A69180" }}>No recipes found — try adding more pantry items.</p>
+        <p className="text-xs" style={{ color: "#8A6A4A" }}>No recipes found — try adding more pantry items.</p>
       )}
       {rescueRecipes && rescueRecipes.length > 0 && (
         <div className="flex flex-col gap-2">
           {rescueRecipes.map((r, i) => (
-            <div key={i} className="rounded-xl p-3 border" style={{ background: "#fff", borderColor: "#E8D4C0" }}>
-              <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>{r.title}</p>
-              {r.reason && <p className="text-xs mt-0.5" style={{ color: "#6B5B52" }}>{r.reason}</p>}
+            <div key={i} className="rounded-xl p-3 border" style={{ background: "#1C1209", borderColor: "#3A2416" }}>
+              <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{r.title}</p>
+              {r.reason && <p className="text-xs mt-0.5" style={{ color: "#8A6A4A" }}>{r.reason}</p>}
             </div>
           ))}
         </div>
@@ -444,7 +444,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
   ) : null;
 
   return (
-    <div className="px-4 sm:px-6 py-8 max-w-3xl mx-auto">
+    <div className="px-4 sm:px-6 py-8 max-w-3xl mx-auto min-h-screen" style={{ background: "#1C1209" }}>
       <ConfirmDeleteDialog
         open={!!pendingDelete}
         title="Remove from pantry?"
@@ -463,14 +463,14 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
         onChange={handlePhotoSelect}
       />
       {/* Tab switcher */}
-      <div className="flex gap-1 mb-6 p-1 rounded-2xl" style={{ background: "#F5E6D3" }}>
+      <div className="flex gap-1 mb-6 p-1 rounded-2xl" style={{ background: "#2A1804" }}>
         <button
           onClick={() => setActiveTab("pantry")}
           className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
           style={{
-            background: activeTab === "pantry" ? "#fff" : "transparent",
-            color: activeTab === "pantry" ? "#3D2817" : "#A69180",
-            boxShadow: activeTab === "pantry" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
+            background: activeTab === "pantry" ? "#C85A2F" : "transparent",
+            color: activeTab === "pantry" ? "#fff" : "#8A6A4A",
+            boxShadow: "none",
           }}
         >
           <ShoppingBasket className="w-4 h-4" /> My Pantry
@@ -483,9 +483,9 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           onClick={() => setActiveTab("leftovers")}
           className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
           style={{
-            background: activeTab === "leftovers" ? "#fff" : "transparent",
-            color: activeTab === "leftovers" ? "#3D2817" : "#A69180",
-            boxShadow: activeTab === "leftovers" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
+            background: activeTab === "leftovers" ? "#C85A2F" : "transparent",
+            color: activeTab === "leftovers" ? "#fff" : "#8A6A4A",
+            boxShadow: "none",
           }}
         >
           <ChefHat className="w-4 h-4" /> Leftovers
@@ -494,9 +494,9 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           onClick={() => setActiveTab("shared")}
           className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
           style={{
-            background: activeTab === "shared" ? "#fff" : "transparent",
-            color: activeTab === "shared" ? "#3D2817" : "#A69180",
-            boxShadow: activeTab === "shared" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
+            background: activeTab === "shared" ? "#C85A2F" : "transparent",
+            color: activeTab === "shared" ? "#fff" : "#8A6A4A",
+            boxShadow: "none",
           }}
         >
           <Users className="w-4 h-4" /> Shared
@@ -511,13 +511,13 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
 
       {/* Expiry notification banner */}
       {expiringSoonCount > 0 && notifEnabled && (
-        <div className="mb-4 rounded-2xl p-4 flex items-start gap-3" style={{ background: "#FFF7ED", border: "1px solid #FED7AA" }}>
+        <div className="mb-4 rounded-2xl p-4 flex items-start gap-3" style={{ background: "#2A1804", border: "1px solid #5A2800" }}>
           <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" style={{ color: "#C2410C" }} />
           <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold" style={{ color: "#7C2D12" }}>
+            <p className="text-sm font-semibold" style={{ color: "#F4A261" }}>
               {expiringSoonCount} item{expiringSoonCount !== 1 ? "s" : ""} expiring soon
             </p>
-            <p className="text-xs mt-0.5" style={{ color: "#9A3412" }}>
+            <p className="text-xs mt-0.5" style={{ color: "#C8A882" }}>
               Check below — items shown in yellow/red are approaching or past expiry.
             </p>
           </div>
@@ -530,7 +530,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
             className="shrink-0 p-1.5 rounded-lg transition-colors hover:bg-orange-100"
             title="Toggle expiry alerts"
           >
-            {notifEnabled ? <Bell className="w-4 h-4" style={{ color: "#C2410C" }} /> : <BellOff className="w-4 h-4" style={{ color: "#A69180" }} />}
+            {notifEnabled ? <Bell className="w-4 h-4" style={{ color: "#C2410C" }} /> : <BellOff className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
           </button>
         </div>
       )}
@@ -538,19 +538,19 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       {/* Header + controls */}
       <div className="flex items-start justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-2xl font-bold flex items-center gap-2" style={{ color: "#3D2817" }}>
+          <h1 className="text-2xl font-bold flex items-center gap-2" style={{ color: "#EFE3CE" }}>
             <ShoppingBasket className="w-6 h-6" style={{ color: "#C85A2F" }} />
             {L.title}
           </h1>
-          <p className="text-sm mt-1" style={{ color: "#6B5B52" }}>{L.subtitle}</p>
+          <p className="text-sm mt-1" style={{ color: "#8A6A4A" }}>{L.subtitle}</p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
           {/* Unit toggle */}
-          <div className="flex rounded-xl overflow-hidden border text-xs" style={{ borderColor: "#E8D4C0" }}>
+          <div className="flex rounded-xl overflow-hidden border text-xs" style={{ borderColor: "#3A2416" }}>
             {(["metric", "imperial"] as UnitSystem[]).map((s) => (
               <button key={s} onClick={() => setUnitSystem(s)}
                 className="px-2.5 py-1.5 font-medium transition-colors"
-                style={{ background: unitSystem === s ? "#C85A2F" : "#fff", color: unitSystem === s ? "#fff" : "#6B5B52" }}>
+                style={{ background: unitSystem === s ? "#C85A2F" : "#2A1804", color: unitSystem === s ? "#fff" : "#8A6A4A" }}>
                 {s === "metric" ? L.metric : L.imperial}
               </button>
             ))}
@@ -558,7 +558,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           {/* Language picker */}
           <select value={lang} onChange={(e) => setLang(e.target.value as LangKey)}
             className="px-2 py-1.5 rounded-xl border text-xs focus:outline-none"
-            style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817" }}>
+            style={{ borderColor: "#3A2416", background: "#1C1209", color: "#EFE3CE" }}>
             <option value="en">🇬🇧 EN</option>
             <option value="es">🇪🇸 ES</option>
             <option value="de">🇩🇪 DE</option>
@@ -567,8 +567,8 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       </div>
 
       {/* Add ingredient */}
-      <div className="rounded-2xl border p-4 mb-6" style={{ borderColor: "#F5E6D3", background: "#fff" }}>
-        <p className="text-sm font-medium mb-3" style={{ color: "#3D2817" }}>{L.addIngredient}</p>
+      <div className="rounded-2xl border p-4 mb-6" style={{ borderColor: "#3A2416", background: "#2A1804" }}>
+        <p className="text-sm font-medium mb-3" style={{ color: "#EFE3CE" }}>{L.addIngredient}</p>
 
         {/* Input row */}
         <div className="flex gap-2 mb-2 relative">
@@ -583,17 +583,17 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
               onBlur={() => setTimeout(() => setShowSuggestions(false), 120)}
               placeholder={L.placeholder}
               className="w-full px-4 py-2.5 rounded-xl border text-sm focus:outline-none focus:ring-2"
-              style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817" }}
+              style={{ borderColor: "#3A2416", background: "#1C1209", color: "#EFE3CE" }}
               autoComplete="off"
             />
             {/* Autocomplete dropdown */}
             {showSuggestions && (
               <div className="absolute top-full left-0 right-0 z-20 mt-1 rounded-xl border shadow-lg overflow-hidden"
-                style={{ background: "#fff", borderColor: "#E8D4C0" }}>
+                style={{ background: "#2A1804", borderColor: "#3A2416" }}>
                 {suggestions.map((s) => (
                   <button key={s} onMouseDown={() => pickSuggestion(s)}
-                    className="w-full text-left flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-amber-50 transition-colors"
-                    style={{ color: "#3D2817" }}>
+                    className="w-full text-left flex items-center gap-2.5 px-4 py-2.5 text-sm hover:bg-[#3A2416] transition-colors"
+                    style={{ color: "#EFE3CE" }}>
                     <span className="text-base w-6 text-center">{getIngredientEmoji(s)}</span>
                     {s}
                   </button>
@@ -610,13 +610,13 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
             onKeyDown={(e) => e.key === "Enter" && handleAdd()}
             placeholder={L.qty}
             className="w-16 px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
-            style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817" }}
+            style={{ borderColor: "#3A2416", background: "#1C1209", color: "#EFE3CE" }}
           />
 
           {/* Unit */}
           <select value={unit} onChange={(e) => setUnit(e.target.value)}
             className="w-20 px-2 py-2.5 rounded-xl border text-sm focus:outline-none"
-            style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817" }}>
+            style={{ borderColor: "#3A2416", background: "#1C1209", color: "#EFE3CE" }}>
             {unitOptions.map((u) => <option key={u} value={u}>{u}</option>)}
           </select>
 
@@ -633,23 +633,23 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
         </div>
 
         {error && <p className="text-xs mt-1" style={{ color: "#991B1B" }}>{error}</p>}
-        <p className="text-xs mt-2" style={{ color: "#A69180" }}>{L.aiNote}</p>
+        <p className="text-xs mt-2" style={{ color: "#8A6A4A" }}>{L.aiNote}</p>
 
         {/* Photo / receipt extraction */}
-        <div className="mt-3 pt-3 border-t" style={{ borderColor: "#F5E6D3" }}>
+        <div className="mt-3 pt-3 border-t" style={{ borderColor: "#3A2416" }}>
           <button
             type="button"
             onClick={() => fileInputRef.current?.click()}
             disabled={photoLoading}
             className="flex items-center gap-2 px-4 py-2 rounded-xl border text-sm font-medium transition-colors disabled:opacity-50"
-            style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817" }}
+            style={{ borderColor: "#3A2416", background: "#2A1804", color: "#EFE3CE" }}
           >
             {photoLoading
               ? <Loader2 className="w-4 h-4 animate-spin" style={{ color: "#C85A2F" }} />
               : <Camera className="w-4 h-4" style={{ color: "#C85A2F" }} />}
             {photoLoading ? "Scanning…" : "Extract from photo or receipt"}
           </button>
-          <p className="text-xs mt-1" style={{ color: "#A69180" }}>
+          <p className="text-xs mt-1" style={{ color: "#8A6A4A" }}>
             Snap your fridge, pantry shelf, or a grocery receipt — AI reads all the ingredients.
           </p>
 
@@ -659,9 +659,9 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
 
           {/* Extracted ingredients confirmation */}
           {extractedIngredients.length > 0 && (
-            <div className="mt-3 rounded-xl border p-3" style={{ borderColor: "#E8D4C0", background: "#fff" }}>
+            <div className="mt-3 rounded-xl border p-3" style={{ borderColor: "#3A2416", background: "#2A1804" }}>
               <div className="flex items-center justify-between mb-2">
-                <p className="text-xs font-semibold" style={{ color: "#3D2817" }}>
+                <p className="text-xs font-semibold" style={{ color: "#EFE3CE" }}>
                   Found {extractedIngredients.length} ingredient{extractedIngredients.length !== 1 ? "s" : ""} — pick which to add:
                 </p>
                 <div className="flex gap-2">
@@ -675,7 +675,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                   <button
                     type="button"
                     onClick={() => setSelectedExtracted(new Set())}
-                    className="text-xs" style={{ color: "#A69180" }}
+                    className="text-xs" style={{ color: "#8A6A4A" }}
                   >
                     None
                   </button>
@@ -698,9 +698,9 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                       }}
                       className="flex items-center gap-1 px-2.5 py-1 rounded-full border text-xs transition-all"
                       style={{
-                        borderColor: checked ? "#C85A2F" : "#E8D4C0",
-                        background: checked ? "#FFF0E6" : "#FAF7F2",
-                        color: checked ? "#C85A2F" : "#6B5B52",
+                        borderColor: checked ? "#C85A2F" : "#3A2416",
+                        background: checked ? "#3D2010" : "#2A1804",
+                        color: checked ? "#C85A2F" : "#8A6A4A",
                       }}
                     >
                       {checked
@@ -727,7 +727,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                 <button
                   type="button"
                   onClick={() => { setExtractedIngredients([]); setSelectedExtracted(new Set()); }}
-                  className="text-xs" style={{ color: "#A69180" }}
+                  className="text-xs" style={{ color: "#8A6A4A" }}
                 >
                   Dismiss
                 </button>
@@ -740,24 +740,24 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       {/* Search */}
       {items.length > 4 && (
         <div className="relative mb-5">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: "#A69180" }} />
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: "#8A6A4A" }} />
           <input
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder={L.search}
             className="w-full pl-10 pr-4 py-2.5 rounded-xl border text-sm focus:outline-none"
-            style={{ borderColor: "#E8D4C0", background: "#fff", color: "#3D2817" }}
+            style={{ borderColor: "#3A2416", background: "#1C1209", color: "#EFE3CE" }}
           />
         </div>
       )}
 
       {/* Empty state */}
       {items.length === 0 && (
-        <div className="rounded-2xl border p-12 text-center" style={{ borderColor: "#F5E6D3", borderStyle: "dashed" }}>
+        <div className="rounded-2xl border p-12 text-center" style={{ borderColor: "#3A2416", borderStyle: "dashed" }}>
           <ShoppingBasket className="w-8 h-8 mx-auto mb-3" style={{ color: "#C85A2F", opacity: 0.35 }} />
-          <p className="text-sm mb-1 font-medium" style={{ color: "#3D2817" }}>{L.empty}</p>
-          <p className="text-xs" style={{ color: "#6B5B52" }}>{L.emptyHint}</p>
+          <p className="text-sm mb-1 font-medium" style={{ color: "#EFE3CE" }}>{L.empty}</p>
+          <p className="text-xs" style={{ color: "#8A6A4A" }}>{L.emptyHint}</p>
         </div>
       )}
 
@@ -771,9 +771,9 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                 {cat ? (
                   <CategoryBadge name={cat.name} emoji={cat.emoji} color={cat.color} size="md" />
                 ) : (
-                  <span className="text-sm font-semibold" style={{ color: "#3D2817" }}>{catName}</span>
+                  <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{catName}</span>
                 )}
-                <span className="text-xs" style={{ color: "#A69180" }}>{catItems.length}</span>
+                <span className="text-xs" style={{ color: "#8A6A4A" }}>{catItems.length}</span>
               </div>
               <div className="flex flex-wrap gap-2">
                 {catItems.map((item) => {
@@ -782,15 +782,14 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                     <div key={item.id}
                       className="flex items-center gap-2 px-3 py-1.5 rounded-full border text-sm"
                       style={{
-                        borderColor: "#E8D4C0",
-                        background: "rgba(255,255,255,0.75)",
-                        backdropFilter: "blur(8px)",
-                        color: "#3D2817",
+                        borderColor: "#3A2416",
+                        background: "#2A1804",
+                        color: "#EFE3CE",
                       }}>
                       <span className="text-base">{getIngredientEmoji(item.name)}</span>
                       <span>{item.name}</span>
                       {item.quantity && (
-                        <span className="text-xs" style={{ color: "#A69180" }}>{item.quantity}</span>
+                        <span className="text-xs" style={{ color: "#8A6A4A" }}>{item.quantity}</span>
                       )}
                       {expiryStatus && (
                         <span className="text-xs font-semibold flex items-center gap-0.5"
@@ -806,12 +805,12 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                             type="date"
                             autoFocus
                             className="text-xs px-1.5 py-0.5 rounded-lg border"
-                            style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817", fontSize: "0.65rem" }}
+                            style={{ borderColor: "#3A2416", background: "#1C1209", color: "#EFE3CE", fontSize: "0.65rem" }}
                             onChange={(e) => e.target.value && setItemExpiry(item.id, e.target.value)}
                             onBlur={() => setEditingExpiry(null)}
                           />
                           {expiryStatus && (
-                            <button onClick={() => clearItemExpiry(item.id)} className="text-xs" style={{ color: "#A69180" }}>✕</button>
+                            <button onClick={() => clearItemExpiry(item.id)} className="text-xs" style={{ color: "#8A6A4A" }}>✕</button>
                           )}
                         </div>
                       ) : (
@@ -820,7 +819,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                           onClick={() => setEditingExpiry(item.id)}
                           className="hover:opacity-70 transition-opacity"
                           title="Set expiry date"
-                          style={{ color: expiryStatus ? expiryStatus.color : "#A69180" }}
+                          style={{ color: expiryStatus ? expiryStatus.color : "#8A6A4A" }}
                         >
                           <Calendar className="w-3 h-3" />
                         </button>
@@ -830,7 +829,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                         onClick={() => handleRescue(item)}
                         title="Find recipes using this"
                         className="hover:opacity-70 transition-opacity"
-                        style={{ color: rescueItemId === item.id ? "#C85A2F" : "#A69180" }}
+                        style={{ color: rescueItemId === item.id ? "#C85A2F" : "#8A6A4A" }}
                       >
                         <ChefHat className="w-3 h-3" />
                       </button>
@@ -838,7 +837,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
                         type="button"
                         onClick={() => setPendingDelete(item.id)}
                         className="ml-1 hover:text-red-500 transition-colors"
-                        style={{ color: "#A69180" }}
+                        style={{ color: "#8A6A4A" }}
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
@@ -863,14 +862,14 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
         const atRisk = items.filter(i => { const s = getExpiryStatus(i); return s && s.daysLeft >= 0 && s.daysLeft <= 5; });
         if (atRisk.length === 0) return null;
         return (
-          <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)", backdropFilter: "blur(8px)" }}>
+          <div className="mt-4 rounded-2xl border p-4" style={{ borderColor: "#3A2416", background: "#2A1804" }}>
             <div className="flex items-center gap-2 mb-2">
               <Leaf className="w-4 h-4" style={{ color: "#16A34A" }} />
-              <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
+              <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>
                 Waste Not — {atRisk.length} item{atRisk.length !== 1 ? "s" : ""} expiring soon
               </p>
             </div>
-            <p className="text-xs mb-3" style={{ color: "#6B5B52" }}>
+            <p className="text-xs mb-3" style={{ color: "#8A6A4A" }}>
               Use up: {atRisk.map(i => i.name).join(", ")}
             </p>
             <button
@@ -901,9 +900,9 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
             {wasteNotRecipes && wasteNotRecipes.length > 0 && (
               <div className="mt-3 flex flex-col gap-2">
                 {wasteNotRecipes.map((r, i) => (
-                  <div key={i} className="rounded-xl p-3 border" style={{ background: "#fff", borderColor: "#E8D4C0" }}>
-                    <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>{r.title}</p>
-                    {r.reason && <p className="text-xs mt-0.5" style={{ color: "#6B5B52" }}>{r.reason}</p>}
+                  <div key={i} className="rounded-xl p-3 border" style={{ background: "#1C1209", borderColor: "#3A2416" }}>
+                    <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{r.title}</p>
+                    {r.reason && <p className="text-xs mt-0.5" style={{ color: "#8A6A4A" }}>{r.reason}</p>}
                   </div>
                 ))}
               </div>
@@ -915,8 +914,8 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       {/* Notification toggle */}
       <div className="mt-4 flex items-center justify-between px-1">
         <div className="flex items-center gap-2">
-          {notifEnabled ? <Bell className="w-4 h-4" style={{ color: "#C85A2F" }} /> : <BellOff className="w-4 h-4" style={{ color: "#A69180" }} />}
-          <span className="text-xs" style={{ color: "#6B5B52" }}>Expiry alerts</span>
+          {notifEnabled ? <Bell className="w-4 h-4" style={{ color: "#C85A2F" }} /> : <BellOff className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
+          <span className="text-xs" style={{ color: "#8A6A4A" }}>Expiry alerts</span>
         </div>
         <button
           onClick={() => {
@@ -925,7 +924,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
             try { localStorage.setItem("wc_expiry_notif_v1", JSON.stringify(updated)); } catch {}
           }}
           className="relative w-10 h-5 rounded-full transition-colors"
-          style={{ background: notifEnabled ? "#C85A2F" : "#E8D4C0" }}
+          style={{ background: notifEnabled ? "#C85A2F" : "#3A2416" }}
           aria-label="Toggle expiry alerts"
         >
           <span
@@ -938,12 +937,12 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       {/* Find recipes CTA */}
       {items.length >= 2 && (
         <div className="mt-6 rounded-2xl border p-5 flex items-center justify-between gap-4"
-          style={{ borderColor: "#E8D4C0", background: "rgba(255,255,255,0.75)", backdropFilter: "blur(8px)" }}>
+          style={{ borderColor: "#3A2416", background: "#2A1804" }}>
           <div>
-            <p className="text-sm font-semibold" style={{ color: "#3D2817" }}>
+            <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>
               {L.youHave} {items.length} {L.ingredients}
             </p>
-            <p className="text-xs mt-0.5" style={{ color: "#6B5B52" }}>{L.findUsingPantry}</p>
+            <p className="text-xs mt-0.5" style={{ color: "#8A6A4A" }}>{L.findUsingPantry}</p>
           </div>
           <a href={`/discover?ingredients=${items.map((i) => i.name).join(",")}`}
             className="shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm"
