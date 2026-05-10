@@ -1,6 +1,7 @@
-playwright==1.44.0
-recipe-scrapers==14.55.0
+playwright
+recipe-scrapers
 supabase==2.28.3
-python-dotenv==1.0.1
-pytest==8.2.0
-requests==2.32.3
+python-dotenv
+pytrends
+requests
+pytest
