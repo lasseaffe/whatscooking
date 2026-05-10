@@ -55,10 +55,7 @@ export default function OnboardingShell({
         <StepProgress currentStep={currentStep} />
         <button
           onClick={() => setShowSkipConfirm(true)}
-          className="text-xs font-mono tracking-widest uppercase transition-colors"
-          style={{ color: "#5A3A28" }}
-          onMouseEnter={e => (e.currentTarget.style.color = "#9A7A5A")}
-          onMouseLeave={e => (e.currentTarget.style.color = "#5A3A28")}
+          className="text-xs font-mono tracking-widest uppercase text-[#5A3A28] hover:text-[#9A7A5A] transition-colors"
         >
           Skip tour
         </button>
@@ -101,7 +98,7 @@ export default function OnboardingShell({
 
       {/* Skip confirm */}
       {showSkipConfirm && (
-        <div className="fixed inset-0 flex items-center justify-center z-50" style={{ background: "rgba(0,0,0,0.7)" }}>
+        <div role="dialog" aria-modal="true" className="fixed inset-0 flex items-center justify-center z-50" style={{ background: "rgba(0,0,0,0.7)" }}>
           <div
             className="rounded-2xl p-6 max-w-sm w-full mx-4"
             style={{ background: "#1a1008", border: "1px solid rgba(58,36,22,0.6)" }}

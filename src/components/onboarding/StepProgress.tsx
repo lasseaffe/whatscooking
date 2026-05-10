@@ -28,12 +28,9 @@ export default function StepProgress({ currentStep }: { currentStep: string }) {
             key={step}
             className="h-1 w-6 rounded-full transition-all duration-300"
             style={{
-              background:
-                i < currentIndex
-                  ? "var(--wc-pal-accent, #B07D56)"
-                  : i === currentIndex
-                  ? "var(--wc-pal-accent, #B07D56)"
-                  : "rgba(90,58,40,0.3)",
+              background: i <= currentIndex
+                ? "var(--wc-pal-accent, #B07D56)"
+                : "rgba(90,58,40,0.3)",
               opacity: i === currentIndex ? 0.7 : 1,
             }}
           />
