@@ -1,5 +1,27 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-10
+
+### Unified Recipe Pipeline — Task 1: Directory Scaffolding & Requirements Update
+
+**Created:**
+- `pipeline/lib/__init__.py` — empty module for pipeline library utilities
+- `pipeline/strategies/__init__.py` — empty module for multi-strategy scrapers
+- `pipeline/logs/.gitkeep` — log directory placeholder
+- `tests/__init__.py` — test root module
+- `tests/pipeline/__init__.py` — pipeline tests module
+
+**Updated:**
+- `pipeline/requirements.txt` — added `pytrends` (Google Trends API), normalized versions to abstract (no pinned `==` except `supabase==2.28.3`)
+
+**Installed:**
+- `pytrends==4.9.2` and dependencies (`pandas==3.0.2`, `tzdata==2026.2`)
+- `requests` and `pytest` were already satisfied
+
+**Commit:** `d28ba45`
+
+---
+
 ## [Unreleased] — 2026-05-09
 
 ### Baby & Family Hub — Task 6: Baby Recipe Adaptation Snippet API
