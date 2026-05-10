@@ -53,3 +53,8 @@ htmlcov/
 
 .vercel
 .worktrees/
+
+# Pipeline
+pipeline/output/*.sql
+pipeline/output/*.log
+pipeline/rotation_state.json
