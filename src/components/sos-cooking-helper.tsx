@@ -117,10 +117,10 @@ export function SOSCookingHelper({ recipeTitle, ingredients }: Props) {
             color: "#fff",
             boxShadow: "0 4px 20px rgba(200,90,47,0.4)",
           }}
-          aria-label="SOS Kitchen Help"
+          aria-label="The Kitchen Oracle"
         >
           <span style={{ fontSize: 18 }}>🆘</span>
-          <span>SOS Help</span>
+          <span>The Kitchen Oracle</span>
         </button>
       </div>
 
@@ -147,7 +147,7 @@ export function SOSCookingHelper({ recipeTitle, ingredients }: Props) {
             >
               <span style={{ fontSize: 24 }}>🆘</span>
               <div className="flex-1">
-                <p className="font-bold text-white text-sm">SOS Kitchen Helper</p>
+                <p className="font-bold text-white text-sm">The Kitchen Oracle</p>
                 {recipeTitle && (
                   <p className="text-xs" style={{ color: "rgba(255,255,255,0.75)" }}>
                     Cooking: {recipeTitle}

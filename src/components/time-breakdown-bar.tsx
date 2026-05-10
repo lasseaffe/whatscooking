@@ -211,9 +211,10 @@ interface Props {
   prepTimeMinutes: number;
   cookTimeMinutes: number;
   instructions: string[];
+  scrollToStep?: (stepIndex: number) => void;
 }
 
-export function TimeBreakdownBar({ prepTimeMinutes, cookTimeMinutes, instructions }: Props) {
+export function TimeBreakdownBar({ prepTimeMinutes, cookTimeMinutes, instructions, scrollToStep }: Props) {
   const [hovered, setHovered] = useState<number | null>(null);
   const segments = buildTimeSegments(instructions, prepTimeMinutes, cookTimeMinutes);
   const totalMins = segments.reduce((a, b) => a + b.minutes, 0);
@@ -229,6 +230,21 @@ export function TimeBreakdownBar({ prepTimeMinutes, cookTimeMinutes, instruction
 
   return (
     <div className="mb-6">
+      {/* Mobile: compact pill row */}
+      <div className="flex flex-wrap gap-1.5 sm:hidden">
+        {segments.map((seg, i) => (
+          <button
+            key={i}
+            onClick={() => scrollToStep?.(i)}
+            className="flex items-center gap-1 px-2 py-1 rounded-full text-xs font-medium"
+            style={{ background: seg.color + "22", color: seg.color, border: `1px solid ${seg.color}44` }}
+          >
+            <span>{seg.icon}</span>
+            <span>{formatTime(seg.minutes)}</span>
+          </button>
+        ))}
+      </div>
+      <div className="hidden sm:block">
       {/* Header */}
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center gap-2">
@@ -291,6 +307,7 @@ export function TimeBreakdownBar({ prepTimeMinutes, cookTimeMinutes, instruction
             <span className="text-xs" style={{ color: "#A69180" }}>{formatTime(seg.minutes)}</span>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
