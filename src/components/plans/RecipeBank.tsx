@@ -178,20 +178,32 @@ export function RecipeBank({
 
   useEffect(() => {
     if (!planId) return;
+    const controller = new AbortController();
     setRecsLoading(true);
-    fetch(`/api/recipes/recommend?plan_id=${encodeURIComponent(planId)}`)
+    fetch(`/api/recipes/recommend?plan_id=${encodeURIComponent(planId)}`, {
+      signal: controller.signal,
+    })
       .then((r) => r.json())
       .then((data) => {
         setRecs(Array.isArray(data) ? data : []);
         setFeaturedIdx(0);
       })
-      .catch(() => setRecs([]))
+      .catch((e) => { if (e.name !== "AbortError") setRecs([]); })
       .finally(() => setRecsLoading(false));
+    return () => controller.abort();
   }, [planId]);
 
   useEffect(() => {
     if (focusMealType) searchRef.current?.focus();
   }, [focusMealType]);
+
+  useEffect(() => () => {
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+  }, []);
+
+  useEffect(() => {
+    setFeaturedIdx(0);
+  }, [activeFilters, query]);
 
   const search = useCallback((q: string) => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
