@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { ChefHat } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { CookingModeProvider, useCookingMode } from "@/lib/cooking-mode-context";
@@ -109,14 +110,27 @@ export function CookingModeWrapper(props: CookingModeWrapperProps) {
 }
 
 // Standalone CTA — must be rendered inside a CookingModeWrapper (shared context).
-export function CookingModeCTA() {
+export function CookingModeCTA({ commentsRef: _commentsRef }: { commentsRef?: React.RefObject<HTMLElement | null> }) {
   const { activate } = useCookingMode();
-  return (
+  const [isSticky, setIsSticky] = useState(true);
+
+  useEffect(() => {
+    const sentinel = document.getElementById("cta-sentinel");
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsSticky(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, []);
+
+  const btn = (
     <button
       type="button"
       onClick={activate}
       aria-label="Enter Cooking Mode"
-      className="flex items-center justify-center gap-3 w-full rounded-2xl font-bold transition-all hover:opacity-90 active:scale-[0.98] shadow-lg"
+      className="flex items-center justify-center gap-3 rounded-2xl font-bold transition-all hover:opacity-90 active:scale-[0.98] shadow-lg"
       style={{
         padding: "1rem 1.5rem",
         background: "linear-gradient(135deg, rgba(200,82,42,0.18) 0%, rgba(176,125,86,0.12) 100%)",
@@ -131,5 +145,16 @@ export function CookingModeCTA() {
         — keeps screen on
       </span>
     </button>
+  );
+
+  return (
+    <>
+      {/* Desktop: static below image */}
+      <div className="hidden lg:block w-full">{btn}</div>
+      {/* Mobile: sticky center-bottom when sentinel not visible */}
+      <div className={`lg:hidden ${isSticky ? "fixed bottom-4 left-1/2 -translate-x-1/2 z-40" : "relative mt-4"}`}>
+        {btn}
+      </div>
+    </>
   );
 }

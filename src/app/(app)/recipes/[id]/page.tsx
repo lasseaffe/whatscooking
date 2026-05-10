@@ -7,7 +7,6 @@ import { TimeBreakdownBar } from "@/components/time-breakdown-bar";
 import { RecipeColumnsClient } from "./recipe-columns-client";
 import { extractAndSaveRecipe } from "@/lib/extract-recipe";
 import { RecipeHeroImage } from "./recipe-hero-image";
-import { SOSCookingHelper } from "@/components/sos-cooking-helper";
 import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-mode-wrapper";
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
@@ -134,7 +133,7 @@ export default async function RecipePage({
           <ChevronLeft style={{ width: 16, height: 16 }} /> Back to recipes
         </Link>
 
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+        <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12 items-start">
 
           {/* ── Left: title + metadata ── */}
           <div className="flex-1 flex flex-col gap-4 lg:py-2">
@@ -286,6 +285,9 @@ export default async function RecipePage({
       {/* Mobile sticky CTA sentinel — triggers when interactions section enters view */}
       <MobileStickyCTA hasInstructions={instructions.length > 0} />
 
+      {/* Sentinel — CTA unsticks when this enters viewport */}
+      <div id="cta-sentinel" />
+
       <div className="px-6 py-8 max-w-5xl mx-auto space-y-8">
         <RecipeInteractions
           recipeId={id}
@@ -307,8 +309,6 @@ export default async function RecipePage({
         </section>
       )}
 
-      {/* SOS helper */}
-      <SOSCookingHelper recipeTitle={displayTitle} ingredients={ingredients} />
     </CookingModeWrapper>
   );
 }

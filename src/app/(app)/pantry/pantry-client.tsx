@@ -9,6 +9,7 @@ import { searchIngredients } from "@/lib/common-ingredients";
 import type { PantryItem, IngredientCategory } from "@/lib/types";
 import { PantryScramble } from "./pantry-scramble";
 import { LeftoverStorage } from "./leftover-storage";
+import { SharedPantryTab } from "./shared-pantry-tab";
 
 // ── Unit system helpers ──────────────────────────────────────
 type UnitSystem = "metric" | "imperial";
@@ -131,9 +132,10 @@ interface Props {
   initialItems: PantryItem[];
   categories: IngredientCategory[];
   initialHouseholdTags: string[];
+  userId: string;
 }
 
-export function PantryClient({ initialItems, categories, initialHouseholdTags }: Props) {
+export function PantryClient({ initialItems, categories, initialHouseholdTags, userId }: Props) {
   const [items, setItems] = useState<PantryItem[]>(initialItems);
   const [input, setInput] = useState("");
   const [quantity, setQuantity] = useState("");
@@ -155,7 +157,7 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags }:
   const fileInputRef = useRef<HTMLInputElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const L = LABELS[lang];
-  const [activeTab, setActiveTab] = useState<"pantry" | "leftovers">("pantry");
+  const [activeTab, setActiveTab] = useState<"pantry" | "leftovers" | "shared">("pantry");
   // Household pantry view: "shared" | "mine" — shared is default
   const [pantryView, setPantryView] = useState<"shared" | "mine">("shared");
   const [showSharePanel, setShowSharePanel] = useState(false);
@@ -521,9 +523,22 @@ export function PantryClient({ initialItems, categories, initialHouseholdTags }:
         >
           <ChefHat className="w-4 h-4" /> Leftovers & Storage
         </button>
+        <button
+          onClick={() => setActiveTab("shared")}
+          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all"
+          style={{
+            background: activeTab === "shared" ? "#fff" : "transparent",
+            color: activeTab === "shared" ? "#3D2817" : "#A69180",
+            boxShadow: activeTab === "shared" ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
+          }}
+        >
+          <Users className="w-4 h-4" /> Shared Pantry
+        </button>
       </div>
 
       {activeTab === "leftovers" && <LeftoverStorage />}
+
+      {activeTab === "shared" && <SharedPantryTab userId={userId} />}
 
       {activeTab === "pantry" && <>
 

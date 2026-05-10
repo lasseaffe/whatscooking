@@ -1,52 +1,48 @@
 import { createClient } from "@/lib/supabase/server";
-import { DiscoverClient } from "./discover-client";
+import { CUISINES } from "@/lib/cuisines";
+import { DiscoverHubClient } from "./discover-hub-client";
 
 export const dynamic = "force-dynamic";
 
-export default async function DiscoverPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string; type?: string; diet?: string }>;
-}) {
-  const { q, type, diet } = await searchParams;
+export default async function DiscoverPage() {
   const supabase = await createClient();
-
   const { data: { user } } = await supabase.auth.getUser();
 
   const [
-    { data: recipes },
+    { data: swipeRecipes },
+    { data: gridRecipes },
     { data: pantryItems },
   ] = await Promise.all([
-    // All non-drink, non-hack, non-premium recipes
-    // Use .or() so rows with null dish_types (most scraped recipes) are included
     supabase
       .from("recipes")
-      .select("*", { count: "exact" })
-      .or('dish_types.is.null,dish_types.not.cs.{drink}')
-      .or('dish_types.is.null,dish_types.not.cs.{hack}')
-      .or('dish_types.is.null,dish_types.not.cs.{premium}')
+      .select("id, title, description, image_url, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories")
+      .not("image_url", "is", null)
+      .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
+      .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+      .limit(30),
+
+    supabase
+      .from("recipes")
+      .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, difficulty_level")
+      .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
+      .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+      .order("created_at", { ascending: false })
       .limit(300),
 
-    // User's pantry ingredient names for match scoring
     user
-      ? supabase
-          .from("pantry_items")
-          .select("name")
-          .eq("user_id", user.id)
-      : Promise.resolve({ data: [] }),
+      ? supabase.from("pantry_items").select("name").eq("user_id", user.id)
+      : Promise.resolve({ data: [] as { name: string }[], error: null }),
   ]);
 
-  const pantryNames = (pantryItems ?? []).map((p: { name: string }) => p.name.toLowerCase());
+  const pantryNames = (pantryItems ?? []).map((p) => p.name.toLowerCase());
+  const cuisines = CUISINES.slice(0, 20);
 
   return (
-    <div>
-      <DiscoverClient
-        initialRecipes={recipes ?? []}
-        initialQ={q ?? ""}
-        initialType={type ?? "all"}
-        initialDiet={diet ?? ""}
-        pantryNames={pantryNames}
-      />
-    </div>
+    <DiscoverHubClient
+      swipeRecipes={swipeRecipes ?? []}
+      gridRecipes={gridRecipes ?? []}
+      cuisines={cuisines}
+      pantryNames={pantryNames}
+    />
   );
 }

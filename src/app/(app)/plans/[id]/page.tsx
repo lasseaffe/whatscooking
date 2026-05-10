@@ -2,7 +2,8 @@ import { createClient } from "@/lib/supabase/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { PlanBuilder, type BuilderEntry } from "./plan-builder";
+import { type BuilderEntry } from "./plan-builder";
+import { PlanPageClient } from "./plan-page-client";
 import { SavedRecipeFit } from "./saved-recipe-fit";
 
 export const dynamic = "force-dynamic";
@@ -67,13 +68,18 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
         </span>
       </div>
 
-      {/* Interactive builder */}
-      <PlanBuilder
-        planId={id}
-        planTitle={plan.title}
-        durationDays={plan.duration_days ?? 7}
-        dietaryFilters={plan.dietary_filters ?? []}
-        nutritionalGoals={plan.nutritional_goals ?? {}}
+      {/* Interactive builder — grid/list toggle */}
+      <PlanPageClient
+        plan={{
+          id,
+          title: plan.title,
+          duration_days: plan.duration_days ?? 7,
+          week_start: plan.week_start ?? null,
+          dietary_filters: plan.dietary_filters ?? [],
+          nutritional_goals: plan.nutritional_goals ?? {},
+          status: plan.status ?? "draft",
+          meals_per_day: plan.meals_per_day ?? 3,
+        }}
         initialEntries={initialEntries}
       />
 

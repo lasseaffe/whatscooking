@@ -1,8 +1,18 @@
 import Link from "next/link";
 import { Sparkles, ExternalLink, BookOpen, Flame, Users, TrendingUp, Heart, Calendar, ShoppingBasket, UtensilsCrossed } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { createClient } from "@/lib/supabase/server";
 
-export default function LandingPage() {
+export default async function LandingPage() {
+  const supabase = await createClient();
+  const { data: trendingRecipes } = await supabase
+    .from("recipes")
+    .select("id, title, description, image_url, cuisine_type, prep_time_minutes, cook_time_minutes, dietary_tags")
+    .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
+    .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+    .not("image_url", "is", null)
+    .order("created_at", { ascending: false })
+    .limit(8);
   return (
     <div className="min-h-screen flex flex-col" style={{ color: "var(--fg-primary, #fff)" }}>
 
@@ -372,6 +382,52 @@ export default function LandingPage() {
               </span>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ── Trending Recipes ── */}
+      <section className="px-6 py-16 max-w-6xl mx-auto">
+        <h2
+          className="text-2xl font-bold mb-2"
+          style={{ fontFamily: "'Libre Baskerville', Georgia, serif", color: "var(--wc-text, #EFE3CE)" }}
+        >
+          Trending Right Now
+        </h2>
+        <p className="text-sm mb-8" style={{ color: "#7A5A40" }}>
+          Fresh from the community — no paywalls, no sign-up required.
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {(trendingRecipes ?? []).map((r) => (
+            <a
+              key={r.id}
+              href={`/recipes/${r.id}`}
+              className="group rounded-2xl overflow-hidden flex flex-col"
+              style={{ background: "var(--wc-surface-1, #2C2724)", border: "1px solid rgba(255,255,255,0.06)" }}
+            >
+              <div className="relative overflow-hidden" style={{ paddingBottom: "66%" }}>
+                <img
+                  src={r.image_url ?? ""}
+                  alt={r.title}
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-3 flex flex-col gap-1">
+                <p className="text-sm font-semibold line-clamp-2 leading-snug" style={{ color: "#EFE3CE" }}>{r.title}</p>
+                <p className="text-xs" style={{ color: "#6B5040" }}>
+                  {[r.cuisine_type, r.prep_time_minutes ? `${r.prep_time_minutes}m` : null].filter(Boolean).join(" · ")}
+                </p>
+              </div>
+            </a>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <a
+            href="/discover"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl font-semibold text-sm"
+            style={{ background: "var(--wc-accent-saffron, #F4A261)", color: "#1C0E04" }}
+          >
+            Browse all recipes →
+          </a>
         </div>
       </section>
 

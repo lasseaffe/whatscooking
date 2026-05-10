@@ -43,7 +43,7 @@ function phaseOrder(p: Phase): number {
   return map[p] ?? 0;
 }
 
-function PhaseStepper({ phase, cookingDone }: { phase: Phase; cookingDone: boolean }) {
+function PhaseStepper({ phase, cookingDone, onPhaseClick }: { phase: Phase; cookingDone: boolean; onPhaseClick: (p: Phase) => void }) {
   const currentOrder = phaseOrder(phase);
   return (
     <div className="flex items-center gap-1 px-5 pt-5 pb-3">
@@ -54,6 +54,10 @@ function PhaseStepper({ phase, cookingDone }: { phase: Phase; cookingDone: boole
         return (
           <div key={step.key} className="flex items-center gap-1 flex-1 last:flex-none">
             <div className="flex items-center gap-1.5">
+              <button
+                onClick={() => step.key !== "done" && onPhaseClick(step.key as Phase)}
+                style={{ background: "none", border: "none", padding: 0 }}
+              >
               <div
                 className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shrink-0 transition-all"
                 style={{
@@ -74,6 +78,7 @@ function PhaseStepper({ phase, cookingDone }: { phase: Phase; cookingDone: boole
               >
                 {step.label}
               </span>
+              </button>
             </div>
             {i < PHASE_STEPS.length - 1 && (
               <div className="flex-1 h-px mx-1" style={{ background: isDone ? "rgba(130,142,111,0.3)" : "rgba(42,24,8,0.4)" }} />
@@ -941,6 +946,7 @@ function InlineSOSHelper({ stepText }: { stepText: string }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
+        title="Ask The Kitchen Oracle for help with this step"
         className="mt-3 flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg transition-all hover:opacity-80"
         style={{ background: "rgba(200,82,42,0.12)", color: "#C8522A", border: "1px solid rgba(200,82,42,0.25)" }}
       >
@@ -1464,8 +1470,8 @@ export function RecipeColumnsClient({
                 <ChevronLeft style={{ width: 14, height: 14 }} />
               </button>
             </div>
-            {/* Serving size multiplier */}
-            <div className="flex items-center gap-2 mb-3 pl-10">
+            {/* Serving size multiplier — desktop only */}
+            <div className="hidden lg:flex items-center gap-2 mb-3 pl-10">
               <span className="text-xs font-semibold" style={{ color: "#4A3020" }}>Servings</span>
               <ServingControl base={base} current={servings} onChange={setServings} />
               {multiplier !== 1 && (
@@ -1473,6 +1479,12 @@ export function RecipeColumnsClient({
                   ×{parseFloat(multiplier.toFixed(2))}
                 </span>
               )}
+            </div>
+            {/* Mobile-only serving control */}
+            <div className="flex lg:hidden items-center gap-3 px-5 py-3 border-b" style={{ borderColor: "rgba(42,24,8,0.3)" }}>
+              <span className="text-xs font-semibold" style={{ color: "#8A6A4A" }}>Servings</span>
+              <ServingControl base={base ?? 2} current={servings} onChange={setServings} />
+              <UnitToggle value={unitSystem} onChange={setUnitSystem} />
             </div>
             {ingredients.length > 0 ? (
               <>
@@ -1509,7 +1521,7 @@ export function RecipeColumnsClient({
         }}
       >
         {/* Phase progress stepper */}
-        <PhaseStepper phase={phase} cookingDone={cookingDone} />
+        <PhaseStepper phase={phase} cookingDone={cookingDone} onPhaseClick={(p) => setPhase(p)} />
 
         <div className="p-5 pt-2">
           {/* ── Phase III: Cook — numbered steps with Pro-Tips ── */}
