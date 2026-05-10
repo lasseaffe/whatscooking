@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import { useDroppable } from "@dnd-kit/core";
 import { X, Plus, Coffee, UtensilsCrossed, Soup, Cookie, Loader2, Flame } from "lucide-react";
 import { RecipeImage } from "@/components/recipe-image";
@@ -57,7 +57,7 @@ const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct"
 
 function dayLabel(dayNumber: number, weekStart: string | null | undefined): { short: string; sub: string } {
   if (!weekStart) return { short: `Day ${dayNumber}`, sub: "" };
-  const base = new Date(weekStart);
+  const base = new Date(`${weekStart}T12:00:00`);
   base.setDate(base.getDate() + dayNumber - 1);
   return {
     short: `${DAY_NAMES[base.getDay()]} ${base.getDate()}`,
@@ -122,15 +122,18 @@ export function WeeklyPlanGrid({
     setAutofillState((prev) => { const next = { ...prev }; delete next[key]; return next; });
   }, []);
 
-  function dayMacros(day: number) {
-    const dayEntries = entries.filter((e) => e.day_number === day);
-    return {
-      calories: dayEntries.reduce((s, e) => s + (e.calories ?? 0), 0),
-      protein_g: dayEntries.reduce((s, e) => s + (e.protein_g ?? 0), 0),
-      carbs_g: dayEntries.reduce((s, e) => s + (e.carbs_g ?? 0), 0),
-      fat_g: dayEntries.reduce((s, e) => s + (e.fat_g ?? 0), 0),
-    };
-  }
+  const macrosByDay = useMemo(() => {
+    const map: Record<number, { calories: number; protein_g: number; carbs_g: number; fat_g: number }> = {};
+    for (const e of entries) {
+      const d = e.day_number;
+      if (!map[d]) map[d] = { calories: 0, protein_g: 0, carbs_g: 0, fat_g: 0 };
+      map[d].calories  += e.calories  ?? 0;
+      map[d].protein_g += e.protein_g ?? 0;
+      map[d].carbs_g   += e.carbs_g   ?? 0;
+      map[d].fat_g     += e.fat_g     ?? 0;
+    }
+    return map;
+  }, [entries]);
 
   function macroColor(actual: number, goal: number | undefined): string {
     if (!goal) return "#8A6A4A";
@@ -197,10 +200,14 @@ export function WeeklyPlanGrid({
                   onAutofillTrigger={() => handleAutofill(day, type)}
                   onAutofillAccept={(s) => { onAutofillAccept(day, type, s); dismissAutofill(key); }}
                   onAutofillSkip={() =>
-                    setAutofillState((prev) => ({
-                      ...prev,
-                      [key]: { ...prev[key], idx: (prev[key].idx + 1) % Math.max(prev[key].suggestions.length, 1) },
-                    }))
+                    setAutofillState((prev) => {
+                      const cur = prev[key];
+                      if (!cur) return prev;
+                      return {
+                        ...prev,
+                        [key]: { ...cur, idx: (cur.idx + 1) % Math.max(cur.suggestions.length, 1) },
+                      };
+                    })
                   }
                   onDismissAutofill={() => dismissAutofill(key)}
                   onSearchInstead={() => { dismissAutofill(key); onOpenRecipeBank?.(type); }}
@@ -231,7 +238,7 @@ export function WeeklyPlanGrid({
           </div>
           {Array.from({ length: durationDays }, (_, i) => {
             const day = i + 1;
-            const m = dayMacros(day);
+            const m = macrosByDay[day] ?? { calories: 0, protein_g: 0, carbs_g: 0, fat_g: 0 };
             const calGoal = nutritionalGoals?.calories;
             return (
               <div key={day} className="py-1.5 text-center">
@@ -301,6 +308,7 @@ function GridCell({
         </div>
         <button
           onClick={() => onRemove(entry.clientId)}
+          aria-label={`Remove ${entry.recipe_title}`}
           className="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity rounded-full p-0.5"
           style={{ background: "#2A1F14" }}
         >
@@ -335,7 +343,7 @@ function GridCell({
           <button onClick={() => onAutofillAccept(s)} className="flex-1 text-xs py-0.5 rounded" style={{ background: "#E67E22", color: "#1A120A" }}>Add</button>
           <button onClick={onAutofillSkip} className="flex-1 text-xs py-0.5 rounded" style={{ background: "#2A1F14", color: "#8A6A4A" }}>Skip</button>
         </div>
-        <button onClick={onDismissAutofill} className="absolute top-1 right-1" style={{ color: "#6B4E36" }}>
+        <button onClick={onDismissAutofill} aria-label="Dismiss suggestion" className="absolute top-1 right-1" style={{ color: "#6B4E36" }}>
           <X className="w-3 h-3" />
         </button>
         <button onClick={onSearchInstead} className="mt-1 text-xs w-full text-center underline" style={{ color: "#6B4E36" }}>
