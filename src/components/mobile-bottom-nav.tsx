@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import {
   LayoutDashboard, UtensilsCrossed, Calendar, ShoppingBasket,
-  ChefHat, Heart, BookOpen, Globe, Shuffle, Target,
+  ChefHat, Heart, BookOpen, Globe, Target,
   PartyPopper, User, Settings, X, LogOut, Leaf, Trophy,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
@@ -22,7 +22,6 @@ const MORE_ITEMS = [
   { href: "/saved",          label: "Saved Recipes",   icon: Heart },
   { href: "/my-recipes",     label: "My Recipes",      icon: BookOpen },
   { href: "/cookbooks",      label: "Cookbooks",       icon: BookOpen },
-  { href: "/swipe",          label: "Meal Swipe",      icon: Shuffle },
   { href: "/cuisines",        label: "World Cuisines",  icon: Globe },
   { href: "/world-cup-2026",  label: "World Cup 2026",  icon: Trophy },
   { href: "/calorie-tracker",label: "Nutrient Tracker",icon: Target },
