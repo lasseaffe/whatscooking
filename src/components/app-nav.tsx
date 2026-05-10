@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
-  Target, LogOut, Shuffle, Globe, Trophy, Compass,
+  Target, LogOut, Globe, Trophy, Compass,
   ChevronRight, ShoppingCart,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
@@ -32,12 +32,6 @@ const NAV_GROUPS: NavGroup[] = [
         href: "/discover",
         label: "Discover",
         icon: Compass,
-        desc: "",
-      },
-      {
-        href: "/swipe",
-        label: "Meal Swipe",
-        icon: Shuffle,
         desc: "",
       },
       {
