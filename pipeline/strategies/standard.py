@@ -4,25 +4,13 @@ from typing import Any
 
 from pipeline.config import (
     STANDARD_CATEGORIES_ROTATION, CATEGORIES_PER_RUN,
-    CATEGORY_LISTING_URLS, ROTATION_STATE_FILE, SUPABASE_URL, SUPABASE_KEY,
+    CATEGORY_LISTING_URLS, ROTATION_STATE_FILE,
 )
 from pipeline.lib.scrape import get_links_from_listing, scrape_urls
 from pipeline.lib.compose import build_composite_prompt, call_ollama
 from pipeline.lib.validate import validate_recipe
 from pipeline.strategies.base import BaseStrategy
-
-
-def _get_existing_urls() -> set[str]:
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return set()
-    try:
-        from supabase import create_client
-        client = create_client(SUPABASE_URL, SUPABASE_KEY)
-        result = client.table("recipes").select("source_url").eq("source", "curated").execute()
-        return {row["source_url"] for row in result.data if row.get("source_url")}
-    except Exception as e:
-        print(f"  [standard] Dedup check failed: {e}")
-        return set()
+from pipeline.lib.dedup import get_existing_urls
 
 
 def _load_rotation_state() -> int:
@@ -58,7 +46,7 @@ class StandardStrategy(BaseStrategy):
         next_index = (start_index + CATEGORIES_PER_RUN) % total
         _save_rotation_state(next_index)
 
-        existing_urls = _get_existing_urls()
+        existing_urls = get_existing_urls()
         self._raw_batches = []
 
         for category in categories:

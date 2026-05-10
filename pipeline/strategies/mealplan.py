@@ -64,8 +64,9 @@ class MealplanStrategy(BaseStrategy):
         self._recipes: list[dict] = []
 
     def scrape(self) -> list[dict]:
-        # No scraping — pure generation. Returns one sentinel; compose() generates all 7.
-        return [{"_generate": True}]
+        # No scraping — pure generation. Return 7 sentinels so the orchestrator calls compose() 7 times.
+        from pipeline.config import RECIPES_PER_STRATEGY
+        return [{"_generate": True}] * RECIPES_PER_STRATEGY["mealplan"]
 
     def compose(self, raw: list[dict]) -> dict | None:
         # Generate all 7 at once; cache remaining in self._recipes

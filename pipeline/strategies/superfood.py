@@ -5,12 +5,13 @@ from pathlib import Path
 from pipeline.config import (
     USDA_FDC_API_KEY, SUPERFOOD_NUTRIENT_ROTATION,
     CATEGORY_LISTING_URLS, RECIPES_PER_STRATEGY,
-    ROTATION_STATE_FILE, SUPABASE_URL, SUPABASE_KEY,
+    ROTATION_STATE_FILE,
 )
 from pipeline.lib.scrape import get_links_from_listing, scrape_urls
 from pipeline.lib.compose import build_composite_prompt, call_ollama
 from pipeline.lib.validate import validate_recipe
 from pipeline.strategies.base import BaseStrategy
+from pipeline.lib.dedup import get_existing_urls
 
 # USDA FDC nutrient IDs for each rotation slot
 NUTRIENT_IDS = {
@@ -80,19 +81,6 @@ def _fetch_top_ingredients(nutrient: str, n: int = 5) -> list[str]:
         return FALLBACK_INGREDIENTS.get(nutrient, ["spinach"])[:n]
 
 
-def _get_existing_urls() -> set[str]:
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        return set()
-    try:
-        from supabase import create_client
-        client = create_client(SUPABASE_URL, SUPABASE_KEY)
-        result = client.table("recipes").select("source_url").eq("source", "curated").execute()
-        return {row["source_url"] for row in result.data if row.get("source_url")}
-    except Exception as e:
-        print(f"  [superfood] Dedup check failed: {e}")
-        return set()
-
-
 class SuperfoodStrategy(BaseStrategy):
     def __init__(self) -> None:
         self._raw: list[dict] = []
@@ -104,7 +92,7 @@ class SuperfoodStrategy(BaseStrategy):
         _save_nutrient_rotation_index(idx + 1)
 
         ingredients = _fetch_top_ingredients(self._nutrient, n=3)
-        existing_urls = _get_existing_urls()
+        existing_urls = get_existing_urls()
 
         all_links: list[str] = []
         for ingredient in ingredients:
