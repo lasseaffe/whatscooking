@@ -1,10 +1,10 @@
 // src/components/onboarding/onboarding.motion.ts
-import type { Variants } from 'framer-motion'
+import type { Variants, TargetAndTransition } from 'framer-motion'
 
 export interface MotionPreset {
   cardVariants: Variants
-  cardHover: Record<string, unknown>
-  cardSelect: Record<string, unknown>
+  cardHover: TargetAndTransition
+  cardSelect: TargetAndTransition
   stepTransition: Record<string, unknown>
   screenVariants: Variants
 }
