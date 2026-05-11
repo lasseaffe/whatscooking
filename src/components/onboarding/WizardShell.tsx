@@ -17,19 +17,26 @@ export function WizardShell({ config, state, onAnswer, onAdvance, onSkip }: Wiza
   const { theme, wizard } = config
   const step = wizard.steps[state.wizardStep]
   const preset = MOTION_PRESETS[theme.motion]
-  const currentAnswer = state.wizardAnswers[step?.id ?? '']
-  const hasAnswer = Array.isArray(currentAnswer) ? currentAnswer.length > 0 : Boolean(currentAnswer)
 
   if (!step) return null
 
   const StepComponent = step.component
+  const currentAnswer = state.wizardAnswers[step.id]
+  const hasAnswer = Array.isArray(currentAnswer) ? currentAnswer.length > 0 : Boolean(currentAnswer)
 
   return (
     <div style={{
-      position: 'fixed', inset: 0, zIndex: 9999,
+      position: 'fixed',
+      top: 0,
+      bottom: 0,
+      left: '50%',
+      transform: 'translateX(-50%)',
+      width: '100%',
+      maxWidth: 460,
+      zIndex: 9999,
       background: theme.bg,
-      display: 'flex', flexDirection: 'column',
-      maxWidth: 460, margin: '0 auto',
+      display: 'flex',
+      flexDirection: 'column',
     }}>
       {/* Status bar area */}
       <div style={{ padding: '12px 22px 0', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -109,7 +116,7 @@ export function WizardShell({ config, state, onAnswer, onAdvance, onSkip }: Wiza
                 cursor: 'pointer',
                 fontFamily: theme.motion === 'terminal' ? "'JetBrains Mono', monospace" : 'Georgia, serif',
                 letterSpacing: theme.motion === 'terminal' ? 2 : 0.3,
-                textTransform: (theme.motion === 'terminal' ? 'uppercase' : undefined) as React.CSSProperties['textTransform'],
+                textTransform: theme.motion === 'terminal' ? ('uppercase' as const) : undefined,
                 boxShadow: theme.motion !== 'terminal' ? `0 4px 20px ${theme.accent}44` : undefined,
               }}
             >
