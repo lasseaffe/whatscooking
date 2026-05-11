@@ -40,15 +40,31 @@ export async function POST(req: NextRequest) {
     const body: SOSTipsRequest = await req.json();
     const { recipeTitle, ingredients, steps } = body;
 
+    if (!recipeTitle?.trim()) {
+      return NextResponse.json({ error: "recipeTitle required" }, { status: 400 });
+    }
+    if (steps.length > 50) {
+      return NextResponse.json({ error: "steps limited to 50" }, { status: 400 });
+    }
+    if (ingredients.length > 100) {
+      return NextResponse.json({ error: "ingredients limited to 100" }, { status: 400 });
+    }
+    if (recipeTitle.length > 500) {
+      return NextResponse.json({ error: "recipeTitle too long" }, { status: 400 });
+    }
     if (!steps?.length) {
       return NextResponse.json({ error: "steps required" }, { status: 400 });
     }
+
+    const sanitize = (s: string) => s.replace(/[\n\r]/g, " ").slice(0, 500);
+    const safeTitle = sanitize(recipeTitle);
+    const safeSteps = steps.map(sanitize);
 
     const ingredientList = ingredients
       .map((i) => `${i.amount ?? ""}${i.unit ? " " + i.unit : ""} ${i.name}`.trim())
       .join(", ");
 
-    const stepsText = steps
+    const stepsText = safeSteps
       .map((s, i) => `Step ${i + 1}: ${s}`)
       .join("\n");
 
@@ -63,7 +79,7 @@ export async function POST(req: NextRequest) {
         },
         {
           role: "user",
-          content: `Recipe: ${recipeTitle}\nIngredients: ${ingredientList}\n\n${stepsText}`,
+          content: `Recipe: ${safeTitle}\nIngredients: ${ingredientList}\n\n${stepsText}`,
         },
       ],
     });
@@ -76,6 +92,13 @@ export async function POST(req: NextRequest) {
     } catch {
       return NextResponse.json({ error: "Failed to parse AI response" }, { status: 500 });
     }
+
+    if (!Array.isArray(tips) || tips.length === 0) {
+      console.warn("[sos-tips] AI returned empty or invalid tips array");
+      return NextResponse.json({ error: "Failed to generate tips" }, { status: 500 });
+    }
+    // Pad with empty strings if AI returned fewer tips than steps
+    while (tips.length < steps.length) tips.push("");
 
     return NextResponse.json({ tips });
   } catch (error) {
