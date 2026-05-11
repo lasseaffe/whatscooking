@@ -1562,3 +1562,8 @@ html[data-theme="light"] {
   color: rgba(107, 78, 54, 0.5);
   pointer-events: none;
 }
+
+/* ── Feature card demo reveal on hover ──────────────── */
+.feature-cell:hover .feature-demo-reveal {
+  max-height: 12rem !important;
+}

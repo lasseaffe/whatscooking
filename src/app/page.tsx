@@ -1,8 +1,17 @@
+import React from "react";
 import Link from "next/link";
 import { Sparkles, ExternalLink, BookOpen, Flame, Users, TrendingUp, Heart, Calendar, ShoppingBasket, UtensilsCrossed } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { ReportButton } from "@/components/landing/ReportButton";
 import { createClient } from "@/lib/supabase/server";
+import { MealPlannerDemo } from "@/components/landing/feature-demos/MealPlannerDemo";
+import { DiscoverDemo }    from "@/components/landing/feature-demos/DiscoverDemo";
+import { MealSwipeDemo }   from "@/components/landing/feature-demos/MealSwipeDemo";
+import { ImportDemo }      from "@/components/landing/feature-demos/ImportDemo";
+import { EventsDemo }      from "@/components/landing/feature-demos/EventsDemo";
+import { PantryDemo }      from "@/components/landing/feature-demos/PantryDemo";
+import { CollabDemo }      from "@/components/landing/feature-demos/CollabDemo";
+import { RecsDemo }        from "@/components/landing/feature-demos/RecsDemo";
 
 export default async function LandingPage() {
   const supabase = await createClient();
@@ -194,23 +203,32 @@ export default async function LandingPage() {
               className="p-9 transition-colors feature-cell group"
               style={{ background: "var(--bg-primary, #121211)" }}
             >
-              <div
-                className="flex items-start justify-between mb-6"
-              >
-                <div
-                  className="w-9 h-9 flex items-center justify-center"
-                  style={{ background: "color-mix(in srgb, var(--wc-accent-persimmon, #8B2635) 12%, transparent)" }}
-                >
-                  <f.icon
-                    className="w-4 h-4"
-                    strokeWidth={1.3}
-                    style={{ color: "var(--wc-accent-persimmon, #8B2635)" }}
-                  />
+              {/* Course label (all cards except 0) */}
+              {i > 0 && (
+                <div className="flex items-start justify-between mb-6">
+                  <span className="label-ornament opacity-40" style={{ fontSize: "0.58rem", letterSpacing: "0.3em" }}>
+                    Course {(i + 1).toString().padStart(2, "0")}
+                  </span>
                 </div>
-                <span className="label-ornament opacity-40" style={{ fontSize: "0.58rem", letterSpacing: "0.3em" }}>
-                  Course {(i + 1).toString().padStart(2, "0")}
-                </span>
-              </div>
+              )}
+
+              {/* AI Meal Planner mini-grid anchor (card 0 only, always visible) */}
+              {i === 0 && (
+                <div className="mb-6">
+                  <div className="grid grid-cols-7 gap-1 mb-1">
+                    {["M","T","W","T","F","S","S"].map((d, di) => (
+                      <div key={di} className="text-center font-mono" style={{ fontSize: "6px", color: "var(--fg-tertiary, #9c9c9b)", paddingBottom: "3px" }}>{d}</div>
+                    ))}
+                    {[0.3,0.6,0.2,0.5,0,0.4,0.7].map((op, ci) => (
+                      <div key={ci} style={{ height: "6px", borderRadius: "2px", background: op ? `rgba(200,120,42,${op})` : "transparent", border: op ? "none" : "1px solid rgba(200,120,42,0.15)" }} />
+                    ))}
+                    {[0.7,0.8,0.5,0.9,0.6,0.3,0].map((op, ci) => (
+                      <div key={ci} style={{ height: "6px", borderRadius: "2px", background: op ? `rgba(200,120,42,${op})` : "transparent", border: op ? "none" : "1px solid rgba(200,120,42,0.15)" }} />
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <h3
                 className="font-serif-display mb-3 group-hover:text-claret transition-colors"
                 style={{ color: "var(--fg-primary, #EFE3CE)", fontSize: "1.1rem", fontWeight: 400 }}
@@ -220,6 +238,18 @@ export default async function LandingPage() {
               <p className="text-sm leading-relaxed" style={{ color: "var(--fg-tertiary, #9c9c9b)" }}>
                 {f.description}
               </p>
+
+              {/* Hover-reveal demo area */}
+              <div className="feature-demo-reveal overflow-hidden transition-all duration-500" style={{ maxHeight: 0 }}>
+                <f.Demo />
+                <Link
+                  href={f.route}
+                  className="inline-block mt-1 text-xs font-semibold transition-opacity hover:opacity-70"
+                  style={{ color: "var(--wc-copper, #C8782A)", letterSpacing: "0.06em" }}
+                >
+                  Try it
+                </Link>
+              </div>
             </div>
           ))}
         </div>
@@ -490,45 +520,69 @@ function SectionDivider() {
   );
 }
 
-const features = [
+type Feature = {
+  icon: React.ComponentType<{ className?: string; strokeWidth?: number; style?: React.CSSProperties }>;
+  title: string;
+  description: string;
+  Demo: React.ComponentType;
+  route: string;
+};
+
+const features: Feature[] = [
   {
     icon: Sparkles,
     title: "AI Meal Planner",
     description: "Tell us your preferences and get a fully personalised weekly meal plan with shopping lists, built around your life.",
+    Demo: MealPlannerDemo,
+    route: "/plans",
   },
   {
     icon: Flame,
     title: "Discover & Trending",
     description: "Browse trending recipes from the community. Filter by cuisine, cooking time, dietary needs, or mood.",
+    Demo: DiscoverDemo,
+    route: "/discover",
   },
   {
     icon: Heart,
     title: "Meal Swipe",
     description: "Swipe through recipes like never before. Like what you see, skip what you don't.",
+    Demo: MealSwipeDemo,
+    route: "/discover",
   },
   {
     icon: BookOpen,
     title: "Social Recipe Import",
     description: "Spotted something on Instagram or TikTok? Paste the link and we extract every ingredient and step automatically.",
+    Demo: ImportDemo,
+    route: "/my-recipes/new",
   },
   {
     icon: Calendar,
     title: "Events & Occasions",
     description: "Plan the perfect date night, birthday, or dinner party with AI-curated menus.",
+    Demo: EventsDemo,
+    route: "/events",
   },
   {
     icon: ShoppingBasket,
     title: "Smart Pantry",
     description: "Track what you have, get alerts before things expire, zero food waste.",
+    Demo: PantryDemo,
+    route: "/pantry",
   },
   {
     icon: Users,
     title: "Collaborative Cooking",
     description: "Plan meals with family or friends in real time. Share notes, assign courses, and prep together effortlessly.",
+    Demo: CollabDemo,
+    route: "/plans",
   },
   {
     icon: TrendingUp,
     title: "Smart Recommendations",
     description: "The more you cook, the smarter it gets. Suggestions shaped by your taste, goals, and favourite cuisines.",
+    Demo: RecsDemo,
+    route: "/discover",
   },
 ];
