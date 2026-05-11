@@ -97,3 +97,23 @@ test('setAnswer stores answer keyed by step id', () => {
   act(() => result.current.setAnswer('cook-type', 'home-cook'))
   expect(result.current.state.wizardAnswers['cook-type']).toBe('home-cook')
 })
+
+test('loads partial localStorage and merges with default state', () => {
+  // Only 'mode' is stored — completedActions, dismissedBeacons etc. are missing
+  localStorage.setItem('test-ob', JSON.stringify({ mode: 'tour' }))
+  const { result } = renderHook(() => useOnboardingState(mockConfig))
+  expect(result.current.state.mode).toBe('tour')
+  expect(result.current.state.completedActions).toEqual([])
+  expect(result.current.state.dismissedBeacons).toEqual([])
+  expect(result.current.state.wizardAnswers).toEqual({})
+})
+
+test('state updates in React even when localStorage.setItem throws', () => {
+  const spy = jest.spyOn(Storage.prototype, 'setItem').mockImplementation(() => {
+    throw new Error('QuotaExceededError')
+  })
+  const { result } = renderHook(() => useOnboardingState(mockConfig))
+  act(() => result.current.skip())
+  expect(result.current.state.mode).toBe('done')
+  spy.mockRestore()
+})
