@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import {
-  Heart, X, Clock, Flame, ExternalLink, Info, Bookmark, BookmarkCheck,
+  Heart, X, Clock, Flame, ExternalLink, Bookmark, BookmarkCheck,
   ChevronDown, ChevronUp, Zap, Mountain,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
@@ -61,7 +61,7 @@ export function RecipeCard({
           style={{ background: "rgba(0,0,0,0.35)" }}
           aria-label="View details"
         >
-          <Info className="w-4 h-4 text-white" />
+          <ExternalLink className="w-4 h-4 text-white" />
         </button>
         <button
           onPointerDown={(e) => e.stopPropagation()}
