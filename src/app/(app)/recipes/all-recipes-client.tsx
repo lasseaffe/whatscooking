@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useCallback } from "react";
 import {
   Search, ChevronDown, ChevronUp, X, SlidersHorizontal, Clock,
   LayoutGrid, List,
@@ -98,7 +98,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
   if (view === "list") {
     return (
       <Link
-        href={`/meals/${recipe.id}`}
+        href={`/recipes/${recipe.id}`}
         className="flex items-center gap-3 p-3 rounded-xl border transition-all hover:border-amber-700/50 group"
         style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
       >
@@ -131,7 +131,11 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
             )}
           </div>
         </div>
-        <div className="shrink-0 pr-3" onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+        <div
+          className="shrink-0 pr-3"
+          onPointerDown={(e) => { e.stopPropagation(); e.nativeEvent.stopImmediatePropagation(); }}
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); e.nativeEvent.stopImmediatePropagation(); }}
+        >
           <ReportButton recipeId={recipe.id} recipeName={recipe.title} iconSize={12} />
         </div>
       </Link>
@@ -140,7 +144,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
 
   return (
     <Link
-      href={`/meals/${recipe.id}`}
+      href={`/recipes/${recipe.id}`}
       className="group rounded-2xl overflow-hidden border transition-all hover:-translate-y-0.5 hover:shadow-lg"
       style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
     >
@@ -161,7 +165,11 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
             <Clock className="w-3 h-3" />{totalTime}m
           </span>
         )}
-        <div className="absolute bottom-2 right-2 z-10" onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+        <div
+          className="absolute bottom-2 right-2 z-10"
+          onPointerDown={(e) => { e.stopPropagation(); e.nativeEvent.stopImmediatePropagation(); }}
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); e.nativeEvent.stopImmediatePropagation(); }}
+        >
           <ReportButton recipeId={recipe.id} recipeName={recipe.title} iconSize={12} />
         </div>
       </div>
@@ -209,7 +217,13 @@ function TagPill({
   );
 }
 
-export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
+export function AllRecipesClient({
+  recipes: initialRecipes,
+  total: initialTotal,
+}: {
+  recipes: Recipe[];
+  total: number;
+}) {
   const [query, setQuery] = useState("");
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
   const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set());
@@ -220,69 +234,73 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
   const [utensilFilters, setUtensilFilters] = useState<string[]>([]);
   const [utensilMode, setUtensilMode] = useState<"positive" | "negative">("negative");
 
-  const tagCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const recipe of recipes) {
-      const all = [
-        ...(recipe.dish_types ?? []),
-        ...(recipe.dietary_tags ?? []),
-        recipe.cuisine_type ?? "",
-      ].map((s) => s.toLowerCase().trim()).filter(Boolean);
-      for (const t of all) counts[t] = (counts[t] ?? 0) + 1;
-    }
-    return counts;
-  }, [recipes]);
+  const [displayedRecipes, setDisplayedRecipes] = useState<Recipe[]>(initialRecipes);
+  const [page, setPage] = useState(0);
+  const [total, setTotal] = useState(initialTotal);
+  const [hasMore, setHasMore] = useState(initialTotal > initialRecipes.length);
+  const [isLoading, setIsLoading] = useState(false);
+  const searchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  function getTagCount(tag: string): number {
-    const lower = tag.toLowerCase();
-    if (tagCounts[lower]) return tagCounts[lower];
-    let total = 0;
-    for (const [key, cnt] of Object.entries(tagCounts)) {
-      if (key.includes(lower) || lower.includes(key)) total += cnt;
-    }
-    return total;
-  }
+  const fetchRecipes = useCallback(async (opts: {
+    page: number;
+    search: string;
+    tags: Set<string>;
+    diets: Set<string>;
+    difficulty: string | null;
+    append: boolean;
+  }) => {
+    setIsLoading(true);
+    const params = new URLSearchParams({ page: String(opts.page), limit: "50" });
+    if (opts.search.trim()) params.set("search", opts.search.trim());
+    if (opts.difficulty)    params.set("difficulty", opts.difficulty);
+    const allTags = [...opts.tags, ...opts.diets].filter(Boolean);
+    if (allTags.length)     params.set("tags", allTags.join(","));
 
-  const filtered = useMemo(() => {
-    let result = recipes;
-    if (query.trim()) {
-      const q = query.toLowerCase();
-      result = result.filter((r) =>
-        r.title.toLowerCase().includes(q) ||
-        (r.description ?? "").toLowerCase().includes(q) ||
-        (r.cuisine_type ?? "").toLowerCase().includes(q)
-      );
+    try {
+      const res = await fetch(`/api/recipes/list?${params}`);
+      if (!res.ok) throw new Error("fetch failed");
+      const json = await res.json();
+      const fetched: Recipe[] = json.recipes ?? [];
+      setDisplayedRecipes(prev => opts.append ? [...prev, ...fetched] : fetched);
+      setTotal(json.total ?? 0);
+      setHasMore(json.hasMore ?? false);
+      setPage(opts.page);
+    } catch {
+      // Keep existing recipes on network failure
+    } finally {
+      setIsLoading(false);
     }
-    if (activeTags.size > 0) {
-      result = result.filter((r) => [...activeTags].some((tag) => recipeMatchesTag(r, tag)));
-    }
-    if (activeDiets.size > 0) {
-      result = result.filter((r) =>
-        [...activeDiets].some((diet) =>
-          (r.dietary_tags ?? []).some((dt) => dt.toLowerCase().includes(diet.toLowerCase()))
-        )
-      );
-    }
-    if (activeDifficulty) {
-      result = result.filter((r) => r.difficulty_level === activeDifficulty);
-    }
-    // Utensil positive filter
-    if (utensilFilters.length > 0 && utensilMode === "positive") {
-      result = result.filter((r) =>
-        utensilFilters.some((u) =>
-          (r.required_utensils ?? []).some((ru) => ru.toLowerCase().includes(u.toLowerCase()))
-        )
-      );
-    }
-    return result;
-  }, [recipes, query, activeTags, activeDiets, activeDifficulty, utensilFilters, utensilMode]);
+  }, []);
 
-  const toggleTag = (tag: string) =>
-    setActiveTags((p) => { const n = new Set(p); n.has(tag) ? n.delete(tag) : n.add(tag); return n; });
+  const localFiltered = useMemo(() => {
+    if (utensilFilters.length === 0 || utensilMode !== "positive") return displayedRecipes;
+    return displayedRecipes.filter((r) =>
+      utensilFilters.some((u) =>
+        (r.required_utensils ?? []).some((ru) => ru.toLowerCase().includes(u.toLowerCase()))
+      )
+    );
+  }, [displayedRecipes, utensilFilters, utensilMode]);
+
+  const toggleTag = (tag: string) => {
+    setActiveTags((prev) => {
+      const next = new Set(prev);
+      next.has(tag) ? next.delete(tag) : next.add(tag);
+      fetchRecipes({ page: 0, search: query, tags: next, diets: activeDiets, difficulty: activeDifficulty, append: false });
+      return next;
+    });
+  };
+
+  const toggleDiet = (diet: string) => {
+    setActiveDiets((prev) => {
+      const next = new Set(prev);
+      next.has(diet) ? next.delete(diet) : next.add(diet);
+      fetchRecipes({ page: 0, search: query, tags: activeTags, diets: next, difficulty: activeDifficulty, append: false });
+      return next;
+    });
+  };
+
   const toggleGroup = (label: string) =>
     setExpandedGroups((p) => { const n = new Set(p); n.has(label) ? n.delete(label) : n.add(label); return n; });
-  const toggleDiet = (diet: string) =>
-    setActiveDiets((p) => { const n = new Set(p); n.has(diet) ? n.delete(diet) : n.add(diet); return n; });
 
   const activeFilterCount = activeTags.size + activeDiets.size + (activeDifficulty ? 1 : 0) + utensilFilters.length;
   const hasAnyFilter = activeFilterCount > 0 || Boolean(query.trim());
@@ -292,6 +310,10 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
     setActiveDifficulty(null);
     setQuery("");
     setUtensilFilters([]);
+    setDisplayedRecipes(initialRecipes);
+    setTotal(initialTotal);
+    setHasMore(initialTotal > initialRecipes.length);
+    setPage(0);
   };
 
   return (
@@ -302,7 +324,7 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
           All Recipes
         </h1>
         <p className="text-sm" style={{ color: "#6B5040" }}>
-          {recipes.length.toLocaleString()} recipes &middot; {filtered.length.toLocaleString()} showing
+          {total.toLocaleString()} recipes &middot; {localFiltered.length.toLocaleString()} showing
         </p>
       </div>
 
@@ -314,7 +336,14 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
             type="text"
             placeholder="Search recipes…"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              const val = e.target.value;
+              setQuery(val);
+              if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
+              searchTimerRef.current = setTimeout(() => {
+                fetchRecipes({ page: 0, search: val, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false });
+              }, 300);
+            }}
             className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm border outline-none"
             style={{ background: "rgba(30,18,8,0.6)", borderColor: "rgba(90,50,20,0.4)", color: "#EFE3CE" }}
           />
@@ -428,7 +457,11 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
             <p className="text-xs font-bold uppercase tracking-wider mb-2" style={{ color: "rgba(244,162,97,0.7)" }}>Difficulty</p>
             <div className="flex gap-1.5">
               {DIFFICULTY_OPTIONS.map((d) => (
-                <button key={d} onClick={() => setActiveDifficulty(activeDifficulty === d ? null : d)}
+                <button key={d} onClick={() => {
+                  const next = activeDifficulty === d ? null : d;
+                  setActiveDifficulty(next);
+                  fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: next, append: false });
+                }}
                   className="text-xs px-2.5 py-1 rounded-full border capitalize transition-all hover:scale-105"
                   style={{
                     borderColor: activeDifficulty === d ? "#B07ADA" : "rgba(90,50,20,0.4)",
@@ -481,7 +514,7 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
                           <TagPill
                             key={tag}
                             tag={tag}
-                            count={getTagCount(tag)}
+                            count={0}
                             active={activeTags.has(tag)}
                             onClick={() => toggleTag(tag)}
                           />
@@ -498,13 +531,13 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
 
       {/* ── Recipe grid / list ── */}
       <div className="px-6 pb-10">
-        {filtered.length === 0 ? (
+        {localFiltered.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-24 gap-4">
             <span className="text-5xl">🍳</span>
             <p className="text-base font-semibold" style={{ color: "#EFE3CE" }}>No recipes match your filters</p>
             <p className="text-sm" style={{ color: "#6B5040" }}>Try removing a filter or searching something else</p>
             <button
-              onClick={() => { setQuery(""); setActiveTags(new Set()); setUtensilFilters([]); }}
+              onClick={() => { setQuery(""); setActiveTags(new Set()); setUtensilFilters([]); setDisplayedRecipes(initialRecipes); setTotal(initialTotal); setHasMore(initialTotal > initialRecipes.length); setPage(0); }}
               className="px-4 py-2 rounded-xl text-sm font-semibold"
               style={{ background: "#F4A261", color: "#fff" }}
             >
@@ -513,7 +546,7 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
           </div>
         ) : view === "grid" ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-            {filtered.map((r) => (
+            {localFiltered.map((r) => (
               <RecipeCard
                 key={r.id}
                 recipe={r}
@@ -524,7 +557,7 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
           </div>
         ) : (
           <div className="flex flex-col gap-2 max-w-2xl">
-            {filtered.map((r) => (
+            {localFiltered.map((r) => (
               <RecipeCard
                 key={r.id}
                 recipe={r}
@@ -535,6 +568,37 @@ export function AllRecipesClient({ recipes }: { recipes: Recipe[] }) {
           </div>
         )}
       </div>
+
+      {/* ── Load More ── */}
+      {hasMore && (
+        <div className="px-6 py-8 flex justify-center">
+          <button
+            type="button"
+            disabled={isLoading}
+            onClick={() => fetchRecipes({
+              page: page + 1,
+              search: query,
+              tags: activeTags,
+              diets: activeDiets,
+              difficulty: activeDifficulty,
+              append: true,
+            })}
+            className="px-8 py-3 rounded-2xl text-sm font-semibold transition-all disabled:opacity-50"
+            style={{
+              background: "rgba(90,50,20,0.3)",
+              color: "#C8A882",
+              border: "1px solid rgba(90,50,20,0.5)",
+            }}
+          >
+            {isLoading ? "Loading…" : "Load 50 more recipes"}
+          </button>
+        </div>
+      )}
+      {!hasMore && displayedRecipes.length > 50 && (
+        <p className="py-6 text-center text-sm" style={{ color: "#4A3020" }}>
+          All {total.toLocaleString()} recipes shown
+        </p>
+      )}
     </div>
   );
 }
