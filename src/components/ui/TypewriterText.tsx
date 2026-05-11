@@ -23,6 +23,12 @@ export function TypewriterText({
   const [done, setDone] = useState(false);
   const indexRef = useRef(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const onDoneRef = useRef(onDone);
+
+  // Capture latest onDone without triggering effect restart
+  useEffect(() => {
+    onDoneRef.current = onDone;
+  }, [onDone]);
 
   useEffect(() => {
     // Reset when text changes
@@ -30,7 +36,11 @@ export function TypewriterText({
     setDone(false);
     indexRef.current = 0;
 
-    if (!text) return;
+    if (!text) {
+      setDone(true);
+      onDoneRef.current?.();
+      return;
+    }
 
     timerRef.current = setInterval(() => {
       indexRef.current += 1;
@@ -38,14 +48,23 @@ export function TypewriterText({
       if (indexRef.current >= text.length) {
         clearInterval(timerRef.current!);
         setDone(true);
-        onDone?.();
+        onDoneRef.current?.();
       }
     }, speed);
 
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [text, speed, onDone]);
+  }, [text, speed]);
+
+  // Inject keyframe once
+  useEffect(() => {
+    if (document.getElementById("tw-blink-style")) return;
+    const style = document.createElement("style");
+    style.id = "tw-blink-style";
+    style.textContent = "@keyframes tw-blink{0%,100%{opacity:1}50%{opacity:0}}";
+    document.head.appendChild(style);
+  }, []);
 
   return (
     <span className={className} style={style}>
@@ -64,7 +83,6 @@ export function TypewriterText({
           }}
         />
       )}
-      <style>{`@keyframes tw-blink{0%,100%{opacity:1}50%{opacity:0}}`}</style>
     </span>
   );
 }
