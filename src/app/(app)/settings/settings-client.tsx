@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen } from "lucide-react";
-import Link from "next/link";
+import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle } from "lucide-react";
 import { PaletteSwitcher } from "@/components/palette-switcher";
 import { useTheme } from "@/lib/theme-context";
 
@@ -133,6 +132,106 @@ function DeleteAccountSection() {
   );
 }
 
+type FixSummary = {
+  processed: number;
+  fixed: number;
+  failed: number;
+  results: Array<{ reportId: string; issueType: string; fixed: boolean; method: string; error?: string }>;
+};
+
+function PlaywrightFixerButton() {
+  const [state, setState] = useState<"idle" | "running" | "done" | "error">("idle");
+  const [summary, setSummary] = useState<FixSummary | null>(null);
+  const [errorMsg, setErrorMsg] = useState("");
+
+  async function runFixer() {
+    setState("running");
+    setSummary(null);
+    try {
+      const res = await fetch("/api/admin/playwright-fix", { method: "POST" });
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        setErrorMsg(body.error ?? "Fixer failed");
+        setState("error");
+        return;
+      }
+      const data: FixSummary = await res.json();
+      setSummary(data);
+      setState("done");
+    } catch (e) {
+      setErrorMsg(e instanceof Error ? e.message : "Network error");
+      setState("error");
+    }
+  }
+
+  return (
+    <div>
+      <p className="text-xs mb-4" style={{ color: "#7A5A40", lineHeight: 1.6 }}>
+        Visits each reported recipe&apos;s source URL with a headless browser, extracts the
+        correct image or data (OG tag → largest image → screenshot → AI vision), and
+        auto-resolves the report.
+      </p>
+
+      {state !== "running" && (
+        <button
+          onClick={runFixer}
+          className="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl transition-all hover:opacity-80"
+          style={{
+            background: "rgba(176,125,86,0.15)",
+            color: "var(--wc-pal-accent, #B07D56)",
+            border: "1px solid rgba(176,125,86,0.3)",
+          }}
+        >
+          <Wand2 style={{ width: 13, height: 13 }} />
+          {state === "done" ? "Run again" : "Run Playwright Fixer"}
+        </button>
+      )}
+
+      {state === "running" && (
+        <div className="flex items-center gap-2">
+          <Loader2 style={{ width: 13, height: 13, color: "#B07D56" }} className="animate-spin" />
+          <p className="text-xs" style={{ color: "#7A5A40" }}>
+            Opening browsers, extracting data…
+          </p>
+        </div>
+      )}
+
+      {state === "error" && (
+        <p className="text-xs mt-2" style={{ color: "#B03A2A" }}>{errorMsg}</p>
+      )}
+
+      {state === "done" && summary && (
+        <div
+          className="mt-4 p-3 rounded-xl space-y-2"
+          style={{ background: "rgba(26,16,8,0.5)", border: "1px solid rgba(58,36,22,0.5)" }}
+        >
+          <p className="text-xs font-semibold" style={{ color: "#EFE3CE" }}>
+            {summary.processed} report{summary.processed !== 1 ? "s" : ""} processed —{" "}
+            <span style={{ color: "#4CAF50" }}>{summary.fixed} fixed</span>
+            {summary.failed > 0 && (
+              <>, <span style={{ color: "#B03A2A" }}>{summary.failed} failed</span></>
+            )}
+          </p>
+          <div className="flex flex-col gap-1">
+            {summary.results.map((r) => (
+              <div key={r.reportId} className="flex items-center gap-2 text-xs" style={{ color: "#6B4E36" }}>
+                {r.fixed
+                  ? <CheckCircle2 style={{ width: 11, height: 11, color: "#4CAF50", flexShrink: 0 }} />
+                  : <XCircle style={{ width: 11, height: 11, color: "#B03A2A", flexShrink: 0 }} />
+                }
+                <span>{r.issueType}</span>
+                <span style={{ color: "#4A3020" }}>
+                  {r.fixed ? `via ${r.method}` : r.error ?? "failed"}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function SettingsClient() {
   const { theme, setTheme } = useTheme();
 
@@ -189,17 +288,26 @@ export function SettingsClient() {
           New here? Take a guided tour of everything What&apos;s Cooking can do.
           You can restart it anytime — it only takes two minutes.
         </p>
-        <Link
-          href="/onboarding/welcome"
+        <button
+          onClick={() => {
+            localStorage.removeItem('wc-onboarding');
+            window.location.reload();
+          }}
           className="inline-block text-xs font-semibold px-4 py-2 rounded-xl transition-all hover:opacity-80"
           style={{
             background: "rgba(176,125,86,0.15)",
             color: "var(--wc-pal-accent, #B07D56)",
             border: "1px solid rgba(176,125,86,0.3)",
+            cursor: "pointer",
           }}
         >
-          Start Tour →
-        </Link>
+          Restart Tour →
+        </button>
+      </Section>
+
+      {/* ── Playwright Report Fixer ── */}
+      <Section icon={<Wand2 style={{ width: 16, height: 16 }} />} title="Report Fixer">
+        <PlaywrightFixerButton />
       </Section>
 
       {/* ── Notifications placeholder ── */}
