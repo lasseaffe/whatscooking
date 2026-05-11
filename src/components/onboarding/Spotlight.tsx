@@ -58,6 +58,7 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
   }, [])
 
   if (!rect || !vw) return null
+  if (rect.width === 0 && rect.height === 0) return null
 
   const x = rect.x - padding
   const y = rect.y - padding
@@ -77,8 +78,9 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
         >
           <defs>
             <clipPath id={clipId}>
-              <rect width={vw} height={vh} />
+              <rect width={vw} height={vh} clipRule="evenodd" />
               <motion.rect
+                clipRule="evenodd"
                 animate={{ x, y, width: w, height: h, rx: borderRadius }}
                 transition={{ type: 'spring', stiffness: 300, damping: 30 }}
               />
@@ -88,7 +90,7 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
             width={vw} height={vh}
             fill="rgba(0,0,0,0.72)"
             clipPath={`url(#${clipId})`}
-            style={{ clipRule: 'evenodd', pointerEvents: 'all' } as React.CSSProperties}
+            style={{ pointerEvents: 'all' }}
             onClick={onClick}
           />
           <motion.rect

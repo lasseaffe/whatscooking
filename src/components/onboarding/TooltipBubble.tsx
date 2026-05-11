@@ -28,19 +28,34 @@ function useTooltipPosition(
     if (!visible) return
     const el = document.querySelector(target)
     if (!el) return
-    const r = el.getBoundingClientRect()
     const TOOLTIP_H = 160, TOOLTIP_W = 280, GAP = 16
 
-    const positions = {
-      bottom: { top: r.bottom + GAP, left: r.left + r.width / 2 - TOOLTIP_W / 2 },
-      top:    { top: r.top - TOOLTIP_H - GAP, left: r.left + r.width / 2 - TOOLTIP_W / 2 },
-      right:  { top: r.top + r.height / 2 - TOOLTIP_H / 2, left: r.right + GAP },
-      left:   { top: r.top + r.height / 2 - TOOLTIP_H / 2, left: r.left - TOOLTIP_W - GAP },
+    const compute = () => {
+      const r = el.getBoundingClientRect()
+      const positions = {
+        bottom: { top: r.bottom + GAP, left: r.left + r.width / 2 - TOOLTIP_W / 2 },
+        top:    { top: r.top - TOOLTIP_H - GAP, left: r.left + r.width / 2 - TOOLTIP_W / 2 },
+        right:  { top: r.top + r.height / 2 - TOOLTIP_H / 2, left: r.right + GAP },
+        left:   { top: r.top + r.height / 2 - TOOLTIP_H / 2, left: r.left - TOOLTIP_W - GAP },
+      }
+      const chosen = { ...positions[position] }
+      chosen.left = Math.max(12, Math.min(window.innerWidth - TOOLTIP_W - 12, chosen.left))
+      chosen.top  = Math.max(12, Math.min(window.innerHeight - TOOLTIP_H - 12, chosen.top))
+      setPos(chosen)
     }
-    const chosen = positions[position]
-    chosen.left = Math.max(12, Math.min(window.innerWidth - TOOLTIP_W - 12, chosen.left))
-    chosen.top  = Math.max(12, Math.min(window.innerHeight - TOOLTIP_H - 12, chosen.top))
-    setPos(chosen)
+
+    compute()
+
+    const ro = new ResizeObserver(compute)
+    ro.observe(el)
+    window.addEventListener('scroll', compute, { passive: true })
+    window.addEventListener('resize', compute)
+
+    return () => {
+      ro.disconnect()
+      window.removeEventListener('scroll', compute)
+      window.removeEventListener('resize', compute)
+    }
   }, [target, visible, position])
 
   return pos
