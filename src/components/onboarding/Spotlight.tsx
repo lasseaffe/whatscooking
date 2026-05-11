@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useId } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 interface SpotlightRect { x: number; y: number; width: number; height: number; rx: number }
@@ -27,13 +27,24 @@ function useTargetRect(selector: string, visible: boolean): SpotlightRect | null
       setRect({ x: r2.left, y: r2.top, width: r2.width, height: r2.height, rx: 8 })
     })
     observer.observe(el)
-    return () => observer.disconnect()
+
+    const onScroll = () => {
+      const r2 = el.getBoundingClientRect()
+      setRect({ x: r2.left, y: r2.top, width: r2.width, height: r2.height, rx: 8 })
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('scroll', onScroll)
+    }
   }, [selector, visible])
 
   return rect
 }
 
 export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onClick }: SpotlightProps) {
+  const clipId = useId().replace(/:/g, '')
   const rect = useTargetRect(target, visible)
   const [vw, setVw] = useState(0)
   const [vh, setVh] = useState(0)
@@ -65,7 +76,7 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
           height={vh}
         >
           <defs>
-            <clipPath id="spotlight-clip">
+            <clipPath id={clipId}>
               <rect width={vw} height={vh} />
               <motion.rect
                 animate={{ x, y, width: w, height: h, rx: borderRadius }}
@@ -76,7 +87,7 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
           <rect
             width={vw} height={vh}
             fill="rgba(0,0,0,0.72)"
-            clipPath="url(#spotlight-clip)"
+            clipPath={`url(#${clipId})`}
             style={{ clipRule: 'evenodd', pointerEvents: 'all' } as React.CSSProperties}
             onClick={onClick}
           />
