@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Lightbulb, AlertTriangle, Send, List, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2 } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Lightbulb, List, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2 } from "lucide-react";
 import { StepVisualization } from "@/components/step-visualization";
+import { TypewriterText } from "@/components/ui/TypewriterText";
 
 // ── Types ────────────────────────────────────────────────────
 export interface Ingredient {
@@ -494,141 +495,112 @@ function AnnotatedText({
 }
 
 // ── Inline SOS helper ─────────────────────────────────────────
-function SOSHelper({ stepText, compact }: { stepText: string; compact?: boolean }) {
-  const [open, setOpen] = useState(false);
-  const [messages, setMessages] = useState<{ role: "user" | "assistant"; text: string }[]>([]);
-  const [input, setInput] = useState("");
-  const [loading, setLoading] = useState(false);
-  const bottomRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
+function SOSHelper({
+  stepIndex,
+  stepText,
+  recipeTitle,
+  ingredients,
+  prefetchedTip,
+  prefetchDone,
+}: {
+  stepIndex: number;
+  stepText: string;
+  recipeTitle: string;
+  ingredients: Ingredient[];
+  prefetchedTip: string | undefined;
+  prefetchDone: boolean;
+}) {
+  const [tip, setTip] = useState<string | null>(null);
+  const [fetching, setFetching] = useState(false);
 
+  // Reset when step changes
   useEffect(() => {
-    if (open) setTimeout(() => inputRef.current?.focus(), 80);
-  }, [open]);
+    setTip(null);
+    setFetching(false);
+  }, [stepIndex]);
 
-  useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, loading]);
-
-  const send = useCallback(async (text: string) => {
-    if (!text.trim() || loading) return;
-    setMessages((m) => [...m, { role: "user", text: text.trim() }, { role: "assistant", text: "" }]);
-    setInput("");
-    setLoading(true);
+  async function fetchTip() {
+    if (prefetchedTip) {
+      setTip(prefetchedTip);
+      return;
+    }
+    setFetching(true);
     try {
-      const res = await fetch("/api/sos", {
+      const res = await fetch("/api/sos-tips", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text.trim(), stepContext: stepText }),
+        body: JSON.stringify({
+          recipeTitle,
+          ingredients,
+          steps: [stepText],
+        }),
       });
-      if (!res.body) throw new Error("no body");
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        const chunk = decoder.decode(value);
-        setMessages((m) => {
-          const updated = [...m];
-          updated[updated.length - 1] = { ...updated[updated.length - 1], text: updated[updated.length - 1].text + chunk };
-          return updated;
-        });
-      }
+      const data = await res.json();
+      setTip(data.tips?.[0] ?? "No tip available for this step.");
     } catch {
-      setMessages((m) => {
-        const updated = [...m];
-        updated[updated.length - 1] = { role: "assistant", text: "Something went wrong. Try again." };
-        return updated;
-      });
+      setTip("Couldn't load a tip right now. Try again.");
     } finally {
-      setLoading(false);
+      setFetching(false);
     }
-  }, [loading, stepText]);
-
-  const QUICK = ["This step isn't working", "Substitute an ingredient", "How do I know it's done?"];
-
-  if (!open) {
-    if (compact) {
-      return (
-        <button
-          type="button"
-          onClick={() => setOpen(true)}
-          className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-all hover:opacity-80"
-          style={{ color: "#C8522A", background: "rgba(200,82,42,0.12)", border: "1px solid rgba(200,82,42,0.25)" }}
-        >
-          <AlertTriangle style={{ width: 11, height: 11 }} />
-          SOS Help
-        </button>
-      );
-    }
-    return (
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="mt-6 flex items-center gap-1.5 text-xs transition-all hover:opacity-80"
-        style={{ color: "#4A3828", background: "none", border: "none", padding: 0 }}
-      >
-        <AlertTriangle style={{ width: 10, height: 10 }} />
-        SOS Helper
-      </button>
-    );
   }
 
   return (
     <div
-      className="mt-4 rounded-xl overflow-hidden flex flex-col"
-      style={{ background: "rgba(28,10,5,0.9)", border: "1px solid rgba(200,82,42,0.25)", maxHeight: 260 }}
+      style={{
+        background: "#fdf6e3",
+        border: "1px solid #e8d080",
+        borderTop: "2px dashed #c8a200",
+        borderRadius: "0 0 12px 12px",
+        padding: "12px 14px",
+      }}
     >
-      <div className="flex items-center justify-between px-3 py-2 border-b" style={{ borderColor: "rgba(200,82,42,0.2)" }}>
-        <span className="text-xs font-bold" style={{ color: "#C8522A" }}>SOS Helper</span>
-        <button type="button" onClick={() => setOpen(false)} className="opacity-60 hover:opacity-100">
-          <X style={{ width: 13, height: 13, color: "#C8522A" }} />
-        </button>
+      <div
+        style={{
+          fontSize: 9,
+          fontFamily: "monospace",
+          color: "#8a6a00",
+          letterSpacing: "2px",
+          marginBottom: 6,
+        }}
+      >
+        ★ CHEF&apos;S TIP
       </div>
-      <div className="flex-1 overflow-y-auto px-3 py-2 flex flex-col gap-2 text-xs">
-        {messages.length === 0 && (
-          <div className="flex flex-wrap gap-1.5">
-            {QUICK.map((q) => (
-              <button key={q} type="button" onClick={() => send(q)}
-                className="px-2.5 py-1 rounded-full transition-opacity hover:opacity-80"
-                style={{ background: "rgba(200,82,42,0.15)", color: "#C8522A", border: "1px solid rgba(200,82,42,0.2)" }}>
-                {q}
-              </button>
-            ))}
-          </div>
-        )}
-        {messages.map((m, i) => (
-          <div key={i} className={m.role === "user" ? "text-right" : ""}>
-            <span
-              className="inline-block px-2.5 py-1.5 rounded-lg leading-relaxed"
+      {tip ? (
+        <TypewriterText
+          text={tip}
+          speed={46}
+          cursorColor="#c8a200"
+          className="text-xs italic"
+          style={{ color: "#4a3800", fontFamily: "serif", lineHeight: 1.7 }}
+        />
+      ) : (
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <span style={{ fontSize: 12, color: "#bba060", fontFamily: "serif", fontStyle: "italic" }}>
+            {fetching ? "fetching tip…" : "Struggling with this step?"}
+          </span>
+          {!fetching && (
+            <button
+              type="button"
+              onClick={fetchTip}
+              disabled={!prefetchDone && !prefetchedTip}
               style={{
-                background: m.role === "user" ? "rgba(200,82,42,0.2)" : "rgba(42,24,8,0.7)",
-                color: "#EFE3CE",
-                maxWidth: "85%",
+                background: "#fdf6e3",
+                border: "1.5px solid #c8a200",
+                borderRadius: 20,
+                padding: "4px 12px",
+                fontSize: 11,
+                fontFamily: "monospace",
+                color: "#7a6000",
+                cursor: "pointer",
+                letterSpacing: 1,
+                opacity: !prefetchDone && !prefetchedTip ? 0.5 : 1,
               }}
             >
-              {m.text || (loading && m.role === "assistant" ? "…" : "")}
-            </span>
-          </div>
-        ))}
-        <div ref={bottomRef} />
-      </div>
-      <div className="flex gap-2 px-3 py-2 border-t" style={{ borderColor: "rgba(200,82,42,0.15)" }}>
-        <input
-          ref={inputRef}
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => { if (e.key === "Enter") send(input); }}
-          placeholder="What's going wrong?"
-          className="flex-1 rounded-lg px-3 py-1.5 text-xs outline-none"
-          style={{ background: "rgba(42,24,8,0.8)", color: "#EFE3CE", border: "1px solid #3A2416" }}
-        />
-        <button type="button" onClick={() => send(input)} disabled={!input.trim() || loading}
-          className="px-3 py-1.5 rounded-lg text-xs font-semibold disabled:opacity-40 transition-all"
-          style={{ background: "#C85A2F", color: "#fff" }}>
-          <Send style={{ width: 11, height: 11 }} />
-        </button>
-      </div>
+              Get tip ↓
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -671,6 +643,31 @@ export function CookingModeScreen({
   // Cache enriched body text per step index so we don't re-call the API on navigation
   const [enrichedBodies, setEnrichedBodies] = useState<Record<number, string>>({});
   const [bodyLoading, setBodyLoading] = useState(false);
+  // Pre-fetched SOS tips for all steps
+  const [prefetchedTips, setPrefetchedTips] = useState<string[]>([]);
+  const [prefetchDone, setPrefetchDone] = useState(false);
+
+  useEffect(() => {
+    if (!instructions.length) return;
+    fetch("/api/sos-tips", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        recipeTitle,
+        ingredients: ingredients ?? [],
+        steps: instructions,
+      }),
+    })
+      .then((r) => r.json())
+      .then((data) => {
+        if (Array.isArray(data.tips)) {
+          setPrefetchedTips(data.tips);
+        }
+      })
+      .catch(() => {/* silently fall back to on-demand */})
+      .finally(() => setPrefetchDone(true));
+  }, [recipeTitle, instructions, ingredients]);
+
   // Multi-timer tray
   const [timers, setTimers] = useState<ActiveTimer[]>([]);
   const timerTickRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -933,7 +930,15 @@ export function CookingModeScreen({
               >
                 {step + 1} / {total}
               </span>
-              <SOSHelper key={step} stepText={enrichedText} compact />
+              <SOSHelper
+                key={step}
+                stepIndex={step}
+                stepText={enrichedText}
+                recipeTitle={recipeTitle}
+                ingredients={ingredients ?? []}
+                prefetchedTip={prefetchedTips[step]}
+                prefetchDone={prefetchDone}
+              />
             </div>
 
             {/* Step heading */}
