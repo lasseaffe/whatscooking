@@ -58,3 +58,8 @@ htmlcov/
 pipeline/output/*.sql
 pipeline/output/*.log
 pipeline/rotation_state.json
+
+# Local dataset files (large binaries, not committed)
+datasets/foodcom/
+datasets/recipenlg/
+Llama-3.2-1B/
