@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Sparkles, ExternalLink, BookOpen, Flame, Users, TrendingUp, Heart, Calendar, ShoppingBasket, UtensilsCrossed } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { ReportButton } from "@/components/landing/ReportButton";
 import { createClient } from "@/lib/supabase/server";
 
 export default async function LandingPage() {
@@ -401,9 +402,14 @@ export default async function LandingPage() {
             <a
               key={r.id}
               href={`/recipes/${r.id}`}
-              className="group rounded-2xl overflow-hidden flex flex-col"
+              className="group relative rounded-2xl overflow-hidden flex flex-col"
               style={{ background: "var(--wc-surface-1, #2C2724)", border: "1px solid rgba(255,255,255,0.06)" }}
             >
+              <ReportButton
+                recipeId={r.id}
+                recipeTitle={r.title}
+                imageUrl={r.image_url}
+              />
               <div className="relative overflow-hidden" style={{ paddingBottom: "66%" }}>
                 <img
                   src={r.image_url ?? ""}
@@ -426,7 +432,7 @@ export default async function LandingPage() {
             className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl font-semibold text-sm"
             style={{ background: "var(--wc-accent-saffron, #F4A261)", color: "#1C0E04" }}
           >
-            Browse all recipes →
+            Browse all recipes
           </a>
         </div>
       </section>
