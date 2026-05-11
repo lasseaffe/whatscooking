@@ -24,6 +24,7 @@ export function ChoiceCard({ option, selected, onSelect, theme }: ChoiceCardProp
 
   return (
     <motion.button
+      type="button"
       variants={preset.cardVariants}
       initial="initial"
       animate={selected ? preset.cardSelect : 'animate'}
@@ -48,7 +49,7 @@ export function ChoiceCard({ option, selected, onSelect, theme }: ChoiceCardProp
       }}
     >
       {theme.motion === 'terminal' && selected && (
-        <span style={{
+        <span aria-hidden="true" style={{
           position: 'absolute', top: 4, right: 6,
           fontFamily: "'JetBrains Mono', monospace", fontSize: 7,
           color: theme.accent, letterSpacing: 1,

@@ -9,7 +9,7 @@ interface ProgressBarProps {
 }
 
 export function ProgressBar({ current, total, theme }: ProgressBarProps) {
-  const pct = total > 0 ? ((current + 1) / total) * 100 : 0
+  const pct = total > 0 ? Math.min(((current + 1) / total) * 100, 100) : 0
   const isTerminal = theme.motion === 'terminal'
   const isHolyFlex = theme.motion === 'snappy'
 
