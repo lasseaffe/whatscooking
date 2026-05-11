@@ -86,6 +86,9 @@ export function useSwipeSession(
   const commitSwipe = useCallback((dir: "left" | "right") => {
     if (!currentCard || exiting) return;
     setExiting(dir);
+    if (dir === "right") {
+      window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'swipe-right' } }));
+    }
     setTimeout(() => {
       if (dir === "right") setLiked((prev) => [currentCard, ...prev]);
       else setSkipped((prev) => [currentCard, ...prev]);

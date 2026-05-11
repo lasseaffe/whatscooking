@@ -233,6 +233,9 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
       from_database: prefill?.from_database,
     };
     setDays((prev) => prev.map((d) => d.day_number === dayNum ? { ...d, entries: [...d.entries, entry] } : d));
+    if (prefill?.recipe_title) {
+      window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'meal-planned' } }));
+    }
     markDirty();
   }, [markDirty]);
 
