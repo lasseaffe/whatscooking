@@ -27,10 +27,11 @@ export function OverlayTour({ config, state, onAdvance, onActionComplete }: Over
   const isCelebrationStep = waypoint.type === 'celebration'
 
   const handleActionComplete = () => {
-    onActionComplete(waypoint.id)
-    if (waypoint.celebrationText) {
-      setCelebrationText(waypoint.celebrationText)
-      setCelebrationSummary(waypoint.celebrationSummary)
+    const { id, celebrationText: cText, celebrationSummary: cSummary } = waypoint
+    onActionComplete(id)
+    if (cText) {
+      setCelebrationText(cText)
+      setCelebrationSummary(cSummary)
       setShowCelebration(true)
     } else {
       onAdvance()
