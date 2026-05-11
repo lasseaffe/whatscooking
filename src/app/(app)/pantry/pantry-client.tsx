@@ -270,6 +270,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
       setItems((prev) => [json.item as PantryItem, ...prev]);
       setInput("");
       setQuantity("");
+      window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'pantry-item-added' } }));
     }
     setAdding(false);
   }
@@ -575,6 +576,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
           <div className="flex-1 relative">
             <input
               ref={inputRef}
+              data-tour="pantry-input"
               type="text"
               value={input}
               onChange={(e) => { setInput(e.target.value); }}

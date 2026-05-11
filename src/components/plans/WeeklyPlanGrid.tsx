@@ -151,7 +151,7 @@ export function WeeklyPlanGrid({
   const colTemplate = `80px repeat(${durationDays}, minmax(110px, 1fr)) 40px`;
 
   return (
-    <div className="overflow-x-auto">
+    <div data-tour="week-grid" className="overflow-x-auto">
       <div style={{ minWidth: durationDays * 120 + 120 }}>
 
         {/* Header row */}

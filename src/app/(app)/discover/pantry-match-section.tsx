@@ -58,6 +58,7 @@ export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }
 
   return (
     <div
+      data-tour="pantry-matches"
       className="px-4 py-5"
       style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
     >

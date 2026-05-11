@@ -115,6 +115,17 @@ export function MobileBottomNav() {
                     color: active ? "#F4A261" : "#9A7A58",
                     border: active ? "1px solid rgba(200,82,42,0.2)" : "1px solid transparent",
                   }}
+                  data-tour={
+                    href === "/cookbooks" ? "cookbooks-nav" :
+                    href === "/dinner-parties" ? "dinner-party-nav" :
+                    href === "/calorie-tracker" ? "calorie-nav" :
+                    undefined
+                  }
+                  data-beacon={
+                    href === "/dinner-parties" ? "dinner-party" :
+                    href === "/calorie-tracker" ? "calorie" :
+                    undefined
+                  }
                 >
                   <Icon style={{ width: 18, height: 18, flexShrink: 0 }} />
                   <span className="text-sm font-medium">{label}</span>
@@ -170,6 +181,11 @@ export function MobileBottomNav() {
               className="flex flex-col items-center justify-center gap-1 flex-1 py-3 transition-opacity"
               style={{ color: active ? "#F4A261" : "#6B4E36" }}
               aria-current={active ? "page" : undefined}
+              data-tour={
+                href === "/pantry" ? "pantry-nav" :
+                href === "/discover" ? undefined :
+                undefined
+              }
             >
               <Icon style={{ width: 22, height: 22 }} />
               <span style={{ fontSize: "10px", fontWeight: 600, letterSpacing: "0.02em" }}>

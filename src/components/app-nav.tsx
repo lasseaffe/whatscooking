@@ -265,6 +265,43 @@ export function AppNav() {
         .wc-nav:hover .wc-bottom-tools,
         .wc-nav.wc-nav--flyout-open .wc-bottom-tools { display: flex; }
 
+        /* Dietary filter CTA button in sidebar */
+        .wc-diet-btn-collapsed {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 42px;
+          height: 42px;
+          border-radius: 14px;
+          cursor: pointer;
+          border: 1.5px solid rgba(176,125,86,0.35);
+          background: rgba(176,125,86,0.12);
+          color: var(--wc-pal-accent, #C08F68);
+          transition: background 0.15s ease, transform 0.15s ease;
+          flex-shrink: 0;
+        }
+        .wc-diet-btn-collapsed:hover { background: rgba(176,125,86,0.22); transform: scale(1.05); }
+        .wc-nav:hover .wc-diet-btn-collapsed,
+        .wc-nav.wc-nav--flyout-open .wc-diet-btn-collapsed { display: none; }
+
+        .wc-diet-btn-expanded {
+          display: none;
+          width: 100%;
+          align-items: center;
+          gap: 10px;
+          padding: 11px 14px;
+          border-radius: 14px;
+          cursor: pointer;
+          border: 1.5px solid rgba(176,125,86,0.35);
+          background: rgba(176,125,86,0.12);
+          color: var(--wc-pal-accent, #C08F68);
+          transition: background 0.15s ease;
+          text-align: left;
+        }
+        .wc-diet-btn-expanded:hover { background: rgba(176,125,86,0.22); }
+        .wc-nav:hover .wc-diet-btn-expanded,
+        .wc-nav.wc-nav--flyout-open .wc-diet-btn-expanded { display: flex; }
+
         /* Flyout panel */
         .wc-flyout-panel {
           position: fixed;
@@ -438,6 +475,20 @@ export function AppNav() {
                         className={`wc-item${isActive ? " wc-active" : ""}${isFlyoutOpen ? " wc-hov" : ""}`}
                         title={item.label}
                         style={{ alignItems: "center", height: "auto", minHeight: 0 }}
+                        data-tour={
+                          item.href === "/pantry" ? "pantry-nav" :
+                          item.href === "/cookbooks" ? "cookbooks-nav" :
+                          item.href === "/dinner-parties" ? "dinner-party-nav" :
+                          item.href === "/events" ? "dinner-party-nav" :
+                          item.href === "/menu-scanner" ? "menu-scanner-nav" :
+                          item.href === "/calorie-tracker" ? "calorie-nav" :
+                          undefined
+                        }
+                        data-beacon={
+                          item.href === "/events" ? "dinner-party" :
+                          item.href === "/calorie-tracker" ? "calorie" :
+                          undefined
+                        }
                       >
                         <Icon className="wc-item-icon" style={{ width: 22, height: 22, flexShrink: 0 }} />
                         <div className="wc-lbl" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", minWidth: 0, flex: 1, overflow: "visible", whiteSpace: "nowrap" }}>
@@ -456,6 +507,41 @@ export function AppNav() {
 
         {/* ── Bottom section ── */}
         <div className="px-1.5 pb-3 flex flex-col gap-2 shrink-0" style={{ overflow: "visible" }}>
+
+          {/* Dietary Filters CTA — collapsed: icon only; expanded: full button with CTA */}
+          <div className="px-1">
+            {/* Collapsed icon */}
+            <button
+              className="wc-diet-btn-collapsed"
+              onClick={() => setShowDietaryPanel(true)}
+              title="Dietary Filters"
+              aria-label="Open dietary filters"
+            >
+              <Leaf style={{ width: 20, height: 20 }} />
+            </button>
+
+            {/* Expanded full CTA */}
+            <button
+              className="wc-diet-btn-expanded"
+              onClick={() => setShowDietaryPanel(true)}
+              aria-label="Open dietary filters"
+            >
+              <div
+                className="shrink-0 flex items-center justify-center rounded-xl"
+                style={{ width: 32, height: 32, background: "rgba(176,125,86,0.18)" }}
+              >
+                <Leaf style={{ width: 16, height: 16 }} />
+              </div>
+              <div className="flex flex-col min-w-0">
+                <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--wc-pal-accent, #C08F68)" }}>
+                  Dietary Filters
+                </span>
+                <span style={{ fontSize: "0.65rem", color: "rgba(176,125,86,0.65)", whiteSpace: "nowrap" }}>
+                  Set restrictions &amp; preferences →
+                </span>
+              </div>
+            </button>
+          </div>
 
           {/* Palette quick-pick */}
           <div className="wc-dietary-expanded">
