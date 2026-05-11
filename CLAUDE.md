@@ -34,6 +34,16 @@ Entry format:
 
 **Failure to log is a critical error. Do not skip this step under any circumstances.**
 
+## MANDATORY: Moodboard Maintenance
+
+The in-app moodboard at `/moodboard` is the live design contract. It must never lag the codebase. When you make ANY change that affects design — tokens, fonts, components, patterns, modes (dark/light/the 5 palettes), voice rules, icon family, motion — you MUST, in the same task:
+
+1. **Update `src/app/(app)/moodboard/moodboard.config.ts`** if the change is editorial (a new principle, a new palette name, new vocabulary, new do/don't pair, new motion intent). Token/font/spacing changes propagate automatically — no config edit needed for those.
+2. **Append a dated entry to `docs/moodboard.log.md`** with BOTH `### Changed` and `### Ideas / next steps`. Newest entry on top. The Change Log section of the in-app moodboard renders the top 5 entries.
+3. **Run `npm run moodboard:check`** and resolve any drift warnings (or update the script's ignored-prefixes allow-list if the new token is intentionally a low-level mechanical primitive).
+
+**Failure to update the moodboard is a critical error.** It is treated with the same severity as a missing task log.
+
 ## Recipe Instruction Format — MANDATORY
 
 All recipes in this project use the **3-part expanded educational format**. This is non-negotiable and applies to every recipe, always.

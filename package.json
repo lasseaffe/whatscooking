@@ -10,7 +10,8 @@
     "test": "jest",
     "sync-premium": "node scripts/generate-premium-sql.mjs",
     "monitor-images": "npx tsx scripts/monitor-images.ts",
-    "monitor-images:dry": "npx tsx scripts/monitor-images.ts --dry-run"
+    "monitor-images:dry": "npx tsx scripts/monitor-images.ts --dry-run",
+    "moodboard:check": "node scripts/check-moodboard-drift.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",
