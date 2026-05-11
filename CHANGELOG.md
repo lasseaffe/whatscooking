@@ -2,6 +2,37 @@
 
 ## [Unreleased] — 2026-05-11
 
+### Onboarding Wizard — Task 4: ChoiceCard Component
+
+**Created:**
+- `src/components/onboarding/ChoiceCard.tsx` — Duolingo-style illustrated tap card for preference selection
+
+**Exported Components:**
+- `ChoiceCard` — Motion-animated preference card with emoji icon, label, selection state, and theme-aware styling
+  - Supports three motion themes: `snappy`, `smooth`, `terminal`
+  - Selected state shows custom background, border, glow shadow, and `[SELECTED]` badge in terminal mode
+  - Handles hover (preset-based animation) and tap (0.97 scale) interactions
+  - Props: `option` (ChoiceCardOption), `selected` (boolean), `onSelect` (callback), `theme` (OnboardingTheme)
+
+**Exported Types:**
+- `ChoiceCardOption` — Card content structure (value, emoji, label, color, selectedBg, selectedBorder)
+
+**Features:**
+- Framer Motion variants tied to `MOTION_PRESETS` (motion.ts)
+- Terminal mode: JetBrains Mono font, uppercase label, stepped transitions, [SELECTED] badge
+- Snappy mode: bold (800 weight) text labels
+- Smooth mode: standard (600 weight) text
+- Selected state: accent border + glow shadow (16px, 0.2 alpha)
+- Touch feedback: scale 0.97 on tap
+
+**Dependencies:**
+- `onboarding.types.ts` — OnboardingTheme type
+- `onboarding.motion.ts` — MOTION_PRESETS motion definitions
+
+**Commit:** `31718a4`
+
+---
+
 ### Pantry — Contrast & Accessibility Fixes
 
 **Fixed (Critical):**
