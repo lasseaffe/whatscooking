@@ -15,7 +15,7 @@ function useBeaconPosition(target: string): { top: number; left: number } | null
   useEffect(() => {
     const place = () => {
       const el = document.querySelector(target)
-      if (!el) return
+      if (!el) { setPos(null); return }
       const r = el.getBoundingClientRect()
       setPos({ top: r.top - 6, left: r.right - 6 })
     }
@@ -31,6 +31,8 @@ export function FeatureBeacon({ beacon, theme, dismissed, onDismiss }: FeatureBe
   const pos = useBeaconPosition(beacon.target)
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
+  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
+
   if (dismissed || !pos) return null
 
   return (
@@ -42,6 +44,7 @@ export function FeatureBeacon({ beacon, theme, dismissed, onDismiss }: FeatureBe
       {/* Pulsing ring */}
       <motion.div
         style={{
+          position: 'relative',
           width: 14, height: 14, borderRadius: '50%',
           background: theme.accent,
           cursor: 'pointer',
