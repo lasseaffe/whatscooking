@@ -173,6 +173,7 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
               type="button"
               onClick={async () => {
                 setRunFixStatus("running");
+                setMsg("Processing…");
                 try {
                   const res = await fetch("/api/admin/run-playwright-fix", { method: "POST" });
                   if (res.ok) {
@@ -182,10 +183,12 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
                   } else {
                     setRunFixStatus("error");
                     setMsg("Run fix failed");
+                    setTimeout(() => setRunFixStatus("idle"), 3000);
                   }
                 } catch {
                   setRunFixStatus("error");
                   setMsg("Run fix failed");
+                  setTimeout(() => setRunFixStatus("idle"), 3000);
                 }
               }}
               disabled={runFixStatus === "running"}

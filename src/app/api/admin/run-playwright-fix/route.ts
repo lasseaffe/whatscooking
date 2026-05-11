@@ -11,11 +11,27 @@ export async function POST() {
   const secret = process.env.MONITOR_SECRET;
   if (!secret) return NextResponse.json({ error: "MONITOR_SECRET not set" }, { status: 500 });
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3002"}/api/admin/playwright-fix`, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${secret}` },
-  });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 60000);
 
-  const body = await res.json();
-  return NextResponse.json(body, { status: res.status });
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3002"}/api/admin/playwright-fix`,
+      { method: "POST", headers: { Authorization: `Bearer ${secret}` }, signal: controller.signal }
+    );
+    clearTimeout(timeout);
+
+    let body: unknown;
+    try {
+      body = await res.json();
+    } catch {
+      return NextResponse.json({ error: "Invalid response from playwright-fix" }, { status: 502 });
+    }
+
+    return NextResponse.json(body, { status: res.status });
+  } catch (err) {
+    clearTimeout(timeout);
+    const msg = err instanceof Error && err.name === "AbortError" ? "playwright-fix timed out" : "Request failed";
+    return NextResponse.json({ error: msg }, { status: 504 });
+  }
 }
