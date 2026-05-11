@@ -300,6 +300,7 @@ export default async function DashboardPage() {
           {/* Calorie Tracker */}
           <Link
             href="/calorie-tracker"
+            data-beacon="calorie"
             className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-40"
@@ -326,6 +327,7 @@ export default async function DashboardPage() {
           {/* World Cup 2026 */}
           <Link
             href="/world-cup-2026"
+            data-beacon="passport"
             className="feature-card group relative"
           >
             <div className="absolute inset-0 opacity-50"

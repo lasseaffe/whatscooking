@@ -365,6 +365,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
       <ScrollReveal delay={60}>
       <section className="px-6 sm:px-10 pb-2 max-w-5xl mx-auto w-full">
         <Link href="/menu-scanner"
+          data-beacon="menu-scanner"
           className="group flex items-stretch gap-0 rounded-2xl overflow-hidden transition-all hover:shadow-lg hover:-translate-y-0.5"
           style={{ border: "1.5px solid #3A2416", background: "linear-gradient(120deg, rgba(28,18,9,0.7) 0%, rgba(36,26,13,0.7) 100%)", backdropFilter: "blur(6px)" }}>
           {/* Left: image strip */}

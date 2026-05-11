@@ -31,6 +31,7 @@ export function DirtySodaSlideshow({ slides }: { slides: SodaSlide[] }) {
 
   return (
     <div
+      data-beacon="drinks"
       className="relative rounded-2xl overflow-hidden"
       style={{ height: 280 }}
       onMouseEnter={() => setPaused(true)}
