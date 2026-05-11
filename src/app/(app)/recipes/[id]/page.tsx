@@ -32,9 +32,10 @@ export default async function RecipePage({
   const isPremiumOrHack = (recipe.dish_types ?? []).some((t: string) => t === "premium" || t === "hack");
   const hasFullContent = ((recipe.instructions as string[] | null)?.length ?? 0) >= 2
     && ((recipe.ingredients as unknown[] | null)?.length ?? 0) >= 3;
+  const isDatasetRecipe = recipe.source === "dataset";
 
   let recipeData = recipe;
-  if (isPremiumOrHack && !hasFullContent) {
+  if (isPremiumOrHack && !hasFullContent && !isDatasetRecipe) {
     const extracted = await extractAndSaveRecipe(id);
     if (extracted) recipeData = extracted as typeof recipe;
   }
