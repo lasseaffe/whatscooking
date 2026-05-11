@@ -47,7 +47,7 @@ export default async function DiscoverPage() {
     { data: swipeRecipes },
     { data: trendingRaw, count: trendingTotal },
     { data: quickRecipesRaw },
-    { data: gridRecipes },
+    { data: gridRecipes, count: gridTotal },
     { data: pantryItems },
     { data: matchCandidates },
   ] = await Promise.all([
@@ -76,14 +76,14 @@ export default async function DiscoverPage() {
       .lte("prep_time_minutes", 20)
       .limit(10),
 
-    // 4. All recipes grid
+    // 4. All recipes grid — no image_url filter so dataset recipes (10K) appear
     supabase
       .from("recipes")
-      .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, difficulty_level")
+      .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, difficulty_level", { count: "exact" })
       .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
       .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
       .order("created_at", { ascending: false })
-      .limit(300),
+      .limit(50),
 
     // 5. Pantry items (for swipe filter + pantry matching)
     user
@@ -126,6 +126,7 @@ export default async function DiscoverPage() {
       quickRecipes={quickRecipes}
       cuisines={cuisines}
       gridRecipes={gridRecipes ?? []}
+      gridTotal={gridTotal ?? 0}
       pantryNames={pantryNames}
       isLoggedIn={!!user}
     />
