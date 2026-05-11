@@ -5,7 +5,7 @@ create type subscription_status as enum ('active','trialing','past_due','cancele
 
 create table public.subscriptions (
   user_id              uuid primary key references auth.users(id) on delete cascade,
-  rc_user_id           text not null,
+  rc_user_id           text not null unique,
   tier                 subscription_tier not null default 'free',
   status               subscription_status not null default 'free',
   current_period_end   timestamptz,
@@ -18,9 +18,17 @@ create table public.subscriptions (
   updated_at           timestamptz not null default now()
 );
 
-create index subscriptions_status_idx on public.subscriptions (status);
+create unique index subscriptions_stripe_customer_idx
+  on public.subscriptions (stripe_customer_id)
+  where stripe_customer_id is not null;
+create index subscriptions_active_transition_idx
+  on public.subscriptions (status)
+  where status in ('trialing','grandfathered','past_due','canceled');
 create index subscriptions_trial_end_idx on public.subscriptions (trial_end_at) where trial_end_at is not null;
 
+-- subscription_events: append-only audit log. user_id FK uses ON DELETE SET NULL
+-- (not CASCADE) so that history of canceled/deleted accounts survives for compliance
+-- and analytics. The subscriptions table itself cascades on user deletion.
 create table public.subscription_events (
   id          bigserial primary key,
   user_id     uuid references auth.users(id) on delete set null,
