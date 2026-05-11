@@ -520,10 +520,17 @@ function SOSHelper({
   }, [stepIndex]);
 
   async function fetchTip() {
+    // Use pre-fetched tip if available
     if (prefetchedTip) {
       setTip(prefetchedTip);
       return;
     }
+    // Pre-fetch completed but returned empty for this step — surface immediately
+    if (prefetchDone && prefetchedTip === "") {
+      setTip("No specific tip for this step.");
+      return;
+    }
+    // Fallback: per-step fetch
     setFetching(true);
     try {
       const res = await fetch("/api/sos-tips", {
@@ -649,9 +656,11 @@ export function CookingModeScreen({
 
   useEffect(() => {
     if (!instructions.length) return;
+    const controller = new AbortController();
     fetch("/api/sos-tips", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      signal: controller.signal,
       body: JSON.stringify({
         recipeTitle,
         ingredients: ingredients ?? [],
@@ -664,8 +673,13 @@ export function CookingModeScreen({
           setPrefetchedTips(data.tips);
         }
       })
-      .catch(() => {/* silently fall back to on-demand */})
+      .catch((e) => {
+        if ((e as Error).name !== "AbortError") {
+          // silently fall back to on-demand
+        }
+      })
       .finally(() => setPrefetchDone(true));
+    return () => controller.abort();
   }, [recipeTitle, instructions, ingredients]);
 
   // Multi-timer tray
