@@ -216,7 +216,7 @@ def batch_upsert(supabase: Client, rows: list[dict]) -> int:
     try:
         result = (
             supabase.table("recipes")
-            .upsert(rows, on_conflict="source_url", ignore_duplicates=True)
+            .upsert(rows, ignore_duplicates=True)
             .execute()
         )
         return len(result.data)
