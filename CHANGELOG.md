@@ -2,6 +2,45 @@
 
 ## [Unreleased] — 2026-05-11
 
+### Onboarding Wizard — Task 6: CelebrationOverlay Component
+
+**Created:**
+- `src/components/onboarding/CelebrationOverlay.tsx` — Full-screen celebration modal with canvas-based confetti animation
+
+**Exported Components:**
+- `CelebrationOverlay` — Fixed-position overlay that celebrates onboarding completion
+  - Canvas-rendered confetti particles (80 particles) with gravity, rotation, and multi-color scheme
+  - Animated celebration emoji (🎉), heading text, and optional summary bullet points with checkmarks
+  - Auto-dismisses after configurable delay (default 2800ms) or on tap anywhere
+  - Semi-transparent background overlay dims content beneath
+  - Proper z-index layering (10001) to display above all other page content
+  - Props: `visible` (boolean), `text` (string), `summary` (optional string[]), `theme` (OnboardingTheme), `onDone` (callback), `autoDismissMs` (optional number)
+
+**Technical Details:**
+- Uses `useConfetti` custom hook to manage canvas animation lifecycle
+- Particles spawn above viewport and fall with randomized horizontal drift and rotation
+- Frame loop cancels cleanly when last particle leaves viewport
+- All relative positioning ensures proper overlay coverage on any screen size
+- Theme colors applied to text elements; confetti colors hardcoded for visual consistency
+
+**Impact:** Completes final onboarding step with delightful visual feedback; establishes celebration pattern for future wizard completion screens
+
+---
+
+## [Unreleased] — 2026-05-11
+
+### Onboarding Components — Accessibility & Robustness Fixes
+
+**Fixed:**
+- `src/components/onboarding/ChoiceCard.tsx` — Added `type="button"` to motion.button to prevent unintended form submission; added `aria-hidden="true"` to `[SELECTED]` terminal badge (decorative, state conveyed by border/background)
+- `src/components/onboarding/ProgressBar.tsx` — Clamped progress percentage to 100% with `Math.min()` to prevent progress bar overflow on final step
+
+**Impact:** Improves accessibility tree clarity and prevents edge-case visual overflow
+
+---
+
+## [Unreleased] — 2026-05-11
+
 ### Onboarding Wizard — Task 4: ChoiceCard Component
 
 **Created:**
