@@ -50,6 +50,7 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const [prefilled, setPrefilled] = useState(false);
+  const [runFixStatus, setRunFixStatus] = useState<"idle" | "running" | "done" | "error">("idle");
 
   async function loadPendingDescription() {
     if (!report.recipe_id || report.fix_status !== "pending_review" || prefilled) return;
@@ -168,6 +169,35 @@ function FixPanel({ report, onResolved }: { report: Report; onResolved: (id: str
                 {m === "image" ? "Replace Image" : "Fix Instructions"}
               </button>
             ))}
+            <button
+              type="button"
+              onClick={async () => {
+                setRunFixStatus("running");
+                try {
+                  const res = await fetch("/api/admin/run-playwright-fix", { method: "POST" });
+                  if (res.ok) {
+                    const data = await res.json();
+                    setRunFixStatus("done");
+                    setMsg(`Fixed ${data.fixed ?? 0} of ${data.processed ?? 0} reports`);
+                  } else {
+                    setRunFixStatus("error");
+                    setMsg("Run fix failed");
+                  }
+                } catch {
+                  setRunFixStatus("error");
+                  setMsg("Run fix failed");
+                }
+              }}
+              disabled={runFixStatus === "running"}
+              className="text-xs px-2 py-1 rounded-full font-semibold ml-1 transition-all"
+              style={{
+                background: runFixStatus === "done" ? "rgba(0,180,80,0.15)" : "rgba(200,120,42,0.15)",
+                color: runFixStatus === "done" ? "#4CAF50" : "#C8782A",
+                border: `1px solid ${runFixStatus === "done" ? "rgba(0,180,80,0.3)" : "rgba(200,120,42,0.3)"}`,
+              }}
+            >
+              {runFixStatus === "running" ? "Running…" : runFixStatus === "done" ? "Done" : "Run Fix"}
+            </button>
             <button
               type="button"
               onClick={handleMarkResolved}
