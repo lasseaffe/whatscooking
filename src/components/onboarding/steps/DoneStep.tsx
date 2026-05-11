@@ -5,7 +5,10 @@ import { Flame } from "lucide-react";
 
 export default function DoneStep() {
   useEffect(() => {
-    localStorage.setItem("wc-onboarding-done", "1");
+    localStorage.setItem("wc-onboarding", JSON.stringify({
+      mode: 'done', wizardStep: 0, tourStep: 0,
+      wizardAnswers: {}, dismissedBeacons: [], completedActions: [],
+    }));
   }, []);
 
   return (

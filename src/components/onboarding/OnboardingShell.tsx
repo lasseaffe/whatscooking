@@ -32,7 +32,10 @@ export default function OnboardingShell({
   const isFirst = currentIndex === 0;
 
   function handleSkip() {
-    localStorage.setItem("wc-onboarding-done", "1");
+    localStorage.setItem("wc-onboarding", JSON.stringify({
+      mode: 'done', wizardStep: 0, tourStep: 0,
+      wizardAnswers: {}, dismissedBeacons: [], completedActions: [],
+    }));
     router.push("/dashboard");
   }
 
