@@ -2,6 +2,69 @@
 
 ## [Unreleased] — 2026-05-11
 
+### Onboarding Wizard — Task 15: WhatsCooking Full Onboarding Config
+
+**Created:**
+- `src/config/whatscooking.onboarding.config.tsx` — Complete onboarding configuration for WhatsCooking
+
+**Exported Components:**
+- `wcOnboardingConfig` — OnboardingConfig object with:
+  - **Theme:** Warm brown palette (Accent: #C19A6B, Surface: #2D1E0E, Text: #EFE3CE, Muted: #B08060)
+  - **Wizard:** 4 preference steps — CookTypeStep, GoalStep, DietStep, HouseholdStep
+  - **Tour:** 11 waypoints spanning Discover → Pantry → Meal Plans → Dinner Party → Scanner → Calorie Tracker → Celebration
+  - **Beacons:** 5 advanced feature pointers (Dinner Party, Menu Scanner, Calorie Tracker, Cuisine Passport, Drinks Discovery)
+
+**Key Features:**
+- DietStep supports multi-select with "no-limits" toggle behavior
+- All other steps single-select for streamlined preference capture
+- Tour combines passive demos + interactive do-type actions with celebration callbacks
+- Consistent emoji and label-based UI across all steps
+
+---
+
+### Onboarding Wizard — Task 14: WhatsCooking Preference Step Components
+
+**Created:**
+- `src/components/onboarding/steps/CookTypeStep.tsx` — 4-option single-select step (Beginner, Home Cook, Enthusiast, Family Chef)
+- `src/components/onboarding/steps/GoalStep.tsx` — 4-option single-select step (Use Pantry, Discover, Plan Week, Eat Healthy)
+- `src/components/onboarding/steps/DietStep.tsx` — 4-option multi-select step (Plant-based, Gluten-free, Meat Lover, No Limits)
+- `src/components/onboarding/steps/HouseholdStep.tsx` — 4-option single-select step (Solo, Couple, Family, Big Household)
+
+**Exported Components:**
+- All four components follow `WizardStepProps` interface
+- Each renders a 2-column ChoiceCard grid (gap: 9px)
+- DietStep features exclusive "no-limits" toggle and multi-select filtering logic
+- All steps styled with theme colors and motion presets
+
+**Impact:** Completes the four-screen preference questionnaire for WhatsCooking onboarding, enabling context-aware recipe discovery and meal planning
+
+---
+
+### Onboarding Wizard — Task 11: OverlayTour Orchestrator
+
+**Created:**
+- `src/components/onboarding/OverlayTour.tsx` — Master orchestrator for spotlight tour phase
+
+**Exported Components:**
+- `OverlayTour` — Manages complete tour lifecycle
+  - Renders current waypoint's Spotlight + TooltipBubble
+  - Wires ActionGate for `do` type steps with completion handling
+  - Shows CelebrationOverlay automatically when waypoint has `celebrationText`
+  - Routes celebration-type waypoints directly to CelebrationOverlay without spotlight
+  - Props: `config` (OnboardingConfig), `state` (OnboardingState), `onAdvance` (callback), `onActionComplete` (callback)
+  - Returns null when not in tour mode or step is out of bounds (safe fallback)
+
+**Control Flow:**
+- Celebration-type waypoints bypass spotlight/tooltip and go directly to celebration
+- Non-celebration waypoints show spotlight (clickable unless do-type) + tooltip
+- Do-type waypoints activate ActionGate listener; on completion, show celebration if text exists
+- After celebration, automatically advance to next step
+- Step label shows "Step N of M" in tooltip
+
+**Impact:** Completes core tour orchestration layer; integrates all four onboarding primitives (Spotlight, TooltipBubble, ActionGate, CelebrationOverlay) into cohesive user flow
+
+---
+
 ### Onboarding Wizard — Task 6: CelebrationOverlay Component
 
 **Created:**
