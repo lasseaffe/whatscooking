@@ -16,15 +16,21 @@ function useConfetti(visible: boolean, canvasRef: React.RefObject<HTMLCanvasElem
   useEffect(() => {
     if (!visible || !canvasRef.current) return
     const canvas = canvasRef.current
-    const ctx = canvas.getContext('2d')!
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
+    const ctx = canvas.getContext('2d')
+    if (!ctx) return
+
+    const resize = () => {
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
+    }
+    resize()
+    window.addEventListener('resize', resize)
 
     const particles = Array.from({ length: 80 }, () => ({
       x: Math.random() * canvas.width,
       y: -10,
       r: Math.random() * 6 + 4,
-      color: ['#C19A6B', '#EFE3CE', '#E8547A', '#9333EA', '#EAB308', '#38BDF8'][Math.floor(Math.random() * 6)],
+      color: ['#C19A6B', '#EFE3CE', '#B08060', '#8B5E3C', '#D4B896', '#F5ECD7'][Math.floor(Math.random() * 6)],
       dx: (Math.random() - 0.5) * 4,
       dy: Math.random() * 3 + 2,
       rot: Math.random() * 360,
@@ -46,19 +52,24 @@ function useConfetti(visible: boolean, canvasRef: React.RefObject<HTMLCanvasElem
       if (particles.some(p => p.y < canvas.height + 20)) raf = requestAnimationFrame(tick)
     }
     raf = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(raf)
+    return () => {
+      cancelAnimationFrame(raf)
+      window.removeEventListener('resize', resize)
+    }
   }, [visible, canvasRef])
 }
 
 export function CelebrationOverlay({ visible, text, summary, theme, onDone, autoDismissMs = 2800 }: CelebrationOverlayProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const onDoneRef = useRef(onDone)
+  useEffect(() => { onDoneRef.current = onDone }, [onDone])
   useConfetti(visible, canvasRef)
 
   useEffect(() => {
     if (!visible) return
-    const t = setTimeout(onDone, autoDismissMs)
+    const t = setTimeout(() => onDoneRef.current(), autoDismissMs)
     return () => clearTimeout(t)
-  }, [visible, onDone, autoDismissMs])
+  }, [visible, autoDismissMs])
 
   return (
     <AnimatePresence>
