@@ -28,10 +28,22 @@ function useTooltipPosition(
     if (!visible) return
     const el = document.querySelector(target)
     if (!el) return
-    const TOOLTIP_H = 160, TOOLTIP_W = 280, GAP = 16
+    const TOOLTIP_H = 190, TOOLTIP_W = 280, GAP = 16, MARGIN = 12
 
     const compute = () => {
       const r = el.getBoundingClientRect()
+      const vw = window.innerWidth
+      const vh = window.innerHeight
+
+      // Centre tooltip when target covers most of the viewport
+      if (r.width > vw * 0.7 || r.height > vh * 0.7) {
+        setPos({
+          top:  Math.round(vh / 2 - TOOLTIP_H / 2),
+          left: Math.round(vw / 2 - TOOLTIP_W / 2),
+        })
+        return
+      }
+
       const positions = {
         bottom: { top: r.bottom + GAP, left: r.left + r.width / 2 - TOOLTIP_W / 2 },
         top:    { top: r.top - TOOLTIP_H - GAP, left: r.left + r.width / 2 - TOOLTIP_W / 2 },
@@ -39,8 +51,8 @@ function useTooltipPosition(
         left:   { top: r.top + r.height / 2 - TOOLTIP_H / 2, left: r.left - TOOLTIP_W - GAP },
       }
       const chosen = { ...positions[position] }
-      chosen.left = Math.max(12, Math.min(window.innerWidth - TOOLTIP_W - 12, chosen.left))
-      chosen.top  = Math.max(12, Math.min(window.innerHeight - TOOLTIP_H - 12, chosen.top))
+      chosen.left = Math.max(MARGIN, Math.min(vw - TOOLTIP_W - MARGIN, chosen.left))
+      chosen.top  = Math.max(MARGIN, Math.min(vh - TOOLTIP_H - MARGIN, chosen.top))
       setPos(chosen)
     }
 

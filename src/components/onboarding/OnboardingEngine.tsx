@@ -33,6 +33,7 @@ export function OnboardingEngine({ config }: OnboardingEngineProps) {
           state={state}
           onAdvance={advanceTour}
           onActionComplete={markActionComplete}
+          onSkip={skip}
         />
       )}
 

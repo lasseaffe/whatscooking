@@ -11,9 +11,10 @@ interface OverlayTourProps {
   state: OnboardingState
   onAdvance: () => void
   onActionComplete: (id: string) => void
+  onSkip?: () => void
 }
 
-export function OverlayTour({ config, state, onAdvance, onActionComplete }: OverlayTourProps) {
+export function OverlayTour({ config, state, onAdvance, onActionComplete, onSkip }: OverlayTourProps) {
   const [showCelebration, setShowCelebration] = useState(false)
   const [celebrationText, setCelebrationText] = useState('')
   const [celebrationSummary, setCelebrationSummary] = useState<string[] | undefined>()
@@ -60,6 +61,19 @@ export function OverlayTour({ config, state, onAdvance, onActionComplete }: Over
 
   return (
     <>
+      {onSkip && (
+        <button
+          onClick={onSkip}
+          style={{
+            position: 'fixed', top: 14, right: 16, zIndex: 10000,
+            fontSize: 10, fontWeight: 700, letterSpacing: 1,
+            color: '#C19A6B', background: 'none', border: 'none',
+            cursor: 'pointer', fontFamily: '"Playfair Display", serif',
+          }}
+        >
+          Skip tour
+        </button>
+      )}
       <Spotlight
         target={waypoint.target}
         visible={!showCelebration}
