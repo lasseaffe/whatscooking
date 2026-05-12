@@ -5,11 +5,13 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 interface QuickRecipe {
   id: string;
   title: string;
   image_url?: string | null;
+  image_urls?: string[] | null;
   prep_time_minutes?: number | null;
   cook_time_minutes?: number | null;
 }
@@ -88,16 +90,35 @@ export function QuickEasySection({ recipes }: Props) {
                 }}
               >
                 <div className="overflow-hidden" style={{ height: 72 }}>
-                  {r.image_url ? (
-                    <img src={r.image_url} alt={r.title} className="w-full h-full object-cover" />
-                  ) : (
-                    <div
-                      className="w-full h-full flex items-center justify-center text-2xl"
-                      style={{ background: "#2A1804" }}
-                    >
-                      🍽️
-                    </div>
-                  )}
+                  <ImageWithControls
+                    images={
+                      r.image_urls && r.image_urls.length > 0
+                        ? r.image_urls
+                        : ([r.image_url].filter(Boolean) as string[])
+                    }
+                    entityId={r.id}
+                    entityType="recipe"
+                    size="small"
+                  >
+                    {(currentUrl, cropStyle) =>
+                      currentUrl ? (
+                        <img
+                          key={currentUrl}
+                          src={currentUrl}
+                          alt={r.title}
+                          className="w-full h-full object-cover"
+                          style={cropStyle}
+                        />
+                      ) : (
+                        <div
+                          className="w-full h-full flex items-center justify-center text-2xl"
+                          style={{ background: "#2A1804" }}
+                        >
+                          🍽️
+                        </div>
+                      )
+                    }
+                  </ImageWithControls>
                 </div>
                 <div className="p-1.5">
                   <p

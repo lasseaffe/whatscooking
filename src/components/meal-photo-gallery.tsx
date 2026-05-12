@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Camera, Star, Flag } from "lucide-react";
 import type { CookbookMealPhoto } from "@/lib/cookbook-types";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 interface MealPhotoGalleryProps {
   cookbookSlug: string;
@@ -66,7 +67,25 @@ export function MealPhotoGallery({ cookbookSlug, recipeId, photos, isOwner, curr
         <div className="flex gap-2 overflow-x-auto pb-2 mb-3">
           {localPhotos.map((photo) => (
             <div key={photo.id} className="relative flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden group">
-              <Image src={photo.photo_url} alt={photo.caption ?? "meal photo"} fill className="object-cover" />
+              <ImageWithControls
+                images={[photo.photo_url]}
+                entityId={photo.id}
+                entityType="recipe"
+                size="small"
+              >
+                {(currentUrl, cropStyle) =>
+                  currentUrl ? (
+                    <Image
+                      key={currentUrl}
+                      src={currentUrl}
+                      alt={photo.caption ?? "meal photo"}
+                      fill
+                      className="object-cover"
+                      style={cropStyle}
+                    />
+                  ) : null
+                }
+              </ImageWithControls>
               {photo.is_featured && <Star className="absolute top-1 right-1 w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />}
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
                 {isOwner && !photo.is_featured && (
