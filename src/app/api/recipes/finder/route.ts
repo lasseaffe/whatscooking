@@ -36,7 +36,6 @@ interface FinderBody {
   maxMinutes?: number | null;
   dietary?: string[];
   pantryMode?: "pantry" | "shop" | "any";
-  freeText?: string;
   excludeKeywords?: string[];
   dishHint?: string;
 }
