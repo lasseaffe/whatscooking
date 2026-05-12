@@ -46,33 +46,31 @@ export function QuickEasySection({ recipes }: Props) {
           <span className="text-xs" style={{ color: "var(--fg-secondary, #8A6A4A)" }}>
             Under 20 min
           </span>
-          {index > 0 && (
-            <button
-              onClick={() => setIndex((i) => Math.max(0, i - 1))}
-              className="w-6 h-6 rounded-full flex items-center justify-center"
-              style={{ background: "#C8522A", color: "#fff" }}
-              aria-label="Previous"
-            >
-              <ChevronLeft className="w-3.5 h-3.5" />
-            </button>
-          )}
-          {index < maxIndex && (
-            <button
-              onClick={() => setIndex((i) => Math.min(maxIndex, i + 1))}
-              className="w-6 h-6 rounded-full flex items-center justify-center"
-              style={{ background: "#C8522A", color: "#fff" }}
-              aria-label="Next"
-            >
-              <ChevronRight className="w-3.5 h-3.5" />
-            </button>
-          )}
+          <button
+            onClick={() => setIndex((i) => Math.max(0, i - 1))}
+            disabled={index === 0}
+            className="w-6 h-6 rounded-full flex items-center justify-center transition-opacity"
+            style={{ background: "#C8522A", color: "#fff", opacity: index === 0 ? 0.3 : 1 }}
+            aria-label="Previous recipes"
+          >
+            <ChevronLeft className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={() => setIndex((i) => Math.min(maxIndex, i + 1))}
+            disabled={index >= maxIndex}
+            className="w-6 h-6 rounded-full flex items-center justify-center transition-opacity"
+            style={{ background: "#C8522A", color: "#fff", opacity: index >= maxIndex ? 0.3 : 1 }}
+            aria-label="Next recipes"
+          >
+            <ChevronRight className="w-3.5 h-3.5" />
+          </button>
         </div>
       </div>
 
       <div className="overflow-hidden">
         <motion.div
           className="flex"
-          style={{ gap: CARD_GAP, width: recipes.length * CARD_STEP }}
+          style={{ gap: CARD_GAP, width: recipes.length * CARD_STEP - CARD_GAP }}
           animate={{ x: -(index * CARD_STEP) }}
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
         >
