@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight, Clock, Flame, Check } from "lucide-react";
 import type { PlanTemplate } from "./plan-templates";
 import { useLanguage } from "@/lib/language-context";
+import type { NutritionalGoals } from "@/lib/nutrition-goals";
 
 const TAG_COLORS: Record<string, { bg: string; color: string }> = {
   "High Protein":   { bg: "#EAF0E0", color: "#3D5030" },
@@ -33,13 +34,32 @@ function tagStyle(tag: string) {
   return TAG_COLORS[tag] ?? { bg: "#f3f4f6", color: "#374151" };
 }
 
+function templateAvgMacros(template: PlanTemplate) {
+  const n = template.meals.length;
+  if (n === 0) return { calories: 0, protein_g: 0, carbs_g: 0, fat_g: 0 };
+  return {
+    calories: Math.round(template.meals.reduce((s, m) => s + m.calories, 0) / n),
+    protein_g: Math.round(template.meals.reduce((s, m) => s + (m.protein_g ?? 0), 0) / n),
+    carbs_g: Math.round(template.meals.reduce((s, m) => s + (m.carbs_g ?? 0), 0) / n),
+    fat_g: Math.round(template.meals.reduce((s, m) => s + (m.fat_g ?? 0), 0) / n),
+  };
+}
+
+function barColor(pct: number): string {
+  if (pct >= 0.9 && pct <= 1.1) return "#4caf7a";
+  if (pct > 1.1) return "#d4a843";
+  if (pct >= 0.6) return "#e07a3a";
+  return "#888";
+}
+
 interface TemplateCardProps {
   template: PlanTemplate;
   selected: boolean;
   onSelect: () => void;
+  goals: NutritionalGoals;
 }
 
-export function TemplateCard({ template, selected, onSelect }: TemplateCardProps) {
+export function TemplateCard({ template, selected, onSelect, goals }: TemplateCardProps) {
   const { t } = useLanguage();
   const [slide, setSlide] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -193,6 +213,42 @@ export function TemplateCard({ template, selected, onSelect }: TemplateCardProps
             {template.mealsPerDay} {t("plans.meals")}/day
           </span>
         </div>
+
+        {/* ── Macro progress bars ─────────────────────────── */}
+        {(() => {
+          const avg = templateAvgMacros(template);
+          const macros = [
+            { label: "Calories", value: avg.calories,  goal: goals.calories,  unit: "kcal" },
+            { label: "Protein",  value: avg.protein_g, goal: goals.protein_g, unit: "g" },
+            { label: "Carbs",    value: avg.carbs_g,   goal: goals.carbs_g,   unit: "g" },
+            { label: "Fat",      value: avg.fat_g,     goal: goals.fat_g,     unit: "g" },
+          ];
+          return (
+            <div className="mt-3 space-y-1.5">
+              {macros.map(({ label, value, goal, unit }) => {
+                const pct = goal > 0 ? value / goal : 0;
+                const fillPct = Math.min(pct, 1.15) * 100;
+                const color = barColor(pct);
+                return (
+                  <div key={label}>
+                    <div className="flex justify-between items-baseline mb-0.5">
+                      <span className="text-[10px]" style={{ color: "#6B4E36" }}>{label}</span>
+                      <span className="text-[10px] font-semibold" style={{ color }}>
+                        {value}{unit} <span style={{ color: "#4A3020", fontWeight: 400 }}>/ {goal}{unit}</span>
+                      </span>
+                    </div>
+                    <div className="rounded-full overflow-hidden" style={{ height: 4, background: "#2A1808" }}>
+                      <div
+                        className="h-full rounded-full transition-all"
+                        style={{ width: `${fillPct}%`, background: color }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })()}
       </div>
     </div>
   );
