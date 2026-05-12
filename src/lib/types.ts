@@ -82,6 +82,7 @@ export interface Recipe {
   title: string;
   description?: string;
   image_url?: string;
+  image_urls?: string[];
   cuisine_type?: string;
   dish_types?: string[];
   dietary_tags?: string[];
