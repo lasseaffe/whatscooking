@@ -106,6 +106,7 @@ export default async function RecipePage({
           <RecipeHeroImage
             recipeId={id}
             imageUrl={recipeData.image_url}
+            imageUrls={recipeData.image_urls}
             title={displayTitle}
             cuisine={recipeData.cuisine_type}
             dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
@@ -229,6 +230,17 @@ export default async function RecipePage({
                   </span>
                 ))}
               </div>
+            )}
+
+            {/* Admin badge: sparse recipe needs enhancement */}
+            {user?.email === process.env.ADMIN_EMAIL && (instructions.length < 3 || ingredients.length < 3) && (
+              <a
+                href="/admin"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold"
+                style={{ background: "rgba(200,96,16,0.15)", color: "#E8A820", border: "1px solid rgba(200,152,40,0.35)" }}
+              >
+                <span>⚠</span> Needs Enhancement — open Admin
+              </a>
             )}
 
             {/* Family fit indicator */}
