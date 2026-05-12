@@ -9,7 +9,7 @@ import type { Recipe } from "@/lib/types";
 
 interface Props {
   recipes: Recipe[];
-  profile: { vibeLabel: string | null; timeLabel: string | null };
+  profile: { vibeLabel: string | null; timeLabel: string | null; pantrySkipped?: boolean };
   onRefine: () => void;
   onDismiss: () => void;
 }
@@ -96,8 +96,14 @@ export function FinderResultsSection({ recipes, profile, onRefine, onDismiss }: 
         </div>
       </div>
 
+      {profile.pantrySkipped && (
+        <p className="text-xs mt-2" style={{ color: "#8A6A4A" }}>
+          Sign in to prioritise recipes matching your pantry items.
+        </p>
+      )}
+
       {/* Carousel */}
-      <div className="relative">
+      <div className="relative mx-2">
         <button
           onClick={() => setIndex((i) => Math.max(0, i - 1))}
           disabled={index === 0}

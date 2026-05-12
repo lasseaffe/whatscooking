@@ -17,7 +17,7 @@ export type FinderAnswers = {
 
 export interface FinderResult {
   recipes: Recipe[];
-  profile: { vibeLabel: string | null; timeLabel: string | null };
+  profile: { vibeLabel: string | null; timeLabel: string | null; pantrySkipped?: boolean };
 }
 
 interface Props {

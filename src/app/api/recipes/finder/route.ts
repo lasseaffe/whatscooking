@@ -152,6 +152,7 @@ export async function POST(req: NextRequest) {
     profile: {
       vibeLabel: vibe ? (VIBE_LABELS[vibe] ?? null) : null,
       timeLabel: maxMinutes ? `≤ ${maxMinutes} min` : null,
+      pantrySkipped: pantryMode === "pantry" && !user,
     },
   });
 }
