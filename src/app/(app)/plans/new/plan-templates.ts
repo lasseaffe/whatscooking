@@ -38,7 +38,7 @@ export const PLAN_TEMPLATES: PlanTemplate[] = [
     gradient: "linear-gradient(135deg, #1a2a1a 0%, #2d4a2d 100%)",
     accentColor: "#4ade80",
     meals: [
-      { title: "Grilled Herb Chicken", image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80", tags: ["High Protein", "Quick Cook"], time: "20 min", calories: 380, protein_g: 42, carbs_g: 8, fat_g: 14 },
+      { title: "Grilled Herb Chicken", image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80", tags: ["High Protein", "Quick Cook"], time: "20 min", calories: 360, protein_g: 42, carbs_g: 8, fat_g: 14 },
       { title: "Miso Glazed Salmon", image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80", tags: ["High Protein", "Gluten-Free"], time: "15 min", calories: 340, protein_g: 38, carbs_g: 12, fat_g: 16 },
       { title: "Ahi Tuna Poke Bowl", image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80", tags: ["High Protein", "Quick Cook"], time: "20 min", calories: 520, protein_g: 44, carbs_g: 52, fat_g: 12 },
       { title: "Egg White Frittata", image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=600&q=80", tags: ["High Protein", "Vegetarian"], time: "25 min", calories: 220, protein_g: 28, carbs_g: 6, fat_g: 8 },
