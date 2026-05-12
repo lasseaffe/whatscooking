@@ -76,6 +76,7 @@ export function FinderResultsSection({ recipes, profile, onRefine, onDismiss }: 
           <button
             onClick={onRefine}
             className="text-xs font-semibold px-3 py-1.5 rounded-full"
+            aria-label="Refine recipe picks"
             style={{
               background: "#2A1808",
               color: "#C8522A",
@@ -115,7 +116,7 @@ export function FinderResultsSection({ recipes, profile, onRefine, onDismiss }: 
           <motion.div
             className="flex gap-4"
             animate={{
-              x: `calc(-${index * (100 / VISIBLE)}% - ${(index * 16) / VISIBLE}px)`,
+              x: `calc(-${index * (100 / recipes.length)}% - ${index * 16}px)`,
             }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             style={{ width: `${(recipes.length / VISIBLE) * 100}%` }}
@@ -158,6 +159,7 @@ export function FinderResultsSection({ recipes, profile, onRefine, onDismiss }: 
                   background: i === index ? "#C8522A" : "#3A2416",
                 }}
                 aria-label={`Go to slide ${i + 1}`}
+                aria-pressed={i === index}
               />
             ))}
           </div>
