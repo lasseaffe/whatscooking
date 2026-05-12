@@ -5,7 +5,7 @@ import {
   Plus, Trash2, Sparkles, Loader2, ChevronDown, ChevronUp,
   UtensilsCrossed, Coffee, Soup, Cookie, Save, ShoppingCart,
   Printer, X, Share2, Link2, Check, AlertTriangle, Users,
-  Flame, Dumbbell,
+  Flame, Dumbbell, ChefHat,
 } from "lucide-react";
 import Link from "next/link";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
@@ -122,6 +122,24 @@ function dayTotal(entries: BuilderEntry[]) {
   };
 }
 
+function weekMacros(days: DayData[]) {
+  const filledDays = days.filter((d) => d.entries.length > 0);
+  if (filledDays.length === 0) return { cal: 0, pro: 0, carb: 0, fat: 0 };
+  return {
+    cal:  Math.round(filledDays.reduce((s, d) => s + d.entries.reduce((e, r) => e + (r.calories  ?? 0), 0), 0) / filledDays.length),
+    pro:  Math.round(filledDays.reduce((s, d) => s + d.entries.reduce((e, r) => e + (r.protein_g ?? 0), 0), 0) / filledDays.length),
+    carb: Math.round(filledDays.reduce((s, d) => s + d.entries.reduce((e, r) => e + (r.carbs_g   ?? 0), 0), 0) / filledDays.length),
+    fat:  Math.round(filledDays.reduce((s, d) => s + d.entries.reduce((e, r) => e + (r.fat_g     ?? 0), 0), 0) / filledDays.length),
+  };
+}
+
+function macroBarColor(pct: number): string {
+  if (pct >= 0.9 && pct <= 1.1) return "#4caf7a";
+  if (pct > 1.1) return "#d4a843";
+  if (pct >= 0.6) return "#e07a3a";
+  return "#888";
+}
+
 function getIngredientEmoji(name: string): string {
   const n = name.toLowerCase();
   const q: [string, string][] = [
@@ -174,6 +192,24 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
   const [showShareModal, setShowShareModal] = useState(false);
   const [shareLoading, setShareLoading] = useState(false);
   const [copied, setCopied] = useState(false);
+
+  // Expiring pantry items (WC-3)
+  const [expiringItems, setExpiringItems] = useState<{ id: string; name: string; expires_at: string }[]>([]);
+  useEffect(() => {
+    fetch("/api/pantry/items")
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data?.items) return;
+        const twoDaysOut = new Date();
+        twoDaysOut.setDate(twoDaysOut.getDate() + 2);
+        const expiring = data.items.filter((item: { expires_at: string | null }) => {
+          if (!item.expires_at) return false;
+          return new Date(item.expires_at) <= twoDaysOut;
+        });
+        setExpiringItems(expiring);
+      })
+      .catch(() => {});
+  }, []);
 
   const shareUrl = typeof window !== "undefined"
     ? `${window.location.origin}/plans/share/${planId}`
@@ -520,6 +556,44 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
         </div>
       </div>
 
+      {/* ── Week macro bar ───────────────────────────────────────────── */}
+      {(() => {
+        const wm = weekMacros(days);
+        const goals = {
+          cal:  (nutritionalGoals.calories  as number) ?? 2000,
+          pro:  (nutritionalGoals.protein_g as number) ?? 50,
+          carb: (nutritionalGoals.carbs_g   as number) ?? 300,
+          fat:  (nutritionalGoals.fat_g     as number) ?? 65,
+        };
+        const macros = [
+          { label: "Calories", value: wm.cal,  goal: goals.cal,  unit: "kcal" },
+          { label: "Protein",  value: wm.pro,  goal: goals.pro,  unit: "g" },
+          { label: "Carbs",    value: wm.carb, goal: goals.carb, unit: "g" },
+          { label: "Fat",      value: wm.fat,  goal: goals.fat,  unit: "g" },
+        ];
+        return (
+          <div
+            className="flex gap-4 flex-wrap px-4 py-2 border-b text-xs"
+            style={{ borderColor: "#2A1808", background: "#130C05" }}
+          >
+            <span style={{ color: "#6B4E36" }}>Week avg:</span>
+            {macros.map(({ label, value, goal, unit }) => {
+              const pct = goal > 0 ? value / goal : 0;
+              const color = macroBarColor(pct);
+              return (
+                <div key={label} className="flex items-center gap-1.5">
+                  <span style={{ color: "#6B4E36" }}>{label}</span>
+                  <div className="rounded-full overflow-hidden" style={{ width: 48, height: 4, background: "#2A1808" }}>
+                    <div style={{ width: `${Math.min(pct * 100, 115)}%`, height: "100%", background: color, borderRadius: 9999 }} />
+                  </div>
+                  <span style={{ color }} className="font-semibold">{value}<span style={{ color: "#4A3020", fontWeight: 400 }}> / {goal}{unit}</span></span>
+                </div>
+              );
+            })}
+          </div>
+        );
+      })()}
+
       {/* ── Shopping list panel ──────────────────────────────────────────── */}
       {showShopping && shoppingData && (
         <ShoppingListPanel
@@ -538,6 +612,20 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
         />
       )}
 
+      {/* ── Expiring pantry banner (WC-3) ────────────────────────────────── */}
+      {expiringItems.length > 0 && (
+        <div className="rounded-2xl px-4 py-3 flex items-start gap-3"
+          style={{ background: "rgba(200,90,47,0.08)", border: "1px solid rgba(200,90,47,0.2)" }}>
+          <span className="text-lg shrink-0">⏳</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-xs font-semibold mb-1" style={{ color: "#C85A2F" }}>Use soon — expiring within 2 days</p>
+            <p className="text-xs leading-relaxed" style={{ color: "#8A6050" }}>
+              {expiringItems.map(i => i.name).join(", ")}
+            </p>
+          </div>
+        </div>
+      )}
+
       {/* ── Day cards ────────────────────────────────────────────────────── */}
       {days.map((day) => (
         <DayCard
@@ -550,6 +638,8 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
           onSuggest={suggestForDay}
           onPromptChange={(p) => setDays((prev) => prev.map((d) => d.day_number === day.day_number ? { ...d, suggestionPrompt: p } : d))}
           onOpenDetail={openDetail}
+          nutritionalGoals={nutritionalGoals}
+          planId={planId}
         />
       ))}
 
@@ -761,7 +851,7 @@ function ShoppingListPanel({ data, planTitle, sortBy, onSortChange, expandedCate
 
 // ── DayCard ───────────────────────────────────────────────────────────────────
 
-function DayCard({ day, onToggle, onAddEntry, onUpdateEntry, onRemoveEntry, onSuggest, onPromptChange, onOpenDetail }: {
+function DayCard({ day, onToggle, onAddEntry, onUpdateEntry, onRemoveEntry, onSuggest, onPromptChange, onOpenDetail, nutritionalGoals, planId }: {
   day: DayData;
   onToggle: () => void;
   onAddEntry: (n: number, p?: Partial<BuilderEntry>) => void;
@@ -770,6 +860,8 @@ function DayCard({ day, onToggle, onAddEntry, onUpdateEntry, onRemoveEntry, onSu
   onSuggest: (n: number) => void;
   onPromptChange: (p: string) => void;
   onOpenDetail: (e: BuilderEntry) => void;
+  nutritionalGoals: Record<string, number>;
+  planId: string;
 }) {
   const totals = dayTotal(day.entries);
   return (
@@ -799,11 +891,32 @@ function DayCard({ day, onToggle, onAddEntry, onUpdateEntry, onRemoveEntry, onSu
             <EntryRow
               key={entry.clientId}
               entry={entry}
+              planId={planId}
               onUpdate={(p) => onUpdateEntry(entry.clientId, p)}
               onRemove={() => onRemoveEntry(entry.clientId)}
               onOpen={() => onOpenDetail(entry)}
             />
           ))}
+          {/* Per-day macro footer */}
+          {(() => {
+            const dt = dayTotal(day.entries);
+            const hasData = day.entries.length > 0;
+            const calGoal = (nutritionalGoals.calories as number) ?? 2000;
+            const proGoal = (nutritionalGoals.protein_g as number) ?? 50;
+            return (
+              <div
+                className="flex gap-3 pt-2 mt-1 border-t text-xs"
+                style={{ borderColor: "#2A1808", opacity: hasData ? 1 : 0.35 }}
+              >
+                <span style={{ color: hasData ? "#e07a3a" : "#4A3020" }}>
+                  {hasData ? dt.cal : "—"} <span style={{ color: "#4A3020" }}>/ {calGoal} kcal</span>
+                </span>
+                <span style={{ color: hasData ? "#4caf7a" : "#4A3020" }}>
+                  {hasData ? `${dt.pro}g` : "—"} <span style={{ color: "#4A3020" }}>/ {proGoal}g prot</span>
+                </span>
+              </div>
+            );
+          })()}
           <div className="flex items-center gap-2 pt-1 flex-wrap">
             <button onClick={() => onAddEntry(day.day_number)}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium border"
@@ -836,13 +949,31 @@ function DayCard({ day, onToggle, onAddEntry, onUpdateEntry, onRemoveEntry, onSu
 
 // ── EntryRow ──────────────────────────────────────────────────────────────────
 
-function EntryRow({ entry, onUpdate, onRemove, onOpen }: {
+function EntryRow({ entry, planId, onUpdate, onRemove, onOpen }: {
   entry: BuilderEntry;
+  planId: string;
   onUpdate: (p: Partial<BuilderEntry>) => void;
   onRemove: () => void;
   onOpen: () => void;
 }) {
   const [confirmOpen, setConfirmOpen] = useState(false);
+  const [cooked, setCooked] = useState(false);
+  const [cooking, setCooking] = useState(false);
+
+  async function handleMarkCooked(e: React.MouseEvent) {
+    e.stopPropagation();
+    if (cooked || cooking) return;
+    setCooking(true);
+    try {
+      await fetch(`/api/plans/${planId}/cook-entry`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ recipe_id: entry.recipe_id, recipe_title: entry.recipe_title }),
+      });
+      setCooked(true);
+    } catch { /* silent — pantry deduction is best-effort */ }
+    setCooking(false);
+  }
   const cfg = MEAL_TYPE_CONFIG[entry.meal_type];
   const Icon = cfg.icon;
 
@@ -912,6 +1043,15 @@ function EntryRow({ entry, onUpdate, onRemove, onOpen }: {
       </div>
       {entry.calories && <span className="text-xs shrink-0" style={{ color: "#A69180" }}>{entry.calories} kcal</span>}
       <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0" onClick={(e) => e.stopPropagation()}>
+        <button
+          onClick={handleMarkCooked}
+          disabled={cooked || cooking}
+          title={cooked ? "Cooked — pantry updated" : "Mark as cooked (deducts from pantry)"}
+          className="p-1 rounded hover:bg-green-50 disabled:cursor-default"
+          style={{ color: cooked ? "#4A8C5C" : "#A69180" }}
+        >
+          {cooking ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <ChefHat className="w-3.5 h-3.5" />}
+        </button>
         <button onClick={(e) => { e.stopPropagation(); onUpdate({ isEditing: true }); }}
           className="p-1 rounded hover:bg-amber-50" style={{ color: "#A69180" }}>
           <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
