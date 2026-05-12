@@ -7,6 +7,7 @@ import { ReportButton } from "@/components/report-button";
 import { WcBadge } from "@/components/wc-badge";
 import type { Recipe } from "@/lib/types";
 import { RecipeImage } from "@/components/recipe-image";
+import { ImageWithControls } from "@/components/image-with-controls";
 import { motion } from "framer-motion";
 
 function usePrefersReducedMotion() {
@@ -104,13 +105,28 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
     >
       {/* Full-bleed hero image */}
       <div className="absolute inset-0">
-        <RecipeImage
-          recipeId={recipe.id}
-          imageUrl={recipe.image_url}
-          title={recipe.title}
-          cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
-          dietaryTags={recipe.dietary_tags}
-        />
+        <ImageWithControls
+          images={
+            recipe.image_urls && recipe.image_urls.length > 0
+              ? recipe.image_urls
+              : ([recipe.image_url].filter(Boolean) as string[])
+          }
+          entityId={recipe.id}
+          entityType="recipe"
+          size="card"
+        >
+          {(currentUrl, cropStyle) => (
+            <RecipeImage
+              key={currentUrl || "fallback"}
+              recipeId={recipe.id}
+              imageUrl={currentUrl || recipe.image_url}
+              title={recipe.title}
+              cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
+              dietaryTags={recipe.dietary_tags}
+              style={cropStyle}
+            />
+          )}
+        </ImageWithControls>
       </div>
 
       {/* Image scrim — camel-beige token */}
