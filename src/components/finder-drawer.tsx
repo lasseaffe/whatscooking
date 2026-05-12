@@ -190,6 +190,7 @@ export function FinderDrawer({ onClose, onResults, initial }: Props) {
       };
       localStorage.setItem("wc-finder-answers", JSON.stringify(fullAnswers));
 
+      setLoading(false);
       onResults(
         { recipes: data.results as Recipe[], profile: data.profile },
         fullAnswers
@@ -205,7 +206,8 @@ export function FinderDrawer({ onClose, onResults, initial }: Props) {
     .map((q) => q.key)
     .filter((k) => answers[k as keyof FinderAnswers] !== undefined);
 
-  const progress = step / QUESTIONS.length;
+  const answeredCount = QUESTIONS.filter((q) => answers[q.key as keyof FinderAnswers] !== undefined).length;
+  const progress = answeredCount / QUESTIONS.length;
 
   return (
     <div
@@ -238,7 +240,7 @@ export function FinderDrawer({ onClose, onResults, initial }: Props) {
         <div className="px-5 pb-10">
           {/* Close */}
           <div className="flex justify-end mb-1">
-            <button onClick={onClose} style={{ color: "#6B4E36" }}>
+            <button onClick={onClose} aria-label="Close" style={{ color: "#6B4E36" }}>
               <X className="w-5 h-5" />
             </button>
           </div>
@@ -294,6 +296,7 @@ export function FinderDrawer({ onClose, onResults, initial }: Props) {
                   <button
                     key={key}
                     onClick={() => clearAnswer(key as QuestionKey)}
+                    aria-label={`Remove ${label}`}
                     className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium"
                     style={{
                       background: "rgba(200,82,42,0.15)",
@@ -302,7 +305,7 @@ export function FinderDrawer({ onClose, onResults, initial }: Props) {
                     }}
                   >
                     {label}
-                    <X className="w-3 h-3" />
+                    <X className="w-3 h-3" aria-hidden />
                   </button>
                 );
               })}
