@@ -1,5 +1,21 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-12
+
+### Paywall Foundation — Task 4: Test Fixture Seeding Helpers
+
+**Created:**
+- `src/lib/test-helpers/entitlement-fixtures.ts` — Fixture row builder for 9 subscription states
+
+**Exported Components:**
+- `FixtureState` — Union type for all 9 states: free, trialing, solo_monthly, solo_annual, household_monthly, household_annual, grandfathered, past_due, canceled
+- `fixtureRow(userId, state)` — Returns a complete SubscriptionRow for any state with realistic dates (7/30/365 days in future)
+- `ALL_FIXTURE_STATES` — Array of all 9 states for test iteration
+
+**Impact:** Enables testing of paywall logic across all customer lifecycle states. Used by Tasks 5-8 (integration tests, entitlement service, payment form, settings UI).
+
+---
+
 ## [Unreleased] — 2026-05-11
 
 ### Onboarding Wizard — Task 15: WhatsCooking Full Onboarding Config
@@ -568,3 +584,19 @@ Commit: `de2a23e`
 - Created src/app/api/events/create/route.ts
 - Inserts into dinner_parties, then seeds event_menu_items, event_timeline_items, event_shopping_items in parallel
 - Auth-gated via Supabase getUser()
+
+## 2026-05-13 - Recipe Autoenhance
+
+- Added a manual **Autoenhance** tool that rewrites plain user steps into a 5-field chef-mentor card: action header, technique/why/pitfall paragraph, beginner sensory cue + pro move, jargon glossary, and a visual-strategy caption.
+- New `POST /api/recipes/enhance` (Claude Sonnet 4.6, per-step parallel, JSON-retry, 30/hr rate limit). Owner-only `PATCH /api/recipes/user` persists accepted output.
+- Three entry points share one diff-preview modal: `Enhance all` on the create form, per-step sparkle on each step row, and owner-only enhance buttons on the recipe detail page.
+- Migration adds `recipes.instructions_enhanced` jsonb column (GIN-indexed). Legacy `instructions` text[] kept as fallback. The old 3-part format (core/logic/pro_technique) is now deprecated; CLAUDE.md updated.
+
+
+## 2026-05-13 - Recipe Autoenhance v2
+
+- Split the enhancer in two: instructions use a chef-mentor pass, descriptions use a Senior Cookbook Editor "headnote" pass. Both share the same Cookbook Voice Contract (named exemplars Hazan/Henry/Lopez-Alt/Ottolenghi, hard-banned slop and chatter, validator-enforced).
+- **Consolidation pre-pass:** before per-step enhance runs on a long recipe, one extra LLM call merges adjacent micro-steps. The modal shows "19 -> 9 steps." Accepting replaces both the plain step list and the enhanced cards.
+- **Header guard:** instruction-step headers must start with an action verb, be 2-8 words, end on a non-preposition, and abstract (not copy) the body. The validator rejects with retry-then-502.
+- **Description headnote:** the description card now leads with a 3-10 sentence editorial paragraph (one of three opening hooks: sensory, context, or technique), followed by the icon row of origin/technique/flavor/audience and the effort strip.
+- **Cook mode fix:** when a recipe has enhanced data, Cook mode now renders the real header and ody_text separately. When it doesn't, no synthetic heading - just "Step N" + the full step. No more chopped "In a tall" fragments.

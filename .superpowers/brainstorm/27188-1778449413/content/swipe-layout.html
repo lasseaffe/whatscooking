@@ -1,0 +1,115 @@
+<h2>Meal Swiper — How should it sit in Discover?</h2>
+<p class="subtitle">The old /swipe page had a full-screen swiper. The Discover feed is a vertical scroll with multiple sections below it. Pick the layout that feels right.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1C1209;padding:12px;font-family:monospace;font-size:10px;color:#EFE3CE;min-height:220px;">
+      <!-- Option A: compact embedded swiper, full drag mechanics -->
+      <div style="font-size:9px;color:#F4A261;font-weight:700;letter-spacing:2px;margin-bottom:4px;">TODAY'S PICKS</div>
+      <div style="font-size:12px;font-weight:800;color:#EFE3CE;margin-bottom:8px;">Swipe</div>
+      <div style="position:relative;height:110px;border-radius:16px;overflow:hidden;background:#3D2010;">
+        <!-- card stack mockup -->
+        <div style="position:absolute;inset:4px;background:#5A3018;border-radius:12px;"></div>
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,#3D2010,#5A3018);border-radius:16px;display:flex;align-items:flex-end;padding:10px;">
+          <div>
+            <div style="color:#C8522A;font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:1px;">FRENCH</div>
+            <div style="color:#EFE3CE;font-size:11px;font-weight:700;">Coq au Vin</div>
+            <div style="color:#8A6A4A;font-size:8px;">⏱ 110 min · 🔥 520 kcal</div>
+          </div>
+        </div>
+        <!-- LIKE stamp -->
+        <div style="position:absolute;top:8px;left:8px;border:2px solid #4CAF50;padding:2px 6px;border-radius:4px;transform:rotate(-20deg);opacity:0.7;">
+          <span style="color:#4CAF50;font-size:8px;font-weight:900;">LIKE</span>
+        </div>
+      </div>
+      <!-- action buttons -->
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:8px;">
+        <div style="width:32px;height:32px;border-radius:50%;background:#1C1209;border:1.5px solid #3A2416;display:flex;align-items:center;justify-content:center;font-size:11px;">✕</div>
+        <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#C85A2F,#E8834A);display:flex;align-items:center;justify-content:center;font-size:14px;">♥</div>
+        <div style="width:32px;height:32px;border-radius:50%;background:#1C1209;border:1.5px solid #3A2416;display:flex;align-items:center;justify-content:center;font-size:10px;">↩</div>
+      </div>
+      <div style="text-align:center;font-size:8px;color:#4A3020;margin-top:4px;">tap to preview · swipe or tap buttons</div>
+      <!-- sections below -->
+      <div style="margin-top:10px;height:1px;background:rgba(255,255,255,0.06);"></div>
+      <div style="margin-top:8px;display:flex;gap:8px;overflow:hidden;">
+        <div style="background:#2A1804;border-radius:8px;flex:1;height:36px;display:flex;align-items:center;padding:0 8px;font-size:9px;color:#C4A882;">🔥 Trending Now</div>
+        <div style="background:#2A1804;border-radius:8px;flex:1;height:36px;display:flex;align-items:center;padding:0 8px;font-size:9px;color:#C4A882;">⚡ Quick &amp; Easy</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Compact In-Feed</h3>
+      <p>Shorter card (~300px) embedded in the vertical feed. Full drag-to-swipe + LIKE/NOPE stamps + preview sheet. Trending, Cuisines, All Recipes scroll below. Same as today but with real swipe mechanics restored.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1C1209;padding:12px;font-family:monospace;font-size:10px;color:#EFE3CE;min-height:220px;">
+      <!-- Option B: tall hero swiper, takes up most of the viewport -->
+      <div style="font-size:9px;color:#F4A261;font-weight:700;letter-spacing:2px;margin-bottom:4px;">TODAY'S PICKS</div>
+      <div style="font-size:12px;font-weight:800;color:#EFE3CE;margin-bottom:8px;">Swipe</div>
+      <!-- card fills most of screen -->
+      <div style="position:relative;height:150px;border-radius:16px;overflow:hidden;background:#3D2010;">
+        <div style="position:absolute;inset:4px;background:#5A3018;border-radius:12px;"></div>
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,#3D2010,#5A3018);border-radius:16px;display:flex;align-items:flex-end;padding:10px;">
+          <div>
+            <div style="color:#C8522A;font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:1px;">FRENCH</div>
+            <div style="color:#EFE3CE;font-size:12px;font-weight:700;">Coq au Vin</div>
+            <div style="color:#8A6A4A;font-size:9px;">⏱ 110 min · 🔥 520 kcal</div>
+          </div>
+        </div>
+      </div>
+      <!-- action buttons larger -->
+      <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-top:8px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#1C1209;border:1.5px solid #3A2416;display:flex;align-items:center;justify-content:center;font-size:13px;">✕</div>
+        <div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#C85A2F,#E8834A);display:flex;align-items:center;justify-content:center;font-size:18px;">♥</div>
+        <div style="width:36px;height:36px;border-radius:50%;background:#1C1209;border:1.5px solid #3A2416;display:flex;align-items:center;justify-content:center;font-size:11px;">↩</div>
+      </div>
+      <!-- small strip below -->
+      <div style="margin-top:8px;height:1px;background:rgba(255,255,255,0.06);"></div>
+      <div style="margin-top:6px;display:flex;gap:4px;overflow:hidden;opacity:0.6;">
+        <div style="background:#2A1804;border-radius:6px;width:50px;height:28px;"></div>
+        <div style="background:#2A1804;border-radius:6px;width:50px;height:28px;"></div>
+        <div style="background:#2A1804;border-radius:6px;width:50px;height:28px;font-size:8px;display:flex;align-items:center;justify-content:center;color:#8A6A4A;">↓ more</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Hero Swiper</h3>
+      <p>Full-height swipe card dominates the screen (like the old /swipe page). The rest of Discover (trending, cuisines, recipes) is accessible by scrolling down. Swipe is the clear hero feature.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1C1209;padding:12px;font-family:monospace;font-size:10px;color:#EFE3CE;min-height:220px;">
+      <!-- Option C: tabbed discover hub -->
+      <!-- sticky tabs -->
+      <div style="display:flex;gap:2px;background:#2A1804;border-radius:12px;padding:3px;margin-bottom:8px;">
+        <div style="flex:1;background:#C85A2F;border-radius:9px;padding:4px;text-align:center;font-size:8px;font-weight:700;color:#fff;">Swipe</div>
+        <div style="flex:1;padding:4px;text-align:center;font-size:8px;color:#8A6A4A;">Trending</div>
+        <div style="flex:1;padding:4px;text-align:center;font-size:8px;color:#8A6A4A;">Cuisines</div>
+        <div style="flex:1;padding:4px;text-align:center;font-size:8px;color:#8A6A4A;">All</div>
+      </div>
+      <!-- active: swipe tab -->
+      <div style="position:relative;height:120px;border-radius:16px;overflow:hidden;background:linear-gradient(135deg,#3D2010,#5A3018);">
+        <div style="position:absolute;inset:0;display:flex;align-items:flex-end;padding:10px;">
+          <div>
+            <div style="color:#C8522A;font-size:8px;font-weight:700;text-transform:uppercase;">FRENCH</div>
+            <div style="color:#EFE3CE;font-size:11px;font-weight:700;">Coq au Vin</div>
+            <div style="color:#8A6A4A;font-size:8px;">⏱ 110 min</div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:8px;">
+        <div style="width:30px;height:30px;border-radius:50%;background:#1C1209;border:1.5px solid #3A2416;display:flex;align-items:center;justify-content:center;font-size:10px;">✕</div>
+        <div style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#C85A2F,#E8834A);display:flex;align-items:center;justify-content:center;font-size:13px;">♥</div>
+        <div style="width:30px;height:30px;border-radius:50%;background:#1C1209;border:1.5px solid #3A2416;display:flex;align-items:center;justify-content:center;font-size:10px;">↩</div>
+      </div>
+      <div style="margin-top:6px;text-align:center;font-size:8px;color:#4A3020;">each tab is a full-screen experience</div>
+    </div>
+    <div class="card-body">
+      <h3>C — Tabbed Hub</h3>
+      <p>Sticky tabs at the top: Swipe | Trending | Cuisines | All Recipes. Each tab is a full screen. Swipe stays the default. Cleanest separation of concerns but hides content behind tabs.</p>
+    </div>
+  </div>
+
+</div>

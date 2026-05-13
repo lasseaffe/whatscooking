@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Direction 1 — Apartamento × Kitchen Journal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cream: #F5EFE4;
+    --ink: #1A1209;
+    --ink-muted: #5A4232;
+    --ink-subtle: #9A7A60;
+    --copper: #C8782A;
+    --copper-pale: rgba(200,120,42,0.12);
+    --rule: 1px solid #C8782A;
+  }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Geist Mono', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    padding: 20px 48px;
+    display: flex;
+    align-items: baseline;
+    gap: 32px;
+    border-bottom: var(--rule);
+  }
+  .nav-logo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    flex: 1;
+  }
+  .nav-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+  }
+  .nav-links li:last-child { color: var(--copper); }
+
+  /* ── HERO ── */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 520px;
+    border-bottom: var(--rule);
+  }
+  .hero-text {
+    padding: 64px 48px 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: var(--rule);
+  }
+  .hero-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 32px;
+  }
+  .hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: clamp(52px, 7vw, 88px);
+    line-height: 1.0;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    margin-bottom: 32px;
+  }
+  .hero-title em { color: var(--copper); font-style: inherit; }
+  .hero-desc {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--ink-muted);
+    max-width: 400px;
+    margin-bottom: 40px;
+  }
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 2px;
+    width: fit-content;
+  }
+  .hero-cta::after { content: '→'; font-family: inherit; }
+
+  .hero-image {
+    background: #D4C4A8;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-image-inner {
+    width: 100%;
+    height: 100%;
+    background:
+      radial-gradient(ellipse at 30% 40%, #C8A87A 0%, #8B6040 50%, #4A3020 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+  }
+  .hero-caption {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(245,239,228,0.7);
+  }
+
+  /* ── FEATURED RECIPE ── */
+  .section-rule {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 28px 48px;
+    border-bottom: 1px solid rgba(200,120,42,0.25);
+  }
+  .section-label {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--copper);
+    white-space: nowrap;
+  }
+  .section-line {
+    flex: 1;
+    height: 1px;
+    background: rgba(200,120,42,0.25);
+  }
+
+  .recipe-feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: var(--rule);
+  }
+  .recipe-feature-image {
+    min-height: 420px;
+    background: radial-gradient(ellipse at 60% 30%, #B8904A 0%, #6B4020 60%, #3A2010 100%);
+    border-right: var(--rule);
+    position: relative;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .recipe-badge {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--copper);
+    background: var(--cream);
+    padding: 4px 10px;
+    border: 1px solid var(--copper);
+  }
+  .recipe-feature-text {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .recipe-number {
+    font-size: 72px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--copper-pale);
+    line-height: 1;
+    margin-bottom: -16px;
+    color: rgba(200,120,42,0.15);
+  }
+  .recipe-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+  .recipe-meta {
+    display: flex;
+    gap: 24px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(200,120,42,0.2);
+  }
+  .recipe-meta span { color: var(--copper); }
+  .recipe-intro {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--ink-muted);
+    margin-bottom: 32px;
+  }
+  .recipe-ingredients-label {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 12px;
+  }
+  .recipe-ingredients {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 24px;
+  }
+  .recipe-ingredients li {
+    font-size: 12px;
+    color: var(--ink-muted);
+    padding-left: 12px;
+    position: relative;
+  }
+  .recipe-ingredients li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--copper);
+  }
+
+  /* ── CARD GRID ── */
+  .grid-section { padding: 0 48px 48px; }
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top: var(--rule);
+    border-left: var(--rule);
+  }
+  .recipe-card {
+    border-right: var(--rule);
+    border-bottom: var(--rule);
+    padding: 0;
+  }
+  .card-image {
+    height: 180px;
+    background: var(--ink);
+  }
+  .card-image.warm-1 { background: linear-gradient(160deg, #8B5E30 0%, #4A2D14 100%); }
+  .card-image.warm-2 { background: linear-gradient(160deg, #7A8060 0%, #3A4028 100%); }
+  .card-image.warm-3 { background: linear-gradient(160deg, #9A6040 0%, #5A3020 100%); }
+  .card-body { padding: 20px 24px 24px; }
+  .card-eyebrow {
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 8px;
+  }
+  .card-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  .card-meta {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+  }
+
+  /* ── PANTRY STRIP ── */
+  .pantry-strip {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 36px 48px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    border-top: var(--rule);
+  }
+  .pantry-label {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    color: var(--cream);
+  }
+  .pantry-desc {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(245,239,228,0.7);
+    max-width: 380px;
+  }
+  .pantry-cta {
+    margin-left: auto;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--copper);
+    white-space: nowrap;
+    border-bottom: 1px solid var(--copper);
+    padding-bottom: 2px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">What's Cooking</div>
+  <ul class="nav-links">
+    <li>Discover</li>
+    <li>Pantry</li>
+    <li>Plans</li>
+    <li>My Recipes</li>
+    <li>Sign in →</li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-text">
+    <div>
+      <p class="hero-eyebrow">Autumn · Issue 14</p>
+      <h1 class="hero-title">Cook<br>as if it<br><em>matters.</em></h1>
+      <p class="hero-desc">Recipes for the kitchen you already have — not the one in the magazine. Built around a single cast-iron pan and whatever's in the fridge.</p>
+    </div>
+    <a href="#" class="hero-cta">Browse this week's recipes</a>
+  </div>
+  <div class="hero-image">
+    <div class="hero-image-inner">
+      <span class="hero-caption">Cast iron · slow heat · no hurry</span>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule">
+  <span class="section-label">Featured this week</span>
+  <span class="section-line"></span>
+  <span class="section-label" style="color: var(--ink-subtle);">45 min · Serves 4</span>
+</div>
+
+<article class="recipe-feature">
+  <div class="recipe-feature-image">
+    <span class="recipe-badge">Staff pick</span>
+  </div>
+  <div class="recipe-feature-text">
+    <div class="recipe-number">01</div>
+    <h2 class="recipe-title">Brown-Butter<br>Roasted Carrots</h2>
+    <div class="recipe-meta">
+      <span>45 min</span>
+      <span>Serves <span>4</span></span>
+      <span>Easy</span>
+      <span>Vegetarian</span>
+    </div>
+    <p class="recipe-intro">The brown butter does the work. Everything else just needs time and heat — two things a cast-iron pan is very good at giving.</p>
+    <p class="recipe-ingredients-label">Ingredients</p>
+    <ul class="recipe-ingredients">
+      <li>8 medium carrots</li>
+      <li>60g unsalted butter</li>
+      <li>2 tbsp honey</li>
+      <li>Fresh thyme</li>
+      <li>Flaky sea salt</li>
+      <li>Black pepper</li>
+    </ul>
+  </div>
+</article>
+
+<div class="section-rule" style="margin-top: 0;">
+  <span class="section-label">From your pantry</span>
+  <span class="section-line"></span>
+</div>
+
+<div class="grid-section">
+  <div class="recipe-grid">
+    <article class="recipe-card">
+      <div class="card-image warm-1"></div>
+      <div class="card-body">
+        <p class="card-eyebrow">30 min · Pasta</p>
+        <h3 class="card-title">Cacio e Pepe</h3>
+        <p class="card-meta">2 ingredients you have</p>
+      </div>
+    </article>
+    <article class="recipe-card">
+      <div class="card-image warm-2"></div>
+      <div class="card-body">
+        <p class="card-eyebrow">1 hr 20 min · Bread</p>
+        <h3 class="card-title">No-Knead<br>Dutch Oven Loaf</h3>
+        <p class="card-meta">Ready for tomorrow</p>
+      </div>
+    </article>
+    <article class="recipe-card">
+      <div class="card-image warm-3"></div>
+      <div class="card-body">
+        <p class="card-eyebrow">20 min · Eggs</p>
+        <h3 class="card-title">Shakshuka with<br>Feta & Herbs</h3>
+        <p class="card-meta">4 ingredients you have</p>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div class="pantry-strip">
+  <span class="pantry-label">Your pantry.</span>
+  <p class="pantry-desc">Tell us what's on your shelves. We'll find what you can already cook — usually more than you think.</p>
+  <span class="pantry-cta">Set up your pantry →</span>
+</div>
+
+</body>
+</html>

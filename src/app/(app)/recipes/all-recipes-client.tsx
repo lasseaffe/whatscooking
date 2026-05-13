@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { ReportButton } from "@/components/report-button";
+import { RecipeImage } from "@/components/recipe-image";
 
 type Recipe = {
   id: string;
@@ -103,9 +104,14 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
         style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
       >
         <div className="shrink-0 w-16 h-16 rounded-lg overflow-hidden bg-amber-950/30">
-          {img
-            ? <img src={img} alt={recipe.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-            : <div className="w-full h-full flex items-center justify-center text-2xl">🍳</div>}
+          <RecipeImage
+            recipeId={recipe.id}
+            imageUrl={img}
+            title={recipe.title}
+            cuisine={recipe.cuisine_type}
+            dietaryTags={recipe.dietary_tags}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
         </div>
         <div className="flex-1 min-w-0">
           <p className="font-semibold text-sm truncate" style={{ color: "#EFE3CE" }}>{recipe.title}</p>
@@ -149,9 +155,14 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
       style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
     >
       <div className="relative h-40 overflow-hidden bg-amber-950/30">
-        {img
-          ? <img src={img} alt={recipe.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          : <div className="w-full h-full flex items-center justify-center text-4xl">🍳</div>}
+        <RecipeImage
+          recipeId={recipe.id}
+          imageUrl={img}
+          title={recipe.title}
+          cuisine={recipe.cuisine_type}
+          dietaryTags={recipe.dietary_tags}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,10,4,0.7) 0%, transparent 55%)" }} />
         {recipe.difficulty_level && (
           <span className="absolute top-2 right-2 text-xs px-1.5 py-0.5 rounded-full font-medium capitalize"
@@ -236,8 +247,8 @@ export function AllRecipesClient({
 
   const [displayedRecipes, setDisplayedRecipes] = useState<Recipe[]>(initialRecipes);
   const [page, setPage] = useState(0);
-  const [total, setTotal] = useState(initialTotal);
-  const [hasMore, setHasMore] = useState(initialTotal > initialRecipes.length);
+  const [total, setTotal] = useState(initialTotal ?? 0);
+  const [hasMore, setHasMore] = useState((initialTotal ?? 0) > initialRecipes.length);
   const [isLoading, setIsLoading] = useState(false);
   const searchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 

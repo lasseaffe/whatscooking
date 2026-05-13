@@ -60,6 +60,48 @@ export interface RecipeIngredient {
   category?: string;
 }
 
+// ============================================================
+// Enhanced Recipe Instructions (5-field per-step structure)
+// See CLAUDE.md "Recipe Instruction Format" for the editorial spec.
+// ============================================================
+
+export interface JargonTerm {
+  term: string;
+  definition: string;
+}
+
+export interface EnhancedStep {
+  header: string;                                  // 3-5 word action title
+  body_text: string;                               // what + why + pitfall, humanized
+  skill: { beginner: string; pro: string };        // sensory cue / chef secret
+  jargon: JargonTerm[];                            // 0-2 entries
+  visual_strategy: string;                         // 1-sentence visual aid description
+}
+
+// ============================================================
+// Enhanced Recipe Description (structured editorial card)
+// See CLAUDE.md "Recipe Description Format" for the editorial spec.
+// ============================================================
+
+export type RecipeSkillLevel = "beginner" | "intermediate" | "advanced";
+
+export interface EnhancedDescription {
+  headnote_narrative: string;                      // 3-10 sentences of editorial prose (the hero)
+  tagline: string;                                 // 1 sentence punchy hook (<=25 words)
+  origin: {
+    cuisine: string;                               // specific label (e.g. "Northern Mexican")
+    tradition: string;                             // 1 sentence on cultural role
+  };
+  technique_signature: string;                     // 1 sentence: defining method
+  ingredient_signature: string;                    // 1 sentence: 2-3 key ingredients + flavor logic
+  audience: string;                                // 1 sentence: who / when
+  effort: {
+    time_feel: string;                             // e.g. "60 minutes, mostly hands-off"
+    skill_level: RecipeSkillLevel;
+    forgiving: boolean;                            // mistakes recoverable mid-cook?
+  };
+}
+
 export interface PantryItem {
   id: string;
   user_id: string;
@@ -72,7 +114,7 @@ export interface PantryItem {
 }
 
 // ============================================================
-// Recipes (public cache — Spoonacular + AI)
+// Recipes (public cache - Spoonacular + AI)
 // ============================================================
 
 export interface Recipe {
@@ -88,6 +130,8 @@ export interface Recipe {
   dietary_tags?: string[];
   ingredients: RecipeIngredient[];
   instructions?: string[];
+  instructions_enhanced?: EnhancedStep[] | null;
+  description_enhanced?: EnhancedDescription | null;
   prep_time_minutes?: number;
   cook_time_minutes?: number;
   servings?: number;
@@ -104,6 +148,8 @@ export interface Recipe {
   source_name?: string;
   difficulty_level?: "easy" | "medium" | "hard" | null;
   created_at: string;
+  created_by?: string | null;
+  is_published?: boolean;
   // Baby & family fields
   baby_stages?: MilestoneKey[];
   allergen_flags?: AllergenKey[];

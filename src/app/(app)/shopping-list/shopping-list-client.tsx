@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { ShoppingCart, Trash2, CheckCircle2, Circle, X, PackageCheck } from "lucide-react";
+import { ShoppingCart, Trash2, CheckCircle2, Circle, X, PackageCheck, Leaf } from "lucide-react";
 import {
   type ShoppingItem,
   loadShoppingList,
@@ -12,13 +12,39 @@ import {
 
 export function ShoppingListClient() {
   const [items, setItems] = useState<ShoppingItem[]>([]);
+  const [pantryPrompt, setPantryPrompt] = useState<ShoppingItem | null>(null);
+  const [addingToPantry, setAddingToPantry] = useState(false);
+  const [pantryAdded, setPantryAdded] = useState<Set<string>>(new Set());
+  const [vpImported, setVpImported] = useState(0);
 
   useEffect(() => {
-    setItems(loadShoppingList());
+    // XA-5: import food items from VenturePath PackingEngine via URL param
+    const params = new URLSearchParams(window.location.search);
+    const vpItemsRaw = params.get("vpItems");
+    if (vpItemsRaw) {
+      try {
+        const incoming = JSON.parse(vpItemsRaw) as Array<{ name: string }>;
+        const updated = addToShoppingList(
+          incoming.map((i) => ({ name: i.name, recipeTitle: "VenturePath Expedition" }))
+        );
+        setItems(updated);
+        setVpImported(incoming.length);
+      } catch { /* malformed param — ignore */ }
+      // Remove param from URL without reload
+      const url = new URL(window.location.href);
+      url.searchParams.delete("vpItems");
+      window.history.replaceState(null, "", url.toString());
+    } else {
+      setItems(loadShoppingList());
+    }
   }, []);
 
   const handleToggle = useCallback((id: string) => {
+    const item = loadShoppingList().find((i) => i.id === id);
+    const wasUnchecked = item && !item.checked;
     setItems(toggleShoppingItem(id));
+    // Offer to add to pantry only when checking off (buying), not unchecking
+    if (wasUnchecked && item) setPantryPrompt(item);
   }, []);
 
   const handleRemove = useCallback((id: string) => {
@@ -28,6 +54,27 @@ export function ShoppingListClient() {
   const handleClearChecked = useCallback(() => {
     setItems(clearCheckedItems());
   }, []);
+
+  async function handleAddToPantry() {
+    if (!pantryPrompt) return;
+    setAddingToPantry(true);
+    try {
+      await fetch("/api/pantry/items", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: pantryPrompt.name,
+          quantity: pantryPrompt.amount ? parseFloat(String(pantryPrompt.amount)) || null : null,
+        }),
+      });
+      setPantryAdded((prev) => new Set([...prev, pantryPrompt.id]));
+    } catch {
+      // Silent — pantry add is a convenience, not a blocker
+    } finally {
+      setAddingToPantry(false);
+      setPantryPrompt(null);
+    }
+  }
 
   const unchecked = items.filter((i) => !i.checked);
   const checked = items.filter((i) => i.checked);
@@ -44,6 +91,47 @@ export function ShoppingListClient() {
       className="min-h-screen px-4 py-8 sm:px-8"
       style={{ background: "var(--wc-bg-base, #1A0E06)" }}
     >
+      {/* Pantry prompt modal */}
+      {pantryPrompt && (
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.6)" }}>
+          <div
+            className="w-full max-w-sm rounded-2xl p-5 flex flex-col gap-4"
+            style={{ background: "#1E1208", border: "1px solid rgba(176,125,86,0.3)" }}
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0" style={{ background: "rgba(130,142,111,0.15)" }}>
+                <Leaf style={{ width: 16, height: 16, color: "#828E6F" }} />
+              </div>
+              <div>
+                <p className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>
+                  Add to pantry?
+                </p>
+                <p className="text-xs" style={{ color: "#6B4E36" }}>
+                  {[pantryPrompt.amount, pantryPrompt.unit, pantryPrompt.name].filter(Boolean).join(" ")} is now in your cart
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={handleAddToPantry}
+                disabled={addingToPantry}
+                className="flex-1 py-2 rounded-xl text-sm font-semibold transition-opacity disabled:opacity-50"
+                style={{ background: "#828E6F", color: "#1A0E06" }}
+              >
+                {addingToPantry ? "Adding…" : "Yes, add to pantry"}
+              </button>
+              <button
+                onClick={() => setPantryPrompt(null)}
+                className="px-4 py-2 rounded-xl text-sm font-semibold border transition-opacity"
+                style={{ border: "1px solid rgba(42,24,8,0.8)", color: "#6B4E36", background: "transparent" }}
+              >
+                Skip
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="max-w-xl mx-auto flex flex-col gap-6">
         {/* Header */}
         <div className="flex items-center gap-3">
@@ -62,6 +150,12 @@ export function ShoppingListClient() {
             </h1>
             <p className="text-xs" style={{ color: "#6B4E36" }}>
               {unchecked.length} item{unchecked.length !== 1 ? "s" : ""} to buy
+              {vpImported > 0 && (
+                <span className="ml-2 px-1.5 py-0.5 rounded text-[10px] font-semibold"
+                  style={{ background: "rgba(230,126,34,0.15)", color: "#E67E22" }}>
+                  +{vpImported} from VenturePath
+                </span>
+              )}
             </p>
           </div>
           {checked.length > 0 && (
@@ -153,15 +247,20 @@ export function ShoppingListClient() {
                   className="flex items-center gap-3 px-4 py-3"
                   style={{
                     borderBottom: idx < checked.length - 1 ? "1px solid rgba(42,24,8,0.4)" : "none",
-                    opacity: 0.5,
+                    opacity: pantryAdded.has(item.id) ? 0.35 : 0.5,
                   }}
                 >
                   <button onClick={() => handleToggle(item.id)} className="shrink-0 hover:opacity-80" aria-label="Unmark">
-                    <CheckCircle2 style={{ width: 20, height: 20, color: "#828E6F" }} />
+                    <CheckCircle2 style={{ width: 20, height: 20, color: pantryAdded.has(item.id) ? "#828E6F" : "#828E6F" }} />
                   </button>
                   <span className="flex-1 text-sm line-through" style={{ color: "#5A3A28" }}>
                     {[item.amount, item.unit, item.name].filter(Boolean).join(" ")}
                   </span>
+                  {pantryAdded.has(item.id) && (
+                    <span className="text-[10px] font-medium px-1.5 py-0.5 rounded-full" style={{ background: "rgba(130,142,111,0.15)", color: "#828E6F" }}>
+                      in pantry
+                    </span>
+                  )}
                   <button onClick={() => handleRemove(item.id)} className="shrink-0 hover:opacity-70" aria-label="Remove">
                     <X style={{ width: 14, height: 14, color: "#3A2416" }} />
                   </button>

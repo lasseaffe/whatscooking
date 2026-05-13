@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass,
-  ChevronRight, ShoppingCart,
+  ChevronRight, ShoppingCart, Leaf, Settings2,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -87,6 +87,15 @@ export function AppNav() {
   const pathname = usePathname();
   const router = useRouter();
   const [showDietaryPanel, setShowDietaryPanel] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data }) => {
+      const adminEmail = process.env.NEXT_PUBLIC_ADMIN_EMAIL;
+      if (adminEmail && data.user?.email === adminEmail) setIsAdmin(true);
+    });
+  }, []);
 
   // Flyout state — key + fixed Y coordinate
   const [flyout, setFlyout] = useState<FlyoutState>(null);
@@ -554,6 +563,14 @@ export function AppNav() {
           <div className="wc-bottom-tools px-1 items-center">
             <ThemeToggle variant="pill" />
           </div>
+
+          {/* Admin dashboard (admin-only) */}
+          {isAdmin && (
+            <Link href="/admin" className="wc-item" title="Admin">
+              <Settings2 className="wc-item-icon" style={{ width: 22, height: 22, color: "#E8A820" }} />
+              <span className="wc-lbl" style={{ color: "#E8A820" }}>Admin</span>
+            </Link>
+          )}
 
           {/* Sign out */}
           <button onClick={handleSignOut} className="wc-item" title="Sign out">

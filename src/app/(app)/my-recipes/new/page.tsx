@@ -4,6 +4,10 @@ import { useState, useCallback, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Plus, X, ChefHat, Upload, Clock, Sparkles, Info, Camera } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+import type { EnhancedStep } from "@/lib/types";
+import { EnhancePreviewModal } from "@/components/recipe/EnhancePreviewModal";
+import type { EnhancedDescription } from "@/lib/types";
+import { EnhanceDescriptionModal } from "@/components/recipe/EnhanceDescriptionModal";
 
 const DIETARY_TAGS = ["vegetarian","vegan","gluten-free","dairy-free","high-protein","keto","paleo","low-carb"];
 const DISH_TYPES = ["main course","side dish","breakfast","soup","salad","dessert","snack","baking","drink"];
@@ -45,6 +49,11 @@ export default function NewRecipePage() {
   const [instructions, setInstructions] = useState<string[]>([""]);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState("");
+  const [instructionsEnhanced, setInstructionsEnhanced] = useState<EnhancedStep[] | null>(null);
+  const [enhanceModal, setEnhanceModal] = useState<null | { mode: "single" | "all"; index: number }>(null);
+  const [descriptionEnhanced, setDescriptionEnhanced] = useState<EnhancedDescription | null>(null);
+  const [descModalOpen, setDescModalOpen] = useState(false);
+  const [descModalOpen, setDescModalOpen] = useState(false);
 
   // Pre-fill from photo extraction
   useEffect(() => {
@@ -167,6 +176,8 @@ export default function NewRecipePage() {
           unit: i.unit.trim() || undefined,
         })),
         instructions: instructions.filter((s) => s.trim()),
+        instructions_enhanced: instructionsEnhanced,
+        description_enhanced: descriptionEnhanced,
       })
       .select("id")
       .single();
@@ -219,7 +230,20 @@ export default function NewRecipePage() {
               style={{ borderColor: "#E8D4C0", background: "#FAF7F2", color: "#3D2817" }} />
           </div>
           <div>
-            <label className="text-xs font-medium block mb-1" style={{ color: "#6B5B52" }}>Description</label>
+            <div className="flex items-center justify-between mb-1">
+              <label className="text-xs font-medium" style={{ color: "#6B5B52" }}>Description</label>
+              <button
+                type="button"
+                onClick={() => setDescModalOpen(true)}
+                disabled={!title.trim()}
+                className="inline-flex items-center gap-1 text-[11px] px-2 py-1 rounded-md font-semibold disabled:opacity-40"
+                style={{ background: "#FFF0E6", color: "#C85A2F", border: "1px solid #F4A261" }}
+                aria-label="Enhance description"
+                title="Run the Senior Cookbook Editor pass on this description"
+              >
+                <Sparkles className="w-3 h-3" /> {descriptionEnhanced ? "Re-enhance" : "Enhance"}
+              </button>
+            </div>
             <textarea value={description} onChange={(e) => setDescription(e.target.value)}
               placeholder="What makes this recipe special?"
               rows={3} className="w-full px-3 py-2 rounded-xl border text-sm resize-none focus:outline-none"
@@ -385,7 +409,18 @@ export default function NewRecipePage() {
 
         {/* Instructions */}
         <section className="rounded-2xl border p-5 space-y-3" style={{ borderColor: "#F5E6D3" }}>
-          <h2 className="font-semibold" style={{ color: "#3D2817" }}>Instructions</h2>
+          <div className="flex items-center justify-between">
+            <h2 className="font-semibold" style={{ color: "#3D2817" }}>Instructions</h2>
+            <button
+              type="button"
+              disabled={instructions.filter((s) => s.trim()).length === 0}
+              onClick={() => setEnhanceModal({ mode: "all", index: 0 })}
+              className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-semibold disabled:opacity-50"
+              style={{ background: "#FFF0E6", color: "#C85A2F", border: "1px solid #F4A261" }}
+            >
+              <Sparkles className="w-3 h-3" /> {instructionsEnhanced ? "Re-enhance all" : "Enhance all steps"}
+            </button>
+          </div>
           {instructions.map((step, i) => (
             <div key={i} className="flex gap-3 items-start">
               <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold mt-2"
@@ -420,6 +455,54 @@ export default function NewRecipePage() {
           </button>
         </div>
       </div>
+
+      {descModalOpen && (
+        <EnhanceDescriptionModal
+          open
+          title={title || "Untitled recipe"}
+          ingredients={ingredients.filter((i) => i.name.trim()).map((i) => ({
+            name: i.name.trim(),
+            amount: i.amount ? parseFloat(i.amount) : undefined,
+            unit: i.unit.trim() || undefined,
+          }))}
+          instructions={instructions.filter((s) => s.trim())}
+          originalDescription={description}
+          onClose={() => setDescModalOpen(false)}
+          onAccept={(d) => {
+            setDescriptionEnhanced(d);
+            setDescription(d.headnote_narrative);
+            setDescModalOpen(false);
+          }}
+        />
+      )}
+      {enhanceModal && (
+        <EnhancePreviewModal
+          open
+          mode={enhanceModal.mode}
+          title={title || "Untitled recipe"}
+          ingredients={ingredients.filter((i) => i.name.trim()).map((i) => ({
+            name: i.name.trim(),
+            amount: i.amount ? parseFloat(i.amount) : undefined,
+            unit: i.unit.trim() || undefined,
+          }))}
+          originalInstructions={instructions.filter((s) => s.trim())}
+          initialStepIndex={enhanceModal.index}
+          onClose={() => setEnhanceModal(null)}
+          onAcceptOne={(idx, step) => {
+            const next = instructionsEnhanced
+              ? [...instructionsEnhanced]
+              : instructions.filter((s) => s.trim()).map(() => null as unknown as EnhancedStep);
+            next[idx] = step;
+            setInstructionsEnhanced(next as EnhancedStep[]);
+            setEnhanceModal(null);
+          }}
+          onAcceptAll={(steps, consolidatedPlain) => {
+            setInstructionsEnhanced(steps);
+            if (consolidatedPlain) setInstructions(consolidatedPlain);
+            setEnhanceModal(null);
+          }}
+        />
+      )}
     </div>
   );
 }

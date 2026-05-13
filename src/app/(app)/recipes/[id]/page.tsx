@@ -11,6 +11,7 @@ import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-m
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
+import { EnhancedInstructions } from "./enhanced-instructions";
 
 export default async function RecipePage({
   params,
@@ -98,6 +99,7 @@ export default async function RecipePage({
       reviewCount={ratingCount}
       baseServings={recipeData.servings ?? 2}
       instructions={instructions}
+      instructionsEnhanced={(recipeData.instructions_enhanced ?? null) as import("@/lib/types").EnhancedStep[] | null}
       ingredients={ingredients}
     >
       {/* ══ MOBILE HERO IMAGE — full-bleed, hidden on desktop ══ */}
@@ -164,14 +166,15 @@ export default async function RecipePage({
             </h1>
 
             {/* Description / tagline */}
-            {recipeData.description && (
-              <p
-                className="text-base italic leading-relaxed"
-                style={{ color: "#7A5A40", maxWidth: "44ch" }}
-              >
-                {recipeData.description}
-              </p>
-            )}
+            <EnhancedDescriptionBlock
+              recipeId={id}
+              title={displayTitle}
+              ingredients={ingredients}
+              instructions={instructions}
+              plainDescription={recipeData.description ?? ""}
+              initialEnhanced={(recipeData.description_enhanced ?? null) as import("@/lib/types").EnhancedDescription | null}
+              isOwner={recipeData.source === "user" && recipeData.created_by === user!.id}
+            />
 
             {/* Metrics row */}
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm" style={{ color: "#8A6A4A" }}>
@@ -276,6 +279,16 @@ export default async function RecipePage({
           </div>
         </div>
       </div>
+
+      {/* ══ ENHANCED CHEF-MENTOR WALKTHROUGH (5-field per-step) ══ */}
+      <EnhancedInstructions
+        recipeId={id}
+        title={displayTitle}
+        ingredients={ingredients}
+        plainInstructions={instructions}
+        initialEnhanced={(recipeData.instructions_enhanced ?? null) as import("@/lib/types").EnhancedStep[] | null}
+        isOwner={recipeData.source === "user" && recipeData.created_by === user!.id}
+      />
 
       {/* ══ RECIPE COLUMNS — ingredients + instructions ══ */}
       <div style={{ borderBottom: "1px solid rgba(42,24,8,0.6)" }}>

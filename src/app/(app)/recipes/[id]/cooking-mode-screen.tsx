@@ -22,6 +22,7 @@ export interface CookingModeScreenProps {
   imageUrl?: string | null;
   baseServings: number;
   instructions: string[];
+  instructionsEnhanced?: import("@/lib/types").EnhancedStep[] | null;
   ingredients?: Ingredient[];
   onExit: () => void;
 }
@@ -635,6 +636,7 @@ export function CookingModeScreen({
   imageUrl,
   baseServings,
   instructions,
+  instructionsEnhanced = null,
   ingredients = [],
   onExit,
 }: CookingModeScreenProps) {
@@ -743,8 +745,11 @@ export function CookingModeScreen({
     [current, ingredients, servingsRatio]
   );
 
-  const heading = stepHeading(enrichedText);
-  const body = stepBody(enrichedText);
+  // Prefer enhanced data when available - the heuristic stepHeading/stepBody splitter
+  // gets confused by one-long-sentence steps and shows a chopped header like "In a tall".
+  const enhancedStep = instructionsEnhanced?.[step];
+  const heading = enhancedStep ? enhancedStep.header : "";
+  const body = enhancedStep ? enhancedStep.body_text : stepBody(enrichedText) || enrichedText;
 
   function go(i: number) {
     setStep(Math.max(0, Math.min(total - 1, i)));
@@ -768,6 +773,8 @@ export function CookingModeScreen({
   // Fetch enriched body for the current step (cached per index)
   useEffect(() => {
     if (enrichedBodies[step] !== undefined) return;
+    // When the step has been enhanced, prefer the chef-mentor body over the API rewrite.
+    if (instructionsEnhanced?.[step]) return;
     const raw = stepBody(enrichedText);
     if (!raw) return;
     setBodyLoading(true);
@@ -955,8 +962,8 @@ export function CookingModeScreen({
               />
             </div>
 
-            {/* Step heading */}
-            <h1
+            {/* Step heading — only when enhanced data provides a real header */}
+            {heading && <h1
               className="mb-5 leading-tight"
               style={{
                 fontFamily: "'Libre Baskerville', Georgia, serif",
@@ -966,7 +973,7 @@ export function CookingModeScreen({
               }}
             >
               <AnnotatedText text={heading} onGlossaryClick={handleGlossaryClick} />
-            </h1>
+            </h1>}
 
             {/* Step body — enriched 2-5 sentence explanation */}
             {(enrichedBodies[step] || body) && (
@@ -981,7 +988,7 @@ export function CookingModeScreen({
                 }}
               >
                 <AnnotatedText
-                  text={enrichedBodies[step] || body}
+                  text={instructionsEnhanced?.[step]?.body_text ?? (enrichedBodies[step] || body)}
                   onGlossaryClick={handleGlossaryClick}
                 />
               </p>

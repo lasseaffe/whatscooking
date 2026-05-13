@@ -15,6 +15,7 @@ export interface CookingModeWrapperProps {
   imageUrl?: string | null;
   baseServings?: number | null;
   instructions?: string[];
+  instructionsEnhanced?: import("@/lib/types").EnhancedStep[] | null;
   ingredients?: { name: string; amount?: number | null; unit?: string | null }[];
 }
 
@@ -27,6 +28,7 @@ function CookingModeWrapperInner({
   imageUrl,
   baseServings,
   instructions = [],
+  instructionsEnhanced = null,
   ingredients = [],
 }: CookingModeWrapperProps) {
   const { active, activate, deactivate } = useCookingMode();
@@ -41,6 +43,7 @@ function CookingModeWrapperInner({
         imageUrl={imageUrl}
         baseServings={baseServings ?? 2}
         instructions={instructions}
+        instructionsEnhanced={instructionsEnhanced}
         ingredients={ingredients}
         onExit={deactivate}
       />

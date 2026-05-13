@@ -36,10 +36,13 @@ export function ShoppingTab({ data, canInteract, eventId, userId, onReload }: {
     menuItemId: string;
     menuItemName: string;
     recipeId: string;
-    ingredients: { name: string; quantity: string | null }[];
+    servings: number | null;
+    ingredients: { name: string; quantity: string | null; rawQuantity: number | null; unit: string | null }[];
   }[]>([]);
   const [selectedIngredients, setSelectedIngredients] = useState<Set<string>>(new Set());
   const [loadingRecipes, setLoadingRecipes] = useState(false);
+  const guestCount = data.guests.filter(g => g.rsvp === 'accepted').length || 1;
+  const [scaleTo, setScaleTo] = useState<number>(guestCount);
   const [importingRecipes, setImportingRecipes] = useState(false);
 
   async function handleAdd() {
@@ -82,13 +85,20 @@ export function ShoppingTab({ data, canInteract, eventId, userId, onReload }: {
     setLoadingRecipes(false);
   }
 
+  function scaleQuantity(ing: { rawQuantity: number | null; unit: string | null; quantity: string | null }, recipeServings: number | null): string | null {
+    if (!ing.rawQuantity || !recipeServings || recipeServings <= 0) return ing.quantity;
+    const scaled = (ing.rawQuantity / recipeServings) * scaleTo;
+    const rounded = Math.round(scaled * 100) / 100;
+    return ing.unit ? `${rounded} ${ing.unit}` : String(rounded);
+  }
+
   async function importSelected() {
     setImportingRecipes(true);
     const toImport: { name: string; quantity: string | null }[] = [];
     recipeGroups.forEach(g => {
       g.ingredients.forEach(ing => {
         if (selectedIngredients.has(`${g.menuItemId}::${ing.name}`)) {
-          toImport.push({ name: ing.name, quantity: ing.quantity });
+          toImport.push({ name: ing.name, quantity: scaleQuantity(ing, g.servings) });
         }
       });
     });
@@ -133,6 +143,19 @@ export function ShoppingTab({ data, canInteract, eventId, userId, onReload }: {
             </p>
             <button onClick={() => setShowRecipePanel(false)} className="text-xs opacity-40 hover:opacity-80" style={{ color: '#EFE3CE' }}>✕</button>
           </div>
+          <div className="flex items-center gap-3 rounded-xl px-3 py-2" style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}>
+            <span className="text-xs" style={{ color: 'rgba(239,227,206,0.6)' }}>Scale for</span>
+            <input
+              type="number"
+              min={1}
+              max={200}
+              value={scaleTo}
+              onChange={e => setScaleTo(Math.max(1, parseInt(e.target.value) || 1))}
+              className="w-14 text-center rounded-lg px-2 py-1 text-sm font-semibold"
+              style={{ background: 'rgba(200,82,42,0.15)', border: '1px solid rgba(200,82,42,0.3)', color: '#EFE3CE' }}
+            />
+            <span className="text-xs" style={{ color: 'rgba(239,227,206,0.6)' }}>guests <span style={{ color: 'rgba(239,227,206,0.35)' }}>({guestCount} confirmed)</span></span>
+          </div>
           {loadingRecipes ? (
             <p className="text-sm opacity-40">Loading…</p>
           ) : recipeGroups.length === 0 ? (
@@ -156,7 +179,11 @@ export function ShoppingTab({ data, canInteract, eventId, userId, onReload }: {
                         }}
                       />
                       <span className="text-sm" style={{ color: '#EFE3CE' }}>{ing.name}</span>
-                      {ing.quantity && <span className="text-xs opacity-40" style={{ color: '#EFE3CE' }}>{ing.quantity}</span>}
+                      {ing.quantity && (
+                        <span className="text-xs opacity-40" style={{ color: '#EFE3CE' }}>
+                          {scaleQuantity(ing, group.servings)}
+                        </span>
+                      )}
                     </label>
                   );
                 })}

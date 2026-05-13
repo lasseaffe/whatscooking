@@ -1,5 +1,5 @@
 'use client'
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import type { OnboardingConfig, OnboardingState } from './onboarding.types'
 
 const DEFAULT_STATE: OnboardingState = {
@@ -10,6 +10,9 @@ const DEFAULT_STATE: OnboardingState = {
   dismissedBeacons: [],
   completedActions: [],
 }
+
+// null = not yet hydrated (hide the wizard until we've read localStorage)
+type HydratedState = OnboardingState | null
 
 function loadState(storageKey: string): OnboardingState {
   try {
@@ -28,10 +31,16 @@ export function useOnboardingState(config: OnboardingConfig) {
   const totalWizardSteps = config.wizard.steps.length
   const totalTourSteps = config.tour.waypoints.length
 
-  const [state, setState] = useState<OnboardingState>(() => loadState(storageKey))
+  const [state, setState] = useState<HydratedState>(null)
+
+  // Defer localStorage read to after hydration so SSR never shows the wizard
+  useEffect(() => {
+    setState(loadState(storageKey))
+  }, [storageKey])
 
   const update = useCallback((patch: Partial<OnboardingState>) => {
     setState(prev => {
+      if (!prev) return prev
       const next = { ...prev, ...patch }
       saveState(storageKey, next)
       return next
@@ -40,6 +49,7 @@ export function useOnboardingState(config: OnboardingConfig) {
 
   const advanceWizard = useCallback(() => {
     setState(prev => {
+      if (!prev) return prev
       const nextStep = prev.wizardStep + 1
       const next: OnboardingState = nextStep >= totalWizardSteps
         ? { ...prev, mode: 'tour', wizardStep: 0 }
@@ -51,6 +61,7 @@ export function useOnboardingState(config: OnboardingConfig) {
 
   const advanceTour = useCallback(() => {
     setState(prev => {
+      if (!prev) return prev
       const nextStep = prev.tourStep + 1
       const next: OnboardingState = nextStep >= totalTourSteps
         ? { ...prev, mode: 'beacons', tourStep: 0 }
@@ -62,7 +73,7 @@ export function useOnboardingState(config: OnboardingConfig) {
 
   const markActionComplete = useCallback((actionId: string) => {
     setState(prev => {
-      if (prev.completedActions.includes(actionId)) return prev
+      if (!prev || prev.completedActions.includes(actionId)) return prev
       const next = { ...prev, completedActions: [...prev.completedActions, actionId] }
       saveState(storageKey, next)
       return next
@@ -71,7 +82,7 @@ export function useOnboardingState(config: OnboardingConfig) {
 
   const dismissBeacon = useCallback((key: string) => {
     setState(prev => {
-      if (prev.dismissedBeacons.includes(key)) return prev
+      if (!prev || prev.dismissedBeacons.includes(key)) return prev
       const next = { ...prev, dismissedBeacons: [...prev.dismissedBeacons, key] }
       saveState(storageKey, next)
       return next
@@ -80,13 +91,18 @@ export function useOnboardingState(config: OnboardingConfig) {
 
   const setAnswer = useCallback((stepId: string, answer: string | string[]) => {
     setState(prev => {
+      if (!prev) return prev
       const next = { ...prev, wizardAnswers: { ...prev.wizardAnswers, [stepId]: answer } }
       saveState(storageKey, next)
       return next
     })
   }, [storageKey])
 
-  const skip = useCallback(() => update({ mode: 'done' }), [update])
+  const skip = useCallback(() => {
+    const next: OnboardingState = { ...DEFAULT_STATE, mode: 'done' }
+    saveState(storageKey, next)
+    setState(next)
+  }, [storageKey])
 
   const restart = useCallback(() => {
     const next: OnboardingState = { ...DEFAULT_STATE }
