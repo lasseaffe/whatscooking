@@ -1,15 +1,15 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { Sparkles } from "lucide-react";
-import type { EnhancedDescription, RecipeIngredient } from "@/lib/types";
 import { EnhancedDescriptionCard } from "@/components/recipe/EnhancedDescriptionCard";
 import { EnhanceDescriptionModal } from "@/components/recipe/EnhanceDescriptionModal";
+import type { EnhancedDescription } from "@/lib/types";
 
-interface Props {
+interface EnhancedDescriptionBlockProps {
   recipeId: string;
   title: string;
-  ingredients: RecipeIngredient[];
+  ingredients: { name: string; amount?: number; unit?: string }[];
   instructions: string[];
   plainDescription: string;
   initialEnhanced: EnhancedDescription | null;
@@ -24,109 +24,74 @@ export function EnhancedDescriptionBlock({
   plainDescription,
   initialEnhanced,
   isOwner,
-}: Props) {
+}: EnhancedDescriptionBlockProps) {
   const [enhanced, setEnhanced] = useState<EnhancedDescription | null>(initialEnhanced);
-  const [modalOpen, setModalOpen] = useState(false);
-  const [saving, setSaving] = useState(false);
-  const [saveError, setSaveError] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
-  async function persist(next: EnhancedDescription) {
-    setSaving(true);
-    setSaveError("");
-    try {
-      const res = await fetch("/api/recipes/user", {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id: recipeId, description_enhanced: next }),
-      });
-      const data = await res.json();
-      if (!res.ok) { setSaveError(data?.error ?? "Save failed"); return false; }
-      setEnhanced(next);
-      return true;
-    } catch (e) {
-      setSaveError((e as Error).message);
-      return false;
-    } finally {
-      setSaving(false);
-    }
-  }
-
-  // Owner with no enhancement yet -> show CTA
-  if (!enhanced && isOwner) {
+  // If enhanced data exists, render the card. Otherwise render plain description + enhance button.
+  if (enhanced) {
     return (
-      <div className="mt-3">
-        {plainDescription?.trim() && (
-          <p className="text-base italic leading-relaxed mb-3" style={{ color: "#7A5A40", maxWidth: "44ch" }}>
-            {plainDescription}
-          </p>
+      <div className="space-y-4">
+        <EnhancedDescriptionCard description={enhanced} />
+        {isOwner && (
+          <button
+            onClick={() => setShowModal(true)}
+            className="inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded transition-opacity hover:opacity-80"
+            style={{ background: "rgba(176,125,86,0.12)", color: "#B07D56" }}
+          >
+            <Sparkles style={{ width: 12, height: 12 }} /> Re-enhance description
+          </button>
         )}
-        <button
-          type="button"
-          onClick={() => setModalOpen(true)}
-          className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-semibold"
-          style={{ background: "rgba(244,162,97,0.12)", color: "#F4A261", border: "1px solid rgba(244,162,97,0.35)" }}
-        >
-          <Sparkles className="w-3 h-3" />
-          {plainDescription?.trim() ? "Enhance description" : "Write description from title + ingredients"}
-        </button>
-        {modalOpen && (
+        {showModal && (
           <EnhanceDescriptionModal
-            open
+            open={showModal}
             title={title}
             ingredients={ingredients}
             instructions={instructions}
             originalDescription={plainDescription}
-            onClose={() => setModalOpen(false)}
-            onAccept={async (d) => {
-              const ok = await persist(d);
-              if (ok) setModalOpen(false);
+            onAccept={(newEnhanced) => {
+              setEnhanced(newEnhanced);
+              setShowModal(false);
             }}
+            onClose={() => setShowModal(false)}
           />
         )}
       </div>
     );
   }
 
-  // Non-owner, no enhancement -> render plain italic description (or nothing)
-  if (!enhanced && !isOwner) {
-    if (!plainDescription?.trim()) return null;
-    return (
-      <p className="text-base italic leading-relaxed mt-3" style={{ color: "#7A5A40", maxWidth: "44ch" }}>
-        {plainDescription}
-      </p>
-    );
-  }
-
-  // Enhanced exists -> render full card + (owner) re-enhance button
+  // No enhanced data yet. Show plain description + enhance button.
   return (
-    <div className="mt-4">
-      {enhanced && <EnhancedDescriptionCard description={enhanced} />}
-      {isOwner && (
-        <div className="mt-2 flex items-center gap-2">
-          <button
-            type="button"
-            onClick={() => setModalOpen(true)}
-            className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg"
-            style={{ background: "#2A2522", color: "#F4A261", border: "1px solid #3A3430" }}
-          >
-            <Sparkles className="w-3 h-3" /> Re-enhance description
-          </button>
-          {saving && <span className="text-xs" style={{ color: "#A69180" }}>Saving...</span>}
-          {saveError && <span className="text-xs" style={{ color: "#F87171" }}>{saveError}</span>}
-        </div>
+    <div className="space-y-3">
+      {plainDescription && (
+        <p
+          className="italic text-sm leading-relaxed"
+          style={{ color: "#8A6A4A" }}
+        >
+          {plainDescription}
+        </p>
       )}
-      {modalOpen && (
+      {isOwner && (
+        <button
+          onClick={() => setShowModal(true)}
+          className="inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded transition-opacity hover:opacity-80"
+          style={{ background: "rgba(176,125,86,0.12)", color: "#B07D56" }}
+        >
+          <Sparkles style={{ width: 12, height: 12 }} /> Enhance description
+        </button>
+      )}
+      {showModal && (
         <EnhanceDescriptionModal
-          open
+          open={showModal}
           title={title}
           ingredients={ingredients}
           instructions={instructions}
           originalDescription={plainDescription}
-          onClose={() => setModalOpen(false)}
-          onAccept={async (d) => {
-            const ok = await persist(d);
-            if (ok) setModalOpen(false);
+          onAccept={(newEnhanced) => {
+            setEnhanced(newEnhanced);
+            setShowModal(false);
           }}
+          onClose={() => setShowModal(false)}
         />
       )}
     </div>

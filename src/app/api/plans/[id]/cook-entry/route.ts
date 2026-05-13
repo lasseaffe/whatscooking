@@ -96,7 +96,7 @@ export async function POST(
     user_id: user.id,
     action_id: "recipe_cooked",
     day: new Date().toISOString().slice(0, 10),
-  }).then(() => {}).catch(() => {});
+  }).then(() => {}, () => {});
 
   return NextResponse.json({ deducted });
 }

@@ -53,7 +53,6 @@ export default function NewRecipePage() {
   const [enhanceModal, setEnhanceModal] = useState<null | { mode: "single" | "all"; index: number }>(null);
   const [descriptionEnhanced, setDescriptionEnhanced] = useState<EnhancedDescription | null>(null);
   const [descModalOpen, setDescModalOpen] = useState(false);
-  const [descModalOpen, setDescModalOpen] = useState(false);
 
   // Pre-fill from photo extraction
   useEffect(() => {

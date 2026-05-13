@@ -8,6 +8,7 @@ type SavedRecipe = {
   title: string;
   description: string | null;
   image_url: string | null;
+  image_urls: string[] | null;
   cuisine_type: string | null;
   dietary_tags: string[] | null;
   prep_time_minutes: number | null;
@@ -24,7 +25,7 @@ export default async function SavedPage() {
 
   const { data: saves } = await supabase
     .from("recipe_saves")
-    .select("saved_at, recipe:recipes!inner(id, title, description, image_url, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, source_name, source_url)")
+    .select("saved_at, recipe:recipes!inner(id, title, description, image_url, image_urls, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, source_name, source_url)")
     .eq("user_id", user!.id)
     .order("saved_at", { ascending: false });
 

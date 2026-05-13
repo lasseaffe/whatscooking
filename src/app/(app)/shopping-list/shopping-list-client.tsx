@@ -5,6 +5,7 @@ import { ShoppingCart, Trash2, CheckCircle2, Circle, X, PackageCheck, Leaf } fro
 import {
   type ShoppingItem,
   loadShoppingList,
+  addToShoppingList,
   toggleShoppingItem,
   removeShoppingItem,
   clearCheckedItems,

@@ -12,6 +12,7 @@ import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
 import { EnhancedInstructions } from "./enhanced-instructions";
+import { EnhancedDescriptionBlock } from "./enhanced-description-block";
 
 export default async function RecipePage({
   params,

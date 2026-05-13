@@ -75,7 +75,7 @@ export default async function DiscoverPage() {
     // 1. Swipe deck
     supabase
       .from("recipes")
-      .select("id, title, description, image_url, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, difficulty_level, ingredients, instructions, servings, protein_g, carbs_g, fat_g, dish_types")
+      .select("id, title, description, image_url, image_urls, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, difficulty_level, ingredients, instructions, servings, protein_g, carbs_g, fat_g, dish_types")
       .not("image_url", "is", null)
       .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
       .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
