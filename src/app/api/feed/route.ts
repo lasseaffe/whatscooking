@@ -32,7 +32,7 @@ export async function GET(req: NextRequest) {
         `)
         .gte("created_at", new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString())
         .neq("user_id", user.id)
-        .limit(100);
+        .limit(500);
 
       // Count posts per user and return top 3
       const countMap = new Map<string, { count: number; profile: unknown }>();
@@ -59,7 +59,7 @@ export async function GET(req: NextRequest) {
         profile:profiles!cook_posts_user_id_fkey(username, full_name, avatar_url),
         recipe:recipes(id, title, image_url, cuisine_type, prep_time_minutes, cook_time_minutes),
         like_count:cook_post_likes(count),
-        reply_count:recipe_comments(count)
+        reply_count:recipe_comments!recipe_comments_post_id_fkey(count)
       `)
       .in("user_id", followingIds)
       .order("created_at", { ascending: false })
