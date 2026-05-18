@@ -1,6 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 
+const ALLOWED_STATUS = new Set([
+  "planning",
+  "active",
+  "completed",
+  "draft",
+  "woven",
+  "cooking",
+  "archived",
+]);
+
 export async function DELETE(_req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const supabase = await createClient();
@@ -25,10 +35,32 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
   if (!plan || plan.user_id !== user.id) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
   const body = await req.json();
-  const allowed = ["is_public", "status", "title"] as const;
   const update: Record<string, unknown> = {};
-  for (const key of allowed) {
-    if (key in body) update[key] = body[key];
+
+  if ("is_public" in body) update.is_public = body.is_public;
+  if ("title" in body) update.title = body.title;
+  if ("status" in body) {
+    if (typeof body.status !== "string" || !ALLOWED_STATUS.has(body.status)) {
+      return NextResponse.json({ error: "invalid status" }, { status: 400 });
+    }
+    update.status = body.status;
+  }
+  if ("pinboard_filters" in body) {
+    if (
+      body.pinboard_filters === null ||
+      typeof body.pinboard_filters !== "object" ||
+      Array.isArray(body.pinboard_filters)
+    ) {
+      return NextResponse.json(
+        { error: "pinboard_filters must be an object" },
+        { status: 400 },
+      );
+    }
+    update.pinboard_filters = body.pinboard_filters;
+  }
+
+  if (Object.keys(update).length === 0) {
+    return NextResponse.json({ error: "nothing to update" }, { status: 400 });
   }
   update.updated_at = new Date().toISOString();
 
