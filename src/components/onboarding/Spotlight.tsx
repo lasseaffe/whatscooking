@@ -111,7 +111,7 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
               stroke="#C19A6B"
               strokeWidth={1}
               opacity={0.15}
-              rx={borderRadius + 4}
+              rx={borderRadius}
             />
             {/* Inner pulse ring */}
             <motion.rect
@@ -120,9 +120,7 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
                 strokeWidth: [1.5, 2.5, 1.5],
               }}
               transition={{
-                type: 'spring',
-                stiffness: 300,
-                damping: 30,
+                default: { type: 'spring', stiffness: 300, damping: 30 },
                 strokeWidth: { duration: 3, repeat: Infinity, ease: 'easeInOut' },
               }}
               fill="none"
