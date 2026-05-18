@@ -11,6 +11,7 @@ import { CookLogSheet } from "@/components/cook-log-sheet";
 import { motion, AnimatePresence } from "framer-motion";
 import { springGentle } from "@/lib/motion";
 import { useSwipe } from "@/lib/hooks/use-swipe";
+import { CookPostSheet } from "@/components/social/cook-post-sheet";
 
 // ── Types ────────────────────────────────────────────────────
 export interface Ingredient {
@@ -659,7 +660,7 @@ export function CookingModeScreen({
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   // Done dialog: null | "pantry" | "rating"
-  const [donePhase, setDonePhase] = useState<null | "pantry" | "rating">(null);
+  const [donePhase, setDonePhase] = useState<null | "pantry" | "rating" | "share">(null);
   const [doneRating, setDoneRating] = useState(0);
   const [doneHoverRating, setDoneHoverRating] = useState(0);
   // Cache enriched body text per step index so we don't re-call the API on navigation
@@ -1404,8 +1405,7 @@ export function CookingModeScreen({
                       });
                     } catch { /* fire-and-forget */ }
                   }
-                  setDonePhase(null);
-                  onExit();
+                  setDonePhase("share");
                 }}
                 className="w-full flex items-center justify-center gap-3 py-4 rounded-2xl font-bold text-base transition-all hover:opacity-90 active:scale-[0.98] disabled:opacity-40"
                 style={{ background: "var(--wc-accent-saffron, #F4A261)", color: "#1A0E04" }}
@@ -1417,9 +1417,7 @@ export function CookingModeScreen({
               <button
                 type="button"
                 onClick={() => {
-                  setDonePhase(null);
-                  onExit();
-                  router.push("/discover");
+                  setDonePhase("share");
                 }}
                 className="w-full flex items-center justify-center gap-3 py-3.5 rounded-2xl font-semibold text-sm transition-all hover:opacity-80"
                 style={{ background: "rgba(42,24,8,0.6)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.6)" }}
@@ -1439,6 +1437,15 @@ export function CookingModeScreen({
             </div>
           </div>
         </div>
+      )}
+
+      {donePhase === "share" && (
+        <CookPostSheet
+          recipeId={recipeId ?? ""}
+          recipeTitle={recipeTitle}
+          onClose={() => { setDonePhase(null); onExit(); }}
+          onSuccess={() => { setDonePhase(null); onExit(); }}
+        />
       )}
 
       {/* ── Post-cook log sheet ── */}
