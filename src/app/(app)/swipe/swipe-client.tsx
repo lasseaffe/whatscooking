@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useMotionValue } from "framer-motion";
 import { Heart, X, Bookmark, BookmarkCheck, Info, RotateCcw, Filter, ShieldAlert, ChevronLeft } from "lucide-react";
@@ -17,6 +17,8 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
   const session = useSwipeSession(recipes, initialSavedIds, { restrictions, customAvoid, difficultyFilter });
   const { currentCard, nextCard, done, liked, savedIds } = session;
   const zeroMotionX = useMotionValue(0);
+  const topCardMotionX = useMotionValue(0);
+  useEffect(() => { topCardMotionX.set(session.dragX); }, [session.dragX, topCardMotionX]);
 
   if (done || session.deck.length === 0) {
     return (
@@ -141,7 +143,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
           >
             <RecipeCard
               recipe={currentCard}
-              motionX={session.motionX}
+              motionX={topCardMotionX}
               saved={savedIds.has(currentCard.id)}
               onToggleSave={() => session.toggleSave(currentCard)}
               onInfo={() => session.setPreviewRecipe(currentCard)}
