@@ -18,17 +18,20 @@ export function MatchesGallery({ liked, onRestart }: MatchesGalleryProps) {
   const saveAll = useCallback(async () => {
     if (saving || saved || liked.length === 0) return;
     setSaving(true);
-    await Promise.all(
-      liked.map((r) =>
-        fetch("/api/saves", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ recipe_id: r.id }),
-        })
-      )
-    );
-    setSaving(false);
-    setSaved(true);
+    try {
+      await Promise.all(
+        liked.map((r) =>
+          fetch("/api/saves", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ recipe_id: r.id }),
+          })
+        )
+      );
+      setSaved(true);
+    } finally {
+      setSaving(false);
+    }
   }, [liked, saving, saved]);
 
   return (
