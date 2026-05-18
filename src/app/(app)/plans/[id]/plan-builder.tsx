@@ -449,6 +449,7 @@ export function PlanBuilder({ planId, planTitle, durationDays, weekStart, dietar
               meal_type: e.meal_type as import("@/components/plans/WeeklyPlanGrid").MealType,
               recipe_title: e.recipe_title,
               image_url: null,
+              // TODO: thread focal_x/focal_y from recipes table when image_url is populated
               calories: e.calories ?? null,
               protein_g: e.protein_g ?? null,
               carbs_g: e.carbs_g ?? null,

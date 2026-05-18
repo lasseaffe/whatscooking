@@ -10,9 +10,11 @@ interface Props {
   dietaryTags?: string[] | null;
   sourceUrl?: string | null;
   sourceName?: string | null;
+  focal_x?: number | null;
+  focal_y?: number | null;
 }
 
-export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTags, sourceUrl, sourceName }: Props) {
+export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTags, sourceUrl, sourceName, focal_x, focal_y }: Props) {
   return (
     <div className="overflow-hidden relative w-full h-full">
       <RecipeImage
@@ -21,6 +23,8 @@ export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTag
         title={title}
         cuisine={cuisine}
         dietaryTags={dietaryTags}
+        focal_x={focal_x}
+        focal_y={focal_y}
       />
       {/* Subtle vignette for depth */}
       <div

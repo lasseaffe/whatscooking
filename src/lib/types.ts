@@ -82,6 +82,10 @@ export interface Recipe {
   title: string;
   description?: string;
   image_url?: string;
+  /** 0-100 percentage for object-position X. Defaults to 50. */
+  focal_x?: number | null;
+  /** 0-100 percentage for object-position Y. Defaults to 50. */
+  focal_y?: number | null;
   cuisine_type?: string;
   dish_types?: string[];
   dietary_tags?: string[];

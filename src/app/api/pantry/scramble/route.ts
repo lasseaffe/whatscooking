@@ -16,6 +16,8 @@ export interface ScrambleResult {
   title: string;
   description: string | null;
   image_url: string | null;
+  focal_x: number | null;
+  focal_y: number | null;
   cuisine_type: string | null;
   dish_types: string[];
   dietary_tags: string[];
@@ -51,7 +53,7 @@ export async function GET() {
   // Fetch all non-social recipes with ingredients
   const { data: recipes } = await supabase
     .from("recipes")
-    .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, calories, servings, ingredients")
+    .select("id, title, description, image_url, focal_x, focal_y, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, calories, servings, ingredients")
     .neq("source", "social")
     .not("ingredients", "eq", "[]")
     .limit(200);
@@ -95,6 +97,8 @@ export async function GET() {
       title: recipe.title,
       description: recipe.description,
       image_url: recipe.image_url,
+      focal_x: recipe.focal_x,
+      focal_y: recipe.focal_y,
       cuisine_type: recipe.cuisine_type,
       dish_types: recipe.dish_types ?? [],
       dietary_tags: recipe.dietary_tags ?? [],

@@ -110,6 +110,8 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
           title={recipe.title}
           cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
           dietaryTags={recipe.dietary_tags}
+          focal_x={recipe.focal_x}
+          focal_y={recipe.focal_y}
         />
       </div>
 

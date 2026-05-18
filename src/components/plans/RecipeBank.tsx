@@ -19,6 +19,8 @@ export interface BankRecipe {
   id: string;
   title: string;
   image_url?: string | null;
+  focal_x?: number | null;
+  focal_y?: number | null;
   calories?: number | null;
   protein_g?: number | null;
   carbs_g?: number | null;
@@ -68,6 +70,8 @@ function DraggableCard({
             imageUrl={recipe.image_url}
             title={recipe.title}
             className="w-full h-full object-cover"
+            focal_x={recipe.focal_x}
+            focal_y={recipe.focal_y}
           />
         </div>
         <div className="p-3">
@@ -136,6 +140,8 @@ function DraggableCard({
           imageUrl={recipe.image_url}
           title={recipe.title}
           className="w-full h-full object-cover"
+          focal_x={recipe.focal_x}
+          focal_y={recipe.focal_y}
         />
       </div>
       <div className="flex-1 min-w-0">

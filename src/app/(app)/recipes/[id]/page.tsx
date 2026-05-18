@@ -111,6 +111,8 @@ export default async function RecipePage({
             dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
             sourceUrl={recipeData.source_url}
             sourceName={recipeData.source_name}
+            focal_x={recipeData.focal_x}
+            focal_y={recipeData.focal_y}
           />
           {/* Gradient fade into page background */}
           <div
@@ -257,6 +259,8 @@ export default async function RecipePage({
                 dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
                 sourceUrl={recipeData.source_url}
                 sourceName={recipeData.source_name}
+                focal_x={recipeData.focal_x}
+                focal_y={recipeData.focal_y}
               />
             </div>
             {/* Large Cooking Mode CTA — below hero image */}

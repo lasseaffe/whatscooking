@@ -186,6 +186,8 @@ function ScrambleCard({
           title={result.title}
           cuisine={result.cuisine_type}
           dietaryTags={result.dietary_tags}
+          focal_x={result.focal_x}
+          focal_y={result.focal_y}
           style={{ minHeight: 96 }}
         />
         {/* Coverage badge */}

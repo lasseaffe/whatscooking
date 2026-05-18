@@ -23,6 +23,8 @@ export interface GridEntry {
   meal_type: MealType;
   recipe_title: string;
   image_url?: string | null;
+  focal_x?: number | null;
+  focal_y?: number | null;
   calories?: number | null;
   protein_g?: number | null;
   carbs_g?: number | null;
@@ -304,7 +306,7 @@ function GridCell({
       <div ref={setNodeRef} style={{ ...baseStyle, border: "1px solid #3A2A1A", padding: 4 }} className="group">
         {entry.image_url && (
           <div className="w-full h-10 rounded overflow-hidden mb-1">
-            <RecipeImage recipeId={entry.clientId} imageUrl={entry.image_url} title={entry.recipe_title} alt={entry.recipe_title} className="w-full h-full object-cover" />
+            <RecipeImage recipeId={entry.clientId} imageUrl={entry.image_url} title={entry.recipe_title} alt={entry.recipe_title} className="w-full h-full object-cover" focal_x={entry.focal_x} focal_y={entry.focal_y} />
           </div>
         )}
         <div className="text-xs leading-tight px-0.5 line-clamp-2" style={{ color: "#EFE3CE" }}>

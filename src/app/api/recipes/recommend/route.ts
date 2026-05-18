@@ -16,7 +16,7 @@ export async function GET(req: NextRequest) {
   if (!planId) {
     const { data } = await supabase
       .from("recipes")
-      .select("id, title, image_url, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
+      .select("id, title, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
       .order("created_at", { ascending: false })
       .limit(10);
     let fallbackSavedIds = new Set<string>();
@@ -62,7 +62,7 @@ export async function GET(req: NextRequest) {
   // Fetch candidate recipes
   const { data: candidates } = await supabase
     .from("recipes")
-    .select("id, title, image_url, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
+    .select("id, title, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, prep_time_minutes, cook_time_minutes, dietary_tags")
     .order("created_at", { ascending: false })
     .limit(60);
 
