@@ -19,6 +19,8 @@ export interface WeaveRecipeMeta {
   prep_time_minutes: number | null;
   cook_time_minutes: number | null;
   macros_estimated: boolean | null;
+  cuisine_type?: string | null;
+  dish_types?: string[] | null;
 }
 
 export interface WeaveResponse extends SolverOutput {

@@ -198,7 +198,7 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     const { data } = await supabase
       .from("recipes")
       .select(
-        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated",
+        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated, cuisine_type, dish_types",
       )
       .in("id", recipeIds);
     recipeMeta = (data ?? []) as Array<Record<string, unknown>>;

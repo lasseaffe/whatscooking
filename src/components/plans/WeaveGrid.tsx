@@ -12,13 +12,15 @@ interface Props {
   onCellTap: (day: number, mealType: MealType, entry: ProposedEntry | null) => void;
   onCellRemove: (clientid: string) => void;
   onPinSuggestion: (clientid: string) => void;
+  tensionByClientid?: Record<string, { tension: number }>;
+  conflictsByClientid?: Record<string, string[]>;
 }
 
 const MEAL_TYPE_LABEL: Record<string, string> = {
   breakfast: 'Breakfast', lunch: 'Lunch', dinner: 'Dinner', snack: 'Snack',
 };
 
-export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion }: Props) {
+export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid }: Props) {
   const dayLabel = (n: number) => {
     if (!weekStart) return `Day ${n}`;
     const d = new Date(weekStart);
@@ -55,6 +57,8 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
                       onTap={() => onCellTap(day, mt, entry)}
                       onPin={entry.source === 'suggestion' ? () => onPinSuggestion(entry.clientid) : undefined}
                       onRemove={() => onCellRemove(entry.clientid)}
+                      tension={tensionByClientid?.[entry.clientid]?.tension ?? 0}
+                      conflictReasons={conflictsByClientid?.[entry.clientid] ?? []}
                     />
                   ) : (
                     <button

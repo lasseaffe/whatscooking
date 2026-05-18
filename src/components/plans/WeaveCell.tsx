@@ -9,9 +9,12 @@ interface Props {
   onTap: () => void;
   onPin?: () => void;
   onRemove: () => void;
+  tension?: number;
+  conflictReasons?: string[];
+  hasLeftoverDescendant?: boolean;
 }
 
-export function WeaveCell({ entry, recipe, onTap, onPin, onRemove }: Props) {
+export function WeaveCell({ entry, recipe, onTap, onPin, onRemove, tension = 0, conflictReasons = [], hasLeftoverDescendant = false }: Props) {
   const isPinned = entry.source === 'pinned' && !entry.is_leftover;
   const isLeftover = entry.is_leftover;
   const isSuggestion = entry.source === 'suggestion';
@@ -48,7 +51,23 @@ export function WeaveCell({ entry, recipe, onTap, onPin, onRemove }: Props) {
         <p className="text-xs leading-tight line-clamp-2 flex-1" style={{ color: '#EFE3CE' }}>
           {entry.recipe_title}
         </p>
+        {hasLeftoverDescendant && (
+          <span
+            className="text-xs px-1.5 py-0.5 rounded"
+            style={{ background: 'rgba(122, 163, 80, 0.2)', color: '#7AA350' }}
+            title="This is the cook day; one leftover slot uses the same dish"
+          >
+            🍳 2×
+          </span>
+        )}
       </div>
+      {tension > 0 && conflictReasons.length > 0 && (
+        <div
+          className="absolute -bottom-0.5 left-1 right-1 h-0.5 rounded-full"
+          style={{ background: '#F2C94C', opacity: Math.min(1, 0.4 + tension * 0.6) }}
+          title={`Anti-repeat: ${conflictReasons.join('; ')}`}
+        />
+      )}
       <button
         onClick={e => { e.stopPropagation(); onRemove(); }}
         aria-label={`Remove ${entry.recipe_title}`}
