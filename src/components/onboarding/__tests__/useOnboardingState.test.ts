@@ -30,16 +30,16 @@ test('resumes saved state from localStorage', () => {
   expect(result.current.state.mode).toBe('beacons')
 })
 
-test('advanceWizard increments step', () => {
+test('advanceWizard increments step', async () => {
   const { result } = renderHook(() => useOnboardingState(mockConfig))
-  act(() => result.current.advanceWizard())
+  await act(async () => { await result.current.advanceWizard() })
   expect(result.current.state.wizardStep).toBe(1)
 })
 
-test('advanceWizard transitions to tour when all steps done', () => {
+test('advanceWizard transitions to tour when all steps done', async () => {
   const { result } = renderHook(() => useOnboardingState(mockConfig))
-  act(() => result.current.advanceWizard()) // step 0 → 1
-  act(() => result.current.advanceWizard()) // step 1 → tour
+  await act(async () => { await result.current.advanceWizard() }) // step 0 → 1
+  await act(async () => { await result.current.advanceWizard() }) // step 1 → tour
   expect(result.current.state.mode).toBe('tour')
 })
 
@@ -120,5 +120,15 @@ test('state updates in React even when localStorage.setItem throws', () => {
 
 test('default state includes narrativeRecipeId as null', () => {
   const { result } = renderHook(() => useOnboardingState(mockConfig))
+  expect(result.current.state.narrativeRecipeId).toBeNull()
+})
+
+test('advanceWizard on last step transitions to tour with narrativeRecipeId null when no pickRecipeUrl', async () => {
+  const { result } = renderHook(() => useOnboardingState(mockConfig))
+  // Advance to last step first (step 0 → 1)
+  await act(async () => { await result.current.advanceWizard() })
+  // Now advance from last step → tour (mockConfig has no pickRecipeUrl)
+  await act(async () => { await result.current.advanceWizard() })
+  expect(result.current.state.mode).toBe('tour')
   expect(result.current.state.narrativeRecipeId).toBeNull()
 })

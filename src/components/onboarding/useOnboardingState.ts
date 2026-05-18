@@ -1,5 +1,5 @@
 'use client'
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import type { OnboardingConfig, OnboardingState } from './onboarding.types'
 
 const DEFAULT_STATE: OnboardingState = {
@@ -9,6 +9,7 @@ const DEFAULT_STATE: OnboardingState = {
   wizardAnswers: {},
   dismissedBeacons: [],
   completedActions: [],
+  narrativeRecipeId: null,
 }
 
 // null = not yet hydrated (hide the wizard until we've read localStorage)
@@ -26,6 +27,15 @@ function saveState(storageKey: string, state: OnboardingState) {
   try { localStorage.setItem(storageKey, JSON.stringify(state)) } catch { /* ignore */ }
 }
 
+function buildPickPayload(answers: Record<string, string | string[]>) {
+  return {
+    cookType: (answers['cook-type'] as string) ?? 'beginner',
+    goal: (answers['goal'] as string) ?? '',
+    diet: (answers['diet'] as string[]) ?? [],
+    household: (answers['household'] as string) ?? 'solo',
+  }
+}
+
 export function useOnboardingState(config: OnboardingConfig) {
   const { storageKey } = config.theme
   const totalWizardSteps = config.wizard.steps.length
@@ -33,31 +43,47 @@ export function useOnboardingState(config: OnboardingConfig) {
 
   const [state, setState] = useState<HydratedState>(null)
 
+  // Always-current ref — lets async callbacks read latest state without stale closures
+  const stateRef = useRef<HydratedState>(null)
+  stateRef.current = state
+
   // Defer localStorage read to after hydration so SSR never shows the wizard
   useEffect(() => {
     setState(loadState(storageKey))
   }, [storageKey])
 
-  const update = useCallback((patch: Partial<OnboardingState>) => {
-    setState(prev => {
-      if (!prev) return prev
-      const next = { ...prev, ...patch }
-      saveState(storageKey, next)
-      return next
-    })
-  }, [storageKey])
+  const advanceWizard = useCallback(async () => {
+    const prev = stateRef.current
+    if (!prev) return
+    const nextStep = prev.wizardStep + 1
 
-  const advanceWizard = useCallback(() => {
-    setState(prev => {
-      if (!prev) return prev
-      const nextStep = prev.wizardStep + 1
-      const next: OnboardingState = nextStep >= totalWizardSteps
-        ? { ...prev, mode: 'tour', wizardStep: 0 }
-        : { ...prev, wizardStep: nextStep }
+    if (nextStep < totalWizardSteps) {
+      const next: OnboardingState = { ...prev, wizardStep: nextStep }
       saveState(storageKey, next)
-      return next
-    })
-  }, [storageKey, totalWizardSteps])
+      setState(next)
+      return
+    }
+
+    // Last wizard step — try to pick a recipe before entering tour
+    let narrativeRecipeId: string | null = null
+    if (config.pickRecipeUrl) {
+      try {
+        const res = await fetch(config.pickRecipeUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(buildPickPayload(prev.wizardAnswers)),
+        })
+        if (res.ok) {
+          const data = await res.json()
+          narrativeRecipeId = data.recipeId ?? null
+        }
+      } catch { /* fall through with null — tour still works */ }
+    }
+
+    const next: OnboardingState = { ...prev, mode: 'tour', wizardStep: 0, narrativeRecipeId }
+    saveState(storageKey, next)
+    setState(next)
+  }, [storageKey, totalWizardSteps, config.pickRecipeUrl])
 
   const advanceTour = useCallback(() => {
     setState(prev => {
