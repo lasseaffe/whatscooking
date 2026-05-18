@@ -237,6 +237,7 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
         onPinSuggestion={state.pinSuggestion}
         tensionByClientid={tension.byClientid}
         conflictsByClientid={conflictsByClientid}
+        onSwapCells={state.swapEntriesByClientid}
       />
       {picker && (
         <ConstraintPicker

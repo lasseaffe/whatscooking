@@ -1,5 +1,6 @@
 'use client';
 
+import { useDraggable, useDroppable } from '@dnd-kit/core';
 import { RecipeImage } from '@/components/recipe-image';
 import type { ProposedEntry } from '@/lib/weave-solver';
 
@@ -19,20 +20,40 @@ export function WeaveCell({ entry, recipe, onTap, onPin, onRemove, tension = 0, 
   const isLeftover = entry.is_leftover;
   const isSuggestion = entry.source === 'suggestion';
 
+  const drag = useDraggable({ id: entry.clientid, data: { kind: 'cell' } });
+  const drop = useDroppable({ id: entry.clientid, data: { kind: 'cell' } });
+
   const borderStyle = isPinned ? 'solid' : isSuggestion ? 'dashed' : 'solid';
   const borderColor = isPinned ? '#E67E22' : isSuggestion ? '#3A2A1A' : '#6B4E36';
   const imageOpacity = isSuggestion ? 0.85 : 1;
   const bgTint = isLeftover ? 'rgba(74, 104, 48, 0.15)' : '#1A120A';
 
+  const setRefs = (el: HTMLDivElement | null) => {
+    drag.setNodeRef(el);
+    drop.setNodeRef(el);
+  };
+
   return (
     <div
+      ref={setRefs}
+      {...drag.attributes}
+      {...drag.listeners}
       role="button"
       tabIndex={0}
       aria-label={`${entry.recipe_title} — tap to swap`}
-      onClick={onTap}
+      onClick={() => { if (!drag.isDragging) onTap(); }}
       onKeyDown={e => { if (e.key === 'Enter') onTap(); }}
-      className="group relative flex flex-col gap-1 p-1.5 rounded-md cursor-pointer transition-colors hover:bg-[#2A1F14]"
-      style={{ border: `1px ${borderStyle} ${borderColor}`, background: bgTint, minHeight: 80 }}
+      className="group relative flex flex-col gap-1 p-1.5 rounded-md transition-colors hover:bg-[#2A1F14]"
+      style={{
+        border: `1px ${borderStyle} ${borderColor}`,
+        background: bgTint,
+        minHeight: 80,
+        opacity: drag.isDragging ? 0.4 : 1,
+        outline: drop.isOver && !drag.isDragging ? '2px solid #E67E22' : undefined,
+        outlineOffset: drop.isOver && !drag.isDragging ? -2 : undefined,
+        touchAction: 'none',
+        cursor: drag.isDragging ? 'grabbing' : 'grab',
+      }}
     >
       <div className="relative w-full h-12 rounded overflow-hidden" style={{ background: '#2A1F14', opacity: imageOpacity }}>
         <RecipeImage

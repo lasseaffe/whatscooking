@@ -1,5 +1,6 @@
 'use client';
 
+import { DndContext, PointerSensor, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
 import { WeaveCell } from './WeaveCell';
 import type { ProposedEntry, MealType } from '@/lib/weave-solver';
 
@@ -14,13 +15,23 @@ interface Props {
   onPinSuggestion: (clientid: string) => void;
   tensionByClientid?: Record<string, { tension: number }>;
   conflictsByClientid?: Record<string, string[]>;
+  onSwapCells?: (aClientid: string, bClientid: string) => void;
 }
 
 const MEAL_TYPE_LABEL: Record<string, string> = {
   breakfast: 'Breakfast', lunch: 'Lunch', dinner: 'Dinner', snack: 'Snack',
 };
 
-export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid }: Props) {
+export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid, onSwapCells }: Props) {
+  const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 5 } }));
+
+  const handleDragEnd = (event: DragEndEvent) => {
+    const a = event.active?.id;
+    const b = event.over?.id;
+    if (!a || !b || a === b) return;
+    onSwapCells?.(String(a), String(b));
+  };
+
   const dayLabel = (n: number) => {
     if (!weekStart) return `Day ${n}`;
     const d = new Date(weekStart);
@@ -32,6 +43,7 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
     entries.find(e => e.day_number === day && e.meal_type === mt) ?? null;
 
   return (
+    <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
     <div className="overflow-x-auto">
       <div className="grid gap-2" style={{ gridTemplateColumns: `100px repeat(${durationDays}, minmax(140px, 1fr))` }}>
         <div />
@@ -77,5 +89,6 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
         ))}
       </div>
     </div>
+    </DndContext>
   );
 }
