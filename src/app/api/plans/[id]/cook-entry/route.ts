@@ -98,5 +98,19 @@ export async function POST(
     day: new Date().toISOString().slice(0, 10),
   }).then(() => {}, () => {});
 
-  return NextResponse.json({ deducted });
+  // Insert cook_log row so the post-cook sheet can attach rating/notes later
+  let logId: string | null = null;
+  const resolvedTitle = recipe_title ?? (recipe_id
+    ? ((await supabase.from("recipes").select("title").eq("id", recipe_id).single()).data?.title ?? "")
+    : "");
+  if (resolvedTitle) {
+    const { data: logRow } = await supabase
+      .from("cook_log")
+      .insert({ user_id: user.id, recipe_id: recipe_id ?? null, recipe_title: resolvedTitle, source: "plan" })
+      .select("id")
+      .single();
+    logId = logRow?.id ?? null;
+  }
+
+  return NextResponse.json({ deducted, logId });
 }
