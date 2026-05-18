@@ -3,6 +3,28 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { SolverOutput, ProposedEntry } from '@/lib/weave-solver';
 
+export interface WeaveRecipeMeta {
+  id: string;
+  image_url: string | null;
+  focal_x?: number | null;
+  focal_y?: number | null;
+  calories: number | null;
+  protein_g: number | null;
+  carbs_g: number | null;
+  fat_g: number | null;
+  fiber_g: number | null;
+  sugar_g: number | null;
+  sat_fat_g: number | null;
+  sodium_mg: number | null;
+  prep_time_minutes: number | null;
+  cook_time_minutes: number | null;
+  macros_estimated: boolean | null;
+}
+
+export interface WeaveResponse extends SolverOutput {
+  recipes?: WeaveRecipeMeta[];
+}
+
 export type PlanStatus = 'planning' | 'active' | 'completed' | 'draft' | 'woven' | 'cooking' | 'archived';
 
 export interface Pin {
@@ -55,10 +77,10 @@ const DEFAULT_FILTERS: PinboardFilters = {
 export function usePlannerState(planId: string, initialStatus: PlanStatus, initialFilters: Partial<PinboardFilters>) {
   const [pins, setPins] = useState<Pin[]>([]);
   const [filters, setFiltersState] = useState<PinboardFilters>({ ...DEFAULT_FILTERS, ...initialFilters });
-  const [weave, setWeave] = useState<SolverOutput | null>(null);
+  const [weave, setWeave] = useState<WeaveResponse | null>(null);
   const [status, setStatus] = useState<PlanStatus>(initialStatus);
   const [loading, setLoading] = useState(false);
-  const [undoStack, setUndoStack] = useState<SolverOutput[]>([]);
+  const [undoStack, setUndoStack] = useState<WeaveResponse[]>([]);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Initial load

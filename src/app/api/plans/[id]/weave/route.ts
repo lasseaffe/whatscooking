@@ -191,5 +191,18 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     })
     .eq("id", planId);
 
-  return NextResponse.json(result);
+  // 9. Enrich response with recipe metadata for every entry (image, macros, est flag)
+  const recipeIds = Array.from(new Set(result.entries.map((e) => e.recipe_id)));
+  let recipeMeta: Array<Record<string, unknown>> = [];
+  if (recipeIds.length > 0) {
+    const { data } = await supabase
+      .from("recipes")
+      .select(
+        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated",
+      )
+      .in("id", recipeIds);
+    recipeMeta = (data ?? []) as Array<Record<string, unknown>>;
+  }
+
+  return NextResponse.json({ ...result, recipes: recipeMeta });
 }
