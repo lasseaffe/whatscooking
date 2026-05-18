@@ -13,6 +13,24 @@ export async function POST(req: NextRequest) {
     if (!recipe_id) return NextResponse.json({ error: "recipe_id required" }, { status: 400 });
 
     await supabase.from("recipe_saves").upsert({ user_id: user.id, recipe_id });
+
+    // Fire-and-forget: log to activity_feed only if user opted in
+    const { data: prefs } = await supabase
+      .from("user_preferences")
+      .select("share_activity")
+      .eq("user_id", user.id)
+      .single();
+
+    if (prefs?.share_activity) {
+      supabase.from("activity_feed").insert({
+        user_id: user.id,
+        action_type: "saved",
+        recipe_id,
+      }).then(({ error: feedError }) => {
+        if (feedError) console.error("[saves activity_feed]", feedError);
+      });
+    }
+
     return NextResponse.json({ saved: true });
   } catch (error) {
     console.error("[saves POST]", error);
