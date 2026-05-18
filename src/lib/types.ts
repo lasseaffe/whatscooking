@@ -302,3 +302,50 @@ export interface HouseholdMemberWithPreferences extends HouseholdMember {
   preferences: MemberIngredientPreference[];
   reactions: MemberReaction[];
 }
+
+// ============================================================
+// Social Layer
+// ============================================================
+
+export interface CookPost {
+  id: string;
+  user_id: string;
+  recipe_id: string | null;
+  photo_url: string | null;
+  note: string | null;
+  created_at: string;
+  // Joined fields (from API)
+  profile?: {
+    username: string;
+    full_name: string | null;
+    avatar_url: string | null;
+  };
+  recipe?: {
+    id: string;
+    title: string;
+    image_url: string | null;
+    cuisine_type: string | null;
+    prep_time_minutes: number | null;
+    cook_time_minutes: number | null;
+  } | null;
+  like_count?: number;
+  reply_count?: number;
+  liked_by_me?: boolean;
+}
+
+export interface PublicProfile {
+  id: string;
+  username: string;
+  full_name: string | null;
+  avatar_url: string | null;
+  bio: string | null;
+  created_at: string;
+}
+
+export interface ProfileStats {
+  follower_count: number;
+  following_count: number;
+  cook_count: number;
+  recipe_count: number;
+  cookbook_count: number;
+}
