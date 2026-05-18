@@ -1,0 +1,221 @@
+// src/app/api/plans/[id]/weave/route.ts
+export const dynamic = "force-dynamic";
+
+import { NextRequest, NextResponse } from "next/server";
+import { createClient } from "@/lib/supabase/server";
+import { weave } from "@/lib/weave-solver";
+import type {
+  SolverRecipe,
+  SolverConstraints,
+  MealType,
+} from "@/lib/weave-solver/types";
+
+const DEFAULT_CONSTRAINTS: SolverConstraints = {
+  diet: [],
+  time_weeknight_max: 30,
+  time_weekend_max: 120,
+  squad_size: 2,
+  pantry_aware: false,
+  pantry_missing_max: 4,
+  anti_repeat: "moderate",
+  batch_enabled: false,
+  meal_types: ["breakfast", "lunch", "dinner"],
+};
+
+function normalize(s: string): string {
+  return s.toLowerCase().trim();
+}
+
+function defaultMealTypes(meals_per_day: number | null): MealType[] {
+  if ((meals_per_day ?? 3) <= 1) return ["dinner"];
+  if (meals_per_day === 2) return ["lunch", "dinner"];
+  if (meals_per_day === 3) return ["breakfast", "lunch", "dinner"];
+  return ["breakfast", "lunch", "dinner", "snack"];
+}
+
+function ingredientName(i: unknown): string {
+  if (typeof i === "string") return i;
+  if (i && typeof i === "object" && "name" in (i as Record<string, unknown>)) {
+    const n = (i as Record<string, unknown>).name;
+    return typeof n === "string" ? n : "";
+  }
+  return "";
+}
+
+export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string }> }) {
+  const { id: planId } = await ctx.params;
+  const body = await req.json().catch(() => ({}));
+  const seed = typeof body?.seed === "number" ? body.seed : 0;
+
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  // 1. Load plan + ownership check
+  const { data: plan, error: planErr } = await supabase
+    .from("meal_plans")
+    .select("id, user_id, duration_days, week_start, meals_per_day, dietary_filters, pinboard_filters")
+    .eq("id", planId)
+    .single();
+  if (planErr || !plan) {
+    return NextResponse.json({ error: planErr?.message ?? "plan not found" }, { status: 404 });
+  }
+  if (plan.user_id !== user.id) {
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
+
+  // 2. Resolve constraints from pinboard_filters + plan defaults
+  const filters = (plan.pinboard_filters ?? {}) as Record<string, unknown>;
+  const constraints: SolverConstraints = {
+    ...DEFAULT_CONSTRAINTS,
+    diet: Array.isArray(filters.diet)
+      ? (filters.diet as string[])
+      : (plan.dietary_filters ?? []),
+    time_weeknight_max:
+      typeof filters.time_weeknight === "number"
+        ? (filters.time_weeknight as number)
+        : DEFAULT_CONSTRAINTS.time_weeknight_max,
+    time_weekend_max:
+      typeof filters.time_weekend === "number"
+        ? (filters.time_weekend as number)
+        : DEFAULT_CONSTRAINTS.time_weekend_max,
+    squad_size:
+      typeof filters.squad_size === "number"
+        ? (filters.squad_size as number)
+        : DEFAULT_CONSTRAINTS.squad_size,
+    pantry_aware: !!filters.pantry_aware,
+    anti_repeat:
+      (filters.anti_repeat as SolverConstraints["anti_repeat"]) ?? "moderate",
+    batch_enabled: !!filters.batch_enabled,
+    meal_types: defaultMealTypes(plan.meals_per_day),
+  };
+
+  // 3. Load pantry once for pantry-match scoring
+  const { data: pantryRows } = await supabase
+    .from("pantry_items")
+    .select("name")
+    .eq("user_id", user.id);
+  const pantrySet = new Set(
+    (pantryRows ?? []).map((p: { name: string | null }) => normalize(p.name ?? "")),
+  );
+
+  function pantryMatch(recipe: { ingredients?: unknown }): number {
+    const ings = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
+    if (ings.length === 0) return 0;
+    const matches = ings.filter((i: unknown) => {
+      const n = normalize(ingredientName(i));
+      return n.length > 0 && pantrySet.has(n);
+    }).length;
+    return matches / ings.length;
+  }
+
+  function pantryMissingCount(recipe: { ingredients?: unknown }): number {
+    const ings = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
+    return ings.filter((i: unknown) => {
+      const n = normalize(ingredientName(i));
+      return n.length > 0 && !pantrySet.has(n);
+    }).length;
+  }
+
+  // 4. Inspiration tags from filters
+  const inspirationTags = Array.isArray(filters.inspiration_tags)
+    ? (filters.inspiration_tags as string[])
+    : [];
+
+  function inspirationMatch(r: {
+    dietary_tags?: string[] | null;
+    dish_types?: string[] | null;
+    cuisine_type?: string | null;
+  }): number {
+    if (inspirationTags.length === 0) return 0;
+    const tags = new Set<string>([
+      ...(r.dietary_tags ?? []),
+      ...(r.dish_types ?? []),
+      ...(r.cuisine_type ? [r.cuisine_type] : []),
+    ]);
+    const hits = inspirationTags.filter((t) => tags.has(t)).length;
+    return hits / inspirationTags.length;
+  }
+
+  function toSolverRecipe(r: Record<string, unknown>): SolverRecipe {
+    return {
+      id: r.id as string,
+      title: (r.title as string) ?? "",
+      image_url: (r.image_url as string | null) ?? null,
+      cuisine_type: (r.cuisine_type as string | null) ?? null,
+      dietary_tags: (r.dietary_tags as string[] | null) ?? [],
+      dish_types: (r.dish_types as string[] | null) ?? [],
+      prep_time_minutes: (r.prep_time_minutes as number | null) ?? null,
+      cook_time_minutes: (r.cook_time_minutes as number | null) ?? null,
+      calories: (r.calories as number | null) ?? null,
+      protein_g: (r.protein_g as number | null) ?? null,
+      carbs_g: (r.carbs_g as number | null) ?? null,
+      fat_g: (r.fat_g as number | null) ?? null,
+      batch_friendly: !!r.batch_friendly,
+      pantry_match: pantryMatch(r as { ingredients?: unknown }),
+      inspiration_match: inspirationMatch(
+        r as { dietary_tags?: string[]; dish_types?: string[]; cuisine_type?: string | null },
+      ),
+    };
+  }
+
+  // 5. Load pins joined with recipe (including ingredients for pantry scoring)
+  const { data: pinsRaw } = await supabase
+    .from("meal_plan_pins")
+    .select(`
+      priority, pinned_at,
+      recipe:recipes (id, title, image_url, cuisine_type, dietary_tags, dish_types,
+                      prep_time_minutes, cook_time_minutes, calories, protein_g,
+                      carbs_g, fat_g, batch_friendly, ingredients)
+    `)
+    .eq("meal_plan_id", planId)
+    .order("priority", { ascending: false });
+
+  const pins: SolverRecipe[] = (pinsRaw ?? [])
+    .map((row) => (row as { recipe: Record<string, unknown> | null }).recipe)
+    .filter((r): r is Record<string, unknown> => !!r)
+    .map((r) => toSolverRecipe(r));
+
+  // 6. Load suggestion pool
+  const { data: poolRaw } = await supabase
+    .from("recipes")
+    .select(
+      "id, title, image_url, cuisine_type, dietary_tags, dish_types, prep_time_minutes, cook_time_minutes, calories, protein_g, carbs_g, fat_g, batch_friendly, ingredients",
+    )
+    .order("created_at", { ascending: false })
+    .limit(200);
+
+  const pool: SolverRecipe[] = (poolRaw ?? [])
+    .filter((r: Record<string, unknown>) =>
+      constraints.diet.every((t) =>
+        ((r.dietary_tags as string[] | null) ?? []).includes(t),
+      ),
+    )
+    .filter((r: Record<string, unknown>) =>
+      !constraints.pantry_aware ||
+      pantryMissingCount(r as { ingredients?: unknown }) <= constraints.pantry_missing_max,
+    )
+    .map((r: Record<string, unknown>) => toSolverRecipe(r));
+
+  // 7. Run solver
+  const result = weave({
+    duration_days: plan.duration_days ?? 7,
+    week_start: plan.week_start ?? null,
+    pins,
+    pool,
+    constraints,
+    seed,
+  });
+
+  // 8. Update last_woven_at + status
+  await supabase
+    .from("meal_plans")
+    .update({
+      last_woven_at: new Date().toISOString(),
+      status: "woven",
+      updated_at: new Date().toISOString(),
+    })
+    .eq("id", planId);
+
+  return NextResponse.json(result);
+}
