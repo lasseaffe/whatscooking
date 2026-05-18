@@ -97,6 +97,7 @@ export default async function RecipePage({
   return (
     <CookingModeWrapper
       recipeTitle={displayTitle}
+      recipeId={id}
       imageUrl={recipeData.image_url ?? null}
       rating={avgTaste}
       reviewCount={ratingCount}

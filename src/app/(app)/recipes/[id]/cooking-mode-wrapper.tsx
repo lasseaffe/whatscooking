@@ -9,6 +9,7 @@ import { CookingModeScreen } from "./cooking-mode-screen";
 export interface CookingModeWrapperProps {
   children: React.ReactNode;
   recipeTitle: string;
+  recipeId?: string | null;
   chefName?: string | null;
   rating?: string | null;
   reviewCount?: number;
@@ -22,6 +23,7 @@ export interface CookingModeWrapperProps {
 function CookingModeWrapperInner({
   children,
   recipeTitle,
+  recipeId,
   chefName,
   rating,
   reviewCount,
@@ -37,6 +39,7 @@ function CookingModeWrapperInner({
     return (
       <CookingModeScreen
         recipeTitle={recipeTitle}
+        recipeId={recipeId ?? null}
         chefName={chefName}
         rating={rating ? parseFloat(rating) : null}
         reviewCount={reviewCount}
