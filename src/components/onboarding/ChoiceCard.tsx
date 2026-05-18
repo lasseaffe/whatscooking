@@ -1,5 +1,6 @@
 'use client'
-import { motion } from 'framer-motion'
+import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import type { OnboardingTheme } from './onboarding.types'
 import { MOTION_PRESETS } from './onboarding.motion'
 
@@ -17,21 +18,38 @@ interface ChoiceCardProps {
   selected: boolean
   onSelect: (value: string) => void
   theme: OnboardingTheme
+  index?: number
 }
 
-export function ChoiceCard({ option, selected, onSelect, theme }: ChoiceCardProps) {
+export function ChoiceCard({ option, selected, onSelect, theme, index = 0 }: ChoiceCardProps) {
   const preset = MOTION_PRESETS[theme.motion]
+  const [bloomKey, setBloomKey] = useState(0)
+
+  const handleSelect = () => {
+    setBloomKey(k => k + 1)
+    onSelect(option.value)
+  }
+
+  const staggerDelay = theme.motion === 'smooth' ? index * 0.08 : 0
 
   return (
     <motion.button
       type="button"
       variants={preset.cardVariants}
       initial="initial"
-      animate={selected ? preset.cardSelect : 'animate'}
+      animate={selected ? preset.cardSelect : {
+        ...(typeof preset.cardVariants.animate === 'object' ? preset.cardVariants.animate as object : {}),
+        transition: {
+          ...(typeof preset.cardVariants.animate === 'object' && 'transition' in (preset.cardVariants.animate as object)
+            ? (preset.cardVariants.animate as { transition?: object }).transition
+            : {}),
+          delay: staggerDelay,
+        },
+      }}
       exit="exit"
       whileHover={preset.cardHover}
       whileTap={{ scale: 0.97 }}
-      onClick={() => onSelect(option.value)}
+      onClick={handleSelect}
       style={{
         background: selected ? (option.selectedBg ?? theme.surface) : theme.surface,
         border: `2px solid ${selected ? (option.selectedBorder ?? theme.accent) : 'rgba(255,255,255,0.08)'}`,
@@ -46,6 +64,7 @@ export function ChoiceCard({ option, selected, onSelect, theme }: ChoiceCardProp
         boxShadow: selected ? `0 0 16px ${theme.accent}33` : 'none',
         transition: theme.motion === 'terminal' ? 'all 0.12s steps(3, end)' : undefined,
         position: 'relative',
+        overflow: 'hidden',
       }}
     >
       {theme.motion === 'terminal' && selected && (
@@ -58,7 +77,27 @@ export function ChoiceCard({ option, selected, onSelect, theme }: ChoiceCardProp
         </span>
       )}
 
-      <span style={{ fontSize: 32, lineHeight: 1 }}>{option.emoji}</span>
+      {/* Radial bloom on selection */}
+      <AnimatePresence>
+        {bloomKey > 0 && (
+          <motion.div
+            key={bloomKey}
+            initial={{ scale: 0, opacity: 0.25 }}
+            animate={{ scale: 2.5, opacity: 0 }}
+            exit={{}}
+            transition={{ duration: 0.35, ease: 'easeOut' }}
+            style={{
+              position: 'absolute',
+              inset: 0,
+              borderRadius: 'inherit',
+              background: `radial-gradient(circle, ${theme.accent}55, transparent)`,
+              pointerEvents: 'none',
+            }}
+          />
+        )}
+      </AnimatePresence>
+
+      <span style={{ fontSize: 32, lineHeight: 1, position: 'relative', zIndex: 1 }}>{option.emoji}</span>
       <span style={{
         fontSize: 10.5,
         fontWeight: theme.motion === 'snappy' ? 800 : 600,
@@ -66,8 +105,10 @@ export function ChoiceCard({ option, selected, onSelect, theme }: ChoiceCardProp
         textAlign: 'center',
         lineHeight: 1.3,
         fontFamily: theme.motion === 'terminal' ? "'JetBrains Mono', monospace" : undefined,
-        textTransform: theme.motion === 'terminal' ? 'uppercase' : undefined,
+        textTransform: theme.motion === 'terminal' ? ('uppercase' as const) : undefined,
         letterSpacing: theme.motion === 'terminal' ? '0.5px' : undefined,
+        position: 'relative',
+        zIndex: 1,
       }}>
         {option.label}
       </span>

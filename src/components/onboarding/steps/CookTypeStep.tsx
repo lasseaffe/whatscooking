@@ -12,13 +12,14 @@ const OPTIONS = [
 export function CookTypeStep({ onAnswer, answer, theme }: WizardStepProps) {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 9 }}>
-      {OPTIONS.map(opt => (
+      {OPTIONS.map((opt, i) => (
         <ChoiceCard
           key={opt.value}
           option={opt}
           selected={answer === opt.value}
           onSelect={onAnswer}
           theme={theme}
+          index={i}
         />
       ))}
     </div>
