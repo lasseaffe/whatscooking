@@ -14,6 +14,16 @@ export async function POST(req: Request) {
     .upsert({ user_id: user.id, recipe_id }, { onConflict: "user_id,recipe_id" });
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  // Dual-write: also save to recipe_saves so liked recipes appear in /saved immediately.
+  // Non-blocking — swipe_likes is the primary record.
+  const { error: saveError } = await supabase
+    .from("recipe_saves")
+    .upsert({ user_id: user.id, recipe_id }, { onConflict: "user_id,recipe_id" });
+  if (saveError) {
+    console.error("[swipe/like] recipe_saves dual-write failed:", saveError.message);
+  }
+
   return NextResponse.json({ ok: true });
 }
 
