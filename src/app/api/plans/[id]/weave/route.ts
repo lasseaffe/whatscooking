@@ -171,9 +171,13 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     .eq("meal_plan_id", planId)
     .order("priority", { ascending: false });
 
-  const pins: SolverRecipe[] = (pinsRaw ?? [])
-    .map((row) => (row as { recipe: Record<string, unknown> | null }).recipe)
-    .filter((r): r is Record<string, unknown> => !!r)
+  const pins: SolverRecipe[] = ((pinsRaw ?? []) as unknown as Array<{
+    recipe: Record<string, unknown> | Record<string, unknown>[] | null;
+  }>)
+    .flatMap((row) => {
+      if (!row.recipe) return [];
+      return Array.isArray(row.recipe) ? row.recipe : [row.recipe];
+    })
     .map((r) => toSolverRecipe(r));
 
   // 6. Load suggestion pool
