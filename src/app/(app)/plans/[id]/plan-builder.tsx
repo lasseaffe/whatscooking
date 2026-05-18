@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
+import { CookLogSheet } from "@/components/cook-log-sheet";
 import {
   DndContext,
   PointerSensor,
@@ -959,18 +960,34 @@ function EntryRow({ entry, planId, onUpdate, onRemove, onOpen }: {
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [cooked, setCooked] = useState(false);
   const [cooking, setCooking] = useState(false);
+  const [logId, setLogId] = useState<string | null>(null);
+  const [sheetOpen, setSheetOpen] = useState(false);
+
+  // Hydrate cooked state from cook_log on mount so it survives refreshes
+  useEffect(() => {
+    if (!entry.recipe_id) return;
+    const today = new Date().toISOString().slice(0, 10);
+    fetch(`/api/cook-log/check?recipe_id=${entry.recipe_id}&date=${today}`)
+      .then((r) => r.json())
+      .then((d: { logged: boolean; logId: string | null }) => {
+        if (d.logged) { setCooked(true); setLogId(d.logId); }
+      })
+      .catch(() => {});
+  }, [entry.recipe_id]);
 
   async function handleMarkCooked(e: React.MouseEvent) {
     e.stopPropagation();
     if (cooked || cooking) return;
     setCooking(true);
     try {
-      await fetch(`/api/plans/${planId}/cook-entry`, {
+      const res = await fetch(`/api/plans/${planId}/cook-entry`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ recipe_id: entry.recipe_id, recipe_title: entry.recipe_title }),
       });
+      const json = await res.json();
       setCooked(true);
+      if (json.logId) { setLogId(json.logId); setSheetOpen(true); }
     } catch { /* silent — pantry deduction is best-effort */ }
     setCooking(false);
   }
@@ -1023,7 +1040,11 @@ function EntryRow({ entry, planId, onUpdate, onRemove, onOpen }: {
     <div
       onClick={onOpen}
       className="group flex items-center gap-3 px-3 py-2.5 rounded-xl border transition-all hover:shadow-sm cursor-pointer"
-      style={{ borderColor: "#F5E6D3", background: "#fff" }}
+      style={{
+        borderColor: cooked ? "#4A8C5C" : "#F5E6D3",
+        borderLeftWidth: cooked ? 4 : 1,
+        background: cooked ? "rgba(74,140,92,0.04)" : "#fff",
+      }}
     >
       <div className="shrink-0 flex items-center gap-1.5 px-2 py-1 rounded-lg text-xs font-semibold"
         style={{ background: cfg.bg, color: cfg.color }}>
@@ -1043,15 +1064,24 @@ function EntryRow({ entry, planId, onUpdate, onRemove, onOpen }: {
       </div>
       {entry.calories && <span className="text-xs shrink-0" style={{ color: "#A69180" }}>{entry.calories} kcal</span>}
       <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0" onClick={(e) => e.stopPropagation()}>
-        <button
-          onClick={handleMarkCooked}
-          disabled={cooked || cooking}
-          title={cooked ? "Cooked — pantry updated" : "Mark as cooked (deducts from pantry)"}
-          className="p-1 rounded hover:bg-green-50 disabled:cursor-default"
-          style={{ color: cooked ? "#4A8C5C" : "#A69180" }}
-        >
-          {cooking ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <ChefHat className="w-3.5 h-3.5" />}
-        </button>
+        {cooked ? (
+          <span
+            className="text-xs font-semibold px-2 py-0.5 rounded cursor-default"
+            style={{ color: "#4A8C5C" }}
+          >
+            Cooked ✓
+          </span>
+        ) : (
+          <button
+            onClick={handleMarkCooked}
+            disabled={cooking}
+            title="Mark as cooked (deducts from pantry)"
+            className="p-1 rounded hover:bg-green-50 disabled:cursor-default"
+            style={{ color: "#A69180" }}
+          >
+            {cooking ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <ChefHat className="w-3.5 h-3.5" />}
+          </button>
+        )}
         <button onClick={(e) => { e.stopPropagation(); onUpdate({ isEditing: true }); }}
           className="p-1 rounded hover:bg-amber-50" style={{ color: "#A69180" }}>
           <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1071,6 +1101,14 @@ function EntryRow({ entry, planId, onUpdate, onRemove, onOpen }: {
         onConfirm={() => { setConfirmOpen(false); onRemove(); }}
         onCancel={() => setConfirmOpen(false)}
       />
+      {logId && (
+        <CookLogSheet
+          logId={logId}
+          recipeTitle={entry.recipe_title}
+          open={sheetOpen}
+          onClose={() => setSheetOpen(false)}
+        />
+      )}
     </div>
   );
 }
