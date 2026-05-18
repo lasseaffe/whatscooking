@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { Heart, X, Bookmark, BookmarkCheck, Info, RotateCcw, Filter, ShieldAlert, ChevronLeft } from "lucide-react";
-import { useSwipeSession } from "@/lib/hooks/use-swipe-session";
-import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
-import { RecipeCard, RecipePreviewSheet, MatchScreen, DIFFICULTY_CONFIG } from "@/components/swipe/swipe-cards";
+import { useSwipeFm } from "@/lib/hooks/use-swipe-fm";
+import type { SwipeRecipe } from "@/lib/hooks/use-swipe-fm";
+import { RecipeCard, RecipePreviewSheet, DIFFICULTY_CONFIG } from "@/components/swipe/swipe-cards";
+import { MatchesGallery } from "@/components/swipe/matches-gallery";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 
 export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe[]; initialSavedIds: string[] }) {
@@ -13,18 +15,13 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
   const [difficultyFilter, setDifficultyFilter] = useState<"all" | "easy" | "medium" | "hard">("all");
   const [showFilters, setShowFilters] = useState(false);
 
-  const session = useSwipeSession(recipes, initialSavedIds, { restrictions, customAvoid, difficultyFilter });
+  const session = useSwipeFm(recipes, initialSavedIds, { restrictions, customAvoid, difficultyFilter });
   const { currentCard, nextCard, done, liked, savedIds } = session;
 
   if (done || session.deck.length === 0) {
     return (
       <div className="min-h-screen" style={{ background: "#FFFBF7" }}>
-        <MatchScreen
-          liked={liked}
-          savedIds={savedIds}
-          onToggleSave={session.toggleSave}
-          onRestart={session.handleRestart}
-        />
+        <MatchesGallery liked={session.liked} onRestart={session.handleRestart} />
       </div>
     );
   }
@@ -112,41 +109,47 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
       </div>
 
       {/* Card stack */}
-      <div className="relative w-full max-w-sm" style={{ height: 500, touchAction: "none" }}>
+      <div className="relative w-full max-w-sm" style={{ height: 480 }}>
+        {/* Next card */}
         {nextCard && (
-          <div
-            className="absolute inset-0 rounded-3xl overflow-hidden"
-            style={{ ...session.cardStyle(false), pointerEvents: "none" }}
+          <motion.div
+            className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl"
+            style={{ scale: session.nextCardScale, zIndex: 1 }}
           >
             <RecipeCard
               recipe={nextCard}
-              likeOpacity={0}
-              nopeOpacity={0}
+              motionX={session.motionX}
               saved={savedIds.has(nextCard.id)}
               onToggleSave={() => session.toggleSave(nextCard)}
               onInfo={() => session.setPreviewRecipe(nextCard)}
             />
-          </div>
+          </motion.div>
         )}
+
+        {/* Top card — draggable */}
         {currentCard && (
-          <div
-            ref={session.cardRef}
-            className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl"
-            style={session.cardStyle(true)}
-            onPointerDown={session.onPointerDown}
-            onPointerMove={session.onPointerMove}
-            onPointerUp={session.onPointerUp}
-            onPointerCancel={session.onPointerUp}
+          <motion.div
+            className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl cursor-grab active:cursor-grabbing"
+            style={{
+              x: session.motionX,
+              y: session.motionY,
+              rotate: session.cardRotate,
+              zIndex: 2,
+            }}
+            drag="x"
+            dragElastic={0.15}
+            dragConstraints={{ left: 0, right: 0 }}
+            onDragEnd={session.handleDragEnd}
+            onTap={session.handleTap}
           >
             <RecipeCard
               recipe={currentCard}
-              likeOpacity={session.likeOpacity}
-              nopeOpacity={session.nopeOpacity}
+              motionX={session.motionX}
               saved={savedIds.has(currentCard.id)}
               onToggleSave={() => session.toggleSave(currentCard)}
               onInfo={() => session.setPreviewRecipe(currentCard)}
             />
-          </div>
+          </motion.div>
         )}
       </div>
 
@@ -159,7 +162,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
         <button
           type="button"
           onClick={() => session.commitSwipe("left")}
-          disabled={!!session.exiting}
+          disabled={session.isAnimating}
           className="w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform active:scale-90 hover:scale-110"
           style={{ background: "#fff", border: "2px solid #F5E6D3" }}
           aria-label="Skip"
@@ -183,7 +186,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
         <button
           type="button"
           onClick={() => session.commitSwipe("right")}
-          disabled={!!session.exiting}
+          disabled={session.isAnimating}
           className="rounded-full flex items-center justify-center shadow-xl transition-transform active:scale-90 hover:scale-110"
           style={{ width: 72, height: 72, background: "linear-gradient(135deg, #C85A2F, #E8834A)" }}
           aria-label="Like"
@@ -205,7 +208,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
         <button
           type="button"
           onClick={() => session.undo()}
-          disabled={session.skipped.length === 0 || !!session.exiting}
+          disabled={session.skipped.length === 0 || session.isAnimating}
           className="w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform active:scale-90 hover:scale-110 disabled:opacity-40"
           style={{ background: "#fff", border: "2px solid #F5E6D3" }}
           aria-label="Undo"

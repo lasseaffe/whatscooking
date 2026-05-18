@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Palette, Check } from "lucide-react";
 
 const PALETTES = [
+  // ── Original five ──────────────────────────────────────────────
   {
     id: "cast-iron",
     name: "Cast Iron & Thyme",
@@ -33,6 +34,67 @@ const PALETTES = [
     name: "Midnight Pantry",
     desc: "Deep cool blues",
     swatches: ["#0A0E14", "#2A3A50", "#5A8AB0", "#8AA0B8", "#EEF2F8"],
+  },
+  // ── New palettes ───────────────────────────────────────────────
+  {
+    id: "burgundy-wine",
+    name: "Burgundy & Wine",
+    desc: "Moody deep claret kitchen",
+    swatches: ["#1A0808", "#6B1825", "#9A4060", "#C83050", "#FEF0F2"],
+  },
+  {
+    id: "sage-herbaceous",
+    name: "Sage & Herbaceous",
+    desc: "Garden-to-table fresh greens",
+    swatches: ["#101408", "#2D4A3E", "#5A8060", "#7AC870", "#EFF8ED"],
+  },
+  {
+    id: "charcoal-terracotta",
+    name: "Charcoal + Terracotta",
+    desc: "Photographer's choice — food pops",
+    swatches: ["#14110F", "#282018", "#7A5040", "#C86040", "#F5EDE8"],
+  },
+  {
+    id: "teal-saffron",
+    name: "Teal & Saffron",
+    desc: "High-contrast modern hybrid",
+    swatches: ["#0A1A1A", "#1A4747", "#306868", "#E8A820", "#FDF8E8"],
+  },
+  {
+    id: "copper-skillet",
+    name: "The Copper Skillet",
+    desc: "Navy & copper — like French cookware",
+    swatches: ["#0E1828", "#1E3048", "#7A5840", "#C87840", "#F8F0E8"],
+  },
+  {
+    id: "nordic-kitchen",
+    name: "Nordic Kitchen",
+    desc: "Cool slate — minimal & functional",
+    swatches: ["#141820", "#2A3848", "#6080A0", "#88B8D8", "#F0F4FC"],
+  },
+  {
+    id: "umami-midnight",
+    name: "Umami Midnight",
+    desc: "Luxury dark — espresso & gold",
+    swatches: ["#0E0C08", "#2A2418", "#6A6030", "#C8A840", "#F4F0E0"],
+  },
+  {
+    id: "matcha-milk",
+    name: "Matcha & Milk",
+    desc: "Japanese minimalist — soft & clean",
+    swatches: ["#0C1008", "#2A3820", "#6A8860", "#A8C890", "#F2F8EE"],
+  },
+  {
+    id: "smoked-paprika",
+    name: "Smoked Paprika",
+    desc: "Bold Spanish kitchen — heat & char",
+    swatches: ["#180808", "#4A1010", "#884030", "#E06040", "#FBF0EB"],
+  },
+  {
+    id: "lavender-honey",
+    name: "Lavender Honey",
+    desc: "Provençal French — purple & gold",
+    swatches: ["#180818", "#3A2848", "#8870A8", "#D0A840", "#FBF4FF"],
   },
 ] as const;
 

@@ -15,6 +15,8 @@ export const wcOnboardingConfig: OnboardingConfig = {
     storageKey: 'wc-onboarding',
   },
 
+  pickRecipeUrl: '/api/onboarding/pick-recipe',
+
   wizard: {
     steps: [
       { id: 'cook-type',  component: CookTypeStep,  title: 'What kind of cook are you?' },
@@ -24,106 +26,112 @@ export const wcOnboardingConfig: OnboardingConfig = {
     ],
   },
 
+  // "Cook Your First Dinner" — 7 beats across 8 waypoints
   tour: {
     waypoints: [
+      // Beat 1 — The Pick
       {
-        id: 'discover-intro',
-        type: 'demo',
-        target: '[data-tour="swipe-deck"]',
-        title: "Here's your Discover feed",
-        body: 'Recipes tailored to your preferences appear here. Swipe to explore.',
-        position: 'bottom',
-      },
-      {
-        id: 'first-swipe',
+        id: 'the-pick',
         type: 'do',
         target: '[data-tour="swipe-deck"]',
-        title: 'Swipe right on anything that looks good',
-        body: 'Give it a try — swipe right to save a recipe to your collection.',
+        icon: '🔪',
+        title: 'We found your first recipe.',
+        body: 'Chosen for your taste and skill level. Swipe right to save it.',
         position: 'bottom',
         completeOn: 'swipe-right',
-        celebrationText: 'Recipe saved! 🎉',
+        celebrationText: 'Saved to your kitchen.',
+        sound: 'cloth-swipe',
       },
+
+      // Beat 2a — Pantry Nav
       {
-        id: 'pantry-intro',
+        id: 'pantry-nav',
         type: 'demo',
         target: '[data-tour="pantry-nav"]',
-        title: 'Your Pantry tracks what you have',
-        body: 'Add ingredients and we\'ll find recipes you can make right now.',
+        icon: '🧅',
+        title: "Now let's see what you have.",
+        body: 'Your pantry tells us which recipes you can cook tonight.',
         position: 'right',
       },
+
+      // Beat 2b — Pantry Add
       {
         id: 'pantry-add',
         type: 'do',
         target: '[data-tour="pantry-input"]',
-        title: 'Type an ingredient you have right now',
-        body: 'Try "chicken" or "pasta" — autocomplete will help.',
+        icon: '🧅',
+        title: 'Add one ingredient from your kitchen.',
+        body: 'Try "chicken" or "pasta" — anything you have right now.',
         position: 'bottom',
         completeOn: 'pantry-item-added',
-        celebrationText: 'Pantry updated! We found recipes for you 🧅',
+        sound: 'ceramic-tap',
       },
+
+      // Beat 3 — The Plan
       {
-        id: 'pantry-magic',
-        type: 'demo',
-        target: '[data-tour="pantry-matches"]',
-        title: 'Recipes you can cook RIGHT NOW',
-        body: 'These recipes use ingredients you already have.',
-        position: 'top',
-      },
-      {
-        id: 'meal-plan',
+        id: 'the-plan',
         type: 'do',
         target: '[data-tour="week-grid"]',
-        title: 'Tap Monday dinner to plan it',
-        body: 'Tap any empty slot to assign a recipe to that meal.',
+        icon: '📅',
+        title: 'One slot to fill.',
+        body: "Tap tonight's dinner to assign your recipe.",
         position: 'top',
         completeOn: 'meal-planned',
-        celebrationText: 'Meal planned! Your week is taking shape 🗓️',
+        celebrationText: "Tonight is ready.",
+        sound: 'wooden-knock',
       },
+
+      // Beat 4 — The Kitchen
       {
-        id: 'cookbooks-intro',
-        type: 'demo',
-        target: '[data-tour="cookbooks-nav"]',
-        title: 'Build recipe collections',
-        body: 'Create cookbooks for weeknights, dinner parties, or any occasion.',
-        position: 'right',
+        id: 'the-kitchen',
+        type: 'do',
+        target: '[data-tour="start-cooking-btn"]',
+        icon: '🔥',
+        title: 'Your ingredients are ready. Your plan is set.',
+        body: 'Open cooking mode when you want to cook.',
+        position: 'bottom',
+        completeOn: 'cooking-mode-entered',
+        sound: 'stove-ignite',
       },
+
+      // Beat 5 — The Timer
       {
-        id: 'dinner-party',
-        type: 'demo',
-        target: '[data-tour="dinner-party-nav"]',
-        title: 'Hosting guests? Dinner Party mode',
-        body: 'Scale recipes, assign courses, sync a grocery list, and see a timing view — all in one flow.',
-        position: 'right',
+        id: 'the-timer',
+        type: 'do',
+        target: '[data-tour="timer-control"]',
+        icon: '⏱',
+        title: 'This step needs time.',
+        body: 'Set a timer so you can step away from the kitchen.',
+        position: 'top',
+        completeOn: 'timer-started',
+        sound: 'timer-drop',
       },
+
+      // Beat 6 — The Step
       {
-        id: 'scanner',
+        id: 'the-step',
         type: 'demo',
-        target: '[data-tour="menu-scanner-nav"]',
-        title: 'Scan a restaurant menu',
-        body: 'Point your camera at any menu — AI extracts every dish and adds them to your collection.',
+        target: '[data-tour="step-advance"]',
+        icon: '✦',
+        title: "You're cooking.",
+        body: 'Move through each step at your own pace.',
         position: 'top',
       },
+
+      // Beat 7 — Kitchen Ready
       {
-        id: 'calorie-tracker',
-        type: 'demo',
-        target: '[data-tour="calorie-nav"]',
-        title: 'Calorie tracker — auto-filled from plans',
-        body: "Today's meals are already logged from the plan you just built.",
-        position: 'top',
-      },
-      {
-        id: 'done',
+        id: 'kitchen-ready',
         type: 'celebration',
         target: 'body',
-        title: 'Your kitchen is alive!',
+        title: '',
         body: '',
-        celebrationText: 'Your kitchen is alive! 🎉',
+        celebrationText: 'Your first dinner is planned.',
         celebrationSummary: [
-          'Recipe saved to your collection',
-          'Pantry item added',
-          'Meal planned for the week',
+          'Recipe saved to your kitchen',
+          'Pantry stocked',
+          "Tonight's dinner scheduled",
         ],
+        sound: 'warm-bell',
       },
     ],
   },

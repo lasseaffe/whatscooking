@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import DOMPurify from "isomorphic-dompurify";
 import { MealPhotoGallery } from "@/components/meal-photo-gallery";
+import { ImageWithControls } from "@/components/image-with-controls";
 import type { CookbookRecipe, CookbookMealPhoto } from "@/lib/cookbook-types";
 
 type Props = { params: Promise<{ slug: string; chapterId: string }> };
@@ -75,12 +76,31 @@ export default async function ChapterPage({ params }: Props) {
             <Link href={`/recipes/${cr.recipes?.id}`} className="block">
               {(cr.creator_meal_photo_url ?? cr.recipes?.image_url) && (
                 <div className="relative h-44 w-full">
-                  <Image
-                    src={(cr.creator_meal_photo_url ?? cr.recipes!.image_url)!}
-                    alt={cr.recipes?.title ?? ""}
-                    fill
-                    className="object-cover"
-                  />
+                  <ImageWithControls
+                    images={
+                      cr.creator_meal_photo_url
+                        ? [cr.creator_meal_photo_url]
+                        : cr.recipes?.image_url
+                          ? [cr.recipes.image_url]
+                          : []
+                    }
+                    entityId={cr.id}
+                    entityType="chapter"
+                    size="card"
+                  >
+                    {(currentUrl, cropStyle) =>
+                      currentUrl ? (
+                        <Image
+                          key={currentUrl}
+                          src={currentUrl}
+                          alt={cr.recipes?.title ?? ""}
+                          fill
+                          className="object-cover"
+                          style={cropStyle}
+                        />
+                      ) : null
+                    }
+                  </ImageWithControls>
                 </div>
               )}
               <div className="px-4 py-3">

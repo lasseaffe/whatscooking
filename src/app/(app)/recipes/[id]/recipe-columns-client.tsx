@@ -554,9 +554,14 @@ function UnitToggle({ value, onChange }: { value: UnitSystem; onChange: (v: Unit
   );
 }
 
-// ── Convert a single amount metric→imperial ───────────────────
+// ── Convert a single amount between metric ↔ imperial ────────
+const IMPERIAL_UNITS = new Set(["oz", "fl oz", "lb", "lbs", "cup", "cups", "tbsp", "tsp", "pinch", "dash"]);
+const METRIC_UNITS   = new Set(["g", "kg", "ml", "l"]);
+
 function convertUnit(amount: number | null | undefined, unit: string | null | undefined, system: UnitSystem): { amount: string; unit: string } {
-  const a = amount ?? 0;
+  if (amount == null || amount === 0) return { amount: "", unit: unit ?? "" };
+
+  const a = amount;
   const u = (unit ?? "").toLowerCase().trim();
 
   if (system === "imperial") {
@@ -564,8 +569,21 @@ function convertUnit(amount: number | null | undefined, unit: string | null | un
     if (u === "kg")  return { amount: (a * 2.205).toFixed(2),   unit: "lb" };
     if (u === "ml")  return { amount: (a * 0.03381).toFixed(1), unit: "fl oz" };
     if (u === "l")   return { amount: (a * 33.81).toFixed(1),   unit: "fl oz" };
+    if (IMPERIAL_UNITS.has(u)) return { amount: String(a), unit: unit ?? "" };
   }
-  return { amount: a > 0 ? String(a) : "", unit: unit ?? "" };
+
+  if (system === "metric") {
+    if (u === "oz")                  return { amount: (a * 28.35).toFixed(0),  unit: "g" };
+    if (u === "lb" || u === "lbs")   return { amount: (a * 453.6).toFixed(0),  unit: "g" };
+    if (u === "fl oz")               return { amount: (a * 29.57).toFixed(0),  unit: "ml" };
+    if (u === "cup" || u === "cups") return { amount: (a * 240).toFixed(0),    unit: "ml" };
+    if (u === "tbsp")                return { amount: (a * 14.79).toFixed(0),  unit: "ml" };
+    if (u === "tsp")                 return { amount: (a * 4.93).toFixed(1),   unit: "ml" };
+    if (METRIC_UNITS.has(u)) return { amount: String(a), unit: unit ?? "" };
+  }
+
+  // Unmappable culinary units (pinch, dash, clove, sprig, etc.) — pass through
+  return { amount: String(a), unit: unit ?? "" };
 }
 
 // ── Interactive ingredient checklist (no DB, useState only) ─────
@@ -1550,9 +1568,9 @@ export function RecipeColumnsClient({
                     <div className="rounded-xl p-8 text-center mt-4"
                       style={{ background: "rgba(26,16,8,0.5)", border: "1px dashed rgba(42,24,8,0.7)" }}>
                       <BookOpen style={{ width: 32, height: 32, margin: "0 auto 12px", color: "#3A2416" }} />
-                      <p className="text-base font-medium mb-2" style={{ color: "#6B4E36" }}>No instructions yet</p>
+                      <p className="text-base font-medium mb-2" style={{ color: "#6B4E36" }}>Full instructions are being prepared</p>
                       <p className="text-sm leading-relaxed" style={{ color: "#4A3020" }}>
-                        Use the <strong style={{ color: "#6B4E36" }}>Extract ingredients</strong> button in the Ingredients panel.
+                        This recipe is being enhanced. In the meantime, use the <strong style={{ color: "#6B4E36" }}>Extract</strong> button in the Ingredients panel to pull instructions now.
                       </p>
                     </div>
                   )}

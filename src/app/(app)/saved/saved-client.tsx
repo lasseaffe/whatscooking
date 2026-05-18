@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Heart, Clock, Flame, ExternalLink, Trash2, MapPin } from "lucide-react";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 const TRAVEL_PLANNER_URL = "http://localhost:3001";
 
@@ -21,6 +22,7 @@ type SavedRecipe = {
   title: string;
   description: string | null;
   image_url: string | null;
+  image_urls: string[] | null;
   cuisine_type: string | null;
   dietary_tags: string[] | null;
   prep_time_minutes: number | null;
@@ -77,14 +79,32 @@ export function SavedClient({ initialRecipes }: { initialRecipes: SavedRecipe[] 
               style={{ borderColor: "#F5E6D3", background: "#fff" }}>
               <Link href={`/recipes/${r.id}`} className="block">
                 <div className="relative h-44 overflow-hidden">
-                  {r.image_url ? (
-                    <img src={r.image_url} alt={r.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center" style={{ background: "#FFF0E6" }}>
-                      <Heart className="w-8 h-8" style={{ color: "#C85A2F", opacity: 0.3 }} />
-                    </div>
-                  )}
+                  <ImageWithControls
+                    images={
+                      r.image_urls && r.image_urls.length > 0
+                        ? r.image_urls
+                        : ([r.image_url].filter(Boolean) as string[])
+                    }
+                    entityId={r.id}
+                    entityType="recipe"
+                    size="card"
+                  >
+                    {(currentUrl, cropStyle) =>
+                      currentUrl ? (
+                        <img
+                          key={currentUrl}
+                          src={currentUrl}
+                          alt={r.title}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          style={cropStyle}
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center" style={{ background: "#FFF0E6" }}>
+                          <Heart className="w-8 h-8" style={{ color: "#C85A2F", opacity: 0.3 }} />
+                        </div>
+                      )
+                    }
+                  </ImageWithControls>
                   {(r.dietary_tags ?? []).length > 0 && (
                     <div className="absolute top-2 left-2 flex gap-1">
                       {(r.dietary_tags ?? []).slice(0, 2).map((tag) => (

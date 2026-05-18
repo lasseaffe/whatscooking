@@ -3,11 +3,13 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Heart, ChevronDown, ChevronUp, Clock, Flame } from "lucide-react";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 interface SavedRecipe {
   id: string;
   title: string;
   image_url: string | null;
+  image_urls: string[] | null;
   dietary_tags: string[] | null;
   prep_time_minutes: number | null;
   cook_time_minutes: number | null;
@@ -84,15 +86,33 @@ export function SavedRecipeFit({ savedRecipes, planDietaryFilters }: Props) {
                 className="group rounded-xl border overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-md"
                 style={{ borderColor: "#F5E6D3", background: "#fff" }}>
                 <div className="relative h-28 overflow-hidden">
-                  {recipe.image_url ? (
-                    <img src={recipe.image_url} alt={recipe.title}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center"
-                      style={{ background: "#FFF0E6" }}>
-                      <Heart className="w-6 h-6" style={{ color: "#C85A2F", opacity: 0.3 }} />
-                    </div>
-                  )}
+                  <ImageWithControls
+                    images={
+                      recipe.image_urls && recipe.image_urls.length > 0
+                        ? recipe.image_urls
+                        : ([recipe.image_url].filter(Boolean) as string[])
+                    }
+                    entityId={recipe.id}
+                    entityType="recipe"
+                    size="small"
+                  >
+                    {(currentUrl, cropStyle) =>
+                      currentUrl ? (
+                        <img
+                          key={currentUrl}
+                          src={currentUrl}
+                          alt={recipe.title}
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                          style={cropStyle}
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center"
+                          style={{ background: "#FFF0E6" }}>
+                          <Heart className="w-6 h-6" style={{ color: "#C85A2F", opacity: 0.3 }} />
+                        </div>
+                      )
+                    }
+                  </ImageWithControls>
                   {isPerfect && (
                     <div className="absolute top-2 left-2 px-1.5 py-0.5 rounded text-xs font-bold"
                       style={{ background: "#C85A2F", color: "#fff" }}>

@@ -3,6 +3,26 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
+export async function GET() {
+  try {
+    const supabase = await createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+    const { data, error } = await supabase
+      .from("pantry_items")
+      .select("id, name, quantity, expires_at, category:ingredient_categories(id, name, emoji, color)")
+      .eq("user_id", user.id)
+      .order("name");
+
+    if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ items: data ?? [] });
+  } catch (err) {
+    console.error("[pantry/items GET]", err);
+    return NextResponse.json({ error: "Failed to fetch items" }, { status: 500 });
+  }
+}
+
 export async function POST(req: NextRequest) {
   try {
     const supabase = await createClient();

@@ -67,12 +67,19 @@ Return ONLY the description text — no JSON, no labels, no quotes.`,
   return text && text.length > 20 ? text : null;
 }
 
+type Scope = "missing" | "all" | "source:standard" | "source:premium" | "source:dataset";
+
 // Streams newline-delimited JSON progress lines so the caller can show live output.
 export async function POST(req: NextRequest) {
+  const adminSecret = req.headers.get("x-admin-secret");
+  if (adminSecret !== process.env.ADMIN_SECRET) {
+    return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401 });
+  }
+
   const body = await req.json().catch(() => ({}));
   const dryRun: boolean = body.dryRun ?? false;
-  const limit: number = body.limit ?? 200;
-  const onlyPremium: boolean = body.onlyPremium ?? false;
+  const limit: number = body.limit ?? 500;
+  const scope: Scope = body.scope ?? "missing";
 
   const encoder = new TextEncoder();
 
@@ -94,12 +101,17 @@ export async function POST(req: NextRequest) {
       try {
         let query = supabase
           .from("recipes")
-          .select("id, title, description, ingredients, is_premium, source")
-          .limit(limit);
+          .select("id, title, description, ingredients, dish_types, source")
+          .limit(scope === "all" ? 9999 : limit);
 
-        if (onlyPremium) {
-          query = query.eq("is_premium", true);
+        if (scope === "source:premium") {
+          query = query.contains("dish_types", ["premium"]);
+        } else if (scope === "source:dataset") {
+          query = query.eq("source", "dataset");
+        } else if (scope === "source:standard") {
+          query = query.not("dish_types", "cs", '["premium"]').not("source", "eq", "dataset");
         }
+        // "missing" and "all" use no source filter — isBadDescription handles missing filtering below
 
         const { data: recipes, error } = await query;
         if (error) {
@@ -108,11 +120,14 @@ export async function POST(req: NextRequest) {
           return;
         }
 
-        const candidates = (recipes ?? []).filter((r) => isBadDescription(r.description));
+        const candidates = scope === "all"
+          ? (recipes ?? [])
+          : (recipes ?? []).filter((r) => isBadDescription(r.description));
         send({
           event: "start",
           total: (recipes ?? []).length,
           candidates: candidates.length,
+          scope,
           dryRun,
         });
 

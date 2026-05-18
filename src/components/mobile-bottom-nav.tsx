@@ -20,6 +20,7 @@ const PRIMARY_TABS = [
 
 const MORE_ITEMS = [
   { href: "/saved",          label: "Saved Recipes",   icon: Heart },
+  { href: "/journal",        label: "My Journal",      icon: BookOpen },
   { href: "/my-recipes",     label: "My Recipes",      icon: BookOpen },
   { href: "/cookbooks",      label: "Cookbooks",       icon: BookOpen },
   { href: "/cuisines",        label: "World Cuisines",  icon: Globe },

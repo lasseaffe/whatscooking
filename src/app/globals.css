@@ -617,6 +617,147 @@ html[data-palette="midnight-pantry"] {
   --wc-accent-primary:   #5A8AB0;
 }
 
+html[data-palette="burgundy-wine"] {
+  --wc-pal-darkest:  #1A0808;
+  --wc-pal-dark:     #6B1825;
+  --wc-pal-mid:      #9A4060;
+  --wc-pal-accent:   #C83050;
+  --wc-pal-sage:     #9A4060;
+  --wc-pal-lightest: #FEF0F2;
+  --wc-floor:            #1A0808;
+  --wc-surface-1:        #281018;
+  --wc-surface-2:        #3A1825;
+  --wc-accent-saffron:   #C83050;
+  --wc-accent-persimmon: #E04060;
+  --wc-accent-primary:   #C83050;
+}
+html[data-palette="sage-herbaceous"] {
+  --wc-pal-darkest:  #101408;
+  --wc-pal-dark:     #2D4A3E;
+  --wc-pal-mid:      #5A8060;
+  --wc-pal-accent:   #7AC870;
+  --wc-pal-sage:     #A8C090;
+  --wc-pal-lightest: #EFF8ED;
+  --wc-floor:            #101408;
+  --wc-surface-1:        #181E10;
+  --wc-surface-2:        #243028;
+  --wc-accent-saffron:   #7AC870;
+  --wc-accent-persimmon: #5AA850;
+  --wc-accent-primary:   #7AC870;
+}
+html[data-palette="charcoal-terracotta"] {
+  --wc-pal-darkest:  #14110F;
+  --wc-pal-dark:     #282018;
+  --wc-pal-mid:      #7A5040;
+  --wc-pal-accent:   #C86040;
+  --wc-pal-sage:     #A08070;
+  --wc-pal-lightest: #F5EDE8;
+  --wc-floor:            #14110F;
+  --wc-surface-1:        #201A14;
+  --wc-surface-2:        #302820;
+  --wc-accent-saffron:   #C86040;
+  --wc-accent-persimmon: #E05030;
+  --wc-accent-primary:   #C86040;
+}
+html[data-palette="teal-saffron"] {
+  --wc-pal-darkest:  #0A1A1A;
+  --wc-pal-dark:     #1A4747;
+  --wc-pal-mid:      #306868;
+  --wc-pal-accent:   #E8A820;
+  --wc-pal-sage:     #60A0A0;
+  --wc-pal-lightest: #FDF8E8;
+  --wc-floor:            #0A1A1A;
+  --wc-surface-1:        #122828;
+  --wc-surface-2:        #1E3838;
+  --wc-accent-saffron:   #E8A820;
+  --wc-accent-persimmon: #E87020;
+  --wc-accent-primary:   #E8A820;
+}
+html[data-palette="copper-skillet"] {
+  --wc-pal-darkest:  #0E1828;
+  --wc-pal-dark:     #1E3048;
+  --wc-pal-mid:      #7A5840;
+  --wc-pal-accent:   #C87840;
+  --wc-pal-sage:     #A09080;
+  --wc-pal-lightest: #F8F0E8;
+  --wc-floor:            #0E1828;
+  --wc-surface-1:        #182038;
+  --wc-surface-2:        #243050;
+  --wc-accent-saffron:   #C87840;
+  --wc-accent-persimmon: #D06020;
+  --wc-accent-primary:   #C87840;
+}
+html[data-palette="nordic-kitchen"] {
+  --wc-pal-darkest:  #141820;
+  --wc-pal-dark:     #2A3848;
+  --wc-pal-mid:      #6080A0;
+  --wc-pal-accent:   #88B8D8;
+  --wc-pal-sage:     #A8C0D0;
+  --wc-pal-lightest: #F0F4FC;
+  --wc-floor:            #141820;
+  --wc-surface-1:        #1C2430;
+  --wc-surface-2:        #283040;
+  --wc-accent-saffron:   #88B8D8;
+  --wc-accent-persimmon: #6098B8;
+  --wc-accent-primary:   #88B8D8;
+}
+html[data-palette="umami-midnight"] {
+  --wc-pal-darkest:  #0E0C08;
+  --wc-pal-dark:     #2A2418;
+  --wc-pal-mid:      #6A6030;
+  --wc-pal-accent:   #C8A840;
+  --wc-pal-sage:     #708050;
+  --wc-pal-lightest: #F4F0E0;
+  --wc-floor:            #0E0C08;
+  --wc-surface-1:        #1C1810;
+  --wc-surface-2:        #282418;
+  --wc-accent-saffron:   #C8A840;
+  --wc-accent-persimmon: #A08030;
+  --wc-accent-primary:   #C8A840;
+}
+html[data-palette="matcha-milk"] {
+  --wc-pal-darkest:  #0C1008;
+  --wc-pal-dark:     #2A3820;
+  --wc-pal-mid:      #6A8860;
+  --wc-pal-accent:   #A8C890;
+  --wc-pal-sage:     #B8D0A0;
+  --wc-pal-lightest: #F2F8EE;
+  --wc-floor:            #0C1008;
+  --wc-surface-1:        #161E10;
+  --wc-surface-2:        #222C1A;
+  --wc-accent-saffron:   #A8C890;
+  --wc-accent-persimmon: #88A870;
+  --wc-accent-primary:   #A8C890;
+}
+html[data-palette="smoked-paprika"] {
+  --wc-pal-darkest:  #180808;
+  --wc-pal-dark:     #4A1010;
+  --wc-pal-mid:      #884030;
+  --wc-pal-accent:   #E06040;
+  --wc-pal-sage:     #C09080;
+  --wc-pal-lightest: #FBF0EB;
+  --wc-floor:            #180808;
+  --wc-surface-1:        #241010;
+  --wc-surface-2:        #341818;
+  --wc-accent-saffron:   #E06040;
+  --wc-accent-persimmon: #E04020;
+  --wc-accent-primary:   #E06040;
+}
+html[data-palette="lavender-honey"] {
+  --wc-pal-darkest:  #180818;
+  --wc-pal-dark:     #3A2848;
+  --wc-pal-mid:      #8870A8;
+  --wc-pal-accent:   #D0A840;
+  --wc-pal-sage:     #C0A8D8;
+  --wc-pal-lightest: #FBF4FF;
+  --wc-floor:            #180818;
+  --wc-surface-1:        #241428;
+  --wc-surface-2:        #302038;
+  --wc-accent-saffron:   #D0A840;
+  --wc-accent-persimmon: #D08030;
+  --wc-accent-primary:   #D0A840;
+}
+
 /* ══════════════════════════════════════════════════
    BASE STYLES
 ══════════════════════════════════════════════════ */

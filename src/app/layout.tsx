@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-context";
 import { PaletteInitializer } from "@/components/palette-switcher";
+import { ImageControlsProvider } from "@/lib/image-controls-context";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
@@ -36,7 +37,9 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <ThemeProvider>
           <PaletteInitializer />
-          {children}
+          <ImageControlsProvider>
+            {children}
+          </ImageControlsProvider>
         </ThemeProvider>
       </body>
     </html>

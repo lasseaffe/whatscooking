@@ -11,6 +11,10 @@ import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-m
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
+import { EnhancedInstructions } from "./enhanced-instructions";
+import { EnhancedDescriptionBlock } from "./enhanced-description-block";
+import { LogCookButton } from "./log-cook-button";
+import { CookHistory } from "./cook-history";
 
 export default async function RecipePage({
   params,
@@ -93,11 +97,13 @@ export default async function RecipePage({
   return (
     <CookingModeWrapper
       recipeTitle={displayTitle}
+      recipeId={id}
       imageUrl={recipeData.image_url ?? null}
       rating={avgTaste}
       reviewCount={ratingCount}
       baseServings={recipeData.servings ?? 2}
       instructions={instructions}
+      instructionsEnhanced={(recipeData.instructions_enhanced ?? null) as import("@/lib/types").EnhancedStep[] | null}
       ingredients={ingredients}
     >
       {/* ══ MOBILE HERO IMAGE — full-bleed, hidden on desktop ══ */}
@@ -106,6 +112,7 @@ export default async function RecipePage({
           <RecipeHeroImage
             recipeId={id}
             imageUrl={recipeData.image_url}
+            imageUrls={recipeData.image_urls}
             title={displayTitle}
             cuisine={recipeData.cuisine_type}
             dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
@@ -162,15 +169,24 @@ export default async function RecipePage({
               {displayTitle}
             </h1>
 
+            {/* Log a cook button */}
+            <div className="mt-2 mb-3">
+              <LogCookButton recipeId={id} recipeTitle={displayTitle} />
+            </div>
+
             {/* Description / tagline */}
-            {recipeData.description && (
-              <p
-                className="text-base italic leading-relaxed"
-                style={{ color: "#7A5A40", maxWidth: "44ch" }}
-              >
-                {recipeData.description}
-              </p>
-            )}
+            <EnhancedDescriptionBlock
+              recipeId={id}
+              title={displayTitle}
+              ingredients={ingredients}
+              instructions={instructions}
+              plainDescription={recipeData.description ?? ""}
+              initialEnhanced={(recipeData.description_enhanced ?? null) as import("@/lib/types").EnhancedDescription | null}
+              isOwner={recipeData.source === "user" && recipeData.created_by === user!.id}
+            />
+
+            {/* Cook history — per-recipe log */}
+            <CookHistory recipeId={id} userId={user!.id} />
 
             {/* Metrics row */}
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm" style={{ color: "#8A6A4A" }}>
@@ -231,6 +247,17 @@ export default async function RecipePage({
               </div>
             )}
 
+            {/* Admin badge: sparse recipe needs enhancement */}
+            {user?.email === process.env.ADMIN_EMAIL && (instructions.length < 3 || ingredients.length < 3) && (
+              <a
+                href="/admin"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold"
+                style={{ background: "rgba(200,96,16,0.15)", color: "#E8A820", border: "1px solid rgba(200,152,40,0.35)" }}
+              >
+                <span>⚠</span> Needs Enhancement — open Admin
+              </a>
+            )}
+
             {/* Family fit indicator */}
             {(householdMembers ?? []).length > 0 && (
               <FamilyFitBar
@@ -265,6 +292,16 @@ export default async function RecipePage({
         </div>
       </div>
 
+      {/* ══ ENHANCED CHEF-MENTOR WALKTHROUGH (5-field per-step) ══ */}
+      <EnhancedInstructions
+        recipeId={id}
+        title={displayTitle}
+        ingredients={ingredients}
+        plainInstructions={instructions}
+        initialEnhanced={(recipeData.instructions_enhanced ?? null) as import("@/lib/types").EnhancedStep[] | null}
+        isOwner={recipeData.source === "user" && recipeData.created_by === user!.id}
+      />
+
       {/* ══ RECIPE COLUMNS — ingredients + instructions ══ */}
       <div style={{ borderBottom: "1px solid rgba(42,24,8,0.6)" }}>
         <RecipeColumnsClient
@@ -292,6 +329,9 @@ export default async function RecipePage({
       <div className="px-6 py-8 max-w-5xl mx-auto space-y-8">
         <RecipeInteractions
           recipeId={id}
+          recipeTitle={recipeData.title}
+          recipeImageUrl={recipeData.image_url ?? null}
+          currentUserId={user?.id ?? null}
           userId={user!.id}
           initialComments={commentsData ?? []}
           initialSaved={!!saveData}

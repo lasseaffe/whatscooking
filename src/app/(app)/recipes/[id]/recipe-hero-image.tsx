@@ -1,10 +1,12 @@
 "use client";
 
 import { RecipeImage } from "@/components/recipe-image";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 interface Props {
   recipeId: string;
   imageUrl?: string | null;
+  imageUrls?: string[] | null;
   title: string;
   cuisine?: string | null;
   dietaryTags?: string[] | null;
@@ -12,17 +14,42 @@ interface Props {
   sourceName?: string | null;
 }
 
-export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTags, sourceUrl, sourceName }: Props) {
+export function RecipeHeroImage({
+  recipeId,
+  imageUrl,
+  imageUrls,
+  title,
+  cuisine,
+  dietaryTags,
+  sourceUrl,
+  sourceName,
+}: Props) {
+  const images =
+    imageUrls && imageUrls.length > 0
+      ? imageUrls
+      : ([imageUrl].filter(Boolean) as string[]);
+
   return (
     <div className="overflow-hidden relative w-full h-full">
-      <RecipeImage
-        recipeId={recipeId}
-        imageUrl={imageUrl}
-        title={title}
-        cuisine={cuisine}
-        dietaryTags={dietaryTags}
-      />
-      {/* Subtle vignette for depth */}
+      <ImageWithControls
+        images={images}
+        entityId={recipeId}
+        entityType="recipe"
+        size="full"
+      >
+        {(currentUrl, cropStyle) => (
+          <RecipeImage
+            key={currentUrl || "fallback"}
+            recipeId={recipeId}
+            imageUrl={currentUrl || imageUrl}
+            title={title}
+            cuisine={cuisine}
+            dietaryTags={dietaryTags}
+            style={cropStyle}
+          />
+        )}
+      </ImageWithControls>
+
       <div
         className="absolute inset-0 pointer-events-none"
         style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, transparent 40%, rgba(0,0,0,0.18) 100%)" }}
@@ -33,7 +60,7 @@ export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTag
           href={sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute top-4 right-4 flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg"
+          className="absolute top-4 right-4 flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg z-10"
           style={{ background: "rgba(13,9,7,0.75)", color: "#8A6A4A", backdropFilter: "blur(4px)" }}
         >
           <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

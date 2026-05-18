@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Star, Heart, MessageSquare, X, ChevronDown, ChevronUp, Check } from "lucide-react";
+import { Star, Heart, MessageSquare, X, ChevronDown, ChevronUp, Check, Share2 } from "lucide-react";
+import { CookPostSheet } from "@/components/social/cook-post-sheet";
 import { RichTextarea } from "@/components/ui/rich-textarea";
 
 type Comment = {
@@ -77,6 +78,9 @@ function StarRow({ value, onChange }: { value: number | null; onChange: (v: numb
 
 export function RecipeInteractions({
   recipeId,
+  recipeTitle,
+  recipeImageUrl,
+  currentUserId,
   userId,
   initialComments,
   initialSaved,
@@ -86,6 +90,9 @@ export function RecipeInteractions({
   recipeIngredients,
 }: {
   recipeId: string;
+  recipeTitle?: string;
+  recipeImageUrl?: string | null;
+  currentUserId?: string | null;
   userId: string;
   initialComments: Comment[];
   initialSaved: boolean;
@@ -96,6 +103,7 @@ export function RecipeInteractions({
 }) {
   const [saved, setSaved] = useState(initialSaved);
   const [savingState, setSavingState] = useState(false);
+  const [showShareSheet, setShowShareSheet] = useState(false);
 
   const [showRatingForm, setShowRatingForm] = useState(false);
   const [ratingSubmitted, setRatingSubmitted] = useState(!!myExistingRating);
@@ -213,7 +221,28 @@ export function RecipeInteractions({
           <Star className="w-4 h-4" fill={ratingSubmitted ? "#828E6F" : "none"} />
           {ratingSubmitted ? "Edit my rating" : "Rate this recipe"}
         </button>
+
+        {currentUserId && (
+          <button
+            type="button"
+            onClick={() => setShowShareSheet(true)}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all hover:scale-105"
+            style={{ background: "#1A100A", color: "#C8956C", border: "1px solid rgba(180,120,60,0.2)" }}
+          >
+            <Share2 style={{ width: 15, height: 15 }} />
+            Share this cook
+          </button>
+        )}
       </div>
+
+      {showShareSheet && (
+        <CookPostSheet
+          recipeId={recipeId}
+          recipeTitle={recipeTitle ?? ""}
+          recipeImageUrl={recipeImageUrl}
+          onClose={() => setShowShareSheet(false)}
+        />
+      )}
 
       {/* ── Rating form ── */}
       {showRatingForm && (

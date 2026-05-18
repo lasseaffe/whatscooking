@@ -27,7 +27,7 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
   if (!plan || plan.user_id !== user!.id) notFound();
 
   const savedRecipes = (saves ?? []).map((s) => s.recipe as unknown as {
-    id: string; title: string; image_url: string | null;
+    id: string; title: string; image_url: string | null; image_urls: string[] | null;
     dietary_tags: string[] | null; prep_time_minutes: number | null;
     cook_time_minutes: number | null; calories: number | null; cuisine_type: string | null;
   });

@@ -4,6 +4,7 @@ import { Spotlight } from './Spotlight'
 import { TooltipBubble } from './TooltipBubble'
 import { ActionGate } from './ActionGate'
 import { CelebrationOverlay } from './CelebrationOverlay'
+import { useCulinarySound } from '@/hooks/useCulinarySound'
 import type { OnboardingConfig, OnboardingState } from './onboarding.types'
 
 interface OverlayTourProps {
@@ -18,18 +19,25 @@ export function OverlayTour({ config, state, onAdvance, onActionComplete, onSkip
   const [showCelebration, setShowCelebration] = useState(false)
   const [celebrationText, setCelebrationText] = useState('')
   const [celebrationSummary, setCelebrationSummary] = useState<string[] | undefined>()
+  const { play } = useCulinarySound()
 
   const waypoints = config.tour.waypoints
   const waypoint = waypoints[state.tourStep]
   if (!waypoint || state.mode !== 'tour') return null
 
-  const stepLabel = `Step ${state.tourStep + 1} of ${waypoints.length}`
+  const stepLabel = `${String(state.tourStep + 1).padStart(2, '0')} / ${String(waypoints.length).padStart(2, '0')}`
   const isDoStep = waypoint.type === 'do'
   const isCelebrationStep = waypoint.type === 'celebration'
 
+  const handleDemoAdvance = () => {
+    play('wooden-knock')
+    onAdvance()
+  }
+
   const handleActionComplete = () => {
-    const { id, celebrationText: cText, celebrationSummary: cSummary } = waypoint
+    const { id, celebrationText: cText, celebrationSummary: cSummary, sound } = waypoint
     onActionComplete(id)
+    if (sound) play(sound)
     if (cText) {
       setCelebrationText(cText)
       setCelebrationSummary(cSummary)
@@ -77,18 +85,19 @@ export function OverlayTour({ config, state, onAdvance, onActionComplete, onSkip
       <Spotlight
         target={waypoint.target}
         visible={!showCelebration}
-        onClick={!isDoStep ? onAdvance : undefined}
+        onClick={!isDoStep ? handleDemoAdvance : undefined}
       />
       <TooltipBubble
         target={waypoint.target}
         title={waypoint.title}
         body={waypoint.body}
+        icon={waypoint.icon}
         position={waypoint.position ?? 'bottom'}
         theme={config.theme}
         visible={!showCelebration}
         stepLabel={stepLabel}
         isDoStep={isDoStep}
-        onNext={onAdvance}
+        onNext={handleDemoAdvance}
       />
       {isDoStep && waypoint.completeOn && (
         <ActionGate

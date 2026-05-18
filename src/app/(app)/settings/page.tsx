@@ -1,7 +1,16 @@
-import { Settings, Palette, Moon, Globe2, Bell, Shield, ChefHat } from "lucide-react";
+import Link from "next/link";
+import { Settings, Palette } from "lucide-react";
 import { SettingsClient } from "./settings-client";
+import { createClient } from "@/lib/supabase/server";
 
-export default function SettingsPage() {
+export default async function SettingsPage() {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  let initialShareActivity = false;
+  if (user) {
+    const { data } = await supabase.from("user_preferences").select("share_activity").eq("user_id", user.id).single();
+    initialShareActivity = data?.share_activity ?? false;
+  }
   return (
     <div className="px-4 sm:px-6 py-8 max-w-2xl mx-auto">
       <div className="mb-8">
@@ -17,7 +26,37 @@ export default function SettingsPage() {
         </p>
       </div>
 
-      <SettingsClient />
+      <Link
+        href="/moodboard"
+        className="block rounded-2xl p-5 mb-4 transition-transform hover:-translate-y-0.5"
+        style={{
+          background: "linear-gradient(135deg, rgba(176,125,86,0.18) 0%, rgba(26,16,8,0.6) 100%)",
+          border: "1px solid rgba(176,125,86,0.35)",
+        }}
+      >
+        <div className="flex items-start gap-3">
+          <div
+            className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0"
+            style={{ background: "rgba(176,125,86,0.18)", border: "1px solid rgba(176,125,86,0.4)" }}
+          >
+            <Palette className="w-4 h-4" style={{ color: "var(--wc-pal-accent, #B07D56)" }} />
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="text-[10px] uppercase tracking-[0.25em] mb-1" style={{ color: "var(--wc-pal-accent, #B07D56)" }}>
+              Design system
+            </p>
+            <h2 className="text-base font-bold mb-1" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
+              Design Moodboard
+            </h2>
+            <p className="text-xs leading-relaxed" style={{ color: "#A8896A" }}>
+              The Culinary Parchment system — color tokens, typography, components, voice, motion — rendered live from the same source the app uses. Switch palette and theme to see everything repaint.
+            </p>
+          </div>
+          <span className="text-[11px] uppercase tracking-[0.25em] shrink-0" style={{ color: "var(--wc-pal-accent, #B07D56)" }}>Open →</span>
+        </div>
+      </Link>
+
+      <SettingsClient initialShareActivity={initialShareActivity} />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { HeroSwiper } from "./hero-swiper";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
 import { TrendingSection } from "./trending-section";
@@ -9,6 +10,12 @@ import { AllRecipesClient } from "../recipes/all-recipes-client";
 import Link from "next/link";
 import type { CuisineInfo } from "@/lib/cuisines";
 import { ReportButton } from "@/components/report-button";
+import { AnimatePresence } from "framer-motion";
+import { Wand2 } from "lucide-react";
+import { FinderDrawer, type FinderAnswers, type FinderResult } from "@/components/finder-drawer";
+import { FinderResultsSection } from "@/components/finder-results-section";
+import type { Recipe } from "@/lib/types";
+import { FollowingFeed } from "@/components/social/following-feed";
 
 interface TrendingRecipe {
   id: string;
@@ -63,6 +70,7 @@ interface Props {
   gridTotal: number;
   pantryNames: string[];
   isLoggedIn: boolean;
+  currentUserId?: string;
 }
 
 function flagEmoji(code: string): string {
@@ -83,9 +91,41 @@ export function DiscoverFeedClient({
   gridTotal,
   pantryNames: _pantryNames,
   isLoggedIn,
+  currentUserId,
 }: Props) {
+  const [feedTab, setFeedTab] = useState<"for-you" | "following">("for-you");
+  const [showFinder, setShowFinder] = useState(false);
+  const [finderResult, setFinderResult] = useState<FinderResult | null>(null);
+  const [finderAnswers, setFinderAnswers] = useState<FinderAnswers | null>(null);
+
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-base, #1C1209)" }}>
+
+      {/* For You / Following toggle */}
+      <div className="flex items-center gap-1 px-4 pt-4 pb-2">
+        {(["for-you", "following"] as const).map((t) => (
+          <button
+            key={t}
+            type="button"
+            onClick={() => setFeedTab(t)}
+            className="px-4 py-1.5 rounded-full text-sm font-medium transition-colors"
+            style={
+              feedTab === t
+                ? { background: "#C8956C", color: "#1A0E04" }
+                : { background: "transparent", color: "#5A3A24" }
+            }
+          >
+            {t === "for-you" ? "For You" : "Following"}
+          </button>
+        ))}
+      </div>
+
+      {feedTab === "following" ? (
+        <div className="px-4 pt-2">
+          <FollowingFeed currentUserId={currentUserId} />
+        </div>
+      ) : (
+      <div>
 
       {/* ── 1. Meal Swipe ── */}
       <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
@@ -104,6 +144,47 @@ export function DiscoverFeedClient({
 
       {/* ── 4. Quick & Easy ── */}
       <QuickEasySection recipes={quickRecipes} />
+
+      {/* ── Finder — "Help me decide" ── */}
+      <div
+        className="px-4 py-4"
+        style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
+      >
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setShowFinder(true)}
+            className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-bold transition-all hover:opacity-90"
+            style={{ background: "#C8522A", color: "#fff" }}
+          >
+            <Wand2 className="w-4 h-4" />
+            {finderResult ? "✏️ Refine picks" : "Help me decide"}
+          </button>
+          {finderResult && (
+            <button
+              onClick={() => { setFinderResult(null); setFinderAnswers(null); }}
+              className="text-xs font-medium px-3 py-2 rounded-full"
+              style={{ color: "#6B4E36", background: "#1C1209", border: "1px solid #3A2416" }}
+            >
+              ✕ Clear
+            </button>
+          )}
+          {!finderResult && (
+            <span className="text-xs" style={{ color: "#6B4E36" }}>
+              Answer 4 quick questions — we&apos;ll find 20 recipes for you
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* ── Finder results carousel (when available) ── */}
+      {finderResult && (
+        <FinderResultsSection
+          recipes={finderResult.recipes as Recipe[]}
+          profile={finderResult.profile}
+          onRefine={() => setShowFinder(true)}
+          onDismiss={() => { setFinderResult(null); setFinderAnswers(null); }}
+        />
+      )}
 
       {/* ── 5. World Cuisines ── */}
       <div
@@ -202,6 +283,22 @@ export function DiscoverFeedClient({
         <AllRecipesClient recipes={gridRecipes} total={gridTotal} />
       </div>
 
+      {/* ── Finder Drawer ── */}
+      <AnimatePresence>
+        {showFinder && (
+          <FinderDrawer
+            onClose={() => setShowFinder(false)}
+            onResults={(result, answers) => {
+              setFinderResult(result);
+              setFinderAnswers(answers);
+            }}
+            initial={finderAnswers ?? undefined}
+          />
+        )}
+      </AnimatePresence>
+
+      </div>
+      )}
     </div>
   );
 }

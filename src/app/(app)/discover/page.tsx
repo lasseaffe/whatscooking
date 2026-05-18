@@ -37,6 +37,26 @@ function computePantryMatches(
     .sort((a, b) => b.matchPct - a.matchPct);
 }
 
+// Build a score map from household reactions: avg rating per recipe_id.
+// rating=3 (loved) → +2, rating=2 (ok) → 0, rating=1 (disliked) → -3
+function reactionScore(rating: number): number {
+  if (rating >= 3) return 2;
+  if (rating === 1) return -3;
+  return 0;
+}
+
+function rankByReactions<T extends { id: string }>(
+  recipes: T[],
+  scoreMap: Map<string, number>
+): T[] {
+  if (scoreMap.size === 0) return recipes;
+  return [...recipes].sort((a, b) => {
+    const sa = scoreMap.get(a.id) ?? 0;
+    const sb = scoreMap.get(b.id) ?? 0;
+    return sb - sa; // higher score first
+  });
+}
+
 export default async function DiscoverPage() {
   const supabase = await createClient();
   const {
@@ -50,11 +70,12 @@ export default async function DiscoverPage() {
     { data: gridRecipes, count: gridTotal },
     { data: pantryItems },
     { data: matchCandidates },
+    { data: householdMembers },
   ] = await Promise.all([
     // 1. Swipe deck
     supabase
       .from("recipes")
-      .select("id, title, description, image_url, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, difficulty_level, ingredients, instructions, servings, protein_g, carbs_g, fat_g, dish_types")
+      .select("id, title, description, image_url, image_urls, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, difficulty_level, ingredients, instructions, servings, protein_g, carbs_g, fat_g, dish_types")
       .not("image_url", "is", null)
       .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
       .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
@@ -98,10 +119,37 @@ export default async function DiscoverPage() {
           .not("ingredients", "is", null)
           .limit(200)
       : (Promise.resolve({ data: [] as Array<{ id: string; title: string; image_url: string | null; ingredients: Array<{ name: string }> | null }>, error: null }) as any),
+
+    // 7. WC-5: Household member IDs for reaction ranking (fetched separately, joined below)
+    user
+      ? supabase
+          .from("household_members")
+          .select("id")
+          .eq("owner_user_id", user.id)
+      : (Promise.resolve({ data: [] as Array<{ id: string }>, error: null }) as any),
   ]);
 
   const pantryNames = (pantryItems ?? []).map((p: { name: string }) => p.name.toLowerCase());
   const cuisines = CUISINES.slice(0, 20);
+
+  // WC-5: Fetch reactions for this user's household members, then build score map
+  const memberIds = (householdMembers ?? []).map((m: { id: string }) => m.id);
+  let reactions: Array<{ recipe_id: string; rating: number }> = [];
+  if (memberIds.length > 0) {
+    const { data } = await supabase
+      .from("member_meal_reactions")
+      .select("recipe_id, rating")
+      .in("member_id", memberIds);
+    reactions = data ?? [];
+  }
+
+  const scoreMap = new Map<string, number>();
+  for (const r of reactions) {
+    const prev = scoreMap.get(r.recipe_id) ?? 0;
+    scoreMap.set(r.recipe_id, prev + reactionScore(r.rating));
+  }
+  const rankedSwipe = rankByReactions(swipeRecipes ?? [], scoreMap);
+  const rankedGrid = rankByReactions(gridRecipes ?? [], scoreMap);
 
   // Pantry matches
   const allPantryMatches = computePantryMatches(
@@ -117,7 +165,7 @@ export default async function DiscoverPage() {
 
   return (
     <DiscoverFeedClient
-      swipeRecipes={swipeRecipes ?? []}
+      swipeRecipes={rankedSwipe}
       trendingRecipes={trendingRaw ?? []}
       trendingTotal={trendingTotal ?? 0}
       pantryMatches={topPantryMatches}
@@ -125,10 +173,11 @@ export default async function DiscoverPage() {
       pantryItemCount={pantryNames.length}
       quickRecipes={quickRecipes}
       cuisines={cuisines}
-      gridRecipes={gridRecipes ?? []}
+      gridRecipes={rankedGrid}
       gridTotal={gridTotal ?? 0}
       pantryNames={pantryNames}
       isLoggedIn={!!user}
+      currentUserId={user?.id ?? undefined}
     />
   );
 }

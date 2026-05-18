@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import type { CookbookFont } from "@/lib/cookbook-types";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 const FONT_CLASS: Record<CookbookFont, string> = {
   serif:  "font-serif",
@@ -12,6 +13,7 @@ const FONT_CLASS: Record<CookbookFont, string> = {
 
 interface CookbookCoverProps {
   cookbook: {
+    id?: string;
     title: string;
     tagline?: string | null;
     cover_image_url?: string | null;
@@ -34,7 +36,29 @@ export function CookbookCover({ cookbook, recipeCount, creatorName, creatorAvata
       className={`relative overflow-hidden rounded-2xl ${isHero ? "h-80 md:h-[420px]" : "h-52"} w-full`}
       style={{ background: cookbook.cover_image_url ? undefined : cookbook.theme_color }}
     >
-      {cookbook.cover_image_url && (
+      {cookbook.cover_image_url && cookbook.id && (
+        <ImageWithControls
+          images={[cookbook.cover_image_url]}
+          entityId={cookbook.id}
+          entityType="cookbook"
+          size="card"
+        >
+          {(currentUrl, cropStyle) =>
+            currentUrl ? (
+              <Image
+                key={currentUrl}
+                src={currentUrl}
+                alt={cookbook.title}
+                fill
+                className="object-cover"
+                sizes={isHero ? "100vw" : "400px"}
+                style={cropStyle}
+              />
+            ) : null
+          }
+        </ImageWithControls>
+      )}
+      {cookbook.cover_image_url && !cookbook.id && (
         <Image
           src={cookbook.cover_image_url}
           alt={cookbook.title}
@@ -43,7 +67,7 @@ export function CookbookCover({ cookbook, recipeCount, creatorName, creatorAvata
           sizes={isHero ? "100vw" : "400px"}
         />
       )}
-      <div className="absolute inset-0" style={{ background: `${cookbook.theme_color}cc` }} />
+      <div className="absolute inset-0 pointer-events-none" style={{ background: `${cookbook.theme_color}cc` }} />
       <div className="absolute inset-0 flex flex-col justify-end p-4 text-white">
         <span className="self-start mb-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-white/20">
           {cookbook.price === 0 ? "Free" : `$${cookbook.price.toFixed(2)}`}

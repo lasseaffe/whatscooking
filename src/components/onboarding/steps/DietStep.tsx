@@ -26,13 +26,14 @@ export function DietStep({ onAnswer, answer, theme }: WizardStepProps) {
         Select all that apply
       </p>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 9 }}>
-        {OPTIONS.map(opt => (
+        {OPTIONS.map((opt, i) => (
           <ChoiceCard
             key={opt.value}
             option={opt}
             selected={selected.includes(opt.value)}
             onSelect={handleSelect}
             theme={theme}
+            index={i}
           />
         ))}
       </div>

@@ -1,0 +1,6 @@
+name: "whatscooking-ship-log-env"
+description: "Lightweight cloud environment for the weekly What's Cooking ship-log agent. Needs unrestricted networking to reach GitHub, Linear, and Notion MCP servers."
+config:
+  type: cloud
+  networking:
+    type: unrestricted

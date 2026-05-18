@@ -84,7 +84,7 @@ export default async function EventPage({ params }: { params: Promise<{ id: stri
     menuItems: menuItems ?? [],
     timelineItems: timelineItems ?? [],
     shoppingItems: shoppingItems ?? [],
-    locationOptions: enrichedLocations,
+    locationOptions: enrichedLocations as any,
     tracks: tracks ?? [],
     userRole,
     guestRole,

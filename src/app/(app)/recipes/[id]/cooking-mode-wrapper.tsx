@@ -9,24 +9,28 @@ import { CookingModeScreen } from "./cooking-mode-screen";
 export interface CookingModeWrapperProps {
   children: React.ReactNode;
   recipeTitle: string;
+  recipeId?: string | null;
   chefName?: string | null;
   rating?: string | null;
   reviewCount?: number;
   imageUrl?: string | null;
   baseServings?: number | null;
   instructions?: string[];
+  instructionsEnhanced?: import("@/lib/types").EnhancedStep[] | null;
   ingredients?: { name: string; amount?: number | null; unit?: string | null }[];
 }
 
 function CookingModeWrapperInner({
   children,
   recipeTitle,
+  recipeId,
   chefName,
   rating,
   reviewCount,
   imageUrl,
   baseServings,
   instructions = [],
+  instructionsEnhanced = null,
   ingredients = [],
 }: CookingModeWrapperProps) {
   const { active, activate, deactivate } = useCookingMode();
@@ -35,12 +39,14 @@ function CookingModeWrapperInner({
     return (
       <CookingModeScreen
         recipeTitle={recipeTitle}
+        recipeId={recipeId ?? null}
         chefName={chefName}
         rating={rating ? parseFloat(rating) : null}
         reviewCount={reviewCount}
         imageUrl={imageUrl}
         baseServings={baseServings ?? 2}
         instructions={instructions}
+        instructionsEnhanced={instructionsEnhanced}
         ingredients={ingredients}
         onExit={deactivate}
       />
@@ -83,7 +89,11 @@ export function MobileStickyCTA({ hasInstructions }: { hasInstructions: boolean 
         >
           <button
             type="button"
-            onClick={activate}
+            data-tour="start-cooking-btn"
+            onClick={() => {
+              activate()
+              window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'cooking-mode-entered' } }))
+            }}
             className="w-full flex items-center justify-center gap-3 rounded-2xl font-bold text-base transition-all hover:opacity-90 active:scale-[0.98]"
             style={{
               padding: "1rem 1.5rem",
@@ -128,7 +138,11 @@ export function CookingModeCTA({ commentsRef: _commentsRef }: { commentsRef?: Re
   const btn = (
     <button
       type="button"
-      onClick={activate}
+      data-tour="start-cooking-btn"
+      onClick={() => {
+        activate()
+        window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'cooking-mode-entered' } }))
+      }}
       aria-label="Enter Cooking Mode"
       className="flex items-center justify-center gap-3 rounded-2xl font-bold transition-all hover:opacity-90 active:scale-[0.98] shadow-lg"
       style={{

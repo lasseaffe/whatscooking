@@ -28,15 +28,26 @@ export async function GET(_req: Request, { params }: Params) {
 
   if (ingErr) return NextResponse.json({ error: ingErr.message }, { status: 500 });
 
+  // Fetch recipe servings so the client can scale quantities by guest count
+  const { data: recipes } = await supabase
+    .from('recipes')
+    .select('id, servings')
+    .in('id', recipeIds);
+
+  const servingsMap = new Map((recipes ?? []).map(r => [r.id, r.servings as number | null]));
+
   const result = menuItems.map(mi => ({
     menuItemId: mi.id,
     menuItemName: mi.name,
     recipeId: mi.recipe_id,
+    servings: servingsMap.get(mi.recipe_id as string) ?? null,
     ingredients: (ingredients ?? [])
       .filter(ing => ing.recipe_id === mi.recipe_id)
       .map(ing => ({
         name: ing.name,
         quantity: ing.quantity && ing.unit ? `${ing.quantity} ${ing.unit}` : (ing.quantity ?? null),
+        rawQuantity: ing.quantity as number | null,
+        unit: ing.unit as string | null,
       })),
   }));
 

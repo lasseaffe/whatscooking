@@ -1,0 +1,21 @@
+{
+  "run_at": "2026-05-11T01:53:17.057251+00:00",
+  "sources": {
+    "foodcom": {
+      "file": "C:\\Users\\lasse\\Desktop\\whatscooking\\datasets\\foodcom\\RAW_recipes.csv",
+      "total_rows": 231637,
+      "ingested": 7000
+    },
+    "recipenlg": {
+      "file": "C:\\Users\\lasse\\Desktop\\whatscooking\\datasets\\recipenlg\\RecipeNLG_dataset.csv",
+      "total_rows": 2231142,
+      "ingested": 3000
+    }
+  },
+  "stats": {
+    "inserted": 10000,
+    "errors": 0,
+    "skipped": 0
+  },
+  "total_ingested": 10000
+}

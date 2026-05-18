@@ -7,6 +7,7 @@ export type SwipeRecipe = {
   title: string;
   description: string | null;
   image_url: string | null;
+  image_urls: string[] | null;
   cuisine_type: string | null;
   dietary_tags: string[] | null;
   calories: number | null;

@@ -3,9 +3,16 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Lightbulb, List, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2 } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Lightbulb, List, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2, Loader2 } from "lucide-react";
 import { StepVisualization } from "@/components/step-visualization";
 import { TypewriterText } from "@/components/ui/TypewriterText";
+import { SpringButton } from "@/components/ui/spring-button";
+import { CookLogSheet } from "@/components/cook-log-sheet";
+import { motion, AnimatePresence } from "framer-motion";
+import { springGentle } from "@/lib/motion";
+import { useSwipe } from "@/lib/hooks/use-swipe";
+import { CookPostSheet } from "@/components/social/cook-post-sheet";
+import { CookAlongDrawer } from "@/components/cooking/cook-along-drawer";
 
 // ── Types ────────────────────────────────────────────────────
 export interface Ingredient {
@@ -16,12 +23,14 @@ export interface Ingredient {
 
 export interface CookingModeScreenProps {
   recipeTitle: string;
+  recipeId?: string | null;
   chefName?: string | null;
   rating?: number | null;
   reviewCount?: number | null;
   imageUrl?: string | null;
   baseServings: number;
   instructions: string[];
+  instructionsEnhanced?: import("@/lib/types").EnhancedStep[] | null;
   ingredients?: Ingredient[];
   onExit: () => void;
 }
@@ -236,19 +245,24 @@ function TimerTray({
 
   return (
     <div className="flex flex-wrap gap-2 items-center">
-      {timers.map((t) => (
-        <div
+      {timers.map((t) => {
+        const nearDone = !t.done && t.running && t.remaining <= 30;
+        return (
+        <motion.div
           key={t.id}
           className="flex items-center gap-2 px-3 py-2 rounded-xl"
           style={{
             background: t.done
               ? "rgba(130,142,111,0.15)"
               : "rgba(28,18,9,0.9)",
-            border: t.done
-              ? "1px solid rgba(130,142,111,0.3)"
-              : "1px solid rgba(244,162,97,0.25)",
-            animation: t.done ? "pulse 0.8s ease-in-out 3" : undefined,
+            border: nearDone
+              ? "1px solid rgba(244,162,97,0.7)"
+              : t.done
+                ? "1px solid rgba(130,142,111,0.3)"
+                : "1px solid rgba(244,162,97,0.25)",
           }}
+          animate={nearDone ? { scale: [1, 1.04, 1] } : { scale: 1 }}
+          transition={nearDone ? { duration: 1, repeat: Infinity, ease: "easeInOut" } : {}}
         >
           <div className="min-w-0">
             <p className="text-[10px] font-bold uppercase tracking-widest truncate max-w-[90px]" style={{ color: t.done ? "#828E6F" : "#8A6A4A" }}>
@@ -257,9 +271,9 @@ function TimerTray({
             <p
               className="font-bold leading-none tabular-nums"
               style={{
-                fontFamily: "'Libre Baskerville', Georgia, serif",
+                fontFamily: "var(--font-fraunces, 'Fraunces', Georgia, serif)",
                 fontSize: "1.4rem",
-                color: t.done ? "#828E6F" : "#EFE3CE",
+                color: t.done ? "#828E6F" : nearDone ? "#F4A261" : "#EFE3CE",
               }}
             >
               {t.done ? "Done!" : formatTime(t.remaining)}
@@ -298,8 +312,9 @@ function TimerTray({
               <X style={{ width: 10, height: 10, color: "#5A3A28" }} />
             </button>
           </div>
-        </div>
-      ))}
+        </motion.div>
+        );
+      })}
       {canAdd && timers.length < 4 && (
         <button
           type="button"
@@ -422,7 +437,7 @@ function GlossaryPopover({ state, onClose }: { state: TooltipState; onClose: () 
           <div className="flex items-start justify-between gap-2 mb-1.5">
             <span
               className="font-bold text-sm"
-              style={{ fontFamily: "'Libre Baskerville', Georgia, serif", color: "#F4A261" }}
+              style={{ fontFamily: "var(--font-fraunces, 'Fraunces', Georgia, serif)", color: "#F4A261" }}
             >
               {entry.term.charAt(0).toUpperCase() + entry.term.slice(1)}
             </span>
@@ -629,12 +644,14 @@ function stepBody(text: string): string {
 // ── Main screen component ─────────────────────────────────────
 export function CookingModeScreen({
   recipeTitle,
+  recipeId,
   chefName,
   rating,
   reviewCount,
   imageUrl,
   baseServings,
   instructions,
+  instructionsEnhanced = null,
   ingredients = [],
   onExit,
 }: CookingModeScreenProps) {
@@ -642,9 +659,11 @@ export function CookingModeScreen({
   const [step, setStep] = useState(0);
   const [servings, setServings] = useState(baseServings);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [cookAlongOpen, setCookAlongOpen] = useState(false);
+  const [cookAlongPrefill, setCookAlongPrefill] = useState<string | undefined>();
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   // Done dialog: null | "pantry" | "rating"
-  const [donePhase, setDonePhase] = useState<null | "pantry" | "rating">(null);
+  const [donePhase, setDonePhase] = useState<null | "pantry" | "rating" | "share">(null);
   const [doneRating, setDoneRating] = useState(0);
   const [doneHoverRating, setDoneHoverRating] = useState(0);
   // Cache enriched body text per step index so we don't re-call the API on navigation
@@ -653,6 +672,34 @@ export function CookingModeScreen({
   // Pre-fetched SOS tips for all steps
   const [prefetchedTips, setPrefetchedTips] = useState<string[]>([]);
   const [prefetchDone, setPrefetchDone] = useState(false);
+
+  // Cook log sheet state
+  const [logId, setLogId] = useState<string | null>(null);
+  const [logSheetOpen, setLogSheetOpen] = useState(false);
+  const [logging, setLogging] = useState(false);
+
+  async function handleDoneCooking() {
+    if (logging) return;
+    setLogging(true);
+    try {
+      const res = await fetch("/api/cook-log", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          recipe_id: recipeId ?? undefined,
+          recipe_title: recipeTitle,
+          source: "cooking_mode",
+        }),
+      });
+      if (res.ok) {
+        const { id } = await res.json();
+        setLogId(id);
+        setLogSheetOpen(true);
+      }
+    } finally {
+      setLogging(false);
+    }
+  }
 
   useEffect(() => {
     if (!instructions.length) return;
@@ -718,6 +765,7 @@ export function CookingModeScreen({
       ...prev,
       { id: `${Date.now()}`, label, totalSeconds: secs, remaining: secs, running: true, done: false },
     ]);
+    window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'timer-started' } }));
   }
 
   function toggleTimer(id: string) {
@@ -743,8 +791,20 @@ export function CookingModeScreen({
     [current, ingredients, servingsRatio]
   );
 
-  const heading = stepHeading(enrichedText);
-  const body = stepBody(enrichedText);
+  // Dispatch contextual event when reaching a step with timing info (for onboarding Beat 5)
+  useEffect(() => {
+    if (parseStepSeconds(enrichedText) !== null && timers.length === 0) {
+      window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'timer-tutorial-ready' } }));
+    }
+  // Only fire when the step index changes
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step]);
+
+  // Prefer enhanced data when available - the heuristic stepHeading/stepBody splitter
+  // gets confused by one-long-sentence steps and shows a chopped header like "In a tall".
+  const enhancedStep = instructionsEnhanced?.[step];
+  const heading = enhancedStep ? enhancedStep.header : "";
+  const body = enhancedStep ? enhancedStep.body_text : stepBody(enrichedText) || enrichedText;
 
   function go(i: number) {
     setStep(Math.max(0, Math.min(total - 1, i)));
@@ -754,6 +814,8 @@ export function CookingModeScreen({
 
   function next() { if (step < total - 1) go(step + 1); }
   function prev() { if (step > 0) go(step - 1); }
+
+  const swipeHandlers = useSwipe({ onSwipeLeft: next, onSwipeRight: prev });
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -768,6 +830,8 @@ export function CookingModeScreen({
   // Fetch enriched body for the current step (cached per index)
   useEffect(() => {
     if (enrichedBodies[step] !== undefined) return;
+    // When the step has been enhanced, prefer the chef-mentor body over the API rewrite.
+    if (instructionsEnhanced?.[step]) return;
     const raw = stepBody(enrichedText);
     if (!raw) return;
     setBodyLoading(true);
@@ -793,8 +857,8 @@ export function CookingModeScreen({
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex flex-col"
-      style={{ background: "#0d0d0c", color: "#EFE3CE" }}
+      className="wc-zone-cooking fixed inset-0 z-[100] flex flex-col"
+      style={{ color: "#EFE3CE" }}
     >
       {/* Progress bar */}
       <div className="absolute top-0 left-0 right-0 h-[3px] z-10" style={{ background: "rgba(42,24,8,0.5)" }}>
@@ -832,7 +896,7 @@ export function CookingModeScreen({
               <h2
                 className="font-bold leading-snug"
                 style={{
-                  fontFamily: "'Libre Baskerville', Georgia, serif",
+                  fontFamily: "var(--font-fraunces, 'Fraunces', Georgia, serif)",
                   fontSize: "1.2rem",
                   color: "#EFE3CE",
                 }}
@@ -912,7 +976,7 @@ export function CookingModeScreen({
         </div>
 
         {/* ── CENTER PANEL ── */}
-        <div className="flex-1 flex flex-col min-h-0 relative">
+        <div className="flex-1 flex flex-col min-h-0 relative" {...swipeHandlers}>
           {/* Mobile top bar */}
           <div
             className="flex md:hidden items-center justify-between px-4 py-3 shrink-0"
@@ -934,10 +998,10 @@ export function CookingModeScreen({
             </button>
           </div>
 
-          {/* Step content — scrolls independently */}
-          <div className="flex-1 overflow-y-auto px-8 md:px-12 lg:px-16 py-10 max-w-2xl mx-auto w-full">
+          {/* Step content — non-scrolling cockpit zone, step dominates 65% of viewport */}
+          <div className="flex-1 flex flex-col justify-center px-6 md:px-12 lg:px-16 py-6 max-w-3xl mx-auto w-full overflow-hidden">
             {/* Step badge + SOS helper (top row) */}
-            <div className="mb-5 flex items-center justify-between gap-3">
+            <div className="mb-4 flex items-center justify-between gap-3 shrink-0">
               <span
                 className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest"
                 style={{ background: "rgba(244,162,97,0.15)", color: "#F4A261", border: "1px solid rgba(244,162,97,0.3)" }}
@@ -955,72 +1019,102 @@ export function CookingModeScreen({
               />
             </div>
 
-            {/* Step heading */}
-            <h1
-              className="mb-5 leading-tight"
-              style={{
-                fontFamily: "'Libre Baskerville', Georgia, serif",
-                fontSize: "clamp(2rem, 5vw, 3.5rem)",
-                color: "#EFE3CE",
-                fontWeight: 700,
-              }}
-            >
-              <AnnotatedText text={heading} onGlossaryClick={handleGlossaryClick} />
-            </h1>
-
-            {/* Step body — enriched 2-5 sentence explanation */}
-            {(enrichedBodies[step] || body) && (
-              <p
-                className="mb-6 leading-relaxed"
-                style={{
-                  fontSize: "1.15rem",
-                  color: "#C8B49A",
-                  lineHeight: 1.9,
-                  opacity: bodyLoading ? 0.5 : 1,
-                  transition: "opacity 0.3s",
-                }}
+            {/* Animated step content — enters/exits with spring motion */}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={step}
+                initial={{ y: 30, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: -20, opacity: 0 }}
+                transition={springGentle}
+                className="flex flex-col gap-4 min-h-0"
               >
-                <AnnotatedText
-                  text={enrichedBodies[step] || body}
-                  onGlossaryClick={handleGlossaryClick}
-                />
-              </p>
-            )}
+                {/* Step heading — dominant when enhanced data provides a real header */}
+                {heading && (
+                  <h1
+                    className="leading-tight"
+                    style={{
+                      fontFamily: "var(--font-fraunces, 'Fraunces', Georgia, serif)",
+                      fontSize: "clamp(2.5rem, 6vw, 4.5rem)",
+                      color: "#EFE3CE",
+                      fontWeight: 700,
+                      maxWidth: "18ch",
+                    }}
+                  >
+                    <AnnotatedText text={heading} onGlossaryClick={handleGlossaryClick} />
+                  </h1>
+                )}
 
-            {/* Step visualization — SVG technique diagram when applicable */}
-            <StepVisualization stepText={enrichedText} />
+                {/* Step body — enlarged for glanceability at cooking distance */}
+                {(enrichedBodies[step] || body) && (
+                  <p
+                    style={{
+                      fontSize: "clamp(1.4rem, 2.5vw, 2rem)",
+                      color: "#C8B49A",
+                      lineHeight: 1.7,
+                      maxWidth: "60ch",
+                      opacity: bodyLoading ? 0.5 : 1,
+                      transition: "opacity 0.3s",
+                    }}
+                  >
+                    <AnnotatedText
+                      text={instructionsEnhanced?.[step]?.body_text ?? (enrichedBodies[step] || body)}
+                      onGlossaryClick={handleGlossaryClick}
+                    />
+                  </p>
+                )}
 
-            {/* Mobile glossary hint */}
-            <p
-              className="flex md:hidden text-xs mb-4"
-              style={{ color: "#4A3020" }}
-            >
-              Tap{" "}
-              <span
-                className="mx-1"
-                style={{
-                  color: "#E8C97A",
-                  textDecoration: "underline",
-                  textDecorationStyle: "dotted",
-                }}
-              >
-                golden words
-              </span>{" "}
-              to learn what they mean.
-            </p>
+                {/* Ask chef about this step */}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCookAlongPrefill(`About step ${step + 1}: `);
+                    setCookAlongOpen(true);
+                  }}
+                  className="text-xs mt-2 transition-opacity"
+                  style={{ color: "#B07D56", opacity: 0.65 }}
+                  onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+                  onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.65")}
+                >
+                  Ask about this step ↑
+                </button>
 
-            {/* Pro tip */}
-            {proTip && (
-              <div
-                className="flex items-start gap-2 mt-5 px-4 py-3 rounded-xl text-sm leading-relaxed"
-                style={{ background: "rgba(58,52,48,0.8)", borderLeft: "3px solid #F4A261" }}
-              >
-                <Lightbulb style={{ width: 14, height: 14, color: "#F4A261", flexShrink: 0, marginTop: 2 }} />
-                <span style={{ color: "#e7e7e6" }}>
-                  <strong style={{ color: "#F4A261" }}>Chef tip:</strong> {proTip}
-                </span>
-              </div>
-            )}
+                {/* Step visualization — SVG technique diagram when applicable */}
+                <StepVisualization stepText={enrichedText} />
+
+                {/* Mobile glossary hint */}
+                <p
+                  className="flex md:hidden text-xs"
+                  style={{ color: "#4A3020" }}
+                >
+                  Tap{" "}
+                  <span
+                    className="mx-1"
+                    style={{
+                      color: "#E8C97A",
+                      textDecoration: "underline",
+                      textDecorationStyle: "dotted",
+                    }}
+                  >
+                    golden words
+                  </span>{" "}
+                  to learn what they mean.
+                </p>
+
+                {/* Pro tip */}
+                {proTip && (
+                  <div
+                    className="flex items-start gap-2 px-4 py-3 rounded-xl text-sm leading-relaxed"
+                    style={{ background: "rgba(58,52,48,0.8)", borderLeft: "3px solid #F4A261" }}
+                  >
+                    <Lightbulb style={{ width: 14, height: 14, color: "#F4A261", flexShrink: 0, marginTop: 2 }} />
+                    <span style={{ color: "#e7e7e6" }}>
+                      <strong style={{ color: "#F4A261" }}>Chef tip:</strong> {proTip}
+                    </span>
+                  </div>
+                )}
+              </motion.div>
+            </AnimatePresence>
           </div>
 
           {/* ── Sticky bottom bar: Timer + Prev / Next ── */}
@@ -1033,30 +1127,44 @@ export function CookingModeScreen({
             }}
           >
             {/* Persistent multi-timer tray */}
-            <TimerTray
-              timers={timers}
-              onAdd={addTimer}
-              onToggle={toggleTimer}
-              onReset={resetTimer}
-              onRemove={removeTimer}
-              stepText={enrichedText}
-            />
+            <div data-tour="timer-control">
+              <TimerTray
+                timers={timers}
+                onAdd={addTimer}
+                onToggle={toggleTimer}
+                onReset={resetTimer}
+                onRemove={removeTimer}
+                stepText={enrichedText}
+              />
+            </div>
+
+            {/* Done cooking button */}
+            <SpringButton
+              onClick={handleDoneCooking}
+              disabled={logging}
+              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold"
+              style={{ background: "rgba(74,140,92,0.15)", border: "1px solid rgba(74,140,92,0.4)", color: "#4A8C5C" }}
+            >
+              {logging
+                ? <><Loader2 className="w-4 h-4 animate-spin" /> Logging…</>
+                : "✓ Done cooking — log it"
+              }
+            </SpringButton>
 
             {/* Prev / Next */}
             <div className="flex items-center gap-3">
-              <button
-                type="button"
+              <SpringButton
                 onClick={prev}
                 disabled={step === 0}
-                className="flex items-center gap-1.5 px-5 py-3 rounded-xl text-sm font-semibold transition-all hover:brightness-125 disabled:opacity-25 active:scale-95"
+                className="flex items-center gap-1.5 px-5 py-3 rounded-xl text-sm font-semibold disabled:opacity-25"
                 style={{ background: "rgba(244,162,97,0.12)", color: "#D4956A", border: "1.5px solid rgba(244,162,97,0.35)" }}
               >
                 <ChevronLeft style={{ width: 15, height: 15 }} /> Prev
-              </button>
-              <button
-                type="button"
+              </SpringButton>
+              <SpringButton
+                data-tour="step-advance"
                 onClick={step >= total - 1 ? () => setDonePhase("pantry") : next}
-                className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl text-base font-bold transition-all hover:opacity-90 active:scale-[0.98]"
+                className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl text-base font-bold"
                 style={{
                   background: step >= total - 1
                     ? "linear-gradient(135deg, #828E6F, #6B7A5C)"
@@ -1065,7 +1173,7 @@ export function CookingModeScreen({
                 }}
               >
                 {step >= total - 1 ? "All Done! 🎉" : <>Next Step <ChevronRight style={{ width: 17, height: 17 }} /></>}
-              </button>
+              </SpringButton>
             </div>
           </div>
         </div>
@@ -1206,7 +1314,7 @@ export function CookingModeScreen({
               <p className="text-4xl mb-3">🎉</p>
               <h2
                 className="font-bold mb-2"
-                style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: "1.5rem", color: "#EFE3CE" }}
+                style={{ fontFamily: "var(--font-fraunces, 'Fraunces', Georgia, serif)", fontSize: "1.5rem", color: "#EFE3CE" }}
               >
                 You&apos;re done cooking!
               </h2>
@@ -1280,7 +1388,7 @@ export function CookingModeScreen({
               <p className="text-4xl mb-3">🍽️</p>
               <h2
                 className="font-bold mb-2"
-                style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: "1.5rem", color: "#EFE3CE" }}
+                style={{ fontFamily: "var(--font-fraunces, 'Fraunces', Georgia, serif)", fontSize: "1.5rem", color: "#EFE3CE" }}
               >
                 How did it turn out?
               </h2>
@@ -1328,8 +1436,7 @@ export function CookingModeScreen({
                       });
                     } catch { /* fire-and-forget */ }
                   }
-                  setDonePhase(null);
-                  onExit();
+                  setDonePhase("share");
                 }}
                 className="w-full flex items-center justify-center gap-3 py-4 rounded-2xl font-bold text-base transition-all hover:opacity-90 active:scale-[0.98] disabled:opacity-40"
                 style={{ background: "var(--wc-accent-saffron, #F4A261)", color: "#1A0E04" }}
@@ -1341,9 +1448,7 @@ export function CookingModeScreen({
               <button
                 type="button"
                 onClick={() => {
-                  setDonePhase(null);
-                  onExit();
-                  router.push("/discover");
+                  setDonePhase("share");
                 }}
                 className="w-full flex items-center justify-center gap-3 py-3.5 rounded-2xl font-semibold text-sm transition-all hover:opacity-80"
                 style={{ background: "rgba(42,24,8,0.6)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.6)" }}
@@ -1364,6 +1469,68 @@ export function CookingModeScreen({
           </div>
         </div>
       )}
+
+      {donePhase === "share" && (
+        <CookPostSheet
+          recipeId={recipeId ?? ""}
+          recipeTitle={recipeTitle}
+          onClose={() => { setDonePhase(null); onExit(); }}
+          onSuccess={() => { setDonePhase(null); onExit(); }}
+        />
+      )}
+
+      {/* ── Post-cook log sheet ── */}
+      {logId && (
+        <CookLogSheet
+          logId={logId}
+          recipeTitle={recipeTitle}
+          open={logSheetOpen}
+          onClose={() => setLogSheetOpen(false)}
+        />
+      )}
+
+      {/* ── Cook-Along FAB ── */}
+      <motion.button
+        type="button"
+        whileTap={{ scale: 0.9 }}
+        onClick={() => { setCookAlongPrefill(undefined); setCookAlongOpen(true); }}
+        aria-label="Ask chef assistant"
+        style={{
+          position: "fixed",
+          bottom: 24,
+          right: 24,
+          width: 48,
+          height: 48,
+          borderRadius: "50%",
+          background: "#F59E0B",
+          border: "none",
+          cursor: "pointer",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 22,
+          boxShadow: "0 4px 16px rgba(245,158,11,0.35)",
+          zIndex: 40,
+        }}
+      >
+        👨‍🍳
+      </motion.button>
+
+      {/* ── Cook-Along Drawer ── */}
+      <AnimatePresence>
+        {cookAlongOpen && recipeId && (
+          <CookAlongDrawer
+            recipeId={recipeId}
+            recipeTitle={recipeTitle}
+            ingredients={ingredients ?? []}
+            steps={instructions}
+            currentStepIndex={step}
+            prefillMessage={cookAlongPrefill}
+            isOpen={cookAlongOpen}
+            onClose={() => setCookAlongOpen(false)}
+          />
+        )}
+      </AnimatePresence>
     </div>
   );
 }

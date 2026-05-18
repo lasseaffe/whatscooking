@@ -7,7 +7,10 @@ import { ReportButton } from "@/components/report-button";
 import { WcBadge } from "@/components/wc-badge";
 import type { Recipe } from "@/lib/types";
 import { RecipeImage } from "@/components/recipe-image";
+import { ImageWithControls } from "@/components/image-with-controls";
 import { motion } from "framer-motion";
+import { springGentle } from "@/lib/motion";
+import Link from "next/link";
 
 function usePrefersReducedMotion() {
   const [reduced, setReduced] = useState(false);
@@ -33,6 +36,8 @@ interface RecipeCardProps {
   index?: number;
   /** WC 2026 nation code — renders a badge linking to the passport page */
   wcNationCode?: string;
+  /** Profile username of the recipe creator — renders "by @username" link */
+  creatorUsername?: string | null;
 }
 
 // ── Chef Hat Rating ───────────────────────────────────────────
@@ -66,7 +71,7 @@ function difficultyColor(level: string | null | undefined): string {
   }
 }
 
-export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, index = 0, wcNationCode }: RecipeCardProps) {
+export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, index = 0, wcNationCode, creatorUsername }: RecipeCardProps) {
   const router = useRouter();
   const [saved, setSaved] = useState(false);
   const [pulseKey, setPulseKey] = useState(0);
@@ -100,18 +105,38 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
       }}
       initial={reduced ? false : { opacity: 0, scale: 0.97 }}
       animate={{ opacity: 1, scale: 1 }}
+      whileHover={reduced ? undefined : { y: -3, scale: 1.015 }}
       transition={{ duration: 0.32, delay: index * 0.06, ease: [0.22, 1, 0.36, 1] }}
     >
-      {/* Full-bleed hero image */}
-      <div className="absolute inset-0">
-        <RecipeImage
-          recipeId={recipe.id}
-          imageUrl={recipe.image_url}
-          title={recipe.title}
-          cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
-          dietaryTags={recipe.dietary_tags}
-        />
-      </div>
+      {/* Full-bleed hero image — scales independently for parallax depth */}
+      <motion.div
+        className="absolute inset-0"
+        whileHover={reduced ? undefined : { scale: 1.04 }}
+        transition={springGentle}
+      >
+        <ImageWithControls
+          images={
+            recipe.image_urls && recipe.image_urls.length > 0
+              ? recipe.image_urls
+              : ([recipe.image_url].filter(Boolean) as string[])
+          }
+          entityId={recipe.id}
+          entityType="recipe"
+          size="card"
+        >
+          {(currentUrl, cropStyle) => (
+            <RecipeImage
+              key={currentUrl || "fallback"}
+              recipeId={recipe.id}
+              imageUrl={currentUrl || recipe.image_url}
+              title={recipe.title}
+              cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
+              dietaryTags={recipe.dietary_tags}
+              style={cropStyle}
+            />
+          )}
+        </ImageWithControls>
+      </motion.div>
 
       {/* Image scrim — camel-beige token */}
       <div className="rc-card__scrim absolute inset-0 pointer-events-none" />
@@ -211,6 +236,18 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
         >
           {recipe.title}
         </h3>
+
+        {/* Creator username link */}
+        {creatorUsername && (
+          <Link
+            href={`/profile/${creatorUsername}`}
+            onClick={(e) => e.stopPropagation()}
+            className="text-xs font-medium hover:underline"
+            style={{ color: "rgba(255,255,255,0.55)" }}
+          >
+            @{creatorUsername}
+          </Link>
+        )}
 
         {/* Nourishing description — always shown below recipe name */}
         {recipe.description && (

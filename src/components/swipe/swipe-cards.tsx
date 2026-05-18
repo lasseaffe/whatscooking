@@ -1,12 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import { motion, useTransform } from "framer-motion";
+import type { MotionValue } from "framer-motion";
 import Link from "next/link";
 import {
   Heart, X, Clock, Flame, ExternalLink, Bookmark, BookmarkCheck,
   ChevronDown, ChevronUp, Zap, Mountain,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
+import { ImageWithControls } from "@/components/image-with-controls";
 
 export const DIFFICULTY_CONFIG = {
   easy:   { label: "Easy",        Icon: Zap,      color: "#16A34A", bg: "#DCFCE7" },
@@ -17,40 +20,61 @@ export const DIFFICULTY_CONFIG = {
 // ── Recipe Card ────────────────────────────────────────────────
 
 export function RecipeCard({
-  recipe, likeOpacity, nopeOpacity, saved, onToggleSave, onInfo,
+  recipe, motionX, saved, onToggleSave, onInfo,
 }: {
   recipe: SwipeRecipe;
-  likeOpacity: number;
-  nopeOpacity: number;
+  motionX: MotionValue<number>;
   saved: boolean;
   onToggleSave: () => void;
   onInfo: () => void;
 }) {
+  const likeOpacity = useTransform(motionX, [0, 80], [0, 1]);
+  const nopeOpacity = useTransform(motionX, [-80, 0], [1, 0]);
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
 
   return (
     <div className="relative w-full h-full select-none" style={{ background: "#fff" }}>
       <div className="absolute inset-0">
-        {recipe.image_url ? (
-          <img src={recipe.image_url} alt={recipe.title} className="w-full h-full object-cover" draggable={false} />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-6xl" style={{ background: "#FFF0E6" }}>🍽️</div>
-        )}
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(30,12,4,0.93) 0%, rgba(0,0,0,0.25) 55%, transparent 100%)" }} />
+        <ImageWithControls
+          images={
+            recipe.image_urls && recipe.image_urls.length > 0
+              ? recipe.image_urls
+              : ([recipe.image_url].filter(Boolean) as string[])
+          }
+          entityId={recipe.id}
+          entityType="recipe"
+          size="card"
+        >
+          {(currentUrl, cropStyle) =>
+            currentUrl ? (
+              <img
+                key={currentUrl}
+                src={currentUrl}
+                alt={recipe.title}
+                className="w-full h-full object-cover"
+                style={cropStyle}
+                draggable={false}
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center text-6xl" style={{ background: "#FFF0E6" }}>🍽️</div>
+            )
+          }
+        </ImageWithControls>
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(to top, rgba(30,12,4,0.93) 0%, rgba(0,0,0,0.25) 55%, transparent 100%)" }} />
       </div>
 
       {/* LIKE stamp */}
-      <div className="absolute top-8 left-6 px-4 py-2 rounded-xl border-4 rotate-[-20deg] pointer-events-none transition-opacity"
+      <motion.div className="absolute top-8 left-6 px-4 py-2 rounded-xl border-4 rotate-[-20deg] pointer-events-none"
         style={{ borderColor: "#4CAF50", opacity: likeOpacity }}>
         <span className="text-2xl font-black tracking-widest" style={{ color: "#4CAF50" }}>LIKE</span>
-      </div>
+      </motion.div>
 
       {/* NOPE stamp */}
-      <div className="absolute top-8 right-6 px-4 py-2 rounded-xl border-4 rotate-[20deg] pointer-events-none transition-opacity"
+      <motion.div className="absolute top-8 right-6 px-4 py-2 rounded-xl border-4 rotate-[20deg] pointer-events-none"
         style={{ borderColor: "#C85A2F", opacity: nopeOpacity }}>
         <span className="text-2xl font-black tracking-widest" style={{ color: "#C85A2F" }}>NOPE</span>
-      </div>
+      </motion.div>
 
       {/* Top-right action buttons */}
       <div className="absolute top-4 right-4 flex flex-col gap-2">
@@ -147,12 +171,31 @@ export function RecipePreviewSheet({
         onClick={(e) => e.stopPropagation()}>
 
         <div className="relative h-56 overflow-hidden rounded-t-3xl">
-          {recipe.image_url ? (
-            <img src={recipe.image_url} alt={recipe.title} className="w-full h-full object-cover" />
-          ) : (
-            <div className="w-full h-full flex items-center justify-center text-5xl" style={{ background: "#FFF0E6" }}>🍽️</div>
-          )}
-          <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,8,2,0.85) 0%, transparent 60%)" }} />
+          <ImageWithControls
+            images={
+              recipe.image_urls && recipe.image_urls.length > 0
+                ? recipe.image_urls
+                : ([recipe.image_url].filter(Boolean) as string[])
+            }
+            entityId={recipe.id}
+            entityType="recipe"
+            size="card"
+          >
+            {(currentUrl, cropStyle) =>
+              currentUrl ? (
+                <img
+                  key={currentUrl}
+                  src={currentUrl}
+                  alt={recipe.title}
+                  className="w-full h-full object-cover"
+                  style={cropStyle}
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-5xl" style={{ background: "#FFF0E6" }}>🍽️</div>
+              )
+            }
+          </ImageWithControls>
+          <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(to top, rgba(20,8,2,0.85) 0%, transparent 60%)" }} />
           <div className="absolute top-3 left-1/2 -translate-x-1/2 w-10 h-1 rounded-full opacity-60" style={{ background: "#fff" }} />
           <div className="absolute bottom-4 left-5 right-5">
             <div className="flex items-center gap-2 mb-2 flex-wrap">

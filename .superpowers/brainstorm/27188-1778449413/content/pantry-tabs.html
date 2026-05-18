@@ -1,0 +1,79 @@
+<h2>Pantry — Tab Structure</h2>
+<p class="subtitle">Right now there are <strong>two stacked tab bars</strong> inside the Pantry page: one outer (My Pantry / Leftovers / Shared Pantry) and one inner (Household / My Pantry). This is confusing. Which structure makes more sense?</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1A110A;padding:12px;font-family:sans-serif;font-size:10px;color:#EFE3CE;min-height:200px;">
+      <!-- Three tabs, no nested sub-tabs -->
+      <div style="display:flex;gap:2px;background:#2A1804;border-radius:12px;padding:3px;margin-bottom:10px;">
+        <div style="flex:1;background:#C85A2F;border-radius:9px;padding:5px;text-align:center;font-size:8px;font-weight:700;color:#fff;">🧺 My Pantry</div>
+        <div style="flex:1;padding:5px;text-align:center;font-size:8px;color:#8A6A4A;">🍱 Leftovers</div>
+        <div style="flex:1;padding:5px;text-align:center;font-size:8px;color:#8A6A4A;">👥 Household</div>
+      </div>
+      <!-- My Pantry tab content: shows items + add form directly -->
+      <div style="background:#2A1804;border-radius:10px;padding:8px;margin-bottom:6px;">
+        <div style="font-size:8px;font-weight:700;color:#C85A2F;margin-bottom:4px;">Add ingredient</div>
+        <div style="background:#1C1209;border-radius:6px;height:20px;display:flex;align-items:center;padding:0 6px;font-size:8px;color:#4A3020;">e.g. pasta, tomatoes…</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;">
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🧅 Onion</div>
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🍅 Tomato</div>
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🧀 Cheese</div>
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🥚 Eggs</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Three Tabs (no nesting)</h3>
+      <p>My Pantry · Leftovers · Household. The Household tab replaces the inner sub-tab. Household sharing moves to its own dedicated tab — no two-level navigation.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1A110A;padding:12px;font-family:sans-serif;font-size:10px;color:#EFE3CE;min-height:200px;">
+      <!-- Two main tabs only -->
+      <div style="display:flex;gap:2px;background:#2A1804;border-radius:12px;padding:3px;margin-bottom:10px;">
+        <div style="flex:1;background:#C85A2F;border-radius:9px;padding:5px;text-align:center;font-size:8px;font-weight:700;color:#fff;">🧺 Pantry</div>
+        <div style="flex:1;padding:5px;text-align:center;font-size:8px;color:#8A6A4A;">🍱 Leftovers</div>
+      </div>
+      <!-- Single pantry view — ingredients directly -->
+      <div style="background:#2A1804;border-radius:10px;padding:8px;margin-bottom:6px;">
+        <div style="font-size:8px;font-weight:700;color:#C85A2F;margin-bottom:4px;">Add ingredient</div>
+        <div style="background:#1C1209;border-radius:6px;height:20px;display:flex;align-items:center;padding:0 6px;font-size:8px;color:#4A3020;">e.g. pasta, tomatoes…</div>
+      </div>
+      <!-- Household sharing as a collapsible banner, not a tab -->
+      <div style="background:#2A1804;border:1px solid #3A2416;border-radius:8px;padding:6px;display:flex;align-items:center;justify-content:space-between;">
+        <div style="font-size:8px;color:#C4A882;">👥 Share with household</div>
+        <div style="background:#C85A2F;border-radius:6px;padding:2px 6px;font-size:7px;color:#fff;">Share</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Two Tabs + Share Banner</h3>
+      <p>Pantry · Leftovers. Household sharing becomes a collapsible banner inside the Pantry tab. Simpler navigation — the main path is always your own pantry. Shared Pantry is a secondary action, not a peer tab.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1A110A;padding:12px;font-family:sans-serif;font-size:10px;color:#EFE3CE;min-height:200px;">
+      <!-- Keep three tabs, remove inner sub-tabs, show MY pantry by default on Household tab -->
+      <div style="display:flex;gap:2px;background:#2A1804;border-radius:12px;padding:3px;margin-bottom:10px;">
+        <div style="flex:1;background:#C85A2F;border-radius:9px;padding:5px;text-align:center;font-size:8px;font-weight:700;color:#fff;">🧺 My Pantry</div>
+        <div style="flex:1;padding:5px;text-align:center;font-size:8px;color:#8A6A4A;">🍱 Leftovers</div>
+        <div style="flex:1;padding:5px;text-align:center;font-size:8px;color:#8A6A4A;">📤 Shared</div>
+      </div>
+      <!-- My Pantry items + scramble CTA -->
+      <div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px;">
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🧅 Onion</div>
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🍅 Tomato</div>
+        <div style="background:#2A1804;border-radius:20px;padding:3px 8px;font-size:8px;color:#EFE3CE;">🧀 Cheese</div>
+      </div>
+      <!-- Scramble CTA -->
+      <div style="background:linear-gradient(135deg,#C85A2F,#E8834A);border-radius:8px;padding:6px 10px;font-size:8px;color:#fff;font-weight:700;">🎲 Scramble — what can I cook?</div>
+    </div>
+    <div class="card-body">
+      <h3>C — Three Tabs, Reordered</h3>
+      <p>My Pantry · Leftovers · Shared. Remove the inner Household/Mine toggle entirely. The Shared tab is for household features. My Pantry is always your own items. Clean, no nesting — same count, better order.</p>
+    </div>
+  </div>
+
+</div>

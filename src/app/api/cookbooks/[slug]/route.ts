@@ -31,6 +31,15 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const body = await req.json();
+
+  // Fetch current status before update to detect publish flip
+  const { data: current } = await supabase
+    .from("cookbooks")
+    .select("status")
+    .eq("slug", slug)
+    .eq("user_id", user.id)
+    .single();
+
   const { data, error } = await supabase
     .from("cookbooks")
     .update(body)
@@ -40,6 +49,18 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
     .single();
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  // Fire-and-forget: log to activity_feed when status flips to published
+  if (current?.status !== "published" && body.status === "published") {
+    supabase.from("activity_feed").insert({
+      user_id: user.id,
+      action_type: "published",
+      metadata: { cookbook_id: data.id, cookbook_title: data.title },
+    }).then(({ error: feedError }) => {
+      if (feedError) console.error("[cookbooks activity_feed]", feedError);
+    });
+  }
+
   return NextResponse.json(data);
 }
 

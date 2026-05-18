@@ -232,7 +232,54 @@ function PlaywrightFixerButton() {
   );
 }
 
-export function SettingsClient() {
+function ShareActivityToggle({ initial }: { initial: boolean }) {
+  const [enabled, setEnabled] = useState(initial);
+  const [saving, setSaving] = useState(false);
+
+  async function toggle() {
+    const next = !enabled;
+    setEnabled(next);
+    setSaving(true);
+    try {
+      await fetch("/api/user-preferences", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ share_activity: next }),
+      });
+    } catch {
+      setEnabled(!next);
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  return (
+    <div className="flex items-start justify-between gap-4">
+      <div className="flex-1">
+        <p className="text-xs font-semibold mb-1" style={{ color: "#EFE3CE" }}>Share cooking activity</p>
+        <p className="text-xs leading-relaxed" style={{ color: "#7A5A40" }}>
+          When on, your cooks and saved recipes appear in the Following feed for people who follow you.
+        </p>
+      </div>
+      <button
+        type="button"
+        role="switch"
+        aria-checked={enabled}
+        onClick={toggle}
+        disabled={saving}
+        className="relative shrink-0 w-11 h-6 rounded-full transition-colors mt-0.5"
+        style={{ background: enabled ? "var(--wc-pal-accent, #B07D56)" : "rgba(58,36,22,0.6)" }}
+      >
+        <span
+          className="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white transition-transform"
+          style={{ transform: enabled ? "translateX(20px)" : "translateX(0)" }}
+        />
+      </button>
+    </div>
+  );
+}
+
+export function SettingsClient({ initialShareActivity = false }: { initialShareActivity?: boolean }) {
   const { theme, setTheme } = useTheme();
 
   return (
@@ -308,6 +355,11 @@ export function SettingsClient() {
       {/* ── Playwright Report Fixer ── */}
       <Section icon={<Wand2 style={{ width: 16, height: 16 }} />} title="Report Fixer">
         <PlaywrightFixerButton />
+      </Section>
+
+      {/* ── Social ── */}
+      <Section icon={<ChefHat style={{ width: 16, height: 16 }} />} title="Social & Activity">
+        <ShareActivityToggle initial={initialShareActivity} />
       </Section>
 
       {/* ── Notifications placeholder ── */}
