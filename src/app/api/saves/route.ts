@@ -14,22 +14,22 @@ export async function POST(req: NextRequest) {
 
     await supabase.from("recipe_saves").upsert({ user_id: user.id, recipe_id });
 
-    // Fire-and-forget: log to activity_feed only if user opted in
-    const { data: prefs } = await supabase
-      .from("user_preferences")
-      .select("share_activity")
-      .eq("user_id", user.id)
-      .single();
-
-    if (prefs?.share_activity) {
-      supabase.from("activity_feed").insert({
-        user_id: user.id,
-        action_type: "saved",
-        recipe_id,
-      }).then(({ error: feedError }) => {
+    // Fire-and-forget: check opt-in and log to activity_feed without blocking
+    void (async () => {
+      const { data: prefs } = await supabase
+        .from("user_preferences")
+        .select("share_activity")
+        .eq("user_id", user.id)
+        .single();
+      if (prefs?.share_activity) {
+        const { error: feedError } = await supabase.from("activity_feed").insert({
+          user_id: user.id,
+          action_type: "saved",
+          recipe_id,
+        });
         if (feedError) console.error("[saves activity_feed]", feedError);
-      });
-    }
+      }
+    })();
 
     return NextResponse.json({ saved: true });
   } catch (error) {
