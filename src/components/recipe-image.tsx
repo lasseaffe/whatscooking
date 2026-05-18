@@ -33,6 +33,10 @@ interface Props {
   className?: string;
   style?: React.CSSProperties;
   alt?: string;
+  /** 0-100 percentage. Defaults to 50 (center). */
+  focal_x?: number | null;
+  /** 0-100 percentage. Defaults to 50 (center). */
+  focal_y?: number | null;
 }
 
 type Stage = "primary" | "fallback" | "placeholder";
@@ -46,10 +50,15 @@ export function RecipeImage({
   className = "w-full h-full object-cover",
   style,
   alt,
+  focal_x,
+  focal_y,
 }: Props) {
   const fallbackUrl = getCategoryFallback(recipeId, title, cuisine, dietaryTags);
   const [stage, setStage] = useState<Stage>(imageUrl ? "primary" : "fallback");
   const [src, setSrc] = useState(imageUrl ?? fallbackUrl);
+
+  const fx = typeof focal_x === "number" ? focal_x : 50;
+  const fy = typeof focal_y === "number" ? focal_y : 50;
 
   function handleError() {
     if (stage === "primary") {
@@ -64,11 +73,15 @@ export function RecipeImage({
     const config = getPlaceholderConfig(title, cuisine);
     return (
       <div
-        className="w-full h-full flex flex-col items-center justify-center gap-1 select-none"
-        style={{ background: config.bg, ...style }}
+        className={`${className} flex flex-col items-center justify-center gap-1 select-none`}
+        role="img"
+        style={{
+          background: `linear-gradient(135deg, #2A1F14, #1A120A), ${config.bg}`,
+          ...style,
+        }}
         aria-label={alt ?? title}
       >
-        <span style={{ fontSize: 32 }}>{config.icon}</span>
+        <span style={{ fontSize: 32 }} aria-hidden="true">🍳</span>
         <span className="text-xs font-medium" style={{ color: "#A69180" }}>{config.label}</span>
       </div>
     );
@@ -79,7 +92,11 @@ export function RecipeImage({
       src={src}
       alt={alt ?? title}
       className={className}
-      style={style}
+      style={{
+        objectFit: "cover",
+        objectPosition: `${fx}% ${fy}%`,
+        ...style,
+      }}
       onError={handleError}
     />
   );
