@@ -177,6 +177,7 @@ export default async function DiscoverPage() {
       gridTotal={gridTotal ?? 0}
       pantryNames={pantryNames}
       isLoggedIn={!!user}
+      currentUserId={user?.id ?? undefined}
     />
   );
 }

@@ -329,6 +329,9 @@ export default async function RecipePage({
       <div className="px-6 py-8 max-w-5xl mx-auto space-y-8">
         <RecipeInteractions
           recipeId={id}
+          recipeTitle={recipeData.title}
+          recipeImageUrl={recipeData.image_url ?? null}
+          currentUserId={user?.id ?? null}
           userId={user!.id}
           initialComments={commentsData ?? []}
           initialSaved={!!saveData}

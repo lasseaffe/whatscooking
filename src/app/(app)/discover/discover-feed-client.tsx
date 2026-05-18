@@ -15,6 +15,7 @@ import { Wand2 } from "lucide-react";
 import { FinderDrawer, type FinderAnswers, type FinderResult } from "@/components/finder-drawer";
 import { FinderResultsSection } from "@/components/finder-results-section";
 import type { Recipe } from "@/lib/types";
+import { FollowingFeed } from "@/components/social/following-feed";
 
 interface TrendingRecipe {
   id: string;
@@ -69,6 +70,7 @@ interface Props {
   gridTotal: number;
   pantryNames: string[];
   isLoggedIn: boolean;
+  currentUserId?: string;
 }
 
 function flagEmoji(code: string): string {
@@ -89,13 +91,41 @@ export function DiscoverFeedClient({
   gridTotal,
   pantryNames: _pantryNames,
   isLoggedIn,
+  currentUserId,
 }: Props) {
+  const [feedTab, setFeedTab] = useState<"for-you" | "following">("for-you");
   const [showFinder, setShowFinder] = useState(false);
   const [finderResult, setFinderResult] = useState<FinderResult | null>(null);
   const [finderAnswers, setFinderAnswers] = useState<FinderAnswers | null>(null);
 
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-base, #1C1209)" }}>
+
+      {/* For You / Following toggle */}
+      <div className="flex items-center gap-1 px-4 pt-4 pb-2">
+        {(["for-you", "following"] as const).map((t) => (
+          <button
+            key={t}
+            type="button"
+            onClick={() => setFeedTab(t)}
+            className="px-4 py-1.5 rounded-full text-sm font-medium transition-colors"
+            style={
+              feedTab === t
+                ? { background: "#C8956C", color: "#1A0E04" }
+                : { background: "transparent", color: "#5A3A24" }
+            }
+          >
+            {t === "for-you" ? "For You" : "Following"}
+          </button>
+        ))}
+      </div>
+
+      {feedTab === "following" ? (
+        <div className="px-4 pt-2">
+          <FollowingFeed currentUserId={currentUserId} />
+        </div>
+      ) : (
+      <div>
 
       {/* ── 1. Meal Swipe ── */}
       <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
@@ -267,6 +297,8 @@ export function DiscoverFeedClient({
         )}
       </AnimatePresence>
 
+      </div>
+      )}
     </div>
   );
 }
