@@ -4,15 +4,17 @@ import { Pinboard } from '@/components/plans/Pinboard';
 import { WeaveSection } from '@/components/plans/WeaveSection';
 import { usePlannerState, type PlanStatus, type PinboardFilters } from './use-planner-state';
 
-// Backward-compat type re-export for files still importing BuilderEntry while
-// Phase C swaps the legacy grid/list views out. The new builder no longer uses
-// this shape internally.
+// Backward-compat type re-exports for files still importing BuilderEntry /
+// MealType while Phase C swaps the legacy grid/list views out. The new builder
+// no longer uses these shapes internally.
+export type MealType = 'breakfast' | 'lunch' | 'dinner' | 'snack' | 'dessert';
+
 export interface BuilderEntry {
   clientId: string;
   dbId?: string;
   recipe_id?: string | null;
   day_number: number;
-  meal_type: 'breakfast' | 'lunch' | 'dinner' | 'snack' | 'dessert';
+  meal_type: MealType;
   recipe_title: string;
   description?: string;
   calories?: number | null;
