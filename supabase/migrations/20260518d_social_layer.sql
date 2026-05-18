@@ -1,7 +1,7 @@
 -- supabase/migrations/20260518d_social_layer.sql
 
 -- ── 1. cook_posts (public social surface) ────────────────────
-create table public.cook_posts (
+create table if not exists public.cook_posts (
   id          uuid primary key default gen_random_uuid(),
   user_id     uuid not null references auth.users(id) on delete cascade,
   recipe_id   uuid references public.recipes(id) on delete set null,
@@ -26,8 +26,13 @@ create policy "cook_posts owner delete"
   on public.cook_posts for delete
   using (auth.uid() = user_id);
 
+create policy "cook_posts owner update"
+  on public.cook_posts for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
+
 -- ── 2. cook_post_likes ────────────────────────────────────────
-create table public.cook_post_likes (
+create table if not exists public.cook_post_likes (
   user_id    uuid not null references auth.users(id) on delete cascade,
   post_id    uuid not null references public.cook_posts(id) on delete cascade,
   created_at timestamptz not null default now(),
@@ -43,6 +48,8 @@ create policy "cook_post_likes owner write"
   on public.cook_post_likes for all
   using (auth.uid() = user_id)
   with check (auth.uid() = user_id);
+
+create index if not exists idx_cook_post_likes_post_id on public.cook_post_likes(post_id);
 
 -- ── 3. recipe_comments: add post_id ──────────────────────────
 alter table public.recipe_comments
