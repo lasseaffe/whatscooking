@@ -32,6 +32,10 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
     onSwapCells?.(String(a), String(b));
   };
 
+  const leftoverParentIds = new Set(
+    entries.filter(e => e.is_leftover && e.parent_clientid).map(e => e.parent_clientid as string)
+  );
+
   const dayLabel = (n: number) => {
     if (!weekStart) return `Day ${n}`;
     const d = new Date(weekStart);
@@ -71,6 +75,7 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
                       onRemove={() => onCellRemove(entry.clientid)}
                       tension={tensionByClientid?.[entry.clientid]?.tension ?? 0}
                       conflictReasons={conflictsByClientid?.[entry.clientid] ?? []}
+                      hasLeftoverDescendant={leftoverParentIds.has(entry.clientid)}
                     />
                   ) : (
                     <button
