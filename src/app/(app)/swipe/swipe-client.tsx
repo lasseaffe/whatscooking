@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useMotionValue } from "framer-motion";
 import { Heart, X, Bookmark, BookmarkCheck, Info, RotateCcw, Filter, ShieldAlert, ChevronLeft } from "lucide-react";
 import { useSwipeSession } from "@/lib/hooks/use-swipe-session";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
@@ -15,6 +16,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
 
   const session = useSwipeSession(recipes, initialSavedIds, { restrictions, customAvoid, difficultyFilter });
   const { currentCard, nextCard, done, liked, savedIds } = session;
+  const zeroMotionX = useMotionValue(0);
 
   if (done || session.deck.length === 0) {
     return (
@@ -120,8 +122,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
           >
             <RecipeCard
               recipe={nextCard}
-              likeOpacity={0}
-              nopeOpacity={0}
+              motionX={zeroMotionX}
               saved={savedIds.has(nextCard.id)}
               onToggleSave={() => session.toggleSave(nextCard)}
               onInfo={() => session.setPreviewRecipe(nextCard)}
@@ -140,8 +141,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
           >
             <RecipeCard
               recipe={currentCard}
-              likeOpacity={session.likeOpacity}
-              nopeOpacity={session.nopeOpacity}
+              motionX={session.motionX}
               saved={savedIds.has(currentCard.id)}
               onToggleSave={() => session.toggleSave(currentCard)}
               onInfo={() => session.setPreviewRecipe(currentCard)}

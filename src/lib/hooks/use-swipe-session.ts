@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useCallback, useEffect, useMemo } from "react";
+import { useMotionValue } from "framer-motion";
 
 export type SwipeRecipe = {
   id: string;
@@ -199,6 +200,9 @@ export function useSwipeSession(
   const nopeOpacity = Math.max(0, Math.min(1, (-dragX - 20) / 80));
   const filteredOut = recipes.length - filteredRecipes.length;
 
+  const motionX = useMotionValue(dragX);
+  useEffect(() => { motionX.set(dragX); }, [dragX, motionX]);
+
   return {
     deck,
     liked,
@@ -215,6 +219,7 @@ export function useSwipeSession(
     nextCard,
     likeOpacity,
     nopeOpacity,
+    motionX,
     filteredRecipes,
     filteredOut,
     commitSwipe,

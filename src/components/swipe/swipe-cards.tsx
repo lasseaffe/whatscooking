@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { motion, useTransform } from "framer-motion";
+import type { MotionValue } from "framer-motion";
 import Link from "next/link";
 import {
   Heart, X, Clock, Flame, ExternalLink, Bookmark, BookmarkCheck,
@@ -18,15 +20,16 @@ export const DIFFICULTY_CONFIG = {
 // ── Recipe Card ────────────────────────────────────────────────
 
 export function RecipeCard({
-  recipe, likeOpacity, nopeOpacity, saved, onToggleSave, onInfo,
+  recipe, motionX, saved, onToggleSave, onInfo,
 }: {
   recipe: SwipeRecipe;
-  likeOpacity: number;
-  nopeOpacity: number;
+  motionX: MotionValue<number>;
   saved: boolean;
   onToggleSave: () => void;
   onInfo: () => void;
 }) {
+  const likeOpacity = useTransform(motionX, [0, 80], [0, 1]);
+  const nopeOpacity = useTransform(motionX, [-80, 0], [1, 0]);
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
 
@@ -62,16 +65,16 @@ export function RecipeCard({
       </div>
 
       {/* LIKE stamp */}
-      <div className="absolute top-8 left-6 px-4 py-2 rounded-xl border-4 rotate-[-20deg] pointer-events-none transition-opacity"
+      <motion.div className="absolute top-8 left-6 px-4 py-2 rounded-xl border-4 rotate-[-20deg] pointer-events-none"
         style={{ borderColor: "#4CAF50", opacity: likeOpacity }}>
         <span className="text-2xl font-black tracking-widest" style={{ color: "#4CAF50" }}>LIKE</span>
-      </div>
+      </motion.div>
 
       {/* NOPE stamp */}
-      <div className="absolute top-8 right-6 px-4 py-2 rounded-xl border-4 rotate-[20deg] pointer-events-none transition-opacity"
+      <motion.div className="absolute top-8 right-6 px-4 py-2 rounded-xl border-4 rotate-[20deg] pointer-events-none"
         style={{ borderColor: "#C85A2F", opacity: nopeOpacity }}>
         <span className="text-2xl font-black tracking-widest" style={{ color: "#C85A2F" }}>NOPE</span>
-      </div>
+      </motion.div>
 
       {/* Top-right action buttons */}
       <div className="absolute top-4 right-4 flex flex-col gap-2">

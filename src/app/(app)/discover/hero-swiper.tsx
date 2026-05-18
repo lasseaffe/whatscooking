@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useMotionValue } from "framer-motion";
 import { Heart, X, Bookmark, BookmarkCheck, Info, RotateCcw } from "lucide-react";
 import { useSwipeSession } from "@/lib/hooks/use-swipe-session";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
@@ -13,6 +14,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
 
   const session = useSwipeSession(recipes, [], { restrictions, customAvoid, difficultyFilter });
   const { currentCard, nextCard, done, liked, savedIds } = session;
+  const zeroMotionX = useMotionValue(0);
 
   if (done || session.deck.length === 0) {
     return (
@@ -94,8 +96,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
           <div className="absolute inset-0 rounded-2xl overflow-hidden" style={session.cardStyle(false)}>
             <RecipeCard
               recipe={nextCard}
-              likeOpacity={0}
-              nopeOpacity={0}
+              motionX={zeroMotionX}
               saved={savedIds.has(nextCard.id)}
               onToggleSave={() => session.toggleSave(nextCard)}
               onInfo={() => session.setPreviewRecipe(nextCard)}
@@ -114,8 +115,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
           >
             <RecipeCard
               recipe={currentCard}
-              likeOpacity={session.likeOpacity}
-              nopeOpacity={session.nopeOpacity}
+              motionX={session.motionX}
               saved={savedIds.has(currentCard.id)}
               onToggleSave={() => session.toggleSave(currentCard)}
               onInfo={() => session.setPreviewRecipe(currentCard)}
