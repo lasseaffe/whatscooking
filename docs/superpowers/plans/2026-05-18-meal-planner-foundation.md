@@ -18,6 +18,8 @@
 | `plan_entries` | `meal_entries` |
 | `plan_pins` | `meal_plan_pins` (new) |
 
+**`source` vs `is_leftover` reconciliation.** A pre-existing migration `20260518e_meal_entries_is_leftover.sql` already adds `is_leftover boolean` to `meal_entries`. We **keep that column** as the canonical leftover marker and treat `source` purely as provenance — the enum is `'pinned' | 'suggestion' | 'manual'`, **not** including `'leftover'`. A leftover entry has `is_leftover = true` plus a `source` value reflecting how it got there (always `'pinned'` in solver output, since the solver only derives leftovers from pinned recipes). `parent_clientid` still links the leftover to its cook day.
+
 ---
 
 ## Phase 0 — Branch setup
@@ -53,7 +55,7 @@ Migrations live in `supabase/migrations/`. File naming follows the existing conv
 ### Task A.1: Migration — `meal_plans` adds Pinboard state
 
 **Files:**
-- Create: `supabase/migrations/20260518e_meal_plan_pinboard.sql`
+- Create: `supabase/migrations/20260518f_meal_plan_pinboard.sql`
 
 - [ ] **Step 1: Write migration**
 
@@ -89,7 +91,7 @@ npx supabase db reset --linked=false 2>&1 | tail -5
 OR (if not using reset workflow):
 
 ```bash
-psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518e_meal_plan_pinboard.sql
+psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518f_meal_plan_pinboard.sql
 ```
 
 Expected: no errors. The status enum now includes `woven`, `cooking`, `archived`.
@@ -105,14 +107,14 @@ Expected: `pinboard_filters jsonb` and `last_woven_at timestamptz` present.
 - [ ] **Step 4: Commit**
 
 ```bash
-git add supabase/migrations/20260518e_meal_plan_pinboard.sql
+git add supabase/migrations/20260518f_meal_plan_pinboard.sql
 git commit -m "feat(db): extend meal_plans with pinboard state + woven status"
 ```
 
 ### Task A.2: Migration — `meal_plan_pins` table
 
 **Files:**
-- Create: `supabase/migrations/20260518f_meal_plan_pins.sql`
+- Create: `supabase/migrations/20260518g_meal_plan_pins.sql`
 
 - [ ] **Step 1: Write migration**
 
@@ -158,7 +160,7 @@ create policy "Pin owners can do anything"
 - [ ] **Step 2: Apply**
 
 ```bash
-psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518f_meal_plan_pins.sql
+psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518g_meal_plan_pins.sql
 ```
 
 Expected: no errors.
@@ -174,21 +176,23 @@ Expected: 5 columns, unique constraint on (meal_plan_id, recipe_id), RLS enabled
 - [ ] **Step 4: Commit**
 
 ```bash
-git add supabase/migrations/20260518f_meal_plan_pins.sql
+git add supabase/migrations/20260518g_meal_plan_pins.sql
 git commit -m "feat(db): add meal_plan_pins table with owner-scoped RLS"
 ```
 
 ### Task A.3: Migration — `meal_entries` Weave columns
 
 **Files:**
-- Create: `supabase/migrations/20260518g_meal_entries_weave.sql`
+- Create: `supabase/migrations/20260518h_meal_entries_weave.sql`
 
 - [ ] **Step 1: Write migration**
 
 ```sql
 -- ============================================================
 -- meal_entries Weave columns
--- source: how this entry got onto the plan (pinned/suggestion/leftover/manual)
+-- source: provenance of this entry (pinned/suggestion/manual)
+--         Note: leftover-ness is a separate concern carried by
+--         the existing is_leftover boolean (migration 20260518e).
 -- parent_clientid: for leftover entries, the clientid of the cook-day entry
 -- locked: whether reweave can replace this cell
 -- ============================================================
@@ -203,12 +207,12 @@ alter table public.meal_entries
 
 alter table public.meal_entries
   add constraint meal_entries_source_check
-    check (source in ('pinned','suggestion','leftover','manual'));
+    check (source in ('pinned','suggestion','manual'));
 
 comment on column public.meal_entries.source is
-  'How this entry got placed: pinned = explicit user pin; suggestion = solver-filled; leftover = derived from a pinned batch-friendly cook day; manual = legacy or direct edit.';
+  'Provenance: pinned = explicit user pin; suggestion = solver-filled; manual = legacy or direct edit. Leftover-ness is orthogonal (see is_leftover).';
 comment on column public.meal_entries.parent_clientid is
-  'For source=leftover: the clientid of the parent cook-day entry. Removing the leftover restores the parent''s active cook time.';
+  'When is_leftover=true: the clientid of the parent cook-day entry. Removing the leftover restores the parent''s active cook time.';
 comment on column public.meal_entries.locked is
   'When true, the Weave solver will not replace this entry during reweave.';
 ```
@@ -216,9 +220,9 @@ comment on column public.meal_entries.locked is
 - [ ] **Step 2: Apply, verify, commit**
 
 ```bash
-psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518g_meal_entries_weave.sql
+psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518h_meal_entries_weave.sql
 psql "$SUPABASE_DB_URL" -c "\d public.meal_entries"
-git add supabase/migrations/20260518g_meal_entries_weave.sql
+git add supabase/migrations/20260518h_meal_entries_weave.sql
 git commit -m "feat(db): add source/parent_clientid/locked to meal_entries"
 ```
 
@@ -227,7 +231,7 @@ Expected verify: three new columns visible; check constraint enforces enum.
 ### Task A.4: Migration — `recipes` macro estimator + batch flag
 
 **Files:**
-- Create: `supabase/migrations/20260518h_recipes_macros_batch.sql`
+- Create: `supabase/migrations/20260518i_recipes_macros_batch.sql`
 
 Note: `fiber_g`, `sugar_g`, `sodium_mg` already exist on `recipes`. Only `sat_fat_g`, estimator metadata, and `batch_friendly` are new.
 
@@ -256,9 +260,9 @@ comment on column public.recipes.batch_friendly is
 - [ ] **Step 2: Apply, verify, commit**
 
 ```bash
-psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518h_recipes_macros_batch.sql
+psql "$SUPABASE_DB_URL" -f supabase/migrations/20260518i_recipes_macros_batch.sql
 psql "$SUPABASE_DB_URL" -c "\d public.recipes" | grep -E "sat_fat_g|macros_estimated|estimator_version|batch_friendly"
-git add supabase/migrations/20260518h_recipes_macros_batch.sql
+git add supabase/migrations/20260518i_recipes_macros_batch.sql
 git commit -m "feat(db): add macro estimator metadata + batch_friendly to recipes"
 ```
 
@@ -281,7 +285,7 @@ The solver is a pure TypeScript module — no I/O, no side effects. Given pins +
 // src/lib/weave-solver/types.ts
 
 export type MealType = 'breakfast' | 'lunch' | 'dinner' | 'snack';
-export type EntrySource = 'pinned' | 'suggestion' | 'leftover' | 'manual';
+export type EntrySource = 'pinned' | 'suggestion' | 'manual';
 export type AntiRepeatStrength = 'strict' | 'moderate' | 'off';
 
 export interface SolverRecipe {
@@ -332,6 +336,7 @@ export interface ProposedEntry {
   recipe_id: string;
   recipe_title: string;
   source: EntrySource;
+  is_leftover: boolean;
   parent_clientid: string | null;
   locked: boolean;
   position: number;
@@ -730,6 +735,7 @@ export function placePins(
       recipe_id: pin.id,
       recipe_title: pin.title,
       source: 'pinned',
+      is_leftover: false,
       parent_clientid: null,
       locked: true,
       position: 0,
@@ -782,7 +788,7 @@ import type { ProposedEntry } from '../types';
 const entry = (over: Partial<ProposedEntry>): ProposedEntry => ({
   clientid: 'p1', day_number: 1, meal_type: 'dinner',
   recipe_id: 'r1', recipe_title: 'Curry', source: 'pinned',
-  parent_clientid: null, locked: true, position: 0,
+  is_leftover: false, parent_clientid: null, locked: true, position: 0,
   ...over,
 });
 
@@ -804,7 +810,8 @@ describe('expandLeftovers', () => {
     const result = expandLeftovers(placed, slots, { batch_enabled: true }, new Set(['r1']));
     expect(result.leftover_entries).toHaveLength(1);
     expect(result.leftover_entries[0].day_number).toBe(2);
-    expect(result.leftover_entries[0].source).toBe('leftover');
+    expect(result.leftover_entries[0].is_leftover).toBe(true);
+    expect(result.leftover_entries[0].source).toBe('pinned');
     expect(result.leftover_entries[0].parent_clientid).toBe('p1');
     expect(result.leftover_entries[0].recipe_id).toBe('r1');
     expect(result.remaining_slots).toHaveLength(1);
@@ -853,7 +860,8 @@ export function expandLeftovers(
       meal_type: nextSlot.meal_type,
       recipe_id: pin.recipe_id,
       recipe_title: `${pin.recipe_title} (leftover)`,
-      source: 'leftover',
+      source: 'pinned',
+      is_leftover: true,
       parent_clientid: pin.clientid,
       locked: false,
       position: 0,
@@ -928,7 +936,7 @@ describe('fillSuggestions', () => {
     const slots = [{ day_number: 2, meal_type: 'dinner' as const, is_weekend: false }];
     const placed: ProposedEntry[] = [{
       clientid: 'x', day_number: 1, meal_type: 'dinner', recipe_id: 'p1', recipe_title: 'P1',
-      source: 'pinned', parent_clientid: null, locked: true, position: 0,
+      source: 'pinned', is_leftover: false, parent_clientid: null, locked: true, position: 0,
     }];
     const pool = [r({ id: 'p1' }), r({ id: 'p2' })];
     const out = fillSuggestions(slots, pool, placed, c, 0);
@@ -994,6 +1002,7 @@ export function fillSuggestions(
       recipe_id: winner.r.id,
       recipe_title: winner.r.title,
       source: 'suggestion',
+      is_leftover: false,
       parent_clientid: null,
       locked: false,
       position: 0,
@@ -1062,10 +1071,10 @@ const r = (id: string, over: Partial<SolverRecipe> = {}): SolverRecipe => ({
   ...over,
 });
 
-const e = (id: string, day: number, src: ProposedEntry['source']): ProposedEntry => ({
+const e = (id: string, day: number, src: ProposedEntry['source'], is_leftover = false): ProposedEntry => ({
   clientid: `c${day}`, day_number: day, meal_type: 'dinner',
   recipe_id: id, recipe_title: id, source: src,
-  parent_clientid: null, locked: src === 'pinned', position: 0,
+  is_leftover, parent_clientid: null, locked: src === 'pinned', position: 0,
 });
 
 describe('computeSummary', () => {
@@ -1081,7 +1090,7 @@ describe('computeSummary', () => {
   });
 
   it('counts leftover entries but doesn\'t add their cook time', () => {
-    const entries = [e('a', 1, 'pinned'), e('a', 2, 'leftover')];
+    const entries = [e('a', 1, 'pinned'), e('a', 2, 'pinned', true)];
     const pool = new Map([['a', r('a')]]);
     const s = computeSummary(entries, pool, 3);
     expect(s.leftover_count).toBe(1);
@@ -1123,7 +1132,7 @@ export function computeSummary(
   slots_total: number,
 ): WeaveSummary {
   const slots_filled = entries.length;
-  const leftover_count = entries.filter(e => e.source === 'leftover').length;
+  const leftover_count = entries.filter(e => e.is_leftover).length;
 
   let active_minutes = 0;
   let pantry_sum = 0;
@@ -1132,7 +1141,7 @@ export function computeSummary(
   for (const ent of entries) {
     const r = pool.get(ent.recipe_id);
     if (!r) continue;
-    if (ent.source !== 'leftover') {
+    if (!ent.is_leftover) {
       active_minutes += totalCookMinutes(r);
     }
     pantry_sum += r.pantry_match;
@@ -1232,7 +1241,7 @@ describe('weave', () => {
       constraints: { ...baseInput.constraints, batch_enabled: true },
     };
     const out = weave(input);
-    const leftovers = out.entries.filter(e => e.source === 'leftover');
+    const leftovers = out.entries.filter(e => e.is_leftover);
     expect(leftovers).toHaveLength(1);
     expect(leftovers[0].parent_clientid).toBeTruthy();
     expect(out.summary.leftover_count).toBe(1);
