@@ -1,4 +1,5 @@
 import { getRecipeById, normalizeSpoonacularRecipe } from "@/lib/spoonacular";
+import { estimateMacros, ESTIMATOR_VERSION } from "@/lib/macro-estimator";
 import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -37,7 +38,32 @@ export async function GET(
       .select()
       .single();
 
-    return NextResponse.json(recipe ?? normalized);
+    const response = NextResponse.json(recipe ?? normalized);
+
+    // Fire-and-forget eager macro estimation when Spoonacular didn't supply calories.
+    if (recipe?.id) {
+      void (async () => {
+        try {
+          if (typeof recipe.calories === "number" && recipe.calories > 0) return;
+          const m = await estimateMacros({
+            title: recipe.title,
+            ingredients: recipe.ingredients,
+            servings: recipe.servings ?? null,
+          });
+          await supabase
+            .from("recipes")
+            .update({
+              ...m,
+              macros_estimated: true,
+              macros_estimated_at: new Date().toISOString(),
+              estimator_version: ESTIMATOR_VERSION,
+            })
+            .eq("id", recipe.id);
+        } catch {}
+      })();
+    }
+
+    return response;
   } catch (error) {
     console.error("[recipes/[id]]", error);
     return NextResponse.json({ error: "Failed to fetch recipe" }, { status: 500 });

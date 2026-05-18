@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/server";
+import { estimateMacros, ESTIMATOR_VERSION } from "@/lib/macro-estimator";
 import { NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 
@@ -108,5 +109,33 @@ Return this exact JSON (no markdown):
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
 
-  return NextResponse.json({ found: false, recipe: saved });
+  const response = NextResponse.json({ found: false, recipe: saved });
+
+  // Fire-and-forget eager macro estimation when generator didn't supply calories.
+  if (saved?.id) {
+    const caloriesRaw = recipeData.calories;
+    const hasCalories = typeof caloriesRaw === "number" && caloriesRaw > 0;
+    if (!hasCalories) {
+      void (async () => {
+        try {
+          const m = await estimateMacros({
+            title: (recipeData.title as string | undefined) ?? dish.englishName,
+            ingredients: recipeData.ingredients ?? [],
+            servings: (recipeData.servings as number | undefined) ?? null,
+          });
+          await supabase
+            .from("recipes")
+            .update({
+              ...m,
+              macros_estimated: true,
+              macros_estimated_at: new Date().toISOString(),
+              estimator_version: ESTIMATOR_VERSION,
+            })
+            .eq("id", saved.id);
+        } catch {}
+      })();
+    }
+  }
+
+  return response;
 }

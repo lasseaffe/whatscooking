@@ -1,4 +1,5 @@
 import { generateRecipe } from "@/lib/openai-helper";
+import { estimateMacros, ESTIMATOR_VERSION } from "@/lib/macro-estimator";
 import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -65,7 +66,32 @@ export async function POST(req: NextRequest) {
       .select()
       .single();
 
-    return NextResponse.json(cached || recipe);
+    const response = NextResponse.json(cached || recipe);
+
+    // Fire-and-forget eager macro estimation when ingest didn't supply calories.
+    if (cached?.id) {
+      void (async () => {
+        try {
+          if (typeof cached.calories === "number" && cached.calories > 0) return;
+          const m = await estimateMacros({
+            title: cached.title,
+            ingredients: cached.ingredients,
+            servings: cached.servings ?? null,
+          });
+          await supabase
+            .from("recipes")
+            .update({
+              ...m,
+              macros_estimated: true,
+              macros_estimated_at: new Date().toISOString(),
+              estimator_version: ESTIMATOR_VERSION,
+            })
+            .eq("id", cached.id);
+        } catch {}
+      })();
+    }
+
+    return response;
   } catch (error) {
     console.error("[recipes/generate]", error);
     return NextResponse.json(
