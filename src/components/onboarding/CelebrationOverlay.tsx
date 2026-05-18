@@ -12,46 +12,70 @@ interface CelebrationOverlayProps {
   autoDismissMs?: number
 }
 
-function useConfetti(visible: boolean, canvasRef: React.RefObject<HTMLCanvasElement | null>) {
+interface Particle {
+  x: number; y: number; vx: number; vy: number
+  radius: number; color: string; alpha: number; decay: number
+}
+
+function spawnParticles(canvas: HTMLCanvasElement): Particle[] {
+  const cx = canvas.width / 2
+  const cy = canvas.height * 0.65
+
+  return Array.from({ length: 40 }, () => {
+    const type = Math.random()
+    const isHerb = type < 0.4
+    const isSpice = type < 0.8
+    return {
+      x: cx + (Math.random() - 0.5) * 80,
+      y: cy,
+      vx: (Math.random() - 0.5) * 1.2,
+      vy: -(Math.random() * 2.5 + 1.5),
+      radius: isHerb ? 2 + Math.random() * 2 : isSpice ? 3 + Math.random() * 2 : 8 + Math.random() * 6,
+      color: isHerb ? '#8B9E6C' : isSpice ? '#C85A2F' : 'rgba(239,227,206,0.35)',
+      alpha: isHerb || isSpice ? 1 : 0.4,
+      decay: isHerb || isSpice ? 0.012 : 0.008,
+    }
+  })
+}
+
+function useCulinaryParticles(visible: boolean, canvasRef: React.RefObject<HTMLCanvasElement | null>) {
   useEffect(() => {
     if (!visible || !canvasRef.current) return
     const canvas = canvasRef.current
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
-    const resize = () => {
-      canvas.width = window.innerWidth
-      canvas.height = window.innerHeight
-    }
+    const resize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight }
     resize()
     window.addEventListener('resize', resize)
 
-    const particles = Array.from({ length: 80 }, () => ({
-      x: Math.random() * canvas.width,
-      y: -10,
-      r: Math.random() * 6 + 4,
-      color: ['#C19A6B', '#EFE3CE', '#B08060', '#8B5E3C', '#D4B896', '#F5ECD7'][Math.floor(Math.random() * 6)],
-      dx: (Math.random() - 0.5) * 4,
-      dy: Math.random() * 3 + 2,
-      rot: Math.random() * 360,
-      drot: (Math.random() - 0.5) * 6,
-    }))
-
+    const particles = spawnParticles(canvas)
     let raf: number
+
     const tick = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
-      particles.forEach(p => {
+      let anyAlive = false
+      for (const p of particles) {
+        if (p.alpha <= 0) continue
+        anyAlive = true
+        p.x += p.vx
+        p.y += p.vy
+        p.vy *= 0.99
+        p.vx *= 0.995
+        p.alpha = Math.max(0, p.alpha - p.decay)
+
         ctx.save()
-        ctx.translate(p.x, p.y)
-        ctx.rotate((p.rot * Math.PI) / 180)
+        ctx.globalAlpha = p.alpha
         ctx.fillStyle = p.color
-        ctx.fillRect(-p.r / 2, -p.r / 2, p.r, p.r)
+        ctx.beginPath()
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2)
+        ctx.fill()
         ctx.restore()
-        p.x += p.dx; p.y += p.dy; p.rot += p.drot
-      })
-      if (particles.some(p => p.y < canvas.height + 20)) raf = requestAnimationFrame(tick)
+      }
+      if (anyAlive) raf = requestAnimationFrame(tick)
     }
     raf = requestAnimationFrame(tick)
+
     return () => {
       cancelAnimationFrame(raf)
       window.removeEventListener('resize', resize)
@@ -63,7 +87,7 @@ export function CelebrationOverlay({ visible, text, summary, theme, onDone, auto
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const onDoneRef = useRef(onDone)
   useEffect(() => { onDoneRef.current = onDone }, [onDone])
-  useConfetti(visible, canvasRef)
+  useCulinaryParticles(visible, canvasRef)
 
   useEffect(() => {
     if (!visible) return
@@ -82,53 +106,72 @@ export function CelebrationOverlay({ visible, text, summary, theme, onDone, auto
             position: 'fixed', inset: 0, zIndex: 10001,
             display: 'flex', flexDirection: 'column',
             alignItems: 'center', justifyContent: 'center',
-            background: `${theme.bg}f0`,
+            background: `rgba(28,18,8,0.94)`,
+            backgroundImage: 'radial-gradient(circle at 50% 60%, rgba(193,154,107,0.07), transparent 60%)',
           }}
           onClick={onDone}
         >
           <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }} />
+
+          {/* Culinary glyph */}
           <motion.div
-            initial={{ scale: 0, rotate: -10 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-            style={{ fontSize: 64, marginBottom: 20, position: 'relative', zIndex: 1 }}
+            initial={{ scale: 0.6, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: 'spring', stiffness: 300, damping: 22, delay: 0.05 }}
+            style={{
+              fontSize: 32, marginBottom: 18,
+              color: '#C19A6B', position: 'relative', zIndex: 1,
+              fontFamily: "'Fraunces', Georgia, serif",
+            }}
           >
-            🎉
+            ✦
           </motion.div>
+
           <motion.h2
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15, duration: 0.4 }}
+            transition={{ delay: 0.12, duration: 0.5, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }}
             style={{
-              color: theme.text, fontFamily: 'Georgia, serif',
-              fontSize: 22, fontWeight: 700, textAlign: 'center',
-              maxWidth: 280, margin: '0 auto 12px', position: 'relative', zIndex: 1,
+              color: theme.text,
+              fontFamily: "'Fraunces', Georgia, serif",
+              fontSize: 24, fontWeight: 300, fontStyle: 'italic',
+              textAlign: 'center', maxWidth: 280,
+              margin: '0 auto 14px', position: 'relative', zIndex: 1,
+              lineHeight: 1.3,
             }}
           >
             {text}
           </motion.h2>
+
           {summary && (
             <motion.ul
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.28 }}
               style={{ listStyle: 'none', padding: 0, textAlign: 'center', position: 'relative', zIndex: 1 }}
             >
               {summary.map((item, i) => (
-                <li key={i} style={{ color: theme.textMuted, fontSize: 13, marginBottom: 4 }}>
-                  ✓ {item}
+                <li key={i} style={{
+                  color: theme.textMuted, fontSize: 13, marginBottom: 4,
+                  fontFamily: "'Plus Jakarta Sans', sans-serif",
+                }}>
+                  <span style={{ color: '#C19A6B', marginRight: 6 }}>—</span>{item}
                 </li>
               ))}
             </motion.ul>
           )}
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }}
-            transition={{ delay: 0.6 }}
-            style={{ color: theme.textMuted, fontSize: 11, marginTop: 24, position: 'relative', zIndex: 1 }}
-          >
-            Tap anywhere to continue
-          </motion.p>
+
+          {/* Auto-dismiss progress line */}
+          <motion.div
+            initial={{ scaleX: 1 }}
+            animate={{ scaleX: 0 }}
+            transition={{ duration: autoDismissMs / 1000, ease: 'linear' }}
+            style={{
+              position: 'absolute', bottom: 0, left: 0, right: 0,
+              height: 1, background: '#C19A6B',
+              transformOrigin: 'left center',
+            }}
+          />
         </motion.div>
       )}
     </AnimatePresence>
