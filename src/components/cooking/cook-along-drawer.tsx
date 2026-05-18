@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import type { PanInfo } from "framer-motion";
 import { springGentle } from "@/lib/motion";
 import type { Ingredient } from "@/app/(app)/recipes/[id]/cooking-mode-screen";
 
@@ -37,6 +38,12 @@ export function CookAlongDrawer({
   const [loadedHistory, setLoadedHistory] = useState(false);
   const [hadPriorSession, setHadPriorSession] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const abortRef = useRef<AbortController | null>(null);
+
+  // Cancel any in-flight stream on unmount
+  useEffect(() => {
+    return () => { abortRef.current?.abort(); };
+  }, []);
 
   // Load history on first open
   useEffect(() => {
@@ -75,19 +82,26 @@ export function CookAlongDrawer({
     setSending(true);
 
     const userMsg: Message = { role: "user", content: text };
-    setMessages((prev) => [...prev, userMsg]);
+    // Build history including the new user turn before setState (which is async)
+    const nextMessages = [...messages, userMsg];
+    setMessages(nextMessages);
+
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
 
     try {
       const res = await fetch("/api/cook-along", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
         body: JSON.stringify({
           recipeId,
           recipeTitle,
           ingredients,
           steps,
           stepIndex: currentStepIndex,
-          messages,
+          messages: nextMessages,
           message: text,
         }),
       });
@@ -107,7 +121,7 @@ export function CookAlongDrawer({
 
       setMessages((prev) => [...prev, { role: "assistant", content: "" }]);
 
-      while (true) {
+      while (!controller.signal.aborted) {
         const { done, value } = await reader.read();
         if (done) break;
         assistantContent += decoder.decode(value, { stream: true });
@@ -134,7 +148,7 @@ export function CookAlongDrawer({
     }
   };
 
-  const handleDragEnd = (_e: unknown, info: { offset: { y: number } }) => {
+  const handleDragEnd = (_e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     if (info.offset.y > 80) onClose();
   };
 
