@@ -61,40 +61,57 @@ def _image_is_valid(url: Optional[str]) -> bool:
         return False
 
 
-def _fetch_image_playwright(source_url: str) -> Optional[str]:
-    """Headless fallback: navigate to page, prefer OG image, then largest <img>."""
+def _normalize_url(url: str) -> str:
+    """Prepend https:// to scheme-less URLs (e.g. 'www.example.com/recipe')."""
+    url = url.strip()
+    if url and not url.startswith(("http://", "https://")):
+        return "https://" + url
+    return url
+
+
+def _fetch_image_with_page(page, source_url: str) -> Optional[str]:
+    """Use an existing Playwright page to fetch the best image from source_url."""
+    source_url = _normalize_url(source_url)
     try:
-        from playwright.sync_api import sync_playwright  # lazy import
+        page.goto(source_url, timeout=15000, wait_until="domcontentloaded")
+
+        og = page.query_selector('meta[property="og:image"]')
+        if og:
+            content = og.get_attribute("content")
+            if content and _image_is_valid(content):
+                return content
+
+        imgs = page.query_selector_all(
+            "article img, main img, .recipe img, [class*='recipe'] img"
+        )
+        best_url: Optional[str] = None
+        best_area = 0
+        for img in imgs:
+            src = img.get_attribute("src") or img.get_attribute("data-src") or ""
+            if not src or src.startswith("data:"):
+                continue
+            try:
+                w = int(img.get_attribute("width") or "0")
+                h = int(img.get_attribute("height") or "0")
+                area = w * h
+            except (ValueError, TypeError):
+                area = 1
+            if area >= best_area:
+                best_url, best_area = src, area
+        return best_url if best_url and _image_is_valid(best_url) else None
+    except Exception as e:
+        print(f"[playwright] failed for {source_url}: {e}")
+        return None
+
+
+# Backwards-compatible single-shot helper (launches its own browser).
+def _fetch_image_playwright(source_url: str) -> Optional[str]:
+    try:
+        from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             try:
-                page = browser.new_page()
-                page.goto(source_url, timeout=15000, wait_until="domcontentloaded")
-
-                og = page.query_selector('meta[property="og:image"]')
-                if og:
-                    content = og.get_attribute("content")
-                    if content and _image_is_valid(content):
-                        return content
-
-                imgs = page.query_selector_all(
-                    "article img, main img, .recipe img, [class*='recipe'] img"
-                )
-                best_url: Optional[str] = None
-                best_area = 0
-                for img in imgs:
-                    src = img.get_attribute("src") or img.get_attribute("data-src") or ""
-                    if not src or src.startswith("data:"):
-                        continue
-                    try:
-                        w = int(img.get_attribute("width") or "0")
-                        h = int(img.get_attribute("height") or "0")
-                        area = w * h
-                    except (ValueError, TypeError):
-                        area = 1
-                    if area >= best_area:
-                        best_url, best_area = src, area
-                return best_url if best_url and _image_is_valid(best_url) else None
+                return _fetch_image_with_page(browser.new_page(), source_url)
             finally:
                 browser.close()
     except ImportError:
@@ -164,38 +181,55 @@ def pass1_fix_broken_images(supabase, dry_run: bool, limit: Optional[int]):
 
     print(f"  Found {len(null_rows)} null + {len(broken_rows)} broken = {len(targets)} to fix")
 
+    # Filter out targets with no source_url upfront — those are unfixable
+    actionable = [r for r in targets if (r.get("source_url") or "").strip()]
+    skipped = len(targets) - len(actionable)
+    if skipped:
+        print(f"  Skipping {skipped} recipes with no source_url (dataset entries)")
+
     fixed, failed = 0, 0
-    for row in targets:
-        rid = row["id"]
-        title = row["title"] or "(untitled)"
-        source_url = row.get("source_url", "")
-        if not source_url:
-            print(f"  SKIP  {title} - no source_url")
-            failed += 1
-            continue
+    if not actionable:
+        print(f"  Pass 1 done -- fixed: 0, failed: 0, skipped: {skipped}")
+        return 0, skipped
 
-        new_image = _fetch_image_playwright(source_url)
-        if not new_image:
-            print(f"  FAIL  {title}")
-            failed += 1
-            continue
+    # Reuse one Playwright browser session for all recipes (saves ~1.5s per recipe)
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        try:
+            page = browser.new_page()
+            for i, row in enumerate(actionable):
+                if i and i % 25 == 0:
+                    print(f"  ... {i}/{len(actionable)} processed (fixed={fixed}, failed={failed})")
 
-        fx, fy = detect_focal_point(new_image)
-        print(f"  {'DRY ' if dry_run else ''}FIX   {title}  focal=({fx}%,{fy}%)  {new_image[:60]}...")
+                rid = row["id"]
+                title = row["title"] or "(untitled)"
+                source_url = row["source_url"]
 
-        if not dry_run:
-            try:
-                supabase.table("recipes").update(
-                    {"image_url": new_image, "focal_x": fx, "focal_y": fy}
-                ).eq("id", rid).execute()
-                fixed += 1
-            except Exception as e:
-                print(f"         -> DB error: {e}")
-                failed += 1
-        else:
-            fixed += 1
+                new_image = _fetch_image_with_page(page, source_url)
+                if not new_image:
+                    print(f"  FAIL  {title}")
+                    failed += 1
+                    continue
 
-    print(f"  Pass 1 done -- fixed: {fixed}, failed: {failed}")
+                fx, fy = detect_focal_point(new_image)
+                print(f"  {'DRY ' if dry_run else ''}FIX   {title}  focal=({fx}%,{fy}%)  {new_image[:60]}...")
+
+                if not dry_run:
+                    try:
+                        supabase.table("recipes").update(
+                            {"image_url": new_image, "focal_x": fx, "focal_y": fy}
+                        ).eq("id", rid).execute()
+                        fixed += 1
+                    except Exception as e:
+                        print(f"         -> DB error: {e}")
+                        failed += 1
+                else:
+                    fixed += 1
+        finally:
+            browser.close()
+
+    print(f"  Pass 1 done -- fixed: {fixed}, failed: {failed}, skipped: {skipped}")
     return fixed, failed
 
 
