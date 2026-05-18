@@ -60,6 +60,11 @@ export default async function CookbookPage({ params }: Props) {
       <div className="flex items-start gap-3 mt-5 mb-6">
         <div className="flex-1">
           <h1 className="text-2xl font-bold" style={{ color: "#3D2817" }}>{cookbook.title}</h1>
+          {creator?.username && (
+            <Link href={`/profile/${creator.username}`} className="text-sm font-medium hover:underline mt-0.5 inline-block" style={{ color: "#C85A2F" }}>
+              @{creator.username}
+            </Link>
+          )}
           {cookbook.description && <p className="text-sm mt-1" style={{ color: "#6B5B52" }}>{cookbook.description}</p>}
         </div>
         <div className="flex gap-2 flex-shrink-0">
