@@ -9,6 +9,12 @@ import type {
   SolverConstraints,
   MealType,
 } from "@/lib/weave-solver/types";
+import {
+  loadPantrySet,
+  pantryMatch as computePantryMatch,
+  pantryMissingCount as computePantryMissing,
+  inspirationMatch as computeInspirationMatch,
+} from "@/lib/recipe-match";
 
 const DEFAULT_CONSTRAINTS: SolverConstraints = {
   diet: [],
@@ -22,24 +28,11 @@ const DEFAULT_CONSTRAINTS: SolverConstraints = {
   meal_types: ["breakfast", "lunch", "dinner"],
 };
 
-function normalize(s: string): string {
-  return s.toLowerCase().trim();
-}
-
 function defaultMealTypes(meals_per_day: number | null): MealType[] {
   if ((meals_per_day ?? 3) <= 1) return ["dinner"];
   if (meals_per_day === 2) return ["lunch", "dinner"];
   if (meals_per_day === 3) return ["breakfast", "lunch", "dinner"];
   return ["breakfast", "lunch", "dinner", "snack"];
-}
-
-function ingredientName(i: unknown): string {
-  if (typeof i === "string") return i;
-  if (i && typeof i === "object" && "name" in (i as Record<string, unknown>)) {
-    const n = (i as Record<string, unknown>).name;
-    return typeof n === "string" ? n : "";
-  }
-  return "";
 }
 
 export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string }> }) {
@@ -91,30 +84,14 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
   };
 
   // 3. Load pantry once for pantry-match scoring
-  const { data: pantryRows } = await supabase
-    .from("pantry_items")
-    .select("name")
-    .eq("user_id", user.id);
-  const pantrySet = new Set(
-    (pantryRows ?? []).map((p: { name: string | null }) => normalize(p.name ?? "")),
-  );
+  const pantrySet = await loadPantrySet(supabase, user.id);
 
   function pantryMatch(recipe: { ingredients?: unknown }): number {
-    const ings = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
-    if (ings.length === 0) return 0;
-    const matches = ings.filter((i: unknown) => {
-      const n = normalize(ingredientName(i));
-      return n.length > 0 && pantrySet.has(n);
-    }).length;
-    return matches / ings.length;
+    return computePantryMatch(recipe, pantrySet);
   }
 
   function pantryMissingCount(recipe: { ingredients?: unknown }): number {
-    const ings = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
-    return ings.filter((i: unknown) => {
-      const n = normalize(ingredientName(i));
-      return n.length > 0 && !pantrySet.has(n);
-    }).length;
+    return computePantryMissing(recipe, pantrySet);
   }
 
   // 4. Inspiration tags from filters
@@ -127,14 +104,7 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     dish_types?: string[] | null;
     cuisine_type?: string | null;
   }): number {
-    if (inspirationTags.length === 0) return 0;
-    const tags = new Set<string>([
-      ...(r.dietary_tags ?? []),
-      ...(r.dish_types ?? []),
-      ...(r.cuisine_type ? [r.cuisine_type] : []),
-    ]);
-    const hits = inspirationTags.filter((t) => tags.has(t)).length;
-    return hits / inspirationTags.length;
+    return computeInspirationMatch(r, inspirationTags);
   }
 
   function toSolverRecipe(r: Record<string, unknown>): SolverRecipe {
@@ -221,5 +191,18 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     })
     .eq("id", planId);
 
-  return NextResponse.json(result);
+  // 9. Enrich response with recipe metadata for every entry (image, macros, est flag)
+  const recipeIds = Array.from(new Set(result.entries.map((e) => e.recipe_id)));
+  let recipeMeta: Array<Record<string, unknown>> = [];
+  if (recipeIds.length > 0) {
+    const { data } = await supabase
+      .from("recipes")
+      .select(
+        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated",
+      )
+      .in("id", recipeIds);
+    recipeMeta = (data ?? []) as Array<Record<string, unknown>>;
+  }
+
+  return NextResponse.json({ ...result, recipes: recipeMeta });
 }

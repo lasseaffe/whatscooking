@@ -15,11 +15,13 @@ import os
 import sys
 from typing import Optional
 
-# Force UTF-8 stdout so recipe titles with non-cp1252 characters don't crash the run
+# Force UTF-8 stdout so recipe titles with non-cp1252 characters don't crash the run.
+# Also force line-buffering so progress appears in real time when run in the background
+# (Python defaults to block-buffering when stdout is not a terminal).
 if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 if hasattr(sys.stderr, "reconfigure"):
-    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 
 import requests
 from dotenv import load_dotenv
