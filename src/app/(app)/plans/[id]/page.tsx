@@ -2,8 +2,8 @@ import { createClient } from "@/lib/supabase/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { type BuilderEntry } from "./plan-builder";
-import { PlanPageClient } from "./plan-page-client";
+import { PlanBuilder } from "./plan-builder";
+import type { PlanStatus, PinboardFilters } from "./use-planner-state";
 import { SavedRecipeFit } from "./saved-recipe-fit";
 
 export const dynamic = "force-dynamic";
@@ -13,9 +13,12 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  const [{ data: plan }, { data: entries }, { data: saves }] = await Promise.all([
-    supabase.from("meal_plans").select("*").eq("id", id).single(),
-    supabase.from("meal_entries").select("*").eq("meal_plan_id", id).order("day_number").order("position"),
+  const [{ data: plan }, { data: saves }] = await Promise.all([
+    supabase
+      .from("meal_plans")
+      .select("id, title, duration_days, week_start, meals_per_day, status, pinboard_filters, dietary_filters, nutritional_goals, user_id")
+      .eq("id", id)
+      .single(),
     supabase
       .from("recipe_saves")
       .select("recipe:recipes!inner(id, title, image_url, dietary_tags, prep_time_minutes, cook_time_minutes, calories, cuisine_type)")
@@ -31,22 +34,6 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
     dietary_tags: string[] | null; prep_time_minutes: number | null;
     cook_time_minutes: number | null; calories: number | null; cuisine_type: string | null;
   });
-
-  const initialEntries: BuilderEntry[] = (entries ?? []).map((e) => ({
-    clientId: e.id ?? Math.random().toString(36).slice(2),
-    dbId: e.id,
-    recipe_id: e.recipe_id ?? null,
-    day_number: e.day_number,
-    meal_type: e.meal_type ?? "dinner",
-    recipe_title: e.recipe_title ?? "",
-    description: e.description ?? "",
-    calories: e.calories ?? null,
-    protein_g: e.protein_g ?? null,
-    carbs_g: e.carbs_g ?? null,
-    fat_g: e.fat_g ?? null,
-    position: e.position ?? 0,
-    isEditing: false,
-  }));
 
   return (
     <div className="px-6 py-8 max-w-5xl mx-auto">
@@ -68,19 +55,15 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
         </span>
       </div>
 
-      {/* Interactive builder — grid/list toggle */}
-      <PlanPageClient
-        plan={{
-          id,
-          title: plan.title,
-          duration_days: plan.duration_days ?? 7,
-          week_start: plan.week_start ?? null,
-          dietary_filters: plan.dietary_filters ?? [],
-          nutritional_goals: plan.nutritional_goals ?? {},
-          status: plan.status ?? "draft",
-          meals_per_day: plan.meals_per_day ?? 3,
-        }}
-        initialEntries={initialEntries}
+      {/* New stacked builder: Pinboard + Weave */}
+      <PlanBuilder
+        planId={plan.id}
+        planTitle={plan.title}
+        durationDays={plan.duration_days ?? 7}
+        weekStart={plan.week_start ?? null}
+        mealsPerDay={plan.meals_per_day ?? 3}
+        status={(plan.status ?? "draft") as PlanStatus}
+        pinboardFilters={(plan.pinboard_filters ?? {}) as Partial<PinboardFilters>}
       />
 
       {/* Saved recipes that fit this plan */}
