@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass,
-  ChevronRight, ShoppingCart, Leaf, Settings2,
+  ChevronRight, ShoppingCart, Leaf, Settings2, BookOpen,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -71,6 +71,7 @@ const NAV_GROUPS: NavGroup[] = [
         children: [
           { href: "/pantry",        label: "My Pantry",     icon: ShoppingBasket, desc: "" },
           { href: "/shopping-list", label: "Shopping List", icon: ShoppingCart,   desc: "" },
+          { href: "/journal",       label: "My Journal",    icon: BookOpen,       desc: "Your personal cook log" },
         ],
       },
     ],
