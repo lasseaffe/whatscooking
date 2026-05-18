@@ -1,8 +1,16 @@
 import Link from "next/link";
 import { Settings, Palette } from "lucide-react";
 import { SettingsClient } from "./settings-client";
+import { createClient } from "@/lib/supabase/server";
 
-export default function SettingsPage() {
+export default async function SettingsPage() {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  let initialShareActivity = false;
+  if (user) {
+    const { data } = await supabase.from("user_preferences").select("share_activity").eq("user_id", user.id).single();
+    initialShareActivity = data?.share_activity ?? false;
+  }
   return (
     <div className="px-4 sm:px-6 py-8 max-w-2xl mx-auto">
       <div className="mb-8">
@@ -48,7 +56,7 @@ export default function SettingsPage() {
         </div>
       </Link>
 
-      <SettingsClient />
+      <SettingsClient initialShareActivity={initialShareActivity} />
     </div>
   );
 }
