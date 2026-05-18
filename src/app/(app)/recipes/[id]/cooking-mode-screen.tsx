@@ -765,6 +765,7 @@ export function CookingModeScreen({
       ...prev,
       { id: `${Date.now()}`, label, totalSeconds: secs, remaining: secs, running: true, done: false },
     ]);
+    window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'timer-started' } }));
   }
 
   function toggleTimer(id: string) {
@@ -789,6 +790,15 @@ export function CookingModeScreen({
     () => injectAmounts(current, ingredients, servingsRatio),
     [current, ingredients, servingsRatio]
   );
+
+  // Dispatch contextual event when reaching a step with timing info (for onboarding Beat 5)
+  useEffect(() => {
+    if (parseStepSeconds(enrichedText) !== null && timers.length === 0) {
+      window.dispatchEvent(new CustomEvent('onboarding:action', { detail: { id: 'timer-tutorial-ready' } }));
+    }
+  // Only fire when the step index changes
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step]);
 
   // Prefer enhanced data when available - the heuristic stepHeading/stepBody splitter
   // gets confused by one-long-sentence steps and shows a chopped header like "In a tall".
@@ -1117,14 +1127,16 @@ export function CookingModeScreen({
             }}
           >
             {/* Persistent multi-timer tray */}
-            <TimerTray
-              timers={timers}
-              onAdd={addTimer}
-              onToggle={toggleTimer}
-              onReset={resetTimer}
-              onRemove={removeTimer}
-              stepText={enrichedText}
-            />
+            <div data-tour="timer-control">
+              <TimerTray
+                timers={timers}
+                onAdd={addTimer}
+                onToggle={toggleTimer}
+                onReset={resetTimer}
+                onRemove={removeTimer}
+                stepText={enrichedText}
+              />
+            </div>
 
             {/* Done cooking button */}
             <SpringButton
@@ -1150,6 +1162,7 @@ export function CookingModeScreen({
                 <ChevronLeft style={{ width: 15, height: 15 }} /> Prev
               </SpringButton>
               <SpringButton
+                data-tour="step-advance"
                 onClick={step >= total - 1 ? () => setDonePhase("pantry") : next}
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl text-base font-bold"
                 style={{
