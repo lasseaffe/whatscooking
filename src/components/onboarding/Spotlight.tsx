@@ -68,40 +68,71 @@ export function Spotlight({ target, visible, padding = 8, borderRadius = 10, onC
   return (
     <AnimatePresence>
       {visible && (
-        <motion.svg
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          style={{ position: 'fixed', inset: 0, zIndex: 9998, pointerEvents: 'none' }}
-          width={vw}
-          height={vh}
-        >
-          <defs>
-            <clipPath id={clipId}>
-              <rect width={vw} height={vh} clipRule="evenodd" />
-              <motion.rect
-                clipRule="evenodd"
-                animate={{ x, y, width: w, height: h, rx: borderRadius }}
-                transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-              />
-            </clipPath>
-          </defs>
-          <rect
-            width={vw} height={vh}
-            fill="rgba(0,0,0,0.72)"
-            clipPath={`url(#${clipId})`}
-            style={{ pointerEvents: 'all' }}
-            onClick={onClick}
-          />
-          <motion.rect
-            animate={{ x, y, width: w, height: h }}
-            transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-            fill="none"
-            stroke="rgba(255,255,255,0.3)"
-            strokeWidth={2}
-            rx={borderRadius}
-          />
-        </motion.svg>
+        <>
+          {/* Click-to-advance HTML overlay — covers viewport except spotlight hole, pointer events pass through inside cutout */}
+          {onClick && (
+            <div
+              onClick={onClick}
+              style={{
+                position: 'fixed', inset: 0, zIndex: 9998,
+                clipPath: `polygon(0 0, ${vw}px 0, ${vw}px ${vh}px, 0 ${vh}px, 0 0, ${x}px ${y}px, ${x}px ${y + h}px, ${x + w}px ${y + h}px, ${x + w}px ${y}px, ${x}px ${y}px)`,
+                cursor: 'pointer',
+              }}
+            />
+          )}
+          <motion.svg
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            style={{ position: 'fixed', inset: 0, zIndex: 9997, pointerEvents: 'none' }}
+            width={vw}
+            height={vh}
+          >
+            <defs>
+              <clipPath id={clipId}>
+                <rect width={vw} height={vh} clipRule="evenodd" />
+                <motion.rect
+                  clipRule="evenodd"
+                  animate={{ x, y, width: w, height: h, rx: borderRadius }}
+                  transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                />
+              </clipPath>
+            </defs>
+            <rect
+              width={vw} height={vh}
+              fill="rgba(16,10,4,0.80)"
+              clipPath={`url(#${clipId})`}
+            />
+            {/* Outer ambient glow ring */}
+            <motion.rect
+              animate={{ x: x - 6, y: y - 6, width: w + 12, height: h + 12 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+              fill="none"
+              stroke="#C19A6B"
+              strokeWidth={1}
+              opacity={0.15}
+              rx={borderRadius + 4}
+            />
+            {/* Inner pulse ring */}
+            <motion.rect
+              animate={{
+                x, y, width: w, height: h,
+                strokeWidth: [1.5, 2.5, 1.5],
+              }}
+              transition={{
+                type: 'spring',
+                stiffness: 300,
+                damping: 30,
+                strokeWidth: { duration: 3, repeat: Infinity, ease: 'easeInOut' },
+              }}
+              fill="none"
+              stroke="#C19A6B"
+              strokeWidth={1.5}
+              opacity={0.45}
+              rx={borderRadius}
+            />
+          </motion.svg>
+        </>
       )}
     </AnimatePresence>
   )
