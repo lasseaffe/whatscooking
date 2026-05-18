@@ -23,7 +23,7 @@ export function OverlayTour({ config, state, onAdvance, onActionComplete, onSkip
   const waypoint = waypoints[state.tourStep]
   if (!waypoint || state.mode !== 'tour') return null
 
-  const stepLabel = `Step ${state.tourStep + 1} of ${waypoints.length}`
+  const stepLabel = `${String(state.tourStep + 1).padStart(2, '0')} / ${String(waypoints.length).padStart(2, '0')}`
   const isDoStep = waypoint.type === 'do'
   const isCelebrationStep = waypoint.type === 'celebration'
 
@@ -83,6 +83,7 @@ export function OverlayTour({ config, state, onAdvance, onActionComplete, onSkip
         target={waypoint.target}
         title={waypoint.title}
         body={waypoint.body}
+        icon={waypoint.icon}
         position={waypoint.position ?? 'bottom'}
         theme={config.theme}
         visible={!showCelebration}
