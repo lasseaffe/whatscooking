@@ -1,5 +1,26 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-18
+
+### Social Layer — Task 4: Follow/Unfollow API
+
+**Created:**
+- `src/app/api/profiles/[username]/follow/route.ts` — REST API for follow/unfollow operations
+
+**Exported Handlers:**
+- `POST /api/profiles/[username]/follow` — Authenticate current user, resolve target profile by username, validate self-follow guard (DB-level + API-level), upsert into `user_follows` table, return `{ following: true }`
+- `DELETE /api/profiles/[username]/follow` — Authenticate current user, resolve target profile by username, delete follow record from `user_follows`, return `{ following: false }`
+
+**Auth Pattern:** Borrowed from `src/app/api/saves/route.ts` — uses `supabase.auth.getUser()` with 401 guard for unauthenticated requests
+
+**Data Model:** Upsert handles idempotent follow (no duplicates); DB CHECK constraint prevents self-follows as secondary guard; `follower_id` and `following_id` reference `profiles(id)`
+
+**Integration Points:** Ready to be called by profile UI components (follow button, profile header) and feed filters (show_follows, show_following lists)
+
+**TypeScript Status:** `npx tsc --noEmit` passes with no errors
+
+---
+
 ## [Unreleased] — 2026-05-12
 
 ### Paywall Foundation — Task 4: Test Fixture Seeding Helpers
