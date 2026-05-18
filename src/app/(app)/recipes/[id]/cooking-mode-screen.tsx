@@ -12,6 +12,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { springGentle } from "@/lib/motion";
 import { useSwipe } from "@/lib/hooks/use-swipe";
 import { CookPostSheet } from "@/components/social/cook-post-sheet";
+import { CookAlongDrawer } from "@/components/cooking/cook-along-drawer";
 
 // ── Types ────────────────────────────────────────────────────
 export interface Ingredient {
@@ -658,6 +659,8 @@ export function CookingModeScreen({
   const [step, setStep] = useState(0);
   const [servings, setServings] = useState(baseServings);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [cookAlongOpen, setCookAlongOpen] = useState(false);
+  const [cookAlongPrefill, setCookAlongPrefill] = useState<string | undefined>();
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   // Done dialog: null | "pantry" | "rating"
   const [donePhase, setDonePhase] = useState<null | "pantry" | "rating" | "share">(null);
@@ -1050,6 +1053,21 @@ export function CookingModeScreen({
                     />
                   </p>
                 )}
+
+                {/* Ask chef about this step */}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCookAlongPrefill(`About step ${step + 1}: `);
+                    setCookAlongOpen(true);
+                  }}
+                  className="text-xs mt-2 transition-opacity"
+                  style={{ color: "#B07D56", opacity: 0.65 }}
+                  onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+                  onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.65")}
+                >
+                  Ask about this step ↑
+                </button>
 
                 {/* Step visualization — SVG technique diagram when applicable */}
                 <StepVisualization stepText={enrichedText} />
@@ -1457,6 +1475,49 @@ export function CookingModeScreen({
           onClose={() => setLogSheetOpen(false)}
         />
       )}
+
+      {/* ── Cook-Along FAB ── */}
+      <motion.button
+        type="button"
+        whileTap={{ scale: 0.9 }}
+        onClick={() => { setCookAlongPrefill(undefined); setCookAlongOpen(true); }}
+        aria-label="Ask chef assistant"
+        style={{
+          position: "fixed",
+          bottom: 24,
+          right: 24,
+          width: 48,
+          height: 48,
+          borderRadius: "50%",
+          background: "#F59E0B",
+          border: "none",
+          cursor: "pointer",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 22,
+          boxShadow: "0 4px 16px rgba(245,158,11,0.35)",
+          zIndex: 40,
+        }}
+      >
+        👨‍🍳
+      </motion.button>
+
+      {/* ── Cook-Along Drawer ── */}
+      <AnimatePresence>
+        {cookAlongOpen && recipeId && (
+          <CookAlongDrawer
+            recipeId={recipeId}
+            recipeTitle={recipeTitle}
+            ingredients={ingredients ?? []}
+            steps={instructions}
+            currentStepIndex={step}
+            prefillMessage={cookAlongPrefill}
+            isOpen={cookAlongOpen}
+            onClose={() => setCookAlongOpen(false)}
+          />
+        )}
+      </AnimatePresence>
     </div>
   );
 }
