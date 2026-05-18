@@ -13,6 +13,8 @@ import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
 import { EnhancedInstructions } from "./enhanced-instructions";
 import { EnhancedDescriptionBlock } from "./enhanced-description-block";
+import { LogCookButton } from "./log-cook-button";
+import { CookHistory } from "./cook-history";
 
 export default async function RecipePage({
   params,
@@ -166,6 +168,11 @@ export default async function RecipePage({
               {displayTitle}
             </h1>
 
+            {/* Log a cook button */}
+            <div className="mt-2 mb-3">
+              <LogCookButton recipeId={id} recipeTitle={displayTitle} />
+            </div>
+
             {/* Description / tagline */}
             <EnhancedDescriptionBlock
               recipeId={id}
@@ -176,6 +183,9 @@ export default async function RecipePage({
               initialEnhanced={(recipeData.description_enhanced ?? null) as import("@/lib/types").EnhancedDescription | null}
               isOwner={recipeData.source === "user" && recipeData.created_by === user!.id}
             />
+
+            {/* Cook history — per-recipe log */}
+            <CookHistory recipeId={id} userId={user!.id} />
 
             {/* Metrics row */}
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm" style={{ color: "#8A6A4A" }}>
