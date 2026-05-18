@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
 
     const { searchParams } = new URL(req.url);
     const cursor = searchParams.get("cursor");
-    const limit = Math.min(parseInt(searchParams.get("limit") ?? "20"), 50);
+    const limit = Math.min(parseInt(searchParams.get("limit") ?? "20") || 20, 50);
 
     // Get the list of users the current user follows
     const { data: follows } = await supabase
