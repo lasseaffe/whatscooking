@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { RecipeImage } from '@/components/recipe-image';
 import type { MealType } from '@/lib/weave-solver';
 
@@ -10,6 +10,14 @@ interface PickedRecipe {
   image_url: string | null;
   focal_x?: number | null;
   focal_y?: number | null;
+  cuisine_type?: string | null;
+  dish_types?: string[] | null;
+}
+
+interface NeighborHints {
+  avoidCuisines: string[];
+  avoidProteins: string[];
+  avoidDishTypes: string[];
 }
 
 interface Props {
@@ -19,9 +27,17 @@ interface Props {
   onPick: (recipe: PickedRecipe) => void;
   onSuggestOne: () => Promise<PickedRecipe | null>;
   onClose: () => void;
+  neighborHints?: NeighborHints;
 }
 
-export function ConstraintPicker({ planId, mealType, excludeRecipeIds, onPick, onSuggestOne, onClose }: Props) {
+const CLIENT_PROTEINS = ['chicken', 'beef', 'pork', 'lamb', 'salmon', 'tuna', 'shrimp', 'tofu', 'lentil', 'chickpea', 'duck', 'turkey'];
+function detectProteinClient(title: string): string | null {
+  const t = (title ?? '').toLowerCase();
+  for (const k of CLIENT_PROTEINS) if (t.includes(k)) return k;
+  return null;
+}
+
+export function ConstraintPicker({ planId, mealType, excludeRecipeIds, onPick, onSuggestOne, onClose, neighborHints }: Props) {
   const [q, setQ] = useState('');
   const [results, setResults] = useState<PickedRecipe[]>([]);
   const [loading, setLoading] = useState(false);
@@ -54,6 +70,22 @@ export function ConstraintPicker({ planId, mealType, excludeRecipeIds, onPick, o
     return () => document.removeEventListener('keydown', onKey);
   }, [onClose]);
 
+  const ranked = useMemo(() => {
+    if (!neighborHints) return results;
+    const penalty = (r: PickedRecipe): number => {
+      let score = 0;
+      if (neighborHints.avoidCuisines.includes(r.cuisine_type ?? '')) score -= 1;
+      const protein = detectProteinClient(r.title);
+      if (protein && neighborHints.avoidProteins.includes(protein)) score -= 0.7;
+      for (const d of r.dish_types ?? []) {
+        if (neighborHints.avoidDishTypes.includes(d)) score -= 0.3;
+      }
+      return score;
+    };
+    // Higher penalty value (closer to 0) = better; sort descending.
+    return [...results].sort((a, b) => penalty(b) - penalty(a));
+  }, [results, neighborHints]);
+
   const trySuggest = async () => {
     setSuggesting(true);
     try {
@@ -82,6 +114,12 @@ export function ConstraintPicker({ planId, mealType, excludeRecipeIds, onPick, o
           <button onClick={onClose} aria-label="Close picker" className="ml-auto text-2xl leading-none" style={{ color: '#6B4E36' }}>×</button>
         </header>
 
+        {neighborHints && (neighborHints.avoidCuisines.length + neighborHints.avoidProteins.length > 0) && (
+          <div className="px-4 py-2 border-b text-xs" style={{ borderColor: '#2A1F14', color: '#F2C94C' }}>
+            Picking around: {[...neighborHints.avoidCuisines, ...neighborHints.avoidProteins].join(', ')}
+          </div>
+        )}
+
         <div className="px-4 py-3 border-b" style={{ borderColor: '#2A1F14' }}>
           <input
             autoFocus
@@ -103,13 +141,13 @@ export function ConstraintPicker({ planId, mealType, excludeRecipeIds, onPick, o
         </div>
 
         <div className="flex-1 overflow-y-auto">
-          {loading && results.length === 0 ? (
+          {loading && ranked.length === 0 ? (
             <p className="text-center py-8 text-sm" style={{ color: '#6B4E36' }}>Searching…</p>
-          ) : results.length === 0 ? (
+          ) : ranked.length === 0 ? (
             <p className="text-center py-8 text-sm" style={{ color: '#6B4E36' }}>No recipes match.</p>
           ) : (
             <ul>
-              {results.map(r => (
+              {ranked.map(r => (
                 <li key={r.id}>
                   <button
                     onClick={() => onPick(r)}

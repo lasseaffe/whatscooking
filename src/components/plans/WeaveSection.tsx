@@ -248,6 +248,7 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
           onPick={onPick}
           onSuggestOne={suggestOne}
           onClose={() => setPicker(null)}
+          neighborHints={computeNeighborHints({ day: picker.day, mealType: picker.mealType })}
         />
       )}
     </section>
