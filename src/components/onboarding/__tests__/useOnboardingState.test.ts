@@ -117,3 +117,8 @@ test('state updates in React even when localStorage.setItem throws', () => {
   expect(result.current.state.mode).toBe('done')
   spy.mockRestore()
 })
+
+test('default state includes narrativeRecipeId as null', () => {
+  const { result } = renderHook(() => useOnboardingState(mockConfig))
+  expect(result.current.state.narrativeRecipeId).toBeNull()
+})
