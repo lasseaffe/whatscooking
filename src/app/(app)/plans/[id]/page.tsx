@@ -64,6 +64,7 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
         mealsPerDay={plan.meals_per_day ?? 3}
         status={(plan.status ?? "draft") as PlanStatus}
         pinboardFilters={(plan.pinboard_filters ?? {}) as Partial<PinboardFilters>}
+        nutritionalGoals={(plan.nutritional_goals ?? {}) as Record<string, number>}
       />
 
       {/* Saved recipes that fit this plan */}

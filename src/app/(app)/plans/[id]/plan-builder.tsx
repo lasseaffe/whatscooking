@@ -34,6 +34,7 @@ export interface PlanBuilderProps {
   mealsPerDay: number;
   status: PlanStatus;
   pinboardFilters: Partial<PinboardFilters>;
+  nutritionalGoals?: Record<string, number>;
 }
 
 export function PlanBuilder(props: PlanBuilderProps) {
@@ -69,6 +70,7 @@ export function PlanBuilder(props: PlanBuilderProps) {
         durationDays={props.durationDays}
         weekStart={props.weekStart}
         mealsPerDay={props.mealsPerDay}
+        nutritionalGoals={props.nutritionalGoals}
       />
     </div>
   );
