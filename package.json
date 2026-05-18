@@ -15,7 +15,9 @@
     "monitor-images:dry": "npx tsx scripts/monitor-images.ts --dry-run",
     "moodboard:check": "node scripts/check-moodboard-drift.mjs",
     "backfill:pilot": "node scripts/backfill-enhance-pilot.mjs",
-    "backfill:full": "node scripts/backfill-enhance-full.mjs"
+    "backfill:full": "node scripts/backfill-enhance-full.mjs",
+    "backfill:full:ollama": "node scripts/backfill-enhance-full-ollama.mjs",
+    "enhance:batch": "node scripts/backfill-enhance-batch.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",
@@ -30,6 +32,7 @@
     "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.2.0",
     "framer-motion": "^12.38.0",
     "isomorphic-dompurify": "^3.12.0",
     "lucide-react": "^1.7.0",
