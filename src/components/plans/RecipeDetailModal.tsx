@@ -53,7 +53,7 @@ export function RecipeDetailModal({ recipe, onClose }: Props) {
           style={{ background: 'rgba(0,0,0,0.4)', color: '#A08060' }}
           aria-label="Close"
         >
-          ✕
+          <span aria-hidden="true">✕</span>
         </button>
 
         {/* Hero image */}
@@ -66,7 +66,6 @@ export function RecipeDetailModal({ recipe, onClose }: Props) {
             focal_x={recipe.focal_x}
             focal_y={recipe.focal_y}
             className="w-full h-full object-cover"
-            style={{ objectPosition: `${recipe.focal_x ?? 50}% ${recipe.focal_y ?? 50}%` }}
           />
         </div>
 
