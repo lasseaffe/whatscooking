@@ -76,37 +76,58 @@ export function TemplateCard({ template, selected, onSelect }: TemplateCardProps
       onKeyDown={(e) => e.key === "Enter" && onSelect()}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
-      className="rounded-2xl overflow-hidden border-2 cursor-pointer transition-all relative"
+      className="rounded-2xl overflow-hidden border cursor-pointer transition-all relative"
       style={{
-        borderColor: selected ? template.accentColor : "transparent",
-        boxShadow: selected ? `0 0 0 3px ${template.accentColor}40` : "0 1px 4px rgba(0,0,0,0.08)",
-        background: "#1C1209",
+        borderColor: selected ? "#E67E22" : "#3A2A1A",
+        boxShadow: selected ? "0 0 0 2px rgba(230,126,34,0.35)" : "0 1px 4px rgba(0,0,0,0.25)",
+        background: "#1A120A",
       }}
     >
       {/* Selected check */}
       {selected && (
         <div
           className="absolute top-3 right-3 z-20 w-7 h-7 rounded-full flex items-center justify-center"
-          style={{ background: template.accentColor }}
+          style={{ background: "#E67E22" }}
         >
-          <Check className="w-4 h-4 text-white" strokeWidth={3} />
+          <Check className="w-4 h-4" strokeWidth={3} style={{ color: "#1A120A" }} />
         </div>
       )}
 
       {/* Slideshow */}
       <div
         className="relative overflow-hidden"
-        style={{ height: 200, background: template.gradient }}
+        style={{ height: 200, background: "#2A1F14" }}
       >
         {/* Image */}
-        <img
-          key={slide}
-          src={meal.image}
-          alt={meal.title}
-          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700"
-          style={{ opacity: 0.7 }}
-          onError={(e) => { (e.target as HTMLImageElement).style.opacity = "0"; }}
-        />
+        {meal.image ? (
+          <img
+            key={slide}
+            src={meal.image}
+            alt={meal.title}
+            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700"
+            style={{ opacity: 0.85 }}
+            onError={(e) => {
+              const img = e.target as HTMLImageElement;
+              img.style.display = "none";
+              const parent = img.parentElement;
+              if (parent && !parent.querySelector(".tpl-img-fallback")) {
+                const fb = document.createElement("div");
+                fb.className = "tpl-img-fallback absolute inset-0 flex items-center justify-center text-3xl";
+                fb.style.background = "linear-gradient(135deg, #2A1F14 0%, #3A2A1A 100%)";
+                fb.style.color = "#E67E22";
+                fb.textContent = template.emoji;
+                parent.appendChild(fb);
+              }
+            }}
+          />
+        ) : (
+          <div
+            className="absolute inset-0 flex items-center justify-center text-3xl"
+            style={{ background: "linear-gradient(135deg, #2A1F14 0%, #3A2A1A 100%)", color: "#E67E22" }}
+          >
+            {template.emoji}
+          </div>
+        )}
 
         {/* Gradient overlay */}
         <div
@@ -161,7 +182,7 @@ export function TemplateCard({ template, selected, onSelect }: TemplateCardProps
               style={{
                 width: i === slide ? 16 : 5,
                 height: 5,
-                background: i === slide ? template.accentColor : "rgba(255,255,255,0.5)",
+                background: i === slide ? "#E67E22" : "rgba(255,255,255,0.4)",
               }}
             />
           ))}
@@ -182,14 +203,14 @@ export function TemplateCard({ template, selected, onSelect }: TemplateCardProps
 
         <div className="flex flex-wrap gap-1.5">
           {template.tags.map((tag) => (
-            <span key={tag} className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ background: "#2A1808", color: "#C8522A" }}>
+            <span key={tag} className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ background: "#2A1F14", color: "#E67E22" }}>
               {tag}
             </span>
           ))}
-          <span className="text-xs px-2 py-0.5 rounded-full" style={{ background: "#1A1208", color: "#6B4E36", border: "1px solid #3A2416" }}>
+          <span className="text-xs px-2 py-0.5 rounded-full" style={{ background: "#1A120A", color: "#8A6A4A", border: "1px solid #3A2A1A" }}>
             {template.durationDays} {t("plans.days")}
           </span>
-          <span className="text-xs px-2 py-0.5 rounded-full" style={{ background: "#1A1208", color: "#6B4E36", border: "1px solid #3A2416" }}>
+          <span className="text-xs px-2 py-0.5 rounded-full" style={{ background: "#1A120A", color: "#8A6A4A", border: "1px solid #3A2A1A" }}>
             {template.mealsPerDay} {t("plans.meals")}/day
           </span>
         </div>
