@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { WeaveSummary } from './WeaveSummary';
 import { WeaveGrid } from './WeaveGrid';
 import { ConstraintPicker } from './ConstraintPicker';
+import { RecipeDetailModal, type DetailRecipe } from './RecipeDetailModal';
 import { MacroSummary } from './MacroSummary';
 import type { usePlannerState } from '@/app/(app)/plans/[id]/use-planner-state';
 import type { MealType, ProposedEntry } from '@/lib/weave-solver';
@@ -38,6 +39,7 @@ interface PickerRecipe {
 export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerDay, nutritionalGoals }: Props) {
   const router = useRouter();
   const [picker, setPicker] = useState<{ day: number; mealType: MealType; existing: ProposedEntry | null } | null>(null);
+  const [detailRecipe, setDetailRecipe] = useState<DetailRecipe | null>(null);
   const mealTypes = defaultMealTypes(mealsPerDay);
 
   if (!state.weave) {
@@ -194,7 +196,24 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
   };
 
   const onCellTap = (day: number, mealType: MealType, entry: ProposedEntry | null) => {
-    setPicker({ day, mealType, existing: entry });
+    if (entry) {
+      const r = solverPool.get(entry.recipe_id);
+      setDetailRecipe({
+        id: entry.recipe_id,
+        title: entry.recipe_title ?? r?.title ?? '',
+        image_url: recipes[entry.recipe_id]?.image_url ?? null,
+        focal_x: recipes[entry.recipe_id]?.focal_x,
+        focal_y: recipes[entry.recipe_id]?.focal_y,
+        cuisine_type: r?.cuisine_type ?? null,
+        dish_types: r?.dish_types ?? [],
+        dietary_tags: r?.dietary_tags ?? [],
+        prep_time_minutes: r?.prep_time_minutes ?? null,
+        cook_time_minutes: r?.cook_time_minutes ?? null,
+        calories: r?.calories ?? null,
+      });
+    } else {
+      setPicker({ day, mealType, existing: null });
+    }
   };
 
   const onPick = (recipe: PickerRecipe) => {
@@ -261,6 +280,10 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
           neighborHints={computeNeighborHints({ day: picker.day, mealType: picker.mealType })}
         />
       )}
+      <RecipeDetailModal
+        recipe={detailRecipe}
+        onClose={() => setDetailRecipe(null)}
+      />
     </section>
   );
 }

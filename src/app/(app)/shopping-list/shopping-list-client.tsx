@@ -42,7 +42,7 @@ export function ShoppingListClient() {
   return (
     <div
       className="min-h-screen px-4 py-8 sm:px-8"
-      style={{ background: "var(--wc-bg-base, #1A0E06)" }}
+      style={{ background: "transparent" }}
     >
       <div className="max-w-xl mx-auto flex flex-col gap-6">
         {/* Header */}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bf8d2068-ed03-43d0-894c-68ffe8748105",
+    "title": "Veal Piccata",
+    "cuisine_type": null,
+    "dietary_tags": []
+  },
+  {
+    "id": "c0a5c518-3511-43d6-ade5-c85e8c890369",
+    "title": "Appetizer Puffs",
+    "cuisine_type": null,
+    "dietary_tags": []
+  },
+  {
+    "id": "c1401b1f-ff93-48f4-acea-397f34228cb8",
+    "title": "Polish Stuffed Cabbage",
+    "cuisine_type": null,
+    "dietary_tags": []
+  }
+]

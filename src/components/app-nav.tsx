@@ -161,12 +161,13 @@ export function AppNav() {
         .wc-nav:not(:hover):not(.wc-nav--flyout-open) {
           transition-delay: 0.15s;
         }
-        /* Push main content when sidebar expands */
+        /* Push main content beside the nav; expand when sidebar opens */
+        .wc-main-content {
+          margin-left: 70px;
+          transition: margin-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+        }
         body[data-nav-expanded="true"] .wc-main-content {
           margin-left: 320px;
-        }
-        .wc-main-content {
-          transition: margin-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
         }
 
         /* Labels */

@@ -88,7 +88,7 @@ export function EventsClient() {
   const selectedOccasion = OCCASIONS.find(o => o.id === occasion);
 
   return (
-    <div className="min-h-screen pb-20" style={{ background: "#0D0907", color: "#EFE3CE" }}>
+    <div className="min-h-screen pb-20" style={{ background: "transparent", color: "#EFE3CE" }}>
       {/* Header */}
       <div
         className="sticky top-0 z-10 px-4 py-3 flex items-center gap-3"

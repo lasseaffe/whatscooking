@@ -7,6 +7,8 @@ import {
   ChevronDown, ChevronUp, Zap, Mountain,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
+import { FocalPointEditor } from "@/components/focal-point-editor";
+import { ReportButton } from "@/components/report-button";
 
 export const DIFFICULTY_CONFIG = {
   easy:   { label: "Easy",        Icon: Zap,      color: "#16A34A", bg: "#DCFCE7" },
@@ -32,12 +34,16 @@ export function RecipeCard({
   return (
     <div className="relative w-full h-full select-none" style={{ background: "#fff" }}>
       <div className="absolute inset-0">
-        {recipe.image_url ? (
-          <img src={recipe.image_url} alt={recipe.title} className="w-full h-full object-cover" draggable={false} />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-6xl" style={{ background: "#FFF0E6" }}>🍽️</div>
-        )}
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(30,12,4,0.93) 0%, rgba(0,0,0,0.25) 55%, transparent 100%)" }} />
+        <FocalPointEditor
+          recipeId={recipe.id}
+          imageUrl={recipe.image_url}
+          title={recipe.title}
+          cuisine={recipe.cuisine_type}
+          dietaryTags={recipe.dietary_tags}
+          initialFocalX={recipe.focal_x}
+          initialFocalY={recipe.focal_y}
+        />
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(to top, rgba(30,12,4,0.93) 0%, rgba(0,0,0,0.25) 55%, transparent 100%)" }} />
       </div>
 
       {/* LIKE stamp */}
@@ -83,6 +89,11 @@ export function RecipeCard({
           </span>
         </div>
       )}
+
+      {/* Report button — bottom-left */}
+      <div className="absolute bottom-2 left-2 z-10" onClick={(e) => e.stopPropagation()} onPointerDown={(e) => e.stopPropagation()}>
+        <ReportButton recipeId={recipe.id} recipeName={recipe.title} />
+      </div>
 
       {/* Bottom info */}
       <div className="absolute bottom-0 left-0 right-0 p-5">

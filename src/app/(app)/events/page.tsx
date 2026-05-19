@@ -33,7 +33,7 @@ export default async function EventsPage() {
   ].sort((a, b) => new Date(a.scheduled_at!).getTime() - new Date(b.scheduled_at!).getTime());
 
   return (
-    <div className="min-h-screen pb-24" style={{ background: '#0D0907', color: '#EFE3CE' }}>
+    <div className="min-h-screen pb-24" style={{ background: 'transparent', color: '#EFE3CE' }}>
       <div className="sticky top-0 z-10 px-4 py-3 flex items-center justify-between"
         style={{ background: 'rgba(13,9,7,0.9)', backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
         <h1 className="text-sm font-semibold tracking-widest uppercase" style={{ letterSpacing: '0.14em' }}>My Events</h1>
