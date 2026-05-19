@@ -79,7 +79,62 @@ export function RecipeDetailModal({ recipe, onClose }: Props) {
 }
 
 function ModalContent({ recipe }: { recipe: DetailRecipe }) {
+  const totalMinutes =
+    recipe.total_time_minutes ??
+    (((recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0)) || null);
+
   return (
-    <>CONTENT_PLACEHOLDER</>
+    <>
+      {/* Cuisine label + title + description */}
+      {recipe.cuisine_type && (
+        <p className="text-xs uppercase font-semibold tracking-widest" style={{ color: '#F4A261' }}>
+          {recipe.cuisine_type}
+        </p>
+      )}
+      <div>
+        <h2 className="text-xl font-semibold leading-snug" style={{ fontFamily: "'Libre Baskerville', Georgia, serif", color: '#EFE3CE' }}>
+          {recipe.title}
+        </h2>
+        {recipe.description && (
+          <p className="mt-1 text-sm italic" style={{ color: '#7A5A40' }}>
+            {recipe.description}
+          </p>
+        )}
+      </div>
+
+      {/* Stat pills */}
+      <div className="grid grid-cols-4 gap-2">
+        {[
+          { label: 'Time', value: totalMinutes ? `${totalMinutes} min` : '—' },
+          { label: 'Calories', value: recipe.calories ? `${recipe.calories} kcal` : '—' },
+          { label: 'Serves', value: recipe.servings ? `${recipe.servings}` : '—' },
+          { label: 'Cuisine', value: recipe.cuisine_type ?? '—' },
+        ].map(({ label, value }) => (
+          <div
+            key={label}
+            className="flex flex-col items-center py-2 px-1 rounded-lg text-center"
+            style={{ background: '#3A3430' }}
+          >
+            <span className="text-xs" style={{ color: '#6B4A32' }}>{label}</span>
+            <span className="text-xs font-semibold mt-0.5 truncate w-full text-center" style={{ color: '#A08060' }}>{value}</span>
+          </div>
+        ))}
+      </div>
+
+      {/* Dietary tags */}
+      {(recipe.dietary_tags ?? []).length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {(recipe.dietary_tags ?? []).map(tag => (
+            <span
+              key={tag}
+              className="text-xs px-2 py-0.5 rounded-full"
+              style={{ background: '#3A3430', color: '#EFE3CE' }}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </>
   );
 }
