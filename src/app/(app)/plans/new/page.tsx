@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Sparkles, CalendarDays, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
+import { Sparkles, CalendarDays, Loader2, ChevronDown, ChevronUp, ChevronLeft, ChevronRight } from 'lucide-react';
 import { PLAN_TEMPLATES, type PlanTemplate } from './plan-templates';
 import { TemplateCard } from './template-card';
 
@@ -34,6 +34,33 @@ export default function NewPlanPage() {
   const [showCustom, setShowCustom] = useState<boolean>(!presetId);
   const [creating, setCreating] = useState(false);
   const [error, setError] = useState('');
+
+  // Carousel scroll state
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [atStart, setAtStart] = useState(true);
+  const [atEnd, setAtEnd] = useState(false);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const check = () => {
+      setAtStart(el.scrollLeft < 10);
+      setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 10);
+    };
+    check();
+    el.addEventListener('scroll', check);
+    window.addEventListener('resize', check);
+    return () => {
+      el.removeEventListener('scroll', check);
+      window.removeEventListener('resize', check);
+    };
+  }, []);
+
+  function scrollCarousel(dir: 'left' | 'right') {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollTo({ left: el.scrollLeft + (dir === 'left' ? -el.clientWidth * 0.8 : el.clientWidth * 0.8), behavior: 'smooth' });
+  }
 
   function toggleDiet(tag: string) {
     setDietaryFilters((prev) =>
@@ -107,24 +134,7 @@ export default function NewPlanPage() {
         </p>
       </header>
 
-      <section className="mb-8">
-        <div className="flex items-center gap-2 mb-4">
-          <Sparkles className="w-4 h-4" style={{ color: '#E67E22' }} />
-          <h2 className="text-sm font-semibold" style={{ color: '#EFE3CE' }}>Choose a template</h2>
-          <span className="text-xs" style={{ color: '#6B4E36' }}>— optional</span>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {PLAN_TEMPLATES.map((tpl) => (
-            <TemplateCard
-              key={tpl.id}
-              template={tpl}
-              selected={selectedTemplate?.id === tpl.id}
-              onSelect={() => applyTemplate(selectedTemplate?.id === tpl.id ? null : tpl)}
-            />
-          ))}
-        </div>
-      </section>
-
+      {/* Custom settings — on top so it's immediately visible */}
       <section className="mb-8">
         <button
           onClick={() => setShowCustom((s) => !s)}
@@ -217,11 +227,59 @@ export default function NewPlanPage() {
       <button
         onClick={create}
         disabled={creating || !title.trim()}
-        className="w-full sm:w-auto px-6 py-3 rounded-full text-sm font-semibold disabled:opacity-40 transition-opacity"
+        className="w-full sm:w-auto px-6 py-3 rounded-full text-sm font-semibold disabled:opacity-40 transition-opacity mb-10"
         style={{ background: '#E67E22', color: '#1A120A' }}
       >
         {creating ? <span className="flex items-center gap-2"><Loader2 className="w-4 h-4 animate-spin" /> Creating…</span> : 'Create plan →'}
       </button>
+
+      {/* Template carousel — single scrolling row */}
+      <section>
+        <div className="flex items-center gap-2 mb-4">
+          <Sparkles className="w-4 h-4" style={{ color: '#E67E22' }} />
+          <h2 className="text-sm font-semibold" style={{ color: '#EFE3CE' }}>Choose a template</h2>
+          <span className="text-xs" style={{ color: '#6B4E36' }}>— optional</span>
+        </div>
+
+        <div className="relative -mx-4 sm:-mx-6">
+          <div
+            ref={scrollRef}
+            className="flex gap-4 overflow-x-auto px-4 sm:px-6 pb-3"
+            style={{ scrollbarWidth: 'none' }}
+          >
+            {PLAN_TEMPLATES.map((tpl) => (
+              <div key={tpl.id} className="flex-shrink-0 w-[280px]">
+                <TemplateCard
+                  template={tpl}
+                  selected={selectedTemplate?.id === tpl.id}
+                  onSelect={() => applyTemplate(selectedTemplate?.id === tpl.id ? null : tpl)}
+                />
+              </div>
+            ))}
+          </div>
+
+          {!atStart && (
+            <button
+              onClick={() => scrollCarousel('left')}
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full shadow-md transition-colors"
+              style={{ background: '#2A1F14', border: '1px solid #3A2A1A', color: '#EFE3CE' }}
+              aria-label="Scroll left"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+          )}
+          {!atEnd && (
+            <button
+              onClick={() => scrollCarousel('right')}
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full shadow-md transition-colors"
+              style={{ background: '#2A1F14', border: '1px solid #3A2A1A', color: '#EFE3CE' }}
+              aria-label="Scroll right"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          )}
+        </div>
+      </section>
     </div>
   );
 }

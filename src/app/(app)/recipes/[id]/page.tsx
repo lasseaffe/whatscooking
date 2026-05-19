@@ -113,6 +113,7 @@ export default async function RecipePage({
             sourceName={recipeData.source_name}
             focal_x={recipeData.focal_x}
             focal_y={recipeData.focal_y}
+            editable
           />
           {/* Gradient fade into page background */}
           <div
@@ -261,6 +262,7 @@ export default async function RecipePage({
                 sourceName={recipeData.source_name}
                 focal_x={recipeData.focal_x}
                 focal_y={recipeData.focal_y}
+                editable
               />
             </div>
             {/* Large Cooking Mode CTA — below hero image */}

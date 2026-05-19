@@ -79,25 +79,35 @@ export function DiscoverFeedClient({
   isLoggedIn,
 }: Props) {
   return (
-    <div className="min-h-screen" style={{ background: "var(--bg-base, #1C1209)" }}>
+    <div className="min-h-screen" style={{ background: "transparent" }}>
 
-      {/* ── 1. Meal Swipe ── */}
-      <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
+      {/* ── Desktop: 2-col grid (swiper left, feed right); Mobile: stacked ── */}
+      <div className="lg:grid lg:grid-cols-[480px_1fr] lg:items-start">
 
-      {/* ── 2. Trending Now ── */}
-      <TrendingSection recipes={trendingRecipes} totalCount={trendingTotal} />
+        {/* Left column: swiper stays sticky while right column scrolls */}
+        <div className="lg:sticky lg:top-0">
+          <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
+        </div>
 
-      {/* ── 3. Cook from Pantry (logged-in only) ── */}
-      {isLoggedIn && (
-        <PantryMatchSection
-          matches={pantryMatches}
-          totalMatchCount={pantryMatchTotal}
-          pantryItemCount={pantryItemCount}
-        />
-      )}
+        {/* Right column on desktop / full-width below swiper on mobile */}
+        <div>
+          {/* ── 2. Trending Now ── */}
+          <TrendingSection recipes={trendingRecipes} totalCount={trendingTotal} />
 
-      {/* ── 4. Quick & Easy ── */}
-      <QuickEasySection recipes={quickRecipes} />
+          {/* ── 3. Cook from Pantry (logged-in only) ── */}
+          {isLoggedIn && (
+            <PantryMatchSection
+              matches={pantryMatches}
+              totalMatchCount={pantryMatchTotal}
+              pantryItemCount={pantryItemCount}
+            />
+          )}
+
+          {/* ── 4. Quick & Easy ── */}
+          <QuickEasySection recipes={quickRecipes} />
+        </div>
+
+      </div>
 
       {/* ── 5. World Cuisines (rotating regional slideshow) ── */}
       <CuisineRotator />

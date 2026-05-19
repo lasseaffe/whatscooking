@@ -22,7 +22,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
       <DietaryModeProvider>
         <div
           className="min-h-screen flex"
-          style={{ background: "var(--bg-base)" }}
+          style={{ background: "transparent" }}
         >
           {/* Sidebar — hidden on mobile, visible sm+ */}
           <div className="hidden sm:block">
@@ -30,7 +30,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           </div>
 
           <DietaryTint>
-            <div className="wc-main-content flex flex-col min-h-screen flex-1 min-w-0" style={{ marginLeft: "70px" }}>
+            <div className="wc-main-content flex flex-col min-h-screen flex-1 min-w-0">
               {/* Top bar — desktop only; mobile uses bottom nav */}
               <div className="hidden sm:block">
                 <TopBar />
@@ -38,7 +38,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
               <DietaryBanner />
               <main
                 className="flex-1 pb-16 sm:pb-0"
-                style={{ background: "var(--bg-base)" }}
+                style={{ background: "transparent" }}
               >
                 {children}
               </main>

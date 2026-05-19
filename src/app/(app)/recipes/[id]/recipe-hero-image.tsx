@@ -1,6 +1,7 @@
 "use client";
 
 import { RecipeImage } from "@/components/recipe-image";
+import { FocalPointEditor } from "@/components/focal-point-editor";
 
 interface Props {
   recipeId: string;
@@ -12,26 +13,18 @@ interface Props {
   sourceName?: string | null;
   focal_x?: number | null;
   focal_y?: number | null;
+  /** Show the "Adjust crop" button for manual focal-point editing */
+  editable?: boolean;
 }
 
-export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTags, sourceUrl, sourceName, focal_x, focal_y }: Props) {
-  return (
-    <div className="overflow-hidden relative w-full h-full">
-      <RecipeImage
-        recipeId={recipeId}
-        imageUrl={imageUrl}
-        title={title}
-        cuisine={cuisine}
-        dietaryTags={dietaryTags}
-        focal_x={focal_x}
-        focal_y={focal_y}
-      />
+export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTags, sourceUrl, sourceName, focal_x, focal_y, editable }: Props) {
+  const vignetteAndBadge = (
+    <>
       {/* Subtle vignette for depth */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, transparent 40%, rgba(0,0,0,0.18) 100%)" }}
       />
-
       {sourceUrl && (
         <a
           href={sourceUrl}
@@ -46,6 +39,38 @@ export function RecipeHeroImage({ recipeId, imageUrl, title, cuisine, dietaryTag
           {sourceName ?? "Source"}
         </a>
       )}
+    </>
+  );
+
+  if (editable) {
+    return (
+      <FocalPointEditor
+        recipeId={recipeId}
+        imageUrl={imageUrl}
+        title={title}
+        cuisine={cuisine}
+        dietaryTags={dietaryTags}
+        initialFocalX={focal_x}
+        initialFocalY={focal_y}
+        className="overflow-hidden relative w-full h-full"
+      >
+        {vignetteAndBadge}
+      </FocalPointEditor>
+    );
+  }
+
+  return (
+    <div className="overflow-hidden relative w-full h-full">
+      <RecipeImage
+        recipeId={recipeId}
+        imageUrl={imageUrl}
+        title={title}
+        cuisine={cuisine}
+        dietaryTags={dietaryTags}
+        focal_x={focal_x}
+        focal_y={focal_y}
+      />
+      {vignetteAndBadge}
     </div>
   );
 }

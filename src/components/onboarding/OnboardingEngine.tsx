@@ -13,7 +13,7 @@ export function OnboardingEngine({ config }: OnboardingEngineProps) {
   const { state, advanceWizard, advanceTour, markActionComplete, dismissBeacon, setAnswer, skip } =
     useOnboardingState(config)
 
-  if (state.mode === 'done') return null
+  if (!state || state.mode === 'done') return null
 
   return (
     <>

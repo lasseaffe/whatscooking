@@ -158,7 +158,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
   return (
     <div className="flex flex-col min-h-screen">
       {/* ── HERO HEADER ─────────────────────────────────────────── */}
-      <div className="relative overflow-hidden" style={{ background: "linear-gradient(to bottom, #090908 0%, #090908 70%, transparent 100%)" }}>
+      <div className="relative overflow-hidden" style={{ background: "transparent" }}>
         <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden>
           <span className="absolute top-6 right-12 opacity-5 rotate-12" style={{ fontSize: "3.5rem" }}>🍕</span>
           <span className="absolute top-20 right-36 opacity-5 -rotate-6" style={{ fontSize: "2.5rem" }}>🥑</span>

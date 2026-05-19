@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { ReportButton } from "@/components/report-button";
+import { RecipeImage } from "@/components/recipe-image";
 
 type Recipe = {
   id: string;
@@ -99,18 +100,23 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
     return (
       <Link
         href={`/recipes/${recipe.id}`}
-        className="flex items-center gap-3 p-3 rounded-xl border transition-all hover:border-amber-700/50 group"
+        className="flex items-center gap-4 p-4 rounded-xl border transition-all hover:border-amber-700/50 group"
         style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
       >
-        <div className="shrink-0 w-16 h-16 rounded-lg overflow-hidden bg-amber-950/30">
-          {img
-            ? <img src={img} alt={recipe.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-            : <div className="w-full h-full flex items-center justify-center text-2xl">🍳</div>}
+        <div className="shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-amber-950/30">
+          <RecipeImage
+            recipeId={recipe.id}
+            imageUrl={img}
+            title={recipe.title}
+            cuisine={recipe.cuisine_type}
+            dietaryTags={recipe.dietary_tags}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
         </div>
         <div className="flex-1 min-w-0">
           <p className="font-semibold text-sm truncate" style={{ color: "#EFE3CE" }}>{recipe.title}</p>
           {recipe.description && (
-            <p className="text-xs line-clamp-1 mt-0.5" style={{ color: "#6B5040" }}>{recipe.description}</p>
+            <p className="text-sm line-clamp-2 mt-1" style={{ color: "#9A7A58" }}>{recipe.description}</p>
           )}
           <div className="flex items-center gap-3 mt-1">
             {totalTime > 0 && (
@@ -148,10 +154,15 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
       className="group rounded-2xl overflow-hidden border transition-all hover:-translate-y-0.5 hover:shadow-lg"
       style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
     >
-      <div className="relative h-40 overflow-hidden bg-amber-950/30">
-        {img
-          ? <img src={img} alt={recipe.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          : <div className="w-full h-full flex items-center justify-center text-4xl">🍳</div>}
+      <div className="relative h-44 overflow-hidden bg-amber-950/30">
+        <RecipeImage
+          recipeId={recipe.id}
+          imageUrl={img}
+          title={recipe.title}
+          cuisine={recipe.cuisine_type}
+          dietaryTags={recipe.dietary_tags}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,10,4,0.7) 0%, transparent 55%)" }} />
         {recipe.difficulty_level && (
           <span className="absolute top-2 right-2 text-xs px-1.5 py-0.5 rounded-full font-medium capitalize"
@@ -174,7 +185,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
         </div>
       </div>
       <div className="p-3">
-        <p className="font-semibold text-sm leading-snug line-clamp-2" style={{ color: "#EFE3CE" }}>{recipe.title}</p>
+        <p className="font-semibold text-sm leading-snug line-clamp-2 mb-1" style={{ color: "#EFE3CE" }}>{recipe.title}</p>
         <div className="flex items-center gap-1.5 flex-wrap mt-1.5">
           {recipe.cuisine_type && (
             <span className="inline-block text-xs px-1.5 py-0.5 rounded-full"
@@ -545,7 +556,7 @@ export function AllRecipesClient({
             </button>
           </div>
         ) : view === "grid" ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {localFiltered.map((r) => (
               <RecipeCard
                 key={r.id}
@@ -556,7 +567,7 @@ export function AllRecipesClient({
             ))}
           </div>
         ) : (
-          <div className="flex flex-col gap-2 max-w-2xl">
+          <div className="flex flex-col gap-3">
             {localFiltered.map((r) => (
               <RecipeCard
                 key={r.id}

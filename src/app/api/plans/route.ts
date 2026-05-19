@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
       is_public: is_public ?? false,
       dietary_tags: dietary_tags ?? [],
       tags: tags ?? [],
-      status: "draft",
+      status: "planning",
       duration_days: duration_days ?? null,
       meals_per_day: meals_per_day ?? null,
     })

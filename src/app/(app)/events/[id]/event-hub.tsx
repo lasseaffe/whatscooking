@@ -31,7 +31,7 @@ export function EventHub({ initialData, eventId, userId }: {
   const canInteract = isHost || data.guestRole === 'editor';
 
   return (
-    <div className="min-h-screen pb-24" style={{ background: '#0D0907', color: '#EFE3CE' }}>
+    <div className="min-h-screen pb-24" style={{ background: 'transparent', color: '#EFE3CE' }}>
       {/* Header */}
       <div className="sticky top-0 z-20 px-4 py-3 flex items-center gap-3"
         style={{ background: 'rgba(13,9,7,0.9)', backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>

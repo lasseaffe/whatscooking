@@ -42,11 +42,11 @@ function useIngredients(recipeId: string | null) {
     setIngredients([]);
     setLoading(true);
     const supabase = createClient();
-    supabase
+    Promise.resolve(supabase
       .from('recipes')
       .select('ingredients')
       .eq('id', recipeId)
-      .single()
+      .single())
       .then(({ data }) => {
         const raw = (data?.ingredients ?? []) as unknown[];
         setIngredients(
@@ -62,7 +62,8 @@ function useIngredients(recipeId: string | null) {
           }).filter(i => i.name)
         );
         setLoading(false);
-      });
+      })
+      .catch(() => { setLoading(false); });
   }, [recipeId]);
 
   return { ingredients, loading };
@@ -95,7 +96,7 @@ function IngredientsSection({ recipeId }: { recipeId: string }) {
       )}
 
       {!loading && visible.map((ing, i) => (
-        <div key={i} className="flex justify-between py-1.5 text-sm border-b" style={{ borderColor: '#3A3430' }}>
+        <div key={`${i}-${ing.name}`} className="flex justify-between py-1.5 text-sm border-b" style={{ borderColor: '#3A3430' }}>
           <span style={{ color: '#EFE3CE' }}>{ing.name}{ing.notes ? ` (${ing.notes})` : ''}</span>
           <span className="ml-4 shrink-0 text-xs" style={{ color: '#A08060' }}>
             {[ing.quantity, ing.unit].filter(Boolean).join(' ') || ''}

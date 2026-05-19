@@ -6,7 +6,7 @@ import { Bookmark, BookmarkCheck, Clock, ChefHat, Gauge } from "lucide-react";
 import { ReportButton } from "@/components/report-button";
 import { WcBadge } from "@/components/wc-badge";
 import type { Recipe } from "@/lib/types";
-import { RecipeImage } from "@/components/recipe-image";
+import { FocalPointEditor } from "@/components/focal-point-editor";
 import { motion } from "framer-motion";
 
 function usePrefersReducedMotion() {
@@ -102,16 +102,16 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.32, delay: index * 0.06, ease: [0.22, 1, 0.36, 1] }}
     >
-      {/* Full-bleed hero image */}
+      {/* Full-bleed hero image with focal-point editor */}
       <div className="absolute inset-0">
-        <RecipeImage
+        <FocalPointEditor
           recipeId={recipe.id}
           imageUrl={recipe.image_url}
           title={recipe.title}
           cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
           dietaryTags={recipe.dietary_tags}
-          focal_x={recipe.focal_x}
-          focal_y={recipe.focal_y}
+          initialFocalX={recipe.focal_x}
+          initialFocalY={recipe.focal_y}
         />
       </div>
 

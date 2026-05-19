@@ -20,6 +20,8 @@ export type SwipeRecipe = {
   carbs_g: number | null;
   fat_g: number | null;
   difficulty_level: "easy" | "medium" | "hard" | null;
+  focal_x?: number | null;
+  focal_y?: number | null;
 };
 
 export interface SwipeFilters {
