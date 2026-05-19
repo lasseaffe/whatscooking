@@ -36,18 +36,22 @@ interface Ingredient {
 function useIngredients(recipeId: string | null) {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [loading, setLoading] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
 
   useEffect(() => {
     if (!recipeId) return;
     setIngredients([]);
+    setFetchError(false);
     setLoading(true);
     const supabase = createClient();
-    Promise.resolve(supabase
-      .from('recipes')
-      .select('ingredients')
-      .eq('id', recipeId)
-      .single())
-      .then(({ data }) => {
+    (async () => {
+      try {
+        const { data, error } = await supabase
+          .from('recipes')
+          .select('ingredients')
+          .eq('id', recipeId)
+          .single();
+        if (error) { setFetchError(true); setLoading(false); return; }
         const raw = (data?.ingredients ?? []) as unknown[];
         setIngredients(
           raw.map((r: unknown) => {
@@ -62,18 +66,24 @@ function useIngredients(recipeId: string | null) {
           }).filter(i => i.name)
         );
         setLoading(false);
-      })
-      .catch(() => { setLoading(false); });
+      } catch {
+        setFetchError(true);
+        setLoading(false);
+      }
+    })();
   }, [recipeId]);
 
-  return { ingredients, loading };
+  return { ingredients, loading, fetchError };
 }
 
 const SHOW_LIMIT = 7;
 
 function IngredientsSection({ recipeId }: { recipeId: string }) {
-  const { ingredients, loading } = useIngredients(recipeId);
+  const { ingredients, loading, fetchError } = useIngredients(recipeId);
   const [expanded, setExpanded] = useState(false);
+
+  // Reset collapse state when recipe changes
+  useEffect(() => { setExpanded(false); }, [recipeId]);
 
   const visible = expanded ? ingredients : ingredients.slice(0, SHOW_LIMIT);
   const hidden = ingredients.length - SHOW_LIMIT;
@@ -95,8 +105,12 @@ function IngredientsSection({ recipeId }: { recipeId: string }) {
         </div>
       )}
 
-      {!loading && visible.map((ing, i) => (
-        <div key={`${i}-${ing.name}`} className="flex justify-between py-1.5 text-sm border-b" style={{ borderColor: '#3A3430' }}>
+      {fetchError && (
+        <p className="text-xs" style={{ color: '#A08060' }}>Could not load ingredients.</p>
+      )}
+
+      {!loading && !fetchError && visible.map((ing, i) => (
+        <div key={i} className="flex justify-between py-1.5 text-sm border-b" style={{ borderColor: '#3A3430' }}>
           <span style={{ color: '#EFE3CE' }}>{ing.name}{ing.notes ? ` (${ing.notes})` : ''}</span>
           <span className="ml-4 shrink-0 text-xs" style={{ color: '#A08060' }}>
             {[ing.quantity, ing.unit].filter(Boolean).join(' ') || ''}
@@ -104,7 +118,7 @@ function IngredientsSection({ recipeId }: { recipeId: string }) {
         </div>
       ))}
 
-      {!loading && !expanded && hidden > 0 && (
+      {!loading && !fetchError && !expanded && hidden > 0 && (
         <button
           className="mt-2 text-xs"
           style={{ color: '#F4A261' }}
@@ -198,8 +212,8 @@ function ModalContent({ recipe }: { recipe: DetailRecipe }) {
       <div className="grid grid-cols-4 gap-2">
         {[
           { label: 'Time', value: totalMinutes ? `${totalMinutes} min` : '—' },
-          { label: 'Calories', value: recipe.calories ? `${recipe.calories} kcal` : '—' },
-          { label: 'Serves', value: recipe.servings ? `${recipe.servings}` : '—' },
+          { label: 'Calories', value: recipe.calories != null ? `${recipe.calories} kcal` : '—' },
+          { label: 'Serves', value: recipe.servings != null ? `${recipe.servings}` : '—' },
           { label: 'Cuisine', value: recipe.cuisine_type ?? '—' },
         ].map(({ label, value }) => (
           <div
@@ -231,9 +245,11 @@ function ModalContent({ recipe }: { recipe: DetailRecipe }) {
       {/* Ingredients */}
       <IngredientsSection recipeId={recipe.id} />
 
-      {/* View full recipe link */}
+      {/* View full recipe link — opens in new tab to preserve planner context */}
       <a
         href={`/recipes/${recipe.id}`}
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex items-center justify-center w-full py-2.5 rounded-lg text-sm font-medium border transition-colors"
         style={{ borderColor: '#F4A261', color: '#F4A261' }}
       >
