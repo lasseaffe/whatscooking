@@ -105,6 +105,9 @@ def _process_one(
         return "skip-no-source", title
     if "instagram.com" not in src:
         return "skip-not-ig", f"{title} ({src[:50]})"
+    # Only post/reel URLs are extractable. User profiles, IGTV, stories etc. can't be re-extracted.
+    if not any(p in src for p in ("/p/", "/reel/", "/tv/")):
+        return "skip-not-post", f"{title} ({src[:50]})"
 
     if dry_run:
         return "ok", f"{title}  <- {src}"
