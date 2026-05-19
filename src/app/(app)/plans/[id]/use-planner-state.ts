@@ -21,6 +21,7 @@ export interface WeaveRecipeMeta {
   macros_estimated: boolean | null;
   cuisine_type?: string | null;
   dish_types?: string[] | null;
+  pantry_match?: number;
 }
 
 export interface WeaveResponse extends SolverOutput {

@@ -221,10 +221,15 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     const { data } = await supabase
       .from("recipes")
       .select(
-        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated, cuisine_type, dish_types",
+        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated, cuisine_type, dish_types, ingredients",
       )
       .in("id", recipeIds);
-    recipeMeta = (data ?? []) as Array<Record<string, unknown>>;
+    recipeMeta = ((data ?? []) as Array<Record<string, unknown>>).map((r) => {
+      const pm = pantryMatch(r as { ingredients?: unknown });
+      const { ingredients: _ingredients, ...rest } = r;
+      void _ingredients;
+      return { ...rest, pantry_match: pm };
+    });
   }
 
   return NextResponse.json({
