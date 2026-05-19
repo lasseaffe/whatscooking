@@ -192,21 +192,55 @@ def pass1_fix_broken_images(supabase, dry_run: bool, limit: Optional[int]):
         print(f"  Pass 1 done -- fixed: 0, failed: 0, skipped: {skipped}")
         return 0, skipped
 
-    # Reuse one Playwright browser session for all recipes (saves ~1.5s per recipe)
+    # Reuse one Playwright browser; restart it every BROWSER_RECYCLE recipes to
+    # avoid memory bloat / page crashes that cascade and kill the whole run.
+    BROWSER_RECYCLE = 100
     from playwright.sync_api import sync_playwright
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
         try:
-            page = browser.new_page()
             for i, row in enumerate(actionable):
                 if i and i % 25 == 0:
                     print(f"  ... {i}/{len(actionable)} processed (fixed={fixed}, failed={failed})")
+
+                # Recycle the browser periodically to prevent crashes
+                if i and i % BROWSER_RECYCLE == 0:
+                    print(f"  [recycle] restarting browser at i={i}")
+                    try:
+                        browser.close()
+                    except Exception:
+                        pass
+                    browser = p.chromium.launch(headless=True)
+                    page = browser.new_page()
 
                 rid = row["id"]
                 title = row["title"] or "(untitled)"
                 source_url = row["source_url"]
 
-                new_image = _fetch_image_with_page(page, source_url)
+                try:
+                    new_image = _fetch_image_with_page(page, source_url)
+                except Exception as e:
+                    # If the page itself crashed (e.g. "Page.goto: Page crashed"),
+                    # recreate it so the next recipe can proceed.
+                    print(f"  [recover] page error: {e}; recreating page")
+                    try:
+                        page.close()
+                    except Exception:
+                        pass
+                    try:
+                        page = browser.new_page()
+                    except Exception:
+                        # If the browser itself died, relaunch
+                        try:
+                            browser.close()
+                        except Exception:
+                            pass
+                        browser = p.chromium.launch(headless=True)
+                        page = browser.new_page()
+                    new_image = None
+
                 if not new_image:
                     print(f"  FAIL  {title}")
                     failed += 1
@@ -227,7 +261,10 @@ def pass1_fix_broken_images(supabase, dry_run: bool, limit: Optional[int]):
                 else:
                     fixed += 1
         finally:
-            browser.close()
+            try:
+                browser.close()
+            except Exception:
+                pass
 
     print(f"  Pass 1 done -- fixed: {fixed}, failed: {failed}, skipped: {skipped}")
     return fixed, failed
