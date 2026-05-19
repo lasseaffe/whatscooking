@@ -2,11 +2,12 @@
 
 import { DndContext, PointerSensor, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
 import { WeaveCell } from './WeaveCell';
+import { DayDensityRibbon } from './DayDensityRibbon';
 import type { ProposedEntry, MealType } from '@/lib/weave-solver';
 
 interface Props {
   entries: ProposedEntry[];
-  recipes: Record<string, { image_url: string | null; focal_x?: number | null; focal_y?: number | null }>;
+  recipes: Record<string, { image_url: string | null; focal_x?: number | null; focal_y?: number | null; prep_time_minutes?: number | null; cook_time_minutes?: number | null }>;
   durationDays: number;
   mealTypes: MealType[];
   weekStart: string | null;
@@ -16,14 +17,31 @@ interface Props {
   tensionByClientid?: Record<string, { tension: number }>;
   conflictsByClientid?: Record<string, string[]>;
   onSwapCells?: (aClientid: string, bClientid: string) => void;
+  pantryPctByRecipeId?: Record<string, number>;
 }
 
 const MEAL_TYPE_LABEL: Record<string, string> = {
   breakfast: 'Breakfast', lunch: 'Lunch', dinner: 'Dinner', snack: 'Snack',
 };
 
-export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid, onSwapCells }: Props) {
+export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid, onSwapCells, pantryPctByRecipeId }: Props) {
   const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 5 } }));
+
+  function dayStats(day: number): { cookMinutes: number; hasLeftover: boolean; pantryPct: number } {
+    let cookMinutes = 0;
+    let hasLeftover = false;
+    let pantrySum = 0;
+    let pantryCount = 0;
+    for (const e of entries) {
+      if (e.day_number !== day) continue;
+      if (e.is_leftover) { hasLeftover = true; continue; }
+      const r = recipes[e.recipe_id];
+      if (r) cookMinutes += (r.prep_time_minutes ?? 0) + (r.cook_time_minutes ?? 0);
+      const p = pantryPctByRecipeId?.[e.recipe_id];
+      if (typeof p === 'number') { pantrySum += p; pantryCount += 1; }
+    }
+    return { cookMinutes, hasLeftover, pantryPct: pantryCount > 0 ? pantrySum / pantryCount : 0 };
+  }
 
   const handleDragEnd = (event: DragEndEvent) => {
     const a = event.active?.id;
@@ -51,11 +69,16 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
     <div className="overflow-x-auto">
       <div className="grid gap-2" style={{ gridTemplateColumns: `100px repeat(${durationDays}, minmax(140px, 1fr))` }}>
         <div />
-        {Array.from({ length: durationDays }).map((_, i) => (
-          <div key={i} className="text-xs text-center font-semibold pb-2" style={{ color: '#8A6A4A' }}>
-            {dayLabel(i + 1)}
-          </div>
-        ))}
+        {Array.from({ length: durationDays }).map((_, i) => {
+          const day = i + 1;
+          const stats = dayStats(day);
+          return (
+            <div key={i} className="text-xs text-center font-semibold pb-2" style={{ color: '#8A6A4A' }}>
+              <div>{dayLabel(day)}</div>
+              <DayDensityRibbon cookMinutes={stats.cookMinutes} hasLeftover={stats.hasLeftover} pantryPct={stats.pantryPct} />
+            </div>
+          );
+        })}
         {mealTypes.map(mt => (
           <div key={mt} className="contents">
             <div className="text-xs font-semibold py-2" style={{ color: '#6B4E36' }}>
