@@ -1,11 +1,20 @@
 import type { PinboardFilters } from '@/app/(app)/plans/[id]/use-planner-state';
+import { squadDislikeHits } from './recipe-match';
 
 export interface MatchBadge {
   label: string;
-  tone: 'pantry' | 'diet' | 'time' | 'batch' | 'inspiration';
+  tone: 'pantry' | 'diet' | 'time' | 'batch' | 'inspiration' | 'squad';
 }
 
-export function buildMatchBadges(recipe: any, filters: PinboardFilters): MatchBadge[] {
+export interface SquadHint {
+  dislike: string[];
+}
+
+export function buildMatchBadges(
+  recipe: any,
+  filters: PinboardFilters,
+  squad?: SquadHint,
+): MatchBadge[] {
   const badges: MatchBadge[] = [];
   if (typeof recipe.pantry_match === 'number' && recipe.pantry_match > 0.5) {
     badges.push({ label: `${Math.round(recipe.pantry_match * 100)}% pantry`, tone: 'pantry' });
@@ -19,6 +28,12 @@ export function buildMatchBadges(recipe: any, filters: PinboardFilters): MatchBa
   }
   if (recipe.batch_friendly && filters.batch_enabled) {
     badges.push({ label: '🍳 batch', tone: 'batch' });
+  }
+  if (filters.squad_aware && squad && squad.dislike.length > 0) {
+    const hits = squadDislikeHits(recipe, squad.dislike);
+    if (hits.length > 0) {
+      badges.push({ label: `👥 ${hits.slice(0, 2).join(', ')}`, tone: 'squad' });
+    }
   }
   return badges;
 }

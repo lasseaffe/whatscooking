@@ -120,11 +120,13 @@ export async function GET(req: NextRequest) {
       const im = inspirationMatch(r, inspirationTags);
       const ss = squad ? squadScore(r, squad) : 0;
       const score = pm * 0.5 + im * 0.5 + ss * 0.3;
-      // Strip ingredients from the response payload — clients don't need them.
+      // Strip ingredients from the response payload — clients don't need them,
+      // except when squad-aware (so PinboardFeed can compute dislike hits).
       const { ingredients: _ingredients, ...rest } = r;
       void _ingredients;
       return {
         ...rest,
+        ...(squad ? { ingredients: r.ingredients } : {}),
         pantry_match: pm,
         inspiration_match: im,
         score,
