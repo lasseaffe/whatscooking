@@ -197,6 +197,27 @@ def pass1_fix_broken_images(supabase, dry_run: bool, limit: Optional[int]):
     BROWSER_RECYCLE = 100
     from playwright.sync_api import sync_playwright
 
+    # Track image URLs we've already assigned in this run. If a site soft-blocks
+    # us, its error page may return the same generic OG image across many recipes
+    # (cross-contamination). Reject any URL we've already used.
+    seen_urls: set[str] = set()
+
+    # Pre-load existing non-Unsplash image_urls from DB so we won't dedup-collide
+    # with a recipe that already has this image (intentional or otherwise).
+    print("  Loading existing image URLs for dedup...")
+    existing = (
+        supabase.table("recipes")
+        .select("image_url")
+        .not_.is_("image_url", "null")
+        .execute()
+        .data or []
+    )
+    for r in existing:
+        u = r.get("image_url") or ""
+        if u and "unsplash.com" not in u:
+            seen_urls.add(u)
+    print(f"  Loaded {len(seen_urls)} existing non-Unsplash URLs as forbidden duplicates")
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
@@ -246,6 +267,14 @@ def pass1_fix_broken_images(supabase, dry_run: bool, limit: Optional[int]):
                     failed += 1
                     continue
 
+                # Dedup guard: reject any image URL already in use by another
+                # recipe. Soft-blocked source pages tend to return the same
+                # generic OG image across multiple URLs — this catches that.
+                if new_image in seen_urls:
+                    print(f"  DUPE  {title}  (image already used elsewhere — likely soft-block)")
+                    failed += 1
+                    continue
+
                 fx, fy = detect_focal_point(new_image)
                 print(f"  {'DRY ' if dry_run else ''}FIX   {title}  focal=({fx}%,{fy}%)  {new_image[:60]}...")
 
@@ -254,11 +283,13 @@ def pass1_fix_broken_images(supabase, dry_run: bool, limit: Optional[int]):
                         supabase.table("recipes").update(
                             {"image_url": new_image, "focal_x": fx, "focal_y": fy}
                         ).eq("id", rid).execute()
+                        seen_urls.add(new_image)
                         fixed += 1
                     except Exception as e:
                         print(f"         -> DB error: {e}")
                         failed += 1
                 else:
+                    seen_urls.add(new_image)
                     fixed += 1
         finally:
             try:
