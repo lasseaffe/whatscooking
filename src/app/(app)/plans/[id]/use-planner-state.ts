@@ -19,6 +19,8 @@ export interface WeaveRecipeMeta {
   prep_time_minutes: number | null;
   cook_time_minutes: number | null;
   macros_estimated: boolean | null;
+  cuisine_type?: string | null;
+  dish_types?: string[] | null;
 }
 
 export interface WeaveResponse extends SolverOutput {
@@ -162,6 +164,23 @@ export function usePlannerState(planId: string, initialStatus: PlanStatus, initi
     }) : prev);
   }, []);
 
+  const swapEntriesByClientid = useCallback((aClientid: string, bClientid: string) => {
+    setWeave(prev => {
+      if (!prev) return prev;
+      const a = prev.entries.find(e => e.clientid === aClientid);
+      const b = prev.entries.find(e => e.clientid === bClientid);
+      if (!a || !b) return prev;
+      return {
+        ...prev,
+        entries: prev.entries.map(e => {
+          if (e.clientid === aClientid) return { ...e, recipe_id: b.recipe_id, recipe_title: b.recipe_title };
+          if (e.clientid === bClientid) return { ...e, recipe_id: a.recipe_id, recipe_title: a.recipe_title };
+          return e;
+        }),
+      };
+    });
+  }, []);
+
   const removeEntry = useCallback((clientid: string) => {
     setWeave(prev => prev ? ({
       ...prev,
@@ -193,6 +212,6 @@ export function usePlannerState(planId: string, initialStatus: PlanStatus, initi
   return {
     pins, filters, weave, status, loading, canUndo: undoStack.length > 0,
     addPin, removePin, reorderPin, setFilters,
-    runWeave, swapEntry, removeEntry, pinSuggestion, undoWeave,
+    runWeave, swapEntry, swapEntriesByClientid, removeEntry, pinSuggestion, undoWeave,
   };
 }

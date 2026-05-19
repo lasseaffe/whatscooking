@@ -50,6 +50,24 @@ export function CookClient({ plan, entries: initialEntries, recipes }: Props) {
   const progress = summarizeCookProgress(entries);
   const today = todayDayNumber(plan.week_start);
 
+  // "Cook once, eat twice" — recipes that appear both as a cook entry and a leftover entry.
+  // Heuristic: same recipe_id used >=1 as non-leftover and >=1 as leftover in the same plan.
+  const cookOnceEatTwice = useMemo(() => {
+    const recipeCounts = new Map<string, { cook: number; reheat: number }>();
+    for (const e of entries) {
+      if (!e.recipe_id) continue;
+      const slot = recipeCounts.get(e.recipe_id) ?? { cook: 0, reheat: 0 };
+      if (e.is_leftover) slot.reheat += 1;
+      else slot.cook += 1;
+      recipeCounts.set(e.recipe_id, slot);
+    }
+    const ids = new Set<string>();
+    for (const [recipeId, count] of recipeCounts) {
+      if (count.cook >= 1 && count.reheat >= 1) ids.add(recipeId);
+    }
+    return ids;
+  }, [entries]);
+
   const todayEntries = today != null
     ? entries.filter(e => e.day_number === today).sort(mealOrder)
     : [];
@@ -98,6 +116,7 @@ export function CookClient({ plan, entries: initialEntries, recipes }: Props) {
               entries={todayEntries}
               recipes={recipeById}
               onToggleCooked={toggleCooked}
+              cookOnceEatTwice={cookOnceEatTwice}
             />
           )}
           <DayStack

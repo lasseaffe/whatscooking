@@ -8,6 +8,8 @@ import { ConstraintPicker } from './ConstraintPicker';
 import { MacroSummary } from './MacroSummary';
 import type { usePlannerState } from '@/app/(app)/plans/[id]/use-planner-state';
 import type { MealType, ProposedEntry } from '@/lib/weave-solver';
+import type { SolverRecipe } from '@/lib/weave-solver/types';
+import { computeTension } from '@/lib/weave-solver/tension';
 
 interface Props {
   state: ReturnType<typeof usePlannerState>;
@@ -105,6 +107,84 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
     };
   }
 
+  // Build solver pool for tension + neighbor-hint computations.
+  const solverPool = new Map<string, SolverRecipe>();
+  for (const p of state.pins) {
+    solverPool.set(p.recipe.id, {
+      id: p.recipe.id,
+      title: p.recipe.title,
+      image_url: p.recipe.image_url,
+      cuisine_type: p.recipe.cuisine_type,
+      dietary_tags: p.recipe.dietary_tags ?? [],
+      dish_types: [],
+      prep_time_minutes: p.recipe.prep_time_minutes,
+      cook_time_minutes: p.recipe.cook_time_minutes,
+      calories: p.recipe.calories,
+      protein_g: p.recipe.protein_g,
+      carbs_g: p.recipe.carbs_g,
+      fat_g: p.recipe.fat_g,
+      batch_friendly: p.recipe.batch_friendly,
+      pantry_match: 0,
+      inspiration_match: 0,
+    });
+  }
+  for (const r of state.weave.recipes ?? []) {
+    if (!solverPool.has(r.id)) {
+      solverPool.set(r.id, {
+        id: r.id,
+        title: '',
+        image_url: r.image_url ?? null,
+        cuisine_type: r.cuisine_type ?? null,
+        dietary_tags: [],
+        dish_types: r.dish_types ?? [],
+        prep_time_minutes: r.prep_time_minutes,
+        cook_time_minutes: r.cook_time_minutes,
+        calories: r.calories,
+        protein_g: r.protein_g,
+        carbs_g: r.carbs_g,
+        fat_g: r.fat_g,
+        batch_friendly: false,
+        pantry_match: 0,
+        inspiration_match: 0,
+      });
+    }
+  }
+
+  const tension = computeTension(state.weave.entries, solverPool);
+  const conflictsByClientid: Record<string, string[]> = {};
+  for (const c of tension.conflicts) {
+    (conflictsByClientid[c.clientid_a] ??= []).push(c.reason);
+    (conflictsByClientid[c.clientid_b] ??= []).push(c.reason);
+  }
+
+  // Compute neighbor hints for a slot (used by smart-swap picker).
+  const CLIENT_PROTEINS = ['chicken', 'beef', 'pork', 'lamb', 'salmon', 'tuna', 'shrimp', 'tofu', 'lentil', 'chickpea', 'duck', 'turkey'];
+  const detectProteinTitle = (title: string): string | null => {
+    const t = (title ?? '').toLowerCase();
+    for (const k of CLIENT_PROTEINS) if (t.includes(k)) return k;
+    return null;
+  };
+  const computeNeighborHints = (slot: { day: number; mealType: MealType }) => {
+    const avoidCuisines = new Set<string>();
+    const avoidProteins = new Set<string>();
+    const avoidDishTypes = new Set<string>();
+    for (const e of state.weave?.entries ?? []) {
+      if (Math.abs(e.day_number - slot.day) !== 1) continue;
+      if (e.meal_type !== slot.mealType) continue;
+      const r = solverPool.get(e.recipe_id);
+      if (!r) continue;
+      if (r.cuisine_type) avoidCuisines.add(r.cuisine_type);
+      for (const d of r.dish_types) avoidDishTypes.add(d);
+      const p = detectProteinTitle(r.title || e.recipe_title);
+      if (p) avoidProteins.add(p);
+    }
+    return {
+      avoidCuisines: [...avoidCuisines],
+      avoidProteins: [...avoidProteins],
+      avoidDishTypes: [...avoidDishTypes],
+    };
+  };
+
   const onCellTap = (day: number, mealType: MealType, entry: ProposedEntry | null) => {
     setPicker({ day, mealType, existing: entry });
   };
@@ -155,6 +235,9 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
         onCellTap={onCellTap}
         onCellRemove={state.removeEntry}
         onPinSuggestion={state.pinSuggestion}
+        tensionByClientid={tension.byClientid}
+        conflictsByClientid={conflictsByClientid}
+        onSwapCells={state.swapEntriesByClientid}
       />
       {picker && (
         <ConstraintPicker
@@ -166,6 +249,7 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
           onPick={onPick}
           onSuggestOne={suggestOne}
           onClose={() => setPicker(null)}
+          neighborHints={computeNeighborHints({ day: picker.day, mealType: picker.mealType })}
         />
       )}
     </section>

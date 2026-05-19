@@ -22,6 +22,7 @@ interface Props {
   entries: CookableEntry[];
   recipes: Record<string, Recipe>;
   onToggleCooked: (entryId: string, currentlyCooked: boolean) => void;
+  cookOnceEatTwice?: Set<string>;
 }
 
 const MEAL_LABEL: Record<string, string> = {
@@ -35,7 +36,7 @@ function dayLabel(dayNumber: number, weekStart: string | null): string {
   return d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'short' });
 }
 
-export function TodayCard({ dayNumber, weekStart, entries, recipes, onToggleCooked }: Props) {
+export function TodayCard({ dayNumber, weekStart, entries, recipes, onToggleCooked, cookOnceEatTwice }: Props) {
   return (
     <section
       className="rounded-2xl border p-5 flex flex-col gap-4"
@@ -81,8 +82,17 @@ export function TodayCard({ dayNumber, weekStart, entries, recipes, onToggleCook
                   {MEAL_LABEL[e.meal_type] ?? e.meal_type}
                   {e.is_leftover && <span className="ml-2" style={{ color: '#7AA350' }}>♻ leftover</span>}
                 </p>
-                <h3 className="text-sm font-semibold line-clamp-2" style={{ color: cooked ? '#8A6A4A' : '#EFE3CE', textDecoration: cooked ? 'line-through' : undefined }}>
-                  {e.recipe_title}
+                <h3 className="text-sm font-semibold line-clamp-2 flex items-center gap-2" style={{ color: cooked ? '#8A6A4A' : '#EFE3CE', textDecoration: cooked ? 'line-through' : undefined }}>
+                  <span className="line-clamp-2">{e.recipe_title}</span>
+                  {!e.is_leftover && e.recipe_id && cookOnceEatTwice?.has(e.recipe_id) && (
+                    <span
+                      className="text-xs px-1.5 py-0.5 rounded shrink-0"
+                      style={{ background: 'rgba(122, 163, 80, 0.2)', color: '#7AA350' }}
+                      title="Plan reuses this dish as leftovers"
+                    >
+                      🍳 2×
+                    </span>
+                  )}
                 </h3>
                 {!e.is_leftover && totalTime > 0 && (
                   <p className="text-xs" style={{ color: '#6B4E36' }}>

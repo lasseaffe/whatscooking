@@ -1,3 +1,11 @@
+export type SoundId =
+  | 'ceramic-tap'
+  | 'cloth-swipe'
+  | 'wooden-knock'
+  | 'stove-ignite'
+  | 'timer-drop'
+  | 'warm-bell'
+
 export interface OnboardingTheme {
   motion: 'smooth' | 'snappy' | 'terminal'
   accent: string
@@ -31,6 +39,8 @@ export interface OnboardingWaypoint {
   completeOn?: string
   celebrationText?: string
   celebrationSummary?: string[]
+  icon?: string
+  sound?: SoundId
 }
 
 export interface OnboardingBeacon {
@@ -45,6 +55,7 @@ export interface OnboardingConfig {
   wizard: { steps: OnboardingWizardStep[] }
   tour: { waypoints: OnboardingWaypoint[] }
   beacons: OnboardingBeacon[]
+  pickRecipeUrl?: string
 }
 
 export interface OnboardingState {
@@ -54,4 +65,5 @@ export interface OnboardingState {
   wizardAnswers: Record<string, string | string[]>
   dismissedBeacons: string[]
   completedActions: string[]
+  narrativeRecipeId: string | null
 }

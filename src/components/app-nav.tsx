@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass,
-  ChevronRight, ShoppingCart,
+  ChevronRight, ShoppingCart, Leaf,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
