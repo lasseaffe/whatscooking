@@ -21,6 +21,7 @@ export interface WeaveRecipeMeta {
   macros_estimated: boolean | null;
   cuisine_type?: string | null;
   dish_types?: string[] | null;
+  pantry_match?: number;
 }
 
 export interface WeaveResponse extends SolverOutput {
@@ -62,6 +63,7 @@ export interface PinboardFilters {
   anti_repeat: 'strict' | 'moderate' | 'off';
   batch_enabled: boolean;
   inspiration_tags: string[];
+  squad_aware: boolean;
 }
 
 const DEFAULT_FILTERS: PinboardFilters = {
@@ -74,6 +76,7 @@ const DEFAULT_FILTERS: PinboardFilters = {
   anti_repeat: 'moderate',
   batch_enabled: false,
   inspiration_tags: [],
+  squad_aware: true,
 };
 
 export function usePlannerState(planId: string, initialStatus: PlanStatus, initialFilters: Partial<PinboardFilters>) {

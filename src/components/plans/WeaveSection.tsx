@@ -150,6 +150,14 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
     }
   }
 
+  // Plan 5 D.1 — feed pantry_match from weave response into density ribbon.
+  const pantryPctByRecipeId: Record<string, number> = {};
+  for (const r of state.weave.recipes ?? []) {
+    if (typeof r.pantry_match === 'number') {
+      pantryPctByRecipeId[r.id] = r.pantry_match;
+    }
+  }
+
   const tension = computeTension(state.weave.entries, solverPool);
   const conflictsByClientid: Record<string, string[]> = {};
   for (const c of tension.conflicts) {
@@ -238,6 +246,7 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
         tensionByClientid={tension.byClientid}
         conflictsByClientid={conflictsByClientid}
         onSwapCells={state.swapEntriesByClientid}
+        pantryPctByRecipeId={pantryPctByRecipeId}
       />
       {picker && (
         <ConstraintPicker

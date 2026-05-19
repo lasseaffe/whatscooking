@@ -14,7 +14,10 @@ import {
   pantryMatch as computePantryMatch,
   pantryMissingCount as computePantryMissing,
   inspirationMatch as computeInspirationMatch,
+  squadHardFilter,
+  squadScore,
 } from "@/lib/recipe-match";
+import { resolveSquadPreferences } from "@/lib/plans/squad-resolve";
 
 const DEFAULT_CONSTRAINTS: SolverConstraints = {
   diet: [],
@@ -85,6 +88,12 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
 
   // 3. Load pantry once for pantry-match scoring
   const pantrySet = await loadPantrySet(supabase, user.id);
+
+  // 3b. Resolve squad preferences (auto-enable when ≥1 member; allow per-plan
+  // opt-out via pinboard_filters.squad_aware === false).
+  const squad = await resolveSquadPreferences(supabase, user.id);
+  const squadAware =
+    filters.squad_aware === false ? false : squad.members.length >= 1;
 
   function pantryMatch(recipe: { ingredients?: unknown }): number {
     return computePantryMatch(recipe, pantrySet);
@@ -169,7 +178,21 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
       !constraints.pantry_aware ||
       pantryMissingCount(r as { ingredients?: unknown }) <= constraints.pantry_missing_max,
     )
-    .map((r: Record<string, unknown>) => toSolverRecipe(r));
+    // Hard squad filter — only applied to the suggestion pool, not to pins
+    // (pins are an explicit user choice; surface a warning in the UI instead).
+    .filter((r: Record<string, unknown>) =>
+      !squadAware || squadHardFilter(r as { ingredients?: unknown }, squad.avoid),
+    )
+    .map((r: Record<string, unknown>) => {
+      const sr = toSolverRecipe(r);
+      if (squadAware) {
+        // Blend squad love/dislike into inspiration_match so the solver picks
+        // it up without a solver schema change.
+        const ss = squadScore(r as { ingredients?: unknown }, squad);
+        sr.inspiration_match = Math.max(-1, Math.min(1, sr.inspiration_match + ss));
+      }
+      return sr;
+    });
 
   // 7. Run solver
   const result = weave({
@@ -198,11 +221,20 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     const { data } = await supabase
       .from("recipes")
       .select(
-        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated, cuisine_type, dish_types",
+        "id, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated, cuisine_type, dish_types, ingredients",
       )
       .in("id", recipeIds);
-    recipeMeta = (data ?? []) as Array<Record<string, unknown>>;
+    recipeMeta = ((data ?? []) as Array<Record<string, unknown>>).map((r) => {
+      const pm = pantryMatch(r as { ingredients?: unknown });
+      const { ingredients: _ingredients, ...rest } = r;
+      void _ingredients;
+      return { ...rest, pantry_match: pm };
+    });
   }
 
-  return NextResponse.json({ ...result, recipes: recipeMeta });
+  return NextResponse.json({
+    ...result,
+    recipes: recipeMeta,
+    squad: squadAware ? squad : { members: [], avoid: [], dislike: [], love: [] },
+  });
 }

@@ -82,3 +82,70 @@ export function inspirationMatch(
   const hits = inspirationTags.filter((t) => tags.has(t)).length;
   return hits / inspirationTags.length;
 }
+
+// ---------------------------------------------------------------------------
+// Squad-aware helpers (Plan 5)
+// ---------------------------------------------------------------------------
+
+/** Lowercased trimmed ingredient names from a recipe row. */
+export function recipeIngredientNames(recipe: { ingredients?: unknown }): string[] {
+  const arr = Array.isArray(recipe?.ingredients) ? recipe.ingredients : [];
+  return arr
+    .map((i: unknown) => normalize(ingredientName(i)))
+    .filter((s): s is string => s.length > 0);
+}
+
+/**
+ * Hard squad filter — returns false if any avoid term appears as a substring
+ * of any ingredient name. Substring match is intentional (so "egg" catches
+ * "egg yolk" and "shelled egg") — documented v1 trade-off.
+ */
+export function squadHardFilter(
+  recipe: { ingredients?: unknown },
+  avoid: string[],
+): boolean {
+  if (avoid.length === 0) return true;
+  const ings = recipeIngredientNames(recipe);
+  for (const a of avoid) {
+    const needle = normalize(a);
+    if (!needle) continue;
+    for (const ing of ings) {
+      if (ing.includes(needle)) return false;
+    }
+  }
+  return true;
+}
+
+/**
+ * Soft squad score in [-1, +1]: -0.5 per dislike hit, +0.3 per love hit.
+ */
+export function squadScore(
+  recipe: { ingredients?: unknown },
+  squad: { dislike: string[]; love: string[] },
+): number {
+  const ings = recipeIngredientNames(recipe);
+  let score = 0;
+  for (const d of squad.dislike) {
+    const needle = normalize(d);
+    if (!needle) continue;
+    if (ings.some((i) => i.includes(needle))) score -= 0.5;
+  }
+  for (const l of squad.love) {
+    const needle = normalize(l);
+    if (!needle) continue;
+    if (ings.some((i) => i.includes(needle))) score += 0.3;
+  }
+  return Math.max(-1, Math.min(1, score));
+}
+
+/** Which dislike terms hit this recipe — used for UI warning badges. */
+export function squadDislikeHits(
+  recipe: { ingredients?: unknown },
+  dislike: string[],
+): string[] {
+  const ings = recipeIngredientNames(recipe);
+  return dislike.filter((d) => {
+    const needle = normalize(d);
+    return needle.length > 0 && ings.some((i) => i.includes(needle));
+  });
+}

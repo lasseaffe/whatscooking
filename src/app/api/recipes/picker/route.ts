@@ -8,7 +8,10 @@ import {
   pantryMatch,
   pantryMissingCount,
   inspirationMatch,
+  squadHardFilter,
+  squadScore,
 } from "@/lib/recipe-match";
+import { resolveSquadPreferences } from "@/lib/plans/squad-resolve";
 
 export async function GET(req: NextRequest) {
   const url = new URL(req.url);
@@ -52,7 +55,14 @@ export async function GET(req: NextRequest) {
     }
   }
 
-  const ranked = pantryAware || inspirationTags.length > 0;
+  const squadAwareParam = url.searchParams.get("squad_aware") === "1";
+  let squad: Awaited<ReturnType<typeof resolveSquadPreferences>> | null = null;
+  if (squadAwareParam) {
+    squad = await resolveSquadPreferences(supabase, user.id);
+    if (squad.members.length === 0) squad = null;
+  }
+
+  const ranked = pantryAware || inspirationTags.length > 0 || squad !== null;
 
   // When ranking we need ingredients + tags for scoring. Otherwise stick to the
   // legacy lean projection so existing callers don't pay for extra columns.
@@ -104,15 +114,19 @@ export async function GET(req: NextRequest) {
     .filter((r) =>
       !pantryAware || pantryMissingCount(r, pantrySet) <= pantryMissingMax,
     )
+    .filter((r) => !squad || squadHardFilter(r, squad.avoid))
     .map((r) => {
       const pm = pantryAware ? pantryMatch(r, pantrySet) : 0;
       const im = inspirationMatch(r, inspirationTags);
-      const score = pm * 0.5 + im * 0.5;
-      // Strip ingredients from the response payload — clients don't need them.
+      const ss = squad ? squadScore(r, squad) : 0;
+      const score = pm * 0.5 + im * 0.5 + ss * 0.3;
+      // Strip ingredients from the response payload — clients don't need them,
+      // except when squad-aware (so PinboardFeed can compute dislike hits).
       const { ingredients: _ingredients, ...rest } = r;
       void _ingredients;
       return {
         ...rest,
+        ...(squad ? { ingredients: r.ingredients } : {}),
         pantry_match: pm,
         inspiration_match: im,
         score,

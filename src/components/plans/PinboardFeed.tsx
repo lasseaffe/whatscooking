@@ -15,6 +15,23 @@ interface Props {
 export function PinboardFeed({ planId, filters, pins, onTogglePin }: Props) {
   const [recipes, setRecipes] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
+  const [squad, setSquad] = useState<{ dislike: string[] } | null>(null);
+
+  // One-time squad fetch (cached for the lifetime of the component).
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/household/squad-preferences')
+      .then((r) => (r.ok ? r.json() : { dislike: [] }))
+      .then((d: { dislike?: string[] }) => {
+        if (!cancelled) setSquad({ dislike: d.dislike ?? [] });
+      })
+      .catch(() => {
+        if (!cancelled) setSquad({ dislike: [] });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -27,12 +44,15 @@ export function PinboardFeed({ planId, filters, pins, onTogglePin }: Props) {
     if (filters.inspiration_tags.length > 0) {
       params.set('inspiration_tags', filters.inspiration_tags.join(','));
     }
+    if (filters.squad_aware) {
+      params.set('squad_aware', '1');
+    }
     setLoading(true);
     fetch(`/api/recipes/picker?${params}`)
       .then(r => r.ok ? r.json() : { recipes: [] })
       .then(d => setRecipes(d.recipes ?? []))
       .finally(() => setLoading(false));
-  }, [planId, filters.pantry_aware, filters.pantry_missing_max, filters.inspiration_tags]);
+  }, [planId, filters.pantry_aware, filters.pantry_missing_max, filters.inspiration_tags, filters.squad_aware]);
 
   const pinnedIds = new Set(pins.map(p => p.recipe_id));
 
@@ -44,7 +64,7 @@ export function PinboardFeed({ planId, filters, pins, onTogglePin }: Props) {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
       {recipes.map(r => {
         const pinned = pinnedIds.has(r.id);
-        const badges = buildMatchBadges(r, filters);
+        const badges = buildMatchBadges(r, filters, squad ?? undefined);
         return (
           <div
             key={r.id}

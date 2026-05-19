@@ -1,7 +1,42 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import type { PinboardFilters } from '@/app/(app)/plans/[id]/use-planner-state';
+
+interface SquadMember {
+  id: string;
+  name: string;
+  member_type: string;
+  avoid: string[];
+  dislike: string[];
+  love: string[];
+}
+
+interface SquadShape {
+  members: SquadMember[];
+  avoid: string[];
+  dislike: string[];
+  love: string[];
+}
+
+function useSquad(): SquadShape | null {
+  const [squad, setSquad] = useState<SquadShape | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/household/squad-preferences')
+      .then((r) => (r.ok ? r.json() : { members: [], avoid: [], dislike: [], love: [] }))
+      .then((d: SquadShape) => {
+        if (!cancelled) setSquad(d);
+      })
+      .catch(() => {
+        if (!cancelled) setSquad({ members: [], avoid: [], dislike: [], love: [] });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  return squad;
+}
 
 interface Props {
   filters: PinboardFilters;
@@ -12,6 +47,12 @@ const DIET_OPTIONS = ['vegan', 'vegetarian', 'gluten-free', 'dairy-free', 'pesca
 
 export function ConstraintChipBar({ filters, onChange }: Props) {
   const [open, setOpen] = useState<string | null>(null);
+  const squad = useSquad();
+  const members = squad?.members ?? [];
+  const squadLabel =
+    members.length === 0
+      ? `Squad ${filters.squad_size}`
+      : `Squad ${members.length} 👥${filters.squad_aware ? '' : ' (off)'}`;
 
   const close = () => setOpen(null);
 
@@ -69,12 +110,44 @@ export function ConstraintChipBar({ filters, onChange }: Props) {
 
       <Chip
         active
-        label={`Squad ${filters.squad_size}`}
+        label={squadLabel}
         onClick={() => setOpen(open === 'squad' ? null : 'squad')}
       />
       {open === 'squad' && (
         <Popover onClose={close}>
-          <NumberSlider value={filters.squad_size} onChange={v => onChange({ squad_size: v })} min={1} max={8} step={1} />
+          <label className="flex items-center gap-2 mb-3 text-sm" style={{ color: '#EFE3CE' }}>
+            <input
+              type="checkbox"
+              checked={filters.squad_aware}
+              onChange={(e) => onChange({ squad_aware: e.target.checked })}
+              disabled={members.length === 0}
+            />
+            Apply preferences{members.length === 0 ? ' (no members)' : ''}
+          </label>
+          {members.length === 0 ? (
+            <p className="text-xs" style={{ color: '#6B4E36' }}>
+              No household members yet. Add one in{' '}
+              <a href="/household" style={{ color: '#E67E22' }}>Household</a>.
+            </p>
+          ) : (
+            <ul className="flex flex-col gap-2 max-h-48 overflow-y-auto">
+              {members.map((m) => (
+                <li key={m.id} className="text-sm">
+                  <span style={{ color: '#EFE3CE' }}>{m.name}</span>
+                  <span className="text-xs ml-2" style={{ color: '#6B4E36' }}>· {m.member_type}</span>
+                  <div className="flex flex-wrap gap-1 mt-0.5">
+                    {m.avoid.map((t) => <SquadTag key={`a-${t}`} tone="avoid" text={t} />)}
+                    {m.dislike.map((t) => <SquadTag key={`d-${t}`} tone="dislike" text={t} />)}
+                    {m.love.slice(0, 4).map((t) => <SquadTag key={`l-${t}`} tone="love" text={t} />)}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+          <div className="mt-3 pt-3" style={{ borderTop: '1px solid #2A1F14' }}>
+            <p className="text-xs mb-1" style={{ color: '#6B4E36' }}>Squad size for portions</p>
+            <NumberSlider value={filters.squad_size} onChange={v => onChange({ squad_size: v })} min={1} max={8} step={1} />
+          </div>
         </Popover>
       )}
 
@@ -139,6 +212,23 @@ function Popover({ children, onClose }: { children: React.ReactNode; onClose: ()
         {children}
       </div>
     </>
+  );
+}
+
+function SquadTag({ tone, text }: { tone: 'avoid' | 'dislike' | 'love'; text: string }) {
+  const color =
+    tone === 'avoid'
+      ? { bg: 'rgba(200, 90, 47, 0.18)', fg: '#E67E22' }
+      : tone === 'dislike'
+        ? { bg: 'rgba(242, 201, 76, 0.15)', fg: '#F2C94C' }
+        : { bg: 'rgba(122, 163, 80, 0.15)', fg: '#7AA350' };
+  return (
+    <span
+      className="text-xs px-1.5 py-0.5 rounded"
+      style={{ background: color.bg, color: color.fg }}
+    >
+      {text}
+    </span>
   );
 }
 
