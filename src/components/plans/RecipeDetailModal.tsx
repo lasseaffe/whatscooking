@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { createClient } from '@/lib/supabase/client';
 import { RecipeImage } from '@/components/recipe-image';
 
 export interface DetailRecipe {
@@ -23,6 +24,96 @@ export interface DetailRecipe {
 interface Props {
   recipe: DetailRecipe | null;
   onClose: () => void;
+}
+
+interface Ingredient {
+  name: string;
+  quantity?: string | number | null;
+  unit?: string | null;
+  notes?: string | null;
+}
+
+function useIngredients(recipeId: string | null) {
+  const [ingredients, setIngredients] = useState<Ingredient[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!recipeId) return;
+    setIngredients([]);
+    setLoading(true);
+    const supabase = createClient();
+    supabase
+      .from('recipes')
+      .select('ingredients')
+      .eq('id', recipeId)
+      .single()
+      .then(({ data }) => {
+        const raw = (data?.ingredients ?? []) as unknown[];
+        setIngredients(
+          raw.map((r: unknown) => {
+            if (typeof r === 'string') return { name: r };
+            const obj = r as Record<string, unknown>;
+            return {
+              name: String(obj.name ?? obj.ingredient ?? ''),
+              quantity: obj.quantity != null ? String(obj.quantity) : null,
+              unit: obj.unit != null ? String(obj.unit) : null,
+              notes: obj.notes != null ? String(obj.notes) : null,
+            };
+          }).filter(i => i.name)
+        );
+        setLoading(false);
+      });
+  }, [recipeId]);
+
+  return { ingredients, loading };
+}
+
+const SHOW_LIMIT = 7;
+
+function IngredientsSection({ recipeId }: { recipeId: string }) {
+  const { ingredients, loading } = useIngredients(recipeId);
+  const [expanded, setExpanded] = useState(false);
+
+  const visible = expanded ? ingredients : ingredients.slice(0, SHOW_LIMIT);
+  const hidden = ingredients.length - SHOW_LIMIT;
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-2">
+        <h3 className="text-sm font-semibold" style={{ color: '#EFE3CE' }}>
+          Ingredients{ingredients.length > 0 ? ` (${ingredients.length})` : ''}
+        </h3>
+      </div>
+      <div className="h-px mb-3" style={{ background: '#3A3430' }} />
+
+      {loading && (
+        <div className="flex flex-col gap-2">
+          {[1, 2, 3].map(i => (
+            <div key={i} className="h-4 rounded animate-pulse" style={{ background: '#3A3430', width: `${60 + i * 10}%` }} />
+          ))}
+        </div>
+      )}
+
+      {!loading && visible.map((ing, i) => (
+        <div key={i} className="flex justify-between py-1.5 text-sm border-b" style={{ borderColor: '#3A3430' }}>
+          <span style={{ color: '#EFE3CE' }}>{ing.name}{ing.notes ? ` (${ing.notes})` : ''}</span>
+          <span className="ml-4 shrink-0 text-xs" style={{ color: '#A08060' }}>
+            {[ing.quantity, ing.unit].filter(Boolean).join(' ') || ''}
+          </span>
+        </div>
+      ))}
+
+      {!loading && !expanded && hidden > 0 && (
+        <button
+          className="mt-2 text-xs"
+          style={{ color: '#F4A261' }}
+          onClick={() => setExpanded(true)}
+        >
+          + {hidden} more
+        </button>
+      )}
+    </div>
+  );
 }
 
 export function RecipeDetailModal({ recipe, onClose }: Props) {
@@ -135,6 +226,18 @@ function ModalContent({ recipe }: { recipe: DetailRecipe }) {
           ))}
         </div>
       )}
+
+      {/* Ingredients */}
+      <IngredientsSection recipeId={recipe.id} />
+
+      {/* View full recipe link */}
+      <a
+        href={`/recipes/${recipe.id}`}
+        className="flex items-center justify-center w-full py-2.5 rounded-lg text-sm font-medium border transition-colors"
+        style={{ borderColor: '#F4A261', color: '#F4A261' }}
+      >
+        View full recipe →
+      </a>
     </>
   );
 }
