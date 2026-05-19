@@ -18,7 +18,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
 
   if (done || session.deck.length === 0) {
     return (
-      <div className="min-h-screen" style={{ background: "#FFFBF7" }}>
+      <div className="min-h-screen" style={{ background: "transparent" }}>
         <MatchScreen
           liked={liked}
           savedIds={savedIds}
@@ -30,7 +30,7 @@ export function SwipeClient({ recipes, initialSavedIds }: { recipes: SwipeRecipe
   }
 
   return (
-    <div className="flex flex-col items-center min-h-screen px-4 pb-24 pt-6" style={{ background: "#FFFBF7" }}>
+    <div className="flex flex-col items-center min-h-screen px-4 pb-24 pt-6" style={{ background: "transparent" }}>
       {session.previewRecipe && (
         <RecipePreviewSheet
           recipe={session.previewRecipe}

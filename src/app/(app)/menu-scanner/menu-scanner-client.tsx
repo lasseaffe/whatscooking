@@ -127,7 +127,7 @@ export function MenuScannerClient() {
   const categories = [...new Set((result?.dishes ?? []).map((d) => d.category))];
 
   return (
-    <div className="min-h-screen" style={{ background: "#FFFBF7" }}>
+    <div className="min-h-screen" style={{ background: "transparent" }}>
       {/* Header */}
       <div className="px-6 py-5 border-b" style={{ borderColor: "#F0E8DC", background: "#fff" }}>
         <div className="max-w-3xl mx-auto">

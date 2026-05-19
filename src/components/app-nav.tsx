@@ -150,26 +150,6 @@ export function AppNav() {
   return (
     <>
       <style>{`
-        .wc-nav {
-          width: ${NAV_COLLAPSED_W}px;
-          transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-          flex-shrink: 0;
-        }
-        .wc-nav:hover,
-        .wc-nav.wc-nav--flyout-open { width: 320px; }
-        /* Delay collapse so cursor can move to flyout panel */
-        .wc-nav:not(:hover):not(.wc-nav--flyout-open) {
-          transition-delay: 0.15s;
-        }
-        /* Push main content beside the nav; expand when sidebar opens */
-        .wc-main-content {
-          margin-left: 70px;
-          transition: margin-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-        body[data-nav-expanded="true"] .wc-main-content {
-          margin-left: 320px;
-        }
-
         /* Labels */
         .wc-lbl {
           opacity: 0;

@@ -632,10 +632,10 @@ html[data-palette="midnight-pantry"] {
   html {
     font-family: var(--font-plus-jakarta-sans, 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif);
     line-height: 1.5;
-    background-color: var(--bg-base);
+    background-color: #2d2d2b;
     background-image: url('/kitchen-pattern.png');
     background-repeat: repeat;
-    background-size: auto;
+    background-size: 500px auto;
     transition: background-color 0.25s ease;
   }
 
@@ -1581,4 +1581,26 @@ html[data-theme="light"] {
 /* ── Feature card demo reveal on hover ──────────────── */
 .feature-cell:hover .feature-demo-reveal {
   max-height: 12rem !important;
+}
+
+/* ── Sidebar layout — must live in globals so it applies on first paint
+       (the AppNav <style> tag is client-only and causes overlap until hydration) ── */
+.wc-nav {
+  width: 70px;
+  transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  flex-shrink: 0;
+}
+.wc-nav:hover,
+.wc-nav.wc-nav--flyout-open {
+  width: 320px;
+}
+.wc-nav:not(:hover):not(.wc-nav--flyout-open) {
+  transition-delay: 0.15s;
+}
+.wc-main-content {
+  margin-left: 70px;
+  transition: margin-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+body[data-nav-expanded="true"] .wc-main-content {
+  margin-left: 320px;
 }

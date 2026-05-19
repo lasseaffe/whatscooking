@@ -15,8 +15,7 @@ interface Props {
 }
 
 export function QuickEasySection({ recipes }: Props) {
-  // Hide section if fewer than 3 recipes
-  if (recipes.length < 3) return null;
+  if (recipes.length === 0) return null;
 
   return (
     <div
