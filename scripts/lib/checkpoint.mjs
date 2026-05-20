@@ -36,6 +36,6 @@ export function logFailed(mode, id, title, reason) {
 }
 
 export function clearCheckpoint(mode) {
-  const p = checkpointPath(mode);
-  if (existsSync(p)) writeFileSync(p, '[]', 'utf8');
+  ensureDir();
+  writeFileSync(checkpointPath(mode), '[]', 'utf8');
 }
