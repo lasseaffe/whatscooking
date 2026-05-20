@@ -89,14 +89,18 @@ async function main() {
   console.log(`\n📝 Description Backfill | model: ${MODEL} | concurrency: ${CONCURRENCY}`);
   if (DRY_RUN) console.log('🔍 DRY RUN — no API calls, no writes');
 
-  // Fetch candidates
+  const done = RESET ? new Set() : loadCheckpoint(MODE);
+
+  // Fetch candidates — exclude already-checkpointed IDs so --limit means
+  // "total session cap": if LIMIT=4 and 4 are already done, fetch 0 new ones.
+  const remaining = LIMIT ? Math.max(0, LIMIT - done.size) : null;
+
   let query = supabase.from('recipes').select('id, title, description, ingredients, cuisine_type, dish_types, difficulty_level').or('description.is.null,description.eq."",description.eq.description missing').order('id');
-  if (LIMIT) query = query.limit(LIMIT);
+  if (remaining !== null) query = query.limit(remaining === 0 ? 1 : remaining); // fetch at least 1 to allow filter below
   const { data: allRecipes, error } = await query;
   if (error) { console.error('Supabase fetch error:', error); process.exit(1); }
 
-  const done = RESET ? new Set() : loadCheckpoint(MODE);
-  const recipes = allRecipes.filter(r => isMissing(r.description) && !done.has(r.id));
+  const recipes = (allRecipes || []).filter(r => isMissing(r.description) && !done.has(r.id)).slice(0, remaining ?? undefined);
 
   console.log(`📊 ${recipes.length} recipes need descriptions (${done.size} already done)\n`);
   if (recipes.length === 0) { console.log('✅ Nothing to do!'); return; }

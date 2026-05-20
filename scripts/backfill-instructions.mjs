@@ -100,13 +100,17 @@ async function main() {
   console.log(`\nInstruction Enhancement Backfill | model: ${MODEL} | concurrency: ${CONCURRENCY}`);
   if (DRY_RUN) console.log('DRY RUN -- no API calls, no writes');
 
+  const done = RESET ? new Set() : loadCheckpoint(MODE);
+
+  // Exclude checkpointed IDs so --limit is a total session cap.
+  const remaining = LIMIT ? Math.max(0, LIMIT - done.size) : null;
+
   let query = supabase.from('recipes').select('id, title, instructions').is('instructions_enhanced', null).order('id');
-  if (LIMIT) query = query.limit(LIMIT);
+  if (remaining !== null) query = query.limit(remaining === 0 ? 1 : remaining);
   const { data: allRecipes, error } = await query;
   if (error) { console.error('Supabase fetch error:', error); process.exit(1); }
 
-  const done = RESET ? new Set() : loadCheckpoint(MODE);
-  const recipes = allRecipes.filter(r => !done.has(r.id));
+  const recipes = (allRecipes || []).filter(r => !done.has(r.id)).slice(0, remaining ?? undefined);
 
   console.log(`${recipes.length} recipes need instruction enhancement (${done.size} already done)\n`);
   if (recipes.length === 0) { console.log('Nothing to do!'); return; }
