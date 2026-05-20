@@ -90,7 +90,7 @@ async function main() {
   if (DRY_RUN) console.log('🔍 DRY RUN — no API calls, no writes');
 
   // Fetch candidates
-  let query = supabase.from('recipes').select('id, title, description, ingredients, cuisine_type, dish_types, difficulty_level').is('description', null).order('id');
+  let query = supabase.from('recipes').select('id, title, description, ingredients, cuisine_type, dish_types, difficulty_level').or('description.is.null,description.eq."",description.eq.description missing').order('id');
   if (LIMIT) query = query.limit(LIMIT);
   const { data: allRecipes, error } = await query;
   if (error) { console.error('Supabase fetch error:', error); process.exit(1); }
@@ -143,9 +143,10 @@ async function main() {
     console.log(` ✅ (${elapsed}min total)`);
 
     if (pendingBatch.length >= BATCH_SIZE) {
-      await processBatch(pendingBatch, supabase);
+      const batchToFlush = pendingBatch;
+      pendingBatch = [];                          // reset immediately, before any await
+      await processBatch(batchToFlush, supabase);
       saveCheckpoint(MODE, done);
-      pendingBatch = [];
     }
   }
 
