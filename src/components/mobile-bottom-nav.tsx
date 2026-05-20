@@ -6,7 +6,7 @@ import { useState } from "react";
 import {
   LayoutDashboard, UtensilsCrossed, Calendar, ShoppingBasket,
   ChefHat, Heart, BookOpen, Globe, Target,
-  PartyPopper, User, Settings, X, LogOut, Leaf, Trophy,
+  PartyPopper, User, Settings, X, LogOut, Leaf, Trophy, Swords,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
@@ -19,6 +19,7 @@ const PRIMARY_TABS = [
 ];
 
 const MORE_ITEMS = [
+  { href: "/challenge",      label: "Challenge Mode",  icon: Swords },
   { href: "/saved",          label: "Saved Recipes",   icon: Heart },
   { href: "/my-recipes",     label: "My Recipes",      icon: BookOpen },
   { href: "/cookbooks",      label: "Cookbooks",       icon: BookOpen },

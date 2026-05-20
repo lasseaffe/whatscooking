@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
-  Target, LogOut, Globe, Trophy, Compass,
+  Target, LogOut, Globe, Trophy, Compass, Swords,
   ChevronRight, ShoppingCart, Leaf,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
@@ -49,6 +49,12 @@ const NAV_GROUPS: NavGroup[] = [
         label: "All Recipes",
         icon: UtensilsCrossed,
         desc: "",
+      },
+      {
+        href: "/challenge",
+        label: "Challenge Mode",
+        icon: Swords,
+        desc: "Cook with crazy rules",
       },
     ],
   },
@@ -291,9 +297,7 @@ export function AppNav() {
           max-width: 260px;
           border-radius: 14px;
           border: 1px solid var(--wc-border-default, rgba(90,50,20,0.5));
-          background: var(--wc-bg-base, rgba(14, 9, 5, 0.97));
-          backdrop-filter: blur(28px);
-          -webkit-backdrop-filter: blur(28px);
+          background: var(--wc-bg-base, #0E0905);
           box-shadow: 0 28px 80px rgba(0,0,0,0.7), 0 4px 16px rgba(0,0,0,0.4);
           padding: 6px;
           animation: wc-fo-in 0.2s cubic-bezier(0.22,1,0.36,1) both;
