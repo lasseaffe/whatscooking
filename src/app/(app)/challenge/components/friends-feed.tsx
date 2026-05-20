@@ -12,9 +12,10 @@ interface CompletionWithReactions extends ChallengeCompletion {
 interface Props {
   completions: CompletionWithReactions[];
   currentUserId: string;
+  onChallengeThem?: (challengeId: string) => void;
 }
 
-export function FriendsFeed({ completions, currentUserId }: Props) {
+export function FriendsFeed({ completions, currentUserId, onChallengeThem }: Props) {
   const [reactions, setReactions] = useState<Record<string, { count: number; iReacted: boolean }>>(
     Object.fromEntries(completions.map(c => [c.id, { count: c.reaction_count, iReacted: c.i_reacted }]))
   );
@@ -109,6 +110,20 @@ export function FriendsFeed({ completions, currentUserId }: Props) {
               >
                 👏 {r.count}
               </button>
+              {!isOwnPost && c.challenge_id && (
+                <button
+                  onClick={() => onChallengeThem?.(c.challenge_id)}
+                  style={{
+                    background: 'transparent',
+                    border: '1px solid var(--rc-rim,#3A3430)',
+                    borderRadius: 7, padding: '5px 12px',
+                    color: 'var(--fg-tertiary,#9c9c9b)',
+                    fontSize: 11, cursor: 'pointer',
+                  }}
+                >
+                  ⚔️ Challenge them
+                </button>
+              )}
             </div>
           </div>
         );

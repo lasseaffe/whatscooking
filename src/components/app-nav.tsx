@@ -54,7 +54,7 @@ const NAV_GROUPS: NavGroup[] = [
         href: "/challenge",
         label: "Challenge Mode",
         icon: Swords,
-        desc: "Cook with crazy rules",
+        desc: "Cooking with rules",
       },
     ],
   },

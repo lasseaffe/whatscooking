@@ -45,7 +45,8 @@ export default async function ChallengePage() {
   const allHouseholdIds = [user.id, ...householdIds];
 
   const weekStart = new Date();
-  weekStart.setDate(weekStart.getDate() - weekStart.getDay());
+  const day = weekStart.getDay();
+  weekStart.setDate(weekStart.getDate() - ((day + 6) % 7)); // Monday start (ISO)
   weekStart.setHours(0, 0, 0, 0);
 
   const { data: weekCompletions } = await supabase
