@@ -1,4 +1,4 @@
-import { formatElapsed, chunkArray, CATEGORY_LABEL, DIFFICULTY_COLOR } from '../utils';
+import { formatElapsed, chunkArray, CATEGORY_LABEL, DIFFICULTY_COLOR, CATEGORY_SUBTITLE, CATEGORY_GRADIENT } from '../utils';
 
 describe('formatElapsed', () => {
   it('formats seconds under a minute', () => {
@@ -43,5 +43,19 @@ describe('DIFFICULTY_COLOR', () => {
       expect(DIFFICULTY_COLOR[d].bg).toBeTruthy();
       expect(DIFFICULTY_COLOR[d].label).toBeTruthy();
     });
+  });
+});
+
+describe('CATEGORY_SUBTITLE', () => {
+  it('has an entry for every category', () => {
+    const cats = ['handicap','appliance','speedrun','wildcard','dare'] as const;
+    cats.forEach(c => expect(CATEGORY_SUBTITLE[c]).toBeTruthy());
+  });
+});
+
+describe('CATEGORY_GRADIENT', () => {
+  it('has an entry for every category', () => {
+    const cats = ['handicap','appliance','speedrun','wildcard','dare'] as const;
+    cats.forEach(c => expect(CATEGORY_GRADIENT[c]).toBeTruthy());
   });
 });
