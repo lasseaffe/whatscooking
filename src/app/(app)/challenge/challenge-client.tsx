@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import type { ChallengeDef, ChallengeCompletion, ActiveChallenge } from './types';
 import { ChallengeHero } from './components/challenge-hero';
 import { ActiveBanner } from './components/active-banner';
@@ -42,6 +43,7 @@ export function ChallengeClient({
   allChallenges, byCategory, daily, completions,
   leaderboard, householdFeed, currentUserId, streakDays,
 }: Props) {
+  const router = useRouter();
   const [tab, setTab] = useState<Tab>('browse');
   const [pendingActive, setPendingActive] = useState<ActiveChallenge | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
@@ -52,7 +54,8 @@ export function ChallengeClient({
 
   function handleDone() {
     setPendingActive(null);
-    window.location.reload();
+    router.refresh();
+    setRefreshKey(k => k + 1);
   }
 
   return (

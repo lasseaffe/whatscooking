@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import type { ChallengeCompletion } from '../types';
 import { DIFFICULTY_COLOR } from '../utils';
 
@@ -20,16 +20,30 @@ export function FriendsFeed({ completions, currentUserId, onChallengeThem }: Pro
     Object.fromEntries(completions.map(c => [c.id, { count: c.reaction_count, iReacted: c.i_reacted }]))
   );
 
+  useEffect(() => {
+    setReactions(
+      Object.fromEntries(
+        completions.map(c => [c.id, { count: c.reaction_count, iReacted: c.i_reacted }])
+      )
+    );
+  }, [completions]);
+
   async function toggleReaction(completionId: string) {
     const current = reactions[completionId] ?? { count: 0, iReacted: false };
-    setReactions(r => ({ ...r, [completionId]: { count: current.iReacted ? current.count - 1 : current.count + 1, iReacted: !current.iReacted } }));
+    const optimistic = { count: current.iReacted ? current.count - 1 : current.count + 1, iReacted: !current.iReacted };
+    setReactions(r => ({ ...r, [completionId]: optimistic }));
 
-    const method = current.iReacted ? 'DELETE' : 'POST';
-    await fetch('/api/challenge/reactions', {
-      method,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ completion_id: completionId }),
-    });
+    try {
+      const method = current.iReacted ? 'DELETE' : 'POST';
+      const res = await fetch('/api/challenge/reactions', {
+        method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ completion_id: completionId }),
+      });
+      if (!res.ok) throw new Error('Reaction failed');
+    } catch {
+      setReactions(r => ({ ...r, [completionId]: current }));
+    }
   }
 
   if (completions.length === 0) {

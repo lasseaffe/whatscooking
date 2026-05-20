@@ -104,7 +104,7 @@ export function MobileBottomNav() {
         >
           <div className="grid grid-cols-2 gap-1.5">
             {MORE_ITEMS.map(({ href, label, icon: Icon }) => {
-              const active = isActive(href);
+              const itemActive = isActive(href);
               return (
                 <Link
                   key={href}
@@ -112,9 +112,9 @@ export function MobileBottomNav() {
                   onClick={() => setSheetOpen(false)}
                   className="flex items-center gap-3 rounded-xl px-3 py-3 transition-colors"
                   style={{
-                    background: active ? "rgba(42,24,8,0.8)" : "transparent",
-                    color: active ? "#F4A261" : "#9A7A58",
-                    border: active ? "1px solid rgba(200,82,42,0.2)" : "1px solid transparent",
+                    background: itemActive ? "rgba(42,24,8,0.8)" : "transparent",
+                    color: itemActive ? "#F4A261" : "#9A7A58",
+                    border: itemActive ? "1px solid rgba(200,82,42,0.2)" : "1px solid transparent",
                   }}
                   data-tour={
                     href === "/cookbooks" ? "cookbooks-nav" :

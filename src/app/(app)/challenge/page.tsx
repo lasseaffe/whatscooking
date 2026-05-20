@@ -101,13 +101,17 @@ export default async function ChallengePage() {
 
   let streakDays = 0;
   const today = new Date().toDateString();
-  const yesterday = new Date(Date.now() - 86400000).toDateString();
+  // Fix: DST-safe yesterday
+  const yesterdayDate = new Date();
+  yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+  const yesterday = yesterdayDate.toDateString();
   if (sortedDates[0] === today || sortedDates[0] === yesterday) {
     let check = new Date(sortedDates[0]);
     for (const d of sortedDates) {
       if (new Date(d).toDateString() === check.toDateString()) {
         streakDays++;
-        check = new Date(check.getTime() - 86400000);
+        check = new Date(check);
+        check.setDate(check.getDate() - 1);
       } else break;
     }
   }
