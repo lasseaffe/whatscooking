@@ -53,7 +53,7 @@ create policy "users read household completions"
     user_id in (
       select hm.linked_user_id
       from household_members hm
-      inner join household_members me on me.household_id = hm.household_id
+      inner join household_members me on me.kitchen_group_id = hm.kitchen_group_id
       where me.linked_user_id = auth.uid()
         and hm.linked_user_id is not null
     )
