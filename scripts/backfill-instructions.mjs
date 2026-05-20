@@ -64,6 +64,7 @@ function fallbackStep(stepText) {
     skill: { beginner: '', pro: '' },
     jargon: [],
     visual_strategy: '',
+    _isFallback: true,
   };
 }
 
@@ -77,7 +78,6 @@ async function enhanceStep(apiKey, title, stepText, stepIndex, totalSteps) {
       process.stdout.write(' [parse fail]');
     } catch (e) {
       process.stdout.write(` [${e.message.slice(0, 20)}]`);
-      if (attempt === 0) continue;
     }
   }
   return fallbackStep(stepText);
@@ -85,7 +85,8 @@ async function enhanceStep(apiKey, title, stepText, stepIndex, totalSteps) {
 
 async function processBatch(batch, supabase) {
   for (const r of batch) {
-    const { error } = await supabase.from('recipes').update({ instructions_enhanced: r._generated }).eq('id', r.id);
+    const cleaned = r._generated.map(({ _isFallback, ...step }) => step);
+    const { error } = await supabase.from('recipes').update({ instructions_enhanced: cleaned }).eq('id', r.id);
     if (error) console.warn('\n  WARNING  Supabase write error:', error.message);
   }
 }
@@ -134,6 +135,9 @@ async function main() {
       const step = await enhanceStep(apiKey, recipe.title, steps[i], i, steps.length);
       enhanced.push(step);
     }
+
+    const fallbackCount = enhanced.filter(s => s._isFallback).length;
+    if (fallbackCount > 0) failed += fallbackCount;
 
     recipe._generated = enhanced;
     pendingBatch.push(recipe);
