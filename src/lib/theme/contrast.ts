@@ -2,6 +2,7 @@ export interface RGB { r: number; g: number; b: number }
 
 export function hexToRgb(hex: string): RGB | null {
   const clean = hex.replace(/^#/, "");
+  if (!/^[0-9a-fA-F]+$/.test(clean)) return null;
   let r: number, g: number, b: number;
   if (clean.length === 3) {
     r = parseInt(clean[0] + clean[0], 16);

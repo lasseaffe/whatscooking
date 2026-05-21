@@ -13,6 +13,12 @@ describe("hexToRgb", () => {
   it("returns null for invalid input", () => {
     expect(hexToRgb("not-a-color")).toBeNull();
   });
+  it("returns null for a 6-char string with non-hex characters", () => {
+    expect(hexToRgb("#1z2z3z")).toBeNull();
+  });
+  it("returns null for a 3-char string with non-hex characters", () => {
+    expect(hexToRgb("#xyz")).toBeNull();
+  });
 });
 
 describe("relativeLuminance", () => {
