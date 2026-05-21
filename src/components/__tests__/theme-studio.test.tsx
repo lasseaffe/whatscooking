@@ -21,6 +21,10 @@ jest.mock("@/lib/theme/remote", () => ({
   removeRemoteTheme: jest.fn(),
 }));
 
+beforeEach(() => {
+  jest.clearAllMocks();
+});
+
 describe("ThemeStudio", () => {
   it("renders the 'Backgrounds' group heading", () => {
     render(<ThemeStudio />);
@@ -48,8 +52,7 @@ describe("ThemeStudio", () => {
     render(<ThemeStudio />);
     const resetBtn = screen.getByRole("button", { name: /reset to defaults/i });
     fireEvent.click(resetBtn);
-    // After reset, applyTokens should be called with default tokens
     const { applyTokens } = require("@/lib/theme/apply");
-    expect(applyTokens).toHaveBeenCalled();
+    expect(applyTokens).toHaveBeenCalledWith(expect.objectContaining({ "--bg-depth": "#090908" }));
   });
 });

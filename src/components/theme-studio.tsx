@@ -18,7 +18,7 @@ function generateId() {
 }
 
 export function ThemeStudio() {
-  const [tokens, setTokens] = useState<ThemeTokens>(defaultTokens);
+  const [tokens, setTokens] = useState<ThemeTokens>(() => defaultTokens());
   const [saveName, setSaveName] = useState("");
   const [showSaveInput, setShowSaveInput] = useState(false);
   const { themes, activeTheme, saveAndActivate, deactivate, removeTheme } = useCustomTheme();
