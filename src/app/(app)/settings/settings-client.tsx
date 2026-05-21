@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle } from "lucide-react";
 import { PaletteSwitcher } from "@/components/palette-switcher";
+import { ThemeStudio } from "@/components/theme-studio";
 import { useTheme } from "@/lib/theme-context";
 
 function Section({ icon, title, children }: { icon: React.ReactNode; title: string; children: React.ReactNode }) {
@@ -243,6 +244,11 @@ export function SettingsClient() {
           Choose a palette that sets the mood for your kitchen. Changes apply instantly everywhere.
         </p>
         <PaletteSwitcher />
+      </Section>
+
+      {/* ── Theme Studio ── */}
+      <Section icon={<Palette style={{ width: 16, height: 16 }} />} title="Theme Studio">
+        <ThemeStudio />
       </Section>
 
       {/* ── Theme ── */}
