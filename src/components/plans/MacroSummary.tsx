@@ -67,6 +67,10 @@ export function MacroSummary({
   const estimated = useLazyEstimator(recipes);
   const patchTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  useEffect(() => {
+    return () => { if (patchTimer.current) clearTimeout(patchTimer.current); };
+  }, []);
+
   // Merge estimated macros into real values
   const merged: Record<string, Partial<RecipeMacros>> = {};
   for (const id of Object.keys(recipes)) {
@@ -155,7 +159,9 @@ export function MacroSummary({
             <button
               key={f.key}
               onClick={() => toggleField(f.key)}
-              aria-pressed={isSelected}
+              disabled={!trackingEnabled}
+              tabIndex={trackingEnabled ? 0 : -1}
+              {...(trackingEnabled ? { 'aria-pressed': isSelected } : {})}
               aria-label={`${f.label}: ${num} ${f.unit}${trackingEnabled ? (isSelected ? ', expanded' : ', click to expand') : ''}`}
               className="px-5 py-4 text-left transition-colors w-full"
               style={{
