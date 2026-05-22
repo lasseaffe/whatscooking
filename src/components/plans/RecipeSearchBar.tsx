@@ -30,6 +30,7 @@ export function RecipeSearchBar({ pinnedIds, onTogglePin, placeholder = 'Search 
   const [mounted, setMounted] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => { setMounted(true); }, []);
@@ -69,10 +70,14 @@ export function RecipeSearchBar({ pinnedIds, onTogglePin, placeholder = 'Search 
     return () => { if (timer.current) clearTimeout(timer.current); };
   }, [q, search]);
 
-  // Close on outside click
+  // Close on outside click — exclude both the input container and the portalled list
   useEffect(() => {
     const handler = (e: MouseEvent) => {
-      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+      const target = e.target as Node;
+      if (
+        containerRef.current && !containerRef.current.contains(target) &&
+        listRef.current && !listRef.current.contains(target)
+      ) {
         setOpen(false);
       }
     };
@@ -99,6 +104,8 @@ export function RecipeSearchBar({ pinnedIds, onTogglePin, placeholder = 'Search 
   const dropdown = open && results.length > 0 && dropRect && mounted
     ? createPortal(
         <ul
+          ref={listRef}
+          id="recipe-search-listbox"
           role="listbox"
           style={{
             position: 'fixed',
@@ -164,9 +171,12 @@ export function RecipeSearchBar({ pinnedIds, onTogglePin, placeholder = 'Search 
           onFocus={() => { if (results.length > 0) { setOpen(true); updateRect(); } }}
           onKeyDown={onKeyDown}
           placeholder={placeholder}
+          role="combobox"
           aria-label={placeholder}
           aria-expanded={open}
           aria-haspopup="listbox"
+          aria-controls="recipe-search-listbox"
+          aria-autocomplete="list"
           className="w-full focus:outline-none"
           style={hero ? {
             paddingLeft: 44, paddingRight: 16, paddingTop: 14, paddingBottom: 14,
