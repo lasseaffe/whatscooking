@@ -11,6 +11,7 @@ import type { usePlannerState } from '@/app/(app)/plans/[id]/use-planner-state';
 import type { MealType, ProposedEntry } from '@/lib/weave-solver';
 import type { SolverRecipe } from '@/lib/weave-solver/types';
 import { computeTension } from '@/lib/weave-solver/tension';
+import { aggregateByDay, type MacroField } from '@/lib/plans/macros';
 
 interface Props {
   state: ReturnType<typeof usePlannerState>;
@@ -19,6 +20,8 @@ interface Props {
   weekStart: string | null;
   mealsPerDay: number;
   nutritionalGoals?: Record<string, number>;
+  trackingEnabled: boolean;
+  personCount: number;
 }
 
 function defaultMealTypes(meals_per_day: number): MealType[] {
@@ -36,17 +39,20 @@ interface PickerRecipe {
   focal_y?: number | null;
 }
 
-export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerDay, nutritionalGoals }: Props) {
+export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerDay, nutritionalGoals, trackingEnabled, personCount: initialPersonCount }: Props) {
   const router = useRouter();
   const [picker, setPicker] = useState<{ day: number; mealType: MealType; existing: ProposedEntry | null } | null>(null);
   const [detailRecipe, setDetailRecipe] = useState<DetailRecipe | null>(null);
+  const [selectedField, setSelectedField] = useState<MacroField | null>(null);
+  const [personCount, setPersonCount] = useState<number>(initialPersonCount ?? 1);
   const mealTypes = defaultMealTypes(mealsPerDay);
 
   if (!state.weave) {
     return (
-      <section aria-label="Weave" className="flex flex-col gap-3 py-8 text-center">
-        <p className="text-sm" style={{ color: '#6B4E36' }}>
-          Pin recipes above, then weave them into a week.
+      <section aria-label="Weave" className="flex flex-col items-center gap-2 py-10 text-center">
+        <span style={{ fontSize: 22, opacity: 0.7 }}>🧺</span>
+        <p style={{ fontFamily: "var(--font-fraunces, 'Libre Baskerville', Georgia, serif)", fontStyle: 'italic', fontSize: 17, color: '#9A7E5E' }}>
+          Pin a few recipes above, then weave your week.
         </p>
       </section>
     );
@@ -160,6 +166,16 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
     }
   }
 
+  // Compute per-day macro values for WeaveGrid column headers
+  // When no field is selected use calories; when open use the selected field
+  const activeField = selectedField ?? 'calories';
+  const byDay = aggregateByDay(state.weave?.entries ?? [], macrosLookup, activeField);
+  const dayMacroValues: Record<number, number | null> = {};
+  for (let d = 1; d <= durationDays; d++) {
+    const agg = byDay[d];
+    dayMacroValues[d] = agg && agg.known_slots > 0 ? agg.total / personCount : null;
+  }
+
   const tension = computeTension(state.weave.entries, solverPool);
   const conflictsByClientid: Record<string, string[]> = {};
   for (const c of tension.conflicts) {
@@ -252,6 +268,12 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
         entries={state.weave.entries}
         recipes={macrosLookup}
         nutritionalGoals={nutritionalGoals}
+        trackingEnabled={trackingEnabled}
+        personCount={personCount}
+        onPersonCountChange={setPersonCount}
+        selectedField={selectedField}
+        onFieldSelect={setSelectedField}
+        planId={planId}
       />
       <WeaveGrid
         entries={state.weave.entries}
@@ -266,6 +288,10 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
         conflictsByClientid={conflictsByClientid}
         onSwapCells={state.swapEntriesByClientid}
         pantryPctByRecipeId={pantryPctByRecipeId}
+        dayMacroValues={dayMacroValues}
+        activeMacroField={selectedField}
+        activeMacroUnit={selectedField ? ({ calories: 'kcal', protein_g: 'g', carbs_g: 'g', fat_g: 'g' } as Record<string, string>)[selectedField] ?? 'g' : 'kcal'}
+        activeMacroColor={selectedField ? ({ calories: '#E67E22', protein_g: '#AEB873', carbs_g: '#E0B85A', fat_g: '#C8522A' } as Record<string, string>)[selectedField] ?? '#E67E22' : '#E67E22'}
       />
       {picker && (
         <ConstraintPicker
