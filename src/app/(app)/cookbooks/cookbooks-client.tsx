@@ -61,11 +61,12 @@ export function CookbooksClient({ initialCookbooks, userId, initialFollowedCreat
     });
 
     try {
-      await fetch("/api/cookbooks/follow", {
+      const res = await fetch("/api/cookbooks/follow", {
         method: isFollowing ? "DELETE" : "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ following_id: creatorId }),
       });
+      if (!res.ok) throw new Error(`follow request failed: ${res.status}`);
     } catch {
       // rollback on error
       setFollowedIds(prev => {
