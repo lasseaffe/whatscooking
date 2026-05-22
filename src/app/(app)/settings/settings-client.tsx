@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle } from "lucide-react";
+import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle, BarChart2 } from "lucide-react";
 import { PaletteSwitcher } from "@/components/palette-switcher";
 import { ThemeStudio } from "@/components/theme-studio";
 import { useTheme } from "@/lib/theme-context";
@@ -233,8 +233,24 @@ function PlaywrightFixerButton() {
   );
 }
 
-export function SettingsClient() {
+interface SettingsClientProps {
+  trackIntake: boolean;
+  userId: string | null;
+}
+
+export function SettingsClient({ trackIntake: initialTrackIntake, userId }: SettingsClientProps) {
   const { theme, setTheme } = useTheme();
+  const [trackIntake, setTrackIntake] = useState(initialTrackIntake);
+
+  const toggleTrackIntake = async (val: boolean) => {
+    setTrackIntake(val);
+    if (!userId) return;
+    await fetch('/api/profile/track-intake', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ track_intake: val }),
+    }).catch(() => setTrackIntake(!val));
+  };
 
   return (
     <div>
@@ -314,6 +330,31 @@ export function SettingsClient() {
       {/* ── Playwright Report Fixer ── */}
       <Section icon={<Wand2 style={{ width: 16, height: 16 }} />} title="Report Fixer">
         <PlaywrightFixerButton />
+      </Section>
+
+      {/* ── Nutritional Tracking ── */}
+      <Section icon={<BarChart2 style={{ width: 16, height: 16 }} />} title="Nutritional Tracking">
+        <p className="text-xs mb-4" style={{ color: "#7A5A40", lineHeight: 1.6 }}>
+          When enabled, meal plan macro cards become clickable and show a per-day per-person breakdown.
+          Only turn this on if nutritional tracking actively supports your goals.
+        </p>
+        <div className="flex items-center justify-between">
+          <span className="text-sm" style={{ color: trackIntake ? "#EFE3CE" : "#7A5A40" }}>
+            {trackIntake ? "Tracking enabled across all plans" : "Tracking off"}
+          </span>
+          <button
+            onClick={() => toggleTrackIntake(!trackIntake)}
+            className="relative w-10 h-6 rounded-full transition-colors"
+            style={{ background: trackIntake ? "#AEB873" : "#2A1E13", border: "1px solid #3A2A1A" }}
+            aria-label={trackIntake ? "Disable nutritional tracking" : "Enable nutritional tracking"}
+            aria-pressed={trackIntake}
+          >
+            <span
+              className="absolute top-0.5 h-5 w-5 rounded-full bg-white transition-transform"
+              style={{ transform: trackIntake ? "translateX(16px)" : "translateX(2px)" }}
+            />
+          </button>
+        </div>
       </Section>
 
       {/* ── Notifications placeholder ── */}

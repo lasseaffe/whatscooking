@@ -1,8 +1,17 @@
 import Link from "next/link";
 import { Settings, Palette } from "lucide-react";
 import { SettingsClient } from "./settings-client";
+import { createClient } from "@/lib/supabase/server";
 
-export default function SettingsPage() {
+export const dynamic = "force-dynamic";
+
+export default async function SettingsPage() {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  const { data: profile } = user
+    ? await supabase.from("profiles").select("track_intake").eq("id", user.id).single()
+    : { data: null };
+
   return (
     <div className="px-4 sm:px-6 py-8 max-w-2xl mx-auto">
       <div className="mb-8">
@@ -48,7 +57,7 @@ export default function SettingsPage() {
         </div>
       </Link>
 
-      <SettingsClient />
+      <SettingsClient trackIntake={profile?.track_intake ?? false} userId={user?.id ?? null} />
     </div>
   );
 }
