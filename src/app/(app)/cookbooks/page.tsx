@@ -9,7 +9,7 @@ export default async function CookbooksPage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  const [{ data: cookbooks }, { data: follows }] = await Promise.all([
+  const [{ data: cookbooks, error: cbError }, { data: follows }] = await Promise.all([
     supabase
       .from("cookbooks")
       .select(`
@@ -27,6 +27,11 @@ export default async function CookbooksPage() {
           .eq("follower_id", user.id)
       : Promise.resolve({ data: [] }),
   ]);
+
+  if (cbError) {
+    console.error("[CookbooksPage] cookbooks query failed:", cbError);
+    throw cbError;
+  }
 
   const followedCreatorIds = new Set((follows ?? []).map((f: { following_id: string }) => f.following_id));
 

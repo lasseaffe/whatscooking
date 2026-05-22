@@ -1,7 +1,7 @@
 // src/app/(app)/cookbooks/cookbooks-client.tsx
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo, useRef } from "react";
 import Link from "next/link";
 import { CookbookCover } from "@/components/cookbook-cover";
 
@@ -32,37 +32,40 @@ export function CookbooksClient({ initialCookbooks, userId, initialFollowedCreat
   const anyFollowed = initialFollowedCreatorIds.length > 0;
   const [tab, setTab] = useState<Tab>(anyFollowed ? "following" : "trending");
   const [followedIds, setFollowedIds] = useState<Set<string>>(new Set(initialFollowedCreatorIds));
-  const [pending, setPending] = useState<Set<string>>(new Set());
+  const pendingRef = useRef<Set<string>>(new Set());
 
-  const filtered = initialCookbooks
-    .filter((cb) => {
-      const creatorId = cb.profiles?.id ?? "";
-      if (tab === "following") return followedIds.has(creatorId);
-      if (tab === "free")      return cb.price === 0;
-      if (tab === "paid")      return cb.price > 0;
-      return true; // trending / newest show all
-    })
-    .sort((a, b) =>
-      tab === "trending"
-        ? b.view_count - a.view_count
-        : new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
-    );
+  const filtered = useMemo(() =>
+    initialCookbooks
+      .filter((cb) => {
+        const creatorId = cb.profiles?.id ?? "";
+        if (tab === "following") return followedIds.has(creatorId);
+        if (tab === "free")      return cb.price === 0;
+        if (tab === "paid")      return cb.price > 0;
+        return true; // trending / newest show all
+      })
+      .sort((a, b) =>
+        tab === "trending"
+          ? b.view_count - a.view_count
+          : new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+      ),
+    [initialCookbooks, tab, followedIds]
+  );
 
   const toggleFollow = useCallback(async (creatorId: string) => {
-    if (!userId || pending.has(creatorId)) return;
-    const isFollowing = followedIds.has(creatorId);
+    if (!userId || pendingRef.current.has(creatorId)) return;
+    pendingRef.current.add(creatorId);
 
-    // optimistic update
-    setPending(p => new Set([...p, creatorId]));
+    let wasFollowing = false;
     setFollowedIds(prev => {
+      wasFollowing = prev.has(creatorId);
       const next = new Set(prev);
-      isFollowing ? next.delete(creatorId) : next.add(creatorId);
+      wasFollowing ? next.delete(creatorId) : next.add(creatorId);
       return next;
     });
 
     try {
       const res = await fetch("/api/cookbooks/follow", {
-        method: isFollowing ? "DELETE" : "POST",
+        method: wasFollowing ? "DELETE" : "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ following_id: creatorId }),
       });
@@ -71,13 +74,13 @@ export function CookbooksClient({ initialCookbooks, userId, initialFollowedCreat
       // rollback on error
       setFollowedIds(prev => {
         const next = new Set(prev);
-        isFollowing ? next.add(creatorId) : next.delete(creatorId);
+        wasFollowing ? next.add(creatorId) : next.delete(creatorId);
         return next;
       });
     } finally {
-      setPending(p => { const next = new Set(p); next.delete(creatorId); return next; });
+      pendingRef.current.delete(creatorId);
     }
-  }, [userId, followedIds, pending]);
+  }, [userId]);
 
   return (
     <>
@@ -127,7 +130,7 @@ export function CookbooksClient({ initialCookbooks, userId, initialFollowedCreat
         {filtered.map((cb) => {
           const creatorId = cb.profiles?.id ?? "";
           const isFollowing = followedIds.has(creatorId);
-          const isPending = pending.has(creatorId);
+          const creatorName = cb.profiles?.username ?? cb.profiles?.full_name ?? "creator";
 
           return (
             <div key={cb.id} className="group relative block">
@@ -145,14 +148,14 @@ export function CookbooksClient({ initialCookbooks, userId, initialFollowedCreat
               {userId && creatorId && cb.profiles?.id !== userId && (
                 <button
                   onClick={() => toggleFollow(creatorId)}
-                  disabled={isPending}
+                  aria-label={isFollowing ? `Unfollow ${creatorName}` : `Follow ${creatorName}`}
+                  aria-pressed={isFollowing}
                   className="absolute bottom-3 right-3 text-xs font-semibold px-3 py-1 rounded-full transition-all"
                   style={{
                     background: isFollowing ? "rgba(255,255,255,0.15)" : "rgba(200,90,47,0.9)",
                     color: "white",
                     backdropFilter: "blur(4px)",
                     border: isFollowing ? "1px solid rgba(255,255,255,0.3)" : "none",
-                    opacity: isPending ? 0.6 : 1,
                   }}
                 >
                   {isFollowing ? "Following ✓" : "+ Follow"}
