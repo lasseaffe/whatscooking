@@ -245,11 +245,16 @@ export function SettingsClient({ trackIntake: initialTrackIntake, userId }: Sett
   const toggleTrackIntake = async (val: boolean) => {
     setTrackIntake(val);
     if (!userId) return;
-    await fetch('/api/profile/track-intake', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ track_intake: val }),
-    }).catch(() => setTrackIntake(!val));
+    try {
+      const res = await fetch('/api/profile/track-intake', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ track_intake: val }),
+      });
+      if (!res.ok) setTrackIntake(!val);
+    } catch {
+      setTrackIntake(!val);
+    }
   };
 
   return (
