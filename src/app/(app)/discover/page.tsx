@@ -4,6 +4,31 @@ import { DiscoverFeedClient } from "./discover-feed-client";
 
 export const dynamic = "force-dynamic";
 
+function TonightsEditionHeader({ featuredTitle }: { featuredTitle: string }) {
+  return (
+    <div
+      style={{
+        transformOrigin: 'top center',
+        animation: 'tonightsEditionUnfold 0.8s cubic-bezier(0.34,1.56,0.64,1) both',
+        background: 'color-mix(in srgb, var(--wc-pal-accent, #B07040) 6%, #0a0503)',
+        borderBottom: '1px solid rgba(244,162,97,0.15)',
+        padding: '32px 24px 24px',
+        textAlign: 'center',
+      }}
+    >
+      <p style={{ fontSize: 9, letterSpacing: 6, color: 'rgba(244,162,97,0.4)', marginBottom: 8, textTransform: 'uppercase' }}>
+        What&apos;s Cooking — Tonight&apos;s Edition
+      </p>
+      <h1 style={{ fontSize: 'clamp(24px,3vw,40px)', fontStyle: 'italic', fontWeight: 400, color: 'rgba(239,227,206,0.9)' }}>
+        {featuredTitle}
+      </h1>
+      <p style={{ fontSize: 10, letterSpacing: 2, color: 'rgba(244,162,97,0.4)', marginTop: 8, textTransform: 'uppercase' }}>
+        Fresh picks · Updated daily
+      </p>
+    </div>
+  );
+}
+
 function computePantryMatches(
   recipes: Array<{
     id: string;
@@ -56,6 +81,7 @@ export default async function DiscoverPage() {
       .from("recipes")
       .select("id, title, description, image_url, cuisine_type, dietary_tags, prep_time_minutes, cook_time_minutes, calories, difficulty_level, ingredients, instructions, servings, protein_g, carbs_g, fat_g, dish_types, focal_x, focal_y")
       .not("image_url", "is", null)
+      .neq("image_status", "hidden")
       .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
       .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
       .limit(30),
@@ -65,6 +91,7 @@ export default async function DiscoverPage() {
       .from("recipes")
       .select("id, title, image_url, cuisine_type, prep_time_minutes, cook_time_minutes, saved_count", { count: "exact" })
       .not("image_url", "is", null)
+      .neq("image_status", "hidden")
       .order("created_at", { ascending: false })
       .limit(10),
 
@@ -73,13 +100,15 @@ export default async function DiscoverPage() {
       .from("recipes")
       .select("id, title, image_url, prep_time_minutes, cook_time_minutes")
       .not("image_url", "is", null)
+      .neq("image_status", "hidden")
       .lte("prep_time_minutes", 20)
       .limit(10),
 
-    // 4. All recipes grid — no image_url filter so dataset recipes (10K) appear
+    // 4. All recipes grid
     supabase
       .from("recipes")
       .select("id, title, description, image_url, cuisine_type, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, difficulty_level", { count: "exact" })
+      .neq("image_status", "hidden")
       .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
       .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
       .order("created_at", { ascending: false })
@@ -96,6 +125,7 @@ export default async function DiscoverPage() {
           .from("recipes")
           .select("id, title, image_url, ingredients")
           .not("ingredients", "is", null)
+          .neq("image_status", "hidden")
           .limit(200)
       : (Promise.resolve({ data: [] as Array<{ id: string; title: string; image_url: string | null; ingredients: Array<{ name: string }> | null }>, error: null }) as any),
   ]);
@@ -116,19 +146,22 @@ export default async function DiscoverPage() {
   );
 
   return (
-    <DiscoverFeedClient
-      swipeRecipes={swipeRecipes ?? []}
-      trendingRecipes={trendingRaw ?? []}
-      trendingTotal={trendingTotal ?? 0}
-      pantryMatches={topPantryMatches}
-      pantryMatchTotal={allPantryMatches.length}
-      pantryItemCount={pantryNames.length}
-      quickRecipes={quickRecipes}
-      cuisines={cuisines}
-      gridRecipes={gridRecipes ?? []}
-      gridTotal={gridTotal ?? 0}
-      pantryNames={pantryNames}
-      isLoggedIn={!!user}
-    />
+    <>
+      <TonightsEditionHeader featuredTitle={swipeRecipes?.[0]?.title ?? "Tonight's Recipes"} />
+      <DiscoverFeedClient
+        swipeRecipes={swipeRecipes ?? []}
+        trendingRecipes={trendingRaw ?? []}
+        trendingTotal={trendingTotal ?? 0}
+        pantryMatches={topPantryMatches}
+        pantryMatchTotal={allPantryMatches.length}
+        pantryItemCount={pantryNames.length}
+        quickRecipes={quickRecipes}
+        cuisines={cuisines}
+        gridRecipes={gridRecipes ?? []}
+        gridTotal={gridTotal ?? 0}
+        pantryNames={pantryNames}
+        isLoggedIn={!!user}
+      />
+    </>
   );
 }
