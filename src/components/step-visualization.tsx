@@ -240,14 +240,20 @@ const VISUALIZATIONS: VisualizationEntry[] = [
 
 interface StepVisualizationProps {
   stepText: string;
+  mode?: "card" | "background"; // default: "card"
 }
 
-export function StepVisualization({ stepText }: StepVisualizationProps): React.ReactElement | null {
+export function StepVisualization({ stepText, mode = "card" }: StepVisualizationProps): React.ReactElement | null {
   const lower = stepText.toLowerCase();
   const match = VISUALIZATIONS.find((v) =>
     v.keywords.some((kw) => lower.includes(kw))
   );
   if (!match) return null;
+
+  if (mode === "background") {
+    // Return only the SVG, no wrapper — caller handles positioning and opacity
+    return <>{match.render()}</>;
+  }
 
   return (
     <div
