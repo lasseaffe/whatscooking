@@ -357,19 +357,14 @@ const VISUALIZATIONS: VisualizationEntry[] = [
     label: "How to halve an onion",
   },
   {
-    keywords: ["slice", "dice", "chop", "mince", "julienne", "knife", "grip the"],
+    keywords: ["slice", "julienne", "knife", "grip the"],
     render: KnifeClawSVG,
     label: "Knife claw grip",
   },
   {
-    keywords: ["sear", "sauté", "saute", "stir-fry", "stir fry", "fry", "brown the"],
+    keywords: ["sear", "stir-fry", "stir fry", "fry", "brown the"],
     render: SearSVG,
     label: "Hot pan technique",
-  },
-  {
-    keywords: ["plate", "plating", "serve", "serving", "arrange on", "presentation"],
-    render: PlatingDiagramSVG,
-    label: "Plating diagram",
   },
   {
     keywords: ["fold the napkin", "napkin fold", "folding napkins"],
@@ -402,17 +397,17 @@ const VISUALIZATIONS: VisualizationEntry[] = [
     label: "Plating guide",
   },
   {
-    keywords: ["dice the onion", "chop the onion", "mince the onion", "finely chop", "finely dice"],
+    keywords: ["dice", "chop", "mince", "dice the onion", "chop the onion", "mince the onion", "finely chop", "finely dice"],
     render: DicedOnionSVG,
     label: "Dicing an onion",
   },
   {
-    keywords: ["soften", "sweat", "translucent", "softened onion", "cook the onion", "cook onion"],
+    keywords: ["sauté", "saute", "soften", "sweat", "translucent", "softened onion", "cook the onion", "cook onion"],
     render: SoftVegSVG,
     label: "Softening veg",
   },
   {
-    keywords: ["crack", "nestle", "egg into", "eggs into", "crack the egg", "crack an egg"],
+    keywords: ["egg", "crack", "nestle", "egg into", "eggs into", "crack the egg", "crack an egg"],
     render: EggsInSauceSVG,
     label: "Eggs in sauce",
   },
