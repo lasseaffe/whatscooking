@@ -179,8 +179,9 @@ export function useKitchenOracleVoice({
 
     const SpeechRecog =
       window.SpeechRecognition ||
-      (window as typeof window & { webkitSpeechRecognition: typeof SpeechRecognition }).webkitSpeechRecognition;
+      (window as typeof window & { webkitSpeechRecognition?: new () => SpeechRecognition }).webkitSpeechRecognition;
 
+    if (!SpeechRecog) return;
     const recog = new SpeechRecog();
     recog.continuous = true;
     recog.interimResults = false;

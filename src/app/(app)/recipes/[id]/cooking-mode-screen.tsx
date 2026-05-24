@@ -6,6 +6,10 @@ import { useRouter } from "next/navigation";
 import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Lightbulb, List, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2 } from "lucide-react";
 import { StepVisualization } from "@/components/step-visualization";
 import { TypewriterText } from "@/components/ui/TypewriterText";
+import { useCookingMode } from "@/lib/cooking-mode-context";
+import { useKitchenOracleVoice } from "@/hooks/useKitchenOracleVoice";
+import { VoicePromptSheet, shouldShowVoicePrompt } from "@/components/voice-prompt-sheet";
+import { VoiceResponseCard } from "@/components/voice-response-card";
 
 // ── Types ────────────────────────────────────────────────────
 export interface Ingredient {
@@ -626,6 +630,21 @@ function stepBody(text: string): string {
   return words.length > 7 ? words.slice(7).join(" ") : "";
 }
 
+// ── Detect light palette ──────────────────────────────────────
+function getPaletteIsLight(): boolean {
+  if (typeof document === "undefined") return false;
+  const bg = getComputedStyle(document.documentElement).getPropertyValue("--wc-bg").trim();
+  return bg.startsWith("#F") || bg.startsWith("#f") || bg.startsWith("rgb(2") || bg.startsWith("rgb(25");
+}
+
+// ── Parse step duration for display ──────────────────────────
+function parseStepDuration(text: string): string | null {
+  const m = text.match(/\b(\d+)\s*(minute|min|second|sec)/i);
+  if (!m) return null;
+  const n = parseInt(m[1]);
+  return /sec/i.test(m[2]) ? `~ ${n}s` : `~ ${n} min`;
+}
+
 // ── Main screen component ─────────────────────────────────────
 export function CookingModeScreen({
   recipeTitle,
@@ -653,6 +672,25 @@ export function CookingModeScreen({
   // Pre-fetched SOS tips for all steps
   const [prefetchedTips, setPrefetchedTips] = useState<string[]>([]);
   const [prefetchDone, setPrefetchDone] = useState(false);
+  // Voice prompt sheet
+  const [showVoicePrompt, setShowVoicePrompt] = useState(false);
+  const [voicePromptChecked, setVoicePromptChecked] = useState(false);
+  const [paletteIsLight, setPaletteIsLight] = useState(false);
+
+  const { voiceEnabled, voiceState, setVoiceState, toggleVoice } = useCookingMode();
+
+  // Check palette and voice prompt on mount
+  useEffect(() => {
+    setPaletteIsLight(getPaletteIsLight());
+    if (!voicePromptChecked) {
+      setVoicePromptChecked(true);
+      // Use requestAnimationFrame to check after styles settle
+      requestAnimationFrame(() => {
+        if (shouldShowVoicePrompt()) setShowVoicePrompt(true);
+      });
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (!instructions.length) return;
@@ -746,7 +784,22 @@ export function CookingModeScreen({
   const heading = stepHeading(enrichedText);
   const body = stepBody(enrichedText);
 
+  // Voice hook — must be called before go/next/prev so cancelSpeech is in scope
+  const { oracleCard, sttSupported, cancelSpeech } = useKitchenOracleVoice({
+    voiceEnabled,
+    voiceState,
+    setVoiceState,
+    stepText: enrichedText,
+    stepIndex: step,
+    recipeName: recipeTitle,
+    ingredients,
+    onNext: () => { if (step < total - 1) setStep((s) => s + 1); },
+    onPrev: () => { if (step > 0) setStep((s) => s - 1); },
+    onStartTimer: addTimer,
+  });
+
   function go(i: number) {
+    cancelSpeech();
     setStep(Math.max(0, Math.min(total - 1, i)));
     setDrawerOpen(false);
     setTooltip(null);
@@ -791,24 +844,56 @@ export function CookingModeScreen({
     setTooltip((prev) => (prev?.termKey === termKey ? null : { termKey, x, y }));
   }
 
+  const bgColor = paletteIsLight ? "#FDFAF6" : "#0d0d0c";
+  const headingColor = paletteIsLight ? "#1a0f08" : "#EFE3CE";
+  const bodyColor = paletteIsLight ? "#4a3224" : "#b0a090";
+  const proTipBg = paletteIsLight ? "rgba(176,125,86,0.10)" : "rgba(244,162,97,0.08)";
+  const proTipBorder = paletteIsLight ? "1px solid rgba(176,125,86,0.2)" : "1px solid rgba(244,162,97,0.18)";
+  const illustrationOpacity = paletteIsLight ? 0.5 : 0.35;
+  const scrimGradient = paletteIsLight
+    ? `linear-gradient(to top, ${bgColor} 55%, rgba(253,250,246,0.7) 85%, transparent)`
+    : `linear-gradient(to top, ${bgColor} 50%, rgba(13,13,12,0.65) 82%, transparent)`;
+
+  const stepDuration = parseStepDuration(enrichedText);
+
+  // Mic icon visual state
+  const micBg = !voiceEnabled
+    ? "rgba(176,125,86,0.10)"
+    : voiceState === "listening"
+      ? "rgba(244,162,97,0.18)"
+      : "rgba(176,125,86,0.18)";
+  const micColor = !voiceEnabled
+    ? "rgba(176,125,86,0.6)"
+    : voiceState === "speaking"
+      ? "#d4aa80"
+      : "#F4A261";
+  const micPulse = voiceEnabled ? "micPulse 1.6s ease-in-out infinite" : "none";
+
   return (
     <div
       className="fixed inset-0 z-[100] flex flex-col"
-      style={{ background: "#0d0d0c", color: "#EFE3CE" }}
+      style={{ background: bgColor, color: headingColor }}
     >
-      {/* Progress bar */}
-      <div className="absolute top-0 left-0 right-0 h-[3px] z-10" style={{ background: "rgba(42,24,8,0.5)" }}>
-        <div
-          className="h-full transition-all duration-500"
-          style={{ width: `${progress}%`, background: "linear-gradient(90deg, #C8522A, #F4A261)" }}
-        />
-      </div>
+      <style>{`
+        @keyframes micPulse {
+          0%, 100% { box-shadow: 0 0 0 0 rgba(244,162,97,0.4); }
+          50% { box-shadow: 0 0 0 8px rgba(244,162,97,0); }
+        }
+      `}</style>
 
       {/* Glossary popover (portal-like, position:fixed) */}
       {tooltip && <GlossaryPopover state={tooltip} onClose={() => setTooltip(null)} />}
 
+      {/* Voice prompt entry sheet */}
+      {showVoicePrompt && sttSupported && (
+        <VoicePromptSheet
+          onEnable={() => { setShowVoicePrompt(false); toggleVoice(); }}
+          onDismiss={() => setShowVoicePrompt(false)}
+        />
+      )}
+
       {/* Main 3-column layout — desktop */}
-      <div className="flex flex-1 min-h-0 pt-[3px]">
+      <div className="flex flex-1 min-h-0">
 
         {/* ── LEFT PANEL ── */}
         <div
@@ -913,37 +998,257 @@ export function CookingModeScreen({
 
         {/* ── CENTER PANEL ── */}
         <div className="flex-1 flex flex-col min-h-0 relative">
-          {/* Mobile top bar */}
+
+          {/* ── New mobile top bar ── */}
           <div
-            className="flex md:hidden items-center justify-between px-4 py-3 shrink-0"
-            style={{ background: "rgba(13,13,12,0.95)", backdropFilter: "blur(10px)", borderBottom: "1px solid rgba(42,24,8,0.4)" }}
+            className="flex md:hidden items-center justify-between px-4 shrink-0"
+            style={{
+              height: 52,
+              background: paletteIsLight ? "rgba(253,250,246,0.97)" : "rgba(13,13,12,0.97)",
+              backdropFilter: "blur(10px)",
+              borderBottom: "1px solid rgba(176,125,86,0.15)",
+            }}
           >
-            <button type="button" onClick={onExit} className="flex items-center gap-1 text-sm font-semibold" style={{ color: "#B07D56" }}>
-              <X style={{ width: 15, height: 15 }} /> Exit
-            </button>
-            <span className="text-xs font-semibold" style={{ color: "#5A3A28" }}>
-              {recipeTitle.length > 22 ? recipeTitle.slice(0, 22) + "…" : recipeTitle}
-            </span>
-            <button
-              type="button"
-              onClick={() => setDrawerOpen(true)}
-              className="flex items-center gap-1 text-sm font-semibold"
-              style={{ color: "#B07D56" }}
+            {/* Left: step counter */}
+            <div style={{ minWidth: 80 }}>
+              <span
+                style={{
+                  fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
+                  fontSize: 10,
+                  fontWeight: 600,
+                  letterSpacing: "0.2em",
+                  color: "#B07D56",
+                  textTransform: "uppercase",
+                }}
+              >
+                Step {step + 1} of {total}
+              </span>
+            </div>
+
+            {/* Center: recipe name */}
+            <span
+              style={{
+                fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
+                fontSize: 11,
+                color: paletteIsLight ? "rgba(74,50,36,0.55)" : "rgba(176,160,144,0.55)",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                maxWidth: 120,
+              }}
             >
-              <List style={{ width: 15, height: 15 }} />
-            </button>
+              {recipeTitle}
+            </span>
+
+            {/* Right: mic + exit */}
+            <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 80, justifyContent: "flex-end" }}>
+              {sttSupported && (
+                <button
+                  type="button"
+                  onClick={toggleVoice}
+                  style={{
+                    width: 34,
+                    height: 34,
+                    borderRadius: "50%",
+                    background: micBg,
+                    border: "none",
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: 16,
+                    color: micColor,
+                    animation: micPulse,
+                    opacity: !voiceEnabled ? 0.6 : 1,
+                    transition: "background 0.2s",
+                  }}
+                  aria-label={voiceEnabled ? "Disable voice" : "Enable voice"}
+                >
+                  {voiceState === "speaking" ? "🔊" : "🎙"}
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={onExit}
+                style={{
+                  width: 30,
+                  height: 30,
+                  borderRadius: "50%",
+                  background: "rgba(176,125,86,0.10)",
+                  border: "none",
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <X style={{ width: 13, height: 13, color: "#B07D56" }} />
+              </button>
+            </div>
+          </div>
+
+          {/* Progress bar — 2px strip below top bar (mobile) and at top (desktop) */}
+          <div className="shrink-0 h-[2px]" style={{ background: "rgba(176,125,86,0.15)" }}>
+            <div
+              className="h-full transition-all duration-500"
+              style={{ width: `${progress}%`, background: "linear-gradient(90deg, #C8522A, #F4A261)" }}
+            />
           </div>
 
           {/* Step content — scrolls independently */}
-          <div className="flex-1 overflow-y-auto px-8 md:px-12 lg:px-16 py-10 max-w-2xl mx-auto w-full">
-            {/* Step badge + SOS helper (top row) */}
-            <div className="mb-5 flex items-center justify-between gap-3">
-              <span
-                className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest"
-                style={{ background: "rgba(244,162,97,0.15)", color: "#F4A261", border: "1px solid rgba(244,162,97,0.3)" }}
+          <div className="flex-1 overflow-y-auto max-w-2xl mx-auto w-full">
+
+            {/* ── Step card with ghost illustration background ── */}
+            <div
+              style={{
+                position: "relative",
+                minHeight: 340,
+                overflow: "hidden",
+                padding: "0 0 24px",
+              }}
+            >
+              {/* Ghost illustration — absolute, centred, behind everything */}
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  opacity: illustrationOpacity,
+                  pointerEvents: "none",
+                  zIndex: 0,
+                }}
               >
-                {step + 1} / {total}
-              </span>
+                <StepVisualization stepText={enrichedText} mode="background" />
+              </div>
+
+              {/* Gradient scrim — rises from bottom to keep text readable */}
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  background: scrimGradient,
+                  pointerEvents: "none",
+                  zIndex: 1,
+                }}
+              />
+
+              {/* Text content — sits above illustration + scrim */}
+              <div
+                style={{
+                  position: "relative",
+                  zIndex: 2,
+                  paddingTop: 140,
+                  paddingLeft: 28,
+                  paddingRight: 28,
+                }}
+              >
+                {/* Step counter + duration */}
+                <p
+                  style={{
+                    fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
+                    fontSize: 10,
+                    fontWeight: 600,
+                    letterSpacing: "0.2em",
+                    color: "#B07D56",
+                    textTransform: "uppercase",
+                    marginBottom: 4,
+                  }}
+                >
+                  STEP {step + 1} OF {total}
+                </p>
+                {stepDuration && (
+                  <p
+                    style={{
+                      fontFamily: "'Geist Mono', 'Courier New', monospace",
+                      fontSize: 12,
+                      fontWeight: 400,
+                      color: "rgba(244,162,97,0.8)",
+                      marginBottom: 12,
+                    }}
+                  >
+                    {stepDuration}
+                  </p>
+                )}
+
+                {/* Step heading — Fraunces */}
+                <h1
+                  style={{
+                    fontFamily: "var(--font-fraunces, 'Libre Baskerville', serif)",
+                    fontSize: "clamp(24px, 6vw, 28px)",
+                    fontWeight: 700,
+                    color: headingColor,
+                    lineHeight: 1.25,
+                    marginBottom: 16,
+                  }}
+                >
+                  <AnnotatedText text={heading} onGlossaryClick={handleGlossaryClick} />
+                </h1>
+
+                {/* Step body */}
+                {(enrichedBodies[step] || body) && (
+                  <p
+                    style={{
+                      fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
+                      fontSize: "clamp(15px, 4vw, 17px)",
+                      fontWeight: 400,
+                      color: bodyColor,
+                      lineHeight: 1.75,
+                      marginBottom: 20,
+                      opacity: bodyLoading ? 0.5 : 1,
+                      transition: "opacity 0.3s",
+                    }}
+                  >
+                    <AnnotatedText
+                      text={enrichedBodies[step] || body}
+                      onGlossaryClick={handleGlossaryClick}
+                    />
+                  </p>
+                )}
+
+                {/* Voice response card — replaces pro-tip when voice active */}
+                {voiceEnabled && oracleCard.type ? (
+                  <VoiceResponseCard card={oracleCard} />
+                ) : proTip ? (
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: 8,
+                      padding: "10px 14px",
+                      borderRadius: 12,
+                      background: proTipBg,
+                      border: proTipBorder,
+                    }}
+                  >
+                    <span style={{ color: "#F4A261", fontSize: 11, flexShrink: 0, paddingTop: 1 }}>✦</span>
+                    <span
+                      style={{
+                        fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
+                        fontSize: 13,
+                        fontWeight: 500,
+                        color: paletteIsLight ? "#6b5444" : "#d4aa80",
+                        lineHeight: 1.55,
+                      }}
+                    >
+                      {proTip}
+                    </span>
+                  </div>
+                ) : null}
+              </div>
+            </div>
+
+            {/* Timer tray + SOS — below the illustration card */}
+            <div className="px-7 pb-4 flex flex-col gap-3">
+              <TimerTray
+                timers={timers}
+                onAdd={addTimer}
+                onToggle={toggleTimer}
+                onReset={resetTimer}
+                onRemove={removeTimer}
+                stepText={enrichedText}
+              />
               <SOSHelper
                 key={step}
                 stepIndex={step}
@@ -954,119 +1259,39 @@ export function CookingModeScreen({
                 prefetchDone={prefetchDone}
               />
             </div>
-
-            {/* Step heading */}
-            <h1
-              className="mb-5 leading-tight"
-              style={{
-                fontFamily: "'Libre Baskerville', Georgia, serif",
-                fontSize: "clamp(2rem, 5vw, 3.5rem)",
-                color: "#EFE3CE",
-                fontWeight: 700,
-              }}
-            >
-              <AnnotatedText text={heading} onGlossaryClick={handleGlossaryClick} />
-            </h1>
-
-            {/* Step body — enriched 2-5 sentence explanation */}
-            {(enrichedBodies[step] || body) && (
-              <p
-                className="mb-6 leading-relaxed"
-                style={{
-                  fontSize: "1.15rem",
-                  color: "#C8B49A",
-                  lineHeight: 1.9,
-                  opacity: bodyLoading ? 0.5 : 1,
-                  transition: "opacity 0.3s",
-                }}
-              >
-                <AnnotatedText
-                  text={enrichedBodies[step] || body}
-                  onGlossaryClick={handleGlossaryClick}
-                />
-              </p>
-            )}
-
-            {/* Step visualization — SVG technique diagram when applicable */}
-            <StepVisualization stepText={enrichedText} />
-
-            {/* Mobile glossary hint */}
-            <p
-              className="flex md:hidden text-xs mb-4"
-              style={{ color: "#4A3020" }}
-            >
-              Tap{" "}
-              <span
-                className="mx-1"
-                style={{
-                  color: "#E8C97A",
-                  textDecoration: "underline",
-                  textDecorationStyle: "dotted",
-                }}
-              >
-                golden words
-              </span>{" "}
-              to learn what they mean.
-            </p>
-
-            {/* Pro tip */}
-            {proTip && (
-              <div
-                className="flex items-start gap-2 mt-5 px-4 py-3 rounded-xl text-sm leading-relaxed"
-                style={{ background: "rgba(58,52,48,0.8)", borderLeft: "3px solid #F4A261" }}
-              >
-                <Lightbulb style={{ width: 14, height: 14, color: "#F4A261", flexShrink: 0, marginTop: 2 }} />
-                <span style={{ color: "#e7e7e6" }}>
-                  <strong style={{ color: "#F4A261" }}>Chef tip:</strong> {proTip}
-                </span>
-              </div>
-            )}
           </div>
 
-          {/* ── Sticky bottom bar: Timer + Prev / Next ── */}
+          {/* ── Sticky bottom bar: Back / Next only ── */}
           <div
-            className="shrink-0 px-8 md:px-12 lg:px-16 py-4 flex flex-col gap-3 max-w-2xl mx-auto w-full"
+            className="shrink-0 px-6 py-4 flex items-center gap-3 max-w-2xl mx-auto w-full"
             style={{
-              borderTop: "1px solid rgba(42,24,8,0.5)",
-              background: "rgba(13,13,12,0.97)",
+              borderTop: paletteIsLight ? "1px solid rgba(176,125,86,0.15)" : "1px solid rgba(42,24,8,0.5)",
+              background: paletteIsLight ? "rgba(253,250,246,0.97)" : "rgba(13,13,12,0.97)",
               backdropFilter: "blur(12px)",
             }}
           >
-            {/* Persistent multi-timer tray */}
-            <TimerTray
-              timers={timers}
-              onAdd={addTimer}
-              onToggle={toggleTimer}
-              onReset={resetTimer}
-              onRemove={removeTimer}
-              stepText={enrichedText}
-            />
-
-            {/* Prev / Next */}
-            <div className="flex items-center gap-3">
-              <button
-                type="button"
-                onClick={prev}
-                disabled={step === 0}
-                className="flex items-center gap-1.5 px-5 py-3 rounded-xl text-sm font-semibold transition-all hover:brightness-125 disabled:opacity-25 active:scale-95"
-                style={{ background: "rgba(244,162,97,0.12)", color: "#D4956A", border: "1.5px solid rgba(244,162,97,0.35)" }}
-              >
-                <ChevronLeft style={{ width: 15, height: 15 }} /> Prev
-              </button>
-              <button
-                type="button"
-                onClick={step >= total - 1 ? () => setDonePhase("pantry") : next}
-                className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl text-base font-bold transition-all hover:opacity-90 active:scale-[0.98]"
-                style={{
-                  background: step >= total - 1
-                    ? "linear-gradient(135deg, #828E6F, #6B7A5C)"
-                    : "var(--wc-accent-saffron, #F4A261)",
-                  color: "#1A0E04",
-                }}
-              >
-                {step >= total - 1 ? "All Done! 🎉" : <>Next Step <ChevronRight style={{ width: 17, height: 17 }} /></>}
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={prev}
+              disabled={step === 0}
+              className="flex items-center gap-1.5 px-5 py-3 rounded-xl text-sm font-semibold transition-all hover:brightness-125 disabled:opacity-25 active:scale-95"
+              style={{ background: "rgba(244,162,97,0.12)", color: "#D4956A", border: "1.5px solid rgba(244,162,97,0.35)" }}
+            >
+              <ChevronLeft style={{ width: 15, height: 15 }} /> Back
+            </button>
+            <button
+              type="button"
+              onClick={step >= total - 1 ? () => setDonePhase("pantry") : next}
+              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl text-base font-bold transition-all hover:opacity-90 active:scale-[0.98]"
+              style={{
+                background: step >= total - 1
+                  ? "linear-gradient(135deg, #828E6F, #6B7A5C)"
+                  : "#F4A261",
+                color: "#1A0E04",
+              }}
+            >
+              {step >= total - 1 ? "Finish 🎉" : <>Next <ChevronRight style={{ width: 17, height: 17 }} /></>}
+            </button>
           </div>
         </div>
 
