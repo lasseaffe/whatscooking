@@ -3,12 +3,18 @@
 
 import { createContext, useContext, useState, useRef, useCallback, useEffect } from "react";
 
+export type VoiceState = "idle" | "listening" | "speaking";
+
 interface CookingModeContextValue {
   active: boolean;
   activate: () => Promise<void>;
   deactivate: () => void;
   currentStepText: string;
   setCurrentStepText: (text: string) => void;
+  voiceEnabled: boolean;
+  voiceState: VoiceState;
+  setVoiceState: (s: VoiceState) => void;
+  toggleVoice: () => void;
 }
 
 const CookingModeContext = createContext<CookingModeContextValue>({
@@ -17,11 +23,24 @@ const CookingModeContext = createContext<CookingModeContextValue>({
   deactivate: () => {},
   currentStepText: "",
   setCurrentStepText: () => {},
+  voiceEnabled: false,
+  voiceState: "idle",
+  setVoiceState: () => {},
+  toggleVoice: () => {},
 });
 
 export function CookingModeProvider({ children }: { children: React.ReactNode }) {
   const [active, setActive] = useState(false);
   const [currentStepText, setCurrentStepText] = useState("");
+  const [voiceEnabled, setVoiceEnabled] = useState(false);
+  const [voiceState, setVoiceState] = useState<VoiceState>("idle");
+
+  const toggleVoice = useCallback(() => {
+    setVoiceEnabled((prev) => {
+      if (prev) setVoiceState("idle");
+      return !prev;
+    });
+  }, []);
   const wakeLockRef = useRef<WakeLockSentinel | null>(null);
 
   const activate = useCallback(async () => {
@@ -39,6 +58,8 @@ export function CookingModeProvider({ children }: { children: React.ReactNode })
 
   const deactivate = useCallback(() => {
     setActive(false);
+    setVoiceEnabled(false);
+    setVoiceState("idle");
     if (wakeLockRef.current) {
       wakeLockRef.current.release().catch(() => {});
       wakeLockRef.current = null;
@@ -63,7 +84,7 @@ export function CookingModeProvider({ children }: { children: React.ReactNode })
   }, []);
 
   return (
-    <CookingModeContext.Provider value={{ active, activate, deactivate, currentStepText, setCurrentStepText }}>
+    <CookingModeContext.Provider value={{ active, activate, deactivate, currentStepText, setCurrentStepText, voiceEnabled, voiceState, setVoiceState, toggleVoice }}>
       {children}
     </CookingModeContext.Provider>
   );
