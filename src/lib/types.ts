@@ -112,6 +112,8 @@ export interface Recipe {
   allergen_flags?: AllergenKey[];
   has_baby_variant?: boolean;
   baby_variant_recipe_id?: string | null;
+  // Drinks cultures — culture-specific pro metadata
+  drink_meta?: Record<string, unknown>;
 }
 
 // ============================================================

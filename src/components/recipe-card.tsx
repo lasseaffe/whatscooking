@@ -9,6 +9,8 @@ import { WcBadge } from "@/components/wc-badge";
 import type { Recipe } from "@/lib/types";
 import { FocalPointEditor } from "@/components/focal-point-editor";
 import { motion } from "framer-motion";
+import { isDrink } from "@/lib/drinks";
+import { DrinkMetaHint } from "@/components/drinks/drink-meta-hint";
 
 function usePrefersReducedMotion() {
   const [reduced, setReduced] = useState(false);
@@ -231,6 +233,13 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
         >
           {displayTitle}
         </h3>
+
+        {isDrink(recipe.dish_types ?? []) && (
+          <DrinkMetaHint
+            dishTypes={recipe.dish_types ?? []}
+            drinkMeta={(recipe as Recipe & { drink_meta?: Record<string, unknown> }).drink_meta ?? {}}
+          />
+        )}
 
         {/* Nourishing description — always shown below recipe name */}
         {displayDescription && (

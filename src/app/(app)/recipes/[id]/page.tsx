@@ -11,6 +11,8 @@ import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-m
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
+import { isDrink } from "@/lib/drinks";
+import { DrinkProPanel } from "@/components/drinks/drink-pro-panel";
 
 export default async function RecipePage({
   params,
@@ -285,6 +287,16 @@ export default async function RecipePage({
           baseServings={recipeData.servings ?? null}
         />
       </div>
+
+      {/* ══ DRINK PRO PANEL — shown only for drink recipes ══ */}
+      {isDrink((recipeData.dish_types ?? []) as string[]) && (
+        <div className="px-6 lg:px-10 max-w-5xl mx-auto">
+          <DrinkProPanel
+            dishTypes={(recipeData.dish_types ?? []) as string[]}
+            drinkMeta={(recipeData as Record<string, unknown>).drink_meta as Record<string, unknown> ?? {}}
+          />
+        </div>
+      )}
 
       {/* ══════════════════════════════════════════════════════
           FULL-WIDTH BOTTOM SECTIONS
