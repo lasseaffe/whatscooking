@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass, Swords,
-  ChevronRight, ShoppingCart, Leaf, BookOpen, Plus, Heart,
+  ChevronRight, ShoppingCart, Leaf, BookOpen, Plus, Heart, GlassWater,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -55,6 +55,17 @@ const NAV_GROUPS: NavGroup[] = [
         label: "Challenge Mode",
         icon: Swords,
         desc: "Cooking with rules",
+      },
+    ],
+  },
+  {
+    group: "Drinks",
+    items: [
+      {
+        href: "/drinks",
+        label: "Drinks",
+        icon: GlassWater,
+        desc: "Cocktails, mocktails & more",
       },
     ],
   },
