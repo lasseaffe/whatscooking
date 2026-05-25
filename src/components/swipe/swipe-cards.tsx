@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import {
-  Heart, X, Clock, Flame, ExternalLink, Bookmark, BookmarkCheck,
+  Heart, X, Clock, Flame,
   ChevronDown, ChevronUp, Zap, Mountain,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
@@ -19,14 +19,11 @@ export const DIFFICULTY_CONFIG = {
 // ── Recipe Card ────────────────────────────────────────────────
 
 export function RecipeCard({
-  recipe, likeOpacity, nopeOpacity, saved, onToggleSave, onInfo,
+  recipe, likeOpacity, nopeOpacity,
 }: {
   recipe: SwipeRecipe;
   likeOpacity: number;
   nopeOpacity: number;
-  saved: boolean;
-  onToggleSave: () => void;
-  onInfo: () => void;
 }) {
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
@@ -58,27 +55,6 @@ export function RecipeCard({
         <span className="text-2xl font-black tracking-widest" style={{ color: "#C85A2F" }}>NOPE</span>
       </div>
 
-      {/* Top-right action buttons */}
-      <div className="absolute top-4 right-4 flex flex-col gap-2">
-        <button
-          onPointerDown={(e) => e.stopPropagation()}
-          onClick={(e) => { e.stopPropagation(); onInfo(); }}
-          className="w-9 h-9 rounded-full flex items-center justify-center hover:opacity-80"
-          style={{ background: "rgba(0,0,0,0.35)" }}
-          aria-label="View details"
-        >
-          <ExternalLink className="w-4 h-4 text-white" />
-        </button>
-        <button
-          onPointerDown={(e) => e.stopPropagation()}
-          onClick={(e) => { e.stopPropagation(); onToggleSave(); }}
-          className="w-9 h-9 rounded-full flex items-center justify-center hover:opacity-80"
-          style={{ background: saved ? "rgba(44,74,140,0.8)" : "rgba(0,0,0,0.35)" }}
-          aria-label="Save"
-        >
-          {saved ? <BookmarkCheck className="w-4 h-4 text-white" /> : <Bookmark className="w-4 h-4 text-white" />}
-        </button>
-      </div>
 
       {/* Difficulty badge */}
       {diff && (

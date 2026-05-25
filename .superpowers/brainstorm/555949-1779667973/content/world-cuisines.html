@@ -1,0 +1,207 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+  * { box-sizing: border-box; }
+
+  .section { background: #120A04; border-radius: 12px; overflow: hidden; border: 1px solid #2A1804; margin-bottom: 6px; font-family: 'Inter', sans-serif; }
+
+  /* ── A: Current collapsed accordion (boring) ── */
+  .opt-a-trigger {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px; background: rgb(28,18,9);
+    border: 1.5px solid #3A2416; border-radius: 10px; margin: 10px;
+  }
+  .opt-a-trigger-label { font-size: 13px; font-weight: 700; color: #EFE3CE; }
+  .opt-a-trigger-sub { font-size: 10px; color: #6B4E36; }
+  .opt-a-count { font-size: 9px; padding: 2px 6px; border-radius: 10px; background: #1C1209; color: #828E6F; border: 1px solid rgba(130,142,111,0.3); margin-left: 6px; }
+
+  /* ── B: Always-visible regional strip ── */
+  .opt-b-header { padding: 12px 14px 8px; display: flex; align-items: baseline; justify-content: space-between; }
+  .opt-b-title { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: #EFE3CE; }
+  .opt-b-see-all { font-size: 10px; color: #F4A261; font-weight: 600; }
+
+  .opt-b-region-tabs { display: flex; gap: 6px; padding: 0 14px 10px; overflow-x: auto; scrollbar-width: none; }
+  .opt-b-tab {
+    flex-shrink: 0; font-size: 9px; text-transform: uppercase; letter-spacing: 2px;
+    font-weight: 600; padding: 4px 10px; border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1); color: rgba(239,227,206,0.45);
+    cursor: pointer;
+  }
+  .opt-b-tab.active { background: rgba(200,90,47,0.15); border-color: rgba(200,90,47,0.4); color: #E8834A; }
+
+  .opt-b-cards { display: flex; gap: 10px; padding: 0 14px 14px; overflow-x: auto; scrollbar-width: none; }
+  .opt-b-card {
+    flex-shrink: 0; width: 110px; border-radius: 10px; overflow: hidden;
+    border: 1px solid #3A2416; background: #1C1009; cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .opt-b-card-img { height: 72px; position: relative; overflow: hidden; }
+  .opt-b-card-img-bg { width: 100%; height: 100%; }
+  .opt-b-card-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,10,4,0.88) 0%, transparent 60%); }
+  .opt-b-card-flag { position: absolute; top: 6px; right: 6px; font-size: 14px; }
+  .opt-b-accent-bar { position: absolute; top: 0; left: 0; right: 0; height: 2px; }
+  .opt-b-card-name { font-size: 11px; font-weight: 600; color: #EFE3CE; padding: 5px 7px 2px; }
+  .opt-b-card-tagline { font-size: 9px; font-style: italic; padding: 0 7px 5px; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .opt-b-card-dishes { display: flex; flex-wrap: wrap; gap: 3px; padding: 0 7px 7px; }
+  .opt-b-dish { font-size: 8px; padding: 1px 5px; border-radius: 10px; background: rgba(255,255,255,0.06); color: rgba(239,227,206,0.5); }
+
+  /* ── C: Full-bleed editorial with featured hero ── */
+  .opt-c-header { padding: 12px 14px 8px; display: flex; align-items: baseline; justify-content: space-between; }
+  .opt-c-title { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: #EFE3CE; }
+
+  .opt-c-featured {
+    margin: 0 14px 10px;
+    border-radius: 10px; overflow: hidden;
+    height: 80px; position: relative;
+    background: linear-gradient(135deg, #4A2010, #1C0804);
+    border: 1px solid #3A1C08;
+    cursor: pointer;
+  }
+  .opt-c-featured-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(18,10,4,0.1) 0%, rgba(18,10,4,0.7) 100%); }
+  .opt-c-featured-content { position: absolute; right: 0; top: 0; bottom: 0; padding: 12px 14px; display: flex; flex-direction: column; justify-content: center; text-align: right; }
+  .opt-c-featured-label { font-size: 8px; text-transform: uppercase; letter-spacing: 3px; color: rgba(244,162,97,0.7); margin-bottom: 3px; }
+  .opt-c-featured-name { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: #EFE3CE; }
+  .opt-c-featured-sub { font-size: 9px; color: rgba(239,227,206,0.45); font-style: italic; margin-top: 2px; }
+  .opt-c-featured-flag { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 36px; opacity: 0.5; }
+
+  .opt-c-strip { display: flex; gap: 6px; padding: 0 14px 14px; overflow-x: auto; scrollbar-width: none; }
+  .opt-c-chip {
+    flex-shrink: 0; display: flex; align-items: center; gap: 5px;
+    padding: 5px 10px; border-radius: 20px;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+    cursor: pointer;
+  }
+  .opt-c-chip-flag { font-size: 14px; }
+  .opt-c-chip-name { font-size: 10px; font-weight: 600; color: rgba(239,227,206,0.7); }
+</style>
+
+<h2>World Cuisines — Direction</h2>
+<p class="subtitle">Currently a hidden accordion that most users never open. Pick how to make it immediately visible and enticing.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="section opt-a">
+        <div style="padding:10px;">
+          <div class="opt-a-trigger">
+            <span style="font-size:16px;">🌍</span>
+            <div>
+              <div style="display:flex;align-items:center;">
+                <span class="opt-a-trigger-label">World Cuisines</span>
+                <span class="opt-a-count">42 cuisines</span>
+              </div>
+              <div class="opt-a-trigger-sub">Filter by cuisine — Moroccan to Japanese ramen</div>
+            </div>
+            <span style="color:#828E6F;margin-left:auto;">▼</span>
+          </div>
+          <div style="padding:8px;text-align:center;font-size:10px;color:rgba(239,227,206,0.2);">↑ Users must click to expand — most never do</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Current collapsed accordion</h3>
+      <p>Hidden behind a click. Low discovery. No visual appeal.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="section opt-b">
+        <div class="opt-b-header">
+          <span class="opt-b-title">🌍 World Cuisines</span>
+          <span class="opt-b-see-all">See all →</span>
+        </div>
+        <div class="opt-b-region-tabs">
+          <span class="opt-b-tab active">Europe</span>
+          <span class="opt-b-tab">Asia</span>
+          <span class="opt-b-tab">Middle East</span>
+          <span class="opt-b-tab">Americas</span>
+          <span class="opt-b-tab">Africa</span>
+        </div>
+        <div class="opt-b-cards">
+          <div class="opt-b-card">
+            <div class="opt-b-card-img">
+              <div class="opt-b-card-img-bg" style="background:linear-gradient(135deg,#5A2E10,#2A1208);"></div>
+              <div class="opt-b-accent-bar" style="background:#0055A4;"></div>
+              <div class="opt-b-card-overlay"></div>
+              <div class="opt-b-card-flag">🇫🇷</div>
+            </div>
+            <div class="opt-b-card-name">French</div>
+            <div class="opt-b-card-tagline" style="color:#7FABD4;">"Butter & technique"</div>
+            <div class="opt-b-card-dishes"><span class="opt-b-dish">Croissant</span><span class="opt-b-dish">Coq au Vin</span></div>
+          </div>
+          <div class="opt-b-card">
+            <div class="opt-b-card-img">
+              <div class="opt-b-card-img-bg" style="background:linear-gradient(135deg,#4A3010,#1C1204);"></div>
+              <div class="opt-b-accent-bar" style="background:#009246;"></div>
+              <div class="opt-b-card-overlay"></div>
+              <div class="opt-b-card-flag">🇮🇹</div>
+            </div>
+            <div class="opt-b-card-name">Italian</div>
+            <div class="opt-b-card-tagline" style="color:#9ABF7A;">"Five ingredients, soul"</div>
+            <div class="opt-b-card-dishes"><span class="opt-b-dish">Risotto</span><span class="opt-b-dish">Osso Buco</span></div>
+          </div>
+          <div class="opt-b-card">
+            <div class="opt-b-card-img">
+              <div class="opt-b-card-img-bg" style="background:linear-gradient(135deg,#3A1A08,#1A0C04);"></div>
+              <div class="opt-b-accent-bar" style="background:#AA151B;"></div>
+              <div class="opt-b-card-overlay"></div>
+              <div class="opt-b-card-flag">🇪🇸</div>
+            </div>
+            <div class="opt-b-card-name">Spanish</div>
+            <div class="opt-b-card-tagline" style="color:#C8884A;">"Saffron dreams"</div>
+            <div class="opt-b-card-dishes"><span class="opt-b-dish">Paella</span><span class="opt-b-dish">Jamón</span></div>
+          </div>
+          <div class="opt-b-card">
+            <div class="opt-b-card-img">
+              <div class="opt-b-card-img-bg" style="background:linear-gradient(135deg,#2A1808,#100804);"></div>
+              <div class="opt-b-accent-bar" style="background:#E30613;"></div>
+              <div class="opt-b-card-overlay"></div>
+              <div class="opt-b-card-flag">🇬🇷</div>
+            </div>
+            <div class="opt-b-card-name">Greek</div>
+            <div class="opt-b-card-tagline" style="color:#7FABD4;">"Mediterranean soul"</div>
+            <div class="opt-b-card-dishes"><span class="opt-b-dish">Moussaka</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Always-visible with region tabs ★ Recommended</h3>
+      <p>Always open. Region tabs (Europe / Asia / etc.) switch the card row. Each card has a flag-color accent bar. Compact 110px cards that invite browsing.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="section opt-c">
+        <div class="opt-c-header">
+          <span class="opt-c-title">🌍 World Cuisines</span>
+          <span style="font-size:10px;color:#F4A261;font-weight:600;">See all →</span>
+        </div>
+        <div class="opt-c-featured">
+          <div class="opt-c-featured-flag">🇫🇷</div>
+          <div class="opt-c-featured-overlay"></div>
+          <div class="opt-c-featured-content">
+            <div class="opt-c-featured-label">Featured cuisine</div>
+            <div class="opt-c-featured-name">French</div>
+            <div class="opt-c-featured-sub">"Butter, technique, audacity"</div>
+          </div>
+        </div>
+        <div class="opt-c-strip">
+          <div class="opt-c-chip"><span class="opt-c-chip-flag">🇮🇹</span><span class="opt-c-chip-name">Italian</span></div>
+          <div class="opt-c-chip"><span class="opt-c-chip-flag">🇯🇵</span><span class="opt-c-chip-name">Japanese</span></div>
+          <div class="opt-c-chip"><span class="opt-c-chip-flag">🇲🇽</span><span class="opt-c-chip-name">Mexican</span></div>
+          <div class="opt-c-chip"><span class="opt-c-chip-flag">🇮🇳</span><span class="opt-c-chip-name">Indian</span></div>
+          <div class="opt-c-chip"><span class="opt-c-chip-flag">🇹🇭</span><span class="opt-c-chip-name">Thai</span></div>
+          <div class="opt-c-chip"><span class="opt-c-chip-flag">🇲🇦</span><span class="opt-c-chip-name">Moroccan</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Featured hero + flag chip strip</h3>
+      <p>One rotating "featured cuisine" hero card, then a scrollable flag-chip strip below. Simpler but less browsable.</p>
+    </div>
+  </div>
+
+</div>

@@ -76,7 +76,7 @@ export function DiscoverFeedClient({
   cuisines: _cuisines, // now sourced inside CuisineRotator
   gridRecipes,
   gridTotal,
-  pantryNames: _pantryNames,
+  pantryNames,
   isLoggedIn,
 }: Props) {
   return (
@@ -105,6 +105,7 @@ export function DiscoverFeedClient({
                 matches={pantryMatches}
                 totalMatchCount={pantryMatchTotal}
                 pantryItemCount={pantryItemCount}
+                pantryNames={pantryNames}
               />
             )}
 

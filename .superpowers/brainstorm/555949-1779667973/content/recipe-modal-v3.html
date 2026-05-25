@@ -1,0 +1,165 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&family=Inter:wght@400;500;600&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* Page behind */
+  .page-behind {
+    background: #120A04;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    height: 340px;
+    border: 1px solid #2A1804;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page-bg {
+    position: absolute; inset: 0;
+    padding: 14px;
+    opacity: 0.25;
+  }
+  .page-bg-row { height: 8px; background: rgba(239,227,206,0.2); border-radius: 3px; margin-bottom: 7px; }
+
+  /* Overlay */
+  .overlay {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(2px);
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  /* The card */
+  .preview-card {
+    width: 88%;
+    background: #1C1009;
+    border: 1px solid #3A1C08;
+    border-radius: 14px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+
+  /* Top: image strip left, info right */
+  .top-row {
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .thumb {
+    width: 80px;
+    background: linear-gradient(135deg, #5A2E10, #1C0804);
+    flex-shrink: 0;
+  }
+  .info {
+    flex: 1; padding: 10px 12px;
+    display: flex; flex-direction: column; gap: 4px;
+    min-width: 0;
+  }
+  .cuisine-tag {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 3px;
+    color: #F4A261; font-weight: 600;
+  }
+  .title {
+    font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 14px; color: #EFE3CE; line-height: 1.25;
+  }
+  .stat-row { display: flex; gap: 8px; margin-top: 2px; }
+  .stat { font-size: 10px; color: #8A6A4A; display: flex; align-items: center; gap: 2px; }
+  .stat b { color: #C85A2F; font-weight: 600; }
+
+  /* Description */
+  .desc {
+    padding: 7px 12px;
+    font-size: 10px; color: rgba(239,227,206,0.4);
+    font-style: italic; line-height: 1.45;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  /* Ingredient pills row */
+  .ing-row {
+    padding: 7px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .ing-label { font-size: 8px; text-transform: uppercase; letter-spacing: 2px; color: #6B4A32; font-weight: 600; margin-bottom: 5px; }
+  .ing-pills { display: flex; gap: 4px; flex-wrap: wrap; }
+  .pill {
+    font-size: 9px; padding: 2px 7px; border-radius: 20px;
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+    color: rgba(239,227,206,0.6);
+  }
+  .pill-more { color: #F4A261; border-color: rgba(244,162,97,0.2); background: rgba(244,162,97,0.05); }
+
+  /* CTA row */
+  .cta-row { display: flex; gap: 6px; padding: 8px 12px 10px; }
+  .btn-primary {
+    flex: 1; padding: 7px 0; border-radius: 8px; text-align: center;
+    font-size: 11px; font-weight: 700; color: white;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    box-shadow: 0 3px 10px rgba(200,90,47,0.35);
+  }
+  .btn-secondary {
+    padding: 7px 10px; border-radius: 8px;
+    font-size: 11px; font-weight: 600; color: #F4A261;
+    border: 1px solid rgba(244,162,97,0.25);
+    background: rgba(244,162,97,0.05);
+    white-space: nowrap;
+  }
+</style>
+
+<h2>Recipe Preview Card</h2>
+<p class="subtitle">Compact centered card, floats over the page — everything visible at once, no scrolling needed.</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:8px;">
+      <div class="page-behind">
+        <div class="page-bg">
+          <div class="page-bg-row" style="width:55%"></div>
+          <div class="page-bg-row" style="width:75%"></div>
+          <div class="page-bg-row" style="width:40%"></div>
+          <div class="page-bg-row" style="width:65%"></div>
+        </div>
+        <div class="overlay">
+          <div class="preview-card">
+
+            <div class="top-row">
+              <div class="thumb"></div>
+              <div class="info">
+                <div class="cuisine-tag">Italian · Desserts</div>
+                <div class="title">Apple Hazelnut Cookies</div>
+                <div class="stat-row">
+                  <span class="stat">⏱ <b>45 min</b></span>
+                  <span class="stat">🔥 <b>93 kcal</b></span>
+                  <span class="stat">👤 <b>12</b></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="desc">"Crisp apple-season cookies with toasted hazelnuts and brown sugar."</div>
+
+            <div class="ing-row">
+              <div class="ing-label">Ingredients · 8 items</div>
+              <div class="ing-pills">
+                <span class="pill">Brown sugar</span>
+                <span class="pill">Shortening</span>
+                <span class="pill">Egg</span>
+                <span class="pill">Vanilla</span>
+                <span class="pill pill-more">+4 more</span>
+              </div>
+            </div>
+
+            <div class="cta-row">
+              <div class="btn-primary">♥ Save to plan</div>
+              <div class="btn-secondary">Full recipe →</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Compact preview card</h3>
+      <p>Image strip on the left, all info fits without scrolling. Ingredient pills wrap to 2 lines max. Two CTAs at the bottom.</p>
+    </div>
+  </div>
+</div>

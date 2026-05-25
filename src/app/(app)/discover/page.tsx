@@ -19,7 +19,7 @@ function TonightsEditionHeader({ featuredTitle }: { featuredTitle: string }) {
       <p style={{ fontSize: 9, letterSpacing: 6, color: 'rgba(244,162,97,0.4)', marginBottom: 8, textTransform: 'uppercase' }}>
         What&apos;s Cooking — Tonight&apos;s Edition
       </p>
-      <h1 style={{ fontSize: 'clamp(24px,3vw,40px)', fontStyle: 'italic', fontWeight: 400, color: 'rgba(239,227,206,0.9)' }}>
+      <h1 style={{ fontSize: 'clamp(24px,3vw,40px)', fontStyle: 'italic', fontWeight: 400, color: 'rgba(239,227,206,0.9)', fontFamily: "'Playfair Display', Georgia, serif" }}>
         {featuredTitle}
       </h1>
       <p style={{ fontSize: 10, letterSpacing: 2, color: 'rgba(244,162,97,0.4)', marginTop: 8, textTransform: 'uppercase' }}>
@@ -101,8 +101,8 @@ export default async function DiscoverPage() {
       .select("id, title, image_url, prep_time_minutes, cook_time_minutes")
       .not("image_url", "is", null)
       .neq("image_status", "hidden")
-      .lte("prep_time_minutes", 20)
-      .limit(10),
+      .lte("prep_time_minutes", 30)
+      .limit(40),
 
     // 4. All recipes grid
     supabase
