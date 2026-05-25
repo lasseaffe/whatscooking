@@ -1,97 +1,47 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import { CUISINES, CUISINE_REGIONS } from "@/lib/cuisines";
-import type { CuisineInfo } from "@/lib/cuisines";
+import { CUISINES } from "@/lib/cuisines";
 
 interface Props {
-  /** Rotation interval in ms. Default 6000 (6 seconds per region). */
   intervalMs?: number;
+  onCuisineSelect?: (slug: string) => void;
 }
 
 function flagEmoji(code: string): string {
   if (!code || code.length !== 2) return "";
-  const base = 127397; // regional indicator A - 'A'.charCodeAt(0)
+  const base = 127397;
   return String.fromCodePoint(...[...code.toUpperCase()].map((c) => base + c.charCodeAt(0)));
 }
 
-// ── Single rich card (matches the design from discover-client.tsx) ──
-function CuisineCard({ cuisine }: { cuisine: CuisineInfo }) {
-  return (
-    <Link
-      href={`/cuisines/${cuisine.slug}`}
-      className="rounded-2xl overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-lg text-left shrink-0 flex flex-col"
-      style={{
-        width: 210,
-        border: "1px solid #3A2416",
-        background: "#1C1209",
-      }}
-    >
-      <div className="relative overflow-hidden" style={{ height: 150 }}>
-        <img
-          src={cuisine.heroImage}
-          alt={cuisine.name}
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
-        <div
-          className="absolute inset-0"
-          style={{ background: "linear-gradient(to top, rgba(20,10,4,0.88) 0%, rgba(0,0,0,0.1) 55%, transparent 100%)" }}
-        />
-        <div className="absolute bottom-0 left-0 right-0 px-3 pb-2.5">
-          <div className="flex items-end justify-between gap-1">
-            <h3 className="text-white font-bold text-sm leading-tight drop-shadow-sm">{cuisine.name}</h3>
-            <span className="text-base shrink-0">{flagEmoji(cuisine.flag)}</span>
-          </div>
-        </div>
-      </div>
-      <div className="px-3 py-2.5 flex flex-col flex-1">
-        <p
-          className="text-xs font-medium italic mb-2 line-clamp-2"
-          style={{ color: "#A69180" }}
-        >
-          &ldquo;{cuisine.tagline}&rdquo;
-        </p>
-        <div className="flex flex-wrap gap-1">
-          {cuisine.keyDishes.slice(0, 3).map((dish) => (
-            <span
-              key={dish}
-              className="text-xs px-1.5 py-0.5 rounded-full"
-              style={{ background: "rgba(255,255,255,0.09)", color: "rgba(255,255,255,0.55)", fontSize: "10px" }}
-            >
-              {dish}
-            </span>
-          ))}
-        </div>
-      </div>
-    </Link>
-  );
-}
-
-export function CuisineRotator({ intervalMs = 6000 }: Props) {
-  const [index, setIndex] = useState(0);
+export function CuisineRotator({ intervalMs = 6000, onCuisineSelect }: Props) {
+  const [featuredIndex, setFeaturedIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
-  const regions = CUISINE_REGIONS;
+  const router = useRouter();
 
   useEffect(() => {
     if (paused) return;
     timer.current = setInterval(() => {
-      setIndex((i) => (i + 1) % regions.length);
+      setFeaturedIndex((i) => (i + 1) % CUISINES.length);
     }, intervalMs);
     return () => {
       if (timer.current) clearInterval(timer.current);
     };
-  }, [paused, intervalMs, regions.length]);
+  }, [paused, intervalMs]);
 
-  const goPrev = () => setIndex((i) => (i - 1 + regions.length) % regions.length);
-  const goNext = () => setIndex((i) => (i + 1) % regions.length);
+  const featured = CUISINES[featuredIndex];
 
-  const region = regions[index];
-  const cuisinesInRegion = CUISINES.filter((c) => c.region === region);
+  function handleChipClick(slug: string, index: number) {
+    setFeaturedIndex(index);
+    if (onCuisineSelect) {
+      onCuisineSelect(slug);
+    } else {
+      router.push(`/cuisines/${slug}`);
+    }
+  }
 
   return (
     <div
@@ -100,91 +50,121 @@ export function CuisineRotator({ intervalMs = 6000 }: Props) {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
+      {/* Section header */}
       <div className="flex items-center justify-between mb-3">
         <h2
-          className="text-sm font-bold"
-          style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}
+          className="font-bold"
+          style={{
+            color: "#EFE3CE",
+            fontFamily: "'Playfair Display', Georgia, serif",
+            fontSize: 16,
+          }}
         >
           🌍 World Cuisines
         </h2>
         <Link
           href="/cuisines"
           className="text-xs font-semibold"
-          style={{ color: "var(--wc-accent-saffron, #F4A261)" }}
+          style={{ color: "#F4A261" }}
         >
           See all →
         </Link>
       </div>
 
-      {/* Region header with prev/next */}
-      <div className="flex items-center justify-between mb-3">
-        <button
-          type="button"
-          aria-label="Previous region"
-          onClick={goPrev}
-          className="rounded-full p-1 transition-colors hover:bg-white/5"
-          style={{ color: "#A69180" }}
+      {/* Featured hero card — rotates every 6s, gradient background */}
+      <Link
+        href={`/cuisines/${featured.slug}`}
+        className="relative rounded-xl overflow-hidden mb-3 flex items-center block transition-opacity hover:opacity-90"
+        style={{
+          height: 90,
+          background: `linear-gradient(135deg, ${featured.color}33 0%, ${featured.color}11 100%)`,
+          border: `1px solid ${featured.color}44`,
+        }}
+      >
+        {/* Large flag emoji — left, 50% opacity */}
+        <span
+          className="absolute left-3 top-1/2 -translate-y-1/2"
+          style={{ fontSize: 40, opacity: 0.5, lineHeight: 1 }}
+          aria-hidden="true"
         >
-          <ChevronLeft className="w-4 h-4" />
-        </button>
-        <AnimatePresence mode="wait">
-          <motion.h3
-            key={region}
-            initial={{ opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
-            transition={{ duration: 0.3 }}
-            className="text-xs font-bold uppercase tracking-widest"
-            style={{ color: "#A69180" }}
-          >
-            {region}
-          </motion.h3>
-        </AnimatePresence>
-        <button
-          type="button"
-          aria-label="Next region"
-          onClick={goNext}
-          className="rounded-full p-1 transition-colors hover:bg-white/5"
-          style={{ color: "#A69180" }}
-        >
-          <ChevronRight className="w-4 h-4" />
-        </button>
-      </div>
+          {flagEmoji(featured.flag)}
+        </span>
 
-      {/* Sliding card row */}
-      <div className="relative overflow-hidden">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={region}
-            initial={{ opacity: 0, x: 40 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -40 }}
-            transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-            className="flex gap-3 overflow-x-auto pb-2"
-            style={{ scrollbarWidth: "none" }}
-          >
-            {cuisinesInRegion.map((c) => (
-              <CuisineCard key={c.slug} cuisine={c} />
-            ))}
-          </motion.div>
-        </AnimatePresence>
-      </div>
-
-      {/* Region dots */}
-      <div className="flex justify-center gap-1.5 mt-3">
-        {regions.map((r, i) => (
-          <button
-            key={r}
-            type="button"
-            aria-label={`Show ${r} cuisines`}
-            onClick={() => setIndex(i)}
-            className="rounded-full transition-all"
+        {/* Right: label + name + tagline */}
+        <div className="absolute inset-0 flex flex-col justify-center pl-20 pr-4">
+          <p
             style={{
-              width: i === index ? 18 : 6,
-              height: 6,
-              background: i === index ? "var(--wc-accent-saffron, #F4A261)" : "rgba(255,255,255,0.2)",
+              fontSize: 8,
+              textTransform: "uppercase",
+              letterSpacing: 3,
+              color: "rgba(244,162,97,0.75)",
+              fontWeight: 600,
+              marginBottom: 3,
             }}
-          />
+          >
+            Featured cuisine
+          </p>
+          <p
+            style={{
+              fontFamily: "'Playfair Display', Georgia, serif",
+              fontSize: 20,
+              fontWeight: 700,
+              color: "#EFE3CE",
+              lineHeight: 1.1,
+              marginBottom: 3,
+            }}
+          >
+            {featured.name}
+          </p>
+          <p
+            style={{
+              fontSize: 10,
+              fontStyle: "italic",
+              color: "rgba(239,227,206,0.6)",
+              lineHeight: 1.3,
+            }}
+          >
+            &ldquo;{featured.tagline}&rdquo;
+          </p>
+        </div>
+      </Link>
+
+      {/* Scrollable flag chip strip */}
+      <div
+        className="flex gap-2 overflow-x-auto pb-1"
+        style={{ scrollbarWidth: "none" }}
+      >
+        {CUISINES.map((cuisine, i) => (
+          <button
+            key={cuisine.slug}
+            type="button"
+            onClick={() => handleChipClick(cuisine.slug, i)}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full shrink-0 transition-all"
+            style={{
+              background:
+                i === featuredIndex
+                  ? `${cuisine.color}22`
+                  : "rgba(255,255,255,0.04)",
+              border: `1px solid ${
+                i === featuredIndex
+                  ? cuisine.color + "55"
+                  : "rgba(255,255,255,0.08)"
+              }`,
+            }}
+          >
+            <span style={{ fontSize: 14 }}>{flagEmoji(cuisine.flag)}</span>
+            <span
+              style={{
+                fontSize: 10,
+                fontWeight: 600,
+                whiteSpace: "nowrap",
+                color:
+                  i === featuredIndex ? "#EFE3CE" : "rgba(239,227,206,0.5)",
+              }}
+            >
+              {cuisine.name}
+            </span>
+          </button>
         ))}
       </div>
     </div>
