@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { TypewriterText } from "@/components/ui/TypewriterText";
 
@@ -48,8 +48,6 @@ export function RecipeQuestionnaire() {
   const [answers, setAnswers] = useState<string[]>([]);
   const [typingDone, setTypingDone] = useState(false);
   const [done, setDone] = useState(false);
-  // Guard: ignore onDone from a previous step's TypewriterText interval
-  const stepRef = useRef(step);
 
   const question = QUESTIONS[step];
 
@@ -57,7 +55,6 @@ export function RecipeQuestionnaire() {
     const next = [...answers, value];
     setAnswers(next);
     if (step < QUESTIONS.length - 1) {
-      stepRef.current = step + 1;
       setStep(step + 1);
       setTypingDone(false);
     } else {
@@ -66,7 +63,6 @@ export function RecipeQuestionnaire() {
   }
 
   function handleReset() {
-    stepRef.current = 0;
     setStep(0);
     setAnswers([]);
     setTypingDone(false);
@@ -148,7 +144,7 @@ export function RecipeQuestionnaire() {
               key={step}
               text={question.text}
               speed={38}
-              onDone={() => { if (stepRef.current === step) setTypingDone(true); }}
+              onDone={() => setTypingDone(true)}
               cursorColor="#B07D56"
             />
           </p>
