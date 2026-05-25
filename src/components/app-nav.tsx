@@ -65,7 +65,7 @@ const NAV_GROUPS: NavGroup[] = [
         href: "/drinks",
         label: "Drinks",
         icon: GlassWater,
-        desc: "Cocktails, mocktails & more",
+        desc: "Café, Bar, Wine & more",
       },
     ],
   },
