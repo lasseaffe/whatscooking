@@ -23,6 +23,7 @@ export interface DetailRecipe {
 interface Props {
   recipe: DetailRecipe | null;
   onClose: () => void;
+  onSave?: (recipe: DetailRecipe) => void;
 }
 
 interface Ingredient {
@@ -67,9 +68,12 @@ function useIngredients(recipeId: string | null) {
 
 const PILL_LIMIT = 5;
 
-export function RecipeDetailModal({ recipe, onClose }: Props) {
+export function RecipeDetailModal({ recipe, onClose, onSave }: Props) {
+  const [saved, setSaved] = useState(false);
+
   useEffect(() => {
     if (!recipe) return;
+    setSaved(false);
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
@@ -225,13 +229,25 @@ export function RecipeDetailModal({ recipe, onClose }: Props) {
 
         {/* CTAs */}
         <div className="flex gap-2 px-3 py-3">
-          <a
-            href={`/recipes/${recipe.id}`}
+          <button
+            onClick={() => {
+              if (saved) return;
+              setSaved(true);
+              onSave?.(recipe);
+            }}
             className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-bold text-white"
-            style={{ background: 'linear-gradient(135deg, #C85A2F, #E8834A)', boxShadow: '0 3px 10px rgba(200,90,47,0.35)' }}
+            style={{
+              background: saved
+                ? 'linear-gradient(135deg, #4A7C3F, #6AAF5A)'
+                : 'linear-gradient(135deg, #C85A2F, #E8834A)',
+              boxShadow: saved
+                ? '0 3px 10px rgba(74,124,63,0.35)'
+                : '0 3px 10px rgba(200,90,47,0.35)',
+              cursor: saved ? 'default' : 'pointer',
+            }}
           >
-            ♥ Save to plan
-          </a>
+            {saved ? '✓ Saved' : '♥ Save to plan'}
+          </button>
           <a
             href={`/recipes/${recipe.id}`}
             target="_blank"

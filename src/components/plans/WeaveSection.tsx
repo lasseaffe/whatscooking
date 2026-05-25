@@ -309,6 +309,7 @@ export function WeaveSection({ state, planId, durationDays, weekStart, mealsPerD
       <RecipeDetailModal
         recipe={detailRecipe}
         onClose={() => setDetailRecipe(null)}
+        onSave={() => setDetailRecipe(null)}
       />
     </section>
   );
