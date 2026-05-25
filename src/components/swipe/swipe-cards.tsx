@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   Heart, X, Clock, Flame,
   ChevronDown, ChevronUp, Zap, Mountain,
+  ExternalLink, Bookmark, BookmarkCheck,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
 import { FocalPointEditor } from "@/components/focal-point-editor";
