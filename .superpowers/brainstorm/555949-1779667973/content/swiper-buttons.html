@@ -1,0 +1,209 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400&family=Inter:wght@400;500&display=swap');
+
+  .swiper-mock {
+    background: #0F0B08;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2A1804;
+    margin-bottom: 6px;
+  }
+
+  /* Fake card */
+  .fake-card {
+    height: 220px;
+    position: relative;
+    background: linear-gradient(180deg, #3A2010 0%, #1C0E04 100%);
+    display: flex;
+    align-items: flex-end;
+  }
+  .fake-card-img {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #4A2510 0%, #2A1208 50%, #3A2010 100%);
+    opacity: 0.7;
+  }
+  .fake-card-label {
+    position: relative; z-index: 1;
+    padding: 12px 14px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #EFE3CE;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+  }
+  .fake-card-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: rgba(244,162,97,0.6);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* Button bars */
+  .btn-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0 16px;
+    background: #0F0B08;
+    gap: 0;
+  }
+
+  /* Opt A — symmetric flanking */
+  .btn-a-x {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: rgba(200,90,47,0.12);
+    border: 1.5px solid rgba(200,90,47,0.4);
+    display: flex; align-items: center; justify-content: center;
+    color: #C85A2F;
+    font-size: 22px;
+    margin-right: 28px;
+  }
+  .btn-a-heart {
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    display: flex; align-items: center; justify-content: center;
+    color: white;
+    font-size: 26px;
+    box-shadow: 0 4px 20px rgba(200,90,47,0.45);
+    margin-right: 28px;
+  }
+  .btn-a-check {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: rgba(76,175,80,0.12);
+    border: 1.5px solid rgba(76,175,80,0.35);
+    display: flex; align-items: center; justify-content: center;
+    color: #4CAF50;
+    font-size: 22px;
+  }
+
+  /* Opt B — heart + X only, both large, equal weight */
+  .btn-b-row { gap: 20px; }
+  .btn-b-x {
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    background: rgba(200,90,47,0.1);
+    border: 2px solid rgba(200,90,47,0.5);
+    display: flex; align-items: center; justify-content: center;
+    color: #C85A2F;
+    font-size: 24px;
+  }
+  .btn-b-heart {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    display: flex; align-items: center; justify-content: center;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 6px 28px rgba(200,90,47,0.5);
+  }
+
+  /* Opt C — pill shape, side by side */
+  .btn-c-row { gap: 12px; }
+  .btn-c-x {
+    height: 52px; padding: 0 28px;
+    border-radius: 26px;
+    background: rgba(200,90,47,0.08);
+    border: 1.5px solid rgba(200,90,47,0.35);
+    display: flex; align-items: center; justify-content: center;
+    color: #C85A2F;
+    font-size: 18px;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(200,90,47,0.9);
+    letter-spacing: 1px;
+  }
+  .btn-c-heart {
+    height: 52px; padding: 0 32px;
+    border-radius: 26px;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    display: flex; align-items: center; justify-content: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    gap: 8px;
+    box-shadow: 0 4px 18px rgba(200,90,47,0.4);
+  }
+</style>
+
+<h2>Swiper Action Buttons</h2>
+<p class="subtitle">Stripping down to just heart + X. Three layouts for the button bar.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="swiper-mock">
+        <div class="fake-card">
+          <div class="fake-card-img"></div>
+          <div class="fake-card-label">
+            Apple Nut Cinnamon Muffins
+            <div class="fake-card-sub">Baking · 45 min · 280 kcal</div>
+          </div>
+        </div>
+        <div class="btn-bar">
+          <div class="btn-a-x">✕</div>
+          <div class="btn-a-heart">♥</div>
+          <div class="btn-a-check">✓</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Classic Tinder-style trio (X · Heart · Check)</h3>
+      <p>Keeps a "save/maybe" action alongside like. Familiar pattern. Third button could be bookmark/save-to-plan.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="swiper-mock">
+        <div class="fake-card">
+          <div class="fake-card-img"></div>
+          <div class="fake-card-label">
+            Apple Nut Cinnamon Muffins
+            <div class="fake-card-sub">Baking · 45 min · 280 kcal</div>
+          </div>
+        </div>
+        <div class="btn-bar btn-b-row">
+          <div class="btn-b-x">✕</div>
+          <div class="btn-b-heart">♥</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Two circles, heart dominant ★ Recommended</h3>
+      <p>Pure binary choice. Heart is the hero. X is present but clearly secondary. Clean and decisive.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="swiper-mock">
+        <div class="fake-card">
+          <div class="fake-card-img"></div>
+          <div class="fake-card-label">
+            Apple Nut Cinnamon Muffins
+            <div class="fake-card-sub">Baking · 45 min · 280 kcal</div>
+          </div>
+        </div>
+        <div class="btn-bar btn-c-row">
+          <div class="btn-c-x">✕ &nbsp;SKIP</div>
+          <div class="btn-c-heart">♥ &nbsp;LOVE IT</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Pill buttons with labels</h3>
+      <p>More explicit — labels clarify intent. Wider tap targets. Less visual drama but clearer for new users.</p>
+    </div>
+  </div>
+
+</div>

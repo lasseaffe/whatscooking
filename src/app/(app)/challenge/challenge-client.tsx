@@ -1,11 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-import type { ChallengeDef, ChallengeCompletion, ActiveChallenge } from './types';
+import type { ChallengeDef, ChallengeCompletion } from './types';
 import { ChallengeHero } from './components/challenge-hero';
-import { ActiveBanner } from './components/active-banner';
-import { CompletionModal } from './components/completion-modal';
 import { ChallengeCarousel } from './components/challenge-carousel';
 import { BadgeWall } from './components/badge-wall';
 import { HistoryLog } from './components/history-log';
@@ -43,18 +40,10 @@ export function ChallengeClient({
   allChallenges, byCategory, daily, completions,
   leaderboard, householdFeed, currentUserId, streakDays,
 }: Props) {
-  const router = useRouter();
   const [tab, setTab] = useState<Tab>('browse');
-  const [pendingActive, setPendingActive] = useState<ActiveChallenge | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
 
   function handleAccepted() {
-    setRefreshKey(k => k + 1);
-  }
-
-  function handleDone() {
-    setPendingActive(null);
-    router.refresh();
     setRefreshKey(k => k + 1);
   }
 
@@ -78,8 +67,6 @@ export function ChallengeClient({
       </div>
 
       <ChallengeHero key={`hero-${refreshKey}`} challenges={allChallenges} daily={daily} onAccepted={handleAccepted} />
-
-      <ActiveBanner key={`banner-${refreshKey}`} onComplete={setPendingActive} />
 
       <div style={{ display: 'flex', gap: 0, borderBottom: '1px solid var(--border-primary,#272726)', marginBottom: 24 }}>
         {(['browse', 'progress', 'social'] as Tab[]).map(t => (
@@ -159,14 +146,6 @@ export function ChallengeClient({
             <FriendsFeed completions={householdFeed} currentUserId={currentUserId} />
           </div>
         </div>
-      )}
-
-      {pendingActive && (
-        <CompletionModal
-          active={pendingActive}
-          onClose={() => setPendingActive(null)}
-          onDone={handleDone}
-        />
       )}
     </div>
   );

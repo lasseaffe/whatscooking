@@ -1,6 +1,24 @@
-import type { ActiveChallenge, ChallengeCategory, ChallengeDifficulty } from './types';
+import type { ActiveChallenge, ChallengeCategory, ChallengeDifficulty, ChallengeDef } from './types';
 
 const STORAGE_KEY = 'wc_active_challenge';
+
+// Snapshot a challenge definition into a live run object, carrying all the
+// content the HUD + Run screen need so they render without a refetch.
+export function toActiveChallenge(def: ChallengeDef): ActiveChallenge {
+  return {
+    challengeId: def.id,
+    title: def.title,
+    emoji: def.emoji,
+    startedAt: new Date().toISOString(),
+    requiresProof: def.requires_proof,
+    category: def.category,
+    difficulty: def.difficulty,
+    objective: def.objective ?? null,
+    rules: def.rules ?? [],
+    targetSeconds: def.target_seconds ?? null,
+    strategyTip: def.strategy_tip ?? null,
+  };
+}
 
 export function getActiveChallenge(): ActiveChallenge | null {
   if (typeof window === 'undefined') return null;
@@ -21,9 +39,35 @@ export function clearActiveChallenge(): void {
 }
 
 export function formatElapsed(seconds: number): string {
-  const m = Math.floor(seconds / 60);
-  const s = seconds % 60;
+  const m = Math.floor(Math.abs(seconds) / 60);
+  const s = Math.abs(seconds) % 60;
   return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+// Live timer readout. Speedruns (target set) count DOWN with urgency tones;
+// everything else counts UP. tone drives the colour ramp in HUD + Run screen.
+export function timerView(
+  elapsed: number,
+  target: number | null,
+): { text: string; tone: 'live' | 'warn' | 'over' } {
+  if (target == null) return { text: formatElapsed(elapsed), tone: 'live' };
+  const remaining = target - elapsed;
+  if (remaining <= 0) return { text: `+${formatElapsed(-remaining)}`, tone: 'over' };
+  if (remaining <= 60) return { text: formatElapsed(remaining), tone: 'warn' };
+  return { text: formatElapsed(remaining), tone: 'live' };
+}
+
+export const TIMER_TONE_COLOR: Record<'live' | 'warn' | 'over', string> = {
+  live: '#F4A261',
+  warn: '#F2A900',
+  over: '#ff6b6b',
+};
+
+// Speedrun par comparison shown on completion.
+export function parResult(elapsed: number, target: number): { beat: boolean; label: string } {
+  const delta = target - elapsed;
+  if (delta >= 0) return { beat: true, label: `Beat par by ${formatElapsed(delta)} 🏆` };
+  return { beat: false, label: `Over par by ${formatElapsed(-delta)}` };
 }
 
 export function chunkArray<T>(arr: T[], size: number): T[][] {

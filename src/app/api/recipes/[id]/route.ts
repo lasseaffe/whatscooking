@@ -5,6 +5,29 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
+export async function PATCH(
+  req: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id } = await params;
+    const body = await req.json() as { title?: string; description?: string };
+    const allowed: Record<string, unknown> = {};
+    if (typeof body.title === "string") allowed.title = body.title.trim();
+    if (typeof body.description === "string") allowed.description = body.description.trim();
+    if (Object.keys(allowed).length === 0) {
+      return NextResponse.json({ error: "No valid fields" }, { status: 400 });
+    }
+    const supabase = await createClient();
+    const { data, error } = await supabase.from("recipes").update(allowed).eq("id", id).select().single();
+    if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json(data);
+  } catch (error) {
+    console.error("[recipes/[id] PATCH]", error);
+    return NextResponse.json({ error: "Failed to update recipe" }, { status: 500 });
+  }
+}
+
 export async function GET(
   req: NextRequest,
   { params }: { params: Promise<{ id: string }> }

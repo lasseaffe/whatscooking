@@ -8,6 +8,7 @@ import {
 import Link from "next/link";
 import { ReportButton } from "@/components/report-button";
 import { RecipeImage } from "@/components/recipe-image";
+import { SetBgMode } from "@/components/set-bg-mode";
 
 type Recipe = {
   id: string;
@@ -101,7 +102,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
       <Link
         href={`/recipes/${recipe.id}`}
         className="flex items-center gap-4 p-4 rounded-xl border transition-all hover:border-amber-700/50 group"
-        style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
+        style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgb(30,18,8)" }}
       >
         <div className="shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-amber-950/30">
           <RecipeImage
@@ -152,7 +153,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
     <Link
       href={`/recipes/${recipe.id}`}
       className="group rounded-2xl overflow-hidden border transition-all hover:-translate-y-0.5 hover:shadow-lg"
-      style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
+      style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgb(30,18,8)" }}
     >
       <div className="relative h-44 overflow-hidden bg-amber-950/30">
         <RecipeImage
@@ -217,7 +218,7 @@ function TagPill({
       className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full border transition-all hover:scale-105 capitalize"
       style={{
         borderColor: active ? "#F4A261" : "rgba(90,50,20,0.4)",
-        background: active ? "rgba(244,162,97,0.15)" : "rgba(30,18,8,0.6)",
+        background: active ? "rgba(244,162,97,0.15)" : "rgb(30,18,8)",
         color: active ? "#F4A261" : "#9A7A58",
         fontWeight: active ? 600 : 400,
       }}
@@ -328,7 +329,8 @@ export function AllRecipesClient({
   };
 
   return (
-    <div className="min-h-screen">
+    <div data-bg="functional" className="min-h-screen" style={{ background: "var(--wc-floor, #1F1B19)" }}>
+      <SetBgMode mode="functional" />
       {/* ── Header ── */}
       <div className="px-6 pt-8 pb-4">
         <h1 className="text-2xl font-bold mb-1" style={{ fontFamily: "'Libre Baskerville', Georgia, serif", color: "#EFE3CE" }}>
@@ -356,7 +358,7 @@ export function AllRecipesClient({
               }, 300);
             }}
             className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm border outline-none"
-            style={{ background: "rgba(30,18,8,0.6)", borderColor: "rgba(90,50,20,0.4)", color: "#EFE3CE" }}
+            style={{ background: "rgb(30,18,8)", borderColor: "rgba(90,50,20,0.4)", color: "#EFE3CE" }}
           />
           {query && (
             <button onClick={() => setQuery("")} className="absolute right-3 top-1/2 -translate-y-1/2">
@@ -370,7 +372,7 @@ export function AllRecipesClient({
           className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-medium transition-all"
           style={{
             borderColor: showFilters ? "#F4A261" : "rgba(90,50,20,0.4)",
-            background: showFilters ? "rgba(244,162,97,0.12)" : "rgba(30,18,8,0.6)",
+            background: showFilters ? "rgba(244,162,97,0.12)" : "rgb(30,18,8)",
             color: showFilters ? "#F4A261" : "#9A7A58",
           }}
         >
@@ -388,7 +390,7 @@ export function AllRecipesClient({
           {(["grid", "list"] as const).map((v) => (
             <button key={v} onClick={() => setView(v)} className="p-2.5 transition-colors"
               style={{
-                background: view === v ? "rgba(244,162,97,0.15)" : "rgba(30,18,8,0.6)",
+                background: view === v ? "rgba(244,162,97,0.15)" : "rgb(30,18,8)",
                 color: view === v ? "#F4A261" : "#6B5040",
               }}>
               {v === "grid" ? <LayoutGrid className="w-4 h-4" /> : <List className="w-4 h-4" />}
@@ -442,7 +444,7 @@ export function AllRecipesClient({
       {/* ── Filter panel ── */}
       {showFilters && (
         <div className="mx-6 mb-6 rounded-2xl border p-4 space-y-5"
-          style={{ borderColor: "rgba(90,50,20,0.35)", background: "rgba(20,10,4,0.6)" }}>
+          style={{ borderColor: "rgba(90,50,20,0.35)", background: "rgb(20,10,4)" }}>
 
           {/* Dietary quick filters */}
           <div>
@@ -453,7 +455,7 @@ export function AllRecipesClient({
                   className="text-xs px-2.5 py-1 rounded-full border capitalize transition-all hover:scale-105"
                   style={{
                     borderColor: activeDiets.has(diet) ? "#6DCC8A" : "rgba(90,50,20,0.4)",
-                    background: activeDiets.has(diet) ? "rgba(100,200,100,0.12)" : "rgba(30,18,8,0.6)",
+                    background: activeDiets.has(diet) ? "rgba(100,200,100,0.12)" : "rgb(30,18,8)",
                     color: activeDiets.has(diet) ? "#6DCC8A" : "#9A7A58",
                     fontWeight: activeDiets.has(diet) ? 600 : 400,
                   }}>
@@ -476,7 +478,7 @@ export function AllRecipesClient({
                   className="text-xs px-2.5 py-1 rounded-full border capitalize transition-all hover:scale-105"
                   style={{
                     borderColor: activeDifficulty === d ? "#B07ADA" : "rgba(90,50,20,0.4)",
-                    background: activeDifficulty === d ? "rgba(160,100,200,0.12)" : "rgba(30,18,8,0.6)",
+                    background: activeDifficulty === d ? "rgba(160,100,200,0.12)" : "rgb(30,18,8)",
                     color: activeDifficulty === d ? "#B07ADA" : "#9A7A58",
                     fontWeight: activeDifficulty === d ? 600 : 400,
                   }}>
@@ -500,7 +502,7 @@ export function AllRecipesClient({
                       type="button"
                       onClick={() => toggleGroup(group.label)}
                       className="w-full flex items-center justify-between px-3 py-2.5 text-left transition-colors"
-                      style={{ background: isOpen ? "rgba(30,18,8,0.8)" : "rgba(20,10,4,0.4)" }}
+                      style={{ background: isOpen ? "rgb(30,18,8)" : "rgb(20,10,4)" }}
                     >
                       <div className="flex items-center gap-2">
                         <span>{group.emoji}</span>
@@ -520,7 +522,7 @@ export function AllRecipesClient({
                     </button>
                     {isOpen && (
                       <div className="px-3 pb-3 pt-2 flex flex-wrap gap-1.5"
-                        style={{ background: "rgba(14,7,2,0.5)" }}>
+                        style={{ background: "rgb(14,7,2)" }}>
                         {group.tags.map((tag) => (
                           <TagPill
                             key={tag}

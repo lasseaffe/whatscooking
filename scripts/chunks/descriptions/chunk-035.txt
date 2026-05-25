@@ -1,0 +1,2177 @@
+TITLE: Bacon Stuffed Flank Steak
+CURRENT_DESCRIPTION: if cooking on the grill this is great served with grilled potatoes and a tossed salad for a simple summer supper that doesn't heat up the kitchen! recipe source: bon appetit (may 1982)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steaks, garlic salt, pepper, bacon, parsley, onion
+---
+TITLE: Bacon Stuffed Mushrooms
+CURRENT_DESCRIPTION: i found this recipe in a church cookbook and keep meaning to try it, but haven't had the chance yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh mushrooms, onion, butter, breadcrumbs, cheddar cheese, bacon
+---
+TITLE: Bacon Stuffed Round Steak
+CURRENT_DESCRIPTION: posted per request for recipes using round steak. i thought this recipe looked very interesting but haven't made it yet. recipe source: simply simpatico.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: round steaks, meat tenderizer, bell pepper, salt water, bacon, butter
+---
+TITLE: Bacon Stuffing
+CURRENT_DESCRIPTION: a fantastic stuffing to be served on thanksgiving!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, bacon, onion, celery, butter, eggs
+---
+TITLE: Bacon Sunshine Skillet
+CURRENT_DESCRIPTION: this is a nice breakfast or brunch recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, frozen hash brown potatoes, eggs, bacon, green onion, salt and pepper
+---
+TITLE: Bacon Surprise Cupcakes With Maple Frosting
+CURRENT_DESCRIPTION: felt like i was in competing in cupcake wars! the ingredients from dining on a dollar recipe contest -- spring 2013 made it tricky to create a dessert. must say i nailed it! tender, soft crumb with hint of bacon bits and topped with maple frosting complement each other perfectly. the budget ingredient ketchup and applesauce gave the cupcakes a sweetness and added moisture. a must make! you won't be disappointed. fyi the bacon is pieces so you will have bits just as if it was chips of chocolate. if you want you can save the bacon bits for just topping the frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, applesauce, cocoa powder, oil, eggs, bacon piece
+---
+TITLE: Bacon Swirls
+CURRENT_DESCRIPTION: southern living; fun party food
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated crescent dinner rolls, cream cheese, bacon, onions, milk, parmesan cheese
+---
+TITLE: Bacon Swiss Bread
+CURRENT_DESCRIPTION: i made this bread tonight - from the taste of home cookbook.
+delicious and easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, butter, green onion, prepared mustard, processed swiss cheese, bacon
+---
+TITLE: Bacon Swiss Chard   Vacherin Cheese Quiche
+CURRENT_DESCRIPTION: vacherin cheese is made in the valais region of switzerland - it is semi-hard, with a coarse, greasy brown rind and a pale yellow paste with a scattering of holes. it has a rich nutty flavour, a little like italian fontina. food.com must have never heard of vacherin cheese (wouldn't let me list as such), so i listed as fontina. the original recipe comes from the seattle times, march 2011.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated pie crust, bacon, onion, swiss chard, eggs, half-and-half
+---
+TITLE: Bacon Swiss Dip
+CURRENT_DESCRIPTION: an excellent hot dip to enjoy with pita points or tortillas
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, mayonnaise, swiss cheese, green onion, ritz crackers, bacon
+---
+TITLE: Bacon Swiss Lettuce Salad
+CURRENT_DESCRIPTION: this is great for picnics and potlucks.  it's a salad, but that doesn't mean it's healthy, low fat or low calorie.  guys tend to like this salad.  there's just enough bacon and cheese in here to make them forget they're eating lettuce.  ;)
+prep time does not include cooking the bacon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: head iceberg lettuce, onion, swiss cheese, bacon, hard-boiled eggs, mayonnaise
+---
+TITLE: Bacon Swiss Meatloaf
+CURRENT_DESCRIPTION: very tasty. good change, from the same old meatloaf. from quick cooking magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, evaporated milk, swiss cheese, cooked bacon, soft breadcrumbs, garlic powder
+---
+TITLE: Bacon Swiss Squares
+CURRENT_DESCRIPTION: this is a delicious breakfast casserole that's also great for dinner. comes from quick cooking cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: biscuit mix, cold water, swiss cheese, bacon, eggs, milk
+---
+TITLE: Bacon Swiss Tossed Salad
+CURRENT_DESCRIPTION: this yummy salad features swiss cheese, crispy bacon and crunchy cashews with a swift, from-scratch dressing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, swiss cheese, bacon bits, salted cashews, brown sugar, water
+---
+TITLE: Bacon Taco Cheeseburger Meatloaf
+CURRENT_DESCRIPTION: this a twist on paula deen's recipe. i didn't have enough cheddar cheese, so i added some parmesan and mozzarella. i also did not add the mayonnaise because i thought it would be too mushy. the taco seasoning was added to give a bit of a kick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chuck, bacon, sharp cheddar cheese, parmesan cheese, mozzarella cheese, breadcrumbs
+---
+TITLE: Bacon Tater Tots Bake
+CURRENT_DESCRIPTION: another of my family's favorite recipes from quick cooking
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: condensed cream of mushroom soup, sour cream, onion, bacon, frozen tater tots
+---
+TITLE: Bacon Tater Tots Bites
+CURRENT_DESCRIPTION: these are yummy, quick and kids will love them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tater tots, bacon, american cheese, mustard, brown sugar, ginger
+---
+TITLE: Bacon Toffee Ii
+CURRENT_DESCRIPTION: still on my bacon/dessert kick..... i have a bacon toffee recipe on this site already, but this one deserves a place, too....from the blog "foodie with family". will be making it soooooon :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, unsalted butter, granulated sugar, light corn syrup, water, pure vanilla extract
+---
+TITLE: Bacon Tomato And Avocado Salad
+CURRENT_DESCRIPTION: perfect summer salad.  easy too! from open house cookbook and the national alliance to end homelessness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salad greens, bacon, tomatoes, avocado, vinaigrette dressing
+---
+TITLE: Bacon Tomato Bagel Melts
+CURRENT_DESCRIPTION: these are especially good when tomatoes are in season.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, tomatoes, bacon, mozzarella cheese, ranch salad dressing
+---
+TITLE: Bacon Tomato Casserole
+CURRENT_DESCRIPTION: this is a good casserole that can either be served as a main dish or as a side dish.  this recipe was given to me by a friend.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg noodles, bacon, green pepper, onion, salt, dried marjoram
+---
+TITLE: Bacon Tomato Chicken Salad
+CURRENT_DESCRIPTION: my mom made this salad a lot when i was growing up. just found out she is still making it and serving it in the exact same bowl.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salad oil, white vinegar, parsley, sugar, dry mustard, salt
+---
+TITLE: Bacon Tomato Cups
+CURRENT_DESCRIPTION: this is an excellent appetizer recipe. delicious and popular. i always get asked for the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked bacon, tomatoes, onion, swiss cheese, mayonnaise, basil
+---
+TITLE: Bacon Tomato Frittata
+CURRENT_DESCRIPTION: my dh is the breakfast maker in this house and this is one of his specialties. i hope you enjoy it as much as i do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, eggs, milk, dijon mustard, tomatoes, garlic clove
+---
+TITLE: Bacon Tomato Grilled Cheese
+CURRENT_DESCRIPTION: this recipe will add a kick to your regular grilled cheese! you are sure to love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat bread, mozzarella cheese, tomatoes, bacon, sour cream, onions
+---
+TITLE: Bacon Tomato Gruyere Omelet
+CURRENT_DESCRIPTION: from  "the good enough to eat breakfast cookbook" by carrie levin. this sounds good, but i'd probably add a few herbs to it too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: clarified butter, cooked bacon, eggs, gruyere cheese, plum tomato
+---
+TITLE: Bacon Tomato Rotini
+CURRENT_DESCRIPTION: this is a yummy warm comfort food...a new "twist" on mac and cheese :) the bacon and tomatoes add great taste and it's pretty easy to prepare...all on the stovetop!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rotini pasta, butter, flour, salt, pepper, milk
+---
+TITLE: Bacon Tomato Salad
+CURRENT_DESCRIPTION: main dish salad -- cooking light -- august/september 2002
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, extra virgin olive oil, baguette, mayonnaise, fresh ground pepper, romaine lettuce
+---
+TITLE: Bacon Tomato Sandwich With Cheddar
+CURRENT_DESCRIPTION: this familiar bacon tomato sandwich is made special with zesty mayonnaise and melted cheddar cheese.  great for a light lunch, or even for dinner with fries and a salad when you don't have time to cook up a big meal.
+land-o-lakes cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion hamburger buns, mayonnaise, country-style dijon mustard, tomatoes, red onion rings
+---
+TITLE: Bacon Tomato Spinach Salad
+CURRENT_DESCRIPTION: colorful and tasty too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, catalina dressing, prepared mustard, salt, pepper, spinach
+---
+TITLE: Bacon Topped Brussels Sprouts
+CURRENT_DESCRIPTION: another way my family enjoys brussel sprouts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen brussels sprouts, butter, garlic salt, onion powder, bacon
+---
+TITLE: Bacon Topped Cheese Potatoes
+CURRENT_DESCRIPTION: if you like bacon, cheese and potatoes it can't miss. you can experiment with different cheeses.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, vegetable oil, sour cream, milk, butter, cheddar cheese
+---
+TITLE: Bacon Topped Meatloaf
+CURRENT_DESCRIPTION: my family loves meatloaf, this one in particular!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chili sauce, eggs, worcestershire sauce, onion, cheddar cheese, dry breadcrumbs
+---
+TITLE: Bacon Topped Squash Casserole
+CURRENT_DESCRIPTION: the squash have arrived!! my friend and i made this for her family last night (she had never cooked squash before!). they loved it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: squash, onion, egg, salt, pepper, breadcrumbs
+---
+TITLE: Bacon Topped Turkey Medallions
+CURRENT_DESCRIPTION: from a cooking club magazine...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, turkey tenderloins, salt, pepper, shallots, apple juice
+---
+TITLE: Bacon Turkey Bravo Sandwich
+CURRENT_DESCRIPTION: this sandwich is a popular panera bread sandwich.  it has a great spicy dressing and is served on their fabulous tomato basil bread, but it's also delicious on any hearty bread.  my son works for panera bread and this is his favorite menu item.  this recipe is typical of a california style gourmet sandwich, and represents the western u.s. region.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, ketchup, lemon juice, dried mustard, worcestershire sauce, tabasco sauce
+---
+TITLE: Bacon Turkey Burger With Avocado Dressing Rachael Ray
+CURRENT_DESCRIPTION: periodically i buy her magazine and this recipe was in the burger issue. i did modify it a bit to suit preferences. if you prefer a more chunky texture for the dressing, you can just mix it by hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, onion, poultry seasoning, bacon, salt and pepper, avocado
+---
+TITLE: Bacon Turnovers
+CURRENT_DESCRIPTION: these freeze very well! and taste is amazing. the bacon helps keep the filling 'together'
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, oil, skim milk, bacon
+---
+TITLE: Bacon Veggie Frittata
+CURRENT_DESCRIPTION: egg fritatta with bacon, and veggies.  substitute whatever veggies you have in the refrigerator if you'd like.
+i came up with this recipe while having a serious craving (yes im preggers) for fritatta but did not like any of the ones i came accross in cookbooks that i have.  my 3 year loves this, mainly because the veggies are chopped so he has no idea.  i served it with ketchup and it was a hit!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, italian seasoning, onion, green pepper, cherry tomatoes
+---
+TITLE: Bacon Waffles
+CURRENT_DESCRIPTION: anyone who likes bacon and waffles should definatly like these!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, all-purpose flour, sugar, baking powder, salt, milk
+---
+TITLE: Bacon Walnut Green Beans
+CURRENT_DESCRIPTION: a delicious side dish that is simple to make and full of wonderful flavor. i hope you enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, butter, roasted garlic cloves, fresh thyme, brown sugar, soy sauce
+---
+TITLE: Bacon Walnut Muffins
+CURRENT_DESCRIPTION: these are wonderful tasting muffins. they are prefect for brunch or breakfast on the go.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, fresh thyme, salt, eggs, milk
+---
+TITLE: Bacon Water Chestnut Appetizers
+CURRENT_DESCRIPTION: this recipe is from all recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water chestnuts, bacon, mayonnaise, light brown sugar, chili sauce
+---
+TITLE: Bacon Whipped Sweet Potatoes
+CURRENT_DESCRIPTION: i love sweet potatoes, but i am not a fan of the usual sweet, syrupy preparation. this recipe brings out the true taste of sweet potatoes, with a little sweet and savory kick. hope you enjoy!! prep time does not include time to cook the bacon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, bacon, butter, granulated sugar, milk, garlic powder
+---
+TITLE: Bacon With A Vegan
+CURRENT_DESCRIPTION: tastes remarkably like bacon!  i tried a recipe on zaar and tweaked it. this makes great sandwiches and can be used in stir frys, to top salads, anywhere you might use bacon. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, firm tofu, soy sauce, liquid smoke, brown sugar, nutritional yeast
+---
+TITLE: Bacon Wrapped  Baked Onions
+CURRENT_DESCRIPTION: this may take a little time to make but well worth the little extra effort, very impressive to serve to your dinner guests, this is one of the best recipes for baked onions you will ever have! the onions may be boiled and the insides removed ahead of time and refrigerated to finish filling and baked later. the original recipe called for only for 4 onions, but i increased and "tweaked" the recipe slightly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, fresh garlic, oil, whipping cream, parmesan cheese, salt and pepper
+---
+TITLE: Bacon Wrapped  Cheese Stuffed Chicken  Yum Yum
+CURRENT_DESCRIPTION: 1/2'd chicken breasts stuffed with either blue cheese, pepper jack (or a cheese of your choice) and wrapped in bacon! delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, cheese, black pepper, bacon, toothpicks
+---
+TITLE: Bacon Wrapped Alaska Scallops
+CURRENT_DESCRIPTION: this is from great alaska seafood, made these last night and they are great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallops, bacon, dark brown sugar, fresh ginger, soy sauce
+---
+TITLE: Bacon Wrapped Asparagus With Cilantro Dressing
+CURRENT_DESCRIPTION: delicious appetizers! you wont believe how easy it is to put together. it looks so elegant!  i usually serve this in my house during parties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby asparagus, smoked bacon, japanese mayonnaise, white onion, fresh cilantro, sugar
+---
+TITLE: Bacon Wrapped Beef Patties
+CURRENT_DESCRIPTION: a great way to use ground beef. my family loves these. we have eaten them as is and we have put them on hamburger buns and topped with cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortcut bacon, eggs, saltine, onions, salt, pepper
+---
+TITLE: bacon wrapped beef tenderloin with madeira
+CURRENT_DESCRIPTION: i found this dish in a southern living christmas cookbook and made it for my husband's birthday dinner a couple of years ago.  since then, it has become one of our favorite holiday dishes--eaten for both thanksgiving and christmas!  this past year, we invited our neighbors over to celebrate christmas with us and this was what we had, served alongside balsamic green beans, a potato gratin, and some lovely wheat rolls. it is not as time consuming as a first glance at the instructions make it appear to be. part of the prep can be done ahead of time and making the sauce is easy and goes fairly fast.  and, the gentleman at our local wine store said that a dry cooking sherry can work as a suitable substitute for the madeira wine, which can run a little on the pricey side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, fresh ground pepper, salt, fresh flat-leaf parsley, fresh rosemary, fresh thyme leave
+---
+TITLE: Bacon Wrapped Beef Tenderloin With Madeira
+CURRENT_DESCRIPTION: i found this dish in a southern living christmas cookbook and made it for my husband's birthday dinner a couple of years ago.  since then, it has become one of our favorite holiday dishes--eaten for both thanksgiving and christmas!  this past year, we invited our neighbors over to celebrate christmas with us and this was what we had, served alongside balsamic green beans, a potato gratin, and some lovely wheat rolls. it is not as time consuming as a first glance at the instructions make it appear to be. part of the prep can be done ahead of time and making the sauce is easy and goes fairly fast.  and, the gentleman at our local wine store said that a dry cooking sherry can work as a suitable substitute for the madeira wine, which can run a little on the pricey side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, fresh ground pepper, salt, fresh flat-leaf parsley, fresh rosemary, fresh thyme leave
+---
+TITLE: Bacon Wrapped Bnls Pork Chops
+CURRENT_DESCRIPTION: this is a variation of a couple of reciepes found in one of my many low carb cook books, you may want to broil these at the end if the bacon is not quite crisp enough for your tastes, cut the onion into 1/4 inch slices then in half for slivers, these chops are real juicy.
+enjoy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, onion, red pepper, brie cheese, bacon, kosher salt
+---
+TITLE: Bacon Wrapped Boursin Stuffed Chicken Breasts   A Deux
+CURRENT_DESCRIPTION: delicious chicken breasts, wrapped in bacon or pancetta to ensure they remain moist, stuffed with boursin garlic & herb cheese and then roasted with cherry tomatoes on the vine......delectable! i have posted this recipe for two  - obviously it is very easy to increase the quantities for more people. serve with a selection of seasonal vegetables & a jacket potato for an all year round simple & impressive supper dish. these can be frozen at the stuffed and bacon wrapped stage - i often have at least a dozen, individually wrapped in cling film in the freezer. they take about 4-5 hours to defrost, so make sure you take them out of the freezer in time! a tip: i sometimes add a dollop of creme fraiche and a little white wine to the juices, to make an unctious wine sauce - this is optional, but delicious if you fancy a creamy sauce with these stuffed chicken breasts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, boursin cheese, smoked streaky bacon, olive oil, cherry tomatoes, salt
+---
+TITLE: bacon wrapped bread sticks
+CURRENT_DESCRIPTION: this is a huge party favorite.  whenever i ask what i can bring to a party, this is always at the top of the list.  warning:  these go fast...make double what you think you'll need.  i usually make 2-3 per person attending.  time consuming to wrap the bread sticks, but so worth it!  i had these at a friends once without the spices added to the cheese, they were great, but i played with the spices and these are the bomb!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, breadsticks, onion powder, garlic powder, salt, fresh ground black pepper
+---
+TITLE: Bacon Wrapped Bread Sticks
+CURRENT_DESCRIPTION: this is a huge party favorite.  whenever i ask what i can bring to a party, this is always at the top of the list.  warning:  these go fast...make double what you think you'll need.  i usually make 2-3 per person attending.  time consuming to wrap the bread sticks, but so worth it!  i had these at a friends once without the spices added to the cheese, they were great, but i played with the spices and these are the bomb!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, breadsticks, onion powder, garlic powder, salt, fresh ground black pepper
+---
+TITLE: Bacon Wrapped Brussels Sprouts
+CURRENT_DESCRIPTION: great appetizer.  quick and easy to do.  serve with a creamy mustard sauce (recipe below).  this is from the november 2008 southern living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brussels sprouts, bacon, pepper, sour cream, whole grain mustard, brown sugar
+---
+TITLE: Bacon Wrapped Buffalo Shrimp
+CURRENT_DESCRIPTION: variation on buffalo wings.  have not tried, but bought the stuff today to make.  sounds good to me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, bacon, louisiana hot sauce, blue cheese dressing, celery rib
+---
+TITLE: bacon wrapped burger with fried pickles   slaw
+CURRENT_DESCRIPTION: oh my gosh, can we say indulgence?here is the recipe for the recipe #500616. you get a grilled burger wrapped in flavor coated bacon for starters. then add cole slaw that uses sriracha sauce for a bbq knock out. try these for a grilling get together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, brown sugar, ground coffee, garlic powder, ground beef, salt and pepper
+---
+TITLE: Bacon Wrapped Burger With Fried Pickles   Slaw
+CURRENT_DESCRIPTION: oh my gosh, can we say indulgence?here is the recipe for the recipe #500616. you get a grilled burger wrapped in flavor coated bacon for starters. then add cole slaw that uses sriracha sauce for a bbq knock out. try these for a grilling get together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, brown sugar, ground coffee, garlic powder, ground beef, salt and pepper
+---
+TITLE: Bacon Wrapped Cajun Jalapenos
+CURRENT_DESCRIPTION: a delicious little appetizer or snack.  if you want to cut the heat more, you can remove the seeds and membrane.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jalapeno peppers, cream cheese, cheddar cheese, cajun seasoning, bacon
+---
+TITLE: Bacon Wrapped Cheddar And Chive Duchess Potatoes  Sp5
+CURRENT_DESCRIPTION: official contest entry: simply potatoes 5fix.  this quick and easy appetizer is loaded with flavor, perfect for an elegant party, game-day get together or after school snack.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked bacon, simply potatoes sour cream and chive mashed potatoes, eggs, cheddar cheese, fresh chives
+---
+TITLE: Bacon Wrapped Cheddar Dogs
+CURRENT_DESCRIPTION: a kid pleasing (and adults alike) hot dog wrapped in bacon, grilled, and topped with cheddar cheese and condiments.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dogs, bacon, hot dog buns, sharp cheddar cheese, mustard, onion
+---
+TITLE: Bacon Wrapped Cheddar Egg Bites
+CURRENT_DESCRIPTION: it's an omelet muffin wrapped in bacon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, bacon, cheese, meat, vegetables
+---
+TITLE: Bacon Wrapped Cheeseburgers
+CURRENT_DESCRIPTION: grill up these hearty, moist burgers at your next party on the patio! pile 'em up with your favorite condiments, pop open a cool drink and enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheddar cheese, egg, ketchup, parmesan cheese, worcestershire sauce, salt
+---
+TITLE: Bacon Wrapped Chicken
+CURRENT_DESCRIPTION: i had this once with scallops but thought i would change the scallops (which is really good too) and use chicken. it was the best and wanted to share with you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: toothpicks, boneless skinless chicken breast, fresh jalapeno peppers, bacon, all purpose greek seasoning, ranch salad dressing
+---
+TITLE: Bacon Wrapped Chicken  Oamc
+CURRENT_DESCRIPTION: this is another great way to make something great ahead of time to thaw as needed or eat right now with little effort!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, chive & onion cream cheese, butter, salt, bacon
+---
+TITLE: Bacon Wrapped Chicken And Asparagus
+CURRENT_DESCRIPTION: a fusion recipe of some of our favorite recipes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, asparagus spears, pesto sauce, olive oil, italian seasoning, parmesan cheese
+---
+TITLE: Bacon Wrapped Chicken Breasts
+CURRENT_DESCRIPTION: my cousin gave this recipe to me in a cookbook she made for my wedding gift. when i got married i didn't know how to cook anything but this is super easy to make and my husband still loves it! i leave out the chives because my husband doesn't like them. and i also use more black pepper than the recipe calls for. i like more in the sauce mixture & more on top of the chicken. sometimes i have to use more than one slice of bacon to wrap the chicken if it's big.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, cream cheese, fresh chives, bacon, condensed cream of chicken soup, milk
+---
+TITLE: Bacon Wrapped Chicken Breasts With Chile Cheese Sauce
+CURRENT_DESCRIPTION: this is from the deen bros. cookbook, y'all come eat. this is delicious. i served it to co-workers and they thought it different and wonderful. the bacon gives the chicken a smokey flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, boneless skinless chicken breasts, condensed cheddar cheese soup, milk, chipotle peppers, worcestershire sauce
+---
+TITLE: Bacon Wrapped Chicken Breasts With Gorgonzola  Walnut Stuffing
+CURRENT_DESCRIPTION: this is a delicious, rich chicken recipe.  to make it even richer, i served it with spinach alfredo pasta.  it would also be great with a side of steamed broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gorgonzola, walnuts, plain breadcrumbs, fresh sage, chicken breasts, salt and pepper
+---
+TITLE: bacon wrapped chicken cordon bleu with a creamy mustard wine
+CURRENT_DESCRIPTION: this is my version of chicken cordon bleu.  just a bit different. i love the original recipe, but didn't like it with a bread coating every time.  so for me, the gruyere adds just a notch up, the hickory bacon and then a simple mustard white wine sauce makes a very elegant dinner.
+serve with some very simple wild rice or rice pilaf and green beans.  nothing fancy needed for this. very classic eats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, prosciutto ham, gruyere cheese, bacon, italian seasoning, kosher salt
+---
+TITLE: Bacon Wrapped Chicken Cordon Bleu With A Creamy Mustard Wine
+CURRENT_DESCRIPTION: this is my version of chicken cordon bleu.  just a bit different. i love the original recipe, but didn't like it with a bread coating every time.  so for me, the gruyere adds just a notch up, the hickory bacon and then a simple mustard white wine sauce makes a very elegant dinner.
+serve with some very simple wild rice or rice pilaf and green beans.  nothing fancy needed for this. very classic eats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, prosciutto ham, gruyere cheese, bacon, italian seasoning, kosher salt
+---
+TITLE: Bacon Wrapped Chicken Kabobs
+CURRENT_DESCRIPTION: i was craving chicken and bacon and i wanted something grilled and i came up with these easy to make kabobs. they are so good. enjoy!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: button mushrooms, green pepper, cherry tomatoes, onion, boneless skinless chicken breasts, bacon
+---
+TITLE: Bacon Wrapped Chicken Livers
+CURRENT_DESCRIPTION: recipe posted by request.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, chicken liver, toothpick, garlic salt, honey
+---
+TITLE: Bacon Wrapped Chicken Nuggets
+CURRENT_DESCRIPTION: another great appetizer from southern living.  you'll need toothpicks to make this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, bacon, orange marmalade, soy sauce, sesame oil, ground ginger
+---
+TITLE: Bacon Wrapped Chicken Rolls
+CURRENT_DESCRIPTION: i got this from a friend, who won a contest with it on the site i moderate.  i've adapted it slightly to match our tastes, but the basic recipe is still hers.  not something you can eat all the time or your cholesterol will go through the roof, but they're really, really tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, cream cheese, chives, pepper, bacon, butter
+---
+TITLE: Bacon Wrapped Chicken Tenders
+CURRENT_DESCRIPTION: these would probably be equally good with other fresh herbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh sage leaves, chicken tenders, salt, fresh ground black pepper, bacon, extra virgin olive oil
+---
+TITLE: Bacon Wrapped Chicken With Mushrooms
+CURRENT_DESCRIPTION: this is one of the few dishes i make that uses canned soup. when i left school i worked as an au-pair in norway for a year and the family i lived with used to cook this. it's easy, but really yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, unsmoked bacon, mushroom, cream of mushroom soup, cheese
+---
+TITLE: Bacon Wrapped Cinnamon Pork Loin
+CURRENT_DESCRIPTION: wrapping the pork in bacon adds a smoky flavor to the pork helps to keep the pork moist while cooking. i am nuts about cinnamon anything and find the flavor goes very well with pork.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, pine nuts, garlic, onion, cilantro, of fresh mint
+---
+TITLE: Bacon Wrapped Citrus Scallops
+CURRENT_DESCRIPTION: from a recipe card i got at the grocery store, a wonderful grilled seafood treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, sea scallops, maple syrup, butter, orange juice, orange peel
+---
+TITLE: bacon wrapped coconut quiche and coconut popcorn shrimp
+CURRENT_DESCRIPTION: i made coconut flavored quiche adding fresh corn to enhance more sweet flavor and wrapped with bacon so that it has sweet salty taste which enhances your appetite. to make it tastier and more fun to eat, i  made popcorn shrimp adding more coconut and top with spicy cocktail sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut milk, eggs, fresh corn kernels, parmesan cheese, bacon, large shrimp
+---
+TITLE: Bacon Wrapped Coconut Quiche And Coconut Popcorn Shrimp
+CURRENT_DESCRIPTION: i made coconut flavored quiche adding fresh corn to enhance more sweet flavor and wrapped with bacon so that it has sweet salty taste which enhances your appetite. to make it tastier and more fun to eat, i  made popcorn shrimp adding more coconut and top with spicy cocktail sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut milk, eggs, fresh corn kernels, parmesan cheese, bacon, large shrimp
+---
+TITLE: Bacon Wrapped Cream Cheese Chicken Breast
+CURRENT_DESCRIPTION: this is not at all difficult to make --- although you can use uncooked bacon strips i prefer to semi-cook the bacon in the oven first just to release some fat but do not cook until crisp or wrapping it around the chicken will be impossible ---  the chicken may be prepared up to one day in advance, which makes this great dinner party food, just cover refrigerate and  mix up the sauce when ready to bake :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, cream cheese with chives, bacon, cream of chicken soup, parmesan cheese, onion
+---
+TITLE: Bacon Wrapped Filet Mignon With Horseradish Sauce
+CURRENT_DESCRIPTION: this is cook's illustrated method of cooking a filet mignon.  if you're cooking for someone who insists on well-done steaks, use a thinner cut of meat.   i recently cut small steaks from a petite fillet and cooked in this manner and they were fantastic . . . so  cute too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: filet mignon, bacon, olive oil, salt and pepper, mayonnaise, sour cream
+---
+TITLE: Bacon Wrapped Garlic Asparagus Bundles
+CURRENT_DESCRIPTION: a bundle of asparagus is drizzled with garlic steeped olive oil, wrapped in bacon and roasted.  the flavor of this is outstanding.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, fresh parsley, olive oil, fresh asparagus, bacon, salt and black pepper
+---
+TITLE: Bacon Wrapped Goat Cheese Chicken Breasts
+CURRENT_DESCRIPTION: a tasty goat cheese filling gives a mediterranean touch to bacon-wrapped chicken in gioconda scott's simple recipe. serve with an easy tomato salad if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, goat cheese, salt and black pepper, olive oil, oregano, chicken breast fillets
+---
+TITLE: Bacon Wrapped Green Beans
+CURRENT_DESCRIPTION: so tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, bacon, butter, brown sugar, garlic salt, soy sauce
+---
+TITLE: Bacon Wrapped Green Beans Bundles
+CURRENT_DESCRIPTION: this is such a tasty side dish!!!! i love it with beef, but have made it with everything. although it's a little time-consuming at the beginning, they are really very easy to make. you can wrap the beans ahead and keep in the refrigerator until ready to broil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, bacon, brown sugar, salt, pepper, garlic powder
+---
+TITLE: Bacon Wrapped Grilled Chicken
+CURRENT_DESCRIPTION: this is an easy way to prepare chicken. it's perfect with some coleslaw and corn on the cob. prep time does not include the marinating of the chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: teriyaki sauce, dry white vermouth, garlic, boneless skinless chicken breasts, vegetable oil, bacon
+---
+TITLE: Bacon Wrapped Grilled Chicken Sandwich
+CURRENT_DESCRIPTION: as a kid i'd marvel over a neighborhood friend's family having sandwich night every friday evening.  not just any sandwich slapped on 2 pieces of bread, but at my young age, seemingly exotic combinations compared to our regular of rice and gravy.  well, as years flew by, i've come to appreciate 'speciality' sandwich combos that's easy on the cook and flavorful enough to qualify as 'dinner'.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast halves, bacon, lime juice, lemon juice, garlic salt, avocado
+---
+TITLE: Bacon Wrapped Grilled Halibut Steaks
+CURRENT_DESCRIPTION: we love the zippy flavor using jalapenos and cilantro to grilled whitefish. i use a fish rack with handle on the grill, some may want to use a drip pan, others might want to place fish on a greased piece of foil and others may want to plop these right on the grill rack....whatever!  i have also broiled these, but there's nothing like the flavor of things when grilled! i serve this with a mango salsa ole, recipe #235769 on the side and a lettuce salad using a ginger-flavored vinagarette.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime juice, green onions, vegetable oil, jalapeno peppers, salt, pepper
+---
+TITLE: Bacon Wrapped Hamburgers
+CURRENT_DESCRIPTION: these burgers are great, and so different!  my boyfriend and i believe everything is better with bacon. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheddar cheese, parmesan cheese, onion, egg, ketchup, worcestershire sauce
+---
+TITLE: Bacon Wrapped Hot Dogs With Avocado
+CURRENT_DESCRIPTION: recipe by cocktails 2008.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dogs, bacon, vegetable oil, hot dog buns, hass avocado, sour cream
+---
+TITLE: Bacon Wrapped Little Loaves
+CURRENT_DESCRIPTION: this is an adopted recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, cheddar cheese, egg, breadcrumbs, onion, lemon juice
+---
+TITLE: Bacon Wrapped Meat Loaf
+CURRENT_DESCRIPTION: 365 great barbecue and grilling recipes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, ketchup, worcestershire sauce, hot pepper sauce, cayenne, salt
+---
+TITLE: Bacon Wrapped Meatloaf
+CURRENT_DESCRIPTION: super sweet and delicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, white bread, ground beef, parmesan cheese, seasoning salt, salt
+---
+TITLE: Bacon Wrapped Meatloaf  Wolfgang Puck
+CURRENT_DESCRIPTION: this recipe was in an april/03 lifestyle, a local paper.  i think this is the best meatloaf i've ever tried.  follow all the steps and you will also have a taste of the best-meatloaf-ever!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, mushroom, garlic cloves, heavy cream, fresh oregano
+---
+TITLE: Bacon Wrapped Mexican Hot Dogs
+CURRENT_DESCRIPTION: these are truly the best hot dogs ever and this is the only way i eat my hot dogs. i used to eat these all the time when i would go to mexico and visit family. they would have little stands in the corner and make them this way. they are great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dogs, hot dog buns, bacon, mayonnaise, ketchup, mustard
+---
+TITLE: Bacon Wrapped Mini Meatloaf
+CURRENT_DESCRIPTION: this is a fantastic recipe to make ahead of time and have frozen, just to use at your convenience!!  the addition of grated carrot to the mixture is a smart way to work veggies into the meal, while the bacon helps keep the patties moist while frozen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, carrot, onion, garlic clove, lean ground turkey, egg
+---
+TITLE: Bacon Wrapped Pineapple Appetizers  Microwave
+CURRENT_DESCRIPTION: this is a different, outstanding appetizer. they always disappear fast when served. original recipe is from the sharp carousel recipe book which came with my first microwave. i've made them in other carousel microwaves also. the time to cook is actually 5 - 9 minutes depending on your microwave's power. just watch them cook the first time for the light browning and you'll do fine. prep/cook time does not include marinating time. hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple chunks in juice, soy sauce, ground ginger, garlic powder, bacon
+---
+TITLE: Bacon Wrapped Pineapple Bites
+CURRENT_DESCRIPTION: can't remember which magazine i found this in but it was credited to debbie hull and carolyn hultman.  it's a wonderful appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple juice, fresh orange juice, soy sauce, dark brown sugar, fresh pineapple, bacon
+---
+TITLE: Bacon Wrapped Pork Chops With Bbq Sauce
+CURRENT_DESCRIPTION: absolutely delicious take on pork chops. the chops really benefit from the bacon, making them moist and flavorful. you can also do on the grill if you prefer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, barbecue sauce, bacon, fresh rosemary, salt & freshly ground black pepper
+---
+TITLE: bacon wrapped pork loin with apples and sage
+CURRENT_DESCRIPTION: pork tenderloins, rubbed with fragrant herbs, wrapped in bacon and served with a wonderful sauce of caramelized onions and apples.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, fresh sage leaves, garlic cloves, salt, black pepper, bacon
+---
+TITLE: Bacon Wrapped Pork Loin With Apples And Sage
+CURRENT_DESCRIPTION: pork tenderloins, rubbed with fragrant herbs, wrapped in bacon and served with a wonderful sauce of caramelized onions and apples.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, fresh sage leaves, garlic cloves, salt, black pepper, bacon
+---
+TITLE: Bacon Wrapped Pork Meatloaf
+CURRENT_DESCRIPTION: this is great and good for you! we love meatloaf, and this is a good recipe for it!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground lean pork, oatmeal, ground sage, salt, pepper, dried thyme
+---
+TITLE: Bacon Wrapped Pork Medallions
+CURRENT_DESCRIPTION: yet another way to enjoy pork tenderloin!  you can change up the flavor by using cracked-pepper bacon...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, garlic powder, seasoning salt, dried basil, dried oregano, pork tenderloin
+---
+TITLE: Bacon Wrapped Pork Medallions With Electric Chimichurri Sauce
+CURRENT_DESCRIPTION: this is an awesome recipe inspired by cuisine at home magazine.  this pungent combination of flavors in conjunction with the crispiness of the bacon wrapped pork medallions makes for one of my favorite summer meais.  i typically double the recipe for the chimichurri sauce as i like to use one cup for the marinade, and serve one cup on the side with the meal.  prep time includes marinating time.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, fresh parsley leaves, pepper, dried red pepper flakes, olive oil, white vinegar
+---
+TITLE: Bacon Wrapped Pork Roast
+CURRENT_DESCRIPTION: a savory pork roast that fills the entire home with an appetizing aroma. this dish is perfect for holidays, special dinners, and is so simple to make it can be served on any day for any occasion! the roast is not only pleasing to the taste, but it's appearance is sure to impress any guest. this dish does take a bit to cook, but the end result of slowly roasting the pork will be worth the wait!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin, bacon, garlic cloves, fresh thyme, savory, vegetable oil
+---
+TITLE: Bacon Wrapped Pork Roast With Potatoes
+CURRENT_DESCRIPTION: i don't care for pork, but i definitely like this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin, salt, black pepper, hickory smoked bacon, fresh rosemary, extra virgin olive oil
+---
+TITLE: Bacon Wrapped Pork Tenderloin
+CURRENT_DESCRIPTION: someone at work told me about this. it's my husbands and my favorite way to cook tenderloin. i don't usually eat the bacon after its cooked but my husband loves it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, bacon, seasoning, salt, pepper
+---
+TITLE: Bacon Wrapped Pork Tenderloin With Maple Balsamic Glaze
+CURRENT_DESCRIPTION: pretty much pork wrapped in pork.... how can you go wrong??
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, bacon, thyme, rosemary, sugar, balsamic vinegar
+---
+TITLE: Bacon Wrapped Pork Tenderloin With Maple Mustard Sauce
+CURRENT_DESCRIPTION: delicious sweet and tangy sauce served over smoky bacon and juicy pork. sound difficult? its easier than you think! i serve this with caramelized onions. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: real maple syrup, spicy brown mustard, soy sauce, apple cider vinegar, salt and pepper, pork tenderloin
+---
+TITLE: Bacon Wrapped Potato Bites  Sp5
+CURRENT_DESCRIPTION: official contest entry: simply potatoes 5fix. these mini bacon wrapped potato bites are sure to be a crowd pleaser. the cool sour cream dip mixed with hot sauce will keep you coming back for more!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: simply potatoes red potato wedges, bacon, sour cream, hot sauce, flat leaf parsley
+---
+TITLE: Bacon Wrapped Potato With Honey Scallion Sauce
+CURRENT_DESCRIPTION: from aaron mccargo, jr. one of the three finalists on the next food network star.  use for either a side-dish or an appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: idaho potatoes, canola oil, smoked bacon, toothpicks, butter, honey
+---
+TITLE: Bacon Wrapped Ranch Chicken
+CURRENT_DESCRIPTION: chicken breast marinated in ranch and wrapped in bacon grilled to perfection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, hidden valley ranch dip, extra virgin olive oil, vinegar, bacon, ziploc bag
+---
+TITLE: Bacon Wrapped Roasted Turkey
+CURRENT_DESCRIPTION: this recipe was shared with me by my wonderful boss who is an amazing chef!  he helped make my 1st thanksgiving one to remember by giving me this recipe.  this turkey is so moist and so easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole turkey, kitchen twine, aluminum foil, butter, fresh sage, bacon
+---
+TITLE: Bacon Wrapped Rosemary Chicken
+CURRENT_DESCRIPTION: discovered this recipe years ago and is a family favorite. it is a great recipe for beginning cooks because it is very easy with tasty results! for a variation, try other herbs rather than rosemary such as sage, tarragon or thyme.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, salt, fresh ground pepper, dried rosemary, bacon
+---
+TITLE: Bacon Wrapped Sausage Casserole With Apple   Tomato Sauce
+CURRENT_DESCRIPTION: from a popular collection of recipes originally published in an afrikaans magazine, huisgenoot. the recipe calls for a coarse south african sausage, boerewors, which is generally made up of 2/3 beef, 1/3 pork, plus spices, etc.,  but i use normal pork sausages for this.  a lovely casserole, i serve it with dauphinoise potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sausages, streaky bacon, granny smith apples, onions, sunflower oil, tomatoes
+---
+TITLE: Bacon Wrapped Sausage Meatloaf
+CURRENT_DESCRIPTION: a different way of using sausages and a recipe from the good food magazine from 2000, we love it and i made this many times. serve sliced with some mustard,  chutney or roasted onion gravy on the side. any left overs are good on sandwiches. you can put it together up to a day ahead, leaf in the fridge until you are ready to cook it. it can be cooked without the tin, on a baking sheet and can easily be doubled. adjust the seasoning to the type of sausagemeat you bought.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, sausage, tomato puree, mustard, fresh breadcrumbs
+---
+TITLE: Bacon Wrapped Sausages
+CURRENT_DESCRIPTION: these little guys are always a hit with the adults and kids. barbecue appetizers or backyard hors d'oeuvres as i like to call them are a great way to give your guests a hint of what they're in store for. not to mention they'll fend off the hungry crowds while the ribs are finishing. but don't be offended when some misguided soul raves about these and neglects to mention your fine 'cue!
+
+you can do these on the pan in your smoker or if its full they work just as well in the oven. trust me, they're great either way.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, smoked sausage, chili pepper flakes, brown sugar, toothpick
+---
+TITLE: Bacon Wrapped Scallops
+CURRENT_DESCRIPTION: my mother used to make these years ago and kept warm on a warming tray (the kind that is plugged into the wall)and my dh really liked them, so i was glad when i came across this recipe for them in an old bon appetit (april 1982)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, paprika, white pepper, garlic powder, sea scallops
+---
+TITLE: Bacon Wrapped Scallops  Rachael Ray
+CURRENT_DESCRIPTION: i'm posting this because i want to have it in my books to try. i love scallops and saw this on her show today. i have not tried yet, so if anyone does let me know how it worked.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sea scallops, teriyaki sauce, water chestnuts, pickled ginger, bacon, toothpicks
+---
+TITLE: Bacon Wrapped Scallops With Cream Sauce
+CURRENT_DESCRIPTION: this is a campbells taste of home recipe. i love the maple syrup in the sauce. gives it that salty, sweet taste sensation.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, heavy whipping cream, maple syrup, sea scallops, dijon mustard, salt
+---
+TITLE: Bacon Wrapped Sea Scallops Served On Creamy Brie Sauce
+CURRENT_DESCRIPTION: heaven on a plate.  can be an entree or serve one scallop per person for an appetizer.  this comes together very quickly for an elegant meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, sea scallops, seasoned bread crumbs, olive oil, butter, bacon drippings
+---
+TITLE: Bacon Wrapped Seasoned Pork Chops With Bar B Q D Onions
+CURRENT_DESCRIPTION: the cooler weather may be here, but don't put your backyard grill away yet. fire up the grill at least one more time and try this savory twist to grilled boneless pork chops!  these bacon-wrapped pork chops are easy to prepare and deliciously satisfying any night of the week.  the maple syrup brings out the subtle sweetness of the bacon.  just add your favorite sides and you've got a meal that will have your family shouting: "thanks, mom!"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic powder, seasoning salt, dried basil, dried oregano, ground black pepper, boneless pork loin chops
+---
+TITLE: Bacon Wrapped Sesame Breadsticks
+CURRENT_DESCRIPTION: a tasty and quick appetizer from paula deen. this simple recipe is quick to put on the table or to serve as a bread side. very easy to season to one's taste and fun to experiment. try some crushed red pepper in the cheese mixture, a tsp or two of dry ranch dressing mix, or a tsp or two of light brown sugar, or chives.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame breadsticks, bacon, parmesan cheese, garlic salt, crushed red pepper flakes, ranch dip mix
+---
+TITLE: Bacon Wrapped Shrimp
+CURRENT_DESCRIPTION: tasty appetizer with a hint of cheese and garlic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, bacon, butter flavor shortening, parmesan cheese, garlic clove, lemon juice
+---
+TITLE: Bacon Wrapped Shrimp With Chipotle Barbecue Sauce
+CURRENT_DESCRIPTION: this recipe is from the food network and made by guy fieri. this sounds delicoius! i have not made it yet but don't want to lose it so i am keeping it here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, shrimp, barbecue sauce, canola oil, lemon juice, dijon mustard
+---
+TITLE: Bacon Wrapped Shrimp With Chunky Tomatillo Salsa And Tomato Vina
+CURRENT_DESCRIPTION: here is a southwestern inspired dish from tyler florence. bacon-wrapped shrimp is a delicious combination as it is, but pairing it with the salsa and vinaigrette puts this recipe over-the-top! this shrimp recipe also works well on the grill. serving it with margaritas and/or beer wouldn't be a bad idea!
+note: you can make the salsa and vinaigrette ahead of time and keep refrigerated. you could also prep the shrimp and wrap with bacon ahead of time. that way, it will be a breeze when it comes time for dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatillos, avocados, jalapenos, fresh cilantro, red onion, limes, juice of
+---
+TITLE: Bacon Wrapped Shrimp With Jalapeno
+CURRENT_DESCRIPTION: bacon wrapped shrimp with a jalapeno kick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, vinaigrette dressing, bacon, pickled jalapeno peppers, toothpicks, mayonnaise
+---
+TITLE: Bacon Wrapped Shrimp With Jalapenos  I Like It Hot
+CURRENT_DESCRIPTION: i have been making this recipe for years, for my friends and family. it's always a hit at parties.i have looked on the web for the original recipe but can't find it and i can't find it, so i'm posting my version. enjoy!  warning i like it hot!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, bacon, sweet onion, fresh jalapeno peppers, seafood seasoning, cayenne pepper
+---
+TITLE: Bacon Wrapped Shrimp With Quick Bearnaise Sauce
+CURRENT_DESCRIPTION: these are fabulous! very easy to prepare and impressive for a romantic dinner or company! you can grill these or cook them under the broiler.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, shallot, dried tarragon, red wine vinegar, fresh ground pepper, shrimp
+---
+TITLE: Bacon Wrapped Shrimp With Rosemary And Stilton
+CURRENT_DESCRIPTION: posted for zwt6: great britain.  stilton cheese is a british blue cheese.  adapted from bon appetit.  the shrimp can be prepared up to 8 hours ahead of time and chilled on the baking sheet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, fresh rosemary, black pepper, balsamic vinegar, bacon, stilton cheese
+---
+TITLE: Bacon Wrapped Sirloin
+CURRENT_DESCRIPTION: if you have never had a roast wrapped in bacon...you are in for a treat...very tasty and very moist...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roast, mustard, thyme leaves, bacon, onions
+---
+TITLE: Bacon Wrapped Smoked Gouda Stuffed Chicken Breasts
+CURRENT_DESCRIPTION: i found this recipe on another site when i was looking to use up some leftover smoked gouda. it's very flavorful, easy enough for weekenights yet perfect for a dinner party too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breasts, bacon, smoked gouda cheese, cayenne, garlic powder, paprika
+---
+TITLE: Bacon Wrapped Sonoran Hot Dogs
+CURRENT_DESCRIPTION: this is a stove-top method, preferably using a cast-iron skillet.  the bun is all–important. what you want is a mexican bolillo, the soft version, not the crusty one.  if you can’t find bolillos, you can use regular hot dog buns that are already split.  make the jalapeno salsa.  this stuff is key. otherwise you’re just dressing your hot dog with mayo and mustard.  if you want to cheat and sub, buy the hottest commercial salsa verde you can find and thin it a bit with a mix of water and lime juice.  from wwl website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: buns, bacon, hot dogs, pinto beans, onion, diced tomato
+---
+TITLE: Bacon Wrapped Steak
+CURRENT_DESCRIPTION: this is my favorite steak ever so when you cook it i hope you enjoy. i learned different techniques from gordon ramsey and jamie oliver videos and made this recipe from what i learned.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, bacon, butter, fresh rosemary, garlic, olive oil
+---
+TITLE: Bacon Wrapped Steak Fries
+CURRENT_DESCRIPTION: easy to do and always a hit. these are great to serve either as a snack along with your favorite frosty beverage, or as a side to a good steak.
+
+butt kickin' blacken contains neither salt nor sugar and is available at www.capnrons.com?id=rz. most other blacken seasonings contain a lot of slat and you will have to adjust this recipe accordingly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, vegetable oil, cajun seasoning, salt, bacon
+---
+TITLE: Bacon Wrapped Steak With Balsamic Onion Sauce
+CURRENT_DESCRIPTION: you won't beleive how good this is. hubby wanted to lick the plate. yum
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, onions, salt, pepper, sugar, balsamic vinegar
+---
+TITLE: Bacon Wrapped Stuffed Chicken
+CURRENT_DESCRIPTION: i saw this recipe and new i had to try it.  i am not "certain" about the sauce, but i will reply once i cook it.  i am going to sub. the bacon with turkey back and hope it does well!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, bacon, seasoned stuffing mix, water, bacon drippings, celery
+---
+TITLE: Bacon Wrapped Stuffed Chicken  Gluten Free
+CURRENT_DESCRIPTION: great entree with dining for 2. this quick and easy recipe will be sure to when over your loved one. juicy and full of flavor in every bite. if using blue cheese make sure it's gluten free. most blue cheese is made with out gluten now. but if your not sure feta and baby swiss cheese are naturally gluten free and a great subsitute in this recipe. enjoy!!!!...............
+from: chef travis w holland
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, black pepper, blue cheese, spinach leaves, bacon, mushroom
+---
+TITLE: Bacon Wrapped Stuffed Dates With Balsamic Reduction
+CURRENT_DESCRIPTION: sinfully delicious!! salty and sweet, crispy and gooey!! yum! surprisingly easy and look fantastic. i had these at a restaurant and then went on a hunt to find a similar recipe. found one online and tweaked it some. if you use thick cut bacon, par-cook it some before wrapping dates.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, sliced almonds, goat cheese, pitted dates, bacon
+---
+TITLE: Bacon Wrapped Stuffed Fish
+CURRENT_DESCRIPTION: i'm not a big fan of fin fish, but this dish is one of my very favourites
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish fillets, reduced-sodium bacon, unsalted butter, onion, brown breadcrumbs, parsley
+---
+TITLE: Bacon Wrapped Stuffed Jalapeno Peppers
+CURRENT_DESCRIPTION: this recipe is always a crowd favorite. i got the original from food network with a slight modification. you can play with the ingredients to suit your taste. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jalapeno peppers, cream cheese, garlic cloves, sun-dried tomato, fresh cilantro, coarse sea salt
+---
+TITLE: Bacon Wrapped Stuffed Pork Loin
+CURRENT_DESCRIPTION: all i have to say about this is yum-o! i usually used my grandmothers stuffing which consists of bread cubes, onions, butter and summer savory, but stove top works just as well. i also use dried herbs, they work just as well as fresh. so easy to make people will think you slaved for hours ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork loin, stove top stuffing mix, butter, water, bacon, salt & pepper
+---
+TITLE: Bacon Wrapped Tater Tots
+CURRENT_DESCRIPTION: this has been a huge hit for anyone that eats these! easy bar food style recipe that everyone will love. bacon and jalapeno slice wrapped around tator tot and deep fried, topped with cheddar cheese and great dipped in ranch! perfect party food or snack!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen tater tots, bacon, pickled jalapeno peppers, cheddar cheese, ranch dressing, toothpick
+---
+TITLE: Bacon Wrapped Trout
+CURRENT_DESCRIPTION: trout is readily available but often overlooked. the bacon adds flavour to the fish while protecting it from the heat of the grill. make sure the bacon is thinly sliced, and soak the string in cold water ahead of time so it doesn't burn.  from the lcbo magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, fresh sage, fresh thyme, whole trout, salt & freshly ground black pepper, bacon
+---
+TITLE: Bacon Wrapped Venison Tenderloin With Portabella Mushrooms
+CURRENT_DESCRIPTION: a venison tenderloin recipe that my "no game meats" fiance will eat (and like)!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: venison tenderloin, bacon, yellow onion, portabella mushrooms, olive oil, garlic cloves
+---
+TITLE: Bacon Wrapped Water Chestnut
+CURRENT_DESCRIPTION: a can't miss appetizer. got this from a friend a few years back. thanks connie!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water chestnuts, bacon, mayonnaise, chili sauce, brown sugar
+---
+TITLE: Bacon Wrapped Water Chestnuts
+CURRENT_DESCRIPTION: i've servedthese with, and without the "rub". the consensus is that even though you loose the strong bacon flavor when you put the rub on it, the hot and sweet flavors of the rub really kick this old time standard up.
+
+butt kickin' blacken contains neither salt nor sugar, and is available at: http://www.capnrons.com/index.html?id=rz_bwc
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, water chestnuts, dark brown sugar, cajun seasoning, toothpicks
+---
+TITLE: Bacon Wrapped Water Chestnuts  Rumaki
+CURRENT_DESCRIPTION: this recipe is slightly different from the ones already posted here on 'zaar.  it was given to me by a very dear friend who is no longer with us.  everytime i make it, i think of her.  thanks, diane.  note:  the size can for the water chestnuts is estimated (i don't have any in my cupboard today).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water chestnuts, lean bacon, brown sugar, ketchup, soy sauce
+---
+TITLE: Bacon Wrapped Water Chestnuts With Ketchup Sauce
+CURRENT_DESCRIPTION: this is my favorite version of the bacon wrapped water chestnuts appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, brown sugar, worcestershire sauce, water chestnuts, bacon, toothpick
+---
+TITLE: Bacon Wrapped Waterchestnuts With Pineapple
+CURRENT_DESCRIPTION: these are my favorite version of this popular appetizer.  the addition of pineapple adds a nice sweetness.  these appetizers are always the first to go whenever i serve them.  i've had good look pre-baking them and serving them warm in a crock-pot or just reheating in the microwave if you want to make them ahead of time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, pineapple rings, water chestnuts, ketchup, sugar
+---
+TITLE: Bacon Wrapper Water Chestnuts
+CURRENT_DESCRIPTION: this is a fun appetizer to make.  it is very simple and very tasty!  you can also use turkey bacon if you are health conscious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, water chestnuts, lemon juice, worcestershire sauce, seasoning salt
+---
+TITLE: Bacon-Cheese Cucumber Slices
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 8 oz. pkg. cream cheese, softened, 6 slices bacon, crisply cooked and crumbled, 1/2 c. chopped green onions, 1/2 tsp. Italian seasoning, 2 large cucumbers
+---
+TITLE: Bacon-Flavored Chicken Breasts
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 8 boneless chicken breasts, 1 jar chipped beef, 8 slices bacon, 1 can cream of mushroom soup, 1 c. sour cream
+---
+TITLE: Baconfredo
+CURRENT_DESCRIPTION: bacon alfredo.  that's right, the best of all worlds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, yellow onion, butter, heavy cream, parmesan cheese, cayenne pepper
+---
+TITLE: Baconized Corn
+CURRENT_DESCRIPTION: love this - from the mennonite community cookbook.  my mother made a skillet version of this a lot when i was a kid.  she used fresh corn from our garden.  of course, fresh corn cut off the cob makes this recipe even more yummy!  a great summer recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh corn, salt, fresh ground pepper, sugar, bacon, butter
+---
+TITLE: Baconless Baked Beans
+CURRENT_DESCRIPTION: i hate to fry bacon because i usually only need a few strips for a recipe then i'm left with all that bacon.  so i usually don't use it.  i created these baked beans without bacon, using french-fried onions.  they give it that good smoky flavor without the hassle of cooking the bacon.  hope you like them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, butter, green bell pepper, garlic cloves, jalapeno, french-fried onions
+---
+TITLE: Baconwrapped Hoisin Salmon
+CURRENT_DESCRIPTION: what a delicious meal with a great combination of salmon and bacon! a terrific and easy dish to make you look like you slaved over the stove all day. the sauce is wonderful - take advantage of it by serving the salmon and sauce on a bed of rice noodles. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless salmon fillets, bacon, salt and pepper, hoisin sauce, maple syrup, soy sauce
+---
+TITLE: Bacony Beans
+CURRENT_DESCRIPTION: this is a recipe that once you try, you will always come back to. every family has it's tried and true baked beans--and unfortunately, when my mil passed away she took hers with her. so now this is the one i always use and the one i always get requests for.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, sweet onion, pork and beans, brown sugar, worcestershire sauce, mustard
+---
+TITLE: Bacony Blue Cheese Chicken Pasta
+CURRENT_DESCRIPTION: get the pasta and caramelized onions going so the remaining cooking processes overlap.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rigatoni pasta, butter, white wine, yellow onions, chicken breast halves, salt and pepper
+---
+TITLE: Bacony Deviled Eggs
+CURRENT_DESCRIPTION: think that all deviled eggs are basically the same?? think again!!! the first time i made these, i literally piped the filing right into my mouth. i give props to ann hodgman for this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, mayonnaise, sour cream, dijon mustard, bacon, green onions
+---
+TITLE: Bad Hunter Stew Aka Setian Stew
+CURRENT_DESCRIPTION: from the vegetarian society.  this became christmas dinner with a few tweaks because some twit forgot to thaw and press the tofu.  just call me phil the twit.
+
+it got the name bad hunter stew because i said it put me in mind of hunter stew.  then i said "bad hunter stew"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, dried wild mushrooms, onion, carrots, turnips, parsnips
+---
+TITLE: Bada   Savory Indian Snack
+CURRENT_DESCRIPTION: a very popular snack sold in street stalls in india.  you can substitute 1 cup of chana dal in place of the 1 cup total of urad and moong dals.  i haven't made this yet - yield is rough estimate.  time estimate does not include soaking dal. can be made vegan by using vegetable oil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: urad dal, mung dal, hing, salt, green chilies, coriander leaves
+---
+TITLE: bada bing betty s tuscan portobello melt  grilled cheese
+CURRENT_DESCRIPTION: also known as tuscan portobello melt.this winning recipe (combined with recipe #193721) was betty fraser's entry for the top chef episode where the competitors had to present a "comfort food". the soup and sandwich combo will become a featured item on tgi friday's menu. the judges raved about then and i know why. delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sourdough bread, extra virgin olive oil, red onion, unsalted butter, grape tomatoes, balsamic vinegar
+---
+TITLE: Bada Bing Betty S Tuscan Portobello Melt  Grilled Cheese
+CURRENT_DESCRIPTION: also known as tuscan portobello melt.this winning recipe (combined with recipe #193721) was betty fraser's entry for the top chef episode where the competitors had to present a "comfort food". the soup and sandwich combo will become a featured item on tgi friday's menu. the judges raved about then and i know why. delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sourdough bread, extra virgin olive oil, red onion, unsalted butter, grape tomatoes, balsamic vinegar
+---
+TITLE: Bada Bing Buffalo Wings
+CURRENT_DESCRIPTION: a fiery-hot buffalo wing i used to prepare when i was a private chef for some aristocrats in new york city. simple to make and amazingly effective.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: louisiana hot sauce, garlic clove, butter, brown sugar, seasoning salt, worcestershire sauce
+---
+TITLE: Badam Pasanda
+CURRENT_DESCRIPTION: this is a truly superb superb curry,  very much in the top league. the use of yogurt, cream, and ground almonds combine wonderfully with the spices to make a medium hot dish. you'll cook this time and time again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb, fresh ginger, garlic cloves, fresh green chilies, plain yogurt, butter
+---
+TITLE: Badami Qorma
+CURRENT_DESCRIPTION: this is a really easy chicken qorma recipe that i got from a friend and have made several times. the addition of almonds gives it the name 'shahi qorma' and it is usually served at wedding feasts and other special occasions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken pieces, onions, yogurt, cardamoms, peppercorns, black cardamom pods
+---
+TITLE: Badazz Baked Beans  Beef And Bacon
+CURRENT_DESCRIPTION: kidelicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, ground round, pork and beans, molasses, ketchup
+---
+TITLE: Badazz Barbecue Sauce
+CURRENT_DESCRIPTION: give the other barbecue sauce(s) in your fridge to your neighbours - you won't need or want them any more.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic, butter, apple cider vinegar, bottled water, bottled chili sauce
+---
+TITLE: Badda Bing Pizza With Pesto Esque Sauce
+CURRENT_DESCRIPTION: same old story: home from the farmers' market, bag of produce, and no dinner plan. here you go. i prefer square pan pizza to round. i tried to specify measurements but i don't measure when making pizza-my apologies. a little of this, a little of that....have fun!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza crust, onion, sliced mushrooms, elephant garlic, baby spinach leaves, cheese
+---
+TITLE: Bademiya S Justly Famous Chile Coriander Chicken
+CURRENT_DESCRIPTION: this is a recipe from steven raichlen's "the bbq bible".  here is what is stated: "the original version of this dish is hot, hot, hot. for the full effect, use 1 entire tablespoon of cayenne. for a milder but highly flavorful rendition, use 1 to 2 teaspoons cayenne, or substitute hot paprika which isn’t quite as fiery. to round out your meal at bademiya, two fulltime bakers work nonstop tossing paper-thin disks of dough onto charcoal-fired metal domes to make freshly cooked ruoomali ("handkerchief" bread). since these are difficult to make, i suggest serving this chicken with either of two thoroughly non-indian but definitely satisfactory alternatives, flour tortillas or lavash. afghan coriander sauce and tamarind dipping sauce make great accompaniments."  note:  allow 4-6 hours to marinade.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken quarters, coriander seeds, whole black peppercorns, cumin seed, garlic cloves, fresh ginger
+---
+TITLE: Bademjan   Delicious Persian Stew
+CURRENT_DESCRIPTION: bademjan means “eggplant” in farsi (otherwise known as persian, the language spoken iran). this stew works fantastically with persian rice (polo) and is a dish which can be modified for vegetarians very easily. such comfort food–everyone will enjoy this dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, lamb, tomato paste, lemon, onion, turmeric
+---
+TITLE: Badische Schupfnudeln  Spaetzle
+CURRENT_DESCRIPTION: this is a typical noodle dish of baden-baden and the schwaebische region in germany. the main ingredient is potatoes. schupfnudeln get their name from the upper german word
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, flour, salt, egg, nutmeg, parsley
+---
+TITLE: Baeckoefe
+CURRENT_DESCRIPTION: my 3 friends and i tried a lot of different dishes when travelling in austria.  our policy was to always order something different - and never the same dish twice.  this is a tasty meat and potato stew.  i do forego the 'pastry lid' as i have a pretty good oven casserole dish and little steam escapes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb shoulder, beef stew meat, pork, onion, leeks, carrots
+---
+TITLE: Bag End Brown Bread
+CURRENT_DESCRIPTION: i found this wholesome, hearty bread on the council of elrond, a tolkien-centered website which includes a treasure trove of fabulous recipes.  asliannquinn, the site member who submitted the recipe, says: "men and elves can barely handle a slice of this hobbiton staple without a big glass of milk."  well, whether you're a tolkien fan or not, i'm sure you'll like this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, eggs, butter, honey, brown sugar, baking soda
+---
+TITLE: Bag Of Cole Slaw
+CURRENT_DESCRIPTION: the easiest slaw ever!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, cabbage, onion, light sour cream, light mayonnaise, cider vinegar
+---
+TITLE: Bag Style Shake A Cake
+CURRENT_DESCRIPTION: add all dry ingredients in a bag instead of a bowl, add wet ingredients and  pour into a pan. or one bag instructions for a campfire cook with dutchoven. great for camping! i would like to clarify pan size, you can use a 9 x 13 pan also. the 8 x 5 pan referred to in the recipe was very deep and i now realize that most ofpans are not as deep. my round cake pans are also deep and so you might have to use 3 regular round pans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white flour, sugar, baking soda, baking cocoa, salt, nonfat dry milk powder
+---
+TITLE: Bagel  Lox And Egg Strata
+CURRENT_DESCRIPTION: this is a very filling and tastefully seasoned breakfast dish for groups or large families.  i doubted that i would like the salmon, but it really makes this dish stand out and is suitable for vegetarians who eat fish.  i prefer this with the swiss cheese instead of monterey jack.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, bagels, smoked salmon, swiss cheese, fresh chives, eggs
+---
+TITLE: Bagel Chicken Salad Sandwiches
+CURRENT_DESCRIPTION: we love to take these along for picnics and hikes.  the bagels hold against the salad unlike bread.  i love the addition of bacon in this chicken salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, bacon, celery, green onions, dried basil leaves, garlic powder
+---
+TITLE: Bagel Croutons
+CURRENT_DESCRIPTION: so easy to make and better then store bought croutons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, dried herbs, salt, olive oil, garlic powder, parmesan cheese
+---
+TITLE: Bagel Dip
+CURRENT_DESCRIPTION: a co-orker brought this to a pot luck.  it is rather addicting!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dill weed, garlic salt, onion, corned beef, hellmann, ,
+---
+TITLE: Bagel Dogs Or Mini Bagel Dogs
+CURRENT_DESCRIPTION: we were shopping last week when my husband commented again on how we can't find his favorite frozen snack anymore.  we used to buy a box of bagel dogs every time we went to costco but costco has long since stopped carrying them.  we also would buy the mini bagel dogs when we could find them.  even i would eat one once in a great while.  so i suggested we just try making them ourselves.  the next day i spent some time researching bagel recipes and found that others had been successful using this one for mall pretzels, found online at allrecipes, to make bagel dogs.
+ 
+i remember making bagels years ago when my son was a toddler and i guess it must've been quite an experience, as i've not done it since.  i've often thought about doing it again though and i do remember the hassle of making, boiling and then baking them.  so when i saw this recipe, where the boiling is replaced by a quick dunk in a baking soda and hot water bath, i had to give it a try.  the recipe as written is excellent but i've changed the instructions slightly to make the mini-dogs.  we only made one full sized bagel dog, to compare, and i personally like the flavor of the hot dog better than the little smokey, but i like the size of the minis.  'cause they're just plain fun to eat!   feel free to use any type of hot dog (all beef or turkey) that you like & just cut your dough into fewer, bigger pieces.  i don't worry too much about the exact amount of dough pieces, i just make pretzels or pretzel bites out of any leftovers.  :)
+instructions are "by hand" but i used my kitchenaid mixer with the dough hook attachment for the mixing and kneading with great results.  prep time includes rising time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, brown sugar, salt, warm water, all-purpose flour, bread flour
+---
+TITLE: Bagel French Toast Casserole
+CURRENT_DESCRIPTION: this is an easy breakfast treat.  use raisin cinnamon or blueberry bagels.  this casserole has more texture than the typical french toast casserole due to the bagels.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, laughing cow cheese, eggs, milk, vanilla, maple syrup
+---
+TITLE: Bagel Pizzas  Oamc
+CURRENT_DESCRIPTION: i found this on another website.  i made a bunch to throw in our freezer for ready-made lunches. tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, ground beef, onion, salt, pepper, garlic salt
+---
+TITLE: Bagel Roll   Sushi
+CURRENT_DESCRIPTION: from cooking light
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green onions, light cream cheese, wasabi, nori, cooked sushi rice, smoked salmon
+---
+TITLE: Bagel S My Way
+CURRENT_DESCRIPTION: delicious bagels served with a veggie cream cheese, tomatoes and ham. not diet food! be warned: when you're not looking family members will dunk bagels in the tomato topper! my kid's favorite sunday breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, cream cheese, knorr vegetable soup mix, tomatoes, green onion, olive oil
+---
+TITLE: Bagel Transformation
+CURRENT_DESCRIPTION: not your dull, everyday bagel. yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, bagels, apple, raisins, brown sugar, cinnamon
+---
+TITLE: Bagel Tuna Melt
+CURRENT_DESCRIPTION: this is a favourite with my sister-in-law, although the tomato was my addition. i actually prefer cold tuna salad sandwiches, but this makes a nice change from that.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna, red onions, red peppers, mayonnaise, worcestershire sauce, bagels
+---
+TITLE: Bagel With Smoked Salmon
+CURRENT_DESCRIPTION: when i lived in new york city, i used to go to a bakery that served these, hope you like it. i thought this would be great as an appetizer if you replaced regular-sized bagels for the minis.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, cream cheese, smoked salmon, tomatoes, red onion, fresh dill
+---
+TITLE: bagels
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, active dry yeast, water, sugar, salt
+---
+TITLE: bagels   fresh
+CURRENT_DESCRIPTION: i found this recipe in the cookbook "knead it, punch it, bake it!  it is a breadmaking cookbook for parents and kids.  these bagels turned out fabulous.  i'm hoping to make this recipe over and over with variations.  i'll post the variations later and would appreciate any variations you try too.  preparation time includes mixing, rising, shaping, resting and poaching
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, sugar, milk, vegetable oil, salt, eggs
+---
+TITLE: Bagels   Fresh
+CURRENT_DESCRIPTION: i found this recipe in the cookbook "knead it, punch it, bake it!  it is a breadmaking cookbook for parents and kids.  these bagels turned out fabulous.  i'm hoping to make this recipe over and over with variations.  i'll post the variations later and would appreciate any variations you try too.  preparation time includes mixing, rising, shaping, resting and poaching
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, sugar, milk, vegetable oil, salt, eggs
+---
+TITLE: bagels  in metric converstion for europeans
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, white sugar, salt, active dry yeast, water, margarine
+---
+TITLE: bagels 101  using a stand mixer
+CURRENT_DESCRIPTION: this is a great recipe for a 'bagel party' where everyone can choose and prep their bagel filling and topping choices. this recipe can easily be halved or doubled. we tweaked this very detailed recipe from the book 'the best bagels are made at home' by dona z. meilach. we took the stand-mixer version and simplified the instructions as well as made some other adjustments as we went along to perfect it and keep it simple. choices for different types of flavors are listed at the beginning. selections for different types of toppings are listed at the bottom of the recipe. note: it's recommended to print, read, and understand the instructions completely before beginning.
+onion bagels: add 2 tablespoons of dehydrated minced onion, and replace salt with onion salt. 
+italian herb bagels: add 2 teaspoons of italian seasoning, and replace salt with onion salt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, sugar, salt, flour
+---
+TITLE: Bagels 101  Using A Stand Mixer
+CURRENT_DESCRIPTION: this is a great recipe for a 'bagel party' where everyone can choose and prep their bagel filling and topping choices. this recipe can easily be halved or doubled. we tweaked this very detailed recipe from the book 'the best bagels are made at home' by dona z. meilach. we took the stand-mixer version and simplified the instructions as well as made some other adjustments as we went along to perfect it and keep it simple. choices for different types of flavors are listed at the beginning. selections for different types of toppings are listed at the bottom of the recipe. note: it's recommended to print, read, and understand the instructions completely before beginning.
+onion bagels: add 2 tablespoons of dehydrated minced onion, and replace salt with onion salt. 
+italian herb bagels: add 2 teaspoons of italian seasoning, and replace salt with onion salt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, sugar, salt, flour
+---
+TITLE: Bagels With Avocado Spread   Smoked Salmon
+CURRENT_DESCRIPTION: nice appetizer, love the smoked salmon, be sure it is thinly sliced.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, onions, lemon juice, salt, fresh ground pepper, bagels
+---
+TITLE: Bagels With Smoked Salmon
+CURRENT_DESCRIPTION: smoked salmon with warm bagels.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, smoked salmon, tomatoes, hard-boiled eggs, lettuce leaves, lemon
+---
+TITLE: Bagels With Smoked Salmon  Ww
+CURRENT_DESCRIPTION: i love bagels with smoked salmon. this sounds like a great version. from weight watchers new 365 day menu cookbook. update: i've checked the original recipe - and it doesn't give the amount of cream cheese to use :roll:. so, i'm guessing that it uses 8-ounces.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, fresh dill, skim milk, bagels, plum tomatoes, smoked salmon
+---
+TITLE: Bagels-N-Dip
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 (8 oz.) pkg. cream cheese, 1 (16 oz.) carton sour cream, 1 pkg. Italian seasoning mix, 12 bagels, cut into wedges (onion flavored taste best)
+---
+TITLE: Bagged A Fish Dinner
+CURRENT_DESCRIPTION: how easy can it be to throw a bunch of stuff in a lunch bag and bake?
+from gilligan's steamer and raw bar charleston sc restaurants
+
+you will need- 4 brown paper lunch bags
+
+i realize 4 cups sounds like way to much and i agree, but i am posting this as written in the book i got it from, feel free to use much less! but the recipe for the margarine is extra for wht ever reason and you will only use 1 cup of it for the 4 servings. if you can figure the conversions to only make 1 cup (1/4 c margarine per serving) with reduced old bay and garlic salt, then feel free
+
+also i would just use garlic powder myself to reduce the sodium.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mahi mahi fillets, old bay seasoning, margarine, garlic salt, carrot, broccoli
+---
+TITLE: baghala polo    iranian rice with lamb  dill and lima beans
+CURRENT_DESCRIPTION: i found this in a cookbook of middle eastern cooking and posted it by request. i have not yet tried it. the recipe says you can use frozen lima beans for fresh, if you prefer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, boneless lamb shoulder, water, salt, long-grain white rice
+---
+TITLE: Baghala Polo    Iranian Rice With Lamb  Dill And Lima Beans
+CURRENT_DESCRIPTION: i found this in a cookbook of middle eastern cooking and posted it by request. i have not yet tried it. the recipe says you can use frozen lima beans for fresh, if you prefer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, boneless lamb shoulder, water, salt, long-grain white rice
+---
+TITLE: Baghali Polo   Persian Rice With Lima Beans
+CURRENT_DESCRIPTION: a fresh and delicious iranian rice dish. this recipe is vegetarian; however, it is soooo good served with chicken! from my persian kitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, frozen lima beans, dill, garlic cloves, yogurt, saffron
+---
+TITLE: Baghrir Moroccan Yeast Pancakes
+CURRENT_DESCRIPTION: southern moroccan pancake cooked only on one side; these are awesome.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, semolina flour, flour, yeast, baking powder, turmeric
+---
+TITLE: Bagna Cauda
+CURRENT_DESCRIPTION: when i first tasted bagna cauda, i swooned. a heavenly, warm garlicky sauce and lots of fresh vegetables to dip into it. boy do the italians know how to live! it is traditional to dip little 'mops' of crusty bread to finish up the sauce if there's any left after the vegetables are finished.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, olive oil, anchovy fillets, butter, milk, bell pepper
+---
+TITLE: Bagna Cauda (Italy)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. olive oil, 3 to 5 garlic cloves, chopped fine, pepper, 1 stick butter, 6 anchovy fillets, chopped or mashed
+---
+TITLE: Bagna Cauda With Cream  Dip
+CURRENT_DESCRIPTION: growing up in a community known as "little italy," this was always a staple at any party, especially when the men got together to play cards! for sure this is an artery blocker, a heart attack waiting to hit, but if you like garlic and anchovies, but all means take the risk!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipped butter, olive oil, anchovy fillets, garlic cloves, whipping cream
+---
+TITLE: Bagnet Verde Sauce
+CURRENT_DESCRIPTION: this is garlicky and served over pasta such as rigatoni!  a nice change from red (marinara) sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rigatoni pasta, flat-leaf italian parsley, garlic cloves, fresh ground black pepper, anchovies packed in oil, pine nuts
+---
+TITLE: Baguette Sandwich With Roasted Eggplant  Tomatoes And Pesto
+CURRENT_DESCRIPTION: a delicious vegetarian sandwich that i can't get enough of!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, extra virgin olive oil, garlic clove, salt and pepper, balsamic vinegar, french baguette
+---
+TITLE: baguettes  do try this at home
+CURRENT_DESCRIPTION: one of my favorite bread recipes! these will make you look like a star! when i make this recipe, i make 2, instead of 3 loaves, from the same amount of dough. see photo gallery.  here is the method that i use after mixing the recipe and putting the dough to rest in a covered plastic container. for the baguettes i folded at one hour and then again at 2 hours. i then rough shaped into baguettes, allowed to rest under plastic for 15 minutes; final shaped and placed on the nonstick bread pan and covered with a cold, damp tea towel for the final rise.
+
+this video shows the rising and folding:
+http://www.thebackhomebakery.com/tutorials/ciabatta.html
+
+this video shows you how to shape:
+http://www.thebackhomebakery.com/tutorials/shaping.html
+
+from ka: these crunchy baguettes feature a chewy interior riddled with holes, and a crisp, deep-gold crust. while it's a challenge to make "real" baguettes at home, this version is probably as close to an artisan bakery version as you're going to find.
+
+step-by-step photos illustrating how to make this recipe following the original recipe below: http://www.kingarthurflour.com/blog/2008/05/02/baguettes-do-try-this-at-home/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, active dry yeast, unbleached bread flour, salt
+---
+TITLE: Baguettes  Whole Wheat
+CURRENT_DESCRIPTION: the water on the bottom of the oven creates steam that gives the bread a crisp crust. makes three long, thin loaves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, sugar, warm water, bread flour, whole wheat flour, semolina flour
+---
+TITLE: Baguettes With Scallion Olive Oil Spread
+CURRENT_DESCRIPTION: i got this from oprah! magazine, 2005. i hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, extra virgin olive oil, french baguettes, salt, pepper
+---
+TITLE: Bahama Breeze Fire Roasted Jerk Shrimp
+CURRENT_DESCRIPTION: shrimp simmered in garlic-thyme butter with warm cuban bread for dunking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beer, ground allspice, scotch bonnet pepper, fresh garlic clove, thyme leaves, green onion
+---
+TITLE: Bahama Breeze Tostones Con Pollo
+CURRENT_DESCRIPTION: omg! they're like spanish chicken nachos. amazing!!! i buy my tostones (green plantains) at my local produce store, but they can be found at any spanish market. they come "pre-cooked /frozen." do not thaw before frying!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, green plantain, butter, boneless skinless chicken breasts, cumin, taco seasoning
+---
+TITLE: Bahama Mama Banana Rum Cake
+CURRENT_DESCRIPTION: a cake that blends a favorite drink with a rum cake and pound cake. this is dense, but not heavy, and the spicy molasses kick from the dark rum enhances the banana flavor. you may use light or dark brown sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, water, brown sugar, granulated sugar, dark rum, pecans
+---
+TITLE: Bahama Mama Pork Chops Or Chicken
+CURRENT_DESCRIPTION: "a tropical taste for your pork chops" or chicken. i found this on allrecipes by christine johnson, and it is excellent!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple chunks, cornstarch, chili sauce, raisins, brown sugar, cinnamon
+---
+TITLE: Bahama Mamma
+CURRENT_DESCRIPTION: this is a coctail that we tried in the bahamas but be careful because it tastes so fruity that you forget how much you've had to drink!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rum, rum, coconut rum, nassau royale, pineapple juice, lemon juice
+---
+TITLE: Bahama Shrimp Skewers
+CURRENT_DESCRIPTION: rum, shrimps, pineapple...just a few of the great flavors in this dish that remind you of a relaxing summer vacation in the islands :)
+i often adjust one of my recipes ( recipe #367464 ) that i posted a while ago. but since it doesn't really resemble the original anymore i thought i'd post it as a seperate recipe.
+i never really measure when i cook, so these measurements are only estimates. you have to adjust the amounts depending on how spicy or sweet you like your shrimps. i get the best results using fresh ginger and lime juice but bottled works too.
+(cook time includes marinating time)
+the perfect side dish would be recipe #382390
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, dark rum, lime juice, honey, garlic cloves, allspice
+---
+TITLE: Bahama Vacation Johnny Cake
+CURRENT_DESCRIPTION: on a recent vacation to the bahamas with my daughter, we were served johnny cake with dinner instead of the usual bread or rolls. it's light, slightly sweet, and was served warm. we've made it for breakfast and there's never any left. it's great with butter or jam.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, eggs, sweetened condensed milk, vegetable oil
+---
+TITLE: Bahamas Bread
+CURRENT_DESCRIPTION: posted by request, this slightly sweet bahamaian bread is absolutely heavenly!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot water, quick-cooking rolled oats, molasses, butter, salt, bread flour
+---
+TITLE: Bahamas Johnny Cake
+CURRENT_DESCRIPTION: typically served as a side dish for breakfast with salt fish.
+found online at www.caribbeanchoice.com for the zwt5
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cornmeal, salt, egg, baking powder, sugar
+---
+TITLE: Bahamas Shrimp Salad
+CURRENT_DESCRIPTION: goes perfect with mini muffins
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, french dressing, shrimp, celery, cauliflower, onion
+---
+TITLE: Bahamian Bean And Corn Salad
+CURRENT_DESCRIPTION: this is a simple black bean, black eyed pea, and corn salad with a tasty vinaigrette.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, black-eyed peas, corn, sweet onion, red bell pepper, garlic cloves
+---
+TITLE: Bahamian Boiled  Fish
+CURRENT_DESCRIPTION: boiled make it sound awful (& is really a misnomer as the fish is simmered gently until just done) but it is unbelievably delicious & soul satisfying. located in the miami herald who adapted it from culinaria the caribbean by rosemary parkinson, (konemann, 1999).
+the miami herald article said: "bahamian people know there is nothing like a good fish broth or soup to give you strength for the day ahead. any white fish can be used but grouper is preferred (see source). serve with grits and cornbread." if you can locate fish peppers to use in this dish, they are wonderful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grouper fillets, limes, juice of, salt, black pepper, yellow onions, clove
+---
+TITLE: Bahamian Conch Chowder
+CURRENT_DESCRIPTION: conchs are quite popular in south florida, as most there come from the bahamas, were they are plentiful.  if you cannot get frozen conchs, chopped clams may be substituted.  if using chopped clams, add them at the last moment to keep them tender.  the chowder is chunky, spicy, and robust with flavor - goes great with toasted bread rounds.  found recipe in, "the whole foods market cookbook."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, celery, carrots, red pepper, potato
+---
+TITLE: bahamian crab n  rice
+CURRENT_DESCRIPTION: everyone whose ever heard about the bahamas thinks about conch. we were once called the conch isles. however, it is little known fact that conch is the most perennial dish, not the the national dish!
+the most important part of the national dish of the bahamas. eaten almost everyday with steamed nassau grouper,coleslaw and fried plaintain especially between the months of june and august. this recipe will prove challenging for those unfamiliar with how to prepare the land crabs.... but it tastes like manna ... intensely delectable experience for your tastebuds!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabs, vegetable oil, white onions, green pepper, dried thyme, salt
+---
+TITLE: Bahamian Crab N  Rice
+CURRENT_DESCRIPTION: everyone whose ever heard about the bahamas thinks about conch. we were once called the conch isles. however, it is little known fact that conch is the most perennial dish, not the the national dish!
+the most important part of the national dish of the bahamas. eaten almost everyday with steamed nassau grouper,coleslaw and fried plaintain especially between the months of june and august. this recipe will prove challenging for those unfamiliar with how to prepare the land crabs.... but it tastes like manna ... intensely delectable experience for your tastebuds!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabs, vegetable oil, white onions, green pepper, dried thyme, salt
+---
+TITLE: Bahamian Grilled Fish
+CURRENT_DESCRIPTION: from steven raichlen.  suggested fish include striped bass, sea bass, mahi mahi and bluefish, but others would certainly work.  this method can also be used for whole fish.
+
+prep time includes marinating time.
+
+serve with lime wedges and hot sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, lime juice, fresh ginger, scotch bonnet pepper, fish fillets
+---
+TITLE: Bahamian Guava Duff
+CURRENT_DESCRIPTION: i had this dish one time on a business trip to the bahamas... unbelievably good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: guavas, flour, baking powder, salt, sugar, butter
+---
+TITLE: Bahamian Johnny Bread
+CURRENT_DESCRIPTION: this recipe is a cultural staple in the bahamas and throughout the caribbean and is a family favorite(one which i have tweaked a bit over the years to suit various tastebuds) but its a wonderful bread/cake-like dish thats commonly served with soups and souses of all kinds (for breakfast, lunch or dinner)and can also be wonderful after dinner supper topped with jam and served with tea or cocoa. my family especially loves to eat it like a sandwich with cheese or peanut butter in the middle.yum...the choices are endless. hope you enjoy!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, unsalted butter, low-fat milk
+---
+TITLE: Bahamian Papaya Rum Cake
+CURRENT_DESCRIPTION: we vacationed in the bahamas last spring and were impressed with their local rum cakes.  taste the flavor of the islands in this dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: papayas, golden raisin, lemon juice, rum, butter, brown sugar
+---
+TITLE: Bahamian Peas   Rice
+CURRENT_DESCRIPTION: i do not like beans in any way, shape or form. that said, my fiancee found it very amusing when i ate this dish every day for lunch during our vacation in the bahamas. it wasn't until we returned that he let me know these 'peas' were actually beans!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pigeon peas, garlic, fresh thyme, rice, red pepper, scallions
+---
+TITLE: Bahamian Peas And Rice
+CURRENT_DESCRIPTION: various versions of this dish are made throughout the caribbean.  you could easily make this a vegetarian dish by omitting the bacon. 1 teaspoon dried basil and 1/2 teaspoon dried thyme may be substituted for the fresh herbs.  from the barbecue bible.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, bacon, onion, green bell pepper, garlic cloves, fresh basil leaves
+---
+TITLE: Bahamian Sky Juice
+CURRENT_DESCRIPTION: this is an unusual presentation for an unusual drink.  be careful--it's very strong.  if, like me, you dislike gin, the recipe will also work with rum.  from the barbecue bible.
+make sure when you get the coconuts that you shake them to hear the water slosh around inside.
+time listed does not include chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconuts, evaporated milk, gin, sugar, ground cinnamon, nutmeg
+---
+TITLE: Baharat Aka Middle East Mixed Spices   The Real Mix
+CURRENT_DESCRIPTION: for anyone who desires an authentic taste of the mid east. this recipe was learned by watching a good friend of mine in jordan when she was grinding her family's monthly supply.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole black peppercorn, whole coriander seed, cassia, whole cloves, cumin seed, cardamom seeds
+---
+TITLE: Baharat Steak
+CURRENT_DESCRIPTION: something i found on the internet that i want to try.  serve with toasted lebanese bread, tabouleh and tzatziki.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: paprika, black peppercorns, cumin, coriander seed, cassia, clove
+---
+TITLE: Bahia Mar Resort S Caribe Asian Spring Rolls
+CURRENT_DESCRIPTION: this is a recipe from a resort in s. florida called bahia mar resort. use recipe for recipe #59425 with this. enjoy! prep & cooking times estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, celery, carrot, red onions, red cabbage, fresh ginger
+---
+TITLE: Bahia Mar Resort S Mangolade Duck Sauce
+CURRENT_DESCRIPTION: this is from a resort in s. florida called bahia mar resort. this is used with  recipe #59423 that i have posted. prep time includes time to cook, sorry. it includes time to prepare veggies/fruits, cook, cool and process, etc. time is an estimate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mangoes, bananas, white raisins, orange juice, red pepper, prepared horseradish
+---
+TITLE: bahian brasilian fish stew  decorated with boiled eggs  moqueca
+CURRENT_DESCRIPTION: brazil's famous bahian fish dish (moqueca de peixa baiana: (moo-kay-ka jhee pay-shah) garnished with chopped cilantro and hard-boiled egg wedges.
+
+just loving my brasilian lineage and the foods of my culture,  this is an homage to bahia and to brasil.
+
+saute and simmer all the other ingredients as long as you like, until tender, but do not add the fish until 5-8 minutes before serving depending on the thickness if the fish.  that said, you can add a piece or two to the saute for added flavor.  i also use two tablespoons of fish sauce.
+
+this is to be ideally cooked very slowly so that the flavors can blend thoroughly.  i'm going to try cooking in a slow cooker on low for 6 hours and then adding the fish just prior to serving.
+
+serve over white rice, with lime wedges.  side dishes: sauteed collards or spinach and garlic and also cold orange slices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime, juice of, ground cumin, paprika, garlic cloves, salt, ground black pepper
+---
+TITLE: Bahian Brasilian Fish Stew  Decorated With Boiled Eggs  Moqueca
+CURRENT_DESCRIPTION: brazil's famous bahian fish dish (moqueca de peixa baiana: (moo-kay-ka jhee pay-shah) garnished with chopped cilantro and hard-boiled egg wedges.
+
+just loving my brasilian lineage and the foods of my culture,  this is an homage to bahia and to brasil.
+
+saute and simmer all the other ingredients as long as you like, until tender, but do not add the fish until 5-8 minutes before serving depending on the thickness if the fish.  that said, you can add a piece or two to the saute for added flavor.  i also use two tablespoons of fish sauce.
+
+this is to be ideally cooked very slowly so that the flavors can blend thoroughly.  i'm going to try cooking in a slow cooker on low for 6 hours and then adding the fish just prior to serving.
+
+serve over white rice, with lime wedges.  side dishes: sauteed collards or spinach and garlic and also cold orange slices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime, juice of, ground cumin, paprika, garlic cloves, salt, ground black pepper
+---
+TITLE: Bahian Shrimp Stew
+CURRENT_DESCRIPTION: if you like fish stews you love this.  very quick and easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, bell pepper, tomatoes, cilantro, garlic clove
+---
+TITLE: Bahian Spicy Shrimp
+CURRENT_DESCRIPTION: this is a recipe from northern brazil. use your own taste to determine how spicy you want it...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, yellow onion, paprika, palm oil, garlic cloves, coriander
+---
+TITLE: Bahn Mi
+CURRENT_DESCRIPTION: this is one of those recipes that words fail.  it is a combination of several recipes i have tried for these iconic vietnamese sandwiches.  the mayo needs to be spread thick but go light on the meat.  if you want to tone down the heat on the jalapenos, take out the seeds and ribs. i have to restrain myself from making it too often.  one note of caution, the slaw does not smell good when it is pickling
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, white vinegar, sugar, carrot, daikon radish, sandwich buns
+---
+TITLE: Bahraini Prawns   Shrimp In Tomato Sauce
+CURRENT_DESCRIPTION: bahrainis love seafood & prawns are no exception - here is a typical way of cooking them in bahrain. this dish is also nice with the addition of a little minced garlic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prawns, chopped tomatoes, green capsicum, salt, garam masala powder, turmeric
+---
+TITLE: Bahraini Sweet Rice  Muhammar
+CURRENT_DESCRIPTION: modified from the complete middle east cookbook by tess mallos. this is a beautiful accompaniment to recipe #372093.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: saffron thread, cardamom pods, rose water, basmati rice, water, salt
+---
+TITLE: Baigan Bhartha  Eggplant  Aubergine
+CURRENT_DESCRIPTION: i found this on line. changed a little bit. enjoy this spicy, indian vegetarian eggplant curry dish over rice or with indian bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, ghee, cumin seed, onion, ginger, garlic
+---
+TITLE: Baigan Choka  Roasted Eggplant  Aubergine
+CURRENT_DESCRIPTION: a robust flavoured trinidadian side dish or  vegetarian spread for flatbreads. i don't usually add pepper to this as i think the flavour is intense enough. if not using a non- stick pan increase the oil to 2 tablespoons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, garlic cloves, tomatoes, onion, vegetable oil, scotch bonnet pepper
+---
+TITLE: Bailey S  Copycat  Irish Cream
+CURRENT_DESCRIPTION: my daughter & i make this in early december every year....somehow, it never lasts to xmas!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant coffee granules, eggs, chocolate syrup, whipping cream, eagle brand condensed milk, irish whiskey
+---
+TITLE: Bailey S Banana Colada
+CURRENT_DESCRIPTION: a yummy frozen drink.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: irish cream, banana, banana liqueur, ice, pina colada nonalcoholic drink mix, dark rum
+---
+TITLE: Bailey S Bouillabaisse  Fish Stew
+CURRENT_DESCRIPTION: i just 'adopted' this recipe from the 'orphan recipes' list - will be trying and editting (if necessary) it. sounds like a great comfort food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, celery, potatoes, boiling water, skim milk, cod
+---
+TITLE: Bailey S Brownies
+CURRENT_DESCRIPTION: i clipped this from our local newspaper.  credit goes to p.j. canonie-bubin.  i haven't tried them yet, but i thought they would be great for st. patty's day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brownie mix, baileys irish cream, vegetable oil, eggs, butter, powdered sugar
+---
+TITLE: Bailey S Bundt Cake With Irish Cream Glaze
+CURRENT_DESCRIPTION: this is a very impressive bundt cake made with bailey's irish cream and comes with a scrumptious glaze - topped with sliced almonds and a dollop of whip cream on the side makes it extra special.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, instant coffee granules, boiling water, irish cream
+---
+TITLE: Bailey S Buttercream Icing
+CURRENT_DESCRIPTION: this is a fabulous buttercream icing with bailey's in it, passed on to me by one of my best friends in texas, who got the recipe from her aunt (and kicked it up a notch with some bailey's!!). beware: this ain't your mama's frosting! this definetly isn't the frosting you buy at the store either! this recipe makes enough thick, yummy buttercream frosting for one cake.
+
+laura - here's to you! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: real butter, powdered sugar, real vanilla extract, baileys irish cream, milk
+---
+TITLE: Bailey S Caramel Cake
+CURRENT_DESCRIPTION: a twist on irish cream cake that i made for new years in honor of welcoming our little bundle of joy 'bailey' into the world this year.
+
+the cake is chocolate with a hint of banana and caramel bailey's irish cream.  you could play with this and use whatever bailey's flavor you like...the possibilities are endless.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, milk chocolate cake mix, instant banana pudding mix, eggs, water, vegetable oil
+---
+TITLE: Bailey S Chocolate Chip Cheesecake
+CURRENT_DESCRIPTION: i made this cheesecake for a family dinner and received rave reviews. i hope you like it. the recipe called for regular cream cheese, but i used light cream cheese and it worked. enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sugar, butter, light cream cheese, eggs, baileys irish cream
+---
+TITLE: Bailey S Chocolate Mousse
+CURRENT_DESCRIPTION: another favorite recipe using bailey's irish cream. chocolate mousse is great, but adding a little bailey's makes it decadent! i've had this recipe for years and can't remember where my friend got it, but i'm glad she shared.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semisweet chocolate, unsweetened chocolate, baileys irish cream, heavy cream, brewed espresso, sugar
+---
+TITLE: Bailey S Creamy Chocolate Pudding
+CURRENT_DESCRIPTION: i served this in wine glasses & topped with whipped cream for dessert on valentine's day! it was the first time that i made it but it certainly won't be the last. use sweet, semi-sweet or dark bittersweet chocolate according to how sweet your tooth is. timing doesn't include refrigeration.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, milk, cream, egg yolk, baileys irish cream
+---
+TITLE: Bailey S Creme Brulee
+CURRENT_DESCRIPTION: this recipe came from a we-energy book compliments of chef mark j. olson, culinary arts instructor in janesville, wisconsin.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy cream, irish cream, vanilla extract, light brown sugar, egg yolks, brown sugar
+---
+TITLE: Bailey S Cupcakes
+CURRENT_DESCRIPTION: delicious cupcakes with a subtle hint of baileys
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: caster sugar, self raising flour, unsalted butter, eggs, vanilla extract, irish cream
+---
+TITLE: Bailey S Fudge Cake
+CURRENT_DESCRIPTION: this cake is fantastic... a must-try bailey's chocolate cake..no words to describe how delicious this cake is....just try it and see for yourself...if desired you can have the option of using the pecan nuts to garnish the cake...so good with or without using the nuts
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, eggs, chocolate syrup, irish cream, instant coffee granules
+---
+TITLE: Bailey S Irish Cheesecake
+CURRENT_DESCRIPTION: a rich and creamy cheesecake recipe that i have used for years.  you can substitute bailey's with any liqueur.  i've used amaretto, kahlua and godiva chocolate liqueur.  use your imagination!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham crackers, pecans, sugar, butter, cream cheese, eggs
+---
+TITLE: Bailey S Irish Coffee Cream Fudge
+CURRENT_DESCRIPTION: very creamy fudge with the wonderful flavor of bailey's irish cream. a great addition to christmas cookie and candy trays!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, evaporated milk, irish cream, instant coffee crystals, marshmallow cream
+---
+TITLE: Bailey S Irish Cream
+CURRENT_DESCRIPTION: this is a good recipe.  i think it makes 2 -26oz bottles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened condensed milk, evaporated milk, whole milk, whipping cream, rye whiskey, chocolate candy bars
+---
+TITLE: Bailey S Irish Cream   Coffee Chip Ice Cream
+CURRENT_DESCRIPTION: wow! this ice cream is rich and absolutely delicious! words cannot describe it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, whipping cream, irish cream, skim milk, instant coffee
+---
+TITLE: Bailey S Irish Cream And Coffee Muffins
+CURRENT_DESCRIPTION: great made as mini muffins or take as a potluck.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, soft brown sugar, instant coffee powder, boiling water, butter
+---
+TITLE: Bailey S Irish Cream Balls
+CURRENT_DESCRIPTION: i don't remember where i found this recipe, but i'm looking forward to trying it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafers, pecans, powdered sugar, baileys irish cream, light corn syrup, unsweetened cocoa
+---
+TITLE: Bailey S Irish Cream Blueberry Mousse
+CURRENT_DESCRIPTION: "mousse is a french terms meaning "froth" of "foam," and this bailey's irish cream-enriched dessert is just that. a cross between a pudding and a fool, it is made with whole fruit instead of crushed blueberries and meringue instead of whipped cream." this dessert is awesome - made it years' ago and i fell upon this just a few days ago, this time i decided to post it. this was found in irish puddings, tarts, crumbnles and fools by margaaret m. johnson
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon, juice and zest of, egg, egg whites, baileys irish cream, granulated sugar, unsalted butter
+---
+TITLE: Bailey S Irish Cream Bread Pudding
+CURRENT_DESCRIPTION: this is one of my adopted recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, butter, vanilla extract, milk, ground nutmeg, eggs
+---
+TITLE: Bailey S Irish Cream Brownies
+CURRENT_DESCRIPTION: i found this recipe several years ago but i don't remember where i got it from. these are really yummy brownies. time does not include the cooling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened baking chocolate, butter, granulated sugar, eggs, baileys irish cream, flour
+---
+TITLE: Bailey S Irish Cream Cake
+CURRENT_DESCRIPTION: this is the best, moistest cake i've made from scratch. it's always requested for at work and/or family gatherings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, cocoa, salt, baking soda, egg
+---
+TITLE: Bailey S Irish Cream Cheesecake
+CURRENT_DESCRIPTION: this is a wonderful cheesecake - it tastes sinful but it is very light.  i made it for a brunch and nobody could believe it was under 300 calories!  it's a rose reisman recipe (another one of her winning recipes!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer crumbs, water, vegetable oil, 5% fat ricotta cheese, low-fat yogurt, light cream cheese
+---
+TITLE: Bailey S Irish Cream Chocolate Chip Cookies
+CURRENT_DESCRIPTION: i just thought of eating cookies with bailey's, and then i was like, dude. why not make irish cream cookies!?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, brown sugar, egg, vanilla, irish cream
+---
+TITLE: bailey s irish cream cupcakes
+CURRENT_DESCRIPTION: here's a yummy treat to help celebrate your st. patrick's day celebration. these from-scratch cupcakes are moist and festive! recipe is from woman's world.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened cocoa powder, hot water, butter, all-purpose flour, granulated sugar, dark brown sugar
+---
+TITLE: Bailey S Irish Cream Cupcakes
+CURRENT_DESCRIPTION: here's a yummy treat to help celebrate your st. patrick's day celebration. these from-scratch cupcakes are moist and festive! recipe is from woman's world.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened cocoa powder, hot water, butter, all-purpose flour, granulated sugar, dark brown sugar
+---
+TITLE: Bailey S Irish Cream Fudge
+CURRENT_DESCRIPTION: a flavored fudge that is oh s-o-o-o-o good. i usually make this around the holidays for gifts. seems as though everyone loves it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk chocolate chips, semi-sweet chocolate chips, sweetened condensed milk, vanilla, baileys irish cream, nuts
+---
+TITLE: Bailey S Irish Cream Kiss Chocolate Cookies
+CURRENT_DESCRIPTION: a great combination of chocolate and irish cream hershey kisses, especially for the holidays!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, cocoa powder, baking soda, salt, butter
+---
+TITLE: Bailey S Irish Cream Liqueur
+CURRENT_DESCRIPTION: yum
+resting time not included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, canned milk, whipping cream, chocolate syrup, scotch whisky
+---
+TITLE: Bailey S Irish Mocha
+CURRENT_DESCRIPTION: smooth, rich and creamy. the perfect adult comfort beverage for sipping in front of a blazing fire on a chilly autumn's or winter's eve. one of my favorites--i have one of these almost daily! for a yummy french version, replace the bailey's with chambord--yum!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot cocoa mix, instant coffee granules, boiling water, pure vanilla extract, irish cream, chocolate syrup
+---
+TITLE: Bailey S Marbled Cheesecake
+CURRENT_DESCRIPTION: a sinfully delicious cheesecake flavoured with a hint of bailey's irish cream and a twist of chocolate. this cheesecake needs to be made and refrigerated one day in advance. this recipe can easily be doubled or halved with great results. hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookie crumbs, sugar, butter, philadelphia cream cheese, eggs, baileys irish cream
+---
+TITLE: Bailey S Milkshake
+CURRENT_DESCRIPTION: a delicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baileys irish cream, vanilla ice cream, milk, ice cube, red cherries, mint leaf
+---
+TITLE: Bailey S Milkshakes For The Big Kids
+CURRENT_DESCRIPTION: here are a couple versions of a family favorite!!  try them all- they are scrumptious!!!  and adult, btw!!! one version is straight, second is to add a banana, and third is to sub egg nog for the milk!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french vanilla ice cream, hersheys chocolate syrup, milk, eggnog, banana, baileys irish cream
+---
+TITLE: Bailey S Original Irish Cream By Todd Wilbur
+CURRENT_DESCRIPTION: this recipe adapted from todd wilbur's book top secret recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light cream, sweetened condensed milk, irish whiskey, instant coffee crystals, hersheys chocolate syrup, vanilla
+---
+TITLE: Bailey S Parfait
+CURRENT_DESCRIPTION: a decadent dessert to make for company when you haven't got a lot of time. these really need to 'set' for at least 4-5 hours before serving (so they're an ideal make-ahead), and life can be made even simpler by using a good-quality, purchased pound cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: irish cream, cream cheese, whipping cream, sugar, bittersweet chocolate, poundcake
+---
+TITLE: Bailey S Truffle Fudge
+CURRENT_DESCRIPTION: these are always one of the first treats to go whenever we have people over.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, vanilla chip, butter, powdered sugar, baileys irish cream, nuts
+---
+TITLE: Bailey'S Taste Alike Irish Cream
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. scotch, 4 eggs, 1 can Eagle Brand milk, 1/2 pt. whipping cream, 2 Tbsp. coconut extract, 1 or 2 tsp. chocolate syrup
+---
+TITLE: Baileys  Cream Cheese And Chocolate Muffins
+CURRENT_DESCRIPTION: i love baileys and love finding recipes which use it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, baileys irish cream, egg, milk, water, butter
+---
+TITLE: Baileys And Banana Bread And Butter Pudding
+CURRENT_DESCRIPTION: i haven't tried this yet but it looks so good.  recipe from jaime oliver's cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white bread, butter, sugar, vanilla, eggs, heavy cream
+---
+TITLE: Baileys Butterball
+CURRENT_DESCRIPTION: a caramel and chocolate rimmed glass filled with baileys and butterscotch schnapps!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: caramel topping, dark chocolate, butterscotch schnapps, ice cubes, baileys irish cream, light cream
+---
+TITLE: Baileys Cheesecake
+CURRENT_DESCRIPTION: i found this recipes years ago on the baileys website and it is remembered fondly by all my family and friends as "that delicious cheese cake with the baileys that you don't make often enough!" - served with whipped cream and chocolate curls this is a great treat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain sweet biscuit crumbs, butter, ricotta cheese, cream cheese, eggs, caster sugar
+---
+TITLE: Baileys Chocolate Mousse
+CURRENT_DESCRIPTION: great mousse, wonderful for the holidays!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, whipping cream, baileys irish cream, semisweet chocolate
+---
+TITLE: Baileys Irish Cream Cake
+CURRENT_DESCRIPTION: lush, elegant looking dessert that will make a big impression.  looks like you've spent hours preparing.  be sure to refrigerate the andes mints so they are easy to chop.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: devil, ,, ,, ,, ,, ,
+---
+TITLE: Baileys Irish Cream Cheesecake
+CURRENT_DESCRIPTION: r & a bailey introduced its original irish cream in 1974 after discovering the secret that would allow milk to be separated into double cream, and blended with natural flavors. irish whiskey, being considered a natural flavor, was the perfect ingredient to add. steeped in history and lore, it was named after the dublin pub the bailey, rumored to be a favorite haunt of author james joyce. this recipe captures part of ireland's lore in a cheesecake!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafers, butter, gelatin, water, cream cheese, granulated sugar
+---
+TITLE: Baileys Irish Cream Chocolate Chip Cheesecake
+CURRENT_DESCRIPTION: this is a decadent, moist cheesecake that never fails. i got the recipe from my sister-in-law who brings it to every family function. there are never any leftovers!
+*this cheesecake needs to be made and refrigerated one day in advance.
+hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pecans, oreo cookie crumbs, sugar, butter, cream cheese, eggs
+---
+TITLE: Baileys Irish Cream Dip
+CURRENT_DESCRIPTION: this can also be used as a mousse, it's fairly flexible. i'd like to try folding in some fruit or something for an elegant dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg white, salt, caster sugar, cream, baileys irish cream, drinking chocolate
+---
+TITLE: Baileys Irish Cream Pancakes
+CURRENT_DESCRIPTION: entered for safe-keeping, from yvonne ruperti's "one bowl baking: simple from scratch recipes for delicious desserts," as shared on seriouseats blog.  cake flour ensures a fluffy pancake.  more at: http://www.seriouseats.com/recipes/2014/03/baileys-irish-cream-pancakes.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, granulated sugar, salt, egg, milk, irish cream
+---
+TITLE: Baileys Irish Cream Truffles
+CURRENT_DESCRIPTION: from a candy newsletter that i get, looks awsome
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semisweet chocolate, heavy cream, unsalted butter, egg yolks, baileys irish cream

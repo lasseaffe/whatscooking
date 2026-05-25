@@ -1,0 +1,2172 @@
+TITLE: Basic Muffins
+CURRENT_DESCRIPTION: add any of your favorite's to this plain muffin recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, sugar, milk, eggs
+---
+TITLE: Basic Muffins  With Variation Options
+CURRENT_DESCRIPTION: this is a basic muffin recipe that you can either leave plain or add other favorite ingredients to make them special. they are very easy and fast to make. it is great when you want to make a ton of muffins but want each batch to have a different flavor.
+
+i got this recipe from a very old cook book of my moms. she always baked from it and every recipe from it is absolutely yummy.  its called "quick breads"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, flour, baking powder, butter, milk, egg
+---
+TITLE: Basic Muffins With Variations
+CURRENT_DESCRIPTION: this is a very versitile recipe. you can mix and match any way you want to get your favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, milk, oil, vanilla, flour, salt
+---
+TITLE: Basic Navajo Fry Bread
+CURRENT_DESCRIPTION: i first made this on 06/04/02. very tasty and easy to make. fluffier and more bread-like than versions i've tried before. i like to add 1 more tbsp. of shortening and about 1/4 cup of white sugar. i like to use these when i make something for dinner that has a sauce like curry or something. try different things like adding spices to the dough that's similar to your main dish. my family loves these!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking powder, water, shortening, oil
+---
+TITLE: Basic No Added Sugar Vegetarian Mincemeat
+CURRENT_DESCRIPTION: i have just found this and i've not tried it. i want to next holiday season though so i'm posting it to keep it safe. i'm thinking that the fine grating disc of the food processor *might* do the trick as i don't have a food grinder. tprep time is a guess. the 20 mins cook time is for canning if you choose not to freeze it. while this says "no added sugar" it contains tons of natural sugar in the fruit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, lemon, orange, seedless raisin, currants, cinnamon
+---
+TITLE: Basic No Fail Cornbread
+CURRENT_DESCRIPTION: i have to laugh when people rave about my "moist, great-tasting cornbread". the recipe is on the back of the quaker corn meal box and that's where this recipe comes from. it works perfectly every time. i did cut back just a hair on the sugar. the recipe here is a double one because i can't seem to make enough of it to satisfy everyone, so don't be afraid to halve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, white cornmeal, sugar, baking powder, salt, milk
+---
+TITLE: Basic Oatmeal
+CURRENT_DESCRIPTION: made from scratch oatmeal that you can use as a base to make whatever flavor you like or eat as is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, water, ground cinnamon, vanilla, honey, applesauce
+---
+TITLE: Basic Oatmeal Pie
+CURRENT_DESCRIPTION: it's pie...for breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 9-inch pie shell, quick-cooking rolled oats, eggs, butter, sugar, cinnamon
+---
+TITLE: Basic Olive Oil And Vinegar Vinaigrette  Low Gi  South Beach
+CURRENT_DESCRIPTION: this is from a website called kristi's good health, full of south beach recipes. http://www.click10.com/health/744266/detail.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, vinegar, sugar substitute, salt, paprika, dry mustard
+---
+TITLE: Basic Olive Oil And Vinegar Vinaigrette  Weight Watchers
+CURRENT_DESCRIPTION: a great alternative salad dressing when following the ww plan.......or not.  yield is approximate.  original recipes specifies 1 1/2 'packets' splenda but the zaar computer didn't recognize the word 'packets' which i believe are 1 teaspoon each.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, vinegar, splenda sugar substitute, salt, paprika, dry mustard
+---
+TITLE: Basic Oriental Fried Rice   Stephen Yan
+CURRENT_DESCRIPTION: you can then add whatever other ingredients you like.  there are so many versions of fried rice it would be impossible to post them all. so, use this as your basis and add what is used in your area of the country.  i personally do not like peas or carrots in my fried rice but, i do like some bean sprouts, onion and meat in mine. now that i have a rice cooker (woo hoo!!!!) i'll be having this more often.
+
+
+
+source: chinese recipes by stephen yan 5th edition
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, peanut oil, eggs, salt, dark soy sauce, wine
+---
+TITLE: Basic Oven Cooked Meatballs
+CURRENT_DESCRIPTION: the recipe is just my basic recipe for meatballs. you can add in red pepper flakes if you like spicier meat balls. you can even change it up by changing the herbs you use. once the meatballs are cook you can combine them in any way you want.  they make excellent meatball subs also. if you choose to use fresh herbs be sure to double the amount i used in dried.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, milk, parmesan cheese, egg, onion, garlic cloves
+---
+TITLE: Basic Pan Fried Thin Pork Chops  No Egg
+CURRENT_DESCRIPTION: this a great pan- sear pork chop made with no egg mixture. most times you dip in the egg and then dredge. we needed one without egg and this fits the bill. it is geared to be a how to for the newer cook. being a basic recipe it can be altered to suit anyone's taste. i feed the kids these chops made this way and they gobble them up-no convincing needed. enjoy! chefdlh
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, seasoned pepper, boneless pork chops, vegetable oil
+---
+TITLE: Basic Pancake Mix
+CURRENT_DESCRIPTION: say goodbye to aunt jemima! once you taste these homemade pancakes, i think you'll agree they're much better than the boxed kind! add a bit of vanilla or fruit (frozen blueberries work well) to make them extra special. if you want, mix up the dry ingredients in advance and give it away as a gift (with instructions on how to finish making the pancakes) or just store it for even quicker pancakes on sunday mornings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, milk
+---
+TITLE: Basic Pancake Recipe
+CURRENT_DESCRIPTION: from cooking for engineers (http://www.cookingforengineers.com/)
+tip: if you want to add fillings (e.g. berries) add them after you've poured the batter onto the griddle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, milk, unsalted butter
+---
+TITLE: Basic Pancakes
+CURRENT_DESCRIPTION: this is martha stewart's recipe but i've changed a bit the recipe. but it's alright 'cause the taste is still the same. i hope you guys like it! good luck! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, milk, unsalted butter
+---
+TITLE: Basic Pesto
+CURRENT_DESCRIPTION: i love this basic pesto; toss with pasta or serve with bread or crackers for an appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, olive oil, pine nuts, garlic clove, parmesan cheese, salt
+---
+TITLE: Basic Philly Cheesecake
+CURRENT_DESCRIPTION: basic cheesecake; no lemon, no sour cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sugar, margarine, philadelphia cream cheese, white sugar, eggs
+---
+TITLE: Basic Pie Crust I
+CURRENT_DESCRIPTION: this crust flaky all-butter crust is from "rosie's bakery: all-butter fresh cream sugar-packed baking book." you mix it up easily in your food processor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, unsalted butter, ice water, butter
+---
+TITLE: Basic Pizza Dough
+CURRENT_DESCRIPTION: this base always turns out great!
+makes one 30cm/12in base
+preparation time does not include 60 minutes "proving" of the dough.
+baking time depends on toppings and type of oven. 
+i usually slip my pizzas onto a baking stone midway through the baking process so as to crisp the underside.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strong white flour, salt, dried yeast, olive oil, water, oregano
+---
+TITLE: Basic Pizza Dough  Bread Machine
+CURRENT_DESCRIPTION: this is a versatile basic dough.  season it savory for pizza dough, or sweeten it up for easy cinnamon rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, olive oil, flour, salt, sugar, bread machine yeast
+---
+TITLE: Basic Pizza Dough  Italian
+CURRENT_DESCRIPTION: this recipe i have found in a old italian cookbook. it is very delicious and crunchy! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried yeast, water, sugar, flour, salt, olive oil
+---
+TITLE: Basic Pizza Dough  Use Now Or Use Later  Oamc Too
+CURRENT_DESCRIPTION: chewy, yeasty, yummy and fast! instructions included for whole wheat dough and freezing for a make ahead meal too! cooking time does not reflect time for toppings!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, active dry yeast, warm water, cornmeal
+---
+TITLE: Basic Polenta
+CURRENT_DESCRIPTION: first time making polenta, and it came out amazing.  polenta can be served soft, right after cooking, or poured into a baking pan to cool.  once cool, the polenta can be cut into squares, and served with your favorite pasta sauce.  or, once it is cooled, cut the polenta into 1" x 2" sticks abd fry lightly in some olive oil until golden.  the possibilities are endless.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable broth, water, cornmeal, kosher salt, scallion, tomato sauce
+---
+TITLE: Basic Popover
+CURRENT_DESCRIPTION: alton brown's basic popover recipe from the "popover sometime" episode.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, unbleached all-purpose flour, kosher salt, eggs, whole milk
+---
+TITLE: Basic Popovers
+CURRENT_DESCRIPTION: i got these off of good eats with alton brown. these are great dinner rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, all-purpose flour, kosher salt, eggs, whole milk
+---
+TITLE: Basic Pot Roast
+CURRENT_DESCRIPTION: this is a marcelle bienvenu recipe from the new orleans times-picayune. it makes a wonderful gravy that could be thickened with cornstarch or flour if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rump roast, salt, pepper, olive oil, onion, beef broth
+---
+TITLE: Basic Potato Latkes
+CURRENT_DESCRIPTION: a lovely very basic recipe for the traditional food of chanukah, with an unusual variation or two.  so easy even the most beginner cook can do it.
+
+adapted from the book of jewish food by knopf, via myjewishlearning.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, eggs, salt, oil, applesauce, sour cream
+---
+TITLE: Basic Potato Salad
+CURRENT_DESCRIPTION: my mom's recipe and i love it too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, eggs, salad dressing, onion, sweet gherkins, salt and pepper
+---
+TITLE: Basic Potatoes Au Gratin
+CURRENT_DESCRIPTION: yummy potatoes can be made up to 24 hours in advance and stored in the fridge until ready to bake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, onion, garlic cloves, olive oil, all-purpose flour, salt
+---
+TITLE: Basic Pound Cake
+CURRENT_DESCRIPTION: this is as basic as you can get...hence the title.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, margarine, vanilla, eggs, all-purpose flour, baking powder
+---
+TITLE: Basic Prawn Cocktail Easy But Delicious
+CURRENT_DESCRIPTION: light summer dish servers good as a starter for fish or eney dish its light and easy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prawns, rocket, birds eye chiles, lemons, mayonnaise, olive oil
+---
+TITLE: Basic Quiche
+CURRENT_DESCRIPTION: you can add what you like to this quiche. experiment with different cheeses, meats and vegetables. excellent choices are leek and soft goat cheese (chèvre), or swiss and asparagus, or cheddar and ham. use about 5-8oz of cheese and one cup of other material - vegetables and/or meat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie shell, eggs, scallions, milk, cream, butter
+---
+TITLE: Basic Quick Pizza Dough
+CURRENT_DESCRIPTION: the most interesting thing about this crust is the addition of the honey. when you spray the oven with water, you create a steam that help crisp the crust!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, honey, olive oil, dry yeast, whole wheat flour, salt
+---
+TITLE: Basic Ramen Broth   1
+CURRENT_DESCRIPTION: ramen noodles are great! they taste good, are quick to fix, inexpensive, nutritious, filling, and go well with almost any other food. the only thing wrong with them is the 'flavor pack'. each package of ramen is two servings so each of the two servings contains 800 mg of sodium. that's 33% of what even optimists say is allowable.
+enter one of my heros, ron konzak ('the book of ramen', where i shamelessy stole this recipe.)
+give this broth mix a try, you'll never use another 'flavor pack'.
+if you're like me you will feel a bit guilty about dumping the unused 'flavor packs' in the landfill but it's better than eating the stuff.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bouillon, soy sauce, garlic powder, onion powder, fresh ground black pepper, miso
+---
+TITLE: Basic Raw Vegan Mayonnaise
+CURRENT_DESCRIPTION: there are a ton of good vegan mayonnaise recipes out there. but i keep coming back to this recipe i adapted from a vegan camp i went to about ten years ago. it is mild, creamy, and delicious. as usual, i have listed quantities as a guide only. i tend to add in the lemon juice, vinegar and salt at the end, and keep tasting in between each addition. every batch yields a mayo of a slightly different personality, depending on my mood, and what i am going to use it for. but the quantities i have provided will keep you on the right track. follow them, and you will get a mayo that you can play with.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw cashews, extra virgin olive oil, raw cauliflower, water, lemon juice, mustard
+---
+TITLE: Basic Red Sauce  Salsa De Chile Rojo
+CURRENT_DESCRIPTION: when you go out for mexican food at your favorite little place, and your food's covered with that delicious red sauce, and you wish you could make it at home? now you can! this is so simple to make! i found this recipe  in one of my gazillion cookbooks. i decided to give it a try. i'd been using  the same red sauce for years, and loved it, so i'm not sure why i even tried this one. but am i glad i did!!! lol this recipe is mild, so should you want yours more spicy, then you'll want to use the hotter dried chiles. either way, i'm sure you will love it. don't be afraid of the dried chiles if this is your first attempt. it really is simple to do, and the end result will be so worth it. where i buy my dried chiles, actually it's albertson's, there's a rack in the specialty aisle, and there are cellophane bags hanging up. usually, the bags have the type of chile and how spicy hot it is. so, that should help you out some. if you can't find any, zmail me and i'll help you. this freezes well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ancho chilies, warm water, onion, garlic cloves, vegetable oil, tomato sauce
+---
+TITLE: Basic Rice Pilaf
+CURRENT_DESCRIPTION: this is your basic rice pilaf recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, rice, salt, black pepper, chicken stock
+---
+TITLE: Basic Risotto
+CURRENT_DESCRIPTION: i love risotto and this is the recipe that i always use.  this is the base recipe for risotto, from the "risotto" cookbook by judith barrett and norma wasserman.  cheese, herbs, cooked vegetables, etc. (the condimenti) is added at the end after the basic recipe is complete.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, dry white wine, butter, olive oil, onion, arborio rice
+---
+TITLE: Basic Risotto  Pressure Cooker
+CURRENT_DESCRIPTION: this is a good basic pressure cooker risotto recipe.  i was skeptical at the idea of quality risotto from a pressure cooker, but this produces the texture and consistency of normal risotto without the continuous stirring.  i wouldn't make this with canned chicken broth - the flavor ends up overly salty and metallic.  [this is partially adapted from both the pressure cooker gourmet(victoria wise) and the naked chef (jamie oliver).]
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, shallots, celery rib, kosher salt, garlic cloves, arborio rice
+---
+TITLE: basic risotto recipe   jamie oliver
+CURRENT_DESCRIPTION: the secret of a good risotto is to stand over it and give it your undivided (and loving) attention for about 17 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, olive oil, shallots, celery, salt and black pepper, garlic cloves
+---
+TITLE: Basic Risotto Recipe   Jamie Oliver
+CURRENT_DESCRIPTION: the secret of a good risotto is to stand over it and give it your undivided (and loving) attention for about 17 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, olive oil, shallots, celery, salt and black pepper, garlic cloves
+---
+TITLE: Basic Roasted Chicken
+CURRENT_DESCRIPTION: i use this recipe when i plan on using the meat for soups, tacos, salads, etc. great to use the carcass to make stock afterwards.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: free-range chicken, lemon, garlic cloves, sea salt, cracked black pepper, canola oil
+---
+TITLE: Basic Roasted Pork Tenderloin  3 Ww Points
+CURRENT_DESCRIPTION: from the ww website's perfectly simple collection of recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, dried thyme, dried oregano, garlic powder, onion powder, table salt
+---
+TITLE: Basic Rolls
+CURRENT_DESCRIPTION: this is a basic recipe for dinner rolls.  the dough can be refrigerated for up to 2 hours, if needed.  just let it warm up/rise before baking.  also, this dough can be used to make cinnamon rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, sugar, butter, egg, salt
+---
+TITLE: Basic Salsa
+CURRENT_DESCRIPTION: this receipe i found in a book called "super salsas". i love fresh salsas and this one has a very good flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, garlic, red onions, jalapenos, fresh lime juice, fresh cilantro
+---
+TITLE: Basic Sauteed Chicken
+CURRENT_DESCRIPTION: this is a very basic sauteed chicken recipe that can be varied in many ways.  you can add one tablespoon of fresh herb (such as rosemary, basil, tarragon) to the cooking chicken to change the flavor entirely.  also, you can substitute chicken broth or red wine for the white wine in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, salt & freshly ground black pepper, butter, shallots, dry white wine, chicken broth
+---
+TITLE: Basic Scones
+CURRENT_DESCRIPTION: this is the perfect recipe to whip together if you have friends coming over for tea. it's very easy to make and lovely served with fresh fruit. there are any number of variations you could try with this recipe, including adding 1/2 cup raisins or a little bit of cinnamon to the dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-raising flour, salt, butter, sugar, milk, baking powder
+---
+TITLE: Basic Scrambled Tempeh
+CURRENT_DESCRIPTION: from isa chandra moskowitz's book, vegan brunch.  this is a refreshing change of pace for breakfast time, but would make a great meal at any time of day.  she suggests that steaming the tempeh before preparing this recipe gives it a juicier texture and reduces the bitterness of tempeh.  i steamed it for five minutes with 2 tablespoons of water in the microwave, but if you like a stronger tempeh flavor you can skip that.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, tempeh, red bell pepper, red onion, garlic cloves, dried thyme
+---
+TITLE: Basic Sea Vegetable Broth
+CURRENT_DESCRIPTION: kelp and/or kombu make great soup stock! their abundant minerals and natural "msg" impart richness to soup usually associated with meat. serve as an appetizer or use as stock. you can find kelp and kombu at your local health food store. adapted from "sea vegetable celebration" by shep erhart and leslie cerier.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, kelp, dried shiitake mushrooms, fresh ginger, miso, scallions
+---
+TITLE: Basic Seasoned Flour For Dredging
+CURRENT_DESCRIPTION: prepare this mixture ahead of time to use for dredging meat and poultry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, seasoning salt, celery salt, pepper, dry mustard
+---
+TITLE: Basic Seitan   Chicken Flavor
+CURRENT_DESCRIPTION: i have been making seitan quite a bit lately, and have been trying various cooking methods (baking, steaming and  now simmering).  one of the more difficult methods as far as consistancy goes, (so i've read), is simmered seitan.  the following recipe i found in la dolce vegan cookbook, and it sounded so simple and mistake proof, i had to try it.  i have now conquered my fear of simering seitan in broth!!  recipe can be doubled, and the pieces can be cut into nuggets, strips or cutlet sized pieces.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vital wheat gluten flour, water, nutritional yeast, soy sauce, onion powder, sage
+---
+TITLE: Basic Seven Minute Frosting
+CURRENT_DESCRIPTION: this is a diet buster, it's wickedly delicious and it is so easy and quick. it's from my all time favorite cookbook fanny farmer's, my copy was printed in 1965 and it's still the best basic cookbook i've come across.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, cream of tartar, salt, egg white, vanilla
+---
+TITLE: Basic Seven Minute Frosting And Or Peanut Butter Frosting
+CURRENT_DESCRIPTION: this is from cat cora to go with her chocolate brownie cupcakes - you can easily make this into peanut butter frosting - see the note at the bottom
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, granulated sugar, water, white corn syrup, salt, vanilla
+---
+TITLE: Basic Shortbread
+CURRENT_DESCRIPTION: this buttery cookie gets better with age: it can be stored up to a month, and over that time its flavor deepens. dip the tips of the cookies in melted chocolate for a decorative touch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, sugar, salt, pure vanilla extract, all-purpose flour
+---
+TITLE: Basic Shortbread Cookies
+CURRENT_DESCRIPTION: this is from the 2005 hallmark christmas cookie book. the key to success with this thick shortbread is baking it slowly so that it doesn't brown.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, vanilla, all-purpose flour, salt
+---
+TITLE: basic shortbread with variations
+CURRENT_DESCRIPTION: a lovely way to enjoy these great cookies is with french vanilla coffee. the yield of this recipe will depend on the thickness you roll it to and size that to cut them into so don't take the info for yield and baking time as gospel. just follow the given instructions and they will be fine. note* after 2 reviews agree, i have removed the unsalted butter. please use regular salted butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, icing sugar, vanilla extract, all-purpose flour, fine sea salt
+---
+TITLE: Basic Shortbread With Variations
+CURRENT_DESCRIPTION: a lovely way to enjoy these great cookies is with french vanilla coffee. the yield of this recipe will depend on the thickness you roll it to and size that to cut them into so don't take the info for yield and baking time as gospel. just follow the given instructions and they will be fine. note* after 2 reviews agree, i have removed the unsalted butter. please use regular salted butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, icing sugar, vanilla extract, all-purpose flour, fine sea salt
+---
+TITLE: Basic Simple Pizza Crust
+CURRENT_DESCRIPTION: so easy and versatile. not to mention great tasting. i usually make this into one large pizza, one medium deep dish or two small pizzas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, yeast, salt, hot water, olive oil, cornmeal
+---
+TITLE: Basic Smoothie
+CURRENT_DESCRIPTION: you can use this basic recipe to create your own unique smoothies.  this is my husband's recipe - he makes them every weekend morning for the kids & us.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yogurt, milk, banana, fruit, wheat germ, ice cube
+---
+TITLE: Basic Smothered Steak And Onions
+CURRENT_DESCRIPTION: i have not tried this one yet, but my friend anni who gave it to me is an excellent cook so i have no doubt it's wonderful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, black pepper, top round steaks, vegetable oil, onions
+---
+TITLE: Basic Sofrito
+CURRENT_DESCRIPTION: another recipe from ingrid hoffman's latin kitchen. she keeps this in her fridge to always be ready to add a little something extra to recipes such as: chicken, beef, pork, potatoes, beans and lentils. you can also use it as a base for soups. it will keep for up to a week in an airtight container in your refrigerator - or you can freeze it in an ice cube tray and use the cubes like bouillon!  *for a spicy sofrito, add a chopped jalapeno!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, scallions, yellow onion, tomatoes, cilantro leaf, black pepper
+---
+TITLE: Basic Soft Chicken Tacos
+CURRENT_DESCRIPTION: from this week's thursday magazine's
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, olive oil, salt, pepper, flour tortillas, limes
+---
+TITLE: basic soft white sandwich loaf bread
+CURRENT_DESCRIPTION: 12 servings per loaf.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, water, honey, instant yeast, dry milk, unsalted butter
+---
+TITLE: Basic Soft White Sandwich Loaf Bread
+CURRENT_DESCRIPTION: 12 servings per loaf.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, water, honey, instant yeast, dry milk, unsalted butter
+---
+TITLE: Basic Sour Cream White Cake
+CURRENT_DESCRIPTION: this is from "the cake mix doctor" by ann byrn. just a nice, basic white cake made from a cake mix with add-in ingredients. frost however you want!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, sour cream, vegetable oil, eggs, vanilla extract
+---
+TITLE: Basic Sourdough Bread
+CURRENT_DESCRIPTION: plain white, simple sourdough bread. a great starter recipe to use if you are new to sourdough baking. the dough cycle of the bread machine can be used to prepare the dough, if you like. prep time does not include proofing time for starter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sourdough starter, butter, milk, salt, sugar, white bread flour
+---
+TITLE: Basic Soy Burgers
+CURRENT_DESCRIPTION: if you like boca burgers you will absolutely adore these yummy, homemade soy burgers.  you can cook your own soybeans or find canned soy beans in the health food section of your grocery store.  i make double or triple batches of these and freeze them for a quick lunch
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soybeans, tofu, salt, garlic clove, onion, scallions
+---
+TITLE: Basic Spaghetti Meat Sauce
+CURRENT_DESCRIPTION: this recipe is a result of the ingredients i had on hand, very meaty. feel free to adjust to your taste, more garlic, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, butter, ground beef, onion, garlic, diced tomatoes
+---
+TITLE: Basic Spaghetti Sauce
+CURRENT_DESCRIPTION: this is my recipe for basic spaghetti sauce.  it isn't fancy, but child friendly.  weight watchers: 1 point per serving as written.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, green pepper, crushed tomatoes, tomato paste, garlic cloves
+---
+TITLE: basic spanish flan
+CURRENT_DESCRIPTION: a nice, basic recipe for making yummy flan! spanish influenced but also popular in the southwest, mexico and the caribbean! this is also widely popular in cuba and since there is such a large cuban population in florida, i guess that makes puts this in a southern category too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, evaporated milk, whole milk, eggs, vanilla extract, sugar
+---
+TITLE: Basic Spanish Flan
+CURRENT_DESCRIPTION: a nice, basic recipe for making yummy flan! spanish influenced but also popular in the southwest, mexico and the caribbean! this is also widely popular in cuba and since there is such a large cuban population in florida, i guess that makes puts this in a southern category too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, evaporated milk, whole milk, eggs, vanilla extract, sugar
+---
+TITLE: Basic Spelt Bread For Oven Or Bread Machine
+CURRENT_DESCRIPTION: this basic recipe is from arrowhead mills.  the taste by itself is wonderful and works well when paired with salty or sweet foods/spreads.  i've started to add different combinations or herbs, cheeses, and ground chia seeds into the mix as well.  it's a great recipe to experiment with.  i've found that the nutrient-rich bread itself is rather filling, so the loaf lasts somewhat longer than expected.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, honey, vegetable oil, sea salt, spelt flour
+---
+TITLE: Basic Spicy Chili
+CURRENT_DESCRIPTION: this is a basic chili recipe, but my favorite. since i am a vegetarian, i omit the beef and add more beans for a great meatless chili. i also add more hot sauce for extra kick. this chili is great served with sour cream and/or cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onions, tomato juice, whole tomatoes, kidney beans, chili powder
+---
+TITLE: Basic Spinach Salad With Hot Bacon Dressing
+CURRENT_DESCRIPTION: this is a great classic spinach salad with hot bacon dressing.  i like it because the dressing is made with staples i always have in my kitchen so all i need to do is pick up some fresh spinach.  you can add what you like to the salad: eggs, nuts, fruit, etc.  this is from "gourmet magazine".  if you've never attempted a spinach salad with hot bacon dressing this is an easy and impressive recipe that tastes yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, shallots, cider vinegar, sugar, dijon mustard, olive oil
+---
+TITLE: Basic Sponge Cake
+CURRENT_DESCRIPTION: nice to know the basics.
+
+from the food blog bakingsheet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, vanilla extract, lemon extract, cake flour, salt
+---
+TITLE: Basic Steak Sandwich
+CURRENT_DESCRIPTION: a simple but really tasty steak sandwich. feel free to use which ever type of steak or bread you like. also you may cook the steak any way you like.  i like to grill mine for 12 minutes on low to get a nice medium rare steak.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sirloin steak, barbecue sauce, salt, pepper, yellow onion, mushroom
+---
+TITLE: Basic Steamed Fish
+CURRENT_DESCRIPTION: i got this from about.com.  i am looking for more recipes to use with my new bamboo steamer.  i have a 2 layer steamer, so i was able to put the fish on the bottom rack and vegetables on the top and dinner was done in 10 minutes!  i used tilapia fillets.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish fillets, mirin, granulated sugar, salt, sesame oil, green onion
+---
+TITLE: Basic Stir Fry Marinade By Penzeys
+CURRENT_DESCRIPTION: this is the penzeys holiday 2006 version of the tasty stir fry sauce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, sherry wine, chinese five spice powder, honey, garlic cloves, white pepper
+---
+TITLE: Basic Stir Fry Sauce
+CURRENT_DESCRIPTION: this is a good basic sauce. feel free to add ,perhaps a little lime juice, a pinch of cilantro, some peanut butter? have fun!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, water, ginger, garlic, sesame oil, sugar
+---
+TITLE: Basic Stuffing Balls With Variations
+CURRENT_DESCRIPTION: these stuffing balls are a good side dish with poultry and pork dishes.
+for an appetizer, make the stuffing balls smaller, reduce the baking time accordingly, and serve them with homemade or purchased cranberry relish for dipping.
+if baking the stuffing balls with a meat dish, place stuffing balls in the oven for the final 30 minutes of cooking.
+you can use other breads too. i usually use good quality homebaked-style plain white bread and stuffing bread when it is available. you can use up odds and ends of white bread, brown bread, rye bread, hot dog buns, and rolls for this recipe too.
+adjust the seasonings to suit your tastes. 
+add one cup chopped apples, raisins, or cranberries for a fruit stuffing, or add one cup of chopped walnuts or pecans. the variations are endless.
+you may need to add a little more chicken broth, just enough to hold the stuffing balls together. use canned broth or dissolve a couple teaspoons soup base mix in warm water.
+garnish chicken or pork dishes with the stuffing balls and grilled bacon rolls. to make the bacon rolls: cut bacon strips in half; roll them up and secure with a toothpick; and grill or fry until well done; drain on paper towels.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, celery, soft white bread cubes, fresh parsley, pepper
+---
+TITLE: Basic Sugar Cookie Dough From Good Housekeeping
+CURRENT_DESCRIPTION: this is an easy, low sugar recipe from nov 07 good housekeeping magazine.  i used it for my rolled cut cookies as well as the base dough for my snowball cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, butter, granulated sugar, egg
+---
+TITLE: Basic Sugar Cookies
+CURRENT_DESCRIPTION: this is a very good basic and simple recipe for the traditional sugar cookie. the dough is very easy to work with and just perfect for cookie cutting and decorating. number of cookies depend on the cut out sizes, so the 25 cookie estimate is very approx. 1 hour cooling time is not included in prep time
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, vanilla, all-purpose flour, baking powder
+---
+TITLE: Basic Sugar Cut Out Cookies
+CURRENT_DESCRIPTION: i have been looking for a basic recipe that i can adapt to suit whatever kind of cookies we feel like making. my son has developed a real passion for baking so we take shortcuts like creaming butter and sugar in the food processor (he's two years old and its easier for him to press the button than to wield the wooden spoon!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, egg, vanilla, butter, shortening, plain flour
+---
+TITLE: Basic Sweet Crepes
+CURRENT_DESCRIPTION: this recipe is from "joy of cooking" and it is the best crepe recipe i know of.  i make it all the time, in a blender, leaving it overnight in the refrigerator, to fix strawberry crepes for sunday breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, milk, water, eggs, unsalted butter, sugar
+---
+TITLE: Basic Sweet Muffin Recipe
+CURRENT_DESCRIPTION: an original sweet muffin with basic ingredients that are easy to bake ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, milk, vegetable oil, all-purpose flour, sugar, baking powder
+---
+TITLE: Basic Sweet Muffins
+CURRENT_DESCRIPTION: easy, simple muffins that you can add your own flavor to.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, egg, milk
+---
+TITLE: Basic Sweet Roll Dough For Cinnamon Buns
+CURRENT_DESCRIPTION: this dough makes the best cinnamon rolls i have ever had, and family says it rivals "cinnabons".  this is a versatile sweet yeast dough that can be refrigerated overnight or baked the same day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, salt, active dry yeast, water, milk
+---
+TITLE: Basic Taco Bake
+CURRENT_DESCRIPTION: very easy mexican dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, refried beans, flour tortillas, taco seasoning, water, mexican blend cheese
+---
+TITLE: Basic Tahini Sauce
+CURRENT_DESCRIPTION: i learned this while living in jordan. the family i stayed with introduced me to fried cauliflower, and this was the sauce they used over the top.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, salt, tahini paste, cold water, lemons, juice of
+---
+TITLE: Basic Tart Crust   Tortenboden
+CURRENT_DESCRIPTION: a response to a recipe request on the boards, here's a basic tortenboden. based on recipe from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, milk, lemon, butter, flour
+---
+TITLE: Basic Tea Jelly
+CURRENT_DESCRIPTION: i was intrigued by the idea of making jelly out of tea when someone posted a request for recipes.  i tried this one, and i like it alot.  obviously, it all depends on the quality of your tea.  so far i've only tried this with a very high quality organic chai, and it is so good!  if you find a type of tea that works really well for this, post a review and let us know!
+[http://www.seedsofknowledge.com/teajelly.html]
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, tea bags, juice, sugar, liquid pectin
+---
+TITLE: Basic Tempeh 101
+CURRENT_DESCRIPTION: after sauteing the tempeh you may use it in a variety of ways - cut into1 1/4" pieces, spear with a tooth pick and serve as an appetizer with any oriental dipping sauce - or stir fry veggies and add the tempeh instead of meat- you may even add the cut up tempeh to a favorite pasta sauce and serve it over pasta. i am not vegetarian but i enjoy tempeh dishes. the original tempeh 101 recipe was on the back of a "turtle bay" tempeh label (excellent tempeh) try something new you'll love it   if you wish bake the tempeh in a 375 oven for apprx 20 minutes or until it is golden.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tempeh, sesame oil, soy sauce, water, fresh ginger, garlic
+---
+TITLE: basic tempering for dals
+CURRENT_DESCRIPTION: pulses - dried beans, split peas and lentils are a staple in india and provide protein for families who eat meat rarely or are vegetarian. (it has as much protein as a steak) they are versatile and combine beautifully with any meal. can be had as a soup too. though pulses can cause flatulence and cannot be stored for long once cooked this can be countered by using ginger/ asafoetida/ turmeric while cooking. (but we do not consume it after one day even if stored in the fridge - some others do but i have my own ways) they are a must atleast at one meal of the day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beans, water, turmeric, salt, gingerroot, garlic
+---
+TITLE: Basic Tempering For Dals
+CURRENT_DESCRIPTION: pulses - dried beans, split peas and lentils are a staple in india and provide protein for families who eat meat rarely or are vegetarian. (it has as much protein as a steak) they are versatile and combine beautifully with any meal. can be had as a soup too. though pulses can cause flatulence and cannot be stored for long once cooked this can be countered by using ginger/ asafoetida/ turmeric while cooking. (but we do not consume it after one day even if stored in the fridge - some others do but i have my own ways) they are a must atleast at one meal of the day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beans, water, turmeric, salt, gingerroot, garlic
+---
+TITLE: Basic Tomato Sauce
+CURRENT_DESCRIPTION: from 'simple italian cooking', by mario batali. posted to accompany following recipes: rolled flank steak with green olives and oregano, recipe #57351; and timpano di maccheronni, (the mythic pasta dome), recipe #85372.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, spanish onion, garlic, fresh thyme leaves, carrot, whole tomatoes
+---
+TITLE: Basic Tomato Sauce  Pomodoro
+CURRENT_DESCRIPTION: just your basic sauce that can be used with various recipes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, chopped tomatoes, sugar, kosher salt
+---
+TITLE: Basic Tomato Sauce For Pasta
+CURRENT_DESCRIPTION: a basic tomato sauce for pasta. use as a base and then add whatever you fancy:
+
+add crushed red chilli falkes for arrabiata...........
+add mascarpone for a creamy tomato sauce..............
+add bacon or ham, peas and cream................
+add anchovies, capers and olives and chilli for puttanesca.............
+add red wine and italian sausage............
+
+............well you get the point.
+
+plus, it's just plain delicious on it's own!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white onion, garlic cloves, italian plum tomatoes, granulated sugar, italian herb seasoning, salt and pepper
+---
+TITLE: Basic Tortellini Pasta
+CURRENT_DESCRIPTION: see my recipes for tortellini fillings--these are what i've used to fill this pasta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, eggs, oil, water
+---
+TITLE: Basic Trifle Recipe
+CURRENT_DESCRIPTION: here is a basic trifle recipe that can be built upon in so many ways. here, i have listed only a few of the many variations you can make using this recipe. have fun and experiment and please let me know what you come up with. this recipe is awesome. cook time is chill time and will be longer if you make your own cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake, instant pudding mix, frozen fruit, sugar, whipped cream, fresh fruit
+---
+TITLE: Basic Trustworthy Meatloaf
+CURRENT_DESCRIPTION: i have been making meatloaf for years and years, always the same way with minor variations, but always with saltine cracker crumbs as the binder. recently, i tried oats. well! quick-cooking oats (not instant) make a surprisingly good substitute for either cracker crumbs or bread crumbs in a meatloaf. i have also made this meatloaf without any garlic, and it's just as good. make sure the onions are chopped up fairly small; the texture of the meatloaf is best that way. also, don't use extra-lean ground beef as you risk having a dry meatloaf rather than a moist one. leftovers make a wonderful cold sandwich!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, garlic, quick-cooking oats, 1% low-fat milk, eggs
+---
+TITLE: basic tuna chowder
+CURRENT_DESCRIPTION: inexpensive tuna chowder, easy to tailor to your own tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, potatoes, carrot, onion, black pepper, corn oil
+---
+TITLE: Basic Tuna Chowder
+CURRENT_DESCRIPTION: inexpensive tuna chowder, easy to tailor to your own tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, potatoes, carrot, onion, black pepper, corn oil
+---
+TITLE: Basic Turkey And Rice Soup
+CURRENT_DESCRIPTION: a nice basic soup, simple to make and an especially good use of your left over turkey meat!i like to serve it piping hot with different flavored crackers (like sociables or ritz or any type of vegetable flavoured crackers)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic clove, yellow onion, low sodium chicken broth, fresh carrot, celery
+---
+TITLE: Basic Vanilla Cake
+CURRENT_DESCRIPTION: i found this in country living magazine to fulfill a request for a vanilla cake with strawberry frosting.  the mixing technique is a little different from most cakes i've made - save yourself a little mess and make sure to use a deep bowl.  since then, this has become a favorite in our home - frosted or not, this cake is really nice.  it does tend to dry out quickly, but the small size means it usually gets eaten before then. note:  this recipe is for the vanilla cake only, not the strawberry frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, salt, unsalted butter, sugar, eggs
+---
+TITLE: Basic Vanilla Custard
+CURRENT_DESCRIPTION: my mother's recipe--eat on its own or pour over canned peaches or guavas or, my fave, bread pudding.  if you are really grossed out by the possibility of flecks of egg white in your custard, you can either pass it through a fine-mesh sieve or substitute four yolks for the two whole eggs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, cornstarch, sugar, eggs, vanilla
+---
+TITLE: Basic Vanilla Muffins For Dinner  Not Sweet
+CURRENT_DESCRIPTION: good at dinner especially when served with highly spiced or flavorful main dishes. similar in taste to a popover or cornbread minus the cornmeal. as one review has mentioned, these are *not* a sweet muffin. i usually serve them at dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, sugar, eggs, milk
+---
+TITLE: Basic Vegan Chocolate Cupcakes
+CURRENT_DESCRIPTION: from "vegan cupcakes take over the world", these chocolate cupcakes are light and fluffy, not to mention animal friendly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soymilk, apple cider vinegar, granulated sugar, vegetable oil, vanilla extract, all-purpose flour
+---
+TITLE: Basic Vegan Cream Cheese Spread
+CURRENT_DESCRIPTION: quick, easy, and healthy.  i'm really excited to try this! i love cream cheese but i try not to eat it much as it's not the healthiest.  hoping this will be a wonderful substitute!  another recipe from neva and jim brackett's 7 secrets cookbook to lose weight, lower cholesterol, and reverse diabetes.  if you want this meal to be completely vegan for you, don't use honey but use sugar instead. i personally use honey, but it's not vegan.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut milk, raw cashew nuts, nutritional yeast, lemon juice, honey, salt
+---
+TITLE: Basic Vegan Pancakes For One
+CURRENT_DESCRIPTION: this is for one person, and it's the super simple version, you can increase serving and units.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, baking powder, salt, vanilla-flavored soymilk, sugar, cinnamon
+---
+TITLE: Basic Vegan Quiche With Soy Cheese
+CURRENT_DESCRIPTION: from about.com. start with this basic vegan quiche recipe and add your favorite spices, vegetables or mock meats, or make it just like it is. perfect for a weekend breakfast or brunch. make sure you use a vegan soy cheese that doesn't contain casein for a truly vegan quiche.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, mushrooms, garlic cloves, olive oil, shortcrust pastry, firm tofu
+---
+TITLE: Basic Vegan Spelt Cookies   Chocolate Carob Chip
+CURRENT_DESCRIPTION: i wanted to make some basic chocolate chip cookies for my kids (vegan & spelt) and found this recipe on http://www.vegfamily.com/vegan-recipes/desserts/spelt-carob-cookies.htm.  it goes together really quickly and easily and only has 8 ingredients.  i used a light spelt flour, which i think is most suitable for this recipe.  they're a little cake-like, as with most vegan cookies...i prefer them this way.  note that the recipe only makes 12 cookies - you could make 24 small ones, but i like the larger size.  use carob or vegan chocolate chips, and i'm sure you could add some nuts and seeds if you choose.  hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegan margarine, sugar, banana, vanilla extract, baking powder, spelt flour
+---
+TITLE: Basic Vegetable Fettuccini
+CURRENT_DESCRIPTION: another regular in our house.  very basic, but very good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broccoli, cauliflower, olive oil, zucchini, onion, carrots
+---
+TITLE: Basic Vinaigrette
+CURRENT_DESCRIPTION: a very easy and quick dressing to put together. fresh lemon juice is wonderful but bottled could also be used. adapted from a website with many idea's for keeping life simple.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lemon juice, honey, shallot, extra virgin olive oil, kosher salt, fresh ground black pepper
+---
+TITLE: Basic Vinaigrette Dressing With 8 Variations
+CURRENT_DESCRIPTION: bottled salad dressing can be convenient but its expensive and often full of salt, sugar, and chemical additives. making your own is simple and allows you to customize the seasonings to suit whatever meal you are preparing. the amounts given make about 1/4 cup and can be expanded infinitely for larger salads. it can be made several days ahead and kept in the fridge. sorry about the slightly odd way of putting the ingredients for the creamy dressing variations. the recipe editor is picky about what it will accept.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, vinegar, salt, black pepper, vinaigrette, garlic
+---
+TITLE: Basic Vinaigrette With Variations
+CURRENT_DESCRIPTION: when i don't have the time or inclination to look up a recipe this is the salad dressing i make. i always have all the ingredients and i can change it up to match what i've put in the salad. i keep this in the fridge for up to a week and just bring it to room temperature and whisk again before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, dijon mustard, white wine vinegar, kosher salt, pepper, olive oil
+---
+TITLE: Basic Waffles
+CURRENT_DESCRIPTION: this is the recipe that came with my cuisinart waffle maker.  tasty and light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, low-fat milk, vegetable oil
+---
+TITLE: Basic Waldorf Salad
+CURRENT_DESCRIPTION: i make this often.  it's a low-fat and tasty snack.  it's from cooking healthy with a man in mind by joanna lund.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fat-free mayonnaise, lemon juice, artificial sweetener, red delicious apples, celery, miniature marshmallow
+---
+TITLE: Basic White Bread
+CURRENT_DESCRIPTION: this recipe also makes marvelous scone dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, salt, sugar, vegetable oil, flour, milk
+---
+TITLE: basic white bread  kitchenaid
+CURRENT_DESCRIPTION: i've tried to find this recipe on the web and can't find it.
+i use this for making bierocks. this is the kitchenaid basic white bread recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, salt, butter, dry active yeast, warm water
+---
+TITLE: Basic White Bread  Kitchenaid
+CURRENT_DESCRIPTION: i've tried to find this recipe on the web and can't find it.
+i use this for making bierocks. this is the kitchenaid basic white bread recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, salt, butter, dry active yeast, warm water
+---
+TITLE: Basic White Cake
+CURRENT_DESCRIPTION: here's a basic white cake that utilizes a slightly different mixing method that ensures success every time. this cake is slightly off white due to the butter and extract. it's a classic wedding cake. cover with any flavor classic butter cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, milk, vanilla, cake flour, baking powder, superfine sugar
+---
+TITLE: Basic White Cake   Two 12
+CURRENT_DESCRIPTION: here's a basic white cake that utilizes a slightly different mixing method that ensures success every time. this cake is slightly off white due to the butter and extract. it's a classic wedding cake. cover with any flavor classic butter cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, milk, pure vanilla extract, cake flour, superfine sugar, baking powder
+---
+TITLE: Basic White Cake  Vegan
+CURRENT_DESCRIPTION: this basic vegan cake recipe can be used to make a variety of delicious desserts.  free of dairy and egg and with less sugar, it's a "healthier" cake.  can turn this into a nice apple cake (the instructions for this variation below) and i'm sure there are many other creative ways to use this cake recipe.from "the best of silver hills" cookbook.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw cashews, water, sugar, salt, vanilla, egg substitute
+---
+TITLE: Basic White Cupcakes
+CURRENT_DESCRIPTION: this is a recipe from southern living.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, buttermilk, butter, eggs, vanilla extract, almond extract
+---
+TITLE: Basic White Sauce    Salsa Di Besciamella
+CURRENT_DESCRIPTION: besciamella, white sauce, is more frequently associated with northern italian cooking, and is used in oven-baked pasta dishes like lasagne, or with vegetables or fish. it can be made ahead and refrigerated for 3-4 days but will thicken as it sits. when you reheat it, thin the sauce, with a little milk.
+
+this basic recipe does not have the addition of herbs or spices. those ingredients should be added after the sauce is cooked, and should be tailored to the dish being prepared. recipe by maryanne esposito of ciao italia ---------- for those of you that don't know maryanne esposito, let me introduce you to a marvelous cook, who cooks only "authentic" italian food, and it is incredible!  i had the priviledge of meeting maryanne at a woman's luncheon many years ago, and she has her own cooking show on channel 11 in nh.  she and her husband, who is a local doctor, live in the next town from where i used to live and work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, unbleached all-purpose flour, milk, fine sea salt, white pepper
+---
+TITLE: Basic White Sauce Bechamel Sauce
+CURRENT_DESCRIPTION: this white sauce can be used in so many different ways. add cheese,curry powder,dill,or horseradish add canned tuna,ham,hamburger,sausage. lots of things can be done with this sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, salt, pepper, milk
+---
+TITLE: Basic Whole Wheat French Crepes
+CURRENT_DESCRIPTION: these can be used for desserts, breakfasts, snacks, even the main course! the batter needs to be refrigerated for at least 1 hour before cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, unsalted butter, salt, whole wheat flour
+---
+TITLE: Basic Whole Wheat Sweet Dough
+CURRENT_DESCRIPTION: i created this recipe in order to have a very low sodium, whole wheat sweet dough for my favorite cinnamon rolls. it will work for other sweet rolls and sweet breads, too. recipe #189088 is how i make my cinnamon rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, unsalted butter, gluten flour, whole wheat flour, active dry yeast
+---
+TITLE: Basic Yeast Dough
+CURRENT_DESCRIPTION: you can use this dough to make all kinds of rolls, and shapes. this will keep in the fridge up to 5 days. it mixes up quick, doesn't need alot of kneading.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, warm water, sugar, shortening, egg, salt
+---
+TITLE: Basic Yellow Cake
+CURRENT_DESCRIPTION: this cake is so moist and good. i had to try it four times to get it right so now i want to share it with you all!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla extract, all-purpose flour, baking powder
+---
+TITLE: Basic Zucchini Slice
+CURRENT_DESCRIPTION: a basic zucchini slice, but very adapable and quite flavoursome. to vary the dish, try adding diced chorizo sausage.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, onion, bacon, eggs, tasty cheese, self-rising flour
+---
+TITLE: Basically Bittersweet Mocha Cake
+CURRENT_DESCRIPTION: this basic chocolate cake uses less sugar, and extra cocoa. the coffee adds depth to the flavour. i left out extra oil in favour of applesauce, and chose whole-wheat flour for a more healthy cake, as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, sugar, cocoa, baking soda, salt, canola oil
+---
+TITLE: Basically The Best Bruschetta Ever
+CURRENT_DESCRIPTION: i've enjoyed bruschetta in the past, but it always seemed to be lacking some zip so i started experimenting. now, i have a bunch of people asking me to can it and give them some! hope you enjoy as much as the rest of them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plum tomatoes, vidalia onion, elephant garlic, chives, extra virgin olive oil, balsamic vinegar
+---
+TITLE: Basil   Cheese Tortilla Wedges
+CURRENT_DESCRIPTION: based on a kraft recipe, this is an easy appetizer or snack
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, cream cheese, mozzarella cheese, fresh basil leaves, italian dressing, parmesan cheese
+---
+TITLE: Basil   Feta Stuffed Chicken Breast
+CURRENT_DESCRIPTION: this is a recipe that i found in a low fat cookbook and have modified slightly.  it is a very tasty and light meal, with a rich and savory texture
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: feta cheese, neufchatel cheese, roma tomato, fresh basil, boneless skinless chicken breasts, olive oil
+---
+TITLE: Basil   Garlic Pizza Dough  Abm
+CURRENT_DESCRIPTION: a flavourful pizza dough that i often make ahead and refrigerate (can be frozen as well).  using the bread machine makes homemade pizza crust extremely easy!  i use this dough for flatbread for bruschetta, as well.  this recipe makes two 12" thin crust pizzas, one 14" thick crust pizza, or one 15x10" thin crust "party" pizza.  you can make this a wheat crust by using half whole wheat and half white flour.  (prep time does not include bread machine processing time.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, olive oil, salt, all-purpose flour, bread machine yeast, basil
+---
+TITLE: Basil   Garlic Pork Burgers
+CURRENT_DESCRIPTION: summertime is burger time for us - here's an alternative to the usual beef or poultry burger.  from the food blog the hungry mouse.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, garlic cloves, fresh basil, cracked black pepper, kosher salt, olive oil
+---
+TITLE: Basil   Mint Orzo Salad
+CURRENT_DESCRIPTION: from foodnetwork.com (adapted).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, orzo pasta, red wine vinegar, fresh lemon juice, honey, salt
+---
+TITLE: Basil   Parmesan Scones
+CURRENT_DESCRIPTION: scones, spread with preserves or honey, have long been known as a sweet breakfast or tea-time treat. but savory scones, made with herbs and cheese instead of sugar and fruit, are the perfect lunchtime accompaniment to soup, stew, chili or a salad. easily prepared, quickly baked and sturdy enough to throw in a lunch bag, scones are a neat way to help you fulfill your grain requirement on the food pyramid.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, pastry flour, baking powder, parmesan cheese, salt, dried basil
+---
+TITLE: Basil   Red Capsicum Pugliese
+CURRENT_DESCRIPTION: a delicious-sounding recipe for bread from “the basic italian cookbook” by lesley pagett, which i found on australian chef huey's website.  i have not made this yet, but look forward to doing so.  i would be inclined to add some garlic and some halved black olives.  the cooking time below does not include the 21/2 hours resting time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached flour, dried yeast, salt, sugar, basil leaves, red capsicums
+---
+TITLE: Basil   Tomato Salad
+CURRENT_DESCRIPTION: i promise this is one of the nicest ways to enjoy quality tomatoes and basil. like i say, don't make this if you can't get hold of home-grown or vine-ripened tomatoes. it's not worth doing. and don't use your tomatoes from the fridge.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, basil leaves, olive oil, fresh ground black pepper, sea salt
+---
+TITLE: Basil   Walnut Cheese Spread
+CURRENT_DESCRIPTION: this is a great dip to serve with slices of raw baby zucchini, carrots, celery or snack crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, cream cheese, garlic, fresh basil, lemon, rind of
+---
+TITLE: Basil   Walnut Dip
+CURRENT_DESCRIPTION: something different for a bbq
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat cream cheese, fresh basil leaf, spring onion, parmesan cheese, red wine, prepared horseradish
+---
+TITLE: Basil   Zucc Soup
+CURRENT_DESCRIPTION: a nice soup, lots of flavour and worth trying!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, oil, onion, garlic, zucchini, water
+---
+TITLE: Basil  Cilantro And Macadamia Nut Chicken
+CURRENT_DESCRIPTION: not your ordinary weeknight chicken, but after marinating, the dish is ready in about 1/2 hour! make it the night before and you have a quick, delicious treat for dinner. the flavor will have you filling your plate again and again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken, fresh ginger, garlic, jalapenos, macadamia nuts, olive oil
+---
+TITLE: Basil  Feta    Roasted Pepper Muffins
+CURRENT_DESCRIPTION: from taste of home april/may 2010. anything with basil is always a winner. it especially pairs well with the salty feta and sweet peppers in these savory, biscuit-like muffins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, baking soda, egg, buttermilk
+---
+TITLE: Basil  Garlic Plus Mashed Potatoes
+CURRENT_DESCRIPTION: these potatoes have wonderful flavor from the added ingredients that they are cooked and mashed with. a bonus for any dinner. for a low fat version substitute lowfat sour cream instead of the cottage cheese & buttermilk. i use 2 cubes of frozen fresh basil.instead of fresh chopped.
+  i had some left over potatoes so i mixed some bread crumbs and parmesan cheese, made pattie from the potato, coated the patties with the cheese crumbs, fried with light spray of olive oil   mmmm very good
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, onion, celery, garlic, salt, 2% fat cottage cheese
+---
+TITLE: Basil  Green Beans
+CURRENT_DESCRIPTION: a nice light green bean side dish, take advantage of summers crop.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, fresh basil, butter, kosher salt, fresh ground black pepper
+---
+TITLE: Basil  Parmesan And Cashew Dip
+CURRENT_DESCRIPTION: i'm totally addicted to this dip. it's a copycat of the current dips that are quite expensive to buy in the delis. it's fantastic served with rice crackers or used in your cooking as a pesto sauce. it's fantastic on pasta, chicken or fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, cashews, garlic clove, parmesan cheese, olive oil
+---
+TITLE: Basil  Spinach   Tomato Pork Strips
+CURRENT_DESCRIPTION: yummy & low-cal dinner. very easy to prepare. serve with your choice of sides.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, basil, pepper, salt, frozen chopped spinach, white onion
+---
+TITLE: Basil  Tomato   Mozzarella Cheese
+CURRENT_DESCRIPTION: nothing like home grown tomatoes and basil! a refreshing summer salad!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, fresh mozzarella cheese, fresh basil, fresh thyme, anchovy, shallots
+---
+TITLE: Basil  Tomato  Cream Cheese Frittata Recipe
+CURRENT_DESCRIPTION: this is from indobase.com. my husband cuts the cream cheese into big chunks and they just melt in your mouth. we eat this for dinner and breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, salt, pepper, dried sage, dried thyme, dried oregano
+---
+TITLE: Basil Aioli
+CURRENT_DESCRIPTION: this basically basil mayonaise.  it is, however much better than your basic mayo!  this is wonderful served with
+recipe #310782
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: minced garlic clove, eggs, dijon mustard, lemon juice, olive oil, kosher salt
+---
+TITLE: Basil And Balsamic Green Bean Salad
+CURRENT_DESCRIPTION: i got this from our csa newsletter.  it's a wonderful dish, full of fresh summer flavor and easy to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, cherry tomatoes, pine nuts, red onion, fresh basil, balsamic vinegar
+---
+TITLE: basil and cheese torta
+CURRENT_DESCRIPTION: this is a great appetizer to make now while basil is plentiful and stash in the freezer to use all year. i pull one out of the freezer when i need something quick for a dinner party appetizer or potluck. use 6 or 10 oz custard cups
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, unsalted butter, fresh basil leaves, parmesan cheese, olive oil, pine nuts
+---
+TITLE: Basil And Cheese Torta
+CURRENT_DESCRIPTION: this is a great appetizer to make now while basil is plentiful and stash in the freezer to use all year. i pull one out of the freezer when i need something quick for a dinner party appetizer or potluck. use 6 or 10 oz custard cups
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, unsalted butter, fresh basil leaves, parmesan cheese, olive oil, pine nuts
+---
+TITLE: Basil And Chilli Stir Fry Paste
+CURRENT_DESCRIPTION: heaps cheaper than commercially made product. can be used with meat and/or vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, ginger, fresh basil, red chilies, lemon juice
+---
+TITLE: Basil And Corn Salad
+CURRENT_DESCRIPTION: this comes from a ww magazine and was surprisingly delicious. the original recipe calls for 2 1/2 cups diced chicken but i leave that out. 1 serving is 3 pointsplus as i have it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn, olive oil, balsamic vinegar, salt, yellow tomatoes, red onion
+---
+TITLE: Basil And Dried Tomato Pesto
+CURRENT_DESCRIPTION: a friend made up this pesto as stuffing for wild boar ham involtini. i didn't like the bbqed wild boar ham, but fell in love with the pesto...
+the two bunches basil are the amount of two 6'' pots :-) the amount of garlic is a guess as well as the amount of olive oil. small cloves will require more, very large cloves perhaps less. just try how strong it smells and tastes; it's easier to add another clove than try to remove one when already blended.
+i use to have the whole bottle of olive oil on the desk and start with about one cup, then add more until the consistence seems creamy enough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, sun-dried tomatoes, pine nuts, parmesan cheese, garlic cloves, olive oil
+---
+TITLE: Basil And Feta Cheese Spread
+CURRENT_DESCRIPTION: i found this on a greek recipe site.  it looks a lot like a feta spread that i have had a greek restaurant i love, so anxious to try.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: feta cheese, basil leaves, chives, garlic cloves, olive oil
+---
+TITLE: Basil And Feta Spread
+CURRENT_DESCRIPTION: posting for zaar world tour.  spread on crostini bread or crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, chives, onions, garlic cloves, feta cheese, olive oil
+---
+TITLE: Basil And Garlic Roasted Scallops
+CURRENT_DESCRIPTION: haven't tried this yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallops, unsalted butter, dry basil, garlic, dijon mustard, shallot
+---
+TITLE: Basil And Lime Granita
+CURRENT_DESCRIPTION: this is a lovely fresh granita that couldn't be easier to prepare. we like to add a couple of shots of vodka to it just before freezing, to make a more grown up version.  perfect for after a barbecue!  timing does not include 3 hours freezing time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: limes, juice of, basil leaves, sugar, water, vodka
+---
+TITLE: Basil And Roasted Garlic Pesto
+CURRENT_DESCRIPTION: excellent on bruschetta. is also great on pasta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, olive oil, fresh basil leaves, extra virgin olive oil, fresh italian parsley, pine nuts
+---
+TITLE: basil and sage bread
+CURRENT_DESCRIPTION: although time consuming (3 rises) this bread is delicious with winter stews and soup. recipe source: bon appetit (february, 1985). prep time includes rises.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, warm water, rye flour, white flour, olive oil, water
+---
+TITLE: Basil And Wine Infused Smoked Chicken
+CURRENT_DESCRIPTION: my husband got a smoker for christmas which we have been enjoying immensely...this recipe looks like it will be delicious adapted for its use...posted here so i won't lose it and so others can enjoy...from wild oats website.  i will post exactly as they described...obviously if using an electric smoker you can omit the charcoal.  this is a variation on the old classic "tortured chicken" posted on this website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hickory chips, charcoal, kosher salt, brown sugar, sweet paprika, black pepper
+---
+TITLE: Basil And Zucchini Soup
+CURRENT_DESCRIPTION: this is from an australian weight watchers book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic, boiling water, chicken stock cubes, zucchini
+---
+TITLE: Basil Artichoke Fettuccini
+CURRENT_DESCRIPTION: this is a nice filling meal when served with a spinach, broccoli and carrot salad. add some bruschetta and it's complete!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fettuccine pasta, frozen artichoke hearts, red bell peppers, onion, garlic, olive oil
+---
+TITLE: Basil Bacon   Tomato French Toast
+CURRENT_DESCRIPTION: posting for zwt5.  this looks like a good breakfast recipe.
+i got it from new zealand herald website.
+i think the recipe is by donna hay
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, cherry tomatoes, olive oil, sea salt, cracked black pepper, eggs
+---
+TITLE: Basil Bacon S Fontina Potatoes
+CURRENT_DESCRIPTION: i named this dish after my dear friend and neighbor's pet potbelly pig.  his name is basil bacon and i thought if i ate enough of this dish, i would certainly start to resemble him :)  when your ready to splurge on a rich and comforting dish, give it a try.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, bacon, onion, green onions, fresh basil, butter
+---
+TITLE: Basil Baked Tilapia
+CURRENT_DESCRIPTION: easy recipe to enjoy for a thin, mild tasting fillet, such as tilapia or flounder. this is from our local paper......
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white wine, butter, fresh basil leaf, fish fillets, lemon, juice of, onion powder
+---
+TITLE: Basil Baked Tomatoes
+CURRENT_DESCRIPTION: from a fantastic award winningregional cookbook from the junior league of north harris county (houston). it is called texas ties, and i have never had a bad recipe from the book. i have not tried this one, but it sounds yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roma tomatoes, fresh basil, garlic cloves, olive oil, kosher salt
+---
+TITLE: Basil Barley Provencal
+CURRENT_DESCRIPTION: barley, a grain of the grass family, was the first cereal cultivated as a food for man. tossed with vegetables in the provencal style, its allure stretches across the ages. this is a great way to add more grains and vegetables to your diet!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, zucchini, garlic cloves, chicken broth, plum tomatoes
+---
+TITLE: Basil Basmati Rice
+CURRENT_DESCRIPTION: from coup de pouce.  this is done in 30 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, water, fresh basil leaf, olive oil, lemon juice, garlic clove
+---
+TITLE: Basil Bean Salad
+CURRENT_DESCRIPTION: i have a real fondness for basil. this is a favorite salad of mine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, green onions, fresh basil, olive oil, red wine vinegar, salt
+---
+TITLE: Basil Beef Fried Rice
+CURRENT_DESCRIPTION: this recipe is from a local thai cooking class i took. the instructor tried to adapt the traditional recipe to use locally-available ingredients. this is delicious - different than any other fried rice we've had before. the thai basil (i found it in an asian grocery store in the city) really makes a difference.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, vegetable oil, basil leaves, garlic cloves, thai red chili peppers, cooked jasmine rice
+---
+TITLE: Basil Beer Bread
+CURRENT_DESCRIPTION: don't remember where this came from, but i can't wait to try it. looks easy and delicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, active dry yeast, salt, black pepper, parmesan cheese, beer
+---
+TITLE: Basil Biscuit Topped Chicken Pot Pie
+CURRENT_DESCRIPTION: good old comfort food! created for rsc #6!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, onion, red potatoes, chicken stock, mixed vegetables, sage
+---
+TITLE: Basil Bread Slice Pizzas
+CURRENT_DESCRIPTION: easy mini pizzas. these are perfect for appetizers or quick meals. i came across this recipe while looking through a
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian bread, mozzarella cheese, fresh basil, cream cheese, tomato paste, italian seasoning
+---
+TITLE: Basil Burgers
+CURRENT_DESCRIPTION: chopped fresh basil leaves add a welcome spark to these hamburgers and wonderfully capture the taste of summer. grilling brings out the best flavors in the ground beef as well as the basil. they're a pleasant surprise at a family cookout.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, red onion, italian seasoned breadcrumbs, dry red wine, garlic salt, lean ground beef
+---
+TITLE: Basil Butter Cookies
+CURRENT_DESCRIPTION: from victoria magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, unsalted butter, ground almonds, fresh basil leaf
+---
+TITLE: Basil Butter Garlic Bread
+CURRENT_DESCRIPTION: garden overflowing with basil? look no further for a recipe that will use a generous handful! from tasty kitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, basil leaves, parsley, garlic cloves, whole green onion
+---
+TITLE: Basil Butter Orzo
+CURRENT_DESCRIPTION: this is a nice side dish for spring or summer. it goes very nicely as a side for fish or seafood. feel free to adjust the amount of garlic to your taste. the orzo pasta can be cooked up to 4 hrs ahead: cook and drain, then rinse under cold water; drain again and store covered in the refrigerator. found in sunset magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orzo pasta, red bell pepper, yellow bell pepper, butter, basil leaves, garlic cloves
+---
+TITLE: Basil Butter Sweet Potato Patties
+CURRENT_DESCRIPTION: this yummy recipe is from the australian women's weekly's 'fresh food fast: delicious no-fuss healthy recipes'.  when making patties, i often use well-greased egg rings. i have some that can be used in non-stick pans and place the mixture directly into these, then remove them when flipping the patties - with the help of two spatulas - to cook the reverse side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, butter, fresh basil, pine nuts, garlic cloves, parmesan cheese
+---
+TITLE: Basil Buttermilk Salad Dressing
+CURRENT_DESCRIPTION: this is tangy and tastes great on simple green salads. you could also use it as a dip. makes great use of fresh garden basil. adapated from gourmet. chill time is cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, salt, buttermilk, mayonnaise, fresh basil
+---
+TITLE: Basil Caper Butter
+CURRENT_DESCRIPTION: from steve raichlen, a wonderful compound butter for fish or other grilled things.  this makes a fair amount-- enough for 8 servings of, for example, grilled swordfish, though raichlen calls it a recipe for 4.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, basil, capers, lemon juice, salt & freshly ground black pepper, extra virgin olive oil
+---
+TITLE: Basil Cashew Chicken Salad
+CURRENT_DESCRIPTION: i love basil and chicken together, and chicken and cashew together, so it was natural to put it *all* together into this tasty sandwich filling!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, cooked white rice, red seedless grapes, mayonnaise, sweet basil, dried onion flakes
+---
+TITLE: Basil Cheese Polenta Wedges
+CURRENT_DESCRIPTION: this is from swanson's chicken broth...you can serve topped with meat sauce or as a side dish!! options for grilling, baking or pan-frying given. cooking time includes chilling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, stone-ground yellow cornmeal, bay leaf, pepper, olive oil, fresh basil
+---
+TITLE: Basil Cheese Wedges
+CURRENT_DESCRIPTION: the original recipe is based on a kraft recipe, but we've changed it somewhat over the years to suit our tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, cream cheese, mozzarella cheese, dried basil, italian dressing, parmesan cheese
+---
+TITLE: Basil Cheesecake
+CURRENT_DESCRIPTION: a great appetizer for the holidays!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, breadcrumbs, parmesan cheese, basil, parsley, olive oil
+---
+TITLE: Basil Cherry Tomatoes
+CURRENT_DESCRIPTION: serve these pretty little, zesty tomatoes on a leaf of lettuce for a nice presentation. the basil gives them a lovely taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cherry tomatoes, fresh basil, olive oil, salt, pepper
+---
+TITLE: Basil Chicken
+CURRENT_DESCRIPTION: this is a fantastic fusion of flavors. be careful when cutting the jalapeno peppers. i keep a box of food service gloves in my kitchen to use when i have to handle chile peppers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, salt, cardamom, cinnamon, clove, coriander
+---
+TITLE: Basil Chicken And Cashew Nuts
+CURRENT_DESCRIPTION: this recipe comes from easy chinese cookbook by elizabeth chong.  i will add more vegies & omit the sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, unsalted dry-roasted cashews, onion, red chili pepper, garlic cloves, fresh basil leaf
+---
+TITLE: Basil Chicken Fried Rice
+CURRENT_DESCRIPTION: this thai place i go to has this awesome chicken and basil rice. i found this recipe comes the closest. i ended up using half brown rice, half quiona.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breasts, red peppers, fresh basil leaves, onion, eggs, quinoa
+---
+TITLE: Basil Chicken In Coconut Curry Sauce
+CURRENT_DESCRIPTION: this recipe was a 1997 grand prize winner in better homes and gardens! enjoy! chicken needs to stand for 30 minutes before cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, ground cardamom, cinnamon, clove, coriander, cumin
+---
+TITLE: Basil Chicken Marsala With Mushrooms
+CURRENT_DESCRIPTION: basil is a favorite of mine and is wonderful in this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, flour, salt, garlic powder, ground black pepper, olive oil
+---
+TITLE: Basil Chicken Over Angel Hair Pasta
+CURRENT_DESCRIPTION: i am having a "clean out the pantry/freezer/fridge" week and did a search for some of the ingredients i had on hand. this recipe came up and it was perfect for what i needed. if you find that you want it to have a little more sauce, during the simmering step, add a little bit of italian salad dressing.
+delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: angel hair pasta, olive oil, onion, garlic clove, chopped tomatoes, boneless chicken breast halves
+---
+TITLE: Basil Chicken Parmigiana
+CURRENT_DESCRIPTION: this recipe is from "southern living" magazine, january 2006.  excellent and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pasta, boneless skinless chicken breasts, italian seasoned breadcrumbs, parmesan cheese, egg substitute, olive oil
+---
+TITLE: Basil Chicken Salad
+CURRENT_DESCRIPTION: this recipe comes from the 3 fat chicks website. i've made it several times already, and it's always been a bit hit with my family and guests. it's wonderful to serve on a hot summer's evening on the patio.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fat-free mayonnaise, fresh lemon juice, dijon mustard, hot sauce, white pepper, cooked chicken breasts
+---
+TITLE: Basil Chicken Soup
+CURRENT_DESCRIPTION: low fat and low calorie in this wonderful tasting soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, garlic clove, all-purpose flour, chicken broth, potato
+---
+TITLE: Basil Chicken With Broccoli
+CURRENT_DESCRIPTION: the original recipe is thai basil chicken w/broccoli from sparkrecipes, but this is my modified version. also good with asparagus or cauliflower instead of or in addition to broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast, broccoli, olive oil, garlic, onion, fresh basil
+---
+TITLE: Basil Chimichurri
+CURRENT_DESCRIPTION: from martha stewart.  this is from argentina.  chimichurri  is used a condiment to grilled meats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, flat leaf parsley, oregano, extra virgin olive oil, red wine vinegar, garlic cloves
+---
+TITLE: Basil Chive Red Potato Mash
+CURRENT_DESCRIPTION: this recipe is courtesy of dave lieberman from the food network. these potatoes are creamy and rich but the fresh herbs give them a really fresh taste. the color and texture that the potato skins  give the mash is wonderful, and it also means less work because you get to skip the peeling!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: new potatoes, kosher salt & freshly ground black pepper, heavy cream, butter, fresh chives, basil leaves
+---
+TITLE: Basil Corn On The Cob
+CURRENT_DESCRIPTION: awesome grilled corn on the cob.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil, olive oil, crushed red pepper flakes, salt, black pepper, ears of corn
+---
+TITLE: Basil Cucumber Salad
+CURRENT_DESCRIPTION: this is a nice indonesian salad, quick and easy to prepare and goes well with everything.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, fresh basil, red onion, currants, garlic powder, red pepper flakes
+---
+TITLE: Basil Custard With Apricot Caramel Dessert
+CURRENT_DESCRIPTION: this is an rsc entry.
+it is very rich. i suggest eating this with plain vanilla icecream. have fun!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: powdered milk, milk, basil, sugar, coriander seeds, fresh lime juice
+---
+TITLE: Basil Eggplant  Aubergine     Pud Makua Yow
+CURRENT_DESCRIPTION: i ordered this at my favorite thai restaurant and then went in search of the recipe that tasted most like it.  here you go.  i serve this on basmati rice.  you can use either regular eggplant or the long thin asian eggplants.  i think the restaurant used little green ones that i have seen at the asian market.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, thai basil, sugar, garlic cloves, fish sauce, japanese eggplants
+---
+TITLE: Basil Feta Olive Toast
+CURRENT_DESCRIPTION: i love the flavors of kalamata olives, feta, and basil! this is a greek inspired recipe i threw together for zaar world tour 6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, virgin olive oil, basil leaves, feta cheese, kalamata olives, salt
+---
+TITLE: Basil Fettuccine  Pasta Noodle Recipe
+CURRENT_DESCRIPTION: make this tasty but nutritious pasta- it will save you money- and impress your friends and family. i use this easy to make pasta (in the food processor) to make noodles as well as some raviolis- lovely!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, all-purpose flour, egg, olive oil, water
+---
+TITLE: Basil Fettucini
+CURRENT_DESCRIPTION: i just got a new pasta roller/cutter set for my ka and i haven't tried this yet, but it looks good. prep time doesn't include time for the pasta to rest.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, all-purpose flour, egg, olive oil, water
+---
+TITLE: Basil Fried Rice
+CURRENT_DESCRIPTION: i take this vegetarian/vegan dish to bbqs and i have to guard it to make sure the omnivores don't scoff the lot before the non-meaters are fed. i usually multiply this several times over as it is so more-ish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, garlic, red chilies, fresh mushrooms, onion, cooked rice
+---
+TITLE: Basil Fries
+CURRENT_DESCRIPTION: these are quick an easy. i picked this recipe from taste of home's quick cooking great recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: parmesan cheese, olive oil, dried basil, garlic powder, red potatoes
+---
+TITLE: Basil Frittata
+CURRENT_DESCRIPTION: this is being posted for zwt 2006 (italian region). frittatas are simply omelettes and this is a wonderful example of one. i love fresh basil and grow it every year and this is a great showcase for it. you can also add a little bit of mozzarella cheese to this one to get that yummy stringy cheese thing going.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, onion, butter, eggs, salt & pepper, prosciutto
+---
+TITLE: Basil Garlic Cheese Bread
+CURRENT_DESCRIPTION: this is a recipe from simple and delicious, posting for safe keeping.
+here's a crusty, crunchy bread that goes together in minutes and is great with all kinds of pasta dishes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, parmesan cheese, olive oil, lemon juice, garlic, basil
+---
+TITLE: Basil Garlic Citrus Vinaigrette
+CURRENT_DESCRIPTION: this is a wonderful change of pace vinaigrette.  pour this over a mixture of sectioned oranges, red onions and mixed  greens for a delightful salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen orange juice concentrate, white vinegar, water, black pepper, dried basil, olive oil
+---
+TITLE: Basil Garlic Green Beans
+CURRENT_DESCRIPTION: fresh herbed green beans! love the garlic!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, olive oil, garlic, fresh basil, salt and pepper
+---
+TITLE: Basil Garlic Oven Fries
+CURRENT_DESCRIPTION: oven fries with the fresh taste of basil, black pepper and lemon and, of course, gorgeous garlic. great with french roast chicken or farm fresh eggs lightly fried in virgin olive oil - oh my
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: floury potatoes, garlic cloves, fresh basil, lemon, juice of, black peppercorns, salt
+---
+TITLE: Basil Garlic Toast
+CURRENT_DESCRIPTION: a great accompaniment to any dinner and just a tad bit different from the standard garlic bread. another use for summertime's fresh basil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, fresh basil leaves, unsalted butter, olive oil, romano cheese, garlic cloves
+---
+TITLE: Basil Garlic Vinaigrette
+CURRENT_DESCRIPTION: this simple dressing is great over fresh tomatoes, and makes a wonderful marinade for chicken and shrimp.
+another light vinegar can substitute the champagne vinegar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil leaf, garlic, champagne vinegar, parmesan cheese, olive oil, salt
+---
+TITLE: Basil Gnocchi
+CURRENT_DESCRIPTION: my first attempt at home made gnocchi, and this was quick, fun and oh so yummy! the most time consuming bit is waiting for the potatoes to cook! i served this with leftover pasta sauce, but i imagine the possibilities are endless. rather than sauce, after poaching the gnocchi you can apparently cook 1/2 cup butter til nut-brown, then toss the gnocchi in it til crisp; sounds evil but delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, plain flour, potatoes, sea salt, fresh basil, olive oil
+---
+TITLE: Basil Grande
+CURRENT_DESCRIPTION: this recipe came with the bottle of chambord that i bought.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh strawberries, fresh basil leaves, vodka, chambord raspberry liquor, grand marnier, cranberry juice
+---
+TITLE: Basil Grilled Chicken
+CURRENT_DESCRIPTION: we tried this recipe on a turkey breast at thanksgiving...and it was awesome!  this recipe comes from southern living's five star recipe collection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh coarse ground black pepper, chicken breast halves, butter, fresh basil, parmesan cheese, garlic powder
+---
+TITLE: Basil Grilled Chicken Sandwiches With Red Pepper Relish
+CURRENT_DESCRIPTION: basil lovers unite!!! this one is for you! great tasty sandwich, lower in calories and high in protein ans quick.  equally as good hot or cold also.  from a fitness website. note cooking time doesnt include chicken marinading time, and the relish can be done ahead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain yogurt, lemon, juice and zest of, garlic clove, basil leaves, boneless skinless chicken breasts, olive oil
+---
+TITLE: Basil Grilled Chicken With Tomato Basil Butter
+CURRENT_DESCRIPTION: this is from the cookbook "red white & blue ribbon 2004", a collection of winning recipes from recipe contests and food festivals.  molly pardo of jupiter, fl took 2nd place at gold kist farms 15th annual winning taste recipe contest.  the chicken needs to marinate at least 4 hours, so plan accordingly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, olive oil, fresh basil, romano cheese, garlic, italian seasoning
+---
+TITLE: Basil Guacamole
+CURRENT_DESCRIPTION: using basil give this a refreshing flavor, great as a dip or on top of eggs, burritos, quesadillas, and lots of other vegetables! adapted from bh&g magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, fresh basil, chopped tomato, green onions, fresh lime juice, salt
+---
+TITLE: Basil Herbal Butter
+CURRENT_DESCRIPTION: cooking time is chilling time. herb butters are a nifty way to spice up any meal. i like herbed butters as a quick easy way to flavor frozen or canned veggies. just add a dab of herbed butter and heat up the veggies. you can substitute margarine for the butter. if you choose to use dried herbs instead of fresh use 1 1/2 times the amount called for.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet unsalted butter, fresh basil, fresh parsley, shallot, fresh ground black pepper, paprika
+---
+TITLE: Basil Honey Lime Dressing
+CURRENT_DESCRIPTION: serve on a salad of spring mix greens, candied walnut pieces, feta cheese
+and dried cranberries or your favorite mix!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, honey, garlic clove, apple cider vinegar, salt, fresh lime juice
+---
+TITLE: Basil Hummus
+CURRENT_DESCRIPTION: i created this recipe because i had too much basil left over from another recipe. it turned out fantastic and now it's on my list of favorites. you can substitute the tahini (roasted sesame paste) for almond butter, it will give it a nice, full nutty flavor. i serve it as an appetizer with oven roasted vegetables. to make the chickpeas easier to digest, i soak them in water for about 10 minutes and then remove their little skin. it takes a while but really is worth it if you have a sensitive stomach.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned chick-peas, tahini, garlic clove, basil, olive oil, lemon, juice of
+---
+TITLE: Basil Jelly
+CURRENT_DESCRIPTION: a great way to use up some of your lovely basil in the herb garden.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple juice, fresh basil leaves, cider vinegar, green food coloring, sugar, liquid pectin
+---
+TITLE: Basil Lamb Casserole
+CURRENT_DESCRIPTION: this basil lamb casserole is a flavorful twist on your hamburger and macaroni standard. ground lamb substitutes hamburger, parmesan cheese substitutes cheddar, and basil is the added touch that brings the dish together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, yellow onion, ground lamb, fresh mint leaves, fresh basil leaf, fresh parmesan cheese
+---
+TITLE: Basil Lemon Bow Ties
+CURRENT_DESCRIPTION: refreshing, easy and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic clove, bow tie pasta, fresh lemon juice, lemon zest, basil
+---
+TITLE: Basil Lemon Brined Grilled Chicken
+CURRENT_DESCRIPTION: this is a recipe for grilled chicken breasts that have been brined in fresh basil and lemon for unbeatable flavor.  time does not include marinating.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, kosher salt, lemon zest, fresh ground black pepper, water, chicken breast halves
+---
+TITLE: Basil Lemon Butter Cream Sauce
+CURRENT_DESCRIPTION: this is a sauce recipe that was a frequent complement to chicken and fish during my study abroad residence experience with a french family in the loire valley region.  cream sauces are very popular paired with white and rosé wines in this geography, and this goes well over a thinly sliced breast of chicken, or a flaky whitefish.  although the sauce itself is somewhat fattening, if used conservatively it's actually a light and refreshing compliment to poultry and fish in the summer.  if you absolutely feel the need to tone down the fat, be careful as you don't want the sauce to become too thin as it won't coat as nicely.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salted butter, heavy whipping cream, lemon, juice of, chicken bouillon cube, fresh basil leaves, garlic clove
+---
+TITLE: Basil Lemon Chicken Panini
+CURRENT_DESCRIPTION: this takes some of my favorite flavors, basil and lemon, marries them with grilled chicken and melting cheese on a hot grilled bun. yum.   i will post the chicken recipe on its own as well (you can use scaloppine too, i prefer the thicker cut)
+
+what i do is cook the chicken for dinner making extras and use the leftovers for the panini :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, lemons, garlic cloves, olive oil, salt & pepper, fresh basil
+---
+TITLE: Basil Lemon Garlic Bread
+CURRENT_DESCRIPTION: i haven't tried this yet, but plan on making it soon. i'm putting it here so i don't loose it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, olive oil, dried basil leaves, cayenne pepper, lemon juice, lemon peel
+---
+TITLE: Basil Lemon Gimlets
+CURRENT_DESCRIPTION: i found this recipe in rachael ray's magazine august/september 2006 issue.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil leaves, simple syrup, vodka, lemon, juice of, ice cubes
+---
+TITLE: Basil Lemon Green Beans
+CURRENT_DESCRIPTION: these have a nice lemon flavor with a hint of sweetness. a good quality frozen bean can be used, but please use fresh basil!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic, green beans, basil, honey, lemon, zest of
+---
+TITLE: Basil Lemon Grilled Veal Chops
+CURRENT_DESCRIPTION: from "stop and smell the rosemary, recipes and traditions to remember,"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, fresh basil, lemon, garlic cloves, dijon mustard, veal chops
+---
+TITLE: Basil Lemon Pasta
+CURRENT_DESCRIPTION: light and healthy pasta in minutes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat spaghetti, lemon juice, olive oil, basil, butter, parmesan cheese
+---
+TITLE: Basil Lemonade
+CURRENT_DESCRIPTION: from cooking light: "all basils add fragrance to lemonade, but colored and scented varieties contribute extra personality. dark purple basils tint the lemonade a pretty pink but have a milder flavor than green varieties. lemon basil adds a lemon-drop essence. cinnamon and thai basils contribute spicy overtones. you can make the lemonade up to 1 day ahead; cover and chill."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil leaf, sugar, water, fresh lemon juice, fresh basil
+---
+TITLE: Basil Lime Butter For Corn On The Cob
+CURRENT_DESCRIPTION: next time you serve corn on the cob, try something a little different by using this delicious basil butter! it's simple to do in your food processor. from cuisine at home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, garlic cloves, unsalted butter, fresh lime juice, kosher salt, sugar
+---
+TITLE: Basil Lime Honey Ginger Grilled Chicken
+CURRENT_DESCRIPTION: i used a product island grove key lime honey ginger can be found in many store or click on this link
+http://www.islandgrove.com/newkeylimeginger.html
+ the rice and mango make this a wonderful tropical meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey lime dressing, fresh basil, garlic cloves, onion, chicken breasts, cooked rice
+---
+TITLE: Basil Lovers Tomato Cream Penne
+CURRENT_DESCRIPTION: a wonderfully easy pasta dish!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne pasta, pancetta, olive oil, garlic clove, marinara sauce, dry white wine
+---
+TITLE: Basil Marinated Steak
+CURRENT_DESCRIPTION: i got this recipe from one of those little cookbooks and the marinade is one of the best ive found for steaks or london broil
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: worcestershire sauce, fresh basil, red wine vinegar, olive oil, honey, garlic cloves
+---
+TITLE: Basil Mashed Potatoes
+CURRENT_DESCRIPTION: another winery recipe....these mashed potatoes are to die for!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yukon gold potatoes, garlic, kosher salt, fresh basil leaves, olive oil, cream
+---
+TITLE: Basil Mint Tea
+CURRENT_DESCRIPTION: this lifts up one's spirit when having fever
+came across at a web site , also personally worked out for me
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mint, basil, ginger, water, honey
+---
+TITLE: Basil Mojito
+CURRENT_DESCRIPTION: i love fresh basil! this is the right time of the year to enjoy the warm weather with a refreshing cocktail. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacardi limon, fresh basil leaves, lime, lemon, sugar, carbonated lemon-lime beverage
+---
+TITLE: Basil Mozzarella Burgers
+CURRENT_DESCRIPTION: burgers italian-style. we love 'em.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, fine dry breadcrumbs, green bell peppers, ketchup, prepared horseradish, prepared mustard
+---
+TITLE: Basil Olives
+CURRENT_DESCRIPTION: if you do not have fresh basil available, pesto will work in a pinch.  add a heaping tablespoon to the olives and taste.  add more as needed.  i like to use a mixture of half black and half green olives.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, fresh basil, red pepper flakes, olive oil, black olives
+---
+TITLE: Basil Orange Chicken
+CURRENT_DESCRIPTION: a simple marinade that makes a wonderfully flavorful and moist chicken.  alternately you can grill the chicken after it marinates.  time does not include marinating.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, orange juice, canola oil, honey, fresh basil, vegetable oil
+---
+TITLE: Basil Oven Fried Potatoes
+CURRENT_DESCRIPTION: tasty potatoes, easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, parmesan cheese, basil, salt, paprika, pepper
+---
+TITLE: Basil Parmesan Biscuits
+CURRENT_DESCRIPTION: perfect with pasta or other italian dishes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, baking powder, baking soda, salt, parmesan cheese
+---
+TITLE: Basil Parmesan Cheese Spread
+CURRENT_DESCRIPTION: use the best quality fresh ingredients you can afford for this dish. it is very tasty, and as it is white, green and red, and great christmas dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, basil, garlic, olive oil, parmesan cheese, cream cheese
+---
+TITLE: Basil Parmesan Dip  Cooking Light
+CURRENT_DESCRIPTION: this addictive dip is from the july '09 cooking light issue.  i served this for dipping with pita chips and also with bread cubes. it makes a wonderful sandwich spread - we put it on a turkey sandwich.  the original recipe didn't call for the olive oil; i decided to add it since it only adds about 1 fat gram per 2 tablespoon serving. so you can certainly leave it out if you're watching fat grams.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil leaf, parmesan cheese, reduced-fat sour cream, fresh lemon juice, garlic clove, pepper
+---
+TITLE: Basil Parmesan Pesto
+CURRENT_DESCRIPTION: create on crackers, baquettes or mixed in with pasta and chopped tomatos.  freeze leftovers in an ice cube tray so you can use as a mix-in any time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, pine nuts, garlic cloves, olive oil, parmesan cheese
+---
+TITLE: Basil Parmesan Puffs
+CURRENT_DESCRIPTION: this is from the sept/oct 09 simple & delicious magazine.  i made these with minor modification, and they are really tasty and easy to make.  my kids gobbled these up until i made them stop!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, unsalted butter, salt, all-purpose flour, eggs, fresh basil
+---
+TITLE: Basil Parsley Pesto
+CURRENT_DESCRIPTION: delicious pesto from taste of home.  i have used it so many
+times in so many different ways.....if you can, allow to refrigerate for several hours before using to allow the flavors to blend. (this is not included in recipe time.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, fresh parsley leaves, garlic clove, olive oil, parmesan cheese, salt
+---
+TITLE: Basil Pasta Noodles
+CURRENT_DESCRIPTION: from taste of home, august/september 2008
+
+time includes waiting for the pasta to dry
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil leaves, flour, eggs, water, olive oil
+---
+TITLE: Basil Pasta With Cream And Tomatoes
+CURRENT_DESCRIPTION: very simple but elegant dish. we usually serve this with roasted chicken breasts or pork medallions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, tomatoes, heavy cream, basil leaves, salt and pepper
+---
+TITLE: Basil Peach Salad Dressing
+CURRENT_DESCRIPTION: in case you couldn't tell, our farmer's market has had some seriously amazing peaches the last few weeks, so i've been doing a lot of experimenting with them.  i made a quick salad dressing for my husband and myself the other day that i really loved.  on the flip side, he wasn't a huge fan, but he doesn't like peaches too much so i count my opinion for more and i posted it anyway.  (just don't tell him i said that!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peach, extra virgin olive oil, basil, apple cider vinegar, celery salt, honey
+---
+TITLE: Basil Pesto
+CURRENT_DESCRIPTION: this is a wonderful lemon-flavored pesto. this was my first taste of pesto and i've never gone back!
+
+update as of 2/13/04
+i'm glad that you all like this.  i freeze this now and keep it on hand for my spaghetti sauce or others sauces.  it freezes great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil, garlic cloves, pine nuts, parmesan cheese, lemon juice, olive oil
+---
+TITLE: Basil Pesto    Lighter Version
+CURRENT_DESCRIPTION: a lighter version of the clasic pesto. this recipe is great for all the beautiful, fresh basil available in the summer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pine nuts, garlic, extra virgin olive oil, fresh basil leaves, parmesan cheese, salt
+---
+TITLE: Basil Pesto  Tomato  Cheese And French Bread Melt
+CURRENT_DESCRIPTION: i used bonnie traynor's basil pesto recipe #8650 in this and it was absolutely excellent. this is a quick and zesty snack that i really enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, tomatoes, parmesan cheese, feta cheese, extra virgin olive oil, basil pesto
+---
+TITLE: Basil Pesto Amato
+CURRENT_DESCRIPTION: a delicious, easy to make pesto sauce. the addition of salt isn't necessary as the parmesan adds enough salty taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, pine nuts, parmesan cheese, garlic cloves, olive oil, water
+---
+TITLE: Basil Pesto Bread Rounds
+CURRENT_DESCRIPTION: this is a great recipe to make with prepared basil pesto, makes a great latenight snack or serve it with a pasta dinner. to save some time you can broil/toast the bread slices in advance. if you prefer a lot of topping on the rounds just double the pesto mixture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french baguette, mayonnaise, basil pesto, garlic, parmesan cheese, salt
+---
+TITLE: Basil Pesto Chicken Casserole
+CURRENT_DESCRIPTION: i had a ton of fresh pesto, chicken...just waiting for a new recipe!  the amounts are approximate as i just made this up!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, pesto sauce, tomatoes, mushrooms, mozzarella cheese, italian seasoning
+---
+TITLE: Basil Pesto Farfalle W Roasted Pine Nuts
+CURRENT_DESCRIPTION: this is a wonderful mixture of basil, garlic, and parmesan cheese. i serve this a main course usually with a side of my favorite bread. a 5-star dinner that you can complete in 15 minutes!
+
+this is my favorite pasta dish of all time. be sure to try it hot and cold, both versions are fantastic!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: farfalle pasta, parmesan cheese, fresh basil, garlic, olive oil, pine nuts
+---
+TITLE: Basil Pesto From Home
+CURRENT_DESCRIPTION: this is my pesto recipe that i have been making for years with basil from my herb garden; now it it from my containers on my patio.i used in many recipes always ready for me in the freezer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil leaves, garlic cloves, pine nuts, parmesan cheese, extra virgin olive oil, fresh lemon juice
+---
+TITLE: Basil Pesto Stuffed Chicken Breasts With Sun Dried Tomato Cream
+CURRENT_DESCRIPTION: you might have trouble pounding the chicken flat enough to make the jelly-roll presentation, but that's ok...just fold it over once to make it look like a big clam :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, prosciutto, pesto sauce, lemon juice, garlic cloves, fresh ground black pepper
+---
+TITLE: Basil Pesto Twice Baked Potatoes
+CURRENT_DESCRIPTION: potatoes and pesto go so well together that i came up with a new way to mix them. twice baked potatoes are so convenient as they don't require any last-minute fuss! they are also easy to reheat from the fridge if you make a large batch. if you can't find mascarpone cheese, i'm sure cream cheese would work just fine although it wouldn't give quite the same flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, mascarpone cheese, basil pesto, salt and pepper, mozzarella cheese, pine nuts
+---
+TITLE: Basil Pine Nut Biscotti
+CURRENT_DESCRIPTION: great with soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pine nuts, butter, parmesan cheese, dried basil, lemon zest, eggs
+---
+TITLE: Basil Pita Chips
+CURRENT_DESCRIPTION: this was a featured recipe in our local newspaper today. looks yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, garlic cloves, fresh basil, fresh parsley, parmesan cheese, pita bread
+---
+TITLE: Basil Pork Chops
+CURRENT_DESCRIPTION: these are very taste pork chops. i recived this one in my email. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: center-cut pork chops, dried basil, fresh coarse ground black pepper, salt, v8 vegetable juice
+---
+TITLE: Basil Rice Soup
+CURRENT_DESCRIPTION: thirty minute delicious chicken flavored soup. servings vary according to portion size. for extra flavor, top with grated parmesan cheese before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic, celery, onion, carrot, fresh basil
+---
+TITLE: Basil Rice Soup  Minestra Di Riso E Basilico
+CURRENT_DESCRIPTION: antonio cecconi - betty crocker’s italian cooking -----
+
+this soup is pretty amazing... no matter what i serve it with, whether the rest of dinner is a disaster or amazing (and i've done both with this soup), this soup gets lasting compliments.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, celery, onion, carrot, fresh basil
+---
+TITLE: Basil Roasted Chicken With Garlic Sauce
+CURRENT_DESCRIPTION: another delectable roast chicken entree. the meat is herb infused with basil, and a garlic sauce is made from the pan juices and 30 cloves of roasted, sweet garlic! make sure you clear your social calender for the next three days after eating this one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, unsalted butter, fresh basil, fresh parsley, salt, ground black pepper
+---
+TITLE: Basil Roasted Vegetables Over Couscous
+CURRENT_DESCRIPTION: for some reason, the smell of fresh basil reminds me of springtime. this simple recipes uses the herb to its full advantage.  you can add other vegetables to your liking or even add tofu as i sometimes do. for ww core folks, it's core plus points for the cheese.  if you want all core, try making a very stiff yogurt cheese instead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh basil, balsamic vinegar, extra virgin olive oil, salt, garlic cloves, zucchini
+---
+TITLE: Basil Scallops With Gluten Free Pasta
+CURRENT_DESCRIPTION: this recipe is fairly easy, elegant, and avoids foods for those who are gluten intolerant or suffer from migraines triggered by foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gluten-free pasta, bay scallop, fresh ground pepper, cooking spray, olive oil, dijon mustard
+---
+TITLE: Basil Scented Chicken Salad
+CURRENT_DESCRIPTION: this chicken salad sounds fresh as spring with fresh basil, spinach and parsley!  make this with a store bought rotisserie chicken and you have a super fast, no cook meal.  recipe from southern living® our best easy weeknight favorites.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, lemon juice, dijon mustard, lemon-pepper seasoning, hot sauce, cooked chicken
+---
+TITLE: Basil Shrimp
+CURRENT_DESCRIPTION: i got this recipe from my friend elaine. i make this quite often to rave reviews and there are never leftovers. my son would just eat this if i would let him.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, grey poupon mustard, butter, garlic, olive oil, fresh basil
+---
+TITLE: Basil Shrimp And Feta Pasta
+CURRENT_DESCRIPTION: i love shrimp and feta so this is a real winner. hope you all agree
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, yellow onion, garlic, prawns, sauvignon blanc wine, lemon, juice of
+---
+TITLE: Basil Shrimp Pasta
+CURRENT_DESCRIPTION: this is what my dh referred to as a bad meal gone good....it began as a light and healthy recipe i found in a magazine and after i made the sauce, it was so bad that i threw it out and started over.  i changed it so much that it only bears a faint resemblance to the original.  this is the result, not quite as healthy as the original - but it tastes a lot better! i have made it many times over the years - but never wrote it down until now !  so...here ya go!  hope you like it as much as my dh and kids do.  :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, onion, garlic cloves, butter, all-purpose flour, 2% evaporated milk
+---
+TITLE: Basil Shrimp Stuffed Zucchini
+CURRENT_DESCRIPTION: nice way to use that wonderful garden squash and a nice way to serve it as a meal you can even make this on the grill to keep down the heat in the house during summer time!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, butter, onion, tomatoes, raw shrimp, fresh basil
+---
+TITLE: Basil Shrimp With Feta And Orzo
+CURRENT_DESCRIPTION: i got this recipe from cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oven cooking bag, cooking spray, orzo pasta, olive oil, diced tomato, scallion
+---
+TITLE: Basil Skillet Scalloped Potatoes
+CURRENT_DESCRIPTION: you may want to use milk in place of water
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, onion, dried basil leaves, condensed cream of celery soup, water, cheddar cheese
+---
+TITLE: Basil Sour Cream Meatballs
+CURRENT_DESCRIPTION: from "tampa treasures"  which i believe is a junior league cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, milk, egg, butter, onion, ground beef
+---
+TITLE: Basil Spinach And Orange Salad
+CURRENT_DESCRIPTION: my husband hates salads made with lettuce but loves spinach salad so i try different combinations using that particular green.  using prewashed spinach, this salad comes together in a very short time.  if you don't have fresh basil, stir 1/2 teaspoon dried basil into the dressing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, fresh basil, red onion, orange, olive oil, red wine vinegar
+---
+TITLE: Basil Spinach Salad With Lime Vinaigrette
+CURRENT_DESCRIPTION: this delightful salad is easy to prepare and a wonderful and light addition to any meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, fresh basil, avocado, fresh shiitake mushrooms, plum tomato, feta cheese
+---
+TITLE: Basil Spread For Sandwiches
+CURRENT_DESCRIPTION: this basil spread is great on sandwiches instead of using plain mayo.  the wholefoods market i go to uses it on some of their sandwiches but i have not made it myself.  the recipe comes from their "american summer style" recipe booklet.  in the booklet it is used on their grilled veggie sandwich but i have had it on their salmon sandwich among many others and it is very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, salt, mayonnaise, lemon juice, fresh basil
+---
+TITLE: Basil Stuffed Shells
+CURRENT_DESCRIPTION: yummy pasta shells stuffed with cheese and herbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil, eggs, ricotta cheese, parmesan cheese, nutmeg, salt
+---
+TITLE: Basil Summer Squash
+CURRENT_DESCRIPTION: this is a vegetarian knock-off of an amazing version of basil chicken someone made for me. the colours are breath-taking. i adopted her main ideas for my basil squash, but my version is so much lower-fat and healthier!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned beets, summer squash, garlic, fresh jalapeno pepper, onion, fresh basil
+---
+TITLE: Basil Tea Recipe From India
+CURRENT_DESCRIPTION: this recipe has been submitted for play in zwt8 - india. this recipe was found on indian food forever .
+
+now this sounds good.  i often am left wondering what i'm going to do with all the basil growing in the garden.  what a great use for it. 
+
+please note: cooking time is for steeping of the tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basil leaves, water, tea leaves, sugar, milk
+---
+TITLE: Basil Tomato Rice Soup
+CURRENT_DESCRIPTION: 500 best comfort food recipes, by johanna burkhard
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, celery, garlic cloves, dried basil leaves, plum tomatoes
+---
+TITLE: Basil Tomato Salad
+CURRENT_DESCRIPTION: this green leaf lettuce salad is tossed with a lemon vinaigrette and served with bread sticks made from a baguette.  for a complete meal, serve with chicken or fish that has been drizzled with the lemon vinaigrette.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, fresh lemon zest, fresh lemon juice, garlic cloves, sugar, salt
+---
+TITLE: Basil Tomato Sauce
+CURRENT_DESCRIPTION: my daughter learned this recipe while taking cooking classes....i found the sauce very light and fragrant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plum tomatoes, onion, garlic cloves, basil leaves, thyme leaves, dried oregano
+---
+TITLE: Basil Tomato Soup
+CURRENT_DESCRIPTION: this is a recipe from ming tsai, and is very quick and easy to make on a small budget.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, ginger, brown sugar, roma tomatoes, chicken stock, basil leaves
+---
+TITLE: Basil Tomato Tart
+CURRENT_DESCRIPTION: this is good as an appetizer or for lunch.
+this will only work with fresh basil. please do not try it with dried.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crusts, mozzarella cheese, roma tomatoes, basil leaves, garlic cloves, mayonnaise
+---
+TITLE: Basil Turkey Soup
+CURRENT_DESCRIPTION: perfect for leftover turkey, and some mixed vegetables
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef broth, frozen mixed vegetables, diced tomatoes, small shell pasta, dried basil, pepper
+---
+TITLE: Basil Vegetables
+CURRENT_DESCRIPTION: a colorful side dish to add to your favorite meal.  seasonings can be substituted to compliment any dinner.
+stove top or microwave.
+you may also change vegetables or simply add other vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, zucchini, yellow squash, onion, olive oil, dried basil

@@ -87,13 +87,71 @@ export function usePlannerState(planId: string, initialStatus: PlanStatus, initi
   const [loading, setLoading] = useState(false);
   const [undoStack, setUndoStack] = useState<WeaveResponse[]>([]);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const persistRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const skipNextPersist = useRef(false);
 
-  // Initial load
+  // Persist the current woven week to meal_entries (single source of truth for
+  // the builder rehydration, the cook flow, and the shopping list). Macros are
+  // attached from the weave recipe metadata where available.
+  const persistEntries = useCallback(async (w: WeaveResponse) => {
+    const meta = new Map((w.recipes ?? []).map(r => [r.id, r]));
+    const entries = w.entries.map(e => {
+      const m = meta.get(e.recipe_id);
+      return {
+        clientid: e.clientid,
+        recipe_id: e.recipe_id,
+        day_number: e.day_number,
+        meal_type: e.meal_type,
+        recipe_title: e.recipe_title,
+        source: e.source,
+        is_leftover: e.is_leftover,
+        parent_clientid: e.parent_clientid,
+        locked: e.locked,
+        position: e.position,
+        calories: m?.calories ?? null,
+        protein_g: m?.protein_g ?? null,
+        carbs_g: m?.carbs_g ?? null,
+        fat_g: m?.fat_g ?? null,
+        fiber_g: m?.fiber_g ?? null,
+      };
+    });
+    await fetch(`/api/plans/${planId}/entries`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ entries }),
+    }).catch(() => { /* best-effort */ });
+  }, [planId]);
+
+  // Initial load — pins always; rehydrate the woven grid when the plan was
+  // previously woven (or is being cooked) so a reload doesn't drop to planning.
   useEffect(() => {
     fetch(`/api/plans/${planId}/pins`)
       .then(r => r.ok ? r.json() : { pins: [] })
       .then(d => setPins(d.pins ?? []));
-  }, [planId]);
+
+    if (initialStatus === 'woven' || initialStatus === 'cooking') {
+      fetch(`/api/plans/${planId}/weave`)
+        .then(r => r.ok ? r.json() : null)
+        .then((d: WeaveResponse & { empty?: boolean } | null) => {
+          if (d && !d.empty && Array.isArray(d.entries) && d.entries.length > 0) {
+            skipNextPersist.current = true; // don't re-write what we just loaded
+            setWeave(d);
+            setStatus('woven');
+          }
+        })
+        .catch(() => { /* show planning if rehydration fails */ });
+    }
+  }, [planId, initialStatus]);
+
+  // Persist on any weave change (initial weave, reweave, swap, remove, pin),
+  // debounced. Skips the write triggered by the rehydration above.
+  useEffect(() => {
+    if (!weave) return;
+    if (skipNextPersist.current) { skipNextPersist.current = false; return; }
+    if (persistRef.current) clearTimeout(persistRef.current);
+    persistRef.current = setTimeout(() => { void persistEntries(weave); }, 600);
+    return () => { if (persistRef.current) clearTimeout(persistRef.current); };
+  }, [weave, persistEntries]);
 
   const runWeave = useCallback(async (opts?: { seed?: number; persistUndo?: boolean }) => {
     setLoading(true);

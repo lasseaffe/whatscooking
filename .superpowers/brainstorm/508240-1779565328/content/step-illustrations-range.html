@@ -1,0 +1,254 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900&family=Libre+Baskerville:wght@400&family=Plus+Jakarta+Sans:wght@400;500;600&family=Geist+Mono&display=swap');
+
+  body { background: #141110; }
+
+  h2, .subtitle, .mode-label { color: #EFE3CE; }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .step-card {
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #1F1B19;
+  }
+
+  .illus-bg {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    pointer-events: none;
+  }
+  .illus-bg svg { width: 190px; height: 190px; opacity: 0.35; }
+
+  .scrim {
+    position: relative; z-index: 2;
+    padding: 16px 18px 20px;
+    background: linear-gradient(to top, #1F1B19 52%, rgba(31,27,25,0.65) 82%, transparent 100%);
+  }
+
+  .step-counter {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+    color: #B07D56; margin-bottom: 4px;
+  }
+  .step-duration {
+    font-family: 'Geist Mono', monospace;
+    font-size: 12px; color: #F4A261; opacity: 0.8; margin-bottom: 10px;
+  }
+  .step-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 22px; font-weight: 700; line-height: 1.2;
+    color: #EFE3CE; margin-bottom: 10px;
+  }
+  .step-body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px; line-height: 1.7; color: #b0a090; font-weight: 400;
+  }
+  .pro-tip {
+    margin-top: 12px;
+    background: rgba(244,162,97,0.08);
+    border: 1px solid rgba(244,162,97,0.18);
+    border-radius: 8px; padding: 9px 11px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px; line-height: 1.55; color: #d4aa80; font-weight: 500;
+    display: flex; gap: 7px; align-items: flex-start;
+  }
+</style>
+
+<h2>Step Illustrations — Range of Cooking Actions</h2>
+<p class="subtitle">Typography option C applied across six different step types. Each illustration is keyword-matched to the action in the step.</p>
+
+<div class="steps-grid">
+
+  <!-- 1. Dice onion -->
+  <div class="step-card">
+    <div class="illus-bg">
+      <svg viewBox="0 0 90 90" fill="none">
+        <!-- cutting board -->
+        <rect x="8" y="54" width="74" height="22" rx="5" fill="#8B6340" opacity="0.6"/>
+        <!-- onion half -->
+        <ellipse cx="38" cy="50" rx="18" ry="14" fill="#D4A843" opacity="0.7"/>
+        <ellipse cx="38" cy="50" rx="13" ry="10" fill="#E8C060" opacity="0.5"/>
+        <ellipse cx="38" cy="50" rx="8" ry="6" fill="#F0D080" opacity="0.4"/>
+        <line x1="20" y1="50" x2="56" y2="50" stroke="#B07D56" stroke-width="0.8" opacity="0.5"/>
+        <line x1="28" y1="38" x2="28" y2="62" stroke="#B07D56" stroke-width="0.8" opacity="0.5"/>
+        <line x1="38" y1="36" x2="38" y2="64" stroke="#B07D56" stroke-width="0.8" opacity="0.5"/>
+        <line x1="48" y1="38" x2="48" y2="62" stroke="#B07D56" stroke-width="0.8" opacity="0.5"/>
+        <!-- knife -->
+        <rect x="54" y="28" width="4" height="30" rx="1" fill="#B0B8C0" opacity="0.8"/>
+        <path d="M54 28 L58 28 L60 58 L54 58 Z" fill="#9aa0a8" opacity="0.5"/>
+        <rect x="53" y="56" width="6" height="8" rx="2" fill="#8B6340" opacity="0.9"/>
+      </svg>
+    </div>
+    <div class="scrim">
+      <div class="step-counter">Step 1 of 5</div>
+      <div class="step-duration">~ 3 min</div>
+      <div class="step-heading">Dice the onion finely</div>
+      <div class="step-body">Halve through the root, peel, make horizontal cuts then slice down. Keep the root intact so it holds together as you work.</div>
+    </div>
+  </div>
+
+  <!-- 2. Sauté / soften -->
+  <div class="step-card">
+    <div class="illus-bg">
+      <svg viewBox="0 0 90 90" fill="none">
+        <!-- pan -->
+        <ellipse cx="45" cy="68" rx="34" ry="7" fill="#181410" opacity="0.5"/>
+        <rect x="11" y="42" width="68" height="26" rx="7" fill="#2d2926"/>
+        <rect x="15" y="46" width="60" height="18" rx="5" fill="#1e1a17"/>
+        <!-- onion pieces in pan -->
+        <ellipse cx="32" cy="55" rx="9" ry="5" fill="#D4A843" opacity="0.6"/>
+        <ellipse cx="45" cy="53" rx="8" ry="4" fill="#E8C060" opacity="0.5"/>
+        <ellipse cx="57" cy="55" rx="7" ry="4" fill="#D4A843" opacity="0.55"/>
+        <!-- handle -->
+        <rect x="79" y="49" width="13" height="6" rx="3" fill="#4a4744" opacity="0.8"/>
+        <!-- steam -->
+        <path d="M30 42 Q28 35 32 30" stroke="#EFE3CE" stroke-width="1.2" opacity="0.2" fill="none" stroke-linecap="round"/>
+        <path d="M45 42 Q43 35 47 30" stroke="#EFE3CE" stroke-width="1.2" opacity="0.2" fill="none" stroke-linecap="round"/>
+        <path d="M60 42 Q58 35 62 30" stroke="#EFE3CE" stroke-width="1.2" opacity="0.2" fill="none" stroke-linecap="round"/>
+        <!-- flame -->
+        <path d="M25 42 Q22 36 28 32 Q24 38 32 36 Q26 30 36 28 Q32 38 38 34 Q36 42 30 42Z" fill="#F97316" opacity="0.55"/>
+        <path d="M50 42 Q48 36 53 32 Q50 38 57 36 Q52 30 60 28 Q57 38 62 34 Q60 42 54 42Z" fill="#F97316" opacity="0.5"/>
+      </svg>
+    </div>
+    <div class="scrim">
+      <div class="step-counter">Step 2 of 5</div>
+      <div class="step-duration">~ 8 min</div>
+      <div class="step-heading">Soften the onion in oil</div>
+      <div class="step-body">Cook over medium heat, stirring occasionally, until translucent and just starting to turn golden at the edges.</div>
+      <div class="pro-tip">✦ Don't rush this — soft sweet onions are the base of the whole dish.</div>
+    </div>
+  </div>
+
+  <!-- 3. Add spices / bloom -->
+  <div class="step-card">
+    <div class="illus-bg">
+      <svg viewBox="0 0 90 90" fill="none">
+        <!-- small bowl -->
+        <ellipse cx="45" cy="62" rx="24" ry="8" fill="#2d2926" opacity="0.8"/>
+        <path d="M21 54 Q21 70 45 70 Q69 70 69 54 Z" fill="#2d2926" opacity="0.7"/>
+        <!-- spice mounds -->
+        <ellipse cx="36" cy="53" rx="8" ry="4" fill="#C8522A" opacity="0.8"/>
+        <ellipse cx="50" cy="52" rx="7" ry="3.5" fill="#D4A843" opacity="0.7"/>
+        <ellipse cx="42" cy="56" rx="6" ry="3" fill="#8B4513" opacity="0.6"/>
+        <!-- spoon -->
+        <ellipse cx="65" cy="38" rx="5" ry="3" fill="#B0B8C0" opacity="0.7"/>
+        <line x1="65" y1="40" x2="60" y2="58" stroke="#B0B8C0" stroke-width="1.5" opacity="0.6"/>
+        <!-- particles floating up -->
+        <circle cx="38" cy="44" r="1.2" fill="#C8522A" opacity="0.4"/>
+        <circle cx="46" cy="40" r="1" fill="#D4A843" opacity="0.4"/>
+        <circle cx="52" cy="44" r="1.2" fill="#C8522A" opacity="0.35"/>
+        <circle cx="30" cy="42" r="0.8" fill="#D4A843" opacity="0.3"/>
+      </svg>
+    </div>
+    <div class="scrim">
+      <div class="step-counter">Step 3 of 5</div>
+      <div class="step-duration">~ 1 min</div>
+      <div class="step-heading">Bloom the spices</div>
+      <div class="step-body">Add cumin, paprika and coriander directly to the pan. Stir constantly for 60 seconds until fragrant — the heat unlocks the oils.</div>
+      <div class="pro-tip">✦ Pull from the heat if anything smells like it's burning. Scorched spices are bitter.</div>
+    </div>
+  </div>
+
+  <!-- 4. Simmer / reduce -->
+  <div class="step-card">
+    <div class="illus-bg">
+      <svg viewBox="0 0 90 90" fill="none">
+        <!-- pot -->
+        <ellipse cx="45" cy="70" rx="30" ry="7" fill="#181410" opacity="0.4"/>
+        <rect x="14" y="38" width="62" height="32" rx="8" fill="#3a3634"/>
+        <!-- lid -->
+        <rect x="12" y="33" width="66" height="8" rx="4" fill="#4a4644"/>
+        <ellipse cx="45" cy="33" rx="8" ry="4" fill="#5a5654"/>
+        <!-- handles -->
+        <rect x="4" y="46" width="10" height="8" rx="4" fill="#4a4644"/>
+        <rect x="76" y="46" width="10" height="8" rx="4" fill="#4a4644"/>
+        <!-- bubbles showing through -->
+        <circle cx="35" cy="55" r="4" fill="#B83232" opacity="0.35"/>
+        <circle cx="50" cy="58" r="5" fill="#B83232" opacity="0.3"/>
+        <circle cx="60" cy="53" r="3" fill="#B83232" opacity="0.32"/>
+        <!-- steam from lid gap -->
+        <path d="M35 33 Q33 26 37 22" stroke="#EFE3CE" stroke-width="1.3" opacity="0.18" fill="none" stroke-linecap="round"/>
+        <path d="M55 33 Q53 26 57 22" stroke="#EFE3CE" stroke-width="1.3" opacity="0.18" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="scrim">
+      <div class="step-counter">Step 4 of 5</div>
+      <div class="step-duration">~ 15 min</div>
+      <div class="step-heading">Simmer with the lid on</div>
+      <div class="step-body">Reduce heat to low, cover, and let it bubble gently. Stir every few minutes and add a splash of water if the sauce thickens too fast.</div>
+    </div>
+  </div>
+
+  <!-- 5. Plate / serve -->
+  <div class="step-card">
+    <div class="illus-bg">
+      <svg viewBox="0 0 90 90" fill="none">
+        <!-- plate -->
+        <ellipse cx="45" cy="58" rx="32" ry="10" fill="#e8e0d4" opacity="0.15"/>
+        <ellipse cx="45" cy="56" rx="30" ry="9" fill="#EFE3CE" opacity="0.2"/>
+        <ellipse cx="45" cy="54" rx="22" ry="7" fill="#EFE3CE" opacity="0.12"/>
+        <!-- food zones -->
+        <ellipse cx="38" cy="52" rx="11" ry="7" fill="#C8522A" opacity="0.55"/>
+        <ellipse cx="53" cy="53" rx="9" ry="6" fill="#D4A843" opacity="0.5"/>
+        <ellipse cx="44" cy="57" rx="8" ry="4" fill="#4a7a2a" opacity="0.45"/>
+        <!-- sauce swipe -->
+        <path d="M20 62 Q35 58 55 60" stroke="#B83232" stroke-width="3" opacity="0.3" fill="none" stroke-linecap="round"/>
+        <!-- herb dots -->
+        <circle cx="42" cy="48" r="1.2" fill="#4a7a2a" opacity="0.7"/>
+        <circle cx="50" cy="50" r="1" fill="#4a7a2a" opacity="0.6"/>
+        <circle cx="36" cy="50" r="0.9" fill="#4a7a2a" opacity="0.65"/>
+      </svg>
+    </div>
+    <div class="scrim">
+      <div class="step-counter">Step 5 of 5</div>
+      <div class="step-duration">~ 2 min</div>
+      <div class="step-heading">Plate and serve immediately</div>
+      <div class="step-body">Spoon the shakshuka straight from the pan. Top with fresh parsley and a drizzle of good olive oil. Serve with crusty bread alongside.</div>
+      <div class="pro-tip">✦ Serve in the pan at the table for the best presentation and to keep it hot.</div>
+    </div>
+  </div>
+
+  <!-- 6. Knead / shape dough (different recipe) -->
+  <div class="step-card">
+    <div class="illus-bg">
+      <svg viewBox="0 0 90 90" fill="none">
+        <!-- dough mass -->
+        <ellipse cx="45" cy="58" rx="28" ry="14" fill="#EDD170" opacity="0.4"/>
+        <ellipse cx="45" cy="56" rx="24" ry="12" fill="#EDD170" opacity="0.5"/>
+        <!-- hands -->
+        <path d="M18 46 Q22 38 30 42 Q26 50 22 52 Q18 50 18 46Z" fill="#FDDCB5" opacity="0.8"/>
+        <path d="M72 46 Q68 38 60 42 Q64 50 68 52 Q72 50 72 46Z" fill="#FDDCB5" opacity="0.8"/>
+        <!-- push arrows -->
+        <path d="M10 54 L18 50" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+        <path d="M10 54 L14 58" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+        <path d="M80 54 L72 50" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+        <path d="M80 54 L76 58" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+        <!-- flour dusting -->
+        <circle cx="35" cy="68" r="1" fill="#EFE3CE" opacity="0.3"/>
+        <circle cx="52" cy="70" r="1.2" fill="#EFE3CE" opacity="0.25"/>
+        <circle cx="44" cy="72" r="0.8" fill="#EFE3CE" opacity="0.28"/>
+      </svg>
+    </div>
+    <div class="scrim">
+      <div class="step-counter">Step 3 of 6</div>
+      <div class="step-duration">~ 8 min</div>
+      <div class="step-heading">Knead until smooth</div>
+      <div class="step-body">Push the heel of your hand into the dough, fold back, rotate 90°, repeat. You're done when the surface is smooth and springs back when poked.</div>
+      <div class="pro-tip">✦ If the dough tears instead of stretching, rest it for 5 minutes and try again.</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top: 20px">Six step types: dice, sauté, bloom spices, simmer, plate, knead. Each illustration is purpose-drawn for the action. How does the system feel across different steps?</p>

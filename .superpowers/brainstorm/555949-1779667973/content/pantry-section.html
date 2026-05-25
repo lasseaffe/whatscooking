@@ -1,0 +1,245 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+  .section-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2A1804;
+    background: #120A04;
+    margin-bottom: 6px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* ── OPTION A: current (for reference) ── */
+  .opt-a { padding: 16px; }
+  .opt-a-heading { font-size: 13px; font-weight: 700; color: #EFE3CE; margin-bottom: 12px; }
+  .opt-a-banner {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px; border-radius: 10px;
+    background: rgba(244,162,97,0.08); border: 1px solid rgba(244,162,97,0.2);
+    margin-bottom: 10px;
+  }
+  .opt-a-banner-text { flex: 1; }
+  .opt-a-banner-text p { font-size: 11px; color: #EFE3CE; font-weight: 600; margin: 0; }
+  .opt-a-banner-text span { font-size: 10px; color: #8A6A4A; }
+  .opt-a-btn { font-size: 11px; font-weight: 700; padding: 5px 10px; border-radius: 6px; background: #F4A261; color: #1C0E04; white-space: nowrap; }
+  .opt-a-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .opt-a-card { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 10px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07); }
+  .opt-a-thumb { width: 32px; height: 32px; border-radius: 6px; background: linear-gradient(135deg, #5A2E10, #2A1208); flex-shrink: 0; }
+  .opt-a-card p { font-size: 10px; font-weight: 600; color: #EFE3CE; margin: 0; line-height: 1.3; }
+  .opt-a-card span { font-size: 9px; color: #8A6A4A; }
+
+  /* ── OPTION B: Immersive pantry hero ── */
+  .opt-b {
+    position: relative;
+    overflow: hidden;
+  }
+  .opt-b-hero {
+    padding: 18px 16px 14px;
+    background: linear-gradient(135deg, rgba(200,120,42,0.12) 0%, transparent 60%);
+    border-bottom: 1px solid rgba(244,162,97,0.12);
+    position: relative;
+  }
+  .opt-b-ingredient-pill {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 3px 8px; border-radius: 20px;
+    background: rgba(244,162,97,0.1); border: 1px solid rgba(244,162,97,0.2);
+    font-size: 9px; color: #F4A261; font-weight: 600;
+    margin: 2px;
+  }
+  .opt-b-title { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: #EFE3CE; margin: 8px 0 4px; line-height: 1.2; }
+  .opt-b-sub { font-size: 10px; color: rgba(239,227,206,0.5); margin: 0 0 10px; }
+  .opt-b-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 14px; border-radius: 20px;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    font-size: 11px; font-weight: 700; color: white;
+    box-shadow: 0 4px 14px rgba(200,90,47,0.4);
+  }
+  .opt-b-recipes {
+    padding: 12px 16px;
+  }
+  .opt-b-recipe-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .opt-b-recipe-row:last-child { border-bottom: none; }
+  .opt-b-thumb {
+    width: 48px; height: 48px; border-radius: 8px; flex-shrink: 0;
+    position: relative; overflow: hidden;
+  }
+  .opt-b-thumb-img { width: 100%; height: 100%; background: linear-gradient(135deg, #5A2E10, #2A1208); }
+  .opt-b-match-badge {
+    position: absolute; bottom: 2px; right: 2px;
+    background: rgba(22,14,8,0.85); border-radius: 4px;
+    font-size: 8px; color: #F4A261; font-weight: 700; padding: 1px 3px;
+  }
+  .opt-b-recipe-info { flex: 1; min-width: 0; }
+  .opt-b-recipe-info p { font-size: 11px; font-weight: 600; color: #EFE3CE; margin: 0 0 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .opt-b-recipe-info span { font-size: 9px; color: #8A6A4A; }
+  .opt-b-progress { height: 3px; border-radius: 2px; background: rgba(255,255,255,0.08); margin-top: 4px; }
+  .opt-b-progress-fill { height: 100%; border-radius: 2px; background: linear-gradient(90deg, #C85A2F, #F4A261); }
+
+  /* ── OPTION C: Full-bleed editorial card ── */
+  .opt-c { }
+  .opt-c-top {
+    height: 90px;
+    background: linear-gradient(135deg, #3A1C08 0%, #1C0A04 100%);
+    position: relative;
+    display: flex; align-items: center;
+    padding: 0 16px;
+    gap: 12px;
+    overflow: hidden;
+  }
+  .opt-c-bg-text {
+    position: absolute; right: -10px; top: -10px;
+    font-size: 80px; opacity: 0.06; line-height: 1;
+    pointer-events: none;
+  }
+  .opt-c-icon { font-size: 32px; }
+  .opt-c-top-text h3 { font-family: 'Playfair Display', serif; font-size: 17px; font-style: italic; color: #EFE3CE; margin: 0 0 2px; }
+  .opt-c-top-text p { font-size: 10px; color: rgba(244,162,97,0.7); margin: 0; }
+  .opt-c-tag-row { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 5px; }
+  .opt-c-tag { font-size: 8px; padding: 2px 6px; border-radius: 10px; background: rgba(200,90,47,0.15); color: #E8834A; border: 1px solid rgba(200,90,47,0.2); }
+  .opt-c-bottom {
+    padding: 10px 16px 14px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+  }
+  .opt-c-recipe {
+    border-radius: 10px; overflow: hidden;
+    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07);
+    position: relative;
+  }
+  .opt-c-recipe-img { height: 55px; background: linear-gradient(135deg, #5A2E10, #2A1208); position: relative; }
+  .opt-c-recipe-img-2 { background: linear-gradient(135deg, #3A1A08, #1C0A02); }
+  .opt-c-recipe-badge {
+    position: absolute; top: 4px; right: 4px;
+    font-size: 8px; font-weight: 700;
+    background: rgba(22,14,8,0.85); color: #F4A261;
+    padding: 1px 5px; border-radius: 8px;
+  }
+  .opt-c-recipe-body { padding: 6px 8px; }
+  .opt-c-recipe-body p { font-size: 10px; font-weight: 600; color: #EFE3CE; margin: 0 0 3px; line-height: 1.2; }
+  .opt-c-recipe-bar { height: 2px; background: rgba(255,255,255,0.06); border-radius: 1px; }
+  .opt-c-recipe-fill { height: 100%; background: linear-gradient(90deg, #C85A2F, #F4A261); border-radius: 1px; }
+  .opt-c-cta-strip {
+    margin: 0 16px 14px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(200,90,47,0.12), rgba(232,131,74,0.06));
+    border: 1px solid rgba(200,90,47,0.2);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .opt-c-cta-strip span { font-size: 10px; color: rgba(239,227,206,0.7); }
+  .opt-c-cta-strip a { font-size: 10px; font-weight: 700; color: #E8834A; }
+</style>
+
+<h2>Cook from Pantry — Design Direction</h2>
+<p class="subtitle">Currently: a plain banner + 2 tiny cards. Make it genuinely enticing — you have real ingredients, real matches.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="section-wrap opt-a">
+        <div class="opt-a-heading">🧺 Cook from Pantry</div>
+        <div class="opt-a-banner">
+          <span style="font-size:18px;">🥦</span>
+          <div class="opt-a-banner-text">
+            <p>12 recipes match your pantry</p>
+            <span>Based on 8 pantry items</span>
+          </div>
+          <div class="opt-a-btn">View</div>
+        </div>
+        <div class="opt-a-grid">
+          <div class="opt-a-card"><div class="opt-a-thumb"></div><div><p>Butter Chicken</p><span>5 / 8 ingredients</span></div></div>
+          <div class="opt-a-card"><div class="opt-a-thumb"></div><div><p>Veggie Stir Fry</p><span>6 / 9 ingredients</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Current (flat list)</h3>
+      <p>Functional but boring. Doesn't feel exciting or personal.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="section-wrap opt-b">
+        <div class="opt-b-hero">
+          <div>
+            <span class="opt-b-ingredient-pill">🧅 Onion</span>
+            <span class="opt-b-ingredient-pill">🍅 Tomato</span>
+            <span class="opt-b-ingredient-pill">🧄 Garlic</span>
+            <span class="opt-b-ingredient-pill">+5 more</span>
+          </div>
+          <div class="opt-b-title">Cook without shopping.</div>
+          <div class="opt-b-sub">12 recipes you can make right now</div>
+          <div class="opt-b-cta">⚡ Show my matches</div>
+        </div>
+        <div class="opt-b-recipes">
+          <div class="opt-b-recipe-row">
+            <div class="opt-b-thumb"><div class="opt-b-thumb-img"></div><div class="opt-b-match-badge">83%</div></div>
+            <div class="opt-b-recipe-info">
+              <p>Butter Chicken</p>
+              <span>5 of 6 ingredients in pantry</span>
+              <div class="opt-b-progress"><div class="opt-b-progress-fill" style="width:83%"></div></div>
+            </div>
+          </div>
+          <div class="opt-b-recipe-row">
+            <div class="opt-b-thumb"><div class="opt-b-thumb-img"></div><div class="opt-b-match-badge">67%</div></div>
+            <div class="opt-b-recipe-info">
+              <p>Veggie Stir Fry</p>
+              <span>4 of 6 ingredients in pantry</span>
+              <div class="opt-b-progress"><div class="opt-b-progress-fill" style="width:67%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Ingredient pills + match bars ★ Recommended</h3>
+      <p>Shows your actual pantry ingredients. "Cook without shopping" framing. Match % progress bars make it feel smart.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="section-wrap opt-c">
+        <div class="opt-c-top">
+          <div class="opt-c-bg-text">🧺</div>
+          <div class="opt-c-icon">🍳</div>
+          <div class="opt-c-top-text">
+            <h3>What's in your kitchen?</h3>
+            <p>12 recipes ready to make · 8 pantry items</p>
+            <div class="opt-c-tag-row">
+              <span class="opt-c-tag">🧅 Onion</span>
+              <span class="opt-c-tag">🍅 Tomato</span>
+              <span class="opt-c-tag">🧄 Garlic</span>
+            </div>
+          </div>
+        </div>
+        <div class="opt-c-bottom">
+          <div class="opt-c-recipe">
+            <div class="opt-c-recipe-img"><div class="opt-c-recipe-badge">83%</div></div>
+            <div class="opt-c-recipe-body"><p>Butter Chicken</p><div class="opt-c-recipe-bar"><div class="opt-c-recipe-fill" style="width:83%"></div></div></div>
+          </div>
+          <div class="opt-c-recipe">
+            <div class="opt-c-recipe-img opt-c-recipe-img-2"><div class="opt-c-recipe-badge">67%</div></div>
+            <div class="opt-c-recipe-body"><p>Veggie Stir Fry</p><div class="opt-c-recipe-bar"><div class="opt-c-recipe-fill" style="width:67%"></div></div></div>
+          </div>
+        </div>
+        <div class="opt-c-cta-strip">
+          <span>+10 more recipes match</span>
+          <a>View all pantry matches →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Editorial card with full-bleed header</h3>
+      <p>"What's in your kitchen?" framing. Large header area, image cards with match bars, "+10 more" CTA strip at bottom.</p>
+    </div>
+  </div>
+
+</div>

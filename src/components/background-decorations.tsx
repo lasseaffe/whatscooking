@@ -1,6 +1,10 @@
 "use client";
 
+import { useBgMode } from "@/lib/bg-mode-context";
+
 export function BackgroundDecorations() {
+  const { opacity } = useBgMode();
+
   return (
     <div
       aria-hidden="true"
@@ -11,8 +15,9 @@ export function BackgroundDecorations() {
         zIndex: 0,
         backgroundImage: "url('/kitchen-pattern.png')",
         backgroundRepeat: "repeat",
-        backgroundSize: "auto",
-        opacity: 1,
+        backgroundSize: "4200px auto",
+        opacity,
+        transition: "opacity 0.4s ease",
       }}
     />
   );

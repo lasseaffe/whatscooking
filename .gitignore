@@ -1,3 +1,7 @@
+# Script runtime artifacts
+scripts/.fix-images-checkpoint.json
+audit-report.json
+
 # Environment files
 .env
 .env.local

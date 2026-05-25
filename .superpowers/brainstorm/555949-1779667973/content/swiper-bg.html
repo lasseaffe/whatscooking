@@ -1,0 +1,199 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400&family=Inter:wght@400;500&display=swap');
+
+  .swiper-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2A1804;
+    margin-bottom: 6px;
+    position: relative;
+  }
+  .card-body-area {
+    height: 240px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
+  .card-label {
+    position: relative; z-index: 2;
+    padding: 14px 16px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #EFE3CE;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.9);
+    width: 100%;
+  }
+  .card-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: rgba(244,162,97,0.65);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+  .btn-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0 16px;
+    gap: 20px;
+  }
+  .btn-x {
+    width: 60px; height: 60px; border-radius: 50%;
+    background: rgba(200,90,47,0.1);
+    border: 2px solid rgba(200,90,47,0.5);
+    display: flex; align-items: center; justify-content: center;
+    color: #C85A2F; font-size: 24px;
+  }
+  .btn-heart {
+    width: 72px; height: 72px; border-radius: 50%;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 30px;
+    box-shadow: 0 6px 28px rgba(200,90,47,0.5);
+  }
+
+  /* A — current grey (problem) */
+  .bg-a { background: #2C2724; }
+  .bg-a .btn-bar { background: #2C2724; }
+  .bg-a-img {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #555 0%, #333 100%);
+    opacity: 0.5;
+  }
+  .bg-a-grad {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 30%, rgba(44,39,36,0.95) 100%);
+    z-index: 1;
+  }
+
+  /* B — warm walnut floor */
+  .bg-b { background: #1C0E04; }
+  .bg-b .btn-bar { background: #1C0E04; border-top: 1px solid #2A1804; }
+  .bg-b-img {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #5A2E10 0%, #2A1208 60%, #3A1A08 100%);
+    opacity: 0.8;
+  }
+  .bg-b-grad {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 25%, rgba(28,14,4,0.97) 100%);
+    z-index: 1;
+  }
+
+  /* C — palette-reactive: uses the user's chosen accent */
+  .bg-c { background: #150C05; }
+  .bg-c .btn-bar {
+    background: linear-gradient(180deg, #150C05 0%, rgba(21,12,5,0.95) 100%);
+    border-top: 1px solid rgba(176,112,64,0.2);
+  }
+  .bg-c-img {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #6A3515 0%, #2A1208 55%, #4A2010 100%);
+    opacity: 0.85;
+  }
+  .bg-c-grad {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 20%, rgba(21,12,5,0.98) 100%);
+    z-index: 1;
+  }
+  .accent-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #C85A2F, #E8834A, #F4A261);
+    z-index: 3;
+    opacity: 0.8;
+  }
+  .palette-dot-row {
+    position: absolute; top: 10px; right: 10px; z-index: 3;
+    display: flex; gap: 4px;
+  }
+  .palette-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+</style>
+
+<h2>Swiper Card Background</h2>
+<p class="subtitle">The grey (#2C2724) breaks the warm WC palette. Pick the floor color for the swiper card and button bar.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="swiper-wrap bg-a">
+        <div class="card-body-area">
+          <div class="bg-a-img"></div>
+          <div class="bg-a-grad"></div>
+          <div class="card-label">
+            Apple Nut Cinnamon Muffins
+            <div class="card-sub">Baking · 45 min</div>
+          </div>
+        </div>
+        <div class="btn-bar">
+          <div class="btn-x">✕</div>
+          <div class="btn-heart">♥</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Current grey (#2C2724)</h3>
+      <p>The problem state. Cool grey clashes with the warm saffron/persimmon palette of everything else.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="swiper-wrap bg-b">
+        <div class="card-body-area">
+          <div class="bg-b-img"></div>
+          <div class="bg-b-grad"></div>
+          <div class="card-label">
+            Apple Nut Cinnamon Muffins
+            <div class="card-sub">Baking · 45 min</div>
+          </div>
+        </div>
+        <div class="btn-bar">
+          <div class="btn-x">✕</div>
+          <div class="btn-heart">♥</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Walnut floor (#1C0E04) ★ Recommended</h3>
+      <p>Deep warm dark brown. Consistent with the rest of WC. Card image blends into the floor naturally.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="swiper-wrap bg-c">
+        <div class="card-body-area">
+          <div class="bg-c-img"></div>
+          <div class="bg-c-grad"></div>
+          <div class="accent-bar"></div>
+          <div class="palette-dot-row">
+            <div class="palette-dot" style="background:#C85A2F;"></div>
+            <div class="palette-dot" style="background:#E8834A;"></div>
+            <div class="palette-dot" style="background:#F4A261;"></div>
+          </div>
+          <div class="card-label">
+            Apple Nut Cinnamon Muffins
+            <div class="card-sub">Baking · 45 min</div>
+          </div>
+        </div>
+        <div class="btn-bar">
+          <div class="btn-x">✕</div>
+          <div class="btn-heart">♥</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Palette-reactive (#150C05 + accent bar)</h3>
+      <p>Near-black floor with a 3px gradient accent bar at top that shifts with user's chosen color palette. More dynamic — signals the palette is "active."</p>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birria Tacos v1</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,600&family=Inter:wght@200;300;400&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #060300;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 24px 16px;
+    font-family: Inter, sans-serif;
+  }
+
+  .poster {
+    width: 100%; max-width: 500px; aspect-ratio: 2/3;
+    position: relative; overflow: hidden; cursor: pointer;
+    border: 1px solid transparent; transition: border-color 0.3s;
+    background: #130A04;
+  }
+  .poster:hover    { border-color: rgba(232,71,10,0.4); }
+  .poster.selected { border-color: rgba(232,71,10,0.75); }
+
+  /* atmospheric fire washes — ember, deep red, amber */
+  .washes {
+    position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background:
+      radial-gradient(ellipse 65% 50% at 22% 18%, rgba(232,71,10,0.14) 0%, transparent 58%),
+      radial-gradient(ellipse 50% 45% at 82% 80%, rgba(180,30,10,0.11) 0%, transparent 55%),
+      radial-gradient(ellipse 40% 35% at 88% 20%, rgba(212,134,10,0.09) 0%, transparent 50%);
+  }
+
+  .photo-zone {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 44%; z-index: 3; overflow: hidden;
+  }
+  .photo-zone img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center 38%;
+    filter: saturate(1.15) brightness(0.85) contrast(1.04);
+    animation: kenBurns 22s ease-in-out infinite;
+    transform-origin: center center;
+  }
+  @keyframes kenBurns {
+    0%   { transform: scale(1.0) translate(0,0); }
+    35%  { transform: scale(1.07) translate(-3px,-2px); }
+    70%  { transform: scale(1.10) translate(4px,3px); }
+    100% { transform: scale(1.0) translate(0,0); }
+  }
+  .photo-fallback {
+    width: 100%; height: 100%;
+    background: linear-gradient(#8B1A0A, #130A04);
+    display: flex; align-items: center; justify-content: center; font-size: 90px;
+  }
+  .photo-fade {
+    position: absolute; top: 0; left: 0; right: 0; height: 44%;
+    z-index: 4; pointer-events: none;
+    background: linear-gradient(to bottom, transparent 50%, rgba(19,10,4,0.68) 80%, #130A04 100%);
+  }
+
+  .content {
+    position: absolute; inset: 0; z-index: 9;
+    display: flex; flex-direction: column; padding: 20px 28px 22px;
+  }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .provenance {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(245,232,210,0.68); line-height: 1.9;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.7);
+  }
+  .no {
+    font-family: 'Cormorant Garamond', serif; font-size: 10px; font-style: italic;
+    color: rgba(232,71,10,0.72); letter-spacing: 2px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  }
+  .bottom { margin-top: auto; }
+  .recipe-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(46px, 9.5vw, 70px);
+    font-style: italic; line-height: 0.88; letter-spacing: -1px;
+    color: #F5EDDB;
+  }
+  .scroll-divider { display: flex; align-items: center; gap: 6px; margin: 10px 0 8px; }
+  .scroll-divider .arm { flex: 1; height: 1px; background: rgba(232,71,10,0.32); }
+  .sub-label {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(232,71,10,0.62); margin-bottom: 9px;
+  }
+  .description {
+    font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 14.5px;
+    color: rgba(245,232,210,0.52); line-height: 1.72; max-width: 320px; margin-bottom: 10px;
+  }
+  .double-rule { display: flex; flex-direction: column; gap: 2px; margin-bottom: 9px; }
+  .double-rule .r1 { height: 1px; background: rgba(232,71,10,0.40); }
+  .double-rule .r2 { width: 44px; height: 1px; background: rgba(212,134,10,0.20); }
+  .ingr-label {
+    font-size: 7px; letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(232,71,10,0.42); margin-bottom: 6px;
+  }
+  .ingr-list { list-style: none; display: flex; flex-direction: column; gap: 3px; margin-bottom: 9px; }
+  .ingr-list li {
+    font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: rgba(245,232,210,0.36); display: flex; align-items: center; gap: 7px;
+  }
+  .ingr-list li::before {
+    content:''; display:block; width:8px; height:1px;
+    background: rgba(232,71,10,0.45); flex-shrink:0;
+  }
+  .meta-row { display: flex; gap: 18px; margin-bottom: 9px; }
+  .meta-item { font-size: 8px; letter-spacing: 3px; text-transform: uppercase; color: rgba(245,232,210,0.28); }
+  .meta-item span { color: rgba(245,232,210,0.58); }
+  .citation-block { border-top: 1px solid rgba(232,71,10,0.18); padding-top: 7px; }
+  .citation-ref {
+    font-size: 7px; letter-spacing: 3px; text-transform: uppercase;
+    color: rgba(212,134,10,0.60); margin-bottom: 3px;
+  }
+  .citation-text {
+    font-family: 'Cormorant Garamond', serif; font-style: italic;
+    font-size: 11px; color: rgba(245,232,210,0.40); line-height: 1.65;
+  }
+  .citation-source {
+    margin-top: 3px; font-size: 7px; letter-spacing: 1.5px;
+    color: rgba(232,71,10,0.28); text-transform: uppercase;
+  }
+
+  /* hover: Spanish → English */
+  .es { position: relative; border-bottom: 1px dotted rgba(232,71,10,0.30); cursor: help; }
+  .es::after {
+    content: attr(data-en);
+    position: absolute; bottom: calc(100% + 5px); left: 50%;
+    transform: translateX(-50%);
+    background: rgba(12,6,2,0.97); border: 1px solid rgba(232,71,10,0.28);
+    color: rgba(245,232,210,0.92); padding: 4px 10px; font-size: 10px; letter-spacing: 1.5px;
+    white-space: nowrap; border-radius: 2px;
+    font-family: Inter, sans-serif; font-style: normal; text-transform: none;
+    z-index: 20; pointer-events: none; opacity: 0; transition: opacity 0.15s;
+  }
+  .es:hover::after { opacity: 1; }
+</style>
+<script>function sel(el){el.classList.toggle('selected');try{fetch('/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'click',choice:'birria-v1',timestamp:Date.now()})});}catch(e){}}</script>
+</head>
+<body>
+
+<div style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#8b3a08;margin-bottom:12px">
+  Birria Tacos · v1 · volcanic black · Aztec stepped diamond monogram
+</div>
+
+<div class="poster" onclick="sel(this)">
+
+  <!--
+    AZTEC STEPPED DIAMOND MONOGRAM
+    Tile: 24×24px. Outer diamond (step=3): spans full tile, points at edge midpoints.
+    Inner diamond (step=2): centered at (12,12), spans (6,6)→(18,18).
+    Nested stepped diamonds = classic Mesoamerican geometric motif.
+    Overall SVG opacity: 0.092
+  -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;opacity:0.092"
+       xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="aztec-diamond" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+
+        <!-- outer stepped diamond — step 3px, spans 0–24 with points at edge midpoints -->
+        <path d="M12,0 L15,0 L15,3 L18,3 L18,6 L21,6 L21,9 L24,9
+                 L24,12 L24,15 L21,15 L21,18 L18,18 L18,21 L15,21 L15,24
+                 L12,24 L9,24 L9,21 L6,21 L6,18 L3,18 L3,15 L0,15
+                 L0,12 L0,9 L3,9 L3,6 L6,6 L6,3 L9,3 L9,0 Z"
+              fill="rgba(232,71,10,0.05)" stroke="#C45A0A" stroke-width="0.55" stroke-linejoin="miter"/>
+
+        <!-- inner stepped diamond — step 2px, spans (6,6)→(18,18) -->
+        <path d="M12,6 L14,6 L14,8 L16,8 L16,10 L18,10 L18,12
+                 L18,14 L16,14 L16,16 L14,16 L14,18 L12,18
+                 L10,18 L10,16 L8,16 L8,14 L6,14 L6,12
+                 L6,10 L8,10 L8,8 L10,8 L10,6 Z"
+              fill="rgba(212,134,10,0.04)" stroke="#B85A08" stroke-width="0.45" stroke-linejoin="miter"/>
+
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#aztec-diamond)"/>
+  </svg>
+
+  <div class="washes"></div>
+
+  <div class="photo-zone">
+    <img
+      src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=500&q=80"
+      alt="Birria Tacos"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="photo-fallback" style="display:none">🌮</div>
+  </div>
+  <div class="photo-fade"></div>
+
+  <!-- editorial double rule — fire tones -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:8;pointer-events:none;overflow:visible"
+       viewBox="0 0 500 750" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+    <line x1="28" y1="320" x2="472" y2="320" stroke="rgba(232,71,10,0.42)" stroke-width="1.5"/>
+    <line x1="28" y1="324" x2="472" y2="324" stroke="rgba(212,134,10,0.18)" stroke-width="0.7"/>
+  </svg>
+
+  <div class="content">
+    <div class="top">
+      <div class="provenance"><span class="es" data-en="Jalisco · Mexico">Jalisco · México</span><br><span class="es" data-en="Since always">Desde siempre</span></div>
+      <div class="no">No. V</div>
+    </div>
+
+    <div class="bottom">
+      <div class="recipe-name">Birria<br>Tacos</div>
+
+      <!-- scroll divider — angular 4-pointed star (Aztec cross motif) -->
+      <div class="scroll-divider">
+        <div class="arm"></div>
+        <svg width="18" height="18" viewBox="-9 -9 18 18" xmlns="http://www.w3.org/2000/svg">
+          <!-- 4-pointed angular star: stepped diamond at small scale -->
+          <path d="M0,-6 L1,-6 L1,-3 L3,-1 L6,-1 L6,0 L6,1 L3,1 L1,3 L1,6 L0,6 L-1,6 L-1,3 L-3,1 L-6,1 L-6,0 L-6,-1 L-3,-1 L-1,-3 L-1,-6 Z"
+                fill="rgba(232,71,10,0.72)"/>
+        </svg>
+        <div class="arm"></div>
+      </div>
+
+      <div class="sub-label">
+        <span class="es" data-en="Braised beef tacos · Bone broth consomé">Tacos de res · <span class="es" data-en="Dipping broth">consomé</span></span>
+      </div>
+
+      <p class="description">
+        In Jalisco, birria was cooked in a hole
+        in the ground. The fire went in first,
+        then the meat. What came out eight hours
+        later isn't dinner. It is an event.
+      </p>
+
+      <div class="double-rule"><div class="r1"></div><div class="r2"></div></div>
+
+      <div class="ingr-label">
+        <span class="es" data-en="Ingredients">Ingredientes</span>
+      </div>
+      <ul class="ingr-list">
+        <li><span class="es" data-en="Beef short rib · bone-in · 1.5kg">Costilla de res · con hueso · 1.5kg</span></li>
+        <li><span class="es" data-en="Guajillo · ancho · pasilla chiles">Chile guajillo · ancho · pasilla</span></li>
+        <li><span class="es" data-en="Cinnamon · clove · Mexican oregano">Canela · clavo · orégano mexicano</span></li>
+        <li><span class="es" data-en="Corn tortillas · white onion · cilantro">Tortillas de maíz · cebolla · cilantro</span></li>
+        <li><span class="es" data-en="Bone broth · lime · salsa verde">Consomé · limón · salsa verde</span></li>
+      </ul>
+
+      <div class="meta-row">
+        <div class="meta-item"><span class="es" data-en="Active">Activo</span> <span>45 min</span></div>
+        <div class="meta-item"><span class="es" data-en="Braise">Brasa</span> <span>8 h</span></div>
+        <div class="meta-item"><span class="es" data-en="Serves">Rinde</span> <span>6</span></div>
+      </div>
+
+      <div class="citation-block">
+        <div class="citation-ref">
+          <span class="es" data-en="Taquero's note">Nota del taquero</span>
+        </div>
+        <div class="citation-text">
+          "You dip the taco in the consomé before you eat it.
+          Anyone who tells you otherwise has never been to Tijuana."
+        </div>
+        <div class="citation-source">
+          — <span class="es" data-en="Unwritten rule · Every taquería · Est. Jalisco">Regla no escrita · Cada taquería · Jalisco</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8b3a08;margin-top:12px;text-align:center">
+  Hover Spanish for English · Click to approve
+</div>
+
+</body>
+</html>

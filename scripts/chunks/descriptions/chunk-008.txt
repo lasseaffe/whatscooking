@@ -1,0 +1,2157 @@
+TITLE: All American Bbq  Bacon Cheeseburgers
+CURRENT_DESCRIPTION: super burger from kraft with minor additions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: barbecue sauce, lean ground beef, american cheese, kaiser rolls, lettuce leaves, tomatoes
+---
+TITLE: All American Beef Chili With Kidney Beans
+CURRENT_DESCRIPTION: cook's country; best to make a day or two in advance for maximum flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onions, red bell pepper, garlic cloves, chili powder, ground cumin
+---
+TITLE: All American Burgers
+CURRENT_DESCRIPTION: just in time for the summer picnic season.  these great burgers are from mccormick's.  serve with your choice of toppings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, ketchup, seasoning, worcestershire sauce, american cheese, hamburger buns
+---
+TITLE: All American Cheese Bread
+CURRENT_DESCRIPTION: land o lakes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian bread, butter, poppy seed, garlic salt, cheddar cheese, monterey jack cheese
+---
+TITLE: All American Cheeseburger Chowder
+CURRENT_DESCRIPTION: great cold weather soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra lean ground beef, bacon, potatoes, onion, celery, green bell pepper
+---
+TITLE: All American Cheeseburger Pizza
+CURRENT_DESCRIPTION: unique and tasty - a real crowd pleaser!  one of the most unique flavors of this recipe is the caramelized onions, so don't skip them!!  i especially love making this in the summer!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked ground beef, ketchup, mustard, caramelized onion, cheddar cheese, mozzarella cheese
+---
+TITLE: All American Cheeseburgers
+CURRENT_DESCRIPTION: these are our favorite burgers to make in the summer or for football parties.  this can easily be increased for a larger crowd.  these burgers are very flavorful, juicy and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, salt, pepper, catsup, garlic powder, process american cheese
+---
+TITLE: All American Chewy Chocolate Chip Cookies
+CURRENT_DESCRIPTION: a delicious, small sized recipe for a baker's dozen of cookies.  originally seen in cookies by the dozen.    please look ingredients over carefully, many items have multiple measurements like flour is 3/4 cup + 2 teaspoons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, unsalted butter, granulated sugar, light brown sugar
+---
+TITLE: all american chicken fried steak with cream gravy
+CURRENT_DESCRIPTION: this recipe steals a technique from fried chicken recipes to come up with a coating for the steaks that stays crispy!  adapted from america's test kitchen family cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt and pepper, cayenne pepper, buttermilk, egg, baking powder
+---
+TITLE: All American Chicken Fried Steak With Cream Gravy
+CURRENT_DESCRIPTION: this recipe steals a technique from fried chicken recipes to come up with a coating for the steaks that stays crispy!  adapted from america's test kitchen family cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt and pepper, cayenne pepper, buttermilk, egg, baking powder
+---
+TITLE: All American Chili
+CURRENT_DESCRIPTION: this is a great hearty chili to feed the family. great anytime.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground sirloin, hot italian sausage, onion, red bell pepper, garlic cloves, jalapeno pepper
+---
+TITLE: All American Chili  Mccormick
+CURRENT_DESCRIPTION: a great and simple chili recipe from mccormick.  not unusual but i couldn't find this on the site already.  easy to monitor your servings because the nutritionals are for a one cup serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, chili powder, cumin, garlic salt, oregano leaves
+---
+TITLE: All American Club
+CURRENT_DESCRIPTION: this recipe is really a "no brainer" -- but i didn't see one like this posted, and with summer just around the corner, thought i would give everyone something to look forward to.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, dijon-style mustard, whole wheat bread, lettuce leaves, american cheese, ham
+---
+TITLE: All American Cowboy Salad
+CURRENT_DESCRIPTION: easy no-cook dinners. good with crusty bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn kernels, cooked ham, tomatoes, monterey jack cheese, red onion, low-fat ranch dressing
+---
+TITLE: All American Fruit Pie
+CURRENT_DESCRIPTION: this used to be my favorite dessert. it hasn't been made in years.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, flour, nutmeg, ginger, sour cream
+---
+TITLE: All American Grilled Cheese With A Twist
+CURRENT_DESCRIPTION: courtesy of cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white bread, sharp cheddar cheese, plum tomatoes, fresh basil, cooking spray
+---
+TITLE: All American Hamburgers
+CURRENT_DESCRIPTION: make your own hamburger mix (not lipton packets in here!)  if you use grass fed beef, the beef doesn't shrink bcz there's not a ton of fat in it!  but you may have to add a little oil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, hamburger buns, pepper, garlic powder, dried parsley, dried onion flakes
+---
+TITLE: All American Hot Dish
+CURRENT_DESCRIPTION: i adopted this recipe in the february 2005 recipe adoption.  this makes an easy and quick weeknight meal that is good and filling.  dh really loves stuff like this.  personally, next time i make this, i will probably add some chili powder or garlic or both to spice it up a little.  i have tried the skillet version only; i have not tried the oven method.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, whole kernel corn, tomato sauce, ripe olives, noodles
+---
+TITLE: All American Jambalaya
+CURRENT_DESCRIPTION: this recipe came from a 4-h cookbook i had back in the early 80's. it's nothing like real jambalaya.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, ground beef, onion, green pepper, tomatoes, bay leaf
+---
+TITLE: All American Jello Salad
+CURRENT_DESCRIPTION: it's fun to mix jello flavors. because it kind of red, white and blue you might consider this salad for a summer gathering as well as just everyday kid stuff
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raspberry gelatin powder, berry blue gelatin mix, boiling water, crushed pineapple, unsweetened blueberries, unsweetened raspberry
+---
+TITLE: All American Loaded Burgers
+CURRENT_DESCRIPTION: this recipe is easy to double or cut in half, so it's great for summer picnics or quiet dinners. recipe is from simple & delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry breadcrumbs, onion, italian salad dressing, eggs, ground beef, kaiser rolls
+---
+TITLE: All American Macaroni   Cheese
+CURRENT_DESCRIPTION: this is my version of an all-american classic.  it is one of my ultimate favorite comfort foods--sinfully rich, gooey-cheesy and tummy-warming on a chilly day.  in my opinion, using varying degrees of cheddar cheese creates the perfect flavor combination.  i have experimented with other cheese combinations but usually return to the classic cheddars.  after making this homemade mac-n-cheese for my husband, he was successfully converted from being a lover of boxed powdered mixes.  be advised that all diets go out the window for this one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: macaroni, butter, onion, garlic clove, flour, milk
+---
+TITLE: All American Macaroni And Cheese
+CURRENT_DESCRIPTION: this is very good homemade macaroni and cheese if you don't have a lot of time on your hands.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: elbow macaroni, butter, cheese, egg, evaporated milk
+---
+TITLE: All American Molasses Baked Beans
+CURRENT_DESCRIPTION: these take awhile, but they are so good and they are very easy and inexpensive to prepare. for an added treat serve them with traditional boston brown bread. soaking time is not reflected in either the prep or cook times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white beans, bay leaves, onion, salt pork, ketchup, dark brown sugar
+---
+TITLE: All American Olive Burgers
+CURRENT_DESCRIPTION: founded by lindsay olives
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ripe olives, lean ground beef, onion, seasoned dry bread crumbs, garlic salt, light mayonnaise
+---
+TITLE: All American Pancakes
+CURRENT_DESCRIPTION: a family favorite from "the best of pancake & waffle recipes" by beatrice ojakangas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, vegetable oil, all-purpose flour, sugar, baking powder
+---
+TITLE: All American Pizza Crust
+CURRENT_DESCRIPTION: this quick rise dough is ready so fast you must prepare your toppings first.  i took this off the back of a yeast package.  for servings, i figured 2 slices per person for 2 pizzas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, fast rise yeast, salt, water, vegetable oil
+---
+TITLE: All American Potato Salad
+CURRENT_DESCRIPTION: this was in the local paper a while back. simple and very good. this does make a small batch but easily doubled or tripled for more servings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, white vinegar, dijon mustard, canola oil, sweet onion, celery
+---
+TITLE: all american ranch spinach shrimp pizza  rsc
+CURRENT_DESCRIPTION: “ready, set, cook! hidden valley contest entry
+ shrimp, spinach, sun-dried tomato, roasted garlic, cheeses and tasty crust, what more do you want? dip you say? here ya go....
+ the original ranch dressing and seasoning dip is stuffed into the crust leaving no crust uneaten! with a side of the dip to dip the crust into. this recipe uses one package of the original ranch dressing and seasoning dip divided amongst the recipe. take note in the photos the crust opens making it a perfect vessel to scoop up the dip. 
+i always have roasted garlic in my refrigerator. if you want try it with fresh sliced very thin and may want to cut back to 2-3 cloves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, oil, hidden valley original ranch dressing and seasoning mix, olive oil, shallot, baby spinach
+---
+TITLE: All American Ranch Spinach Shrimp Pizza  Rsc
+CURRENT_DESCRIPTION: “ready, set, cook! hidden valley contest entry
+ shrimp, spinach, sun-dried tomato, roasted garlic, cheeses and tasty crust, what more do you want? dip you say? here ya go....
+ the original ranch dressing and seasoning dip is stuffed into the crust leaving no crust uneaten! with a side of the dip to dip the crust into. this recipe uses one package of the original ranch dressing and seasoning dip divided amongst the recipe. take note in the photos the crust opens making it a perfect vessel to scoop up the dip. 
+i always have roasted garlic in my refrigerator. if you want try it with fresh sliced very thin and may want to cut back to 2-3 cloves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, oil, hidden valley original ranch dressing and seasoning mix, olive oil, shallot, baby spinach
+---
+TITLE: All American Sloppy Joes  Vegetarian
+CURRENT_DESCRIPTION: i've been searching for a vegetarian sloppy joe recipe i really like, and i finally found it. this one is total comfort food! they remind me a lot of my great aunt's sloppy joes. if you've never cooked with tvp before, give it a try! i started using it recently, and it tastes amazingly like meat! it really takes on the flavor of whatever you cook it with. i got this recipe from heather van vorous at www.helpforibs.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, celery, boiling water, tomato sauce, mild chili powder
+---
+TITLE: all american steak sandwich
+CURRENT_DESCRIPTION: meat, potatoes, and vegetables all in one terrific sandwich. the gem? made all in one pan. enjoy! (made for rsc #16)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sour cream, mayonnaise, fresh basil, vegetable oil, fingerling potatoes, kosher salt
+---
+TITLE: All American Steak Sandwich
+CURRENT_DESCRIPTION: meat, potatoes, and vegetables all in one terrific sandwich. the gem? made all in one pan. enjoy! (made for rsc #16)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sour cream, mayonnaise, fresh basil, vegetable oil, fingerling potatoes, kosher salt
+---
+TITLE: All American Sub
+CURRENT_DESCRIPTION: sub sandwiches are awesome!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, turkey, ham, salami, american cheese, swiss cheese
+---
+TITLE: All American Turkey   Apple Picnic Sandwich
+CURRENT_DESCRIPTION: this is from a local resturant and the best that i can do to duplicate it.  yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey breast, cheddar cheese, honey mustard, granny smith apple, potato bread
+---
+TITLE: All American Wraps
+CURRENT_DESCRIPTION: a great summer "sandwich".  easy to eat while at summer activities. can be cut into smaller pieces and served as a snack
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, flour tortillas, bacon dip, lettuce leaves, cooked turkey breast, tomatoes
+---
+TITLE: All Beef Swedish Meatballs
+CURRENT_DESCRIPTION: i tried the pork version of this recipe and did not like it. so i made my recipe all beef. the family requests this meal to be made.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onions, butter, eggs, salt, pepper
+---
+TITLE: All Bran  Original Jumbo Raisin Spice Cookies
+CURRENT_DESCRIPTION: my mom used to make these years ago, from a recipe she got on an all bran cereal box.  i found this on the kellogg's website, and it sounds right.  they are very yummy!  we just called 'em 'breakfast cookies', and if she was gonna let me have them for breakfast, i wasn't about to complain!  (i use the all bran that looks like little twigs)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, ground cinnamon, ground ginger, ground cloves, salt
+---
+TITLE: All Bran Apple Cake
+CURRENT_DESCRIPTION: this is the perfect recipe when you're craving dessert, but know you should really eat something healthy. with this one, you can bake your cake and eat it too! high in fiber and full of vitamins, it's hard to believe it tastes so good!  i got this from the kellogg's all bran website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, baking soda, salt, cinnamon, nutmeg
+---
+TITLE: All Bran Apple Oatmeal
+CURRENT_DESCRIPTION: i got bored of regular old oatmeal so i decided to create something a little more interesting. did i mention it's very nutritious?? and you can change it up to your own liking!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, rolled oats, all-bran cereal, cinnamon, salt, walnuts
+---
+TITLE: All Bran Banana Bread
+CURRENT_DESCRIPTION: i made this yesterday from the recipe on the all-bran packet. i just love this banana bread! it has a great taste and is low fat and high fibre! perfect for morning tea or a snack. i like mine with just a little jam or peanut butter spread and served warm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-bran cereal, whole wheat flour, baking powder, bicarbonate of soda, 1% low-fat milk, caster sugar
+---
+TITLE: All Bran Muffins
+CURRENT_DESCRIPTION: these muffins are delicious and healthy, too:  79 calories per muffin; 3.7 grams of fiber per muffin one weight watcher point.  from the kitchen of michele harvey thornburg, moberly mo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-bran cereal, skim milk, flour, sugar, baking powder, cinnamon
+---
+TITLE: All Bran Muffins Master Mix
+CURRENT_DESCRIPTION: these are the most moist, delicious, large bran muffins.  keep the mix in your refridgerator and add whatever you like. make a couple blueberry muffins, raspberry white chocolate chip or a couple chocolate chip walnut muffins, or whatever suits your fancy.  these are great!  i make 3-4 a day and then they're always fresh! i usually cut the recipe in half and make about 12-15 large muffins. to make mini muffins bake at 400 degrees for about 11-12 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-bran cereal, buttermilk, vegetable oil, brown sugar, eggs, salt
+---
+TITLE: All Bran Muffins Or Bread
+CURRENT_DESCRIPTION: this is a easy, fairly healthy and delicious bran muffin/bread recipe. i started with a recipe from the philadelphia orchestra cookbook and changed it little by little. it was submitted originally by a lady from scotland. i now use splenda brown sugar blend with this, instead of regular brown sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, dried fruit, light brown sugar, all-bran cereal, self rising flour
+---
+TITLE: All Bran Oatmeal
+CURRENT_DESCRIPTION: i got bored of regular old oatmeal so i decided to create something a little more interesting. did i mention it's very nutritious?? and you can change it up to your own liking!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, rolled oats, all-bran cereal, cinnamon, salt, walnut pieces
+---
+TITLE: All Bran Pancake
+CURRENT_DESCRIPTION: healthy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, all-bran cereal, cinnamon, splenda sugar substitute, pam cooking spray
+---
+TITLE: All Butter English Flapjacks
+CURRENT_DESCRIPTION: the best home made flapjacks ever, i prefer to use a mixture of jumbo oats and rolled oats but all oats work perfectly except for the instant style powdered type. if you don't have golden syrup you can use honey or a mixture of light and dark corn syrup but the taste won't be quite as good. maple syrup is too thin but you could get away with using half maple and half honey or other syrup.  these are great as they are and i always come back to the original, but sometimes i'll add some chopped banana, raisins or nuts, just to ring the changes.  enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, golden syrup, oats, salt
+---
+TITLE: all butter pie crust
+CURRENT_DESCRIPTION: this is a salvation sisters recipe recommended by a friend.  it makes enough for a two-crust pie or two one-crust pies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, cake flour, baking powder, salted butter, ice water
+---
+TITLE: All Butter Pie Crust
+CURRENT_DESCRIPTION: this is a salvation sisters recipe recommended by a friend.  it makes enough for a two-crust pie or two one-crust pies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, cake flour, baking powder, salted butter, ice water
+---
+TITLE: All Butter Pie Crust   Pastry
+CURRENT_DESCRIPTION: flaky, forgiveable and stays crispy under the soggiest circumstances!  and did i mention delicious?!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, table salt, granulated sugar, unsalted butter, sour cream, ice water
+---
+TITLE: all chocolate blackout cake from ebinger s
+CURRENT_DESCRIPTION: new yorkers (especially brooklynites) will wax nostaligic over this intensely chocolate cake. i remember having a piece as a little girl and i have never forgotten how wonderful and rich that little piece was. you will get a lot of utensils dirty making this cake, and it has a lot of preparation steps, but it is so worth it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa powder, boiling water, unsweetened chocolate, milk, sweet butter, sugar
+---
+TITLE: All Chocolate Blackout Cake From Ebinger S
+CURRENT_DESCRIPTION: new yorkers (especially brooklynites) will wax nostaligic over this intensely chocolate cake. i remember having a piece as a little girl and i have never forgotten how wonderful and rich that little piece was. you will get a lot of utensils dirty making this cake, and it has a lot of preparation steps, but it is so worth it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa powder, boiling water, unsweetened chocolate, milk, sweet butter, sugar
+---
+TITLE: all chocolate boston cream pie
+CURRENT_DESCRIPTION: i found 2 other recipes for this chocolate delight on the site but they both use instant pudding. so, ok, this one is a little more work but you'll find that it makes the best quality cake when you want something special. prep time includes the time for all 3 steps.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, cocoa, baking soda, butter, milk
+---
+TITLE: All Chocolate Boston Cream Pie
+CURRENT_DESCRIPTION: true chocoholic paradise!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, butter, water, cocoa, eggs
+---
+TITLE: All Clammed Up Clam Chowder
+CURRENT_DESCRIPTION: a good meal for a cold day. add biscuits and strawberry jam.....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, flour, salt, pepper, clams
+---
+TITLE: All Fruit  Mincemeat
+CURRENT_DESCRIPTION: homemade is so much better than store-bought and this recipe is a breeze - you don't even have to cook it.  makes a good-sized batch - enough to for 3-4 pies or a plethora of tasty tarts (then you can stir it into pancake batter, muffins, cakes....)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: currants, raisins, granny smith apple, dark brown sugar, candied peel, almonds
+---
+TITLE: All Fruit Breakfast Smoothie
+CURRENT_DESCRIPTION: there are a lot of us out there having just fruit in the morning, somersizers, fit-for-lifers, or just plain fruit enthusiasts. i have this smoothie several times a week. i change the ingredients depending on the season. the recipe should make two servings, but i usually drink the whole delicious batch myself.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honeydew melon, orange, apple, peach, strawberries, oranges
+---
+TITLE: All Gone Onion Burgers
+CURRENT_DESCRIPTION: you will find this recipe posted else where on the web under my real name.
+
+it is one of the best ways to grill burgers i ever came up with.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground round, dry onion soup mix, beef bouillon cubes, granulated garlic, lemon pepper, salt
+---
+TITLE: All Grown Up Chewy Chocolate Chip Cookies
+CURRENT_DESCRIPTION: this recipe won 3rd place 2006 contest held by copia, the american center for wine, food and the arts in napa, ca.   this is a chocolate chip cookie for grown-ups. the slight bitterness of the chocolate and espresso combine with the caramel sweet flavors of the golden syrup and the malted milk powder create a cookie with a complex flavor that is not too sweet and has a strong chocolate punch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, granulated sugar, golden syrup, egg, vanilla extract
+---
+TITLE: All Hallows Eve Soup
+CURRENT_DESCRIPTION: while compiling a cookbook of lowfat recipes in mc, i ran into this interesting stew.  lentils, orange and tomatoes.  i haven't made it yet but plan on giving it a try on.. you guessed it all hallows eve.  original was by reggie d to eat low fat.  source unknown.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel orange, olive oil, onions, carrots, salt, black pepper
+---
+TITLE: All In One Bolognaise
+CURRENT_DESCRIPTION: fabulous family meal adapted from a 2003  issue of super food ideas - i double it when my children bring friends home for dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, steak, pasta sauce, mushroom, red wine
+---
+TITLE: All In One Breakfast
+CURRENT_DESCRIPTION: a all in one omlette.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, eggs, bacon, sausage, bell pepper, cheddar cheese
+---
+TITLE: All In One Breakfast Casserole
+CURRENT_DESCRIPTION: this is a quick and easy breakfast recipe! unlike other recipes you don't have to let it sit overnight if you don't want to!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, salt, pepper, bacon, prepared stuffing, hash brown potatoes
+---
+TITLE: All In One Broccoli Macaroni And Cheese
+CURRENT_DESCRIPTION: this is a quick meal i make sometimes after work, when it's just me.  nothing fancy or gormet, just plain comfort food.  i sometimes stir in a handful of grated cheddar or italian blend cheese at the end to give it a little extra cheesiness!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skim milk, water, macaroni and cheese mix, frozen broccoli, butter, salt and pepper
+---
+TITLE: All In One Chocolate Chip Cookies
+CURRENT_DESCRIPTION: this is my all time favorite chocolate chip cookie recipe. i found it originally on the back of a package of hershey baking pieces, which i don't think they even make anymore. i thought i lost the recipe there for a while but finally found it and was very happy. i'm posting the recipe on zaar so i won't have to worry about losing it again. oh, be sure to use real butter in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, light brown sugar, vanilla extract, salt, eggs
+---
+TITLE: all in one egg casserole
+CURRENT_DESCRIPTION: a recipe that i found at taste of home that i can't wait to try, will update once i have made it.  here is what the author states:  "i've had this unique recipe for years. it's always a hit at our house because it combines eggs, bacon, cheese, vegetables and bread all in one pan. i enjoy cooking for my husband of 31 years, two sons, one daughter and two grandsons."  i will probably leave the mushrooms out due to other family members not liking them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, fresh mushrooms, green onion, butter, all-purpose flour, salt
+---
+TITLE: All In One Egg Casserole
+CURRENT_DESCRIPTION: a recipe that i found at taste of home that i can't wait to try, will update once i have made it.  here is what the author states:  "i've had this unique recipe for years. it's always a hit at our house because it combines eggs, bacon, cheese, vegetables and bread all in one pan. i enjoy cooking for my husband of 31 years, two sons, one daughter and two grandsons."  i will probably leave the mushrooms out due to other family members not liking them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, fresh mushrooms, green onion, butter, all-purpose flour, salt
+---
+TITLE: All In One Hot Fudge Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. sugar, 2 c. self-rising flour, 4 Tbsp. cocoa, 1 c. milk, 6 Tbsp. melted butter, 2 tsp. vanilla
+---
+TITLE: All In One Magic Non Toxic Bathroom Cleaner
+CURRENT_DESCRIPTION: you'll rave about this harmless, cheap bath and kitchen cleaner - save a pile of money over your lifetime and do no harm to our good earth or family members with allergies!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spray bottle, distilled white vinegar, lemon juice, liquid soap, baking soda, water
+---
+TITLE: All In One Pan Cake  Aka Wacky Cake
+CURRENT_DESCRIPTION: i thought this recipe looked familiar when i first saw it and i was right.  my mom used to make this cake for every birthday celebrated in the house but she called it wacky cake.  what makes it wacky?  there are no eggs or dairy in it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa, sugar, salt, baking soda, water
+---
+TITLE: All In One Pan Roast And Vegetables
+CURRENT_DESCRIPTION: i found this recipe in a magazine and thought i would give it a try.  i made two changes - 1. one green pepper in place of a red (next time i will stick with red only)  2.  italian seasoning in place of thyme.  otherwise, i followed the recipe exactly.  the smell of this cooking was so wonderful.  my dh came down about 10 minutes after i put the pan in the oven and wondered what smelled so good and "did i have anything he could munch on while he waited????"   ha ha!  anyway, when it finally came out of the oven, we were not disappointed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell peppers, yellow bell peppers, onions, new potato, garlic cloves, olive oil
+---
+TITLE: All In One Pork Chops Bake
+CURRENT_DESCRIPTION: this one dish meal came from and old kraft magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chops, shake-n-bake for pork, potato, italian dressing, barbecue sauce, mozzarella cheese
+---
+TITLE: All In One Pot Saucy Pasta
+CURRENT_DESCRIPTION: by pat dolan
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra lean ground beef, onion, rotini pasta, water, spaghetti sauce, fresh mushrooms
+---
+TITLE: All In One Quiche
+CURRENT_DESCRIPTION: easy mixing in the blender make this a quick morning fix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, bisquick, margarine, eggs, bacon, green onions
+---
+TITLE: All In One Roast Chicken Dinner
+CURRENT_DESCRIPTION: don't expect a fine dining recipe -- this is rustic, comfort food for the busy cook, which will fill the kitchen with its fragrance as it roasts! i make this dish at least once a week or ten days, and always heave a sigh of relief when i've shoved the entire dinner into the oven in one go and can leave it to cook itself, while i do something more interesting! a salad is all i make as an extra. the vegetables can be substituted with any others, as long as they will roast satisfactorily. i don't like roasting carrots, for example, because they can come out still chewy. the veggies used for mediterranean roast dishes are best, but use what you have available. as i cook for two, the breast part of the chicken will always be left (we prefer legs and wings) and is very useful for a chicken salad, or chopped up and used in a pasta topping. note that quantities given are basically for 2 people, so adjust quantities for more, and cut down on the variety because there won't be space in the roaster!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, salt, bell peppers, tomatoes, zucchini, broccoli floret
+---
+TITLE: All In One Spaghetti
+CURRENT_DESCRIPTION: this is an easy, one-pot spaghetti that goes great with a salad and garlic bread. i got this recipe out of southern living magazine, november 1998.  our family loves this recipe because there is plenty of sauce.  also, when you add the uncooked spaghetti noodles to the pot and cook, all the flavors really meld together.  it is delicous!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, garlic cloves, tomato sauce, tomato paste, tomato juice
+---
+TITLE: All In One Spaghetti Frittata
+CURRENT_DESCRIPTION: from kraft food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, olive oil, onion, fresh mushrooms, zucchini, diced tomatoes
+---
+TITLE: All In One Sponge Cake
+CURRENT_DESCRIPTION: no creaming or folding, this is a simple, quick and easy stand-by sponge. choose your own filling, fruit, cream, lemon curd or jam. for a variation add some vanilla essence, lemon or orange zest to the ingredients. requires 2 round 8 inch sandwich baking tins, greased and lined with baking paper. i sometimes need to cut a thin slice from the top of of one of the sponges to level them before i sandwich them together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, caster sugar, eggs, self-raising flour, baking powder
+---
+TITLE: All In One Veggie Mac And Cheese
+CURRENT_DESCRIPTION: this is a very quick and easy recipe for those "don't feel like cooking nights".  fresh vegetables can be substituted for the frozen.  just be sure to cut the crispier vegetables into smaller pieces to ensure even cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, water, cheese, frozen mixed vegetables, butter
+---
+TITLE: All In One Warm Artichoke Bread Dip
+CURRENT_DESCRIPTION: this is called 'all in one', as the ingredients are all measured in "ones".  a nice change from the standard spinach bread dip.  great for parties.   i also change the monterey jack cheese from time to time, trying farmer's cheese, mozzarella, havarti, (pretty much any mild white cheese will do!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: monterey jack cheese, cheddar cheese, kraft 100% parmesan cheese, onion, garlic, artichoke hearts
+---
+TITLE: All In The Kitchen  Chili
+CURRENT_DESCRIPTION: this modified version of 'mom's' chili was a hit at our 2004 christmas party. we made an extra large pot to have some left to freeze but it never made it to the freezer. it was a favorite by all. perfect for any cold and rainy day. you won't find this one in a cookbook. it is truly an original.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, yellow onions, diced tomatoes, tomato paste, tomato soup, rotel tomatoes
+---
+TITLE: All Meat Casserole
+CURRENT_DESCRIPTION: i make a large pot and freeze what we don't use into 2 cup size containers.  great with creamy mashed potatoe and steam vegetable and hubby likes to splash some worstershire sauce on too.  in the last 30 minutes you could make some herbed dumplings to go with it.  use a cast iron casserole dish or stoneware or oven proof china don't use clear corningware.  instead of beef stock you can use 2 cups water and 2 teaspoons of beef granules (just check the salt count though) or 2 stock cubes.  do not include overnight marinade time.  left overs also make into a great meat pie, toasted sandwiches or shepherds pie.  can also be made in a crockpot or slow cooker but use 1/2 cup less stock and will take about 12 hours on slow.  please also note beef gravy is called gravy beef or shin beef here in australia, it is the osso bucco cut without the bone and sliced thick (you just cut it up) and our skirt steak i think is the equivalent of flank steak in usa this cut helps to thicken the gravy which when it gets to the stage of thickening it will turn a glossy colour and loose that watery look.  i have scaled this recipe up and down with very good success but need to adjust the cooking times accordingly eg my large cast iron pot will hold 6 kilos of meat but it then takes another 1 1/2 to 2 hours to cook.  olease also note our tablespoon is 20ml against the usa being 15ml, so add 1 teaspoon extra for each tablespoon is using usa measurements.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef gravy, skirt steaks, plain flour, sugar, tomato sauce, malt vinegar
+---
+TITLE: All Most Mashed Potatoes
+CURRENT_DESCRIPTION: just sounded good, i saw this on 'thirty minute meals' but changed somethings for taste and consistency. i ended up having to strain this when i used 3 cups originally called for in recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cauliflower, chicken stock, butter, salt and pepper, garlic, onion powder
+---
+TITLE: All Natural All Purpose Cleaning Spray
+CURRENT_DESCRIPTION: save money with this lovely smelling spray that is good for your home, your health, and the environment!  use whatever essential oils you like.  lavender is a natural disinfectant and very relaxing.  tea tree oil is a natural anti-fungal, great for mildewy bathroom surfaces.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, white vinegar, baking soda, essential oils, lavender oil
+---
+TITLE: All Natural Carrot Dogs
+CURRENT_DESCRIPTION: this sounded just wierd enough to try it. obviously a carrot is the same shape and close enough in color to make a decent hot dog substitute. but the real question is about the taste. the marinade really takes it to the next level. i think the sesame oil does it, but the vinegar gives it that “cured” flavor too. adapted from healthy slow cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, rice vinegar, water, sesame oil, soy sauce, garlic powder
+---
+TITLE: All Natural Granola Bars
+CURRENT_DESCRIPTION: i'm no longer sure of the source for this recipe...not that i followed the original anyway!  i am boycotting corn syrup now and needed an energy bar that i could make at home!  this recipe is easy and versatile...and everyone in my family will eat these bars!  no butter and no sugar!  but soooo good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, smooth peanut butter, rolled oats, ground pecans, whole wheat flour, ground cinnamon
+---
+TITLE: all occasion cookies
+CURRENT_DESCRIPTION: this is a terrific cookie that i got at a pampered chef party. it is delicate but full of flavor. the variations are wonderful as are the mix ins. it is a great way to get several different cookies from one recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, white cake mix
+---
+TITLE: All Occasion White Bread  Bread Machine
+CURRENT_DESCRIPTION: the one i use the most
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, nonfat dry milk powder, salt, sugar, vegetable oil, bread flour
+---
+TITLE: All Pro Appetizer
+CURRENT_DESCRIPTION: combines mashed potatoes with pepperjack cheese & spinach
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, frozen chopped spinach, eggs, nutmeg, cayenne pepper, monterey jack pepper cheese
+---
+TITLE: All Pumpkins  Night Stew
+CURRENT_DESCRIPTION: despite the name this stew has no pumpkin.  it is traditionally served on halloween and for the harvest festival. i found this on allrecipes.com.  this is a german recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, garlic clove, onions, beef stew meat, salt, pepper
+---
+TITLE: All Purpose Barbecue Rub
+CURRENT_DESCRIPTION: by lucy waverman and found at lcbo.ca.  if using this rub for pork and pork spare-ribs, increase the sugar to 2 tbsp (25 ml).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coarse salt, brown sugar, mustard powder, chili powder, paprika, cayenne
+---
+TITLE: All Purpose Blueberry Sauce
+CURRENT_DESCRIPTION: a tasty blueberry sauce made with honey instead of sugar. excellent with crepes, pancakes, french toast, waffles, ice cream, cheesecake, sponge cake, or pound cake. i usually use bottled lemon juice because that is what i have available most of the time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh blueberries, water, honey, lemon juice, cinnamon, nutmeg
+---
+TITLE: All Purpose Bread Stuffing
+CURRENT_DESCRIPTION: this is my own recipe...which i have fine tuned over the years. it is not low cholesterol unless you would choose to use egg-beaters which will make the stuffing a little less rich in flavor. i have made this with and without meat. this makes enough to stuff a 20 pound turkey...or a 10-12 pound turkey and a extra pan full. if baking in a extra pan...seal well with tinfoil so that it doesn't dry out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry bread, ground sage, salt, black pepper, celery, onion
+---
+TITLE: All Purpose Cole Slaw
+CURRENT_DESCRIPTION: this recipe was given to me by my great aunt. the reason i say all purpose is because this is always a side dish at thanksgiving, and easter and bbq's and on sandwiches etc. etc. it just goes well with a lot and if you love a sweet tasting cole slaw, this is definately one to try. the green bell pepper is a must for the unique taste! i always have to double this recipe though for larger crowds!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coleslaw mix, milk, white vinegar, sugar, mayonnaise, green bell pepper
+---
+TITLE: All Purpose Cornbread
+CURRENT_DESCRIPTION: this recipe is from cooks illustrated but i revised it adding more corn and splenda for a sweeter taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, yellow cornmeal, baking powder, baking soda, table salt, light brown sugar
+---
+TITLE: All Purpose Cornbread  Best Of Both Regions
+CURRENT_DESCRIPTION: this recipe comes from my favorite cooking magazine -- cook's illustrated.  it's the best of the northern and southern cornbread recipes. it will produce a tender, fluffy crumb and a thick, crunchy crust with a sweet corn taste.
+
+before preparing the baking dish or any of the other ingredients, measure out the frozen kernels and let them stand at room temperature until needed. when corn is in season, fresh cooked kernels can be substituted for the frozen corn. this recipe was developed with quaker yellow cornmeal; a stone-ground whole-grain cornmeal will work but will yield a drier and less tender cornbread. a  pyrex glass baking dish is preferred because it yields a nice golden-brown crust, but a metal baking dish (nonstick or traditional) will also work. the cornbread is best served warm; leftovers can be wrapped in foil and reheated in a 350-degree oven for 10 to 15 minutes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, yellow cornmeal, baking powder, baking soda, table salt, light brown sugar
+---
+TITLE: All Purpose Crab Stuffing
+CURRENT_DESCRIPTION: use for stuffing shrimp or mussels. it would also make a very good stuffed flounder. i love this recipe and i am proud of it! i made it up all by myself and it took me two years to perfect it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green onion, roasted red peppers, crabmeat, fresh breadcrumb, egg, old bay seasoning
+---
+TITLE: All Purpose Cream Sauce Mix
+CURRENT_DESCRIPTION: tired of paying the high price for condensed soup? keep this on hand and you will rake in the savings. what could be simpler?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: non-fat powdered milk, instant chicken bouillon granules, cornstarch, dried onion flakes, pepper
+---
+TITLE: All Purpose Cream Style Soup Base
+CURRENT_DESCRIPTION: i make a lot of homemade soups in the winter, we get tons of lake-effect snow here, and get snowed in a lot. soup always hits the spot on a cold, wintery day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, onion, carrot, celery rib, garlic powder, thyme
+---
+TITLE: All Purpose Dinner Crepes Batter
+CURRENT_DESCRIPTION: this basic crepe recipe can be used for all your dinner entree crepes. it is great because you can wrap them in plastic, wrap them in foil and freeze them for when you want to whip up a quick elegant dinner. recipes for fillings will be posted separately.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, salt, flour, milk, butter
+---
+TITLE: All Purpose Freezer Meatballs
+CURRENT_DESCRIPTION: having frozen dry meatballs is handier than pockets in a shirt. from subs to spaghetti/with they are another one of those things that make cooking well for one possible. this is a conglomeration of a number of recipes that seems to work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, yellow onion, panko breadcrumbs, egg, powdered ginger, allspice
+---
+TITLE: All Purpose Gravy
+CURRENT_DESCRIPTION: an america's test kitchen recipe that i received in an email. what's great about it is that it can be made ahead and frozen (a great holiday time saver!) since it doesn't use any pan drippings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, celery, onion, butter, all-purpose flour, low sodium chicken broth
+---
+TITLE: All Purpose Green Tea Sauce
+CURRENT_DESCRIPTION: found on islandteashop.com while i was searching for different ways to use the matcha (green tea powder) i just ordered for myself. the authors of the site suggest brushing it on pork loin or salmon before baking, using it as a dipping sauce for dumplings, or trying it as a salad dressing. i bet it would be great in other things, too. easy and different, why not give it a try? :) serving size depends on preference and what you decide to do with it; you'll want more for a dipping sauce, probably, than you would for a brushed-on glaze.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot water, matcha green tea powder, fresh chives, extra virgin olive oil, lemon juice, low sodium soy sauce
+---
+TITLE: All Purpose Grilling Rub   Dairy Free
+CURRENT_DESCRIPTION: this rub will work for most anything at the barbecue grill. some like it hot, others don't. leave out the cayenne pepper or even the dry mustard if you like it mild.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, sweet paprika, black pepper, kosher salt, celery salt, celery seed
+---
+TITLE: All Purpose Ground Beef Mixture  Also Oamc
+CURRENT_DESCRIPTION: if you're like me and try to save some money shopping at bulk warehouses like costco then here's a helpful tip to speed up dinners on evenings when time is tight! you already have all your veggies cut up & mixed in so just empty into pan and cook it up! great for casseroles, chili, tacos, spagetti, pizza, burgers, you name it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onions, green peppers, red peppers, bell peppers
+---
+TITLE: All Purpose Ground Meat Mix
+CURRENT_DESCRIPTION: one of the easiest ways to save money on your family's grocery bill is by purchasing foods in bulk when they go on sale. when ground meat goes on sale, rather than just stocking up to store in the freezer "as is," many cooks find it helpful to prepare meat mixes for using later in their favorite family recipes. by preparing this recipe for all-purpose ground meat mix, you'll be ready to fix any number of tasty ground meat recipes without needing to brown the meat, onions and spices each time you cook. not only will this technique save you money, it saves time too. the following recipe is from the book "frozen assets: how to cook for a day and eat for a month"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, celery, garlic clove, onions, green pepper, pepper
+---
+TITLE: All Purpose Hawaiian Marinade
+CURRENT_DESCRIPTION: i originally concocted this recipe for a party i hostessed. i used it on chicken thighs and legs, but since then, i've tried it beef and pork, as well. i also think it would be awesome on tuna steaks or shrimp! i've also used pineapple coconut juice and it's excellent.  enough for 3 lbs meat of choice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened pineapple juice, soy sauce, dry sherry, rice vinegar, brown sugar, fresh gingerroot
+---
+TITLE: All Purpose Herbed Butter
+CURRENT_DESCRIPTION: great all-purpose herbed butter to keep on hand for all kinds of uses; serve with corn on the cob recipe #147254 or recipe #119749; top sizzling hot steaks, chicken, or fish; butter hot cooked veggies; buns and breads toasted or not; cooking rice; roasting potatoes; hot cooked pasta. adjust seasonings to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, fresh parsley, fresh chives, garlic clove, fresh thyme, lemon juice
+---
+TITLE: All Purpose Marinade For Fish  Salmon  Swordfish Or Shark
+CURRENT_DESCRIPTION: from a fish cookbook but not sure which one since i ripped the page out long ago.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet sherry, salad oil, soy sauce, brown sugar, garlic clove, worcestershire sauce
+---
+TITLE: All Purpose Marinade Mop Dipping Sauce
+CURRENT_DESCRIPTION: this is a chef paul recipe.  very versatile!  the marinade is great for brisket.  just reserve some, add some beer and you've got a good mop.  reserve some more, add a few ingredients and you've got a good dipping or bbq sauce.  cooking time does not include the marinating time or the time to cook the brisket.  this is primarily a recipe for the marinade.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef brisket, beef stock, red wine vinegar, worcestershire sauce, dried chipotle powder, onion powder
+---
+TITLE: All Purpose Mexican Seasoning
+CURRENT_DESCRIPTION: don't buy msg-loaded adobo, sauzon, or store-bought fajita seasoning. combine with oil and use it to marinate corn, chickpeas, potatoes, and beans for a crispy healthy snack, and it's also great for tacos, fajitas, quesadillas, and i swear by this seasoning for my arroz con frijoles. it works for other latin american foods too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chili powder, paprika, cornmeal, cumin, oregano, onion powder
+---
+TITLE: all purpose quick mix with 28 variations
+CURRENT_DESCRIPTION: --adopted recipe--
+don't be intimidated by all the steps.  really, there are just a few steps.  the additional "steps" are all the wonderful variations you can make.  nutrition information is not correct, as it does not include the extra ingredients listed in the variations below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, flour, baking powder, salt, butter
+---
+TITLE: All Purpose Quick Mix With 28 Variations
+CURRENT_DESCRIPTION: --adopted recipe--
+don't be intimidated by all the steps.  really, there are just a few steps.  the additional "steps" are all the wonderful variations you can make.  nutrition information is not correct, as it does not include the extra ingredients listed in the variations below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, flour, baking powder, salt, butter
+---
+TITLE: All Purpose Quick Spaghetti Sauce
+CURRENT_DESCRIPTION: can double, triple this recipe, very basic add to recipe, freeze in portion servings. add whatever is in the frige, carrot , green pepper, celery, mushrooms etc. serve over any kind of noodles or rice and sprinkle with parmesan. use as a base for lasagna, tacos, chili or casseroles, just generaly handy to have in the freezer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onions, garlic, tomato paste, tomatoes, dried oregano
+---
+TITLE: All Purpose Relish
+CURRENT_DESCRIPTION: hamburger/hot dog relish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green bell pepper, onions, water, garlic, salt, tomato sauce
+---
+TITLE: All Purpose Shake And Bake
+CURRENT_DESCRIPTION: makes about 10 cups. store mixture in clean glass jars with tight-fitting lids. good for chicken, pork, canned potatoes, and mashed potato puffs. you can remove the quantity of shake and bake you need for a recipe and then add some garlic powder,onion powder, thyme or any seasonings you like, for variety. directions are given for chicken; adjust the baking time according to the thickness of the meat you are using.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, dry breadcrumbs, chicken soup base, paprika, poultry seasoning, salt
+---
+TITLE: All Purpose Stir Fry Sauce  Brown Garlic Sauce
+CURRENT_DESCRIPTION: adapted from martin yan's chinese cooking for dummies. this is my favorite stir-fry sauce. it makes enough for two meals. having extra on hand makes for a quick meal. my son will actually eat vegetables he can dip in the sauce! warning about the amount of soy sauce. when i used kikkoman soy sauce, i found this sauce far too salty. i now use angostura, which is much lower in salt. when adding soy sauce, start with less than half the amount and slowly add more to taste. using vegetable broth makes this vegetarian. yield: 1 3/4 cups (couldn't get that amount entered)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, chicken broth, rice wine, sugar, sesame oil, white pepper
+---
+TITLE: All Purpose Sun Dried Tomato Sauce
+CURRENT_DESCRIPTION: this is an adopted recipe. i am always on the lookout for freezer recipes so that's why i chose to add this one to my collection.
+
+orignal introduction; "i discovered this recipe in a german home and living magazine as a pizza sauce. but i did have some leftover and soon discovered that you can easily use it as a basic pasta sauce or even as tomato soup adding a bit of cream. it freezes well, so feel free to multiply the ingredients. i usually pack a couple of jars when we go on vacation, so i don't have to fuss too much about dinner. these are the original ingredients, but i usually add more garlic and sun-dried tomatoes if they are easily available. in summer i add fresh basil."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, garlic clove, red chile, sun-dried tomatoes, tomatoes, olive oil
+---
+TITLE: All Purpose Vegan Cheese Sauce
+CURRENT_DESCRIPTION: this recipe is somewhat similar to my recipe #356853, however, there is far less nutritional yeast in this mix.  nutritional yeast is an aquired taste for some, so this is a nice, mild tasting vegan cheese sauce, that can be served plain over veggies or with chips, or spiced-up accordingly (ie cumin, chili powder, diced tomatoes & chillies, vegan taco meat...possibilities are endless) for the spices listed below, feel free to use 'heaping" teaspoons.  the cashews can be soaked ahead of time to ensure that they puree smoothly, but this is not necessary.  i heated my cashews, plus the water, in a glass measuring cup for about 4-5 minutes in the microwave to soften them a bit...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, raw cashews, pimentos, paprika, garlic powder, onion powder
+---
+TITLE: All Recipes White Chocolate Blondies
+CURRENT_DESCRIPTION: i tried it , it is yummy, so i thought of sharing it ... waiting for your reviews!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white chocolate, vanilla extract, butter, all-purpose flour, eggs, salt
+---
+TITLE: All Saints Summer Supper Maryland Crab Cakes
+CURRENT_DESCRIPTION: i grew up in southern maryland, and attended all saints episcopal church, where my parents are still members. every summer (1st weekend in august) the church hosts its summer supper fundraiser, which i consider a southern maryland tradition, since folks come from all over to eat some great food (ham, fried chicken, green beans, fresh homemade bread, rolls, and desserts, and, oh yeah.. crabcakes! this is an adaptation of the recipe used at the supper, so that the yield is something reasonable for a family dinner (as opposed to the hundreds of crabcakes made by the fine folks at all saints!). of course, i have added my own touches over the years, but it's still pure "maryland crabcake".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabmeat, egg, worcestershire sauce, mustard powder, dried parsley, salt
+---
+TITLE: All Seasons Grilled Steak
+CURRENT_DESCRIPTION: from mccormick's.  the thick paste is easy to spread on.  recipe doesn't call for set time, but that makes it even more tender.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: steak seasoning, balsamic vinegar, olive oil, ground mustard, boneless sirloin
+---
+TITLE: All Seasons Potatoes
+CURRENT_DESCRIPTION: this is just a great side when you need something but don't quite know what to fix! you can shave some fat if you want to by using low-fat cheese and low-fat  sour cream. you can make this up to the day before. i love potatoes, and really enjoy them this way.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, butter, onion, cheddar cheese, sour cream, oregano
+---
+TITLE: All Star Breakfast Rice
+CURRENT_DESCRIPTION: great rice for breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground cinnamon, brown sugar, milk, cooked rice, fresh blueberries
+---
+TITLE: All The Fixins Curried Chicken Salad
+CURRENT_DESCRIPTION: this reminds me of having chicken curry at home as a kid. my mom had a special serving dish with compartments for all sorts of condiments for the curry. i've tried to replicate those flavors here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken thighs, celery ribs, onions, apple, raisins, curry powder
+---
+TITLE: All The Frills Egg Sandwiches
+CURRENT_DESCRIPTION: like having an omelet sandwich--yum
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, onion, cooked ham, hot pepper sauce, salt, pepper
+---
+TITLE: All The Greens Tossed Salad
+CURRENT_DESCRIPTION: this recipe was devised from what i had on hand. i was asked to come up with a recipe for a fund raiser cookbook,this is how it was created. it is fast and the different textures make the salad interesting. it can be used as a base for additional ingredients for a main course.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: endive, iceberg lettuce, spinach, romaine lettuce, kirby cucumbers, green onion
+---
+TITLE: All Time Best Sweet Potatoes
+CURRENT_DESCRIPTION: my mother-in-law and i just came up with this recipe while making thanksgiving dinner yesterday.  the beauty is that you can choose the cooking method that works best for you... stove top, oven, or crock pot--and they are nearly impossible to mess up.  fix and forget!  we both agreed these are the best sweet potatoes we've ever had!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, butter, apple cider, brown sugar, fresh cranberries, salt and pepper
+---
+TITLE: All Time Favourite Rajma Burgers
+CURRENT_DESCRIPTION: this is a veggie burger that's a hit with all age groups!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rajma, cilantro, onion, pomegranate seeds, salt, oil
+---
+TITLE: All To Myself Cheesecake
+CURRENT_DESCRIPTION: i got this from a bhg.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookies, cream cheese, sugar, vanilla, eggs, chocolate chips
+---
+TITLE: All You Can Eat Lower Carb Diet Soup
+CURRENT_DESCRIPTION: after reviewing many diet soup recipes i adapted my own recipe.  all diet soups are very versatile, if you don't like a certain vegetable just leave it out and add more of another.  i make a batch of it on sunday night and eat it for lunch and dinner.  i have even snuck it to my husband with the addition of meatballs.  he has no clue it is a "diet" soup.  i hope you enjoy it as much as i do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, celery ribs, onions, salt, pepper, garlic clove
+---
+TITLE: All-American Apple Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pastry for double pie crust, 6 c. thinly sliced cooking apples, 1 Tbsp. lemon juice (optional), 1 c. sugar, 2 Tbsp. all-purpose flour, 1 tsp. ground cinnamon
+---
+TITLE: All-Occasion Punch
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large can unsweetened pineapple juice, 2 liter bottle ginger ale, 1 sliced orange, ice ring or ice cubes
+---
+TITLE: All-Purpose Sauce
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. chopped onion, 2 cloves garlic, minced, 2 Tbsp. oil, 2 (6 oz.) cans Hunt's tomato paste, 3 c. water, 2 tsp. salt
+---
+TITLE: Alla Checca
+CURRENT_DESCRIPTION: this is our summertime favorite when the garden is in full bloom with beautiful tomatoes! and it is a "no cook" recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, garlic cloves, fresh basil leaf, olive oil, salt and pepper
+---
+TITLE: Alla S Avocado Salad
+CURRENT_DESCRIPTION: a mild, easy, pleasant guac-style salad.  lends itself to endless variations.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, hard-boiled eggs, tomatoes, onion, fresh cilantro, lemon juice
+---
+TITLE: Allegedly Original Cobb Salad Dressing
+CURRENT_DESCRIPTION: avocado, tomato, thick bacon slices crumbled, hard-boiled egg wedges, leafy lettuce, gorgonzola, am i forgetting anything? i love cobb salad!!! let's eat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, olive oil, lemon, worcestershire sauce, dijon mustard, garlic
+---
+TITLE: Allegheny Applesauce Bread
+CURRENT_DESCRIPTION: scrumptiously moist and delicious, sweet and spicy, simple and wholesome: contains no refined grains or sugars, just lots of good stuff like raisins, honey, and wheat germ. you've got to try this bread!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, honey, eggs, unsweetened applesauce, maple extract, whole wheat flour
+---
+TITLE: Allegra S New Favorite     Cocacola Cake
+CURRENT_DESCRIPTION: this is ooey gooey yummy. this was the first from-scratch my 5 year old helped make, so of course it's her favorite. the icing is kinda like fudge and the cake is very tasty. a big winner with kids. took it to a picnic and the kids all devoured it. i loved asking people to guess the secret ingredient too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, butter, cocoa, coca-cola, mini marshmallows
+---
+TITLE: Allegria  Non Alcoholic
+CURRENT_DESCRIPTION: from: "complete home bartender's guide" by salvatore calabrese. "the name means "happiness" in italian. this drink is refreshing."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mango, carrot juice, pineapple juice, fresh orange juice, fresh lemon juice, ice cube
+---
+TITLE: Allen Frey S Tuna Steaks
+CURRENT_DESCRIPTION: "the recipe that closed 1000 sales"  from the cameron cooking guide.  this recipe is to be made using a stove top smoker.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tamari soy sauce, lemon juice, lime juice, ginger, garlic, tuna steaks
+---
+TITLE: Allen S Loaded Potato Soup
+CURRENT_DESCRIPTION: this is hearty, delicious soup to enjoy and warm you up on a chilly day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, onions, carrot, celery, condensed chicken broth, water
+---
+TITLE: allergen free gluten free bread
+CURRENT_DESCRIPTION: an absolutely amazing gf bread from http://glutenfreegoddess.blogspot.com perfect taste and texture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sorghum flour, potato starch, millet flour, xanthan gum, salt, yeast
+---
+TITLE: Allergen Free Gluten Free Bread
+CURRENT_DESCRIPTION: an absolutely amazing gf bread from http://glutenfreegoddess.blogspot.com perfect taste and texture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sorghum flour, potato starch, millet flour, xanthan gum, salt, yeast
+---
+TITLE: Allergen Free Mini Cupcakes
+CURRENT_DESCRIPTION: adapted from a cake recipe - for those needs allergy free indulgence!  the recipe can be adapted in many ways; with cocoa powder to make a chocolate cupcake; add chocolate chips; add orange extract, etc....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gluten-free flour, baking powder, sugar, banana, olive oil, rice milk
+---
+TITLE: Allergen Free Soup Base  Previously Called Gluten Free Mushroom
+CURRENT_DESCRIPTION: re-done to be gluten free. i realized how versatile this can be.  not only is this gluten free, it's also soy free.  just make sure you read the contents on the chicken broth. you can also leave out the mushrooms and make cream of chicken soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, fresh mushrooms, cornstarch, rice flour, chicken broth
+---
+TITLE: Allergy Free Fruitcake
+CURRENT_DESCRIPTION: i was excited to find this one, so i am posting it without actually having made it.  think it might be good as i have a diabetic husband. i found it in the paper
+(herald  sun)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sultana, currants, raisins, cold water, pumpkin, vegetable oil
+---
+TITLE: Allergy Free Vanilla Frosting
+CURRENT_DESCRIPTION: a low-sugar, allergy free alternative to powdered sugar frosting.
+add almond or coconut extract for extra flavor.
+from cooking free
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra firm tofu, sugar, lemon juice, margarine, vanilla, butter flavor extract
+---
+TITLE: Allergy Friendly Double Chocolate Brownies
+CURRENT_DESCRIPTION: when i tell people that these brownies are gluten-free, dairy-free, egg-free, nut-free and soy free – the response is always “well, what’s in them?” i respond – pigilicious magic! i hit the jackpot with these brownies. they are not too sweet, and really tasty, with a moist texture and spring that is just right. i can’t get enough of them. you could always add more chocolate if you wanted a more decadent brownie. but i think they are great as they are! yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed banana, unsweetened applesauce, pitted dates, agave nectar, pure vanilla extract, chocolate chips
+---
+TITLE: Allessio S Frittata   Tomatoes And Sweet Peppers
+CURRENT_DESCRIPTION: a simple delicious frittata with a little heat to it.  i bake it in the oven at 325, i find it easier, however whichever you prefer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, sweet red pepper, hot red pepper, fresh tomato, eggs
+---
+TITLE: alli s crunchy ranch chicken  rsc
+CURRENT_DESCRIPTION: ready, set, cook! hidden valley contest entry -
+"ready" for a party in your mouth? "set" to have a great tasting chicken dinner? "cook" this dish and wow your family and friends! this chicken is moist and tender, super easy and full of flavor - you can't go wrong! thanks for trying my recipe! marinade time is not included in prep/cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hidden valley original ranch dips mix, boneless skinless chicken breasts, greek yogurt, milk, panko breadcrumbs, fresh chives
+---
+TITLE: Alli S Crunchy Ranch Chicken  Rsc
+CURRENT_DESCRIPTION: ready, set, cook! hidden valley contest entry -
+"ready" for a party in your mouth? "set" to have a great tasting chicken dinner? "cook" this dish and wow your family and friends! this chicken is moist and tender, super easy and full of flavor - you can't go wrong! thanks for trying my recipe! marinade time is not included in prep/cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hidden valley original ranch dips mix, boneless skinless chicken breasts, greek yogurt, milk, panko breadcrumbs, fresh chives
+---
+TITLE: Alli S Microwave Cashew Brittle
+CURRENT_DESCRIPTION: i made a version of this as peanut brittle, but had to try it with cashews. outstanding! so crispy and decadent...p.s. this recipe is made in an 1100-watt microwave. p.s. if you live in an area that has high humidity, this recipe may not work for you; try to make on a day with low humidity.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, light corn syrup, salt, butter, vanilla, cashews
+---
+TITLE: Alli S Oriental Salad
+CURRENT_DESCRIPTION: my brother-in-law's sister alli made this for their wedding rehersal lunch & i couldn't stop eating it!  it's so easy to make & so flavorful!  mmmm!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, green onions, sunflower seeds, slivered almonds, ramen noodles, apple cider vinegar
+---
+TITLE: Allie S Simple Vinaigrette
+CURRENT_DESCRIPTION: the "house dressing" of a dear friend who was kind enough to share her recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, sugar, garlic powder, dried basil, salt, ground black pepper
+---
+TITLE: Alligator Claws  Avocado Fritters  With Chipotle Lime Dip
+CURRENT_DESCRIPTION: a translucent golden-brown crust allows the green of the avocado to be seen.  the crispy exterior is a counterpoint to the unctuous interior.  these are a signature dish for me, and the one i most often get requests to make (although my seafood and ricotta stuffed buckwheat pancakes run a close second).
+
+these fritters came about ten years ago when i was shopping for a dinner i was making for a friend who is a cia-trained chef.  i was in a vegetable market and saw these gorgeous avocados that i just knew would be ripe in the next two days.  i tried to think of what i could do with them since a) everyone serves cold avocado, and b) i really am not fond of guacamole.  as i tried to think of what i could make with them that was hot, the work 'fritters' jumped into my head.  having never made a fritter before, i was a little surprised to have that thought; but having never known when a vegetable was going to be ripe before i figured i was on a roll and decided to go for it.
+
+to serve with my never-before-tried-fritters, i decided to make a crème fraîche-lime-cayenne dipping sauce.  so i made fresh crème fraîche, and used it as a base not only for this dip, but for a tia maria sauce to go with the flourless chocolate cake i made for dessert (another never-before made item, but with the recipe from cook's illustrated it was the only thing i wasn't making up as i went along).
+
+the result of the fritters was that i got to taste the test fritter, then had to dive across the couch before the last one was devoured in order to have a second.
+
+the one evolution in the recipe is the change from cayenne to chipotle in the dip.  i like the smokiness, and it gives a rough edge to something very smooth - i am all about contrast.  feel free to use whatever chile or combination thereof that you like best.  this dip is easy and stands on it's own at a party for anything you want to dip into it.  i have also made it with vegan sour cream with great results.
+
+the name alligator claws comes from an alternate name for the avocado: the alligator pear, as well as the fact that the wedges of avocado look like claws.
+
+(for those not familiar with the name alligator pear, it derives from both the tough, textured exterior - reminiscent of an alligator's hide, and the fact that you really can't eat one until it softens - just like a pear.)
+
+alligator claws are also a great name to call them if you have kids who either won't eat anything that sounds weird and you want to keep them to yourself, or - if you want your kids to eat them - if you have kids who'll only eat things that will gross other people out.
+
+if you are preparing these for kids (and i recommend you do whatever name you choose to call them), protect their palates and tone down the heat of the sauce.  maybe skip the chiles altogether and put in just a hint of finely ground pepper (white pepper won't look like black specks throughout the dip - i'm normally not that fussy, but it's something kids will notice).
+
+allow half an avocado per person.  this is so rich that more is too much.
+
+note:
+you can easily cut the recipe in half, all the batter is is a one-to-one mix of flour & water (someone has suggested trying tempura batter which comes in a mix at many supermarkets - i tend to be a from-scratch kind of guy.  or do i just mean itchy?).
+
+enjoy.
+
+-- text by michael david winter, aka the poker roach
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: creme fraiche, lime, zest of, lime, juice of, ground chipotle chile pepper, flour, water
+---
+TITLE: Alligator Hush Puppies
+CURRENT_DESCRIPTION: recipe from the 2003 texas gatorfest, these sound tasty. serving sizes and yield are estimated. prep time includes 10 minutes 'stand' time. posted for zwt5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, alligator meat, creamed corn, eggs, onion, jalapeno pepper
+---
+TITLE: Alligator Piss
+CURRENT_DESCRIPTION: one of my mates said that i have to put this drink on here for him. myself i don't like it, so please don't rate it bad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: midori melon liqueur, peach schnapps, southern comfort, amaretto, sweet and sour sauce
+---
+TITLE: Alligirl S Caribbean Cocktail
+CURRENT_DESCRIPTION: we got the inspiration for this cocktail from chef #526666's sauce recipe in recipe #373075. why not also enjoy the burgers to go with the drink?! posted with permission. just one more reason we love zaar,.. creativity! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh pineapple, mango, jalapeno, molasses, ice, coconut rum
+---
+TITLE: Allison   Diana S Orange Custard
+CURRENT_DESCRIPTION: very sweet orange flavored cake-like custard.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, eggs, orange juice, oranges, zest of
+---
+TITLE: Allison S Banana Bread
+CURRENT_DESCRIPTION: moist and flavorful banana bread
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, sugar, butter, eggs
+---
+TITLE: Allison S Creamy Veggie Pasta Salad
+CURRENT_DESCRIPTION: this salad is always a hit at barbeques. and so easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shell pasta, cheddar cheese, red pepper, yellow pepper, cucumber, tomatoes
+---
+TITLE: Alloco (Ivorian Fried Plantain)
+CURRENT_DESCRIPTION: Alloco is Côte d'Ivoire's most beloved street food — ripe plantain slices fried in palm oil until caramelised on the outside, fluffy within. Sold at roadside stands with grilled fish or fried eggs. The plantains must be very ripe (yellow-black) for maximum sweetness and that jammy interior.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 large very ripe plantains (heavily spotted, nearly black), 400 ml palm oil or vegetable oil, 0.5 tsp salt
+---
+TITLE: Allrighty Then  The Fluffiest Scrambled Eggs
+CURRENT_DESCRIPTION: i couldn't decide which one of these recipes i wanted,recipe#73033 by chef#37449 or recipe#251220 by chef#89831.so, i thought of a way to combine those two recipes.if you want to double this recipe,please do not add more than 1/4 teaspoon of baking powder.i want to thank chef#37449 and chef#89831 for inspiring me to come up with this recipe :) . if you try this recipe, i sure hope you like it. :) submitted to " zaar " on may 28th, 2009
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sour cream, milk, baking powder, salt, ground black pepper
+---
+TITLE: Allrighty Then Scrambled Eggs   Paula Deen
+CURRENT_DESCRIPTION: i saw this on paula's home cooking and had to share! allrighty then!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sour cream, water, salt & freshly ground black pepper, butter, cheddar cheese
+---
+TITLE: Allspice Cream Cheese Frosting
+CURRENT_DESCRIPTION: a cream cheese frosting with a little extra something, this frosting is paticularly good on carrot cake. recipe originally posted on allrecipes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, butter, ground allspice, confectioners, ,, ,
+---
+TITLE: Allspice Meatball Stew
+CURRENT_DESCRIPTION: this stew has an exotic spicy flavor that i liked. try it if you want to take a walk on the wild side. freezes well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: meatballs, fresh green beans, baby carrots, beef broth, worcestershire sauce, ground allspice
+---
+TITLE: Allspice Orange Nut Bread
+CURRENT_DESCRIPTION: want something a little different? try this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, orange rind, all-purpose flour, baking soda
+---
+TITLE: Allspice Sweet Potato Pie  Bh G
+CURRENT_DESCRIPTION: i found this pie in an edition of bh&g which i recieved during a cookbook swap here on zaar. i really liked the flakey crust and the yummy filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, flour, brown sugar, allspice, salt, butter
+---
+TITLE: Allspice Wonder
+CURRENT_DESCRIPTION: this is a recipe that i came up with while i was at school i made it for my family and they absolutely loved it
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: allspice, instant vanilla pudding, milk, eggs, cinnamon, flour
+---
+TITLE: Ally Style Pasta Carbonara
+CURRENT_DESCRIPTION: my nieces favourite pasta dish.  wonderfully quick for a hungry little girl.  not truly carbonara, but close enough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tagliatelle pasta noodles, cooked ham, cheddar cheese, milk, cornflour
+---
+TITLE: Allysun S Spicy Tomato And Corn Salsa
+CURRENT_DESCRIPTION: this dish is not only colorful with an eye-catching presentation, it is also really good! my little sister is a really good cook and her recipes are not only delicious but usually pretty healthy like this one. this recipe works well as either a salad or served with tortilla chips on the side and eaten as a salsa. 7-23-07 update: i made this again after a long time and found it needed some more spice. i have updated the recipe a bit for our "spicier" taste buds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, lime juice, honey, salt, pepper, tomatoes
+---
+TITLE: Almendrado The Mexican Flag
+CURRENT_DESCRIPTION: this is a mexican dessert recipe also a southwestern recipe the colors of the mexican flag! light and airy. making this great after a heavy meal. serve as is or on a bed of recipe #309365 using the egg yolks from the whites used in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unflavored gelatin, cold water, egg whites, salt, sugar, almond extract
+---
+TITLE: Almond   Cake With  Meringue And Whipped Cream Filling
+CURRENT_DESCRIPTION: crisp layers of almond-filled meringue baked on top of cake layers, then  sandwiched with whipped cream and drizzled with melted chocolate!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla cake mix, ground almonds, eggs, vegetable oil, milk, sugar
+---
+TITLE: Almond   Glazed Poppy Seed Bread
+CURRENT_DESCRIPTION: just like grandma used to make!! yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking powder, eggs, milk, butter
+---
+TITLE: Almond   Poppy Seed Muffins
+CURRENT_DESCRIPTION: great for brunch :p
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, salt, egg, sugar
+---
+TITLE: Almond   Sesame Nut Roast With Mushroom Onion Sauce
+CURRENT_DESCRIPTION: this is from a vegetarian cookbook - which is probably out of print - called "cooking for today simple vegetarian recipes" published by whitecap books... i've tried lots of different "meat" loaves and they all sucked - mostly i think b/c they contain tofu. i love tofu - but i don't think it belongs in "meat" loaf. this roast/loaf turned out really delicious. i made it for a dinner party and everyone loved it - and they said it went good especially with the mushroom sauce... i'm allergic to mushrooms and ate my slices with ketchup - it was still loverly :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame, onion, risotto rice, vegetable stock, carrot, leek
+---
+TITLE: Almond  Apricot And White Chocolate Decadence Bars  Cookie Mix
+CURRENT_DESCRIPTION: source: betty crocker  "apricots, cream cheese and almond paste create the wow in rich and dreamy bars."   cooking time does not include cooling or refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar cookie mix, butter, almond extract, egg, almond paste, sugar
+---
+TITLE: Almond  Citrus   Coconut Tart   With Gluten Free Option
+CURRENT_DESCRIPTION: this is a sweet version of an impossible pie. it's very easy to make and can be made successfully using a glutenfree flour blend.
+serve chilled. this tart has a moist dense texture with great flavours. really any combination of citrus can be used for this recipe -lemons, limes, madarines, orange
+*to make this dish gluten free- ensure gluten free flour and icing /confectioners sugar are used*
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, caster sugar, plain flour, slivered almonds, desiccated coconut, orange
+---
+TITLE: Almond  Crusted Chicken Breasts
+CURRENT_DESCRIPTION: yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, boneless skinless chicken breast halves, flour, egg, water, butter
+---
+TITLE: Almond  Feta Cheese  Spread With Herb Oil  Vegan
+CURRENT_DESCRIPTION: from the fab five list in the april 2009 issue of vegetarian times.  i never thought i'd have enough time to make vegan "cheese," but because this was one of the editors' picks i gave it a shot, and i'm so glad i did! though it's called "feta cheese," in the title, it really is a creamy spread. i told my dh that it was an "almond spread" and he loved it!  asked what kind of cheese i used in it, and was surprised to learn there was none. the recipe is really easy, but takes lots of waiting time (not included in the times).  i'm listing it exactly like in the magazine.  but for the oil topping at the end, i think 1/4 cup oil is too much. personally, i'm cutting it back to 2 tablespoons next time.  enjoy!    edited to add: the original recipe in the magazine says to bake it 200f for 40 minutes, but as several reviewers noted here (and i agree) it's better in a hotter oven. try 400f and watch for it to brown. baking is only needed to turn it from creamy to crumbly, so it's completely up to you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blanched almond, lemon juice, olive oil, garlic clove, salt, fresh thyme leave
+---
+TITLE: Almond  Sunflower And Berries Shake
+CURRENT_DESCRIPTION: being an excellent source of protein, the nuts and seeds in this shake make it a nourishing breakfast that will help you re-charge so that you are ready to meet the demands of the day ahead.  soaking the nuts and seeds overnight increases their digestibility and therefore the healthfulness of this shake.  just drain off the water the nuts have soaked in overnight before making your shake with clean water and the other ingredients.  this shake will obviously be more nutritious if you use organic nuts, seeds and fruits.  adapted from a recipe on dr joseph mercola’s website, together advice from my naturopath.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, sunflower seeds, flax seeds, water, fresh apple juice, bananas
+---
+TITLE: Almond Amaretto Cheesecake
+CURRENT_DESCRIPTION: i started making this cheesecake back in the early 80's.  i went to a southern living cooking class and it was on the menu.  my mother and friends always ask me to make this on special occasions.  it is time consuming but i guarantee you it is wonderful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafers, toasted almond, sugar, butter, nonstick cooking spray, cream cheese
+---
+TITLE: Almond Amaretto Coffee
+CURRENT_DESCRIPTION: for brunch, provide a carafe of coffee mixed with the amaretto and sugar. then let guests serve themselves, topping each serving with whipped cream and almonds, if desired. from bhg.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, amaretto, brewed coffee, whipped cream, brown sugar
+---
+TITLE: Almond And Apricot Tart
+CURRENT_DESCRIPTION: this is an old south african favourite, often made for the small home industry outlets and for our numerous interesting roadside "farm stall" coffee shops, where good preserves, breads and bakery goods are often for sale. if you like almonds, this is for you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, salt, butter, superfine sugar, egg yolks, vanilla
+---
+TITLE: Almond And Chocolate Sandwich Cookies
+CURRENT_DESCRIPTION: a fabulous, tasty crisp cookie. great with ice cream.
+
+(this is a recipe i've adopted from the zaar account.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole almond, sugar, all-purpose flour, baking powder, salt, unsalted butter
+---
+TITLE: Almond And Fig Filling
+CURRENT_DESCRIPTION: this makes heaven to fill whatever you desire. can you just inhale the aroma?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, orange rind, orange juice, all-purpose flour, water, grand marnier
+---
+TITLE: Almond And Lemon Biscotti
+CURRENT_DESCRIPTION: this is from giada de laurentis' every day food show. i'm adding it here because i can never find recipes a second time on the food network website.
+these are yummy biscotti dipped in meleted chocolate for extra yummyness!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cornmeal, baking powder, salt, sugar, eggs
+---
+TITLE: Almond And Lime Lemonade
+CURRENT_DESCRIPTION: inspired by the lemonade served at little greenbrier lodge bed and breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cold water, frozen lemonade concentrate, frozen orange juice concentrate, pineapple juice, lime juice, pure vanilla extract
+---
+TITLE: Almond And Pear Cake
+CURRENT_DESCRIPTION: an italian style cake. regular all-purpose flour or a gluten-free flour blend can be used. if using gluten-free flour use a good quality blended flour that includes a gum or add in 1 teaspoon of xanthan or guar gum with the flour.
+use either a flan tin or a pie plate suitable to serve from. you can make your own almond meal by grinding blanched almonds in a coffee mill or food processor until finely ground. tinned pears can be used if fresh are not available but fresh fruit give a preferable result.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, caster sugar, lemon zest, eggs, all-purpose flour, baking powder
+---
+TITLE: Almond And Pistachio Rice With Chicken
+CURRENT_DESCRIPTION: this recipe from ricardo larrivée is full of wonderful flavours from the spices and a nice crunch from the nuts. delicious! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, olive oil, garlic cloves, cinnamon, star anise, ground coriander
+---
+TITLE: Almond And Plum Tart
+CURRENT_DESCRIPTION: a very light cake perfect to have with a cup of freshly brewed coffee! this recipe is based on a recipe that my dear mother passed on to me - the only difference between the 2 recipes is the addition of almond essence and slithered almonds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, warm water, almond essence, flour
+---
+TITLE: Almond And Raisin Pilaf
+CURRENT_DESCRIPTION: i've worked this recipe to use the fewest number of pans and for easiest clean up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, onion, raisins, vermicelli, long grain rice, vegetable stock
+---
+TITLE: Almond And Strawberry Bread
+CURRENT_DESCRIPTION: what better way to welcome spring than with this sweet strawberry bread! yogurt makes this bread very moist and almond extract makes it sweetly delicious! tint the icing pink if you wish, for a pretty, spring-y look.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, sugar, butter, egg
+---
+TITLE: Almond Anise Biscotti
+CURRENT_DESCRIPTION: wonderful with a glass of wine, these are my favorite biscotti.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla extract, ground aniseed, unbleached all-purpose flour
+---
+TITLE: Almond Apricot Bread
+CURRENT_DESCRIPTION: this recipe comes from the 2008 taste of home cookbook, baking classics.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, light brown sugar, baking powder, salt, apricot baby food
+---
+TITLE: Almond Asparagus
+CURRENT_DESCRIPTION: this comes from one of holly clegg trim and terrific cookbooks.  quick, easy, and light on calories!  a taste experience not to be missed!  you will like the crunch of the almonds.  be sure your fresh asparagus stalks are firm and have closed tips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, margarine, lemon juice, almonds, salt, pepper
+---
+TITLE: Almond Bacon Cheese Spread
+CURRENT_DESCRIPTION: this recipe is small, so it can be doubled or tripled depending on how much you need.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted almonds, bacon, american cheese, green onion, mayonnaise, salt
+---
+TITLE: Almond Bacon Chicken
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 bacon strips, 4 boneless skinless chicken breast halves, 1/4 tsp. pepper, 1 (10 3/4 oz.) can condensed cream of onion soup (undiluted), 1/4 c. chicken broth, 1/4 c. sliced almonds, toasted
+---
+TITLE: Almond Baked Halibut
+CURRENT_DESCRIPTION: a very tasty and simple fish dish that i served many times in seattle with tossed green salad, baked potato, brussel sprouts, gewurztraminer wine, and baked bananas for dessert. your guests will love you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: halibut steaks, salt, pepper, limes, juice of, garlic, olive oil
+---
+TITLE: Almond Balls
+CURRENT_DESCRIPTION: not sure where i got this recipe but they are sumptuous and look impressive for the holiday season.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blanched slivered almond, unsalted butter, confectioners, ,, ,, ,
+---
+TITLE: Almond Banana Bars
+CURRENT_DESCRIPTION: almonds are my favorite nut, and this recipe explains why. :) from the almond board of california.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: natural almonds, whole wheat flour, all-purpose flour, wheat germ, dark brown sugar, baking powder
+---
+TITLE: Almond Banana Bread
+CURRENT_DESCRIPTION: i found this recipe here:
+http://www.thewannabechef.net/2012/06/04/almond-flour-banana-bread/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond meal, eggs, oil, brown sugar, bananas, vanilla extract
+---
+TITLE: Almond Bar Cookies
+CURRENT_DESCRIPTION: dense cake-like cookie with delicate almond flavor. search here for almond paste recipe if you can't find it in your grocery store.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, salt, sugar, butter, egg, flour
+---
+TITLE: Almond Bark Candy
+CURRENT_DESCRIPTION: great holiday candy recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white almond bark, chunky peanut butter, rice krispies, miniature marshmallows, dry roasted peanuts
+---
+TITLE: Almond Bark Cookies
+CURRENT_DESCRIPTION: these are easy no-bake cookies my children are always asking for, but we have to have for the holidays.  they are so easy the kids can take over after you melt the almond bark.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond bark, peanut butter, dry roasted peanuts, miniature marshmallows, rice krispies
+---
+TITLE: Almond Bark Crispy Drops
+CURRENT_DESCRIPTION: this sweet treat is loved by kids of all ages!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond bark, peanut butter, dry roasted peanuts, crisp rice cereal, miniature marshmallows
+---
+TITLE: Almond Bark Mix
+CURRENT_DESCRIPTION: i received this recipe from a friend and she got it from her sister. put in cello bag and tie with ribbon for a nice gift.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white almond bark, chex cereal, cereal, peanuts, pretzel sticks, m&m
+---
+TITLE: Almond Bark Popcorn
+CURRENT_DESCRIPTION: addicting and nice to give as gifts at christmas in a decorative tin.  i'm basically posting this as my own reference as i keep loosing the recipe:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: popped popcorn, rice, dry roasted peanuts, almond bark, peanut butter
+---
+TITLE: Almond Bars
+CURRENT_DESCRIPTION: this recipe i got from a friend 30 years ago.  it's hard to believe it calls for a full bottle of almond to be used, but it does and is fantastic.  very moist and needs no frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, sugar, egg, baking powder, salt
+---
+TITLE: Almond Bars    Final
+CURRENT_DESCRIPTION: a clone of an almond bar that's sold at a local bakery. chocolate and almonds -- very nice
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, salt, butter, almond paste, egg, almond extract
+---
+TITLE: Almond Bear Claws
+CURRENT_DESCRIPTION: these are my favorite pastries; found online so now i can make them at home!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, almonds, white sugar, salt, butter, egg whites
+---
+TITLE: Almond Biscotti
+CURRENT_DESCRIPTION: these dry cookies are delicious when served with a nice big cup of coffee after a meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, sugar, vanilla, all-purpose flour, baking powder, cinnamon
+---
+TITLE: Almond Biscotti  Quaresimale
+CURRENT_DESCRIPTION: these are a delicious biscotti, the recipe was passed on to me , the recipe comes from a bakery.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, brown sugar, flour, baking powder, cinnamon, unsalted butter
+---
+TITLE: Almond Biscotti Toscani  Gluten Free
+CURRENT_DESCRIPTION: i went to a gluten-free baking class and this was one of the featured recipes. i had never had biscotti before, so i don't really know how this compares. i liked it however. it was quite good dipped in my coffee and had just the right amount of crunch and sweetness. makes a fair amount and supposedly keeps for a long time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, eggs, vanilla extract, almond extract, orange zest
+---
+TITLE: Almond Blackberry Tart
+CURRENT_DESCRIPTION: found online in a moroccan journal. a yummy almond crust, dotted with fresh blackberries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blackberry, almond meal, all-purpose flour, salt, unsalted butter, honey
+---
+TITLE: Almond Blueberry Cobbler
+CURRENT_DESCRIPTION: i got a recipe from a friend for pear cobbler.  it was really good.  i decided to come up with my own recipe.  the only thing that i kept the same was the sugar and flour measurments.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen blueberries, salted butter, self rising flour, sugar, evaporated milk, almond extract
+---
+TITLE: Almond Blueberry Cookies
+CURRENT_DESCRIPTION: a classic
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, unsalted butter, sugar, egg yolk
+---
+TITLE: Almond Bread  Cookie Biscotti
+CURRENT_DESCRIPTION: from diabetes australia the ultimate diabetes cookbook in response to a request for sweet treats with nuts.  times are estimated and have not included standing time of 3 to 4 days.  the name almond bread is a bit of a misnomer so have changed the title 30/4/2008.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, caster sugar, vanilla essence, plain flour, almonds
+---
+TITLE: almond bread pudding
+CURRENT_DESCRIPTION: from every night italian, posted for zwt iv.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, dark rum, white bread, unsalted butter, whole milk, eggs
+---
+TITLE: Almond Bread Pudding
+CURRENT_DESCRIPTION: from every night italian, posted for zwt iv.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, dark rum, white bread, unsalted butter, whole milk, eggs
+---
+TITLE: Almond Bread Pudding With Strawberry Caramel Sauce
+CURRENT_DESCRIPTION: source: the washington house - sellerville, pennsylvania
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain croissants, eggs, milk, granulated sugar, vanilla extract, almond extract
+---
+TITLE: Almond Breakfast Bread
+CURRENT_DESCRIPTION: a moist, easy bread that we enjoy with our morning coffee. it freezes well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, eggs, baking powder, salt, milk
+---
+TITLE: Almond Brickle Coffee Cake
+CURRENT_DESCRIPTION: this is a family favourite coffee cake, i am always asked to bring it for chrismas breakfast or family brunches.  i also make it every year for a charity bake sale, it is easy, sells quickly and has been requested by people that have previously purchased it.  the apricot and toffee bits combine to make a moist coffee cake that looks as good as it tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, eggs, almond extract, flour, sour cream
+---
+TITLE: Almond Brittle
+CURRENT_DESCRIPTION: nice alternative to the peanut variety.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, corn syrup, sliced almonds, salt, butter
+---
+TITLE: Almond Brittle Bar Cookies
+CURRENT_DESCRIPTION: these heavenly bar cookies are crowned by a topping of melted chocolate and chopped nuts
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, butter, granulated sugar, eggs
+---
+TITLE: Almond Broccoli In Sherry Sauce
+CURRENT_DESCRIPTION: this is a wonderful entertaining recipe.
+creamy, crunchy and nutty.
+it just does not get any better.
+came out of southern living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh broccoli, boiling water, chicken bouillon cube, butter, all-purpose flour, half-and-half
+---
+TITLE: Almond Brown Rice
+CURRENT_DESCRIPTION: a good side for chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, light margarine, onion, celery, poultry seasoning, dried thyme
+---
+TITLE: Almond Brown Sugar Brownies
+CURRENT_DESCRIPTION: this is an adaption/ homemade recipe. they are really good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, unsweetened chocolate, sugar, brown sugar, flour, almonds
+---
+TITLE: Almond Brussels Sprouts
+CURRENT_DESCRIPTION: i'm always looking for new ways to cook veggies. this was adapted from quick cooking. i have used both fresh and frozen brussel sprouts in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh brussels sprout, chicken broth, sliced almonds, butter, salt, pepper
+---
+TITLE: Almond Burgers
+CURRENT_DESCRIPTION: great veggie burger. i like serving these guys in a pita (because the patties are delicate and tend to break... but in a pita pocket, it's all good! you know!) with lettuce, cucumber and raita or chutney.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, tahini, onion, carrot, tamari, lemon, juice of
+---
+TITLE: Almond Butter Blossoms
+CURRENT_DESCRIPTION: prize tested recipe $200.00 winner. i found this recipe in better homes and gardens magazine. i have not tried this recipe, but i'm posting it for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almond butter, sugar, brown sugar, baking soda, cream of tartar
+---
+TITLE: Almond Butter Buckeyes
+CURRENT_DESCRIPTION: this buttery and nutty chocolate confection was inspired by the nuts that fall from ohio's famous buckeye trees. come holiday time, they are produced (and consumed) in mass quantities in "the buckeye state," as well as in neighboring states throughout the midwest. note: you may substitute peanut or cashew butter for almond butter; omit almond extract if you use a substitution.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almond butter, dark rum, almond extract, confectioners, ,
+---
+TITLE: Almond Butter Cake
+CURRENT_DESCRIPTION: a small simple cake with a slight almond toasted almond taste. really out of this world. you can substitute almond extract for 3/4 of the vanilla if a stronger almond taste is desired. this cake employs an unusual mixing method that ensures good results.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sour cream, pure vanilla extract, cake flour, toasted almond, superfine sugar
+---
+TITLE: Almond Butter Cake With Buttercrunch Glaze
+CURRENT_DESCRIPTION: a delectable dessert perfect for any occasion.  with a texture similar to that of pound cake, this one is coated with a glazed almond topping that makes it a real winner, especially when served for brunch or with afternoon coffee or tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, unsalted butter, sliced almonds, sugar, light brown sugar, light corn syrup
+---
+TITLE: Almond Butter Cake With Crunchy Almond Topping
+CURRENT_DESCRIPTION: this cake will still be good a few days in the refrigerator, and it can be frozen. from vons.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, sweet creamy butter, eggs, almond extract, vanilla extract, salt
+---
+TITLE: Almond Butter Chocolate Chip Cookies
+CURRENT_DESCRIPTION: sink your teeth into these! six ingredients, two steps and 20 minutes is all you'll need to whip together two dozen of our no-flour, dairy-free, low-sugar cookies. - from clean eating magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond butter, sucanat, egg, baking soda, sea salt, dark chocolate
+---
+TITLE: Almond Butter Cinnamon Vanilla Oatmeal
+CURRENT_DESCRIPTION: this oatmeal is so good. if you wanted you could add chocolate chips
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking oats, almond butter, skim milk, vanilla extract, ground cinnamon
+---
+TITLE: Almond Butter Cookies
+CURRENT_DESCRIPTION: these tiny cookies are really nice looking and great for cookie exchanges and such. they take a while to make because they need to be chilled and then glazed, but theyr'e well worth the time and effort.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, cream cheese, egg, vanilla, almond extract
+---
+TITLE: Almond Butter Cookies With Cream Cheese
+CURRENT_DESCRIPTION: i have had this recipe for so long that i can't remember where it came from, but i think i got it out of a magazine or newspaper. i like it because you can use the dough in so many different ways. for the holidays, you can press half of a candied cherry in the center of unbaked cookie, and then after baking drizzle with either white or dark chocolate, melted.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, cream cheese, egg, vanilla, almond extract
+---
+TITLE: Almond Butter Cookies With Frosting
+CURRENT_DESCRIPTION: easy to make almond-butter cookies, frosting optional. the flavor is delicate and very yummy. i am a novice in the kitchen and made these one night in about 30 min on a whim. the frosting hardens quickly, but it's easy to add water and microwave 15-30 seconds to soften it up again for spreading. i found this recipe on the back of the publix sweet cream butter (unsalted) package; the credits on the package are "publix apron's simple meals"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, almond extract, all-purpose flour, confectioners
+---
+TITLE: Almond Butter Crunch Candy
+CURRENT_DESCRIPTION: this is a yummy candy that i make each year to put in amongst (if that is a word)  my cookies on the trays.  it came from a better homes & garden candy cookbook back in the '60s.   it is one that is easy to make and comes out great every time.  it is very tasty and has a great crunch if you are sure to bring it to the hard crack stage.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, light corn syrup, water, almonds, milk chocolate candy bars
+---
+TITLE: Almond Butter Frosting
+CURRENT_DESCRIPTION: its like peanut butter frosting, but with almond butter instead.  i suppose it would be good on cake, but i've only eaten it on toast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almond butter, vanilla extract, molasses, powdered sugar
+---
+TITLE: Almond Butter Honey Nut O S Bars
+CURRENT_DESCRIPTION: this just came to me in an email from cascadian farms and i am posting it here for safekeeping. the recipe is credited to shaina olmanson. i found them rather sweet, so i will probably reduce the honey/sugar. instead of making a drizzle i just added chocolate chips and butterscotch chips into the mixture, which was yummy but again added to the sweetness. experiment! let me know what you change to make it work for your family :).  time does not include cooling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey nut cheerios, sugar, honey, almond butter, chocolate chips
+---
+TITLE: Almond Butter Icing
+CURRENT_DESCRIPTION: in case you can't tell, i like almonds. you might not need all 5 cups of confectioner's sugar. just follow your instincts. you want it spreadable, but not too thick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, butter, confectioners, ,, ,
+---
+TITLE: Almond Butter Raisin Cookies  Vegan  Gluten Free
+CURRENT_DESCRIPTION: soft healthful gluten-free cookies made with simple ingredients, with a heavy richness from roasted almond butter, lots of raisins and a bit of maple syrup. they are my staple break-time snack for work and freeze very well. each cookie comes out to about 125 calories each.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, oat flour, rolled oats, ground flax seeds, baking powder, ground cinnamon
+---
+TITLE: Almond Butter Yeast Cake
+CURRENT_DESCRIPTION: this cake is a bit more complicated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skim milk, flour, sugar, salt, yeast, butter
+---
+TITLE: Almond Buttermilk Scones
+CURRENT_DESCRIPTION: these scones are just as good the next day, as they are warm, out of the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, sugar, salt, baking powder, baking soda, butter
+---
+TITLE: Almond Butterscotch Latte
+CURRENT_DESCRIPTION: this is from the cookbook cappuccino espresso the book of beverages by christie and thomas katona.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butterscotch sundae sauce, chocolate fudge topping, almond syrup, espresso, milk
+---
+TITLE: almond cake
+CURRENT_DESCRIPTION: slightly dense, intensely almond flavored cake
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, unsalted butter, almond paste, eggs, kirsch, almond extract
+---
+TITLE: Almond Cake
+CURRENT_DESCRIPTION: slightly dense, intensely almond flavored cake
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, unsalted butter, almond paste, eggs, kirsch, almond extract
+---
+TITLE: Almond Cake From Albufeira  Portugal
+CURRENT_DESCRIPTION: after going to portugal and tasting,i found this recipe.you will love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, baking powder, baking soda, salt, egg
+---
+TITLE: Almond Cakes
+CURRENT_DESCRIPTION: an homage to denmark's sublime almond pastries, these delicate little cakes provide a nice hit of almond to complement black licorice pudding (recipe#234934); they're also a lovely nibble on their own with a cup of tea.  from gourmet 3/2007
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, all-purpose flour, salt, granulated sugar, almond paste, pure vanilla extract
+---
+TITLE: Almond Caramel Shortbreads
+CURRENT_DESCRIPTION: i don't really know where i got this recipe from, but i've had it hanging around for a while. these are so yummy, my boyfriend asks for them at least once a week. perfect for a holiday dinner, cookie exchange, or any other party where you want to dazzle your friends/make them love you forever. i sprinkle the top of this with sea salt before i pop it in the oven, i think it adds that little extra something. i've also drizzled it with melted chocolate after they've cooled, but their so rich you really don't need it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet cream, sugar, egg yolks, nutmeg, cinnamon, flour
+---
+TITLE: Almond Caramels
+CURRENT_DESCRIPTION: i have to just gotta dig out my thermometre for this recipe!
+another find in my favourite paper the weekly times by jeremy vincent 
+jusr can't waot to try these. until i make these i am not sure of the cooking time.
+.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: caster sugar, cream, golden syrup, sliced almonds, orange
+---
+TITLE: Almond Cardamom Cookies
+CURRENT_DESCRIPTION: these are a tasty little cookie from the very virginia junior league cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, toasted almond, butter, sugar, vanilla, ground cardamom
+---
+TITLE: Almond Celery
+CURRENT_DESCRIPTION: this crispy, crunchy side dish is one of our favorites.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, blanched almond, celery, salt, pepper, sherry wine
+---
+TITLE: Almond Celery Bake
+CURRENT_DESCRIPTION: this recipe was found in the 2009 cookbook, taste of home best church supper recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: celery, cheddar cheese, paprika, pepper, condensed cream of celery soup, soft breadcrumbs
+---
+TITLE: Almond Champagne Fondue
+CURRENT_DESCRIPTION: since dd's wedding we have a few bottles of champagne to use up. darn the bad luck! lol this is one of the recipes i found that i can not wait to try!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gruyere cheese, swiss cheese, cornstarch, brie cheese, champagne, almond extract
+---
+TITLE: Almond Cheddar Appetizers
+CURRENT_DESCRIPTION: may be made ahead and frozen.  place in freezer in single layer on baking sheet and when ready to use bake at 400 for 10 minutes.  from taste of home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, worcestershire sauce, sharp cheddar cheese, onion, slivered almonds, bacon
+---
+TITLE: Almond Cheddar Bacon Bites
+CURRENT_DESCRIPTION: this is a tasty & easy appetizer that can be made ahead and frozen unbaked if you wish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, worcestershire sauce, sharp cheddar cheese, onion, slivered almonds, bacon
+---
+TITLE: Almond Cheesecake
+CURRENT_DESCRIPTION: this recipe i got from my daughter-in-law (one smart cook) the first time i visited their new home and have fixed it so many times since. it is so easy and quick that i can whip it up in a blink of an eye and the almond flavoring is super.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sugar, butter, cream cheese, sweetened condensed milk, eggs
+---
+TITLE: Almond Cheesecake Brownies
+CURRENT_DESCRIPTION: these brownies are heavenly! diet destruction for brownie and cheesecake lovers!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, butter, semisweet chocolate, sugar
+---
+TITLE: Almond Cherry Cereal
+CURRENT_DESCRIPTION: this quick, scrumptious breakfast will have you enjoying cereal like it's a special treat! it's healthy, filling and satisfying.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bran flakes, almond butter, banana, cherries, soymilk
+---
+TITLE: Almond Cherry Crisp
+CURRENT_DESCRIPTION: ps this is easy. cherries yum. what can i say...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cherry pie filling, flour, rolled oats, brown sugar, ground cinnamon, almond extract
+---
+TITLE: Almond Cherry Energy Bar
+CURRENT_DESCRIPTION: wanted to post this so the recipe won't get lost.  got it from the coupon section.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granola cereal, wheat germ, almond butter, vanilla extract, whole wheat pastry flour, honey
+---
+TITLE: Almond Cherry Fudge
+CURRENT_DESCRIPTION: i will be making this as a gift for valentine's day. i haven't tried it yet but it looks great. adapted from quick cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, sweetened condensed milk, almonds, candied red cherries, almond extract
+---
+TITLE: Almond Cherry Lavender Crunch
+CURRENT_DESCRIPTION: a great snack, topping ice cream, or sprinkled over oatmeal or yogurt for breakfast! if you can't find lavender, substitute 2 tsp. lemon zest. this is packed with vitamin e and fiber!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, honey, dried lavender, rolled oats, dried cherries, sliced almonds
+---
+TITLE: Almond Chicken
+CURRENT_DESCRIPTION: finally made this dish and was not disappointed.  i didn't have almonds on hand so i subbed pecans and crushed those to be medium fine instead...very good.  will probably use them again next time.  i also used whole oat flour and cooked the chicken in olive oil.  very good along with seasoned brown and wild rice (as seen in picture).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tamari soy sauce, ground ginger, garlic powder, boneless skinless chicken breasts, whole wheat flour, almonds
+---
+TITLE: Almond Chicken And Vegetables
+CURRENT_DESCRIPTION: this is a great stir-fry recipe from southern living, january 1986.  you need a wok for this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg white, soy sauce, cornstarch, sugar, salt, white pepper
+---
+TITLE: Almond Chicken Appetizers
+CURRENT_DESCRIPTION: delicious, crispy chicken nuggets breaded with crunchy almonds. makes about 20 nuggets which should serve 2-3 as a main dish. prep time includes time to marinate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, vegetable oil, egg white, soy sauce, salt, sugar
+---
+TITLE: Almond Chicken Breasts With Creamy Tarragon Mustard Sauce
+CURRENT_DESCRIPTION: from r. reisman
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, all-purpose flour, egg white, water, almonds, seasoned bread crumbs
+---
+TITLE: Almond Chicken Kabobs
+CURRENT_DESCRIPTION: simple and easy appetizers from a-1 great grilling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: a.1. original sauce, dijon mustard, honey, vegetable oil, lemon juice, garlic clove
+---
+TITLE: Almond Chicken Mole Sauce
+CURRENT_DESCRIPTION: this is great served over chicken or fish! from stop the clock! cooking: defy aging--eat the foods you love by cheryl forberg
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onions, almonds, chipotle chiles, dried plum, corn tortillas, pumpkin seeds
+---
+TITLE: Almond Chicken Salad
+CURRENT_DESCRIPTION: this recipe comes from taste of home magazine.  chicken, grapes, and almonds make a wonderful combination!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, green seedless grapes, celery, green onion, hard-cooked eggs, mayonnaise
+---
+TITLE: Almond Chicken Salad For Dips   Sandwiches
+CURRENT_DESCRIPTION: very fresh flavor with slightly sweet taste and a crunch thanks to the almonds and celery.  i love to make a huge batch of this and keep it in the fridge for sandwiches for the week.  tastes great on croissants and is always a hit at parties when i serve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, celery, golden raisin, almonds, mayonnaise, frozen orange juice concentrate
+---
+TITLE: almond chicken vegetable stir fry
+CURRENT_DESCRIPTION: i have been making this recipe for years, and use it to teach high school students knife skills and cooking sequencing. it is easy to prepare even for a novice cook, easy to use substitutions, well-liked and healthy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, salt, bamboo shoots, celery, boneless skinless chicken breasts, mushrooms
+---
+TITLE: Almond Chicken Vegetable Stir Fry
+CURRENT_DESCRIPTION: i have been making this recipe for years, and use it to teach high school students knife skills and cooking sequencing. it is easy to prepare even for a novice cook, easy to use substitutions, well-liked and healthy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, salt, bamboo shoots, celery, boneless skinless chicken breasts, mushrooms
+---
+TITLE: Almond Chicken With Asparagus
+CURRENT_DESCRIPTION: a wonderful recipe full of nutrients from the bed of spinach and protein from the chicken. this dish combines several flavors for a great tasting lunch or dinner. adapted from a popular weight loss tracking website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus tips, plain nonfat yogurt, curry powder, fresh lemon juice, salt, fresh ground pepper
+---
+TITLE: Almond Chicken With Savory Plum Sauce
+CURRENT_DESCRIPTION: i've had this for years and don't remember where i found it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, cornstarch, soy sauce, garlic clove, chicken breast halves, almonds
+---
+TITLE: Almond Chickpea Flour Cookies
+CURRENT_DESCRIPTION: these cookies are completely grain free and thus gluten free. you can make them dairy free, too, using non hydrogenated margarine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, chickpea flour, brown sugar, egg yolk, butter, cardamom
+---
+TITLE: Almond Chinese Chews
+CURRENT_DESCRIPTION: i haven't tried these yet; i'm not big on sweets, but they looked good for when i do get that occasional craving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, eggs, almond filling, all-purpose flour, baking powder, salt
+---
+TITLE: Almond Chive Salmon
+CURRENT_DESCRIPTION: cooking light, september 2006 recipe that sounds yummy. this topping is delicious. it took more than 10 minutes for the salmon to become flaky.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, fresh chives, fresh parsley, lemon rind, white bread, salt
+---
+TITLE: almond chocolate biscotti
+CURRENT_DESCRIPTION: there's nothing better than a hot cup of joe and a crispy biscotti. unless, of course, you're enjoying them at a cafe in italy! :) i was always intimidated to make these, but found them to be a sinch to make and can't wait to try them again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, unsweetened cocoa powder, sliced almonds, butter, sugar
+---
+TITLE: Almond Chocolate Biscotti
+CURRENT_DESCRIPTION: there's nothing better than a hot cup of joe and a crispy biscotti. unless, of course, you're enjoying them at a cafe in italy! :) i was always intimidated to make these, but found them to be a sinch to make and can't wait to try them again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, unsweetened cocoa powder, sliced almonds, butter, sugar
+---
+TITLE: Almond Chocolate Biscotti  Using Cake Mix
+CURRENT_DESCRIPTION: this is a quick biscotti recipe that starts off with a chocolate cake mix.  very quick and easy and perfect for after dinner drinks or coffee.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cake mix, all-purpose flour, butter, chocolate syrup, eggs, vanilla extract
+---
+TITLE: Almond Chocolate Cake  No Flour
+CURRENT_DESCRIPTION: a decadent brownie like toh recipe that does not use flour! its creator, peggy gwillim, says it is gluten free. serve with ice cream or alone. a strawberry or raspberry syrup with fresh berries looks and tastes great also.  this is baked in a spring form pan. tastes best if chilled day before. freezes well.  notice the review from chef #1236316 who subbed in 2 cups of almond meal for the 2 1/2 cups of almonds which is fine with me.  also notice chef#1213645 review about subbing in an equivalent amount of raw honey for the sugar which is also fine with me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, blanched almonds, sugar, butter, semisweet chocolate, brewed espresso
+---
+TITLE: Almond Chocolate Cake With Ganache
+CURRENT_DESCRIPTION: this is a very rich cake, i like it best served a little warm. this is from the cookbook chocolate cake by michele urvater.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, blanched almond, unsalted butter, sugar
+---
+TITLE: Almond Chocolate Chip Bars
+CURRENT_DESCRIPTION: it's a cross between a cookie and a slice of coffeecake with a hint of scandinavian tradition.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, almond extract, egg, all-purpose flour, baking powder
+---
+TITLE: Almond Chocolate Chip Cookies
+CURRENT_DESCRIPTION: i hope you enjoy these cookies. they always get rave reviews in my circle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, brown sugar, eggs, vanilla, almond extract
+---
+TITLE: Almond Chocolate Chip Cookies  No Baking Powder Soda
+CURRENT_DESCRIPTION: i made this cookies with oil instead of butter, and also without baking soda/powder. so it's dairy-free and additive-free.
+my kids love this, and it's a bit healthier.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, soft brown sugar, salt, oil, egg, chocolate chips
+---
+TITLE: Almond Chocolate Chippers  Favorite Chocolate Chip Cookies
+CURRENT_DESCRIPTION: chocolate chip and toasted almond christmas cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, flour, baking soda, salt, butter, sugar
+---
+TITLE: Almond Chocolate Coffee Cake
+CURRENT_DESCRIPTION: i don't remember where i found this recipe - but i jotted it down because the ingredients were a bit different.  this is not an overly sweet cake, has only a little chocolate, and i love the flavor the yogurt brings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, brown sugar, semi-sweet chocolate chips, cocoa powder, instant coffee powder, dried apricot
+---
+TITLE: Almond Chocolate Cookies
+CURRENT_DESCRIPTION: source: taste of home
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, sugar, baking cocoa, almond extract, vanilla extract
+---
+TITLE: Almond Chocolate Marble Muffins
+CURRENT_DESCRIPTION: almond-studded batter swirled with chocolate batter; wonderful with a mid-morning cup of coffee:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, toasted almond, milk
+---
+TITLE: Almond Chocolate Pudding Cake
+CURRENT_DESCRIPTION: i have not tried this recipe myself, but got it from a friend that has impeccable taste in desserts, so i am sure it's yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, sugar, unsifted flour, salt, unsweetened cocoa, oil
+---
+TITLE: Almond Chocolate Toffee Crunchies
+CURRENT_DESCRIPTION: i recently made these cookies using half milk chocolate and half white chocolate chips, i just had to post the recipe... they are just fantastic! also, the dough freezes excellent.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, white sugar, egg, almond extract, all-purpose flour
+---
+TITLE: Almond Cinnamon Bars
+CURRENT_DESCRIPTION: mmmmmmmm!!!! almonds and cinnamon in a cookie bar. a nice addition to the festive cookie platter. bars can be frozen, well wrapped,for up to 2 months.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cinnamon, fresh lemon rind, salt, brown sugar, butter
+---
+TITLE: Almond Cinnamon Braid
+CURRENT_DESCRIPTION: presented in the simple & delicious mag from dec '06 and submitted by n. gunn.  i've not had to change one thing.  this is a recipe that uses refrigerated crescent rolls.  passive time includes up to 15 minutes baking and 10 minutes cooling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated crescent dinner rolls, sugar, ground cinnamon, slivered almonds, butter, almond extract
+---
+TITLE: Almond Cinnamon Cookies
+CURRENT_DESCRIPTION: a browned-butter drizzle takes these super-simple cookies to the next level.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, baking soda, cream of tartar, ground cinnamon, egg

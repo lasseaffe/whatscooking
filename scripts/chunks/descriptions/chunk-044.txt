@@ -1,0 +1,2162 @@
+TITLE: Balsamic Glazed Mushrooms
+CURRENT_DESCRIPTION: an easy appetizer to dress up ordinary button mushrooms.  feel free to try other mushroom varieties, such as baby bella, or mix them up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, button mushroom, shallots, salt, chicken broth, brown sugar
+---
+TITLE: Balsamic Glazed Pearl Onions
+CURRENT_DESCRIPTION: these wonderful onions seem to go with everything! i make them for my husband as a special treat, since the peeling of those little onions can be time consuming...but worth it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white pearl onions, olive oil, balsamic vinegar, water, sugar, salt
+---
+TITLE: Balsamic Glazed Pork Chops
+CURRENT_DESCRIPTION: found this in the gourmet magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, salt and pepper, balsamic vinegar, sugar, shallots, olive oil
+---
+TITLE: Balsamic Glazed Pork Chops  With Arugula Basil Pilaf
+CURRENT_DESCRIPTION: from rachel ray's cookbook-365: no repeats
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, rice pilaf mix, extra virgin olive oil, center-cut pork loin chops, salt & freshly ground black pepper, onion
+---
+TITLE: Balsamic Glazed Pork Tenderloin
+CURRENT_DESCRIPTION: i found this recipe in a site promoting the other white meat. balsamic vinegar combines with a touch of brown sugar to make a delectable glaze for this pork.. a quick browning gives the pork color and seals in the juices for a more tender dish. this recipe is simple and very tasty both hot or cold.i made 2 so i can have leftovers. add baby potatoes to your pan and you will get these great roasted potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, olive oil, salt, ground black pepper, balsamic vinegar, garlic
+---
+TITLE: balsamic glazed pork with caramelized onions
+CURRENT_DESCRIPTION: my market had a sale on boneless, country style pork ribs so i stocked up. not wanting to baste with a tradiditional tomato barbeque sauce, i became bold and made this up as i went along. the end result was very tasty indeed. you could use boneless chicken breasts or boneless pork chops in place of the ribs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: country-style boneless pork ribs, butter, olive oil, onion, dried rosemary, dried thyme
+---
+TITLE: Balsamic Glazed Pork With Caramelized Onions
+CURRENT_DESCRIPTION: my market had a sale on boneless, country style pork ribs so i stocked up. not wanting to baste with a tradiditional tomato barbeque sauce, i became bold and made this up as i went along. the end result was very tasty indeed. you could use boneless chicken breasts or boneless pork chops in place of the ribs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: country-style boneless pork ribs, butter, olive oil, onion, dried rosemary, dried thyme
+---
+TITLE: Balsamic Glazed Roast Vegetables
+CURRENT_DESCRIPTION: here's a great way to jazz up some root vegies from sfi. i usually add spuds & carrots to mine too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: parsnips, swedes, turnips, olive oil, maple syrup, balsamic vinegar
+---
+TITLE: Balsamic Glazed Roasted Chicken
+CURRENT_DESCRIPTION: this tangy dish nicely combines sweet and sour flavors.  this is a great recipe for the single, busy person: it can even be made in a counter-top oven!  i usually serve this with rice, or i pull the meat off the bone and serve it on a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast, dried sage, fresh ground pepper, soy sauce, dried thyme, red currant jelly
+---
+TITLE: Balsamic Glazed Salmon Fillets
+CURRENT_DESCRIPTION: from a recipe by isybel at allrecipes.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, garlic cloves, white wine, honey, balsamic vinegar, dijon mustard
+---
+TITLE: Balsamic Glazed Scallops
+CURRENT_DESCRIPTION: i love scallops!  our local seafood restaurants make amazing scallop dishes.  this recipe can hold up to all of them.  buy a frozen bag of scallops from trader joe's (if you are so blessed to live by one) and make a night of it.  i serve this dish with jasmine rice.  from the coastal living cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, pepper, sea scallops, olive oil, balsamic vinegar
+---
+TITLE: Balsamic Glazed Tuna Steaks
+CURRENT_DESCRIPTION: my brother is a deep-sea fisherman, whenever he gets the chance and brings home hundreds of pounds of tuna! this is our absolute favorite way to fix this delicacy! i make the sauce way ahead of fishing season and store in the freezer. even the kids give it two thumbs up! a fancy way to entertain guests and make it seem like you slaved all day. give thanks to beulah's in port aransas, texas for this winner!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna steaks, bacon, salt and pepper, sesame seeds, balsamic vinegar, soy sauce
+---
+TITLE: Balsamic Goat Cheese Salad Dressing
+CURRENT_DESCRIPTION: i came up with this while on a 30-day detox.  i needed to be creative with foods that i was allowed (and not allowed), and this is what i've come up with.  amounts are approximate, i eyeballed everything.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, balsamic vinegar, apple cider vinegar, garlic clove, goat cheese, fresh ground pepper
+---
+TITLE: Balsamic Gorgonzola Portabella Mushrooms
+CURRENT_DESCRIPTION: a quick, simple tasty appetizer or side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: portabella mushroom caps, balsamic vinegar, garlic, gorgonzola, thyme, salt
+---
+TITLE: Balsamic Green Bean   Red Onion Salad W  Multigrain Croutons
+CURRENT_DESCRIPTION: this is a salad i make frequently during the summer months with freshly picked green beans.  it is simple to prepare and delicious.  i use a zip-lock bag when making this salad, it makes bringing the salad for a picnic easy and clean up a snap. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, red onion, garlic clove, balsamic vinegar, olive oil, salt & freshly ground black pepper
+---
+TITLE: Balsamic Green Beans With Garlic
+CURRENT_DESCRIPTION: this brightens up boring green beans. it's full of flavor and healthy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, garlic clove, extra virgin olive oil, balsamic vinegar, salt, black pepper
+---
+TITLE: Balsamic Grilled Veggies
+CURRENT_DESCRIPTION: so simple!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green bell pepper, red bell pepper, vidalia onion, zucchini, yellow squash, balsamic vinegar
+---
+TITLE: Balsamic Herb Grilling Glaze
+CURRENT_DESCRIPTION: a nice tasty glaze to use on meat, fish and chicken, and tempeh during grilling. can also use it as a marinade. you can make this in advance up to a week and store in refrigerator; just warm to room temperature before using.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, dry sherry, honey, extra virgin olive oil, fresh thyme, fresh basil
+---
+TITLE: Balsamic Herb Lamb Chops
+CURRENT_DESCRIPTION: o.k. i am not a lamb eater, but was assured by the family this was great!
+i used this marinade on some lamb chops for a family dinner. the family loved the added flavour. this was just enough for 5 lamb chops. perperation time does not include marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, balsamic vinegar, garlic cloves, fresh rosemary, honey, dijon mustard
+---
+TITLE: Balsamic Herb Vinaigrette
+CURRENT_DESCRIPTION: i love the balsamic vinegar in this simple herb dressing. you can vary the herbs according to your taste. make it up at least an hour before using and leave it at room temperature. lovely on a green salad
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, sea salt, fresh ground black pepper, fresh basil, olive oil
+---
+TITLE: Balsamic Herbed Marinade For Goat Cheese
+CURRENT_DESCRIPTION: this is a great appetizer on crisp french bread, tossed on a salad or topped on cooked steak or hamburger!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, fresh lemon juice, fresh orange juice, lemon zest, garlic cloves, fresh basil
+---
+TITLE: Balsamic Honey  Glazed Green Beans
+CURRENT_DESCRIPTION: balsamic vinigar  garlic and honey give these greans an icredible flavor
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, balsamic vinegar, lemon, juice of, lemon, zest of, red onion, olive oil
+---
+TITLE: Balsamic Honey Glazed Chicken Breasts
+CURRENT_DESCRIPTION: this is based on a recipe from diane kochilas' book, against the grain, a cookbook featuring good carb mediterranean recipes. my version differs in that i used a george foreman grill for cooking the chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless skinless chicken breasts, salt & freshly ground black pepper, yellow onion, garlic cloves, tomato puree
+---
+TITLE: Balsamic Honey Roasted Root Vegetables
+CURRENT_DESCRIPTION: this is an easy, inexpensive, stress-free recipe even a beginning cook could whip together. perfect for fall and winter. this dish is usually served hot, but is also very tasty cold, either by itself or mixed in with spring greens and a balsamic or "goddess" dressing. you can easily substitute other root vegetables if you don't have these on hand - try celery root, baking potatoes, red beets, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, yam, rutabaga, turnips, parsnip, yellow beets
+---
+TITLE: Balsamic Honey Tenderloin
+CURRENT_DESCRIPTION: this recipe came to me recently in one of several online newsletters i subscribe to.  with pork tenderloin being on special this weekend, i decided to try it.  it is actually a barbeque recipe but i did it indoors on the broiler with good results.  it was good with one hour of marinating so you can imagine how good it would be with a full 24!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, grainy mustard, balsamic vinegar, olive oil, garlic clove, salt
+---
+TITLE: Balsamic Lasagna
+CURRENT_DESCRIPTION: what a yummy lasagna! if you want it low-fat, just switch the ricotta to low-fat or no-fat, then switch the eggs to just egg whites.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onions, garlic cloves, balsamic vinegar, diced tomatoes with juice, tomato paste
+---
+TITLE: Balsamic Leg Of Lamb
+CURRENT_DESCRIPTION: the longer the maranade the better the flavour. the pesto and vinegar give this a unique taste. maranade time not included in prep time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pesto sauce, balsamic vinegar, olive oil, garlic, salt and pepper, leg of lamb
+---
+TITLE: Balsamic Maple Glaze Salmon
+CURRENT_DESCRIPTION: easy and quick for a busy weekday dinner. found this on the net. served it with noodles stirred in the remaining glaze and stir-fried spinach.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grapefruit juice, maple syrup, balsamic vinegar, garlic, olive oil, salmon fillets
+---
+TITLE: Balsamic Maple Vinaigrette
+CURRENT_DESCRIPTION: an adaption of a recipe found in super suppers. this is a nice dressing served over baby greens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, balsamic vinegar, olive oil, pure maple syrup, dijon mustard, shallot
+---
+TITLE: Balsamic Marinated Flank Steak
+CURRENT_DESCRIPTION: i was surprised by this recipe in that you only marinade the meat 20-30 minutes.  it is great when you find a steak on sale and want to cook it that night.  i did tweak it a bit by adding in some freshly minced garlic to kick it up just a bit.  turned out great for a weeknight meal for the family served with buttered noodles and spinach salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, light brown sugar, garlic clove, dried rosemary, salt, flank steaks
+---
+TITLE: Balsamic Marinated Flank Steak Low Carb
+CURRENT_DESCRIPTION: low carb flank steak marinade
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steaks, onion, garlic clove, balsamic vinegar, olive oil, pepper
+---
+TITLE: Balsamic Marinated Skirt Steak
+CURRENT_DESCRIPTION: simple from martha stewart.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, olive oil, rosemary sprigs, garlic cloves, skirt steaks, coarse salt
+---
+TITLE: Balsamic Marinated Steaks
+CURRENT_DESCRIPTION: this recipe comes from allrecipes, submitted by angie zayac. we use this marinade whenever we have ribeyes, which is once a week!  they are so flavorful and juicy. the longer you marinade, the better!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, soy sauce, fresh garlic cloves, honey, olive oil, ground black pepper
+---
+TITLE: Balsamic Marinated Steaks With Gorgonzola  Tomato  Topping
+CURRENT_DESCRIPTION: this is so good. the marinade combined with the gorgonzola topping is just perfect--yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, shallots, olive oil, garlic cloves, fresh ground pepper, fresh basil leaves
+---
+TITLE: Balsamic Marinated Tomato Sandwiches
+CURRENT_DESCRIPTION: cooking time is actually marinading time.  from cooking pleasures magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, balsamic vinegar, red wine vinegar, fresh tarragon, salt, fresh ground black pepper
+---
+TITLE: Balsamic Mashed Sweet Potatoes
+CURRENT_DESCRIPTION: a splash of balsamic vinegar adds an unexpected pleasing tartness to sweet potatoes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, milk, butter, ground nutmeg, salt & freshly ground black pepper, balsamic vinegar
+---
+TITLE: Balsamic Mushroom Chicken
+CURRENT_DESCRIPTION: this recipe was published in a free cookbook put out by empire kosher poultry to celebrate its 50th anniversary. it is very easy to prepare and very good with rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breast halves, portabella mushroom, flour, olive oil, garlic, balsamic vinegar
+---
+TITLE: Balsamic Mushroom Soup
+CURRENT_DESCRIPTION: this soup uses both dried and fresh mushrooms and is finished with a drizzle of balsamic vinegar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried mushroom, boiling water, olive oil, butter, onion, fresh mushrooms
+---
+TITLE: Balsamic Mustard Salad Dressing
+CURRENT_DESCRIPTION: sweet, tangy dressing, good  mixed with arugula, tomatoes and feta cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, honey, balsamic vinegar, extra virgin olive oil, salt and pepper
+---
+TITLE: Balsamic Olive Oil Bread Dip
+CURRENT_DESCRIPTION: a marinade/cooking sauce/dip that has infinite uses. you can tailor it to your own tastes as well by adding or subtracting ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, olive oil, gilroy garlic, hot pepper flakes, ground aniseed, onion
+---
+TITLE: Balsamic Onion  Mushroom   Blue Cheese Tarts
+CURRENT_DESCRIPTION: these little guys are great to add to appetizer platters for parties and would also be great to pack in a picnic basket. the sticky sweetness of the balsamic onions works well with earthiness of the mushrooms and blue cheese. they are good cold. so, you don't have to worry about cooking them and keeping them warm during your event.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, butter, red onion, sugar, balsamic vinegar, cremini mushrooms
+---
+TITLE: Balsamic Onion And Cheese Picks
+CURRENT_DESCRIPTION: from recipesource.com. i love onions in balsamic vinegar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white pearl onions, olive oil, balsamic vinegar, salt and pepper, fontina cheese
+---
+TITLE: Balsamic Onion Marmalade
+CURRENT_DESCRIPTION: after a recipe from tom colicchio's _'wichcraft_, using a technique from alton brown.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, vegetable oil, kosher salt, fresh ground black pepper, sugar, balsamic vinegar
+---
+TITLE: balsamic onion stuffed pork loin
+CURRENT_DESCRIPTION: this flavourful onion stuffing keeps the pork juicy and really tasty! long slow barbecuing keeps the pork tender and adds a hint of smokiness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onions, garlic cloves, balsamic vinegar, red bell pepper, fresh breadcrumb
+---
+TITLE: Balsamic Onion Stuffed Pork Loin
+CURRENT_DESCRIPTION: this flavourful onion stuffing keeps the pork juicy and really tasty! long slow barbecuing keeps the pork tender and adds a hint of smokiness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onions, garlic cloves, balsamic vinegar, red bell pepper, fresh breadcrumb
+---
+TITLE: Balsamic Onion Tartlets
+CURRENT_DESCRIPTION: i recently acquired a copy of martha stewart’s hor d’oeuvres handbook and became taken with her flair for small bites with beautiful presentation.  the onion relish here was inspired by dancer’s chicken with balsamic onions.  you can prepare the onions a day or so ahead of time and finish the tarts just before serving.  i tend to offer a lot of variety so i keep the batches of each hors d’oeuvre small, but this can be easily doubled.  don't let the preparation time scare you, its mostly simmering time that frees you to attend to other things. these tarts are just wonderful served along with a zesty red wine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: miniature phyllo cups, vidalia onion, olive oil, chicken broth, dried thyme, balsamic vinegar
+---
+TITLE: Balsamic Onions
+CURRENT_DESCRIPTION: from everyday food's november 2005 issue, this recipe is made on the stove top versus the roasted onion versions i've seen. the thyme also adds an interesting twist. :d
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onions, fresh thyme, olive oil, salt and pepper, balsamic vinegar
+---
+TITLE: Balsamic Onions  Asparagus    Goat Cheese Pizza
+CURRENT_DESCRIPTION: this is a healthier pizza recipe from foodland ontario.  ythe balsamic onions add a sweetness that contrasts with the tangy goat cheese.  you can also use low-fat cheese and experiment with other vegetables like spinach or broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic clove, balsamic vinegar, granulated sugar, asparagus
+---
+TITLE: Balsamic Orange Couscous
+CURRENT_DESCRIPTION: this side dish compliments pork tenderloin.  the balsamic vinegar  and grated orange peel give the couscous the added flavor it requires.  it is a very subtle flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant couscous, water, orange juice, celery, red pepper, green onion
+---
+TITLE: Balsamic Pan Seared Pork Chops
+CURRENT_DESCRIPTION: the mustard idea i got from wolfgang puck on a recipe he used with ribeyes. i substittuded sauted onion rings for fried,pork for beef, added the shrooms and tomato. came out fantastic, with requests to do it again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chops, yellow onion, roma tomato, button mushroom, dijon mustard, flour
+---
+TITLE: Balsamic Pancetta Green Beans With Shallots
+CURRENT_DESCRIPTION: great ingredients create a delicious and unique taste for everyday green beans. try these when you want to add extra punch to your meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pancetta, shallot, balsamic vinegar, fresh green beans, coarse salt, ground black pepper
+---
+TITLE: Balsamic Paprika Marinated Chicken
+CURRENT_DESCRIPTION: red chicken! nice, smoky taste. too easy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, balsamic vinegar, canola oil, olive oil, paprika, garlic powder
+---
+TITLE: Balsamic Parmesan Green Beans
+CURRENT_DESCRIPTION: give your fresh green beans a lift with balsamic vinegar! fast and tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, garlic salt, balsamic vinegar, chicken bouillon powder, water, parmesan cheese
+---
+TITLE: Balsamic Pasta Primavera
+CURRENT_DESCRIPTION: i made this up, inspired by a recipe from food and wine. while this looks like a lot of vinegar, don't worry! by boiling it, the acidity goes away and a thick, semi-sweet/savory syrup is left.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne pasta, balsamic vinegar, broccoli, red onion, cremini mushrooms, spinach
+---
+TITLE: Balsamic Pasta Salad
+CURRENT_DESCRIPTION: refreshing, lite and easy to make pasta salad
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bow tie pasta, balsamic vinegar, olive oil, sea salt, pepper, celery salt
+---
+TITLE: Balsamic Pasta Salad
+CURRENT_DESCRIPTION: 74K likes, 547 comments - healthygirlkitchen on February 1, 2023: "bookmark this healthy BALSAMIC PASTA SALAD (meal prep this!)🍅🌱follow @healthygirlkitchen for more life-changing salads!
+
+Order the HealthyGirl Kitchen Cookbook: 100+ plant-based recipes to live your healthiest life 🥑✨(available now for preorder!) link in bio.
+
+Ingredients (8 servings): 
+16 oz shelled pasta 
+2 cups halved cherry tomatoes
+2 cups diced bell pepper
+1 cup diced cucumber
+1/2 cup diced red onion
+1 cup sliced hearts o
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 16 oz shelled pasta, 2 cups cherry tomatoes, halved, 2 cups bell pepper, diced, 1 cup cucumber, diced, 0.5 cup red onion, diced, 1 cup hearts of palm, sliced
+---
+TITLE: Balsamic Peach And Asiago Tart
+CURRENT_DESCRIPTION: i got this recipe from a local winery where my husband and i celebrated our 1st anniversary.  i have made some variations and just love this tart.  i serve it with a salad and of course a glass of crisp white wine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, butter, peaches, balsamic vinegar, asiago cheese
+---
+TITLE: Balsamic Peppered Chicken
+CURRENT_DESCRIPTION: another easy but very tasty chicken recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, lemon-pepper seasoning, extra virgin olive oil, balsamic vinegar, chicken broth, garlic cloves
+---
+TITLE: Balsamic Poached Chicken
+CURRENT_DESCRIPTION: got this recipe from real simple magazine.  i used green beans instead of asparagus.  i was a bit weird to poach the chicked but it gave it a very unique flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: new potato, olive oil, kosher salt, black pepper, asparagus, low sodium chicken broth
+---
+TITLE: Balsamic Poached Chicken With Asparagus And Potatoes
+CURRENT_DESCRIPTION: from real simple april 2006
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: new potato, olive oil, kosher salt, black pepper, asparagus, low sodium chicken broth
+---
+TITLE: Balsamic Pork Chops
+CURRENT_DESCRIPTION: this is out of a weight watcher's cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless center cut pork chops, salt-free lemon & herb seasoning, cooking spray, balsamic vinegar, chicken broth
+---
+TITLE: Balsamic Pork Chops And Grapes
+CURRENT_DESCRIPTION: i worked 10 hrs today and when i got home the family was starved.. this is adapted from family circle, a recipe i had saved and it was perfect for a quick meal. i served this with herbed mashed potatoes and roasted green beans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, balsamic vinaigrette, salt, pepper, olive oil, chicken stock
+---
+TITLE: Balsamic Pork Chops With Apples
+CURRENT_DESCRIPTION: this is a great meal for any night (or maybe even for breakfast or brunch!) this comes from southern living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, salt, seasoned pepper, all-purpose flour, vegetable oil, granny smith apples
+---
+TITLE: Balsamic Pork Chops With Mushroom
+CURRENT_DESCRIPTION: i have this great bottle of balsamic vinegar and was looking for recipes to use it best.  this is one. hope you enjoy it as much as i did.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless center cut pork chops, salt and pepper, balsamic vinegar, soy sauce, dried rosemary
+---
+TITLE: Balsamic Pork Garden Salad
+CURRENT_DESCRIPTION: this is a quick and easy recipe to make a shredded pork topping for your favorite garden salad. use a left over pork chop or pork loin to make this meat topping that adds real eye appeal and delicious flavor to your vegetable salad luncheon entrée.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked pork, balsamic vinegar, red wine, worcestershire sauce, roasted garlic, butter
+---
+TITLE: Balsamic Pork Tenderloin
+CURRENT_DESCRIPTION: garlic is tucked in slits, then the pork tenderloin is coated with balsamic vinegar and olive oil and rubbed with a mixture of rosemary, thyme and salt and pepper. excellent dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, balsamic vinegar, extra virgin olive oil, garlic, salt and pepper, dried rosemary
+---
+TITLE: Balsamic Port Drizzle
+CURRENT_DESCRIPTION: ruby-red port give this dressing a sophisticated sweetness ad depth that makes it ideal for drizzling over dark greens topped with fresh fruit (try juicy plums), golden raisins or snipped dried apricots, toasted nuts and crumbled goat cheese. from eating well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: port wine, balsamic vinegar, honey, fresh thyme, shallot, dijon mustard
+---
+TITLE: Balsamic Pot Roast With Onions And Mushrooms
+CURRENT_DESCRIPTION: from real simple. another one for dh.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried porcini mushrooms, beef broth, boneless chuck roast, coarse salt, fresh ground black pepper, olive oil
+---
+TITLE: Balsamic Potatoes And Onions
+CURRENT_DESCRIPTION: yummy side dish. we especially enjoy it in the fall and winter. great comfort food. the cooking time sounds like its way too long, but it produces an incredible texture and really lets the seasonings incorporate in to food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, onions, butter, balsamic vinegar, fresh thyme leave, salt and pepper
+---
+TITLE: Balsamic Red Onion And Gruyere Panini Grilled Cheese
+CURRENT_DESCRIPTION: found something great from one of my thanksgiving leftovers (balsamic red onions).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, balsamic vinegar, olive oil, salt, sugar, sourdough bread
+---
+TITLE: Balsamic Red Pepper Jelly
+CURRENT_DESCRIPTION: this is the first jelly or jam i tried after a friend of mine made me try some pepper jelly she had.  i fell in love with it and now make it for christmas to give as gifts.  it's actually requested now.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet red peppers, jalapeno peppers, garlic cloves, granulated sugar, red wine vinegar, balsamic vinegar
+---
+TITLE: Balsamic Rib Eye Steak With Bleu Cheese Sauce
+CURRENT_DESCRIPTION: this is the only way that i prepare steaks, now. absolutely delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, red wine, fresh ground black pepper, kosher salt, rib eye steaks, blue cheese
+---
+TITLE: Balsamic Roast
+CURRENT_DESCRIPTION: i picked this recipe up from a local market while on vacation.  this is a delicious dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chuck roast, black pepper, onions, balsamic vinegar, soy sauce, water
+---
+TITLE: Balsamic Roast Chicken And Vegetables
+CURRENT_DESCRIPTION: this is an easy one-dish dinner that even your teenager or husband could get on the table!  it is true comfort food and nice during the colder months.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, baby carrots, red potatoes, salad dressing, salt and black pepper, fresh parsley
+---
+TITLE: Balsamic Roast Italian Chicken
+CURRENT_DESCRIPTION: you will not believe the flavor of this chicken. make a mixture of balsamic vinegar, olive oil, herbs and lemon juice and rub it under the skin of the chicken. then let the oven do the rest of the work. recipe found on the internet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fryer chickens, balsamic vinegar, olive oil, lemon juice, dried oregano, dried basil
+---
+TITLE: Balsamic Roast Mushrooms
+CURRENT_DESCRIPTION: personaly i dont like mushrooms, but made this for dinner because the rest of the family enjoy them, and they loved these. i served these with meat but it seems it would go down well as a side to anything.....or just on its own for vegetarians.
+served as a dish this recipe would serve 4 or as a main it would serve 2.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, balsamic vinegar, garlic clove, brown sugar, sweet chili sauce, salt
+---
+TITLE: Balsamic Roast Pork Tenderloins
+CURRENT_DESCRIPTION: courtesy of the food network.
+this wonderful, tender piece of pork is balanced perfectly when stuffed with fresh garlic and smothered in balsamic vinegar, olive oil, fresh herbs and roasted to perfection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, balsamic vinegar, extra virgin olive oil, garlic cloves, steak seasoning, fresh rosemary leaves
+---
+TITLE: Balsamic Roasted Apple   Jack Cheese Quesadilla
+CURRENT_DESCRIPTION: very simple to make. courtesy chef jamie gwen
+i have also made these using bosc pears and brie.other pears you could use: anjou, bartlett, or comice, make sure they are firm, not too ripe or over ripe. yum, yum, yum...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green apples, unsalted butter, brown sugar, balsamic vinegar, salt, flour tortillas
+---
+TITLE: Balsamic Roasted Asparagus
+CURRENT_DESCRIPTION: this is such an amazingly delicious way to prepare asparagus. goes well with everything!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, cooking spray, salt, pepper, butter, soy sauce
+---
+TITLE: Balsamic Roasted Asparagus With Fleur De Sel And Parmesan
+CURRENT_DESCRIPTION: this is based on a recipe from second helpings from union square cookbook. much to the dismay of family and friends, i could never learn to appreciate asparagus. it always reminded me somehow of eating grass. but i tried this recipe and finally found a way to love asparagus. this is incredibly simple, but the combination is superb. spending the extra to get true fleur de sel is really worth it for this dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, olive oil, fine sea salt, fresh ground pepper, balsamic vinegar, parmigiano-reggiano cheese
+---
+TITLE: Balsamic Roasted Asparagus With Garlic
+CURRENT_DESCRIPTION: this is a wonderful way to roast asparagus.  this will become a favorite in this household.  i adapted this recipe from cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, balsamic vinegar, kosher salt, black pepper, garlic
+---
+TITLE: Balsamic Roasted Baby Potatoes   Carrots
+CURRENT_DESCRIPTION: the wonderful flavour infusion of garlic, thyme & balsamic vinegar in your basic veggies!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby red potatoes, carrot, onion, garlic, balsamic vinegar, butter
+---
+TITLE: Balsamic Roasted Brussels Sprouts
+CURRENT_DESCRIPTION: “balsamic roasted brussels sprouts” was always one of the first dishes to sell out on our taylormade menu in the cafe. the balsamic glazes them in the oven giving them a sweet caramelized taste while the garlic gets soft & buttery.  my children actually fight over these at the table..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brussels sprout, garlic cloves, extra virgin olive oil, balsamic vinegar, salt & pepper
+---
+TITLE: Balsamic Roasted Chicken Thighs
+CURRENT_DESCRIPTION: in 'don't panic more dinner's in the freezer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, olive oil, balsamic vinegar, garlic cloves, salt, pepper
+---
+TITLE: Balsamic Roasted Onions
+CURRENT_DESCRIPTION: this is a recipe i got in epicurious. it is one of those 'perfect' things you so rarely come across - nothing can be improved upon. epicurious says it feeds 10. my husband and i say 'ha!!!' (it sometimes never makes it to the table and is eaten directly out of the pan).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onions, olive oil, butter, sugar, balsamic vinegar, fresh parsley
+---
+TITLE: Balsamic Roasted Onions And Potatoes
+CURRENT_DESCRIPTION: rustic country cooking from italy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, potatoes, butter, salt & freshly ground black pepper, fresh sage leaves, balsamic vinegar
+---
+TITLE: Balsamic Roasted Pears With Pepper And Honey
+CURRENT_DESCRIPTION: one of the recipes i found on the net (texasdrone.com) to use up a supply of wonderful pears.  simple, elegant and delicious.  this recipe would work beautifully as either an appetizer or dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, pears, balsamic vinegar, manchego cheese, honey, black pepper
+---
+TITLE: Balsamic Roasted Potato Wedges
+CURRENT_DESCRIPTION: found in gourmet magazine. the balsamic vinegar adds a touch of sweetness with the acid.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, extra virgin olive oil, kosher salt, black pepper, balsamic vinegar
+---
+TITLE: Balsamic Roasted Shallot Sauce
+CURRENT_DESCRIPTION: this sauce is excellent poured over any kind of roasted meats, or even pasta. it's rather rich, but delicious. to save time, you may skip roasting the shallots and simply saute them, but the roasting enhances the flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, rosemary, chicken stock, onion, shallots
+---
+TITLE: Balsamic Roasted Squash And Vegetables
+CURRENT_DESCRIPTION: this recipe of what i happened to have in the kitchen was a true hit at thanksgiving. it makes the kitchen smell wonderful and best of all it's very easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kabocha squash, yellow onion, frozen peppers and onions, artichoke hearts, brussels sprouts, garlic cloves
+---
+TITLE: Balsamic Roasted Sweet Potato Wedges
+CURRENT_DESCRIPTION: ooh, does this sound good!  i found it on the good housekeeping website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, light brown sugar, balsamic vinegar, margarine, salt
+---
+TITLE: Balsamic Roasted Vegetables
+CURRENT_DESCRIPTION: the vegetables are so wonderful roasted this way, this baste gives a slight caramel flavour to the vegetables. i used the squeeze bottle of golden syrup for this recipe, so much easier!
+i think any vegetable that you normally would roast, could be roasted with this baste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: golden syrup, balsamic vinegar, olive oil, fresh rosemary, pumpkin, carrots
+---
+TITLE: Balsamic Roasted Yams
+CURRENT_DESCRIPTION: i just found this recipe in a cooking magazine and can't wait to try it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, golden brown sugar, butter, kosher salt, yams, fresh ground black pepper
+---
+TITLE: Balsamic Rosemary Pork Cutlets
+CURRENT_DESCRIPTION: this is a very yummy dish that is quick and easy. i served it with an arugula sald with strawberries, and crushed red potatoes with buttermilk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, fresh rosemary leaf, canned chicken broth, pork tenderloin, salt, black pepper
+---
+TITLE: Balsamic Rosemary Veal Medallions W  Mushrooms And Goats Cheese
+CURRENT_DESCRIPTION: if you like veal, mushrooms and goats cheese, you will love this recipe all the flavours that come through are wonderful and the goats cheese on top really finishes this off in my opinion. it was sort of an experiment the other night and i think it turned out gorgeous. i served mine with celeriac mash and spinach with bacon, onion and red pepper, so just serve with your favourite side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: veal scallops, brown button mushrooms, goat cheese, olive oil, balsamic vinegar, fresh rosemary leaf
+---
+TITLE: Balsamic Salad Dressing
+CURRENT_DESCRIPTION: i put this over a salad of romaine, blue cheese, granny smith apples, candied pecans and dried cranberries.  it was a delicious salad and reminded me of the apple gorgonzola salad at buca di beppo
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, honey, dried tarragon, dijon mustard, garlic, lemon juice
+---
+TITLE: Balsamic Salmon
+CURRENT_DESCRIPTION: chatelaine - april 2001 submitted by dan matheson, co-host of canada am.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, balsamic vinegar, liquid honey, dijon mustard, sesame oil, sesame seeds
+---
+TITLE: Balsamic Sauteed Mushrooms
+CURRENT_DESCRIPTION: we loved these! they would be so good with steak...or chicken...or anything! hubby and i just ate them as an appetizer.
+use a soft brush or a paper towel to brush dirt from the mushrooms. don’t rinse—wet mushrooms won’t brown as well.
+from fine cooking
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, dark brown sugar, unsalted butter, extra virgin olive oil, cremini mushroom, kosher salt
+---
+TITLE: Balsamic Sauteed Shrimp
+CURRENT_DESCRIPTION: this is so good you won't believe how easy and quick it is! adapted from fine cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, butter, balsamic vinegar, mixed herbs, salt and pepper, lemon wedge
+---
+TITLE: Balsamic Shrimp Saute
+CURRENT_DESCRIPTION: we have a lot of shrimp right now! saw something similar in an old cookbook & decided to  play with it. makes a very nice appetizer or could become a great main course, your choice! hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, balsamic vinegar, garlic clove, hot sauce, seafood seasoning, large shrimp
+---
+TITLE: Balsamic Sirloin Steaks
+CURRENT_DESCRIPTION: i found this recipe in our local newspaper. it produces a wonderfully flavored tender grilled steak. cook time includes marinading.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, olive oil, fresh basil, dijon mustard, garlic, sugar
+---
+TITLE: balsamic skirt steak  fresh greens  pea   white bean puree
+CURRENT_DESCRIPTION: this is a go to meal i entertain with.  not only is it worthy of serving to company, but it is easier than it looks.  each part is so simple and can be made ahead. it is very cost effective and is amazing flavor.
+
+i love this steak recipe. even though the marinade is basic it is the combination with the balsamic vinaigrette and the creamy peas and beans and the fresh greens which brings it all together.  i now a mix of peas and beans sound odd, but this is a great creamy flavor. the grilled tomato makes a great side to the chilled salad and creamy beans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skirt steak, olive oil, garlic, lemon juice, lemon, zest of, rosemary
+---
+TITLE: Balsamic Skirt Steak  Fresh Greens  Pea   White Bean Puree
+CURRENT_DESCRIPTION: this is a go to meal i entertain with.  not only is it worthy of serving to company, but it is easier than it looks.  each part is so simple and can be made ahead. it is very cost effective and is amazing flavor.
+
+i love this steak recipe. even though the marinade is basic it is the combination with the balsamic vinaigrette and the creamy peas and beans and the fresh greens which brings it all together.  i now a mix of peas and beans sound odd, but this is a great creamy flavor. the grilled tomato makes a great side to the chilled salad and creamy beans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skirt steak, olive oil, garlic, lemon juice, lemon, zest of, rosemary
+---
+TITLE: Balsamic Soy Glazed Chicken Wings
+CURRENT_DESCRIPTION: gourmet 12/06. this can be an appetizer or main dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken wings, olive oil, salt, black pepper, balsamic vinegar, soy sauce
+---
+TITLE: Balsamic Spa Dressing   Bonnie Stern   Virtually Fat Free
+CURRENT_DESCRIPTION: this dressing has wonderful flavour with virtually no fat.  try this on a spinach and strawberry salad....it will blow your mind and your tastebuds. taken from her 'heart smart' cookbook, she notes: "this dressing can also be made with other mild vinegars such as raspberry, sherry, champagne or a good red wine vinegar." note: after several reviews, i'm going to adjust the water amount to 1/2 - 1 cup.  thanks for the suggestions everyone. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, lemon juice, olive oil, dijon mustard, worcestershire sauce, garlic clove
+---
+TITLE: Balsamic Spritzer
+CURRENT_DESCRIPTION: entered for safekeeping.  why pay $ for wegman's vinegar spritzers to spray on a salad when you can make your own?  found this recipe by deliathecrone.  buy a very fine balsamic vinegar, it is a treat that needs no oil to be enjoyed.  lucini gran riserva balsamico for $14 for 8 oz. is recommended by cook's illustrated. villa manodori balsamic at $35/8.5 oz. is also recommended.  avoid pompeian, but star or progresso might suit you among the inexpensive brands.  you will taste the difference in quality.  preparation time does not include sitting time of 1 hour or more.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shallots, balsamic vinegar, sugar, salt, fresh ground black pepper, low sodium chicken broth
+---
+TITLE: Balsamic Steak And Blue Cheese Salad
+CURRENT_DESCRIPTION: this is a wonderful salad for one.  double the ingredients and make it a romantic dinner for two.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef top sirloin steaks, balsamic vinaigrette, red pepper, asparagus spear, olive oil, mixed salad greens
+---
+TITLE: Balsamic Steak And Romano Salad
+CURRENT_DESCRIPTION: variation - grilled chicken and romano salad
+prepare as directed, substituting 4 boneless skinless chicken breast halves for the steak
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef top sirloin steak, mixed salad greens, chopped tomatoes, canned whole kernel corn, balsamic vinaigrette, romano cheese
+---
+TITLE: Balsamic Steaks
+CURRENT_DESCRIPTION: i received a bottle of "newman's own" organic balsamic vinegar for christmas this year.  i was looking for some recipes to try it with and came across this old newspaper clipping.  i made the steak last night and it was really good! (although the recipe calls for cooking on the stove, we chose to grill ours.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, olive oil, onion, lemons, fresh rosemary, garlic cloves
+---
+TITLE: Balsamic Strawberries And Ice Cream On Pound Cake
+CURRENT_DESCRIPTION: try this and see how your taste buds love you! store bought pound cake makes this a very easy recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, caster sugar, balsamic vinegar, poundcake, vanilla ice cream
+---
+TITLE: Balsamic Strawberries With Arugula
+CURRENT_DESCRIPTION: mark bittman; how to cook everything vegetarian
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, balsamic vinegar, fresh ground black pepper, arugula leaves, salt, extra virgin olive oil
+---
+TITLE: Balsamic Strawberries With Black Pepper Wafers
+CURRENT_DESCRIPTION: nothing new about strawberries and balsamic.  but, add peppery wafers and you have an elegant, unusual and healthy dessert. australian measurements used. (from aust. women's weekly)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, caster sugar, balsamic vinegar, plain flour, egg white, butter
+---
+TITLE: Balsamic Strawberries With Whipped Mascarpone Cheese
+CURRENT_DESCRIPTION: my neighbor brought this over one evening for my husband and i to sample. we just happened to be entertaining some guests, and hadn't planned a dessert. when the meal ended, i brought out the two portions and divided it carefully amongst the group. we practically licked our bowls clean, this was so wonderful. he had pulled the recipe from epicurious. makes a beautiful presentation, very simple, very good. just be certain to use a good-quality balsamic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, sugar, fresh lemon juice, mascarpone cheese, whipping cream, vanilla extract
+---
+TITLE: Balsamic Strawberry And Basil Salad
+CURRENT_DESCRIPTION: my dh tried this at a fair.  thought i would post this for others to try.  this recipe should be made started the night before.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, basil, lemons, juice of, water, strawberry juice, strawberry
+---
+TITLE: Balsamic Strawberry Salsa
+CURRENT_DESCRIPTION: i first tried this at a wedding shower and every one of the guests (including myself) begged for the recipe. don't let the seemingly odd combination of strawberries and tomatoes throw you off, it is delicious. i make this to take to showers, dinner parties, picnics--anywhere where people will be snacking. i never have leftovers. a wonderful alternative for those who don't like "hot" salsas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cherry tomatoes, strawberry, green onions with tops, cilantro, olive oil, white balsamic vinegar
+---
+TITLE: Balsamic Strawberry Shortcake
+CURRENT_DESCRIPTION: here is an delicious twist on the traditional strawberry shortcake. classic sweet biscuit base meets fresh berries laced with balsamic vinegar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, sugar, balsamic vinegar, all-purpose flour, baking powder, salt
+---
+TITLE: Balsamic Strawberry Shortcakes
+CURRENT_DESCRIPTION: this recipe is from a classic san francisco restaurant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, kosher salt, unsalted butter, eggs
+---
+TITLE: Balsamic Stuffed Round Zucchini
+CURRENT_DESCRIPTION: i have based this recipe on one round zucchini only (as i only have to feed two people), but the recipe multiplies easily.  you can also use the mixture to stuff marrow or thin zucchini.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cherry tomatoes, mushroom, garlic clove, white onion, dried oregano, balsamic vinegar
+---
+TITLE: Balsamic Thyme Chicken
+CURRENT_DESCRIPTION: this is from the cookbook healthy cooking for two, by brenda shriver.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, low-fat margarine, boneless skinless chicken breast halves, low sodium chicken broth, red pepper, green pepper
+---
+TITLE: Balsamic Tilapia
+CURRENT_DESCRIPTION: this is a great way to make tilapia with a twist. easy, flavorful and good for you, it's different than the usual broiled, baked or fried tilapia i usually have. ingredients needed are minimal - i made it up with what i had on hand and it turned out beautifully. my husband loved it and he isn't much of a fish eater.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, grape tomatoes, yellow sweet onion, balsamic vinegar, olive oil, salt and pepper
+---
+TITLE: Balsamic Tofu Vegetable Medley
+CURRENT_DESCRIPTION: this recipe was taken from the spring 2008 edition of "clean eating" magazine, a relatively new publication that we came across. it is very healthful, and fresh-tasting - an ideal way to celebrate the arrival of spring! when we made it, we used a whole bunch of asparagus and omitted the green beans for the sake of convenience.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tofu, celery ribs, onion, garlic cloves, red bell pepper, asparagus
+---
+TITLE: Balsamic Tomato And Garlic Pizza With Walnuts
+CURRENT_DESCRIPTION: i adopted this recipe and have not yet tried it.  i also have a fear of yeast, but believe that mean chef's original pizza dough would work well for this recipe (recipe #62554).  the original chef recommended another crust that was supposed to be so good your head would spin, but i trust mean chef's recipe.  original intro comments are:  "this is a great combination.  try it!  the tomato mixture is enough for two 12 inch pizzas.  adjust accordingly depending on how many pizzas you are interested in making."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, tomatoes, balsamic vinegar, kosher salt, fresh garlic cloves, walnuts
+---
+TITLE: Balsamic Tomato Aspic
+CURRENT_DESCRIPTION: this is a delicious condiment or side dish. it's also good by itself served with crackers and cream cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian-style diced tomatoes, diced tomatoes, water, balsamic vinegar, distilled white vinegar, granulated sugar
+---
+TITLE: Balsamic Tomato Basil Pasta
+CURRENT_DESCRIPTION: this super tasty recipe came from a co-worker who's wealthy family always made sure to serve this at their fancy summer parties. it is a snap to put together, making it perfect for families who want a meal in a hurry, or the host of party who wants something spectacular that won't keep them in the kitchen instead of with their guests. either way, you will get the same rave reviews that i have over the years.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, fresh basil, fresh tomatoes, extra virgin olive oil, garlic, balsamic vinegar
+---
+TITLE: Balsamic Tomato Couscous
+CURRENT_DESCRIPTION: we had a potluck to attend where we had been asked to bring a side dish.  i was craving couscous though i knew few (if any) of my friends would be willing to try it.  never mind, i moved forward!  this is a slight adaptation of one i found in one of my favorite cookbooks "500 almost fat free pasta recipes."  and truth be told, i brought very little home and got asked for the recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable broth, dried basil, garlic, couscous, balsamic vinegar, olive oil
+---
+TITLE: Balsamic Tomato Cucumber Salad
+CURRENT_DESCRIPTION: fresh, crisp and tasty salad.  i first made this salad about six months ago and my 5 year old granddaughter could not stop eating it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, red wine vinegar, sugar, salt, dried oregano, basil
+---
+TITLE: Balsamic Tomato Sauce
+CURRENT_DESCRIPTION: this is a very easy pasta sauce, especially nice to make on busy nights. the basic recipe was adapted from the "bon appetit" november 2002 issue. the balsamic vinegar raises the sauce to a level above ordinary. it's a good sauce to play around with to make it your own.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic, diced tomatoes, balsamic vinegar, dry red wine
+---
+TITLE: Balsamic Tortellini
+CURRENT_DESCRIPTION: a great and simple recipe. i just love balsamic! feel free to adjust the amounts to suit your tastes. i always use tons of parmesan!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, bacon, cheese-filled egg tortellini, balsamic vinegar, parmesan cheese
+---
+TITLE: Balsamic Tossed Pasta With Fresh Tomato  Arugula  And Mozzarella
+CURRENT_DESCRIPTION: from cooking pleasures magazine.  the heat from the pasta helps to melt the cheese and warm the sauce.  you can also use a combination of basil and arugula for a tomato caprice taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, arugula, garlic cloves, fresh mozzarella cheese, sea salt, fresh ground pepper
+---
+TITLE: Balsamic Vinaigrette Chicken Over Gourmet Greens
+CURRENT_DESCRIPTION: adapted from cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, gourmet salad greens, basil leaves, balsamic vinegar, shallot, water
+---
+TITLE: Balsamic Vinaigrette With Fresh Herbs
+CURRENT_DESCRIPTION: this recipe is very similar to the recipe in the panera bread cookbook with quantities scaled down and modifications made for typical home use. it tastes best if made at least a few hours before serving.  it keeps well in the refrigerator for several days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, fresh basil, fresh tarragon, fresh oregano, fresh chives, garlic clove
+---
+TITLE: Balsamic Vinegar And Butter Glazed Carrots
+CURRENT_DESCRIPTION: i love balsamic vinegar and this would be a great addition to any meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, baby carrots, sugar, balsamic vinegar, fresh chives
+---
+TITLE: Balsamic Vinegar And Garlic Oven Chicken
+CURRENT_DESCRIPTION: very juicy and easy--clean up isn't bad either. i saw a recipe for barbecue chicken in foil and decided to alter it for my tastes. prep time includes roasting the garlic (optional, you can just get canned garlic if you want, i haven't tried it that way.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, lemon pepper seasoning, roasted garlic cloves, colby-monterey jack cheese, aluminum foil, butter
+---
+TITLE: Balsamic Vinegar Chicken   Noodles
+CURRENT_DESCRIPTION: my boyfriends favorite, and really easy to make. left overs are just as good. i make this for a crowd with steamed carrots and a side salad for a complete healthy meal.
+
+note: for those with gluten allergies or celiac, this can work with gf noodles and draining them before adding them to the pot with the chicken, however i recommend half cooking the noodles before trying to add them to the chicken... otherwise the chicken gets tough by the time the noodles are cooked.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, balsamic vinegar, red wine, cherry tomatoes, garlic cloves, olive oil
+---
+TITLE: Balsamic Vinegar Dressing   Infinity 1 Style
+CURRENT_DESCRIPTION: i came up with the ratios for the dressing after playing around with a variety of other dressing ratios to fit my hubby's & my tastes.  this is great over fresh salad greens--and perfectly balances the more bitter salad ingredients, like pea shoots.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, extra virgin olive oil, dried basil, garlic clove, honey, parmesan cheese
+---
+TITLE: Balsamic Vinegar Pork
+CURRENT_DESCRIPTION: a lovely flavor of pork with a tangy bite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, non-fat cooking spray, balsamic vinegar, chicken broth, lemon & herb seasoning
+---
+TITLE: Balsamic Vinegar Potato Salad By George
+CURRENT_DESCRIPTION: looked on here for a potato salad then desided to make my own with ingredients i saw on here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, olive oil, fat-free mayonnaise, red wine, balsamic vinegar, garlic powder
+---
+TITLE: Balsamico Roast Chicken And Potatoes
+CURRENT_DESCRIPTION: this delicious pairing comes from "the italian country table" by lynne caspar.  it's become a family favorite in my house, as well as a dish we frequently use for entertaining.  don't let the ingredient list scare you - it's minced together and rubbed into the chicken.  roasting is largely unattended.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, fresh basil, dried basil, dried oregano, dried marjoram
+---
+TITLE: Balthazar Macaroni Gratin  Aka Macaroni And Cheese
+CURRENT_DESCRIPTION: i am fussy about home baked mac and cheese and rarely want anything added to it beyond the basics but this one is delicious with its slightly smoky bacon which works beautifully with nutty gruyere cheese.  i use pancetta because i have it on hand more often.  from the balthazar cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, thick slab bacon, whole milk, unsalted butter, all-purpose flour, parmesan cheese
+---
+TITLE: Balti Beef
+CURRENT_DESCRIPTION: a delightful and easy mild curry adapted from "indian...made simple", published by parragon's love food division, no editor named. balti recipes are usually associated with birmingham, england, but the spice mixtures fit indian cuisine.  the balti creators hail from the north pakistan province baltistan in kashmir.  note that china, pakistan and india all lay claim to that territory.  lamb is more typical of indian cuisine than beef. we used venison tenderloin and our meat came out well done; next time we will cut the meat in bigger chunks as we prefer it medium rare.  note that a vitamix can puree the sauce while it is still hot. garlic and ginger paste is available in indian groceries, or you can use recipe #422497.  it's a great timesaver for a great taste combination.  i recommend a large wok instead of a large skillet when you cook the beef (i had red bell peppers flying everywhere).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ghee, onions, ginger-garlic paste, chopped tomatoes, ground paprika, ground turmeric
+---
+TITLE: Balti Butter Chicken
+CURRENT_DESCRIPTION: very popular dish. you will like this one, yogurt, cream and almonds make this a bit special. i have cooked this many times always with success, there's never any left over.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken breasts, plain yogurt, ground almonds, chili powder, bay leaves, ground cloves
+---
+TITLE: Balti Chicken Khara Masala
+CURRENT_DESCRIPTION: the whole spices used in this dish give it a wonderful flavour. cooked from start to finish in 30 minutes this is easy. wok a way to curry chicken !!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken, black mustard seeds, onion seeds, fennel seed, curry leaves, dried red chilies
+---
+TITLE: Balti Chicken With Tarka Dhal
+CURRENT_DESCRIPTION: less than 30 mins to cook this dish. the dhal is spiced with a tarka. very easy to cook,this has a good flavour and goes well with a beef or lamb curry as a second dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken breasts, split peas, red lentils, oil, onion, garlic
+---
+TITLE: Balti Fish Curry
+CURRENT_DESCRIPTION: posting this for my brother from a book recommended by kookaburra.
+australian womans weekly asian meals in minutes.
+the orginal recipe doesn't add salt but with fresh coriander i like to add a bit of salt.
+i also increased the garlic from 2 to 3 cloves and the coconut cream from 1/4 cup to 1/2 cup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white fish fillets, vegetable oil, white onions, garlic cloves, fresh ginger, red thai chile
+---
+TITLE: Balti Lamb Tikka
+CURRENT_DESCRIPTION: a quick curry-almost a stir fry. no time allowed for the 1 hour marinading.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain yogurt, curry paste, garlic clove, salt, garam masala, fresh coriander leaves
+---
+TITLE: Balti Sauce   Basic Sauce For Anything Goes Curry
+CURRENT_DESCRIPTION: i believe the word balti actually means "bucket"....this famous style of curry is cooked in a balti pan, much like a wok.  i think the reference to bucket means more that you can throw anything in!  i fell in love with balti curries years ago living in birmingham uk - a few blocks from balti central.  what sushi bars are to vancouver, balti houses are to birmingham.  i know this is a very anglo version of balti sauce, a very mild one at that, but it is quite healthy and light....and not lacking any flavour.  it's also fairly quick to prepare compared to some recipes i've tried.  you can boost up the heat factor as you wish.  i included mainly ready ground spices, but of course you could use whole.  if you use whole cardamom seeds or whole coriander i would suggest grinding the spices up after you roast them (otherwise you have a lot of woody bits to deal with).  use the sauce to make any kind of veggie curry and serve with naan or roti on the side.  this makes 3 cups of sauce - enough for 4 servings.  i like to save half the sauce for a different curry later on.  (good for a fridge cleaner curry! :)  it also improves overnight, as many sauces do.  hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground cinnamon, ground coriander, ground turmeric, paprika, fenugreek leaves, mustard seeds
+---
+TITLE: Balti Seitan Madras
+CURRENT_DESCRIPTION: i adapted this recipe from a chicken recipe in an indian cookbook.  it's very flavorful and just the right amount of spice for my taste- but you can always make it spicier. it's my new favorite way to get protein!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: seitan, tomato paste, ground fennel, minced ginger, coriander, garlic
+---
+TITLE: Baltic Blush  Creme De Cassis Blush
+CURRENT_DESCRIPTION: a lite refreshing cocktail with a subtle black currant flavor. try making your own creme de cassis with recipe #183432.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: creme de cassis, vodka, carbonated lemon-lime beverage, ice, lemon slices
+---
+TITLE: Baltimore Crab Cakes
+CURRENT_DESCRIPTION: phillips seafood restaurant, in baltimore's inner harbor, serves some of the best crab cakes i have ever had. here is a copycat recipe for this traditional maryland delicacy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabmeat, egg, worcestershire sauce, mustard seeds, mayonnaise, sour cream
+---
+TITLE: Baltimore Hash
+CURRENT_DESCRIPTION: i found this recipe when trying to decide what i could do with what i had in my fridge while making something tasty.  this fit the need and it's also pocketbook friendly as well as family friendly.  serve with rolls and a nice tomato or cucumber salad, a complete meal in short order.  feel free to add any veggies you have on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, diced tomatoes, carrot, celery, potato
+---
+TITLE: baltimore peach cake
+CURRENT_DESCRIPTION: i am a proud baltimorean and this is a summer staple in traditional baltimore bakeries.  my son and i picked some peaches from the local orchard, and since we had way too many, this was a perfect recipe for us.  this is from toomanychefs.net
+some recipes, including this one, suggest letting the cake cool.  however, sometimes i'm so excited i eat it warm and it's delicious.  the juices don't get to sink into the cake as much, though.  some recipes also suggest sprinkling cinnamon on top of the peaches, but i like it without.  feel free to adapt, though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white flour, sugar, salt, active dry yeast, butter, hot water
+---
+TITLE: Baltimore Peach Cake
+CURRENT_DESCRIPTION: i am a proud baltimorean and this is a summer staple in traditional baltimore bakeries.  my son and i picked some peaches from the local orchard, and since we had way too many, this was a perfect recipe for us.  this is from toomanychefs.net
+some recipes, including this one, suggest letting the cake cool.  however, sometimes i'm so excited i eat it warm and it's delicious.  the juices don't get to sink into the cake as much, though.  some recipes also suggest sprinkling cinnamon on top of the peaches, but i like it without.  feel free to adapt, though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white flour, sugar, salt, active dry yeast, butter, hot water
+---
+TITLE: baltimores berger finest  cookies
+CURRENT_DESCRIPTION: baltimore’s storied berger cookies, a product of that city’s debaufre bakeries, are a close relation to new york city’s black and whites (a.k.a. half and halfs). these cake-like, jumbo-sized cookies are piled with thick, rich chocolate icing—the thicker the better, up to ½" of icing atop each ½"-thick cookie. note that the cookies themselves are rather dry, so the over-the-top amount of icing—rather than being too much—ends up being just right.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, salt, vanilla extract, baking powder, sugar, eggs
+---
+TITLE: Baltimores Berger Finest  Cookies
+CURRENT_DESCRIPTION: baltimore’s storied berger cookies, a product of that city’s debaufre bakeries, are a close relation to new york city’s black and whites (a.k.a. half and halfs). these cake-like, jumbo-sized cookies are piled with thick, rich chocolate icing—the thicker the better, up to ½" of icing atop each ½"-thick cookie. note that the cookies themselves are rather dry, so the over-the-top amount of icing—rather than being too much—ends up being just right.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, salt, vanilla extract, baking powder, sugar, eggs
+---
+TITLE: Bam S Beefy Cabbage Vegetable Soup
+CURRENT_DESCRIPTION: this is a first attempt soup and a mish-mash of what i have in the fridge. economical and comforting! you may substitute any kind of noodles, almost any kind of soup-friendly veggies, and season to taste.
+
+serve with fresh baked french bread and a green salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, cabbage, onion, white mushrooms, red wine, water
+---
+TITLE: Bama Breeze
+CURRENT_DESCRIPTION: found in the cookbook "crazy sista cooking" with lucy anne buffett.  a pretty drink anytime especially at christmas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: absolut citron vodka, coconut rum, lime, juice of, cranberry juice, simple syrup, lime slice
+---
+TITLE: Bambi'S Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 head Boston lettuce, 1/2 c. sliced strawberries, 1/4 c. sliced, peeled cucumbers
+---
+TITLE: Bambini  Italian Appetizers
+CURRENT_DESCRIPTION: for your new years's eve snack table.  italian appetizers using the ever-popular flaky biscuits.  probably could make with crescent roll dough instead.  from the port vue methodist women rebekah circle cookbook, 9/90
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ricotta cheese, mozzarella cheese, parmesan cheese, pepperoni slice, italian spices, biscuits
+---
+TITLE: Bamboozled Husband S Barbecue  Sauce
+CURRENT_DESCRIPTION: need your husband to finish his honey do list?  give this a try.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, beer, red wine vinegar, fresh cilantro, brown sugar, worcestershire sauce
+---
+TITLE: Bami Goreng
+CURRENT_DESCRIPTION: exotic, tropical, cosmopolitan broome, an old pearling town in western australia, is a popular holiday destination. on market day, stall vendors whip up a wonderfully tempting array of dishes. this is one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hokkien noodles, peanut oil, onion, garlic, dried shrimp paste, sambal oelek
+---
+TITLE: Bami Goreng   Indonesian Stir Fried Noodles
+CURRENT_DESCRIPTION: there are as many recipes for bami goreng as there are people to make them.  bami goreng is an indonesian dish that's traditional to holland. it seems like a lot of work but it really isn't - if i'm having company for dinner i slice, dice and prepare all my ingredients (including cooking the noodles) and place them in separate zip-lock bags in the refrigerator until i'm ready to use. this makes actual cooking time a snap! this is my version and i hope you enjoy it.  you can spice it up if you like by adding more or less sambal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: noodles, eggs, oil, chicken breasts, garlic cloves, coriander
+---
+TITLE: Bami Goreng  Indonesian Version Of Lo Mein
+CURRENT_DESCRIPTION: my grandmother was born in indonesia and growing up we awaited the next time she would make bami goreng- "fried noodles."
+
+she made it with pork, but since i no longer eat pork i substitute chicken here. this is the basic version. you can add any vegetable you like. i add tiny frozen peas and carrots for color, or red or yellow bell pepper thinly sliced using a mandolin.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti noodles, chicken breasts, leeks, bean sprouts, bok choy, ketjap manis
+---
+TITLE: Bamia
+CURRENT_DESCRIPTION: an egyptian stew to share with vegetarians or vegans. serve with hot rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, white onion, garlic, fresh tomatoes, fresh lemon juice, fresh parsley
+---
+TITLE: Bamieh  Sephardic Style Okra
+CURRENT_DESCRIPTION: i've always loved okra, and was so pleased to come across an interesting way to cook it! the recipe calls for whole okra pods, but i like to
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, fresh okra, tomato sauce, plum tomatoes, garlic
+---
+TITLE: Bamieh Okra  And Lamb  Middle East  Palestine
+CURRENT_DESCRIPTION: this is a tomato sauce based recipe that uses okra.  with the lamb meat flavor it tastes great over rice! not hard to make at all either =)
+
+also, you can substitute the lamb meat for chicken, it comes out just as delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb, onion, bay leaves, okra, garlic cloves, oil
+---
+TITLE: bamya   lamb or beef and okra stew
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, stewing lamb, onions, garlic cloves, ground cumin, ground coriander
+---
+TITLE: bamya   meat and okra stew
+CURRENT_DESCRIPTION: found on world recipes; posting for zwt 7-africa (egypt)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, onions, garlic cloves, ground cumin, ground coriander, tomatoes
+---
+TITLE: Bamya   Meat And Okra Stew
+CURRENT_DESCRIPTION: found on world recipes; posting for zwt 7-africa (egypt)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, onions, garlic cloves, ground cumin, ground coriander, tomatoes
+---
+TITLE: Bamya Alich A  Ethiopian Style Okra
+CURRENT_DESCRIPTION: can be served hot or at room temperature. if you really don't like the texture from the okra, split the pods, soak overnight in water, and drain well before cooking. from "the africa cookbook".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: okra, olive oil, red onions, tomatoes, garlic, ginger
+---
+TITLE: Ban Pan O La With Caf Navarro Mango Syrup
+CURRENT_DESCRIPTION: from my very favorite cookbook by marie simmons (now all out of print), pancakes a to z.  she credits her son-in-law, peter dilcher, manager of the café navarro in eugene, oregon.  with bananas & mango, these pancakes are perfect for a caribbean inspired brunch!  posted for zwt-5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, brown sugar, baking powder, baking soda, salt
+---
+TITLE: Banana   Apple Brown Betty
+CURRENT_DESCRIPTION: i see a lot of apple brown betty recipes posted on here but none like my mom's with bananas in it! she used to make this often for dessert after dinner on weekdays. sometimes we'd eat any leftovers for breakfast the next morning! i love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, salt, cinnamon, apples, bananas, bread cubes
+---
+TITLE: Banana   Apple Oatmeal Muffins
+CURRENT_DESCRIPTION: these muffins are moist and delicious! i also like to serve them with cream cheese frosting!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, banana, apple, honey
+---
+TITLE: Banana   Applesauce   Blueberry And Walnut Fat Free Quick Bread
+CURRENT_DESCRIPTION: i was looking for something more healthy for a quick breakfast or snack.  this is a great moist quick bread that comes together quickly and husband thinks is good too.  it's good plain or with a "touch" of peanut butter (a favorite of my husband) across the top.  i divide this into two 8 x 4 loaf pans instead of one 9 x 5 pan.  it bakes quicker, stays moist, and goes a bit farther without my husband thinking he's not getting enough too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lemon juice, unsweetened applesauce, brown sugar, flour, baking powder
+---
+TITLE: Banana   Apricot Loaf
+CURRENT_DESCRIPTION: a nice loaf for the lunch box!
+walnuts could be left out and any dried fruit used.
+i have not added the soaking time in with cooking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bran flakes, sultana, dried apricot, sugar, milk, banana
+---
+TITLE: Banana   Blueberry Waffles With Cherry Sauce
+CURRENT_DESCRIPTION: start this special breakfast by making the cherry sauce, then the cream topping and lastly the waffles. you may use sweet or sour cherries for the sauce, it's good either way. i hope that you will enjoy this tasty recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, almond extract, golden syrup, fresh cherries, lime rind
+---
+TITLE: Banana   Chestnut Tartlets W Puff Pastry
+CURRENT_DESCRIPTION: this recipe is being posted for zwt ii & my source is www.gourmed.gr/greek-recipes. this is really an easy dessert to make & the pic at the website looked like it was taken by 1 of our great rz photographers!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: puff pastry, bananas, chestnuts, sugar, water
+---
+TITLE: Banana   Chocolate Chip Ice Cream
+CURRENT_DESCRIPTION: this is a nice way to use up overripe bananas and have a fairly healthy treat ready for the kids. it has no sugar & is low fat. diabetics should substitute carob for the chocolate buttons.
+keeps for about 1 week. (cooking time is freezing time)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat evaporated milk, mashed banana, low-fat yogurt, low-fat milk, maple syrup, vanilla essence
+---
+TITLE: Banana   Dark Rum Cake
+CURRENT_DESCRIPTION: a yummy cake/bread that keeps the banana's halved but whole, soaked in rum.  different and delicious, this should take care of any unfilled corners after a terrific meal. from cooking with aaf: king creole...of the sunny islands
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark rum, plain white flour, vanilla, coconut, bananas, lime, juice of
+---
+TITLE: Banana   Date Dessert
+CURRENT_DESCRIPTION: this is a wonderful middle eastern dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dates, bananas, heavy whipping cream, sugar, cinnamon
+---
+TITLE: Banana   Date Smoothie
+CURRENT_DESCRIPTION: this is so good and super easy to throw together.  the recipe goes way back to when i lived in laguna beach. we used to have them often.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat plain yogurt, skim milk, dates, bananas, ice cubes
+---
+TITLE: Banana   Filled Chocolate Enchiladas
+CURRENT_DESCRIPTION: no they are not really enchiladas, but chocolate crepes filled with a banana rum filling and are sensational.***adopted 9/15/06***
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa powder, all-purpose flour, eggs, milk, water, unsalted butter
+---
+TITLE: Banana   Kumara  Sweet Potato  Salad
+CURRENT_DESCRIPTION: this will taste better the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, kumara, bananas, green capsicum, sultana, sugar
+---
+TITLE: Banana   Orange Salad
+CURRENT_DESCRIPTION: i just got this in my email box, it's from my cousin in texas. i can't use it with all the sugar but it certainly sounds like it will make you go mmmmmmmmmmmmm. i couldn't just delete it so i'm passing it along the all the great zaar folks. it can't take any more than 10 mins to put together and cook time is chill time. i'm not sure of the weight of a standard can of m. oranges so i'm guessing. if anyone tries this i'd love to know what you think and if it's no good i'll yell at trisha for you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, mandarin oranges, brown sugar, cinnamon, nutmeg, sour cream
+---
+TITLE: Banana   Pb Snacking Cake
+CURRENT_DESCRIPTION: taken from the what's cooking magazine with a small adjustment.
+cook time includes cooling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, oil, sugar, brown sugar, mashed banana, flour
+---
+TITLE: Banana   Peanut Butter Ice Cream  Or Pudding    Vegan
+CURRENT_DESCRIPTION: this rich banana & peanut butter ice cream is also great as a pudding. just eat it once it's cool instead of popping it into an ice cream machine. the touch of coconut flavoring really brightens up the flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice milk, white sugar, cornstarch, peanut butter, vanilla extract, coconut flavoring
+---
+TITLE: Banana   Pumpkin Bread   Nuwave Oven
+CURRENT_DESCRIPTION: bread recipe for your nuwave oven
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, eggs, bananas, milk, cinnamon, nutmeg
+---
+TITLE: Banana   Raspberry Bread Low Fat
+CURRENT_DESCRIPTION: this is an excellent cake/bread recipe with very little fat.  notice there is no butter or oil, just bananas.  i cut down to 2 larger bananas but it was a little dry so i did actually add just a little canola oil, but i definitely wouldn't have if i had used all 4 bananas.  also, i subbed in blueberries (frozen unthawed) for the raspberries because it's what i had.  i stirred them in towards the end of the gentle mixing with a silicon spatula so they wouldn't get mashed up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, all-purpose flour, sugar, baking powder, baking soda, salt
+---
+TITLE: Banana   Walnut Cake
+CURRENT_DESCRIPTION: i wanted to make a cake that used more natural ingredients without compromising on taste, i've added wheatgerm (best source of vitamin e) & lsa mix which is common in australia. you can use ground linseed (flax seed) if you don't have lsa. make sure the bananas are very ripe! my husband loves this cake and it was a great way to get a treat that is secretly beneficial!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, sugar, butter, eggs, whole wheat flour, oat flour
+---
+TITLE: Banana  Apple   Peanut Salad
+CURRENT_DESCRIPTION: this is a healthy, simple, crunchy recipe i found in reader's digest and altered slightly. it's yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, lemon, zest of, fresh lemon juice, salt, ground ginger, nutmeg
+---
+TITLE: Banana  Apricot And Date Loaf
+CURRENT_DESCRIPTION: it was a recipe that i just built on and turned it into this delicious loaf
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, dried apricot, dates, bicarbonate of soda, water, butter
+---
+TITLE: Banana  Blueberry   Maple Smoothie
+CURRENT_DESCRIPTION: delicious, quick breakfast. go for a lite / trim milk and ice cream for less calories. use extra blueberries & maple syrup to serve
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, frozen blueberries, vanilla ice cream, milk, maple syrup
+---
+TITLE: Banana  Cake
+CURRENT_DESCRIPTION: best moist cake, unlike banana bread which is sometimes dry. good unfrosted or with a cream cheese frosting. use really, really ripe bananas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, pecans, butter, bananas, eggs, baking soda
+---
+TITLE: Banana  Carrot   Pineapple Cake Aka Sunshine Cake
+CURRENT_DESCRIPTION: this is a lovely iced cake  (lighter version of a carrot cake) or have as a buttered loaf. i can kid myself that it is good for me because of the ingredients :)
+i saw this made on tv on the aww fresh cooking site (i think) and had to try it. it was a bit of a hit & miss with the ingredient amounts but i think i have them right as this is what i made mine with. i find i like to get all ingredients prepared first as then it is much easier to mix it altogether.  leave until cold before slicing)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, brown sugar, lemon, zest of, olive oil, self raising flour, baking powder
+---
+TITLE: Banana  Carrot  Apple  Oat Bran Muffins
+CURRENT_DESCRIPTION: surprisingly good for a recipe made up on the spot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, oat bran, baking soda, baking powder, brown sugar, granulated sugar
+---
+TITLE: Banana  Cocktail
+CURRENT_DESCRIPTION: my recipe source is the turbana corp. as written, the recipe calls for fruit cocktail ... but i like to use fresh fruit (when in season), buy a sml jar of cherries to garnish & only use fruit cocktail as a last resort. this dish works well as part of a brunch menu, luncheon dish or dessert & can be paired w/a cookie or sml serving of pound cake when used as a dessert. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fruit cocktail, bananas, grand marnier, orange juice, vanilla extract, papaya
+---
+TITLE: Banana  Coffeewalnut Cake
+CURRENT_DESCRIPTION: enjoy this excellent cake by sanjeev kapoor that makes good use of bananas that are on the verge of being over-ripe. this is from the young times magazine:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, walnuts, butter, sugar, eggs, refined flour
+---
+TITLE: Banana  Egg Rolls With Custard Sauce
+CURRENT_DESCRIPTION: oh my goodness, this gets me hankerin' for some sweet dessert! you can add chocolate(i personally like dark chocolate) or/and crystallized ginger, both sound amazing! i have not made this yet, putting it here for safekeeping. adapted from friedas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, egg roll wraps, semi-sweet chocolate chips, crystallized ginger, cooking oil, egg
+---
+TITLE: Banana  Honey   Cinnamon Muffins
+CURRENT_DESCRIPTION: this recipe has a 5 star rating on taste.com.au
+source:fresh living magazine - september 2005
+i've made them once & found them fruity, moist & yum- perfect for a morning tea muffin.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, self-raising flour, baking powder, bicarbonate of soda, ground cinnamon, salt
+---
+TITLE: Banana  Honey And Walnut Ice Cream
+CURRENT_DESCRIPTION: a truly sublime flavour combination.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, honey, egg yolks, whipping cream, bananas, walnuts
+---
+TITLE: Banana  Lime And Coconut Cake  Australia
+CURRENT_DESCRIPTION: this recipe was found at www.sydneymarkets.com.au & is posted here for the zaar world tour 5. [note: the recipe was edited on 17 may as per tinkerbell's review!}
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, lime, lime juice, buttermilk, bananas, unsalted butter
+---
+TITLE: Banana  Mango  Apple Rice Kugel
+CURRENT_DESCRIPTION: creamy, fruity, comfort food! very easy! great dessert! give it a try for breakfast! have it hot or cold.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, butter, heavy cream, raisins, banana, mango
+---
+TITLE: Banana  Orange   Pecan Muffins
+CURRENT_DESCRIPTION: makes 12 very moist and not to sugary muffins. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed bananas, butter, egg, vanilla, orange rind, whole wheat flour
+---
+TITLE: Banana  Pancakes With Spelt
+CURRENT_DESCRIPTION: organic spelt flour does not change the flavor of the pancake as much as whole wheat, but offers the benefit of additional fiber.  with all the processed foods being offered to my kids daily, i thought it might be helpful to get something healthy into their diet as often as possible.  no complaint from the kids here!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spelt flour, baking powder, salt, bananas, water, egg
+---
+TITLE: Banana  Pineapple And Coconut Cake
+CURRENT_DESCRIPTION: from mycolumbianrecipes.com.  sounds so good.  posted for zwt7.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, cinnamon, butter, eggs
+---
+TITLE: Banana  Pineapple Cheesecake Bars
+CURRENT_DESCRIPTION: yum
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, butter, sugar, cream cheese, vanilla, eggs
+---
+TITLE: Banana  Raisin  And Oatmeal Pancakes
+CURRENT_DESCRIPTION: these pancakes are great with maple syrup, honey, marmalade, or even cottage cheese. the recipe comes from bon appetit.cook time is for each pancake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old fashioned oats, all-purpose flour, golden brown sugar, baking powder, baking soda, ground cinnamon
+---
+TITLE: Banana  Rice Pudding
+CURRENT_DESCRIPTION: posted this recipe in response to a request. i have not made this pudding myself, but found it in "the mennonite treasury of recipes".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lemon juice, sugar, salt, orange rind, eggs
+---
+TITLE: banana  split
+CURRENT_DESCRIPTION: this is play on the banana split. it's warm banana bread with fresh bananas, chocolate ganach, crushed pineapple, candied walnuts and whipped cream. it's much easier than it sounds! very impressive dessert :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, eggs, all-purpose flour, salt, baking soda
+---
+TITLE: Banana  Split
+CURRENT_DESCRIPTION: this is play on the banana split. it's warm banana bread with fresh bananas, chocolate ganach, crushed pineapple, candied walnuts and whipped cream. it's much easier than it sounds! very impressive dessert :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, eggs, all-purpose flour, salt, baking soda
+---
+TITLE: Banana  Split Breakfast
+CURRENT_DESCRIPTION: this is a treat for my son, we usually make it on the weekends. for a special extra you can sprinkle with 2 tbsp. pecan or walnut pieces, or a mix of berries gives this quick breakfast a gorgeous appearance. if available, substitute fresh berries for the thawed frozen berries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, low-fat vanilla yogurt, fruit and bran cereal, fresh blueberries, fresh raspberry, ground cinnamon
+---
+TITLE: Banana  Strawberry  And Cream Cheese Stuffed French Toast
+CURRENT_DESCRIPTION: i found this recipe on ivillage. it's great for all that summer fruit and makes a very
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, cream cheese, strawberry jam, blueberries, egg, milk
+---
+TITLE: Banana  Wafer Pudding
+CURRENT_DESCRIPTION: i have had this pudding every christmas . and at all the good old family get togethers. very easy to make
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, vanilla wafers, vanilla instant pudding mix, graham crackers, cool whip, maraschino cherry
+---
+TITLE: Banana  Wheat Bread  Bread Machine
+CURRENT_DESCRIPTION: i have a habit of jotting down promising recipes whenever i'm perusing magazines in a waiting room. this one is on an envelope postmarked 1996. the whole wheat flour and banana flavors in this yeast bread really complement one another. i like to make cheese sandwiches with this, or eat with butter and jam. try french toast with it,  too. it's much lower in fat than the typical quick bread banana bread. prep time is approximate, depending on which alternative you choose.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, bread flour, whole wheat flour, salt, bananas, honey
+---
+TITLE: Banana All Bran Muffins
+CURRENT_DESCRIPTION: from cooks.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, sugar, cinnamon, all-bran cereal
+---
+TITLE: Banana Almond Bread In A Bread Machine  Clean
+CURRENT_DESCRIPTION: love banana bread and i love my bread machine. the pair together is the best thing since sliced banana bread! this is a super moist, cholesterol and fat (except the small amount in the flour) free bread that you can just pop into your bread machine and let it bake! it's the best banana bread i've ever had, and ever made. i hope you'll enjoy it!
+
+note: recipe does not double well in the bread machine. should be fine if you want to do it by hand and bake in the oven at 350 for 40-50 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, plain fat-free yogurt, sugar, baking powder, salt, baking soda
+---
+TITLE: Banana Almond Cake With Marscapone Frosting
+CURRENT_DESCRIPTION: from "zomtbakes" - http://zomtbakes.blogspot.com/2009/06/banana-almond-cake-with-honey.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, milk, mashed bananas, brown sugar, egg, flour
+---
+TITLE: Banana Ambrosia
+CURRENT_DESCRIPTION: had this at a friend's and it is fantastic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, orange juice, orange, dark brown sugar, shredded coconut
+---
+TITLE: Banana And Apricot Bread
+CURRENT_DESCRIPTION: from jody vassallo little ideas diabetes.  i don't have a particularly sweet tooth for sugary foods but i do like savoury and or fruit breads which are not overly ladened with fruit through.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, sultana, unsweetened apple juice, self-raising flour, baking powder, mixed spice
+---
+TITLE: Banana And Chocolate Chip Muffins
+CURRENT_DESCRIPTION: these are my favourite banana muffins. you could also substitute the chocolate chips with chopped walnuts if you prefer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, vanilla extract, ground cinnamon, chocolate chips
+---
+TITLE: Banana And Chocolate In Phyllo
+CURRENT_DESCRIPTION: i based this on a barbecued banana recipe. that has cutting a slit along the inside curve of the banana skin, placing chocolate chips or peanut butter chips (or both) inside the slit, wrapping it in aluminum foil and putting it on the barbecue (or oven) for about 15-20 minutes. comes out like custard. i've seen one similar recipe ( partial banana wrap) and several anana chimichanga type recipes on the net. if i've repeated something from somewhere else, i'm sure i'll be told. this is a recipe for 10. can be scaled up and down.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, chocolate candy bars, phyllo pastry sheets, butter, sugar, strawberries
+---
+TITLE: Banana And Coconut Oatmeal
+CURRENT_DESCRIPTION: oatmeal--it's so classic, but it's got to be one of the most versatile breakfast foods of all time.  here is one of the many ways that i have enjoyed oatmeal recently--it's so great and a good way to get in some fruit for the day.  serve with a glass of skim milk or a yogurt for a nutritious breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick oats, water, coconut extract, banana, unsweetened coconut, walnuts
+---
+TITLE: Banana And Coconut Pancakes
+CURRENT_DESCRIPTION: an asian dessert for coconut and bananas lovers from asia online.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shredded coconut, all-purpose flour, rice flour, caster sugar, desiccated coconut, egg
+---
+TITLE: Banana And Coconut Tart
+CURRENT_DESCRIPTION: this is posted for the 2006 zwt.  i have not tried this recipe, it is compliments of www.sofeminine.co.uk
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbaked pie shell, milk, desiccated coconut, sugar, eggs, rum
+---
+TITLE: Banana And Cream Of Wheat  Muffins  Low Fat
+CURRENT_DESCRIPTION: another find....sounds delish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, nonfat yogurt, milk, vanilla, all-purpose flour, cream of wheat
+---
+TITLE: Banana And Dulce De Leche Pie
+CURRENT_DESCRIPTION: this is a great dessert for any occasion. everybody loves it. you can use commercial caramel ice cream topping instead of the sweetened condensed milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened condensed milk, graham cracker crumbs, butter, bananas, heavy whipping cream, powdered sugar
+---
+TITLE: Banana And Ginger Wake Up Call Smoothie
+CURRENT_DESCRIPTION: kick-start the day with this vitamin-packed fruity breakfast smoothie,
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peach, strawberries, banana, fresh gingerroot, evaporated milk, vanilla extract
+---
+TITLE: Banana And Jelly Muffins
+CURRENT_DESCRIPTION: my mother made these muffins for us when we were kids and always used her home made crabapple jelly in them. i use strawberry or raspberry jam since thats what my kids like and they both work well,but feel free to use what ever you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, vegetable oil, bananas, milk, sugar, flour
+---
+TITLE: Banana And Kiwi Muffins
+CURRENT_DESCRIPTION: these are moist and yummy, not too sweet - perfect for breakfast or a light snack. makes 12 muffins or 24 mini muffins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, flour, salt, baking powder, baking soda, ground cinnamon
+---
+TITLE: Banana And Maple Muffins
+CURRENT_DESCRIPTION: from the quebec maple federation
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, quick oats, baking powder, salt, ground coriander, walnuts
+---
+TITLE: Banana And Mars Bar Cake
+CURRENT_DESCRIPTION: mmm mars bars :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, eggs, bananas, self-raising flour, mars bars
+---
+TITLE: Banana And Oat Bars
+CURRENT_DESCRIPTION: these are delicious bars that release a flavorful,and delicious aroma when baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, all-purpose flour, baking powder, egg whites, banana, vanilla extract
+---
+TITLE: Banana And Onion Soup
+CURRENT_DESCRIPTION: when i make this i do not pass it through a sieve or cheesecloth.  instead i use a stick blender to puree it.  the result is a very thick "soup" that really could be used to replace mashed potatoes as a side dish.  another one found in my great banana recipe search.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, onions, milk, water, butter, salt
+---
+TITLE: Banana And Or Coconut Cream Pie From Scratch
+CURRENT_DESCRIPTION: cool whip and pudding mix are great for a speedy dessert, but when you want truly homemade, this is a great recipe! be sure and use a deep dish pie pan. you can make a combo banana/coconut pie, or... if making just a coconut cream pie, omit the bananas, and substitute the banana extract for coconut extract. if making just a banana cream pie, just omit the coconut.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cake flour, sugar, salt, butter, butter flavor crisco
+---
+TITLE: Banana And Peanut Butter Cookies
+CURRENT_DESCRIPTION: this recipe is based on bev's flourless peanut butter cookies. i wanted to make a gluten free cookie but didn't have enough peanut butter. so i mixed up what i had then added the extra ingredients until it was a thicker consistency.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut butter, banana, brown sugar, golden syrup, egg, baking soda
+---
+TITLE: Banana And Peanut Butter Muffins
+CURRENT_DESCRIPTION: these tempting muffins are made with bananas and crunchy peanut butter and are simply irresistible.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, oats, baking powder, eggs, light brown sugar, bananas
+---
+TITLE: Banana And Peanut Butter Toast
+CURRENT_DESCRIPTION: for a change, why not try this for breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, banana, creamy peanut butter, egg, milk, butter
+---
+TITLE: Banana And Pineapple Cake
+CURRENT_DESCRIPTION: lovely and moist
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, pineapple, caster sugar, self raising flour, ground cinnamon, oil
+---
+TITLE: Banana And Semolina Pudding  Sheera
+CURRENT_DESCRIPTION: i am calling this dish a pudding for want of a better equivalent to the word sheera. this is definitely a dish you have to try. a dessert or a tea time filler.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fine semolina, milk, bananas, sugar, raisins, cardamom powder
+---
+TITLE: Banana And Strawberry Bread
+CURRENT_DESCRIPTION: this recipe freezes very well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, eggs, brown sugar, buttermilk, olive oil, self-raising flour
+---
+TITLE: Banana And Strawberry Cups
+CURRENT_DESCRIPTION: fresh fruit cups with orange liqueur.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, bananas, grand marnier, sugar, orange marmalade, salt
+---
+TITLE: Banana And Triple Berry Smoothie
+CURRENT_DESCRIPTION: as a mom to three little ones (3 under 3!) i sometimes find myself unitnentionally skipping meals. this is a yummy, nutritious smoothie for those times!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat plain yogurt, frozen mixed berries, banana, honey, vanilla, cinnamon
+---
+TITLE: Banana And Walnut Muffins
+CURRENT_DESCRIPTION: this is from the heart foundation. i haven't tried it yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, brown sugar, vanilla essence, margarine, skim milk, egg
+---
+TITLE: Banana And Walnut Muffins  Very Healthy
+CURRENT_DESCRIPTION: this recipe is from dr sandra cabot's liver cleansing diet book. the recipe is healthy and tastes great. i usually chop the walnuts up so they are quite small, i find it easier to eat that way.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, honey, olive oil, lsa, vanilla essence, wholemeal self-rising flour
+---
+TITLE: Banana Apple And Oatmeal Muffins
+CURRENT_DESCRIPTION: i found this one at http://eatgood4life.blogspot.com/2010/11/banana-apple-and-oatmeal-muffins.html, and wanted to save it somewhere, plus get the nutrition stats.  haven't tried it yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, egg, oil, low-fat milk, vanilla, sugar
+---
+TITLE: Banana Apple Bran Loaf
+CURRENT_DESCRIPTION: i found this recipe on the kellogg's website and i can't wait to try it.  i love baking with all bran cereal. let me know what you think!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, cinnamon, banana, unsweetened applesauce
+---
+TITLE: Banana Apple Bran Muffins
+CURRENT_DESCRIPTION: this is my spinoff from jellybeans low fat full taste muffins. i didn't have zucchini so i used apple, and had a craving for bran and this recipe was born!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened applesauce, apple, bananas, brown sugar, egg, baking soda
+---
+TITLE: Banana Apple Bread
+CURRENT_DESCRIPTION: this bread is a litlle unusual as the only sugar in it comes from the fruit and juice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, apple juice concentrate, eggs, flour, baking soda, salt
+---
+TITLE: Banana Apple Bread  From The Sweet Melissa Bakery
+CURRENT_DESCRIPTION: this is an excellent, moist banana bread by itself but the addition of caramelized brown sugar apples make this truly outstanding.  you can add nuts or currants.  be sure to use super-ripe bananas  (the blacker the better).  the banana bread keeps well wrapped in plastic wrap at room temperature for up to 3 days. for longer storage, freeze well wrapped in plastic wrap and then aluminum foil for up to 3 weeks. defrost (still wrapped) at room temperature.  the recipe was printed in "the sweet melissa baking book: recipes from the beloved bakery for everyone's favorite treats" by melissa murphy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, dark brown sugar, granny smith apples, ground cinnamon, pure vanilla extract, all-purpose flour
+---
+TITLE: Banana Apple Nut Bread
+CURRENT_DESCRIPTION: nice change from the usual. note on frozen bananas: we toss overripe bananas directly into the freezer, skin on. they will keep for a few months, however the skins will turn black and they will be mushy when thawed. this is also good when subbing dried apricots for the apple.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, brown sugar, eggs, plain flour, salt
+---
+TITLE: Banana Apple Salad
+CURRENT_DESCRIPTION: we enjoy this salad around the holiday.
+but can be enjoyed any time of the year.
+you can use any type of apples.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, vinegar, green apple, red apple
+---
+TITLE: Banana Apple Smoothie
+CURRENT_DESCRIPTION: this is my own cool refreshing drink. it's especially good on a hot summer day. it taste almost like banana ice cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple juice, bananas, milk, sugar, vanilla, ice cubes
+---
+TITLE: Banana Applesauce Bread
+CURRENT_DESCRIPTION: i added 1 cup of sugar and half a stick of butter instead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, applesauce, butter, sugar, eggs, flour
+---
+TITLE: Banana Applesauce Oatmeal Mini Muffins
+CURRENT_DESCRIPTION: a low fat, healthy small muffin.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old-fashioned oatmeal, whole wheat flour, all-purpose flour, baking powder, baking soda, walnuts
+---
+TITLE: Banana Bagel
+CURRENT_DESCRIPTION: i stole the idea from biggest loser cook book, changed it a tad.  this could be breakfast or a mid afternoon snack... it's really good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagel, whipped cream cheese, banana, cinnamon, honey
+---
+TITLE: Banana Baileys Shake
+CURRENT_DESCRIPTION: cold, refreshing and yummy.  modified from a cocktail recipe on idrink.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coffee, baileys irish cream, milk, banana, cinnamon, ice
+---
+TITLE: Banana Baked Oatmeal
+CURRENT_DESCRIPTION: a recipe i invented myself.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, egg white, margarine, low-fat vanilla yogurt, splenda granular, cinnamon
+---
+TITLE: Banana Banana Bread
+CURRENT_DESCRIPTION: why compromise the banana flavor? my banana bread is moist and delicious with loads of banana flavor! ultimate comfort food, and it's wonderful toasted!! (make sure to use bananas with a lot of black on them for the best flavor! the blacker the bananas, the stronger the banana flavor of the bread.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, butter, brown sugar, eggs
+---
+TITLE: Banana Banana Nut Bread
+CURRENT_DESCRIPTION: this is an incredibly moist and tender banana nut bread.  the addition of the instant banana pudding gives it an extra banana "kick". i find baking it at a lower temperature avoids burning the edges.  my dh likes it for breakfast served under two eggs over easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, buttermilk, eggs, vanilla, instant banana pudding mix
+---
+TITLE: Banana Barley Bread
+CURRENT_DESCRIPTION: a simple banana bread - no nuts, chocolate chips or other additions. it tastes like the banana bread from alligator pear, a sandwich shop in calgary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: barley flour, all-purpose flour, baking powder, baking soda, salt, canola oil
+---
+TITLE: Banana Bars
+CURRENT_DESCRIPTION: my young'uns think this treat is even more special than 'nana bread. mos'ta the time, i jes' leave out the frostin', and nobody don't never complain (they ain't fools!)...al'tho if ya do have the time, the frostin' makes a mighty fine treat. this recipe come from a tore-up ol' copy of taste of home's quick cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, brown sugar, sugar, eggs, banana, vanilla
+---
+TITLE: Banana Bars With Toasted Pecan Frosting
+CURRENT_DESCRIPTION: if you love banana you'll love these even if you don't you'll still like these!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, brown sugar, sour cream, eggs, bananas
+---
+TITLE: Banana Bead For The Bread Machine
+CURRENT_DESCRIPTION: easy banana bread recipe for the bread machine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, sour cream, vegetable oil, eggs, vanilla extract, sugar
+---
+TITLE: Banana Beignets
+CURRENT_DESCRIPTION: these are a great alternative to regular donuts. they are crispy outside and moist inside. these are equally delicious without the banana. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, banana, all-purpose flour, milk, sugar, baking powder
+---
+TITLE: Banana Berry Blast  Green Smoothie
+CURRENT_DESCRIPTION: this makes 4-5 cups. use at least one frozen fruit to chill your smoothie.  feel free to half the recipe. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, almond milk, blueberries, raspberries, bananas
+---
+TITLE: Banana Berry Bread
+CURRENT_DESCRIPTION: banana bread with berries, very moist and yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, baking soda, margarine
+---
+TITLE: Banana Berry Brownie Pizza
+CURRENT_DESCRIPTION: from the june/july 2004 taste of home.  looked good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brownie mix, water, vegetable oil, egg, cream cheese, sugar
+---
+TITLE: Banana Berry Crepes
+CURRENT_DESCRIPTION: created for ready, set, cook #12.  this recipe starts off with premade crepes that are stuffed with a cream cheese/yogurt sauce and blueberries.  then these crepes are covered with baked bananas that were sprinkled with brown sugar and cinnamon and topped off with whipped cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dessert crepes, vanilla yogurt, mascarpone cheese, artificial sweetener, vanilla, blueberries
+---
+TITLE: Banana Berry Drink
+CURRENT_DESCRIPTION: i got this recipe from taste of home.  very delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, pineapple juice, frozen blueberries, frozen sliced strawberries in syrup, plain yogurt, banana
+---
+TITLE: Banana Berry English Muffin
+CURRENT_DESCRIPTION: healthy, sweet, easy, quick. i enjoy this for breakfast with a nice cup of cold milk or a hot cup of coffee.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: english muffins, crunchy peanut butter, ground cinnamon, blackberry, raspberries, blueberries
+---
+TITLE: Banana Berry Frozen Yogurt
+CURRENT_DESCRIPTION: low cal, healthy, frozen dessert. use whatever berries you can get. no cooking just freezing for 45 minutes 3 x's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, blueberries, lime juice, brown sugar, plain fat-free yogurt
+---
+TITLE: Banana Berry Muffins
+CURRENT_DESCRIPTION: these are so easy and a great way to use up bananas and blackberries when in season but can use any berries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, ground cinnamon, bananas, eggs
+---
+TITLE: Banana Berry Oatmeal
+CURRENT_DESCRIPTION: this recipe is featured in the book "the origins diet".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonfat milk, banana, berries, oatmeal, toasted wheat germ, honey
+---
+TITLE: Banana Berry Pancakes
+CURRENT_DESCRIPTION: a nice healthy breakfast from the ca department of public health.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, pancake mix, water, nonstick cooking spray, strawberry, orange juice
+---
+TITLE: Banana Berry Smoothie  No Added Sugar  Sugarless
+CURRENT_DESCRIPTION: a simple and yummy start to your day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yogurt, milk, bananas, berries, ice cube
+---
+TITLE: Banana Berry Sorbet
+CURRENT_DESCRIPTION: 49K likes, 280 comments - chloeevegan on April 26, 2022: "This banana berry sorbet is amazing! 😍
+
+It’s healthy, easy to make and only has 5-INGREDIENTS. Made using @unicornsuperfoods incredible Berrylicious Blend for an extra burst of berry flavour and antioxidants. 
+
+❤️ Vegan, refined sugar-free, gluten-free and oil-free. 
+
+Recipe (Serves 2-3):
+- 3 Cups Frozen Bananas
+- 1 Cup Frozen Raspberries
+- 2 Tsp @unicornsuperfoods Berrylicious Blend
+- 1 Scoop Protein Powder
+- Dash of Oat Milk
+Choice of
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 cups Frozen Bananas, 1 cup Frozen Raspberries, 2 tsp Berrylicious Blend, 1 scoop Protein Powder, dash Oat Milk
+---
+TITLE: Banana Berry Tarts
+CURRENT_DESCRIPTION: from taste of home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, honey, frozen sweetened raspberries, miniature marshmallow, firm banana, whipped topping
+---
+TITLE: Banana Berry Trifle
+CURRENT_DESCRIPTION: this was the surprise success of the weekend!! developed for rsc #12.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced-sugar white cake mix, egg white, bananas, mascarpone cheese, ground cinnamon, ground nutmeg
+---
+TITLE: Banana Berry Wheat Germ Muffins
+CURRENT_DESCRIPTION: a tasty whole grain muffin.  i make these as jumbo muffins, but this could also be made as 12 regular muffins (be sure to re-adjust cooking time).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, wheat germ, splenda sugar substitute, baking powder, baking soda, salt
+---
+TITLE: Banana Birthday Cake
+CURRENT_DESCRIPTION: the perfect cake for a monkey themed party. this is a yellow cake with a hint of banana. the frosting is rich and smooth. a hit with young and old!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, instant banana pudding mix, eggs, water, vegetable oil, vanilla
+---
+TITLE: Banana Biscuits
+CURRENT_DESCRIPTION: this recipe is perfect for that lone banana that you don't know what to do with.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, banana, sugar, butter, banana extract, self-rising flour
+---
+TITLE: Banana Bisque With Cinnamon Croutons
+CURRENT_DESCRIPTION: this is a unique and relatively healthy dessert
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cinnamon, milk, bananas, mango chutney, crouton
+---
+TITLE: Banana Bisquick Muffins
+CURRENT_DESCRIPTION: my son loves these muffins with the (optional)chocolate chips added.  my daughter likes me to add raspberries to hers instead, so i just pop some whole berries into  the muffin cup as i drizzle the batter in.  they are very fast to put together which is always a good thing.  this is from toh.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bisquick baking mix, egg, bananas, brown sugar, milk, vegetable oil
+---
+TITLE: Banana Bites
+CURRENT_DESCRIPTION: from the cookie cookbook of company's coming
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, banana, all-purpose flour, baking powder
+---
+TITLE: Banana Black Bean Salad
+CURRENT_DESCRIPTION: a fresh/zippy salad that can be made well in advance and served with a dollop of sour cream and chives/parsley/cilantro as a garnish or alongside fish, rice or something else fun.
+
+mango may be used in addition to or in place of the banana.
+
+i developed this recipe to combine the delicious flavors of island and latin food with californian cuisene.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, tomatoes, onion, red pepper, fresh cilantro, lemon juice
+---
+TITLE: Banana Blaster Smoothie
+CURRENT_DESCRIPTION: a conservative beverage with a delicious blend of creamy coconut and blissful banana.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, milk, coconut milk, ice cubes, pure vanilla extract
+---
+TITLE: Banana Blintz Loaf
+CURRENT_DESCRIPTION: this is posted for the world tour 2005 recipezaar event.  i haven't tried them yet, but i can't wait to do so.
+this recipe is from the hadassah jewish holiday cookbook - a collection of traditional recipes from contemporary kosher kitchens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted margarine, cream cheese, cottage cheese, eggs, lemon juice, vanilla extract
+---
+TITLE: Banana Bliss Balls  Raw Food
+CURRENT_DESCRIPTION: this unusual & interesting recipe comes from the internet! great as a snack or dessert!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mixed nuts, unsweetened coconut, bananas, agave syrup, vanilla bean, buckwheat flour
+---
+TITLE: Banana Blizzard Pudding
+CURRENT_DESCRIPTION: scrumptious dessert!  i love bananas and pineapple by themselves, but put them together with oreos and "wow"!  this recipe came from a regional magazine that i receive.  the cooking time listed is the time to chill the dessert before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, oreo cookie crumbs, vanilla instant pudding mix, crushed pineapple, cool whip, bananas
+---
+TITLE: Banana Blondies With Chocolate Chips And Walnuts
+CURRENT_DESCRIPTION: from 125 best chocolate chips recipes.  haven't tried yet - but will soon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, unsalted butter, granulated sugar, light brown sugar
+---
+TITLE: Banana Blossom Guinatan
+CURRENT_DESCRIPTION: i haven't tried this yet but am looking forward to using it when my banana trees ripen. originally from a charmaine solomon book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana blossom, salt, oil, onion, garlic, tomatoes
+---
+TITLE: Banana Blueberries Crumb Muffins
+CURRENT_DESCRIPTION: girlfriend gave me this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, all-purpose flour, baking soda, baking powder, salt, cinnamon
+---
+TITLE: Banana Blueberry  Or Chocolate Chip  Muffins
+CURRENT_DESCRIPTION: i make these whenever i have bananas that have gone brown.  the original recipe calls for blueberries, but i've always used chocolate chips.  you can substitute half of the flour with whole wheat flour for healthier, equally tasty, muffins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, sugar, vegetable oil, egg, vanilla, flour
+---
+TITLE: Banana Blueberry Bread
+CURRENT_DESCRIPTION: a good way to use up those old bananas. i use frozens ones in my breads.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned blueberries, flour, sugar, baking powder, banana, salt
+---
+TITLE: Banana Blueberry Buttermilk Pancakes
+CURRENT_DESCRIPTION: these are delicious! light and fluffy with banana's and bluerries cooked right in. this recipe works fine without the fruit if you don't have any on hand. serve warm with butter and maple syrup! yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, salt, honey, vanilla extract
+---
+TITLE: Banana Blueberry Mini Loaves
+CURRENT_DESCRIPTION: these loaves are so good! they keep well in the freezer. i like to store my overly ripe bananas in the freezer so i always have some on hand for bread. they (bananas) look pretty gross when you thaw them out, but they work great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, oil, bananas, vanilla yogurt, vanilla, eggs
+---
+TITLE: Banana Blueberry Muffins
+CURRENT_DESCRIPTION: easy fruity muffin recipe 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed banana, egg, milk, vegetable oil, unbleached white flour, baking soda
+---
+TITLE: Banana Blueberry Oatmeal Bread
+CURRENT_DESCRIPTION: this tasty bread is even better the day after it's cooked!  from the "texas church supper and family reunion cookbook."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, baking powder, oats, eggs
+---
+TITLE: Banana Blueberry Orange Smoothie
+CURRENT_DESCRIPTION: any time of day, a thick, frosty smoothie bursting with fruit flavour, cold milk and yogurt makes a nutritious snack or part of a balanced meal. this recipe is from the dairy board of canada. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, bananas, frozen blueberries, yogurt, frozen orange juice concentrate
+---
+TITLE: Banana Blueberry Pancakes
+CURRENT_DESCRIPTION: a few weeks ago i was watching an episode of jon and kate plus eight that included a recipe for similar pancakes.  after searching for the exact recipe, i decided to make up one of my own.  this tasty, quick and easy recipe will please the entire family.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, eggs, milk
+---
+TITLE: Banana Blueberry Pie
+CURRENT_DESCRIPTION: this recipe makes 2 pies so if you only want to make 1 pie you will want to cut this in half. you can also use any other pie filling that you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, butter, sugar, pecans, bananas, cream cheese

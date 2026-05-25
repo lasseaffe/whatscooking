@@ -4,10 +4,12 @@ export const dynamic = "force-dynamic";
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { weave } from "@/lib/weave-solver";
+import { computeSummary } from "@/lib/weave-solver/summary";
 import type {
   SolverRecipe,
   SolverConstraints,
   MealType,
+  ProposedEntry,
 } from "@/lib/weave-solver/types";
 import {
   loadPantrySet,
@@ -237,4 +239,90 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ id: string
     recipes: recipeMeta,
     squad: squadAware ? squad : { members: [], avoid: [], dislike: [], love: [] },
   });
+}
+
+// GET — rehydrate a previously-woven week from meal_entries so the builder can
+// restore the woven grid on reload (and so it stays in sync with the cook flow).
+// Returns the same { entries, summary, recipes } shape as POST, or { empty: true }.
+export async function GET(_req: NextRequest, ctx: { params: Promise<{ id: string }> }) {
+  const { id: planId } = await ctx.params;
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const { data: plan } = await supabase
+    .from("meal_plans")
+    .select("id, user_id, duration_days, meals_per_day")
+    .eq("id", planId)
+    .single();
+  if (!plan || plan.user_id !== user.id) {
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
+
+  const { data: rows } = await supabase
+    .from("meal_entries")
+    .select("id, day_number, meal_type, recipe_id, recipe_title, source, is_leftover, parent_clientid, locked, position")
+    .eq("meal_plan_id", planId)
+    .order("day_number", { ascending: true })
+    .order("position", { ascending: true });
+
+  if (!rows || rows.length === 0) {
+    return NextResponse.json({ empty: true, entries: [] });
+  }
+
+  const entries: ProposedEntry[] = rows.map((r) => ({
+    clientid: r.id as string,
+    day_number: r.day_number as number,
+    meal_type: (r.meal_type as MealType) ?? "dinner",
+    recipe_id: (r.recipe_id as string) ?? "",
+    recipe_title: (r.recipe_title as string) ?? "",
+    source: (r.source as ProposedEntry["source"]) ?? "manual",
+    is_leftover: !!r.is_leftover,
+    parent_clientid: (r.parent_clientid as string | null) ?? null,
+    locked: !!r.locked,
+    position: (r.position as number) ?? 0,
+  }));
+
+  // Recipe meta (for grid imagery + macros) + pantry-aware summary recompute.
+  const recipeIds = Array.from(new Set(entries.map((e) => e.recipe_id).filter(Boolean)));
+  const pantrySet = await loadPantrySet(supabase, user.id);
+  const recipeMeta: Array<Record<string, unknown>> = [];
+  const pool = new Map<string, SolverRecipe>();
+  if (recipeIds.length > 0) {
+    const { data } = await supabase
+      .from("recipes")
+      .select(
+        "id, title, image_url, focal_x, focal_y, calories, protein_g, carbs_g, fat_g, fiber_g, sugar_g, sat_fat_g, sodium_mg, prep_time_minutes, cook_time_minutes, macros_estimated, cuisine_type, dish_types, ingredients",
+      )
+      .in("id", recipeIds);
+    for (const r of (data ?? []) as Array<Record<string, unknown>>) {
+      const pm = computePantryMatch(r as { ingredients?: unknown }, pantrySet);
+      pool.set(r.id as string, {
+        id: r.id as string,
+        title: (r.title as string) ?? "",
+        image_url: (r.image_url as string | null) ?? null,
+        cuisine_type: (r.cuisine_type as string | null) ?? null,
+        dietary_tags: [],
+        dish_types: (r.dish_types as string[] | null) ?? [],
+        prep_time_minutes: (r.prep_time_minutes as number | null) ?? null,
+        cook_time_minutes: (r.cook_time_minutes as number | null) ?? null,
+        calories: (r.calories as number | null) ?? null,
+        protein_g: (r.protein_g as number | null) ?? null,
+        carbs_g: (r.carbs_g as number | null) ?? null,
+        fat_g: (r.fat_g as number | null) ?? null,
+        batch_friendly: false,
+        pantry_match: pm,
+        inspiration_match: 0,
+      });
+      const { ingredients: _ingredients, ...rest } = r;
+      void _ingredients;
+      recipeMeta.push({ ...rest, pantry_match: pm });
+    }
+  }
+
+  const mealTypes = defaultMealTypes(plan.meals_per_day);
+  const slotsTotal = (plan.duration_days ?? 7) * mealTypes.length;
+  const summary = computeSummary(entries, pool, slotsTotal);
+
+  return NextResponse.json({ entries, summary, recipes: recipeMeta });
 }

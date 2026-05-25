@@ -57,10 +57,7 @@ export function ConstraintChipBar({ filters, onChange }: Props) {
   const close = () => setOpen(null);
 
   return (
-    <div
-      className="sticky top-0 z-10 flex flex-wrap gap-2 py-3 px-4 -mx-4 backdrop-blur-md"
-      style={{ background: 'rgba(26,18,10,0.85)', borderBottom: '1px solid #2A1F14' }}
-    >
+    <div className="relative flex flex-wrap gap-2">
       <Chip
         active={filters.diet.length > 0}
         label={filters.diet.length > 0 ? `Diet: ${filters.diet.join(', ')}` : 'Diet'}
@@ -187,9 +184,11 @@ function Chip({ label, active, onClick }: { label: string; active: boolean; onCl
       onClick={onClick}
       className="px-3 py-1.5 rounded-full text-sm border transition-colors"
       style={{
-        background: active ? '#2A1F14' : 'transparent',
-        borderColor: active ? '#E67E22' : '#3A2A1A',
-        color: active ? '#E67E22' : '#8A6A4A',
+        fontFamily: "var(--font-geist-mono, ui-monospace, monospace)",
+        fontSize: 12,
+        background: active ? 'rgba(230,126,34,0.10)' : 'transparent',
+        borderColor: active ? '#E67E22' : '#2A1E13',
+        color: active ? '#E67E22' : '#9A7E5E',
       }}
     >
       {label}
@@ -206,8 +205,8 @@ function Popover({ children, onClose }: { children: React.ReactNode; onClose: ()
     <>
       <div className="fixed inset-0 z-20" onClick={onClose} />
       <div
-        className="absolute z-30 mt-12 p-3 rounded-lg border shadow-lg"
-        style={{ background: '#1A120A', borderColor: '#3A2A1A', minWidth: 200 }}
+        className="absolute z-30 left-0 top-full mt-2 p-3 rounded-xl border shadow-lg"
+        style={{ background: '#15100B', borderColor: '#3A2A1B', minWidth: 200 }}
       >
         {children}
       </div>

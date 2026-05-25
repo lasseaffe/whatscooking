@@ -2,8 +2,9 @@
 
 import { useRouter } from "next/navigation";
 import { useState, useCallback, useEffect } from "react";
-import { Bookmark, BookmarkCheck, Clock, ChefHat, Gauge } from "lucide-react";
+import { Bookmark, BookmarkCheck, Clock, ChefHat, Gauge, Flame } from "lucide-react";
 import { ReportButton } from "@/components/report-button";
+import { EditRecipeButton } from "@/components/edit-recipe-button";
 import { WcBadge } from "@/components/wc-badge";
 import type { Recipe } from "@/lib/types";
 import { FocalPointEditor } from "@/components/focal-point-editor";
@@ -71,6 +72,8 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
   const [saved, setSaved] = useState(false);
   const [pulseKey, setPulseKey] = useState(0);
   const reduced = usePrefersReducedMotion();
+  const [displayTitle, setDisplayTitle] = useState(recipe.title);
+  const [displayDescription, setDisplayDescription] = useState(recipe.description ?? "");
 
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const isPremium = recipe.is_premium;
@@ -158,9 +161,15 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
         }
       </button>
 
-      {/* Report bug button — bottom-left */}
-      <div className="absolute bottom-2 left-2 z-10">
-        <ReportButton recipeId={recipe.id} recipeName={recipe.title} />
+      {/* Report + Edit buttons — bottom-left */}
+      <div className="absolute bottom-2 left-2 z-10 flex items-center gap-1">
+        <ReportButton recipeId={recipe.id} recipeName={displayTitle} />
+        <EditRecipeButton
+          recipeId={recipe.id}
+          initialTitle={displayTitle}
+          initialDescription={displayDescription}
+          onSaved={(t, d) => { setDisplayTitle(t); setDisplayDescription(d); }}
+        />
       </div>
 
       {/* Bottom content */}
@@ -190,7 +199,7 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
           {totalTime > 0 && (
             <span
               className="rc-card__meta inline-flex items-center gap-1 font-medium px-2 py-0.5 rounded-full"
-              style={{ background: "rgba(0,0,0,0.48)", backdropFilter: "blur(4px)", color: "rgba(255,255,255,0.88)" }}
+              style={{ background: "rgba(20,12,6,0.88)", color: "rgba(255,255,255,0.88)" }}
             >
               <Clock style={{ width: 10, height: 10 }} />
               {totalTime} min
@@ -199,10 +208,19 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
           {difficulty && (
             <span
               className="rc-card__meta inline-flex items-center gap-1 font-medium px-2 py-0.5 rounded-full"
-              style={{ background: "rgba(0,0,0,0.48)", color: difficultyColor(difficulty), backdropFilter: "blur(4px)" }}
+              style={{ background: "rgba(20,12,6,0.88)", color: difficultyColor(difficulty) }}
             >
               <Gauge style={{ width: 10, height: 10 }} />
               {difficulty}
+            </span>
+          )}
+          {recipe.calories != null && recipe.calories > 0 && (
+            <span
+              className="rc-card__meta inline-flex items-center gap-1 font-medium px-2 py-0.5 rounded-full"
+              style={{ background: "rgba(20,12,6,0.88)", color: "rgba(255,255,255,0.7)" }}
+            >
+              <Flame style={{ width: 10, height: 10 }} />
+              {recipe.calories} kcal
             </span>
           )}
         </div>
@@ -211,13 +229,13 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
         <h3
           className={featured ? "rc-card__title rc-card__title--featured line-clamp-2 drop-shadow-sm" : "rc-card__title line-clamp-2 drop-shadow-sm"}
         >
-          {recipe.title}
+          {displayTitle}
         </h3>
 
         {/* Nourishing description — always shown below recipe name */}
-        {recipe.description && (
+        {displayDescription && (
           <p className="rc-card__desc">
-            {recipe.description}
+            {displayDescription}
           </p>
         )}
 

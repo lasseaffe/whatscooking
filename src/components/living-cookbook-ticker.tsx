@@ -35,10 +35,10 @@ export function LivingCookbookTicker() {
   return (
     <div
       className="rounded-2xl px-5 py-4 mb-6 overflow-hidden relative"
-      style={{ background: "linear-gradient(135deg, #F7F4EE 0%, #F0EDE6 100%)", border: "1px solid #DDD5C8" }}
+      style={{ background: "rgba(58,52,48,0.55)", border: "1px solid rgba(58,36,22,0.5)", borderLeft: "3px solid var(--wc-accent-saffron, #F4A261)" }}
     >
       {/* Decorative quote mark */}
-      <span className="absolute top-2 left-3 text-5xl font-serif leading-none select-none" style={{ color: "#D4C9BA", lineHeight: 1 }}>"</span>
+      <span className="absolute top-2 left-3 text-5xl font-serif leading-none select-none" style={{ color: "rgba(244,162,97,0.28)", lineHeight: 1 }}>"</span>
 
       <div
         className="transition-all duration-400 pl-4"
@@ -47,7 +47,7 @@ export function LivingCookbookTicker() {
         <p
           className="text-sm leading-relaxed mb-2"
           style={{
-            color: "#3D2817",
+            color: "#EFE3CE",
             fontStyle: "italic",
             fontFamily: "'Libre Baskerville', Georgia, serif",
             lineHeight: "1.7",
@@ -70,7 +70,7 @@ export function LivingCookbookTicker() {
             style={{
               width: i === index ? 16 : 6,
               height: 6,
-              background: i === index ? "#828E6F" : "#D4C9BA",
+              background: i === index ? "var(--wc-accent-saffron, #F4A261)" : "rgba(176,125,86,0.4)",
             }}
           />
         ))}

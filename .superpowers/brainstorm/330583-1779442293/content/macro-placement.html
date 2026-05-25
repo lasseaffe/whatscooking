@@ -1,0 +1,122 @@
+<style>
+  .mock { background: #1A120A; border-radius: 10px; padding: 12px; color: #F5EDE0; font-size: 11px; }
+  /* Week summary cards */
+  .week-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 10px; }
+  .wc { background: #2C1F10; border-radius: 7px; padding: 8px 10px 6px; }
+  .wc-label { font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: #8B7355; }
+  .wc-num { font-size: 20px; font-weight: 700; line-height: 1.1; margin: 2px 0; }
+  .wc-unit { font-size: 9px; color: #8B7355; }
+  .wc-bar { height: 2px; border-radius: 1px; background: #3A2A1A; margin-top: 5px; }
+  .wc-fill { height: 2px; border-radius: 1px; }
+  /* Meal grid stub */
+  .meal-grid { border: 1px solid #2C1F10; border-radius: 7px; overflow: hidden; }
+  .meal-header { display: grid; grid-template-columns: 70px repeat(5, 1fr); background: #1E140A; border-bottom: 1px solid #2C1F10; }
+  .mh-cell { padding: 6px 4px; text-align: center; font-size: 9px; color: #8B7355; border-right: 1px solid #2C1F10; }
+  .mh-label { padding: 6px 8px; font-size: 9px; color: #8B7355; }
+  .meal-row { display: grid; grid-template-columns: 70px repeat(5, 1fr); border-top: 1px solid #2C1F10; }
+  .mr-label { padding: 10px 8px; font-size: 9px; color: #8B7355; font-style: italic; border-right: 1px solid #2C1F10; }
+  .mr-cell { padding: 4px; border-right: 1px solid #2C1F10; }
+  .recipe-thumb { background: #2C1F10; border-radius: 4px; height: 32px; display: flex; align-items: center; justify-content: center; font-size: 8px; color: #8B7355; }
+  .recipe-thumb.filled { background: linear-gradient(135deg,#3A2010,#5A3820); color: #F5EDE0; }
+  /* Pill strip */
+  .pill-strip { display: flex; gap: 4px; overflow: hidden; margin-bottom: 8px; }
+  .pill { background: #2C1F10; border-radius: 20px; padding: 4px 10px; font-size: 9px; display: flex; gap: 5px; align-items: center; white-space: nowrap; }
+  .pill.active { outline: 1px solid #E67E22; }
+  .pill-day { color: #8B7355; font-size: 8px; }
+  .pill-cal { color: #E67E22; font-weight: 700; }
+  .pill-p { color: #AEB873; }
+  /* Inline header variant */
+  .mh-cell-v2 { padding: 4px 4px 6px; text-align: center; border-right: 1px solid #2C1F10; }
+  .mh-day { font-size: 9px; color: #8B7355; }
+  .mh-kcal { font-size: 11px; font-weight: 700; color: #E67E22; }
+  .mh-macros { display: flex; justify-content: center; gap: 3px; margin-top: 2px; }
+  .mh-dot { width: 4px; height: 4px; border-radius: 50%; }
+  /* section label */
+  .slabel { font-size: 8px; letter-spacing: 1.2px; text-transform: uppercase; color: #8B7355; margin-bottom: 5px; }
+  .pcount { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+  .pcount-label { font-size: 9px; color: #8B7355; }
+  .pcount-val { background: #2C1F10; border-radius: 4px; padding: 2px 8px; font-size: 10px; font-weight: 700; }
+  .pcount-btn { width: 18px; height: 18px; border-radius: 50%; border: 1px solid #3A2A1A; color: #8B7355; background: #2C1F10; font-size: 11px; display: flex; align-items: center; justify-content: center; }
+  .dim { opacity: 0.35; }
+</style>
+
+<h2>Per-Day Macro — Placement Options</h2>
+<p class="subtitle">Week total cards always sit above · question is where per-day info lives</p>
+
+<div class="cards">
+
+  <!-- Option A: Pill strip between summary and grid -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:14px;background:#111">
+      <div class="mock">
+        <div class="pcount"><span class="pcount-label">Cooking for</span><div class="pcount-btn">−</div><span class="pcount-val">2</span><div class="pcount-btn">+</div><span style="font-size:8px;color:#8B7355;margin-left:auto">per person</span></div>
+        <!-- Week cards -->
+        <div class="slabel">Week total — per person</div>
+        <div class="week-cards" style="margin-bottom:10px">
+          <div class="wc"><div class="wc-label">Energy</div><div class="wc-num" style="color:#E67E22">2054</div><div class="wc-unit">kcal/person</div><div class="wc-bar"><div class="wc-fill" style="width:62%;background:#E67E22"></div></div></div>
+          <div class="wc"><div class="wc-label">Protein</div><div class="wc-num" style="color:#AEB873">161</div><div class="wc-unit">g/person</div><div class="wc-bar"><div class="wc-fill" style="width:78%;background:#AEB873"></div></div></div>
+          <div class="wc"><div class="wc-label">Carbs</div><div class="wc-num" style="color:#E0B85A">194</div><div class="wc-unit">g/person</div><div class="wc-bar"><div class="wc-fill" style="width:55%;background:#E0B85A"></div></div></div>
+          <div class="wc"><div class="wc-label">Fat</div><div class="wc-num" style="color:#C8522A">83</div><div class="wc-unit">g/person</div><div class="wc-bar"><div class="wc-fill" style="width:80%;background:#C8522A"></div></div></div>
+        </div>
+        <!-- Pill strip -->
+        <div class="slabel">Per day</div>
+        <div class="pill-strip">
+          <div class="pill active"><span class="pill-day">D1</span><span class="pill-cal">612</span><span class="pill-p">52P</span><span style="color:#E0B85A">71C</span><span style="color:#C8522A">28F</span></div>
+          <div class="pill"><span class="pill-day">D2</span><span class="pill-cal">588</span><span class="pill-p">48P</span><span style="color:#E0B85A">65C</span><span style="color:#C8522A">31F</span></div>
+          <div class="pill"><span class="pill-day">D3</span><span class="pill-cal">701</span><span class="pill-p">61P</span><span style="color:#E0B85A">58C</span><span style="color:#C8522A">24F</span></div>
+          <div class="pill dim"><span class="pill-day">D4</span><span style="color:#8B7355">—</span></div>
+          <div class="pill dim"><span class="pill-day">D5</span><span style="color:#8B7355">—</span></div>
+        </div>
+        <!-- Meal grid unchanged -->
+        <div class="meal-grid">
+          <div class="meal-header">
+            <div class="mh-label"></div>
+            <div class="mh-cell">DAY 1</div><div class="mh-cell">DAY 2</div><div class="mh-cell">DAY 3</div><div class="mh-cell dim">DAY 4</div><div class="mh-cell dim">DAY 5</div>
+          </div>
+          <div class="meal-row"><div class="mr-label">Breakfast</div><div class="mr-cell"><div class="recipe-thumb filled">🥩 Turkey...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Poke...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Salmon</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div></div>
+          <div class="meal-row"><div class="mr-label">Lunch</div><div class="mr-cell"><div class="recipe-thumb filled">🥩 Turkey...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Poke...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Salmon</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Compact Pill Strip</h3>
+      <p>Scrollable row of day pills between the week cards and the meal grid. Each pill: day · kcal · P/C/F. Lightweight, zero interference with the grid. Active pill highlights selected day.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Macro info embedded in grid day headers -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:14px;background:#111">
+      <div class="mock">
+        <div class="pcount"><span class="pcount-label">Cooking for</span><div class="pcount-btn">−</div><span class="pcount-val">2</span><div class="pcount-btn">+</div><span style="font-size:8px;color:#8B7355;margin-left:auto">per person</span></div>
+        <!-- Week cards -->
+        <div class="slabel">Week total — per person</div>
+        <div class="week-cards" style="margin-bottom:10px">
+          <div class="wc"><div class="wc-label">Energy</div><div class="wc-num" style="color:#E67E22">2054</div><div class="wc-unit">kcal/person</div><div class="wc-bar"><div class="wc-fill" style="width:62%;background:#E67E22"></div></div></div>
+          <div class="wc"><div class="wc-label">Protein</div><div class="wc-num" style="color:#AEB873">161</div><div class="wc-unit">g/person</div><div class="wc-bar"><div class="wc-fill" style="width:78%;background:#AEB873"></div></div></div>
+          <div class="wc"><div class="wc-label">Carbs</div><div class="wc-num" style="color:#E0B85A">194</div><div class="wc-unit">g/person</div><div class="wc-bar"><div class="wc-fill" style="width:55%;background:#E0B85A"></div></div></div>
+          <div class="wc"><div class="wc-label">Fat</div><div class="wc-num" style="color:#C8522A">83</div><div class="wc-unit">g/person</div><div class="wc-bar"><div class="wc-fill" style="width:80%;background:#C8522A"></div></div></div>
+        </div>
+        <!-- Meal grid with enriched headers -->
+        <div class="slabel">Meal plan — kcal shown per day/person in header</div>
+        <div class="meal-grid">
+          <div class="meal-header" style="grid-template-columns:70px repeat(5,1fr)">
+            <div class="mh-label"></div>
+            <div class="mh-cell-v2"><div class="mh-day">DAY 1</div><div class="mh-kcal">612</div><div class="mh-macros"><div class="mh-dot" style="background:#AEB873"></div><div class="mh-dot" style="background:#E0B85A"></div><div class="mh-dot" style="background:#C8522A"></div></div></div>
+            <div class="mh-cell-v2"><div class="mh-day">DAY 2</div><div class="mh-kcal">588</div><div class="mh-macros"><div class="mh-dot" style="background:#AEB873"></div><div class="mh-dot" style="background:#E0B85A"></div><div class="mh-dot" style="background:#C8522A"></div></div></div>
+            <div class="mh-cell-v2"><div class="mh-day">DAY 3</div><div class="mh-kcal">701</div><div class="mh-macros"><div class="mh-dot" style="background:#AEB873"></div><div class="mh-dot" style="background:#E0B85A"></div><div class="mh-dot" style="background:#C8522A"></div></div></div>
+            <div class="mh-cell-v2 dim"><div class="mh-day">DAY 4</div><div class="mh-kcal" style="color:#8B7355">—</div></div>
+            <div class="mh-cell-v2 dim"><div class="mh-day">DAY 5</div><div class="mh-kcal" style="color:#8B7355">—</div></div>
+          </div>
+          <div class="meal-row" style="grid-template-columns:70px repeat(5,1fr)"><div class="mr-label">Breakfast</div><div class="mr-cell"><div class="recipe-thumb filled">🥩 Turkey...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Poke...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Salmon</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div></div>
+          <div class="meal-row" style="grid-template-columns:70px repeat(5,1fr)"><div class="mr-label">Lunch</div><div class="mr-cell"><div class="recipe-thumb filled">🥩 Turkey...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Poke...</div></div><div class="mr-cell"><div class="recipe-thumb filled">🐟 Salmon</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div><div class="mr-cell"><div class="recipe-thumb">+ add</div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Enriched Grid Headers</h3>
+      <p>No new section added — per-day kcal + 3 macro dots live directly in the WeaveGrid column headers. Perfectly aligned with meal columns, scrolls with the grid, zero extra vertical space.</p>
+    </div>
+  </div>
+
+</div>

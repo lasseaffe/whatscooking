@@ -50,9 +50,9 @@ export function TrendingSection({ recipes, totalCount }: Props) {
               key={r.id}
               href={`/recipes/${r.id}`}
               className="flex-shrink-0 rounded-xl overflow-hidden"
-              style={{ width: 90, background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.07)" }}
+              style={{ width: 150, background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.07)" }}
             >
-              <div className="overflow-hidden" style={{ height: 64 }}>
+              <div className="overflow-hidden" style={{ height: 110 }}>
                 {r.image_url ? (
                   <img
                     src={r.image_url}
@@ -99,8 +99,8 @@ export function TrendingSection({ recipes, totalCount }: Props) {
             href="/recipes?sort=trending"
             className="flex-shrink-0 rounded-xl flex flex-col items-center justify-center gap-1"
             style={{
-              width: 90,
-              minHeight: 90,
+              width: 150,
+              minHeight: 150,
               background: "rgba(255,255,255,0.03)",
               border: "1px dashed rgba(255,255,255,0.1)",
             }}

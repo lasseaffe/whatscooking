@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fattoush v1</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,600&family=Inter:wght@200;300;400&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #080e1a;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 24px 16px;
+    font-family: Inter, sans-serif;
+  }
+  .poster {
+    width: 100%; max-width: 500px; aspect-ratio: 2/3;
+    position: relative; overflow: hidden; cursor: pointer;
+    border: 1px solid transparent; transition: border-color 0.3s;
+    background: #0E1D35;
+  }
+  .poster:hover    { border-color: rgba(212,150,42,0.4); }
+  .poster.selected { border-color: rgba(212,150,42,0.7); }
+
+  /* atmospheric washes — pomegranate, olive, saffron */
+  .washes {
+    position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background:
+      radial-gradient(ellipse 60% 45% at 18% 22%, rgba(192,57,43,0.10) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 88% 78%, rgba(125,155,78,0.09) 0%, transparent 55%),
+      radial-gradient(ellipse 40% 35% at 8% 88%, rgba(212,150,42,0.07) 0%, transparent 50%);
+  }
+
+  .photo-zone {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 44%; z-index: 3; overflow: hidden;
+  }
+  .photo-zone img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center 40%;
+    filter: saturate(1.12) brightness(0.88) contrast(1.02);
+    animation: kenBurns 22s ease-in-out infinite;
+    transform-origin: center center;
+  }
+  @keyframes kenBurns {
+    0%   { transform: scale(1.0) translate(0,0); }
+    35%  { transform: scale(1.06) translate(-4px,-2px); }
+    70%  { transform: scale(1.09) translate(3px,3px); }
+    100% { transform: scale(1.0) translate(0,0); }
+  }
+  .photo-fallback {
+    width: 100%; height: 100%;
+    background: linear-gradient(#7B3F00, #0E1D35);
+    display: flex; align-items: center; justify-content: center; font-size: 90px;
+  }
+  .photo-fade {
+    position: absolute; top: 0; left: 0; right: 0; height: 44%;
+    z-index: 4; pointer-events: none;
+    background: linear-gradient(to bottom, transparent 48%, rgba(14,29,53,0.65) 78%, #0E1D35 100%);
+  }
+
+  .content {
+    position: absolute; inset: 0; z-index: 9;
+    display: flex; flex-direction: column; padding: 20px 28px 22px;
+  }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .provenance {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(245,237,219,0.65); line-height: 1.9;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.6);
+  }
+  .no {
+    font-family: 'Cormorant Garamond', serif; font-size: 10px; font-style: italic;
+    color: rgba(212,150,42,0.65); letter-spacing: 2px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  }
+  .bottom { margin-top: auto; }
+  .recipe-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(52px, 11vw, 76px);
+    font-style: italic; line-height: 0.88; letter-spacing: -1px;
+    color: #F5EDDB;
+  }
+  .scroll-divider { display: flex; align-items: center; gap: 6px; margin: 10px 0 8px; }
+  .scroll-divider .arm { flex: 1; height: 1px; background: rgba(212,150,42,0.3); }
+  .sub-label {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(212,150,42,0.6); margin-bottom: 9px;
+    font-family: Inter, sans-serif;
+  }
+  .description {
+    font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 14.5px;
+    color: rgba(245,237,219,0.52); line-height: 1.72; max-width: 320px; margin-bottom: 10px;
+  }
+  .double-rule { display: flex; flex-direction: column; gap: 2px; margin-bottom: 9px; }
+  .double-rule .r1 { height: 1px; background: rgba(212,150,42,0.38); }
+  .double-rule .r2 { width: 44px; height: 1px; background: rgba(212,150,42,0.16); }
+  .ingr-label {
+    font-size: 7px; letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(212,150,42,0.42); margin-bottom: 6px;
+  }
+  .ingr-list { list-style: none; display: flex; flex-direction: column; gap: 3px; margin-bottom: 9px; }
+  .ingr-list li {
+    font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: rgba(245,237,219,0.36); display: flex; align-items: center; gap: 7px;
+  }
+  .ingr-list li::before {
+    content:''; display:block; width:8px; height:1px;
+    background: rgba(212,150,42,0.42); flex-shrink:0;
+  }
+  .meta-row { display: flex; gap: 18px; margin-bottom: 9px; }
+  .meta-item { font-size: 8px; letter-spacing: 3px; text-transform: uppercase; color: rgba(245,237,219,0.28); }
+  .meta-item span { color: rgba(245,237,219,0.56); }
+  .citation-block { border-top: 1px solid rgba(212,150,42,0.16); padding-top: 7px; }
+  .citation-ref {
+    font-size: 7px; letter-spacing: 3px; text-transform: uppercase;
+    color: rgba(192,140,80,0.58); margin-bottom: 3px;
+  }
+  .citation-text {
+    font-family: 'Cormorant Garamond', serif; font-style: italic;
+    font-size: 11px; color: rgba(245,237,219,0.40); line-height: 1.65;
+  }
+  .citation-source {
+    margin-top: 3px; font-size: 7px; letter-spacing: 1.5px;
+    color: rgba(212,150,42,0.28); text-transform: uppercase;
+  }
+
+  /* hover: Arabic → English (mirrors the French hover mechanic) */
+  .ar { position: relative; border-bottom: 1px dotted rgba(212,150,42,0.28); cursor: help; }
+  .ar::after {
+    content: attr(data-en);
+    position: absolute; bottom: calc(100% + 5px); left: 50%;
+    transform: translateX(-50%);
+    background: rgba(10,20,42,0.97); border: 1px solid rgba(212,150,42,0.3);
+    color: rgba(245,237,219,0.92); padding: 4px 10px; font-size: 10px; letter-spacing: 1.5px;
+    white-space: nowrap; border-radius: 2px;
+    font-family: Inter, sans-serif; font-style: normal; text-transform: none;
+    z-index: 20; pointer-events: none; opacity: 0; transition: opacity 0.15s;
+  }
+  .ar:hover::after { opacity: 1; }
+</style>
+<script>function sel(el){el.classList.toggle('selected');try{fetch('/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'click',choice:'fattoush-v1',timestamp:Date.now()})});}catch(e){}}</script>
+</head>
+<body>
+
+<div style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#7a5c14;margin-bottom:12px">
+  Fattoush · v1 · lapis navy · 8-pointed star monogram
+</div>
+
+<div class="poster" onclick="sel(this)">
+
+  <!--
+    KHATAM MONOGRAM — Islamic 8-pointed star (rub el hizb)
+    Tile: 30×30px. Full stars at center (15,15); quarter-stars at corners
+    create full stars at every tile-intersection when the pattern tiles.
+    opacity: 0.09
+  -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;opacity:0.09"
+       xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!--
+        8-pointed star centered at origin, outer r=6, inner r=2.5.
+        Points: alternating outer/inner every 22.5°, starting at top (-90°).
+      -->
+      <polygon id="khatam"
+        points="0,-6 0.96,-2.31 4.24,-4.24 2.31,-0.96 6,0 2.31,0.96 4.24,4.24 0.96,2.31 0,6 -0.96,2.31 -4.24,4.24 -2.31,0.96 -6,0 -2.31,-0.96 -4.24,-4.24 -0.96,-2.31"
+        fill="#C8922A"/>
+      <pattern id="star-grid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+        <!-- center star (full) -->
+        <use href="#khatam" transform="translate(15,15)"/>
+        <!-- corner stars (clipped to quarter by tile boundary; 4 tiles × quarter = 1 full star at each corner) -->
+        <use href="#khatam" transform="translate(0,0)"/>
+        <use href="#khatam" transform="translate(30,0)"/>
+        <use href="#khatam" transform="translate(0,30)"/>
+        <use href="#khatam" transform="translate(30,30)"/>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#star-grid)"/>
+  </svg>
+
+  <div class="washes"></div>
+
+  <div class="photo-zone">
+    <img
+      src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=500&q=80"
+      alt="Fattoush"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="photo-fallback" style="display:none">🥗</div>
+  </div>
+  <div class="photo-fade"></div>
+
+  <!-- editorial double rule, saffron tone -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:8;pointer-events:none;overflow:visible"
+       viewBox="0 0 500 750" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+    <line x1="28" y1="320" x2="472" y2="320" stroke="rgba(212,150,42,0.38)" stroke-width="1.5"/>
+    <line x1="28" y1="324" x2="472" y2="324" stroke="rgba(212,150,42,0.14)" stroke-width="0.7"/>
+  </svg>
+
+  <div class="content">
+    <div class="top">
+      <div class="provenance">Beirut · <span class="ar" data-en="The Levant">بلاد الشام</span><br><span class="ar" data-en="Since time immemorial">منذ الأزل</span></div>
+      <div class="no">No. IV</div>
+    </div>
+
+    <div class="bottom">
+      <div class="recipe-name">Fat-<br>toush</div>
+
+      <!-- scroll divider — 8-pointed star at center -->
+      <div class="scroll-divider">
+        <div class="arm"></div>
+        <svg width="18" height="18" viewBox="-9 -9 18 18" xmlns="http://www.w3.org/2000/svg">
+          <polygon
+            points="0,-6 0.96,-2.31 4.24,-4.24 2.31,-0.96 6,0 2.31,0.96 4.24,4.24 0.96,2.31 0,6 -0.96,2.31 -4.24,4.24 -2.31,0.96 -6,0 -2.31,-0.96 -4.24,-4.24 -0.96,-2.31"
+            fill="rgba(212,150,42,0.72)"/>
+        </svg>
+        <div class="arm"></div>
+      </div>
+
+      <div class="sub-label">
+        <span class="ar" data-en="Levantine bread salad · Sumac &amp; pomegranate dressing">سلطة الفتوش · السماق ودبس الرمان</span>
+      </div>
+
+      <p class="description">
+        In Beirut, lunch arrives with noise.
+        The sumac goes on last, like a signature.
+        Fattoush is not a salad. It is a whole
+        season stacked on a plate.
+      </p>
+
+      <div class="double-rule"><div class="r1"></div><div class="r2"></div></div>
+
+      <div class="ingr-label">
+        <span class="ar" data-en="Ingredients">المكونات</span>
+      </div>
+      <ul class="ingr-list">
+        <li><span class="ar" data-en="Toasted pita · torn by hand">خبز محمص · مكسّر باليد</span></li>
+        <li><span class="ar" data-en="Romaine · radish · cucumber">خس · فجل · خيار</span></li>
+        <li><span class="ar" data-en="Ripe tomato · spring onion">بندورة ناضجة · بصل أخضر</span></li>
+        <li><span class="ar" data-en="Fresh mint · purslane">نعنع طازج · بقلة</span></li>
+        <li><span class="ar" data-en="Sumac · pomegranate molasses · olive oil">سماق · دبس الرمان · زيت زيتون</span></li>
+      </ul>
+
+      <div class="meta-row">
+        <div class="meta-item"><span class="ar" data-en="Prep">تحضير</span> <span>20 min</span></div>
+        <div class="meta-item"><span class="ar" data-en="Toast">تحميص</span> <span>5 min</span></div>
+        <div class="meta-item"><span class="ar" data-en="Serves">يكفي</span> <span>4</span></div>
+      </div>
+
+      <div class="citation-block">
+        <div class="citation-ref">
+          <span class="ar" data-en="Grandmother's note">ملاحظة الجدة</span>
+        </div>
+        <div class="citation-text">
+          "Sumac doesn't season food. It argues with it.
+          Throw more than you think you need —
+          then throw more."
+        </div>
+        <div class="citation-source">
+          — <span class="ar" data-en="Every Lebanese kitchen · Est. indefinitely">كل مطبخ لبناني · منذ الأزل</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#7a5c14;margin-top:12px;text-align:center">
+  Hover Arabic for English · Click to approve
+</div>
+
+</body>
+</html>

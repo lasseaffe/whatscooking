@@ -16,13 +16,16 @@ interface Props {
   mealsPerDay: number;
 }
 
+const SERIF = "var(--font-fraunces, 'Libre Baskerville', Georgia, serif)";
+const MONO = "var(--font-geist-mono, ui-monospace, monospace)";
+
 export function Pinboard({ state, planId, durationDays, mealsPerDay }: Props) {
   const [open, setOpen] = useState(true);
+  const [tuneOpen, setTuneOpen] = useState(false);
 
-  // Auto-collapse when the first weave lands
+  // When the first weave lands, fold the planning zone into the slim refine bar.
   useEffect(() => {
     if (state.weave) setOpen(false);
-  // Only fire when weave transitions null → value
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [!!state.weave]);
 
@@ -40,131 +43,204 @@ export function Pinboard({ state, planId, durationDays, mealsPerDay }: Props) {
   };
 
   const pinnedIds = new Set(state.pins.map(p => p.recipe_id));
-  const slotCount = durationDays * mealsPerDay;
-  const ready = state.pins.length >= 3;
+  const f = state.filters;
 
+  const tuneCount = [
+    f.diet.length > 0,
+    f.squad_aware,
+    f.pantry_aware,
+    f.anti_repeat !== 'off',
+    f.batch_enabled,
+    f.inspiration_tags.length > 0,
+  ].filter(Boolean).length;
+
+  const summaryParts: string[] = [];
+  if (f.diet.length) summaryParts.push(`◆ ${f.diet.join(', ')}`);
+  summaryParts.push(`⏱ weeknights ≤${f.time_weeknight}m`);
+  summaryParts.push(`👥 squad ${f.squad_size}`);
+  if (f.anti_repeat !== 'off') summaryParts.push(`↻ ${f.anti_repeat}`);
+  if (f.pantry_aware) summaryParts.push('🥕 pantry-aware');
+  if (f.batch_enabled) summaryParts.push('🍳 batch');
+  if (f.inspiration_tags.length) summaryParts.push(`✦ ${f.inspiration_tags.length} vibes`);
+
+  // ── Shared pieces ─────────────────────────────────────────
+  const tuneButton = (
+    <button
+      onClick={() => setTuneOpen(v => !v)}
+      className="shrink-0 inline-flex items-center gap-2 rounded-xl transition-colors"
+      style={{
+        fontFamily: MONO, fontSize: 12, letterSpacing: '0.04em',
+        color: '#EFE3CE', background: tuneOpen ? 'rgba(230,126,34,0.12)' : '#241A11',
+        border: `1px solid ${tuneOpen ? '#E67E22' : '#3A2A1B'}`, padding: '9px 14px',
+      }}
+      aria-expanded={tuneOpen}
+    >
+      <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#E67E22' }} />
+      Tune{tuneCount > 0 ? ` · ${tuneCount} active` : ''}
+    </button>
+  );
+
+  const tunePanel = tuneOpen && (
+    <div
+      className="flex flex-col gap-4 p-4 rounded-2xl"
+      style={{ background: 'rgba(12,9,7,0.55)', border: '1px solid #2A1E13' }}
+    >
+      <ConstraintChipBar filters={state.filters} onChange={state.setFilters} />
+      <div style={{ height: 1, background: '#2A1E13' }} />
+      <InspirationChips selected={state.filters.inspiration_tags} onToggle={toggleInspiration} />
+    </div>
+  );
+
+  const pinnedShelf = state.pins.length > 0 && (
+    <div className="flex items-center gap-3.5">
+      <span style={{ fontFamily: MONO, fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase', color: '#6E573D' }}>Pinned</span>
+      <div className="flex">
+        {state.pins.slice(0, 6).map((p, i) => (
+          <div
+            key={p.id}
+            className="rounded-lg overflow-hidden"
+            style={{ width: 44, height: 44, marginLeft: i === 0 ? 0 : -10, border: '2px solid #0C0907', background: '#241A11', boxShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+          >
+            <RecipeImage
+              recipeId={p.recipe.id}
+              imageUrl={p.recipe.image_url}
+              title={p.recipe.title}
+              focal_x={p.recipe.focal_x}
+              focal_y={p.recipe.focal_y}
+              className="w-full h-full"
+            />
+          </div>
+        ))}
+      </div>
+      <span style={{ fontFamily: SERIF, fontSize: 15, color: '#EFE3CE' }}>
+        {state.pins.length} {state.pins.length === 1 ? 'recipe' : 'recipes'} ready
+      </span>
+    </div>
+  );
+
+  const gallery = (
+    <PinboardFeed
+      planId={planId}
+      filters={state.filters}
+      pins={state.pins}
+      onTogglePin={togglePin}
+      onOpenTune={() => setTuneOpen(true)}
+    />
+  );
+
+  // ════════════════════════════════════════════════════════════
+  // PLANNING STATE — full editorial planning surface
+  // ════════════════════════════════════════════════════════════
+  if (!state.weave) {
+    return (
+      <section aria-label="Pinboard" className="flex flex-col gap-6">
+        {/* editorial hero search */}
+        <div
+          className="rounded-2xl p-7"
+          style={{ background: 'linear-gradient(180deg,#1C140D,#15100B)', border: '1px solid #3A2A1B' }}
+        >
+          <p style={{ fontFamily: MONO, fontSize: 11, letterSpacing: '0.22em', textTransform: 'uppercase', color: '#9A7E5E' }}>
+            What are we cooking this week?
+          </p>
+          <h2 style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 500, fontSize: 25, color: '#EFE3CE', margin: '8px 0 18px' }}>
+            Search the library, or follow a craving below.
+          </h2>
+          <div className="flex items-stretch gap-3">
+            <RecipeSearchBar pinnedIds={pinnedIds} onTogglePin={togglePin} variant="hero" placeholder="Search recipes — “miso salmon”, “high protein”…" />
+            {tuneButton}
+          </div>
+          <p className="mt-4" style={{ fontFamily: MONO, fontSize: 11.5, color: '#9A7E5E', lineHeight: 1.7 }}>
+            {summaryParts.join('  ·  ')}
+          </p>
+        </div>
+
+        {tunePanel}
+        {pinnedShelf}
+        {gallery}
+
+        <PinTray
+          pins={state.pins}
+          durationDays={durationDays}
+          mealsPerDay={mealsPerDay}
+          onRemove={state.removePin}
+          onWeave={() => state.runWeave({ persistUndo: false })}
+          weaving={state.loading}
+        />
+      </section>
+    );
+  }
+
+  // ════════════════════════════════════════════════════════════
+  // WOVEN STATE — planning folds into a slim "Refine" bar
+  // ════════════════════════════════════════════════════════════
   return (
-    <section aria-label="Pinboard" className="flex flex-col">
-      {/* ── Sticky summary / collapsed header ── */}
-      <div
-        className="sticky top-0 z-30 flex items-center gap-2 px-3 py-2"
-        style={{
-          background: 'rgba(26,18,10,0.96)',
-          borderBottom: '1px solid #2A1F14',
-          backdropFilter: 'blur(8px)',
-          minHeight: 52,
-        }}
-      >
-        {/* Pin count + thumbnails */}
+    <section
+      aria-label="Pinboard"
+      className="flex flex-col rounded-2xl overflow-hidden"
+      style={{ background: 'rgba(21,16,11,0.6)', border: '1px solid #2A1E13' }}
+    >
+      <div className="flex items-center gap-3 px-4 py-3">
         {state.pins.length > 0 && (
-          <div className="flex items-center gap-1.5 shrink-0">
-            <span className="text-xs font-semibold" style={{ color: '#E67E22' }}>
-              📌 {state.pins.length}
-            </span>
-            <div className="flex gap-0.5">
-              {state.pins.slice(0, 5).map(p => (
-                <div
-                  key={p.id}
-                  className="w-7 h-7 rounded overflow-hidden"
-                  style={{ background: '#2A1F14' }}
-                >
-                  <RecipeImage
-                    recipeId={p.recipe.id}
-                    imageUrl={p.recipe.image_url}
-                    title={p.recipe.title}
-                    focal_x={p.recipe.focal_x}
-                    focal_y={p.recipe.focal_y}
-                    className="w-full h-full"
-                  />
+          <div className="flex items-center gap-2 shrink-0">
+            <span style={{ fontFamily: MONO, fontSize: 12, color: '#E67E22' }}>📌 {state.pins.length}</span>
+            <div className="flex">
+              {state.pins.slice(0, 5).map((p, i) => (
+                <div key={p.id} className="rounded-md overflow-hidden" style={{ width: 28, height: 28, marginLeft: i === 0 ? 0 : -7, border: '2px solid #15100B', background: '#241A11' }}>
+                  <RecipeImage recipeId={p.recipe.id} imageUrl={p.recipe.image_url} title={p.recipe.title} focal_x={p.recipe.focal_x} focal_y={p.recipe.focal_y} className="w-full h-full" />
                 </div>
               ))}
-              {state.pins.length > 5 && (
-                <span className="text-[10px] self-center ml-0.5" style={{ color: '#6B4E36' }}>
-                  +{state.pins.length - 5}
-                </span>
-              )}
             </div>
           </div>
         )}
 
-        {/* Search bar — always accessible */}
-        <RecipeSearchBar
-          pinnedIds={pinnedIds}
-          onTogglePin={togglePin}
-          placeholder="Search & add recipes…"
-        />
+        <RecipeSearchBar pinnedIds={pinnedIds} onTogglePin={togglePin} variant="slim" placeholder="Search & add recipes…" />
 
-        {/* Reweave button (only after first weave) */}
-        {state.weave && (
-          <button
-            onClick={() => state.runWeave({ seed: Date.now() & 0xffff, persistUndo: true })}
-            disabled={state.loading}
-            title="Reweave"
-            className="shrink-0 px-2 py-1 rounded text-xs border transition-opacity disabled:opacity-40"
-            style={{ borderColor: '#3A2A1A', color: '#8A6A4A' }}
-          >
-            {state.loading ? '…' : '↺'}
-          </button>
-        )}
+        <button
+          onClick={() => state.runWeave({ seed: Date.now() & 0xffff, persistUndo: true })}
+          disabled={state.loading}
+          title="Reweave"
+          className="shrink-0 rounded-lg transition-opacity disabled:opacity-40"
+          style={{ fontFamily: MONO, fontSize: 13, color: '#9A7E5E', border: '1px solid #3A2A1B', padding: '7px 10px' }}
+        >
+          {state.loading ? '…' : '↻'}
+        </button>
 
-        {/* Expand / collapse toggle */}
         <button
           onClick={() => setOpen(v => !v)}
-          className="shrink-0 w-7 h-7 flex items-center justify-center rounded transition-colors"
-          style={{ color: '#6B4E36' }}
-          aria-label={open ? 'Collapse pinboard' : 'Expand pinboard'}
+          className="shrink-0 inline-flex items-center gap-1.5 rounded-lg transition-colors"
+          style={{ fontFamily: MONO, fontSize: 12, color: open ? '#E67E22' : '#9A7E5E', border: `1px solid ${open ? '#E67E22' : '#3A2A1B'}`, padding: '7px 11px' }}
+          aria-expanded={open}
         >
-          {open ? '▴' : '▾'}
+          ✎ Refine {open ? '▴' : '▾'}
         </button>
       </div>
 
-      {/* ── Expandable body ── */}
       {open && (
-        <div className="flex flex-col gap-3 pt-3">
-          <ConstraintChipBar filters={state.filters} onChange={state.setFilters} />
-          <InspirationChips selected={state.filters.inspiration_tags} onToggle={toggleInspiration} />
-          <PinboardFeed planId={planId} filters={state.filters} pins={state.pins} onTogglePin={togglePin} />
-          {/* Weave button — inside expanded body, bottom sticky */}
-          {!state.weave && (
-            <PinTray
-              pins={state.pins}
-              durationDays={durationDays}
-              mealsPerDay={mealsPerDay}
-              onRemove={state.removePin}
-              onWeave={() => state.runWeave({ persistUndo: false })}
-              weaving={state.loading}
-            />
-          )}
-          {/* After weave: show inline weave/reweave row instead of sticky PinTray */}
-          {state.weave && (
-            <div
-              className="flex items-center justify-between px-3 py-2 rounded-lg"
-              style={{ background: '#1A120A', border: '1px solid #2A1F14' }}
-            >
-              <span className="text-xs" style={{ color: '#6B4E36' }}>
-                {state.pins.length} recipes pinned
-              </span>
-              <div className="flex gap-2">
-                {state.canUndo && (
-                  <button
-                    onClick={state.undoWeave}
-                    className="text-xs px-3 py-1 rounded border"
-                    style={{ borderColor: '#3A2A1A', color: '#8A6A4A' }}
-                  >
-                    ↶ undo
-                  </button>
-                )}
-                <button
-                  onClick={() => state.runWeave({ seed: Date.now() & 0xffff, persistUndo: true })}
-                  disabled={state.loading}
-                  className="text-xs px-3 py-1 rounded-full border disabled:opacity-40"
-                  style={{ borderColor: '#E67E22', color: '#E67E22' }}
-                >
-                  {state.loading ? 'Weaving…' : '🔀 Reweave'}
+        <div className="flex flex-col gap-5 px-4 pb-4 pt-1">
+          <div className="flex justify-end">{tuneButton}</div>
+          {tunePanel}
+          {gallery}
+          <div
+            className="flex items-center justify-between px-4 py-3 rounded-xl"
+            style={{ background: '#15100B', border: '1px solid #2A1E13' }}
+          >
+            <span style={{ fontFamily: SERIF, fontSize: 14, color: '#9A7E5E' }}>{state.pins.length} recipes pinned</span>
+            <div className="flex gap-2">
+              {state.canUndo && (
+                <button onClick={state.undoWeave} className="rounded-lg" style={{ fontFamily: MONO, fontSize: 12, color: '#9A7E5E', border: '1px solid #3A2A1B', padding: '7px 12px' }}>
+                  ↶ undo
                 </button>
-              </div>
+              )}
+              <button
+                onClick={() => state.runWeave({ seed: Date.now() & 0xffff, persistUndo: true })}
+                disabled={state.loading}
+                className="rounded-full disabled:opacity-40"
+                style={{ fontFamily: MONO, fontSize: 12, color: '#E67E22', border: '1px solid #E67E22', padding: '7px 14px' }}
+              >
+                {state.loading ? 'Weaving…' : '🔀 Reweave'}
+              </button>
             </div>
-          )}
+          </div>
         </div>
       )}
     </section>

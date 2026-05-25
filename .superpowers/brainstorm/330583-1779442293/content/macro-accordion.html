@@ -1,0 +1,164 @@
+<style>
+  .mock { background: #1A120A; border-radius: 10px; padding: 14px; color: #F5EDE0; font-size: 11px; max-width: 680px; }
+  .slabel { font-size: 8px; letter-spacing: 1.2px; text-transform: uppercase; color: #8B7355; margin-bottom: 6px; }
+  .pcount { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+  .pcount-label { font-size: 9px; color: #8B7355; }
+  .pcount-val { background: #2C1F10; border-radius: 4px; padding: 2px 8px; font-size: 10px; font-weight: 700; }
+  .pcount-btn { width: 18px; height: 18px; border-radius: 50%; border: 1px solid #3A2A1A; color: #8B7355; background: #2C1F10; font-size: 11px; display: flex; align-items: center; justify-content: center; }
+
+  /* Macro cards row */
+  .macro-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+
+  /* Collapsed card */
+  .mc { background: #2C1F10; border-radius: 8px; padding: 9px 11px 7px; cursor: pointer; border: 1px solid transparent; transition: border-color 0.15s; }
+  .mc:hover { border-color: #3A2A1A; }
+  .mc.active { border-color: currentColor; border-radius: 8px 8px 0 0; }
+  .mc-label { font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: #8B7355; display: flex; justify-content: space-between; align-items: center; }
+  .mc-chevron { font-size: 8px; color: #8B7355; }
+  .mc-num { font-size: 22px; font-weight: 700; line-height: 1.1; margin: 3px 0 1px; font-family: monospace; }
+  .mc-unit { font-size: 9px; color: #8B7355; }
+  .mc-bar { height: 2px; border-radius: 1px; background: #3A2A1A; margin-top: 5px; }
+  .mc-fill { height: 2px; border-radius: 1px; }
+
+  /* Expanded breakdown panel */
+  .mc-expand { grid-column: 1 / -1; background: #2C1F10; border-radius: 0 0 8px 8px; border-top: 1px solid #1A120A; padding: 10px 12px 12px; margin-top: -6px; }
+  .expand-title { font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: #8B7355; margin-bottom: 8px; }
+  .day-bars-list { display: flex; flex-direction: column; gap: 5px; }
+  .day-bar-row { display: grid; grid-template-columns: 28px 1fr 36px; align-items: center; gap: 8px; }
+  .day-bar-label { font-size: 9px; color: #8B7355; text-align: right; }
+  .day-bar-track { height: 6px; background: #1A120A; border-radius: 3px; position: relative; }
+  .day-bar-fill { height: 6px; border-radius: 3px; background: #AEB873; }
+  .day-bar-val { font-size: 10px; font-weight: 700; color: #F5EDE0; font-family: monospace; }
+  .day-bar-row.empty .day-bar-val { color: #8B7355; }
+  .day-bar-row.empty .day-bar-fill { width: 0 !important; }
+
+  /* Meal grid stub */
+  .meal-grid { border: 1px solid #2C1F10; border-radius: 7px; overflow: hidden; margin-top: 10px; }
+  .meal-header { display: grid; grid-template-columns: 60px repeat(5, 1fr); background: #1E140A; border-bottom: 1px solid #2C1F10; }
+  .mh-empty { border-right: 1px solid #2C1F10; }
+  .mh-cell { padding: 5px 4px 6px; text-align: center; border-right: 1px solid #2C1F10; }
+  .mh-day { font-size: 8px; color: #8B7355; }
+  .mh-kcal { font-size: 10px; font-weight: 700; color: #AEB873; margin-top: 1px; }
+  .mh-dots { display: flex; justify-content: center; gap: 2px; margin-top: 3px; }
+  .mh-dot { width: 3px; height: 3px; border-radius: 50%; }
+  .meal-row { display: grid; grid-template-columns: 60px repeat(5, 1fr); border-top: 1px solid #2C1F10; }
+  .mr-label { padding: 8px; font-size: 8px; color: #8B7355; font-style: italic; border-right: 1px solid #2C1F10; display: flex; align-items: center; }
+  .mr-cell { padding: 3px; border-right: 1px solid #2C1F10; }
+  .rt { background: #2C1F10; border-radius: 3px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: 7px; color: #8B7355; }
+  .rt.filled { background: linear-gradient(135deg,#3A2010,#5A3820); color: #F5EDE0; font-size: 8px; }
+  .dim { opacity: 0.3; }
+
+  .state-label { font-size: 10px; color: #8B7355; font-style: italic; margin-bottom: 8px; }
+</style>
+
+<h2>Macro Cards — Clickable Accordion Breakdown</h2>
+<p class="subtitle">Click any week-total card to expand that macro's per-day per-person view</p>
+
+<div class="split">
+
+  <!-- LEFT: Collapsed (default) -->
+  <div class="mockup">
+    <div class="mockup-header">Default — all collapsed</div>
+    <div class="mockup-body">
+      <div class="mock">
+        <div class="pcount"><span class="pcount-label">Cooking for</span><div class="pcount-btn">−</div><span class="pcount-val">2</span><div class="pcount-btn">+</div></div>
+        <div class="slabel">Week total — per person · click to expand</div>
+        <div class="macro-row">
+          <div class="mc"><div class="mc-label">Energy <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#E67E22">2054</div><div class="mc-unit">kcal/person</div><div class="mc-bar"><div class="mc-fill" style="width:62%;background:#E67E22"></div></div></div>
+          <div class="mc"><div class="mc-label">Protein <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#AEB873">161</div><div class="mc-unit">g/person</div><div class="mc-bar"><div class="mc-fill" style="width:78%;background:#AEB873"></div></div></div>
+          <div class="mc"><div class="mc-label">Carbs <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#E0B85A">194</div><div class="mc-unit">g/person</div><div class="mc-bar"><div class="mc-fill" style="width:55%;background:#E0B85A"></div></div></div>
+          <div class="mc"><div class="mc-label">Fat <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#C8522A">83</div><div class="mc-unit">g/person</div><div class="mc-bar"><div class="mc-fill" style="width:80%;background:#C8522A"></div></div></div>
+        </div>
+
+        <div class="meal-grid">
+          <div class="meal-header">
+            <div class="mh-empty"></div>
+            <div class="mh-cell"><div class="mh-day">DAY 1</div><div class="mh-kcal" style="color:#E67E22">612</div><div class="mh-dots"><div class="mh-dot" style="background:#AEB873"></div><div class="mh-dot" style="background:#E0B85A"></div><div class="mh-dot" style="background:#C8522A"></div></div></div>
+            <div class="mh-cell"><div class="mh-day">DAY 2</div><div class="mh-kcal" style="color:#E67E22">588</div><div class="mh-dots"><div class="mh-dot" style="background:#AEB873"></div><div class="mh-dot" style="background:#E0B85A"></div><div class="mh-dot" style="background:#C8522A"></div></div></div>
+            <div class="mh-cell"><div class="mh-day">DAY 3</div><div class="mh-kcal" style="color:#E67E22">701</div><div class="mh-dots"><div class="mh-dot" style="background:#AEB873"></div><div class="mh-dot" style="background:#E0B85A"></div><div class="mh-dot" style="background:#C8522A"></div></div></div>
+            <div class="mh-cell dim"><div class="mh-day">DAY 4</div><div class="mh-kcal" style="color:#8B7355">—</div></div>
+            <div class="mh-cell dim"><div class="mh-day">DAY 5</div><div class="mh-kcal" style="color:#8B7355">—</div></div>
+          </div>
+          <div class="meal-row"><div class="mr-label">Breakfast</div><div class="mr-cell"><div class="rt filled">🥩 Turkey</div></div><div class="mr-cell"><div class="rt filled">🐟 Poke</div></div><div class="mr-cell"><div class="rt filled">🐟 Salmon</div></div><div class="mr-cell"><div class="rt">+ add</div></div><div class="mr-cell"><div class="rt">+ add</div></div></div>
+          <div class="meal-row"><div class="mr-label">Lunch</div><div class="mr-cell"><div class="rt filled">🥩 Turkey</div></div><div class="mr-cell"><div class="rt filled">🐟 Poke</div></div><div class="mr-cell"><div class="rt filled">🐟 Salmon</div></div><div class="mr-cell"><div class="rt">+ add</div></div><div class="mr-cell"><div class="rt">+ add</div></div></div>
+          <div class="meal-row"><div class="mr-label">Dinner</div><div class="mr-cell"><div class="rt filled">🍝 Pasta</div></div><div class="mr-cell"><div class="rt filled">🐟 Poke</div></div><div class="mr-cell"><div class="rt filled">🐟 Salmon</div></div><div class="mr-cell"><div class="rt">+ add</div></div><div class="mr-cell"><div class="rt">+ add</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Protein expanded -->
+  <div class="mockup">
+    <div class="mockup-header">After clicking Protein card</div>
+    <div class="mockup-body">
+      <div class="mock">
+        <div class="pcount"><span class="pcount-label">Cooking for</span><div class="pcount-btn">−</div><span class="pcount-val">2</span><div class="pcount-btn">+</div></div>
+        <div class="slabel">Week total — per person · click to expand</div>
+        <div class="macro-row">
+          <!-- Energy collapsed -->
+          <div class="mc"><div class="mc-label">Energy <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#E67E22">2054</div><div class="mc-unit">kcal/person</div><div class="mc-bar"><div class="mc-fill" style="width:62%;background:#E67E22"></div></div></div>
+
+          <!-- Protein EXPANDED — bottom corners flat, bleeds into panel -->
+          <div class="mc active" style="color:#AEB873; border-color:#AEB873">
+            <div class="mc-label" style="color:#AEB873">Protein <span class="mc-chevron" style="color:#AEB873">▴</span></div>
+            <div class="mc-num" style="color:#AEB873">161</div>
+            <div class="mc-unit">g/person</div>
+            <div class="mc-bar"><div class="mc-fill" style="width:78%;background:#AEB873"></div></div>
+          </div>
+
+          <!-- Carbs collapsed -->
+          <div class="mc"><div class="mc-label">Carbs <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#E0B85A">194</div><div class="mc-unit">g/person</div><div class="mc-bar"><div class="mc-fill" style="width:55%;background:#E0B85A"></div></div></div>
+          <!-- Fat collapsed -->
+          <div class="mc"><div class="mc-label">Fat <span class="mc-chevron">▾</span></div><div class="mc-num" style="color:#C8522A">83</div><div class="mc-unit">g/person</div><div class="mc-bar"><div class="mc-fill" style="width:80%;background:#C8522A"></div></div></div>
+
+          <!-- Expanded panel spans full row -->
+          <div class="mc-expand" style="border:1px solid #AEB873; border-top:1px solid #1A120A; border-radius:0 0 8px 8px">
+            <div class="expand-title" style="color:#AEB873">Protein — g per person per day</div>
+            <div class="day-bars-list">
+              <div class="day-bar-row">
+                <div class="day-bar-label">D1</div>
+                <div class="day-bar-track"><div class="day-bar-fill" style="width:85%;background:#AEB873"></div></div>
+                <div class="day-bar-val">52g</div>
+              </div>
+              <div class="day-bar-row">
+                <div class="day-bar-label">D2</div>
+                <div class="day-bar-track"><div class="day-bar-fill" style="width:79%;background:#AEB873"></div></div>
+                <div class="day-bar-val">48g</div>
+              </div>
+              <div class="day-bar-row">
+                <div class="day-bar-label">D3</div>
+                <div class="day-bar-track"><div class="day-bar-fill" style="width:100%;background:#AEB873"></div></div>
+                <div class="day-bar-val">61g</div>
+              </div>
+              <div class="day-bar-row empty">
+                <div class="day-bar-label" style="color:#4A3A2A">D4</div>
+                <div class="day-bar-track"><div class="day-bar-fill"></div></div>
+                <div class="day-bar-val">—</div>
+              </div>
+              <div class="day-bar-row empty">
+                <div class="day-bar-label" style="color:#4A3A2A">D5</div>
+                <div class="day-bar-track"><div class="day-bar-fill"></div></div>
+                <div class="day-bar-val">—</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="meal-grid">
+          <div class="meal-header">
+            <div class="mh-empty"></div>
+            <div class="mh-cell"><div class="mh-day">DAY 1</div><div class="mh-kcal" style="color:#AEB873">52g</div><div class="mh-dots"><div class="mh-dot" style="background:#AEB873;width:5px;height:5px"></div></div></div>
+            <div class="mh-cell"><div class="mh-day">DAY 2</div><div class="mh-kcal" style="color:#AEB873">48g</div><div class="mh-dots"><div class="mh-dot" style="background:#AEB873;width:5px;height:5px"></div></div></div>
+            <div class="mh-cell"><div class="mh-day">DAY 3</div><div class="mh-kcal" style="color:#AEB873">61g</div><div class="mh-dots"><div class="mh-dot" style="background:#AEB873;width:5px;height:5px"></div></div></div>
+            <div class="mh-cell dim"><div class="mh-day">DAY 4</div><div class="mh-kcal" style="color:#8B7355">—</div></div>
+            <div class="mh-cell dim"><div class="mh-day">DAY 5</div><div class="mh-kcal" style="color:#8B7355">—</div></div>
+          </div>
+          <div class="meal-row"><div class="mr-label">Breakfast</div><div class="mr-cell"><div class="rt filled">🥩 Turkey</div></div><div class="mr-cell"><div class="rt filled">🐟 Poke</div></div><div class="mr-cell"><div class="rt filled">🐟 Salmon</div></div><div class="mr-cell"><div class="rt">+ add</div></div><div class="mr-cell"><div class="rt">+ add</div></div></div>
+          <div class="meal-row"><div class="mr-label">Lunch</div><div class="mr-cell"><div class="rt filled">🥩 Turkey</div></div><div class="mr-cell"><div class="rt filled">🐟 Poke</div></div><div class="mr-cell"><div class="rt filled">🐟 Salmon</div></div><div class="mr-cell"><div class="rt">+ add</div></div><div class="mr-cell"><div class="rt">+ add</div></div></div>
+          <div class="meal-row"><div class="mr-label">Dinner</div><div class="mr-cell"><div class="rt filled">🍝 Pasta</div></div><div class="mr-cell"><div class="rt filled">🐟 Poke</div></div><div class="mr-cell"><div class="rt filled">🐟 Salmon</div></div><div class="mr-cell"><div class="rt">+ add</div></div><div class="mr-cell"><div class="rt">+ add</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

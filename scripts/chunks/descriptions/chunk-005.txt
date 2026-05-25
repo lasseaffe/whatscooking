@@ -1,0 +1,2187 @@
+TITLE: A1 Meatballs
+CURRENT_DESCRIPTION: my family loves these meatballs, ai gives alittle bit of a zing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, parsley, a.1. original sauce, salt, pepper
+---
+TITLE: A1 Meatloaf
+CURRENT_DESCRIPTION: i just love a1 sauce and wanted a meatloaf with a good kick. the cheez-its add a nice cheesy taste without using cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, egg, ketchup, a.1. original sauce, steak seasoning, cheez-it crackers
+---
+TITLE: A1 Steak Sauce    Clone   Copycat   Homemade Substitute
+CURRENT_DESCRIPTION: if you run out of a1, here's a good clone.  a-1 is a brand name steak sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, raisins, soy sauce, white vinegar, dijon mustard, orange rind
+---
+TITLE: A1 Turkey Burgers
+CURRENT_DESCRIPTION: these patties are so moist & flavorful, you’ll forget it’s ground turkey!  you can serve it as a burger, or it’s also good to serve as a plain patty with veggies on the side, a delicious & easy lowfat meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, a.1. original sauce, yellow mustard, saltine crackers, garlic powder, fresh ground pepper
+---
+TITLE: A1 Ultimate Guacamole
+CURRENT_DESCRIPTION: i got this recipe from a mexican guy i met in america.  this lives up to expectation, unlike other guacamole's i've tried.  this is best eaten straight away but contrary to popular belief you can actually store this in the fridge for a couple of days.  put into a bowl and cover with a very thin layer of olive oil then put cling film over so that it touches the guacamole itself.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, onion, tomatoes, salt, black pepper, pickled jalapeno peppers
+---
+TITLE: A1 Ultimate Jambalaya
+CURRENT_DESCRIPTION: i could live on this!  everybody loves this one, and agrees that its better than any jambalaya they've ever ordered in a restaurant.  give it a try, you won't be disappointed i promise.  the secret is the roasted red peppers and the butter.  don't be put off that the dish is finished in the microwave, it just ensures that there are no burnt pans to deal with later!  the only other veg that work in this i find are sweetcorn or butternut squash/pumpkin cut into chunks and added just before it all goes in the microwave.  even my friends from louisiana find it hard to accept that its perhaps even better (if not a little different) than they make.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, chorizo sausage, onions, red bell pepper, garlic cloves, paprika
+---
+TITLE: A1 Zesty Potatoes  A1
+CURRENT_DESCRIPTION: a.1. original sauce recipe contest entry. this zesty combination of ingredients make this hot potato mix a great side.  substitute this for potato salad at your next barbecue!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, new potatoes, fried onions, walnuts, mayonnaise, goat cheese
+---
+TITLE: a1b bacon burger bites on white polenta cakes  a1
+CURRENT_DESCRIPTION: a.1. original sauce recipe contest entry.  these little nibbles are sure to wow your guests the tangy bite of the a1 sauce juxtaposed against the creaminess of the polenta cake will make you the hostess with the mosses!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, water, cayenne pepper, salt, polenta, goat cheese
+---
+TITLE: A1B Bacon Burger Bites On White Polenta Cakes  A1
+CURRENT_DESCRIPTION: a.1. original sauce recipe contest entry.  these little nibbles are sure to wow your guests the tangy bite of the a1 sauce juxtaposed against the creaminess of the polenta cake will make you the hostess with the mosses!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, water, cayenne pepper, salt, polenta, goat cheese
+---
+TITLE: Aab Goosht E Baadenjaan
+CURRENT_DESCRIPTION: persian/iranian dinner
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb shoulder, split peas, eggplants, onions, potatoes, tomato paste
+---
+TITLE: Aab Goosht E Lappeh
+CURRENT_DESCRIPTION: persian/iranian dinner
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb shoulder, split peas, dried limes, onions, potatoes, cooking oil
+---
+TITLE: Aaloo Chaat  Tangy Potatoes
+CURRENT_DESCRIPTION: makes a good evening snack as well as a great side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, red chili powder, chat masala, coriander powder, onion, salt
+---
+TITLE: Aaloo Fry  Spicy  Fried Potatoes
+CURRENT_DESCRIPTION: this is an excellent side to many indian dishes but this is the best served with dhal curry. try it with my meat dhal curry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, chili powder, turmeric, coriander powder, cumin powder, salt
+---
+TITLE: Aaloo Mattar   Indian Style Peas And Potatoes
+CURRENT_DESCRIPTION: this is a very simple recipe. i still thought about posting this because, the base of this recipe ( point where you add peas and potatoes)can be used to cook almost any vegetable curry - potatoes, spinach, cauliflower, capsicum , mushrooms etc.
+another variation of this recipe is to use tomato puree instead of chopped tomatoes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peas, potato, tomatoes, onion, ginger paste, garlic paste
+---
+TITLE: Aam Ras
+CURRENT_DESCRIPTION: this can be served with puris or chapatis and also thinned down and served as a cooling drink. try it both styles
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mango pulp, cardamom powder, powdered sugar, water, lime juice, chat masala
+---
+TITLE: Aamer  Mango  Chutney
+CURRENT_DESCRIPTION: recipe posted by request. the yield is a guess.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green mangoes, mustard oil, dried red chilies, bengali five-spice mix, water, sugar
+---
+TITLE: Aaron Craze S Aussie Sandwich
+CURRENT_DESCRIPTION: this aussie has made a wonderful sandwich will make anyone love veggies!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, dijon mustard, olive oil, garlic clove, lemon, focaccia bread
+---
+TITLE: Aaron Mccargo Jr S Classic Potato Salad
+CURRENT_DESCRIPTION: i love to try new potato salad recipes, and this one is a keeper.  the worcestershire sauce is the secret weapon.  recipe courtesy of food network magazine june/july 2009.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yukon gold potatoes, eggs, onion, celery, sweet relish, worcestershire sauce
+---
+TITLE: Aaron S Favorite Ham Salad
+CURRENT_DESCRIPTION: my bf loves this stuff!! i make it all the time for him to take in his lunch. i swear, he never gets sick of it! this is sooo much better than the prepared "ham salad" you find in the store. it is so simple to make, but you have to have a meat grinder (only catch). a bowl of soup, a salad, and one of these sandwiches, and you got a good, quick meal. it's also a nice appetizer to serve with crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bologna, miracle whip, sweet pickle relish, garlic powder, black pepper, salt
+---
+TITLE: Aaron S Special Ramen
+CURRENT_DESCRIPTION: i got the idea from a recipe on here. i don't remember the name right off hand, but is was something tuna ramen noodle'os i think. my 15-month-old loves this (hence the name) as much as i do!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken-flavored ramen noodles, water, light chunk tuna in water, monterey jack cheese, garlic powder
+---
+TITLE: Aaron Tippin S Mexican Casserole
+CURRENT_DESCRIPTION: from chef2chef.com; no i don't know if this is really aaron tippin's recipe, but it tastes wonderful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn tortilla, chili beans, cheddar cheese, ground beef, taco seasoning, water
+---
+TITLE: Aarsi S Ultimate Pea Pulao
+CURRENT_DESCRIPTION: it is the indian version of a spanish paella. one of my favorite comfort foods!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garam masala, red chili powder, salt, coriander powder, cumin seed, green peas
+---
+TITLE: Aarsis Ultimate Peach And Goat Cheese Pizza
+CURRENT_DESCRIPTION: the sweetness of the warm peaches pairs perfect with the creaminess of the goat cheese and the hint of honey on a crispy crust is like a party in your mouth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peaches, fresh goat cheese, honey, naan bread, olive oil, fresh ground black pepper
+---
+TITLE: Aarsis Ultimate Sooji Halwa
+CURRENT_DESCRIPTION: sooji halwa is a very popular sweet dish all over india.  it is prepared on auspicious occasions. this is my mom’s recipe and very close to my heart.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semolina flour, granulated sugar, water, ghee, sliced almonds, golden raisin
+---
+TITLE: Aarsis Ultimate Strawberry And Rose Lassi
+CURRENT_DESCRIPTION: twist on the indian classic drink, this sweet and aromatic lassi is a sure shot ‘beat the heat’ drink! the fresh strawberries celebrate the summer and rose water adds to the uniqueness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, plain low-fat yogurt, rose water, whole milk, granulated sugar, ice
+---
+TITLE: aarsis ultimate valentine cake
+CURRENT_DESCRIPTION: this cardamom scented chiffon cake is inspired by the aromatics found in india. each bite is like an air pillow, with an explosion of flavors. it is the moistest cake you will ever have!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, powdered sugar, baking powder, table salt, eggs, water
+---
+TITLE: Aarsis Ultimate Valentine Cake
+CURRENT_DESCRIPTION: this cardamom scented chiffon cake is inspired by the aromatics found in india. each bite is like an air pillow, with an explosion of flavors. it is the moistest cake you will ever have!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, powdered sugar, baking powder, table salt, eggs, water
+---
+TITLE: Aartappel Poeding  South Africa
+CURRENT_DESCRIPTION: a sweet egg pudding using mashed potatoes. given to the bride.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, eggs, sugar, salt, vanilla essence, lemon, zest of
+---
+TITLE: Aarti S Party Chai Tea
+CURRENT_DESCRIPTION: just saw this being made on aarti's party-new top chef winner! had to share :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, cinnamon stick, green cardamom pods, whole cloves, star anise, fresh ginger
+---
+TITLE: Aash  E Anar  Pomegranate Stew
+CURRENT_DESCRIPTION: this is one of my favorite recipes!  it is a thick persian stew (or aash) flavored with fresh herbs, tangy pomegranate syrup and tiny meatballs.  you may want to prepare the aash a day in advance, it tastes even better the second day, after the flavors have melded.  the meatballs may be omitted or substituted with vegetables such as mushrooms.
+i strongly discourage substituting pomegranate juice for the paste, i can't imagine the flavor coming out properly.  but who knows, it may work- so let me know if it does come out :)  pomegranate paste/molasses can be found at many ethnic groceries, and most middle eastern stores.  my favorite brand is cortas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow onions, garlic cloves, brown lentils, rice, olive oil, salt
+---
+TITLE: Aash E Gandom
+CURRENT_DESCRIPTION: wheat and vegetable stew, iranian (persian)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wheat, spinach, chickpeas, black-eyed peas, lentils, split peas
+---
+TITLE: Aash E Shalgham
+CURRENT_DESCRIPTION: turnip soup (persian/iranian)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turnips, long grain rice, ground lamb, onions, split peas, turmeric
+---
+TITLE: Aash E Shalgham  Beef And Herb Soup
+CURRENT_DESCRIPTION: this is a very popular dish in iran. this recipe is from a friend who lived in iran many years ago.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, oil, ground turmeric, yellow split peas, water, ground beef
+---
+TITLE: Aash E Sholeh Ghalamkar
+CURRENT_DESCRIPTION: herb and bean stew, persian/iranian
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: parsley, basmati rice, peas, beans, lentils, beef
+---
+TITLE: Abaco Conch Fritters
+CURRENT_DESCRIPTION: i just returned from abaco in the bahamas; conch is the island specialty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground conch, sweet pepper, onion, salt, baking powder, cooking oil
+---
+TITLE: Abaranger Dino Curry
+CURRENT_DESCRIPTION: a recipe based on the japanese tv series bakuryuu sentai abaranger.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, onions, potatoes, carrots, garlic, roux
+---
+TITLE: Abba S Chipotle Chicken
+CURRENT_DESCRIPTION: i love chipotle!!!! it is something you can't buy in israel so i have it brought any chance i can. in this recipe i use mrs. dash's salt free southwest chipotle seasoning.this can be cooked on the grill or i use a cast iron skillet on the stove top. i like to serve this on a bed of southwest rice ( i like recipe #127366) or chilled over a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried chipotle powder, garlic powder, garlic cloves, onion powder, ground cumin, lemon pepper
+---
+TITLE: Abba S Ginger Turkey Burgers
+CURRENT_DESCRIPTION: in my voyage to healthier eating, i have started using ground turkey instead of beef. in doing so... i had to make it tasty too. i do not use salt. for those that choose to season, well, that's on you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, scallion, breadcrumbs, soy sauce, fresh ginger, garlic
+---
+TITLE: Abbey S Melted Cheddar  Sausage And Olive Sandwich
+CURRENT_DESCRIPTION: i created this sandwich for my daughter and she requested that i name it after her.  measurements are approximate. you can easily substitute the cheese or meat to what you have on hand - pepperoni, bacon, salami, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheddar cheese, mayonnaise, green olives, summer sausage, chives, roasted red pepper
+---
+TITLE: Abbie S Spicy Oven Roasted Potatoes
+CURRENT_DESCRIPTION: this is the first recipe i kind of put together myself. i was just trying to use up some potatoes. omit the onions if you want. i was just trying to get rid of those, too, haha. i also based this on what we had in the house, so it only serves 2. but you can easily double or triple it, i'm sure.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, yellow onion, olive oil, paprika, garlic powder, pepper
+---
+TITLE: Abbott Northwestern Station 63 Carrot Cake
+CURRENT_DESCRIPTION: this is the absolute best carrot cake i have ever tasted. it comes from abbott northwestern hospital, station 63-- it's not hospital food, but a recipe from one of the nurses there. it is fantastic! make it a day ahead and put it in the fridge after it is frosted and it gets even better!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, flour, cinnamon, baking soda, salt, carrots
+---
+TITLE: Abby Ray S Mashed Potato Soup
+CURRENT_DESCRIPTION: abby kind of looks like rachael ray, so a good cook to follow.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, bacon, butter, onion, flour, chicken stock
+---
+TITLE: Abby S Cream Cheese Pound Cake
+CURRENT_DESCRIPTION: this is real good with strawberries and whipping cream and nothing to complain about if you don't have any fruit to put on it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, cream cheese, flour, butter flavor extract
+---
+TITLE: Abby S French Bread Braids
+CURRENT_DESCRIPTION: on the advice of her mother in law abby got one essential cookbook. this recipe comes from this book, pillsbury complete cook book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, dry yeast, water, shortening
+---
+TITLE: Abby S Grilled Prawn Mango Avocado Salad
+CURRENT_DESCRIPTION: this salad is visually a beautiful dish.  each bite bursts a different texture.... sweet from the mango and dried blueberries, crunch from the salad, tomatoes and nuts or smooth from the avocado.  i served this to a friend for a luncheon and i was so impressed that i served it again to my dd that night.  she said that it has become one of her top 10 favorite salads.  unless you like your salads swimming in dressing, this dressing is so flavourful that you don't need alot to go around.  i served this with my recipe #269324 and mirj's recipe #24593
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, fresh lemon juice, sugar, salt, black pepper, dijon mustard
+---
+TITLE: Abby S Lemon Cream Chicken
+CURRENT_DESCRIPTION: serve with fettucine, fresh steamed zucchini and tossed salad and you have a delicious meal. it is my daughter abby's favorite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, butter, white wine, lemon, zest of, lemon juice, salt
+---
+TITLE: Abby S Oriental Yum Yum Soup
+CURRENT_DESCRIPTION: an extremely tasty soup, full of veg and seafood. i haven't met anyone who doesn't say oh my god! when they taste it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: king prawns, chicken breast fillet, celery, spring onions, mushrooms, cabbage
+---
+TITLE: Abby S Peaches  N Cream Oven Puffed Pancakes
+CURRENT_DESCRIPTION: another good recipe from the pillsbury complete cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, milk, eggs, margarine
+---
+TITLE: Abby S Pumpkin Pie Crustless Custard
+CURRENT_DESCRIPTION: instead of pumpkin pie, try this flavorful yet light and low fat dessert. if you don't have enough ramekins or custard cups you can bake this in most coffee cups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned pumpkin, evaporated milk, egg whites, skim milk, sugar, ground cinnamon
+---
+TITLE: Abby S Rice Pudding
+CURRENT_DESCRIPTION: this is a thanksgiving staple.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, water, whole milk, sugar, cinnamon
+---
+TITLE: Abby S Ultimate Chocolate Chocolate  Chip Cookies
+CURRENT_DESCRIPTION: soft and moist on the inside with just a little crisp on the outside. the chocolate powder and chocoltae chips makes for an intense chocolate flavor. chocoltae lovers dream!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, eggs, vanilla extract, all-purpose flour, cocoa powder
+---
+TITLE: Abby S White  Chili  Low Fat
+CURRENT_DESCRIPTION: i originally got this recipe from the looneyspoon series but have adapted it to suit my taste.  here is my version of a thick, very satisfying chilli.  i sometimes cook up some chicken breast and add it to the mix.   the spices are a guideline...they can be increased or decreased according to taste.  i tend to very liberal with the spices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, celery, garlic, chili powder, cumin
+---
+TITLE: Abc Bread
+CURRENT_DESCRIPTION: a great snack or breakfast bread. recipe makes 2 loaves.  this freezes well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, olive oil, applesauce, banana, carrot
+---
+TITLE: Abc Burritos
+CURRENT_DESCRIPTION: no, not already-been-chewed, you sicko.  avocado, broccoli, and chicken, is what the acronym stands for.  these satisfied my carnivorous hubby.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat tortillas, avocado, broccoli coleslaw mix, low-fat ranch dressing, chicken breast halves
+---
+TITLE: Abc Easy  Garlicky Bean Enchiladas
+CURRENT_DESCRIPTION: cost effective meal all will enjoy. i prepared this dish up to the baking step, wrapped tightly and froze. when surprise company dropped in, i just popped in to the oven and baked 1 hour from the freezer.. if you don't like company...better stay away from this one!  rachel ray is the author of this casserole-type dish. let me know how it turned out for you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, cannellini beans, chicken broth, salt, corn tortillas
+---
+TITLE: Abc Muffins
+CURRENT_DESCRIPTION: a want-to-try recipe from quick cooking.  the abc is for applesauce, bran and cinnamon.  even though i normally bake from scratch, these quick-to-fix recipes do come in handy sometimes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, vegetable oil, applesauce, honey, yellow cake mix, wheat bran
+---
+TITLE: Abc S  Sauteed Apple  Brussels Sprouts And  Cabbage
+CURRENT_DESCRIPTION: a healthy side nicely seasoned with onion, garlic, nutmeg and parsley.
+this side is rich in nutrition and fiber, cabbage is an absolutely phenomenal source of vitamin c also vitamin a, e and b, rich in iron and sulfur. this is a good thing to add to your diet if trying to lower blood cholesterol. just skip the butter!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, walnut oil, onion, salt, pepper, cabbage
+---
+TITLE: Abc Sandwich
+CURRENT_DESCRIPTION: this looks totally yummy - submitted by frank lane brooks in the february issue of rachel ray magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, multigrain bread, dijon mustard, cheddar cheese, granny smith apple
+---
+TITLE: Abc Snack
+CURRENT_DESCRIPTION: got this recipe from my daughter. this is truly a kid pleaser recipe but adults too will love to munch on this scrumptious and satisfying snack.**please note*** this recipe call for smarties. that is not the american version smarties, hard ones that are colored. this calls for canadian version of smarties. hard  shelled candies with chocolate inside, like m&m's. you may sub m&m's. do not use american smarties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: alpha-bits cereal, smarties candies, caramel popped popcorn, pecans, small pretzels, honey roasted peanuts
+---
+TITLE: Abee S Red Enchilada Sauce
+CURRENT_DESCRIPTION: a wonderful sauce for enchiladas, or any other mexican dish calling for a red sauce.  can be made spicy or not with the addition of extra chili powder and/or hot or mild taco sauce. a thicker sauce than your usual enchilada sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, sweet onion, dried oregano, chili powder, dried basil
+---
+TITLE: Abehjerne  Monkey Brains
+CURRENT_DESCRIPTION: this traditional danish recipe is a popular danish meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, ground beef, bacon, cocktail franks, low-fat whipping cream, diced tomatoes
+---
+TITLE: Aberdeen Butteries
+CURRENT_DESCRIPTION: posting for zwt6. source: http://www.scottishrecipes.co.uk/butteries.htm  i suggest giving the dough an hour or two to double in size.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, lard, soft brown sugar, flour, dried yeast, warm water
+---
+TITLE: Abernethy Biscuits
+CURRENT_DESCRIPTION: these
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, caster sugar, butter, baking powder, caraway seed, milk
+---
+TITLE: Abidjan Cabbage Salad
+CURRENT_DESCRIPTION: a cool, crunchy salad to be served with a west african stew. from the moosewood collective.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, carrot, pineapple chunk, lemon, juice of, orange, juice of, salt
+---
+TITLE: Abigail S Cobbler
+CURRENT_DESCRIPTION: my friend gave me this easy peach (any fruit) cobbler recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, milk, butter, baking powder, peaches
+---
+TITLE: Abilene Country Club Muffins
+CURRENT_DESCRIPTION: these are wonderful little muffins. i could never pass these little gems up. courtesy of the abilene, texas country club.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, brown sugar, walnuts, salt, flour, vanilla extract
+---
+TITLE: Abish
+CURRENT_DESCRIPTION: i chose this recipe for the world tour.   this recipe also came in hand for some friends of ours that are vegetarian
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, gingerroot, garlic, tomatoes, salt
+---
+TITLE: Ableskiver   Danish Doughnuts
+CURRENT_DESCRIPTION: this is a true traditional danish recipe. you need a special pan to make them but most gourmet kitchen shops carry these cast iron pans. the pan is round and has round indentations so you can cook 10-12 at time. this can be a breakfast dish (usual time ithey are served), brunch, late night snack or any snack time. serve with bacon on the side or whatever. just typing this i want t
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, eggs, milk
+---
+TITLE: Abm Banana Yeast Bread
+CURRENT_DESCRIPTION: this is not a traditional sweet bread but it is awesome hot out of the bread machine with a little butter.  unfortunately this is not a recipe you can set up on a timer to start later.  you will need to "babysit" it for the mixing cycle as the moisture of bananas can vary greatly and you may need to add more flour or water if the moisture content needs adjusting.  the prep time includes the babysitting of your dough ball - the cook time is the full bread machine cycle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, molasses, butter, white bread flour, powdered milk, salt
+---
+TITLE: Abm Dinner Rolls
+CURRENT_DESCRIPTION: this recipe is so easy to make and they are so good! i usually make up a batch to keep in the freezer. it's nice to be able to pull out a few at a time and micro for a quick addition to any meal! hope you like them, too!(prep time does not include dough time in abm)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, eggs, butter, sugar, salt, bread flour
+---
+TITLE: Abm Hot Cross Buns
+CURRENT_DESCRIPTION: takes a labour intensive recipe and brings it forward to be available for time-constrained or multi-tasking bakers.
+*glaze*
+mix together:3/4 cup icing sugar -- 1tbsp milk -- 2 drops almond flavouring.
+
+prep time reflects time in abm and second rising.could differ with different models.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, butter, egg, salt, flour, cinnamon
+---
+TITLE: Abm Italian Breadsticks  Grissini
+CURRENT_DESCRIPTION: i found this recipe in a bread machine book that i received for my birthday from my mother last year.
+if your machine has instuctions that the yeast should be placed in the pan first then reverse the order in which you add the liquid and dry ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, olive oil, white bread flour, salt, dried yeast, poppy seed
+---
+TITLE: Abm Perfect Pizza Dough
+CURRENT_DESCRIPTION: this is the easiest to make and roll pizza/calzone dough.you can keep it in the freezer for when you get the urge to make a pizza or calzone.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, margarine, salt, ground black pepper, sugar, white flour
+---
+TITLE: Abm Raisin  Date   Nut Bread Wreath
+CURRENT_DESCRIPTION: this is the closest thing to dudley's bakery raisin,date and nut bread in santa isabel, ca.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, milk, light brown sugar, salt, ground nutmeg, ground cinnamon
+---
+TITLE: Abraham Lincoln S   Best Cake I Ever Tasted    A White
+CURRENT_DESCRIPTION: this is mary todd lincoln's recipe for vanilla almond cake - 150 years ago! --with a classic 7-minute frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, butter, vanilla, cake flour, baking powder, milk
+---
+TITLE: Abraham Lincoln S Favorite Cake
+CURRENT_DESCRIPTION: the president's own white house cookbook by jones.  this is a great cake i ground a cup of almonds in food processor and used 11/2 cups egg beaters egg whites (actually it  was closer to 2 cups )this is a moist really good tasting cake and used the  1/4 c flaked almonds on top
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, sugar, blanched almonds, butter, flour, baking powder
+---
+TITLE: Abruzzi  Shrimp Pasta Sauce
+CURRENT_DESCRIPTION: from my mother who is from a little town in italy near rome.  must use fresh herbs!  do not saute garlic in oil- it will not taste the same.  garlic, parsley tomatoes  oil need to cook slowly  together!  the idea of the whole cloves is that you don't have to eat them if you don't want to!  i just leave them.  and remember to cook this recipe slowly.  lobster or crabs may be substituted for shrimp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, pasta, olive oil, garlic cloves, crushed tomatoes, flat-leaf italian parsley
+---
+TITLE: Abruzzi Bread
+CURRENT_DESCRIPTION: this is a dish my husband and i enjoy at one of our local italian restaurants, and i decided to try to make it at home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, olive oil, garlic powder, provolone cheese, pepperoni, italian sausage
+---
+TITLE: Abs Diet Chili Con Turkey
+CURRENT_DESCRIPTION: this recipe comes from the "abs diet".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground flax seeds, ground turkey, brown rice, black beans, sweet whole kernel corn, mexican-style stewed tomatoes
+---
+TITLE: Absolut Hunk Vodka Martini
+CURRENT_DESCRIPTION: after watching the "absolut hunk" episode of "sex in the city," i searched to see if there really was such a drink, and found this on several sites.  it's sweet - i think it would be good without the simple syrup, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla vodka, sugar syrup, fresh lime juice, pineapple juice, lime slice
+---
+TITLE: Absolut Prosperity   Cocktail
+CURRENT_DESCRIPTION: if i drank, i would for sure try this. it looks yummy! from drinkalizer.com
+
+the ratio for this drink is 2:1:1
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: absolut vodka, curacao, soho lychee liqueur, lime cordial, ginger ale, mint leaves
+---
+TITLE: Absolute Best Chicken Quesadillas
+CURRENT_DESCRIPTION: an attempt to copy rock ola grille's fabulous chicken quesadillas!  after having many quesadillas in several restaurants this is absolutely the best!  the flavor just can't be beat.  melt in your mouth! easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, butter, cooked chicken, cooked bacon, fresh tomato, red onions
+---
+TITLE: Absolute Best Chicken Soup
+CURRENT_DESCRIPTION: this is a family recipe i stumbled upon through marriage. it is a latin-style chicken soup and it is the best i have tasted. basically, my mother-in-law makes this soup with a few founding ingredients and then throws in whatevers available. its always good, but i've narrowed it down for myself and you to the best ingredients to use.
+
+this recipe is great for serving to a large amount of people.
+
+*note: you use a whole (8-piece cut) chicken if you want to serve 6-8, but if you are serving more than 6, for the purposes of the stock, use only split leg quarters.
+
+the recipe is best when fresh ingredients are used, especially cilantro. don't even bother with the recipe if you don't have fresh cilantro.
+
+after the chicken is fully cooked, you can try to fish it out and separate the meat from the bones, but i don't usually bother with it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, whole chicken, chicken bouillon cubes, fresh cilantro, fresh mint leaves, onion
+---
+TITLE: Absolute Best Chicken Tortilla Soup Ever
+CURRENT_DESCRIPTION: i got this recipe from a website for which i've long since lost the address.  i wish i could credit the author, because this is truly an amazing soup!  i'd recommend not skipping the avocados--they are what puts it over the top, in my opinion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, carrots, garlic, reduced-sodium chicken broth, diced tomatoes
+---
+TITLE: Absolute Best Cranberry Sauce
+CURRENT_DESCRIPTION: this was adapted from a weight loss surgery recipe site. mine tastes better, is lower carb, and you don't have to figure out what to do with the orange pulp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberries, water, splenda granular, crystal light orange drink mix, ground cinnamon, sugar-free raspberry gelatin
+---
+TITLE: Absolute Best Ever Lasagna
+CURRENT_DESCRIPTION: my family's favorite. this is a very meaty lasagna. we prefer it with cottage cheese, but you can easily substitute ricotta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, italian sausage, onion, garlic cloves, salt, fresh coarse ground black pepper
+---
+TITLE: Absolute Best Holiday Meatballs  Crock Pot  Or Not
+CURRENT_DESCRIPTION: our take on the traditional grape jelly meatballs. we have tried lots of this kind of recipe, and find we like this one best. it is a "must have" for any holiday party or football get together. if i don't serve this, there will be no place i can hide....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: meatballs, ketchup, grape jelly, sriracha sauce, garlic powder, onion flakes
+---
+TITLE: Absolute Best Mango Salsa
+CURRENT_DESCRIPTION: i absolutely adore fresh mango, and this salsa is the perfect way to make them shine!  the result is very fresh, sweet and spicy, and chunky...similar to pico de gallo in texture.  make sure you use mangoes at their peak...if they are too ripe, your salsa will be mushy.  i make this often for guests by serving with blue corn tortilla chips (the color is so much prettier than plain ol' tortilla chips!) or serve alongside mahi mahi or other grilled fish.  i hope you enjoy it as much as i do!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mangoes, red bell pepper, green onion, fresh cilantro, fresh lime juice, olive oil
+---
+TITLE: Absolute Best Most Excellent Soft Oatmeal Raisin Cookies
+CURRENT_DESCRIPTION: this cookie recipe is a definite must have in your recipe box!! warning! once you start eating these... it's really hard to stop at just two.. or three.. or.. well, you get the picture. :) my grandmother gave me this delectably delicious recipe and everyone who has ever tried them has asked me for the recipe! after trying these, my husband doesn't want any others. and, if you are going to take these cookies, for a treat, anywhere, be sure to have the recipe with you! you will definitely be asked for it. they are truly the most excellent, best ever, soft oatmeal raisin cookies i have ever had!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, butter, brown sugar, eggs, flour, baking soda
+---
+TITLE: Absolute Best Potatoes  5Fix
+CURRENT_DESCRIPTION: 5-ingredient fix contest entry.  one taste and you will agree that the are absolutely the best potatoes you have ever eaten!! they are absolutely great comfort food!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: simply potatoes shredded hash browns, butter, half-and-half cream, velveeta cheese, sour cream
+---
+TITLE: Absolute Perfection Ginger Spice Cookies
+CURRENT_DESCRIPTION: these are all that a ginger cookie should be - soft, chewy, crisp, and wonderfully spicy. the crystallized ginger adds depth and complexity -- don't leave it out!
+
+serve these with hot cider on a crisp fall day; with a scoop of lemon ice cream; dunked in cold milk; or alongside sliced apples and cheddar cheese. these are wonderful to include in christmas packages because they ship very well.
+
+crystallized ginger can usually be found in the bulk food section of natural food stores, or in the jarred spice section of regular grocery stores. i have also seen "baking cut" ginger at trader joe's and in the king arthur flour catalog, which eliminates the need for chopping. 
+
+if you get the crystallized ginger in bulk, scoop some extra ginger "crumbs" from the bottom of the bin, and roll the balls of dough in this (instead of the turbinado sugar) before baking.
+
+tips for chopping the (very sticky) ginger:  use scissors, or pulse in a food processor for 20 seconds.
+
+be advised that the dough must chill for an hour before shaping into balls, and again for 10 minutes before baking, so give yourself enough time.
+
+this recipe is easily doubled (and after you taste them, you'll wish you had). 
+
+(adapted from bon appetit)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, ground ginger, baking soda, ground cinnamon, ground cloves, salt
+---
+TITLE: absolutely addicitve kale moti biryani   lunch that s complete
+CURRENT_DESCRIPTION: please note: the words "kale moti" refer to the small grains of black urad dal. 'kale' here is a hindi(indian) word for black colour which happens to be the colour the lentils used in this recipe. 'moti' means pearls...what this means here is that this rice dish is a treat of black lentils and is as delicious as pearls are beautiful. 'kale' here does not refer to any kind of cabbage. have a spoon of this and you'll want to come and hug me, kiss me, probably even marry me for sharing this:) i got this recipe from the 'thursday' magazine (contributed by manisha nanda, and she got 50 us dollars as prize money for this!), but, slightly tweaked it, to make it on the spicy side. it's not too spicy, its just great! the original recipe is on a sweeter side(more yogurt and some milk as well). i am absolutely head over heels crazy about this biryani. it's vegetarian, a complete meal in itself, finger food(oh yes - you must eat it with your fingers to relish every grain of this dish that is absolutely priceless, its so tasty that i'd personally keep giving it stars till i dropped dead:) not a bad idea to take a plate of this to your girlfriend if she loves rice and is cross with you, she'll jump up and marry you, oh yeah, i bet she will :) try it! :) this is one dish i really really love, inspite of the butter and rice(both which make a man fat), this one's just perfect to have once in a while, when your just sitting on that bubble of "i reached my goal" or even if you need something to inspire you to do something, try this dish. not only will you see sweet dreams the night you make it, oh, you will be filled with a magical charisma! if i could, i would love to donate plates filled with this to every poor man, woman and child alive on the planet. i really really love this dish with my mind, body and soul :) have it for your diwali lunch/dinner party(with just 4 days to go before the festival day, you know what's going to be cooking at my end!), your birthday party(attn: troy- i'm thinking nov 1st and of you- happy birthday a day in advance!), your new year party(just 60 days left for 2002 to end!), your wedding anniversary, any time when you want to have a treat, and enjoy the food of a king, go for this! i'm dedicating this recipe to troy hakala as i know from his 'about me' page that he loves indian food, and, secondly, its his birthday on nov 1st !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, salt, green cardamoms, cloves, cinnamon, bay leaves
+---
+TITLE: Absolutely Addictive Roast Pork Sandwiches
+CURRENT_DESCRIPTION: a local pub serves these super simple, amazingly tasty roast pork sandwiches. they are sort of a local legend. making a pork roast just for these sandwiches is a breeze, but this is a great way to use any leftovers from a roast. the pepper jack cheese adds a zip and the dipping "gravy" is what ties it all together. the trick is slicing the pork and the cheese very thin. enjoy, as the juicy goodness drips down your chin.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork roast, sea salt, cracked pepper, butter, au jus mix, water
+---
+TITLE: Absolutely Amazing Almond Biscotti
+CURRENT_DESCRIPTION: this is one of our favorite biscotti recipes-it is simply superb with a cup of hot, spiced chai tea!  it's also excellent if 3/4 cup dried cherries or cranberries are added!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, white sugar, brown sugar, baking powder, baking soda, salt
+---
+TITLE: Absolutely Amazing Fish Batter
+CURRENT_DESCRIPTION: this batter gives fried fish a fantastic flavor and is so easy. you will be glad you tried this.i received this recipe from an avid fisherman and is even better than he promised it to be. it quickly has become a family favorite.
+look for lemony tartar sauce recipe-goes perfectly with this fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, batter frying mix, hot sauce, cayenne, old bay seasoning, lemon zest
+---
+TITLE: Absolutely Apple Cake
+CURRENT_DESCRIPTION: you'll find this moist cake to be absolutely one of the best you've served!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, oil, sugar, self-rising flour, apples, coconut
+---
+TITLE: Absolutely Awesome Bbq Sauce
+CURRENT_DESCRIPTION: i have tried many, many bbq sauces, but i always come back to this one!  using chili sauce in addition to a little ketchup give this sauce extra flavors to tantalize everyone's taste buds!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, chili sauce, rum, soy sauce, ketchup, worcestershire sauce
+---
+TITLE: Absolutely Best Brownies
+CURRENT_DESCRIPTION: i got this from who knows where, but they are just as the name proclaims... the absolute best!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla, cocoa, salt
+---
+TITLE: Absolutely Best Healthy Pancakes
+CURRENT_DESCRIPTION: this recipe isnt the healthiest, but better than plain ol' pancakes... works for me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, instant oatmeal, baking powder, brown sugar, salt, unsweetened applesauce
+---
+TITLE: Absolutely Best Hot Slaw Recipe
+CURRENT_DESCRIPTION: this is the exact hot slaw recipe from the world famous forest view gardens that used to be in cincinnati. unfortunately the place closed down years ago but that won't stop you from recreating the exact recipe they used in your own kitchen! what i have below is precisely the quantities and procedure we used for large scale production for a lot of people. if you are doing a smaller party or dinner, you can adjust the amounts accordingly. keep in mind that the excess dressing can be refrigerated.
+
+tips:
+do not let this hot slaw sit around with dressing in it. it must be fresh!
+don't over fill the bowl with dressing. i personally like just enough dressing to wet the cabbage and bacon and not a drop more.
+make a whole gallon of dressing and bacon bits and store what you don't use for later. at forest view gardens, we made 30 gallons of dressing and 200 pounds of bacon bits on thursday and it lasted the whole week!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, bacon, water, vegetable oil, white vinegar, sugar
+---
+TITLE: Absolutely Delicious And Simple Tomato  Basil  And Garlic Pasta
+CURRENT_DESCRIPTION: from giada de laurentiis.  really simple, but absolutely delicious.  you can use canned crushed tomatoes and dried basil, but everybody always knows that fresh ingredients taste best.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghettini, scallions, garlic cloves, cherry tomatoes, parmesan cheese, fresh basil leaves
+---
+TITLE: Absolutely Delicious Bran Muffins
+CURRENT_DESCRIPTION: i have tried several bran muffin recipes, and this is my all time favorite. they are low in fat, but you'd never know it by the way they taste! bet you can't eat just one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fiber one cereal, boiling water, sugar, applesauce, egg substitute, whole wheat flour
+---
+TITLE: Absolutely Delicious Fruit Salad
+CURRENT_DESCRIPTION: my mother-in-law made this all the time for cook outs. i finally swiped the recipe and now make it on request for my get togethers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla pudding mix, fruit cocktail, pineapple chunks, mandarin orange, bananas
+---
+TITLE: Absolutely Delicious Gourmet  Prawns
+CURRENT_DESCRIPTION: another recipe from a friend on the oregon coast who was a master with seafood. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prawns, olive oil, butter, garlic, green onions with top, fresh mushrooms
+---
+TITLE: Absolutely Delicious Pasta Sauce
+CURRENT_DESCRIPTION: i made this for my boyfriend and he said it was the best pasta sauce he had ever had. it was something i just whipped up, but i decided to write down what i did since it turned out so good! cooking and prep times are estimated. i also eyeballed a lot of the amounts, so don't worry about being exact! i wouldn't actually measure the ingredients because that would just dirty up unnecessary utensils. delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, butter, white onion, garlic cloves, grape tomatoes, canned tomato sauce
+---
+TITLE: Absolutely Delightful Scalloped Potatoes
+CURRENT_DESCRIPTION: these are our family's favorite scalloped potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, cream of mushroom soup, cream of chicken soup, evaporated milk, salt and pepper, cheddar cheese
+---
+TITLE: absolutely divine devil s food cake
+CURRENT_DESCRIPTION: this is one of my favorite chocolate cake recipes.  it's got just the right chocolatiness flavor and crumb.  the frosting is absolutely "great"!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, beets, unsalted butter, golden brown sugar, eggs, vanilla
+---
+TITLE: Absolutely Divine Devil S Food Cake
+CURRENT_DESCRIPTION: this is one of my favorite chocolate cake recipes.  it's got just the right chocolatiness flavor and crumb.  the frosting is absolutely "great"!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, beets, unsalted butter, golden brown sugar, eggs, vanilla
+---
+TITLE: Absolutely Easy Apple Cake
+CURRENT_DESCRIPTION: i discovered this in an old cookbook on a scrap of paper. it's so easy is almost like cheating! it's so delicious, everyone asks for the recipe and can't believe how simple it is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, apple pie filling, eggs, cinnamon, cardamom, nutmeg
+---
+TITLE: Absolutely Fabulous Granola Bars
+CURRENT_DESCRIPTION: my family loves granola bars. the quaker brand used to be there favorite, but since i have been making these granola bars i have been forbidden to bring the "store bought" kind into the house.
+the nice thing about this recipe is that you can add as many "mix-in's as you would like. chocolate, dried fruit, nuts ... the list is endless.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole oats, nuts, all-purpose flour, chocolate chips, eggs, corn syrup
+---
+TITLE: Absolutely Fabulous Greek  House Dressing
+CURRENT_DESCRIPTION: this is the 'secret' greek dressing recipe from the pizzeria that i work at.  the recipe makes almost a gallon but can be scaled down easily.  it can be used for picnics and travels very well, since it doesn't need to be refrigerated.  this is the best dressing i have ever tasted, people offer to buy it constantly, but if we sold it we wouldn't be able to make enough to use in the restaurant!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic powder, dried oregano, dried basil, pepper, salt
+---
+TITLE: Absolutely Fabulous Roasted Vegetetables
+CURRENT_DESCRIPTION: try these as an appetizer with cheeses and wine, or as a gorgeous vegetarian sandwich filling, with pasta, or just on their own.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell pepper, yellow bell pepper, green bell pepper, eggplant, courgettes, red onion
+---
+TITLE: Absolutely Guilt Free Lazy Morning Pancakes
+CURRENT_DESCRIPTION: this is for pancake lovers who worry about their waists. very low-calorie and packed with goodness. must be enjoyed hot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, olive oil, flax seeds, sugar, baking powder, baking soda
+---
+TITLE: Absolutely Heavenly Amaretto Cake
+CURRENT_DESCRIPTION: this recipe comes from the diocese of louisiana, from a cookbook entitled "a cook's tour of the bayou country".  generally, i haven't found anything from louisiana that didn't taste good!  this cake turns out really moist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, cake flour, baking soda, salt
+---
+TITLE: Absolutely Perfect Pumpkin Pie
+CURRENT_DESCRIPTION: easy, fast and knock-your-socks-off delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pumpkin puree, sweetened condensed milk, eggs, ground cinnamon, ground cloves, ground ginger
+---
+TITLE: Absolutely Sinful  Sticky Toffee Pudding With Pecan Toffee Sauce
+CURRENT_DESCRIPTION: this is as wicked as it sounds. a truly delectable combination of flavours and textures that are light and melt in the mouth. i would choose this as a christmas or new year dinner party dessert, as the puddings freeze well and are no trouble to re-heat. a modern british classic - sticky toffee pudding was thought to have originated from the sharrow bay hotel in ullswater in the lake district of northern england there is also a school of thought that john tovey at miller howe in windermere was the first to make this. either way, the pudding is as iconic today as it was when it was first baked and devoured by the lucky diners of either one of those hotels! my recipe is based on the recipe that delia smith published in her christmas cookbook, but i have made several changes that i feel work better for me, the main change is to increase the pecan toffee sauce quantities, as i have had grown people - mainly males - fighting over who gets the last dribble of this delectable sauce!! i hope you find the step-by-step photos useful when you make this for the first time. (this was featured in the september 2008 cooking school topic of the month on zaar - a wonderful event where lots of talented chefs on zaar showed off their culinary skills through photographic tutorials!) prep time includes the time needed for soaking the dates.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, soft brown sugar, eggs, self-raising flour, dates, boiling water
+---
+TITLE: Absolutely Sinful Chocolate Chip Cookies
+CURRENT_DESCRIPTION: my friend anne found this generationally old recipe off the net and made it for her brothers.  this one's staying around.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate squares, butter, all-purpose flour, baking soda, baking powder, salt
+---
+TITLE: Absolutely The Best Amish Beef Stew
+CURRENT_DESCRIPTION: this is just what its name implies...the absolute best beef stew ever. it is wonderful in the colder weather and really warms you up. i got the basic recipe from an old amish cookbook and tweeked it a bit. my family loves it with home baked bread, so i always make amish white bread, recipe #26526 to go along with it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef cubes, shortening, onion, boiling water, salt, lemon juice
+---
+TITLE: Absolutely The Best Baked Mac And Cheese
+CURRENT_DESCRIPTION: this is good--trust me!  tastes like a million bucks--maybe 2 million.  i like to use cavatappi pasta (double elbows) because they are long and squiggly so they hold a lot of the sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small elbow macaroni, butter, all-purpose flour, dry mustard, ground red pepper, worcestershire sauce
+---
+TITLE: Absolutely The Best Chocolate Chip Cookies
+CURRENT_DESCRIPTION: these are divine!  they come out perfect.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter flavor shortening, white sugar, brown sugar, eggs, vanilla extract, all-purpose flour
+---
+TITLE: Absolutely The Best Creamed Spinach
+CURRENT_DESCRIPTION: this is smooth baby! be sure and use a good quality melting cheese for best results. note: 08/19/08, we edited the recipe to a larger spinach-to-sauce ratio.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh spinach, unsalted butter, all-purpose flour, 2% low-fat milk, heavy cream, salt
+---
+TITLE: Absolutely The Best Gluten Free Peanut Butter Cookies
+CURRENT_DESCRIPTION: not just for the celiacs! i was skeptical, since the last recipe i tried was gritty, heavy and nasty.  these are light, rich and absolutely perfect.  i actually like these better than "regular" peanut butter cookies, and from a big fat momma, that's saying something!  adapted from catherine's recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gluten-free margarine, brown sugar, white sugar, egg, natural-style peanut butter, baking soda
+---
+TITLE: absolutely the best new york cheesecake  gluten free
+CURRENT_DESCRIPTION: aka: 'how to make the perfect cheesecake' this recipe includes very detailed instructions for preparation which is the key to any great cheesecake. *this is my signature recipe that i have spent many many hours perfecting the
+ingredients and techniques for. this is not 'ny style' but real 'ny cheesecake'. 
+the end result is a wonderful cheesecake that some will tell you to eat with a towel, because it's like an 'o' in your mouth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, sour cream, eggs, salt, lemon juice
+---
+TITLE: Absolutely The Best New York Cheesecake  Gluten Free
+CURRENT_DESCRIPTION: aka: 'how to make the perfect cheesecake' this recipe includes very detailed instructions for preparation which is the key to any great cheesecake. *this is my signature recipe that i have spent many many hours perfecting the
+ingredients and techniques for. this is not 'ny style' but real 'ny cheesecake'. 
+the end result is a wonderful cheesecake that some will tell you to eat with a towel, because it's like an 'o' in your mouth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, sour cream, eggs, salt, lemon juice
+---
+TITLE: Absolutely The Best Spam Fried Rice
+CURRENT_DESCRIPTION: i really like fried rice and was searching and searching for a recipe that i liked.  my brother is a college student and one of his friends made some for dinner the night before and i snitched a bite the next day (i tried it cold, right from the fridge) and it was the best i have ever had (and it was cold)!  his friend didn't have a written recipe to give me (he made the recipe up and just makes it), so i finally talked him into coming to my house to show me while i wrote the recipe down.  my brother told me that there would be 5 of them coming over and to have the rice cooked and cooled.  i had no idea how much rice to cook, so i made 4 1/2 cups (dry) rice.  it made a ton, but after 7 of us ate (most had 2 bowls full) there was only 1 bowl as left overs.  i am sure you can adjust this to make less.  i had the original kikkoman soy sauce to use and it was saltier and less sweet as the aloha shoyu that my brother's friend nomally uses.  the serving amounts is a large range because you can have it as a meal like we did, or as a side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, eggs, spam lite, yellow onion, frozen peas and carrots, soy sauce
+---
+TITLE: Absolutely The Best Stuffing    Ever
+CURRENT_DESCRIPTION: i have numerous friends who now use this recipe for their own turkey during the holidays. this recipe is for a 10-12 lb turkey. it also will stuff 2-3 chickens so you don't have to wait till thanksgiving. this murray family recipe is hands down the best stuffing... ever!    ...note: this is a stuffing, not a dressing and does not work if cooked along side the bird in the oven. oh, and no seasonings are needed. ;) also, for those worried about cross-contamination....... i've had folks say "they won't eat anything that was in a raw bird"..... but . isn't . the . bird . 'raw' . too, until you cook it? live and let live. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, bacon, onion, celery ribs, white bread, turkey gizzard
+---
+TITLE: Absolutely The Easiest  Baked Macaroni And Cheese
+CURRENT_DESCRIPTION: a dear friend gave this to me to make while our granddaughter stayed with us for a week.  i was trying to find all these easy and different little meals that she would enjoy and would not be much work for me.  this is the easiest macaroni & cheese i have ever made and is yummy.  hubby and granddaughter liked it, too.  i used hood's country style cottage cheese but any would be fine. you don't have to cook the pasta before putting it in the oven.  this is unbelievable.  the oven does all the work.  talk about lazy.....this is my kind of dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: elbow macaroni, butter, cottage cheese, american cheese, cheddar cheese, boiling water
+---
+TITLE: Absolutely Wonderful Cheesy Creamy Spinach Artichoke Dip
+CURRENT_DESCRIPTION: i actually won a local contest with this recipe. our favorite restaurant who served the best dip closed down...and we could not find another that was even close, so i came up with this home-made replica, which is just as delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, marinated artichokes, mozzarella cheese, parmesan cheese, garlic clove, salt
+---
+TITLE: Absolutely Yummy Vegetable Pizza
+CURRENT_DESCRIPTION: this is one of my favorite pizza recipes. i stole the idea from a local grocery store deli that stopped making this pizza several years ago. i think this is just as good as what they sold.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prepared pizza crust, cauliflower, broccoli, carrot, red bell pepper, mushroom
+---
+TITLE: Abuela S Chicken
+CURRENT_DESCRIPTION: my friend from spain had me over for dinner, and her abuela (gramma) made this for us. and this is what we had. wow!  it was sooo good, so i begged for the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, oil, sugar, tomato paste, green pepper, oregano
+---
+TITLE: Abuela's 24hr Flu Bomb
+CURRENT_DESCRIPTION: 484K likes, 1,383 comments - lo.reyez on December 20, 2024: "recipe in the caption below 👇
+
+Abuela’s 24hr flu BOMB:
+- 2 tbs ginger
+- 1 tbs tumeric
+- 1 tsp minced garlic
+- 1 pinch of black pepper (this activates the tumeric)
+- 1 pinch cayenne pepper
+- cinnamon (to taste)
+- cover in honey
+
+take 1 tsp and mix it with WARM water and drink 
+
+or take it straight 😉 
+
+#naturalremedy #fluseason #holistichealth #healthtips".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 tbs ginger, 1 tbs turmeric, 1 tsp minced garlic, 1 pinch black pepper, 1 pinch cayenne pepper, cinnamon
+---
+TITLE: Abuelita S Almond Chicken
+CURRENT_DESCRIPTION: from the border cookbook, this is described as being "fast enough for a weeknight and fancy enough for company."  posted for zwt 3, mexico.  you can control the heat/spiciness of this by using milder or hotter chiles.  this goes well with rice tortitas (#231463).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipping cream, buttermilk, chicken stock, milk, slivered almonds, dried ancho chiles
+---
+TITLE: Abuelo S Cilantro Lime Soup
+CURRENT_DESCRIPTION: a savory, spicy heartwarmer for cold winter days from a copycat site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, water, chicken base, canola oil, onion, tomatoes
+---
+TITLE: Abuelo S Spinach Casserole
+CURRENT_DESCRIPTION: a southwestern twist on an old favorite from abuelo's courtesy of a copycat website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach leaves, smoked bacon, butter, fresh mushrooms, chipotle chile in adobo, onions
+---
+TITLE: Abuelo S Tilapia Veracruz
+CURRENT_DESCRIPTION: an amazing, tasty recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, lawry, ,, ,, ,, ,
+---
+TITLE: Acadia S  Meatloaf Style  Cheeseburgers
+CURRENT_DESCRIPTION: i have been making burgers this way for almost 30 years. they are flavorful delicious burger renditions, and i haven't found any that are as tasty. i sometimes double the recipe and freeze the pre-cooked burgers in individual plastic bags.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, vidalia onions, ground beef, barbecue sauce, mustard, breadcrumbs
+---
+TITLE: Acadia S Asparagus Side With Dill
+CURRENT_DESCRIPTION: i love asparagus and dill so i decided to create a easy side dish tonight utilizing both.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, dill, salt, pepper, water
+---
+TITLE: Acadia S Baked Eggplant
+CURRENT_DESCRIPTION: well the eggplants are coming in from the garden in a big way. the last time i looked there were 10 eggplant fruit on the plant plus another 10 purple flowers. i guess i'm going to be searching the eggplant section of zaar for
+additional ideas. lol!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, low fat mozzarella, spaghetti sauce, salt, pam cooking spray
+---
+TITLE: Acadia S Bell Pepper Onion Stir Fry
+CURRENT_DESCRIPTION: this recipe was created as an easy side dish. it can easily be doubled or tripled depending on the size of the crowd and for extra color use more than
+one colored bell pepper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bell pepper, sweet onion, olive oil, worcestershire sauce, soy sauce, salt & pepper
+---
+TITLE: Acadia S Cherry Sherry  Beer Can  Chicken
+CURRENT_DESCRIPTION: i defrosted a fryer from the freezer and didn't have anything to stuff it with, and we don't drink beer. i had cherry soda in cans so i poured the soda out of the can into a glass. then i poured 1/2 cup back into the can plus i added a 1/4 cup of cream sherry (sweet) to the can. i gave the chicken a rub on the outside and then grilled it for 1.5 hours and it was the moistest chicken we have ever had. now the tricky part the juices are red from the cherry soda, so you need to use a thermometer to make sure the chicken is done. temperature should be 165 degrees f in the thigh.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frying chicken, olive oil, thyme, savory, basil, parsley
+---
+TITLE: Acadia S Chicken Parmesan
+CURRENT_DESCRIPTION: most chicken parmesan that i have had in restaurants have always been
+made from a boneless chicken breast that was flattened with a mallet, with a dollop of mozzarella cheese and sauce. with this recipe, i have chosen instead to use boneless chicken tenderloins, with a generous amount of mozzarella and sauce. this is one of my dad's favorite recipes and he requests it every year for his birthday celebration. i serve it with fresh nj sweet corn, ratatouille and garlic bread. it is a wonderful feast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, mozzarella cheese, parmesan cheese, italian seasoned breadcrumbs, eggs, milk
+---
+TITLE: Acadia S Cod Smothered In Corn Flakes
+CURRENT_DESCRIPTION: my kids and dh always ask me, "what's for dinner?" now they will ask me that question anytime during the day from just after breakfast until just before dinner. usually i tell them anything that comes to mind. lol! and then i serve something totally different (they never learn). so today when they asked the question i told them left over lamb roast when in fact i was really thinking of something to do with cod. here is what i came up with. . .
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cod fish fillet, caesar salad dressing, corn flakes, dill, margarine
+---
+TITLE: Acadia S Crab Cakes
+CURRENT_DESCRIPTION: i love dungeness crab however i don't get it that often living on the east coast. however, our local supermarket had fully cooked dungeness crab leg clusters on sale so i decided to make crab cakes from the succulent meat as my dh does not like to work for his crab.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bell pepper, onion, olive oil, garlic clove, egg, worcestershire sauce
+---
+TITLE: Acadia S Diet Potatoes  Not
+CURRENT_DESCRIPTION: this recipe is actually similar to twice baked potatoes, except the second part is cooked in the microwave. we always refer to them as "diet" potatoes as a joke, since they are really loaded potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: russet potatoes, butter, cheddar cheese, monterey jack cheese, bacon, chives
+---
+TITLE: Acadia S Eggplant And Pepper W Velveeta
+CURRENT_DESCRIPTION: another eggplant recipe created to use up my many eggplants.
+i'm sorry to say that the frost hit the plant hard last night, so i harvested
+all of the remaining eggplants (10). i did find good homes for many of the eggplants with friends and neighbors. lol!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, red bell pepper, vidalia onion, margarine, kosher salt, velveeta cheese
+---
+TITLE: Acadia S Eggplant Casserole
+CURRENT_DESCRIPTION: yet another recipe for eggplant! lol! i have seven eggplants on my eggplant and about 6 purple flowers. how many different ways can you serve up eggplant? eggplant ice cream anyone? lol!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, yellow bell pepper, vidalia onion, margarine, low-fat cheddar cheese, low-fat monterey jack cheese
+---
+TITLE: Acadia S Eggplant Parmesan
+CURRENT_DESCRIPTION: i love eggplant and i decided to make a layered eggplant side dish without the breading that one typically sees with this type of presentation. i use a square baking dish for this treat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, butter, eggplant, marinara sauce, mozzarella cheese, parmesan cheese
+---
+TITLE: Acadia S French Green Beans
+CURRENT_DESCRIPTION: i'm always trying to get my dh to eat his vegetables, so
+this is what i came up with today.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french style green beans, vegetable stock, dill, chives, pepper
+---
+TITLE: Acadia S Lasagna
+CURRENT_DESCRIPTION: yum! i love lasagna. this is a great "one" dish anytime meal. i use a 12 ” x 8” x 2” baking dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, water, ground beef, onion, garlic, oregano
+---
+TITLE: Acadia S Marinara Sauce
+CURRENT_DESCRIPTION: this is my version of marinara sauce for pasta! yummy! i omit the salt as i use canned crushed tomatoes which i find for us to have enough salt. however, if you use fresh tomatoes i would add the salt for your taste. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, garlic, yellow bell pepper, basil, oregano
+---
+TITLE: Acadia S Mocha Malt Smoothie
+CURRENT_DESCRIPTION: i had some left over coffee from my morning brew and decided to make another smoothie recipe. *cooking time: is blending time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1% low-fat milk, malted chocolate drink mix, french vanilla non-dairy coffee creamer, coffee, ice
+---
+TITLE: Acadia S Mushroom Pepper Onion Stir Fry
+CURRENT_DESCRIPTION: while camping in florida i decided to combine three of my favorite vegetables together for a tasty side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, sweet onion, soy sauce, worcestershire sauce, yellow bell pepper, red bell pepper
+---
+TITLE: Acadia S Raspberry Citrus Smoothie
+CURRENT_DESCRIPTION: i'm on a smoothie kick currently and these were ingredients i had on hand.
+makes a refreshing beverage for a hot summer's day.
+enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, pineapple juice, milk, raspberry sherbet, orange sherbet, non-dairy coffee creamer
+---
+TITLE: Acadia S Ratatouille
+CURRENT_DESCRIPTION: we love ratatouille! i usually have an abundance of zucchini and yellow squash in my garden, however, this year since we received so much rain the zucchini & squash crop was poor. so i have been force to buy my ingredients. for my family's taste, i omit the red pepper flakes and salt as the canned tomatoes have enough salt in them, however if you choose to use fresh tomatoes i would add the salt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, garlic, red bell pepper, yellow bell pepper, basil
+---
+TITLE: Acadia S Salmon Mushroom Stir Fry
+CURRENT_DESCRIPTION: for dinner, i had thawed two boneless filets of salmon and i didn't have many things to work with for side dishes. also i didn't want to have to go pick anything up at the store, so i winged it. my family loved it and this is how it turned out. enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon, cooking oil, butter, celery, vidalia onion, salt
+---
+TITLE: Acadia S Stuffed Eggplant
+CURRENT_DESCRIPTION: well i'm at it again, creating recipes in anticipation of my bumper eggplant crop again. . .
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, red bell pepper, vidalia onion, mushrooms, butter, kosher salt
+---
+TITLE: Acadia S Tropical Iced Tea
+CURRENT_DESCRIPTION: when i have a cold, i like to drink cold fruit drinks and this was created to full fill that need.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boiling water, vanilla tea bags, pineapple-orange juice, coconut juice, ice, pineapple slices
+---
+TITLE: Acadia S Velveeta Mac   Cheese
+CURRENT_DESCRIPTION: this recipe is a revised version of my mom's cooper sharp mac & cheese recipe which i have been making for 25 years. but, i didn't have the correct ingredients for it, so this is how it came out. my dh and dd loved it so much better, that i now have my own version. lol!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooper sharp cheese, velveeta cheese slices, macaroni, low-fat milk, light cream, butter
+---
+TITLE: Acadian Beef Casserole
+CURRENT_DESCRIPTION: this is a hearty casserole with lots of veggies and topped with bread crumbs and cheddar...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, garlic, carrot, celery, ground chuck
+---
+TITLE: Acadian Cranberry Pie   Canada
+CURRENT_DESCRIPTION: this is being posted for zwt ii & my recipe source is epicurean.com who acknowledged their source as "a taste of acadie", by marielle cormier-boudreau. (time does not include time for pie pastry to cool)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberries, water, sugar, egg, butter, heavy cream
+---
+TITLE: Acadian Rigatoni
+CURRENT_DESCRIPTION: i've made this using the creamy version and portuguese sausage. you can make this with any spicy sausage, such as hot italian sausage, casings removed, and cut into 1-inch pieces.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking oil, andouille sausage, onion, celery ribs, green bell pepper, garlic cloves
+---
+TITLE: Açaí Berry Smoothie Bowl
+CURRENT_DESCRIPTION: Açaí, frozen mixed berries, banana, and almond milk blended thick. Topped with granola and fresh fruit. The smoothie bowl that launched a thousand brunches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 100 g açaí packet (frozen), 150 g frozen mixed berries, 1 frozen banana, 100 ml almond milk, 4 tbsp (topping) granola, 6 halved (topping) fresh strawberries
+---
+TITLE: Acapulco Chicken
+CURRENT_DESCRIPTION: easy, fast, healthy and delicious! this perfect weeknight dish takes less than 30 minutes, so it's a regular in our house. you can vary the heat by the kind and amount of chile powder and hot peppers you use. serve over hot cooked rice, if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, chili powder, salt, pepper, olive oil, green bell pepper
+---
+TITLE: Acapulco Delight
+CURRENT_DESCRIPTION: the recipe originally called for refried beans, but we didn't have any, so i substituted barbecue flavored baked beans, and it tasted great! use whichever you'd like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, taco seasoning, water, green taco sauce, flour tortillas, cheddar cheese
+---
+TITLE: Acapulco Golden Burgers
+CURRENT_DESCRIPTION: this was my first time using ground turkey - all i can say is mmmmm!  very tasty and fresh!  to lighten it up, i have used reduced fat cheddar cheese and no-fat sour cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground turkey, fine dry breadcrumbs, chunky salsa, chili seasoning mix, dried parsley flakes, light cheddar cheese
+---
+TITLE: Acapulco Margarita Grouper
+CURRENT_DESCRIPTION: very good summertime dish. serve with grilled corn, a salad and a very cold margarita.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grouper fillets, tequila, triple sec, lime juice, sea salt, garlic
+---
+TITLE: Acapulco Mexican Restaurant S Rice
+CURRENT_DESCRIPTION: this is the recipe for the rice that is served at acapulco restaurant. it's amazingly easy and very yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, long grain rice, lard, chicken broth, tomato juice, diced tomato
+---
+TITLE: Acapulco Rice
+CURRENT_DESCRIPTION: you can put this easy rice dish together in minutes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato sauce, water, chili powder, minute rice, tortilla chips, cheddar cheese
+---
+TITLE: Acapulco S Crab  Avocado Enchiladas With Cilantro Cream Recipe
+CURRENT_DESCRIPTION: this is from the famous acapulco mexican restaurant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, salt, sour cream, onions, cilantro, granulated sugar
+---
+TITLE: Acapulco Sunrise  Adult Drink
+CURRENT_DESCRIPTION: a light, somewhat tart cocktail, that blends the flavors of lime, orange and black currant with tequilla. if you like tequilla, i think you'll enjoy this. mix up a shaker or 2, sit back, and imagine yourself in a beach chair watching the acapulco sun rise.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tequila, lime juice, curacao, creme de cassis, club soda, lime slice
+---
+TITLE: Acapulco Tuna Dish
+CURRENT_DESCRIPTION: this gives tuna a whole new taste! comes from my mothers favorite cookbook by jackie olden. the original recipe served 8-10, so i've down sized it a bit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, olive oil, tuna, egg, milk, tortilla chips
+---
+TITLE: Acaramelados  Almond Stuffed Prunes
+CURRENT_DESCRIPTION: this recipe came from my great-aunt tina. it is very, very old. honestly if i see this recipe it would never cross my mind to try it, but…i had them when i was a child and they are fabulous!! times have change and i know we are not suppose to eat raw eggs so if anybody has a suggestion on how to fix that please z-mail.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried pitted prunes, toasted almonds, powdered sugar, egg, lemon juice, cognac
+---
+TITLE: Accidental 3 Juice Lemonade
+CURRENT_DESCRIPTION: i got this out of a lemonade cookbook, along with the others posted.  i haven't tried them all.  put here so i don't lose it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon juice, lime juice, orange juice, sugar, kosher salt, cold water
+---
+TITLE: Accidental Hearty Nacho Soup
+CURRENT_DESCRIPTION: i had this craving for nachos tonight. i tried making up a recipe and i was worried it would turn out too strong while cooking it so i added a bit too much milk. so i just ate it as a soup and it was hearty, very tasty and somewhat low fat too. hope you like it as much as i do!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, taco seasoning, water, cheddar cheese soup, low-fat american cheese, salsa
+---
+TITLE: Accidental Onion Ring Sauce
+CURRENT_DESCRIPTION: i needed a sauce to go with some onion rings in a pinch. i had some homemade bbq sauce (bottled store bought will do nicely as well) and just added some stuff most people have laying around.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: barbecue sauce, mayonnaise, thousand island dressing, honey, a.1. original sauce, ground cayenne pepper
+---
+TITLE: Accidental Pecan Bars
+CURRENT_DESCRIPTION: we were making pecan pie for thanksgiving and my mom thought she needed to double the filling like she always does with frostings, etc. when the pie crust overflowed and there was still filling in the bowl, she was going to throw it out, but i decided to try a crumble-type crust to use it up. we had our pie, so we figured we would send the bars with our grandson/nephew to be with his other family. the bars came out so good that we did not want to share, but we stuck with the holiday spirit, shared, and made many more throughout the season! the cream in the filling is optional, but definitely worth it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, egg, flour, baking powder, salt
+---
+TITLE: Accidental Veggie Tortilla  Pizza
+CURRENT_DESCRIPTION: i was making tortilla pizza for supper, had some ground turkey defrosted in the fridge for it. had the whole wheat tortillas on the cookie sheet and put the sauce on, then the spinach, grated carrots, diced red pepper and diced tomatoes , topped them with the grated cheese and popped it in the oven. there we were eating and dh says, my gowd this is good but i can't see the turkey on mine   ha ha!!!   the ground turkey was still in the fridge, completely forgot to cook and put it on and we didn't even miss it  !
+very tasty accidental veggie pizza
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat tortillas, part-skim mozzarella cheese, pizza sauce, fresh spinach, sweet red pepper, carrot
+---
+TITLE: Accidentally The Best Baked Chicken Nuggets Ever
+CURRENT_DESCRIPTION: accidentally discovered this while playing around with chinese restaurant classics. my nugget-expert daughter loved them. i use the marinade from http://www.recipezaar.com/sweet-and-sour-pork-43587 (minus the extra salt) and the flouring and baking technique from http://www.recipezaar.com/baked-lemon-chicken-with-chinese-lemon-sauce-194890. the chicken works great with either sauce but my picky kid just loved the chicken by itself. infact she liked it so much i had to post the recipe. all measurements are approximate; vary the spices based upon your own taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken tenderloins, egg, cornstarch, soy sauce, water, flour
+---
+TITLE: Accordion Potatoes
+CURRENT_DESCRIPTION: yummy and easy potatoes. can also be done on a grill.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, bay leaf, fresh thyme sprig, salt, pepper, olive oil
+---
+TITLE: Accordion Sandwiches
+CURRENT_DESCRIPTION: easy to make meal that is a favorite for kids.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian bread, mayonnaise, italian dressing, parmesan cheese, cooked chicken, ham
+---
+TITLE: Accordion Treats
+CURRENT_DESCRIPTION: 1957 grand prize winner of the pillsbury bake-off contest.these cookies have an unusual shape because they are baked in sheets of foil folded like a fan. they would be nice in a gift basket.edit: the picture in the cookbook this came from shows them drizzled with chocolate- now what wouldn't taste better with chocolate!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aluminum foil, margarine, sugar, vanilla, eggs, all-purpose flour
+---
+TITLE: Accra Banana Peanut Cake  Ghana
+CURRENT_DESCRIPTION: this recipe is from the african cookbook and is  a dessert recipe for the zaar world tour 2005 game.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cake flour, baking powder, salt, baking soda, butter
+---
+TITLE: ace s den meatballs in san marzano tomato sauce
+CURRENT_DESCRIPTION: meatballs and sauce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, onion, white bread, milk, fresh parsley, garlic cloves
+---
+TITLE: Ace S Den Meatballs In San Marzano Tomato Sauce
+CURRENT_DESCRIPTION: meatballs and sauce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, onion, white bread, milk, fresh parsley, garlic cloves
+---
+TITLE: Ace S Fresh Butternut Bake
+CURRENT_DESCRIPTION: butternut squash is a great source of vitamins a, c, and e, hence, the title. this is a simple and healthy dish that looks as good as it tastes.  one good sized squash is perfect for this recipe.   it's easy enough for a weeknight side dish and colorful enough for a holiday dinner.  thank you to the two butternut squash vines that volunteered their way into my garden this year!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, apple, green pepper, red pepper, red onion, garlic clove
+---
+TITLE: Ace S Gala Chicken Salad
+CURRENT_DESCRIPTION: chicken salad, apples, almonds
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, gala apples, celery, sliced almonds, kosher salt, pepper
+---
+TITLE: Ace S Ruby Red Grapefruit And Orange Cake By Melissa Winner
+CURRENT_DESCRIPTION: entered for safe-keeping. from melissa winner, gulfport, ms, as entered in cuisinart stand mixer competition, and later entered on food network's ultimate recipe showdown as ruby red grapefruit cake. i prefer a glaze such as this on my bundt cakes, so no refrigeration is needed, although paula deen likes a cream cheese frosting on hers (see recipe #324804).  this can also be made as two 9-inch layers, which would work better with the cream cheese frosting.  ms. winner recommends serving with dreamsicle ice cream and a sprig of mint.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baker, ,, ,, ,, ,, ,
+---
+TITLE: Aces  Frozen Chocolate Mousse Pie
+CURRENT_DESCRIPTION: i have been using this recipe from the best of bridge series for many years.  with a pecan chocolate wafer crust, creamy chocolate mousse filling, this frozen dessert is perfect for those easy, casual entertaining.   this recipe could be cut in half and placed in 2 smaller springform pans. the recipe needs freezer time, so give yourself enough time to play
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafers, butter, pecans, semisweet chocolate, cream cheese, sugar
+---
+TITLE: Achaari Chicken
+CURRENT_DESCRIPTION: this is an americanized version of a popular indian dish.  it is traditionally made with whole chicken parts and served with na'an and/or basmati rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, vegetable oil, nigella seeds, mustard seeds, fennel seed, dried red chili pepper
+---
+TITLE: Achara  Pickled Papaya
+CURRENT_DESCRIPTION: my grandma used to make this on a weekly basis to give to friends and relatives.  :) this is a perfect accompaniment to grilled/barbecued chicken, pork, fish, etc... the list is endless!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: papaya, red bell pepper, green bell pepper, carrot, shallots, garlic clove
+---
+TITLE: Achari Chicken
+CURRENT_DESCRIPTION: from davinder bedi – bedi’s restaurant in melbourne
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, garlic, ginger, turmeric, chili powder
+---
+TITLE: Achari Fish
+CURRENT_DESCRIPTION: serve with rice or naan and raita
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cod, tomatoes, lemon juice, onions, fennel seed, red chilies
+---
+TITLE: Achingya Thoren  Kerala Style Green Bean Curry
+CURRENT_DESCRIPTION: this recipe is from kerala region of india. a thoren is a dry curry made from chopped vegetables, coconut, mustard seed and curry leaves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: curry leaves, coconut, ground cumin, cayenne, turmeric, garlic cloves
+---
+TITLE: Achiote Paste
+CURRENT_DESCRIPTION: this is an old family favorite. it is easy, can be frozen for future use, and is ten times better than the store bought junk.  use this for my cochinita pibil recipe.
+http://www.recipezaar.com/229460
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: annatto seeds, cumin seeds, black pepper, allspice berries, salt, nutmeg
+---
+TITLE: Achiote Tilapia  Super Simple
+CURRENT_DESCRIPTION: i just love the achiote seasoning found in the fish tacos in the yucatan, so i decided to venture out and try to make the fish myself. . .success!  very simple too.  i suggest serving with a squeeze of lime, a few slices of avocado and cilantro as a garnish.  adapted from a ritz carlton recipe in which they use this sauce to marinate whole red snappers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: achiote paste, salad oil, orange juice, garlic cloves, lime, apple cider
+---
+TITLE: Achy Breaky Shrimpy Bakey
+CURRENT_DESCRIPTION: isn't this a great name?  and it's a great recipe, simple uncomplicated ingredients.  i found this on the rock and roll chef website; he deserves all the credit.  he does have some winners there.  half of this recipe was plenty for a lb. of shrimp.  use the sherry; it does add to the flavor.  you might want to alter the amount of cayenne according to your personal taste.  i used the other half of the crumb mix later in the week on cod.  also very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, butter, breadcrumbs, parmesan cheese, salt, lime juice
+---
+TITLE: Acili Biskuvi  Spicy Biscuits
+CURRENT_DESCRIPTION: adjust the cayenne if you like your biscuits less spicy. biscuits can be reheated but are always best freshly made.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, unsalted butter, cheese, egg whites, salt, cayenne pepper
+---
+TITLE: Acili Ezme  Turkish Style Tomato Dip Condiment
+CURRENT_DESCRIPTION: from turkishcooking.com. the website indicates this sauce is used for a condiment on shish kebabs but i served it as a salsa with slices of toasted french bread. be sure the tomatoes you use are top quality! if you cannot find good quality tomatoes, go ahead and used diced canned. try different chili peppers such as thai, habanero, etc. do not omit the sumac as it is integral to the recipe. ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onions, sumac, salt, tomatoes, fresh parsley, extra virgin olive oil
+---
+TITLE: Acini De Pepe
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (16 oz.) can crushed pineapple, drained (save juice), 2 small cans mandarin oranges, drained (save juice), 3/4 c. sugar, 2 eggs, 3 Tbsp. flour, 1/2 tsp. salt
+---
+TITLE: Acini Di Pepe Ambrosia Salad
+CURRENT_DESCRIPTION: a family favorite and a fond memory from my childhood.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, flour, salt, eggs, lemon juice, oil
+---
+TITLE: Acini Di Pepe Salad
+CURRENT_DESCRIPTION: a light and very flavorful salad.  courtesy of  the cookworks.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acini di pepe pasta, extra virgin olive oil, red wine vinegar, kosher salt, grape tomatoes, pine nuts
+---
+TITLE: Acini Di Pepe With Lemon Butter And Zucchini
+CURRENT_DESCRIPTION: this is from 365 ways to cook pasta. simple and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acini di pepe pasta, lemon juice, butter, fresh lemon zest, zucchini
+---
+TITLE: Acini Di Pepe With Spinach And Feta
+CURRENT_DESCRIPTION: i adapted this from a recipe in gourmet. this is pure comfort food to me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acini di pepe pasta, olive oil, butter, garlic cloves, red pepper flakes, scallions
+---
+TITLE: Acini Di Pepe With Zucchini And Peppers
+CURRENT_DESCRIPTION: adapted from  fine cooking light, this is a colorful summery side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acini di pepe pasta, kosher salt, olive oil, carrot, onion, garlic cloves
+---
+TITLE: Acma  Soft Turkish Bagels
+CURRENT_DESCRIPTION: these make a lovely breakfast treat or a great snack at any time of day! you can alter them by filling them with cream cheese and raisins, or (my favourite) chocolate! mmmm!
+adapted from a recipe from binnurs turkish cookbook. 
+preparation time does not the 2 hours for proofing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant yeast, milk, water, sugar, olive oil, flour
+---
+TITLE: Acne Cleansing Salad
+CURRENT_DESCRIPTION: despite being in my 20's i still suffer from acne. this salad is designed to help cleanse the bowel and restore proper bowel flora.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, apple cider vinegar, garlic, onion, baby spinach, rocket
+---
+TITLE: Acorda Alentejana   Alentejo Bread And Garlic Soup
+CURRENT_DESCRIPTION: i picked up a second hand book called portuguese cookery by ursula bourne, and want to post recipes that i have adapted so that i can make them soonest.
+i am unclear if this soup is meant to be hot or cold since no reference to heating it is made in the recipe, so will update this one once i have made it.  if you make this before i do, i would greatly appreciate your feedback.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, salt, olive oil, fresh coriander, boiling water, whole wheat bread
+---
+TITLE: Acorn  Butternut Squash And Parsnips Gratin
+CURRENT_DESCRIPTION: acorn, butternut squash and parsnips gratin
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry breadcrumbs, fresh parsley, salt, dried oregano, dried thyme, pepper
+---
+TITLE: Acorn Bread
+CURRENT_DESCRIPTION: very tasty, with a distinctive texture. great for thanksgiving! american colonists in the northeast used all available food sources- acorn bread is an adaptation of a native american recipe which was somewhat common in the late 17th century until the mid 19th among the poorer working classes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn meal, flour, baking powder, salt, sugar, eggs
+---
+TITLE: Acorn Or Butternut Squash Risotto
+CURRENT_DESCRIPTION: this risotto is easy and fairly quick after you peel and cut up the squash. good healthy alternative. could be used as a main meal or a side dish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: squash, minute brown rice, frozen mixed vegetables, vegetable stock cube, water, pepper
+---
+TITLE: Acorn Pancakes
+CURRENT_DESCRIPTION: to make acorn meal see recipe #267533.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white flour, acorn meal, baking powder, salt, egg, milk
+---
+TITLE: acorn shepherd s pie
+CURRENT_DESCRIPTION: this recipe is a meal-in-one dish.  i love acorn squash, and was happy to find another way to use it in cooking.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, russet potato, unsalted butter, salt & freshly ground black pepper, yellow onion, celery
+---
+TITLE: Acorn Shepherd S Pie
+CURRENT_DESCRIPTION: this recipe is a meal-in-one dish.  i love acorn squash, and was happy to find another way to use it in cooking.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, russet potato, unsalted butter, salt & freshly ground black pepper, yellow onion, celery
+---
+TITLE: Acorn Squash  N Citrus
+CURRENT_DESCRIPTION: you can substitute orange-ginger marmalade for the marmalade & candied ginger. very nice tang to this recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, orange marmalade, candied ginger, fresh lemon juice, nutmeg
+---
+TITLE: Acorn Squash And Apple Mash
+CURRENT_DESCRIPTION: my son's a relatively picky veggie eater so i'm resorting to subterfuge here.  he loves sweet potatoes and i've managed to convinced him this is them, just mashed.  he loves it!  now besides fried onions and raw carrots i've at least got him to eat some squash!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, granny smith apples, butter, brown sugar, honey
+---
+TITLE: Acorn Squash And Apple Soup
+CURRENT_DESCRIPTION: a lovely fall soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, chicken stock, granny smith apples, onion, unsweetened apple juice, fresh gingerroot
+---
+TITLE: Acorn Squash And Apples
+CURRENT_DESCRIPTION: tender acorn with a apple pie like filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, salt, tart apples, raisins, butter, brown sugar
+---
+TITLE: Acorn Squash And Arugula Pizza
+CURRENT_DESCRIPTION: i found this on a cooking channel and she made it look so easy that i had to try it not being a pizza sauce fan this was perfect for me and will be using it on thanksgiving.  you can use boboli pizza crust instead of raw but cook crust for about 8min first then add ingredients. use a very sharp knife on the squash as it can be tough to cut.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, red pepper flakes, olive oil, maple syrup, salt and pepper, gorgonzola
+---
+TITLE: Acorn Squash And Granny Smith Apple Soup
+CURRENT_DESCRIPTION: i got this recipe from about.com and it was written by fiona haynes. i'm adding this because this is a great recipe and tastes great, wonderful on a cool autumn night.
+"acorn squash has a slightly earthier taste than butternut squash, which complements the sweetness of the apple and mild spice of the curry powder. enjoy this acorn squash and apple soup with some crusty whole-grain bread." -fiona haynes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, canola oil, onion, granny smith apple, curry powder, fat-free low-sodium chicken broth
+---
+TITLE: Acorn Squash And Kale Over Penne
+CURRENT_DESCRIPTION: from health magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, water, olive oil, garlic cloves, kale, vegetable broth
+---
+TITLE: Acorn Squash And Sweet Potato Soup  Vegetarian
+CURRENT_DESCRIPTION: this is one of my favorite soups.  it can easily be vegan-ized by substituting the cream with plain soy milk.  the original recipe is from the book "1000 vegetarian recipes from around the world"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, acorn squash, shallots, olive oil, garlic cloves, vegetable broth
+---
+TITLE: Acorn Squash Bisque
+CURRENT_DESCRIPTION: from everyday food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, onion, salt and pepper, fresh thyme leave, vegetable broth
+---
+TITLE: Acorn Squash Custard
+CURRENT_DESCRIPTION: perfect for your fall gatherings!  these would also be great for a buffet because they are individual servings.  you can make these a day ahead and add to the baking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, brown sugar, butter, eggs, dijon mustard, ground cinnamon
+---
+TITLE: Acorn Squash Feta Casserole
+CURRENT_DESCRIPTION: this tasty recipe is from taste of home.  the leftovers, if there are any, are great hot or cold!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, onion, garlic cloves, butter, green pepper, sweet red pepper
+---
+TITLE: Acorn Squash For 2
+CURRENT_DESCRIPTION: i am giving you a choice of three toppings they are all good.there are two different toppings in the picture bacon maple syrup and browned butter sage.  i just finished enjoying a butternut squash with ginger marmalade &chili flakes. 3 tbsp ginger marmalade, 1/2 tsp chili flakes, mix together and spoon into squash cavity - i really liked this one
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, honey, dried sage, bacon, maple syrup
+---
+TITLE: Acorn Squash In Foil On The Grill
+CURRENT_DESCRIPTION: if you like acorn squash this is a tasty recipe and one that smells great on the campfire. i like it cause you can leave it and forget about it for 30 minutes at a time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, honey, salt, pepper, ginger, nutmeg
+---
+TITLE: Acorn Squash Lasagna
+CURRENT_DESCRIPTION: this is a vegetarian dish that i make in the fall.  if you like squash and sage, you will like it:)   this is actually two recipes-one to make the puree which then is used in the lasagna.  i have made the puree ahead of time to make it more convenient for myself--  eating some the first dinner, and reserving 4 cups for the following night’s dinner.  it is good with cranberry bread , a tomato salad, and apple pie.  yes, this recipe did come from everyday foods:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, kosher salt, nutmeg, dried sage, black pepper
+---
+TITLE: Acorn Squash Medley
+CURRENT_DESCRIPTION: one of nature's finest creations: squash. squash appeals to most pallets and pairs well with virtually every food category. i served this with a glass of merlot, black seedless grapes and banana-walnut-cranberry bread--a heavenly combination. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, olive oil, garlic cloves, red peppers, carrots, spinach
+---
+TITLE: Acorn Squash Roasted With Applesauce
+CURRENT_DESCRIPTION: i finally found a squash recipe that dh likes and enjoyed. this is so simple, revised to suit our taste, from chef micheal smith, my favourite tv chef.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, vegetable oil cooking spray, applesauce, butter, salt, fresh ground pepper
+---
+TITLE: Acorn Squash Soup
+CURRENT_DESCRIPTION: this looks delicious. it was given me by a coworker who says her mother makes it every thanksgiving. prep time does not include the time to cook and mash the acorn squash.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pumpernickel bread, butter, olive oil, salt, garlic clove, onion
+---
+TITLE: acorn squash stuffed w  pears  wild rice  walnuts
+CURRENT_DESCRIPTION: usapears.com  this could be made vegan by swapping the butter and chicken broth for vegetarian options.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, fresh ground pepper, nutmeg, unsalted butter, wild rice, low sodium chicken broth
+---
+TITLE: Acorn Squash Stuffed W  Pears  Wild Rice  Walnuts
+CURRENT_DESCRIPTION: usapears.com  this could be made vegan by swapping the butter and chicken broth for vegetarian options.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, fresh ground pepper, nutmeg, unsalted butter, wild rice, low sodium chicken broth
+---
+TITLE: Acorn Squash Stuffed With Apple Couscous
+CURRENT_DESCRIPTION: from massrecipes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: couscous, apple juice, prune, dried cranberries, dried apple, apple juice concentrate
+---
+TITLE: Acorn Squash Stuffed With Curried Meat
+CURRENT_DESCRIPTION: this recipe is from apple companion, which i found at amish acres in the heart of indiana's amish country. if you ever have a chance, pick up a copy of this cookbook! i have found most of the recipes to be outstanding, including this one, which i make at least once every fall or winter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, yellow onion, tart apple, garlic, curry powder
+---
+TITLE: Acorn Squash Stuffed With Herbed Cornbread Stuffing With Seitan
+CURRENT_DESCRIPTION: a recipe my husband found on vegetarian times.  looks really good and perfect for the cooling fall temps.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, seitan, garlic cloves, celery ribs, green bell pepper
+---
+TITLE: Acorn Squash Stuffed With Italian Sausage   Penne
+CURRENT_DESCRIPTION: a hearty and filling squash recipe.  perfect for the fall.  adapted from emril lagasse.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, italian sausage, onion, pasta sauce, penne, mozzarella cheese
+---
+TITLE: Acorn Squash Stuffed With Lamb   Curry
+CURRENT_DESCRIPTION: this recipe is from "apple companion", which i found at amish acres in the heart of indiana's amish country. if you ever have a chance, pick up a copy of this cookbook! i have found most of the recipes to be outstanding, including this one, which i make at least once every fall or winter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, yellow onion, tart apple, garlic cloves, curry powder
+---
+TITLE: Acorn Squash Stuffed With Sausage And Sour Cream
+CURRENT_DESCRIPTION: i'm not a big fan of acorn squash, but i really like this recipe from my mother-in-law.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, sausage, butter, sour cream, mushrooms, onion
+---
+TITLE: Acorn Squash With Apple Stuffing
+CURRENT_DESCRIPTION: here is something that is a fall classic in my area of the country.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, boiling water, granny smith apples, honey, butter, salt
+---
+TITLE: Acorn Squash With Apple Turkey Stuffing
+CURRENT_DESCRIPTION: a wonderful, healthy main dish with a great combination of flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, ground turkey, mcintosh apple, dried breadcrumbs, egg, salt
+---
+TITLE: Acorn Squash With Bacon
+CURRENT_DESCRIPTION: i did not, get this from any one ! this is a hand-me down recipe, my mom, grandma, her mom ect.... like it love, "tweek"  it to your own taste.
+ i have never been told yuck  just where did you get this recipe? simple, tasty, smokey and loved !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, bacon, butter, cinnamon, salt & pepper, mistake
+---
+TITLE: Acorn Squash With Bacon  Apple And Swiss
+CURRENT_DESCRIPTION: wanted a savory squash recipe.  tweaked an existing one from betty crocker to make a side dish; now i've got a keeper that's a meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, bacon, apple, onion, garlic cloves, dried sage
+---
+TITLE: Acorn Squash With Butter Pecan Sauce
+CURRENT_DESCRIPTION: incredibly simple and delightfully good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, brown sugar, maple-flavor syrup, pecans
+---
+TITLE: Acorn Squash With Cheese Spinach Stuffing
+CURRENT_DESCRIPTION: just got back from apple hill with some nice acorn squash. decided to stuff them and this is what i came up with working with what we had on hand. did have a little stuffing left after stuffing 2 smallish size squash.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, olive oil, onion, celery, seasoned stuffing mix, frozen spinach
+---
+TITLE: Acorn Squash With Cracker Stuffing
+CURRENT_DESCRIPTION: dad used to make this for us at thanksgiving. the penultimate holiday treat - i could eat this all the time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, ritz crackers, blanched almond, salt, cinnamon
+---
+TITLE: Acorn Squash With Cranberry Apple Stuffing
+CURRENT_DESCRIPTION: some days i need a little inspiration. i knew that i would be baking squash for our shabbat dinner tonight. and i knew it would have some delicious dried cranberries in it. i just wasn’t entirely sure what form it would all take.
+
+i looked around on the internet for a bit and saw this scrumptious looking recipe for a southern style baked acorn squash and was on my way! well, <a href="http://www.elanaspantry.com/cooked-veggies/acorn-squash-with-cranberry-apple-stuffing/" target="_blank">here it is</a>.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, boiling water, apples, dried cranberries, cinnamon, grapeseed oil
+---
+TITLE: Acorn Squash With Cranberry Filling(Servings:  4)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 large acorn squash (about 2 lb. each), 1 (16 oz.) can whole cranberry sauce, 1 Tbsp. honey, 1/4 tsp. ground allspice, 1 lb. small black beans, soaked overnight, 1 medium onion, chopped
+---
+TITLE: Acorn Squash With Dried Fruit And Granola Compote
+CURRENT_DESCRIPTION: this is something i whipped up one day because i was not all that much of a fan of squash at the time and i wanted to test the waters... i get rave reviews every time i serve it- even to kids!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, quick-cooking rolled oats, dried cranberries, dried apricots, dried apple rings, maple syrup
+---
+TITLE: Acorn Squash With Filberts Or Pecans
+CURRENT_DESCRIPTION: i didn't care for acorn squash until i tried this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, brown sugar, salt, cinnamon, orange zest
+---
+TITLE: Acorn Squash With Pineapple
+CURRENT_DESCRIPTION: doubles nicely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, cinnamon, nutmeg, allspice, ginger, canned crushed pineapple
+---
+TITLE: Acorn Squash With Raisin Sauce
+CURRENT_DESCRIPTION: the flavors of this squash just scream fall to me. i originally put this sauce on a small carnival squash, but it went really well with acorn squash, which serves a few more.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, raisins, apple cider, pure maple syrup, cornstarch, ground cinnamon
+---
+TITLE: acorn squash with roasted garlic custard
+CURRENT_DESCRIPTION: from delicious living magazine, this is a sweet, creamy and savory dish that you will love! winter squashes are use everywhere, but were so useful in the colder states, where the hard squash would winter over well. west, mid west, new england, canada, mid atlantic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, olive oil, salt, black pepper, brown sugar, elephant garlic
+---
+TITLE: Acorn Squash With Roasted Garlic Custard
+CURRENT_DESCRIPTION: from delicious living magazine, this is a sweet, creamy and savory dish that you will love! winter squashes are use everywhere, but were so useful in the colder states, where the hard squash would winter over well. west, mid west, new england, canada, mid atlantic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, olive oil, salt, black pepper, brown sugar, elephant garlic
+---
+TITLE: Acorn Squash With Sausage
+CURRENT_DESCRIPTION: i usually see sweet recipes for acorn squash. i like this one because it uses the squash as a main dish. this is warm and filling, perfect for an autumn day. this recipe came from colorado collage.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, canola oil, onion, fresh mushrooms, red bell pepper, garlic
+---
+TITLE: Acorn Squash With Spiced Brazil Nut Filling
+CURRENT_DESCRIPTION: whole and chopped brazil nuts can now be found in my area thanks to trader joe's and earthfare.  this is great recipe for a brazil nut filling.  from an old southern living.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, sugar, flour, salt, ground cinnamon, ground nutmeg
+---
+TITLE: Acorn Squash With Spinach Stuffing
+CURRENT_DESCRIPTION: very simple side dish with very simple ingredients. the color is great and the taste is even better. it's a great comfy fall dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, celery, green onions, fresh spinach, dry breadcrumbs, pecans
+---
+TITLE: Acorns Cookies
+CURRENT_DESCRIPTION: this is an easy yet elegant butter-pecan cookie shaped to resemble an acorn and dipped in melted chocolate chips and chopped pecans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, pecans, all-purpose flour, baking powder, semi-sweet chocolate chips
+---
+TITLE: Across The Pond Tasty Leeks
+CURRENT_DESCRIPTION: from p. caunce and son brow farm in lancashire uk. in a bind? hazelnuts, walnuts or almonds sub beautifully for the pine nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: leeks, roma tomatoes, pine nuts, olive oil, salt, cracked black pepper
+---
+TITLE: Actual P F  Chang S Lettuce Wrap Recipe Not A Copycat
+CURRENT_DESCRIPTION: ginger chicken stir-fry romaine wraps with citrus soy. recipe courtesy of p.f. chang's china bistro. i found this recipe on the official p.f changs website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, fresh ginger, garlic, dried chili pepper flakes, soybean oil, romaine lettuce
+---
+TITLE: Actual Panera Bread Recipe For Hearty Cheese Soup In A Sourdough
+CURRENT_DESCRIPTION: this is the actual panera bread recipe. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, carrots, celery, green bell pepper, onion, mixed mushrooms
+---
+TITLE: Actual Pf Chang S Mongolian Beef Recipe
+CURRENT_DESCRIPTION: this is the actual recipe of the mongolian beef at pf changs--enjoy! found on pf chang's website: http://www.pfchangs.com/chefscorner/recipes/gluten_free_mongolian_beef_recipe.pdf
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, oil, garlic, soy sauce, sugar, rice wine
+---
+TITLE: Actually Very Tasty Vegetarian Meatloaf
+CURRENT_DESCRIPTION: from "eat, drink, and be healthy" (the harvard medical school guide to healthy eating). tried it on my skeptical vegetarian boyfriend, he loved it. i did too, and i was a meat-eater then. good source of omega-3's and fiber. can be made lighter using 1/2 the amount of walnuts, and more torn-up bread (i used a light wheat bread). keeps very well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown rice, vegetable broth, dried mushroom, olive oil, salt, walnuts
+---
+TITLE: Ad Hoc Pita With Broccoli  Egg And Cheese
+CURRENT_DESCRIPTION: i was hungry today and i just happened to have all of these ingredients on hand.  feel free to substitute cheese and pita or even the veggies.  this does not need to be specific.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, broccoli, muenster cheese, salt and pepper, olive oil, pita bread
+---
+TITLE: Ada Perez Pralines
+CURRENT_DESCRIPTION: got this from my aunt who is known for her yummy pralines.this is the recipe she uses and there are never enough to go around!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, light brown sugar, salt, evaporated milk, pecans, vanilla
+---
+TITLE: Ada S Chocolate Peanut Butter Fudge
+CURRENT_DESCRIPTION: this is a very smooth, creamy fudge. it is also almost impossible to over or under cook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cocoa, butter, vanilla, evaporated milk, peanut butter
+---
+TITLE: Ada S Peanut Butter Fudge
+CURRENT_DESCRIPTION: i was unsure of this recipe at first. i had never heard of fudge made with brown sugar before, but this is the creamiest fudge i have ever had. this is also the only fudge recipe i have never either over or under cooked.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, granulated sugar, butter, vanilla, evaporated milk, peanut butter
+---
+TITLE: Adam   Eve Sandwich
+CURRENT_DESCRIPTION: my family likes these for breakfast, lunch or a snack. prep and cook time doesn't include hard boiling eggs, since i usually have some done ahead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: english muffins, ham, hard-boiled eggs, cheddar cheese, prepared mustard, worcestershire sauce
+---
+TITLE: Adam S Favorite Creamy Cheesy Cauliflower Soup
+CURRENT_DESCRIPTION: i use a large head of cauliflower because adam thinks that this is the main course as well as appetizer and bed time snack.  normal people would only use about 3 cups of flowerettes (1/2 large head), if you cut back the cauliflower you may want to adjust the stock slightly.  serve this with warm buns.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cauliflower, chicken stock, sweet onion, butter, flour, light cream
+---
+TITLE: Adam S Laksa For One
+CURRENT_DESCRIPTION: my daughter got this recipe from a fellow army work friend. we have adapted this recipe to what ever is in the fridge at the time. it is a delicious flavour and the flavour changes all the time depending of what you feel like using at the time. although this is for one, we just increase the ingredients to the number of people coming to dinner. this is an easy peasy laksa recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, onion, garlic, ginger, coriander, lemongrass
+---
+TITLE: Adam S Ribs
+CURRENT_DESCRIPTION: different, unusual way to prepare ribs. the soda pop tenderizes the meat. untried recipe but they sound so good i just had to post them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: country-style pork ribs, dr. pepper cola, garlic cloves, liquid smoke, onion, barbecue sauce
+---
+TITLE: Adam West S Super Bowl Dumplings
+CURRENT_DESCRIPTION: from my celebrity recipe collection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet italian sausage link, onion, red pepper, fresh mushrooms, black pepper, fresh sage leaves
+---
+TITLE: Adams  Snickerdoodles  2004  Canadian
+CURRENT_DESCRIPTION: this is a soft chewy snickerdoodle that matthew and i came up with for his brother adam.. have to give this one a try. they are great!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salted butter, granulated sugar, brown sugar, golden syrup, eggs, vanilla extract
+---
+TITLE: Adams Ginger Snappys
+CURRENT_DESCRIPTION: these are fast and crispy...5 cookies is equal to about 2.5gr of fat...nice with a cup of tea...
+
+update note:
+
+i also added today 3 tablespoons cocoa powder made a really nice cookie.
+
+so this recipe can give you two different cookies.  i also on some of them rolled into powdered sugar instead of the granulated and make it look like a crackled chocolate gingersnap.  very nice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark brown sugar, granulated sugar, molasses, vegetable shortening, butter, egg
+---
+TITLE: Adams Sunrise
+CURRENT_DESCRIPTION: a delicious lemonade slush...alcoholic version of course!  beware as you do not taste the alcohol....can cause trouble a few hours into drinking!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen lemonade concentrate, ice, vodka, sugar, water
+---
+TITLE: Adana Kebab
+CURRENT_DESCRIPTION: this is named after the forth largest city in turkey.
+the trick to this is that you really should let marinate over night for optimum taste.
+sumac is also used in this recipe it can be found in any middle eastern store or online.
+the sumac can be omitted but it really should be found and added.
+it really makes a difference.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground lamb, ground veal, olive oil, salted butter, red bell pepper, yellow onion
+---
+TITLE: Adapted Columbia Restaurant 1905 Salad Recipe
+CURRENT_DESCRIPTION: i found this recipe on mygourmetconnection.com and here is what was stated about this recipe:  "the columbia restaurant is an authentic spanish/cuban restaurant with seven locations in the state of florida, including one in the orlando area near walt disney world. the original opened in the ybor city district of tampa in 1905. their signature salad, the 1905, is legendary and the proprietors are kind enough to share the recipe on their website. we've adapted it a little to suit our taste and served it along with crunchy smoked paprika-manchego croutons.  the croutons themselves, sound awesome but knowing how good the salad is at the restaurant and adding them to it has to be over the top.  this serves 2 as a dinner salad and 4 for a first course dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, tomatoes, sweet onion, swiss cheese, ham, green olives
+---
+TITLE: Adapted From Todd Wilbur S Top Secret Recipes Big Mac Sauce
+CURRENT_DESCRIPTION: sometimes you just want to indulge in fast food but don't feel like running out to get it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, french dressing, sweet pickle relish, white onion, white vinegar, sugar
+---
+TITLE: Adas Bil Hamod   Lentils With Lemon Juice
+CURRENT_DESCRIPTION: from "one thousand and one delights" by nahda salah.  posted for zaar world tour ii.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black lentils, water, potatoes, flour, garlic cloves, coriander
+---
+TITLE: adas polo   persian rice with lentils
+CURRENT_DESCRIPTION: a delicious and hearty iranian dish made of aromatic basmati rice, lentils, caramelized onion, raisins, and spices. serve with chicken or lamb, or enjoy as a vegetarian dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lentils, basmati rice, water, onion, garlic cloves, salt
+---
+TITLE: Adas Polo   Persian Rice With Lentils
+CURRENT_DESCRIPTION: a delicious and hearty iranian dish made of aromatic basmati rice, lentils, caramelized onion, raisins, and spices. serve with chicken or lamb, or enjoy as a vegetarian dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lentils, basmati rice, water, onion, garlic cloves, salt
+---
+TITLE: Adas Polow
+CURRENT_DESCRIPTION: persian iranian
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lentils, basmati rice, ground beef, dates, raisins, saffron
+---
+TITLE: Add A Little Interest With Persian Couscous
+CURRENT_DESCRIPTION: couscous is a busy cooks dream come true--- invaluable for anyone who wants good food on the table fast!  my youngest daughter loves to prepare herself a small bowl of couscous when she comes home from school.
+this recipe, colourful and tasty, with interesting textures,  makes a good side or even a main dish.
+from the very easy vegetarian cookbook by alison & simon holst
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: couscous, vegetable stock powder, sugar, orange, rind of, boiling water, almonds
+---
+TITLE: Add Adjective Here  Apple Crisp
+CURRENT_DESCRIPTION: a family recipe for a classic dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, flour, brown sugar, salt, cinnamon, butter
+---
+TITLE: Add An Ingredient Risotto
+CURRENT_DESCRIPTION: i like this recipe because it can be made in one pot, and with just about anything in the fridge. feel free to experiment with ingredients and flavourings. other than the ones listed here, i sometimes like to add turmeric and rosemary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: arborio rice, sweet peppers, shrimp, instant clear broth, hot water, white wine
+---
+TITLE: Add In Anything  Muffins
+CURRENT_DESCRIPTION: this is a never-fail muffin recipe, it's a blank canvas for anything you can dream up! i like coconut and canned chopped pineapple that has been well drained! you choose what you want to add in! if you like a sweet muffin add in more sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, butter
+---
+TITLE: Add Ins Bread
+CURRENT_DESCRIPTION: i bought this 'local' recipe book from a church in firebaugh calif.  i've enjoyed many of the recipes the women put together...this one has been a family favorite.  you can make it different everytime, but our favorite banana bread comes from this recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cinnamon, eggs, sugar, vanilla, salt
+---
+TITLE: Adders Fork  Glazed Carrots   Parsnips  Zwt Three
+CURRENT_DESCRIPTION: this is a lovely glazed carrot/parsnip dish. it's a two step from stovetop to oven process. you can sub turnips for the parsnips. this is for the british/irish section of the tour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, parsnips, vinegar, butter, brown sugar, salt & pepper
+---
+TITLE: Addicted To Porridge
+CURRENT_DESCRIPTION: forget bland 1 minute oatmeal! try this, my own favourite start to the day, and get addicted to the taste and the energy it provides. i eat this serve on my own, but most will want to share it. my husband loves it when i omit the polenta and add chopped banana instead - he eats it as a dessert!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, polenta, coconut, slivered almonds, soymilk, salt
+---
+TITLE: Addicting Cheesy Potato Casserole
+CURRENT_DESCRIPTION: this recipie has become a staple at all our holiday family dinners. whenever we take a dish to a potluck, this is the one we take and is always a big hit with everyone. there is usually no leftovers, since everyone gobbles it up. you might want to double the recipie and save a bit of it for eating at home too, if you are making this to take to a potluck or dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen hash brown potatoes, cream of chicken soup, sour cream, onion, margarine, cheddar cheese
+---
+TITLE: Addicting Chicken Tetrazzini
+CURRENT_DESCRIPTION: oh, this is so good! i couldn't stop eating it! it is adapted from a recipe out of a cookbook that i had.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: noodles, chicken, butter, green onions, mushrooms, milk
+---
+TITLE: Addicting Chocolate Chip Cookies
+CURRENT_DESCRIPTION: the secret ingredient in these soft cookies is coffee! just like the french add a dash of black pepper to their chocolate, coffee adds that extra "something" to chocolate chip cookies. you won't be able to place the extra ingredient, but you will definitely feel that something subtle and great is in there. beware if you are on a diet!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, granulated sugar, egg, vanilla, instant coffee
+---
+TITLE: Addicting Sweet And Sour Salsa
+CURRENT_DESCRIPTION: i went to my nephews graduation party. i had one bite of this salsa and had to track down the person that brought it. she was nice enough to email it to me. yum!! it looks beautiful in a jar with nice ribbon for hostess gift! great for bbq's (great over grilled chicken). great with tortilla chips.  i have not taken this recipe anywhere with out having a recipe request-
+chef note: i like to chop vegies and keep them in a ziploc bag and put together with the juice a couple hours prior to event- i like crisper vegies. other family members prefer the vegies to be marinated longer - so it is really just a matter of taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black-eyed peas, white shoepeg corn, pimientos, green bell pepper, red bell pepper, orange bell pepper
+---
+TITLE: Addicting Wild Rice   Asparagus Salad
+CURRENT_DESCRIPTION: this is the perfect recipe that's easy, different, and will have people absolutely raving!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long grain and wild rice blend, onion, garlic cloves, asparagus, portabella mushrooms, chicken broth
+---
+TITLE: Addictive  0 Point  Cabbage Soup Ww
+CURRENT_DESCRIPTION: this soup really is addictive! it keeps great in the fridge and it has 0 ww points per serving!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, onions, green peppers, garlic cloves, fat free chicken broth, v8 vegetable juice
+---
+TITLE: Addictive Asparagus
+CURRENT_DESCRIPTION: from the food52 website. this was soooo amazing the first time i made it that my husband ate the rest in the middle of the night  - it was supposed to be my lunch the next day!!! how can you go wrong with asparagus, leeks, pancetta, garlic, orange zest, parsley and pine nuts. savory, fresh, addictive!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pancetta, butter, asparagus, leeks, garlic cloves, fresh lemon zest
+---
+TITLE: Addictive Cheeseburger Pizza
+CURRENT_DESCRIPTION: the comment i hear from everyone the first time they eat this is,
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean hamburger, italian sausage, green pepper, onion, garlic, marinara sauce
+---
+TITLE: Addictive Chex Mix
+CURRENT_DESCRIPTION: this is kind of similar to some of the other versions out there, but it is the best and easiest i have found
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, margarine, brown sugar, light corn syrup, salt, baking soda
+---
+TITLE: Addictive Chicken
+CURRENT_DESCRIPTION: its so good it's addicting, hence the name. it's easy and delicious.  serve with green beans and rice or potatoes to make a delicious meal your whole family will be begging you to make again and again.  also try using chicken wings or with fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, parmesan cheese, dried parsley, dried oregano leaves, paprika, pepper
+---
+TITLE: Addictive Chicken Tenders  One Taste And You Re Addicted
+CURRENT_DESCRIPTION: i found this recipe on a low-carb site, (dh is doing a low-carb diet). i modified it some and dh says the name is very appropriate. he craves this so i end up making it once or twice a week. good thing it is easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken tenders, parmesan cheese, dried parsley, dried oregano, paprika, salt
+---
+TITLE: Addictive Chocolate Tapioca Pudding
+CURRENT_DESCRIPTION: contains no: wheat, dairy, peanuts, tree nuts, egg, soy, fish or shellfish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry tapioca, cornstarch, salt, sugar, rice milk, semi-sweet chocolate chips

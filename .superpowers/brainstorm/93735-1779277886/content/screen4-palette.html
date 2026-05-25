@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screen 4 — Tactile Elegance Palette</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0d0d0c;
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #fff;
+    padding: 32px;
+    min-height: 100vh;
+  }
+  h1 { font-family: Georgia, serif; font-size: 22px; color: #EFE3CE; margin-bottom: 6px; font-weight: 400; }
+  .page-subtitle { font-size: 13px; color: #9c9c9b; margin-bottom: 28px; line-height: 1.5; }
+  .page-subtitle strong { color: #F4A261; }
+
+  /* 4-col grid */
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .col-label {
+    font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: #696967; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+  }
+  .badge { padding: 2px 7px; border-radius: 99px; font-size: 8px; font-weight: 700; }
+  .badge-status { background: rgba(255,255,255,0.08); color: #9c9c9b; }
+  .badge-new { background: rgba(196,98,45,0.25); color: #E0905A; }
+
+  /* Screen mockup */
+  .screen {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+
+  /* ═══════════════════════════════════════ */
+  /* A: CURRENT DARK (Cast Iron & Thyme)     */
+  /* ═══════════════════════════════════════ */
+  .dark-screen { background: #121211; }
+  .dark-nav {
+    background: #090908;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .dark-nav-logo { font-family: Georgia, serif; font-size: 12px; color: #EFE3CE; }
+  .dark-hero {
+    padding: 14px;
+    background: linear-gradient(to bottom, #121211, #1F1B19);
+  }
+  .dark-card {
+    background: #1F1B19;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #3A3430;
+    margin-bottom: 10px;
+  }
+  .dark-card-img {
+    width: 100%; height: 100px;
+    background: linear-gradient(135deg, #4A3020, #8B5030, #3A2010);
+    position: relative;
+  }
+  .dark-card-img::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(31,27,25,0.9) 0%, transparent 60%);
+  }
+  .dark-card-body { padding: 10px; }
+  .dark-card-tags { display: flex; gap: 4px; margin-bottom: 5px; }
+  .dark-tag {
+    font-size: 7px; padding: 1px 5px; border-radius: 99px;
+    background: rgba(244,162,97,0.1); color: #A08060;
+    border: 1px solid rgba(244,162,97,0.15);
+  }
+  .dark-card-title { font-family: Georgia, serif; font-size: 13px; color: #EFE3CE; margin-bottom: 5px; }
+  .dark-card-chips { display: flex; gap: 4px; }
+  .dark-chip {
+    font-size: 7.5px; padding: 1px 5px; border-radius: 99px;
+    background: rgba(0,0,0,0.3); color: #A08060;
+  }
+  .dark-cta {
+    background: #F4A261; color: #000;
+    padding: 8px 14px; border-radius: 8px; font-size: 10px; font-weight: 700;
+    display: inline-block; margin-top: 2px;
+  }
+  .dark-section-label {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: #696967; margin-bottom: 6px; margin-top: 10px;
+  }
+  .dark-mini-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+  .dark-mini-card {
+    background: #1F1B19; border-radius: 6px;
+    border: 1px solid #3A3430; overflow: hidden;
+  }
+  .dark-mini-img {
+    width: 100%; height: 40px;
+  }
+  .dark-mini-title { padding: 4px; font-size: 7px; color: #9c9c9b; }
+
+  /* ═══════════════════════════════════════ */
+  /* B: TACTILE ELEGANCE LIGHT (Discover)    */
+  /* ═══════════════════════════════════════ */
+  .te-screen { background: #F5EDD6; }
+  .te-nav {
+    background: #FDF6EC;
+    padding: 10px 14px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid rgba(44,44,44,0.08);
+  }
+  .te-nav-logo { font-family: Georgia, serif; font-size: 12px; color: #2C2C2C; }
+  .te-nav-item { font-size: 8px; color: #5A4A3A; }
+  .te-hero { padding: 14px; }
+  .te-hero-img {
+    width: 100%; height: 110px; border-radius: 10px;
+    background: linear-gradient(135deg, #C86040, #8B3020, #E08050);
+    position: relative; margin-bottom: 10px; overflow: hidden;
+  }
+  .te-hero-img::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(196,98,45,0.8) 0%, transparent 60%);
+  }
+  .te-hero-text {
+    position: absolute; bottom: 0; left: 0; right: 0; padding: 10px;
+  }
+  .te-hero-title { font-family: Georgia, serif; font-size: 14px; color: #FFF9F2; margin-bottom: 3px; }
+  .te-hero-meta { font-size: 8px; color: rgba(255,249,242,0.7); }
+  .te-tag {
+    font-size: 7px; padding: 1px 5px; border-radius: 99px;
+    background: rgba(196,98,45,0.12); color: #C4622D;
+    border: 1px solid rgba(196,98,45,0.2);
+  }
+  .te-tags { display: flex; gap: 4px; margin-bottom: 8px; }
+  .te-card {
+    background: #FDF6EC; border-radius: 10px;
+    border: 1px solid rgba(45,80,22,0.12); overflow: hidden;
+  }
+  .te-card-img { width: 100%; height: 70px; background: linear-gradient(135deg, #C86040, #804020); }
+  .te-card-body { padding: 8px; }
+  .te-card-title { font-family: Georgia, serif; font-size: 11px; color: #2C2C2C; margin-bottom: 4px; }
+  .te-chip {
+    font-size: 7px; padding: 1px 5px; border-radius: 99px;
+    background: rgba(45,80,22,0.08); color: #5A4A3A;
+  }
+  .te-chips { display: flex; gap: 3px; }
+  .te-cta {
+    background: #C4622D; color: #FFF9F2;
+    padding: 8px 14px; border-radius: 8px; font-size: 10px; font-weight: 700;
+    display: inline-block; margin-top: 8px;
+  }
+  .te-section-label {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: #7A6555; margin: 10px 0 5px;
+  }
+  .te-mini-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+  .te-mini-card { background: #FDF6EC; border-radius: 6px; border: 1px solid rgba(45,80,22,0.1); overflow: hidden; }
+  .te-mini-img { width: 100%; height: 36px; }
+  .te-mini-title { padding: 4px; font-size: 7px; color: #5A4A3A; }
+
+  /* ═══════════════════════════════════════ */
+  /* C: TACTILE ELEGANCE — Recipe Detail     */
+  /* ═══════════════════════════════════════ */
+  .te-detail-header {
+    padding: 14px 14px 10px;
+    background: #FDF6EC;
+    border-bottom: 1px solid rgba(44,44,44,0.06);
+  }
+  .te-detail-img {
+    width: 100%; height: 100px; border-radius: 8px;
+    background: linear-gradient(135deg, #C86040, #8B3020);
+    margin-bottom: 10px;
+  }
+  .te-detail-title { font-family: Georgia, serif; font-size: 16px; color: #2C2C2C; margin-bottom: 4px; }
+  .te-detail-meta { font-size: 9px; color: #7A6555; display: flex; gap: 10px; }
+  .te-detail-body { padding: 12px 14px; background: #F5EDD6; }
+  .te-ingredients-label {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: #7A6555; margin-bottom: 8px;
+  }
+  .te-ingredient-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(44,44,44,0.06);
+    font-size: 10px; color: #5A4A3A;
+  }
+  .te-ingredient-row .qty { color: #C4622D; min-width: 28px; font-weight: 600; }
+  .te-check {
+    width: 13px; height: 13px; border-radius: 3px;
+    border: 1.5px solid rgba(196,98,45,0.3); flex-shrink: 0;
+  }
+  .te-cook-btn {
+    margin: 10px 14px;
+    background: #2D5016; color: #FFF9F2;
+    padding: 9px; border-radius: 8px;
+    font-size: 10px; font-weight: 700; text-align: center;
+  }
+
+  /* ═══════════════════════════════════════ */
+  /* D: TACTILE ELEGANCE — Cooking Mode      */
+  /* ═══════════════════════════════════════ */
+  .te-cook-screen { background: #FFF9F2; display: flex; flex-direction: column; height: 100%; }
+  .te-cook-nav {
+    padding: 10px 14px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid rgba(44,44,44,0.06);
+    background: #FDF6EC;
+  }
+  .te-cook-exit { font-size: 9px; color: #C4622D; }
+  .te-cook-recipe-name { font-family: Georgia, serif; font-size: 11px; color: #2C2C2C; }
+  .te-cook-step-badge {
+    font-size: 9px; padding: 2px 7px; border-radius: 99px;
+    background: rgba(196,98,45,0.12); color: #C4622D;
+  }
+  .te-cook-main {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    padding: 24px 20px; text-align: center;
+  }
+  .te-cook-step {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #2C2C2C;
+    line-height: 1.35;
+    font-weight: 400;
+  }
+  .te-cook-serving {
+    padding: 8px 14px;
+    display: flex; align-items: center; gap: 8px;
+    border-top: 1px solid rgba(44,44,44,0.06);
+    font-size: 9px; color: #7A6555;
+  }
+  .te-cook-serving span { font-weight: 700; color: #C4622D; }
+  .te-cook-footer {
+    padding: 10px 14px;
+    display: flex; gap: 8px;
+    border-top: 1px solid rgba(44,44,44,0.06);
+    background: #FDF6EC;
+  }
+  .te-cook-prev {
+    flex: 1; padding: 8px; border-radius: 8px;
+    border: 1.5px solid rgba(44,44,44,0.1);
+    font-size: 9px; color: #5A4A3A; text-align: center;
+  }
+  .te-cook-next {
+    flex: 2; padding: 8px; border-radius: 8px;
+    background: #C4622D; color: #FFF9F2;
+    font-size: 9px; font-weight: 700; text-align: center;
+  }
+
+  /* Swatch row */
+  .swatches {
+    display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap;
+  }
+  .swatch {
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+  }
+  .swatch-circle {
+    width: 24px; height: 24px; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .swatch-label { font-size: 7px; color: #696967; }
+
+  /* Caption */
+  .caption {
+    margin-top: 10px;
+    font-size: 10px; line-height: 1.5; color: #696967;
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(196,98,45,0.4);
+    padding: 6px 8px; border-radius: 0 6px 6px 0;
+  }
+  .caption strong { color: #E0905A; display: block; margin-bottom: 2px; }
+
+  /* Bottom info */
+  .info-row {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .info-card {
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-size: 11px; line-height: 1.6; color: #9c9c9b;
+  }
+  .info-card-in { background: rgba(51,133,0,0.07); border: 1px solid rgba(51,133,0,0.18); }
+  .info-card-out { background: rgba(244,162,97,0.07); border: 1px solid rgba(244,162,97,0.18); }
+  .info-card strong { display: block; margin-bottom: 4px; }
+  .info-card-in strong { color: #6fca3e; }
+  .info-card-out strong { color: #F4A261; }
+</style>
+</head>
+<body>
+
+<h1>Screen 4 — Tactile Elegance Palette</h1>
+<p class="page-subtitle">
+  The Gemini brief proposes a light-mode direction: <strong>terracotta · linen · forest green · charcoal</strong>.
+  This is additive — a new 6th palette alongside your existing 5. Nothing gets overwritten.
+  Cherry-pick what you like.
+</p>
+
+<div class="grid">
+
+  <!-- A: Current dark -->
+  <div>
+    <div class="col-label"><span class="badge badge-status">Current</span> Cast Iron &amp; Thyme (dark)</div>
+    <div class="screen dark-screen" style="min-height:500px;">
+      <div class="dark-nav">
+        <span class="dark-nav-logo">🍳 What's Cooking</span>
+        <span style="font-size:8px;color:#696967;">⚡ Premium</span>
+      </div>
+      <div class="dark-hero">
+        <div class="dark-card">
+          <div class="dark-card-img"></div>
+          <div class="dark-card-body">
+            <div class="dark-card-tags">
+              <span class="dark-tag">Italian</span>
+              <span class="dark-tag">High-protein</span>
+            </div>
+            <div class="dark-card-title">Lean Turkey Meatballs</div>
+            <div class="dark-card-chips">
+              <span class="dark-chip">⏱ 35 min</span>
+              <span class="dark-chip">◑ Easy</span>
+              <span class="dark-chip">🔥 280 kcal</span>
+            </div>
+          </div>
+        </div>
+        <div class="dark-cta">Cook from Pantry →</div>
+        <div class="dark-section-label">All Recipes</div>
+        <div class="dark-mini-grid">
+          <div class="dark-mini-card">
+            <div class="dark-mini-img" style="background:linear-gradient(135deg,#4A3020,#6A4030);"></div>
+            <div class="dark-mini-title">Cherry Nut Cake</div>
+          </div>
+          <div class="dark-mini-card">
+            <div class="dark-mini-img" style="background:linear-gradient(135deg,#1A0A00,#3A1A00);"></div>
+            <div class="dark-mini-title">Chocolate Mousse</div>
+          </div>
+          <div class="dark-mini-card">
+            <div class="dark-mini-img" style="background:linear-gradient(135deg,#254020,#3A6028);"></div>
+            <div class="dark-mini-title">Veggie Stir Fry</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swatches">
+      <div class="swatch"><div class="swatch-circle" style="background:#121211;border-color:rgba(255,255,255,0.15);"></div><div class="swatch-label">#121211</div></div>
+      <div class="swatch"><div class="swatch-circle" style="background:#F4A261;"></div><div class="swatch-label">#F4A261</div></div>
+      <div class="swatch"><div class="swatch-circle" style="background:#EFE3CE;"></div><div class="swatch-label">#EFE3CE</div></div>
+      <div class="swatch"><div class="swatch-circle" style="background:#A08060;"></div><div class="swatch-label">#A08060</div></div>
+    </div>
+    <div class="caption"><strong>Status quo.</strong> Moody dark espresso. Premium, editorial, kitchen-at-night feel. Great for browsing in dim environments.</div>
+  </div>
+
+  <!-- B: Tactile Elegance — Discover -->
+  <div>
+    <div class="col-label"><span class="badge badge-new">New</span> Tactile Elegance · Discover</div>
+    <div class="screen te-screen" style="min-height:500px;">
+      <div class="te-nav">
+        <span class="te-nav-logo" style="font-family:Georgia,serif;font-size:12px;color:#2C2C2C;">🍳 What's Cooking</span>
+        <span class="te-nav-item">⚡ Premium</span>
+      </div>
+      <div class="te-hero">
+        <div class="te-hero-img">
+          <div class="te-hero-text">
+            <div class="te-hero-title">Lean Turkey Meatballs</div>
+            <div class="te-hero-meta">⏱ 35 min · ◑ Easy · 🔥 280 kcal</div>
+          </div>
+        </div>
+        <div class="te-tags">
+          <span class="te-tag">Italian</span>
+          <span class="te-tag">High-protein</span>
+        </div>
+        <div class="te-card">
+          <div class="te-card-body">
+            <div class="te-card-title">Quick &amp; Easy — Under 20 min</div>
+            <div class="te-chips">
+              <span class="te-chip">Dark Chocolate Mousse · 20 min</span>
+            </div>
+          </div>
+        </div>
+        <div class="te-cta">Cook from Pantry →</div>
+        <div class="te-section-label">All Recipes</div>
+        <div class="te-mini-grid">
+          <div class="te-mini-card">
+            <div class="te-mini-img" style="background:linear-gradient(135deg,#C86040,#804020);"></div>
+            <div class="te-mini-title">Cherry Nut Cake</div>
+          </div>
+          <div class="te-mini-card">
+            <div class="te-mini-img" style="background:linear-gradient(135deg,#1A0A00,#5A2A10);"></div>
+            <div class="te-mini-title">Chocolate Mousse</div>
+          </div>
+          <div class="te-mini-card">
+            <div class="te-mini-img" style="background:linear-gradient(135deg,#3A6028,#254020);"></div>
+            <div class="te-mini-title">Veggie Stir Fry</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swatches">
+      <div class="swatch"><div class="swatch-circle" style="background:#F5EDD6;border-color:rgba(0,0,0,0.1);"></div><div class="swatch-label">#F5EDD6</div></div>
+      <div class="swatch"><div class="swatch-circle" style="background:#C4622D;"></div><div class="swatch-label">#C4622D</div></div>
+      <div class="swatch"><div class="swatch-circle" style="background:#2D5016;"></div><div class="swatch-label">#2D5016</div></div>
+      <div class="swatch"><div class="swatch-circle" style="background:#2C2C2C;"></div><div class="swatch-label">#2C2C2C</div></div>
+    </div>
+    <div class="caption"><strong>Warm &amp; editorial.</strong> Linen backgrounds, terracotta accent, forest green for depth. Feels like a premium independent food magazine. Kitchen-in-daylight.</div>
+  </div>
+
+  <!-- C: Tactile Elegance — Recipe Detail -->
+  <div>
+    <div class="col-label"><span class="badge badge-new">New</span> Tactile Elegance · Recipe Detail</div>
+    <div class="screen" style="background:#F5EDD6;min-height:500px;display:flex;flex-direction:column;">
+      <div style="background:#FDF6EC;padding:10px 14px;border-bottom:1px solid rgba(44,44,44,0.06);font-size:9px;color:#C4622D;">← Back to recipes</div>
+      <div class="te-detail-header">
+        <div class="te-detail-img"></div>
+        <div class="te-detail-title">Rice Krispy Squares</div>
+        <div class="te-detail-meta">
+          <span>⏱ 25 min</span>
+          <span>◑ Easy</span>
+          <span>🔥 180 kcal</span>
+        </div>
+      </div>
+      <div class="te-detail-body" style="flex:1;">
+        <div class="te-ingredients-label">Ingredients — serves 4</div>
+        <div class="te-ingredient-row">
+          <div class="te-check"></div>
+          <div class="qty">¼ c.</div>
+          <div>butter</div>
+        </div>
+        <div class="te-ingredient-row">
+          <div class="te-check" style="background:rgba(196,98,45,0.15);border-color:#C4622D;"></div>
+          <div class="qty">10 oz.</div>
+          <div style="text-decoration:line-through;opacity:0.5;">marshmallows</div>
+        </div>
+        <div class="te-ingredient-row">
+          <div class="te-check"></div>
+          <div class="qty">6 c.</div>
+          <div>Rice Krispies</div>
+        </div>
+        <div style="margin-top:8px;padding:8px;background:rgba(45,80,22,0.06);border-radius:6px;border-left:2px solid #2D5016;font-size:9px;color:#2D5016;">
+          <em style="font-family:Georgia,serif;">"Salt your pasta water generously — it should taste like the sea."</em>
+          <div style="font-size:7px;color:#7A6555;margin-top:2px;">— Marco R.</div>
+        </div>
+      </div>
+      <div class="te-cook-btn">Start Cooking Mode →</div>
+    </div>
+    <div class="caption"><strong>High contrast &amp; legible.</strong> Charcoal text on linen — WCAG AA compliant. Forest green for emphasis. Terracotta for quantities and interactive cues. Great in a bright kitchen.</div>
+  </div>
+
+  <!-- D: Tactile Elegance — Cooking Mode -->
+  <div>
+    <div class="col-label"><span class="badge badge-new">New</span> Tactile Elegance · Cooking Mode</div>
+    <div class="screen" style="min-height:500px;background:#FFF9F2;display:flex;flex-direction:column;">
+      <div class="te-cook-nav">
+        <span class="te-cook-exit">✕ Exit</span>
+        <span class="te-cook-recipe-name">Dark Chocolate Mousse</span>
+        <span class="te-cook-step-badge">1 / 5</span>
+      </div>
+      <!-- Progress bar -->
+      <div style="height:3px;background:rgba(44,44,44,0.08);">
+        <div style="height:100%;width:20%;background:#C4622D;border-radius:0 2px 2px 0;"></div>
+      </div>
+      <div class="te-cook-serving">
+        <span>SERVINGS</span>
+        <span>—</span>
+        <span>6</span>
+        <span>+</span>
+      </div>
+      <div class="te-cook-main">
+        <div class="te-cook-step">
+          Melt chocolate gently; cool until just warm to the touch.
+        </div>
+      </div>
+      <!-- Step tracker -->
+      <div style="padding:6px 14px;display:flex;gap:6px;justify-content:center;">
+        <div style="width:20px;height:3px;border-radius:99px;background:#C4622D;"></div>
+        <div style="width:8px;height:3px;border-radius:99px;background:rgba(44,44,44,0.15);"></div>
+        <div style="width:8px;height:3px;border-radius:99px;background:rgba(44,44,44,0.15);"></div>
+        <div style="width:8px;height:3px;border-radius:99px;background:rgba(44,44,44,0.15);"></div>
+        <div style="width:8px;height:3px;border-radius:99px;background:rgba(44,44,44,0.15);"></div>
+      </div>
+      <!-- All steps sidebar hint -->
+      <div style="padding:0 14px 8px;font-size:8px;color:#7A6555;text-align:center;">
+        Steps: Melt &amp; cool · Separate eggs · Whip cream · Fold &amp; chill
+      </div>
+      <div class="te-cook-footer">
+        <div class="te-cook-prev">← Prev</div>
+        <div class="te-cook-next">Next Step →</div>
+      </div>
+    </div>
+    <div class="caption">
+      <strong>Maximum legibility.</strong>
+      Charcoal on pure cream — the highest contrast combo in the palette. Large serif type at 22px reads from 1m away with floury hands. The Chef's Tip and steps stay in the warm TE family.
+    </div>
+  </div>
+
+</div>
+
+<!-- Bottom: what's in vs out -->
+<div class="info-row">
+  <div class="info-card info-card-in">
+    <strong>✓ What the Tactile Elegance palette adds</strong>
+    Terracotta (#C4622D) replaces saffron as the primary interactive color — warmer, more "clay pot" than "orange spice." Forest green (#2D5016) provides a cool complement without going blue. Linen/cream backgrounds (#F5EDD6) make the typography feel printed on parchment. Charcoal text (#2C2C2C) passes WCAG AA in every surface combination.
+  </div>
+  <div class="info-card info-card-out">
+    <strong>→ How to cherry-pick</strong>
+    You can adopt just the terracotta accent (replace saffron in dark mode), or just enable the full light-mode TE palette as a toggle option, or cherry-pick specific screen treatments. The token system makes all three options possible without touching existing palettes. The 5 existing palettes remain 100% unchanged regardless of what you pick.
+  </div>
+</div>
+
+</body>
+</html>

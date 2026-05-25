@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fleur-de-lis Variations</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,600&family=Inter:wght@200;300;400&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #1a1410;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px 48px;
+    font-family: Inter, sans-serif;
+    gap: 10px;
+  }
+
+  .page-label {
+    font-size: 9px; letter-spacing: 3px; text-transform: uppercase;
+    color: #5a3820; margin-bottom: 12px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    gap: 14px;
+  }
+
+  .col { display: flex; flex-direction: column; gap: 6px; }
+  .col-label {
+    font-size: 8px; letter-spacing: 3px; text-transform: uppercase;
+    color: #7a5030; text-align: center;
+  }
+
+  /* ── BASE CARD ── */
+  .card {
+    width: 260px;
+    background: #EFE4CE;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+    padding: 22px 20px 20px;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover { border-color: rgba(180,130,110,0.4); }
+
+  /* trellis */
+  .trellis {
+    position: absolute; inset: 0; pointer-events: none; z-index: 0;
+    background-image:
+      repeating-linear-gradient(45deg,  rgba(180,120,100,0.08) 0px, rgba(180,120,100,0.08) 1px, transparent 1px, transparent 14px),
+      repeating-linear-gradient(-45deg, rgba(180,120,100,0.08) 0px, rgba(180,120,100,0.08) 1px, transparent 1px, transparent 14px);
+  }
+  /* pastel washes */
+  .washes {
+    position: absolute; inset: 0; pointer-events: none; z-index: 1;
+    background:
+      radial-gradient(ellipse 70% 50% at 20% 15%, rgba(210,160,148,0.22) 0%, transparent 65%),
+      radial-gradient(ellipse 50% 40% at 85% 80%, rgba(148,172,148,0.18) 0%, transparent 60%);
+  }
+
+  .inner { position: relative; z-index: 2; flex: 1; display: flex; flex-direction: column; }
+
+  /* ── SHARED TEXT ── */
+  .recipe-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0.87;
+    letter-spacing: -1px;
+    color: #2E1A0E;
+  }
+  .sub {
+    font-family: Inter, sans-serif;
+    font-size: 7px; font-weight: 200;
+    text-transform: uppercase; letter-spacing: 5px;
+    color: rgba(180,120,100,0.65);
+    margin-top: 8px; display: block;
+  }
+  .desc {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic; font-size: 13px;
+    color: rgba(46,26,14,0.55); line-height: 1.7;
+    margin-top: 10px;
+  }
+
+  /* ── SVG FLEUR-DE-LIS (reusable inline) ── */
+  /* drawn in a 20×26 coordinate space, origin top-center */
+
+  /* ───────────────────────────────────────
+     VARIANT A
+     Single fleur-de-lis centered above title
+     like a heraldic stamp / seal
+  ─────────────────────────────────────── */
+  .fdl-above {
+    display: flex; flex-direction: column; align-items: center;
+    margin-bottom: 4px;
+  }
+  .fdl-above svg { display: block; }
+  .fdl-thin-rule {
+    width: 60px; height: 1px;
+    background: rgba(160,100,80,0.4);
+    margin-top: 3px;
+  }
+
+  /* ───────────────────────────────────────
+     VARIANT B
+     Rule — fleur — rule as title underline
+     The line is always BELOW the title, never cutting through it
+  ─────────────────────────────────────── */
+  .fdl-underline {
+    display: flex; align-items: center; gap: 6px;
+    margin-top: 9px;
+  }
+  .fdl-underline .rule-left,
+  .fdl-underline .rule-right {
+    flex: 1; height: 1px;
+    background: rgba(160,100,80,0.45);
+  }
+
+  /* ───────────────────────────────────────
+     VARIANT C
+     Repeating border strip between photo zone and text
+     Small fleurs spaced evenly across full width
+  ─────────────────────────────────────── */
+  .fdl-strip {
+    width: 100%; display: flex;
+    align-items: center; justify-content: space-between;
+    padding: 6px 0;
+    border-top: 1px solid rgba(160,100,80,0.25);
+    border-bottom: 1px solid rgba(160,100,80,0.25);
+    margin: 14px 0 12px;
+  }
+  .fdl-strip .dot {
+    width: 3px; height: 3px; border-radius: 50%;
+    background: rgba(160,100,80,0.35);
+  }
+
+  /* ───────────────────────────────────────
+     VARIANT D
+     Framed border: thin rule with fleur at corners + midpoints
+  ─────────────────────────────────────── */
+  .frame-border {
+    position: absolute; inset: 10px; z-index: 2; pointer-events: none;
+  }
+  /* SVG frame drawn absolutely inside card */
+</style>
+</head>
+<body>
+
+<div class="page-label">Fleur-de-lis · 4 placement variations · click to approve</div>
+
+<div class="grid">
+
+  <!-- ── VARIANT A: Fleur above title as heraldic stamp ── -->
+  <div class="col">
+    <div class="col-label">A — herald above title</div>
+    <div class="card" onclick="this.style.outline='2px solid rgba(180,120,100,0.7)'">
+      <div class="trellis"></div>
+      <div class="washes"></div>
+      <div class="inner">
+
+        <!-- photo placeholder -->
+        <div style="width:100%;height:110px;background:linear-gradient(to bottom, rgba(180,130,90,0.4), transparent);margin-bottom:16px;border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:36px">🥐</div>
+
+        <!-- fleur above title -->
+        <div class="fdl-above">
+          <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- central top petal -->
+            <path d="M10 0 C8 2, 7 6, 8 9 C9 11, 10 11, 10 11 C10 11, 11 11, 12 9 C13 6, 12 2, 10 0Z" fill="rgba(160,100,80,0.65)"/>
+            <!-- left wing petal -->
+            <path d="M10 11 C8 10, 4 10, 2 8 C0 6, 1 2, 3 2 C5 2, 6 5, 7 8 C8 10, 9 11, 10 11Z" fill="rgba(160,100,80,0.65)"/>
+            <!-- right wing petal (mirror) -->
+            <path d="M10 11 C12 10, 16 10, 18 8 C20 6, 19 2, 17 2 C15 2, 14 5, 13 8 C12 10, 11 11, 10 11Z" fill="rgba(160,100,80,0.65)"/>
+            <!-- collar band -->
+            <rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.65)"/>
+            <!-- base droplet -->
+            <path d="M8 14 C7 17, 8 21, 10 22 C12 21, 13 17, 12 14Z" fill="rgba(160,100,80,0.65)"/>
+            <!-- base collar cap -->
+            <rect x="6" y="22" width="8" height="1.5" rx="0.5" fill="rgba(160,100,80,0.5)"/>
+          </svg>
+          <div class="fdl-thin-rule"></div>
+        </div>
+
+        <div class="recipe-title">Crois-<br>sant</div>
+        <span class="sub">Boulangerie · Viennoiserie</span>
+
+        <p class="desc">Paris doesn't wake up. It breathes in slowly — coffee, cast iron, the sound of a paper bag.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ── VARIANT B: Rule–fleur–rule as title underline ── -->
+  <div class="col">
+    <div class="col-label">B — underline divider</div>
+    <div class="card" onclick="this.style.outline='2px solid rgba(180,120,100,0.7)'">
+      <div class="trellis"></div>
+      <div class="washes"></div>
+      <div class="inner">
+
+        <div style="width:100%;height:110px;background:linear-gradient(to bottom, rgba(180,130,90,0.4), transparent);margin-bottom:16px;border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:36px">🥐</div>
+
+        <!-- title first, then ornament below — line never cuts through text -->
+        <div class="recipe-title">Crois-<br>sant</div>
+
+        <!-- fleur underline rule below the title -->
+        <div class="fdl-underline">
+          <div class="rule-left"></div>
+          <svg width="16" height="20" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 0 C8 2, 7 6, 8 9 C9 11, 10 11, 10 11 C10 11, 11 11, 12 9 C13 6, 12 2, 10 0Z" fill="rgba(160,100,80,0.6)"/>
+            <path d="M10 11 C8 10, 4 10, 2 8 C0 6, 1 2, 3 2 C5 2, 6 5, 7 8 C8 10, 9 11, 10 11Z" fill="rgba(160,100,80,0.6)"/>
+            <path d="M10 11 C12 10, 16 10, 18 8 C20 6, 19 2, 17 2 C15 2, 14 5, 13 8 C12 10, 11 11, 10 11Z" fill="rgba(160,100,80,0.6)"/>
+            <rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.6)"/>
+            <path d="M8 14 C7 17, 8 21, 10 22 C12 21, 13 17, 12 14Z" fill="rgba(160,100,80,0.6)"/>
+            <rect x="6" y="22" width="8" height="1.5" rx="0.5" fill="rgba(160,100,80,0.5)"/>
+          </svg>
+          <div class="rule-right"></div>
+        </div>
+
+        <span class="sub">Boulangerie · Viennoiserie</span>
+        <p class="desc">Paris doesn't wake up. It breathes in slowly — coffee, cast iron, the sound of a paper bag.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ── VARIANT C: Repeating strip as section divider ── -->
+  <div class="col">
+    <div class="col-label">C — repeating strip border</div>
+    <div class="card" onclick="this.style.outline='2px solid rgba(180,120,100,0.7)'">
+      <div class="trellis"></div>
+      <div class="washes"></div>
+      <div class="inner">
+
+        <div style="width:100%;height:110px;background:linear-gradient(to bottom, rgba(180,130,90,0.4), transparent);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:36px">🥐</div>
+
+        <!-- repeating fleur-de-lis strip as photo/text divider -->
+        <div class="fdl-strip">
+          <!-- 7 fleurs across the width with dots between -->
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.5)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.5)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.5)"/></svg>
+          <div class="dot"></div>
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.5)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.5)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.5)"/></svg>
+          <div class="dot"></div>
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.5)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.5)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.5)"/></svg>
+          <div class="dot"></div>
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.65)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.65)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.65)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.65)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.65)"/></svg>
+          <div class="dot"></div>
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.5)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.5)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.5)"/></svg>
+          <div class="dot"></div>
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.5)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.5)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.5)"/></svg>
+          <div class="dot"></div>
+          <svg width="14" height="18" viewBox="0 0 20 26" fill="none"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.5)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.5)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.5)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.5)"/></svg>
+        </div>
+
+        <div class="recipe-title">Crois-<br>sant</div>
+        <span class="sub">Boulangerie · Viennoiserie</span>
+        <p class="desc">Paris doesn't wake up. It breathes in slowly — coffee, cast iron, the sound of a paper bag.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ── VARIANT D: SVG frame with fleur at corners + midpoints ── -->
+  <div class="col">
+    <div class="col-label">D — corner frame accents</div>
+    <div class="card" onclick="this.style.outline='2px solid rgba(180,120,100,0.7)'">
+      <div class="trellis"></div>
+      <div class="washes"></div>
+
+      <!-- SVG frame overlay: thin rule rectangle + fleur-de-lis at corners + midpoints -->
+      <svg style="position:absolute;inset:8px;z-index:2;pointer-events:none" width="calc(100% - 16px)" height="calc(100% - 16px)" viewBox="0 0 244 324" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- frame lines — segments with gaps at corner/mid positions so fleurs sit cleanly -->
+        <!-- top -->
+        <line x1="16" y1="6" x2="112" y2="6" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <line x1="132" y1="6" x2="228" y2="6" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <!-- bottom -->
+        <line x1="16" y1="318" x2="112" y2="318" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <line x1="132" y1="318" x2="228" y2="318" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <!-- left -->
+        <line x1="6" y1="16" x2="6" y2="146" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <line x1="6" y1="178" x2="6" y2="308" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <!-- right -->
+        <line x1="238" y1="16" x2="238" y2="146" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+        <line x1="238" y1="178" x2="238" y2="308" stroke="rgba(160,100,80,0.35)" stroke-width="0.8"/>
+
+        <!-- fleur-de-lis at TL corner, centered at (6,6), size ~20x26 → scale 0.6 -->
+        <g transform="translate(-4,-5) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.55)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.55)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.55)"/></g>
+        <!-- TR corner -->
+        <g transform="translate(218,-5) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.55)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.55)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.55)"/></g>
+        <!-- BL corner -->
+        <g transform="translate(-4, 305) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.55)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.55)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.55)"/></g>
+        <!-- BR corner -->
+        <g transform="translate(218, 305) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.55)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.55)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.55)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.55)"/></g>
+        <!-- top-mid -->
+        <g transform="translate(112,-5) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.45)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.45)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.45)"/></g>
+        <!-- bot-mid -->
+        <g transform="translate(112,305) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.45)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.45)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.45)"/></g>
+        <!-- left-mid -->
+        <g transform="translate(-4,149) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.45)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.45)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.45)"/></g>
+        <!-- right-mid -->
+        <g transform="translate(218,149) scale(0.6)"><path d="M10 0 C8 2,7 6,8 9 C9 11,10 11,10 11 C10 11,11 11,12 9 C13 6,12 2,10 0Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C8 10,4 10,2 8 C0 6,1 2,3 2 C5 2,6 5,7 8 C8 10,9 11,10 11Z" fill="rgba(160,100,80,0.45)"/><path d="M10 11 C12 10,16 10,18 8 C20 6,19 2,17 2 C15 2,14 5,13 8 C12 10,11 11,10 11Z" fill="rgba(160,100,80,0.45)"/><rect x="5" y="11.5" width="10" height="2.5" rx="1" fill="rgba(160,100,80,0.45)"/><path d="M8 14 C7 17,8 21,10 22 C12 21,13 17,12 14Z" fill="rgba(160,100,80,0.45)"/></g>
+      </svg>
+
+      <div class="inner" style="padding:8px">
+
+        <div style="width:100%;height:110px;background:linear-gradient(to bottom, rgba(180,130,90,0.4), transparent);margin-bottom:16px;border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:36px">🥐</div>
+
+        <div class="recipe-title">Crois-<br>sant</div>
+        <span class="sub">Boulangerie · Viennoiserie</span>
+        <p class="desc">Paris doesn't wake up. It breathes in slowly — coffee, cast iron, the sound of a paper bag.</p>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#5a3820;margin-top:14px;text-align:center">
+  Pick one or combine · Can mix B underline + D corners
+</div>
+
+</body>
+</html>

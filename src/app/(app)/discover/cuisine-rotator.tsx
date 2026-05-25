@@ -25,12 +25,12 @@ function CuisineCard({ cuisine }: { cuisine: CuisineInfo }) {
       href={`/cuisines/${cuisine.slug}`}
       className="rounded-2xl overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-lg text-left shrink-0 flex flex-col"
       style={{
-        width: 160,
+        width: 210,
         border: "1px solid #3A2416",
         background: "#1C1209",
       }}
     >
-      <div className="relative overflow-hidden" style={{ height: 112 }}>
+      <div className="relative overflow-hidden" style={{ height: 150 }}>
         <img
           src={cuisine.heroImage}
           alt={cuisine.name}
@@ -39,29 +39,28 @@ function CuisineCard({ cuisine }: { cuisine: CuisineInfo }) {
         />
         <div
           className="absolute inset-0"
-          style={{ background: "linear-gradient(to top, rgba(20,10,4,0.85) 0%, rgba(0,0,0,0.1) 55%, transparent 100%)" }}
+          style={{ background: "linear-gradient(to top, rgba(20,10,4,0.88) 0%, rgba(0,0,0,0.1) 55%, transparent 100%)" }}
         />
-        <div className="absolute bottom-0 left-0 right-0 px-2.5 pb-2">
+        <div className="absolute bottom-0 left-0 right-0 px-3 pb-2.5">
           <div className="flex items-end justify-between gap-1">
             <h3 className="text-white font-bold text-sm leading-tight drop-shadow-sm">{cuisine.name}</h3>
             <span className="text-base shrink-0">{flagEmoji(cuisine.flag)}</span>
           </div>
         </div>
-        <div className="absolute top-0 left-0 right-0 h-0.5" style={{ background: cuisine.color }} />
       </div>
-      <div className="px-2.5 py-2 flex flex-col flex-1">
+      <div className="px-3 py-2.5 flex flex-col flex-1">
         <p
-          className="text-xs font-medium italic mb-1.5 line-clamp-1"
-          style={{ color: cuisine.color }}
+          className="text-xs font-medium italic mb-2 line-clamp-2"
+          style={{ color: "#A69180" }}
         >
           &ldquo;{cuisine.tagline}&rdquo;
         </p>
         <div className="flex flex-wrap gap-1">
-          {cuisine.keyDishes.slice(0, 2).map((dish) => (
+          {cuisine.keyDishes.slice(0, 3).map((dish) => (
             <span
               key={dish}
               className="text-xs px-1.5 py-0.5 rounded-full"
-              style={{ background: "rgba(255,255,255,0.07)", color: cuisine.color, fontSize: "10px" }}
+              style={{ background: "rgba(255,255,255,0.09)", color: "rgba(255,255,255,0.55)", fontSize: "10px" }}
             >
               {dish}
             </span>

@@ -1,0 +1,120 @@
+<style>
+  .mock { background: #1A120A; border-radius: 10px; padding: 14px; color: #F5EDE0; font-size: 12px; max-width: 700px; margin: 0 auto; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  .label { font-size: 9px; letter-spacing: 1.2px; text-transform: uppercase; color: #8B7355; }
+  .bar { height: 3px; border-radius: 2px; background: #2C1F10; margin-top: 6px; }
+  .bar-fill { height: 3px; border-radius: 2px; }
+  .pcount { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .pcount-label { font-size: 10px; color: #8B7355; }
+  .pcount-val { background: #2C1F10; border-radius: 6px; padding: 3px 12px; font-size: 11px; font-weight: 700; color: #F5EDE0; }
+  .pcount-btn { width: 20px; height: 20px; border-radius: 50%; border: 1px solid #3A2A1A; color: #8B7355; background: #2C1F10; font-size: 13px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  .divider { font-size: 9px; letter-spacing: 1.2px; text-transform: uppercase; color: #8B7355; display: flex; align-items: center; gap: 6px; margin: 14px 0 8px; }
+  .divider::after { content:''; flex:1; height:1px; background:#2C1F10; }
+  /* Day grid */
+  .day-grid { display: grid; grid-template-columns: 56px repeat(5, 1fr); gap: 4px; font-size: 10px; }
+  .dg-header { text-align: center; padding: 4px 2px; font-size: 9px; color: #8B7355; border-radius: 4px; cursor: pointer; }
+  .dg-header.active { color: #E67E22; background: #2C1F10; }
+  .dg-header.empty { opacity: 0.35; }
+  .dg-row-label { color: #8B7355; padding: 5px 4px; font-size: 9px; display: flex; align-items: center; }
+  .dg-cell { text-align: center; font-weight: 600; color: #F5EDE0; padding: 5px 2px; background: #2C1F10; border-radius: 4px; }
+  .dg-cell.active { background: #2C1F10; outline: 1px solid #E67E22; color: #F5EDE0; }
+  .dg-cell.empty { opacity: 0.35; color: #8B7355; }
+  /* Per-person detail cards */
+  .row4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .macro-cell { background: #2C1F10; border-radius: 8px; padding: 10px 12px 8px; }
+  .macro-big { font-size: 26px; font-weight: 700; font-family: 'JetBrains Mono', monospace; line-height: 1.1; }
+  .macro-unit { font-size: 10px; color: #8B7355; margin-top: 2px; }
+</style>
+
+<h2>Macro Breakdown — Combined Design</h2>
+<p class="subtitle">B grid always visible · clicking a day updates per-person detail below</p>
+
+<div class="mockup">
+  <div class="mockup-header">Plan Builder — Macro Panel</div>
+  <div class="mockup-body" style="padding:0">
+    <div class="mock">
+
+      <!-- Person count control -->
+      <div class="pcount">
+        <span class="pcount-label">Cooking for</span>
+        <div class="pcount-btn">−</div>
+        <span class="pcount-val">2 people</span>
+        <div class="pcount-btn">+</div>
+        <span style="font-size:9px;color:#8B7355;margin-left:auto">↑ values shown per person · per day</span>
+      </div>
+
+      <!-- Day × Macro grid (always visible) -->
+      <div class="day-grid">
+        <!-- Header row -->
+        <div></div>
+        <div class="dg-header active">DAY 1</div>
+        <div class="dg-header">DAY 2</div>
+        <div class="dg-header">DAY 3</div>
+        <div class="dg-header empty">DAY 4</div>
+        <div class="dg-header empty">DAY 5</div>
+
+        <!-- Energy -->
+        <div class="dg-row-label">⚡ kcal</div>
+        <div class="dg-cell active">612</div>
+        <div class="dg-cell">588</div>
+        <div class="dg-cell">701</div>
+        <div class="dg-cell empty">—</div>
+        <div class="dg-cell empty">—</div>
+
+        <!-- Protein -->
+        <div class="dg-row-label">🥩 prot</div>
+        <div class="dg-cell active">52g</div>
+        <div class="dg-cell">48g</div>
+        <div class="dg-cell">61g</div>
+        <div class="dg-cell empty">—</div>
+        <div class="dg-cell empty">—</div>
+
+        <!-- Carbs -->
+        <div class="dg-row-label">🌾 carb</div>
+        <div class="dg-cell active">71g</div>
+        <div class="dg-cell">65g</div>
+        <div class="dg-cell">58g</div>
+        <div class="dg-cell empty">—</div>
+        <div class="dg-cell empty">—</div>
+
+        <!-- Fat -->
+        <div class="dg-row-label">🥑 fat</div>
+        <div class="dg-cell active">28g</div>
+        <div class="dg-cell">31g</div>
+        <div class="dg-cell">24g</div>
+        <div class="dg-cell empty">—</div>
+        <div class="dg-cell empty">—</div>
+      </div>
+
+      <!-- Per-person detail — updates on day click -->
+      <div class="divider">Day 1 detail — per person</div>
+      <div class="row4">
+        <div class="macro-cell">
+          <div class="label">Energy</div>
+          <div class="macro-big" style="color:#E67E22">612</div>
+          <div class="macro-unit">kcal / person</div>
+          <div class="bar"><div class="bar-fill" style="width:62%;background:#E67E22"></div></div>
+        </div>
+        <div class="macro-cell">
+          <div class="label">Protein</div>
+          <div class="macro-big" style="color:#AEB873">52</div>
+          <div class="macro-unit">g / person</div>
+          <div class="bar"><div class="bar-fill" style="width:78%;background:#AEB873"></div></div>
+        </div>
+        <div class="macro-cell">
+          <div class="label">Carbs</div>
+          <div class="macro-big" style="color:#E0B85A">71</div>
+          <div class="macro-unit">g / person</div>
+          <div class="bar"><div class="bar-fill" style="width:55%;background:#E0B85A"></div></div>
+        </div>
+        <div class="macro-cell">
+          <div class="label">Fat</div>
+          <div class="macro-big" style="color:#C8522A">28</div>
+          <div class="macro-unit">g / person</div>
+          <div class="bar"><div class="bar-fill" style="width:80%;background:#C8522A"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

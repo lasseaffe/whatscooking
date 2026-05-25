@@ -18,7 +18,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
     return (
       <div
         className="w-full flex flex-col overflow-y-auto rounded-2xl mx-auto"
-        style={{ height: 480, maxWidth: 480, background: "#1C1209", margin: "16px auto" }}
+        style={{ height: 560, maxWidth: 540, background: "#1C1209", margin: "16px auto" }}
       >
         <MatchScreen
           liked={liked}
@@ -35,8 +35,8 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
       data-tour="swipe-deck"
       className="w-full flex flex-col rounded-2xl overflow-hidden shadow-2xl"
       style={{
-        height: 520,
-        maxWidth: 480,
+        height: 600,
+        maxWidth: 540,
         margin: "16px auto",
         background: "#1C1209",
         border: "1px solid #2A1804",

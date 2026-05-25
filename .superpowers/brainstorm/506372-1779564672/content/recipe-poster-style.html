@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Poster Style</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d0d0c; color: #EFE3CE; font-family: Inter, sans-serif; padding: 24px; }
+  h2 { font-family: 'Georgia', serif; font-size: 22px; color: #EFE3CE; margin-bottom: 6px; text-align:center; }
+  .subtitle { color: #a08060; font-size: 13px; text-align: center; margin-bottom: 28px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 900px; margin: 0 auto 28px; }
+
+  /* --- OPTION A: Typography-dominant split --- */
+  .poster-a {
+    background: #1a0f0a;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+    position: relative;
+  }
+  .poster-a:hover { border-color: #B07D56; }
+  .poster-a.selected { border-color: #B07D56; box-shadow: 0 0 0 2px #B07D5640; }
+  .poster-a-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 320px;
+  }
+  .poster-a-left {
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1a0f0a;
+  }
+  .poster-a-label { font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: #c8a97a; margin-bottom: 12px; }
+  .poster-a-title { font-family: 'Georgia', serif; font-size: 36px; line-height: 1.1; color: #EFE3CE; margin-bottom: 10px; }
+  .poster-a-origin { font-size: 10px; color: #6b5040; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
+  .poster-a-ingredients { list-style: none; }
+  .poster-a-ingredients li { font-size: 11px; color: #a08060; padding: 4px 0; border-bottom: 1px solid #2a1a10; }
+  .poster-a-meta { display: flex; gap: 12px; margin-top: 16px; }
+  .poster-a-meta span { font-size: 10px; color: #6b5040; font-family: 'Courier New', monospace; }
+  .poster-a-right {
+    background: linear-gradient(135deg, #3d1f0a 0%, #1a0a04 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .poster-a-emoji { font-size: 72px; opacity: 0.9; filter: drop-shadow(0 4px 20px rgba(0,0,0,0.6)); }
+  .poster-a-stripe {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 4px;
+    background: #c8a97a;
+  }
+  .poster-a-badge {
+    position: absolute;
+    bottom: 16px; left: 16px;
+    background: #c8a97a;
+    color: #0d0d0c;
+    font-size: 9px;
+    font-family: 'Courier New', monospace;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+  }
+
+  /* --- OPTION B: Full bleed color immersion --- */
+  .poster-b {
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+    min-height: 320px;
+    position: relative;
+    background: linear-gradient(160deg, #0a1f0a 0%, #051005 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 28px;
+  }
+  .poster-b:hover { border-color: #7ab87a; }
+  .poster-b.selected { border-color: #7ab87a; box-shadow: 0 0 0 2px #7ab87a40; }
+  .poster-b-noise {
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+  .poster-b-emoji { font-size: 80px; text-align: center; margin-bottom: 16px; filter: drop-shadow(0 0 30px rgba(122,184,122,0.4)); }
+  .poster-b-label { font-size: 9px; letter-spacing: 4px; text-transform: uppercase; color: #4a8b4a; margin-bottom: 8px; }
+  .poster-b-title { font-family: 'Georgia', serif; font-size: 42px; line-height: 1; color: #d4f0d4; margin-bottom: 6px; }
+  .poster-b-sub { font-size: 12px; color: #4a8b4a; letter-spacing: 1px; }
+  .poster-b-line { width: 40px; height: 2px; background: #7ab87a; margin: 14px 0; }
+  .poster-b-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .poster-b-tags span { font-size: 10px; color: #4a8b4a; border: 1px solid #2a5a2a; padding: 3px 8px; border-radius: 20px; font-family: 'Courier New', monospace; }
+
+  /* --- OPTION C: Diagonal editorial split --- */
+  .poster-c {
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+    min-height: 320px;
+    position: relative;
+    background: #12101e;
+  }
+  .poster-c:hover { border-color: #b87ab8; }
+  .poster-c.selected { border-color: #b87ab8; box-shadow: 0 0 0 2px #b87ab840; }
+  .poster-c-diagonal {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #1a1228 50%, #0d0d18 50%);
+  }
+  .poster-c-accent {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #b87ab8, #7ab8b8);
+  }
+  .poster-c-content {
+    position: relative;
+    z-index: 1;
+    padding: 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+  }
+  .poster-c-top { }
+  .poster-c-number { font-family: 'Georgia', serif; font-size: 80px; color: rgba(184,122,184,0.15); line-height: 1; margin-bottom: -20px; }
+  .poster-c-label { font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: #7a6b8b; }
+  .poster-c-title { font-family: 'Georgia', serif; font-size: 38px; line-height: 1.1; color: #e8d4e8; margin: 8px 0; }
+  .poster-c-origin { font-size: 11px; color: #7a6b8b; letter-spacing: 2px; }
+  .poster-c-bottom { }
+  .poster-c-emoji { font-size: 56px; text-align: right; }
+  .poster-c-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 16px; }
+  .poster-c-stat { text-align: center; }
+  .poster-c-stat-val { font-family: 'Courier New', monospace; font-size: 16px; color: #b87ab8; }
+  .poster-c-stat-key { font-size: 9px; color: #4a3b5a; text-transform: uppercase; letter-spacing: 1px; }
+
+  /* --- OPTION D: Minimal ink on paper --- */
+  .poster-d {
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+    min-height: 320px;
+    background: #F4EDD9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px;
+  }
+  .poster-d:hover { border-color: #8B6B45; }
+  .poster-d.selected { border-color: #8B6B45; box-shadow: 0 0 0 2px #8B6B4540; }
+  .poster-d-top-line { width: 100%; height: 2px; background: #2a1a0a; margin-bottom: 20px; }
+  .poster-d-label { font-size: 9px; letter-spacing: 4px; text-transform: uppercase; color: #8B6B45; margin-bottom: 10px; }
+  .poster-d-title { font-family: 'Georgia', serif; font-size: 48px; line-height: 1; color: #1a0e06; margin-bottom: 4px; }
+  .poster-d-sub { font-size: 12px; color: #8B6B45; font-style: italic; }
+  .poster-d-divider { border: none; border-top: 1px solid #c8b89a; margin: 16px 0; }
+  .poster-d-ingredients { column-count: 2; column-gap: 16px; }
+  .poster-d-ingredients li { font-size: 11px; color: #3a2a1a; padding: 3px 0; list-style: none; border-bottom: 1px solid #e8ddc8; }
+  .poster-d-bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+  .poster-d-meta { font-family: 'Courier New', monospace; font-size: 10px; color: #8B6B45; }
+  .poster-d-emoji { font-size: 52px; }
+  .poster-d-bottom-line { width: 100%; height: 2px; background: #2a1a0a; margin-top: 20px; }
+
+  .option-label {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #6b5040;
+    font-family: 'Courier New', monospace;
+  }
+
+  .confirm-bar {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px;
+    border-top: 1px solid #2a1a10;
+    color: #6b5040;
+    font-size: 12px;
+  }
+</style>
+<script>
+  function select(el, color) {
+    document.querySelectorAll('.poster-a,.poster-b,.poster-c,.poster-d').forEach(p => {
+      p.classList.remove('selected');
+    });
+    el.classList.add('selected');
+    if (window.__companion) window.__companion.recordChoice(el.dataset.choice, el.querySelector('.option-label').textContent);
+    // fallback
+    try {
+      const ev = {type:'click', choice: el.dataset.choice, text: el.querySelector('.option-label').textContent, timestamp: Date.now()};
+      fetch('/event', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(ev)});
+    } catch(e) {}
+  }
+</script>
+</head>
+<body>
+<h2>How should each recipe poster look?</h2>
+<p class="subtitle">5 curated recipes, each gets a full-screen moment. Which visual language feels right?</p>
+
+<div class="grid">
+
+  <div>
+    <div class="poster-a" data-choice="split-editorial" onclick="select(this, '#c8a97a')">
+      <div class="poster-a-inner">
+        <div class="poster-a-left">
+          <div>
+            <div class="poster-a-label">Italian Classic</div>
+            <div class="poster-a-title">Carbonara</div>
+            <div class="poster-a-origin">Rome · Lazio</div>
+            <ul class="poster-a-ingredients">
+              <li>Guanciale — 200g</li>
+              <li>Pecorino Romano — 100g</li>
+              <li>Egg yolks — 4</li>
+              <li>Spaghetti — 400g</li>
+              <li>Black pepper</li>
+            </ul>
+          </div>
+          <div class="poster-a-meta">
+            <span>25 min</span>
+            <span>620 kcal</span>
+            <span>4 serves</span>
+          </div>
+        </div>
+        <div class="poster-a-right">
+          <div class="poster-a-emoji">🍝</div>
+          <div class="poster-a-stripe"></div>
+          <div class="poster-a-badge">CLASSIC</div>
+        </div>
+      </div>
+    </div>
+    <div class="option-label">A — Editorial split</div>
+  </div>
+
+  <div>
+    <div class="poster-b" data-choice="color-immersion" onclick="select(this, '#7ab87a')">
+      <div class="poster-b-noise"></div>
+      <div class="poster-b-emoji">🥗</div>
+      <div class="poster-b-label">Lebanese · Levant</div>
+      <div class="poster-b-title">Fattoush</div>
+      <div class="poster-b-sub">Fresh herb salad</div>
+      <div class="poster-b-line"></div>
+      <div class="poster-b-tags">
+        <span>vegan</span>
+        <span>20 min</span>
+        <span>280 kcal</span>
+        <span>refreshing</span>
+      </div>
+    </div>
+    <div class="option-label" style="color:#7ab87a33">B — Full-bleed color mood</div>
+  </div>
+
+  <div>
+    <div class="poster-c" data-choice="diagonal-bold" onclick="select(this, '#b87ab8')">
+      <div class="poster-c-diagonal"></div>
+      <div class="poster-c-accent"></div>
+      <div class="poster-c-content">
+        <div class="poster-c-top">
+          <div class="poster-c-number">03</div>
+          <div class="poster-c-label">Moroccan · North Africa</div>
+          <div class="poster-c-title">Harira</div>
+          <div class="poster-c-origin">Slow-cooked spiced soup</div>
+        </div>
+        <div class="poster-c-bottom">
+          <div class="poster-c-emoji">🍲</div>
+          <div class="poster-c-stats">
+            <div class="poster-c-stat"><div class="poster-c-stat-val">90m</div><div class="poster-c-stat-key">time</div></div>
+            <div class="poster-c-stat"><div class="poster-c-stat-val">410</div><div class="poster-c-stat-key">kcal</div></div>
+            <div class="poster-c-stat"><div class="poster-c-stat-val">6</div><div class="poster-c-stat-key">serves</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="option-label" style="color:#b87ab833">C — Diagonal bold</div>
+  </div>
+
+  <div>
+    <div class="poster-d" data-choice="ink-on-paper" onclick="select(this, '#8B6B45')">
+      <div>
+        <div class="poster-d-top-line"></div>
+        <div class="poster-d-label">Japanese · Ramen</div>
+        <div class="poster-d-title">Tori Ramen</div>
+        <div class="poster-d-sub">Chicken broth, soft egg, nori</div>
+        <hr class="poster-d-divider">
+        <ul class="poster-d-ingredients">
+          <li>Chicken carcass</li>
+          <li>Ramen noodles</li>
+          <li>Soft-boiled egg</li>
+          <li>Nori sheets</li>
+          <li>Spring onion</li>
+          <li>Sesame oil</li>
+        </ul>
+      </div>
+      <div>
+        <div class="poster-d-bottom">
+          <div class="poster-d-meta">45 min · 580 kcal</div>
+          <div class="poster-d-emoji">🍜</div>
+        </div>
+        <div class="poster-d-bottom-line"></div>
+      </div>
+    </div>
+    <div class="option-label" style="color:#8B6B4533">D — Ink on parchment (light mode)</div>
+  </div>
+
+</div>
+
+<div class="confirm-bar">Click a poster to select it — then reply in terminal. You can also say "mix A+B" or similar.</div>
+
+</body>
+</html>

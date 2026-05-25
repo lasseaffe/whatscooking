@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Builder Redesign · B · Calm Flow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-0:#0E0A07; --bg-1:#171009; --bg-soft:#1E160E; --line:#332518; --line-soft:#261b11;
+    --cream:#F1E7D5; --cream-2:#CBB89A; --muted:#9C8262; --muted-2:#6B543A;
+    --ember:#E88A3C; --ember-deep:#C8522A; --olive:#B2BC7A; --olive-bg:#272d16;
+    --serif:'Fraunces',Georgia,serif; --sans:'Plus Jakarta Sans',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg-0);color:var(--cream);font-family:var(--sans);line-height:1.55;
+    background-image:radial-gradient(ellipse at 50% -10%, #1d140c 0%, transparent 55%);}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 28px 90px}
+  .stamp{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 14px;margin-bottom:18px}
+  .dirtitle{font-family:var(--serif);font-size:34px;font-weight:600;letter-spacing:-.02em}
+  .dirsub{color:var(--muted);font-size:14px;margin-top:6px}
+  .statelabel{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ember);margin:60px 0 22px;display:flex;align-items:center;gap:12px}
+  .statelabel::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+
+  .topline{text-align:center;margin-bottom:30px}
+  .topline .pill{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:5px 13px;border-radius:999px;background:var(--olive-bg);color:var(--olive);border:1px solid #3c4422;margin-bottom:16px}
+  .topline h1{font-family:var(--serif);font-size:40px;font-weight:600;letter-spacing:-.025em}
+  .topline .meta{color:var(--muted);font-family:var(--mono);font-size:13px;margin-top:6px}
+
+  /* big calm search */
+  .search{display:flex;align-items:center;gap:14px;background:var(--bg-1);border:1px solid var(--line);border-radius:18px;padding:18px 22px;box-shadow:0 12px 40px #00000040}
+  .search input{flex:1;background:none;border:none;color:var(--cream);font-size:17px;outline:none;font-family:var(--sans)}
+  .search input::placeholder{color:var(--muted-2)}
+  .search .tune{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--cream-2);background:transparent;border:1px solid var(--line);border-radius:11px;padding:9px 13px}
+  .search .tune .dot{width:6px;height:6px;border-radius:50%;background:var(--ember)}
+
+  .tuneline{text-align:center;color:var(--muted);font-size:12.5px;font-family:var(--mono);margin-top:16px;letter-spacing:.02em}
+  .tuneline b{color:var(--cream-2);font-weight:500}
+
+  /* pinned — gentle */
+  .pinned{margin:34px 0 8px;display:flex;align-items:center;justify-content:center;gap:14px}
+  .pinned .thumbs{display:flex}
+  .pinned .thumbs img{width:40px;height:40px;border-radius:11px;object-fit:cover;margin-left:-9px;border:2px solid var(--bg-0)}
+  .pinned .thumbs img:first-child{margin-left:0}
+  .pinned .lbl{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--cream-2)}
+
+  /* unified ranked feed — ONE list, no triple empty blocks */
+  .feedhead{text-align:center;margin:40px 0 20px}
+  .feedhead h3{font-family:var(--serif);font-size:22px;font-weight:600}
+  .feedhead p{color:var(--muted);font-size:13px;margin-top:3px}
+  .feed{display:flex;flex-direction:column;gap:14px}
+  .frow{display:flex;align-items:center;gap:18px;background:var(--bg-1);border:1px solid var(--line-soft);border-radius:18px;padding:14px;transition:.2s}
+  .frow:hover{border-color:var(--line);transform:translateY(-2px)}
+  .frow img{width:84px;height:84px;border-radius:14px;object-fit:cover;flex-shrink:0}
+  .frow .info{flex:1;min-width:0}
+  .frow .info .tag{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ember)}
+  .frow .info h4{font-family:var(--serif);font-size:19px;font-weight:600;margin:3px 0 5px;line-height:1.2}
+  .frow .info .row{display:flex;gap:8px;flex-wrap:wrap}
+  .frow .info .row span{font-family:var(--mono);font-size:11px;color:var(--cream-2);background:#241a1140;border:1px solid var(--line-soft);border-radius:7px;padding:3px 8px}
+  .frow .pin{flex-shrink:0;width:44px;height:44px;border-radius:50%;border:1px solid var(--ember);background:transparent;color:var(--ember);font-size:18px;transition:.15s}
+  .frow .pin:hover{background:var(--ember);color:var(--bg-0)}
+  .frow.pinned-r .pin{background:var(--ember);color:var(--bg-0)}
+  .feedmore{text-align:center;margin-top:22px}
+  .feedmore button{font-family:var(--mono);font-size:12px;color:var(--cream-2);background:var(--bg-soft);border:1px solid var(--line);border-radius:999px;padding:11px 22px}
+
+  /* floating build affordance */
+  .build{position:sticky;bottom:20px;margin-top:36px;display:flex;justify-content:center}
+  .build button{font-family:var(--sans);font-weight:700;font-size:16px;color:var(--bg-0);background:var(--ember);border:none;border-radius:999px;padding:16px 38px;box-shadow:0 16px 44px #e88a3c44;display:inline-flex;gap:10px;align-items:center}
+
+  /* ===== WOVEN ===== */
+  .ringrow{display:flex;justify-content:center;gap:26px;margin:8px 0 8px;flex-wrap:wrap}
+  .ring{display:flex;flex-direction:column;align-items:center;gap:10px}
+  .ring .circle{width:108px;height:108px;border-radius:50%;display:grid;place-items:center;position:relative}
+  .ring .circle .inner{position:absolute;inset:9px;background:var(--bg-0);border-radius:50%;display:grid;place-items:center;text-align:center}
+  .ring .circle .inner .v{font-family:var(--serif);font-size:24px;font-weight:600;line-height:1}
+  .ring .circle .inner .u{font-family:var(--mono);font-size:9px;color:var(--muted);letter-spacing:.1em;margin-top:3px}
+  .ring .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+  .statusbar{display:flex;justify-content:center;align-items:center;gap:22px;margin:26px 0 6px;flex-wrap:wrap}
+  .statusbar .chip{font-family:var(--mono);font-size:12px;color:var(--cream-2);display:inline-flex;gap:7px;align-items:center}
+  .statusbar .chip b{color:var(--ember)}
+  .wact{display:flex;justify-content:center;gap:12px;margin-top:22px}
+  .wact button{font-family:var(--sans);font-weight:600;font-size:14px;border-radius:13px;padding:13px 24px;border:1px solid var(--line);background:var(--bg-1);color:var(--cream)}
+  .wact .cook{background:var(--ember);border-color:var(--ember);color:var(--bg-0);display:inline-flex;gap:8px;align-items:center}
+
+  /* week as gentle vertical day stack */
+  .week{display:flex;flex-direction:column;gap:14px;margin-top:34px}
+  .day{background:var(--bg-1);border:1px solid var(--line-soft);border-radius:18px;padding:16px 18px}
+  .day .dh{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:13px}
+  .day .dh .d{font-family:var(--serif);font-size:18px;font-weight:600}
+  .day .dh .k{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .meals{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .meal{background:var(--bg-soft);border:1px solid var(--line-soft);border-radius:13px;overflow:hidden}
+  .meal img{width:100%;height:74px;object-fit:cover}
+  .meal .mt{padding:9px 11px}
+  .meal .mt .slot{font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .meal .mt .name{font-family:var(--sans);font-weight:600;font-size:12.5px;line-height:1.2;margin-top:3px}
+  .meal .mt .name .src{display:block;font-family:var(--mono);font-size:9px;color:var(--ember);margin-top:3px}
+  .note{color:var(--muted-2);font-size:12px;font-family:var(--mono);margin-top:18px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="stamp">◆ Direction B · Calm Flow</div>
+  <div class="dirtitle">One thing at a time, room to breathe</div>
+  <div class="dirsub">A single calm column. Controls hidden until asked for. A unified ranked feed replaces the three empty Breakfast / Lunch / Dinner blocks. Macros become quiet rings, the week a gentle day-by-day stack.</div>
+
+  <!-- ============ PLANNING ============ -->
+  <div class="statelabel">Planning state — pin what you'll cook</div>
+
+  <div class="topline">
+    <span class="pill">Planning</span>
+    <h1>High-Protein Week</h1>
+    <div class="meta">7 days · 3 meals/day</div>
+  </div>
+
+  <div class="search">
+    <span style="color:var(--ember);font-size:19px">⌕</span>
+    <input placeholder="Search recipes to pin…">
+    <button class="tune"><span class="dot"></span> Tune</button>
+  </div>
+  <div class="tuneline">Tuned for <b>high-protein</b> · <b>weeknights ≤30m</b> · <b>squad of 2</b> · <b>moderate variety</b> · <span style="color:var(--muted)">tap Tune to adjust</span></div>
+
+  <div class="pinned">
+    <div class="thumbs">
+      <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=160&q=80">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=160&q=80">
+      <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=160&q=80">
+      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=160&q=80">
+    </div>
+    <span class="lbl">9 pinned — a strong week so far</span>
+  </div>
+
+  <div class="feedhead">
+    <h3>Suggested for you</h3>
+    <p>Ranked across all meals — pin the ones you love</p>
+  </div>
+  <div class="feed">
+    <div class="frow pinned-r">
+      <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=300&q=80">
+      <div class="info"><div class="tag">Breakfast · 38g protein</div><h4>Egg White Veggie Frittata</h4><div class="row"><span>✓ matches diet</span><span>⏱ 30 min</span><span>🥬 fresh</span></div></div>
+      <button class="pin">✓</button>
+    </div>
+    <div class="frow">
+      <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=300&q=80">
+      <div class="info"><div class="tag">Dinner · 42g protein</div><h4>Lean Turkey Meatballs</h4><div class="row"><span>✓ matches diet</span><span>⏱ 25 min</span><span>♻ batch-friendly</span></div></div>
+      <button class="pin">＋</button>
+    </div>
+    <div class="frow">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&q=80">
+      <div class="info"><div class="tag">Lunch · 40g protein</div><h4>Ahi Tuna Poke Bowl</h4><div class="row"><span>✓ matches diet</span><span>⏱ 20 min</span><span>🐟 omega-3</span></div></div>
+      <button class="pin">＋</button>
+    </div>
+    <div class="frow">
+      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80">
+      <div class="info"><div class="tag">Dinner · 36g protein</div><h4>Miso Glazed Salmon</h4><div class="row"><span>✓ matches diet</span><span>⏱ 22 min</span><span>🐟 omega-3</span></div></div>
+      <button class="pin">＋</button>
+    </div>
+  </div>
+  <div class="feedmore"><button>Show more matches ↓</button></div>
+
+  <div class="build"><button>Weave my week →</button></div>
+
+  <!-- ============ WOVEN ============ -->
+  <div class="statelabel">Woven state — your week, composed</div>
+
+  <div class="topline">
+    <span class="pill" style="background:#2c2410;color:#d8c06a;border-color:#4a3c14">Woven</span>
+    <h1>High-Protein Week</h1>
+    <div class="meta">7 days · 3 meals/day · 9/9 macros known</div>
+  </div>
+
+  <div class="ringrow">
+    <div class="ring"><div class="circle" style="background:conic-gradient(var(--ember) 82%, #2a1e12 0)"><div class="inner"><div><div class="v">4108</div><div class="u">KCAL</div></div></div></div><div class="lbl">Energy</div></div>
+    <div class="ring"><div class="circle" style="background:conic-gradient(var(--olive) 96%, #2a1e12 0)"><div class="inner"><div><div class="v">416g</div><div class="u">PROTEIN</div></div></div></div><div class="lbl">Protein</div></div>
+    <div class="ring"><div class="circle" style="background:conic-gradient(var(--ember) 54%, #2a1e12 0)"><div class="inner"><div><div class="v">242g</div><div class="u">CARBS</div></div></div></div><div class="lbl">Carbs</div></div>
+    <div class="ring"><div class="circle" style="background:conic-gradient(var(--ember) 61%, #2a1e12 0)"><div class="inner"><div><div class="v">168g</div><div class="u">FAT</div></div></div></div><div class="lbl">Fat</div></div>
+  </div>
+
+  <div class="statusbar">
+    <span class="chip">🥕 <b>0%</b> from pantry</span>
+    <span class="chip">⏱ <b>12h 19m</b> active</span>
+    <span class="chip">↻ variety <b>low</b></span>
+  </div>
+  <div class="wact">
+    <button>🔀 Reweave</button>
+    <button class="cook">🍳 Start cooking →</button>
+  </div>
+
+  <div class="week">
+    <div class="day">
+      <div class="dh"><span class="d">Monday</span><span class="k">~1320 kcal · 138g protein</span></div>
+      <div class="meals">
+        <div class="meal"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=300&q=80"><div class="mt"><div class="slot">Breakfast</div><div class="name">Egg White Frittata<span class="src">📌 pinned</span></div></div></div>
+        <div class="meal"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=300&q=80"><div class="mt"><div class="slot">Lunch</div><div class="name">Turkey Meatballs<span class="src">📌 pinned</span></div></div></div>
+        <div class="meal"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&q=80"><div class="mt"><div class="slot">Dinner</div><div class="name">Ahi Tuna Poke<span class="src">📌 pinned</span></div></div></div>
+      </div>
+    </div>
+    <div class="day">
+      <div class="dh"><span class="d">Tuesday</span><span class="k">~1380 kcal · 140g protein</span></div>
+      <div class="meals">
+        <div class="meal"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=300&q=80"><div class="mt"><div class="slot">Breakfast</div><div class="name">Turkey Meatballs<span class="src">♻ leftover</span></div></div></div>
+        <div class="meal"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&q=80"><div class="mt"><div class="slot">Lunch</div><div class="name">Ahi Tuna Poke</div></div></div>
+        <div class="meal"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80"><div class="mt"><div class="slot">Dinner</div><div class="name">Miso Salmon<span class="src">📌 pinned</span></div></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="note">Wednesday → Sunday continue below · tap any meal to swap or open the recipe</div>
+</div>
+</body>
+</html>

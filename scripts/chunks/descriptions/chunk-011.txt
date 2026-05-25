@@ -1,0 +1,2166 @@
+TITLE: Amana Hoppel Poppel
+CURRENT_DESCRIPTION: a hearty, chunky hodgepodge of ingredients brought to the us by german-americans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, fresh parsley, salt, fresh ground black pepper, bacon
+---
+TITLE: Amana Radish Relish
+CURRENT_DESCRIPTION: this is from prairie home cooking.  it keeps 2 weeks in the refrigerator.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: radish, onion, whole allspice, whole cloves, mustard seeds, white vinegar
+---
+TITLE: Amanda Milk Chocolate Frosting
+CURRENT_DESCRIPTION: this is really easy to make for all of you who buy your own. and lots of people already have the ingredients in their cabinets. also, because you are the one making it you can add more of less chocolate depending on your personal tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, unsweetened cocoa, confectioners, ,, ,
+---
+TITLE: Amanda S Birthday Salmon
+CURRENT_DESCRIPTION: amanda loves salmon and i wanted to do something special for her birthday, so i made up this recipe. luckily, she loved it and asked that i be sure to write this one down on zaar so as to not lose it. so, amanda, here is your birthday salmon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, olive oil, butter, salt, pepper, orange juice
+---
+TITLE: Amanda S Blueberry Cobbler
+CURRENT_DESCRIPTION: there are only 6 ingredients to it and you can use any pie filling you like, apple, cherry, peach etc. tastes great with some vanilla icecream!  it is so simple, you won't believe how good it turns out!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking oil, milk, sugar, flour, salt, blueberry pie filling
+---
+TITLE: Amanda S Cheese Pound Cake
+CURRENT_DESCRIPTION: my daughter amanda found this recipe in a old church cookbook, that i have had for years. its the kind of cake that you want to stick your face in the pan and never come up for air.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, sugar, eggs, flour, vanilla
+---
+TITLE: Amanda S Easy Egg Salad
+CURRENT_DESCRIPTION: i came up with this recipe after dominick had a craving for egg salad and he was pleased. the fresh dill really gives this egg salad great flavor. i used hellmann's canola oil mayonnaise to make it a little healthier. you can also either use regular or dijon mustard (they both work well). serve as a sandwich on your favorite bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, celery, green onions, fresh dill, mayonnaise, mustard
+---
+TITLE: Amanda S Favorite Minty Watermelon Salad
+CURRENT_DESCRIPTION: i started making this for my only niece (amanda) when she was little and she would come and spend a couple of weeks with us in the summer.  we live 10 miles away from one of the leading mint producers in michigan, so when you have access to such fresh mint, you come up with recipes to showcase it.  it is easily adaptable to other fruits too, add your favorites along with the watermelon.  yummm!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: watermelon, raspberries, blueberries, strawberry, seedless grapes, sugar
+---
+TITLE: Amanda S Ginger Orange Dressing
+CURRENT_DESCRIPTION: this recipe comes from the family of my best friend in college, amanda. the recipe was originally handed down written to make a gallon of the dressing so we were always too lazy to do anything but halve the recipe ended up making 2 quarts of the stuff at a time. at the end of the term when we were broke and there was nothing in the fridge but an old cabbage and some juicing carrots we would make a slaw with this dressing. cheap and easy, but yummy! here are quantities to make a pint of dressing, scale up as desired  :) chile flakes to taste, of course!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice vinegar, garlic, ginger, orange juice concentrate, sesame oil, toasted sesame oil
+---
+TITLE: Amanda S Gingerbread Cupcakes
+CURRENT_DESCRIPTION: recipe made for volunteer tea.fall 2010
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, molasses, eggs, flour, baking soda
+---
+TITLE: Amanda S Molasses Cake
+CURRENT_DESCRIPTION: this is a southern recipe passed down from my grandmother. it is exremely delicious and a nice occasional change from the average chocolate cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, molasses, eggs, butter, milk, flour
+---
+TITLE: Amanda S Parmesan Chicken
+CURRENT_DESCRIPTION: this recipe is delicious and very easy to make.  great to make for a large group.  we made this recipe for the dinner party that we had for a group of my daughter and her friends for homecoming 2008.  it is so good.  we looked for recipes all over zaar and the internet.  this recipe came from simple recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic clove, butter, breadcrumbs, parmesan cheese, fresh parsley, garlic powder
+---
+TITLE: Amanda S Southern Bbq Chicken
+CURRENT_DESCRIPTION: this is my girlfriend amanda's recipe we all love it and it has always been well recieved by company.  it's wonderful served with the sauce over white rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken pieces, ketchup, heinz 57 steak sauce, tabasco sauce, vegetable oil, worcestershire sauce
+---
+TITLE: Amanda S Thai Peanut
+CURRENT_DESCRIPTION: by far the best and healthiest thai peanut i've ever tasted. it's highly requested by family and friends!!!  this quick recipe is just for two people, but it doubles and triples extremely well when we have company over. give it a try!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fettuccine, broccoli, carrot, garlic, red pepper flakes, ground ginger
+---
+TITLE: Amanda S Vegan Flat Bread
+CURRENT_DESCRIPTION: amanda makes this amazing vegan flatbread that is ready in minutes! it really needs to be soy milk - regular milk won't do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking powder, sugar, oil, soymilk
+---
+TITLE: Amanda S World Famous Krab Salad
+CURRENT_DESCRIPTION: yumm-o!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: imitation crabmeat, miracle whip, celery, scallion, lemon juice, dill weed
+---
+TITLE: Amaranth   Flax Pancakes
+CURRENT_DESCRIPTION: i am basically
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth flour, flax seeds, egg, water, butter, honey
+---
+TITLE: amaranth  quinoa  and corn chowder
+CURRENT_DESCRIPTION: a friend gave me this recipe in an effort to introduce quinoa into our diet.  quinoa is very good for you and it's yummy in this soup.  amaranth was also new to us - we found it at good foods in a bin where you only take as much as you'd like.  i'm so glad i made this!  leftovers are yummy too.  maybe add more milk if it gets too thick.  also, i used skim milk instead of whole, but i added some extra unsalted butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, leeks, celery, red bell pepper, salt, amaranth
+---
+TITLE: Amaranth  Quinoa  And Corn Chowder
+CURRENT_DESCRIPTION: a friend gave me this recipe in an effort to introduce quinoa into our diet.  quinoa is very good for you and it's yummy in this soup.  amaranth was also new to us - we found it at good foods in a bin where you only take as much as you'd like.  i'm so glad i made this!  leftovers are yummy too.  maybe add more milk if it gets too thick.  also, i used skim milk instead of whole, but i added some extra unsalted butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, leeks, celery, red bell pepper, salt, amaranth
+---
+TITLE: Amaranth  With Tomato Type Sauce
+CURRENT_DESCRIPTION: note this is modified from http://www.icuc-iwmi.org/recipe_of_the_month/recipe_july%202006.htm
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth, water, spinach, tomatoes, mushroom, oregano
+---
+TITLE: Amaranth Breakfast Fruit Bowl   Elimination Diet
+CURRENT_DESCRIPTION: cooked amaranth, berries, maple syrup, cinnamon and a splash of rice milk so much better than oatmeal!!  this has become a staple for me on this elimination diet.  i cook up a big batch of amaranth.  then, throughout the week i can put this together in under 5 minutes.  great for a quick breakfast or yummy filing desert.  i love the "pop" of the amaranth!  i use the 3 berry frozen mix from costco.  frozen fruit is a must for me as i am doing this diet in the middle of winter.  use whatever non-dairy, non-soy milk you choose.  i like rice milk.  adjust the toppings to your liking.  time to cook does not include the cooking of the amaranth.
+amaranth:   this grain cooks up soupy.  don't add salt to the amaranth while cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth, water, berries, maple syrup, rice milk, cinnamon
+---
+TITLE: Amaranth For Breakfast
+CURRENT_DESCRIPTION: amaranth is a healthy grain, but i don't like it in savory dishes.  this is my delicious  breakfast creation.  it's vegan if you use a vegan sweetener, like agave.  may i also add that i make it this way because the other flavors cover the general flavor of the amaranth.  this recipe is an alternative, but it will not be like your "normal" cereal grains.  i use this recipe with other grains: millet, steel cut oats, and whole spelt.  amaranth is healthy, but if you don't like amaranth, you might still get the amaranth flavor in this recipe.  you might also try another grain if you don't like the natural, earthy flavors of amaranth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth, water, coconut milk, honey, cinnamon
+---
+TITLE: Amaranth Leaves Spinach In Coconut Milk
+CURRENT_DESCRIPTION: amaranth leaf is cooked in many cultures around the world. it is a flavoursome and nutritious green. of course any other leafy green could be substituted. serve with rice or grain of your choice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth, water, coconut milk, onion, tomatoes, vegetable oil
+---
+TITLE: Amaranth Pancakes
+CURRENT_DESCRIPTION: this recipes originated from the back of the package of bob's red mill amaranth flour. the recipe has been doubled. these are really good, one of my friends said they taste similar to sopapillas. serve with syrup or honey. great with agave nectar as a low glycemic sweeter. use like a dessert crepe with fruit and ice cream. a great way to eat whole grain and cut out white flour.
+for the oil i use coconut (may need to melt), olive oil or grape seed oil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, apple juice, oil, amaranth flour, tapioca flour, arrowroot
+---
+TITLE: Amaranth Pie Crust    Gluten Free
+CURRENT_DESCRIPTION: a wonderful crust for those sensitive to gluten from bob's red mill. you can have your pie and eat it too!  crust holds up very well after baking.  specialty ingredients can be found at www.bobsredmill.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: arrowroot, flour, amaranth flour, sea salt, cinnamon, vegetable oil
+---
+TITLE: amaranth soda bread
+CURRENT_DESCRIPTION: posted in response to a request for gluten free/dairy free bread. this round loaf is delicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, vitamin c powder, amaranth flour, arrowroot, salt, anise
+---
+TITLE: Amaranth Soda Bread
+CURRENT_DESCRIPTION: posted in response to a request for gluten free/dairy free bread. this round loaf is delicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, vitamin c powder, amaranth flour, arrowroot, salt, anise
+---
+TITLE: Amaranth Sunflower Spelt Bread
+CURRENT_DESCRIPTION: i've only made the whole-wheat variation of this recipe, but it was very tasty and easy. adapted from the angelica home kitchen cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, amaranth, sea salt, sunflower seeds, spelt flour, cornmeal
+---
+TITLE: Amaranth Walnut Patties
+CURRENT_DESCRIPTION: from my beloved now defunct veggie life mag.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth, water, salt, tofu, braggs liquid aminos, chickpea rice miso
+---
+TITLE: Amaranth Whole Wheat Muffins
+CURRENT_DESCRIPTION: this muffin recipe is from 'bob's red mill' and i would recommend this to anyone who would like to try 'amaranth flour' in muffins. i used 'coconut oil", and also used currants instead of raisins. this muffin is delicious and healthy! great for breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaranth flour, whole wheat pastry flour, baking powder, vanilla, milk, oil
+---
+TITLE: Amarena Eisbecher W Amarenakirschen   Cherry Sundaes Adults Only
+CURRENT_DESCRIPTION: this cherry sundae is traditional treat that is served in german ice cream parlors during the summer. the recipe makes enough for 2-4 ice cream sundaes; 2 as a stand alone treat or 4 as dessert. you could take out all the alcohol so the kids could have one too, but what fun would that be?!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipped cream, vanilla ice cream, kirschwasser, cherries, cookie, sweet cherries
+---
+TITLE: Amaretti
+CURRENT_DESCRIPTION: this is my mom's recipe and we haven't met a single person who doesn't love them!  they also freeze really well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, eggs, sugar, espresso, cocoa, almond extract
+---
+TITLE: Amaretti Cookies
+CURRENT_DESCRIPTION: my dh loves amaretti, i haven't tried this recipe yet but hope it will be a favorite. it come from the joy of baking. after reading the review i added the choice of amaretto or almond extract.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, superfine sugar, egg whites, almond extract, granulated sugar
+---
+TITLE: Amaretti Cookies  No Flour And Low Fat
+CURRENT_DESCRIPTION: there is no flour in these cookies which makes them perfect for people with gluten allergies
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, powdered sugar, vanilla, almond extract, egg whites
+---
+TITLE: Amaretti Ice Cream Dessert
+CURRENT_DESCRIPTION: amaretti dessert for the grown ups =)
+this recipe is a unique idea for something to do with that yummy amaretti liquer, and to make it better! 
+
+enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaretti cookies, amaretto liqueur, french vanilla ice cream, whipped cream, slivered almonds
+---
+TITLE: Amaretto
+CURRENT_DESCRIPTION: i can't believe i haven't posted this!  it's a big hit in my family, i get requests for it every year around christmas.  the key to this is to get your syrup thick before adding the vodka--this is what makes it indistinguishable from di saronno, at a much reduced cost.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, white sugar, brown sugar, vodka, almond extract, vanilla extract
+---
+TITLE: Amaretto Almond Cappuccino
+CURRENT_DESCRIPTION: from cappuccino espresso the book of beverages by christie and thomas katona.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaretto syrup, almond syrup, espresso, milk, whipped cream, almonds
+---
+TITLE: Amaretto Almond Cheesecake  1999
+CURRENT_DESCRIPTION: easy and yummy give this a try...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla cream-filled sandwich style cookies, almond extract, butter, cream cheese, eggs, sweetened condensed milk
+---
+TITLE: Amaretto Almond Liqueur
+CURRENT_DESCRIPTION: i have not tried this out, but i found it on a copycat recipe site and it is supposed to be comparable to di saronno brand liqueur.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, granulated sugar, brown sugar, vodka, almond extract, pure vanilla extract
+---
+TITLE: Amaretto Almond Sauce
+CURRENT_DESCRIPTION: from cooking light's 1990 annual cookbook. can be spooned over angel food cake, ice cream, baked apples or ice milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, water, amaretto liqueur, lemon juice, sliced almonds
+---
+TITLE: Amaretto Amore Fudge
+CURRENT_DESCRIPTION: this is a rich, creamy dark fudge for a special person (who just might be you!). for me, this is enough amaretto, but the amount can be increased or decreased as you prefer it. and, you can experiment with other liqueurs, but i'm especially fond of amaretto ...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, unsweetened chocolate, sweetened condensed milk, vanilla extract, amaretto liqueur
+---
+TITLE: Amaretto And Bartlett Pears Upside  Down Cake
+CURRENT_DESCRIPTION: this is a wonderful dessert to serve after a special dinner. the amaretto and pears are a lovely combination. dh loved this so much he had 2 servings. i didn't have 6 custard cups so i used a small glass cake pan. i found this recipe in our local newspaper but it did not list the chef who created it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, honey, bartlett pears, flour, sugar
+---
+TITLE: Amaretto And Raspberry Smoothie
+CURRENT_DESCRIPTION: a recipe from giada de laurentiis
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh raspberries, vanilla gelato, almond liqueur, orange zest, ice, amaretti cookies
+---
+TITLE: Amaretto Apple Cake
+CURRENT_DESCRIPTION: one of my favorite autumn activities is going apple picking. i created this recipe as a way to combine the apples that we pick and one of my favorite flavors - amaretto. this cake is moist, sweet, and bursting with flavor...enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, eggs, vanilla extract, flour, sugar, baking powder
+---
+TITLE: Amaretto Apricot Cookies
+CURRENT_DESCRIPTION: this makes a very healthy tasting, chewy cookie....it isn't a crisp cookie.  i had it on a christmas cookie exchange this year, and really enjoyed it!  originally authored by brenda bragg from ohio.  cook time is actually 8 minutes per cookie sheet, i just increased the cooking time to accomodate multiple cookie sheetfuls!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, sugar, egg, amaretto, all-purpose flour
+---
+TITLE: Amaretto Apricots With Walnuts Teriyaki
+CURRENT_DESCRIPTION: you can serve this with cocktails or on a dessert tray. they are both sweet and savory. from the new carry-out cuisine. it is hard to stop nibbling on these!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnut halves, soy sauce, dark rum, sesame oil, garlic clove, ground ginger
+---
+TITLE: Amaretto Baked Pears With Mascarpone
+CURRENT_DESCRIPTION: i pull this recipe whenever i feel the need to impress. it is a wonderful dessert (and i don't "do" desserts as a rule). beware of sharing the amaretto with the pears during cooking - result will vary - hic. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bosc pears, vanilla pod, sugar, amaretto liqueur, mascarpone, icing sugar
+---
+TITLE: Amaretto Bananas Foster
+CURRENT_DESCRIPTION: a delicious twist to the traditional version of bananas foster.  it's always a hit for dinner parties and there's never a drop left.
+best served over vanilla ice cream or pudding.
+
+if traditional version of bananas foster is preferred, just omit the amaretto & replace with 1 oz. dark rum & 1 oz. banana liquor. 
+
+this can be flambe'd at the end when adding the alcohol, however - this is only recommended for the experienced cook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, light brown sugar, cinnamon, vanilla extract, salt
+---
+TITLE: Amaretto Biscotti With Almonds
+CURRENT_DESCRIPTION: this is a delicious biscotti recipe which smells wonderful while baking. perfect served with your morning coffee or just as a snack. i found the recipe in "sweet maria's italian cookie tray cookbook".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, pure vanilla extract, amaretto liqueur, sliced almonds
+---
+TITLE: Amaretto Blueberry Pancakes
+CURRENT_DESCRIPTION: these special pancakes are sure to impress your company. easy to make and oh they smell so good. your guests will think you've been up all morning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla ice cream, amaretto, almonds, eggs, milk, butter
+---
+TITLE: Amaretto Bread Pudding
+CURRENT_DESCRIPTION: this recipe is from "savory faire" cookbook. it is very easy to make and is wonderful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white bread, half-and-half, sugar, eggs, almond extract, almonds
+---
+TITLE: Amaretto Brunch Omelet
+CURRENT_DESCRIPTION: ahhhh amaretto! found this breakfast recipe on the disaronno website. sounds positively delicious and so romantic... after all.. amaretto is the liquor of love.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh fruit, amaretto, cream cheese, eggs, milk, butter
+---
+TITLE: Amaretto Butterscotch Sauce
+CURRENT_DESCRIPTION: this is a delicious twist on a standard butterscotch sauce. i tried this once with hazelnuts and frangelico instead of almonds and amaretto, and it was also very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almonds, brown sugar, corn syrup, whipping cream, amaretto
+---
+TITLE: Amaretto Cake
+CURRENT_DESCRIPTION: this is sooo easy and delicious!!! you won't believe how tasty it is. you can add as little or as much amaretto as you like. you can't ruin this. i usually just crumble the cake when layering it in. prep time does not include baking the cake. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cake mix, eggs, oil, water, amaretto, cool whip
+---
+TITLE: Amaretto Cake With Chocolate Ganache
+CURRENT_DESCRIPTION: this cake is very moist and rich. it looks beautiful with slivered almonds around the top of the ganache. (i make it for fancy birthdays and fill layers with cappachino mousse.) i have seen some recipes with sour cream in the batter, but i like vanilla yogurt better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix with pudding, eggs, vanilla yogurt, vegetable oil, amaretto liqueur, almond extract
+---
+TITLE: Amaretto Caramel Sauce
+CURRENT_DESCRIPTION: a short little recipe i've saved but never made. it sounds like it would be good over ice cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, whipping cream, light corn syrup, butter, amaretto
+---
+TITLE: Amaretto Carrots
+CURRENT_DESCRIPTION: this is a recipe i dared to duplicate from a caterer at a party i attended and the result was great.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, salt, amaretto liqueur, almond extract, butter, cornstarch
+---
+TITLE: Amaretto Cheesecake
+CURRENT_DESCRIPTION: i made this for a christmas party and everyone gave it rave reviews.  i made it the day before the party to make sure it was chilled well.  the recipe originally came from a message board on aol posted by steph.  it's a winner!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafer crumbs, toasted almond, sugar, butter, cream cheese, flour
+---
+TITLE: Amaretto Cheesecake Bars
+CURRENT_DESCRIPTION: sounds like a quick and easy recipe. yet to try. putting it here for safekeeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, brown sugar, butter, cream cheese, sugar, egg
+---
+TITLE: Amaretto Cheesecake Squares
+CURRENT_DESCRIPTION: delicate bites of amaretto cheesecake heaven! from "best of christmas".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, light brown sugar, butter, cream cheese, sugar, eggs
+---
+TITLE: Amaretto Cheesecake With Apricot Glaze
+CURRENT_DESCRIPTION: amaretto cheesecake with apricot glaze
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham wafer crumbs, almonds, sugar, butter, cream cheese, flour
+---
+TITLE: Amaretto Chicken Breast Holiday Style
+CURRENT_DESCRIPTION: this is a dinner fit for any special occasion with a smaller group in mind. it can, of course, be increased if you have more at your table (don't you love that zaar lets you do that with just a click!). i should also mention that this recipe is geared to please my dh who dearly loves sweet. if it sounds like it will be sweeter than you would usually make something, please feel free to cut back on the sugar as much as you would like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet butter, onion, celery, herb seasoned stuffing mix, water chestnuts, poultry seasoning
+---
+TITLE: Amaretto Chicken Soup
+CURRENT_DESCRIPTION: if you like chicken cooked in wine, then you'll love it cooked in amaretto! adapted from a recipe by chef willie of tioli's restaurant in san diego.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, seasoned flour, clarified butter, amaretto, chicken stock, milk
+---
+TITLE: Amaretto Chicken With Creamed Noodles
+CURRENT_DESCRIPTION: rich creamy comfort food. it's even good without the amaretto. the amaretto gives it that something special tho so don't leave it out if you have some available.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, cream of chicken soup, cream of celery soup, amaretto, water, milk
+---
+TITLE: Amaretto Chip Cookies
+CURRENT_DESCRIPTION: these are similar to recipe  #161166 but i believe i have change it up enough to warrant a new post. these are a delicious change of pace from plain ol' chocolate chip cookies, and i love to make them as a treat for christmas gift tins! good luck staying out of the dough--it tastes even better than the finished product! eta: i am editing the recipe following katzen's review--this year i think i have gotten it right :).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smart balance butter spread, sugar, brown sugar, amaretto liqueur, vanilla, egg
+---
+TITLE: Amaretto Chocolate Cream Tarts
+CURRENT_DESCRIPTION: if chocolate is your thing. then you will love these rich little tarts. they can also be made alcohol free as well as reduced calorie!1
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: miniature tart shells, eagle brand condensed milk, amaretto liqueur, instant chocolate fudge pudding, cocoa, cool whip
+---
+TITLE: Amaretto Chocolate Pudding
+CURRENT_DESCRIPTION: just a quick dessert that livens up chocolate pudding - equally good with kahlua or amaretto.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate pudding, semisweet chocolate, milk, amaretto, whipped cream
+---
+TITLE: Amaretto Chunk Cookies
+CURRENT_DESCRIPTION: these are yummy cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, baking powder, salt, butter, brown sugar
+---
+TITLE: Amaretto Cocoa Mix In A Jar
+CURRENT_DESCRIPTION: delicious..this will make 8 pint sized gifts..great to include in a gift basket...be sure to keep some on hand for yourself.....yummy!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: non-fat powdered milk, powdered sugar, amaretto flavored coffee creamer, nestles quik, non-dairy powdered coffee creamer, salt
+---
+TITLE: Amaretto Coconut Cream Pie
+CURRENT_DESCRIPTION: this goes coconut cream pies one better! i've had this recipe for over 20 years and it always gets a fantastic reaction. an easy, impressive-looking dessert!  don't count calories here, just enjoy! originally from humphrey's restaurant in houston.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, graham cracker crumbs, sugar, shredded coconut, eggs, heavy cream
+---
+TITLE: Amaretto Coconut Pie
+CURRENT_DESCRIPTION: this pie is super quick and easy to put together!  it also makes it's own crust. great for a last minute dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, milk, amaretto, self-rising flour
+---
+TITLE: Amaretto Cranberry Kiss
+CURRENT_DESCRIPTION: the tang of the cranberry juice is balanced by the smoothness of the amaretto and vodka.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberry juice cocktail, vodka, amaretto, fresh orange juice, ice cube, clementine
+---
+TITLE: Amaretto Cream Baked Rice Pudding
+CURRENT_DESCRIPTION: can't say much but yum! i always mess up rice pudding when i do it on the stove. not only is this baked, but the amaretto is such a great flavor twist!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaretto flavored coffee creamer, white rice, eggs, raisins, white sugar, ground nutmeg
+---
+TITLE: Amaretto Creme
+CURRENT_DESCRIPTION: this is such a simple, no cook, dessert that is good enough for a dinner party. it is quite rich, but the lemon adds a nice freshness to it and it is not too sweet. if you can find it you can use low fat mascarpone.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mascarpone, low-fat yogurt, sugar, lemon, juice of, whipping cream, amaretti
+---
+TITLE: Amaretto Dip
+CURRENT_DESCRIPTION: dip, shmip! i could eat this with a spoon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, half-and-half, vanilla instant pudding mix, kahlua, amaretto, vanilla extract
+---
+TITLE: Amaretto Divine
+CURRENT_DESCRIPTION: this is a dessert for a special occasion! it looks good, and it smells good, ...it is good! i used up some amaretto that i'd had for ages. now, i get asked for it, so i had to buy another ameretto! oh well!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, amaretto-flavored nondairy liquid creamer, amaretto liqueur, eggs, vegetable oil, vanilla instant pudding mix
+---
+TITLE: Amaretto Eggnog Bread Pudding
+CURRENT_DESCRIPTION: this sounded like a great recipe for the holidays, so i thought i'd pass it along 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: challah, eggs, sugar, vanilla extract, amaretto, eggnog
+---
+TITLE: Amaretto Florentine Cookies
+CURRENT_DESCRIPTION: there is nothing better than the flavor of ameretto for me. i haven't made theese yet but they sure sound good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, quick oats, sugar, all-purpose flour, almonds, corn syrup
+---
+TITLE: Amaretto French Toast
+CURRENT_DESCRIPTION: an adapted recipe from oso grande ranch, pagosa springs, colorado. decadent and a lovely special occasion breakfast/brunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, eggs, milk, dark brown sugar, almond extract, ground nutmeg
+---
+TITLE: Amaretto French Toast W Amaretto Butter And Syrup
+CURRENT_DESCRIPTION: a really special breakfast for that special occasion!   try irish cream instead of amaretto, for a different flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaretto, butter, maple syrup, eggs, milk, french bread
+---
+TITLE: Amaretto Fudge
+CURRENT_DESCRIPTION: micowave recipe that is really easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, eagle brand condensed milk, amaretto, almond flavoring, slivered almonds
+---
+TITLE: Amaretto Fudge Caffe  Non Alcoholic
+CURRENT_DESCRIPTION: a very simple and well flavored coffee thats easy to enjoy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coffee, amaretto flavored coffee creamer, dark chocolate syrup, whipped cream, chocolate shavings
+---
+TITLE: Amaretto Fudge Ii
+CURRENT_DESCRIPTION: stovetop version.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, milk, cream, light corn syrup, almond flavored liqueur, butter
+---
+TITLE: Amaretto Hot Chocolate
+CURRENT_DESCRIPTION: i received this one year as a gift from one of my kids that rides my bus.  being a school bus driver i receive some of the most unique gift items.  this was done up in a cute jar w/instructions tied at the top w/a bow.  i just had to have the recipe after trying it out for myself.  the problem i've discovered lately is that i"m unable to find amararetto coffee-mate.
+serving size is ???
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry milk, powdered sugar, amaretto flavored coffee creamer, non-dairy coffee creamer, quik chocolate milk mix, salt
+---
+TITLE: Amaretto Iced Coffee
+CURRENT_DESCRIPTION: a warm summer evening in the garden, a nice meal...then a glass of this.....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strong coffee, vanilla ice cream, milk, amaretto, brandy, vanilla extract
+---
+TITLE: Amaretto Lemon Chicken
+CURRENT_DESCRIPTION: delicious and quick, but also a great dish for company. the lemon helps cut the richness of the amaretto.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, pepper, garlic powder, curry powder, flour, butter
+---
+TITLE: Amaretto Margaritas
+CURRENT_DESCRIPTION: from cooking light, may 2007
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, fresh lime juice, tequila, orange juice, amaretto
+---
+TITLE: Amaretto Mocha Protein Drink
+CURRENT_DESCRIPTION: since lately i've been drinking protein drinks nearly everyday, i like to keep it interesting. this is a simple recipe that adds a little variety. it's a great breakfast or mid morning snack!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ice, nonfat milk, chocolate whey protein powder, instant coffee granules, almond extract, vanilla extract
+---
+TITLE: Amaretto Mochaccino Mix
+CURRENT_DESCRIPTION: simply stirred in a mug or processed until frothy, this fragrant hot beverage is sure to please.  include this mix in the good neighbour  gift basket.  make sure you give directions below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, almond flavoring, salt, skim milk powder, unsweetened cocoa, powdered coffee creamer
+---
+TITLE: Amaretto Nut Bread
+CURRENT_DESCRIPTION: this makes 3 loaves....one for now and two in the freezer for later! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, butter, flour, amaretto, vanilla
+---
+TITLE: Amaretto Oriental Salmon
+CURRENT_DESCRIPTION: this recipe is adapted from about.com and calls for disaronno amaretto. salmon steaks can also be used instead of the fillets and a nice garnish would be lemon slices and fresh asparagus. marinating time in the refrigerator is included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amaretto, light soy sauce, lime juice, sesame oil, ground black pepper, fresh ginger
+---
+TITLE: Amaretto Pear Parfaits
+CURRENT_DESCRIPTION: bosc pears work well in this dessert. i also love the flavor combination of amaretto and peaches, so peaches would probably also work well in this recipe. based on a recipe i found in cooking light a couple years ago. the original used softened low-fat vanilla frozen yogurt, but i've only made it with the yogurt. the 1 hour cooking time is actually chilling time. with the low-fat frozen yogurt, cooking light showed the nutritional values per serving as: 238 calories, 5.6 grams fat, 39.9 g carbs, 137 mg sodium.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pears, amaretto liqueur, sugar, gingersnap crumbs, nonfat vanilla yogurt, sliced almonds
+---
+TITLE: Amaretto Punch Slush
+CURRENT_DESCRIPTION: my signature drink.  oh, it's a make-ahead, freezer-ready recipe.  to make it more manageable, divide between quart size, heavy-duty, zip-top plastic bags.  freeze time not included.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, boiling water, unsweetened pineapple juice, frozen orange juice concentrate, frozen lemonade concentrate, water
+---
+TITLE: Amaretto Raisin Oven Baked French Toast
+CURRENT_DESCRIPTION: this recipe has been a "fixer-upper" for a long time now. have being playing around with ingredients and quantities and can't tell you where i found the original recipe. this is by no-means diet friendly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, butter, vanilla extract, almond extract, amaretto, golden raisin
+---
+TITLE: Amaretto Rum Cherry Cream Pie
+CURRENT_DESCRIPTION: no bake, wonderfully rich and naughty. contains alcohol (not for children) i make this every new years eve. this recipe started off being a rum dessert that someone gave me that i elaborated on for the holidays one year and have been asked to make ever since.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 10-inch  deep dish pie crust, cherry pie filling, egg yolks, sugar, unflavored gelatin, water
+---
+TITLE: Amaretto Shrimp
+CURRENT_DESCRIPTION: this is from the chicago daily herald newspaper. a simple, light, colorful dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, white onion, large shrimp, amaretto, blanched almond, salt
+---
+TITLE: Amaretto Snowballs
+CURRENT_DESCRIPTION: these snowballs have become a tradition in my home. they're just a bit different and very easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, icing sugar, all-purpose flour, salt, amaretto liqueur
+---
+TITLE: Amaretto Souffle
+CURRENT_DESCRIPTION: a mouthwatering souffle with more than a hint of amaretto liqueur.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: superfine sugar, amaretto cookies, amaretto liqueur, eggs, egg white, all-purpose flour
+---
+TITLE: Amaretto Sour
+CURRENT_DESCRIPTION: this is a freezer amaretto sour recipe.  we have a friend that serves this every thanksgiving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen lemonade, frozen limeade concentrate, frozen orange juice, brewed tea, sugar, water
+---
+TITLE: Amaretto Sour
+CURRENT_DESCRIPTION: The best amaretto sour is made with cask-strength bourbon to balance the sweetness, plus egg white for texture. Unpretentious and deeply satisfying.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 45 ml amaretto, 22 ml cask-strength bourbon, 30 ml fresh lemon juice, 7 ml simple syrup, 1 whole egg white, 2 dashes Angostura bitters
+---
+TITLE: Amaretto Spiked Chocolate Mousse  Vegan
+CURRENT_DESCRIPTION: this recipe from the *chocolate recipes* section of www.101cookbooks.com (exploring cookbooks, 1 recipe at a time) got rave reviews & variations were also noted there. per heidi (the site mgr), "don't tell anyone, but this recipe is very easy-to-make. oh, & it's dairy-free. shhhh, it's also vegan, but don't tell the non-vegans." *pls note kid friendly option* at the end of the prep steps. *enjoy* !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate soymilk, semisweet vegan chocolate chips, silken tofu, amaretto, almond extract
+---
+TITLE: Amaretto Spinach Salad
+CURRENT_DESCRIPTION: this salad using amaretto sounds intriguing to me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, bacon, salad oil, garlic cloves, red wine vinegar, lemon juice
+---
+TITLE: Amaretto Strawberry Trifle
+CURRENT_DESCRIPTION: this is a recipe from my grandmother, which all of us grandkids just love!  it has a wonderful flavor and a beautiful presentation!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, amaretto, sugar, cream cheese, powdered sugar, sour cream
+---
+TITLE: Amaretto Sweet Potatoes
+CURRENT_DESCRIPTION: sweet potatoes, amaretto, and pecans make a wonderful flavor combination in this autumn side dish...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, sugar, buttermilk, butter, eggs, amaretto
+---
+TITLE: Amaretto Yum Yums
+CURRENT_DESCRIPTION: a cross between a cookie and a candy wonderfully flavored with chocolate, coffee and almond.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, light corn syrup, sugar, instant coffee, hot water, amaretto
+---
+TITLE: Amarillo Cheese Fries And Dip   Like The Lone Star  Copycat
+CURRENT_DESCRIPTION: when our dd and sil came for a visit, they introduced us to two mouthwatering recipes which they prepared as a birthday treat. they prepared these fries along with marinated grilled steaks, like the outback. needless to say, it was an absolutely delicious meal. hope you enjoy this as much as we did.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ranch dressing, taco seasoning, frozen french fries, bacon, monterey jack cheese
+---
+TITLE: Amarillo Chili
+CURRENT_DESCRIPTION: nothing like a hot hot bowl of chili.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onions, garlic clove, pork shoulder, beef round steak, beef chuck
+---
+TITLE: Amarula Cheesecake
+CURRENT_DESCRIPTION: as called several times, the amarula queen, and the love of cheesecakes, i had to post this recipe. taking the ingredients of my favorite cheesecake and adding a little amarula this makes a decadent, rich and creamy cheesecake that gets rave reviews. this was in my secret recipes, but i decided to go ahead and make it public for zaar! i always bake my cheesecakes in a water bath... this makes them really moist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, butter, sugar, cream cheese, mascarpone cheese, eggs
+---
+TITLE: Amarula Coffee Surprise
+CURRENT_DESCRIPTION: this is a sweet coffee drink, with the wonderful addition of amarula....a cream liquer from south africa. from the amarula website. i added the optional grated chocolate. prep and cooking time does not include the time to brew the coffee. cooking time posted is actually the time to assemble the drink.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coffee, whipped cream, amarula cream liqueur, marshmallows, brown sugar, hot chocolate powder
+---
+TITLE: Amarula Colada
+CURRENT_DESCRIPTION: for a girlie night out, decorated with a cherry it is such a treat! i recommend to put loads of crushed ice to make this drink super creamy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amarula cream liqueur, rum, pineapple juice, coconut milk, ice
+---
+TITLE: Amarula Drumsticks
+CURRENT_DESCRIPTION: i found this on a website with recipes for amarula cream.  it looks interesting, can't wait to try it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken drumsticks, seasoned flour, garlic chives, marmalade, lemon juice, amarula cream liqueur
+---
+TITLE: Amarula Final
+CURRENT_DESCRIPTION: a delightfully different take on the traditional bailey's shake - using amarula-from the amarula cream website- makes 4 - depending on how big you want them!!  yummy! if you haven't tried this fabulous liquor,you are really missing out!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amarula cream liqueur, ice cream, filter coffee, chocolate, chocolate syrup, cream
+---
+TITLE: Amarula Finale
+CURRENT_DESCRIPTION: this is wonderful as a drink, or refrozen as a dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amarula cream liqueur, ice cream, coffee, chocolate, chocolate syrup, cream
+---
+TITLE: Amarula Frapp
+CURRENT_DESCRIPTION: this is a delicious coffee adult milkshake! the recipe uses amarula cream liquor from south africa. it is sold at most liquor stores. the frappé looks great in a highball glass with a long stem or large mouth wine goblet. if you love chocolate and coffee... this shake is for you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amarula cream liqueur, black coffee, chocolate ice cream, milk, whipped cream, chocolate-covered espresso beans
+---
+TITLE: Amarula Granita
+CURRENT_DESCRIPTION: so you made espresso and forgot to drink it. now it's cold.... don't let it go to waste.... try this refreshing amarula granita next time. you'll be thanking me ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brewed espresso, sugar, vodka, ice cube, amarula cream liqueur, cream
+---
+TITLE: Amarula Ice Cream
+CURRENT_DESCRIPTION: this looks so good!!!  from the gauteng province of south africa
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla pod, egg yolks, caster sugar, whole milk, fresh cream, amarula cream liqueur
+---
+TITLE: Amarula Spicy Fish
+CURRENT_DESCRIPTION: an original south african recipe, which not only looks and tastes wonderful, but the aroma will convince your guests that you are a star.
+it is easy to pre-prepare, bake just before serving time. allow about 150 –200 g filleted fish per person if served as a main course. from the amarula cream website-hoping i can pull together the ingredients over here to try this one myself!!!
+
+****note - original recipe called for 1,25kg of fish - and i attempted to convert it online- hope i didn't mess it up too badly!!  also, not all of the ingredients were allowed or found on zaar, so please read side notes on recipe for exact spices, etc for authentic recipe. ;) courtesy amarula website http://www.amarula.co.za/us/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, seasoned sea salt, mangoes, bananas, amarula cream liqueur, flour
+---
+TITLE: Amarula Swizzler
+CURRENT_DESCRIPTION: delicious drink that could double as dessert! i love amarula and this is like a grown up milkshake.....yummo!
+got this one from food and drink magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amarula cream liqueur, rum, vanilla ice cream, milk, ice cubes, butterscotch syrup
+---
+TITLE: Amazin Raisin Cake
+CURRENT_DESCRIPTION: this is a great fall cake because of all the spices. i used to make this everyear for my dads birthday in october. if i'm not mistaken, this is a hellman's mayonnaise recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, mayonnaise, milk, eggs, baking soda
+---
+TITLE: Amazing   Easy Basic Crepes
+CURRENT_DESCRIPTION: i got this recipe from an old "pillsbury kitchens' family cookbook". i have been using this recipe since i was in high school, so that should tell you how easy they are to put together and they are such a hit! you can do anything with them. add fruits for a yummy breakfast dish, chicken and cheeses for a dinner dish (very good), or sweet fillings and powdered sugar for a dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, oil, unbleached flour, salt
+---
+TITLE: Amazing  Really Amazing  Fudge Brownies
+CURRENT_DESCRIPTION: intense, dark, fudgy, gooey, everything a brownie should be.  you can vary the topping, using chocolate chips, white chocolate chips, toffee bits, nuts, m&ms, whatever floats your boat.  the recipe originally started out as something in the magnolia bakery cookbook, but grew into something much more personal.  i now make these every week, keeping a stash in the freezer for emergency chocolate needs.  daphna, you asked for the recipe, here it is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, unsweetened chocolate, butter, sugar
+---
+TITLE: Amazing  Vegan  Brownies
+CURRENT_DESCRIPTION: these are seriously the best brownies i have ever ever made from scratch. and i've tried a lot of recipes. (go figure, vegan brownies aren't supposed to turn out well, lol)
+
+i use whole wheat pastry flour and raw sugar, and it's great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, water, brown sugar, sugar, salt, vanilla extract
+---
+TITLE: Amazing And Fast Pressure Cooker Short Ribs
+CURRENT_DESCRIPTION: i made this up from a bunch or recipes -- it is wonderful served with rice pilaf, or noodles.
+the meat is so tender-falls off the bone!
+time-- does not include natural steam cooling time
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef short ribs, light olive oil, beef broth, red wine, sweet onion, garlic cloves
+---
+TITLE: Amazing And Healthy Oven Fried Chicken
+CURRENT_DESCRIPTION: i got this recipe from my cousin who took an online cooking class. i tried it our for my roommates and we all totally loved it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, nonfat sour cream, corn flakes, cornmeal, old bay seasoning, italian seasoning
+---
+TITLE: Amazing Angel Hair Pasta With Shrimp
+CURRENT_DESCRIPTION: all i can say is this is "amazing"! with shrimp, pasta, tomatoes, white wine and cream, how can you go wrong? very easy to put together. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, shrimp, garlic, heavy cream, italian-style diced tomatoes
+---
+TITLE: Amazing Apple Cider
+CURRENT_DESCRIPTION: this recipe is amazing. i created it myself, and this way you can get hot, authentic cider using real apples. plus, you only use real apples, and only one pan is needed! i hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, juice, boiling water, cinnamon, sugar crystals, vanilla extract
+---
+TITLE: amazing apple cobbler
+CURRENT_DESCRIPTION: a friend of mine gave me this recipe several years ago after she brought this
+wonderful dish for a potluck. when i made it at home, my mother was so 
+impressed, she called my aunt to tell her about the recipe. well, we were surprised to learn that my aunt already had the 
+recipe and has used it for years- she got it off of a bag of martha white flour! 
+the original recipe calls for 2 cups of sugar, but we like it best with 1 1/2 
+cups. this isn't as hard to make as it sounds....promise :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, water, self-rising flour, vegetable shortening, milk
+---
+TITLE: Amazing Apple Cobbler
+CURRENT_DESCRIPTION: a friend of mine gave me this recipe several years ago after she brought this
+wonderful dish for a potluck. when i made it at home, my mother was so 
+impressed, she called my aunt to tell her about the recipe. well, we were surprised to learn that my aunt already had the 
+recipe and has used it for years- she got it off of a bag of martha white flour! 
+the original recipe calls for 2 cups of sugar, but we like it best with 1 1/2 
+cups. this isn't as hard to make as it sounds....promise :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, water, self-rising flour, vegetable shortening, milk
+---
+TITLE: Amazing Apple Nut Muffins
+CURRENT_DESCRIPTION: these are absolutely delicious. they are my favorite muffins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, apple juice, vegetable oil, vanilla, sugar, flour
+---
+TITLE: Amazing Apple Pie
+CURRENT_DESCRIPTION: makes its own crust as it bakes. again, this was grandmother's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced apples, lemon juice, sugar, self rising flour, cinnamon, brown sugar
+---
+TITLE: Amazing Apple Strudel
+CURRENT_DESCRIPTION: this is the fastest homemade apple pie you will ever make . incredible taste !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: puff pastry, golden delicious apples, cinnamon, nutmeg, sugar
+---
+TITLE: Amazing Apples With Creamy Caramel Dip
+CURRENT_DESCRIPTION: an addictive, delicious dip that can be made with apples, pears or any other fruit of your choice.  i am asked for the recipe every time i bring it, and never come home with leftovers!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, cream cheese, vanilla extract, caramel ice cream topping, toffee pieces, walnuts
+---
+TITLE: Amazing Artichoke Toasts
+CURRENT_DESCRIPTION: these lovely little things came from las vegas, nevada courtesy of $40 a day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, lemon juice, extra virgin olive oil, fresh ground black pepper, kosher salt, fresh parsley leaves
+---
+TITLE: Amazing Asparagus Bundles
+CURRENT_DESCRIPTION: i got this recipe from a work friend.  these are so easy and delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, whipped cream cheese, white bread, butter, parmesan cheese
+---
+TITLE: Amazing Baby Portobello  Avocado And Aspargus Sliders
+CURRENT_DESCRIPTION: i made these one night for supper and the hubby said these are awesome; write down what you did because you will forget. here is what you need for these amazing little sandwiches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby portabella mushrooms, red onion, olive oil, cajun seasoning, buns, cheese slices
+---
+TITLE: Amazing Bacon Cheese Fries
+CURRENT_DESCRIPTION: this recipe is an old family favorite. the potatoes are delicious and a great comfort food! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: russet potatoes, vegetable oil, apple-smoked bacon, butter, onions, garlic
+---
+TITLE: Amazing Baked Chicken Breasts    You Must Try   Easy To Make
+CURRENT_DESCRIPTION: try these amazing chicken breasts..easy to make and delightfully yummy...bet you'll save this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, feta cheese, roma tomatoes, garlic, fresh basil leaves, fresh parsley
+---
+TITLE: Amazing Baked Lemon Garlic Chicken Thighs And Potatoes
+CURRENT_DESCRIPTION: this is one of the best chicken dishes i have ever had.  the garlic, lemon and chicken drippings make the most flavorful soft delicious potatoes. super easy to prepare - the oven does all the work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, garlic cloves, salt, russet potatoes, salt and pepper, lemon, juice of
+---
+TITLE: Amazing Basil Chicken   Low Fat
+CURRENT_DESCRIPTION: this is for all the basil lovers - serve this at a dinner party and wow the guests! serve with jasmine rice and slices of mango.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, boneless skinless chicken breasts, red onion, orange juice, dried basil, cumin
+---
+TITLE: Amazing Beef  N  Peppers
+CURRENT_DESCRIPTION: very very good.  i suggest you use as many colors of peppers that you can get; it improves the taste of the recipe, and it looks better
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef sirloin, cornstarch, beef broth, soy sauce, garlic powder, green peppers
+---
+TITLE: Amazing Beef Enchilada Casserole
+CURRENT_DESCRIPTION: i got this recipe years ago from one of those free recipe cards they send in the mail. my boys loved it and has been a favorite since.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, taco seasoning mix, corn tortillas, monterey jack cheese, red onion, enchilada sauce
+---
+TITLE: Amazing Beef Stew
+CURRENT_DESCRIPTION: this is a hearty favorite of my family.  wonderful flavor and very easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef stew meat, flour, salt, pepper, olive oil, onion
+---
+TITLE: Amazing Black Bean Brownies Recipe Courtesy Of Ania Catalano
+CURRENT_DESCRIPTION: this is a recipe i just tried last night for a flourless brownie.  flourless because it is made with black beans!!  yes, that is right, black beans.  i thought it would be really gross, but i thought i would give it a try anyway.  this recipe is courtesy of ania catalano from her book "baking with agave nectar :  over 100 recipes using nature's ultimate sweetener."  they are only really good when cold.  when they are warm you can definitely taste the beans, but when cold you can't.  also, if you use instant coffee you might want to use a lot less than in the recipe because the coffee taste is really strong.  kids probably won't like that.  my husband hates coffee and i think it was too much for him....decrease amount of coffee if you don't like it.  this is from ania catalano's book "baking with agave nectar:  over 100 recipes using nature's ultimate sweetener."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, unsalted butter, black beans, walnuts, vanilla extract, instant coffee
+---
+TITLE: Amazing Black Bean Soup In 5 Ingredients
+CURRENT_DESCRIPTION: for being so easy, this soup will knock your socks off!  totally vegetarian and is really great with some crusty bread or some finely shredded cheddar cheese and/or sour cream on top!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salsa, black beans, vegetable broth, fresh cilantro, lime juice
+---
+TITLE: Amazing Braise
+CURRENT_DESCRIPTION: this hearty braised chicken and vegetable one-pan meal is ready in less than an hour, and has the most amazing flavor.   it was created for rsc #9.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chicken, olive oil, white potatoes, carrots, garlic cloves, orange, juice of
+---
+TITLE: Amazing Bread Stuffing
+CURRENT_DESCRIPTION: this recipe has been passed down in my family for generations.  it's absolutely uncomparable to any other stuffing i've ever had.  it's a family favorite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, salt, bread, celery, poultry seasoning
+---
+TITLE: Amazing Breakfast Bake
+CURRENT_DESCRIPTION: this is a great dish to make for christmas, easter or any special morning.  it is easy and can be prepared ahead of time and then just pop it in the oven and enjoy.  i like to prepare mine the same morning.  the first time i made this everyone raved about it and asked if i would make it very year.  i would suggest spliting it up into two smaller dishes if you have children that do not like peppers and onions.  make one for adults and the other one a little bit more kid-friendly with just ham and cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, yellow onion, green bell pepper, red bell pepper, salt, fresh ground black pepper
+---
+TITLE: Amazing Breakfast Casserole
+CURRENT_DESCRIPTION: my mom makes this recipe on christmas eve so that we have a wonderful breakfast baking in the oven while we open up christmas presents in the morning.  i absolutely love this casserole!  we use the pepperidge farm seasoned bread cubes that are readily available during the holidays.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: seasoned croutons, swiss cheese, eggs, milk, shredded cheddar cheese, pork sausage
+---
+TITLE: Amazing Breakfast Pizza
+CURRENT_DESCRIPTION: i used to make this when i worked for a gas station/pizza place so i could sell it by the slice to the early morning rush. i would end up selling more for breakfast than lunch at times!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, eggs, milk, cheddar cheese, mozzarella cheese, deli ham
+---
+TITLE: Amazing Broccoli Cheese Casserole
+CURRENT_DESCRIPTION: this recipe is one that i worked hard to get off a family member because it's so good. it's made for every family gathering and special occasions and everyone just goes crazy for the stuff. give it a try and you won't be disappointed. makes a great side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped broccoli, mushroom soup, mayonnaise, eggs, onion, salt and pepper
+---
+TITLE: Amazing Broccoli Cheese Soup With Ham
+CURRENT_DESCRIPTION: i love to have this for lunch! so cheesy and creamy! this is an adapted cheese soup recipe of mine and is it ever delicious! i love cheesy potato soup but since i'm diabetic now, i can't have the carbs. this is a wonderful alternative and great for diabetics! the only carbs are in the milk, and the little bit of flour! and it's so easy to throw together! i just steam the broccoli in the microwave, and then chop it, and the ham, while i wait on the soup to boil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, milk, chicken broth, broccoli, ham
+---
+TITLE: Amazing Broccoli Pie
+CURRENT_DESCRIPTION: from egg website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, green onion, garlic clove, broccoli, low fat cottage cheese, eggs
+---
+TITLE: Amazing Brown Rice Salad
+CURRENT_DESCRIPTION: i saw this recipe this morning on the www.recipe4living.com website.  we always have brown rice leftover from the chinese food takeout nights!  :-)  "a delicious brown rice salad. everyone in your family will love it. great to take to parties as a side dish."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, brown rice, red onion, celery, dried cranberries, light balsamic vinaigrette salad dressing
+---
+TITLE: Amazing Buffalo Chicken   Weight Watchers
+CURRENT_DESCRIPTION: i have not tried this recipe. i got this recipe from a recipe chat board.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, frank, ,, t believe it, ,, ,
+---
+TITLE: Amazing Burgers
+CURRENT_DESCRIPTION: i always used to play around with my burger recipes until the night i made these- i'll never make burgers any other way. enjoy!
+
+note: the addition of a slice of your favorite cheese melted over the top of your burgers can never hurt.
+
+another note: i make my patties and let them sit in the fridge covered in clear wrap for a half hour before grilling.
+
+more notes: a good juicy burger can tend to make the bun soggy so it's a good idea to lightly toast the bun on the grill.
+
+last note: for a great sauce for all your burgers check out my 'amazing burger sauce' recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onions, garlic, parsley, parmesan cheese, butter
+---
+TITLE: Amazing Buttermilk Biscuits
+CURRENT_DESCRIPTION: these biscuits are pretty amazing.  they just melt in you mouth.  this is my one and only go to recipe for fantastic biscuits.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, buttermilk, butter, baking powder, salt, baking soda
+---
+TITLE: Amazing Buttermilk Garlic Mashed Potatoes
+CURRENT_DESCRIPTION: my aunt made these for me 11 years ago. except for the garlic. i added that because i add garlic to almost everything.
+these are so different but so good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: idaho potatoes, garlic cloves, salt, butter, buttermilk
+---
+TITLE: Amazing Butterscotch Crispies Cookie
+CURRENT_DESCRIPTION: this is the most *fantastic* cookie, the oil and butter produces a wonderful texture and taste, chocolate chips may be added along with the butterscotch chips if desired, the skor toffee bits are only optional but i like to add them in ;-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking soda, cream of tartar, butter, brown sugar
+---
+TITLE: Amazing Cabbage  You Ll Want To Eat A Whole One
+CURRENT_DESCRIPTION: this is a jamie oliver's idea so i can't take credit for it, as much as i'd like to.  don't be put off by the anchovies in the butter, it doesn't taste fishy and you can't detect them at all.  in fact, you can't really detect the rosemary or garlic much either for that matter.   they act more like a seasoning as opposed to a flavouring and i promise you this is seriously the best cabbage you'll ever eat!  cook the cabbage as described and adapt the recipe to make as much or as little of the butter as you like, the rest can be stored in the freezer for those 'gotta have my cabbage' moments.   ha ha, you say that now. . . .
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, water, ice, salted butter, anchovies, garlic cloves
+---
+TITLE: Amazing Caramel Apple Cake
+CURRENT_DESCRIPTION: my husband got this recipe from a former co-worker after she brought the apple cake to a food day.  i've made a few adjustments to the recipe and my husband says it's even better than the original (maybe he's just being nice?).  either way, every time we've made it our guests love it and almost always have more than one piece.  you can serve with whipped topping or ice cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, sugar, butter, eggs, flour, nutmeg
+---
+TITLE: Amazing Cashew Chicken
+CURRENT_DESCRIPTION: yuuuuummy! who knew i could make
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame oil, rice vinegar, cooking sherry, garlic powder, boneless skinless chicken, oil
+---
+TITLE: Amazing Cheese Truffles
+CURRENT_DESCRIPTION: found this on another online site.  a great twist makes a tasty party pleaser.  prep time doesn't include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sharp cheddar cheese, garlic powder, red pepper flakes, roasted red pepper, green onion
+---
+TITLE: Amazing Cheesy Hashbrowns
+CURRENT_DESCRIPTION: my neighbor passed along this recipe to me. i live in a house with extremely picky eaters who love it!
+i also am not an onion fan- so i used a tsp of onion powder instead of real onions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hash brown, cream of mushroom soup, sour cream, sharp cheddar cheese, butter, onion
+---
+TITLE: Amazing Cherry Pineapple Crumble
+CURRENT_DESCRIPTION: easy to make with a cake mix and oh, so good.  for a more fruity dessert, double the pineapple and cherry pie filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crushed pineapple in juice, cherry pie filling, yellow cake mix, butter, shredded coconut, pecans
+---
+TITLE: Amazing Chewy Chocolate Chip Cookies
+CURRENT_DESCRIPTION: these chewy grandma-style cookies will only leave you wanting more!  slightly crispy on the edges with a soft and chewy middle, they are absolutely divine and very easy to make!  i received this recipe years ago from my friend linda and it's become a favorite in our home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, brown sugar, butter, vanilla, eggs, flour
+---
+TITLE: Amazing Chicken Marinade
+CURRENT_DESCRIPTION: this recipe came from allrecipes (ruth crickmer). my whole family loved it even though it cooked too fast. the original recipe said 'high heat' on the grill, which my husband did. it ended up cooking 8 minutes total, charred but not burnt tasting, and very juicy and flavorful. we'll turn down the heat next time for texture, but this is a keeper in our home!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cider vinegar, whole grain mustard, garlic, lime, lemon, brown sugar
+---
+TITLE: Amazing Chicken Stew
+CURRENT_DESCRIPTION: i have browsed this site for many years and have finally come up with a recipe i felt was good enough to be posted here. i hope you enjoy this one as much as i've enjoyed the many that i've gotten from the rest of you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, vegetable stock, chicken stock, sweet potato, onion, carrot
+---
+TITLE: Amazing Chicken Tortilla Soup
+CURRENT_DESCRIPTION: this is my version of chicken tortilla soup. it's very similar to the soup served at max & erma's restaurant chain. i threw it together one day using mostly leftovers from my fridge. it was a hit.. so now every time i roast a chicken, i make this the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, onion, rotel tomatoes & chilies, crushed red pepper flakes, cumin, garlic
+---
+TITLE: Amazing Chocolate Cheesecake
+CURRENT_DESCRIPTION: wow! doesn't taste light, but a 12 serving slice is only about 130 calories. great for chocolate craving fix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonfat cottage cheese, liquid egg substitute, sugar, fat free cream cheese, hersheys cocoa powder, vanilla extract
+---
+TITLE: Amazing Chocolate Chip Cookie Bars
+CURRENT_DESCRIPTION: these are my favorite bars that i discovered at my last family reunion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, brown sugar, white sugar, eggs, vanilla, water
+---
+TITLE: Amazing Chocolate Chunk Cookies
+CURRENT_DESCRIPTION: i combined and modified two recipes to create this one.  i took them to work and everyone commented "these are the best cookies i have ever tasted!"  what makes them different is the melted white chocolate in the batter.  they are out of this world!  please let me know what you think.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, shortening, sugar, light brown sugar, eggs, vanilla
+---
+TITLE: Amazing Cinnamon Apple Rice Stuffed Chicken Gfcf
+CURRENT_DESCRIPTION: this is a different take on a traditional persian dish that i love.  my sister, naomi and i came up with the recipe together.  we were trying to use ingredients that would not only taste great for kids and adults alike but also follow a gluten free casein free diet for her son with autism.  when she served this for dinner to her husband, who is very picky, he exclaimed, "wow,amazing! you have to make this for christmas dinner. the entire chicken disappeared very quickly and he was disappointed that she had not made two!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long-grain rice, roasting chickens, salt, vegetable oil, butter, cinnamon
+---
+TITLE: amazing cinnamon buns  rolls
+CURRENT_DESCRIPTION: this is a tried and true recipe. you won't believe how incredible they are...moist, huge, delicious, out of this world. better than cinnabons!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, ground cinnamon, active dry yeast, water, milk, butter
+---
+TITLE: Amazing Cinnamon Buns  Rolls
+CURRENT_DESCRIPTION: this is a tried and true recipe. you won't believe how incredible they are...moist, huge, delicious, out of this world. better than cinnabons!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, ground cinnamon, active dry yeast, water, milk, butter
+---
+TITLE: Amazing Cinnamon Chip Scones
+CURRENT_DESCRIPTION: melt in your mouth cinnamon chip scones.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, butter
+---
+TITLE: Amazing Coconut Pie
+CURRENT_DESCRIPTION: a favorite recipe from the 1977 "proven baker's secrets to bake yourself proud"--an insert from a magazine of that year. very easy to make. makes its own crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, biscuit mix, eggs, butter, vanilla
+---
+TITLE: Amazing Coconut Raisin Butter Tart Bars
+CURRENT_DESCRIPTION: a no-fail buttery flakey crust topped with the most delicious butter tart-like filling! --- these take little time to make and are so delicious,  please make the crust only on a food processor it will not have the same texture if mixed by hand --- servings are only estimated it depends on what size you cut the squares :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, sugar, salt, eggs, brown sugar
+---
+TITLE: Amazing Crab Rice Cakes
+CURRENT_DESCRIPTION: i found this recipe in a magazine. i haven't tried it yet, but it sounds delicious. let me know what you think.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, minute white rice, eggs, crabmeat, parmesan cheese, butter
+---
+TITLE: Amazing Crab Stuffed Pasta Shells
+CURRENT_DESCRIPTION: i was making these for easter this year and didn't fully like any of the recipes i found, so i came up with this one from ingredients from about 10 recipes. these are very filling, so you may want to slice in half before serving. or, i did see some large pasta shells (not the stuffing ones) about 1/4 the size and thought these would be better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, baby shrimp, crabmeat, scallions, pasta shells, mayonnaise
+---
+TITLE: Amazing Cranberry Sauce
+CURRENT_DESCRIPTION: this is a really nice change from the basic fresh cranberry sauce and i would never buy canned sauce again! very simple to make, and the leftovers added to a package of raspberry jello makes an awesome fruity jello dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh cranberries, crushed pineapple, mandarin orange segments, pecans, sugar, salt
+---
+TITLE: Amazing Cream Cheese Spread
+CURRENT_DESCRIPTION: use this spread on your bagels, toast, or whatever else you have that requires cream cheese!  stuff your chicken breasts with this!  use this spread for cream cheese roll ups, chicken/crescent packets... use your imagination and use this spread!  :)  obviously double or halve this recipe for the amount of cream cheese you need.  store it in a tupperware or bowl with a lid in the fridge for later use. ** note: i recently added a tablespoon or two of chopped fresh mint leaves to the mix and it was really good!  i'm sure you could experiment with other herbs as well, but this mix is divine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, jalapeno, green onions, cilantro, salt and pepper
+---
+TITLE: Amazing Crispy Fried Onion Rings
+CURRENT_DESCRIPTION: these onion rings are perfectly coated by the batter; not overly thick batter that hides the taste of the onions.  i prefer to slice regular onions thin so that the result is a fine, crisp onion ring.  i challenge you to try this one out on friends using your favorite recipe.  i think it is fantastic and hope you will, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow onions, all-purpose flour, cornmeal, baking powder, salt, baking soda
+---
+TITLE: Amazing Deviled Eggs
+CURRENT_DESCRIPTION: i made this recipe up myself and have perfected it over the years.  i've taken these to church potlucks and have beaten out sweet grandmas with the hushed compliments i've received.  they always go fast!  it's the addition of the sour cream that sets them apart.  (also, i bought an egg cooker, such a great investment.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, mayonnaise, sour cream, prepared yellow mustard, sweet pickle relish, garlic powder
+---
+TITLE: Amazing Double Peanut Butter Cookies
+CURRENT_DESCRIPTION: i've eaten a lot of peanut butter cookies in my time, but this recipe, which is adapted from a king arthur recipe called "triple play peanut butter cookies" is my new favorite.  these cookies are slightly crispy on the outside but chewy on the inside.  they are puffy, but not cakey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, dark brown sugar, sugar, crunchy peanut butter, baking powder, baking soda
+---
+TITLE: Amazing Fast Rise Challah Bread   One Small Loaf
+CURRENT_DESCRIPTION: you can make a challah in under 2 hours using quick rise yeast.  this recipe is for one small loaf of challah.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, warm water, salt, oil, egg, bread flour
+---
+TITLE: Amazing Fat Free Fudge
+CURRENT_DESCRIPTION: just like it says.  from karen page.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, vanilla pudding mix, butter-flavored sprinkles, dutch-processed cocoa powder, instant nonfat dry milk powder, water
+---
+TITLE: Amazing Fish Tikka
+CURRENT_DESCRIPTION: the name says it all:) please note: cooking time is a guesstimate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butterfish, fresh lemon juice, turmeric powder, salt, fenugreek leaves, yogurt cheese
+---
+TITLE: Amazing French Onion Soup
+CURRENT_DESCRIPTION: this is a great soup...very inexpensive to make too. it is much easier to eat with the croutons instead of the bread.  you can use more croutons if you want.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, vidalia onion, sugar, flour, provolone cheese, beef broth
+---
+TITLE: Amazing Fudge
+CURRENT_DESCRIPTION: this fudge is always soft, not too sweet and always welcome as a gift. easy and quick to make, it has won prizes at our local fair several years in a row.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, milk, butter, cocoa, vanilla, flour
+---
+TITLE: Amazing Garlic Bread
+CURRENT_DESCRIPTION: this is about the best garlic bread i have ever had. garlic wusses, proceed with caution!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, olive oil, butter, mayonnaise, dried oregano, dried basil
+---
+TITLE: Amazing Garlicy Balsamic Vinaigrette
+CURRENT_DESCRIPTION: this is up there with best and tastiest vinaigrettes i've ever encountered.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onion, garlic cloves, red bell pepper, fresh basil leaf, oregano leaves, salt
+---
+TITLE: Amazing German Chocolate Cake
+CURRENT_DESCRIPTION: excerpt. © reprinted by permission. all rights reserved.
+
+this is from the cake mix doctor. i haven't made it yet, but i'm posting it here so i'll have it handy when i make it for hubby's birthday in a week. i won't be using my bundt pan, as i'll be decorating it, but anyhooo...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, flour, german chocolate cake mix, coconut pecan frosting, water, vegetable oil
+---
+TITLE: Amazing Giant Chocolate Toffee Cookies
+CURRENT_DESCRIPTION: these are wonderful and oh so chocolaty! the toffee adds a really nice flavor to the cookies, too. these are big cookies--probably 4" diameter. so, you can make them smaller if you prefer. prep time doesn't include time to chill dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, bittersweet chocolate, unsalted butter, brown sugar
+---
+TITLE: Amazing Ginger Garlic Steak Marinade
+CURRENT_DESCRIPTION: this marinade tenderizes the steaks and makes them absolutely delicious. you won't need steak sauce for this one! i will sometimes use it on a big london broil which i'll slice against the grain. the result is tender and really delicious. i never measure anything for this. it's hard to mess up. prep time doesn't include time marinating in the fridge.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: steaks, soy sauce, rice vinegar, garlic powder, ground ginger, toasted sesame oil
+---
+TITLE: Amazing Gluten Free Barbecued Meatloaf Minis
+CURRENT_DESCRIPTION: the most challenging food for me since going gluten free has been meatloaf!  all of the other meatloaf recipes i have tried have either been flavorless or a weird texture.  this recipe is one i adapted myself, and i feel it earns five stars on both flavor and texture.  my friends who eat gluten even love it and can't tell it's gluten free!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, gluten-free crisp rice cereal, dried onion, egg, milk, gluten-free tamari
+---
+TITLE: Amazing Gluten Free Buttermilk Donuts   Doughnuts
+CURRENT_DESCRIPTION: they look like the real thing, they taste like the real thing, and best of all they're really not all that hard to make.
+
+the gluten-free rice flour mix for this recipe is made of 3 cups white rice flour, 3 cups brown rice flour, 2 cups potato starch (not flour) and 1 cup tapioca starch.
+
+based on a recipe from the gf-utah site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, buttermilk, butter, gluten-free rice flour mix, sugar, nutmeg
+---
+TITLE: Amazing Greek Style Chicken Thighs
+CURRENT_DESCRIPTION: this recipe comes from my family who live in greece. it is a staple over there and whenever  you are in a pinch for something delicious, this will definitely satisfy your tastebuds.  perfect harmony of traditional greek flavours, mixed with a little canadian flare :)
+plus, you need a fresh loaf of delicious bread to dip into the sauce. it is delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, seasoning salt, fresh ground pepper, oregano, lemons, olive oil
+---
+TITLE: Amazing Ham   Cheese Stromboli
+CURRENT_DESCRIPTION: the addition of onion and oregano makes this taste so much more amazing than one would normally think.  my husband insists that i make 2 so he can get his full and then take the rest to work for lunch.  any time i've given out the recipe, everyone ends up being shocked as to just how good it is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, onion, honey-roasted ham, havarti cheese, oregano
+---
+TITLE: Amazing Hamburger Steak With Gravy
+CURRENT_DESCRIPTION: can you get a really steak-like flavor in a hamburger steak? yes! seasoned well and carefully cooked you can indeed get that special flavor. even better, this is an easy dish -- no harder than throwing together a fast hamburger. note: this can be made lactose-free by substituting beef stock for the milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, dry steak seasoning, garlic clove, oatmeal, milk
+---
+TITLE: Amazing Homemade Meatballs
+CURRENT_DESCRIPTION: i saw a few recipes and tried to combine some of them with new additions. these are really yummy! i love meatballs, and this is the best one i have tasted so far.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: meat, yellow onion, egg, parmesan cheese, breadcrumbs, garlic
+---
+TITLE: Amazing Homemade Pizza Rolls
+CURRENT_DESCRIPTION: my dh loves those frozen tony's pizza rolls....i'll eat them too, but....what exactly is in them?? we probably don't want to even know! these are much better and at least we know what we're eating!! buy extra sauce for dipping if you'd like, but they really don't need it. also, add/omit any ingredients you like or don't like. make them to your own taste of course. this is what we like in them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza cheese, sausage, pepperoni, green pepper, sliced mushrooms, onion
+---
+TITLE: Amazing Huge Chocolate Chip Cookies
+CURRENT_DESCRIPTION: this recipe is wonderful for childrens parties or school functions.  the kids love the size and it's the best chocolate chip cookie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, all-purpose flour, baking soda, salt, cinnamon, butter
+---
+TITLE: amazing hungarian chicken paprikash with dumplings
+CURRENT_DESCRIPTION: this recipe has been passed down in my hungarian family for generations and perfected.  i now use boneless chicken despite bone-in being the tradition.  i think it makes it a little more friendly without losing any taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, oil, paprika, onion powder, salt, pepper
+---
+TITLE: Amazing Hungarian Chicken Paprikash With Dumplings
+CURRENT_DESCRIPTION: this recipe has been passed down in my hungarian family for generations and perfected.  i now use boneless chicken despite bone-in being the tradition.  i think it makes it a little more friendly without losing any taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, oil, paprika, onion powder, salt, pepper
+---
+TITLE: Amazing Hush Puppies
+CURRENT_DESCRIPTION: these are my family's favorite. we make these every time we have a fish fry. wonderful and spicy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising cornmeal mix, self-rising flour, yellow cornmeal, baking powder, salt, garlic powder
+---
+TITLE: Amazing Italian Tomato Soup
+CURRENT_DESCRIPTION: this is one of my recipes prepared on christmas eve 2005 as part of a holiday spaghetti dinner. it was easy to prepare, and has outstanding flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fire-roasted tomatoes, roma tomatoes, celery, onion, minced garlic clove, chicken broth
+---
+TITLE: Amazing Kahlua Baked Beans
+CURRENT_DESCRIPTION: perk up that same old boring dinner with these sweet and jazzy "baked" beans! everything is done on the stove top using pantry staples and a few fresh ingredients for a fast and simple prep yet a homemade look and taste! the leftovers freeze very nicely too, turning this into an oamc dish too! created for rsc 10. good luck to all participants!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, green bell pepper, cherry tomatoes, tomato sauce, brown sugar, kahlua
+---
+TITLE: Amazing Lavender Crme Brle
+CURRENT_DESCRIPTION: lavender has a magical way of transforming recipes & this crème brûlée is no exception. if you love the traditional crème brûlée or just love lavender then please  try this! from "the cape cod table" . time to make doesn't inlcude time in fridge....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy cream, dried lavender, pure vanilla extract, salt, egg yolks, granulated sugar
+---
+TITLE: Amazing Lemon Ginger Chicken
+CURRENT_DESCRIPTION: this chicken is marinated in ginger ale and other spices and ingredients for 3 hours before cooking. the ginger ale makes it super tender and sweet.
+
+great served with rice and vegetables. or potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, canada dry ginger ale, olive oil, herbs, salt, marjoram
+---
+TITLE: Amazing Light Whole Wheat Blueberry Pancakes
+CURRENT_DESCRIPTION: this is a great light pancake recipe. i recently adjusted the flour in this recipe at the reviewers suggestion. it is really important to use whole wheat pastry flour in these, i cannot stress that enough, it makes them so tender and fluffy. i like bob's red mill, i adapted this recipe from one on the bobs red mill bag. if you want to make this lighter you can leave out the oil and use 1/4 cup egg whites instead of whole egg. this recipe is also high in fiber and you can use nonfat greek yogurt in place of regular yogurt to bring up the protein content as well. sometimes i also add a few spoons of milled flax to add omega 3's. another option i enjoy is to make these a little sweet by adding in a couple packets of splenda or stevia and a teaspoon of vanilla.
+enjoy this healthy and very delicious recipe. it is also great with a little warm maple syrup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pastry flour, baking soda, salt, baking powder, egg, skim milk
+---
+TITLE: Amazing Low Carb Waffles
+CURRENT_DESCRIPTION: for a low-carber, these waffles are a god-send. they are very yummy, low in fat but so tasteful! also feel free to adapt the recipe. i haven't tried it myself but i think that a few teaspoons of cocoa powder would make for some excellent chocolate waffles. or leave out the sweetener for a waffle you can top with cheese or ham.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, eggs, salt, baking powder, coconut flour, almond flour
+---
+TITLE: Amazing Low Fat Turkey Lasagna Roll Ups
+CURRENT_DESCRIPTION: this recipe can be veggi, or any kind of meat. sense you roll up the lasagna everything stays inside, and you can do two types of lasagna in one pan. its very easy, and very tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato sauce, tomato paste, diced onion, olive oil, minced garlic cloves, carrot
+---
+TITLE: Amazing Lower Fat Vegetable Pot Pie
+CURRENT_DESCRIPTION: i made up this recipe the other day because i had a few sheets of phyllo pastry that needed to be used up, and i had read that they made amazing pies. well, i can definitely say that that is a fact. this is a delicious pie that can be used as a main or a side dish to a meal. i used broccoli, cauliflower, carrots and celery in mine, but you could use whatever veggies you happen to have on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo pastry sheets, mixed vegetables, low-fat cream of mushroom soup, milk, cooking spray, margarine
+---
+TITLE: Amazing Marinade
+CURRENT_DESCRIPTION: who knew that 5 ingredients could be so good? i used it with a steak but any meat would be great. add pasta or rice to drizzle the juices over. feta gives a great finish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, steak sauce, worcestershire sauce, steak seasoning, sugar, feta cheese
+---
+TITLE: Amazing Marinated Tofu Sandwich
+CURRENT_DESCRIPTION: the idea for this comes from a great restaurant i worked at. tofu is cooked in a great marinade and served in a sandwich with cheddar. for me, it's comfort food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, soy sauce, garlic cloves, lime, juice of, honey, firm tofu
+---
+TITLE: Amazing Mashed Potatoes
+CURRENT_DESCRIPTION: when i was growing up, my parents always made mashed potatoes from flakes.... ugh! it was such a treat to go to our grandparents house on holidays. grandpa made his potatoes by hand with his special recipe that no one else has been able to match. i made it a point to help him get the potatoes ready for big dinners until i learned his recipe by heart. a few years ago, i volunteered to make them for my in-laws' thanksgiving party. word spread... and now i'm the designated potato maker for every function on both sides of the family. it's okay though... it's an honor... and i can't get enough of them myself!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, sour cream, sweet creamy butter, cream cheese, chicken stock, salt
+---
+TITLE: Amazing Mexican Rice
+CURRENT_DESCRIPTION: i modified a recipe mexican-style rice recipe i found on here and it turned out great.  my family really loves it and hopefully you will too.
+
+the tomatoes i use are the western family brand.  you could substitute regular diced tomatoes, but it won't have the same great flavor. (those chipotle spices really make a difference!)  you could also substitute 1 cup frozen corn for 1 can of corn.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, yellow onion, rice, garlic clove, chicken broth, salt and pepper
+---
+TITLE: Amazing Microwave Mushroom Pulao
+CURRENT_DESCRIPTION: truly satisfying!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, oil, spring onions, cloves, cinnamon, green cardamoms
+---
+TITLE: Amazing Muffin Cups
+CURRENT_DESCRIPTION: a tasty savory brunch recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hash browns, butter, salt, breakfast sausage, eggs, mexican blend cheese
+---
+TITLE: Amazing Mushroom Triangles
+CURRENT_DESCRIPTION: so simple but packs so much flavor! could do with a vegan pastry to make meat-product free. comes together very quickly, can be frozen and put directly in the oven and reheats well
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: portabella mushroom, dried shiitake mushrooms, white mushrooms, water, red wine, fresh garlic
+---
+TITLE: Amazing Nacho Dip For A Crowd
+CURRENT_DESCRIPTION: this is one of the best dips, the amounts listed is enough about 15-20 people but may be cut in half if desired. i have served this many times at my get togethers and everyone loves it --- this may be prepared in advance up to step#8 refrigerated and baked later --- see my recipe#168653
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, minced garlic cloves, onion, salt, refried beans, green chilies
+---
+TITLE: Amazing Ny Style White Garlic Pizza
+CURRENT_DESCRIPTION: we lived in ny state for a few years and fell in love with white garlic pizza.  when we moved back to the midwest, purveyors of pizza, never heard of it.  this one fills the bill.  if your family likes garlic, be prepared to make this one over and over.  this recipe came from "all cooks" but had errors that needed to be corrected.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza crust, italian sausage, garlic alfredo sauce, onion, italian cheese blend
+---
+TITLE: Amazing Oatmeal Cookies
+CURRENT_DESCRIPTION: these are not your momma's oatmeal cookies--the secret ingredient?? rice crispies!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, rice krispies, flour, baking soda, baking powder, egg
+---
+TITLE: Amazing Oatmeal Ww Muffins Add Any Fruit You Like
+CURRENT_DESCRIPTION: my mil gave me this recipe, it uses old fashioned rolled oats, yogurt, and ww flour, no white flour at all.  extremely moist, lots of flavor
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, plain yogurt, vegetable oil, brown sugar, egg, whole wheat flour
+---
+TITLE: Amazing Onion Casserole
+CURRENT_DESCRIPTION: if you like onions, this is an absolute must for any potluck or holiday dinner! or any time, really!! and it sooo easy!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vidalia onions, mushroom soup, milk, potato chips, mozzarella cheese
+---
+TITLE: Amazing Oreo Dessert
+CURRENT_DESCRIPTION: this is fabulous!! an awesome dessert! plan ahead, you need to freeze it for 4 hours to get a good set.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookies, butter, cream cheese, peanut butter, powdered sugar, frozen whipped topping
+---
+TITLE: Amazing Overnight French Toast
+CURRENT_DESCRIPTION: this fabulous breakfast casserole is from the gooseberry patch girls.  it does need to be refrigerated overnight, so plan ahead.  easy to pop in the oven in the morning and the smell is divine!  tastes similiar to a bread pudding.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn syrup, brown sugar, butter, raisin bread, eggs, milk
+---
+TITLE: Amazing Peanut Butter Chocolate Chip Brownies
+CURRENT_DESCRIPTION: if you love peanut butter then this is for you, these are moist, rich and they bake out perfrectly, i made mine in an 11 x 7-inch baking pan but you can also bake it in a 13 x 9-inch pan and adjust the baking time slightly --- you don't need a mixer to make this everything is mixed by hand and you won't even need icing on these, just serve these topped with ice cream, yield is only estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, peanut butter, white sugar, light brown sugar, vanilla, eggs
+---
+TITLE: Amazing Peanut Butter Cookies
+CURRENT_DESCRIPTION: this is the best peanut butter cookie recipe i have ever come up with. no one i make them for can tell they're vegan! this recipe also doubles very well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: non-hydrogenated vegan margarine, vegetable shortening, unbleached cane sugar, brown sugar, non-hydrogenated peanut butter, vanilla-flavored soy yogurt
+---
+TITLE: Amazing Peas  Indian
+CURRENT_DESCRIPTION: this recipe is adapted from madhur jaffrey's world vegetarian. it is originally titled
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, asafoetida powder, brown mustard seeds, whole cumin seed, curry leaves, frozen peas
+---
+TITLE: Amazing Pickle Juice Ranch Dressing
+CURRENT_DESCRIPTION: i love chili's ranch dressing. i use this ranch recipe with everything. :) sometimes i put smoked paprika in it for an extra kick. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, sour cream, pickle juice, buttermilk, salt, dried parsley
+---
+TITLE: Amazing Pineapple Bread
+CURRENT_DESCRIPTION: this is so good, it's always gone in a day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, splenda sugar substitute, sugar, egg substitute, crushed pineapple, flour
+---
+TITLE: Amazing Pork Chop Or Chicken Marinade
+CURRENT_DESCRIPTION: this recipe came from my sister-in-law denise who is an awesome cook, mother and wife! originally we were using it only for pork but last night i had boneless, skinless chicken breasts thawed and thought, "why not?" the brown sugar flavor really came through with the chicken. i'm guessing it would also be great with venison.
+
+i often double the marinade for plenty to boil and pour over the grilled meat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic powder, brown sugar, ground ginger, ground pepper, vegetable oil, water
+---
+TITLE: Amazing Pot Roast
+CURRENT_DESCRIPTION: ahh two of the secret ingredients are dark beer and cocoa chili blend by mccormick giving this a mole feel. all the ingredients meld together creating a dark rich sauce.  can't find the blend no worries just substitute a mix of cocoa powder, chili powder chipotle chili powder, paprika and a touch of brown sugar. make a large piece of pot roast for delish leftovers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, black pepper, salt, boneless beef chuck, bacon, onions
+---
+TITLE: Amazing Potato Salad
+CURRENT_DESCRIPTION: i found this recipe in my food and wine magazine back in june 1997. the lady who created it is named elizabeth. i have been making it this way since then. i have made it for parties and it is so liked by everyone that most people leave with the recipe. i hope you all enjoy this as much as we have. note: cook time and prep time does not include cooling times for eggs and potatoes. don't let the amount of servings scare you, i normally reduce the amounts depending on how many people i am feeding. just cut everything in half.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, baking potatoes, salt, mayonnaise, evaporated milk, dijon mustard
+---
+TITLE: Amazing Pumpkin White Chocolate Chip Cookies
+CURRENT_DESCRIPTION: this recipe is from a cookbook called old-fashioned christmas cookies...it is amazing!  the cookies have a wonderful soft, cake-like consistency and the cream cheese frosting adds a nice touch of richness.  i love making these during the holidays and they always receive rave reviews.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, solid pack pumpkin, eggs, all-purpose flour, pumpkin pie spice
+---
+TITLE: Amazing Punch  Orange Pineapple   Great
+CURRENT_DESCRIPTION: this is so delicious!!! always brings rounds of compliments - and - it's not a dark-colored drink, so is appropriate even for weddings, etc.. even those who don't care for pineapple flavor love this punch! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen orange juice concentrate, frozen lemonade concentrate, pineapple juice, 7-up soda, sugar, water
+---
+TITLE: Amazing Quiche
+CURRENT_DESCRIPTION: this is a beautiful recipe that we are always begging my mummy to make. me and my brother literally could live of this stuff.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, milk, butter, flour, eggs, onion
+---
+TITLE: Amazing Ranch Potato Casserole
+CURRENT_DESCRIPTION: true comfort food!  i use the oscar meyer prepared real bacon bits in the pouch. prep time includes the time to precook the potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sour cream, bacon, ranch dressing, parsley, cheddar cheese, new potatoes
+---
+TITLE: Amazing Real Pumpkin Pie
+CURRENT_DESCRIPTION: i have came up with this on my own. i have perfected it to the most amazing pumpkin pie ever.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crusts, cooked pumpkin, eggs, sugar, cinnamon, pumpkin pie spice
+---
+TITLE: Amazing Red Velvet Cake With Frosting
+CURRENT_DESCRIPTION: i found this in my grandma's recipe box and discovered that it is terribly addicting. make sure you have plenty of red food coloring or else you will end up with a pink cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, granulated sugar, eggs, red food coloring, flour, baking soda
+---
+TITLE: Amazing Rib Eye Steaks With Marsala Sauce
+CURRENT_DESCRIPTION: this sauce is so delicious you will want to lick your plate clean. pan fried rib eye steaks are topped with the yummiest marsala mushroom sauce and ready for the table in less than 30 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rib eye steaks, salt and pepper, olive oil, butter, garlic cloves, sliced mushrooms
+---
+TITLE: Amazing Rice Pudding
+CURRENT_DESCRIPTION: i have been making this recipe for since 2006, i got it out of a magazine and i wish i could remember the magazine because if all their recipes are this good, i would make them my all time recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long grain rice, water, salt, milk, sugar, vanilla
+---
+TITLE: Amazing Roasted Shrimp With Garlic
+CURRENT_DESCRIPTION: this is one of the best shrimp dishes i've ever had. it was inspired by a similar dish i had at bobby flay's restaurant bolo a while back. this is fantastic with a good crusty italian bread to spread the garlic on and soak up the sauce, but you might also try it served over pasta, maybe with a splash of lemon juice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, dried chilies, extra virgin olive oil, large shrimp, crusty italian bread
+---
+TITLE: Amazing Salmon Tacos
+CURRENT_DESCRIPTION: absolutely, hands down, no doubt about it, the best recipe for fish tacos! do your chopping ahead of time, as these tacos cook up fast! fresh and light in taste, the flavor of delicious alaskan wild salmon shines in this dish. you may also substitute halibut, or a similarly firm textured fish in place of the salmon. the leftovers are great served cold over a salad! i adapted this recipe from my mom's method of preparing salmon tacos.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon, cumin, chili powder, olive oil, yellow onion, limes
+---
+TITLE: Amazing Shrimp Dip
+CURRENT_DESCRIPTION: my friend larry passed this amazing recipe on to me 20 years ago. i have been using it ever since and still have folks asking for the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, shrimp, miracle whip, chili sauce, horseradish, garlic powder
+---
+TITLE: Amazing Shrimp Louie Salad
+CURRENT_DESCRIPTION: this is the my personal favorite of all salads, and it makes a great lunch or light dinner.  you don't see it much any more in restaurants since it was popular back during the 1950's (the garnishes of olive, egg, asparagus and cuke are "traditional"), but it's so hard to top, i can't believe it's not on every menu to this day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby shrimp, hard-boiled egg, cucumbers, grape tomatoes, black olives, canned asparagus
+---
+TITLE: Amazing Shrimp Po Boys
+CURRENT_DESCRIPTION: dh loves these, even though they were based on a ww recipe.  dh loves these so much he will even make them himself!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green onion, sweet pickle relish, creole mustard, light mayonnaise, white wine vinegar, salt
+---
+TITLE: Amazing Simple Rack Of Lamb With Cabernet Sauce
+CURRENT_DESCRIPTION: this is a recipe that i have been working on/perfecting for some time. inspired by the rack of lamb at outback. i found a seasoning recipe online a few years ago that was similar to mine. the most laborious part is mixing the seasonings. the seasoning is incredible, great for any meat really. the cabernet sauce is a variation the outback one and is great too. i served this recently with mashed red potatoes. sometimes i'll do 1 teaspoon kosher salt and 1/2 teaspoon granulated salt, to make the saltiness more uniform.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kosher salt, black pepper, paprika, garlic powder, onion powder, cayenne pepper
+---
+TITLE: Amazing Soft And Chewy Chocolate Chip Cookies
+CURRENT_DESCRIPTION: these are absolutely the most amazing chocolate chip cookies ever! they are crisp on the outside yet soft and chewy in the middle and delicious chocolate chips are spread throughout them making them even more of a scrumptious treat. whenever i make them they disappear in seconds; children and adults alike can't get enough. these cookies are so moist and chewy they literally melt in your mouth! the best ever!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, caster sugar, self-raising flour, plain flour, egg
+---
+TITLE: Amazing Solan Family Chocolate Cake  Aka 3 Hole Cake
+CURRENT_DESCRIPTION: this is a swedish cake recipe; i got it from a dear friend who made it at several parties during college and always got rave reviews. now i'm the one who gets all the credit when i make it : ) my family loves it; i play the "guess-the-secret-ingredient" game (the vinegar) and no one ever has... though they've guessed everything from peanut butter to cheese! i love it because it's relatively "healthy" (no dairy, no eggs, low-fat), while it's still amazingly moist and chocolaty and dense. (you can make it even lower fat if you use only 1/4 c oil and sub. 1/2 c applesauce).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking soda, salt, baking cocoa, oil
+---
+TITLE: Amazing Spaghetti With Seafood Sauce
+CURRENT_DESCRIPTION: husband's new favorite pasta dish -
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic, spaghetti, tomatoes, tomato paste
+---
+TITLE: Amazing Spice Cake
+CURRENT_DESCRIPTION: this is a very flavourful, moist cake. i made it for my mom's birthday since she doesn't like chocolate and the rest of the family isn't too keen on white cake. she loved it. the cake tastes even better after a day or two.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, white sugar, egg, vanilla, flour, baking powder
+---
+TITLE: Amazing Spicy Grilled Shrimp
+CURRENT_DESCRIPTION: this is an amazing spicy grilled shrimp recipe.  it has become my family's new favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, sesame oil, fresh parsley, hot sauce, garlic, ketchup
+---
+TITLE: Amazing Spicy Guacamole
+CURRENT_DESCRIPTION: i love guacamole and love spicy foods, and experimented and came up with this delicious, chunky and fresh tasting version!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, white onion, grape tomatoes, garlic cloves, jalapenos, lime
+---
+TITLE: Amazing Spinach Bacon Quiche
+CURRENT_DESCRIPTION: i created this recipe after looking at a few different quiche recipes.  you can change the main ingredients to make this any type of quiche you like.  it always turns out great! one tip is to spray the pie pan with non stick spray before you put the crust in to make it come out easier when you serve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen spinach, bacon, skim milk, eggs, cheddar cheese, salt and pepper
+---
+TITLE: Amazing Strawberry  Or Blueberry  Shortcake
+CURRENT_DESCRIPTION: found this amazing recipe in a magazine at the dentist and scrawled it on a scrap of paper. on the way home, i stopped by the market to get necessary ingredients and made it for dinner that evening. incredible. i am sure any combination of berries would be wonderful. i am a mascarpone cheese convert--it is a softer, more delicate flavor than cream cheese and perfect in this recipe. hope you enjoy! (prep time includes 1 hour fruit sits in refrigerator).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh strawberries, granulated sugar, lemon juice, mascarpone cheese, confectioners, ,
+---
+TITLE: Amazing Stuffed  Shrooms
+CURRENT_DESCRIPTION: my husband's friend mark introduced me to this recipe. they always disappear quickly when i serve them at gatherings. you may need to add a little more or a little less of the ingredients to get enough mixture. if you have some left over, it's pretty good to eat off of the spoon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushrooms, seasoned bread crumbs, cream cheese, milk, parmesan cheese
+---
+TITLE: Amazing Stuffed Capsicum
+CURRENT_DESCRIPTION: this is great using banana capsicum ( basically a small banana shaped red capsicum that looks exactly like a huge chili) as i find that the usual sized capsicums are a little too much. anyway, a great recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana peppers, bacon, onions, garlic, mozzarella cheese, tasty cheese
+---
+TITLE: Amazing Stuffed Mushrooms
+CURRENT_DESCRIPTION: i tried some other recipes and had to mess with them so it wasn't really their recipe anymore. i don't like it when people write a review and they've changed everything....just make it your own!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole mushrooms, jimmy dean sausage, cream cheese, onion, garlic cloves, parmesan cheese
+---
+TITLE: amazing stuffing from scratch  breadmaker recommended
+CURRENT_DESCRIPTION: this is the best stuffing ever. even my picky inlaws love it.
+
+this recipe takes some planning but all of the prep work can be done well ahead of time. i make the bread, then combine all the ingredients except broth, then freeze it in a foil baking dish. next i freeze the broth in muffin tins and when it's solid, i toss it on top of the frozen stuffing. come the holidays, i pop the whole thing straight from the freezer into the oven. 
+
+prep time does not include baking the bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, salt, butter, white flour, whole wheat flour, sugar
+---
+TITLE: Amazing Stuffing From Scratch  Breadmaker Recommended
+CURRENT_DESCRIPTION: this is the best stuffing ever. even my picky inlaws love it.
+
+this recipe takes some planning but all of the prep work can be done well ahead of time. i make the bread, then combine all the ingredients except broth, then freeze it in a foil baking dish. next i freeze the broth in muffin tins and when it's solid, i toss it on top of the frozen stuffing. come the holidays, i pop the whole thing straight from the freezer into the oven. 
+
+prep time does not include baking the bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, salt, butter, white flour, whole wheat flour, sugar
+---
+TITLE: Amazing Sweet Italian Sausage Pasta Soup
+CURRENT_DESCRIPTION: this is so easy, and is 'hands-down', our favorite soup recipe in this house!! you won't be disappointed!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet italian turkey sausage, green pepper, onion, garlic, water, diced tomatoes
+---
+TITLE: Amazing Sweet Potato Salad
+CURRENT_DESCRIPTION: from extraordinary health magazine. serve chilled or room temperature in the hotter months and warm in the colder months.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, red bell peppers, dark raisins, lemon juice, fresh parsley, extra virgin olive oil
+---
+TITLE: Amazing Taco Seasoning
+CURRENT_DESCRIPTION: this taco seasoning is just perfect!  i make three or four batches at a time and put them in ziploc bags for convenience.  once you try this you'll never buy a packet of taco seasoning at the grocery store again!  msg gives me a headache, so years ago i went on a quest for a great taco seasoning recipe.  this is what i found (i just don't remember where).  this will season a pound of ground whatever (or a bag of morningstar farms veggie crumbles- nobody will ever know it's meat-free).  hope you like it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, chili powder, paprika, salt, dried onion flakes, cumin
+---
+TITLE: Amazing Thai Peanut Chicken
+CURRENT_DESCRIPTION: impress people with this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, creamy peanut butter, white wine vinegar, cayenne pepper, olive oil, boneless skinless chicken breast halves
+---
+TITLE: amazing thin crust pizza
+CURRENT_DESCRIPTION: i finally mastered pizza making at home!  it was a day to celebrate, since this pizza is actually better than you often go out for.  when i make this my husband says it's always the best part of his day.  it's a combination of recipes and techniques that i put together from cook's illustrated, a very good cook i know, and some "serious" pizza guys.  this recipe makes a 13x18 inch half-sheet size medium crust pizza, or two traditional round thin crust pizzas, and the crust is crispy/tender. (i find i can get a thinner crust from a round pizza, since there's a little more room to spread the dough out.)  the sauce is very flavorful and i've tried to include all my tips for success!  you must have a pizza stone for this, and pulling the pizza on the parchment onto an upside-down half sheet pan makes it easy to transfer the pizza to the stone. the sauce recipe will make enough for 3 medium pizzas, or 6 thin crust pizzas, so reserve the extra for another pie. layers for the topping need to be thin enough to allow the crust to crisp. (i know it goes against all instinct, but it's very important to please practice restraint!) i've revised the recipe to include a little less of the toppings for better success.  preparation time includes rising time for the dough and may seem like a little work, but once you've tried this you may never go out for pizza again!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, instant yeast, salt, olive oil, warm water, crushed tomatoes
+---
+TITLE: Amazing Thin Crust Pizza
+CURRENT_DESCRIPTION: i finally mastered pizza making at home!  it was a day to celebrate, since this pizza is actually better than you often go out for.  when i make this my husband says it's always the best part of his day.  it's a combination of recipes and techniques that i put together from cook's illustrated, a very good cook i know, and some "serious" pizza guys.  this recipe makes a 13x18 inch half-sheet size medium crust pizza, or two traditional round thin crust pizzas, and the crust is crispy/tender. (i find i can get a thinner crust from a round pizza, since there's a little more room to spread the dough out.)  the sauce is very flavorful and i've tried to include all my tips for success!  you must have a pizza stone for this, and pulling the pizza on the parchment onto an upside-down half sheet pan makes it easy to transfer the pizza to the stone. the sauce recipe will make enough for 3 medium pizzas, or 6 thin crust pizzas, so reserve the extra for another pie. layers for the topping need to be thin enough to allow the crust to crisp. (i know it goes against all instinct, but it's very important to please practice restraint!) i've revised the recipe to include a little less of the toppings for better success.  preparation time includes rising time for the dough and may seem like a little work, but once you've tried this you may never go out for pizza again!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, instant yeast, salt, olive oil, warm water, crushed tomatoes
+---
+TITLE: Amazing Toffee Peanut Crunch Ice Cream Cake
+CURRENT_DESCRIPTION: this is one of the best ice cream cakes ---if you can't find skor bars then use any toffee bar for this. this cake is perfect for a summertime birthday party, you may use all half and half cream to make the sauce, but i find that it is better with half whip cream and half and half --- this is *so* good! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafers, butter, vanilla ice cream, skor candy bars, unsalted peanuts, brown sugar
+---
+TITLE: Amazing Tofu Parmesan
+CURRENT_DESCRIPTION: i have been a vegetarian for only 2 months now and wanted to find a recipe that would make tofu taste good!  after looking at many recipes i came up with this which combines what i think are the best parts of many recipes.  i didn't measure the ingredients so i will give estimates here which will work but feel free to adjust to your personal taste.  this really is a special recipe in my opinion that even meat lovers will enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra firm tofu, soy sauce, olive oil, garlic, egg, flour
+---
+TITLE: Amazing Tuna Fish Casserole
+CURRENT_DESCRIPTION: my mother made this for me when i was growing up. now it is a favorite with my family. the cheese and soup create a wonderful flavor. can also use canned chicken instead of tuna. i serve tiny new peas with this. my kids love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kraft macaroni and cheese, campbell, ,, ,, ,
+---
+TITLE: Amazing Turkish    Confetti  Rice
+CURRENT_DESCRIPTION: i lived in izmir, turkey for one year and got this recipe from the family cook. it is, hands down, the best rice i have ever had the pleasure of eating, it also makes a spectacular presentation on any table!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jasmine rice, yellow bell pepper, dried currant, yellow onion, eggplant, mushroom
+---
+TITLE: Amazing Vegan Chocolate Chip Cookies
+CURRENT_DESCRIPTION: these cookies are very soft and moist, and taste wonderful. even my non-vegan friends love them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, baking soda, salt, margarine, brown sugar, vanilla extract
+---
+TITLE: Amazing Vegan Cinnamon Buns
+CURRENT_DESCRIPTION: i got this recipe form foodgeeks.com and it is the best thing i've ever eaten in my life! it works best if you cook them in a glass pan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, nutmeg, salt, active dry yeast, sugar, water
+---
+TITLE: Amazing Vegan Sweet Potato Fries  Baked
+CURRENT_DESCRIPTION: modified from goveg.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic salt, pepper, ground cayenne pepper, sweet potatoes, olive oil
+---
+TITLE: Amazing Vegetable Quiche
+CURRENT_DESCRIPTION: while this quiche may take a little more effort than others - it is worth every second!! very healthy and super tasty! after trying many quiche recipes in search for a good one - i created this, which none other has even come close to!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, oat bran, butter, applesauce, water, eggplant
+---
+TITLE: Amazing Vegetable Soup  South Beach Diet
+CURRENT_DESCRIPTION: this was posted by a fellow sbder, mamacita, in the 3 fat chicks on a diet boards. it's a wonderfully delicious, simple, vegetable soup. it originally called for zucchini, but i leave it out as i dislike summer squash. feel free to add some in if you like, though. i sometimes add in a can of navy beans, rinsed and drained, with the tomatoes. for south beach diet, make sure your tomatoes have no added sugar. it makes quite a bit, but it reheats fairly well--or you can cool and freeze it. don't be afraid of the garlic--it mellows out a lot during cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, green cabbage, celery, leek, garlic cloves, fresh green beans
+---
+TITLE: Amazing Vegetarian Or Vegan Lasagna
+CURRENT_DESCRIPTION: this lasagna is low in fat and is much better for you than most lasagna recipes.  this recipe started with the back of a lasagna noodle package recipe, but has been altered to a vegetarian or vegan recipe along with other alterations.  many of our friends (most of them not vegetarian or vegan!) request this dish from my husband for get-togethers or parties.  it’s always gone in minutes.  many times we use fresh asia eggplant in place of spinach as it is in abundance here in asia and in our opinion tastes better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lasagna noodles, onion, garlic clove, olive oil, veggie burgers, spaghetti sauce
+---
+TITLE: Amazing Veggie Burgers
+CURRENT_DESCRIPTION: a tasty black bean burger with onion, bbq sauce and cheddar cheese. these great-tasting burgers don’t demand a mind-numbing list of unusual ingredients. you can easily double the recipe and freeze some for another night. from today's parent magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, onion, garlic clove, egg, barbecue sauce, worcestershire sauce
+---
+TITLE: Amazing Watermelon Greek Salad With Feta
+CURRENT_DESCRIPTION: this refreshing salad will surprise you and your guests with how well the flavours work together. at first, it might seem strange, but one taste and you will be hooked. the cool, crunchy watermelon is the perfect base for the pungent, greek flavours - it's a perfect balance of savoury and sweet.
+
+a similar salad was served to me at a cafe a few years back. i had always remembered it and finally decided to try to recreate it. this is about as close to the original i could get. :) 
+
+***note*** feel free to experiment with flavours. try adding in some fresh basil or fresh mint in place of the balsamic vinegar. or leave out the vinegar altogether.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, fresh lime juice, seedless watermelon, feta cheese, black olives, extra virgin olive oil
+---
+TITLE: Amazing Whipped Sweet Potatoes
+CURRENT_DESCRIPTION: the addition of banana gives these sweet potatoes a really lovely twist. you've got to try them!!! add as much or as little banana as you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, bananas, honey, half-and-half, butter, kosher salt
+---
+TITLE: Amazing Whole Wheat Oatmeal Cookies
+CURRENT_DESCRIPTION: these cookies are really good! and they only have a little bit of butter in them! you can add raisins to them, or you can use chocolate chips instead!  they are moist and tasty.  one healthy recipe my family actually liked! makes 4 dozen
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, cinnamon, baking powder, baking soda, salt, brown sugar
+---
+TITLE: Amazing Wild Rice   Mushroom Chicken Bake
+CURRENT_DESCRIPTION: an easy casserole, low fat, delicious and guaranteed no leftovers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, cream of chicken soup, cream of mushroom soup, white wine, dry onion soup mix, wild rice
+---
+TITLE: Amazing Yellow Cake
+CURRENT_DESCRIPTION: best yellow cake with basic ingredients
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, butter, flour, baking powder, vanilla
+---
+TITLE: Amazingly  Easy Cream Of Chicken Taco Meat Soup
+CURRENT_DESCRIPTION: great way to use up leftovers if you happen to find yourself wondering what to have for lunch. using cream of chicken soup as the base, add in leftover ground vension taco meat, potatoes, and extra vegetables for a quick, creamy soup & cleaner refigerator!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 98% fat-free cream of chicken soup, skim milk, lean ground meat, russet potato, garlic salt, garlic pepper seasoning
+---
+TITLE: Amazingly  Easy Layered Cherry Coffee Cake
+CURRENT_DESCRIPTION: a beautiful dessert that you would never know started with canned biscuits and pie filling. adapted from southern living
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cherry pie filling, brown sugar, ground cinnamon, refrigerated buttermilk biscuits, unsalted butter
+---
+TITLE: Amazingly Cheesy Creamy Spinach Artichoke Dip
+CURRENT_DESCRIPTION: ok, i know there are a ton of recipes out there. but i have yet to find one i like as well as my version. this has a cream cheese base, and bakes up creamy and extra cheesy with lots of flavor. this works well with low fat ingredients also. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, green onion, red bell pepper, frozen chopped spinach, artichoke hearts, garlic cloves
+---
+TITLE: Amazingly Creamy Mashed Potatoes
+CURRENT_DESCRIPTION: just by adding this secret ingredient you get super creamy and heavenly tasting potatoes.  i usually don't peel my potatoes for the extra nutrients but peel for a more creamy texture.  i use 1/% milk by choice but for even more creaminess use 2% or whole.  even if you don't like cream cheese (like me) you'll love this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, butter, low-fat cream cheese, 1% low-fat milk, salt
+---
+TITLE: Amazingly Delicious Chocolate Mousse
+CURRENT_DESCRIPTION: this is the first time i make chocolate mousse! this is not a recipe like the ones written in cookbooks because i just followed my instincts not some strict rules, but i can assure you it is amazing! it is also the first time i eat chocolate mousse and i am absolutely astonished by the texture and flavors. i think this will be the only way i am going to eat chocolate from now on.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semisweet chocolate, coffee, eggs, sucanat, rum extract, vanilla extract
+---
+TITLE: Amazingly Delicious Rum Pina Colada Cake
+CURRENT_DESCRIPTION: this cake is a recipe from those wonderful people at bacardi rum. it takes a little time but it is worth it. i have been making this cake for over ten years and it makes a beautiful presentation and it tastes so good.   it is perfect ending for a summer evening meal, its light and refreshing so you don't feel weighed down.  enjoy :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, instant coconut cream pudding mix, eggs, water, bacardi dark rum, canola oil
+---
+TITLE: Amazingly Delicious Toffee Squares
+CURRENT_DESCRIPTION: the first time i had these at my friend's house i almost devoured the whole platefull. she thought it would be a better idea if she gave me the recipe. these are really amazingly delicious, and very addictive.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, egg yolk, vanilla, flour, milk chocolate
+---
+TITLE: Amazingly Easy   Delicious Buttery Frosting
+CURRENT_DESCRIPTION: i found the basis for this frosting through another members post. (recipe #41923) i tweaked it to make it what i wanted that day, but it is so easily changed to make the smoothest, creamiest, buttery frosting i have ever had! and its easy!!!! the first time i made it i added a tsp of coconut extract and after it was all mixed up i folded in a 1/2 cup of flaked coconut. it was a hit!!! you won't regret trying this recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, flour, vanilla extract, sugar, butter, extract
+---
+TITLE: Amazingly Easy 15 Minute Pumpkin   Risotto
+CURRENT_DESCRIPTION: this recipe is based on one from sunset magazine (oct 1997, although the original used instant rice so this new one is quite different), and is absolutely wonderful!  darn easy, too.  :)  easily converted to vegetarian, as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, butter, yellow onion, ground nutmeg, cornstarch, low sodium chicken broth
+---
+TITLE: Amazingly Easy Brownies
+CURRENT_DESCRIPTION: this is a delicious brownie recipe i found on the ibs message boards. it's so simple to throw together, and you would never guess that it's low-fat and dairy-free! i like the brownies best when they're cool. yum! they were originally called
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa powder, salt, egg whites, granulated sugar, unsweetened applesauce
+---
+TITLE: Amazingly Easy Chocolate Buttercream Frosting
+CURRENT_DESCRIPTION: this is a very easy to make, but super yummy icing. i found it on the back of a powdered sugar bag i had in my pantry. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, confectioners, ,, ,, ,
+---
+TITLE: Amazingly Easy Grain Free Biscuits Rolls
+CURRENT_DESCRIPTION: these are inspired by this masterpiece: http://www.food.com/recipe/easy-biscuits-135930.
+
+they're soft, tender, and make a great, protein-rich breakfast (or side!). no eggs to deal with, either. :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chickpea flour, tapioca starch, baking powder, salt, sugar, almond milk
+---
+TITLE: Amazingly Good Chicken Salad
+CURRENT_DESCRIPTION: this is a great chicken salad recipe given to me years ago by a friend. i serve it on homemade finger rolls, the dough is made in the breadmaker (crescent roll recipe). this makes quite a large amount, enough for 48 finger rolls. i always get requests for this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, kraft mayonnaise, good seasonings italian salad dressing mix, lemon juice, salt and pepper
+---
+TITLE: Amazingly Good Eggnog
+CURRENT_DESCRIPTION: due to health concerns about raw eggs, i've forgone eggnog for a number of years ... until i came across this recipe.  the mixture is cooked so no danger from raw eggs.  it's delicious!  i usually keep some separate without rum for either kids or those who prefer no alcohol.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, whole cloves, vanilla extract, cinnamon, egg yolks, sugar
+---
+TITLE: Amazingly Juicy Grilled Lemon Chicken
+CURRENT_DESCRIPTION: this is a great recipe for making a juicy chicken breast on the grill. the sauce has another great surprise with a kick of dijon mustard to it!  i found this recipe in cooks illustrated. hope you enjoy!  time doesn't include marinading in the fridge.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, fresh lemon juice, olive oil, fresh parsley, sugar, salt and pepper
+---
+TITLE: Amazingly Parve Cheesecake
+CURRENT_DESCRIPTION: originally created for my nephew stuart who is lactose-intolerant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: petit beurre biscuits, margarine, cinnamon, tofutti better-than-cream-cheese, tofutti sour supreme natural flavor, eggs

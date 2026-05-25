@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Poster Art Direction</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #080807; color: #EFE3CE; font-family: Inter, sans-serif; }
+
+  .page-header {
+    text-align: center;
+    padding: 32px 24px 20px;
+    font-family: Inter, sans-serif;
+  }
+  .page-header h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 20px; color: #EFE3CE; margin-bottom: 6px; font-weight: 400; }
+  .page-header p { color: #6b5040; font-size: 12px; }
+
+  .posters-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    height: calc(100vh - 110px);
+    min-height: 600px;
+  }
+
+  /* ═══════════════════════════════════════════
+     POSTER 1 — CARBONARA
+     Concept: Roman manuscript. Aged parchment
+     bleeds into carbon black. The recipe name
+     is monumental — like carved stone. An ink
+     wash diagonal cuts across the lower third.
+  ═══════════════════════════════════════════ */
+  .poster-carbonara {
+    position: relative;
+    overflow: hidden;
+    background: #0f0a04;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  .poster-carbonara:hover { border-color: #c8903840; }
+  .poster-carbonara.selected { border-color: #c89038; }
+
+  /* Grain texture overlay */
+  .poster-carbonara::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(ellipse 80% 60% at 70% 30%, rgba(200,144,56,0.18) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 80% at 20% 80%, rgba(160,80,20,0.12) 0%, transparent 60%);
+    z-index: 1;
+  }
+
+  /* Massive background number — ghosted */
+  .carb-ghost-num {
+    position: absolute;
+    top: -20px; right: -10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 280px;
+    font-weight: 900;
+    color: rgba(200,144,56,0.06);
+    line-height: 1;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  /* Diagonal ink slash */
+  .carb-slash {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 45%;
+    background: linear-gradient(160deg, transparent 45%, rgba(200,144,56,0.07) 45%);
+    z-index: 1;
+  }
+
+  /* Thin vertical rule on left */
+  .carb-rule {
+    position: absolute;
+    left: 28px; top: 40px; bottom: 40px;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, #c89038, transparent);
+    z-index: 2;
+  }
+
+  .carb-content {
+    position: relative;
+    z-index: 3;
+    padding: 48px 40px 40px 52px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .carb-top {}
+  .carb-index {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #c89038;
+    margin-bottom: 6px;
+  }
+  .carb-eyebrow {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: rgba(239,227,206,0.4);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  .carb-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(52px, 7vw, 88px);
+    font-weight: 900;
+    line-height: 0.9;
+    color: #EFE3CE;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+  }
+  .carb-name-italic {
+    font-style: italic;
+    color: #c89038;
+    display: block;
+    font-size: 0.7em;
+    margin-top: 4px;
+  }
+
+  .carb-divider {
+    width: 48px;
+    height: 1px;
+    background: #c89038;
+    margin: 24px 0;
+  }
+
+  .carb-origin-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .carb-flag {
+    width: 28px; height: 20px;
+    background: linear-gradient(to bottom, #009246 33%, #fff 33%, #fff 66%, #ce2b37 66%);
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .carb-origin-text {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(239,227,206,0.5);
+  }
+
+  .carb-desc {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(239,227,206,0.55);
+    line-height: 1.7;
+    max-width: 280px;
+  }
+
+  .carb-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .carb-ingredients {
+    list-style: none;
+  }
+  .carb-ingredients li {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(200,144,56,0.6);
+    padding: 3px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(200,144,56,0.1);
+  }
+
+  .carb-stats {
+    text-align: right;
+  }
+  .carb-stat-big {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(200,144,56,0.3);
+    line-height: 1;
+  }
+  .carb-stat-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(200,144,56,0.3);
+  }
+
+  /* Large pasta emoji as ambient art element */
+  .carb-art {
+    position: absolute;
+    bottom: 60px; right: 30px;
+    font-size: 120px;
+    opacity: 0.12;
+    z-index: 2;
+    transform: rotate(-15deg);
+    pointer-events: none;
+    filter: blur(1px);
+  }
+
+
+  /* ═══════════════════════════════════════════
+     POSTER 2 — CROISSANT
+     Concept: Parisian morning. Cream and gold.
+     The name is handwritten-style italic serif.
+     A large croissant silhouette is the hero —
+     not an emoji but treated as a geometric shape.
+     Layers of cream/gold like laminated dough.
+  ═══════════════════════════════════════════ */
+  .poster-croissant {
+    position: relative;
+    overflow: hidden;
+    background: #f5edd0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  .poster-croissant:hover { border-color: #8B6B2040; }
+  .poster-croissant.selected { border-color: #8B6B20; }
+
+  /* Layered dough-like bands across top */
+  .crois-bands {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 8px;
+    background: repeating-linear-gradient(
+      90deg,
+      #d4a820 0px, #d4a820 20px,
+      #c8941c 20px, #c8941c 40px,
+      #e0b840 40px, #e0b840 60px,
+      #c09010 60px, #c09010 80px
+    );
+    z-index: 2;
+  }
+
+  /* Faint grid lines — Parisian café paper */
+  .poster-croissant::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(139,107,32,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(139,107,32,0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 1;
+  }
+
+  /* Warm radial glow behind the croissant */
+  .poster-croissant::after {
+    content: '';
+    position: absolute;
+    top: 20%; right: -10%;
+    width: 70%; height: 70%;
+    background: radial-gradient(ellipse, rgba(212,168,32,0.2) 0%, transparent 70%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .crois-content {
+    position: relative;
+    z-index: 3;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .crois-top {}
+
+  .crois-stamp {
+    display: inline-block;
+    border: 2px solid rgba(139,107,32,0.4);
+    border-radius: 50%;
+    width: 52px; height: 52px;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .crois-stamp-text {
+    font-size: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8B6B20;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+
+  .crois-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    color: rgba(139,107,32,0.5);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .crois-name {
+    font-family: 'DM Serif Display', 'Playfair Display', serif;
+    font-size: clamp(48px, 7vw, 80px);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 0.95;
+    color: #2a1a04;
+    letter-spacing: -1px;
+    margin-bottom: 6px;
+  }
+
+  .crois-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(139,107,32,0.6);
+    margin-bottom: 24px;
+  }
+
+  .crois-rule {
+    width: 100%;
+    height: 1px;
+    background: rgba(139,107,32,0.25);
+    margin-bottom: 18px;
+  }
+
+  .crois-desc {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: rgba(42,26,4,0.6);
+    line-height: 1.8;
+    max-width: 260px;
+    margin-bottom: 20px;
+  }
+
+  /* The hero element — a large artistic croissant glyph */
+  .crois-art {
+    position: absolute;
+    top: 50%; right: -20px;
+    transform: translateY(-50%) rotate(15deg);
+    font-size: 200px;
+    opacity: 0.15;
+    z-index: 2;
+    pointer-events: none;
+    filter: sepia(1) saturate(2);
+  }
+
+  .crois-bottom {}
+
+  .crois-time-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+  }
+  .crois-time-item { }
+  .crois-time-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #8B6B20;
+    line-height: 1;
+  }
+  .crois-time-key {
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(139,107,32,0.5);
+  }
+
+  .crois-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .crois-tag {
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(139,107,32,0.7);
+    border: 1px solid rgba(139,107,32,0.3);
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+
+  .crois-bands-bottom {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 8px;
+    background: repeating-linear-gradient(
+      90deg,
+      #d4a820 0px, #d4a820 20px,
+      #c8941c 20px, #c8941c 40px,
+      #e0b840 40px, #e0b840 60px,
+      #c09010 60px, #c09010 80px
+    );
+    z-index: 2;
+  }
+
+  /* SELECTION */
+  .poster-label {
+    text-align: center;
+    padding: 10px;
+    background: #0d0d0c;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6b5040;
+    font-family: 'Courier New', monospace;
+  }
+
+  .bottom-note {
+    background: #0d0d0c;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #6b5040;
+    line-height: 1.8;
+  }
+  .bottom-note strong { color: #EFE3CE; }
+</style>
+<script>
+  function selectPoster(el, choice) {
+    document.querySelectorAll('.poster-carbonara, .poster-croissant').forEach(p => p.classList.remove('selected'));
+    el.classList.add('selected');
+    try {
+      fetch('/event', {method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({type:'click',choice,text:choice,timestamp:Date.now()})});
+    } catch(e){}
+  }
+</script>
+</head>
+<body>
+
+<div class="page-header">
+  <h2>Two posters, full artistic treatment</h2>
+  <p>This is the direction — each recipe gets a completely different visual identity, not a color swap of the same layout.</p>
+</div>
+
+<div class="posters-row">
+
+  <!-- CARBONARA -->
+  <div>
+    <div class="poster-carbonara" data-choice="carbonara" onclick="selectPoster(this,'carbonara')" style="height:calc(100% - 36px)">
+      <div class="carb-ghost-num">I</div>
+      <div class="carb-slash"></div>
+      <div class="carb-rule"></div>
+      <div class="carb-art">🍝</div>
+
+      <div class="carb-content">
+        <div class="carb-top">
+          <div class="carb-index">No. 01 — Italian</div>
+          <div class="carb-eyebrow">La Cucina Romana</div>
+          <div class="carb-name">
+            Cacio<br>
+            <span class="carb-name-italic">& Uova</span>
+          </div>
+          <div class="carb-divider"></div>
+          <div class="carb-origin-block">
+            <div class="carb-flag"></div>
+            <div class="carb-origin-text">Rome · Lazio · Eternal City</div>
+          </div>
+          <p class="carb-desc">"No cream. Never cream. Just fat, starch, heat, and time."</p>
+        </div>
+
+        <div class="carb-bottom">
+          <ul class="carb-ingredients">
+            <li>Guanciale · 200g</li>
+            <li>Pecorino Romano · 80g</li>
+            <li>Egg Yolks · 4</li>
+            <li>Spaghetti · 400g</li>
+            <li>Cracked Black Pepper</li>
+          </ul>
+          <div class="carb-stats">
+            <div class="carb-stat-big">25'</div>
+            <div class="carb-stat-label">to table</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="poster-label">Carbonara · Warm Amber · Roman editorial</div>
+  </div>
+
+  <!-- CROISSANT -->
+  <div>
+    <div class="poster-croissant" data-choice="croissant" onclick="selectPoster(this,'croissant')" style="height:calc(100% - 36px)">
+      <div class="crois-bands"></div>
+      <div class="crois-art">🥐</div>
+
+      <div class="crois-content">
+        <div class="crois-top">
+          <div class="crois-stamp">
+            <div class="crois-stamp-text">Paris<br>·<br>1920</div>
+          </div>
+          <div class="crois-number">No. 03 · Viennoiserie</div>
+          <div class="crois-name">Crois-<br>sant</div>
+          <div class="crois-sub">Beurre · Feuilletée</div>
+          <div class="crois-rule"></div>
+          <p class="crois-desc">"Twenty-seven layers of butter and patience. Nothing else qualifies."</p>
+        </div>
+
+        <div class="crois-bottom">
+          <div class="crois-time-row">
+            <div class="crois-time-item">
+              <div class="crois-time-val">3h</div>
+              <div class="crois-time-key">laminate</div>
+            </div>
+            <div class="crois-time-item">
+              <div class="crois-time-val">18'</div>
+              <div class="crois-time-key">bake</div>
+            </div>
+            <div class="crois-time-item">
+              <div class="crois-time-val">310</div>
+              <div class="crois-time-key">kcal</div>
+            </div>
+          </div>
+          <div class="crois-tags">
+            <span class="crois-tag">french</span>
+            <span class="crois-tag">weekend project</span>
+            <span class="crois-tag">baking</span>
+          </div>
+        </div>
+      </div>
+      <div class="crois-bands-bottom"></div>
+    </div>
+    <div class="poster-label" style="background:#f5edd0;color:#8B6B20">Croissant · Cream & Gold · Parisian patisserie</div>
+  </div>
+
+</div>
+
+<div class="bottom-note">
+  <strong>Each of the 5 recipes gets its own unique visual language.</strong><br>
+  Fattoush → geometric Lebanese tile patterns on deep green · Ramen → ink-wash Japanese minimalism on midnight blue · Tacos → bold terracotta with Mexican papel picado texture<br><br>
+  <span style="color:#555">Does this artistic direction feel right? Reply in terminal — "yes, design all 5" or tell me what to adjust.</span>
+</div>
+
+</body>
+</html>

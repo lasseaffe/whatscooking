@@ -24,7 +24,9 @@ export async function POST(req: Request) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const body = await req.json() as { challenge_id: string; proof_url?: string; note?: string };
+  const body = await req.json() as {
+    challenge_id: string; proof_url?: string; note?: string; elapsed_seconds?: number | null;
+  };
 
   if (!body.challenge_id) {
     return NextResponse.json({ error: 'challenge_id required' }, { status: 400 });
@@ -32,7 +34,13 @@ export async function POST(req: Request) {
 
   const { data, error } = await supabase
     .from('challenge_completions')
-    .insert({ user_id: user.id, challenge_id: body.challenge_id, proof_url: body.proof_url ?? null, note: body.note ?? null })
+    .insert({
+      user_id: user.id,
+      challenge_id: body.challenge_id,
+      proof_url: body.proof_url ?? null,
+      note: body.note ?? null,
+      elapsed_seconds: body.elapsed_seconds ?? null,
+    })
     .select()
     .single();
 

@@ -1,8 +1,10 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import type { ChallengeDef } from '../types';
-import { setActiveChallenge, DIFFICULTY_COLOR } from '../utils';
+import { toActiveChallenge, DIFFICULTY_COLOR } from '../utils';
+import { useChallengeRun } from '@/lib/challenge-run-context';
 
 interface Props {
   challenges: ChallengeDef[];
@@ -13,6 +15,8 @@ interface Props {
 export function ChallengeHero({ challenges, daily, onAccepted }: Props) {
   const [spinning, setSpinning] = useState(false);
   const [picked, setPicked] = useState<ChallengeDef | null>(null);
+  const router = useRouter();
+  const { start } = useChallengeRun();
 
   function spin() {
     setSpinning(true);
@@ -26,15 +30,10 @@ export function ChallengeHero({ challenges, daily, onAccepted }: Props) {
 
   function acceptPicked() {
     if (!picked) return;
-    setActiveChallenge({
-      challengeId: picked.id,
-      title: picked.title,
-      emoji: picked.emoji,
-      startedAt: new Date().toISOString(),
-      requiresProof: picked.requires_proof,
-    });
+    start(toActiveChallenge(picked));
     setPicked(null);
     onAccepted?.();
+    router.push('/challenge/run');
   }
 
   const diff = picked ? DIFFICULTY_COLOR[picked.difficulty] : null;

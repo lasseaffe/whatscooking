@@ -25,6 +25,7 @@ export async function GET(req: NextRequest) {
     )
     .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
     .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+    .neq("image_status", "hidden")
     .order("created_at", { ascending: false })
     .range(page * limit, (page + 1) * limit - 1);
 

@@ -1,0 +1,2133 @@
+TITLE: Baked Shrimp And Orzo With Chickpeas  Lemon  And Dill
+CURRENT_DESCRIPTION: shrimp and orzo make for a simple and flavorful dinner duo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jumbo shrimp, salt & freshly ground black pepper, olive oil, fennel bulb, garlic cloves, crushed red pepper flakes
+---
+TITLE: Baked Shrimp Appetizers
+CURRENT_DESCRIPTION: mushroom appetizers stuffed with shrimp mixture and served warm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushrooms, small shrimp, dry breadcrumbs, egg, milk, lemon juice
+---
+TITLE: Baked Shrimp Balls
+CURRENT_DESCRIPTION: i love shrimp balls, but not the deep fried ones. steamed dumplings are great but often take more time than i want.  these are easier than apple pie but taste terrific and are low fat.  i often leave out the water chestnuts. other additions are green onions or garlic to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, water chestnuts, fresh ginger, onion, egg whites, cornstarch
+---
+TITLE: Baked Shrimp In Chipotle Sauce
+CURRENT_DESCRIPTION: "in this spin on new orleans's classic appetizer of barbecue shrimp, chipotle chiles stand in for cayenne and black pepper, truly transforming the dish with a beguiling play of spice, a hint of smoke, and a gorgeous brick-red color. here, we serve the shrimp as a main course — but in the spirit of the original, we've kept this a meal to eat with your hands. peeling the shrimp, slurping their shells, and scooping up the hot, buttery sauce with crusty bread makes for nothing less than a feast. best of all, it's ready in a flash."
+
+accompaniment: baguette 
+gourmet - january 2006
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, dry red wine, worcestershire sauce, chipotle chile in adobo, adobo sauce, garlic clove
+---
+TITLE: baked shrimp in foil
+CURRENT_DESCRIPTION: a simple and delicious way to cook shrimp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, salted butter, flat leaf parsley, onions, garlic cloves, lemons
+---
+TITLE: Baked Shrimp In Foil
+CURRENT_DESCRIPTION: a simple and delicious way to cook shrimp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, salted butter, flat leaf parsley, onions, garlic cloves, lemons
+---
+TITLE: Baked Shrimp In Lemony Garlic Sauce
+CURRENT_DESCRIPTION: this is a very tasty dish. i enjoy serving it with a nice green salad and a good sourdough baguette. yummy. only 3 points per serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, cooking spray, fresh lemon juice, light butter, garlic cloves, worcestershire sauce
+---
+TITLE: Baked Shrimp In Tomato Feta Sauce
+CURRENT_DESCRIPTION: this is a fantastic recipe! i love this, and it's a wonderful mixture of fresh herbs and succulent shrimp. each ingredient has it's own flavor, but when all put together makes for a wonderful mixture of infused flavors.i know you will love this! *note that there are cooking and baking times, the baking times are 10-12 min. and the cooking times are approx. 10 to 20 min.
+** i use my hands to break up the whole tomatoes, and i just pinch off the little, tough stem ends and toss them. you could use the same ammount o diced tomatoes, but i don't recommend them. if you open a can of whole tomatoes and pour them in  bowl, side-by-side with the diced tomatoes, you would see a big difference. the whole ones will look bright red, while the diced ones appear pale. i always use the whole tomatoes whenever i can.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, whole tomatoes, fresh parsley, fresh dill
+---
+TITLE: Baked Shrimp Quesadillas
+CURRENT_DESCRIPTION: i like to use whole small salad shrimp for this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, vegetable oil, onion, jalapeno peppers, garlic, shrimp
+---
+TITLE: Baked Shrimp Scampi
+CURRENT_DESCRIPTION: this is a new take on a classic that is so flavorful everyone who tastes it will beg you for the recipe. the most time consuming part of this dish is the shelling and deveining. serve this with pasta and fresh sourdough bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, olive oil, dry white wine, salt & freshly ground black pepper, unsalted butter, garlic
+---
+TITLE: Baked Shrimp Toasts
+CURRENT_DESCRIPTION: originally posted by mean chef.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, fresh ginger, vegetable oil, mirin, soy sauce, salt
+---
+TITLE: Baked Shrimp With Feta
+CURRENT_DESCRIPTION: from cooking light, april 2009.  they suggest serving it with orzo accented with fresh herbs:  cook one cup orzo according to package directions, omitting salt & fat.  drain; toss orzo with 1/4 cup chopped fresh basil, 2 tbsp chopped fresh parsley, 1 tbsp extra-virgin olive oil, 1/2 teaspoon salt and 1/4 teaspoon freshly ground pepper.  yum!  the bonus is that this is also a low-cal, low carb, high protein dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lemon juice, large shrimp, cooking spray, olive oil, onion, garlic clove
+---
+TITLE: Baked Shrimp With Feta Cheese
+CURRENT_DESCRIPTION: this recipe from cooking light magazine is a super easy dish - especially if you purchase cleaned shrimp! my husband likes lots of olive oil, so i actually used several tablespoons - not so "light" anymore!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, salt, crushed red pepper flakes, shrimp, garlic cloves, dry white wine
+---
+TITLE: Baked Shrimp With Lemon Garlic Crumbs
+CURRENT_DESCRIPTION: a great and easy shrimp recipe that is a fabulous dish for dinner guests. just prepare and refrigerate until serving time, then just pop it in the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, garlic, fresh breadcrumb, fresh parsley, fresh lemon rind, salt
+---
+TITLE: Baked Shrimp With Tomatillos
+CURRENT_DESCRIPTION: from simplyrecipes.com. posted for zwt 8-mexico.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, jalapeno chile, garlic cloves, tomatillo, salt
+---
+TITLE: Baked Shrimp With Tomatoes And Feta
+CURRENT_DESCRIPTION: this is a martha stewart recipe i've had for ages. this a real crowd pleaser and is so simple to put together. hope you enjoy it too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, scallions, garlic cloves, dried oregano, cherry tomatoes, coarse salt
+---
+TITLE: Baked Shrimps With Glass Noodles  Tanghoon
+CURRENT_DESCRIPTION: i got this recipe from delicious asian seafood recipe booklet. i made this for dinner when my two picky younger sisters came visit me from malaysia. they were 'wow-ed'!between the four of us (my bf, my sisters and i), no leftovers at all!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cilantro, ginger, canola oil, garlic, ground coriander, white pepper
+---
+TITLE: Baked Sicilian Frittata
+CURRENT_DESCRIPTION: i like to do the first and second step the night before, so i can put it together quickly the next morning for a hearty breakfast.  the 30 minute baking time is the perfect amount of time for me to get a shower and dress for work, making this work for a weekday breakfast.  usually i half this recipe to serve 4 instead of 8, except over the holidays.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, olive oil, onion, green pepper, garlic cloves, frozen chopped broccoli
+---
+TITLE: Baked Simple German Pancake  Auflaufen
+CURRENT_DESCRIPTION: this simple, but delicious pancake is my version of one they make at elmers restaurant chain.  they serve it with powdered sugar and lemon wedges.  i like a little pure maple syrup on mine or possibly some sauted apples.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, flour, eggs, butter, vanilla, salt
+---
+TITLE: Baked Skillet Penne
+CURRENT_DESCRIPTION: quick and easy pasta recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, red pepper flakes, crushed tomatoes, sugar, water
+---
+TITLE: Baked Sliced Apples
+CURRENT_DESCRIPTION: found in a local newspaper.  haven't tried it yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, butter, cinnamon, maple syrup, nutmeg, rolled oats
+---
+TITLE: Baked Sliced Ham And Apples
+CURRENT_DESCRIPTION: good for a hearty breakfast, lunch or dinner.  a little like german rouladen, this comfort food is from the southern chapter of the united states regional cookbook, culinary arts institute of chicago, 1947.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ham slices, dry mustard, vinegar, apples, brown sugar, butter
+---
+TITLE: Baked Sliced Potatoes
+CURRENT_DESCRIPTION: crunchy and tender, goes great with steak. our boys like to eat them with their fingers dipped in ketchup (the potatoes dipped in ketchup-not their fingers!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, oleo, vegetable oil, garlic, salt, dried thyme leaves
+---
+TITLE: Baked Smoked Mozzarella   Tomato
+CURRENT_DESCRIPTION: on our recent trip to italy, dh and i enjoyed gelato, rice balls, wine, and baked smoked mozzarella. when we were served this in rome at la bruschetta's (on via sardegna),  it was served straight out of the dish and gooey delicisio. is best when it is kept hot otherwise the mozzarella starts to harden, so try to find a dish that can keep the heat. mangiare! recently made inside a foil packet for appetizer while rving and it worked great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, smoked mozzarella cheese, cherry tomatoes, dried basil, garlic clove, kosher salt
+---
+TITLE: Baked Smothered Chicken
+CURRENT_DESCRIPTION: a recipe i have made over 10 years from the little rock umc cookbook. so easy! a great sunday family dish. note that when made with breasts or thighs, you may need to add more of the water/flour mix for the gravy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fryer, salt, pepper, garlic, flour, cold water
+---
+TITLE: Baked Snapper Chinoise
+CURRENT_DESCRIPTION: some of my favorite flavors -- soy, garlic and ginger. low calorie also.  i think i found it in the cookbook 365 easy low-calorie recipes.  serve with rice and steamed or stir-fried vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light soy sauce, minced garlic clove, gingerroot, vegetable broth, sugar, red snapper fillets
+---
+TITLE: Baked Snapper With Potatoes  Oregano And White Wine
+CURRENT_DESCRIPTION: found that one in a cooking mag some time ago and post it for safekeeping. i haven't tried it yet
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: russet potatoes, olive oil, garlic cloves, fresh oregano, salt, red pepper
+---
+TITLE: Baked Sole And Roasted Asparagus With Sesame
+CURRENT_DESCRIPTION: from rachael ray's cookbook, 365:no repeats.  haven't tried it yet, so i'm not positive about the prep and cook times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, vegetable oil, white rice, fresh ginger, tamari, garlic cloves
+---
+TITLE: Baked Sole Cornwall
+CURRENT_DESCRIPTION: adapted from a traditional cornish recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sole, salt, fresh ground pepper, sunflower oil, onions, tomatoes
+---
+TITLE: Baked Sole Fillets
+CURRENT_DESCRIPTION: sole is my favourite white fish; serve this with rice and a green vegetable for a quick, healthy meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sole fillets, onion, sour cream, white wine, all-purpose flour, lemon, juice of
+---
+TITLE: Baked Sole Mexicana
+CURRENT_DESCRIPTION: this is an excellent light fish dish.  it is quick and easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sole, lime, juice of, salt, pepper, olive oil, onion
+---
+TITLE: Baked Sole With A Lemon Ginger Sauce
+CURRENT_DESCRIPTION: this recipe is so easy.  you gotta love lemon to enjoy this one.  make sure that the fillets are the same size for easy cooking
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sole fillet, salt, black pepper, lemon juice, chicken broth, sugar
+---
+TITLE: Baked Sole With Bacon Topping
+CURRENT_DESCRIPTION: another from "what's for dinner?"  this is a delicious fish dish.  the bacon gives it a nice salty/smoky flavor. this is a quick and easy way to prepare fish.  good with a tossed salad and crusty bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sole, butter, fresh lemon juice, salt, black pepper, bacon
+---
+TITLE: Baked Soup Burgers
+CURRENT_DESCRIPTION: delicious meal my mother in law often makes family during the colder months...tastes and smells delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, salt, pepper, egg, dry breadcrumbs, condensed tomato soup
+---
+TITLE: Baked Sour Cream  N  Chive Red Potatoes
+CURRENT_DESCRIPTION: this is baked in the oven and is great with any meat main course or on its own. you can increase or decrease serving amounts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: new potato, olive oil, sour cream, fresh chives, seasoning salt, fresh ground black pepper
+---
+TITLE: Baked Sour Cream Noodles  Low Fat
+CURRENT_DESCRIPTION: a creamy, cheesy, treasure of a find from the american heart association's cookbook. traditionally we would think of this as a side dish, but at 396 calories per serving i wanted to make sure this recipe would fill us up without having to add large servings of meat or bread. it did!  we like it served with 1/2 of a small grilled/broiled chicken breast and steamed veggies, but  shrimp would also be a nice accompaniment. i am in constant search of low-fat, heart healthy recipes that actually fill us up. so often we find recipes listed as "low-fat" or "heart healthy" and the serving size is so small a person walks away from the table hungry or we are deceived by the words "low-fat" and eat 4x what the recommended portion size is defeating the original intent. this filling dish generously serves 4. we also like a tsp or so of onion powder added to the cheese mixture. if you are not on a sodium restricted diet, feel free to add salt to taste. the recipezaar database doesn't seem to recognize the yolk free egg noodles or low sodium worcestershire sauce so i will list the nutrition values as stated by the aha.
+calories 396, total fat 3.0 g, sat fat 1.0 g, poly 0.5 g, mono 0.5 g, sodium 389 mg, cholesterol 21 mg, carbs 64 g, protein 23 g, fiber 3 g, sugars 10 g.
+dietary exchange- 4 starch, 2 very lean meat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yolk-free egg noodles, fat free sour cream, fat-free cottage cheese, skim milk, garlic cloves, low-sodium worcestershire sauce
+---
+TITLE: Baked Southern Fried Round Steak
+CURRENT_DESCRIPTION: good hearty dinner!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: round steaks, salt, pepper, flour, milk, eggs
+---
+TITLE: Baked Southwest Sandwiches
+CURRENT_DESCRIPTION: yummy sandwiches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ripe olives, chili powder, ground cumin, salt, mayonnaise, sour cream
+---
+TITLE: Baked Southwestern Egg Rolls With Avocado Ranch
+CURRENT_DESCRIPTION: make sure you don't fill the rolls too much or they will burst during cooking. makes 48 small egg rolls or 24 big ones.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen corn, black beans, frozen chopped spinach, mexican cheese, diced green chilies, green onions
+---
+TITLE: Baked Spaghetti
+CURRENT_DESCRIPTION: i love making this recipe and people love polishing it very quickly. i like that you can make it before you need it and clean up the kitchen! then, take it out of the frig and pop it in the oven... et voila! great for covered dish/potluck dinners; travels well--and even yummy when reheated. enjoy! (recipe from ex-mil)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, cheddar cheese, ground chuck, bulk sausage, onion, garlic clove
+---
+TITLE: Baked Spaghetti  Cheesy   Spicy
+CURRENT_DESCRIPTION: i know there are a lot of baked spaghetti recipes on zaar, but this is one my sister and i came up with for our group study, and it was so good, i wanted to keep the recipe here.  it makes a lot, but freezes well.  you can also make it the night before and just pop it in the oven the next night.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, sweet red pepper, green pepper, garlic cloves, butter
+---
+TITLE: Baked Spaghetti  Weight Watchers Friendly
+CURRENT_DESCRIPTION: i adapted this from a light & tasty cookbook. it was so delicious that i had to put it in the fridge before it was cool just to stop myself from eating it all! for wwers, this works to 6 points per serving. i use ragu no sugar added tomato & basil sauce to keep the calorie/fat content as low as possible.  note: ww has changed their points system several times since this is posted, and you should recalculate the points by the current system.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat spaghetti, 96% lean ground beef, onion, garlic cloves, no-sugar-added spaghetti sauce, cottage cheese
+---
+TITLE: Baked Spaghetti By Paula Deen
+CURRENT_DESCRIPTION: this recipe is one of the better baked spaghetti's i've tried. i think you could easily shortcut with prepared sauce and such, but you must use angel hair pasta and jack cheese. it makes this!
+
+**edited to add: i have tried to increase pasta per reviews, but this does not work!  you come out with a dry pasta!  please make just as written and rate on the recipe as written!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: diced tomatoes, tomato sauce, water, diced onion, green bell pepper, garlic cloves
+---
+TITLE: Baked Spaghetti Casserole
+CURRENT_DESCRIPTION: we love the market day spaghetti pie casserole. this is my own version that the kids like even better and its cheaper!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: angel hair pasta, parmesan cheese, eggs, milk, margarine, ground beef
+---
+TITLE: Baked Spaghetti Olivetti
+CURRENT_DESCRIPTION: this is a really good comfort meal for busy nights. it takes 60 minutes to be done completely, but a lot of that time is passively spent just waiting around for it to be baked in the oven! (suggestion: have a nice glass of red wine while you're waiting!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, olive oil, salt, swiss cheese, parmesan cheese, green olives
+---
+TITLE: Baked Spaghetti Pie
+CURRENT_DESCRIPTION: this will please even the pickiest eaters
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, spaghetti sauce, oregano, garlic powder, sugar, green pepper
+---
+TITLE: Baked Spaghetti Sauce
+CURRENT_DESCRIPTION: the kids favourite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pancetta, fresh rosemary, olive oil, onion, garlic cloves, lean ground beef
+---
+TITLE: Baked Spaghetti Squash Casserole
+CURRENT_DESCRIPTION: i would have never thought to use squash this way!  it has great flavor and is a hearty meal.  i found it on bh&g website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti squash, italian sausage, fresh mushrooms, green bell peppers, onion, garlic cloves
+---
+TITLE: Baked Spaghetti Squash With Chicken And Veggies
+CURRENT_DESCRIPTION: a recipe that is enjoyed at out house.  great flavor and very healthy.  have an extra serving and you need not feel guilty.  accompanied  with a  salad and a crusty roll makes for a complete meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti squash, chicken breast, green bell pepper, red bell pepper, red onion, garlic clove
+---
+TITLE: Baked Spaghetti Squash With Herb Butter Sauce
+CURRENT_DESCRIPTION: from an issue of family circle. what issue and what year i don't know. i replaced the thyme with parsley as i am increasingly disliking thyme as thyme goes by.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti squash, water, butter, vegetable broth, fresh parsley, fresh oregano
+---
+TITLE: Baked Spaghetti Squash With Jalapeno Cream
+CURRENT_DESCRIPTION: spaghetti squash baked mac-n-cheese style!  from sunset magazine 10/08.  i'm posting the recipe as published by sunset, but i made a few changes that we really enjoyed....i used 1 1/2 cups of the cheese (1 cup mixed in and 1/2 cup sprinkled on top), i used 3 large jalapenos and instead of draining them from the milk i left them in the recipe (nice crunch and color), and i used non-fat milk because that's all we use and i don't think it detracted from the recipe at all.  a great comfort food!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti squash, milk, jalapenos, butter, flour, salt
+---
+TITLE: Baked Spaghetti With Chicken
+CURRENT_DESCRIPTION: warning! this is delish! sauce is made from scratch (easy). the combination of cheeses and cream cheese is wonderful! i add a little less cheese than what is called for, but if you are like my mom then you will like the amount of cheese called for. the prep time may seem long b/c i included the simmering time in it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: diced tomatoes, tomato sauce, tomato paste, water, garlic, onion
+---
+TITLE: Baked Spaghetti With Chicken And Spinach
+CURRENT_DESCRIPTION: one of our favourite ways to serve spaghetti, leaves a nice tingle. serve with a fresh green salad and crusty rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, boneless skinless chicken breast halves, olive oil, garlic cloves, red onion, fresh spinach
+---
+TITLE: Baked Spaghetti With Ground Turkey Meat
+CURRENT_DESCRIPTION: this is so very good, i make it for my people all the time and people ask all the time for the recipe. it uses ground turkey and low fat ingredients for a healthy meal with a great flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti noodles, ground turkey breast, green pepper, yellow onion, mushrooms, diced tomatoes
+---
+TITLE: Baked Spanish Rice
+CURRENT_DESCRIPTION: this "kicked up" rice dish is a family favorite. if you have some saffron threads, add in a good pinch for even extra flavor. make certain to use only converted rice for this recipe. if you do not like it spicy then use only a pinch or omit completely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: converted white rice, onions, green bell pepper, celery, fresh garlic, butter
+---
+TITLE: Baked Spanish Risotto
+CURRENT_DESCRIPTION: this dish is inspired by the spanish classic paella and is cooked from raw in the oven. the rice can be a little soft, cooking it this way but it's absolutely delicious and so easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cherry tomatoes, red onion, garlic cloves, olive oil, risotto rice, chicken thigh fillets
+---
+TITLE: Baked Spanish Spinach Balls In Roasted Bell Pepper Sauce  Albond
+CURRENT_DESCRIPTION: this is a traditional recipe from the region of madrid, spain's capital. for the cheese, use any mild cheese that melts well, such as monterey jack. found on-line and posted for zaar world tour 5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen spinach, potato, egg, cheese, fine breadcrumbs, olive oil
+---
+TITLE: Baked Spareribs Aloha
+CURRENT_DESCRIPTION: easy prep with delicious results!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork spareribs, salt and pepper, onion, green pepper, brown sugar, dry mustard
+---
+TITLE: Baked Spareribs And Sauerkraut
+CURRENT_DESCRIPTION: a rib-sticking, easy comfort meal from the pennsylvania dutch chapter of the united states regional cookbook, culinary arts institute of chicago, 1947.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spareribs, sauerkraut, salt and pepper, flour, baking powder, egg
+---
+TITLE: Baked Spareribs With Sauerkraut And Apples
+CURRENT_DESCRIPTION: hearty supper! a favorite here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spareribs, salt, pepper, sauerkraut, brown sugar, tart apples
+---
+TITLE: Baked Spasagna By Cheddar S
+CURRENT_DESCRIPTION: this recipe was featured and prepared on our local fox station this morning.  it is on the menu at cheddar's restaurants here in the dfw area.  it is really good!  this italian dish uses spaghetti instead of lasagna noodles in a casserole-style treat that's sure to please your family.
+
+"tender spaghetti baked with three cheeses and our alfredo sauce, topped with our rich marinara, served with hot garlic bread."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti noodles, mozzarella cheese, ricotta cheese, sour cream, half-and-half, parmesan cheese
+---
+TITLE: Baked Spiced Oatmeal
+CURRENT_DESCRIPTION: prepare this in the evening- let it sit in fridge overnight and in the morning you'll have a healthy, filling breakfast that smells great when baking! tastes fabulous and healthy, healthy, healthy!(doesn't include overnight refrigeration in cooking/prep times)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking powder, salt, rolled oats, splenda sugar substitute, skim milk, applesauce
+---
+TITLE: Baked Spiced Pork Chops
+CURRENT_DESCRIPTION: finally found the right combination of spices for pork and without fat or carbos! this was great when served with a baked potato, green beans with a little dill and lemon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chops, paprika, rosemary, thyme, garlic powder, salt
+---
+TITLE: Baked Spiced Sweet Potatoes And Pears  Creole
+CURRENT_DESCRIPTION: this recipe was found on the internet at gumbopages.com. the original recipe called for peeling the sweet potatoes, but i much prefer them unpeeled.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, cane syrup, pear nectar, vanilla extract, bourbon whiskey, orange juice
+---
+TITLE: Baked Spicy Chicken
+CURRENT_DESCRIPTION: i put my twist on the classic fried chicken...but made it simple and less painful.. lol ..i made this one a little less spicy but you can add more spice or less to your liking depending on your taste. i have tried this with so many different substitutions so be as creative as ur tastebuds will let you ;) enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken drumsticks, all-purpose flour, butter, adobo seasoning, paprika, rosemary
+---
+TITLE: Baked Spicy Chicken Tenders With Honey Mustard Sauce
+CURRENT_DESCRIPTION: this is a delicious and spicy appetizer that does not contain all the calories of the usual fried cousins you find in a restaurant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breasts, cornstarch, salt, egg, hot sauce, cornmeal
+---
+TITLE: Baked Spicy Citrus Chicken
+CURRENT_DESCRIPTION: easy, different chicken breast recipe that i like to serve with cocounut rice.  i like to make this as a reminder or summer flavors during the winter months when i can't use the grill.  you can use a dash of red pepper to kick it up a bit.  this recipe is also great as a marinade before grilling.  just prepare the dressing mixture and marinade meat in the refrigerator 30 minutes prior to grilling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: miracle whip, frozen orange juice concentrate, chili powder, salt, boneless skinless chicken breast halves, green onion
+---
+TITLE: Baked Spicy Fillet Of Fish For One
+CURRENT_DESCRIPTION: this is a recipe from a book, cooking for one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: curry powder, mustard powder, lemon juice, soy sauce, fresh ground black pepper, white fish fillets
+---
+TITLE: Baked Spicy French Fries  Ww Core
+CURRENT_DESCRIPTION: these are crispy, completely delicious and totally fat-free.  in fact, we'll bet you like them more than the deep-fried fast-food variety.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, chili powder, ground cumin, black pepper, table salt, potatoes
+---
+TITLE: Baked Spicy Fries
+CURRENT_DESCRIPTION: fat free version of the french fry! i have in the past substituted cajun spice in place of the seasonings in the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, olive oil, paprika, cayenne pepper, black pepper
+---
+TITLE: Baked Spicy Rice
+CURRENT_DESCRIPTION: this is from southern living and i think it tastes just great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long-grain rice, tomatoes and green chilies, water, salt, pimento stuffed olive, vegetable oil
+---
+TITLE: Baked Spicy Shrimp
+CURRENT_DESCRIPTION: a super marinated spicy baked shrimp dish. easy to make and so delicious! kick it up further by adding more tabasco and red pepper flakes to your taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, chili sauce, worcestershire sauce, lemon juice, garlic
+---
+TITLE: Baked Spinach
+CURRENT_DESCRIPTION: i have a problem with my middle child eating vegetables. he seems to have an aversion to 'green'. this is one way to get him to eat his spinach and the whole family loves it, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, seasoned bread crumbs, cream cheese, salt, nutmeg, frozen spinach
+---
+TITLE: Baked Spinach   Artichoke  Dip
+CURRENT_DESCRIPTION: this has wonderful flavor and it is served warm with pita chips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, frozen spinach, chive & onion cream cheese, mayonnaise, parmesan cheese
+---
+TITLE: Baked Spinach   Artichoke Casserole
+CURRENT_DESCRIPTION: great for taking to family dinners or holidays.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen spinach, butter, onion, artichoke hearts, sour cream, parmesan cheese
+---
+TITLE: Baked Spinach   Artichoke Dip
+CURRENT_DESCRIPTION: awesome dip for any gathering!  great color for the holidays!  so simple to make.  you could make this lighter by using light mayo and neufchatel cheese...i, of course, opt for the full-throttle version!  perfect with crostini, crackers and fresh veggies! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen spinach, water-packed artichoke hearts, mayonnaise, sour cream, cream cheese, parmesan cheese
+---
+TITLE: Baked Spinach   Cheese
+CURRENT_DESCRIPTION: i like to use a bakers heat shield under this casserole so the bottom cheese doesn't get too brown, nice spinach recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh spinach, butter, onion, garlic, salt and pepper, mozzarella cheese
+---
+TITLE: Baked Spinach  Crab And Artichoke Dip
+CURRENT_DESCRIPTION: i found this recipe in one of those little recipe books sold near the checkstand in the grocery store. i always look at them to see whether they have any good recipes. we love this one and it is  when i can, i use real crab meat but the imitation seems to do ok in it and its cheaper too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach dip, artichoke hearts, imitation crabmeat, parmesan cheese, ground cayenne pepper, sharp cheddar cheese
+---
+TITLE: Baked Spinach And Eggs
+CURRENT_DESCRIPTION: a diabetic friendly breakfast from recipe#
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, spinach, olive oil spread, plain flour, skim milk, cheese
+---
+TITLE: Baked Spinach And Noodles
+CURRENT_DESCRIPTION: this was inspired by another recipe i tried here, but by the time i made changes to make it healthier and to accommodate what was in my fridge, it really was a completely different recipe. it is a cross between the noodle kugel i grew up with, mac & cheese (minus the cheese) and baked creamed spinach.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: noodles, flour, 2% low-fat milk, butter, salt & pepper, light olive oil
+---
+TITLE: Baked Spinach And Pierogies
+CURRENT_DESCRIPTION: recipe from box of mrs t frozen pierogies. this recipe is often requested.
+serve as main dish or side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen potato and onion pierogies, cream of mushroom soup, fresh spinach, onions, garlic clove, olive oil
+---
+TITLE: Baked Spinach Artichoke Chicken Ring
+CURRENT_DESCRIPTION: if you like spinach artichoke dip, you&#20516;l love this appetizer.  it's a twist on one of our family favorite pampered chef recipes.  presentation is awesome and if you serve it to guests, they are sure to ask for the recipe before they leave!!!  totally perfect to serve in a buffet of appetizers for a party. . .it's so different and absolutely has the wow factor.  you could also easily serve it as a main course. . .it's up to you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, artichokes, onions, boneless skinless chicken breasts, fat-free cream of mushroom soup, reduced sodium soy sauce
+---
+TITLE: Baked Spinach Dip Loaf
+CURRENT_DESCRIPTION: i cut this recipe out of a magazine a long time ago, and finally pulled it out to make for a new year's eve get together. it is wonderful! i wish i hadn't waited so long!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, low-fat mayonnaise, frozen chopped spinach, cheddar cheese, water chestnuts, bacon
+---
+TITLE: Baked Spinach Lemon Rice
+CURRENT_DESCRIPTION: here is a different way to serve boring old brown rice. the nutritious grain is jazzed up with spinach, fresh mushrooms, feta cheese, garlic, and dill.  try this as a unique side dish for fish or chicken, or as a vegetarian main dish. recipe is from light and tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, fresh mushrooms, garlic cloves, olive oil, cooked brown rice, frozen chopped spinach
+---
+TITLE: Baked Spinach Parmesan Dip
+CURRENT_DESCRIPTION: very rich and tasty dip, but it tastes good with lower fat mayonnaise and cream cheese too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, mayonnaise, cream cheese, onion, garlic clove, parmesan cheese
+---
+TITLE: Baked Spinach Risotto
+CURRENT_DESCRIPTION: super easy and tasty. it's a great way to get use leftover rice!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, frozen chopped spinach, firm silken tofu, olive oil, salt, onion
+---
+TITLE: Baked Spinach Stuffed Tomatoes
+CURRENT_DESCRIPTION: beautiful on a buffet table. great with brunch, lunch or dinner. nice blend of flavors
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, salt and pepper, fresh spinach, butter, mushrooms, onion
+---
+TITLE: Baked Spinach With Sausage  Tomatoes And Penne
+CURRENT_DESCRIPTION: i have made this dish omitted the sausage completely and it was still very good ---  you can sprinkle the top with mozzarella cheese instead of the parmesan cheese the last 10 minutes of baking, just return to oven uncovered. to save time the sauce mixture can be prepared up to a day ahead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot italian sausages, onion, garlic, dried red pepper flakes, olive oil, diced tomatoes
+---
+TITLE: Baked Spinach With Three Cheeses
+CURRENT_DESCRIPTION: this can accompany a roast or can be served as an appetizer or even main course in its own right.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spring onion, feta cheese, edam cheese, roquefort cheese, fresh dill, fresh breadcrumbs
+---
+TITLE: Baked Spring Rolls
+CURRENT_DESCRIPTION: a less fatty version of fried spring rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice vermicelli, sesame oil, carrot, green onion, water chestnut, bamboo shoot
+---
+TITLE: Baked Squash
+CURRENT_DESCRIPTION: old family favorite, been making it for years
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow squash, onions, water, butter, sugar, salt and pepper
+---
+TITLE: Baked Squash And Apple Casserole
+CURRENT_DESCRIPTION: this is my favorite casserole! my mother brings it to thanksgiving dinner every year, and the whole family loves it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, apples, brown sugar, margarine, flour, salt
+---
+TITLE: Baked Squash And Parmesan Cheese Pudding  Tortino Di Zucca
+CURRENT_DESCRIPTION: i love winter squash & pumpkin and am always open to new recipes using them, especially savory dishes. it always surprises me that such a tasty vegetable is so good for me!
+found this bit of deliciousness in the washington post who attributed the source as "marcella says . . . italian cooking wisdom from the legendary teacher's master classes, with 120 of her irresistible new recipes" (harpercollins, 2004).  
+the article suggests that this tortino can be served while it is still warm, or several hours later at room temperature.  it is wonderful to have a dish like this that can be made ahead. serve as a side  on a full dinner or as a lovely light lunch with sauteed greens or a winter salad with bitter greens, shredded beets & pear.
+think i will have to prowl this one on amazon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, parmigiano-reggiano cheese, egg, sea salt, black pepper, butter
+---
+TITLE: Baked Squash Casserole From Black Eyed Pea
+CURRENT_DESCRIPTION: baked squash casserole from black-eyed pea
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow squash, eggs, breadcrumbs, butter, sugar, onions
+---
+TITLE: Baked Squash Soup With Cheddar Cheese
+CURRENT_DESCRIPTION: this is one low-fat soup worth digging into!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, salt, black pepper, vegetable oil, shallots, dry white wine
+---
+TITLE: Baked Squash Sticks
+CURRENT_DESCRIPTION: baked squash sticks seasoned with spices and parmesan cheese. you can also substitute a small japanese eggplant for one of the zucchini.  nice with an onion dipping sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, yellow squash, parmesan cheese, paprika, garlic powder, black pepper
+---
+TITLE: Baked Squash With Apples And Cranberries
+CURRENT_DESCRIPTION: the tart flavor of this cranberry-colored glaze perfectly balances the sweetness from any winter squash. if acorn squash is not your favorite, try butternut.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, nonstick cooking spray, fresh cranberries, frozen apple juice concentrate, brown sugar, orange peel
+---
+TITLE: Baked Squash With Garlic And Parmesan
+CURRENT_DESCRIPTION: this recipe is from our local newspaper.  i often serve it with italian dishes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, extra virgin olive oil, garlic cloves, salt, pepper, breadcrumbs
+---
+TITLE: Baked Squid With Garlic Anchovy Pasta
+CURRENT_DESCRIPTION: i found this on another recipe site many years ago and it became a favorite back then. i recently came across the recipe again and thought i would share it here. originally by tracy seaman in _an italian christmas meal_; "food and wine", december 1994.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small squid, dried breadcrumbs, oregano, fresh ground pepper, salt, olive oil
+---
+TITLE: baked sriracha brown sugar glazed bacon wrapped onion rings
+CURRENT_DESCRIPTION: these have been making the blogging circuit for awhile now.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vidalia onions, garlic sauce, light brown sugar, bacon, wooden skewer
+---
+TITLE: Baked Sriracha Brown Sugar Glazed Bacon Wrapped Onion Rings
+CURRENT_DESCRIPTION: these have been making the blogging circuit for awhile now.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vidalia onions, garlic sauce, light brown sugar, bacon, wooden skewer
+---
+TITLE: Baked Steak
+CURRENT_DESCRIPTION: a nice change to broiling or grilling, the gravy is delicious. i always serve this with mashed potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef top round steak, flour, salt, olive oil, beef stock, worcestershire sauce
+---
+TITLE: Baked Steak And Lima Beans
+CURRENT_DESCRIPTION: this is one of the zaar recipes that i adopted.  i hope to prepare this one soon and will post any modifications that i make to the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried lima beans, water, bacon, round steaks, tomato juice, brown sugar
+---
+TITLE: Baked Steak And Potatoes
+CURRENT_DESCRIPTION: i only had steak and potatoes on hand and did not feel like driving to the store to pick up any more food.  this came out so good!  i found a few recipes online that used similar ingredients so that's how i came up with this.  hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: steaks, baking potatoes, balsamic vinaigrette, butter, salt, pepper
+---
+TITLE: Baked Steak Burrito Casserole
+CURRENT_DESCRIPTION: this is a great introduction recipe to mexican cooking. yummy steak in melted cheese rolled up in a tortilla, covered in sauce! it doesn't use exotic ingredients and it isn't spicey. this recipe was a winner in a bake off contest that i found on a web site. a good hearty recipe for pot lucks, family gatherings etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, taco seasoning mix, sirloin tip steaks, refried beans, cheddar cheese, green onions
+---
+TITLE: Baked Steak Burritos
+CURRENT_DESCRIPTION: a spicy beef and bean filling is all bundled up in a south-of-the-border burrito.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, taco seasoning mix, sirloin tip steaks, refried beans, flour tortillas, cheddar cheese
+---
+TITLE: Baked Steak With Pan Gravy
+CURRENT_DESCRIPTION: this is an almost effortless way to cook steak. just bake it in the oven at a moderate tempearature with a little broth. this
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chuck steaks, vegetable oil, salt & freshly ground black pepper, beef broth, cornstarch, water
+---
+TITLE: Baked Steelhead Trout Salmon With Apricot Salsa
+CURRENT_DESCRIPTION: this is a recipe i emulated from a top restaurant in denver. it turned out great. friends and family give it rave reviews. i serve this with long grain and wild rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: steelhead trout, apricots, green onions, pineapple, red bell peppers, lime juice
+---
+TITLE: Baked Stilton Pastries
+CURRENT_DESCRIPTION: a nice appetizer, rich with blue cheese and flaky pastry!  prep time includes chilling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blue cheese, cream cheese, worcestershire sauce, cayenne pepper, butter, phyllo pastry sheets
+---
+TITLE: Baked Strawberry Cobbler
+CURRENT_DESCRIPTION: from florida's stawberry bake-off.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh strawberries, all-purpose flour, sugar, baking powder, salt, unsalted butter
+---
+TITLE: Baked Stuffed Apples With Apple Pie Spice
+CURRENT_DESCRIPTION: another variation of baked stuffed apples i received from the nearby apple orchard.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, sugar, baking apples, apple pie spice, butter, water
+---
+TITLE: Baked Stuffed Apples With Cinnamon Allspice And Cloves
+CURRENT_DESCRIPTION: another version of stuffed apples i received from the nearby apple orchard.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, sugar, baking apples, cinnamon, allspice, clove
+---
+TITLE: Baked Stuffed Apples With Splenda
+CURRENT_DESCRIPTION: another stuffed apple recipe i received from the apple orchard
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, splenda sugar substitute, baking apples, cinnamon, butter, water
+---
+TITLE: Baked Stuffed Apples With Walnuts
+CURRENT_DESCRIPTION: recipe from the williams-sonoma website. these baked apples are a great dessert but i imagine would also be good served for breakfast or a nice weekend lunch on a cold fall or winter day. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, red apples, brown sugar, unsalted butter, ground cinnamon, honey
+---
+TITLE: Baked Stuffed Apples With Walnuts Or Pecans
+CURRENT_DESCRIPTION: another variation of stuffed apples i got from the nearby apple orchard nearby.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, sugar, baking apples, ground cinnamon, butter, water
+---
+TITLE: Baked Stuffed Artichoke Hearts
+CURRENT_DESCRIPTION: this recipe is essentially for stuffed artichokes, without the mess, in a bite size!  a quick and easy side dish or appetizer, this recipe can be baked in the oven, or even put out on the grill (in an aluminum pan), and is great for company!  as a plus, the goat cheese topping can be made ahead of time.  note:  the serving size is for this recipe as a side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: goat cheese, italian spices, italian style breadcrumbs, half-and-half, parmesan cheese, artichoke hearts
+---
+TITLE: Baked Stuffed Avocado
+CURRENT_DESCRIPTION: this is really tasty and so easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, avocados, brazil nuts, gruyere, parmesan cheese
+---
+TITLE: Baked Stuffed Baby Eggplant  Aubergine
+CURRENT_DESCRIPTION: these are so nice, it brights up the meal, we served it broiled chicken and roasted potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, extra virgin olive oil, garlic cloves, onion, red bell pepper, brown rice
+---
+TITLE: Baked Stuffed Bell Peppers
+CURRENT_DESCRIPTION: there are so many recipes for baked stuffed peppers - each a little different, each bringing something a little different to the dinner table.  this is the recipe i learned from my mother.  a meal in itself i generally serve 1 stuffed pepper "half" per person along with freshly baked french bread and a tossed salad, for those with healthier appetites you can of course serve 2 "halves" per person.  i like to use red and or yellow peppers over the green - i find the red/yellow peppers to be a bit sweeter.  these can also be made ahead and frozen for oamc - when ready to use simply thaw overnight in the fridge and bake as directed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red peppers, ground beef, cooked rice, pepper, onion, garlic cloves
+---
+TITLE: Baked Stuffed Blueberry French Toast For 2
+CURRENT_DESCRIPTION: made the day before just sprinkle on topping and place in oven. hop in the shower and breakfast is ready. a great way to start any day.
+baked french toast filled with cheese and blueberries.
+one of my rsc recipes that i didn't enter. go figure!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mascarpone cheese, vanilla extract, splenda sugar blend for baking, fresh blueberries, challah, whole wheat flour
+---
+TITLE: Baked Stuffed Boneless Chicken Breasts
+CURRENT_DESCRIPTION: this recipe can be prepared using boned, split chicken breasts without the skin or with the skin still attached. the skin becomes brown and crisp and keeps the delicate meat moist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breast halves, salt & fresh ground pepper, unsalted butter, onion, garlic, unseasoned breadcrumbs
+---
+TITLE: Baked Stuffed Broccoli Taters
+CURRENT_DESCRIPTION: comfort food at its best.  tastes like baked stuffed potato - only easier.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tater tots, green onions, broccoli, low-fat cream of mushroom soup, fat free sour cream, fat-free cheddar cheese
+---
+TITLE: Baked Stuffed Butternut Squash  Vegetarian
+CURRENT_DESCRIPTION: this recipe is from the "horn of the moon" cookbook. their recipes are excellent. the tofu-tahini sauce adds protein and delicious flavor to a simple meal
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, sunflower oil, onion, fresh ginger, garlic cloves, dried dill weed
+---
+TITLE: Baked Stuffed Cabbage
+CURRENT_DESCRIPTION: this is an easy to make stuffed cabbage recipe. the recipe comes from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage leaves, lean ground beef, onion, fresh parsley, salt, fresh thyme
+---
+TITLE: Baked Stuffed Capsicums Or Bell Peppers
+CURRENT_DESCRIPTION: baked capsicums with delicious stuffing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red capsicums, rice, olive oil, garlic cloves, onion, tomatoes
+---
+TITLE: Baked Stuffed Chicken
+CURRENT_DESCRIPTION: this stuffing uses popcorn....imagine that.  it's great for beginner cooks!  ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, butter, prepared stuffing, popcorn, salt and pepper
+---
+TITLE: Baked Stuffed Eggs
+CURRENT_DESCRIPTION: i always make this for easter mornings,with toast or hashbrowns.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hardboiled egg, sour cream, dry mustard, salt, onion, butter
+---
+TITLE: Baked Stuffed French Toast
+CURRENT_DESCRIPTION: this is a terrific stuffed french toast recipe.  great when you have overnight guests or for sunday or holiday brunch.  in a pinch, you could use canned apple pie filling instead of fresh apple.  this is a great breakfast comfort food!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sourdough bread, cream cheese, granny smith apple, eggs, milk, cinnamon
+---
+TITLE: Baked Stuffed Garden Zucchini
+CURRENT_DESCRIPTION: something delicious to do with those huge summer garden zucchinis! if we had leftover marinara sauce in the fridge, we would drizzle some on the stuffed zucchini before baking.
+please use salt and pepper to taste when cooking the ground meat and zucchini filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, garlic, onion, olive oil, fresh parsley leaves, lean ground beef
+---
+TITLE: Baked Stuffed Haddock Filets
+CURRENT_DESCRIPTION: i was given this recipe at least 30 years ago and have yet to find anyone that doesn't love it. (providing they like seafood)
+i always use haddock as i'm from maine. fresh is expensive right now but as far as i'm concerned there's no better tasting white fish. 
+can use frozen haddock or another white fish . 
+simple to make but soooo yummy...don't worry about the mayo..i promise you will not taste it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, haddock fillets, plain breadcrumbs, ground sage, parsley flakes, garlic cloves
+---
+TITLE: Baked Stuffed Jalapeos
+CURRENT_DESCRIPTION: if you want extra heat add in cayenne pepper to taste, lower fat cheeses may be used if desired :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green jalapeno peppers, cheddar cheese, cream cheese, dried italian seasoning, garlic, eggs
+---
+TITLE: Baked Stuffed Lobster
+CURRENT_DESCRIPTION: a real treat! you can use any stuffing you like but i like this simple one the best. also, you still need to open the claws when serving so don't forget the nutcrackers!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lobsters, boiling water, sea salt, butter, egg, cracker crumb
+---
+TITLE: Baked Stuffed Lobster For Two
+CURRENT_DESCRIPTION: i used to get this at karl's chop house in detroit. it cost a bundle. so i learned to make my own. and you can too! it's easy. makes a great romantic dinner. soooooo goooood!!!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lobsters, soft breadcrumbs, butter, salt, pepper, tarragon
+---
+TITLE: baked stuffed lobster new england style
+CURRENT_DESCRIPTION: seafood stuffed lobster in the new england tradition. recipe courtesy jasper white
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, butter, onion, tarragon, italian parsley, shrimp
+---
+TITLE: Baked Stuffed Lobster New England Style
+CURRENT_DESCRIPTION: seafood stuffed lobster in the new england tradition. recipe courtesy jasper white
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, butter, onion, tarragon, italian parsley, shrimp
+---
+TITLE: baked stuffed lobster tails
+CURRENT_DESCRIPTION: this recipe can be made in 30 minutes or less, and it is not one of rachael ray's recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen lobster tails, salt & fresh ground pepper, dry white wine, lemon wedge, white bread, italian parsley
+---
+TITLE: Baked Stuffed Lobster Tails
+CURRENT_DESCRIPTION: this recipe can be made in 30 minutes or less, and it is not one of rachael ray's recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen lobster tails, salt & fresh ground pepper, dry white wine, lemon wedge, white bread, italian parsley
+---
+TITLE: Baked Stuffed Loch Ness Shrimp
+CURRENT_DESCRIPTION: serve these either as a main dish or as an appetizer. bake 'em or fry 'em!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, backfin crab meat, egg, lemon juice, mayonnaise, fresh parsley
+---
+TITLE: Baked Stuffed Mexi  Bell Peppers
+CURRENT_DESCRIPTION: a southwest version with black beans and corn. the peppers are sliced lenghtwise for quicker cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, onion, garlic clove, ground beef, diced tomatoes, dried basil
+---
+TITLE: Baked Stuffed Mushrooms
+CURRENT_DESCRIPTION: these mushrooms use ingredients you are likely to have on hand, and are sooo delicious! the mozzarella cheese makes them extra gooey!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh large mushroom, butter, salt and pepper, parsley, seasoned bread crumbs, mozzarella cheese
+---
+TITLE: Baked Stuffed Mushrooms Caps
+CURRENT_DESCRIPTION: this recipe was adopted by me in february 2005 - i have revised this recipe to that of my mother's (a certified chef).  it is always a favorite in our home for parties and holiday gatherings and i hope you enjoy it too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushrooms, butter, onion, dry white wine, dry breadcrumbs, cooked bacon
+---
+TITLE: Baked Stuffed Mushrooms With Crab
+CURRENT_DESCRIPTION: this recipe comes from one of my favorite restaurants, the philips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, mayonnaise, fresh lemon juice, dry mustard, worcestershire sauce, salt
+---
+TITLE: Baked Stuffed Mushrooms With Sausage And Mozzarella
+CURRENT_DESCRIPTION: these savory melt-in-your-mouth morsels are irresistible, especially for mushroom fans.
+points 1.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh white mushroom, vegetable oil, bulk italian sausage, green onion, garlic cloves, italian seasoning
+---
+TITLE: Baked Stuffed Onions
+CURRENT_DESCRIPTION: a tasty side dish, nice with roast meat or chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow onions, fresh breadcrumb, parmesan cheese, garlic powder, oregano, green onion
+---
+TITLE: Baked Stuffed Onions With Spinach Feta
+CURRENT_DESCRIPTION: got this recipe out of diabetic gourmet magazine. can adjust ingredients for the non diabetic in your family but as written has: exchanges: : 1 starch, 1 vegetable, 1 fat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onions, olive oil, garlic, frozen chopped spinach, fresh lemon juice, fresh ground pepper
+---
+TITLE: Baked Stuffed Orange French Toast
+CURRENT_DESCRIPTION: this is one of our favorites... it's great for christmas morning! it's got all the christmasy flavors, and it's assembled the night before.  you can use any kind of marmalade/jam for the filling. i have used regular and sugar free jams.  you can also use light cream cheese,  2% milk in place of the cream, egg beaters in place of the eggs... to lighten it up a bit.  hope it becomes one of your family traditions!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dense bread, eggs, half-and-half, maple syrup, cinnamon, nutmeg
+---
+TITLE: Baked Stuffed Pasta Shells
+CURRENT_DESCRIPTION: these are just fantastic! this is one of dh's favorite things i make. great for family dinner or pot luck. this is really pretty easy to make and true italian comfort food!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jumbo pasta shells, mozzarella cheese, parmesan cheese, ricotta cheese, eggs, nutmeg
+---
+TITLE: Baked Stuffed Polenta  Polenta Al Forno
+CURRENT_DESCRIPTION: this recipe from the *italian cookbook 2* of the australian womens weekly cookbook series admittedly requires extra work, but makes up for it w/a company-worthy outcome that is visually stunning as a main-dish when served w/an italian salad + garlic bread. the polenta is stuffed w/salami, sun-dried tomatoes, black olives & cheese. it has 2 cooking steps, but all the prep is done in advance of the final cooking step in the oven. i have not made this recipe yet, but did simplify the recipe & prep. i am hopeful that someone among you will be open to an adventure & give it a try. pls see my notes re pan sizes + a 2nd stuffing option at the end of the prep. (this recipe serves 6 as a main-dish or 8 generously as a side-dish. time does not include chilling the polenta under refrigeration for several hrs or overnite). *enjoy* !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, polenta, butter, parmesan cheese, fresh parsley, salami
+---
+TITLE: Baked Stuffed Polenta  Reduced And Lightened
+CURRENT_DESCRIPTION: i made recipe#248601 and ended up making so many changes i thought i'd post the new recipe! despite the fact this has to wait overnight to chill this is a very easy recipe to make and is very tasty with a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, polenta, cheddar cheese, dried herbs, salami, sun-dried tomatoes
+---
+TITLE: Baked Stuffed Pork Chops
+CURRENT_DESCRIPTION: wonderful baked dish!  this entree is a mainstay in our home and has been added to our family favorites list.  may use bone-in or boneless pork chops.  easy and quick preparation. note: one 6 oz. box of stuffing mix yields 6 servings.  if your family likes a lot of stuffing you may consider using 2 boxes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chops, vegetable oil, water, butter, stove top stuffing mix, cream of mushroom soup
+---
+TITLE: baked stuffed pork chops and pan gravy
+CURRENT_DESCRIPTION: i first cooked these in the early 90's when i belonged to a cooking school and they're great!  make sure your guests are hungry: this is a very hearty entree. recipe #320348 makes a really good side dish. i cook them with apple juice - just haven't gotten around to trying them with wine. note: the recipe is easily modified for thinner chops by reducing the browning and baking times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, butter, onion, celery, parsley, dark raisin
+---
+TITLE: Baked Stuffed Pork Chops And Pan Gravy
+CURRENT_DESCRIPTION: i first cooked these in the early 90's when i belonged to a cooking school and they're great!  make sure your guests are hungry: this is a very hearty entree. recipe #320348 makes a really good side dish. i cook them with apple juice - just haven't gotten around to trying them with wine. note: the recipe is easily modified for thinner chops by reducing the browning and baking times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, butter, onion, celery, parsley, dark raisin
+---
+TITLE: Baked Stuffed Pumpkin
+CURRENT_DESCRIPTION: a fall favorite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar pumpkin, granny smith apples, walnuts, whole berry cranberry sauce, pineapple chunks, brown sugar
+---
+TITLE: baked stuffed quahogs or clams  rhode island style
+CURRENT_DESCRIPTION: quahogs as we call them in ri are actually large chowder clams. these are delicious but take a little time to prepare. you can make these ahead and freeze them until you are ready to bake and eat. i'm italian and this is a favorite for our christmas eve fish dinner - but we also enjoy them during the summer! yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quahogs, herb seasoned stuffing mix, celery, onion, butter, white wine
+---
+TITLE: Baked Stuffed Quahogs Or Clams  Rhode Island Style
+CURRENT_DESCRIPTION: quahogs as we call them in ri are actually large chowder clams. these are delicious but take a little time to prepare. you can make these ahead and freeze them until you are ready to bake and eat. i'm italian and this is a favorite for our christmas eve fish dinner - but we also enjoy them during the summer! yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quahogs, herb seasoned stuffing mix, celery, onion, butter, white wine
+---
+TITLE: Baked Stuffed Salmon
+CURRENT_DESCRIPTION: being from the north west, i think it's almost a requirement to like salmon which i certainly do. this is one of my favorite recipes for salmon, very easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon, flour, bread, butter, sweet onion, fresh parsley
+---
+TITLE: Baked Stuffed Seafood Casserole
+CURRENT_DESCRIPTION: we have unanimously made this our official christmas dinner dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: haddock, ritz cracker crumbs, salted butter, onion, garlic cloves, olive oil
+---
+TITLE: Baked Stuffed Shells
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. ground beef, 2 lb. Ricotta cheese, 1/2 lb. Mozzarella cheese, shredded, 1/2 c. grated Parmesan cheese, 2 eggs, 1 tsp. salt
+---
+TITLE: Baked Stuffed Shrimp
+CURRENT_DESCRIPTION: living on the intercoastal waterway, we have have good local seafood suppliers.  this is great for a dinner party.  stuffing can also be frozen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, onions, celery, vegetable oil, old bay seasoning, bell peppers
+---
+TITLE: Baked Stuffed Shrimp With Crabmeat Stuffing
+CURRENT_DESCRIPTION: this dish is part of our family christmas eve celebration every year. i love baked stuffed shrimp, but so many restaurants here prepare their shrimp piled high with ritz crackers drenched in butter. i think the crabmeat stuffing adds somethng a bit more special. prep time includes the stuffing's cooling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lump crabmeat, cajun seasoning, butter, onion, celery, green bell pepper
+---
+TITLE: Baked Stuffed Squash
+CURRENT_DESCRIPTION: mmmmm with rice, feta and toasted walnut stuffing, very tasty!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butter, basmati rice, onion, chicken broth, brown sugar
+---
+TITLE: Baked Stuffed Sweet Onions
+CURRENT_DESCRIPTION: sweet onions stuffed with ham, cremini mushrooms and gruyere cheese. a summer must at our house when the new crop of sweet onions come on.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onions, coarse salt, olive oil, cremini mushrooms, ham, fresh ground black pepper
+---
+TITLE: Baked Stuffed Tomatoes
+CURRENT_DESCRIPTION: great with fresh, home grown tomatoes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, olive oil, fresh parsley, scallion, garlic clove, dry breadcrumbs
+---
+TITLE: Baked Stuffed Tomatoes Topped With Mashed Potato
+CURRENT_DESCRIPTION: an enticing presentation full of flavor making nutritious, delicious & easy. be sure to pick firm tomatoes not over ripe one so they hold their shape when baked. the salting of the tomatoes will make the firmer for baking. so don't skip it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm ripe tomatoes, white potatoes, butter, low-fat mayonnaise, low-fat milk, salt and pepper
+---
+TITLE: Baked Stuffed Winter Squash
+CURRENT_DESCRIPTION: a friend of mine gave me this recipe, and both my spouse and i love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, olive oil, onion, celery, sweet italian sausage, dried thyme
+---
+TITLE: Baked Stuffed Yams
+CURRENT_DESCRIPTION: yet another recipe that comes from the sunset ideas for cooking vegetables, 1973, & is a recipe worth considering for the winter holidays!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yams, unsalted butter, salt, pepper, orange zest, egg whites
+---
+TITLE: Baked Stuffed Zucchini
+CURRENT_DESCRIPTION: this is delicious way to use up really large zucchini's and my adaptation of recipe 331282.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, ground beef, ground pork, onion, tomatoes, red peppers
+---
+TITLE: Baked Sugar Doughnuts  Bread Machine
+CURRENT_DESCRIPTION: these are soooo good. they take a little time to make, but are worth the effort to get great-tasting lower-fat doughnuts. the recipe is from taste of home magazine and is credited to jill shramek.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, milk, eggs, shortening, sugar, salt
+---
+TITLE: Baked Summer Sausage  Potatoes   Sauerkraut
+CURRENT_DESCRIPTION: this is a tasty little throw together that cooks in the oven while you are doing other things. this originally started out as two different recipes that i combined to make our own. my family loves this meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: summer sausage, potatoes, onion, sauerkraut, salt & pepper
+---
+TITLE: Baked Summer Squash
+CURRENT_DESCRIPTION: this recipe can be made a day ahead and stored in your refrigerator.  this recipe is adapted from a magazine.  prep and cook time does not include the time it takes to cook and mash the squash.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow squash, butter, onion, eggs, sugar, salt
+---
+TITLE: Baked Summer Squash Casserole
+CURRENT_DESCRIPTION: i've been making this for about 30 years and just realized i had not submitted it. i have also seen it called "squash dressing". it is a favorite for me dh, especially when yellow squash is in season.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: summer squash, sour cream, cream of chicken soup, onion, carrot, margarine
+---
+TITLE: Baked Swedish Meatballs
+CURRENT_DESCRIPTION: this recipe is from my seaward inn cookbook.  my husband loves it so much that i am putting it on-line to reference while travelling.  i serve it with egg noodles.
+
+the seaward inn is a lovely place in rockport, ma, that we visited each summer while the campbell family owned it.  great food and ambience!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, milk, ground beef, egg, onion, sugar
+---
+TITLE: baked swedish meatballs  tyler florence
+CURRENT_DESCRIPTION: i made these last week and loved their juicy texture. despite the involved directions, i added a few timesavers and didn't find them any more difficult than regular meatballs (mixed in my kitchen aid). they freeze great. i put leftover frozen ones in crockpot with jarred gravy and cream of mushroom soup.
+note: i've never made the lingonberry sauce but mix a can of cream of mushroom soup with a half can milk for a creamy sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh breadcrumb, milk, unsalted butter, shallots, garlic cloves, caraway seed
+---
+TITLE: Baked Swedish Meatballs  Tyler Florence
+CURRENT_DESCRIPTION: i made these last week and loved their juicy texture. despite the involved directions, i added a few timesavers and didn't find them any more difficult than regular meatballs (mixed in my kitchen aid). they freeze great. i put leftover frozen ones in crockpot with jarred gravy and cream of mushroom soup.
+note: i've never made the lingonberry sauce but mix a can of cream of mushroom soup with a half can milk for a creamy sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh breadcrumb, milk, unsalted butter, shallots, garlic cloves, caraway seed
+---
+TITLE: Baked Sweet   Savory Mashed Potatoes
+CURRENT_DESCRIPTION: i got this from the internet--from someone who got it from southern living. i made it for thanksgiving and my family just about licked the bowl clean! really delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, salt, sweet potatoes in syrup, cream cheese, bacon, sour cream
+---
+TITLE: Baked Sweet   Sour Brussels Sprouts
+CURRENT_DESCRIPTION: this recipe came from the 1967 edition of woman's day encyclopedia of cookery, volume 2. i have been making these for years since it is the only way my family will eat these pungent
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brussels sprouts, cooking oil, cider vinegar, sugar, salt, pepper
+---
+TITLE: Baked Sweet And Savory Mashed Potatoes
+CURRENT_DESCRIPTION: classic mashed potatoes has some competition here--a great combo of white and sweet potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, salt, sweet potatoes in syrup, reduced-fat cream cheese, bacon, light sour cream
+---
+TITLE: Baked Sweet And Sour Chicken
+CURRENT_DESCRIPTION: this is such an easy and delicious recipe i thought i would share it. i found this recipe on browneyedbaker.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, salt and pepper, cornstarch, eggs, canola oil, sugar
+---
+TITLE: Baked Sweet And Sour Chicken With Veggies
+CURRENT_DESCRIPTION: delicious without the usual pineapple, nice with baked potato or brown rice; adapted from canadian living mag.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, carrots, sweet green peppers, skinless chicken thighs, all-purpose flour, salt
+---
+TITLE: Baked Sweet Apple Omelette Aust Ww 3 5 Pnts
+CURRENT_DESCRIPTION: something different
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: no-sugar-added apple pie filling, brown sugar, ground cinnamon, eggs, honey crunch corn flakes
+---
+TITLE: Baked Sweet Onion Cheddar Dip
+CURRENT_DESCRIPTION: this has been a real hit gatherings! i often make a double batch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow sweet onions, garlic clove, mayonnaise, plain yogurt, sharp cheddar cheese, tabasco sauce
+---
+TITLE: Baked Sweet Onions
+CURRENT_DESCRIPTION: this is a nice change of pace fromour usual veggies . it looks lovely with the brown crusty cheese and tastes great.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onions, chicken stock, dry white wine, pepper, dried rosemary, fresh thyme
+---
+TITLE: Baked Sweet Potato And Chile Wedges
+CURRENT_DESCRIPTION: these are a great sweet spicy side dish that pairs nicely with fish or meat. the dip included in the recipe is fantastic!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, olive oil, sea salt, ground black pepper, orange juice, chili powder
+---
+TITLE: Baked Sweet Potato Fries
+CURRENT_DESCRIPTION: an easy, low calorie alternative to french fries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick spray coating, sweet potatoes, margarine, seasoning salt, nutmeg
+---
+TITLE: Baked Sweet Potato Fries With Garlic  Lime   Honey Dip
+CURRENT_DESCRIPTION: these are just good. not spicy but very savory baked fries. i love them because there is no frying but still crunchy. the dip is a nice sweet and savory flavor which really makes these unique.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, ground cumin, dried oregano, dried coriander, dried parsley, kosher salt
+---
+TITLE: Baked Sweet Potato With Apples
+CURRENT_DESCRIPTION: found on a recipe card from the supermarket
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, apples, brown sugar, butter, fresh parsley, orange zest
+---
+TITLE: Baked Sweet Potato With Maple Jalapeno Sour Cream
+CURRENT_DESCRIPTION: i clipped this recipe out of a trial magazine i received in the mail one day. the magazine was called cuisine at home. i'm not a fan of sweet potato recipes that are super sweet. this is a nice mix of spicy, tangy and a little bit of sweet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, canola oil, kosher salt, sour cream, maple syrup, jalapenos
+---
+TITLE: Baked Sweet Potato With Topping
+CURRENT_DESCRIPTION: the toledo blade credits ara content for this recipe.  i don't know who they are, and i haven't made this recipe, but it sounds good and is different than anything else on recipezaar.  recipe may be doubled.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potato, pure maple syrup, raisins, sunflower seeds, salt and pepper
+---
+TITLE: Baked Sweet Potatoes
+CURRENT_DESCRIPTION: sweet potatoes, there not just for the holidays anymore.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, butter, ground cinnamon, ground nutmeg, brown sugar, salt and pepper
+---
+TITLE: Baked Sweet Potatoes With Apricots And Prunes
+CURRENT_DESCRIPTION: in this dish sweet potatoes are combined with dried fruit and cooked in sweet honey and orange sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, dried apricot, prune, orange juice, honey, lemon juice
+---
+TITLE: Baked Sweet Potatoes With Cinnamon Butter
+CURRENT_DESCRIPTION: i have not tried this recipe. i got this recipe from wonder time magazine. i plan to use splenda in place of the sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, ground ginger, cinnamon, salt, granulated sugar, sweet potatoes
+---
+TITLE: Baked Sweet Potatoes With Yogurt Rice Topping
+CURRENT_DESCRIPTION: this recipe comes from the 1995 vegetarian times complete cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, plain nonfat yogurt, cooked rice, dried apricot, pecans, salt
+---
+TITLE: Baked Sweet Red And Yellow Pepper Wedges
+CURRENT_DESCRIPTION: this is a delicious and different way to make peppers. there is a sweetness to this dish that appeals to almost everyone and is great with grilled meat. it would make a fantastic first course as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell peppers, yellow bell peppers, sweet onion, crushed tomatoes, fresh parsley, olive oil
+---
+TITLE: Baked Swiss Chard With Olive Oil And Parmesan
+CURRENT_DESCRIPTION: a trendy veggie!  never knew this stuff was so good.  the real secret is lots of parmesan.  the recipe is derived from two blogs:  kalyn's kitchen blog and up a creek without a patl.  i made a slight variation:  first i cut the stems into smaller pieces and simmered them for about 5 minutes, then added the ripped leaves and simmered a minute or two longer, until everything felt somewhat tender.  then continued as per the directions.  at the finish, the cheese is all melty with some chewy or crisp browned pieces.  yum.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chard leaves, salt, olive oil, parmesan cheese, fresh coarse ground black pepper
+---
+TITLE: Baked Swiss Cheese Omelet
+CURRENT_DESCRIPTION: this is an excellent recipe for any weekend brunch with company or family!  i serve for our christmas breakfast with homemade muffins, sausage and fresh fruit.  from saltwood house bed and breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: swiss cheese, butter, pepper, heavy cream, eggs
+---
+TITLE: Baked Swiss Chicken
+CURRENT_DESCRIPTION: this was just served at our church's "mother's day luncheon to rave reviews. can be prepared ahead, then baked just before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, swiss cheese, cream of chicken soup, dry white wine, herb seasoned stuffing mix, butter
+---
+TITLE: Baked Swiss Chicken Over Tri Colored Spiral Pasta
+CURRENT_DESCRIPTION: this is an old recipe from a church cookbook. i only added the twist of the noodles. serve this dish with your favorite artisan bread and a caesar salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breasts, swiss cheese, cream of chicken soup, white wine, seasoned stuffing mix, butter
+---
+TITLE: Baked Swiss Cornbread With Turkey Cream Sauce
+CURRENT_DESCRIPTION: cornbread with a layer of mushrooms and swiss in the middle topped with chunks of chicken or turkey in a cream sauce. great one-dish meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, flour, baking powder, baking soda, salt, buttermilk
+---
+TITLE: Baked Swiss Steak
+CURRENT_DESCRIPTION: this recipe takes a tough piece of meat and turns it into a nice tender dinner.  the round steak is smothered with a mixture of celery, carrot, onion, green pepper, and tomato, and baked until it is tender and delicious.  i like it with mashed potatoes (but i like mashed potatoes with everything!), but it also works with noodles.  originally posted in the junior league of charleston cookbook, charleston, west virginia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: top round steaks, all-purpose flour, vegetable oil, celery, carrots, onion
+---
+TITLE: Baked Swordfish Manzanillo
+CURRENT_DESCRIPTION: pescado espada al horno a la manzanillo. simple baked swordfish recipe from the pacific mexican town of manzanillo in colima. manzanillo is a popular coastal town known for its swordfish and sailfish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: swordfish steaks, salt, pepper, olive oil, green onion, parsley
+---
+TITLE: Baked Taco Bowl Salad
+CURRENT_DESCRIPTION: this tasty salad is made with baked tortilla bowls and lawry's taco seasoning.  i think there is a copycat version on this site somewhere for that.  you could make that one, if you wish, instead of the store-bought.  this was a fun dinner to make and very easy.  serve sour cream and salsa on the side.  you can add more vegies or add peppers, if you wish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, nonstick cooking spray, kosher salt, taco seasoning, ground beef, lettuce leaves
+---
+TITLE: Baked Taco Casserole
+CURRENT_DESCRIPTION: this recipe came from a friend of my sisters.  she came to visit and made this and i loved it!  i have made this over and over and it never fails to be a great hit.  i don't like onions, so i don't use onions in this recipe.  however you can use them if you like when you are browning the ground beef or just put a layer on top of the beef after its in the dish.  i love green peppers, and have added them on top of the ground beef, but the kids don't like it that way.  so i modified  it and add the peppers into the ground beef when i'm cooking it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bisquick, cold water, ground beef, taco seasoning, green pepper, tomatoes
+---
+TITLE: Baked Taco Chicken
+CURRENT_DESCRIPTION: a batch of this lip-smacking chicken will spice up your next supper. the mildly seasoned chicken pieces could be pan-fried or deep-fried, but we like oven baking the best because it cuts down on fat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, taco seasoning, salt, eggs, milk, broiler-fryer chickens
+---
+TITLE: Baked Taco Ring
+CURRENT_DESCRIPTION: this is different and delicious, wonderful to serve for parties and for snacks. if you are a garlic and onion-lover (like me) then add in 1-2 tablespoons fresh garlic with an onion when browning the beef.  any amount of garnishes may be used, the amounts listed are only estimated --- my recipe #76616 works well with this :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, taco seasoning mix, cheddar cheese, water, crescent roll dough, green bell pepper
+---
+TITLE: Baked Taco Sandwich
+CURRENT_DESCRIPTION: this is another one from betty crocker's good & easy cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, taco seasoning mix, bisquick baking mix, cold water, cheddar cheese, sour cream
+---
+TITLE: Baked Tacos
+CURRENT_DESCRIPTION: takes a little prep but these are very filling! i always make a double batch and freeze one for a busy night!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, kidney bean, ground beef, taco seasoning, onion, green chili pepper
+---
+TITLE: Baked Tagliatelle   Cabbage  Pasta  Cabbage    Cheese Ca
+CURRENT_DESCRIPTION: found on the blog 101 cookbooks, this delicious hearty, stick-to-your-ribs cabbage and pasta with cheese casserole dish is sure please on a fall or winter night.  change it up depending on what's on hand, and feel free to make this up ahead, up to a day or two early.  find this fantastic blog here:  www.101cookbooks.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, sea salt, unsalted butter, leeks, garlic cloves, savoy cabbage
+---
+TITLE: baked taquitos
+CURRENT_DESCRIPTION: i got this recipe off of a blog (bigboldbeautifulfood.blogspot.com). i have made it once and the flavour was really good, but it looked funny! the instructions are long but it is actually very simple and quick to make. i am posting how the recipe is originally written (well almost) but you might want to add a bit more spice. i served it with a spicy salsa and it tasted great.
+the chicken broth is needed if you are using corn tortillas only.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, cumin, paprika, sea salt
+---
+TITLE: Baked Taquitos
+CURRENT_DESCRIPTION: i got this recipe off of a blog (bigboldbeautifulfood.blogspot.com). i have made it once and the flavour was really good, but it looked funny! the instructions are long but it is actually very simple and quick to make. i am posting how the recipe is originally written (well almost) but you might want to add a bit more spice. i served it with a spicy salsa and it tasted great.
+the chicken broth is needed if you are using corn tortillas only.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, cumin, paprika, sea salt
+---
+TITLE: Baked Taro Puffs
+CURRENT_DESCRIPTION: a lower-fat version of the deep fried puffs. this is from "a hundred years of island cooking", an old cookbook from the hawaiian electric company.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, baking powder, salt, taro root
+---
+TITLE: Baked Tarragon Chicken
+CURRENT_DESCRIPTION: this is an easy, tasty chicken breast recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, dry mustard, garlic powder, dry breadcrumbs, dried tarragon leaves, salt
+---
+TITLE: Baked Tarragon Chicken Breasts
+CURRENT_DESCRIPTION: wow, i give this 5 stars!  i was more than pleasantly surprised with this recipe. even the picky kids loved it. definitely company worthy. serve with wide buttered noodles.
+i browned one side of the breasts in butter in a skillet but frankly, it was not necessary. the color from the brown mustard gave it great eye appeal. recipe from: "what's for dinner" by maryana vollstedt
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast halves, butter, dijon mustard, white wine, lemon juice, fresh tarragon
+---
+TITLE: baked tater pigs
+CURRENT_DESCRIPTION: at the fair we ate tator pigs, sausages cooked in a whole potato with sour cream, butter and salt and pepper. then the local vendor couldn't sell them any more. this is my adapted recipe. a definite kid pleaser!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked sausage, tater tots, saltine crackers, egg, milk, vegetable oil
+---
+TITLE: Baked Tater Pigs
+CURRENT_DESCRIPTION: at the fair we ate tator pigs, sausages cooked in a whole potato with sour cream, butter and salt and pepper. then the local vendor couldn't sell them any more. this is my adapted recipe. a definite kid pleaser!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked sausage, tater tots, saltine crackers, egg, milk, vegetable oil
+---
+TITLE: Baked Tater Skins
+CURRENT_DESCRIPTION: these are great as a side dish or a party and are great make-ahead time savers.  the toppings are what i like (and are approximate in measurements), but are totally up to your imagination.  oh, but don't leave out the sauce, because it is extra special and is really great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potato, butter, cheddar cheese, bacon, green onion, salsa
+---
+TITLE: Baked Tater Soup For Mystergirl And The Sa S
+CURRENT_DESCRIPTION: this is an adaptation of the soup that the restaurant in my building makes...and the sa's have been wanting me to post it, so here we go..i must warn though -- this is not a measured thing when i make it, so adjust amounts to your taste and have fun!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, baking potatoes, butter, all-purpose flour, ham stock, milk
+---
+TITLE: Baked Tempeh Enchiladas
+CURRENT_DESCRIPTION: this recipe was brought to a potluck by our president, ken jaffe, at his home in 2007.  it was requested to be added to our cookbook here.  he adapted the recipe from some like it hot: 200 spicy vegetarian recipes from around the world by robin robertson.  note:  one of our members made the recipe as it was posted originally and when it didn't turn out as she remembered, contacted ken, who said "when it comes to spices, i never follow a recipe exactly."  since then, attempts have been made to document what ken changed about it and they are reflected here now.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: safflower oil, onion, red bell pepper, garlic, chili powder, cayenne
+---
+TITLE: Baked Teriyaki Chicken Stir Fry
+CURRENT_DESCRIPTION: very good served on top of rice!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, broccoli, carrots, water, white sugar, celery
+---
+TITLE: Baked Tetrazzini
+CURRENT_DESCRIPTION: yum
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broad egg noodles, butter, celery, green pepper, onion, sliced mushrooms
+---
+TITLE: Baked Texas Jalapeo Peppers
+CURRENT_DESCRIPTION: another recipe submitted by a co-worker for our chili cook-off at work. these were gone in nothing flat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jalapeno peppers, cream cheese, cheddar cheese, worcestershire sauce, bacon
+---
+TITLE: Baked Thai Chicken Cakes
+CURRENT_DESCRIPTION: these were served by a friend as an appetizer and were just gobbled up - serve with sweet chilli sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chicken, lemongrass, garlic cloves, spring onions, lime juice, coriander leaves
+---
+TITLE: Baked Thai Style Fish
+CURRENT_DESCRIPTION: this is one of the recipes i use very often, because i live on the sea and fresh fish is available. normally i'd use a whole fish, of about 1 kg (2.2 lbs). but it is just as easy to disregard that, and simply fry fish fillets, and use the lovely thai style sauce with it. i've just tested and photographed this dish again (30.1.09), to make sure of taste and timing. it's spot on as it stands now -- at least for us! :wink: taste the sauce mixture when everything has been added and stirred, and then. if you want, add a little more oyster and fish sauce.
+
+i love this recipe because it is so easy, delicious and extremely low-fat, yet doesn't make you feel as if you're eating diet food. it's not diet food. it is the tastes you find in places like thailand and indonesia (maybe simplified here!)
+
+tip: make the quick and easy sauce earlier in the day and simply pop into a warming oven to heat up, for serving with the fish. it doesn't get much simpler than this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish, english cucumber, thai fish sauce, oyster sauce, honey, fresh lemon juice
+---
+TITLE: Baked Three Cheeses And Buttered Spirals
+CURRENT_DESCRIPTION: taken from an old edition of super food ideas magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, butter, green onion, cream cheese, blue cheese, tasty cheese
+---
+TITLE: Baked Tilapia
+CURRENT_DESCRIPTION: from the american tilapia association
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, celery, onion, sweet red pepper, butter, flour
+---
+TITLE: Baked Tilapia Amandine
+CURRENT_DESCRIPTION: most of the amandine recipes posted here are fried, but this one is baked. the fish also gets a little extra flavor from the creole seasoning.  recipe is from the clinton high school booster's club, in clinton, ms.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, lemon juice, tilapia fillets, creole seasoning, almonds
+---
+TITLE: Baked Tilapia Fillets With Light French Onion Sauce
+CURRENT_DESCRIPTION: this recipe was from the laughing cow website.  i printed it out over 4 months ago and now i have made it. this is a quick dinner that is sure to impress.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, salt, pepper, olive oil, yellow pepper, red pepper
+---
+TITLE: baked tilapia iowa cajun style
+CURRENT_DESCRIPTION: this is my own recipe that has evolved over the years that i use for all different kinds of fish and large casserole samplers with different kinds of fish when i can afford it.  tilapia is affordable now.  i was amazed when my picky eater 5-year-old grandson dropped in with his mom and started scarfing it down off her plate!  i vary the spices to my mood, but this is what i used for this batch.  you have to give exact amounts; i don't cook that way generally, so vary the flavorings to your taste.  i've learned to work with a few basic spices rather than buy any of the hundreds of products out there now unless it's really special and necessary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, butter, margarine, lawry's seasoned salt, paprika, onion powder
+---
+TITLE: Baked Tilapia Iowa Cajun Style
+CURRENT_DESCRIPTION: this is my own recipe that has evolved over the years that i use for all different kinds of fish and large casserole samplers with different kinds of fish when i can afford it.  tilapia is affordable now.  i was amazed when my picky eater 5-year-old grandson dropped in with his mom and started scarfing it down off her plate!  i vary the spices to my mood, but this is what i used for this batch.  you have to give exact amounts; i don't cook that way generally, so vary the flavorings to your taste.  i've learned to work with a few basic spices rather than buy any of the hundreds of products out there now unless it's really special and necessary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, butter, margarine, lawry, ,, ,
+---
+TITLE: Baked Tilapia Parmesan
+CURRENT_DESCRIPTION: tender, flakey tilapia with a creamy herb parmesan sauce.  yum-o
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: parmesan cheese, mayonnaise, dried basil, onion powder, tilapia fillets, butter
+---
+TITLE: Baked Tilapia W  Fondue Sauce And Crab
+CURRENT_DESCRIPTION: the sauce on this is so creamy...you would never guess that it is low in fat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light butter, flour, salt and pepper, nutmeg, skim milk, fat free sharp cheddar cheese
+---
+TITLE: Baked Tilapia With Dill Sauce
+CURRENT_DESCRIPTION: this is a really nice recipe. light and yummy! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, salt and pepper, cajun seasoning, lemon, fat-free mayonnaise, plain fat-free yogurt
+---
+TITLE: Baked Tilapia With Fresh Herbs
+CURRENT_DESCRIPTION: from everyday food, january/february 2006.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, salt and pepper, light mayonnaise, parsley, fresh dill, lemon wedge
+---
+TITLE: Baked Tilapia With Garlic And Lime
+CURRENT_DESCRIPTION: those deen bros. again. this is simple and tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, crazy salt, fresh ground black pepper, unsalted butter, lime, zest of, lime, juice of
+---
+TITLE: Baked Tilapia With Herb Butter
+CURRENT_DESCRIPTION: a simple, easy and delicious recipe that i found in the food network magazine.  i used regular cremini and button mushrooms, added some snow peas, minced garlic and slivered onions.  simple but great for company too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, fresh tarragon, mixed mushrooms, celery, scallion, salt & freshly ground black pepper
+---
+TITLE: Baked Tilapia With Lots Of Spice
+CURRENT_DESCRIPTION: this is a fabulous recipe for oven fried tilapia slightly adapted from paul prudhomme's wonderful
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, paprika, onion powder, dry mustard, garlic powder, pepper
+---
+TITLE: Baked Tilapia With Sour Cream Parmesan Crust
+CURRENT_DESCRIPTION: this is my favorite way to bake any mild white fish.  fast and easy meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, sour cream, parmesan cheese, paprika, salt, black pepper
+---
+TITLE: Baked Tilapia With Tomatoes   Olives
+CURRENT_DESCRIPTION: tilapia is relatively inexpensive.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, extra virgin olive oil, fresh thyme, tomatoes, green olives, hot red pepper flakes
+---
+TITLE: Baked Tilapia With Veggies  Herbs  And Wine
+CURRENT_DESCRIPTION: delicious, fast, easy, and low-fat. what more could you want?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillet, olive oil, portabella mushroom, yellow bell pepper, green onions, salt
+---
+TITLE: Baked Tilapia With White Wine And Herbs
+CURRENT_DESCRIPTION: recipe is from the american tilapia association
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillet, white wine, garlic clove, mixed herbs, onions, salt & freshly ground black pepper
+---
+TITLE: Baked Toficken Nuggets  Vegetarian Chicken Nuggets
+CURRENT_DESCRIPTION: i've made these a few times now, with different seasonings, and i think i have the technique down perfectly.  the key is to freeze and thaw your tofu before you use it-- this gives it chewiness.  i actually freeze all my tofu because i like it this way in all my recipes.  for this, i have used poultry seasoning, sazon, cajun spice blend.. all with good results.  be gentle if you add extra salt, as many seasoning mixes are very salty on their own.  cooking time doesn't include freezing, thawing, or marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm tofu, cornmeal, cornstarch, poultry seasoning, plain yogurt, pepper
+---
+TITLE: Baked Tofu
+CURRENT_DESCRIPTION: i eat this regularly, usually on a salad with some fresh mushrooms or rice noodles or whatever you want. this tofu is good, even my absolute meat lover husband likes it, good texture and flavor!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm tofu, oyster sauce, garlic, spicy brown mustard, soy sauce
+---
+TITLE: Baked Tofu And Potatoes
+CURRENT_DESCRIPTION: i used to make this easy baked chicken and potatoes recipe.  last night i decided to veganize it.  i winged it and wasn't sure if it would be good at all, but it was delicious!  the tofu browned nicely, but was still nice and tender.  note: amounts are approximated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm tofu, potatoes, olive oil, braggs liquid aminos, red wine vinegar, oregano
+---
+TITLE: Baked Tofu And Spinach
+CURRENT_DESCRIPTION: modified from conveniently vegan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, low-fat tofu, onion, nutritional yeast, soy sauce
+---
+TITLE: Baked Tofu With Mushroom Gravy
+CURRENT_DESCRIPTION: good comfort food for lacto-vegetarians or any tofu lovers.  tofu is baked to firm and crisp it and then it is smothered in a slightly tangy mushroom-onion gravy.  this makes a generous amount of gravy so that it can go over potatoes roasted while the tofu cooks.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soft silken tofu, butter, white onions, white button mushrooms, flour, low-fat milk
+---
+TITLE: Baked Tomato
+CURRENT_DESCRIPTION: quick, easy and light vegetable side dish for tomato lovers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, oregano, fresh ground black pepper, garlic powder, parmesan cheese
+---
+TITLE: Baked Tomato Casserole
+CURRENT_DESCRIPTION: different, but good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: stale bread, whole tomatoes, salt, pepper, sugar, cornstarch
+---
+TITLE: Baked Tomato Halves
+CURRENT_DESCRIPTION: these make a perfect side to chicken, beef, seafood, anything italian, or a rustic soup. super easy to assemble, it just takes a bit of time to bake. use any type of  tomato you have on hand.  make as many servings as you like depending on size of the tomatoes. i serve  1/2  of a large tomato or several smaller halves per person. adjust seasonings based on the size and amounts used. i basically just dust the tomatoes with the garlic powder, salt and pepper.  enjoy! 10/09 edit to add. baking time can be done at any oven temperature, adjust bake time accordingly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, garlic powder, sea salt, pepper, seasoned bread crumbs, olive oil
+---
+TITLE: Baked Tomato Heaven
+CURRENT_DESCRIPTION: so delicious and colorful you could serve this as a main dish using large beefsteak tomatoes with double or triple filling. your dinner guests will think they have died and gone to heaven!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, fresh spinach, sour cream, hot sauce, tomatoes
+---
+TITLE: Baked Tomato Nests
+CURRENT_DESCRIPTION: from "tapas", i sometimes serve these for brunch with a thick slice of ham and bread fresh from the oven.  if you can't find manchego in your deli please feel free to use a good quality parmesan instead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, eggs, heavy cream, manchego cheese, salt and pepper
+---
+TITLE: Baked Tomato Onion Casserole
+CURRENT_DESCRIPTION: an easy and low calorie side dish that could be served with any meat dish.  i found this in everyday food magazine and have use vidalia onions and added garlic for our taste.  the vidalia's are soooo sweet!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, red onion, olive oil, minced garlic clove, salt and pepper
+---
+TITLE: Baked Tomato Sauce With Pasta
+CURRENT_DESCRIPTION: i love this recipe because it's fairly quick, and surprisingly tasty. i don't remember where i found it, but it goes over very well with my family.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, fresh tomatoes, parmesan cheese, dry breadcrumbs, garlic, oregano
+---
+TITLE: Baked Tomatoes Oregano
+CURRENT_DESCRIPTION: it's time for those fresh, delicious garden tomatoes, and this recipe will please many taste buds! from allrecipes submitted by michele o'sullivan
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, romano cheese, fresh breadcrumb, garlic clove, fresh parsley, salt and pepper
+---
+TITLE: Baked Tomatoes Rockefeller
+CURRENT_DESCRIPTION: this recipe is from "ambrosia".  cookbook from vicksburg, ms.  try this dish for your next dinner party.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, onion, green onions, garlic, olive oil, eggs
+---
+TITLE: Baked Tomatoes Sicilian Style
+CURRENT_DESCRIPTION: this recipe is an exercise in simplicity. don't be dissuaded by the long cooking time, as these juicy italian beauties only grow more flavorful and caramelized. serve over hot cooked rice, orzo or couscous to absord all the delicious juices. from the mediterranean vegan kitchen
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, unseasoned breadcrumbs, dried oregano, fresh ground black pepper, coarse salt, extra virgin olive oil
+---
+TITLE: Baked Tomatoes Stuffed With Chicken And Spinach
+CURRENT_DESCRIPTION: from 365 ways to cook chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, skim milk, flour, chicken bouillon, swiss cheese, cooked chicken
+---
+TITLE: Baked Tomatoes Stuffed With Couscous And Feta
+CURRENT_DESCRIPTION: another tasty recipe from the sunday life supplement of the age.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, couscous, of fresh mint, fresh parsley, pistachios, feta
+---
+TITLE: Baked Tomatoes Stuffed With Orzo
+CURRENT_DESCRIPTION: yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orzo pasta, tomatoes, granulated sugar, salt, black pepper, dried oregano
+---
+TITLE: Baked Tomatoes Stuffed With Salmon  Garlic   Capers
+CURRENT_DESCRIPTION: i was looking for different recipes to use all the tomatoes this year from my garden and found this one.  it's great but they are not good reheated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: capers, salmon, extra virgin olive oil, flat-leaf italian parsley, garlic, fine dry breadcrumbs
+---
+TITLE: Baked Tomatoes W Broccoli Stuffing
+CURRENT_DESCRIPTION: this is an excellent side dish, makes a lovely presentation for a dinner party and can be fixed ahead. just be sure you don't overbake. this is from an old church cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, broccoli, cracker crumb, accent seasoning, salt, pepper
+---
+TITLE: Baked Tomatoes With A Parmesan Cheese Crust And Balsamic Drizzle
+CURRENT_DESCRIPTION: there is nothing ordinary about these baked tomatoes.  they are scrumptions especially at this time of the year when tomatoes are so flavorful.  everything can be made up ahead of time for that last minute serving.  bon appetit!  update:  there was some confusion whether to slice or cut the tomato in half...so i have re-worded the recipe to read a little bit better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beefsteak tomatoes, salt, breadcrumbs, parmesan cheese, olive oil, balsamic vinegar
+---
+TITLE: Baked Tomatoes With Bacon And Eggs
+CURRENT_DESCRIPTION: this is a wonderful breakfast dish, and pretty enough to serve to overnight guests. serve it with toast and your favorite jam. it is really, reallly better when you have access to summer home-grown tomatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, bacon, eggs, dijon mustard, scallions, fresh basil
+---
+TITLE: Baked Tomatoes With Basil Orzo
+CURRENT_DESCRIPTION: nice mediterranean flavor for a light supper.  could substitute  yellow or green bell peppers for the tomatoes. (cut off tops and seed.  omit the salting step)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, salt, unsalted butter, shallot, red bell pepper, garlic clove
+---
+TITLE: Baked Tomatoes With Garlic  Tomates A La Provencale
+CURRENT_DESCRIPTION: looking for something to use up a few fresh tomatoes, and this surfaced.  have yet to try it but am posting it for the zaar world tour.  would be perfect with roast meat or chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, dry breadcrumbs, garlic cloves, fresh parsley, olive oil, salt & fresh ground pepper
+---
+TITLE: Baked Tortellini
+CURRENT_DESCRIPTION: you won't find red sauce in this dish, just cheesy goodness. if you feel like indulging just a bit give this a try. you can easily double this recipe and make one for today and an extra to pop in the freezer for a heat-and-eat meal someday in the future.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, all-purpose flour, low-fat milk, fontina cheese, ground nutmeg, salt & freshly ground black pepper
+---
+TITLE: Baked Tortellini With Eggplant And Potato
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 lb. (225 g) eggplant, diced into 3/4-inch (2 cm) pieces, 1/2 lb. (225 g) tortellini, filled with beef or cheese, 1/2 lb. (225 g) potatoes, peeled and cut into 3/4-inch (2 cm) thick slices, 1/2 c. (125 mL) olive oil, 1 onion, thinly sliced, 1 2/3 c. (415 mL) canned Italian peeled tomatoes
+---
+TITLE: Baked Tortellini With Italian Sausage
+CURRENT_DESCRIPTION: recipe is originally from aylmer's tomatoes (back in the day when you snail-mailed to order a recipe book).  over the years i've tweaked the ingredients to our preference.  i couldn't find this recipe on the web even so i'm posting to share with other zaar members.  the recipe doesn't call for garlic, however for those that enjoy it... mince away.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot italian sausage, zucchini, onion, stewed tomatoes, oregano, tortellini
+---
+TITLE: Baked Tortellini With Red And White Clam Sauce
+CURRENT_DESCRIPTION: from dinner in no time, this sounds simple and good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated cheese tortellini, spaghetti sauce, minced clams, parmesan cheese, alfredo sauce
+---
+TITLE: Baked Tortilla Chips
+CURRENT_DESCRIPTION: something healthy to dip if you want to put down the potato chips and butter crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn tortillas, oil, lime juice, cumin, chili powder
+---
+TITLE: Baked Tortilla Espanola
+CURRENT_DESCRIPTION: this is a recipe that i found in a magazine and thought that i'd share it with everyone.  i haven't had a chance to try it yet, but intend to do so soon!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, saffron strands, baking potatoes, onion, garlic cloves, salt & freshly ground black pepper
+---
+TITLE: Baked Tortilla Wheels With Pineapple Salsa
+CURRENT_DESCRIPTION: this recipe is from the "very vegetarian cookbook". very beautiful and flavorful appetizer for the holidays or any get together. really pretty on blue dishes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, green chili pepper, fresh cilantro, tomatoes, green onions, red bell peppers
+---
+TITLE: Baked Triple Vegetable Dip
+CURRENT_DESCRIPTION: got this out of the kraft food and family magazine.  slightly more expensive than i usually do but really good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, frozen chopped spinach, artichoke hearts, chive & onion cream cheese, mayonnaise, parmesan cheese
+---
+TITLE: Baked Trout Amandine
+CURRENT_DESCRIPTION: from coup de pouce.  this is an healthy recipe that i plan to try soon.  and also it's done in less than 30 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: buttermilk, breadcrumbs, fresh parsley, mustard powder, salt, black pepper
+---
+TITLE: Baked Trout Fillets With Bread Stuffing
+CURRENT_DESCRIPTION: this is a whopping good dinner! serve up with fresh cooked veggies and a nice salad! this came from an olive oil cooking site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: trout fillets, extra virgin olive oil, scallion, carrot, bread, chicken broth
+---
+TITLE: Baked Trout Stuffed With Crab
+CURRENT_DESCRIPTION: this was one dinner that really surprised my fiance. he came home from work and when i said we were having stuffed trout, he just rolled his eyes, he didn't know they were deboned. he loved this and i make it for special occasions. it does take me a little while to make sure all the bones are out, but its sure worth it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, scallion, celery, lemon, rind of, fresh parsley, breadcrumbs
+---
+TITLE: Baked Trout With Fresh Herbs
+CURRENT_DESCRIPTION: from carolina country cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: trout, salt and black pepper, fresh parsley, green onions, fresh sage, fresh chives
+---
+TITLE: Baked Trout With Spicy Almond And Coconut Sauce
+CURRENT_DESCRIPTION: indian stlye baked fish for special occasions. i personally do not like fish but my wife said she enjoyed it. i obtained the recipe from an indian cookery course i am attening in coventry england
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: trout, lemon juice, tomato puree, ground almonds, ginger, garlic
+---
+TITLE: Baked Tubini With Roasted Chicken And Three Cheeses
+CURRENT_DESCRIPTION: found in a barilla pasta cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, milk, chicken broth, mozzarella cheese, parmesan cheese
+---
+TITLE: Baked Tuna And Zucchini Risotto
+CURRENT_DESCRIPTION: being able to bake risotto is a dream come true, since who has time anymore to stand over the stove and constantly stir it? not me, at least not most days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, arborio rice, chicken stock, chopped tomatoes, tuna
+---
+TITLE: Baked Tuna Balls
+CURRENT_DESCRIPTION: these tuna balls are very tasty, they can be made into 10-12 larger balls, or 30-40 smaller cocktail size balls (served with a cocktail picks). if you are one of those people (like myself) that just have to add garlic to everything, no matter what it is, then fresh minced garlic in any amount may be added to these if desired. this recipe can easily be doubled, i usually do if i am making, them into larger balls, for a snack or a main meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna, egg, fine dry breadcrumbs, mayonnaise, onions, fresh parsley
+---
+TITLE: Baked Tuna Burger
+CURRENT_DESCRIPTION: this is a baked tuna burger i made with what i had on hand at the time.  it's a lovely and crispy burger, and you can substitute or add whatever you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna, ricotta cheese, spring onion, mayonnaise, lemon, juice of, pepper
+---
+TITLE: Baked Tuna Burritos
+CURRENT_DESCRIPTION: a delicious dish for lunch or a light dinner that can be made from pantry staples.  serve with your favourite tomato salsa.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna in water, celery, green onions, light mayonnaise, dill pickle relish, dijon mustard
+---
+TITLE: Baked Tuna Chow Mein Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. chopped celery, 1/4 c. chopped onion, 1/4 c. chopped green pepper, 1 Tbsp. butter, 1 (7 oz.) can tuna, 1 (10 1/2 oz.) can cream of mushroom soup, thinned with 1/4 c. milk and 1/4 c. water
+---
+TITLE: Baked Tuna Chow Mein Casserole Microwave
+CURRENT_DESCRIPTION: microwave meal for those dinners when you really don't have the time to think! found on the back of chow mein noodles. posted in response to a request
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, celery, onion, green peppers, tuna, condensed cream of mushroom soup
+---
+TITLE: Baked Tuna Filled Tomatoes
+CURRENT_DESCRIPTION: tuna stuffed tomatoes baked in the oven. a great meal if served with a salad or veges, or great as an entree. makes 8
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, cream cheese, lemon, juice and zest of, tuna, green onions, mint leaves
+---
+TITLE: Baked Turkey And Jack Cheese Chimichangas   Weight Watchers
+CURRENT_DESCRIPTION: 5 points a serving. ridiculously easy. great with a black bean and corn salad (not included in points.)
+please note - this is 9 points with the new weight watchers !!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, ground turkey breast, fat-free refried beans, salsa, green chili peppers, chili powder
+---
+TITLE: Baked Turkey Enchiladas
+CURRENT_DESCRIPTION: a great way of using leftover turkey or chicken with a different twist. cheddar cheese may also be replaced by monterey jack or pepper jack cheese for more of a kick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sour cream, salsa, cheddar cheese, cooked turkey, corn kernel
+---
+TITLE: Baked Turkey Meatballs
+CURRENT_DESCRIPTION: great, easy, healthy meatballs to use as an appetizer or with your favorite pasta!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, seasoned bread crumbs, parmigiano-reggiano cheese, fresh parsley, egg, minced garlic cloves
+---
+TITLE: Baked Turkey Meatballs With Spinach
+CURRENT_DESCRIPTION: this is not my recipe... but it's awesome. i made a white sauce to go with it. delicious!
+http://homecookingmemories.com/baked-turkey-meatballs-with-spinach-10-ideas-for-meatballs/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, salt, ground black pepper, dried thyme leaves
+---
+TITLE: Baked Turkey Paleo Meatballs
+CURRENT_DESCRIPTION: a paleo version of turkey meatballs.  works for all low carb diets.  no frying required!  will be good with any vegetable!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, egg, dried oregano, dried parsley, garlic powder, onion powder
+---
+TITLE: Baked Turkey Quinoa Meatballs
+CURRENT_DESCRIPTION: try this twist on traditional meatballs! dr. oz.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground turkey, cooked quinoa, garlic cloves, egg, red onion, black pepper
+---
+TITLE: Baked Turkey Tenderloin
+CURRENT_DESCRIPTION: i love cooking this way :-)  it keeps the meat moist, and makes cleanup a breeze.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey breast tenderloins, butter, cajun seasoning, onion, carrots, potatoes
+---
+TITLE: Baked Turkey Thighs In Wine Herbs
+CURRENT_DESCRIPTION: tender, moist turkey flavored with rosemary, thyme and bay leaf--a crowd-pleaser. original recipe by earl peyroux.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey thighs, salt and pepper, olive oil, tiny new potatoes, butter, white wine
+---
+TITLE: Baked Turnip  Taters  Low Carb Diabetic
+CURRENT_DESCRIPTION: fluffier than other mashed-potato substitutes, because of the egg baked in, and very tasty. i've had non-diabetic folks ask for my recipe. :) mmmm!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turnips, butter, sour cream, eggs, parmesan cheese, salt
+---
+TITLE: Baked Two Cheese Penne  With Ingredients Of Own Choice
+CURRENT_DESCRIPTION: i found a recipe on www.fooddownunder.com called mozzarella pasta penne. it called for canned tomatoes, but i omitted it and came up with my own version of it. i think, you too can come up with your variation. how much of each ingredient you use depends on your appetite! i used the smalles amount of everything, but the largest is the one given by the website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry penne pasta, parmesan cheese, olive oil, mozzarella cheese, salt, ground black pepper
+---
+TITLE: Baked Up Fried Chicken  Low Fat
+CURRENT_DESCRIPTION: forget about that greasy version of fried chicken that soaks through the takeout container before you get it home. get all the crunch with half the calories using this hassle-free oven method. skinless, boneless chicken breasts stay moist and tender beneath a crispy coating of spices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat buttermilk, egg white, boneless skinless chicken breasts, all-purpose flour, salt, garlic powder
+---
+TITLE: Baked Vanilla Peaches
+CURRENT_DESCRIPTION: i am looking forward to summer to try this recipe from womans day out !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, peaches, vanilla bean, honey, white wine, ice cream
+---
+TITLE: Baked Vanilla Pears
+CURRENT_DESCRIPTION: this is a nice and easy finish to a meal. put it in to bake while you are eating and the aroma will drive you wild.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pears, vanilla extract, raisins, amaretto, vanilla powder
+---
+TITLE: Baked Veal Shanks  Stinco Di Vitella Forno
+CURRENT_DESCRIPTION: hot italian dish cookbook by victoria gotti. this is one of my favorite dishes to order when dining out. i am so glad that i can now make it at home. i serve this with roasted potatoes and mixed fresh steamed vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh bay leaves, fresh sage, fresh rosemary, veal shanks, salt & pepper, flour
+---
+TITLE: Baked Vegetable Crumble
+CURRENT_DESCRIPTION: please try this!  you will not be disappointed.  it is the perfect vegetarian meal or wonderful side dish for any meat or fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smart balance light butter spread, garlic cloves, leek, potato, carrot, parsnip
+---
+TITLE: Baked Vegetable Custard With Crispy Bacon
+CURRENT_DESCRIPTION: this recipe is from myswitzerland.com and has been posted here for play in zwt - 7 world tour - switzerland.  the people of the engadine did not want to have weddings without their traditional barley soup. they refined the soup and left out the barley and thus the engadine wedding soup was created. incidentally it also tastes delicious as a flan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: meat stock, leeks, celery, carrots, double cream, eggs

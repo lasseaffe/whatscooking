@@ -4,6 +4,7 @@ import { Plus, Sparkles } from "lucide-react";
 import type { MealPlan } from "@/lib/types";
 import { PLAN_TEMPLATES, type PlanTemplate } from "./new/plan-templates";
 import { PlansClient } from "./plans-client";
+import { SuggestedTemplates } from "./suggested-templates";
 import { BudgetTicker } from "@/components/budget-ticker";
 
 function rankTemplates(userPrefs: string[]): PlanTemplate[] {
@@ -96,39 +97,7 @@ export default async function PlansPage({
           )}
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {suggested.map((tpl) => (
-            <Link key={tpl.id} href={`/plans/new?template=${tpl.id}`}>
-              <div className="rounded-2xl overflow-hidden transition-all hover:-translate-y-1 h-full border" style={{ borderColor: "#3A2416" }}>
-                <div className="h-20 relative overflow-hidden">
-                  {tpl.meals?.[0]?.image ? (
-                    <>
-                      <img src={tpl.meals[0].image} alt={tpl.title} className="w-full h-full object-cover" style={{ filter: "brightness(0.8) saturate(0.9)" }} />
-                      <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(13,9,7,0.7) 0%, transparent 60%)" }} />
-                      <span className="absolute bottom-1.5 left-2 text-lg">{tpl.emoji}</span>
-                    </>
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center text-3xl" style={{ background: tpl.gradient }}>
-                      {tpl.emoji}
-                    </div>
-                  )}
-                </div>
-                <div className="p-3 rounded-b-2xl" style={{ background: "#1C1209" }}>
-                  <p className="font-semibold text-xs leading-snug" style={{ color: "#EFE3CE" }}>{tpl.title}</p>
-                  <p className="text-xs mt-0.5 line-clamp-1" style={{ color: "#6B4E36" }}>{tpl.subtitle}</p>
-                  <div className="flex flex-wrap gap-1 mt-1.5">
-                    {tpl.tags.slice(0, 2).map((tag) => (
-                      <span key={tag} className="text-xs px-1.5 py-0.5 rounded-full"
-                        style={{ background: "#2A1808", color: "#C8522A" }}>
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <SuggestedTemplates templates={suggested} />
       </section>
 
       {/* Divider */}

@@ -1,0 +1,2300 @@
+TITLE: Basil Vinaigrette
+CURRENT_DESCRIPTION: from rebar cookbook, this is a very versatile vinaigrette that can be used on salads, as a marinade for grilled vegetables, or drizzled on a sandwich of artichokes, fresh tomato, lettuce, spanish onion, and fontina cheese on crusty italian bread - yum!  for a vegan version, substitute maple syrup for the honey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, dijon mustard, honey, red wine vinegar, balsamic vinegar, fresh basil leaves
+---
+TITLE: Basil Vinaigrette Salad Dressing
+CURRENT_DESCRIPTION: this is a nice complement to any salad which includes tomatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, shallot, salt, champagne vinegar, lemon juice, extra virgin olive oil
+---
+TITLE: Basil Zucchini
+CURRENT_DESCRIPTION: simple healthy side for 2.  add a little red pepper flakes to the oil as it heats to get this a kick.  i also use crookneck squash in making this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, zucchini, fresh basil, garlic cloves, salt and pepper
+---
+TITLE: Basil Zucchini Boats
+CURRENT_DESCRIPTION: this is a side dish that i make often in the summer. my husband is not a huge zucchini fan, but he enjoys this with our grilled meats! not only does it use up some of the extra zucchini from the garden, it is fast and extremely easy! sometimes i bake the zucchini, but other times we put them on foil “trays” and add it to the grill, alongside our meat. this is also good with oregano or a combination of your favorite herbs. also, experiment with other hard cheeses, like romano.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, butter, fresh basil, parmesan cheese, salt and pepper
+---
+TITLE: Basil Zucchini Orzo Salad
+CURRENT_DESCRIPTION: a response to a request on the boards, here's a flavorful use of zucchini and aromatic basil!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, salt, fresh basil leaves, olive oil, garlic, fresh oregano
+---
+TITLE: Baskin-Robbins Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 stick butter, melted, 1 c. flour, 1/2 c. pecans, crushed, dash of salt
+---
+TITLE: basmati rice with carrots  raisins and spices  kabli
+CURRENT_DESCRIPTION: rice is the centerpiece of an afghan party, and people always pay attention to see that it is cooked properly and that there is plenty. this dish is traditionally made with lamb, but because many customers at catering events are vegetarian, it has been successfully adapted to a vegetarian dish. i at least double the spice amounts but have posted the original quantities.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, salt, vegetable oil, granulated sugar, cinnamon, ground cardamom
+---
+TITLE: basque cake
+CURRENT_DESCRIPTION: a great dessert for entertaining.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cornflour, baking powder, ground almonds, butter, icing sugar
+---
+TITLE: battenburg cake
+CURRENT_DESCRIPTION: originally from carol via cakerecipe.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla, flour, baking powder
+---
+TITLE: Battered Fried Fish
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (1 lb.) haddock, salt, 1 egg, 1 1/4 c. evaporated milk, 1 c. flour, 2 tsp. baking powder
+---
+TITLE: baum torte baum kuchen  german tree cake
+CURRENT_DESCRIPTION: the characteristic rings that appear when sliced resemble tree rings, and give the cake its german name, baum kuchen, which literally translates to tree cake.
+i made this years ago getting the recipe from bon appetit. all ingredients should be room temperature. this is a dense, rich cake so be sure to slice thin. you can always go back for seconds.
+optional:
+crushed toasted almonds can be scattered on the jam layers.
+this torte will have between 20-30 layers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, half-and-half cream, butter, sugar, eggs, vanilla extract
+---
+TITLE: baumtorte  tree cake
+CURRENT_DESCRIPTION: this is a recipe that takes a little time, but is well worth all the effort in the end.  an 8-inch cardboard circle, bottom of 8-inch springform pan or 8-inch saucepan lid can be used for a template.  broiler temperature varies widely so it may be necessary to experiment with the first few layers by adjusting boiler rack to achieve desired degree of browning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, pistachio nuts, apricot preserves, almond paste, half-and-half, unsalted butter
+---
+TITLE: bavarian beef with red cabbage
+CURRENT_DESCRIPTION: make this hearty german style stew for an oktoberfest party.  serve it on a large platter atop poppy seed noodles, accompanied by the tangy red cabbage and a pitcher of beer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, stewing beef, onions, caraway seeds, pepper, bay leaf
+---
+TITLE: bavarian cream
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unflavored gelatin, water, egg yolks, sugar, milk, vanilla
+---
+TITLE: bavarian pretzel rolls
+CURRENT_DESCRIPTION: from a friend who recently traveled to switzerland and returned with this recipe. she says this recipe is more authentic (i.e., bavarian) and less "mall food court" than other recipes (all are good, but it's a matter of preference). i don't know whether to believe her - i haven't been to switzerland to sample their goods, and i won't make this recipe until after i have posted it here. i like surprises.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yeast, warm water, honey, flour, salt, butter
+---
+TITLE: bavarian pretzels  pretzel rolls  laugenbrezeln
+CURRENT_DESCRIPTION: this easy recipe is from one of my all time favorite bread making cookbooks local breads by daniel leader/ lauren chattman with the directions tweaked just a little. i usually double the recipe and have always had outstanding results.the dough can be refrigerated from 2-24 hours so i sometimes bake 1 batch and then save the rest of the dough for the next day so they are fresh. i mostly use the recipe to make pretzel rolls and often wrap the dough around hot dogs or sausages which are a favorite of my ds (pretzel dogs) *see note at bottom of instructions*.  i occasionally add a little extra flour depending on the weather to get my dough as directed below. the dough should be a little moist/ sticky. add only a tablespoon at a time if extra is needed. please read the recipe through before starting. this recipe prints out as 2 pages for those that may want to set their print job to 2 sided :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached bread flour, unsalted butter, warm water, instant yeast, sea salt, baking soda
+---
+TITLE: bay scallops with polenta  wild mushrooms  sherry and parsley br
+CURRENT_DESCRIPTION: rich flavors and varied textures make this dish absolutely incredible. i found this last week from an old bon appetit magazine that i kept and made it again... (yes, it's a stolen recipe, not one i've created but i had to share this for everyone to try) lucious is the best way i could describe this. it's from february 2004 valentine's issue and would be a great romantic meal for your and two other couples or half everything and make it for just the two of you, and have leftovers! (i made this with cremini's and shitake. i did not have "amontillado sherry" but used a good quality dry sherry)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh breadcrumb, extra virgin olive oil, fresh parsley, unsalted butter, chanterelle mushrooms, fresh thyme
+---
+TITLE: Bbq  Pork
+CURRENT_DESCRIPTION: i just had dinner at my friend's house and they served this. it was so quick and easy. it tasted great! that's all i need when i have a family to feed. thanks jax... i had to share.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin chops, brown sugar, celery salt, chili powder, onion flakes, tomato soup
+---
+TITLE: bbq bacon cheddar meatloaf cupcake   mashed potato frosting
+CURRENT_DESCRIPTION: kid approved meatloaf - bbq bacon cheddar meatloaf cupcakes with mashed potato frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, ground turkey, breadcrumbs, cheddar cheese, barbecue sauce
+---
+TITLE: bbq chicken deluxe pan pizza
+CURRENT_DESCRIPTION: a recipe from the blog two peas and their pods.  i didn't try it, but when i'll do, i'll use my favorite pizza dough in the bread machine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, butter, granulated sugar, salt, dry yeast, all-purpose flour
+---
+TITLE: bbq coffee crusted pork tenderloins with redeye bbq sauce
+CURRENT_DESCRIPTION: this is from steven raichlen bbq usa cookbook.  this just sounded so good that i had to post for safe keeping and to try it.  time doesn't include marinating time which is at least 4 hours, but even better to let it is overnight.  introduction stated:  from the deep south come coffee-crusted pork tenderloins with redeye barbecue sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, ground coffee, coarse salt, dark brown sugar, sweet paprika, fresh ground black pepper
+---
+TITLE: bbq marmalade chicken
+CURRENT_DESCRIPTION: this is a simple dish to make, very tasty. it can be made in a crock pot or the oven. this is delicious served with steamed broccoli and mashed sweet potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange marmalade, soy sauce, barbecue sauce, boneless skinless chicken breasts, cornstarch, cold water
+---
+TITLE: bbq plank salmon
+CURRENT_DESCRIPTION: a fantastic northwest favorite that is amazingly simple and quick to cook main course. it is commonly accepted that alder smoke compliments salmon the best, however, this recipe works great with cedar planks, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, mustard, paprika, cayenne pepper
+---
+TITLE: bbq pork enchiladas
+CURRENT_DESCRIPTION: i had some leftover bbq pork that i had shredded and made in the crock pot from the night before so i was trying to find an interesting new way to change it up.  and i found it.  this were tasty!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork, white onion, chilies, panela cheese, red enchilada sauce, colby-monterey jack cheese
+---
+TITLE: BBQ Pulled Pork Burger
+CURRENT_DESCRIPTION: 27K likes, 145 comments - ellysplate on October 8, 2023: "BBQ pulled ‘pork’ burger 🍔 follow @ellysplate for more vegan burger recipes
+
+episode 18 of banging burgers is a classic that I can’t believe has taken me this long to film, strap in cus we’re turning mushrooms into pork 🤪 
+
+Ingredients (serves 2)
+For the pulled mushrooms 
+320g mushrooms 
+1 tbsp olive oil 
+3 tbsp tomato ketchup 
+1 tbsp jerk paste (I used @rachelama_ ) 
+1 tsp liquid smoke 
+1 tsp English mustard 
+1 tsp paprika 
+1/2 tsp on
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 320 g mushrooms, 1 tbsp olive oil, 3 tbsp tomato ketchup, 1 tbsp jerk paste, 1 tsp liquid smoke, 1 tsp English mustard
+---
+TITLE: BBQ Pulled Pork Sandwich
+CURRENT_DESCRIPTION: 42K likes, 358 comments - jacobking on June 8, 2024: "BBQ ‘PULLED PORK’ SANDWICH 🥪 written recipe below 👇🏾
+
+Inspired by my mate @jensplantbase 👏 
+
+👇🏾ingredients👇🏾
+-3 large aubergine
+
+-2 garlic cloves
+-1 tsp garlic/onion powder
+-1/2 tsp smoked paprika/cayenne pepper
+-big pinch salt n pepper
+-1/2 tsp white pepper
+-few tbsp olive oil
+
+-bbq sauce, buns, lettuce and coleslaw
+
+👇🏾method👇🏾
+-pierce the aubergine with a fork then bake in the oven for 45mins-1hr @ 180°, place in a bowl and cov
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 large aubergine, 2 garlic cloves, 1 tsp garlic/onion powder, 0.5 tsp smoked paprika/cayenne pepper, big pinch salt and pepper, 0.5 tsp white pepper
+---
+TITLE: bbq ribs with cola sauce
+CURRENT_DESCRIPTION: with it's sweet caramel flavor, cola is just begging to be made into a barbecue sauce! root beer and dr. pepper works well too. you can use your method of cooking the ribs instead of the '3-2-1 method' presented here, but try it if you haven't already. the mustard paint does not actually give the meat a mustard flavor in the end, but it does enhance the flavor of the meat, as well as seal and moisten it and act as a glue for the dry rub.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby back rib racks, wood chips, prepared yellow mustard, cider vinegar, lemon juice, brown sugar
+---
+TITLE: beachcomber s prickly pear jelly
+CURRENT_DESCRIPTION: yeppers, the deep burgundy knobs on top of prickly pears that develop in the fall are the source of a fantastic tasting juice that has been associated with numerous health benefits.  it is apparently much better known for its exquisite taste in italy and france than in the us (excluding some in southwestern states). be forewarned the pursuit of the tunas (that's the name of the fruit) is fraught with spiny obstacles - the cactus pads have large needle_like spines & the fruits have deceptive little bumps that are composed of tiny hair-like spines just a few millimeters long that work into the fingers of the unwary - must go prepared & protected. after several harvesting forays i have concluded the thick latex dish washing gloves that go midway up my forearm seem to afford the best protection.
+but it is worth it! the juice is mildly astringent with an initial taste reminiscent of raspberries and blueberries and an aftertaste that is delicately floral, not unlike the floral essence of rambutans. the beautiful magenta jelly has prompted all tasters to tentatively savor the initial dab & immediately dig in for more!
+have your jars washed & waiting in simmering hot water bath before starting & put lids in to simmer when bringing strained juice to a boil.
+note - prep time does not include stalking the fruit! we are lucky because the condos across the street use these for landscaping and it takes less than 10 minutes to harvest a colander full!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prickly pear juice, water, lemons, juice of, dry pectin, sugar
+---
+TITLE: beachgirl s basic low carb cheesecake
+CURRENT_DESCRIPTION: this is a wonderful basic low carbohydrate cheesecake that was posted on the lowcarbfriends website by "beachgirl" (a different beachgirl than the one who posts here on recipezaar?). the basic recipe can be varied many ways by adding different flavored extracts or berries (note the blueberry option).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, splenda sugar substitute, vanilla extract, lemon juice, sour cream, eggs
+---
+TITLE: bean and vegetable tortilla stacks
+CURRENT_DESCRIPTION: delicious and easy.  low calorie, good vegetarian meal!!!  my fiancee found this recipe in a vegetarian cookbook, but i have made a few alterations.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: monterey jack pepper cheese, part-skim ricotta cheese, carrot, radish, ripe olives, garbanzo beans
+---
+TITLE: Bean Bake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. hamburger, 1 lb. bacon, 1 medium onion, 1 c. ketchup, 3/4 c. brown sugar, 1 tsp. vinegar
+---
+TITLE: Bean Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 (16 oz.) cans beans (such as pork and beans, red, kidney or butter beans), 1 1/4 lb. ground chuck, browned, 12 slices bacon, fried and chopped, 1/2 c. onion, chopped, 1/2 c. brown sugar, 1/4 c. ketchup
+---
+TITLE: Bean Salad
+CURRENT_DESCRIPTION: 3,269 likes, 56 comments - thrivingonplants on June 6, 2024: "Bean Salad 🫘🥗 Welcome to episode 10 of ✨Salads that Don't Suck✨ I personally don't eat beans that often, but when I do I love finding delicious ways to incorporate them into my meals.
+
+Here's a light and refreshing bean salad to try! If you want to make it a meal, add in a grain of your choice. Otherwise this is great as a side or snack. Enjoy 🍃
+
+Base 
+1 can canellini beans, drained & rinsed
+1 can butter beans, drained & rinsed
+1 s
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can canellini beans, drained & rinsed, 1 can butter beans, drained & rinsed, 1 small red onion, diced, 0.5 cup sundried tomatoes, chopped, 175 g cherry tomatoes, halved, 1 large capsicum, diced
+---
+TITLE: Bean Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. black-eyed peas, 1 lb. Great Northern beans, 1 lb. pinto beans, 1 lb. kidney beans, 1 lb. baby lima beans, 1 lb. navy beans
+---
+TITLE: bean soup with sausage and more   southwest flavors   nutritious
+CURRENT_DESCRIPTION: this is southwest comfort food from arizona. i didn't know until i moved here how much better dried beans are than canned and how fast they are to soak following tip provided in the directions. i was also introduced to the wonderful flavors of fresh cilantro and hatch chilies. genuine hatch chilies are from hatch, new mexico, and can be found fresh here only once a year, roasting in grocery store parking lots. ohhh they smell so good! but you can get them canned in a lot of grocery stores and they still have that very unique, special flavor. you can substitute jalapeños if you can't find hatch chilies. i put canned chicken broth in the recipe ingredients but usually use a cup of my own very rich homemade stock and add an extra cup of water. i err on the side of "not-too-hot" because i'm a wimp, but serve extra chilies on the side. the soup freezes very well, but eat the potatoes before freezing. good with warm, buttered corn tortillas or corn bread. this is my own made-up recipe. hope you enjoy it as much as we and our guests do!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried pinto beans, canola oil, italian sausage, bacon, onion, chicken stock
+---
+TITLE: Beans And Hungry Jacks
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1 small onion, 1 tsp. salt, 1 (16 oz.) can pork and beans, 1/2 c. barbecue sauce, 2 Tbsp. brown sugar
+---
+TITLE: Beans For Tacos
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 32 oz. jar dry pinto beans, soaked overnight, 6 oz. tomato paste, 1 pkg. Lipton onion soup, 2 Tbsp. mustard, 1/4 c. brown sugar, 2 onions, sauteed
+---
+TITLE: Beans, Beans, Beans!
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 10 slices bacon, 1 c. chopped onion, 1 large garlic clove, chopped, 1 (1 lb.) can butter beans, drained, 1 (1 lb.) can lima beans, drained, 1 (1 lb.) can kidney beans, drained
+---
+TITLE: bear claws  pittsburgh style
+CURRENT_DESCRIPTION: bear claws get their name from three or four small cuts made in the pastry. gentle bending and spreading of the pastry forms a bear claw.  bear claws are made with a sweet yeast dough or danish pastry dough. these are filled with dates, raisins and nuts. my late grandmother loved these, especially when they were fresh from the bakery! this recipe was originally printed in the kitchen mailbox column of the pittsburgh post-gazette, march 29, 2001.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, salt, butter, warm water, active dry yeast
+---
+TITLE: Beat The Blues  Blue Cheese Risotto
+CURRENT_DESCRIPTION: risotto is the ultimate comfort food, it's like being hugged by your dinner. you can make do with a spoon and don't even need to bother with proper grown-up cutlery.
+a bowl of this can (almost) make everything better again when your down.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, leeks, garlic cloves, smoked bacon, arborio rice
+---
+TITLE: Beat This  Banana Bread
+CURRENT_DESCRIPTION: from ann hodgman's
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, unsalted butter, bananas, eggs, fresh lemon juice, orange rind
+---
+TITLE: beatty s chocolate cake with chocolate frosting
+CURRENT_DESCRIPTION: copyright 2006, "barefoot contessa at home"  the name of ina garten's new cookbook. as always, like most of her recipes; this is easy and oh so delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, sugar, cocoa powder, baking soda, baking powder
+---
+TITLE: beaucoup seafood chowder
+CURRENT_DESCRIPTION: this recipe was a creation of blogstress movita beaucoup here:  http://movitabeaucoup.com/2011/08/12/beaucoup-seafood-chowder/ .  what thrills me is the recipe originates in nova scotia.  being specifically of cajun decent and heritage, my ancestery harkens back to nova scotia.  a history of rich culture, indeed.  please read notes and tips below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onions, celery, potato, chicken broth, dried basil
+---
+TITLE: beautiful borscht salmon
+CURRENT_DESCRIPTION: plate up a palette of pretty colours. rich orange grilled salmon, raspberry red borscht sauce, bright white crème fraiche, deep green dill sprigs. a dish that will delight your taste buds as well as your eyes. lovely served with fresh steamed haricots verts and lemon rice. the recipe makes 8 servings. but do not worry if you are cooking for 2 or 4. any unused borscht sauce is easily thinned to soup consistency and very flavourful the next day. enjoy your borscht again hot or as a beautiful cold summer soup!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beet, olive oil, shallot, carrot, celery, napa cabbage
+---
+TITLE: becky s cheesy chicken quesadillas
+CURRENT_DESCRIPTION: these are delicious!  these quesadillas are filled with seasoned grilled chicken, a blend of mexican cheeses, tomatoes, scallions and cilantro.  i like to make these as a meal, but they could also be served as an appetizer.  my husband and i always think we can eat one whole quesadilla each, but we always end up saving the rest for lunch the next day.  my grandmother would say, "i guess your eyes were bigger than your stomach"!  well i say, "here's to ambitious eyes, grandma!"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, salt, black pepper, onion powder, mexican chili powder, garlic powder
+---
+TITLE: Becky'S Marshmallow Clouds
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 c. flour, 2/3 c. unsweetened cocoa powder, 1/2 tsp. baking soda, 1 c. white sugar, 1 c. light brown sugar, firmly packed, 1 c. salted butter, softened
+---
+TITLE: Becky'S Punch
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. black cherry or cherry Kool-Aid, 1 small box Jell-O (same flavor), 2 qts. warm water, 1 can pineapple juice, 1 can frozen lemonade, 1 cup sugar
+---
+TITLE: bed   breakfast scones
+CURRENT_DESCRIPTION: started making these years ago; when oldest daughter was in high school, she'd request these whenever a friend stayed over for the weekend.   serve with recipe #230378, recipe #230379, recipe #208953 or your favorite jam with butter.  time-saving tip:  line up several zip-top, quart-size bags (i do 10 at a time [10 bags = 10 recipes]), then pour in the dry ingredients, then label and store in a cool, dark spot in the pantry.  at meal-time, dump one bag into mixing bowl and proceed.  this works for pancakes, cornbread and pizza, too!  easy for the kids to whip a batch together, too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, butter, milk
+---
+TITLE: Bee Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/4 to 1 3/4 c. unsifted flour, 2 Tbsp. sugar, 1/4 tsp. salt, 1 tsp. grated lemon peel, 1 pkg. yeast, 1/3 c. milk
+---
+TITLE: Bee Sting Buns(Makes 16 Buns)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 (8 oz.) cans refrigerated crescent rolls, 1 (8 oz.) pkg. cream cheese, 1/4 c. (1/2 stick) melted butter or margarine, 1/4 c. firmly packed light brown sugar, 3 Tbsp. honey, 1 tsp. grated orange peel
+---
+TITLE: beef  california roll  salad
+CURRENT_DESCRIPTION: marinating time is not included in prep time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef top loin steaks, hoisin sauce, pomegranate juice, garlic, fresh ginger, sesame oil
+---
+TITLE: Beef And Baked Beans
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1 medium onion, chopped, 1 medium green pepper, chopped, 1 (16 oz.) can baked beans, 1 (4 oz.) can mushroom stems and pieces, drained
+---
+TITLE: beef and bean braid
+CURRENT_DESCRIPTION: the filling is delicious in this treat. recipe is from taste of home. prep time does not include rising time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, butter, sugar, salt, egg
+---
+TITLE: Beef And Broccoli Over Noodles
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. boneless beef sirloin steak, 1 Tbsp. vegetable oil, 1 clove garlic, minced, 1 onion, cut in wedges, 1 (10 3/4 oz.) can Campbell's cream of broccoli soup, 1/2 c. water
+---
+TITLE: beef and cheese tamale pie
+CURRENT_DESCRIPTION: this festive casserole is perfect for the holidays. it feeds a crowd and kids love it. this is the next best thing to the traditional tamales.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, lean ground beef, garlic cloves, dried oregano, ground cumin, salt
+---
+TITLE: beef and chili stew with cornbread dumplings
+CURRENT_DESCRIPTION: a hearty mexican stew with tender cornbread dumplings. much of the prep time can be done the day before.prep time does not include doing the chiles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: poblano chile, skirt steaks, onions, garlic, tomato paste, beef broth
+---
+TITLE: Beef And Green Beans
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. beef, 1 lb. green beans (French-cut), 3 cloves garlic, pressed, 1 tsp. salt, 1 Tbsp. soy sauce, 1 onion, quartered
+---
+TITLE: Beef And Macaroni Skillet Dinner
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 to 1 1/2 lb. ground beef, 1/2 tsp. pepper, 1 tsp. salt, 2 c. dry macaroni, 1 c. water, 1 tsp. Worcestershire sauce
+---
+TITLE: beef and onion pie
+CURRENT_DESCRIPTION: jamie oliver is one of my favorite chefs. this is definitely comfort food. it is also pretty inexpensive to make. *due to reviews, i have reduced the amount of beef broth to 2 cups. if you would still like a thicker sauce, be prepared to add a slurry of some of the liquid and a heaping t of flour (or cornstarch) well blended and add to a rolling boil - to make the liquid thicker.  also, a lot of people have commented that they would like this with a 2 crusts, top and bottom, so if you prefer, go ahead and use one of those crusts for the bottom and one for the top. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, carrots, celery ribs, fresh rosemary, olive oil, bay leaves
+---
+TITLE: Beef And Potato Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 c. frozen potato rounds (1/2 of a 30 oz. bag), 1 lb. ground beef, 1 (10 oz.) pkg. frozen chopped broccoli, thawed, 1 (2.8 oz.) can Durkee French fried onions, 1 (10 3/4 oz.) can cream of celery soup, 1/3 c. milk
+---
+TITLE: beef and potato empanadas with salsa picante
+CURRENT_DESCRIPTION: yet another traditional colombian dish that i learned to make from my mother-in-law. to eat, put a little bit of the picante on each bite. it's one of my favorite meals.**just a note, until the elves edit this for me, it should be 1/2 lb hamburger meat, not 1 lb. sorry about that!**
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white onion, tomatoes, fresh cilantro, green bell pepper, jalapeno pepper, limes, juice of
+---
+TITLE: beef and potato tacos
+CURRENT_DESCRIPTION: these tacos are one of the most popular recipes on my blog.  we made these by the hundreds for large dinners when i was in grade school.  i can assure you that these are no ordinary taco.  these are fried beef and potato tacos.  after they're cooked, you have to throw on some cheddar cheese and let it melt into the taco meat.  very cheesilicious.  just in case you're wondering, they're fattening -- and oh-so-good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, oil, onion, garlic cloves, dried oregano, ground beef
+---
+TITLE: Beef And Shell Bake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 pkg. Creamette shells, 1 lb. ground beef, 1 1/2 c. celery, diced, 1 c. onion, chopped, 1 (28 oz.) can whole tomatoes, 1 (6 oz.) can tomato paste
+---
+TITLE: Beef And Spanish Rice Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can Spanish rice, 1 can corned beef, 1 diced onion, 1/2 c. grated Cheddar cheese
+---
+TITLE: beef and stout pie
+CURRENT_DESCRIPTION: this recipe came from the latest williams-sonoma catalog.  it looks really good!  posting here so i don't lose it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, white button mushrooms, frozen pearl onions, salt & freshly ground black pepper, chuck roast, flour
+---
+TITLE: beef and vegetable aioli platter
+CURRENT_DESCRIPTION: this is basically poached meat and vegetables that takes on an air of elegance and sophistication.  a nice change of pace to serve at your summer get-together.  adapted from good food magazine, july 1987.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, egg yolks, wine vinegar, fresh lemon juice, salt, cayenne pepper
+---
+TITLE: Beef Bourdelais
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 Tbsp. margarine, 3 lb. sirloin tip (cut for stew), 1 onion, diced, 3 Tbsp. flour, 1/4 tsp. thyme, 1/4 tsp. pepper
+---
+TITLE: beef bourguignon cottage pie  oamc
+CURRENT_DESCRIPTION: a hearty meal for all the family, by gary rhodes. you can prepare it up to a month in advance.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sunflower oil, bacon, stewing beef, salt and pepper, button mushrooms, baby onions
+---
+TITLE: beef braised in teroldego wine
+CURRENT_DESCRIPTION: i found this recipe in an italian magazine.  i doubled the recipe and froze half and served the other.  it was fantastic!!!  i could not find the wine they suggested so i used a bold, italian red.  i followed the rest of the recipe exactly.  if you need to impress company with your culinary talents, this recipe will do the trick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef chuck roast, anise seed, juniper berries, bay leaf, red wine, salt
+---
+TITLE: beef brisket with cherry merlot sauce and caramelized onions
+CURRENT_DESCRIPTION: this brisket is out-of-this-world! don't skimp on the onions - they are the crowning glory of this incredible dish. i found it under 'recipes' on the williams sonoma website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef brisket, salt & fresh ground pepper, olive oil, onions, carrot, garlic cloves
+---
+TITLE: beef buns
+CURRENT_DESCRIPTION: from good housekeeping
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, sugar, bread flour, salt, eggs
+---
+TITLE: beef burgundy for the slow cooker
+CURRENT_DESCRIPTION: adding reduced wine to the slow cooker just before serving is the secret to making this full-bodied stew!
+make sure to use the low setting on your slow cooker; the stew will burn on the high setting. serve with boiled potatoes (the traditional accompaniment), mashed potatoes, or buttered egg noodles. from cook's country.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, beef stew meat, salt & fresh ground pepper, onion, carrots, garlic cloves
+---
+TITLE: beef carbonnade
+CURRENT_DESCRIPTION: this is out of weight watchers "best eats" cook book. i haven't tried it but this sounds good for being low calorie, low fat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bottom round steak, salt, black pepper, onions, reduced-sodium beef broth, yukon gold potato
+---
+TITLE: beef casserole with herb dumplings
+CURRENT_DESCRIPTION: this is clipped from an australian women's magazine.  the aroma while in the oven was wonderful.  my family enjoyed the subtle herby flavours and tender meat.  although the recipe calls for 12 garlic cloves, that flavour was not overpowering as they were cooked whole.  the buttermilk dumplings were melt in the mouth.  overall however the flavours were somewhat subtle and i will add something more next time....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chuck steaks, plain flour, olive oil, brown onion, carrots, garlic cloves
+---
+TITLE: beef curry pillows
+CURRENT_DESCRIPTION: ------spicy, fragrant curry tucked inside delicious puff pastry!------
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, white onion, green curry paste, coconut milk, brown sugar, lime juice
+---
+TITLE: beef empanadas with black bean dipping sauce
+CURRENT_DESCRIPTION: i got this recipe from bon appetit, but they didn't have it published on their web site, so i'm putting it here for safe keeping.  it was in the 'request' section where readers write in and ask for a recipe from a location / restaurant they'd eaten at.  this one comes from the grace bay club in turks and caicos. it looks quite good - so i'm hoping some of us enjoy this!  update - i made these this weekend and they were good and went over big at a party.  i made a double batch and note the puff pastry at my grocery was $4.99 ea - so for a double batch - that is 3 packages...so not an inexpensive appetizer for a party...  many liked them - but i thought next time i might see about using pie pastry instead of the puff pastry and perhaps adding a bit of cheese or maybe potato inside of the empenadas?  the dip was great - even with tortilla chips too.... :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, garlic cloves, tomato paste, ground cumin, cayenne pepper
+---
+TITLE: beef florentine
+CURRENT_DESCRIPTION: i got the original idea for this recipe from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, crushed tomatoes, extra virgin olive oil, garlic, tomato paste, sugar
+---
+TITLE: beef glace de viande  often incorrectly called demiglace
+CURRENT_DESCRIPTION: demiglace is actually any rich stock or broth that is reduced by half or three-quarters to enrich it; it is normally still a relatively thin liquid. glace de viande is made the same way, but it is normally reduced by a factor of 8-10, has a thick syrupy or paste-like consistency, and is much richer. glace de viande can sometimes be purchased, but is expensive, $30-40 per pint, and if you look at the list of ingredients, often has additives and other adulterants, which make it easier to make. this recipe is
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef bones, extra virgin olive oil, chuck roast, onions, garlic, celery
+---
+TITLE: beef in red wine
+CURRENT_DESCRIPTION: this roast is based on a recipe from the encyclopedia of creative cooking, edited by charlotte turgeon. allow time for the beef to marinate 12 to 24 hours. tip: i find it easy to peel tomatoes by filling a small deep saucepan with water, bring to a boil, remove from heat, and plunging a tomato held up with a fork into the water, slow-counting to ten; the skin comes off easily without cooking the tomato.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef roast, salt, fresh ground black pepper, red wine, water, onion
+---
+TITLE: beef paprika stew viennese style  gulash
+CURRENT_DESCRIPTION: there are many varieties of this dish. the hungarians cook it a lil different, than the austrians and viennese people have their own gulash recipes going on. so if you order the same dish in vienna and in hungary you probably are going to get 2 different dishes. here i talk about a gulash based on a austrian / viennese style. it's basically beef broth, hungarian paprika powder (it really makes a difference what kind of paprika powder you use.. so don't expect it to come out that great - in austria we grave that dish - if you substitute the paprika powder with anything you have at home that comes close ). i like that dish cause you can use it in so many ways. we eat dumblings, potatoes, spaetzles (its a german style pasta), franks, rolls with it and it makes us very happy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, garlic clove, stew meat, beef broth, cayenne pepper, hungarian paprika
+---
+TITLE: Beef Pho (Phở Bò)
+CURRENT_DESCRIPTION: Rich, aromatic beef broth with star anise, cinnamon, and charred ginger, ladled over rice noodles and thinly sliced beef. The soul of Vietnamese cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1.5 kg beef marrow bones, 500 g beef brisket, 400 g flat rice noodles, 1 halved, charred white onion, 5 cm, charred ginger, 5 whole star anise
+---
+TITLE: beef pot roast  pot  oven or slow cooker
+CURRENT_DESCRIPTION: yes, i know, lots of pot roast recipes here, but i tell you this is my all time favorite.  even better then the ones that you dump all of the pre packaged gravy mixes and salad dressings in the pot. homemade, just like a good mid-western mom meant it to be!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef roast, oil, salt and pepper, worcestershire sauce, instant beef bouillon, dried basil
+---
+TITLE: beef potato empanadas with chimichuri sauce
+CURRENT_DESCRIPTION: while almost any filling can be used in these first course pastries, beef is still the all time argentine favorite. from a september 1986 issue of bon appetit in the "bon voyage" section, featuring buenos aries, argentina. these can also be a part of an appetizer buffet and are baked, not frozen. the chimichuri sauce is also wonderful with plantain chips or served with a steak!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, boiling potatoes, onion, red chili powder, ground cumin
+---
+TITLE: Beef Rendang
+CURRENT_DESCRIPTION: The greatest dry curry: beef slowly simmered with lemongrass, galangal, and turmeric leaf until the coconut milk evaporates and the beef fries in its own aromatic fat, developing an impossibly complex, caramelised crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1.2 kg beef chuck, cut into large cubes, 800 ml coconut milk, 3 lemongrass stalks, 40 g galangal, 20 g (fresh) turmeric, 6 kaffir lime leaves
+---
+TITLE: beef ribs with roasted peppers  roumanian style
+CURRENT_DESCRIPTION: roumanian style cooking is as familiar to me as mac and cheese is to all children. my parents, of roumanian heritage, had a european lifestyle as they were growing up in southern saskatchewan and this lifestyle was ingrained in their children as we were growing up. i grew to appreciate and love european cousine, and thanks to my mother, became quite proficient in the roumanian way of cooking. large cuts of meat,sometimes not so tender, bone in, were commonly used, as the basis for the one-pot meals we enjoyed in our home. it seemed to me, as a child, that these meals took hours to prepare and sometimes they did because of the less tender cuts of meat which were available at the time, or which my parents could only afford. this particular recipe is one i developed for this contest, drawing on the basic knowledge taught to me by my mother. it is fortuitous that the official list of ingredients included some so familiar to my heritage. the sauce of sour cream base was common in our home. it was usually served up with freshly cooked mamaliga, boiled rice, or larger boiled vegetables, such as potatoes, turnips, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef ribs, vegetable oil, unsalted butter, onion, garlic cloves, portabella mushroom
+---
+TITLE: Beef Roast And Noodles
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (3 to 3 1/2 lb.) beef chuck pot roast, 2 Tbsp. flour, 2 tsp. instant beef bouillon granules, dash of garlic powder, 2 bay leaves, 2 large onions, sliced (2 c.)
+---
+TITLE: beef satay
+CURRENT_DESCRIPTION: makes me think of bali! prep time doesn't include marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rump steak, tomato paste, tomato sauce, curry powder, chili powder, garam masala
+---
+TITLE: beef short ribs in chipotle and green chili sauce
+CURRENT_DESCRIPTION: here's another recipe for our chipotle chili lovers! enjoy! from bon appetit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, fresh ground black pepper, ground cumin, chili powder, ground coriander, short rib of beef
+---
+TITLE: beef short ribs in cinnamon   red wine sauce
+CURRENT_DESCRIPTION: recipe courtesy of vikram vij, vij's restaurant, in vancouver canada, reported (by gourmet magazine) to be the best indian restaurant in north america.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: short rib of beef, grapeseed oil, ghee, onion, garlic, fresh tomato
+---
+TITLE: beef short ribs with red chili sauce
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, short rib of beef, water, white onion, tomatoes, vegetable oil
+---
+TITLE: beef short ribs with rigatoni
+CURRENT_DESCRIPTION: the success of this dish really depends on meaty ribs, or fatty ones, so get to know your butcher and look for well marbled ribs without a lot of fat. ask for an english cut, which means pieces that are between 2 and 4 inches long. slow cooking produces the tenderest and most delicious flavor and the entire casserole can be assembled and cooked hours before it is needed and just reheated, or cooked the day before. either way, it is a winner.
+pressed for time? try making this in a crock pot. set it and forget it, and come home to a great dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, beef short ribs, salt and pepper, pancetta, onion, fennel
+---
+TITLE: beef shreds with green pepper
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steak, bell peppers, garlic, peanut oil, salt, stock
+---
+TITLE: Beef Stew 57
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 lb. cubed, boneless beef for stew, 1 tsp. salt, dash of pepper, 1/2 tsp. sugar, 2 Tbsp. shortening, 2 c. water
+---
+TITLE: Beef Stew By Sylvia
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. stew meat, 1 large onion, 4 to 6 celery stalks, 6 to 8 potatoes, 6 to 8 carrots, 2 tsp. salt
+---
+TITLE: beef stew in red wine sauce
+CURRENT_DESCRIPTION: jacques pepin recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flat iron steaks, butter, olive oil, salt, pepper, onion
+---
+TITLE: beef stew with carrots and mushrooms
+CURRENT_DESCRIPTION: this is a classic! with small portobello mushrooms (cremini) and carrots, red wine and no tomatoes! adapted from cooking light magazine(jan/feb 2006).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, cremini mushroom, cooking spray, onions, garlic cloves, flour
+---
+TITLE: beef stew with poblanos  tomatillos  and potatoes
+CURRENT_DESCRIPTION: from cooking light. when i made this stew, i did end up adding a bit more salt and pepper, and a squeeze of fresh lime.  it was delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: poblano chiles, olive oil, onions, flour, beef stew meat, salt
+---
+TITLE: beef stew with red wine and carrots  daube de boeuf aux carottes
+CURRENT_DESCRIPTION: from fine cooking #84.  a very rich and hearty beef stew that is perfect served over mashed potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef chuck roast, extra virgin olive oil, bacon, kosher salt & freshly ground black pepper, shallots, brandy
+---
+TITLE: beef stew with red wine and hoisin sauce
+CURRENT_DESCRIPTION: from epicurious. we love anything with hoisin sauce and this was delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless beef chuck roast, onions, cabernet sauvignon wine, italian-style diced tomatoes, hoisin sauce
+---
+TITLE: Beef Stroganoff For 2
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 box egg noodles, cooked, 1/2 stick butter, 1 lb. good beef (bite sizes), 1 large can mushrooms, drained, 1/3 c. chopped onions, 1 Tbsp. flour
+---
+TITLE: beef stroganoff from cooks illustrated
+CURRENT_DESCRIPTION: delish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sirloin steaks, soy sauce, white mushroom, hot water, dry mustard, sugar
+---
+TITLE: beef stroganoff with cremini   porcini mushrooms
+CURRENT_DESCRIPTION: this recipe is from the magazine fine cooking. it's by far the best beef stroganoff i've ever tasted. it wasn't difficult at all, and didn't take much time. i made it after work one evening. the ingredients were readily available in my grocery store, and well worth the investment. the porcini mushrooms really add a great flavor and deeper color to the beef broth. i'd be proud to serve this dish to company. note: i recommend you prep all remaining ingredients while the dried porcini is steeping. the rest of the steps are very quick, and don't allow time for prepping as you go. second note: i buy whole beef tenderloins at costco for a very reasonable price. i remove the silver skin myself with a sharp meat carving knife. i get a fabulous roast, quite a few filet mignon steaks, and the funny shaped thinner
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low sodium beef broth, dried porcini mushrooms, vegetable oil, unsalted butter, cremini mushrooms, beef tenderloin
+---
+TITLE: beef stroganov with mustard  govjadina po stroganovski  s gorchi
+CURRENT_DESCRIPTION: i got this recipe from an elderly couple in a tiny restaurant on the volga. i don’t recall the name of the restaurant but i do remember that inside the inn was authentic history. the couple claimed to be direct descendants of the real count stroganov. over the fireplace in the main dining room was a huge portrait of the count. i was the only “amerikanski” this couple had seen so when i made a big deal of how delicious the meal was, they gave me this recipe, along with some “ruski” history.
+beef stroganoff – translated into english – was named for a noted russian gourmand, count pavel stroganov, who flourished in the gay nineties of the last century. he was a dignitary at the court of tsar alexander iii and a member of the imperial academy of arts in st. petersburg. no one knows if the count himself invented the recipe which has immortalized him, or if his chef conjured it up. the count’s name is virtually unknown in the annals of russian military history. however, lovers of fine food know the name stroganov throughout the world. the only stroganov mentioned anywhere in russian military history is one peasant-born fighter who helped ivan the terrible conquer the vast territory of siberia.
+there are several versions of beef stroganoff known throughout the world, but below is the classic russian recipe. i have included two others that are just as tasty but a little easier to prepare and the ingredients would be better obtainable. the secret of the sauce is the mustard in it. even this classic recipe for beef stroganoff has undergone changes during the past 20 years. in the south of russia, 1 tablespoon of tomato paste has crept into the sauce. or a few cooked mushrooms, sliced may be added. in the united states, we add both. the result is tasty, but it isn’t the real beef stroganoff.
+my friends in the ministry of health even prefer to leave the mustard out of the sauce. they substitute a few drops of lemon juice. i met one couple who prefers a few drops of a strong mushroom ketchup, known as “mushroom essence” in russia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, allspice berries, butter, flour, stock, dijon mustard
+---
+TITLE: beef tenderloin en croute
+CURRENT_DESCRIPTION: this recipe came from a cookbook received as a christmas gift. this is a great
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, puff pastry sheet, mushroom, margarine, cream cheese with garlic and herbs, seasoned dry bread crumb
+---
+TITLE: beef tenderloin in mushroom port sauce
+CURRENT_DESCRIPTION: easy enough to make for a family dinner, yet elegant enough to serve to the most prestigious guests. the mushrooms and port wine make an incredibly rich and flavorful sauce for the tenderloin roast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, salt, fresh coarse ground black pepper, beef tenderloin, butter
+---
+TITLE: beef tenderloin roasted in an herb infused salt crust
+CURRENT_DESCRIPTION: otherwise known as:  "rôti de filet de boeuf en
+croûte de sel aux herbes"  from a french cookbook - here for safe keeping
+looks like a lot of steps but it really isn't very hard.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kosher salt, fresh thyme leaves, rosemary, egg whites, water, all-purpose flour
+---
+TITLE: beef tenderloin with roasted shallots
+CURRENT_DESCRIPTION: this recipe is modified from christine's at allrecipes.com.  it is a gourmet-style meal that is great for a dinner party with the boss.   a little time consuming but will make a novice look like a pro.  the shallot sauce alone is worth the recipe.  i made this and doubled the recipe.  no leftovers.  will have to triple it next time!  you can prepare the shallots a day ahead of time (especially helpful if you plan on serving this for a holiday dinner).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shallot, olive oil, salt and pepper, low sodium beef broth, port wine, tomato paste
+---
+TITLE: beef tenderloin with roasted shallots  bacon and port
+CURRENT_DESCRIPTION: this is from the december 1997 issue of bon appetit. my family has demanded this every christmas eve since then. i have also used this sauce with a standing rib roast with excellent results.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shallots, olive oil, beef stock, tawny port, tomato paste, beef tenderloin steaks
+---
+TITLE: Beef Tips In Mushroom Sauce
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 lb. tenderized boneless roast, 1 1/2 Tbsp. cooking oil, 2 large onions, 1 1/2 tsp. garlic salt, 1 (4 oz.) can sliced mushrooms, drained (save liquid), 1 can cream of mushroom soup
+---
+TITLE: Beef Tips With Rice
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. stew meat, 1 pkg. Lipton onion soup mix, 2 cans cream of mushroom soup
+---
+TITLE: beef tortilla stack
+CURRENT_DESCRIPTION: tried and true. i used to make this all the time and recently i realized i hadn't made it in a while, so i decided to make it.  my daughter ooo'd and aww'd and asked what was wrong with me because i hadn't made it in so long.  she claimed it was her favorite dish i've made.  it is essential to shred the meat as the liquid will absorb into the crevices of the shreds, otherwise leaving it in chunks will be more runny. to save time, i've normally completed the cooking of the meat the day before and i finish it off the next day.  voila, it's done. i think i found this recipe in good housekeeping magazine, but i can't quite recall.  i have changed it through the years, adding my own tweaks.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, steak, onion, taco seasoning mix, salt, pepper
+---
+TITLE: beef vegetables with noodles  chapchae
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, watercress, mushrooms, carrot, chinese noodles, scallion
+---
+TITLE: beef wellington
+CURRENT_DESCRIPTION: don't let the length of this recipe put you off! practically everything can be done in advance. and, the individual steps are easy. but what a reward! this has been our christmas dinner for decades. it is the merger of two recipes: julia child's
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, carrot, celery, dried thyme, sage
+---
+TITLE: beef wellington    wonderful
+CURRENT_DESCRIPTION: the enduring popularity of this dish, a filet of beef tenderloin coated with a goose liver or chicken liver pate, and a duxelles of mushrooms that are all then wrapped in a puff pastry, is legendary. it has remained a favorite in britain and the u.s. for over a century, ever since it was created to honor the duke of wellington, a hero of the napoleonic wars. if you make this for a dinner party, your guests will praise you for months to come. if you have any questions you may e-mail me at:  alanleonetti@q.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin fillets, mushroom, unsalted butter, puff pastry sheet, egg white, egg yolk
+---
+TITLE: beef wellington gordon ramsay recipe
+CURRENT_DESCRIPTION: this is gordon ramsey's version of beef wellington....it is an amazing dish...perfect for an elegant dinner party, or perhaps a sophisticated holiday feast! i had to fiddle around with the measurements and temps b/c they were in grams, mils, celsius...etc. this version also is without the pate....i think that's why i decided to give it a whirl!!! enjoy! :-)
+
+
+tips:
+
+trim carefully.
+
+lower the chances of the edges separating by giving yourself lots of room - and don't trim the pastry too close to the meat.
+
+keep it air-free.
+
+drape over the top layer of pastry very carefully, smoothing it down with your hands as you go. you don't want any air trapped between the pastry and the meat.
+
+use up leftover pastry.
+
+any leftover pastry is fine to use for something else, even if covered in egg. simply roll it into a ball and refrigerate until needed.
+
+
+
+brush the meat as well as the pastry with egg wash. this will make the top layer of pastry stick to the meat and stop it from rising and leaving a gap.
+
+sealing the pastry.
+
+use the rounded end of a fork or spoon handle to seal the edges rather than the prongs of a fork - using the prongs will only pierce the pastry rather than joining it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: filet of beef, olive oil, chestnut mushrooms, butter, fresh thyme, dry white wine
+---
+TITLE: beef wellington ramsay style
+CURRENT_DESCRIPTION: by far the best beef wellington dish..this is the way gordan makes his.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: filet of beef, pastry dough, english mustard, mushrooms, parma ham, salt and pepper
+---
+TITLE: beef wet burritos hacienda style
+CURRENT_DESCRIPTION: there is a fantastic mexican restaurant nearby called the "hacienda", and they are famous for their "wet burritos". (which basically means they are smothered in cheese!!!! lol!!) they are wonderful!! here is my very own version of them! (these are big, but that's the way they serve them at the restaurant.) don't let the lengthy directions fool you!!! they are easy to make!!!! hope you try them! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chuck roast, seasoning salt, garlic powder, fresh coarse ground black pepper, cumin, chili powder
+---
+TITLE: beef with black olives pie
+CURRENT_DESCRIPTION: making this pie is a joy, as the smell of the moroccan spices fill the house. if you like a bit of heat, add a teaspoon
+of harissa with the spices. it is also fabulous served with saffron mash. recipe from the book sophie conran's pies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, chuck steak, all-purpose flour, butter, onions, garlic cloves
+---
+TITLE: beef with garlic potatoes
+CURRENT_DESCRIPTION: we loved this recipe- it was easy to make and tasted so good- very satisfying!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef broth, ketchup, dijon mustard, cornstarch, yukon gold potato, garlic salt
+---
+TITLE: Beef-A-La-Lindstrom(Bof A La Linstrom)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 lb. minced or ground beef, 2 boiled potatoes, mashed, 2 egg yolks, 6 to 8 Tbsp. cream, 2 pickled beets, finely diced, 1 1/2 Tbsp. onions, finely chopped
+---
+TITLE: Beef, Beans And Dumplings
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 lb. ground beef, 1/2 lb. sausage, 1 chopped onion, 1 clove garlic, minced, 1 (15 1/2 oz.) jar spaghetti sauce with mushrooms, 1 (15 oz.) can pinto beans
+---
+TITLE: Beefy  Seitan Log
+CURRENT_DESCRIPTION: this is based on the "seitan log" and its variations posted by vegsocialworker.  i realized that portabella and shiitake mushrooms are sometimes described as "beefy", so i decided to make a seitan with mushroom stock instead of veggie stock.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vital wheat gluten, nutritional yeast, ground cumin, onion powder, garlic powder, mushroom stock
+---
+TITLE: beefy corn tomato casserole
+CURRENT_DESCRIPTION: a real kid pleaser, but adults love this very tasty harvest casserole too. adapted from canadian living (1999)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, lean ground beef, sweet green pepper, jalapeno pepper, garlic cloves, chili powder
+---
+TITLE: Beefy Noodle Cheese Bake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 Tbsp. cooking oil, 1 small green pepper, chopped, 1 small onion, chopped, 1 1/2 lb. ground beef, 1 can cream of celery soup, 2 Tbsp. melted oleo
+---
+TITLE: Beefy Roni
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1/2 c. Miracle Whip, 30 oz. jar spaghetti sauce, 1/2 tsp. salt, pepper to taste, 7 oz. pkg. macaroni
+---
+TITLE: beer  bacon     potato soup  aka  man soup
+CURRENT_DESCRIPTION: i would say this soup is a once a year type indulgence- if you are on a diet, turn away now.  that is how powerful this soup is, even reading the ingredients will make a dieter faint.
+i made this after reading "the fundamental techniques of classic cuisine", by the french culinary institute.  i went into the grocery story with a very limited knowledge of the fundmantels and a strong desire to make a potato soup that would clog my aerteries but good!  i think i found it!
+please consider the constitution of people you serve this to!  it is not to be fed to the weak.  with great soup comes great responsibility.  
+this is not a quick soup or one of the full day-long beauties.  it is in-between but it is just what you want when you feel a need to 'splurge.'  
+i reserve the use of this soup for super bowl sundays.  and yes, the pun is defintely intended.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, vegetable oil, kosher salt, sweet onion, celery ribs, bacon
+---
+TITLE: beer and oat bread
+CURRENT_DESCRIPTION: a canadian living recipe, so it's tested till it's perfect . from the kingston brewing company, kingston, ontario. 2 rising times not included.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, flour, warm water, active dry yeast, ale, skim milk powder
+---
+TITLE: beer bacon mac and cheese
+CURRENT_DESCRIPTION: from slow roasted italian site: a grown up mac n cheese that is super cheesy and starts with thick cut bacon cooked in a skillet and a magical cheese sauce is created out of the bacon drippings.  your favorite beer is cooked right into the mixture and a mixture of smoky spices are added in.  the cooked beer imparts a very distinctive taste that you can not get with any other ingredient.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: elbow macaroni, bacon, unsalted butter, all-purpose flour, garlic powder, arbol chile
+---
+TITLE: beer batter bread  almost no fat
+CURRENT_DESCRIPTION: i can't remember where i got this recipe, but i have had it for a long time, and the bread is especially good for a quick-bread. i normally just do yeast-breads.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached flour, sugar, baking powder, salt, beer
+---
+TITLE: beer battered mahi mahi soft tacos w  coleslaw and avocado sauce
+CURRENT_DESCRIPTION: bon appetit - 2005
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, white onion, fresh lime juice, fresh cilantro, oregano, mayonnaise
+---
+TITLE: beer braised pot roast and vegetables with polenta
+CURRENT_DESCRIPTION: courtesy of emeril lagasse
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, boneless beef chuck roast, salt, black pepper, yellow onion, button mushrooms
+---
+TITLE: beer can chicken
+CURRENT_DESCRIPTION: (also known as drunken chicken)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hickory chips, beer, your favorite barbecue rub, whole chickens
+---
+TITLE: beer can chicken with memphis rub
+CURRENT_DESCRIPTION: a great beer can chicken recipe.  the memphis rub really makes it good. directions include instructions for both gas and charcoal grills.  from bon appetit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, beer, paprika, dark brown sugar, sugar, salt
+---
+TITLE: beer cheese stuffed pretzels
+CURRENT_DESCRIPTION: all your favorite snacks in one place.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, light brown sugar, active dry yeast, beer, unsalted butter, sea salt
+---
+TITLE: Beer Stew(Pork)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. pork shoulder, diced (fat to brown it), 1 can beer, 1/2 c. water, 1 tsp. rosemary, 4 onions, quartered, 2 c. bouillon
+---
+TITLE: beet  orange and walnut salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beet, olive oil, seedless oranges, walnuts, walnut oil, sugar
+---
+TITLE: Beet And Pepper Vinegar
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. water, 1 c. sugar, 1 c. vinegar
+---
+TITLE: Beetroot Butter Bean Pasta
+CURRENT_DESCRIPTION: 47K likes, 384 comments - chloeevegan on November 13, 2023: "💸 welcome to two cheap - a series where I make healthy plant-based meals that cost under $2.
+
+We all love a pink beetroot pasta, but have you tried adding butter beans? They’re an easy and budget-friendly way to add a whole lot of creaminess and plant protein to pasta sauces. This recipe comes in at a grand total of $1.76AUD* per serve. 
+
+Recipe (Serves 4):
+- 1 Can Butter Beans ($1.5)
+- 2 - 3 Cloves Garlic (Roasted is best, but fresh
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can Butter Beans, 2.5 cloves Garlic Cloves, 250 g Pre-Cooked or Canned Beetroot, 2 Tbsp Tahini, 2 Tbsp Nutritional Yeast, 2 Tsp Balsamic Vinegar
+---
+TITLE: Beetroot Paccheri
+CURRENT_DESCRIPTION: 125K likes, 1,018 comments - alfiecooks on February 2, 2024: "THE PINKEST PASTA | SAUCY PASTAS | EPISODE 1 😍
+
+welcome back to SAUCY PASTAS, my new series, where I show you how to make the SAUCIEST pasta in town 🔥
+
+For EPISODE 1, we’re making the PINKEST PASTA around - my roasted beetroot paccheri, topped with feta + mint 😍
+
+It’s absolutely delicious, and if you think you hate beetroot, this might change your mind 🤪
+
+I’ve written the full recipe down for you below, so enjoy, and let me know i
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 600 g fresh beetroots, 1 garlic bulb, 1 red onion, 1 tsp chilli flakes, 200 g creme fraiche, 1 lemon
+---
+TITLE: beginner s bread   a pantry recipe
+CURRENT_DESCRIPTION: i am publishing a series of recipes that use items from your pantry. these recipes are good for emergency survival, camping, job loss and other situations where surviving off staples may be needed.  since these recipes require canned or packaged goods they may not be as good as if you use fresh - but feel free to substitute fresh for packaged.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white flour, salt, yeast, sugar, oil, warm water
+---
+TITLE: Beginner'S Rolls
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 1/2 to 3 c. flour, 1 pkg. dry yeast, 1 1/4 c. sugar, 3/4 tsp. salt, 1/4 c. butter, 3/4 c. hot water
+---
+TITLE: beijing style pork   shrimp jiaozi  chinese dumplings
+CURRENT_DESCRIPTION: i got this recipe from my old land lord in beijing.  he was a "lao beijing ren" (native beijinger), so his recipes are very authentic. he decided that my roommate and i needed to learn all the beijing dishes, and thus took it upon himself to teach us.
+my friends and i like to have dumpling parties, where we get together and wrap dumplings and talk, which makes it not as labor intensive.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, raw shrimp, garlic cloves, green onions, cabbage, ginger
+---
+TITLE: belgian chicken fricassee  vol au vent
+CURRENT_DESCRIPTION: this delicious, creamy chicken fricassee is a classic belgian recipe. my father used to make this regularly for sundays and other festive occasions. often served as a starter, but it is great as a main course as well, accompanied by plain rice or potato puree, for example. freezes well. its flemish name is "koninginnenhapje", which could be translated as "queen's nibble"... nice, isn't it?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, minced meat, small mushrooms, ham, chicken stock, butter
+---
+TITLE: belgian hutsepot
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless beef roast, pork shoulder, water, bay leaves, peppercorns, salt
+---
+TITLE: bella s almond puff
+CURRENT_DESCRIPTION: my friend bella served this dessert to a bunch of us after a lunch we had today. it is absolutely delicious! different and easy to make as well. we had it as a dessert but it would be an excellent morning coffee break coffee cake, or a good addition to a brunch table.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, water, almond extract, eggs, nuts
+---
+TITLE: benedict eggs in pastry toh
+CURRENT_DESCRIPTION: a taste of home recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, lemon juice, dijon mustard, butter, cayenne pepper, cooked ham
+---
+TITLE: Benne Cookies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 lb. butter, 1 c. sugar, 1 egg, 1 1/4 c. self-rising flour, 1/2 c. benne seed (sesame), toasted, 1/2 tsp. baking soda in 1 tsp. water
+---
+TITLE: bergy dim sum  7  mandarin pancakes
+CURRENT_DESCRIPTION: these pancakes are traditionally served with peking duck but there are many other savory fillings like moo shoo pork. i will post several possible fillings and you will be able to find them among my posted recipes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, boiling water, sesame oil
+---
+TITLE: Berinzila   Eggplant And Ham
+CURRENT_DESCRIPTION: i was given this recipe years ago by a friend.  i am not sure what country the dish "barinzila" comes from, but hope you enjoy it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, garlic salt, onion, butter, cooked ham, white wine
+---
+TITLE: Berliner
+CURRENT_DESCRIPTION: 5,506 likes, 206 comments - zuckerjagdwurst on February 19, 2025: "Nächste Woche ist Fasching und das heißt: Zeit für Pfannkuchen! Berliner! Krapfen! Ihr wisst schon!
+
+Da wir die Dinger so lieben, haben wir uns für dieses Jahr gleich FÜNF fabelhafte Füllungen überlegt, die wir euch in den kommenden Tagen zeigen. Bis dahin werden aber erstmal fleißig Berliner gebacken (richtig gelesen, ihr müsst nicht mal frittieren). 
+
+👉🏻 Das Rezept dafür gibt’s natürlich mit Tipps und Tricks auch bei uns auf
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 175 ml pflanzliche Milch, 1 Würfel (42 g) frische Hefe, 75 g weißer Zucker, 500 g Weizenmehl Type 405, 75 g Apfelmus, 75 g vegane Butter
+---
+TITLE: Berried Treasure Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (8 oz.) pkg. cream cheese, softened, 2 Tbsp. sugar, 2 Tbsp. milk, 1 baked graham cracker crust, cooled, 1 c. strawberries, halved, 1 envelope Dream Whip
+---
+TITLE: berries in the snow
+CURRENT_DESCRIPTION: custard topped with poached meringue, sprinkled with raspberries and drizzled with crispy caramel.
+
+you can prepare custard and meringues up to a day ahead storring custard, meringues and berries separately in airtight containers in the refrigerator.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, milk, eggs, kirsch, cream of tartar
+---
+TITLE: Berry Chia Pudding
+CURRENT_DESCRIPTION: 86K likes, 368 comments - plantyou on January 3, 2024: "👩🏼‍🎓Plant-Based School - 😅FOLLOW to become a student. 🤜🏻Find my berry chia pudding recipe now at PLANTYOU DOT COM (search berry chia pudding) or by googlin’ plantyou chia pudding! 🥰Enjoy
+.
+#vegan #veganrecipe #chiapudding #breakfast #breakfastrecipe #healthy #healthyrecipe #healthydiet #healthybreakfsat #whatveganseat #veganuary #veganuaryrecipe #plantbaseddiet".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: berry cream cake
+CURRENT_DESCRIPTION: almond enhanced berry studded cake.  best shared with a very hungry crowd.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mixed berries, sugar, fresh lemon juice, cinnamon, salt, unsalted butter
+---
+TITLE: Berry French Toast  Oatmeal
+CURRENT_DESCRIPTION: the first time i made oatmeal this way i thought it tasted like french toast topped with berries...thus the name! :) use whichever kind of berries you like...my personal favorite is cherries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old fashioned oats, water, berries, ground flax seeds, sugar-free syrup, i can
+---
+TITLE: Berry Good  French Toast Bake
+CURRENT_DESCRIPTION: from a friend...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, milk, sugar, vanilla, salt, eggs
+---
+TITLE: berry streusel pie
+CURRENT_DESCRIPTION: a featured recipe in the july 2002 issue of bon appétit, this pie is my absolute favorite fruit pie! i often use the frozen berry mix from trader joe's instead of fresh berries. preparation time does not include cooling time, but usually we can't even wait to let the pie cool for three hours! when i'm short on time, i make a no-roll pie crust and skip the crust ingredients / instructions here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, salt, unsalted butter, vegetable shortening, ice water
+---
+TITLE: Bertha'S Macaroni Delight
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 c. chopped onions, 1 Tbsp. margarine or butter, 1 can cream of celery soup, 1/2 c. milk, 5 slices cheese (white American), 2 c. cooked macaroni
+---
+TITLE: Bessie'S Ritz Cracker Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 egg whites, 1 tsp. baking powder, 1 c. chopped nuts, 1 c. sugar, 1 tsp. vanilla, 20 Ritz crackers, crumbled
+---
+TITLE: best american dinner rolls cooks illustrated
+CURRENT_DESCRIPTION: for this recipe, the dough is made and the rolls are shaped and refrigerated a day or two before being baked and served. be sure to plan accordingly, as the refrigerated rolls require about six hours to rise before they’re ready for baking. for the best flavor, let the rolls rise at cool room temperature, about 68 degrees. depending on the brand, instant yeast is marketed as “rapid rise,” “quick rise,” or “perfect rise” yeast, or sometimes as bread machine yeast; if it’s necessary to use active dry yeast in its place, see page 30 for more information. if your cake pans have a dark nonstick finish, bake the rolls in a 375-degree oven to moderate the browning. this dough should be moister than most; resist the urge to add more flour than is needed to keep the dough from sticking to your hands. made on a humid day, the dough may require more flour than if made on a dry day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, unsalted butter, sugar, table salt, eggs, fast rise yeast
+---
+TITLE: best authentic mexican tamales ever
+CURRENT_DESCRIPTION: authentic tamales are a lot of work but soooo worth it!  if you are having trouble finding the maseca (a very popular brand of corn masa, it is the one i use) or corn husks locally there is an excellent online mexican grocer that offers these and other ingredients at fair prices.  find them at www.mexgrocer.com  check out the pictures for how to assemble the actual tamales.  if you have any questions please feel free to send me a message i'm happy to help!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork roast, chicken, corn oil, chili powder, garlic powder, ground cumin
+---
+TITLE: best baby back ribs in town
+CURRENT_DESCRIPTION: when damon's restaurant left our area, i had to re-create their delectable, sweet, hickory-flavored ribs because we all loved them so much. these tender, juicy, melt-in-your-mouth ribs live up to their name and are my family's #1 favorite. although this recipe takes a while to prepare, the steps are easy, and the results are well-worth the trouble. the sauce recipe came from my cookbook, "true southern family recipes". it can be prepared ahead and refrigerated indefinitely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby back ribs, molasses, ketchup, vinegar, brown sugar, liquid smoke
+---
+TITLE: best basic chocolate chip cookies
+CURRENT_DESCRIPTION: the following appeared in bh&g feb. 99.  i like it because i can make the variety preferred by whomever is visiting that day.  "a few tweaks in the ingredients in chocolate chip cookies can dramatically change the outcome.  want a crispy thin cookie?  use an all-butter dough. because butter melts more quickly than shortening in a hot oven, the dough spreads.  for a puffy cookie, use shortening to keep the dough from flattening.   get a softer cookie by sweetening it only with brown sugar. combine brown with granulated sugar for a crispier cookie.  our tinkering resulted in three versions: our best basic, thin-and-crispy, and soft-and-cakelike." by jeanne ambrose, bh&g  best basic chocolate chip cookie prep: 25 min bake 8-10 min per batch
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, butter, brown sugar, granulated sugar, baking soda, salt
+---
+TITLE: best bbq ribs ever
+CURRENT_DESCRIPTION: yes, there are alot of steps in making bbq ribs and a great sauce to go with it, and yes they are always worth the work. everyone has their own taste of what is great and what is mediocre. you just have to experiment with your sauces until you get it right. well i finally got it just about right. lol!! my boyfriend marvin liked it and he ate every bite and my picky son and his girlfriend also helped to finish what was left of the ribs. so i must have done something right this time. next time i will have to buy 8 lbs of ribs so i can have seconds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby back ribs, paprika, brown sugar, salt, chili powder, fresh coarse ground black pepper
+---
+TITLE: Best Beer Biscuits
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 c. Bisquick, 1/4 to 1/2 c. Sugar, 1 12 oz. can Beer, 2 Tbsp. Butter, melted
+---
+TITLE: best blackbottom pie
+CURRENT_DESCRIPTION: sweet, chocolatey,  yummy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sugar, butter, cornstarch, salt, milk
+---
+TITLE: best blueberry buckle  blueberry crumb cake
+CURRENT_DESCRIPTION: this is one of my top five all-time favorites! adapted from "cook's illustrated" this rich coffee cake is unique in that it does not contain milk, does not get soggy, despite the 4 cups of blueberries suspended in batter. nearly identical to "einstein bagel's" blueberry crumb cake. note: i've made this on vacation several times by hand, creaming the butter with a spoon. despite the lengthy directions it takes about 10 minutes to put together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, light brown sugar, granulated sugar, ground cinnamon, table salt, unsalted butter
+---
+TITLE: Best Blueberry Muffins
+CURRENT_DESCRIPTION: Domed, buttery muffins packed with juicy blueberries and a golden sugar-crust top. The recipe food bloggers have been trying to beat for years.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 280 g all-purpose flour, 250 g (fresh) blueberries, 115 g butter, 200 g sugar, 2 large eggs, 120 ml buttermilk
+---
+TITLE: Best Blueberry Muffins
+CURRENT_DESCRIPTION: Domed, buttery muffins packed with juicy blueberries and a golden sugar-crust top. The recipe food bloggers have been trying to beat for years.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 280 g all-purpose flour, 250 g (fresh) blueberries, 115 g butter, 200 g sugar, 2 large eggs, 120 ml buttermilk
+---
+TITLE: Best Blueberry Muffins
+CURRENT_DESCRIPTION: Domed, buttery muffins packed with juicy blueberries and a golden sugar-crust top. The recipe food bloggers have been trying to beat for years.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 280 g all-purpose flour, 250 g (fresh) blueberries, 115 g butter, 200 g sugar, 2 large eggs, 120 ml buttermilk
+---
+TITLE: best bread dough
+CURRENT_DESCRIPTION: this bread dough is great for dinner rolls, but it's also fantastic for loaf, kolaches and cinnamon rolls!  it can be made by hand, or in a 2lb bread machine. (updated!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, milk, butter, egg, salt, sugar
+---
+TITLE: Best Cake In The World
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 yellow cake mix, 1 c. sugar, 1 small instant vanilla pudding, coconut, chopped nuts and chopped maraschino cherries for decoration, 1 (20 oz.) can undrained crushed pineapple, 4 sliced bananas
+---
+TITLE: best chicken pie
+CURRENT_DESCRIPTION: a chicken pie that has lots of gravy and a salty/short crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, chicken breast, potatoes, frozen peas, onions, carrots
+---
+TITLE: best chinese baby back ribs
+CURRENT_DESCRIPTION: from the great ribs book by hugh carpenter and teri sandison (outstanding little book).  i used a 4 pound pork sparerib slab for this recipe and their oven/roasting method and it turned out fabulous. according to the book, you need to remove the membrane on the bony side, if you don't the ribs will be tough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hoisin sauce, plum sauce, oyster sauce, wine vinegar, honey, dark soy sauce
+---
+TITLE: best chocolate cake with creamy chocolate frosting
+CURRENT_DESCRIPTION: delicious creamy chocolate devil's food cake
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, instant coffee powder, unsweetened cocoa, sour cream, all-purpose flour, baking soda
+---
+TITLE: Best Chocolate Chip Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 eggs, beaten, 1/2 c. butter, melted, 1/4 c. cornstarch, 1 (16 oz.) pkg. chocolate chips, 1 c. sugar, 2 Tbsp. bourbon
+---
+TITLE: best classic white layer cake with raspberry almond filling
+CURRENT_DESCRIPTION: a beautiful soft, fine-grained vanilla birthday cake with luscious butter frosting and raspberry jam filling from the amazing folks at america's test kitchen.  lemon curd works really well too.  you can omit the almonds for a nut-free cake.  to quickly bring the milk and egg white mixture to room temperature, set the bottom of the measuring glass in hot water and stir until it feels cool rather than cold, around 65 f. make ahead:  cake layers can be wrapped and stored for a day; frosting can be covered with plastic wrap and set aside at room temperature for several hours. once assembled, the cake should be covered with an inverted bowl or cake cover and refrigerated. under its coat of frosting, it will remain fresh for up to three days. bring it to room temperature before serving. there is enough frosting to pipe a border around the base and top of the cake. if you want to decorate the cake more elaborately, you should make one and a half times the frosting recipe. if desired, finish the sides of the cake with 1 cup of sliced almonds (lightly toasted works well).  recipe is from cook's illustrated/baking illustrated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, cake flour, whole milk, egg whites, almond extract, vanilla extract
+---
+TITLE: best copycat benihana japanese chicken rice
+CURRENT_DESCRIPTION: if you've ever been to benihana you will know that one of the highlights is the chicken rice they serve.  it is tasty and served right after their onion soup. i enjoy eating 1/2 the rice as an appetizer while waiting for my food to be cooked. i have read several recipes and have found an ingredient that makes this recipe more authentic. hope you enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, sweet butter, garlic cloves, sesame oil, eggs, boneless skinless chicken breasts
+---
+TITLE: best darn meat brick   meatloaf in texas
+CURRENT_DESCRIPTION: well, i can't call it meat loaf, as i hate meatloaf.  everyone that i have met
+that hates meatloaf, loves my meat brick!  it isn't your mother's/grandmother's
+meatloaf!  it really is easy to make too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, eggs, saltine crackers, garlic cloves, dried sage
+---
+TITLE: Best Ever  Thai Chicken Curry
+CURRENT_DESCRIPTION: wow! my mum made this tonight out of a recipe book she owns and it is the best meal i have ever had! it tastes so authentic!  please dont discount it cos its not yet rated....try it and then rate it, can guarantee this one is over 5 stars.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: curry, onion, ginger, chili, garlic cloves, oil
+---
+TITLE: best ever brownies 6 ways
+CURRENT_DESCRIPTION: from woman's world mag 8/3/09.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa powder, salt, baking powder, semi-sweet chocolate chips, butter
+---
+TITLE: best ever chicken and dumplings
+CURRENT_DESCRIPTION: i got this recipe off of food network. it is tyler florence's recipe. this is definitely the best chicken and dumplings i have ever had. i have tried other recipes of his and so far they are all delicious. you won't be disappointed in these. it really is easy to make. it only takes a while because of the chicken baking first and then making the chicken stock next.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, salt and pepper, unsalted butter, lemon, fresh rosemary, parsley
+---
+TITLE: best ever chocolate cake   heritage recipe
+CURRENT_DESCRIPTION: origially featured on a 1952 better homes and gardens cover, it's been perfected over the years. i hope you'll agree that this version is the moistest, richest, "chocolateiest" cake ever.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, eggs, all-purpose flour, unsweetened cocoa powder, baking soda, baking powder
+---
+TITLE: Best Ever Cucumber Sweet Pickles
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh cucumbers (firm and a good size for pickle)
+---
+TITLE: best ever french onion soup
+CURRENT_DESCRIPTION: for the best flavor, make the soup a day ahead. prep time does not include making this a day ahead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, spanish onions, salt, flour, beef broth, red wine
+---
+TITLE: Best Ever Kraut Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 (No. 303) cans sauerkraut, 1 c. diced celery, 1 c. diced green pepper, 1/2 c. diced pimento, 1 c. chopped onions, 1/3 c. water
+---
+TITLE: best ever lemon meringue pie
+CURRENT_DESCRIPTION: this recipe is light and delicate with just the right lemon tang. most lemon pies are either too runny or too rubbery--this best ever pie is perfect.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, salt, cornstarch, eggs, lemon juice
+---
+TITLE: best ever mac and cheese   emeril s challenge winner
+CURRENT_DESCRIPTION: on abc this morning( feb. 29th) the winner of the mac and cheese challenge emeril had going prepared this dish! everyone raved and i thought that for those of you that are lovers of this dish. (who isn't? :-)) would like the recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cavatappi pasta, garlic, olive oil, smoked bacon, fresh white breadcrumbs, parmigiano-reggiano cheese
+---
+TITLE: best ever macaroni and cheese
+CURRENT_DESCRIPTION: perfect for a cold winter's night, this macaroni and cheese is a far cry from the supermarket variety. rich and creamy with a slight kick, it is rounded off with the topping's crunch. i like to use a variety of cheeses in this. i have used bleu, gouda, gruyere, swiss, cheddar, smoked cheeses, gouda, and others, all with fabulous results.
+this recipe freezes wonderfully and is just as delicious when reheated in the microwave.
+6 cups of cheese approximately equals 2 - 2.25 lbs.
+feel free to substitute turkey bacon, or use butter (6 tbs) instead of bacon grease.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: macaroni, bacon, flour, onion powder, sweet paprika, smoked paprika
+---
+TITLE: best ever roast turkey
+CURRENT_DESCRIPTION: a delicious tender juicy flavor full tender roast turkey
+recipe
+(some people call it drunk turkey
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole turkey, fresh onions, parsley, poultry seasoning, sherry wine, celery top
+---
+TITLE: Best Ever Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 8 oz. fine spaghetti, broken into bits or 7 oz. Mexican angel hair pieces, 1/2 c. chopped onion, 1/2 c. chopped green pepper, 1/2 c. chopped celery, 2 c. chopped tomatoes, salt and pepper
+---
+TITLE: best ever sauerbraten
+CURRENT_DESCRIPTION: this is the recipe that we made at home when i was growing up.  my dad loved it so much that we would make a double recipe and freeze half for another meal...we always ate this with pickled sweet and sour red cabbage and home made potato dumplings.  we also added extra gingersnaps to the gravy cuz we like it on the sweeter side...keep tasting to  your preference! the recipe is from an old cookbook called something like "how to please  your husband." don't hold that against the recipe though - it is sure to please everyone!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, ground ginger, top round roast, water, cider vinegar, onions
+---
+TITLE: best ever tiramisu
+CURRENT_DESCRIPTION: this is a recipe for tiramisu, it hasn't failed me yet and is supreme in flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ladyfingers, white sugar, all-purpose flour, salt, vanilla, mascarpone cheese
+---
+TITLE: best ever yummy carrot cake      with cream cheese frosting
+CURRENT_DESCRIPTION: this is the best, most moist & flavorful carrot cake that i have ever eaten and it is definitely something everyone who tries it will remember!  as with most of my recipes, they are bits & pieces from different places all put together to achieve (in my opinion) the perfect recipe.  i make this as a 12", 4-layer cake to sell at my restaurant.  you can easily half this recipe to make an 8", 3-layer cake or a regular 9 x 13 pan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, baking soda, baking powder, salt, ground cinnamon
+---
+TITLE: best gender reveal cupcakes ever
+CURRENT_DESCRIPTION: a fun way to announce the gender of your baby to family, friends and coworkers!  i wanted to make sure they not only looked cute, but tasted great too!  i've been told by several people that they have never eaten a cupcake that tasted this good. :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, eggs, water, oil, butter, powdered sugar
+---
+TITLE: best general tso s chicken from serious eats
+CURRENT_DESCRIPTION: entered for safe-keeping. not candy-coated, this general tso's chicken from j. kenji lópez-alt, chief creative officer of serious eats, has vinegary kick to balance the sugar.  it gets a crisp crust from the vodka in the chicken coating.  adding some of the marinade to the coating gives extra crunch.  for more information, see http://www.seriouseats.com/2014/04/the-food-lab-bringing-home-general-tsos-chick.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg white, soy sauce, shaoxing wine, vodka, baking soda, cornstarch
+---
+TITLE: best lemon bundt cake
+CURRENT_DESCRIPTION: this was adapted form an episode of "america's test kitchen". i watched them make this cake and went right out and bought the stuff i didn't already have and made this cake. this was by the far the best lemon bundt cake i've ever made. the problem alot of times is when we make something with lemons it usually cooks out the flavor of the lemon by the end of the baking time. they tested several ways of making lemon bundt cakes and this recipe is it! the buttermilk is the secret to this great cake, and not to mention this is really easy to make. (*note: you will need 5-6 tablespoons of lemon juice total for this recipe.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemons, juice and zest of, unbleached all-purpose flour, baking powder, baking soda, table salt, vanilla extract
+---
+TITLE: Best Orange Ice Cream
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (20 oz.) can crushed pineapple, 2 cans (14 oz.) condensed milk, large Orange Crush drink
+---
+TITLE: best peppermint patty cake
+CURRENT_DESCRIPTION: every year the local service league has an antique fair and luncheon.  they have a featured cake each year and this recipe is the featured cake for 2007.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semisweet chocolate morsels, butter, light brown sugar, eggs, all-purpose flour, baking soda
+---
+TITLE: Best Picante Around
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 chopped tomatoes, 1 bell pepper, 1 chopped onion, 1 or 2 whole jalapeno peppers, 1 tsp. garlic powder, 2 Tbsp. vinegar
+---
+TITLE: best pumpkin roll ever
+CURRENT_DESCRIPTION: this is a great dessert for the holiday season.  people love it.  it is perfect to give as gifts as well.  it is from epicurious, but i made some changes to the ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, all-purpose flour, baking powder, ground cinnamon, nutmeg, ground cloves
+---
+TITLE: Best Punch
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 46 oz. can pineapple juice, 46 oz. can orange juice, 1 1/2 c. sugar, 2 qt. ginger ale, 1/2 gal. water
+---
+TITLE: Best-Ever Banana Bread
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 3/4 c. flour, 2 1/4 tsp. baking powder, 1/4 tsp. salt, 1/3 c. butter or margarine, softened, 2/3 c. sugar, 1 1/2 tsp. pumpkin pie spice
+---
+TITLE: Best-Ever Chicken Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (3 to 4 lb.) chicken, cooked and cut up, 3 qt. chicken broth (can use 6 cans chicken broth), 1 large onion, 3 celery stalks, 1 bay leaf, 1 tsp. pepper
+---
+TITLE: Bester Tofu Döner
+CURRENT_DESCRIPTION: 19K likes, 223 comments - vegan_superheroes on June 22, 2023: "🥙bester Tofu Döner 🫠
+
+Einfach mal Zuhause machen und das ganz ohne Seitan.
+
+Döner mit Chilli oder ohne❓🌶️
+
+Zutaten für 4 Personen:
+
+1 Fladenbrot
+2 Räuchertofu Blöcke (á 250 g)
+2 EL Gyros Gewürzmischung
+2 EL Oliven Öl 
+200 frischer Rotkohl (geraspelt)
+1 große Tomate (gewürfelt)
+½ Schlangengurke (in Scheiben o. geraspelt)
+500 g Sojajoghurt
+0-2 Knoblauchzehen (gepresst)
+Saft einer ½ Zitrone
+1 Bund frische Kräuter z.B. Petersilie (ode
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 Fladenbrot, 2 Räuchertofu Blöcke, 2 EL Gyros Gewürzmischung, 2 EL Oliven Öl, 200 g frischer Rotkohl geraspelt, 1 Tomate gewürfelt
+---
+TITLE: bete noire chocolate cake
+CURRENT_DESCRIPTION: the translation is literally “black beast” but idiomatically, means “nemesis”. this is from lora brody, growing up on the chocolate diet, and she confesses that this took hundreds of tries to perfect. this is so easy and is the equivalent of the famous “chocolate decadence”. it can be eaten almost before cooling and can be kept for a week. it is incredibly intense and rich. serve alone, with sauce or with glaze (ganache), recipe included.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, sweet unsalted butter, bittersweet chocolate, water, eggs, sugar
+---
+TITLE: beth s best sweet and sour chicken
+CURRENT_DESCRIPTION: i originally found a recipe in the betty crocker cookbook, but i have changed it a bit over the years to fit my family's tastes. you can easily change the veggies in the sauce and serve with fried rice or oriental style noodles. my kids love the chicken "nuggets" as a finger food and enjoy dipping them in the sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, egg, cornstarch, soy sauce, white pepper, flour
+---
+TITLE: bethie s baked french toast
+CURRENT_DESCRIPTION: well.... it is my humble opinion that the baked french toast recipes that sit overnight are soggy & mushy.  so i tried this.  then added some stuff.  and crossed my fingers.  the topping idea i hijacked from another recipe online then adjusted to my personal taste.  i do hope you enjoy; my family swooned so i came running here to post.  ;)
+
+i think you could add any dried fruit or even fresh fruit - apples, pears, bananas - cut up into bite sized pieces.  i think adding orange zest to the topping might be yummy, too.
+
+go ahead...make it your own!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: challah, cooking spray, raisins, shredded coconut, eggs, milk
+---
+TITLE: Betsy'S Chocolate Fudge Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 sq. unsweetened chocolate, 2 1/4 c. sifted flour, 2 tsp. baking powder, 1/2 tsp. salt, 1/2 c. butter, 2 1/4 c. packed light brown sugar
+---
+TITLE: bette hagmans four flour pastry  gluten free pie crust
+CURRENT_DESCRIPTION: this recipe was a life saver when i was diagnosed with celiac disease and thought i could no longer make my favorite pies. i have made this recipe multiple times for non-celiacs and everyone loves it. my husband even says that he likes it better than the old pie crusts i used to make! i have tweaked bette's recipe only slightly by adding more water and adding more detail to the directions. i have gone into great detail in the directions in hopes of helping those of you who are new to making gluten free pie crusts. it can be a bit tricky at first, but once you get the hang of it, it is quite easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sweet rice flour, xanthan gum, baking powder, salt, sugar
+---
+TITLE: Better Than A Baked Potato  Soup
+CURRENT_DESCRIPTION: this is my own concoction. i got my mom's regular potato soup recipe and completely changed it to make this wonderful dish. right now it's the middle of july and about 100 degrees out, and my husband requested this for lunch - i guess it's a soup for all seasons!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, onion, celery, chicken broth, sour cream, velveeta cheese
+---
+TITLE: better than a can  homemade sloppy joes
+CURRENT_DESCRIPTION: i've had this recipe for many years and i used to make it on a regular basis when i was a newly-wed and made it often for the kids when they were itty bitty. it is a great recipe and one well worth making from scratch.  due to a crazy work and life schedule, i weened off of making it but i'm placing it back on my repertoire.  i originally got this recipe from an old foodnetwork show called "chef dujour" where a different chef was featured daily.  this particular day, lauren groveman was the chef who presented this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, yellow onion, green bell pepper, red bell pepper, celery, garlic cloves
+---
+TITLE: Better Than A Can  Homemade Sloppy Joes
+CURRENT_DESCRIPTION: i've had this recipe for many years and i used to make it on a regular basis when i was a newly-wed and made it often for the kids when they were itty bitty. it is a great recipe and one well worth making from scratch.  due to a crazy work and life schedule, i weened off of making it but i'm placing it back on my repertoire.  i originally got this recipe from an old foodnetwork show called "chef dujour" where a different chef was featured daily.  this particular day, lauren groveman was the chef who presented this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, yellow onion, green bell pepper, red bell pepper, celery, garlic cloves
+---
+TITLE: better than bakery sticky buns
+CURRENT_DESCRIPTION: the secret of success with these extra-high, super-sticky buns is creating dough with just the right texture. the buns should turn out soft and fluffy, almost cottony. to avoid over kneading the dough, which causes excess gluten development, knead by hand. this isn't difficult, because as soon as the dough becomes smooth -- just about five minutes after the flour is incorporated -- it's time to stop. a visual clue: the dough should be only slightly springy, not elastic and bouncy like stiff bread dough. it's also important not to let the dough over rise; watch it carefully after the first hour, and punch it down and roll it out as soon as it has doubled in bulk. if you allow it to rise longer, it may fail to relax properly when rolled out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry active yeast, sugar, milk, eggs, egg yolks, vanilla extract
+---
+TITLE: better than basic wheat bread
+CURRENT_DESCRIPTION: this is a recipe i've modified to suit my own tastes. it has a great, tight crumb, wonderful texture, and full of flavor. this bread loaf is my default
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, active dry yeast, brown sugar, bread flour, wheat flour, kosher salt
+---
+TITLE: better than bubbe s matzo ball soup
+CURRENT_DESCRIPTION: a rich, flavorful chicken soup with light, fluffy matzo dumplings. a traditional passover favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chickens, carrots, parsnips, celery, onion, garlic
+---
+TITLE: Better Than Cinnabon  Cinnamon Rolls
+CURRENT_DESCRIPTION: i snagged this off of a website and made my own adjustments. these can be refrigerated overnight after shaping. let rise about 45 minutes at room temp before baking whether or not you refrigerate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, granulated sugar, butter, milk, egg
+---
+TITLE: Better Than Crack  Brownies
+CURRENT_DESCRIPTION: from "how sweet it is" - http://www.howsweeteats.com/2010/08/09/better-than-crack-brownies/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brownie mix, water, vegetable oil, eggs, salted peanuts, reese
+---
+TITLE: Better Than Mom's Snack Delivery Service
+CURRENT_DESCRIPTION: 122K likes, 550 comments - mac.larena on October 17, 2025: "Better than mom’s snack delivery service 😉 #easyweeknightmeals #momlife cheap dinners on a budget, easy homemade food, what I feed my kids".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: better than restaurant bread pudding
+CURRENT_DESCRIPTION: when i was a teenager i went to work for my aunt "k" at her restaurant.  on one of the slower days she wanted me to make the bread pudding for the dessert menu in the evening.  i will never forget how wonderful the caramel sauce smelled while it was cooking!  it was super easy, but oh so rewarding.  she treated me to my creation when it came out of the oven and gave me a small piece while i went on break.  the taste was excellent.  a few years later she gave me the recipe which i thought i had lost forever but happily stumbled upon it a few weeks ago and made some to take to work.  it was gone in 3 minutes flat, so i thought i would store this treasure here so that i will not lose it again, enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark brown sugar, water, unsalted butter, apple cider vinegar, cream, dried apricot
+---
+TITLE: Better Than Sex  Cheese Ball
+CURRENT_DESCRIPTION: my friend brought this for a potluck dinner we had at work. needless to say,
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, butter, green olives, green onion, walnuts
+---
+TITLE: better than snickers candy bars
+CURRENT_DESCRIPTION: these take a bit of time to make, but they're worth it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, sugar, corn syrup, evaporated milk, vanilla
+---
+TITLE: Better Than Spaghetti  Squash Bake
+CURRENT_DESCRIPTION: created spontaneously to handle a carby pasta bake craving but this turned out to be amazingly delicious! a unique, tasty side or main dish that's healthy and low carb, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti squash, asparagus, white mushroom, red bell pepper, garlic cloves, spaghetti sauce
+---
+TITLE: Better Than Tofu  Cheesecake
+CURRENT_DESCRIPTION: this is, again, from vegweb.com. this got absolutely amazing reviews over there, so i'm guessing it's pretty darn good (multiple users said it would even fool the dairy lovers)!
+a few users suggested only using half the recommended amount of tofu (1 12oz. container). others said they used turbinado sugar in place of the syrup. can't wait to try it!  lemme know what you think!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, vegan sugar, margarine, soft silken tofu, vegan cream cheese, frozen pineapple concentrate
+---
+TITLE: Better-Than-Takeout Fried Rice
+CURRENT_DESCRIPTION: Day-old rice, high heat, and the right technique. Kenji's foolproof fried rice beats takeout every time — ready in 15 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 cups (day-old) cooked rice, 3 large eggs, 3 tbsp soy sauce, 1 tsp sesame oil, 3 cloves garlic, 4 stalks scallions
+---
+TITLE: Better-Than-Takeout Fried Rice
+CURRENT_DESCRIPTION: Day-old rice, high heat, and the right technique. Kenji's foolproof fried rice beats takeout every time — ready in 15 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 cups (day-old) cooked rice, 3 large eggs, 3 tbsp soy sauce, 1 tsp sesame oil, 3 cloves garlic, 4 stalks scallions
+---
+TITLE: betty crocker s baking powder biscuits  light  flaky and tender
+CURRENT_DESCRIPTION: i have been using this recipe for years from the first cookbook that i ever owned, my betty crocker's big red cookbook, from my high school home economics class. i make these for my mom, and she loves them. having my mom's seal of approval guarantees these are good because she knows her biscuits. my mom's mother (my grandma) made handmade biscuits two to three times every single day during my mom's childhood growing up on a farm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, baking powder, salt, shortening, milk
+---
+TITLE: Betty'S Dessert
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. brown sugar, 1 c. granulated sugar, 3 eggs, 2/3 c. margarine, 2 2/3 c. flour, 2 1/2 tsp. baking soda
+---
+TITLE: Bev'S Enchilada Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. ground beef, 2 Tbsp. chili powder, 1 small can diced green chilies, 1 can cream of chicken soup, 1 can cream of mushroom soup, 1 can enchilada sauce
+---
+TITLE: beverly hills cheesecake
+CURRENT_DESCRIPTION: this is the one i make most of the time, definately our favourite!! (cook time includes chill time)top it with any thing you like, blueberry sauce is a nice finish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, lemon, rind of, vanilla, sugar, eggs
+---
+TITLE: beverly s favorite beef kebabs
+CURRENT_DESCRIPTION: ordinary yellow mustard gives a distinctive flavor to the marinade for these beef kebabs. the heavenly smell that fills your kitchen while you make the marinade lets you know it's going to be good. serve with assorted grilled vegetables (like cherry tomatoes, zucchini, mushrooms, bell pepper, and corn on the cob), and baked potatoes. beverly is the food editor of the local paper- her father used to grill these. recommended for father's day menu.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, reduced sodium soy sauce, lemons, worcestershire sauce, yellow mustard, ground black pepper
+---
+TITLE: bi bim bap  korean
+CURRENT_DESCRIPTION: there's a small korean restaurant near the university of michigan in ann arbor where they make this dish on tuesdays only. the line goes out the door. i tried a dozen different recipes until i found this one, which is pretty close to the tuesday special. there are three parts to this recipe: the main dish, the marinade, and kochujang sauce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, eggs, carrots, cucumbers, spinach, sesame oil
+---
+TITLE: Bibimbap with Gochujang Sauce
+CURRENT_DESCRIPTION: Korea's most beloved rice dish: a bowl of steamed rice topped with an artful arrangement of seasoned vegetables, marinated beef, and a jammy fried egg, mixed tableside with a fiery, sweet gochujang sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 400 g short-grain rice, 300 g beef sirloin, 200 g spinach, 150 g bean sprouts, 2 carrot, 1 zucchini
+---
+TITLE: Bible Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. Genesis 18:8 (butter), 1 c. Isaiah 7:15 (honey), 2 Job 39:14 (eggs), 2 c. 1 Samuel 28:24 (flour), 2 tsp. 1 Kings 19:6 (baking powder), 1 tsp. Exodus 30:23 (cinnamon)
+---
+TITLE: bienenstich iii  german bee sting cake
+CURRENT_DESCRIPTION: a friend of mine in the states recently asked for this recipe so i thought i would post my americanized version here.  careful not to bake the cake too long or it will get dry.  the reason it is called bee sting cake is because honey is a traditional ingredient in the almond glaze.  my absolute favorite german pastry of all time! perfect for "kaffee klatsch" or as a special treat.  lecker!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, active dry yeast, white sugar, salt, milk, butter
+---
+TITLE: bierocks  german hamburger  and cabbage filled rolls
+CURRENT_DESCRIPTION: this is a staple food in the small kansas (primarily german-american) town where i was born, and is now a favorite at my house here in belgium. the recipe comes from my grandma rosie. my mother uses a box of hot roll mix for the roll portion, but as that is not available to me, i have included the hot roll recipe from the better homes and gardens new cook book. your yield will depend on the size of rolls you make, but i would estimate about 15 to 20. preparation time includes time for allowing dough to rise (estimated). don't let the length of the recipe (or my assembly instructions) spook you, it is really very easy and the assembly is fun for kids, too ! in my opinion they are just as tasty cold as warm from the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, onion, olive oil, hamburger, salt and pepper, cayenne pepper
+---
+TITLE: bierrocks or meat and cabbage rolls
+CURRENT_DESCRIPTION: these are tasty rolls/turnovers filled with browned beef, cabbage, and onion.  they were a big hit growing up.  kids love to dip them in ketchup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, dry yeast, sugar, salt, egg, margarine
+---
+TITLE: Big Boy Sandwich(Poor Boy Sub)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 loaf French bread, mayo (3 parts; approximately), ketchup (1 part; approximately), mustard (1 part; approximately), bologna, summer sausage
+---
+TITLE: Big Chocolate Chip Cookie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. plus 2 Tbsp. self rising flour, 1/2 c. butter, softened, 6 Tbsp. sugar, 6 Tbsp. brown sugar, 1/2 tsp. vanilla, 1 egg
+---
+TITLE: big daddy s louisiana gumbo
+CURRENT_DESCRIPTION: gumbo.....
+
+there will be shouts of joy coming from your family and friends while eating this......
+
+laissez les bon temps roulez
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, garlic powder, seasoning salt, flour, butter, lard
+---
+TITLE: Big Easy   Gumbo
+CURRENT_DESCRIPTION: from january, 2011's issued of southern living.  this is an easier version of the original because it uses pre-cooked chicken and canned broth.  don't forget...heat your oil good before adding the flour for a flavorful and fast roux.  good for oamc, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, all-purpose flour, onion, green bell pepper, celery, creole seasoning
+---
+TITLE: big island style loco moco
+CURRENT_DESCRIPTION: the best to eat when your hangin :) oh and dont forget the hawaiian bling (green onions) :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hamburger patty, hamburger, green onion, salt, gravy, beef broth
+---
+TITLE: Big Mac  Meatloaf
+CURRENT_DESCRIPTION: i worked in a group home with 7 elderly ladies who like meatloaf. on this day i didn't have eggs so i kinda just threw in some stuff and this is what we dubbed it. my little ladies just loved it. the joke always was don't let me get bored in the kitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, eggs, cracker, thousand island dressing, pickle, onion
+---
+TITLE: Big Mac  Pizza
+CURRENT_DESCRIPTION: this cheeseburger pizza is so different from the others on 'zaar' i renamed it 'big mac' because it tastes like a big mac only better.  my son christopher was served this as an appetizer at a bar. very surprising how good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: thousand island dressing, prepared pizza crust, lean ground beef, colby-monterey jack cheese, bacon, dill pickle
+---
+TITLE: big thicket chicken and dumplings
+CURRENT_DESCRIPTION: if you love good, old-fashioned, down home chicken and dumplings, this is the real thing! note that this dumpling recipe makes "a bunch of dumplin's" because around here, most folks want more dumplin's than chicken. (prep time includes cooling time for cooked chicken.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, water, poultry seasoning, garlic powder, black pepper, red pepper
+---
+TITLE: Biggest Loser  Fish Tacos
+CURRENT_DESCRIPTION: this is out of the "biggest loser" cookbook
+140 calories, 18 g protein, 13 g carbohydrates, 5 g fat, 30 mg cholesterol, 8 g fiber, 480 mg sodium. please take the advice from sjmittens and increase the spices, especially if you enjoy spicy food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish fillets, lime juice, paprika, salt, ground black pepper, chili powder
+---
+TITLE: bikies bread   au beer bread
+CURRENT_DESCRIPTION: i think i need to move to au because the variations of this bread all sound so delicious and easy to make.  i found the recipe and variations on the aussiecooking.com site.  you can make this as a plain beer bread (top recipe) or use one of the variants to add to the bread's flavors.  found and posted for zwt8
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, whole wheat flour, salt, beer, cheese
+---
+TITLE: bill s calzones
+CURRENT_DESCRIPTION: this is my husband bill's own personal calzone recipe. these are delicious to the extreme and great for freezing. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato sauce, onions, garlic cloves, mushroom, black olives, cooking sherry
+---
+TITLE: bill yosse s white house apple pie
+CURRENT_DESCRIPTION: came across this in the seattle times. pie without an exquisite crust is simply not the real thing. they said, "white house pastry chef bill yosses' light, flaky pie crusts have earned him the nickname "the crustmaster" from president barack obama."  this recipe is adapted from bill yosses, white house pastry chef - hope this version is as good as the one being served in the white house.  note it makes use of lard, the secret of all great pastry.  just in time for prime pie making! use a good cooking apple for this pie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, salt, unsalted butter, lard, ice water
+---
+TITLE: Bill'S Chicken Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 frying chicken (about 2 1/2 to 3 lb.), 1 c. sweet pickle relish, 1 1/2 c. Miracle Whip or mayonnaise, 2 large eggs, hard-boiled and chopped, 1/2 c. fresh onion, minced or finely chopped, 1/4 c. chopped celery
+---
+TITLE: Bill'S Chili
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 cans red kidney beans, drained and rinsed, 3 large onions, diced, 3 green peppers, diced, 3 lb. arm or chuck roast, cubed, 3 (16 oz.) cans tomatoes, 2 cans whole kernel corn
+---
+TITLE: Bing Cherry Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 oz. cream cheese, 8 oz. sour cream, 1/2 c. sugar, 1 can Bing cherries, 1 large can pineapple, 1/2 c. pecan pieces
+---
+TITLE: Bircher-Müsli
+CURRENT_DESCRIPTION: 20K likes, 116 comments - malika_babel on January 10, 2024: "Wir bereiten gemeinsam unser Mealprep vor - Part 1 (Das Frühstück )👩🏽‍🍳✨
+
+Super einfaches Bircher-Müsli🥣
+
+Du brauchst:
+
+• Haferflocken
+• geschrotete Leinsamen
+• Rosinen
+• Apfel 
+• Joghurt
+• Toppings deiner Wahl (z.B. Walnüsse & Agavendicksaft)
+
+➡️ Mealprepboxen & Aufbewahrungsgläser findest du unter dem Link in meiner Bio🫶🏽
+
+Speichert euch das Rezept gern ab & probiert’s aus📁 | Anzeige
+
+#rezept #minivlog #mealprep #tupperware #s
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: Haferflocken, geschrotete Leinsamen, Rosinen, Apfel, Joghurt, Walnüsse
+---
+TITLE: bird s italian style lasagna
+CURRENT_DESCRIPTION: with lasagne, good preparation is the key. so i've included very detailed and simple-to-follow instructions. a good sized, deep pan is needed for this recipe, or you can make 2 pans. serve with a baguette and some red wine for a great evening. this is oamc friendly also. please also try my recipe #384767. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, garlic cloves, italian seasoning, spaghetti sauce, whole milk ricotta cheese
+---
+TITLE: bird s pizza style lasagna
+CURRENT_DESCRIPTION: this is a great twist on lasagne. good preparation is the key here, so i've included very detailed and simple-to-follow instructions. a good sized, deep pan is needed for this recipe, or you can make 2 pans. serve with a baguette and some red wine for a great evening. this is oamc friendly also. please also try my recipe #384764.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground sausage, garlic cloves, italian seasoning, crushed red pepper flakes, green bell pepper
+---
+TITLE: birria
+CURRENT_DESCRIPTION: birria
+
+this recipe is from guadalajara in the state of jalisco, mexico, where the broth is served with everything, even sandwiches on the street. jalisco prides itself on being the home of this spicy chile-based broth.
+heat scale = medium
+recipe by: adapted from david rosengarten's (foodtv)
+i have further adapted it having just having returned from guadalajara and eaten alot of the real thing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb, dried guajillo chilies, garlic cloves, sesame seeds, whole cloves, cider vinegar
+---
+TITLE: Birria de Res (Birria Tacos)
+CURRENT_DESCRIPTION: Beef short ribs braised in a rich chile broth until falling apart, served as consommé-dunked tacos with crispy griddle-fried tortillas and melted cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1.5 kg beef short ribs, 5 whole dried guajillo chiles, 3 whole dried ancho chiles, 2 whole dried chipotle, 1 large onion, 8 cloves garlic
+---
+TITLE: Birria Ramen
+CURRENT_DESCRIPTION: 19K likes, 51 comments - shreyaskitchen2 on September 10, 2025: "Better Than Takeout Ep. 2 : Birria Ramen 🍜
+
+#vegetarian #easyrecipe #vegetarianrecipes #vegetarianfood #vegetarianrecipe #vegetarianmeals #vegetarianeats #vegetariancooking #vegetariancooking #vegetariandinner #vegetarianfriendly".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Birria Tacos with Consommé
+CURRENT_DESCRIPTION: Tender, chile-braised beef folded into corn tortillas, dipped in rich consommé and griddled until crispy and caramelised. Served with a cup of the deeply spiced broth for dunking — one of Mexico's most iconic street foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1.2 kg beef chuck, 6 guajillo chiles, 3 ancho chiles, 2 tbsp chipotle in adobo, 3 tomatoes, 1 white onion
+---
+TITLE: birthday party chow
+CURRENT_DESCRIPTION: a fun colorful way to celebrate the big day. great for classroom parties too.you can always change the color or type of sprinkles used to celebrate any holiday or occasion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn chex, white corn syrup, water, butter, granulated sugar, baking soda
+---
+TITLE: biryani with murgh  chicken
+CURRENT_DESCRIPTION: north indian main course rice dish  (mughlai style).  serve it with plain yoghurt or yoghurt and chopped cucumber
+(raita).  many of the ingredients are inexpensive and can be found in an indian grocery store.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken thighs, low-fat plain yogurt, ginger-garlic paste, ghee, onions, whole cumin seeds
+---
+TITLE: Biscoff & Banana Meal Prep Baked Oats
+CURRENT_DESCRIPTION: 18K likes, 197 comments - emmapetersen on January 1, 2024: "DAY 1 of VEGANUARY | Biscoff & banana meal prep baked oats 🤎
+
+I experiment with variations of these allll the time, but they also happen to be vegan so I thought what better way to kick off Veganuary!! One dish wonder & the most delicious breakfast meal prep idea to set yourself up with non-boring grab and go brekkies for the week ahead 🫶
+
+Makes 3-5 servings (appetite dependent):
+▫️ 200g rolled oats
+▫️ 2 bananas, plus extra to decorat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 200 g rolled oats, 2 bananas, 60 g salted caramel soy protein, 420 ml water or almond milk, 1 tsp baking powder, 1 tsp cinnamon
+---
+TITLE: Biscoff Caramel Slice
+CURRENT_DESCRIPTION: 1M likes, 2,529 comments - clean.kweens on July 8, 2024: "BISCOFF CARAMEL SLICE: no-bake, 6 ingredients & a whoooole lotta tasty ingredients = a slice you’ll never forget 😅 We didn’t think an OG caramel slice could get any better but we think we’ve proven ourselves wrong 😮‍💨
+
+BASE:
+250g biscoff biscuits
+100g butter, melted
+50g biscoff spread, melted 
+
+CARAMEL:
+50g butter
+395g condensed milk
+
+CHOC TOP:
+180g chocolate
+100g biscoff spread, melted
+1 tsp vegetable oil 
+Biscoff biscuits to top (opt
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 250 g Biscoff biscuits, 100 g Butter, melted, 50 g Biscoff spread, melted, 50 g Butter, 395 g Condensed milk, 180 g Chocolate
+---
+TITLE: Biscoff Stuffed Pancakes
+CURRENT_DESCRIPTION: 10K likes, 704 comments - thelittleblogofvegan on February 12, 2024: "Biscoff STUFFED Pancakes🥞 YAY or NAY? Who wants some? Follow @thelittleblogofvegan for the best vegan recipes!
+
+Make a STACK of the ULTIMATE Vegan Fluffy American Style Pancakes, stuffed with biscoff spread! They are unbelievably good, ready in minutes! 🥰😍 Vegan, No-Egg, No-Dairy, and you would never know! Perfect for Pancake day!🥞
+
+✨ COMMENT ‘biscoff pancakes’ and I’ll DM you the recipe link! 
+
+• Get the full recipe on m
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Biscuit Muffins
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. self-rising flour, 1 c. milk, 4 Tbsp. mayonnaise (1/4 c.)
+---
+TITLE: biscuit topped chicken pot pie
+CURRENT_DESCRIPTION: when i think of comfort food, this is the first dish that comes to mind.  this is one of my family's favorite dishes.  i make it often, especially when it is cold and rainy outside.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, water, celery, onion, poultry seasoning, salt
+---
+TITLE: Biscuit Topped Italian Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground meat (chicken or beef), 3/4 c. water, 1 (8 oz.) can tomato sauce, 1 (9 oz.) pkg. frozen mixed vegetables, thawed, 1 Tbsp. butter, melted, 1/2 c. onion
+---
+TITLE: biscuits   gravy   eggs extraordinaire
+CURRENT_DESCRIPTION: the art of making this classic southern "stick-to-your-ribs-and-leave-you-smilin'-all-day" breakfast is, unfortunately being lost to the fat-phoebic.  everyone should know how to make a truly great biscuits & gravy breakfast, if not just to see your man smile from ear to ear one saturday morning a year (right before he has to mow the lawn ;-) )  i *have* been known to run to our local mcdonalds at 6am and pick up a few of their terrific plain biscuits, on lazy days.  p.s.  found an even easier (and maybe better) biscuit recipe here on 'zaar http://www.recipezaar.com/58913 ).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, salt, butter, butter flavor shortening
+---
+TITLE: Bisquick Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. biscuit mix, 1/3 c. melted butter, 1 box brown sugar, 4 eggs, 1 or 2 c. pecans, 2 c. coconut
+---
+TITLE: bisquick crepes
+CURRENT_DESCRIPTION: these crepes have no inherent sweetness, which allows them to fully take on the flavor of their filling. the sweet filling on this recipe works well by itself or with fruit or just about anything that would work well with a sweet flavor. the filling can be left out and replaced with any other filling as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, bisquick, milk, butter, cream cheese, sugar
+---
+TITLE: bisteeya
+CURRENT_DESCRIPTION: dh and i fell in love with bisteeya in a morrocan restaurant we loved.  then we moved and couldn't find another restaurant for years.  i compared a few different recipes and made my own version, trying to make it a little healthier by replacing the butter with a butter flavor spray like pam on the phyllo.  it's supposed to be an appetizer but i serve it at christmas instead of ham or turkey.  it's a great entree for 8 or an appetizer for more.  traditionally you'd just dig in with your fingers.
+
+i usually prepare everything up to a day in advance but assemble it just before popping it in the oven.  the 4 hour cook time includes marinating time along with the actual cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken thighs, onion, garlic, fresh parsley, salt, turmeric
+---
+TITLE: bistro braised beef with shiitake and pearl onions
+CURRENT_DESCRIPTION: this is a wonderful and oh so satisfying dish. with the long slow cooking the flavors will mellow and become rich.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shiitake mushrooms, butter, olive oil, all-purpose flour, salt, stewing beef
+---
+TITLE: bistro chicken with peppers
+CURRENT_DESCRIPTION: this recipe is adapted from a cooking light recipe and refined with changes in the seasonings to enhance the flavor of the otherwise bland chicken breast. it is delightfully easy to prepare and results in a dish with full complex flavors. recipe serves two but can be doubled with no trouble. reheats well for lunch the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell pepper, yellow bell pepper, salt, garlic, boneless skinless chicken breast halves, vegetable oil
+---
+TITLE: bistro shrimp pasta
+CURRENT_DESCRIPTION: this is a copycat recipe from the cheesecake factory that i found online.  it is not exact, but so close that i give it a 9.75 compared to the 10 that is the cf dish.  i am very pleased with how it turns out.  bon appetit!  the recipe is a little high maintenance, but the end product is worth the work.  :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: button mushroom, grape tomatoes, olive oil, thin spaghetti, salt, butter
+---
+TITLE: bistro style chicken with wild mushrooms and madeira
+CURRENT_DESCRIPTION: david rosengarten made an appearance in one issue of cooking light and this was one of his recipes.  it's impressive enough to serve for company and easy enough to serve on a weeknight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken thighs, salt, pepper, fresh nutmeg, cooking spray, red potatoes
+---
+TITLE: bitochki
+CURRENT_DESCRIPTION: blahness improved to let the herbs shine through.   after its kind review i have worked on improving.  added a caramelized onion b/w the meatball and breading, herbs, mushrooms, and spinach.  please give it a second chance.:)   serve with noodles or mashed potatoes.  a russian meatball/stroganoff recipe that originally came from a ladies home journal cookbook with a 1960 copyright but altered.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, bread, milk, ground beef, salt
+---
+TITLE: bitsy s vegetarian lasagna
+CURRENT_DESCRIPTION: in my younger days, many of my roommates were vegetarians. one night when it was my turn to cook - i developed this meat-free lasagna recipe. i'm not a vegetarian, but i really liked it! i hope you do too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lasagna noodle, tomato sauce, mozzarella cheese, ricotta cheese, cottage cheese, green bell pepper
+---
+TITLE: bittersweet chocolate biscotti
+CURRENT_DESCRIPTION: chocolate biscotti with a creamy chocolate topping! if you can't find hazelnuts, other nuts can be used, such as pine nuts, almonds, walnuts, even cashews! adapted from bh&g magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, dark brown sugar, baking powder, salt, eggs, unsweetened cocoa powder
+---
+TITLE: bittersweet chocolate irish whiskey cake
+CURRENT_DESCRIPTION: bon appetit magazine may 2007 edition. 30 minutes coolng time. it is "awesomly" good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: irish whiskey, bittersweet chocolate, instant espresso powder, hot water, blanched almond, all-purpose flour
+---
+TITLE: bittersweet or white chocolate ice cream
+CURRENT_DESCRIPTION: this easy recipe will make either type of chocolate ice cream with no custard to cook with or without an ice cream maker! prep time includes 50 mins of pre chilling. please note that both myself and the first reviewer got "micro chips" of chocolate instead of it being entirely smooth. i don't know if that will happen all of the time or if it will happen with the white chocolate. we both enjoyed the tiny chips very much though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, granulated sugar, bittersweet chocolate, heavy cream, vanilla extract
+---
+TITLE: bittersweet truffle tart
+CURRENT_DESCRIPTION: a hint of strawberry flavor adds an unexpected twist to this chocolaty dessert. the cocoa-flavored crust is topped with a layer of chocolate and almond-laced mascarpone. there is 3 hrs chill time not mentioned in posted times
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, powdered sugar, blanched almond, butter, unsweetened cocoa powder, whipping cream
+---
+TITLE: bizcocho dominicano  dominican cake
+CURRENT_DESCRIPTION: tropical pound cake with pineapple. posted for zwt, untried by me. adapted from the may/june 09 hannaford fresh magazine. note:  don't preheat the oven -- this cake is supposed to go into a cold oven! cook time includes cooling times for both cake and filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple rings, water, sugar, pure vanilla extract, unsalted butter, eggs
+---
+TITLE: Black "Eyes Of Texas" Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (15 1/2 oz.) can jalapeno black-eyed peas, drained, 1 1/2 lb. lean ground beef, 1 large onion, chopped, 2 cloves garlic, chopped, 1 (10 oz.) can tomatoes with green chilies, 1 can cream of chicken soup (undiluted)
+---
+TITLE: black and tan brownies
+CURRENT_DESCRIPTION: these little delights come from the march 2010 issue of cooking light. posting for safekeeping!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, eggs, vanilla extract, all-purpose flour, baking powder
+---
+TITLE: black and white cheesecake
+CURRENT_DESCRIPTION: it seems as if my best friend, judy, with whom i grew up, has been surfing the net and landed on the godiva web site, too. i had this cheesecake at her house and we all sat there in quiet silence after an evening of sheer decadence. this was recipe was the last straw! i haven't allowed for chilling and cooling  times - it is approximately 24 hours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer crumbs, granulated sugar, butter, cream cheese, vanilla extract, all-purpose flour
+---
+TITLE: black and white cheesecake  pressure cooker
+CURRENT_DESCRIPTION: from lorna sass's book "the pressured cook". this recipe requires a 7-inch springform pan.
+it is a very rich, crustless, chocolate marbled cheesecake. sometimes this cheesecake emerges from the pressure cooker looking "rustic" (with some peaks and valleys on top), but the flavor is dependably wonderful! this cheesecake will get firmer and denser when refrigerated overnight. for best flavor, bring to room temp before serving. this cheesecake freezes well. do not substitute reduced fat products in this recipe, they contain more water and will not set up properly!
+cooking time includes 15 minutes for natural release.
+see note for lemon cheesecake variation.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, sugar, all-purpose flour, eggs, sour cream
+---
+TITLE: black and white cookies
+CURRENT_DESCRIPTION: this is another family favourite christmas cookie from dr. oetker german home baking
+oetker products can be purchased at major groceries and german delicatessens.
+preparation time does not include refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, sugar, vanillin sugar, rum flavoring, egg
+---
+TITLE: black bean   corn enchiladas
+CURRENT_DESCRIPTION: easy meatless enchiladas.  you can skip the first step and use a store-bought enchilada sauce to save time, but i always make my own as i've never found a jarred brand that i've liked.  these are great topped with freshly made guacamole and served with cilantro-lime rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chili powder, flour, cocoa powder, oregano, cumin, garlic cloves
+---
+TITLE: black bean amanatto  candied black beans
+CURRENT_DESCRIPTION: this is a simplified version of amanatto.  while it is a simple process, it is time consuming because of the sorting phase.  this recipe is a result of some trial and error work with a recipe found at the anime blog and some crystallized ginger recipes that i had at hand.  the result should be a soft candied bean with a light sugar coating.  hard beans, lumpy sugar coating, broken beans are all signs of rough handling.  i've learned that crunchy beans are a sign of poor quality ingredients.  the key to this process is gentle handling at every point.  preparation time does not include the time required for soaking or sorting the beans, which is significant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, water, baking soda, granulated sugar, salt, superfine sugar
+---
+TITLE: black bean and chicken enchiladas
+CURRENT_DESCRIPTION: it takes about one hour and thirty minutes to prepare this dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, chili powder, unsweetened cocoa powder, sugar, tomato sauce, water
+---
+TITLE: black bean and corn enchilada casserole  no meat
+CURRENT_DESCRIPTION: we do a meatless meal for dinner once a week.  i love mexican food, so i created this recipe.   this is really easy to change up by using flour tortillas, different kinds of rotel, using more or different cheeses, or green enchilada sauce (verde).  i measure the cheese since we are trying to be a bit healthier, but feel free to add more if you like.  i normally use a 7 x 11 glass baking dish, so the measurements are for a full pan at that size. if you have leftover filling, you can eat it like a dip with tortilla chips.  sometimes i double the filling and freeze half of it for later.  when i know i have a busy day, i will thaw the filling and just assemble the bake quickly for an easy meal. if you must have meat, i think chicken would be a tasty add.  hope you like this recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, bell pepper, garlic cloves, cumin, mexican chili powder
+---
+TITLE: black bean and spinach pie
+CURRENT_DESCRIPTION: the black beans in this pie are well hidden! i used light cream cheese
+and fat fee sour cream. we enjoyed it with some salsa and a dollop of
+sour cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, shallot, red pepper, green pepper, garlic cloves, black beans
+---
+TITLE: black bean cakes with chipotle cream
+CURRENT_DESCRIPTION: i made this for dinner the other night and it was delicious!  i got it out of southern living's great light recipe section.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell pepper, green onion, frozen corn kernels, garlic cloves, olive oil, black beans
+---
+TITLE: black bean enchiladas
+CURRENT_DESCRIPTION: i invented this recipe for a vegitarian friend....... it can be hot so be care full
+
+you will have to make adobo sauce recipe included
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, olive oil, garlic cloves, dried oregano, black beans, chipotle chile in adobo
+---
+TITLE: black bean enchiladas with warm salsa verde
+CURRENT_DESCRIPTION: with tangy tomatillos softened by creamy avocado in a warm salsa verde, this southwestern-inspired dish qualifies as contemporary comfort food. fresh tomatillos are available in the produce section of most grocery stores. look for firm, unblemished fruit inside a papery husk. adapted from rachael ray 30-minute meals. published in the june 2004 issues of vegetarian times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn tortillas, mexican blend cheese, extra virgin olive oil, garlic cloves, white onions, jalapeno
+---
+TITLE: Black Bean Smash Burgers
+CURRENT_DESCRIPTION: Smoky, satisfying black bean patties with crispy edges and a meaty chew. Top with avocado, pickled red onion, and chipotle mayo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 800 g (2 cans, drained) black beans, 80 g oats, 2 tbsp soy sauce, 1 tsp smoked paprika, 1 tsp garlic powder, 1 tsp cumin
+---
+TITLE: Black Bean Smash Burgers
+CURRENT_DESCRIPTION: Smoky, satisfying black bean patties with crispy edges and a meaty chew. Top with avocado, pickled red onion, and chipotle mayo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 800 g (2 cans, drained) black beans, 80 g oats, 2 tbsp soy sauce, 1 tsp smoked paprika, 1 tsp garlic powder, 1 tsp cumin
+---
+TITLE: Black Bean Smash Burgers
+CURRENT_DESCRIPTION: Smoky, satisfying black bean patties with crispy edges and a meaty chew. Top with avocado, pickled red onion, and chipotle mayo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 800 g (2 cans, drained) black beans, 80 g oats, 2 tbsp soy sauce, 1 tsp smoked paprika, 1 tsp garlic powder, 1 tsp cumin
+---
+TITLE: Black Bean Soup(Slow Cooker)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 carrots, sliced thin, 2 celery ribs, sliced thin, 1 medium onion, chopped, 4 cloves garlic, minced, 1 (20 oz.) can black beans, 2 cans (14 1/2 oz.) chicken broth
+---
+TITLE: black bottom banana cream pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, semisweet chocolate, chocolate wafer cookies, whipping cream, vanilla extract, bananas

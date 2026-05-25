@@ -1,0 +1,214 @@
+<style>
+  .split-preview {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  .preview-col {
+    flex: 1;
+    min-width: 280px;
+  }
+  .mode-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    opacity: 0.6;
+  }
+
+  .nav-mock {
+    border-radius: 10px 10px 0 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  .dark-nav { background: #141110; color: #EFE3CE; }
+  .light-nav { background: #EDE4D8; color: #2C1F14; }
+  .nav-title { font-weight: 600; font-size: 14px; font-family: Georgia, serif; }
+  .nav-sub { font-size: 10px; opacity: 0.5; letter-spacing: 0.08em; text-transform: uppercase; }
+  .progress-bar-wrap { height: 3px; overflow: hidden; }
+  .dark-prog { background: #2C2724; }
+  .light-prog { background: #E5D9CC; }
+  .progress-fill { height: 100%; width: 33%; background: linear-gradient(90deg, #F4A261, #E85D20); }
+
+  /* ── STEP CARD — illustration sits in background, text over it ── */
+  .step-card {
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    position: relative;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-top: none;
+    transition: border-color 0.2s;
+  }
+  .step-card.selected { border-color: #F4A261 !important; }
+
+  /* The illustration fills the card background */
+  .illus-bg {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+  .illus-bg svg {
+    width: 200px;
+    height: 200px;
+    opacity: 0.18;
+  }
+
+  /* Text content sits on top */
+  .step-content {
+    position: relative;
+    z-index: 2;
+    padding: 24px 22px 28px;
+  }
+
+  .step-counter {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .step-heading {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+  .step-text {
+    font-size: 17px;
+    line-height: 1.75;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+  .pro-tip {
+    margin-top: 16px;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 14px;
+    line-height: 1.6;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-family: Georgia, serif;
+  }
+  .pro-tip-icon { font-size: 15px; flex-shrink: 0; margin-top: 2px; }
+
+  /* DARK */
+  .dark-card { background: #1F1B19; }
+  .dark-card .step-counter { color: #B07D56; }
+  .dark-card .step-heading { color: #F4A261; }
+  .dark-card .step-text { color: #d4c4aa; }
+  .dark-card .pro-tip { background: rgba(176,125,86,0.13); color: #c9aa88; }
+
+  /* LIGHT */
+  .light-card { background: #FDFAF6; }
+  .light-card .step-counter { color: #B07D56; }
+  .light-card .step-heading { color: #1a0f08; }
+  .light-card .step-text { color: #4a3224; }
+  .light-card .pro-tip { background: #F2EAE0; color: #6b5444; }
+</style>
+
+<h2>Cooking Mode — Illustration as Background</h2>
+<p class="subtitle">Illustration sits in the card background at low opacity. Text lays over it — larger, mobile-ready sizing.</p>
+
+<div class="split-preview">
+
+  <!-- DARK -->
+  <div class="preview-col">
+    <div class="mode-label">Dark Mode</div>
+    <div class="nav-mock dark-nav">
+      <div>
+        <div class="nav-title">Shakshuka</div>
+        <div class="nav-sub">Step 2 of 6</div>
+      </div>
+      <span style="font-size:18px;opacity:0.4">✕</span>
+    </div>
+    <div class="progress-bar-wrap dark-prog">
+      <div class="progress-fill"></div>
+    </div>
+    <div class="step-card dark-card" data-choice="dark" onclick="toggleSelect(this)">
+      <div class="illus-bg">
+        <svg viewBox="0 0 90 80" fill="none">
+          <ellipse cx="45" cy="62" rx="36" ry="8" fill="#181410"/>
+          <rect x="9" y="34" width="72" height="28" rx="8" fill="#ccc"/>
+          <rect x="13" y="38" width="64" height="20" rx="6" fill="#aaa"/>
+          <ellipse cx="45" cy="47" rx="26" ry="9" fill="#B83232"/>
+          <ellipse cx="32" cy="46" rx="9" ry="7" fill="#EFE3CE"/>
+          <ellipse cx="32" cy="46" rx="4" ry="3.5" fill="#F4A261"/>
+          <ellipse cx="58" cy="46" rx="9" ry="7" fill="#EFE3CE"/>
+          <ellipse cx="58" cy="46" rx="4" ry="3.5" fill="#F4A261"/>
+          <rect x="81" y="43" width="14" height="6" rx="3" fill="#888"/>
+          <circle cx="38" cy="44" r="2" fill="#4a7a2a"/>
+          <circle cx="52" cy="48" r="1.5" fill="#4a7a2a"/>
+          <circle cx="45" cy="43" r="1.5" fill="#4a7a2a"/>
+        </svg>
+      </div>
+      <div class="step-content">
+        <div class="step-counter">Step 2 · ~4 min</div>
+        <div class="step-heading">Nestle the eggs into the sauce</div>
+        <div class="step-text">Use a spoon to make small wells in the simmering sauce, then crack an egg into each. Cover and cook on low until the whites are just set but the yolks still wobble.</div>
+        <div class="pro-tip">
+          <span class="pro-tip-icon">✦</span>
+          <span>Cold eggs straight from the fridge crack more cleanly and hold their shape better in the pan.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHT -->
+  <div class="preview-col">
+    <div class="mode-label">Light Mode</div>
+    <div class="nav-mock light-nav">
+      <div>
+        <div class="nav-title">Shakshuka</div>
+        <div class="nav-sub">Step 2 of 6</div>
+      </div>
+      <span style="font-size:18px;opacity:0.4">✕</span>
+    </div>
+    <div class="progress-bar-wrap light-prog">
+      <div class="progress-fill"></div>
+    </div>
+    <div class="step-card light-card" data-choice="light" onclick="toggleSelect(this)">
+      <div class="illus-bg">
+        <svg viewBox="0 0 90 80" fill="none">
+          <ellipse cx="45" cy="62" rx="36" ry="8" fill="#c9b8a8" opacity="0.4"/>
+          <rect x="9" y="34" width="72" height="28" rx="8" fill="#7a5a4a"/>
+          <rect x="13" y="38" width="64" height="20" rx="6" fill="#6a4a3a"/>
+          <ellipse cx="45" cy="47" rx="26" ry="9" fill="#C0392B" opacity="0.8"/>
+          <ellipse cx="32" cy="46" rx="9" ry="7" fill="#FFFDF8"/>
+          <ellipse cx="32" cy="46" rx="4" ry="3.5" fill="#E67E22"/>
+          <ellipse cx="58" cy="46" rx="9" ry="7" fill="#FFFDF8"/>
+          <ellipse cx="58" cy="46" rx="4" ry="3.5" fill="#E67E22"/>
+          <rect x="81" y="43" width="14" height="6" rx="3" fill="#6b5040"/>
+          <circle cx="38" cy="44" r="2" fill="#2d6a2a"/>
+          <circle cx="52" cy="48" r="1.5" fill="#2d6a2a"/>
+          <circle cx="45" cy="43" r="1.5" fill="#2d6a2a"/>
+        </svg>
+      </div>
+      <div class="step-content">
+        <div class="step-counter">Step 2 · ~4 min</div>
+        <div class="step-heading">Nestle the eggs into the sauce</div>
+        <div class="step-text">Use a spoon to make small wells in the simmering sauce, then crack an egg into each. Cover and cook on low until the whites are just set but the yolks still wobble.</div>
+        <div class="pro-tip">
+          <span class="pro-tip-icon">✦</span>
+          <span>Cold eggs straight from the fridge crack more cleanly and hold their shape better in the pan.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:20px">Illustration ghosted behind at ~18% opacity. Text is now 17px body / 26px heading. Want the illustration more or less visible? Positioned differently (top, center, corner)?</p>

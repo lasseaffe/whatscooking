@@ -12,10 +12,11 @@ import { createClient } from "@/lib/supabase/client";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 
 const PRIMARY_TABS = [
-  { href: "/dashboard", label: "Home",    icon: LayoutDashboard },
-  { href: "/discover",  label: "Recipes", icon: UtensilsCrossed },
-  { href: "/plans",     label: "Plans",   icon: Calendar },
-  { href: "/pantry",    label: "Pantry",  icon: ShoppingBasket },
+  { href: "/dashboard",  label: "Home",      icon: LayoutDashboard },
+  { href: "/discover",   label: "Discover",  icon: UtensilsCrossed },
+  { href: "/my-recipes", label: "My Recipes",icon: Heart },
+  { href: "/cookbooks",  label: "Cookbooks", icon: BookOpen },
+  { href: "/plans",      label: "Plans",     icon: Calendar },
 ];
 
 const MORE_ITEMS = [

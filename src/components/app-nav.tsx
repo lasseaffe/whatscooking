@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass, Swords,
-  ChevronRight, ShoppingCart, Leaf,
+  ChevronRight, ShoppingCart, Leaf, BookOpen, Plus, Heart,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -67,8 +67,28 @@ const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    group: "Kitchen",
+    group: "My Kitchen",
     items: [
+      {
+        href: "/my-recipes",
+        label: "My Recipes",
+        icon: Heart,
+        desc: "",
+        children: [
+          { href: "/my-recipes",     label: "My Recipes",   icon: Heart,  desc: "" },
+          { href: "/my-recipes/new", label: "Create Recipe", icon: Plus,  desc: "" },
+        ],
+      },
+      {
+        href: "/cookbooks",
+        label: "Cookbooks",
+        icon: BookOpen,
+        desc: "",
+        children: [
+          { href: "/cookbooks",     label: "Browse Cookbooks", icon: BookOpen, desc: "" },
+          { href: "/cookbooks/new", label: "New Cookbook",     icon: Plus,     desc: "" },
+        ],
+      },
       {
         href: "/pantry",
         label: "My Pantry",
