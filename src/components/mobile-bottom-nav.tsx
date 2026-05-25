@@ -12,7 +12,7 @@ import { createClient } from "@/lib/supabase/client";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 
 const PRIMARY_TABS = [
-  { href: "/dashboard",  label: "Home",      icon: LayoutDashboard },
+  { href: "/",           label: "Home",      icon: LayoutDashboard },
   { href: "/discover",   label: "Discover",  icon: UtensilsCrossed },
   { href: "/my-recipes", label: "My Recipes",icon: Heart },
   { href: "/cookbooks",  label: "Cookbooks", icon: BookOpen },

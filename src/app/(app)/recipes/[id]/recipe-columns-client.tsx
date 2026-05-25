@@ -1622,8 +1622,8 @@ export function RecipeColumnsClient({
               <PhaseHeader roman="V" label="Restore" emoji="♻️" />
               <ZeroWasteGuide title={recipeTitle} ingredients={ingredients} />
               <PhaseActions
-                onDone={() => router.push("/dashboard")}
-                onSkip={() => router.push("/dashboard")}
+                onDone={() => router.push("/")}
+                onSkip={() => router.push("/")}
                 doneLabel="All done!"
               />
             </div>

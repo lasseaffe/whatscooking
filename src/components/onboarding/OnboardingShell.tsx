@@ -36,7 +36,7 @@ export default function OnboardingShell({
       mode: 'done', wizardStep: 0, tourStep: 0,
       wizardAnswers: {}, dismissedBeacons: [], completedActions: [],
     }));
-    router.push("/dashboard");
+    router.push("/");
   }
 
   return (

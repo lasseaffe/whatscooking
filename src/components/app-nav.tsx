@@ -422,7 +422,7 @@ export function AppNav() {
       >
         {/* ── Logo ── */}
         <div className="px-3 py-4 border-b shrink-0" style={{ borderColor: "var(--wc-border-subtle)", overflow: "hidden" }}>
-          <Link href="/dashboard" className="flex items-center gap-2.5 min-w-0">
+          <Link href="/" className="flex items-center gap-2.5 min-w-0">
             <div
               className="wc-logo shrink-0 flex items-center justify-center rounded-xl"
               style={{ width: 42, height: 42, background: "linear-gradient(135deg, var(--wc-pal-accent, #B07D56), var(--wc-pal-mid, #5F3E2D))", flexShrink: 0 }}

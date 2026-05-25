@@ -79,7 +79,7 @@ export default function SignupPage() {
       dietary_preferences: selectedPrefs,
     });
 
-    router.push("/dashboard");
+    router.push("/");
   }
 
   return (
