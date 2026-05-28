@@ -27,6 +27,11 @@ interface WikiEntry {
   source: string;
 }
 
+function truncate(text: string, maxChars = 600): string {
+  if (text.length <= maxChars) return text;
+  return text.slice(0, text.lastIndexOf(" ", maxChars)) + "…";
+}
+
 async function fetchWikiExtract(title: string): Promise<WikiEntry | null> {
   const encoded = encodeURIComponent(title);
   const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encoded}`;
@@ -51,7 +56,7 @@ async function fetchWikiExtract(title: string): Promise<WikiEntry | null> {
       data.content_urls?.desktop?.page ??
       `https://en.wikipedia.org/wiki/${encoded}`;
 
-    return { extract, source };
+    return { extract: truncate(extract), source };
   } catch (err) {
     console.error(`  Fetch error for "${title}":`, err);
     return null;
@@ -92,7 +97,7 @@ async function main() {
     "  source: string;",
     "}",
     "",
-    "export const CUISINE_WIKI_CACHE: Record<string, WikiCacheEntry> = {",
+    "export const cuisineWikipediaCache: Record<string, WikiCacheEntry> = {",
   ];
 
   for (const [slug, { extract, source }] of Object.entries(cache)) {
