@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
-import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle, BarChart2 } from "lucide-react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle, BarChart2, Zap } from "lucide-react";
+import { UsageMeter } from "@/components/upgrade/UsageMeter";
 import { PaletteSwitcher } from "@/components/palette-switcher";
 import { ThemeStudio } from "@/components/theme-studio";
 import { useTheme } from "@/lib/theme-context";
@@ -241,6 +242,26 @@ interface SettingsClientProps {
 export function SettingsClient({ trackIntake: initialTrackIntake, userId }: SettingsClientProps) {
   const { theme, setTheme } = useTheme();
   const [trackIntake, setTrackIntake] = useState(initialTrackIntake);
+  const searchParams = useSearchParams();
+  const justUpgraded = searchParams.get("upgraded") === "1";
+
+  const [upgradeLoading, setUpgradeLoading] = useState(false);
+
+  async function handleUpgrade(plan: "monthly" | "annual") {
+    setUpgradeLoading(true);
+    try {
+      const res = await fetch("/api/billing/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ plan }),
+      });
+      if (!res.ok) throw new Error("checkout failed");
+      const { url } = await res.json();
+      window.location.href = url;
+    } catch {
+      setUpgradeLoading(false);
+    }
+  }
 
   const toggleTrackIntake = async (val: boolean) => {
     setTrackIntake(val);
@@ -259,6 +280,53 @@ export function SettingsClient({ trackIntake: initialTrackIntake, userId }: Sett
 
   return (
     <div>
+      {/* ── Plan & Billing ── */}
+      <Section icon={<Zap style={{ width: 16, height: 16 }} />} title="Plan & Billing">
+        {justUpgraded && (
+          <div
+            className="rounded-xl p-3 mb-4 text-sm"
+            style={{ background: "rgba(34,80,40,0.3)", border: "1px solid rgba(60,140,60,0.3)", color: "#7fba7f" }}
+          >
+            You&apos;re now a Pro Cook. Enjoy unlimited AI imports!
+          </div>
+        )}
+
+        <div className="mb-4">
+          <UsageMeter />
+        </div>
+
+        <div className="flex items-start justify-between gap-3 mb-3">
+          <div>
+            <p className="text-sm font-medium" style={{ color: "#EFE3CE" }}>Pro Cook</p>
+            <p className="text-xs mt-0.5" style={{ color: "#7A5A40" }}>
+              Unlimited imports · Household sharing · Cookbooks
+            </p>
+          </div>
+          <div className="flex flex-col gap-1.5 shrink-0">
+            <button
+              onClick={() => handleUpgrade("annual")}
+              disabled={upgradeLoading}
+              className="text-xs font-medium px-3 py-1.5 rounded-lg transition-colors disabled:opacity-60"
+              style={{ background: "#C97D2E", color: "#fff" }}
+            >
+              {upgradeLoading ? "…" : "$45/yr"}
+            </button>
+            <button
+              onClick={() => handleUpgrade("monthly")}
+              disabled={upgradeLoading}
+              className="text-xs px-3 py-1.5 rounded-lg transition-colors disabled:opacity-60"
+              style={{ background: "rgba(42,24,8,0.8)", border: "1px solid rgba(90,50,20,0.4)", color: "#A07050" }}
+            >
+              {upgradeLoading ? "…" : "$5/mo"}
+            </button>
+          </div>
+        </div>
+
+        <p className="text-xs" style={{ color: "#5A3A20" }}>
+          Cancel anytime. Annual plan saves 3 months vs monthly.
+        </p>
+      </Section>
+
       {/* ── Appearance ── */}
       <Section icon={<Palette style={{ width: 16, height: 16 }} />} title="Colour Palette">
         <p className="text-xs mb-4" style={{ color: "#7A5A40" }}>

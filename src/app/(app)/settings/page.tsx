@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { Settings, Palette } from "lucide-react";
 import { SettingsClient } from "./settings-client";
@@ -57,7 +58,9 @@ export default async function SettingsPage() {
         </div>
       </Link>
 
-      <SettingsClient trackIntake={profile?.track_intake ?? false} userId={user?.id ?? null} />
+      <Suspense fallback={null}>
+        <SettingsClient trackIntake={profile?.track_intake ?? false} userId={user?.id ?? null} />
+      </Suspense>
     </div>
   );
 }
