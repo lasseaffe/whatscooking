@@ -1,4 +1,5 @@
 import { createClient } from '@/lib/supabase/server'
+import { createServiceClient } from '@/lib/supabase/service'
 
 export type GatedFeature = 'recipe_extract' | 'meal_weave' | 'batch_import'
 
@@ -70,7 +71,7 @@ export async function logFeatureUsage(
   feature: GatedFeature,
   metadata?: Record<string, unknown>
 ): Promise<void> {
-  const supabase = await createClient()
+  const supabase = createServiceClient()
   const { error } = await supabase
     .from('ai_usage_log')
     .insert({ user_id: userId, feature, metadata })

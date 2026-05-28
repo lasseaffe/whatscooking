@@ -11,6 +11,7 @@ interface UpgradeModalProps {
 
 export function UpgradeModal({ open, onClose, resetsAt }: UpgradeModalProps) {
   const [loading, setLoading] = useState<"monthly" | "annual" | null>(null)
+  const [checkoutError, setCheckoutError] = useState<string | null>(null)
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -32,6 +33,7 @@ export function UpgradeModal({ open, onClose, resetsAt }: UpgradeModalProps) {
 
   async function handleUpgrade(plan: "monthly" | "annual") {
     setLoading(plan)
+    setCheckoutError(null)
     try {
       const res = await fetch("/api/billing/checkout", {
         method: "POST",
@@ -43,6 +45,7 @@ export function UpgradeModal({ open, onClose, resetsAt }: UpgradeModalProps) {
       window.location.href = url
     } catch {
       setLoading(null)
+      setCheckoutError("Couldn't start checkout. Please try again.")
     }
   }
 
@@ -107,6 +110,10 @@ export function UpgradeModal({ open, onClose, resetsAt }: UpgradeModalProps) {
         >
           Maybe later
         </button>
+
+        {checkoutError && (
+          <p className="text-xs text-red-500 mt-2 text-center">{checkoutError}</p>
+        )}
       </div>
     </div>
   )

@@ -46,7 +46,10 @@ export async function POST(request: Request) {
       break
 
     case 'subscription_cancelled':
-      // Don't change tier — let it expire naturally at tier_expires_at
+      // Write ends_at so the tier expires gracefully at the period end
+      await supabase.from('profiles').update({
+        tier_expires_at: (attrs?.ends_at as string | null) ?? null,
+      }).eq('id', userId)
       break
 
     case 'subscription_expired':

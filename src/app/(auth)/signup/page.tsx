@@ -32,8 +32,8 @@ function SignupPageInner() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (refCode) {
-      document.cookie = `wc_ref=${refCode}; path=/; max-age=604800`; // 7 days
+    if (refCode && /^[a-f0-9]{8}$/.test(refCode)) {
+      document.cookie = `wc_ref=${refCode}; path=/; max-age=604800; Secure; SameSite=Lax`
     }
   }, [refCode]);
 
