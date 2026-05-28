@@ -8,6 +8,16 @@ export type MealStatus = "planning" | "active" | "completed";
 export type MealType = "breakfast" | "lunch" | "dinner" | "snack";
 export type RecipeSource = "spoonacular" | "ai" | "curated" | "social" | "user";
 
+// ============================================================
+// Heritage & Culture
+// ============================================================
+
+export interface HeritageNotes {
+  originStory: string;
+  culturalOccasion: string;
+  keyIngredientNote: string;
+}
+
 export type DietaryFilter =
   | "vegetarian"
   | "vegan"
