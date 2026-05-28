@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { Search, Star, Clock, Flame, Sparkles, ExternalLink, Loader2, X } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { UpgradeModal } from "@/components/upgrade/UpgradeModal";
 
 // Curated Unsplash food photos — used as fallback thumbnails
 const FOOD_PHOTOS = [
@@ -90,6 +91,7 @@ function PremiumCard({ recipe: initialRecipe }: { recipe: PremiumRecipe }) {
   const [extracting, setExtracting] = useState(false);
   const [extractError, setExtractError] = useState<string | null>(null);
   const [showIngredients, setShowIngredients] = useState(false);
+  const [upgradeModal, setUpgradeModal] = useState<{ open: boolean; resetsAt?: string }>({ open: false });
 
   const extracted = isExtracted(recipe);
   const ingredients = (recipe.ingredients ?? []) as { name: string; amount?: number | null; unit?: string | null }[];
@@ -107,6 +109,11 @@ function PremiumCard({ recipe: initialRecipe }: { recipe: PremiumRecipe }) {
     try {
       const res = await fetch(`/api/recipes/${recipe.id}/extract`, { method: "POST" });
       const data = await res.json();
+      if (res.status === 402) {
+        setUpgradeModal({ open: true, resetsAt: data.resets_at })
+        setExtracting(false)
+        return
+      }
       if (!res.ok) throw new Error(data.error ?? "Extraction failed");
       setRecipe((prev) => ({ ...prev, ...data.recipe }));
     } catch (err) {
@@ -116,6 +123,7 @@ function PremiumCard({ recipe: initialRecipe }: { recipe: PremiumRecipe }) {
   }
 
   return (
+    <>
     <div
       className="group relative rounded-2xl overflow-hidden border transition-all hover:-translate-y-1 hover:shadow-xl cursor-pointer"
       style={{ borderColor: "#C9A84C", background: "#1E1208", aspectRatio: "3/4" }}
@@ -235,6 +243,13 @@ function PremiumCard({ recipe: initialRecipe }: { recipe: PremiumRecipe }) {
         </div>
       </div>
     </div>
+      {/* Upgrade modal — shown when weekly extract limit is hit */}
+      <UpgradeModal
+        open={upgradeModal.open}
+        onClose={() => setUpgradeModal({ open: false })}
+        resetsAt={upgradeModal.resetsAt}
+      />
+    </>
   );
 }
 

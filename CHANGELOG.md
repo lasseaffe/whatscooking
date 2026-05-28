@@ -1,5 +1,139 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-28
+
+### Task 8: RecipeHeritageSidebar Component + Tests
+
+**What:** Added `RecipeHeritageSidebar` — a presentational sidebar component displaying recipe cultural heritage and origin stories.
+
+**Implementation:**
+- `src/components/recipe/recipe-heritage-sidebar.tsx` — Renders heritage notes (origin story, cultural occasion, key ingredient note) with dark theme styling. Returns `null` when `notes` is undefined. Includes a back-link to the cuisine page.
+- `src/lib/types.ts` — Added `HeritageNotes` interface with three string fields.
+- `src/components/recipe/__tests__/recipe-heritage-sidebar.test.tsx` — 6 test cases covering null rendering, label display, content rendering, and cuisine back-link.
+
+**Tests:** All 6 tests pass. No state, no async. Component integrates with `HeritageAtlasSection` from prior commits.
+
+**Styling:** Dark theme (#0d0b1e bg, #a78bfa labels, #f59e0b section headers, #94a3b8 body text).
+
+## [Unreleased] — 2026-05-26
+
+### Fix migration drift + add a drift-check CI guard
+
+**Problem:** Several committed migrations were never applied to the live DB (`oruplzhfmtehsjbnsoms`), which 404'd every plan-detail page: `[id]/page.tsx` selects `meal_plans.person_count` / `track_intake` (from `20260521_social_macros.sql`), the columns didn't exist, the query errored → `notFound()`. The list page (which doesn't select them) kept working, masking it.
+
+**Applied to the DB (via Supabase MCP, idempotent):**
+- `20260521_social_macros.sql` — `meal_plans.person_count` + `track_intake`, `profiles.track_intake`, `profile_follows` table (+ its RLS policies). Also hardened the committed file: wrapped the `create policy` statements in `do $$ … exception when duplicate_object` guards so re-runs can't fail.
+- `20260521000000_user_themes.sql` — `user_themes` table + RLS (the ledger had a *phantom* applied-row for it but the table never existed).
+- `20260526170000_imported_source.sql` — `recipes.original_source` / `original_source_url`, `profiles.show_imported_recipes`. Removed the file's stray `ALTER TYPE recipe_source ADD VALUE` line (no such enum exists — `recipes.source` is `text`).
+
+**New — drift-check workflow (prevents recurrence):**
+- `supabase/migrations/20260526160000_migration_drift_helper.sql` — `public.applied_migration_versions()` (security-definer, `service_role`-only) so CI can read the `supabase_migrations` ledger with the existing service key (PostgREST doesn't expose that schema).
+- `scripts/check-migration-drift.mjs` — fails if any committed migration's version isn't applied; small ALLOW-list for legacy out-of-band/mis-versioned files. `npm run migrations:check`.
+- `.github/workflows/db-drift-check.yml` — runs the check on push to `master` + PRs touching `supabase/migrations/**` (read-only; uses existing `SUPABASE_URL` + `SUPABASE_SERVICE_KEY`).
+
+**Verification:** Browser — all plan-detail pages load again (no 404); the woven builder hydrates from persisted entries and the macro panel reads "PER PERSON" (person_count live). `npm run migrations:check` → ✅ all 26 committed migration versions applied. The check proved itself by catching the unapplied `imported_source` migration during setup. Note: the check is version/ledger-based — it catches "committed but never applied", not a phantom ledger row.
+
+## [Unreleased] — 2026-05-21
+
+### Meal Plan Builder — Persist the woven week (close the rehydration gap + reconnect cook)
+
+**Problem:** The woven week lived only in client state. Reloading a "woven" plan dropped back to the planning view, and "Start cooking" / the shopping list read an empty `meal_entries` (the weave never wrote it). Chose `meal_entries` as the single source of truth (no migration — the table already has `source`/`is_leftover`/`parent_clientid`/`locked`/macros/`position`).
+
+**Changed:**
+- `src/app/api/plans/[id]/entries/route.ts` — `PUT` now persists the full entry shape (`source`, `is_leftover`, `locked`, `position`) and maps each entry's ephemeral weave `clientid` → a generated row `uuid`, writing `parent_clientid` as the parent's uuid so leftover→cook-day links survive the atomic delete/insert.
+- `src/app/api/plans/[id]/weave/route.ts` — added a `GET` handler that rebuilds the `WeaveResponse` (`entries` + recipe metadata + a pantry-aware recomputed `summary` via `computeSummary`) from `meal_entries`; returns `{ empty: true }` when none. Reuses the existing pantry/recipe-meta logic.
+- `src/app/(app)/plans/[id]/use-planner-state.ts` — on mount, when the plan status is `woven`/`cooking`, hydrate the grid from `GET …/weave`; persist the current week to `meal_entries`, skipping the write triggered by hydration. **Weave/reweave persists immediately** (deliberate action, no debounce window — bulletproof), while rapid edits (swap/remove/pin) coalesce through a 600ms debounce. A single `skipNextPersist` ref keeps `runWeave`'s immediate write from being double-written by the `weave`-watching effect. New `persistEntries` helper attaches macros from the weave recipe metadata.
+
+**Verification:** `tsc` clean and `eslint` clean on all three files. Browser-verified end-to-end (port 3002): weave → `PUT /entries 200` (persisted) → **reload hydrates straight to the woven view** (macro band + menu grid) instead of planning; **"Start cooking" shows the woven week** with a populated shopping list. (The later immediate-persist refinement is a 4-line change validated by `tsc`/`eslint`; browser re-verification on `feat/wc-theme-studio` is currently blocked by an unrelated pre-existing 404 on the plan-detail route, whose query selects `person_count, track_intake` columns that are not yet present in the DB.)
+
+### Meal Plan Builder — "Editorial Kitchen" redesign (Part B of builder redesign)
+
+**Problem:** The plan builder (planning Pinboard + woven week) was cramped/dark, led with a wall of filter chips that buried the recipes, showed three empty "No matches" blocks that read as broken, and presented macros + the week grid as flat spreadsheets. Planning→woven was a silent panel collapse.
+
+**Approach:** Picked direction "Editorial Kitchen" after prototyping 3 HTML directions in `_design/builder-redesign/` (A editorial / B calm / C mission-control). UI-only rewire — `usePlannerState` and all API routes unchanged.
+
+**Changed (all in `src/components/plans/` unless noted):**
+- `Pinboard.tsx` — editorial hero (search + single **"Tune · N active"** control folding all constraint/inspiration chips + a mono summary line), pinned "shelf", recipe-first gallery; after weave it folds into a slim **"✎ Refine"** bar instead of a silent collapse.
+- `PinboardFeed.tsx` — recipe-first gallery (200px editorial cards, `Fraunces` titles); only renders meal sections with results; replaces three stacked "No matches" blocks with **one** inline branded nudge (and a full empty state) that opens Tune via new `onOpenTune` prop.
+- `RecipeSearchBar.tsx` — added `variant="hero"|"slim"` for the big hero field vs the slim refine-bar field.
+- `ConstraintChipBar.tsx` / `InspirationChips.tsx` — de-stickied + restyled to live inside the Tune panel.
+- `PinTray.tsx` — editorial floating build bar ("Weave my week →").
+- `WeaveSummary.tsx` — refined mono stat row (pantry / active time / variety) + Reweave + bold "🍳 Start cooking →".
+- `MacroSummary.tsx` — four-cell macro **band** with `Fraunces` numerals, `Geist Mono` units, thin progress bars.
+- `WeaveGrid.tsx` / `WeaveCell.tsx` — menu-style grid: `Fraunces`-italic meal-row labels, larger warm cells, editorial empty "+ add".
+- `src/app/(app)/plans/[id]/plan-builder.tsx` — editorial header + state-aware status pill (olive Planning → saffron Woven).
+- `moodboard.config.ts` + `docs/moodboard.log.md` — new "Planner controls (recipe-first)" and "Empty meal results" do/don't pairs; dated log entry.
+
+**Verification:** `tsc` clean on all changed files; `eslint` clean (net-new errors fixed; pre-existing `<a href>`/`any`/`setState-in-effect` patterns left as baseline). Browser-verified live (port 3002): Popular-Plan quick-confirm modal, editorial planning state (hero + Tune + shelf + gallery + build bar), and the woven state (slim Refine bar + stat row + macro band + menu grid) after an in-session weave. `npm run moodboard:check` not run — `scripts/check-moodboard-drift.mjs` is missing from the repo (pre-existing).
+
+**Known gap (out of scope):** woven schedule still isn't persisted to `meal_entries`, so reloading a DB-"woven" plan shows the planning view until re-woven.
+
+### Meal Plan Creation — Kill the double template pick (Part A of builder redesign)
+
+**Problem:** Picking a "Popular Plan" on `/plans` linked to `/plans/new?template=X`, which pre-selected the template but *still* showed the full template carousel below the name field — so the user appeared to choose the same template twice.
+
+**Changed:**
+- `src/app/(app)/plans/template-preview-modal.tsx` — now a quick name-confirm: editable prefilled name + creates the plan directly via `POST /api/plans` (template payload) and routes to `/plans/[id]`. Previously just navigated to `/plans/new?template=`. Render-phase reset seeds the name per opened template.
+- `src/app/(app)/plans/page.tsx` — Popular Plans now render the (previously unused) `SuggestedTemplates` + `TemplatePreviewModal` (theme-aware, fixes latent light-mode color bug) instead of inline `<Link>` cards.
+- `src/app/(app)/plans/new/page.tsx` — removed the template carousel + `?template=` pre-select branch; now the blank/custom path only (name + duration/meals/dietary). Templates live in exactly one place.
+
+**Removed:**
+- `src/app/(app)/plans/new/template-card.tsx` — unused after carousel removal.
+
+
+### Challenge Mode — Live Run Experience
+
+**Problem:** An accepted challenge only surfaced a dim olive-on-near-black banner (nearly invisible), never showed the rules while running, and had no interactive "session" — unlike the immersive Cooking Mode.
+
+**Created:**
+- `supabase/migrations/20260520000002_challenge_rules.sql` — adds `rules text[]`, `objective`, `target_seconds`, `strategy_tip` to `challenge_definitions` and `elapsed_seconds` to `challenge_completions`
+- `supabase/migrations/20260520000003_challenge_rules_seed.sql` — hand-written rules/objective/target/tip for all 25 challenges (speedrun pars: 5/10/15/20/30 min)
+- `src/lib/challenge-run-context.tsx` — `ChallengeRunProvider`: single source of truth for the active run (timer tick + screen wake-lock, pattern from `cooking-mode-context.tsx`)
+- `src/app/(app)/challenge/components/challenge-hud.tsx` — persistent **LIVE HUD**, mounted app-wide, follows into Cooking Mode (`z-[150]`)
+- `src/app/(app)/challenge/run/page.tsx` + `run-screen.tsx` — immersive fullscreen Challenge Run screen (rules manuscript card, smart timer, strategy tip, completion)
+
+**Changed:**
+- `challenge/types.ts`, `utils.ts` — extended `ChallengeDef`/`ChallengeCompletion`/`ActiveChallenge`; added `toActiveChallenge`, `timerView` (count-up vs speedrun countdown w/ tone ramp), `parResult`
+- `challenge-hero.tsx`, `challenge-card.tsx` — accept now starts the run via context + routes to `/challenge/run`
+- `completion-modal.tsx` — records `elapsed_seconds`, shows par comparison ("Beat par by 0:29 🏆"), spring celebration; `z-[400]`
+- `history-log.tsx` — shows run duration ("⏱ 4:31")
+- `challenge-client.tsx` — removed inline `ActiveBanner`/completion (HUD owns it now)
+- `(app)/layout.tsx` — mounts `ChallengeRunProvider` + `<ChallengeHUD/>`
+- `api/challenge/completions/route.ts` — accepts + stores `elapsed_seconds`
+- `moodboard.config.ts` + `docs/moodboard.log.md` — new "Active challenge presence" do/don't pair + `challenge-live-pulse` / `challenge-countdown-urgency` motion intents
+
+**Removed:**
+- `challenge/components/active-banner.tsx`
+
+**Cross-app:** preserves the existing `challenge_completed` streak event emitted to HolyFlex on completion.
+
+**Verification status:** `tsc` clean on all changed files; `eslint` clean (exit 0); migrations applied to Supabase. Live browser pass pending (dev server). `npm run moodboard:check` could not run — `scripts/check-moodboard-drift.mjs` is missing from the repo (pre-existing).
+
+### Fix — Event detail page broke the production build
+
+**Problem:** `next build` failed type-checking at `events/[id]/page.tsx:87` — `locationOptions` was mapped with an over-narrow `(o: { id: string })` annotation, so spreading `...o` dropped `party_id`/`name`/`address`/etc. and the result didn't satisfy `EventLocationOption[]`.
+
+**Changed:**
+- `src/app/(app)/events/[id]/page.tsx` — typed the query with `.returns<EventLocationOption[]>()` and removed the narrowing `{ id: string }` annotations so the full row flows through the vote-count enrichment.
+
+### Fix — Discover background pattern flash
+
+**Changed:**
+- `src/app/(app)/discover/discover-feed-client.tsx` — Root wrapper background changed from the opaque floor (`var(--wc-floor, #1F1B19)`) to `transparent`, so the global kitchen-pattern background shows through on the Discover feed instead of being covered once the page mounts. Section cards keep their own backgrounds and cut off the pattern locally.
+
+### Recipe Descriptions — Editorial copy for chunk-001 (300 recipes)
+
+**Created:**
+- `scripts/chunks/descriptions-output/chunk-001.txt` — Two-tier (HOOK + BODY) editorial descriptions for all 300 recipes in `scripts/chunks/descriptions/chunk-001.txt`
+
+**Details:**
+- Followed the culinary-copywriter brief: 1-sentence hook (≤18 words), 50–75 word body, conservative inference, forbidden-phrase and structural prohibitions enforced
+- Cuisine inferred only where the title makes it undeniable (Chinese, Vietnamese, Thai, French, Italian, Russian, etc.); generic American community-cookbook fare framed as "American home kitchens"
+- Output is plain UTF-8, no BOM, 300 × (TITLE/HOOK/BODY) blocks separated by `---`
+- Generated in 5 batches, concatenated, then repaired a CP1252 double-encoding + BOM artifact from the combine step
+
+---
+
 ## [Unreleased] — 2026-05-11
 
 ### Onboarding Wizard — Task 15: WhatsCooking Full Onboarding Config

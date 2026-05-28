@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { createClient } from '@/lib/supabase/client';
-import { RecipeImage } from '@/components/recipe-image';
 
 export interface DetailRecipe {
   id: string;
@@ -24,237 +23,242 @@ export interface DetailRecipe {
 interface Props {
   recipe: DetailRecipe | null;
   onClose: () => void;
+  onSave?: (recipe: DetailRecipe) => void;
 }
 
 interface Ingredient {
   name: string;
   quantity?: string | number | null;
   unit?: string | null;
-  notes?: string | null;
 }
 
 function useIngredients(recipeId: string | null) {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [loading, setLoading] = useState(false);
-  const [fetchError, setFetchError] = useState(false);
 
   useEffect(() => {
     if (!recipeId) return;
     setIngredients([]);
-    setFetchError(false);
     setLoading(true);
     const supabase = createClient();
     (async () => {
-      try {
-        const { data, error } = await supabase
-          .from('recipes')
-          .select('ingredients')
-          .eq('id', recipeId)
-          .single();
-        if (error) { setFetchError(true); setLoading(false); return; }
-        const raw = (data?.ingredients ?? []) as unknown[];
-        setIngredients(
-          raw.map((r: unknown) => {
-            if (typeof r === 'string') return { name: r };
-            const obj = r as Record<string, unknown>;
-            return {
-              name: String(obj.name ?? obj.ingredient ?? ''),
-              quantity: obj.quantity != null ? String(obj.quantity) : null,
-              unit: obj.unit != null ? String(obj.unit) : null,
-              notes: obj.notes != null ? String(obj.notes) : null,
-            };
-          }).filter(i => i.name)
-        );
-        setLoading(false);
-      } catch {
-        setFetchError(true);
-        setLoading(false);
-      }
+      const { data } = await supabase
+        .from('recipes')
+        .select('ingredients')
+        .eq('id', recipeId)
+        .single();
+      const raw = (data?.ingredients ?? []) as unknown[];
+      setIngredients(
+        raw.map((r: unknown) => {
+          if (typeof r === 'string') return { name: r };
+          const obj = r as Record<string, unknown>;
+          return {
+            name: String(obj.name ?? obj.ingredient ?? ''),
+            quantity: obj.quantity != null ? String(obj.quantity) : null,
+            unit: obj.unit != null ? String(obj.unit) : null,
+          };
+        }).filter(i => i.name)
+      );
+      setLoading(false);
     })();
   }, [recipeId]);
 
-  return { ingredients, loading, fetchError };
+  return { ingredients, loading };
 }
 
-const SHOW_LIMIT = 7;
+const PILL_LIMIT = 5;
 
-function IngredientsSection({ recipeId }: { recipeId: string }) {
-  const { ingredients, loading, fetchError } = useIngredients(recipeId);
-  const [expanded, setExpanded] = useState(false);
+export function RecipeDetailModal({ recipe, onClose, onSave }: Props) {
+  const [saved, setSaved] = useState(false);
 
-  // Reset collapse state when recipe changes
-  useEffect(() => { setExpanded(false); }, [recipeId]);
-
-  const visible = expanded ? ingredients : ingredients.slice(0, SHOW_LIMIT);
-  const hidden = ingredients.length - SHOW_LIMIT;
-
-  return (
-    <div>
-      <div className="flex items-center justify-between mb-2">
-        <h3 className="text-sm font-semibold" style={{ color: '#EFE3CE' }}>
-          Ingredients{ingredients.length > 0 ? ` (${ingredients.length})` : ''}
-        </h3>
-      </div>
-      <div className="h-px mb-3" style={{ background: '#3A3430' }} />
-
-      {loading && (
-        <div className="flex flex-col gap-2">
-          {[1, 2, 3].map(i => (
-            <div key={i} className="h-4 rounded animate-pulse" style={{ background: '#3A3430', width: `${60 + i * 10}%` }} />
-          ))}
-        </div>
-      )}
-
-      {fetchError && (
-        <p className="text-xs" style={{ color: '#A08060' }}>Could not load ingredients.</p>
-      )}
-
-      {!loading && !fetchError && visible.map((ing, i) => (
-        <div key={i} className="flex justify-between py-1.5 text-sm border-b" style={{ borderColor: '#3A3430' }}>
-          <span style={{ color: '#EFE3CE' }}>{ing.name}{ing.notes ? ` (${ing.notes})` : ''}</span>
-          <span className="ml-4 shrink-0 text-xs" style={{ color: '#A08060' }}>
-            {[ing.quantity, ing.unit].filter(Boolean).join(' ') || ''}
-          </span>
-        </div>
-      ))}
-
-      {!loading && !fetchError && !expanded && hidden > 0 && (
-        <button
-          className="mt-2 text-xs"
-          style={{ color: '#F4A261' }}
-          onClick={() => setExpanded(true)}
-        >
-          + {hidden} more
-        </button>
-      )}
-    </div>
-  );
-}
-
-export function RecipeDetailModal({ recipe, onClose }: Props) {
   useEffect(() => {
     if (!recipe) return;
+    setSaved(false);
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
   }, [recipe, onClose]);
 
+  const { ingredients, loading } = useIngredients(recipe?.id ?? null);
+
   if (!recipe) return null;
 
-  return (
-    <div
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center"
-      style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }}
-      onClick={onClose}
-    >
-      <div
-        className="relative w-full sm:max-w-2xl max-h-[90vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl"
-        style={{ background: 'var(--wc-surface-1, #2C2724)', border: '1px solid #3A3430' }}
-        onClick={e => e.stopPropagation()}
-      >
-        {/* Close button */}
-        <button
-          onClick={onClose}
-          className="absolute top-3 right-3 z-10 flex items-center justify-center w-8 h-8 rounded-full text-sm"
-          style={{ background: 'rgba(0,0,0,0.4)', color: '#A08060' }}
-          aria-label="Close"
-        >
-          <span aria-hidden="true">✕</span>
-        </button>
-
-        {/* Hero image */}
-        <div className="w-full" style={{ height: 240, overflow: 'hidden', borderRadius: '1rem 1rem 0 0' }}>
-          <RecipeImage
-            recipeId={recipe.id}
-            imageUrl={recipe.image_url}
-            title={recipe.title}
-            cuisine={recipe.cuisine_type}
-            focal_x={recipe.focal_x}
-            focal_y={recipe.focal_y}
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-        {/* Content */}
-        <div className="px-5 py-4 flex flex-col gap-4">
-          <ModalContent recipe={recipe} />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function ModalContent({ recipe }: { recipe: DetailRecipe }) {
   const totalMinutes =
     recipe.total_time_minutes ??
     (((recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0)) || null);
 
+  const visiblePills = ingredients.slice(0, PILL_LIMIT);
+  const extraCount = ingredients.length - visiblePills.length;
+
   return (
-    <>
-      {/* Cuisine label + title + description */}
-      {recipe.cuisine_type && (
-        <p className="text-xs uppercase font-semibold tracking-widest" style={{ color: '#F4A261' }}>
-          {recipe.cuisine_type}
-        </p>
-      )}
-      <div>
-        <h2 className="text-xl font-semibold leading-snug" style={{ fontFamily: "'Libre Baskerville', Georgia, serif", color: '#EFE3CE' }}>
-          {recipe.title}
-        </h2>
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center px-4"
+      style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(3px)' }}
+      onClick={onClose}
+    >
+      <div
+        className="w-full rounded-2xl overflow-hidden shadow-2xl"
+        style={{
+          maxWidth: 380,
+          background: '#1C1009',
+          border: '1px solid #3A1C08',
+          boxShadow: '0 20px 60px rgba(0,0,0,0.6)',
+        }}
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Top row: image strip + info */}
+        <div className="flex" style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+          {/* Left image strip */}
+          <div className="shrink-0 overflow-hidden" style={{ width: 80 }}>
+            {recipe.image_url ? (
+              <img
+                src={recipe.image_url}
+                alt={recipe.title}
+                className="w-full h-full object-cover"
+                style={{ minHeight: 90 }}
+              />
+            ) : (
+              <div
+                className="w-full h-full flex items-center justify-center text-2xl"
+                style={{ minHeight: 90, background: 'linear-gradient(135deg, #3A1C08, #1C0804)' }}
+              >
+                🍳
+              </div>
+            )}
+          </div>
+
+          {/* Right info */}
+          <div className="flex-1 px-3 py-3 min-w-0">
+            {recipe.cuisine_type && (
+              <p style={{ fontSize: 8, textTransform: 'uppercase', letterSpacing: 3, color: '#F4A261', fontWeight: 600, marginBottom: 3 }}>
+                {recipe.cuisine_type}
+              </p>
+            )}
+            <p
+              className="leading-snug mb-2"
+              style={{ fontFamily: "'Playfair Display', Georgia, serif", fontStyle: 'italic', fontSize: 14, color: '#EFE3CE', lineHeight: 1.25 }}
+            >
+              {recipe.title}
+            </p>
+            <div className="flex gap-3">
+              {totalMinutes && (
+                <span style={{ fontSize: 10, color: '#8A6A4A' }}>⏱ <b style={{ color: '#C85A2F' }}>{totalMinutes}m</b></span>
+              )}
+              {recipe.calories && (
+                <span style={{ fontSize: 10, color: '#8A6A4A' }}>🔥 <b style={{ color: '#C85A2F' }}>{recipe.calories}</b></span>
+              )}
+              {recipe.servings && (
+                <span style={{ fontSize: 10, color: '#8A6A4A' }}>👤 <b style={{ color: '#C85A2F' }}>{recipe.servings}</b></span>
+              )}
+            </div>
+          </div>
+
+          {/* Close */}
+          <button
+            onClick={onClose}
+            className="absolute top-3 right-3 flex items-center justify-center w-6 h-6 rounded-full text-xs"
+            style={{ background: 'rgba(0,0,0,0.4)', color: '#8A6A4A', position: 'relative', flexShrink: 0, alignSelf: 'flex-start', margin: '8px 8px 0 0' }}
+            aria-label="Close"
+          >
+            ✕
+          </button>
+        </div>
+
+        {/* Description */}
         {recipe.description && (
-          <p className="mt-1 text-sm italic" style={{ color: '#7A5A40' }}>
+          <p
+            className="px-3 py-2"
+            style={{
+              fontSize: 11, fontStyle: 'italic', color: 'rgba(239,227,206,0.45)',
+              lineHeight: 1.45, borderBottom: '1px solid rgba(255,255,255,0.05)',
+              overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis',
+            }}
+          >
             {recipe.description}
           </p>
         )}
-      </div>
 
-      {/* Stat pills */}
-      <div className="grid grid-cols-4 gap-2">
-        {[
-          { label: 'Time', value: totalMinutes ? `${totalMinutes} min` : '—' },
-          { label: 'Calories', value: recipe.calories != null ? `${recipe.calories} kcal` : '—' },
-          { label: 'Serves', value: recipe.servings != null ? `${recipe.servings}` : '—' },
-          { label: 'Cuisine', value: recipe.cuisine_type ?? '—' },
-        ].map(({ label, value }) => (
-          <div
-            key={label}
-            className="flex flex-col items-center py-2 px-1 rounded-lg text-center"
-            style={{ background: '#3A3430' }}
-          >
-            <span className="text-xs" style={{ color: '#6B4A32' }}>{label}</span>
-            <span className="text-xs font-semibold mt-0.5 truncate w-full text-center" style={{ color: '#A08060' }}>{value}</span>
-          </div>
-        ))}
-      </div>
-
-      {/* Dietary tags */}
-      {(recipe.dietary_tags ?? []).length > 0 && (
-        <div className="flex flex-wrap gap-2">
-          {(recipe.dietary_tags ?? []).map(tag => (
-            <span
-              key={tag}
-              className="text-xs px-2 py-0.5 rounded-full"
-              style={{ background: '#3A3430', color: '#EFE3CE' }}
-            >
-              {tag}
-            </span>
-          ))}
+        {/* Ingredient pills */}
+        <div className="px-3 py-2" style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+          <p style={{ fontSize: 8, textTransform: 'uppercase', letterSpacing: 2, color: '#6B4A32', fontWeight: 600, marginBottom: 6 }}>
+            Ingredients{ingredients.length > 0 ? ` · ${ingredients.length} items` : ''}
+          </p>
+          {loading ? (
+            <div className="flex gap-2">
+              {[60, 80, 50].map(w => (
+                <div key={w} className="h-5 rounded-full animate-pulse" style={{ width: w, background: '#2A1804' }} />
+              ))}
+            </div>
+          ) : (
+            <div className="flex gap-1.5 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
+              {visiblePills.map((ing, i) => (
+                <span
+                  key={i}
+                  className="shrink-0 text-xs px-2 py-0.5 rounded-full"
+                  style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', color: 'rgba(239,227,206,0.65)', fontSize: 10 }}
+                >
+                  {ing.name}
+                </span>
+              ))}
+              {extraCount > 0 && (
+                <span
+                  className="shrink-0 text-xs px-2 py-0.5 rounded-full"
+                  style={{ background: 'rgba(244,162,97,0.06)', border: '1px solid rgba(244,162,97,0.2)', color: '#F4A261', fontSize: 10 }}
+                >
+                  +{extraCount} more
+                </span>
+              )}
+            </div>
+          )}
         </div>
-      )}
 
-      {/* Ingredients */}
-      <IngredientsSection recipeId={recipe.id} />
+        {/* Dietary tags */}
+        {(recipe.dietary_tags ?? []).length > 0 && (
+          <div className="flex flex-wrap gap-1.5 px-3 py-2" style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+            {(recipe.dietary_tags ?? []).map(tag => (
+              <span
+                key={tag}
+                className="text-xs px-2 py-0.5 rounded-full"
+                style={{ background: 'rgba(130,142,111,0.12)', color: '#828E6F', border: '1px solid rgba(130,142,111,0.18)', fontSize: 9 }}
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
 
-      {/* View full recipe link — opens in new tab to preserve planner context */}
-      <a
-        href={`/recipes/${recipe.id}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center w-full py-2.5 rounded-lg text-sm font-medium border transition-colors"
-        style={{ borderColor: '#F4A261', color: '#F4A261' }}
-      >
-        View full recipe →
-      </a>
-    </>
+        {/* CTAs */}
+        <div className="flex gap-2 px-3 py-3">
+          <button
+            onClick={() => {
+              if (saved) return;
+              setSaved(true);
+              onSave?.(recipe);
+            }}
+            className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-bold text-white"
+            style={{
+              background: saved
+                ? 'linear-gradient(135deg, #4A7C3F, #6AAF5A)'
+                : 'linear-gradient(135deg, #C85A2F, #E8834A)',
+              boxShadow: saved
+                ? '0 3px 10px rgba(74,124,63,0.35)'
+                : '0 3px 10px rgba(200,90,47,0.35)',
+              cursor: saved ? 'default' : 'pointer',
+            }}
+          >
+            {saved ? '✓ Saved' : '♥ Save to plan'}
+          </button>
+          <a
+            href={`/recipes/${recipe.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-3 py-2 rounded-lg text-xs font-semibold"
+            style={{ border: '1px solid rgba(244,162,97,0.25)', color: '#F4A261', background: 'rgba(244,162,97,0.05)', whiteSpace: 'nowrap' }}
+          >
+            Full recipe →
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }

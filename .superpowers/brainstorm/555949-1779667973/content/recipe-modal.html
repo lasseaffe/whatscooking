@@ -1,0 +1,193 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap');
+
+  * { box-sizing: border-box; }
+
+  .modal-wrap {
+    border-radius: 16px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    margin-bottom: 6px;
+  }
+
+  /* ── OPTION A: Current (problem reference) ── */
+  .modal-a {
+    background: #2C2724;
+    border: 1px solid #3A3430;
+  }
+  .modal-a-img {
+    height: 130px;
+    background: linear-gradient(135deg, #4A2010, #2A1008);
+  }
+  .modal-a-body { padding: 14px 16px; }
+  .modal-a-cuisine { font-size: 9px; text-transform: uppercase; letter-spacing: 3px; color: #F4A261; font-weight: 600; margin-bottom: 6px; }
+  .modal-a-title { font-family: 'Playfair Display', serif; font-size: 15px; color: #EFE3CE; margin: 0 0 4px; font-weight: 700; }
+  .modal-a-desc { font-size: 10px; color: #7A5A40; font-style: italic; margin-bottom: 10px; }
+  .modal-a-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 4px; margin-bottom: 10px; }
+  .modal-a-stat { background: #3A3430; padding: 6px 4px; border-radius: 6px; text-align: center; }
+  .modal-a-stat-label { font-size: 8px; color: #6B4A32; display: block; }
+  .modal-a-stat-val { font-size: 9px; font-weight: 600; color: #A08060; display: block; margin-top: 1px; }
+  .modal-a-ing-heading { font-size: 11px; font-weight: 600; color: #EFE3CE; margin-bottom: 6px; }
+  .modal-a-ing { font-size: 10px; color: #EFE3CE; padding: 5px 0; border-bottom: 1px solid #3A3430; display: flex; justify-content: space-between; }
+  .modal-a-ing span { color: #A08060; font-size: 9px; }
+  .modal-a-cta { margin-top: 10px; border: 1px solid #F4A261; color: #F4A261; font-size: 11px; text-align: center; padding: 7px; border-radius: 8px; }
+
+  /* ── OPTION B: Full editorial redesign ── */
+  .modal-b { background: #120A04; border: 1px solid #2A1804; }
+
+  .modal-b-hero {
+    height: 150px;
+    background: linear-gradient(135deg, #4A2010, #1C0804);
+    position: relative;
+    overflow: hidden;
+  }
+  .modal-b-hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(18,10,4,0.1) 0%, rgba(18,10,4,0.85) 100%);
+  }
+  .modal-b-hero-content {
+    position: absolute; bottom: 0; left: 0; right: 0; padding: 12px 14px;
+  }
+  .modal-b-cuisine-row { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+  .modal-b-cuisine-tag {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 3px; font-weight: 600;
+    color: #F4A261; padding: 2px 6px; border-radius: 10px;
+    background: rgba(244,162,97,0.15); border: 1px solid rgba(244,162,97,0.25);
+  }
+  .modal-b-title {
+    font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 17px; color: #EFE3CE; margin: 0; line-height: 1.25;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  }
+
+  .modal-b-stat-strip {
+    display: flex; border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .modal-b-stat {
+    flex: 1; padding: 10px 8px; text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.06);
+  }
+  .modal-b-stat:last-child { border-right: none; }
+  .modal-b-stat-icon { font-size: 14px; display: block; margin-bottom: 2px; }
+  .modal-b-stat-val { font-size: 11px; font-weight: 600; color: #EFE3CE; display: block; }
+  .modal-b-stat-label { font-size: 8px; color: #6B4A32; display: block; margin-top: 1px; text-transform: uppercase; letter-spacing: 1px; }
+
+  .modal-b-desc {
+    padding: 10px 14px 0;
+    font-size: 11px; color: rgba(239,227,206,0.55); line-height: 1.6; font-style: italic;
+  }
+
+  .modal-b-section-head {
+    padding: 10px 14px 6px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .modal-b-section-title { font-size: 11px; font-weight: 600; color: #EFE3CE; text-transform: uppercase; letter-spacing: 2px; }
+  .modal-b-section-count { font-size: 10px; color: #6B4A32; }
+
+  .modal-b-ing-list { padding: 0 14px; }
+  .modal-b-ing {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .modal-b-ing:last-child { border-bottom: none; }
+  .modal-b-ing-name { font-size: 11px; color: #EFE3CE; }
+  .modal-b-ing-qty { font-size: 10px; color: #C85A2F; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .modal-b-dietary { display: flex; flex-wrap: wrap; gap: 4px; padding: 8px 14px; }
+  .modal-b-diet-tag { font-size: 9px; padding: 3px 8px; border-radius: 20px; background: rgba(130,142,111,0.15); color: #828E6F; border: 1px solid rgba(130,142,111,0.2); }
+
+  .modal-b-cta-row { display: flex; gap: 8px; padding: 12px 14px 14px; }
+  .modal-b-cta-plan {
+    flex: 1; padding: 9px;
+    border-radius: 10px; text-align: center; font-size: 11px; font-weight: 700;
+    background: linear-gradient(135deg, #C85A2F, #E8834A); color: white;
+    box-shadow: 0 3px 12px rgba(200,90,47,0.35);
+  }
+  .modal-b-cta-view {
+    padding: 9px 14px; border-radius: 10px; font-size: 11px; font-weight: 600;
+    border: 1px solid rgba(244,162,97,0.3); color: #F4A261;
+  }
+</style>
+
+<h2>Recipe Detail Modal — Full Overhaul</h2>
+<p class="subtitle">The current modal is a plain list with grey stats. Compare against a proper editorial redesign.</p>
+
+<div class="split">
+
+  <div class="mockup">
+    <div class="mockup-header">A — Current (broken)</div>
+    <div class="mockup-body" style="padding:0;">
+      <div class="modal-wrap modal-a">
+        <div class="modal-a-img"></div>
+        <div class="modal-a-body">
+          <div class="modal-a-cuisine">Italian</div>
+          <h2 class="modal-a-title">Hazelnut Cookies</h2>
+          <p class="modal-a-desc">Nice and crisp and delicious cookies, fun to make when the apples are falling…</p>
+          <div class="modal-a-stats">
+            <div class="modal-a-stat"><span class="modal-a-stat-label">Time</span><span class="modal-a-stat-val">45 min</span></div>
+            <div class="modal-a-stat"><span class="modal-a-stat-label">Cals</span><span class="modal-a-stat-val">93</span></div>
+            <div class="modal-a-stat"><span class="modal-a-stat-label">Serves</span><span class="modal-a-stat-val">12</span></div>
+            <div class="modal-a-stat"><span class="modal-a-stat-label">Cuisine</span><span class="modal-a-stat-val">Italian</span></div>
+          </div>
+          <div class="modal-a-ing-heading">Ingredients (8)</div>
+          <div class="modal-a-ing">brown sugar <span>1 cup</span></div>
+          <div class="modal-a-ing">shortening <span>½ cup</span></div>
+          <div class="modal-a-ing">egg <span>1</span></div>
+          <div class="modal-a-ing">vanilla <span>1 tsp</span></div>
+          <div class="modal-a-cta">View full recipe →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup" style="cursor:pointer;" onclick="this.style.outline='2px solid #F4A261'">
+    <div class="mockup-header">B — Editorial redesign ★ New</div>
+    <div class="mockup-body" style="padding:0;">
+      <div class="modal-wrap modal-b">
+        <div class="modal-b-hero">
+          <div class="modal-b-hero-overlay"></div>
+          <div class="modal-b-hero-content">
+            <div class="modal-b-cuisine-row">
+              <span class="modal-b-cuisine-tag">Italian</span>
+            </div>
+            <h2 class="modal-b-title">Hazelnut Cookies</h2>
+          </div>
+        </div>
+
+        <div class="modal-b-stat-strip">
+          <div class="modal-b-stat"><span class="modal-b-stat-icon">⏱</span><span class="modal-b-stat-val">45 min</span><span class="modal-b-stat-label">Total</span></div>
+          <div class="modal-b-stat"><span class="modal-b-stat-icon">🔥</span><span class="modal-b-stat-val">93</span><span class="modal-b-stat-label">kcal</span></div>
+          <div class="modal-b-stat"><span class="modal-b-stat-icon">👤</span><span class="modal-b-stat-val">12</span><span class="modal-b-stat-label">Serves</span></div>
+        </div>
+
+        <div class="modal-b-desc">
+          Nice and crisp cookies, fun to make when the apples are falling from the trees…
+        </div>
+
+        <div class="modal-b-dietary">
+          <span class="modal-b-diet-tag">vegetarian</span>
+          <span class="modal-b-diet-tag">nut-free</span>
+        </div>
+
+        <div class="modal-b-section-head">
+          <span class="modal-b-section-title">Ingredients</span>
+          <span class="modal-b-section-count">8 items</span>
+        </div>
+        <div class="modal-b-ing-list">
+          <div class="modal-b-ing"><span class="modal-b-ing-name">Brown sugar</span><span class="modal-b-ing-qty">1 cup</span></div>
+          <div class="modal-b-ing"><span class="modal-b-ing-name">Shortening</span><span class="modal-b-ing-qty">½ cup</span></div>
+          <div class="modal-b-ing"><span class="modal-b-ing-name">Egg</span><span class="modal-b-ing-qty">1</span></div>
+          <div class="modal-b-ing"><span class="modal-b-ing-name">Vanilla extract</span><span class="modal-b-ing-qty">1 tsp</span></div>
+          <div class="modal-b-ing" style="opacity:0.4;font-size:10px;justify-content:center;color:#6B4A32;">+ 4 more ingredients</div>
+        </div>
+
+        <div class="modal-b-cta-row">
+          <div class="modal-b-cta-plan">♥ Add to meal plan</div>
+          <div class="modal-b-cta-view">Full recipe →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

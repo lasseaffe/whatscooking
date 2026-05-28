@@ -1,0 +1,167 @@
+<style>
+  body { font-family: sans-serif; }
+  .mock { background: #1A120A; border-radius: 10px; padding: 14px; color: #F5EDE0; font-size: 12px; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  .label { font-size: 9px; letter-spacing: 1.2px; text-transform: uppercase; color: #8B7355; }
+  .big { font-size: 22px; font-weight: 700; }
+  .small { font-size: 11px; color: #8B7355; }
+  .bar { height: 3px; border-radius: 2px; background: #2C1F10; margin-top: 4px; }
+  .bar-fill { height: 3px; border-radius: 2px; }
+  .row4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 10px; }
+  .macro-cell { background: #2C1F10; border-radius: 6px; padding: 8px; }
+  .toggle { display: inline-flex; background: #2C1F10; border-radius: 20px; padding: 2px; gap: 2px; margin-bottom: 10px; }
+  .toggle-btn { padding: 3px 10px; border-radius: 16px; font-size: 10px; color: #8B7355; cursor: pointer; }
+  .toggle-btn.active { background: #E67E22; color: white; }
+  .day-strip { display: flex; gap: 6px; overflow: hidden; margin-top: 8px; }
+  .day-col { flex: 1; background: #2C1F10; border-radius: 6px; padding: 6px; text-align: center; }
+  .day-col.today { border: 1px solid #E67E22; }
+  .day-num { font-size: 9px; color: #8B7355; margin-bottom: 4px; }
+  .day-cal { font-size: 11px; font-weight: 700; color: #E67E22; }
+  .day-bars { margin-top: 4px; display: flex; flex-direction: column; gap: 2px; }
+  .mini-bar { height: 2px; border-radius: 1px; background: #3A2A1A; }
+  .mini-fill { height: 2px; border-radius: 1px; }
+  /* person count row */
+  .pcount { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .pcount-label { font-size: 10px; color: #8B7355; }
+  .pcount-val { background: #2C1F10; border-radius: 6px; padding: 3px 10px; font-size: 11px; font-weight: 700; color: #F5EDE0; }
+  .pcount-btn { width: 20px; height: 20px; border-radius: 50%; border: 1px solid #3A2A1A; color: #8B7355; background: #2C1F10; font-size: 12px; display: flex; align-items: center; justify-content: center; }
+  /* section divider */
+  .divider { font-size: 9px; letter-spacing: 1.2px; text-transform: uppercase; color: #8B7355; display: flex; align-items: center; gap: 6px; margin: 10px 0 6px; }
+  .divider::after { content:''; flex:1; height:1px; background:#2C1F10; }
+</style>
+
+<h2>Per-Day Per-Person Macro Breakdown</h2>
+<p class="subtitle">How should the daily breakdown appear in the plan builder?</p>
+
+<div class="cards">
+
+  <!-- Option A: Toggle Week / Per Day -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px; background:#111">
+      <div class="mock">
+        <!-- Person count -->
+        <div class="pcount">
+          <span class="pcount-label">Cooking for</span>
+          <div class="pcount-btn">−</div>
+          <span class="pcount-val">2 people</span>
+          <div class="pcount-btn">+</div>
+        </div>
+        <!-- Toggle -->
+        <div class="toggle">
+          <span class="toggle-btn">Week total</span>
+          <span class="toggle-btn active">Per day · Per person</span>
+        </div>
+        <!-- Per-day strip -->
+        <div class="day-strip">
+          <div class="day-col today">
+            <div class="day-num">DAY 1</div>
+            <div class="day-cal">612<span style="font-size:8px;color:#8B7355">kcal</span></div>
+            <div class="day-bars">
+              <div class="mini-bar"><div class="mini-fill" style="width:70%;background:#AEB873"></div></div>
+              <div class="mini-bar"><div class="mini-fill" style="width:55%;background:#E0B85A"></div></div>
+              <div class="mini-bar"><div class="mini-fill" style="width:80%;background:#C8522A"></div></div>
+            </div>
+          </div>
+          <div class="day-col">
+            <div class="day-num">DAY 2</div>
+            <div class="day-cal">588<span style="font-size:8px;color:#8B7355">kcal</span></div>
+            <div class="day-bars">
+              <div class="mini-bar"><div class="mini-fill" style="width:60%;background:#AEB873"></div></div>
+              <div class="mini-bar"><div class="mini-fill" style="width:65%;background:#E0B85A"></div></div>
+              <div class="mini-bar"><div class="mini-fill" style="width:50%;background:#C8522A"></div></div>
+            </div>
+          </div>
+          <div class="day-col">
+            <div class="day-num">DAY 3</div>
+            <div class="day-cal">701<span style="font-size:8px;color:#8B7355">kcal</span></div>
+            <div class="day-bars">
+              <div class="mini-bar"><div class="mini-fill" style="width:85%;background:#AEB873"></div></div>
+              <div class="mini-bar"><div class="mini-fill" style="width:40%;background:#E0B85A"></div></div>
+              <div class="mini-bar"><div class="mini-fill" style="width:90%;background:#C8522A"></div></div>
+            </div>
+          </div>
+          <div class="day-col" style="opacity:0.4">
+            <div class="day-num">DAY 4</div>
+            <div class="day-cal" style="color:#8B7355">—</div>
+            <div class="day-bars">
+              <div class="mini-bar"></div>
+              <div class="mini-bar"></div>
+              <div class="mini-bar"></div>
+            </div>
+          </div>
+          <div class="day-col" style="opacity:0.4">
+            <div class="day-num">DAY 5</div>
+            <div class="day-cal" style="color:#8B7355">—</div>
+            <div class="day-bars">
+              <div class="mini-bar"></div>
+              <div class="mini-bar"></div>
+              <div class="mini-bar"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Macro detail for selected day -->
+        <div class="divider">Day 1 detail — per person</div>
+        <div class="row4">
+          <div class="macro-cell"><div class="label">Energy</div><div class="big mono" style="color:#E67E22">612</div><div class="small">kcal / person</div><div class="bar"><div class="bar-fill" style="width:62%;background:#E67E22"></div></div></div>
+          <div class="macro-cell"><div class="label">Protein</div><div class="big mono" style="color:#AEB873">52</div><div class="small">g / person</div><div class="bar"><div class="bar-fill" style="width:78%;background:#AEB873"></div></div></div>
+          <div class="macro-cell"><div class="label">Carbs</div><div class="big mono" style="color:#E0B85A">71</div><div class="small">g / person</div><div class="bar"><div class="bar-fill" style="width:55%;background:#E0B85A"></div></div></div>
+          <div class="macro-cell"><div class="label">Fat</div><div class="big mono" style="color:#C8522A">28</div><div class="small">g / person</div><div class="bar"><div class="bar-fill" style="width:80%;background:#C8522A"></div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Toggle + Day Strip + Detail</h3>
+      <p>Toggle switches MacroSummary between Week Total and Per Day view. Day strip shows each day at a glance; clicking a day reveals full macro detail per person. Person count is set inline. Recommended.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Always-visible day columns -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px; background:#111">
+      <div class="mock">
+        <div class="pcount" style="margin-bottom:8px">
+          <span class="pcount-label">Cooking for</span>
+          <div class="pcount-btn">−</div>
+          <span class="pcount-val">2 people</span>
+          <div class="pcount-btn">+</div>
+          <span style="font-size:9px;color:#8B7355;margin-left:auto">per person · per day</span>
+        </div>
+        <!-- Always-expanded day columns -->
+        <div style="display:grid; grid-template-columns: 60px repeat(5,1fr); gap:4px; font-size:10px">
+          <div style="color:#8B7355;padding:4px"></div>
+          <div style="text-align:center;color:#E67E22;padding:4px;font-size:9px">DAY 1</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;font-size:9px">DAY 2</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;font-size:9px">DAY 3</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;font-size:9px;opacity:0.4">DAY 4</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;font-size:9px;opacity:0.4">DAY 5</div>
+          <!-- Energy row -->
+          <div style="color:#E67E22;padding:4px;font-size:9px">⚡ kcal</div>
+          <div style="text-align:center;font-weight:700;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">612</div>
+          <div style="text-align:center;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">588</div>
+          <div style="text-align:center;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">701</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;background:#2C1F10;border-radius:4px;opacity:0.4">—</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;background:#2C1F10;border-radius:4px;opacity:0.4">—</div>
+          <!-- Protein row -->
+          <div style="color:#AEB873;padding:4px;font-size:9px">🥩 g</div>
+          <div style="text-align:center;font-weight:700;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">52</div>
+          <div style="text-align:center;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">48</div>
+          <div style="text-align:center;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">61</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;background:#2C1F10;border-radius:4px;opacity:0.4">—</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;background:#2C1F10;border-radius:4px;opacity:0.4">—</div>
+          <!-- Carbs row -->
+          <div style="color:#E0B85A;padding:4px;font-size:9px">🌾 g</div>
+          <div style="text-align:center;font-weight:700;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">71</div>
+          <div style="text-align:center;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">65</div>
+          <div style="text-align:center;color:#F5EDE0;padding:4px;background:#2C1F10;border-radius:4px">58</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;background:#2C1F10;border-radius:4px;opacity:0.4">—</div>
+          <div style="text-align:center;color:#8B7355;padding:4px;background:#2C1F10;border-radius:4px;opacity:0.4">—</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Always-visible Day×Macro Grid</h3>
+      <p>Persistent table showing every day as a column and each macro as a row. Dense at a glance, no clicks needed, but takes more vertical space and doesn't replace the week summary.</p>
+    </div>
+  </div>
+
+</div>

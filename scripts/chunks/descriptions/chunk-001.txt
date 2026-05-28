@@ -1,0 +1,2175 @@
+TITLE: "All-American" Strawberry Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 c. strawberry jelly, 6 Tbsp. cornstarch, 6 Tbsp. water, 3 baked 9-inch pie shells, 6 lb. fresh, whole, stemmed California strawberries, 3 c. lightly sweetened whipped cream
+---
+TITLE: "Buckeyes"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. margarine, 2 lb. peanut butter, 3 lb. powdered sugar, 3 pkg. chocolate chips, 1 cake paraffin
+---
+TITLE: "Cholives" Puff Appetizers
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: stuffed olives, 1/4 c. soft butter, 5 oz. Old English cheese spread, 3/4 c. flour
+---
+TITLE: "Cobbler Pie"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 stick margarine, 1 c. self-rising flour, 1 c. sugar, 1 c. milk, 3 c. fresh peaches, 1 c. water
+---
+TITLE: "Coffee Float"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. coffee, 1/2 c. vanilla ice milk
+---
+TITLE: "Cowbelle" Special
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1 can tomatoes, 1 Tbsp. steak sauce, 1 can mushroom soup, 1/2 small box elbow macaroni, 2 Tbsp. ketchup
+---
+TITLE: "Delicious" Scalloped Potatoes(Without Cheese)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 large potatoes, 2 cans evaporated milk, 3/4 stick margarine, salt and pepper
+---
+TITLE: "Delightfully Quick Stir-Fry"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (14 oz.) can Contadina pasta ready, 1 (8 oz.) lobster or crab Louis Kemp Delights, 1 1/2 c. cooked rice, other vegetables of your choice (optional)
+---
+TITLE: "E-Z Cream Puffs"(No Cooking!)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 bags Stella D'oro "Anginetti" cookies, large Cool Whip, 8 oz. bar cream cheese, 1 1/2 cans crushed pineapple, well drained, fresh fruit for garnish
+---
+TITLE: "Elvis" Snack
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. Hostess cupcakes, 1 (16 oz.) bottle Pepsi
+---
+TITLE: "Glop"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. lean hamburg, 1 can beef bouillon, 1 small onion, chopped, 1 c. chopped celery, 1 c. frozen or fresh corn, 2 Tbsp. corn or potato starch
+---
+TITLE: "Good Friday" Vegetable Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 c. butter, 3 medium carrots, sliced, 2 medium onions, 1 c. shredded cabbage, 1/4 c. chopped parsley, 1/2 tsp. salt
+---
+TITLE: "Matos" Gravy
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can tomatoes, mashed, 1 tsp. salt, 1 tsp. oil, pinch of sugar
+---
+TITLE: "Mock" Hollandaise
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/4 lb. stick butter or margarine, 4 oz. sour cream, 1 Tbsp. prepared mustard, dash of garlic salt, dash of pepper and salt, 1 tsp. lemon juice
+---
+TITLE: "Old Fashion" Stack Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. shortening, 1/3 c. sorghum molasses, 1 beaten egg, 2 tsp. baking powder, 1/2 tsp. salt, 1/2 c. sugar
+---
+TITLE: "Peachy" Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 c. flour, 1 c. oil, 4 eggs, 3 tsp. vanilla, 2 c. sugar, 3 tsp. baking powder
+---
+TITLE: "Pretty As A Picture" Veggie Squares
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 (8 oz.) cartons soft cream cheese, 1 c. mayonnaise or fat-free, 1 pkg. Hidden Valley Ranch dressing (powder), 2 canisters crescent rolls ("makes 8" size; refrigerated), 1/2 c. minced carrots, 1/2 c. minced broccoli florets
+---
+TITLE: "Sandra'S" Cream Cheese Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. cream cheese, softened, 1/3 c. lemon juice, 1 can Eagle Brand, 1 graham cracker crust
+---
+TITLE: "Spicy" Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 eggs, 1 3/4 c. brown sugar, salt, 1 Tbsp. allspice, 1 Tbsp. cinnamon, 1 tsp. cardamom
+---
+TITLE: "Surprises"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground sirloin, 1 carrot, onion slices, 1 medium potato, salt and pepper to taste, all-purpose flour
+---
+TITLE: "You Name It" Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. flour, 1 c. chopped pecans, 1 c. butter, 8 oz. cream cheese, 1 c. powdered sugar, 8 oz. Cool Whip
+---
+TITLE: "Yummy" Strawberry Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (3 oz.) pkg. strawberry flavored gelatin, 1/4 c. sugar, 3/4 c. hot water, 9-inch single crust baked pie shell, 3 c. whipped topping, 1 1/2 c. sliced fresh strawberries or 12 oz. pkg. frozen strawberries
+---
+TITLE: *Apricot Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large pkg. apricot jello (6 oz.), 2/3 c. sugar, 1 (8 oz.) pkg. cream cheese, 2 jars Junior baby food apricots, 1 (No. 2) can crushed pineapple (20 oz.), 1 tall can evaporated milk, chilled and whipped
+---
+TITLE: *Autumn Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1 c. chopped onion, 4 c. water, 1 c. chopped carrots, 1 c. diced celery, 1 c. cubed potatoes
+---
+TITLE: *Chicken Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. cooked chicken breasts, 1 c. cream of celery soup, 1 c. cream of chicken soup, 1 c. mushroom soup, 1 large can mixed vegetables, 1 c. self-rising flour
+---
+TITLE: *Chocolate Pie*
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. sugar, 1/2 c. cocoa, 1 tsp. salt, 5 Tbsp. cornstarch, 2 Tbsp. flour, 5 egg yolks
+---
+TITLE: 0 Fat Chunky Watermelon Salsa
+CURRENT_DESCRIPTION: this is fantastic served with grilled seafood or chicken! plan ahead this needs to chill for 30 minutes before serving, this can be made up to 2 hours in advance, but does not keep well overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime, watermelon, cucumber, green onion, cilantro, jalapenos
+---
+TITLE: 0 Point Soup   Ww
+CURRENT_DESCRIPTION: another 0 point soup -- just clock full of veggies! i don't eat this as snacks (as i know some people do) but rather as for dinner with sandwiches. this freezes wonderfully in small tupperware containers -- which is great to bring to work and heat up in the micro. recipe source: www.weightwatchers.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, onion, carrots, red bell pepper, zucchini, cabbage
+---
+TITLE: 1 000 Artichoke Hearts
+CURRENT_DESCRIPTION: by chef anthony fielding at poncho's wreck restaurant in wilmington, vermont.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, egg, unseasoned breadcrumbs, oil, unsalted butter, fresh garlic
+---
+TITLE: 1 001 Nights Cake
+CURRENT_DESCRIPTION: a delicious arabian honey treat, and very quick and easy to prepare. the cake is buttery-eggy, and the topping is a chewy confection of butter, sugar, honey, almonds and cinnamon; ed compares the topping to pecan pie, but it's much more caramelized and toothsome.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, eggs, sugar, vanilla extract, baking powder, flour
+---
+TITLE: 1 2 3 4 5 Chinese Spareribs
+CURRENT_DESCRIPTION: 5 ingredients,5 steps...it doesn't get much easier than this. found this recipe on the net, with no name attached.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spareribs, cooking wine, sugar, vinegar, soy sauce, water
+---
+TITLE: 1 2 3 4 Bars
+CURRENT_DESCRIPTION: this is another of ma's recipes. sure to please! you can use any canned pie filling, fresh or dried (reconstituted) fruit of your choice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, flour, eggs, vanilla, almond extract
+---
+TITLE: 1 2 3 4 Cake
+CURRENT_DESCRIPTION: here's a paula deen update of my mom's favorite cake recipe. i remember mom using the recipe as it was, printed on the side of the "swans down cake flour" box. a great birthday-cake kind of recipe, it's called "1-2-3-4 cake" because, the ingredients, at that time, were listed: "1 cup butter, 2 cups sugar, 3 cups cake flour, 4 eggs" etc. paula's recipe simplifies some steps, with nothing lost in flavor and texture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, self-rising flour, eggs, milk, pure vanilla extract
+---
+TITLE: 1 2 3 4 Cake  Orange
+CURRENT_DESCRIPTION: my mother just gave me a whole box of recipes and i found this recipe in it. it sounded so good, i baked it for a bake sale. a woman bought a couple of pieces, liked it so much that she came back and bought the rest of the cake. definitely a keeper... very easy, tasty, and versatile. i made it in a 9x13 pan. you can use milk or water instead of orange juice but i really liked the flavour of the orange juice and the raisins in it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, all-purpose flour, cream of tartar, baking soda
+---
+TITLE: 1 2 3 4 Cake With Caramel Icing
+CURRENT_DESCRIPTION: this really a scrumptious cake, though it is true, as some reviewers have noted, that the frosting just barely covers all three layers. you could double the recipe, as some people have done, or you could make a batch and a half.  your call.  to make a batch and a half, the measurements would then be:  3/4 cup butter; 1-1/2 cups dark brown sugar; 1/4 + 2 tablespoons milk; and 3 cups of confectioner's sugar.  hopefully, this will give you enough frosting without having too much left over in your bowl, which, if you're anything like me, you will then be forced to eat at least *some* of, so as not to have to wash it all down the sink. ; )
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, unsalted butter, granulated sugar, eggs, milk
+---
+TITLE: 1 2 3 4 coconut cake
+CURRENT_DESCRIPTION: oh my goodness!!!  totally worth all of the work!  everyone always asks for and always loves!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, sugar, self-rising flour, eggs, vanilla extract, coconut milk
+---
+TITLE: 1 2 3 4 Coconut Cake
+CURRENT_DESCRIPTION: oh my goodness!!!  totally worth all of the work!  everyone always asks for and always loves!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, sugar, self-rising flour, eggs, vanilla extract, coconut milk
+---
+TITLE: 1 2 3 Apple Crisp
+CURRENT_DESCRIPTION: you can also use this tantalizing recipe to make peach crisp (which i highly recommend.) very easy and delightful. at its best when served hot. use fresh fruit whenever possible.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, brown sugar, flour, oats, cinnamon, nutmeg
+---
+TITLE: 1 2 3 balsamic chicken
+CURRENT_DESCRIPTION: it's as easy as one, two, three to prepare a delicious roast chicken.  preparation time does not include one day of marinating in the refrigerator for best flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, fresh rosemary, garlic cloves, balsamic vinegar, red wine, salt and pepper
+---
+TITLE: 1 2 3 Balsamic Chicken
+CURRENT_DESCRIPTION: it's as easy as one, two, three to prepare a delicious roast chicken.  preparation time does not include one day of marinating in the refrigerator for best flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, fresh rosemary, garlic cloves, balsamic vinegar, red wine, salt and pepper
+---
+TITLE: 1 2 3 Biscuits
+CURRENT_DESCRIPTION: i can not wait to try this recipe. i found it in the "best of the best from alaska" cookbook. i am placing it here for reference.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, flour, baking powder, oil, milk
+---
+TITLE: 1 2 3 Chicken Supper
+CURRENT_DESCRIPTION: this is a very easy dish to prepare. goes great over crunchy chow mein noodles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless skinless chicken breast half, frozen green beans, frozen mixed vegetables, hot pepper sauce
+---
+TITLE: 1 2 3 Chicken Vegetable Rice
+CURRENT_DESCRIPTION: a recipe from minute rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, liquid honey, lemon juice, garlic, hot pepper sauce, chicken stock
+---
+TITLE: 1 2 3 Enchiladas
+CURRENT_DESCRIPTION: this is the best recipe for quick enchiladas that people devour when i make it. it is easy and uses stuff you already have in your house. i like to use 2 cans of chili. i got this recipe off the http://www.eversave.com/eversave/consumers/recipe.jsp website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chili without beans, corn tortillas, diced onion, ground turkey, cheddar cheese, tomato sauce
+---
+TITLE: 1 2 3 Granola
+CURRENT_DESCRIPTION: this is great with milk or soy milk, and also can be eaten plain as a snack. will keep for weeks in the refrigerator.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, wheat germ, sunflower seeds, walnuts, honey, oil
+---
+TITLE: 1 2 3 Hash Browns Pie   K
+CURRENT_DESCRIPTION: this is an excellent brunch idea.  you could make this in a pie pan or a sq 9x9 pan. super fast,and super tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen hash brown potatoes, mozzarella cheese, mushrooms, frozen broccoli florets, eggs, milk
+---
+TITLE: 1 2 3 Healthy Soup
+CURRENT_DESCRIPTION: this soup is super healthy and super good at curing any cold weather blues
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soybeans, chicken stock, broccoli, red potatoes, green cabbage, salt and pepper
+---
+TITLE: 1 2 3 Jambalaya
+CURRENT_DESCRIPTION: this simple recipe from southern living is as simple as 1-2-3! this is a great recipe for when you really want some jambalaya and just do not have the time to stand over the stove! it was published in the december 1997.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, green bell pepper, smoked sausage, olive oil, cooked chicken, long-grain rice
+---
+TITLE: 1 2 3 Peach Cobbler
+CURRENT_DESCRIPTION: heart healthy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cinnamon, vanilla extract, cornstarch, peach nectar, pineapple juice, peaches
+---
+TITLE: 1 2 3 Rice And Chili Burritos
+CURRENT_DESCRIPTION: these are the best to make when you want to be in and out of the kitchen in no time. everybody loves them. they're also great with brown rice on low-carb tortillas!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chili with beans, instant rice, water, cheese, salsa, tortillas
+---
+TITLE: 1 2 3 Steak On Noodles
+CURRENT_DESCRIPTION: from my collection of handwritten recipes 1964. serve with cole slaw, buttered green beans and fresh apple crumb pie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steaks, oil, salt and pepper, onion, green bell pepper, 7-up soda
+---
+TITLE: 1 2 Cup Soup
+CURRENT_DESCRIPTION: i make soup like this based on what's freshest, and what i have on hand.  more of a technique than a real recipe, but always light and satisfying.  you can use more ingredients than specified, but will need more broth, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, chicken broth, fresh parsley, hot pepper flakes, carrot
+---
+TITLE: 1 2 Hour Raisin Pudding
+CURRENT_DESCRIPTION: just like the pudding and sauce mixes you buy at the supermarket but better!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, raisins, baking powder, milk, salt
+---
+TITLE: 1 2 Way Brownies
+CURRENT_DESCRIPTION: these brownies don't contain as much chocolate as most recipes. with just 2 tbsp of chocolate, these are still satisfying enough (at least for me) and they are lower in calorie. the measurements may seem weird, but trust me the brownies are fudgy and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, shortening, sugar, chocolate chips, egg, vanilla
+---
+TITLE: 1 3  Pound Squeeze Burger
+CURRENT_DESCRIPTION: adapted from a recipe courtesy of squeeze inn. from "diners, drive-ins and dives" cookbook. frying these on a hot griddle, the owner takes a 1/3 pound handful of cheddar cheese to top  a 1/3 pound burger pattie. the cheese spreads out, ice is placed around it, and the top bun is put in place before the whole thing is covered to let it steam. they use "flat-top" burgers, which i like because you get that nice caramelized crisp on the meat. so when making the patties, don't make them too round, flatten them out. this really works. you're gonna love it.-guy fieri
+and i say i second that.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, lawry, ,, ,, ,, ,
+---
+TITLE: 1 Asian Noodle Salad
+CURRENT_DESCRIPTION: i am addicted to this! and it's so easy to make and good for taking to bbq's, potlucks etc. found the recipe in my local grocery store's weekly advertisement.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice noodles, carrot, english cucumber, green onions, bean sprouts, garlic
+---
+TITLE: 1 Bowl 1 Person Mashed Potatoes
+CURRENT_DESCRIPTION: ever feel like having mashed potatoes but you worry it will be a big fuss? are you alone and just want to have one portion? well this is for you!
+
+i just love mashed potatoes, and decided to share my little secret on how to indulge whenever you want on them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, butter, milk, salt, pepper
+---
+TITLE: 1 Bowl Fudgy Brownies
+CURRENT_DESCRIPTION: very good!  from chatelaine magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, butter, granulated sugar, eggs, vanilla, all-purpose flour
+---
+TITLE: 1 Brownies In The World    Best Ever
+CURRENT_DESCRIPTION: these are the most; chocolatey, moist, rich, dense, fudgy, delicious brownies that you'll ever make.....sereiously! there's no doubt that these will be your fav brownies ever for you can add things to them or make them plain.....either way they're pure heaven!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bittersweet chocolate, unsalted butter, eggs, granulated sugar, unsweetened cocoa powder, vanilla extract
+---
+TITLE: 1 Dish Caramel Pecan Coffee Cake  Round
+CURRENT_DESCRIPTION: i have not tried this recipe. i got it from fleischmann's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, all-purpose flour, fast rising yeast, sugar, salt, water
+---
+TITLE: 1 Dish Hot Fudge Swirl Cake
+CURRENT_DESCRIPTION: from a fleischmann's ad in country living - an oh-so-easy and oh-so-yummy treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, fast rise yeast, sugar, salt, water, butter
+---
+TITLE: 1 Dish Italian 5 Cheese Pizza Bake
+CURRENT_DESCRIPTION: a quick recipe with only 20 minutes preparation using fleishchmann's rapid rise yeast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, all-purpose flour, fast rising yeast, sugar, salt, water
+---
+TITLE: 1 Dish Pizza Bake
+CURRENT_DESCRIPTION: i found this in our newspaper coupon section, and made many changes.  it's really good and fun!  the kids love it.  get creative by using different veggies and meats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, fast rising yeast, water, olive oil
+---
+TITLE: 1 Favorite Chinese Steamed Whole Fish By Sy
+CURRENT_DESCRIPTION: steamed whole fresh fish is one of the best liked of all cantonese chinese dishes. one of my favorite sauces to go along with steamed fish is a
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish, scallions, rice wine, peanut oil, sesame oil, white pepper
+---
+TITLE: 1 French Onion Soup
+CURRENT_DESCRIPTION: by far the best onion soup i've ever eaten...and i love food! it freezes well..just freeze the soup and prepare the bread separately.  it sounds like a lot of work but it's not, and it is well worth it.  the recipe is supposed to make 8 servings...but in our house it only makes 4!  the measurements for cheese can be altered depending on your tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, yellow onions, sugar, flour, beef broth
+---
+TITLE: 1 Gram Fat Chocolate Banana Freezer Pops
+CURRENT_DESCRIPTION: these don't even have one gram of fat if prepared with the listed ingredients!  if you prefer a sweeter taste add in some spenda sweetener. in place of the freezer pop plastic molds use 18 (3-ounce) disposable clear plastic drink cups with 18 wooden sticks. to make removing the freezer pops easier from the plastic cup just run under warm water and it will pop out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat milk, sugar-free instant vanilla pudding mix, bananas, sugar-free instant chocolate pudding mix, popsicle molds
+---
+TITLE: 1 Gram Fat Pumpkin Spice Muffins  Low Fat
+CURRENT_DESCRIPTION: these muffins are a blessing for people restricted to low-fat foods, there is only about 1 gram of fat in each muffin, these muffins do not at all taste low-fat! this recipe will make 36 muffins, so just pop them into the freezer for a fat-free snack or for breakfast! if desired add in chopped nuts although that will add to the fat content, you can use egg beaters in place of eggs and white sugar in place of brown or use half of each.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wheat flour, brown sugar, baking powder, baking soda, salt, nutmeg
+---
+TITLE: 1 Hour  Smoky Ham And Lentil Soup
+CURRENT_DESCRIPTION: this soup is the best!  my mom owns a catering business and her chef makes this for the cafe.  flavorful and hearty, even has a bit of a kick to it.  serve with warm crusty bread...a great meal on a fall/winter day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry lentils, smoked ham, water, ham soup base, celery, onion
+---
+TITLE: 1 hour cinnamon rolls
+CURRENT_DESCRIPTION: usually this recipe takes me a little more than an hour to make, but it still is a quick way to make cinnamon rolls for a great morning breakfast surprise.  i've been making these rolls for my family for 18 years.  it can be made as cinnamon rolls or caramel sticky buns by changing the filling and the icing. if you have a mixer capable of kneading, you can cut the kneading time to about 4 minutes, just until dough comes together well and begins to pull from the sides.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, oil, flour, fast rising yeast, sugar, salt
+---
+TITLE: 1 Hour Cinnamon Rolls
+CURRENT_DESCRIPTION: usually this recipe takes me a little more than an hour to make, but it still is a quick way to make cinnamon rolls for a great morning breakfast surprise.  i've been making these rolls for my family for 18 years.  it can be made as cinnamon rolls or caramel sticky buns by changing the filling and the icing. if you have a mixer capable of kneading, you can cut the kneading time to about 4 minutes, just until dough comes together well and begins to pull from the sides.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, oil, flour, fast rising yeast, sugar, salt
+---
+TITLE: 1 Hour Ham And Bean Soup
+CURRENT_DESCRIPTION: made this one up myself, from a mix of different recipes.  no need to wait for dry beans to soak. you get great homemade soup in about an hour!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, carrot, celery, onion, ham, garlic
+---
+TITLE: 1 In Canada Chocolate Chip Cookies
+CURRENT_DESCRIPTION: this is the recipe that we use at my school cafeteria for chocolate chip cookies. they must be the best chocolate chip cookies i have ever had! if you don't have margarine or don't like it, then just use butter (softened) instead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, brown sugar, salt, margarine, eggs, vanilla
+---
+TITLE: 1 Lb Abm Hawaiian Sweet Bread
+CURRENT_DESCRIPTION: hawaiian bread very similar to king's.  most recipes on food.com/zaar are for 1.5 lb loaves -- tried to reduce amounts with no success.  came up with this for the 1lb loaf and machine.  in all honesty, i used all-purpose flour (all i had in the house) first time making this "modified" recipe -- using tips from several sources and recipes. absolutely fabulous!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple juice, egg, milk, butter, coconut extract, ground ginger
+---
+TITLE: 1 Minute  No Bake  Cereal Bar
+CURRENT_DESCRIPTION: my pantry is running very low on baking supplies, but i had a box of raisin-bran cereal that had too many raisins that i wanted to use up. so, i chose to adapt my other recipe: recipe #357474 using what i had on hand. i think this turned out really nice and entirely different from the original version. i used peanut-hazelnut butter instead of peanut butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisin bran cereal, wheat germ, rolled oats, allspice, no-sugar-added peanut butter, brown sugar
+---
+TITLE: 1 Minute  No Bake  Chocolatey Cereal Bites
+CURRENT_DESCRIPTION: yet another version of my recipe #359972 and recipe #357474. this one sets up firmer than the other two and is less sweet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shredded wheat cereal, instant oats, cocoa powder, brown sugar, honey, peanut butter
+---
+TITLE: 1 Minute  No Bake  Cocoa Delicacy
+CURRENT_DESCRIPTION: this is a bar-shaped variation of the similar no-bake cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, butter, cocoa, oats, coconut
+---
+TITLE: 1 Pan Fudge Cake
+CURRENT_DESCRIPTION: this is my favorite chocolate cake. no fuss, no mess and very moist. back in the early days when it was paycheck to paycheck, this simple dessert made it into his lunchbox many a day because it was cheap and simple. no eggs, no milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cocoa, baking soda, flour, salt, vanilla
+---
+TITLE: 1 Point Plus   Hg S Faux Fried Pickles
+CURRENT_DESCRIPTION: from hungry girl email.
+per serving (10 pickle chips): 40 cal, .5g fat, 10g carbs,  2g fiber, 2g protein
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-bran cereal, panko breadcrumbs, ranch dressing mix, black pepper, cayenne pepper, dill pickle slices
+---
+TITLE: 1 Point Plus   Hg S Veggied Up Veggie Dip
+CURRENT_DESCRIPTION: from hungry girl's email
+per serving (1/8th of recipe, about 1/4 cup):  42 cal, <0.5g fat, 6g carbs, 0.5 fiber, 3.5 protein
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: greek yogurt, fat-free mayonnaise, soup mix, frozen chopped spinach, water, instant minced onion
+---
+TITLE: 1 Point Plus   Roasted Asparagus With Lemon And Chives
+CURRENT_DESCRIPTION: from ww all time favorites.
+per serving (4-6 spears): 37 cal, 3g fat, 3g carb, 1g fiber, 2g protein
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, salt, pepper, lemon juice, chives
+---
+TITLE: 1 Pot Curried Rotini With Currants  Peas And Red Peppers
+CURRENT_DESCRIPTION: a super flavorful vegetarian pasta dish.  if you like, toss in some chicken or firm tofu and you've got a very balanced, healthy meal!  quick and easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tri-color spiral pasta, vegetable broth, light coconut milk, sugar, ground coriander, garlic powder
+---
+TITLE: 1 Potato 2 Potato
+CURRENT_DESCRIPTION: we created this recipe for when the family is divided on how they want potatoes with their meal. fried, mashed, and twice baked all in one!  it looks great for company too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed potatoes, sour cream, cheddar cheese, garlic cloves, salt and black pepper, frozen potato wedges
+---
+TITLE: 1 Pound Gluten Free Lasagna
+CURRENT_DESCRIPTION: i found out i am sensitive to gluten and had a craving for a nice, rich lasagna.  fortunately for me, there's a good health food store in town and they carry lots of gluten-free products.  i used deboles rice lasagna noodles and found i liked the taste better than wheat noodles.  it was very filling and satisfying.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lasagna noodles, ground beef, cottage cheese, mozzarella cheese, italian seasoning, garlic
+---
+TITLE: 1 Spicy Sweet Honey Chili
+CURRENT_DESCRIPTION: sinfully sweet, tastefully spicy--so delicious i ate 4 bowls in less than 20 hours--2 for dinner then 2 for lunch the next day!  go on, try it.  you'll love it up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, sweet onion, garlic clove, green bell pepper, jalapeno peppers, chili beans
+---
+TITLE: 1 Squash Dressing
+CURRENT_DESCRIPTION: even if you hate squash, you will love this. the flavor of the south come to life. try it, you'll love it, i promise!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: squash, cornbread, eggs, onion, butter, cream of chicken soup
+---
+TITLE: 1 Turkey Meatloaf  With Sun Dried Tomatoes And Feta
+CURRENT_DESCRIPTION: this is deliscious! i really don't care for meatloaf but my dh and 3 sons love it, so i came up with this healthy recipe. i am all about the flavor and this recipe is a very creative combination of flavors, very gourmet!
+(don't bother with the store bought can, leave a piece of bread on the counter for a few hours covered with a paper towel, then crumble.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain breadcrumbs, fresh flat-leaf parsley, sun-dried tomato, garlic cloves, eggs, whole milk
+---
+TITLE: 1-2-3-4 Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. butter, 2 c. sugar, 4 eggs, separated, 1/4 tsp. salt, 3 Tbsp. baking powder, 3 c. flour
+---
+TITLE: 1-Bowl Vegan Banana Bread
+CURRENT_DESCRIPTION: Dana's legendary banana bread — one bowl, no mixer, naturally sweetened. Perfectly moist and packed with banana flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 large ripe bananas, 3 tbsp coconut oil, 3 tbsp maple syrup, 1 (1 tbsp flax + 3 tbsp water) flax egg, 1 tsp vanilla extract, 1 tsp baking soda
+---
+TITLE: 1-Bowl Vegan Banana Bread
+CURRENT_DESCRIPTION: Dana's legendary banana bread — one bowl, no mixer, naturally sweetened. Perfectly moist and packed with banana flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 large ripe bananas, 3 tbsp coconut oil, 3 tbsp maple syrup, 1 (1 tbsp flax + 3 tbsp water) flax egg, 1 tsp vanilla extract, 1 tsp baking soda
+---
+TITLE: 1-Pot Vegan Chili
+CURRENT_DESCRIPTION: Hearty, smoky, and packed with three kinds of beans. This one-pot wonder is even better the next day — make a big batch and eat all week.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 400 g (1 can) kidney beans, 400 g (1 can) black beans, 400 g (1 can) pinto beans, 800 g diced tomatoes, 200 g corn, 1 large onion
+---
+TITLE: 1-Pot Vegan Chili
+CURRENT_DESCRIPTION: Hearty, smoky, and packed with three kinds of beans. This one-pot wonder is even better the next day — make a big batch and eat all week.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 400 g (1 can) kidney beans, 400 g (1 can) black beans, 400 g (1 can) pinto beans, 800 g diced tomatoes, 200 g corn, 1 large onion
+---
+TITLE: 1-Pot Vegan Chili
+CURRENT_DESCRIPTION: Hearty, smoky, and packed with three kinds of beans. This one-pot wonder is even better the next day — make a big batch and eat all week.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 400 g (1 can) kidney beans, 400 g (1 can) black beans, 400 g (1 can) pinto beans, 800 g diced tomatoes, 200 g corn, 1 large onion
+---
+TITLE: 1, 2, 3 Onion Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 red onion, 2 white onions, 3 yellow onions, 2 to 3 cloves garlic, 1 stick margarine, 1 Tbsp. sugar
+---
+TITLE: 10  Minute Mustard Dip
+CURRENT_DESCRIPTION: quick dip that is full of flavor--tangy, sweet, and a bit spicy.  i especially love it with pretzels, but it is actually quite versatile and it also good as a sauce on pork or chicken. the recipe was published in a local newspaper several years ago.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ranch dressing mix, sugar, dried onion, garlic powder, prepared horseradish, prepared yellow mustard
+---
+TITLE: 10 10 10 Bread
+CURRENT_DESCRIPTION: this is also known as pan bread.  this bread is excellent, and we make it if we are having soup(instead of crackers), or if we are having a salad as a meal.  it is also a thin bread, so it is great for dipping in dips.  hope you enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, sugar, yeast, oil, salt, flour
+---
+TITLE: 10 Bean Soup
+CURRENT_DESCRIPTION: we made this without the smoked turkey and ham hock, and it was still heavenly.  this was a great way to use the stock from turkey dinner.  recipe courtesy of variety pack favorite recipes from jan and norman.  serving size is estimated.  delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beans, onion, red bell pepper, green bell pepper, celery, basil
+---
+TITLE: 10 calorie chocolate miracle noodle cookies
+CURRENT_DESCRIPTION: a moist chocolate cookie that reminds me of a flourless chocolate torte. pictures at: http://mitochondrialdepletionsyndrome.blogspot.com/2012/04/10-calorie-orange-sicle-miracle-cookie.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shirataki noodles, egg whites, dutch-processed cocoa powder, baking powder, honey, salt
+---
+TITLE: 10 Calorie Chocolate Miracle Noodle Cookies
+CURRENT_DESCRIPTION: a moist chocolate cookie that reminds me of a flourless chocolate torte. pictures at: http://mitochondrialdepletionsyndrome.blogspot.com/2012/04/10-calorie-orange-sicle-miracle-cookie.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shirataki noodles, egg whites, dutch-processed cocoa powder, baking powder, honey, salt
+---
+TITLE: 10 Clove Stove Top Roast
+CURRENT_DESCRIPTION: most italian homes rarely have ovens so that leaves them roasting on the stove top. it's the perfect way to make a rare roast beef. turning the meat is the hardest part!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roast, fresh ground pepper, extra virgin olive oil, bay leaf, garlic cloves, sea salt
+---
+TITLE: 10 Crowd Pleasing Vegan Memorial Day Dishes
+CURRENT_DESCRIPTION: rainbowplantlife on May 22, 2023: "If you’ve got Memorial Day plans this weekend, here are 10 crowd pleasing vegan dishes to bring to the potluck or barbecue, or really any sort of outdoor (or indoor) gathering where food is consumed.
+
+🔹Lemon Orzo Pasta Salad: Lemony and garlicky orzo meets spiced chickpeas, basil gremolata, and chewy sun-dried tomatoes. So many fun surprises in this one. 
+
+🔸Potato Salad: A classic all zhuzhed up. No gloopy chunks of mayo-drenched potatoes here. It’s tangy, z
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: 10 Grain Bread
+CURRENT_DESCRIPTION: this is a recipe that i modified from a co-worker's mom's white bread recipe. it made such soft bread i wanted to see if i could use the base as a multi-grain bread. prep time doesn't include rise time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grain cereal, water, eggs, oil, ice cubes, instant yeast
+---
+TITLE: 10 Grain Muffins
+CURRENT_DESCRIPTION: i am hooked on whole grain hot cereals.  the other day i bought bob's red mill 10 grain hot cereal to give it a try.  so just in case i don't like it, i wanted to post the recipe that was on the side of the bag.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, sugar, butter, unbleached white flour, salt, baking powder
+---
+TITLE: 10 Grain Orange Bread
+CURRENT_DESCRIPTION: this bread is terrific for sandwiches. its slight sweetness and hint of orange marries well with turkey, particularly if you’re one of the people who loves turkey sandwiches with a dollop of cranberry sauce in the filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, whole grain breakfast cereal, active dry yeast, salt, oil, eggs
+---
+TITLE: 10 Grain Sorta Healthy Cookies
+CURRENT_DESCRIPTION: these cookies are super easy to make and instead of white flour they have 10 grain pancake mix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ten-grain pancake mix, sugar, crisp rice cereal, butter, egg, maple extract
+---
+TITLE: 10 Layer Poor Man S Lasagna Casserole
+CURRENT_DESCRIPTION: i had to come up with a kid/adult friendly recipe to please everybody while my step-daughter was visiting. so this is what i did. we all loved this! it ended up making a lot, though, so you might want to make a half a recipe. i'll be taking this to the next potluck or family gathering that comes up! it was so good! it came out way better than i thought it would. i was quite surprised and happy! hope you try it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hamburger, salt and pepper, oregano, italian seasoning, onion, garlic
+---
+TITLE: 10 Layer Salad
+CURRENT_DESCRIPTION: this recipe was given to me from my girlfiend's mom and it's quite possibly the best salad i've ever eaten.  we make it for all of our family get togethers now and it's a hit every single time.  i typically use 2 cups of hellman's mayo but the original recipe calls for 1 1/2 cups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: head iceberg lettuce, frozen peas, red onion, cauliflower, celery, green pepper
+---
+TITLE: 10 Lb  Lasagna
+CURRENT_DESCRIPTION: i call this the 10 lb. lasagna because the ingredients total about 10 lbs.  i have been practicing my lasagna recipe for years and this is what i have finally come up with.
+
+note:  this lasagna can be made the day before and baked the next day.  or you can make this lasagna and freeze to bake at a later time.  (if you freeze, please remember to allow extra baking time.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian sausage, mozzarella cheese, ricotta cheese, cream cheese, parmesan cheese, lasagna noodle
+---
+TITLE: 10 Min Cheesy Gnocchi With Seafood Sauce
+CURRENT_DESCRIPTION: quick easy dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low fat cottage cheese, egg yolk, parmesan cheese, plain flour, shallots, prawns
+---
+TITLE: 10 Min Japanese Simmered Tofu Hot Pot
+CURRENT_DESCRIPTION: this dish is the epitomy of 'home style' japanese comfort food. this version is lightening quick, without the need to prepare the fish stock (dashi) that so many real japanese dishes require. this staple is to be enjoyed in the fall or coming winter months! enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soft silken tofu, dried fish flakes, soy sauce, sugar, sake, water
+---
+TITLE: 10 Minute   Quick And Easy Chocolate Brownie Pudding Cake
+CURRENT_DESCRIPTION: this is not a gourmet cake, but it is a quick chocolate fix. this cake cooks in about 5-7 minutes in the microwave, yes the microwave believe it or not! depending on your microwave as to how much pudding will be in it,it will be a cakey,brownie,pudding like dessert.i like to top it with ice cream and fudge and whip cream for a quick ice cream brownie treat or powdered sugar and chocolate sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, flour, cocoa, salt, baking powder, eggs
+---
+TITLE: 10 Minute Applesauce   Alton Brown
+CURRENT_DESCRIPTION: this is another great alton brown recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: golden delicious apples, fuji apples, apple juice, cognac, butter, honey
+---
+TITLE: 10 Minute Baked Halibut With Garlic Butter Sauce
+CURRENT_DESCRIPTION: diane phillips
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, old bay seasoning, halibut fillets, unsalted butter, garlic cloves, fresh lemon juice
+---
+TITLE: 10 Minute Baked Ziti
+CURRENT_DESCRIPTION: the title "10-minute" is a little misleading, because the 10 minutes refers to prep time only, but that's the title on the recipe card!  it has to bake a whole other hour after that.  still, i do love me some pasta with cheese and sauce on it!  the recipe is just a base(a very good base by itself!); easy as pie to jazz it up with ground beef or italian sausage, extra onions, garlic, spices--whatever strikes your fancy!  higher fat or lower fat depending on if you use low-fat ricotta, parmesan, and mozzarella.  this came from a cookbook i had once, but darn if i know which one or where it even is!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ragu tomato sauce, water, ricotta cheese, parmesan cheese, mozzarella cheese, ziti pasta
+---
+TITLE: 10 Minute Buffalo Shrimp With Blue Cheese Dip
+CURRENT_DESCRIPTION: a new take on an old favorite - shrimp instead of wings. cooks up even faster than wings and tastes incredible. taken from the redbook magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat sour cream, low-fat mayonnaise, low-fat milk, blue cheese, lemon juice, salt
+---
+TITLE: 10 Minute Calzones
+CURRENT_DESCRIPTION: another life-saver (time-saver) dinner from real simple magazine's "fake it, don't make it" solutions. a ready-made salad-in-a-bag and supper's done.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, pepperoni, ricotta cheese, mozzarella cheese, olive oil, pasta sauce
+---
+TITLE: 10 Minute Chocolate Self Saucing Pudding
+CURRENT_DESCRIPTION: got this recipe from the "essentially food magazine". it's not the best chocolate self-saucing pudding i've had, but it is so quick and great if you have an after-dinner chocolate craving!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, self-raising flour, sugar, cocoa, salt, milk
+---
+TITLE: 10 Minute Cream Of Mushroom Soup
+CURRENT_DESCRIPTION: this is extremely quick and easy, great for work days. add some bread and you're all set! source: www.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushrooms, water, butter, onion, all-purpose flour, seasoning salt
+---
+TITLE: 10 Minute Creamed Spinach
+CURRENT_DESCRIPTION: this is a quick short-cut recipe that i thought tasted great. i loved creamed spinach and am ridiculed by my kids because they think it is gross. i think it is totally yummy so the joke is on them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream of spinach soup mix, milk, frozen chopped spinach, nutmeg, pepper
+---
+TITLE: 10 minute french bread
+CURRENT_DESCRIPTION: yummy fast bread. we like it without taking all the time to rise. try it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, fast rise yeast, sugar, kosher salt, olive oil, hot water
+---
+TITLE: 10 Minute French Bread
+CURRENT_DESCRIPTION: yummy fast bread. we like it without taking all the time to rise. try it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, fast rise yeast, sugar, kosher salt, olive oil, hot water
+---
+TITLE: 10 Minute German Chocolate Pie
+CURRENT_DESCRIPTION: i don't remember where i found this recipe but i have had it for years.  i did not include 4 hours freezer time in preparation.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: german sweet chocolate, milk, sugar, cream cheese, cool whip, graham cracker crust
+---
+TITLE: 10 Minute Lasagna
+CURRENT_DESCRIPTION: another recipe from real simple magazine from a few years ago.  super fast weeknight supper.  using cheese ravioli instead of traditional lasagna noodles condenses three steps into one.  using the ravioli straight from the freezer could not be more simple.  easily adapted to whatever addins/substitutions you like.  i  use my own homemade pasta sauce, quickly wilt fresh spinach in the microwave, and throw in some olives, mushrooms or whatever i might have on hand.  you could add browned ground beef or italian sausage to the pasta sauce if you wanted it a meaty lasagna.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta sauce, frozen cheese ravioli, frozen chopped spinach, mozzarella cheese, parmesan cheese
+---
+TITLE: 10 Minute Lime Pie
+CURRENT_DESCRIPTION: a super easy stand-in for traditional key lime pie. slightly altered from the version posted on serious eats (http://www.seriouseats.com/recipes/2011/07/10-minute-lime-cracker-pie-recipe.html). squeezing the limes can be a chore, but you can always skip it by buying fresh lime juice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened condensed milk, heavy cream, lime juice, lime zest, ritz crackers
+---
+TITLE: 10 Minute Low Fat Potato Salad
+CURRENT_DESCRIPTION: potato salad from scratch in just 10 minutes, and it's low fat too. i love the creamy taste of the dressing, and the olives compliment the mustards.  this can easily be double to accommodate a larger family, however it would take about 5 minutes longer to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, plain fat-free yogurt, salad dressing, dijon mustard, spicy mustard, pickle
+---
+TITLE: 10 Minute Marinara Sauce
+CURRENT_DESCRIPTION: this is a good sauce for pasta! recipe is from woman's day. plan ahead: use half the sauce for 1 lb pasta, then refrigerate the rest up to 1 week, or freeze.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic, crushed tomatoes, diced tomatoes, italian seasoning
+---
+TITLE: 10 Minute Mushroom Spaghetti Sauce
+CURRENT_DESCRIPTION: sauce spaghetti vite faite
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, onion, parsley, salt, worcestershire sauce, garlic
+---
+TITLE: 10 Minute Paella
+CURRENT_DESCRIPTION: this is a recipe given to me by my sister in law.  by using minute rice, small scallops or shrimp, and spicy thinly sliced pepperoni, dinner will be on the table in less than 10 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, small shrimp, garlic cloves, minute rice, cornstarch, chicken broth
+---
+TITLE: 10 Minute Peanut Brittle
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. sugar, 1/2 c. light corn syrup, 1/4 tsp. salt, 1 to 1 1/2 c. raw peanuts, 1 Tbsp. butter or margarine, 1 tsp. vanilla
+---
+TITLE: 10 Minute Pizza Snacks
+CURRENT_DESCRIPTION: my kids are always thrilled when they come home from school and i have this snack ready
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crescent roll dough, cream cheese, italian seasoning, pepperoni, cheddar cheese
+---
+TITLE: 10 Minute Pork Lo Mein
+CURRENT_DESCRIPTION: from betty crocker's kitchen to your table in a flash!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, pork tenderloin, pork-flavored ramen noodles, water, red bell pepper, broccoli floret
+---
+TITLE: 10 Minute Shrimp Pad Thai
+CURRENT_DESCRIPTION: with this 5-ingredient pad thai sauce, you can make anything delicious. not a fan of shrimp? toss the noodles with leftover chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: thai rice noodles, crunchy peanut butter, sambal oelek chili paste, lime, zest of, fish sauce, dark brown sugar
+---
+TITLE: 10 Minute Smothered Chicken
+CURRENT_DESCRIPTION: this is a quick meal--10 minutes to the table--tastes great too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, garlic powder, salt, vegetable oil, sliced mushrooms, mexican blend cheese
+---
+TITLE: 10 Minute Sponge Pudding
+CURRENT_DESCRIPTION: i have no idea where i found this recipe but of all the sponge pudding recipes i have tried this is the easiest, nicest and most versatile. i don't use any other.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self raising flour, unsalted butter, sugar, milk, eggs, vanilla essence
+---
+TITLE: 10 Minute Szechuan Chicken
+CURRENT_DESCRIPTION: this is a very simple recipe that produces stunning results. szechuan cooking is usually pretty spicy, but this recipe is surprisingly mild. i like to jack it up a bit with some hot sauce, but my family doesn't like spicy food, so i do my own at the table.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn oil, sesame oil, boneless skinless chicken breasts, cornstarch, garlic cloves, soy sauce
+---
+TITLE: 10 Minute Tomato Sauce From America S Test Kitchen
+CURRENT_DESCRIPTION: fresh tasting pasta sauce using canned crushed tomatoes as described on america's test kitchens. use either muir glenn or tuttoroso crushed tomatoes because they use a lower processing temperature in the canning process and therefore are fresher tasting than other brands.  recipe notes:  according to the chefs, grating the onions instead of chopping allows them to carmelize more quickly. the butter is used because saturated fats helps the onions stay sweet. olive oil contains  unsaturated fats that react with an enzyme in the onion that can result in a bitter taste. using crushed tomatoes is preferable to other forms. the chefs apparently expended a great deal of effort in developing this simple recipe so it is suggested that it be followed closely in order to acheive a fresh tasting sauce from canned tomatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, dried oregano, salt, garlic cloves, crushed tomatoes
+---
+TITLE: 10 Minute Tuscan Tomato Soup With Parmesan Toasts
+CURRENT_DESCRIPTION: this soup is good served with parmesan toasts. recipe is from woman's day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinara sauce, cannellini beans, roasted red peppers, extra virgin olive oil, garlic clove, chicken broth
+---
+TITLE: 10 Minute Tvp Tacos
+CURRENT_DESCRIPTION: a jolinda hackett recipe.his recipe uses store-bought salsa and taco seasoning to make a super-quick vegetarian taco filling from tvp. the tvp has a texture similar to shredded chicken when cooked. wrap in a flour tortilla or stuff in a hard shell with lettuce, tomatoes, avocado, and green onions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: textured vegetable protein, water, soy sauce, olive oil, taco seasoning, red pepper
+---
+TITLE: 10 Minute Tvp Tacos  Modified   Hot Single Guy Version
+CURRENT_DESCRIPTION: i guess i should rephrase that.  it's not just for single guys, or hot ones for that matter, i modified the quantity for a single person and made it more spicy.
+  this is based on the 10 minute tvp tacos recipe posted by queenkungfu http://www.recipezaar.com/10-minute-tvp-tacos-289559 but modified, partly because i didn't have taco seasoning mix on hand, i wanted a "cooking for one" recipe, and i just can't seem to follow instructions.    aside from the water and tvp, quantities are approximate since i don't measure much.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, textured vegetable protein, beef bouillon concentrate, nutritional yeast flakes, diced onion, taco seasoning
+---
+TITLE: 10 Out Of 10 Chicken Breast
+CURRENT_DESCRIPTION: baked chicken breast.  my boys gave it a 10 out of 10.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, bottled garlic, parmesan cheese, corn flakes, dry ranch dressing mix, chicken breast halves
+---
+TITLE: 10-Minute Spicy Chili Oil Wontons
+CURRENT_DESCRIPTION: 72K likes, 1,431 comments - browngirlvegan_ on January 3, 2025: "30 UNDER 30 DAY 2: 10-MIN SPICY CHILI OIL WONTONS🥟
+
+Comment “RECIPE” for the full recipe to be sent to you directly via DM!
+
+You can also find the full recipe here: https://browngirlveganeats.com/10-minute-spicy-chili-oil-wontons/
+
+#vegan #veganrecipes #veganfood #veganuary #plantbased #dairyfree #vegansofig #vegansofinsta #vegansofinstagram #healthyfood #healthyrecipes #wontons #dumplings #chilioil #spicydumplings #vegandumplings
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: 100   whole wheat bread
+CURRENT_DESCRIPTION: abbey of our lady of the holy trinity. for years the monks made and sold their special brand of whole wheat bread. in recent years it became necessary to discontinue this industry. however, the monk who for many years was the baker has developed a recipe for home owners to bake their own whole wheat bread from the 2-grain cereal now produced at the monastery
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, light brown sugar, salt, butter, warm water, active dry yeast
+---
+TITLE: 100   Whole Wheat Bread
+CURRENT_DESCRIPTION: abbey of our lady of the holy trinity. for years the monks made and sold their special brand of whole wheat bread. in recent years it became necessary to discontinue this industry. however, the monk who for many years was the baker has developed a recipe for home owners to bake their own whole wheat bread from the 2-grain cereal now produced at the monastery
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, light brown sugar, salt, butter, warm water, active dry yeast
+---
+TITLE: 100  Authentic Vietnamese Dipping Sauce  Nuoc Cham
+CURRENT_DESCRIPTION: i got this recipe from my mom (born and raised in vietnam), who was passed this recipe from my grandmother.  there are many different ways to make this dipping sauce (nuoc cham), and most recipes differ from family to family.  i have yet to find one as good as my own family's.  it has the sweet, the sour and the spicy.  please note that this recipe makes quite a lot, but it keeps very well in the fridge (a few months at least).   my mother stores it in a clean 2 liter pop bottle, but i usually use a large mason jar.
+
+this recipe is typically used to dip either spring rolls, or fresh salad rolls in vietnam.  it can also be used as a great salad dressing for rice noodle salads.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, limes, juice of, white vinegar, fish sauce, white sugar, chili-garlic sauce
+---
+TITLE: 100  Healthy   Lucious Spice Cake  Low Calorie
+CURRENT_DESCRIPTION: no butter, no added sugar, no flour, no splenda... and still a cake?! yup, that's right. and it is still sweet and delicious!
+finally a cake that is not just heatlhier than normal cake, but completely guilt free!
+really, this is really good for you, low calorie and satisfies the sweet tooth!
+
+the whole batch is roughly 600 calories and almost fat free! (the automatic calculation is a little off)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned corn, apple juice, egg, egg whites, instant oats, banana
+---
+TITLE: 100  Honey Whole Wheat Cracked Wheat Bread
+CURRENT_DESCRIPTION: this recipe is adapted from the el molino cookbook that i've had for a million years!this has the potential to make 3 loaves and is the only recipe i use for whole wheat bread.it is the moistest i've ever had and because honey is a natural preservative it has a longer shelf life. you can add a little more honey and make amazing dinner rolls or cinnamon rolls.the cookbook states "the same natural ingredients but a new improved method that gives a higher, lighter loaf." yes, this rises 3 times! i use the quick acting yeast and am able to make 9 loaves in a day without stressing out.you can substitute about a cup of the whole wheat flour with a cup of white bread flour but i rarely do.enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, fast-rising active dry yeast, milk, honey, oil, salt
+---
+TITLE: 100  Parmesan Chicken
+CURRENT_DESCRIPTION: i don't remember where i got this recipe several years ago, but it is a delicious cheesy tasty main dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, butter, parmesan cheese, dry breadcrumbs, dried oregano, parsley flakes
+---
+TITLE: 100  Raw Thai Salad
+CURRENT_DESCRIPTION: this is perfect for those on the raw food diet or those looking to detox for a couple of days. this is so good for you, i feel angelic after i eat it, no matter what other bad things i might have done that day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lebanese cucumbers, bean sprouts, snow pea sprouts, snow peas, mung bean sprouts, cherry tomatoes
+---
+TITLE: 100  Semolina Bread
+CURRENT_DESCRIPTION: this is a basic semolina bread which is ideal for vegetarian/vegan diets.  recipe is for a 2 lb loaf in a bread machine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, sugar, semolina, extra virgin olive oil, salt
+---
+TITLE: 100  Whole Grain Bread With Biga Soaker
+CURRENT_DESCRIPTION: this is my take on reinhart's master recipe in whole grain breads.  i make 4 loaves of this a week, currently.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, water, instant yeast, table salt, oil, honey
+---
+TITLE: 100  Whole Grain Pizza Dough
+CURRENT_DESCRIPTION: adapted from veggie life. this is wonderful - and healthy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, active dry yeast, warm water, salt, whole wheat flour, buckwheat flour
+---
+TITLE: 100  whole grain wheat bread
+CURRENT_DESCRIPTION: if you like fluffy brown bread this is it. no white flour here. you can use any 100% whole grain wheat flour. i mill my own. this bread is not heavy like most 100% whole wheat breads. if it is you used too much flour and your dough was too stiff. if it flattens out and won't stand up you need more flour. the total amount of flour is usually about 6 1/2 to 7 cups. this recipe has been in my family for years and we all make it. we make a lot more now that we have powerful mixers and the hand kneading is bye bye.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot water, olive oil, honey, molasses, salt, whole grain wheat flour
+---
+TITLE: 100  Whole Grain Wheat Bread
+CURRENT_DESCRIPTION: if you like fluffy brown bread this is it. no white flour here. you can use any 100% whole grain wheat flour. i mill my own. this bread is not heavy like most 100% whole wheat breads. if it is you used too much flour and your dough was too stiff. if it flattens out and won't stand up you need more flour. the total amount of flour is usually about 6 1/2 to 7 cups. this recipe has been in my family for years and we all make it. we make a lot more now that we have powerful mixers and the hand kneading is bye bye.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot water, olive oil, honey, molasses, salt, whole grain wheat flour
+---
+TITLE: 100  Whole Wheat  Multipurpose Dough   Pizza  Buns  Bread
+CURRENT_DESCRIPTION: whole grain dough kept refrigerated (or frozen) for pizza, pretzels, or buns.
+the method is similar to reinhart's "artisan breads every day".  preparation time does not include refrigeration overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, water, table salt, instant yeast, cooking oil, honey
+---
+TITLE: 100  Whole Wheat Bread  Abm
+CURRENT_DESCRIPTION: i wanted 100% which is light and fluffy so i started tinkering away and this is the recipe i got. i really love it and it's easy-peasy, lemon-sqeasy as my kids would say. as a result, i've retired my 50-50 bread. hopefully s
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: buttermilk, eggs, whole wheat flour, salt, gluten, margarine
+---
+TITLE: 100  whole wheat bread  non dense heavy  white bread texture
+CURRENT_DESCRIPTION: i hate dense/heavy whole wheat bread. however, i was told to keep my blood sugar level i had to eat complex carbohydrates. it began my search for a pure whole wheat bread that i could eat as a sandwich and enjoy it all. two notes: the vital wheat gluten and kneading time are crucial! you must do them or it won’t work. also, i am at a high altitude of just over 4,200 feet so adjust for where you live.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fast rising yeast, warm water, whole wheat flour, dry milk, vital wheat gluten, salt
+---
+TITLE: 100  Whole Wheat Bread  Non Dense Heavy  White Bread Texture
+CURRENT_DESCRIPTION: i hate dense/heavy whole wheat bread. however, i was told to keep my blood sugar level i had to eat complex carbohydrates. it began my search for a pure whole wheat bread that i could eat as a sandwich and enjoy it all. two notes: the vital wheat gluten and kneading time are crucial! you must do them or it won’t work. also, i am at a high altitude of just over 4,200 feet so adjust for where you live.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fast rising yeast, warm water, whole wheat flour, dry milk, vital wheat gluten, salt
+---
+TITLE: 100  Whole Wheat Bread  Plain And Simple  No Knead
+CURRENT_DESCRIPTION: this is the 100 percent whole wheat bread from the cookbook "healthy bread in five minutes a day" by jeff hertzberg and zoe francois. it makes enough for four 1-pound loaves. if you are familiar with the book, you know that the principle is to make a big batch of dough, then grab off pieces each day (or so) to bake hot and fresh. they also say whole grain spelt can be substituted. in addition, they offer more recipes, photos, videos, etc. at www.healthybreadinfive.com. i would just like to mention that the cookbook is great for the wealth of background information and a huge variety of recipes. it's great to read, so even if you find the recipes you like online, if  you have even a little interest in bread making, you will enjoy the book immensely!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, yeast, kosher salt, vital wheat gluten, warm water
+---
+TITLE: 100  Whole Wheat Bread Low Fat And Good
+CURRENT_DESCRIPTION: this recipe yields 3 hearty loaves of bread
+
+here is what i love about this recipe. it's simple, uses few ingredients and you have great results every time. don't be afraid of making this bread!
+
+this is my own take on a recipe my sister-in-law shared with me. i played around with using different ingredients and have found that for a heartier loaf (perfect as a side to a homey soup) you can add oats. also, ground flaxseed makes a healthy addition of omega-3 fatty acids, as well as an extra dose of fiber. this bread is not too dense, but comes out soft enough for sandwiches and freezes extremely well. it makes awesome toast for any toast lovers too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, yeast, egg, salt, honey, applesauce
+---
+TITLE: 100  Whole Wheat Burger Hot Dog Buns
+CURRENT_DESCRIPTION: i found a recipe on the internet and substituted and added different ingredients to make a white hamburger bun recipe 100% whole wheat and healthy. i have been making them for years and my family and friends just love these buns! never will i buy buns again! as with any bread machine recipe, add flour and/or water as needed. you can add other ingredients such as dried onion flakes, ground flax seed or whatever. sometimes after cooling i wrap and freeze them and defrost as needed. i hope you will love this recipe as much as i do! also, this recipe also makes great dinner rolls. just divide dough into 12 to 24 balls, depending on the size of roll you want.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, canola oil, egg, whole wheat flour, vital wheat gluten, honey
+---
+TITLE: 100  Whole Wheat Buttermilk Pancakes
+CURRENT_DESCRIPTION: most whole wheat pancake recipes sneak in some refined flour, but not these!
+great to make ahead and freeze for later.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, egg whites, low-fat buttermilk, granulated sugar, baking powder, baking soda
+---
+TITLE: 100  Whole Wheat Graham Crackers Or Pie Crust
+CURRENT_DESCRIPTION: i couldn't find the perfect 100% whole wheat graham recipe so i made one.  these are highly popular with kids and come together very quickly.  you can replace a little of the flour with milled flax, wheat germ, oat bran, or whatever you like.  and you can make chocolate grahams by adding 1/3 cup cocoa.  crunch them up to make graham crumbs, which are useful for a lot of things.  also, this recipe makes an amazing pie crust.  please note:  the instructions below are specific about rolling these out very thin, and baking until crisp.  if you end up with anything but crisp crackers, they weren't rolled thin enough, and/or they weren't baked long enough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, turbinado sugar, baking powder, baking soda, salt, cinnamon
+---
+TITLE: 100  Whole Wheat Irish Soda Bread
+CURRENT_DESCRIPTION: i just tried this recipe for the first time, and i immediately wanted to put it online so that i would always be able to find it.  it's from la leche league's cookbook, _whole foods for the whole family_.  of course a whole wheat bread is always different from a white flour bread, but i was amazed at how well this recipe captures the taste and texture of irish soda bread.  it's dense and crumbly and a bit sweet, and very delicious.  it's also quite easy to make.  it's a "quick bread" recipe -- no yeast, no rising -- but you shape it into round loaves, and it feels more "bread-y" to me than most quick breads.  i can't wait to make it again.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, baking powder, baking soda, salt, butter, raisins
+---
+TITLE: 100  Whole Wheat Low Fat Pancakes
+CURRENT_DESCRIPTION: i created these one day for my kiddies when i couldn't find a recipe that fit my bill. they turned out great! note: if you like fluffy pancakes stir wet ingredients into dry with a wooden spoon leaving some lumps (more lumps=bigger cakes), alternately if you like thin pancakes, like me, use your blender to mix all the ingredients at once and blend until smooth update: sept '07: for those who don't like really thick pancakes try reducing flour by 1/2cup and replacing it with milk, this will give a runnier batter and should give a thinner pancake :)thanks for the comments everyone!!! (good and bad, we all learn from critisism too ;) )
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, low-fat milk, baking soda, baking powder, sugar, vanilla
+---
+TITLE: 100  Whole Wheat Muffins
+CURRENT_DESCRIPTION: very nice muffins with a high health factor. i haven't had these stick around long enough to worry about freezing any. for their portraits i dressed them up with walnut halves on top. pretty much any firm fruit (raisins, cranberries, cherries, dried apricots, etc) or chopped nuts can be added as desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, peanut butter, salt, baking powder, eggs, milk
+---
+TITLE: 100  whole wheat pizza dough and pizza tips
+CURRENT_DESCRIPTION: a less hydrated version of peter reinhart's 100% whole grain pizza dough as presented in "artisan breads every day".  suprisingly good dough for a whole wheat pizza.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, honey, salt, instant yeast, water, olive oil
+---
+TITLE: 100  Whole Wheat Pizza Dough And Pizza Tips
+CURRENT_DESCRIPTION: a less hydrated version of peter reinhart's 100% whole grain pizza dough as presented in "artisan breads every day".  suprisingly good dough for a whole wheat pizza.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, honey, salt, instant yeast, water, olive oil
+---
+TITLE: 100  Whole Wheat Rolls
+CURRENT_DESCRIPTION: this recipe turns out great homemade rolls for those who love 100% whole wheat bread.  they rose beautifully and plump in the oven. makes 20-25 rolls depending on how big you make them. i made 2 inch dough balls and they rose to 3 inches after baked. to make more rolls just make the dough balls smaller.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yeast, water, honey, olive oil, eggs, salt
+---
+TITLE: 100  Whole Wheat Sour Cream Biscuits
+CURRENT_DESCRIPTION: tender, flaky sour cream biscuits like mama never made!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, gluten, baking powder, baking soda, kosher salt, butter
+---
+TITLE: 100  Whole Wheat Wholesome Muffin Mix
+CURRENT_DESCRIPTION: 100% whole wheat, oats, low sugar, low fat wholesome goodness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, oatmeal, powdered milk, sugar, salt, baking powder
+---
+TITLE: 100  Whole Wheat Zucchini Bread
+CURRENT_DESCRIPTION: this is a zucchini bread made only with whole wheat flour, i'm sure you could make it 1/2 with whole wheat flour and 1/2 with all purpose. it is really easy and delicious! it turns out quite sweet with 1 1/2 cups of sugar so if you're trying to cut back on sugar i think only 1 cup would be enough
+--> this recipe makes 2 loaves
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, vegetable oil, eggs, zucchini, vanilla, whole wheat flour
+---
+TITLE: 100  Yummy Banana Bread
+CURRENT_DESCRIPTION: this is one of the best banana bread recipes that i've ever had. it tastes *wonderful* when served with some melted butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, sugar, egg, butter, all-purpose flour, baking soda
+---
+TITLE: 100 000 Calorie Bars
+CURRENT_DESCRIPTION: yes, there are 100,000 calories in each of these cookie bars. i counted each one as it made its way directly to my hips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cake mix, butter, evaporated milk, chocolate chips, nuts, caramels
+---
+TITLE: 100 Broccoli Casserole
+CURRENT_DESCRIPTION: this is a nice change of pace from the cheez whiz casseroles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen broccoli, cream cheese, dry onion soup mix, sour cream, water chestnuts, cheddar cheese
+---
+TITLE: 100 Calorie Cinnamon Pancakes
+CURRENT_DESCRIPTION: this recipe was listed as the featured recipe in an email today from the www.sparkrecipes.com website.  "submitted by amroz123 - i am known for my pancakes, so trust me on this one!
+30 minutes to prepare and cook - serving size is one pancake. if you use less than 1/3 of a cup batter (like 1/4, or 1/6) you can have two for 100 calories! smaller, but more! :-)"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, baking soda, splenda granular, skim milk, egg beaters egg substitute, vanilla extract
+---
+TITLE: 100 Calorie Fruit Cupcakes
+CURRENT_DESCRIPTION: this is an altered recipe (banana and peach cake) that i need to try out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg beaters egg substitute, brown sugar, applesauce, vanilla, peaches, banana
+---
+TITLE: 100 Calorie No Bake Whey Protein Bar Cookies
+CURRENT_DESCRIPTION: no bake oatmeal cookies made with nitrean whey protein powder. just under 100 calories per cookie and 4.6 grams protein.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw sugar, skim milk, butter, molasses, vanilla protein powder, creamy peanut butter
+---
+TITLE: 100 Chocolate Cake
+CURRENT_DESCRIPTION: the mayonnaise in this may sound strange, but it it the "secret ingredient" that makes the cake so moist. i recommend not using miracle whip as it contains spices and flavorings that might alter the taste. they make great cupcakes too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking soda, cocoa powder, salt, mayonnaise
+---
+TITLE: 100 Good Cookies
+CURRENT_DESCRIPTION: these were given to me by a co-worker. she’d made them for a fundraiser and i asked her for the recipe. she added toffee bits to the cookies. delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, brown sugar, margarine, cooking oil, egg, salt
+---
+TITLE: 100 Stroke Banana Bread
+CURRENT_DESCRIPTION: contributed to the little church of the desert cookbook (1986) by shirley mcclay of 29 palms.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, sugar, canola oil, egg, flour, salt
+---
+TITLE: 100 Year Old Old Fashioned Cream Pie
+CURRENT_DESCRIPTION: this makes a very large pie...you will need a 10" pie pan
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, flour, salt, evaporated milk, brown sugar
+---
+TITLE: 100 Year Old Pancakes
+CURRENT_DESCRIPTION: this recipe was found along my gg nelson's belongings.  i'm posting this only because when i did a search for pancake recipes, i couldn't find anything that looked or seemed quite like this one.  for variations, you can add 1 tbls. honey or 1 tbls. cinnamon and sugar mix or 1 tbls. cocoa powder and a handfull of chocolate chips.  cooking time is for individual pancakes, not a collective cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, egg yolks, butter, buttermilk, flour, sugar
+---
+TITLE: 100 Year Old Pie Crust  Pastry Dough
+CURRENT_DESCRIPTION: this recipe is one for the ages. the crust is flaky and flavorful. delicious for any kind of pie your heart desires. makes enough for 4 8-inch pie crusts or about 3 9-inch crusts. can be used for topping, lattice top, cut-outs, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, vegetable shortening, white sugar, salt, egg, cold water
+---
+TITLE: 100 Year Old Souffle
+CURRENT_DESCRIPTION: this is a simple recipe passed down for over 100 years in my family.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, milk, eggs, salt, sharp cheddar cheese
+---
+TITLE: 101 Super Cookies
+CURRENT_DESCRIPTION: these cookies are crispy and crunchy and have a nice twist on the normal chocolate chip cookie. you can add as much chocolate chips as you want but i personally enjoy these cookies with only a little bit because there is so many other great flavors in the cookie without the chocolate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice krispies, rolled oats, flaked coconut, chocolate chips, white sugar, brown sugar
+---
+TITLE: 108 Mile Spinach Bacon Salad
+CURRENT_DESCRIPTION: this is a great salad from an excellent restaurant (or it was the last time i was there). this salad makes an excellent lunch. add a crusty roll for a light summer supper. the dressing is excellent. i posted the cook time as 0 but of course you have to cook the eggs and the bacon; drain the fat and allow time for both to cool. the 4 servings are main course servings. if using this as a side salad it will serve 8-10.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, mushrooms, bacon, hardboiled egg, unsalted sunflower seeds, plain yogurt
+---
+TITLE: 11 Layer Salad
+CURRENT_DESCRIPTION: i love the classic 7 layer salad and i love veggies so i just kept adding more ingredients and now it's an 11 layer salad. i made it for thanksgiving one year and it was the talk of the party and gobbled up fast. i have been told this is the best layer salad recipe ever and i am asked to bring it to all holiday dinners. i think the double layering is the key. this makes a big salad!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce, bacon, red onion, frozen peas, green pepper, cauliflower
+---
+TITLE: 11 Secret Herbs And Spices  Kfc Copycat
+CURRENT_DESCRIPTION: this came from cdkitchen and makes a nice gift!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: paprika, onion salt, celery salt, rubbed sage, garlic powder, ground allspice
+---
+TITLE: 11Th Hour Spinach Caesar Salad
+CURRENT_DESCRIPTION: unexpected guests - no eggs in the fridge - and the promise of "real" caesar salad to our visitors is how this salad came about. now, it's the only version we'll use! omit the croutons and add grilled chicken or shrimp for a meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, miracle whip light, low-fat mayonnaise, anchovy fillets, garlic cloves, worcestershire sauce
+---
+TITLE: 12 Cheese Stuffed Shells
+CURRENT_DESCRIPTION: if you like stuffed shells , you'll love this one, and probably will never buy frozen store bought ones again. it's one of my hit and miss recipes. everybody i've made them for has loved them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jumbo pasta shells, ricotta cheese, italian cheese blend, mexican blend cheese, parmesan-romano cheese mix, eggs
+---
+TITLE: 12 Minute Corn Chowder
+CURRENT_DESCRIPTION: this creamy corn chowder is quick, easy and so tasty. it calls for evaporated milk...and that's the secret.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, potatoes, onion, cream-style corn, whole corn, evaporated milk
+---
+TITLE: 12 Minute Pasta
+CURRENT_DESCRIPTION: simple, quick, elegant, and delicious...if you do your chopping and grating while the pasta is cooking, this only takes 12 minutes to cook!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orecchiette, extra virgin olive oil, italian seasoned breadcrumbs, prosciutto, kosher salt, black pepper
+---
+TITLE: 1200 Watt Microwave Peanut Brittle
+CURRENT_DESCRIPTION: bravo to love2eat’s peanut brittle in a jiffy #58383 - it got me started, but with the adjustments for my higher powered microwave  and some flavor changes i thought i should write my own recipe.  i can not say how much love2eat’s note about having everything measured out and ready to go was a life saver.  i use an 8 cup pyrex measuring bowl with a handle as this mixture bubbles up and gets very hot (bowl gets very hot too) - it is molten sugar- if your work area is not right next to your sink - have a bowl of ice water in case  of burns. this recipe is for a 1200 watt microwave.  oh yeah, i sorta faked it on how many this will serve - it is habit forming.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, molasses, corn syrup, salted peanuts, vanilla, butter
+---
+TITLE: 123 Baked Kibbee
+CURRENT_DESCRIPTION: i love to make a big tray of these and keep them in the freezer for quick dinners, or pull them out and take them to work for lunch, they microwave great. i had hesitations about the cinnamon in this recipe, but it's fantastic, i absolutely love the flavor!  this recipe makes 18 pieces, i normally eat 2 per meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, bulgar wheat, onion, salt, cinnamon, plain yogurt
+---
+TITLE: 123 Cake
+CURRENT_DESCRIPTION: i have not tried this recipe. i got it from parish pickens from lakeshore united methodist. the recipe was submitted by mary knighton.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, yellow cake mix, instant vanilla pudding, water, apple pie filling, egg
+---
+TITLE: 1234 Cake
+CURRENT_DESCRIPTION: this is a recipe that my grandmother passed on to my mom and me.  we use it for a birthday cake, or put jam between the layers (if you make it into layers) and frost it with white icing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, flour, baking powder, salt, eggs
+---
+TITLE: 13 Crackers Meatloaf
+CURRENT_DESCRIPTION: this is our favorite meatloaf recipe.  i finally worked out one that i liked.  many years ago when our kids were growing up, our son asked me one day why i was making meatloaf so often.  i told him that i was trying to find one that i liked.  he said he liked them all.
+after i put this one together and we had it for dinner, i thought right away “this is the one!”  when i changed from ketchup to chili sauce, it made all the difference.  
+this is a small meatloaf, as we are seniors now, and just the two of us left at home.  it would be easy to double the recipe if you need a larger meatloaf.  adjust the baking time however.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, chili sauce, milk, worcestershire sauce, onions, bell peppers
+---
+TITLE: 13 Minute Beef Tenderloin With Horseradish Sauce
+CURRENT_DESCRIPTION: food tv's bobby flay gets this super-easy and company-worthy tenderloin cooked for him every year on his birthday by his wife, kathy. you won't believe how easy it is! note that this recipe is written for a gas oven; also note that prep time is 3 hours (at least) for marinating. you'll need the heavy-duty aluminum foil for this one.... no substitutions or it won't work!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, garlic cloves, salt and pepper, unsalted butter, worcestershire sauce, limes, juice of
+---
+TITLE: 14 Bean Soup
+CURRENT_DESCRIPTION: this is a hearty soup loaded with healthy goodies. could be a vegetarian soup--just leave out the meat. plenty of protein and plenty of veggies. it is a one-dish meal along with some homemade bread and a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, beans, salt, chicken broth, celery, carrots
+---
+TITLE: 14 Carrot Cake
+CURRENT_DESCRIPTION: nutty carrot cake, a favorite of nuclear and civil engineers from bechtel power corp., the makers of hoover dam.  serves 16 or 8 that are hungry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, salt, cinnamon, sugar
+---
+TITLE: 14 Day Pickles
+CURRENT_DESCRIPTION: an easy way to use up all those cucumbers from the garden.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pickling cucumbers, water, salt, alum, vinegar, sugar
+---
+TITLE: 14 Karat Cake
+CURRENT_DESCRIPTION: from "simply delicious"- a cookbook compiled of herberger's employee family recipes. submitted by anita sheehan of alexandria, minnesota.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking soda, salt, cinnamon, allspice
+---
+TITLE: 14 Minute Maple Candy
+CURRENT_DESCRIPTION: here's a recipe a friend sent when i wanted to make homemade maple candy. let me know what you think of it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: maple syrup, cream, butter, nutmeats, lemon extract
+---
+TITLE: 15 Bean Soup
+CURRENT_DESCRIPTION: yummy 15 bean soup.  i cook this a lot. i like to serve it with fried chicken and cornbread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 15 bean soup mix, onion, garlic cloves, whole tomatoes, celery leaves, ham hocks
+---
+TITLE: 15 Bean Soup In The Instant Pot
+CURRENT_DESCRIPTION: use the 15 bean soup in a bag, but not the seasoning packet, this is much better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried beans, water, onion, carrots, garlic clove, olive oil
+---
+TITLE: 15 Layer Russian Honey Cake
+CURRENT_DESCRIPTION: i recently tried a russian honey cake, which was one of the yummiest cakes i have ever tasted. it was so nice i decided to find the recipe and learn to make it myself. it took me about 6 months searching the net (on websites mostly in russian, which i definitely don't read or speak) translating from russian using an online translator, and trying different recipes before i found this recipe, which has produced a result at least as nice as the one i tried.
+
+i baked 2 pieces at a time on baking paper on an oven tray. each batch took just long enough to cook, that i had two more ready to swap when the first ones were done.
+
+the cream filling (and coating) is made from sour cream and sugar. the sour cream is simply whipped with the sugar until the sugar dissolves. the original recipe said to add sugar "by intuition"; i think you're supposed to keep adding more until it thickens, but the time i tried that it was too sickly sweet!
+
+i have also made the filling/coating using fresh cream - 750ml, soured with 1/2 cup lemon juice and beaten until just starting to thicken (you still use the sugar & honey). this was for a vegetarian who pointed out that the cultured sour cream i used had gelatin in it. a slightly different taste, but a very nice variation.
+
+i personally don't like walnuts all that much, so i leave them out whenever i cook this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, baking soda, liquid honey, margarine, flour
+---
+TITLE: 15 Minute Baked Halibut With Herbs
+CURRENT_DESCRIPTION: this halibut, which is baked in the oven, gives you an easy way to enjoy the delicious combination of flavors and healthy benefits of halibut and fresh herbs. it is a wonderful way to have a light sauce for your fish with a lot of flavor and minimal effort.
+this dish is so easy and simple that the key to its success is fresh ingredients. dried herbs will not work for this recipe.
+from the worlds healthiest foods.
+hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: halibut steaks, chicken stock, lemon juice, garlic cloves, capers, fresh parsley
+---
+TITLE: 15 Minute Beef And Bean Chili Skillet
+CURRENT_DESCRIPTION: stovetop skillet cooking is especially handy for quick meals.  this dinner will only take a few minutes to prepare but it rewards with a big bold taste. serve it up for a weekend meal along with a tossed green salad and you will have a sure winner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, green bell pepper, ground beef, salt and pepper, whole tomatoes
+---
+TITLE: 15 Minute Beef Stew
+CURRENT_DESCRIPTION: from a lipton email newsletter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, boneless sirloin steak, lipton beefy mushroom soup mix, water, tomato paste, new potatoes
+---
+TITLE: 15 Minute Black Bean Chili
+CURRENT_DESCRIPTION: this is very similar to the one i used to make as a vegetarian, but i had a small amount of meat to use up, so i tried this. again it's also good as a burrito filling and topped with whatever you normally like on your chili. i use reduced fat cheddar cheese or maybe sour cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, tomatoes and green chilies, black beans, frozen corn kernels, taco seasoning
+---
+TITLE: 15 Minute Cheeseburger Rice
+CURRENT_DESCRIPTION: this dish is very kid friendly and super quick and easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, water, ketchup, mustard, minute white rice, cheddar cheese
+---
+TITLE: 15 Minute Cheesy Chili  N Rice Skillet
+CURRENT_DESCRIPTION: found this on the kraft site per request. sounds like an easy fast meal to make on the run!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, chili with beans, diced tomatoes, water, white rice, velveeta cheese
+---
+TITLE: 15 Minute Chicken  Broccoli  And Rice Dinner
+CURRENT_DESCRIPTION: a very easy and delicious dinner to make, great with salad on the side, i have used cream of broccoli and works just as well and have used converted rice but take's longer to cook. enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, vegetable oil, condensed cream of chicken soup, milk, minute rice, broccoli florets
+---
+TITLE: 15 Minute Chicken And Rice Dinner
+CURRENT_DESCRIPTION: this recipe is an old campbell's soup recipe. its simple and very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, boneless skinless chicken breast halves, condensed cream of chicken soup, water, paprika, ground pepper
+---
+TITLE: 15 Minute Chicken Fajitas
+CURRENT_DESCRIPTION: i use a fajita seasoning mix i buy at super walmart called fiesta fajita seasoning mix. basically it is salt free and made with herbs & spices. pepper is a main ingredient, and not too much cumin. this mix is not one of the packaged things. i hope you can find it, or something similar because it makes fajita making fast and simple
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast tenders, olive oil, fajita seasoning mix, pepper, onion, lime
+---
+TITLE: 15 Minute Chicken Liver Pate
+CURRENT_DESCRIPTION: who says sophisticated hors d'oeuvres have to be complicated? this pate takes about 15 minutes to prepare, yet has the flavor of centuries of old world tradition. can be made several days ahead of time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken liver, onion, garlic clove, butter, heavy cream, brandy
+---
+TITLE: 15 Minute Chicken Tortilla Soup
+CURRENT_DESCRIPTION: one night, i got it in my head that i had to have chicken tortilla soup.  i didn't want to leave the house because of a huge snow storm.  using the ingredients i had sitting around, this is what i came up with!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salsa, chicken broth, mexicorn, kidney beans, chicken, cheddar cheese
+---
+TITLE: 15 Minute Chili
+CURRENT_DESCRIPTION: this is a recipe for healthier chili that i got from sparkpeople.com, a food tracking site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, onion, pinto beans, kidney beans, stewed tomatoes, chili powder
+---
+TITLE: 15 Minute Chili   Easy  Hearty And Good
+CURRENT_DESCRIPTION: i made up this recipe myself, so hopefully it isn't a repeat.  my husband loves this recipe, so i hope you do too!  i can do it in under 15 minutes now which is great for those "i don't want to cook" nights.  try with my northern cornbread!http://www.recipezaar.com/260739
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, chili beans, diced tomatoes, sliced mushrooms, chili powder
+---
+TITLE: 15 Minute Chili And Rice Wraps
+CURRENT_DESCRIPTION: a super-quick dinner from the kraft foods website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chili with beans, water, white minute rice, flour tortillas, cheese, sour cream
+---
+TITLE: 15 Minute Chili Cheeseburger Skillet
+CURRENT_DESCRIPTION: a super simple stove top dish.  especially good on cold nights.  i originally got this from a kraft box i believe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, water, macaroni & cheese dinner mix, chili powder, broccoli, ketchup
+---
+TITLE: 15 Minute Creamy Sun Tomato Basil Cashew Pasta
+CURRENT_DESCRIPTION: creamy and delicious! the cashews make the sauce so creamy and the meals comes together so quick! another one from pinterest with credit going to half baked.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasted cashews, garlic cloves, sun-dried tomato packed in oil, grape tomatoes, fresh basil, fresh oregano
+---
+TITLE: 15 Minute Enchilada Sauce
+CURRENT_DESCRIPTION: this was paired with chicken enchiladas in a new cookbook that i have - the best of america's test kitchen 2007.  while the enchiladas didn't whet my appetite, the quick sauce caught my eye; namely, no chili powder as an ingredient. looks simple enough for me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato sauce, onion, garlic cloves, chipotle chile in adobo, ground cumin, ground coriander
+---
+TITLE: 15 Minute Florentine Pasta Salad
+CURRENT_DESCRIPTION: fresh, fast, fantastic! create a yummy pasta salad in no time with a little help from packaged fresh pasta and pesto sauce. recipe is great as is or make it your own by adding grilled shrimp or chicken, fresh mushrooms, green peas, carrots, sun-dried tomatoes, etc. found this recipe in bhg, may 1990. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh linguine, pesto sauce, lemon juice, fresh spinach, tomatoes, red onion
+---
+TITLE: 15 Minute Garlic Lemon Chicken
+CURRENT_DESCRIPTION: so quick and so good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, flour, salt and pepper, oil, chicken broth, garlic
+---
+TITLE: 15 Minute Italian Chicken   Rice With Vegetables
+CURRENT_DESCRIPTION: this is a recipe for the kraft website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, boneless skinless chicken breast, assorted fresh vegetables, reduced-sodium fat-free chicken broth, instant rice, italian dressing
+---
+TITLE: 15 Minute Jello Trifle
+CURRENT_DESCRIPTION: easy and delicious. got this recipe from kraft and we use it all of the time. prep-time includes chill times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen pound cake, orange liqueur, cool whip topping, jello instant vanilla pudding mix, strawberries, sugar
+---
+TITLE: 15 Minute Lemon Cheesecake
+CURRENT_DESCRIPTION: so simple, so easy, so good! this is actually egg-free!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: powdered sugar, butter, graham cracker crumbs, cream cheese, instant lemon pudding, milk
+---
+TITLE: 15 Minute Lemon Chiffon Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 ready crust graham cracker pie crust (6 oz.), 7 oz. (1/2 14 oz. can) evaporated milk, well chilled, 1/2 c. water, 3 Tbsp. lemon juice, 3/4 c. sugar, yellow food coloring (optional)
+---
+TITLE: 15 Minute Marinated Chicken
+CURRENT_DESCRIPTION: adapted from my favorite magazine's website, taste of home. low fat chicken recipe that will be a nice addition to summer cookouts and picnics.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, fresh lemon juice, worcestershire sauce, dried tarragon, pepper, boneless skinless chicken breast halves
+---
+TITLE: 15 Minute No Bake Chocolate Peanut Butter Fudge
+CURRENT_DESCRIPTION: in just 15 minutes its ready to cut into squares! this fudge is really good. it was handed down by 3 generations and will stay in the family forever!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: confectioners, ,, ,, ,, ,
+---
+TITLE: 15 Minute No Fry Chicken Enchiladas  Honest
+CURRENT_DESCRIPTION: very time saving. quick to make. delicious to eat. and no greasy frying pan to wash!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green enchilada sauce, cream of chicken soup, sour cream, cooked chicken, tortilla chips, monterey jack cheese
+---
+TITLE: 15 Minute Pasta Combo
+CURRENT_DESCRIPTION: just like the name implies, this meal is fast, easy and fresh tasting. it's perfect when you want a quick, delicious one-pot meal without heating up the oven on those hot summer days. just add a crisp green salad and a glass of iced tea and dinner is ready in no time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, italian salad dressing, fresh tomatoes, smoked turkey breast, parmesan cheese
+---
+TITLE: 15 Minute Pork Fried Rice
+CURRENT_DESCRIPTION: found this on the kraft recipe site back in 2003. the recipe is no longer listed. this really good fake out chinese food at home!! i added some chopped green onions and a scrambled egg to mine. and served with eggrolls on the side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, pork tenderloin, chicken bouillon cube, water, soy sauce, frozen mixed vegetables
+---
+TITLE: 15 Minute Shrimp
+CURRENT_DESCRIPTION: an easy and fast shrimp recipe that i found in the newspaper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, old bay seasoning, tomatoes, olive oil, garlic cloves, dried oregano
+---
+TITLE: 15 Minute Shrimp Carbonara Fettuccine
+CURRENT_DESCRIPTION: haven't tried this yet, but it looked delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fettuccine, baby peas, shrimp, parmesan cheese, half-and-half cream, bacon bits
+---
+TITLE: 15 Minute Shrimp Scampi
+CURRENT_DESCRIPTION: truly delicious seafood/pasta dish that is nearly impossible to mess up & a great stand by for rushed dinners.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, garlic, white wine, butter, frozen shrimp
+---
+TITLE: 15 Minute Shrimp Stir Fry
+CURRENT_DESCRIPTION: there is going to be a party in your mouth with this delicious stir-fry!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, large shrimp, salt & freshly ground black pepper, red onion, corn kernels, cherry tomatoes
+---
+TITLE: 15 Minute Stir Fried Chicken   Asparagus
+CURRENT_DESCRIPTION: this is from "world's healthiest foods".  i tried this because it is so easy and quick to make.  the asparagus is wonderful, too.  it fits most any health diet, though it did'nt include  nutrition data  with it.  this is one i'll be making often.  i used powdered ginger, as i don't usually have fresh ginger on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, asparagus, chicken broth, fresh ginger, garlic cloves, boneless skinless chicken breast
+---
+TITLE: 15 Minute Stove Top Macaroni  N Cheese
+CURRENT_DESCRIPTION: beware, this is a very rich recipe!  the dijon mustard adds another flavour dimension.  the recipe is from chow.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: elbow macaroni, extra-sharp cheddar cheese, half-and-half, unsalted butter, dijon mustard, kosher salt
+---
+TITLE: 15 Minute Stroganoff
+CURRENT_DESCRIPTION: i got this recipe out of a newspaper when i first married, over 20 years ago. it's been one of our favorite meals and really is quick, easy and good tasting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: round steak, butter, water, fresh mushrooms, dry onion soup mix, sour cream
+---
+TITLE: 15 Minute Taco In A Pan
+CURRENT_DESCRIPTION: top with coarsely crushed tortilla chips and breakstone's or knudsen sour cream, if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra lean ground beef, water, taco seasoning mix, minute white rice, mexican blend cheese, lettuce
+---
+TITLE: 15 Minute Tiger Prawns With Chinese Greens
+CURRENT_DESCRIPTION: super quick & super tasty. another great recipe for when you've just come back from work and want to eat real food - fast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tiger shrimp, baby spinach, pak choi, thai fish sauce, dark soy sauce, sweet chili sauce
+---
+TITLE: 15 Minute Vegetarian Chili
+CURRENT_DESCRIPTION: when i was a vegetarian as a teenager i used to make the recipe all the time. it is very inexpensive (maybe $3 for the recipe) and takes almost no time at all. eat alone or use it as a burrito filling. omit the cheese for a vegan recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kidney beans, black beans, fire-roasted tomatoes, salsa, water
+---
+TITLE: 15 Minute White Bean Soup
+CURRENT_DESCRIPTION: a tasty lunch for two, this recipe is from the december 2008 everyday food magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, scallions, garlic clove, dried oregano, vegetable broth, white beans
+---
+TITLE: 15 Minuten Tomaten Reis
+CURRENT_DESCRIPTION: 6,313 likes, 90 comments - stephifashion on April 4, 2024: "15 Minuten Tomaten Reis
+
+Ein schnelles Gericht, welches gut schmeckt und euch satt macht 🍅 🍚 
+
+Zutaten für 2 Personen 
+•250 Gramm Reis (ich habe Jasmin Reis genommen)
+•Gemüsebrühe 350 ml 
+
+•eine Zwiebel 
+•eine Zehe Knoblauch 
+•200 Gramm Kirschtomaten 
+•50 Gramm Tomatenmark 
+•250 Gramm passierte Kirschtomaten 
+(schmeckt süßer und fruchtiger als von normalen Tomaten)
+•optional (einen Schuss Rotwein)
+•0,5 EL Oregano 
+•0,5 TL Rosmarien
+•
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 250 Gramm Jasmin Reis, 350 ml Gemüsebrühe, 1 Zwiebel, 1 Knoblauch Zehe, 200 Gramm Kirschtomaten, 50 Gramm Tomatenmark
+---
+TITLE: 15 Minutes Creamy Fettuccine Alfredo
+CURRENT_DESCRIPTION: this is very good and quick and easy. not sure where i got this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, parmesan cheese, margarine, milk, fettuccine pasta
+---
+TITLE: 15 Minutes Oatmeal  Rice Cooker
+CURRENT_DESCRIPTION: my own version of oatmeal cooked in the rice cooker. all it takes is only 15 minutes of your time :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick oats, water, milk, salt, sugar, honey
+---
+TITLE: 15Min Feierabend Dönerteller Salat
+CURRENT_DESCRIPTION: 4,761 likes, 45 comments - vegan_high_protein on January 16, 2026: "🇬🇧/🇩🇪 15Min. Feierabend Dönerteller Salat 🌱
+
+Wenn du keine Zeit hast und abends spät nach Hause kommst, ist das der Salat den du unbedingt nachmachen solltest! 🤌
+
+Dieser Dönerteller Salat könnte Teil deines Ernährungsplans in meinem 1:1 Coaching sein.
+Schau dir gerne die entsprechenden Highlights auf meinem Profil für weitere Infos an oder schreib mir eine DM 👌 
+
+Wenn du manche Zutaten oder Geräte nicht kennst, kannst du
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 400 g Skyr Alternative, 0.5 Salatgurke, 2 Knoblauchzehen, gehackt, 3 El TK-Gartenkräuter, 1 Tl Thymian, 1 Tl Sumac
+---
+TITLE: 16 Day Pickles
+CURRENT_DESCRIPTION: my mother got this from her sister, martha. it's a tried and true pickle recipe. it's very similar to recipe #17490 on recipezaar. sometimes i don't always have 2 gallons of cumcumbers but will make if i have gathered enough for 1 gallon but i go ahead and make the syrup and save it and use it on the next batch. since the syrup has vinegar and sugar in it it will be alright and i don't even refrigerate this syrup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, alum, pickling salt, sugar, white vinegar, pickling spices
+---
+TITLE: 16 Quart Chicken Corn Soup
+CURRENT_DESCRIPTION: my mom bought what she thought at the time was the biggest stockpot ever in 1998, and this is the first thing she made in it. i've always loved it and i make it when i can in my own 16 quart pot! it freezes really well, so don't be afraid to make it all. cook the chicken a day ahead so you can refrigerate the broth to skim the fat off easier. thanks mom!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, celery ribs, carrot, onion, chicken broth, potatoes
+---
+TITLE: 17 Day Diet   Turkey Eggplant Parmesan
+CURRENT_DESCRIPTION: eggplant parmesan, an italian standby, is one of my favorite dishes. we developed this quick version so that i could have it more often. it’s super low in carbs and fat, and you won’t even miss the breading. - dr. mike moreno
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, eggplant, lean ground turkey, low-carb marinara sauce, oregano leaves, basil
+---
+TITLE: 1789  Apple  Arugula Salad With Aged Gouda And Crisped Pancetta
+CURRENT_DESCRIPTION: ris lacoste was the chef at the 1789 restaurant in georgetown in washington dc for ten years, til she left to open her own place.  this salad was a favorite on the menu.  the cider vinaigrette recipe makes a lot--but you can keep it in the fridge for about two weeks.  bring it to room temperature before using.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, shallots, fresh thyme, red wine vinegar, sherry wine vinegar, white vinegar
+---
+TITLE: 18 Carrot Cupcakes
+CURRENT_DESCRIPTION: from rachel ray magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light brown sugar, eggs, vegetable oil, pumpkin pie spice, baking powder, baking soda
+---
+TITLE: 1880 Chocolate Spice Cake  With Icing
+CURRENT_DESCRIPTION: arcamax
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, egg, flour, salt, cocoa
+---
+TITLE: 1890 Cream Cake
+CURRENT_DESCRIPTION: this is from one of my most prized cookbooks compendium of cookery and reliable recipes.copywrite 1890.it is so old i'm almost afraid to touch the pages.i wouldn't make this but i thought it would be fun to post it.it dosen't give a baking time so i'll guess at it but keep in mind they cooked on wood stoves then. them measure in goblets!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, flour, cream of tartar, sweet cream, egg yolks
+---
+TITLE: 1890 San Antonio Enchilada Sauce
+CURRENT_DESCRIPTION: this recipe is from cook 'em horns published by the university of texas ex-students' association.  it is the only enchilada sauce recipe i use, period.  homemade is always best. i have used a blender, but i don't blend all the tomatoes.  i have also used a potato masher for the tomatoes for a thicker sauce.  cooking and prep time to not include preparing the enchiladas.  serve on beef, chicken, vegetarian...just about any kind of enchilada.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon grease, onion, garlic cloves, whole tomatoes, water, salt
+---
+TITLE: 1898 Potato Dumplings
+CURRENT_DESCRIPTION: from "the galt cookbook", published in 1898. i have adapted it slightly, by adding quantities and instructions. to my complete surprise these remind me a little of "lo bak go", (dim sum popular at chinese new years.) the good ladies of galt are no doubt rolling in their graves, but i serve these with a good whack of chile-garlic sauce 'cause that's how i like my lo bak go too. these are not the sort of thing to make from scratch, but from the leftovers of a ham-and-potato meal. they are easiest to mix if the potatoes are still warm, so set them on to poach as you clean up after dinner. then, they can be fried up when you want them. keep cakes wrapped in the fridge until ready to fry. they will keep for a couple days, so you don't have to fry all of them at once. i should also note that i use an unsalted smoked ham, so you may wish to reduce or eliminate the salt if your ham is salted.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed potatoes, cooked ham, egg, flour, salt, baking powder
+---
+TITLE: 18Th Century Drunken English Somerset Cider Chicken With Honey
+CURRENT_DESCRIPTION: a delicious 18th century recipe from the county of somerset; somerset is the home of england's most notorious cider, 'scrumpy', a seemingly innocent drink to the unwary! however, cider makes an excellent substitute for wine in cooking and tenderises the meat beautifully. the addition of honey blends extremly well with the cider, and adds a complexity to this easily baked chicken dish. serve with steamed greens and baked or mashed potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken legs-thighs, english mustard powder, salt, black pepper, cider, oil
+---
+TITLE: 1900 Park Fare Bread Pudding  Disney
+CURRENT_DESCRIPTION: you should serve this with a sweet vanilla sauce like recipe #240314.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, granulated sugar, heavy cream, salt, ground cinnamon, butter
+---
+TITLE: 1900 Park Fare Vanilla Sauce  Disney
+CURRENT_DESCRIPTION: serve this with 1900 park fare bread pudding.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, sugar, vanilla bean, milk, heavy cream
+---
+TITLE: 1905 Blue Ribbon Fruit Cup
+CURRENT_DESCRIPTION: another golden oldie from a recipe card, originally from a 1905 blue ribbon cook book. any fruit is good but some tart fruit is necessary. you can add cherries or seedless grapes if you like. it is a great all-year-round recipe with fruits that are usually readily available. if fresh pineapple is not available use canned sliced pineapple or canned pineapple chunks. add the banana and the apple just before serving to prevent browning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pink grapefruit, oranges, fresh pineapple, banana, apple, pineapple juice
+---
+TITLE: 1905 Salad Dressing Recipe
+CURRENT_DESCRIPTION: classic from florida's famous columbia restaurant.  the whole recipe has already been posted, i am posting just the dressing for nutrional information purposes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, dried oregano, worcestershire sauce, extra virgin olive oil, white wine vinegar, fresh lemon juice
+---
+TITLE: 1917 War Cake
+CURRENT_DESCRIPTION: this is from cajun-recipes.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn syrup, cold water, salt, clove, cinnamon, nutmeg
+---
+TITLE: 1927 Eskimo Cup
+CURRENT_DESCRIPTION: perfect for a warm summer day, this is from a "forgotten recipes" cookbook published in 1981 dedicated to recipes 'from the magazines you loved...and the days you remember.'
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grapefruit juice, lemon juice, sugar, water, ginger ale, cracked ice
+---
+TITLE: 1927 Peanut Butter Bread
+CURRENT_DESCRIPTION: i found this recipe in a cookbook of old american magazine recipes. this bread is good spread with jam for breakfast or you could make a jam banana sandwich which is excellent. for those with a peanut allergy you can use another nut butter like almond.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, sugar, peanut butter, skim milk
+---
+TITLE: 1928 Award Winning Gold Cake
+CURRENT_DESCRIPTION: the orange extract is optional, but it makes an ice complement to the flavor of the cake. another from my "forgotten recipes" cookbook. sounds good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, butter, sugar, egg yolks, milk
+---
+TITLE: 1929 Depression Potato Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 medium size potatoes, sliced, 1 medium bell pepper, in strips and blanched, 1 small onion, diced, 2 eggs, beaten well
+---
+TITLE: 1930 Recipe For Mincemeat Cake
+CURRENT_DESCRIPTION: this recipe is from a church group cookbook.  i have not made this yet, but it sounds worth trying.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, oil, eggs, buttermilk, baking soda, salt
+---
+TITLE: 1930 S Apple And Nut Pie
+CURRENT_DESCRIPTION: i tore this recipe out of family circle.  i have not tried it yet but it sounded very easy to do. would be great topped with vanilla ice cream
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated pie crust, light brown sugar, all-purpose flour, unsalted butter, walnuts, granny smith apples
+---
+TITLE: 1931 Coconut Patties
+CURRENT_DESCRIPTION: this recipe is from the 1931 searchlight cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, sweetened condensed milk, water, coconut, vanilla, cocoa
+---
+TITLE: 1937 Strawberry Shortcake
+CURRENT_DESCRIPTION: recipe taken from a newspaper clipping dated 1937
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking powder, shortening, milk, egg
+---
+TITLE: 1940 S Best Carrot Cake Recipe
+CURRENT_DESCRIPTION: from jane at just a pinch recipe club: again, going back to my vintage recipes that have been in my family for years, i spotted an old recipe from the 40's for carrot cake. it was titled the best carrot cake. well, i figured it was now the 90's at the time and was sure someone probably had come up with a better recipe since then. i was wrong. to date, i have not tasted better carrot cake ever. it's easy and the outcome is amazing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, vegetable oil, eggs, all-purpose flour, baking soda, cinnamon
+---
+TITLE: 1940 S Coleslaw
+CURRENT_DESCRIPTION: the original title is simply coleslaw. i added the 1940's as this recipe is for a request for coleslaw made with a cooked dressing. since most dressings for coleslaw today are not cooked and this book is from the 40's i renamed the recipe to help distinguish it from today's typical deli fare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, apple, egg yolks, sugar, butter, salt
+---
+TITLE: 1940S Vinegar Cake    Egg Free
+CURRENT_DESCRIPTION: egg free and very moist you can make a cake or do muffins and its so easy, and if you wanted you could safely lick the spoon as its egg free.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, margarine, sugar, milk, white vinegar, bicarbonate of soda
+---
+TITLE: 1947 Date Nut Bread
+CURRENT_DESCRIPTION: the delicious flavor of this loaf improves after standing for 24 hours.  from the western section of the united states regional cookbook, culinary institute of chicago, 1947
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dates, boiling water, butter, sugar, egg, flour
+---
+TITLE: 1949  Spanish  Rice
+CURRENT_DESCRIPTION: when life was simpler and few people traveled beyond their own community, the use of a single ingredient could imply an "exotic" flare. if a dish had pineapple in it, it would be called "hawaiian"; if it had a green pepper added, then it was "spanish" or "mexican". this dish comes from those simpler, less global village times. it's from a 1949 better homes and gardens cookbook and was my all time favourite dish when i was growing up on the farm. i even requested it as my birthday meal, that's how much i loved it!  very basic comfort food, not meant to compete with today's hotter foods or a gourmet palate. this recipe is now officially 60 years old and just as comforting and filling as it was when i was a child. and lastly, 60 years ago, this type of meal was called "dining-in-a-dish". :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, spanish onion, green pepper, tomatoes, cooked rice, salt
+---
+TITLE: 1949 Country Style Steak
+CURRENT_DESCRIPTION: no canned cream of mushroom soup in sight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: round steaks, seasoned flour, butter, onions, mushroom, water
+---
+TITLE: 1950 S Brownies
+CURRENT_DESCRIPTION: this batter is very thick but bakes up to a yum yum chewy brownie that you will want to eat the whole pan. i usually double this recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate square, semisweet baking chocolate square, shortening, sugar, eggs, flour
+---
+TITLE: 1950 S Hamburger Goulash
+CURRENT_DESCRIPTION: we grew up with this casserole that we called "goulash." it is an humble dish that is comforting with its blend of garlic, mushrooms, peppers, and bacon. the oregano gives it a special flavor that makes it different from other hamburger casseroles. the original version did not have a bread crumb topping, but it does jazz it up for company. if you are lucky enough to have some frozen cooked ground beef (oamc) this recipe can be assembled much quicker.this doubles nicely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: macaroni, tomato paste, water, baking soda, bacon, ground beef
+---
+TITLE: 1950 S Meatloaf
+CURRENT_DESCRIPTION: this is my sister-in-law's recipe for meatloaf.  she shared with me for a family cookbook.  it is sweet so you might want to cut back some on the brown sugar, i only use about 3/4 cup. hope you enjoy it
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chuck, eggs, breadcrumbs, ketchup, milk, onion
+---
+TITLE: 1950 S Uncooked Fruit Cake
+CURRENT_DESCRIPTION: this is an old recipe and some adaptations might have to be made to match modern packaging.  the finished product may be packed into loaf pans or rolled into logs in waxed paper to make for easier serving. graham cracker may also be used.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafers, miniature marshmallow, sweetened condensed milk, butter, pecans, walnuts
+---
+TITLE: 1953 Meatloaf
+CURRENT_DESCRIPTION: this recipe comes from an old handwritten recipe given by an older family member.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, egg, breadcrumbs, onion, salt, pepper
+---
+TITLE: 1960 Original Kentucky Buttermilk Biscuit
+CURRENT_DESCRIPTION: this is an old recipe--i will not tell where from--but it is 1960 original kentucky biscuit scaled down from an original i have. it is absolutely to die for. you will never make another biscuit after this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, salt, shortening, buttermilk
+---
+TITLE: 1960 S Catalina Dressing
+CURRENT_DESCRIPTION: a very popular salad dressing on a comeback trail..!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, sugar, red wine vinegar, onion, paprika, worcestershire sauce
+---
+TITLE: 1960 Tomato Gravy
+CURRENT_DESCRIPTION: from an index card in a recipe box i bought at a garage sale in 1960. the recipe uses canned tomatoes but i have also used fresh tomatoes with great results too. substitute olive or vegetable oil for the bacon grease if you like but the taste won't be quite the same. good with meatloaf or for serving with leftovers or biscuits.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon grease, onion, flour, salt, pepper, canned tomatoes
+---
+TITLE: 1978 Bhg Reuben Chowder
+CURRENT_DESCRIPTION: tasty stew from  better homes and gardens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, condensed cream of celery soup, processed swiss cheese, sauerkraut, butter, rye bread
+---
+TITLE: 1980 S Weight Watchers Veggie Soup
+CURRENT_DESCRIPTION: i have always loved this hearty vegetable soup and i was delighted to rediscover the recipe.  please note that this recipe serves only 2, so you'll want to double or triple it.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: diced onion, fresh garlic, zucchini, carrot, chopped tomato, fresh parsley
+---
+TITLE: 1995 1St Place  Swedish Spice Cookies
+CURRENT_DESCRIPTION: this was posted for the zwt 2006.  i have not tried this recipe and it is compliments of fooddownunder.com by colleen ries.  these were the first-place winner in the 1995 chicago tribune holiday cookie contest.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, ground cloves, ground ginger, ground cinnamon, salt
+---
+TITLE: 1St Place Banana Nut Bread
+CURRENT_DESCRIPTION: from "the green thumb harvest" cookbook. this won first prize in 1889 at the wabash, indiana county fair by her great-grandmother according to the woman who submitted it. this makes 2 loaves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lemon juice, milk, sweet butter, sugar, vanilla extract, eggs
+---
+TITLE: 1St Place Fair Cheese Bread
+CURRENT_DESCRIPTION: came out of my los angeles fair cookbook.
+serve with chili or soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, dry mustard, salt, pepper, eggs
+---
+TITLE: 1St Time Host Stuffing
+CURRENT_DESCRIPTION: this stuffing is delicious and elegant and will make you look like you created a complicated dish. in reality, it is very easy and is great for the first time thanksgiving host!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, turkey sausage, onion, celery & leaves, bread cubes, sweet potatoes
+---
+TITLE: 2   Baby Potatoes With Rosemary
+CURRENT_DESCRIPTION: this is the starch for the easter dinner from good housekeeping. receipe #1 was roast leg of lamb with figs and wine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small potatoes, olive oil, fresh rosemary, salt, fresh coarse ground black pepper, rosemary sprig
+---
+TITLE: 2 2 2 Diet Mocha
+CURRENT_DESCRIPTION: while trying to come up with a satisfying "snack" or dessert that fit the requirements of my low carb, low calorie, low fat diet (ugh, but i'm only on it for 3 weeks as a jumpstart), i invented this. (i've experimented often with do-it-yourself coffee mixes, and i think this is better than most.)  i'm mostly putting this here to calculate the nutritional information.
+
+for cocoa, use the best you can find.  currently i'm using ghirardelli unsweetened cocoa, from a 10 oz. can, sold in the baking section of publix.  my current sweetener is sucaryl tablets (from canada), and i use 2 tablets (easy to remember--that's why i tried these proportions).
+
+[edit after publishing: when i found out the total carb count and realized it was too high due to the milk powder, i decided to wait until i go back to low-carbing and then use cream which has zero carbs.  however, this is still quite low in calories, so many dieters should find it useful.]
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant coffee, unsweetened cocoa powder, nonfat dry milk powder, artificial sweetener, vanilla extract, salt
+---
+TITLE: 2 4 6 8 Ranch Dip
+CURRENT_DESCRIPTION: 2 green peppers, 4 tomatoes, 6 green onions and 8 oz. of mozzarella all covered in ranch and served on a cracker - yum!  my dear friend annette introduced this to us.  it's an easy appetizer that tastes great.  i have not made it myself yet so, i am unsure how much ranch to use.  just add a little at a time until it reaches a good consistency.  once i make it i will add an exact amount, it should be easy to figure out. we love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green peppers, tomatoes, green onions, mozzarella cheese, ranch dressing
+---
+TITLE: 2 5 Challenge Friendly Real Pasta Sauce
+CURRENT_DESCRIPTION: this is a slightly reworked version of my real pasta sauce recipe #84451 to allow it to fit in with the 2 fruit and 5 veg challenge going on in the vegetarian/vegan forum (dec 05/jan06)  as far as i'm aware, my fruits are the tomatoes and pepper and my veg are the onion, mushrooms, courgette, garlic and the very recent addition of sweetcorn :o)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chopped tomatoes, onion, pepper, mushrooms, courgette, sweetcorn
+---
+TITLE: 2 Alarm Chili
+CURRENT_DESCRIPTION: my family likes the chili made from the packet of 2-alarm chili, so one day i decided to measure out all the ingredients. it's much cheaper to measure out your own ingredients!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, tomato sauce, water, paprika, cumin, dried onion flakes
+---
+TITLE: 2 Baked Pie Shells(Fruit Pie)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. sugar, 4 Tbsp. cornstarch, 2 c. water, 1 box Jell-O (strawberry), 4 c. uncooked strawberries
+---
+TITLE: 2 Bean Chili
+CURRENT_DESCRIPTION: lovely belly warming chili
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, cooking oil, carrot, onion, garlic cloves, chili powder
+---
+TITLE: 2 C S Shake
+CURRENT_DESCRIPTION: pack a calcium and vitamin c punch with this kid friendly shake. it is worth finding sucanat if you can as sucanat is a healthier option for kids than refined white sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, whole milk, sucanat, pure vanilla extract, ice cubes
+---
+TITLE: 2 Cheese Mushroom Toast
+CURRENT_DESCRIPTION: i love french rolls and love coming up with new ways to enjoy them.  this would make a great snack, lunch or even a dinner with a side salad.  i had just included 1/2 cup sauteed mushrooms, because i thought people could use their sauteed mushroom recipe of choice that added  up to that amount.  i've included what i used... not really a recipe.. just really basic, but delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, sliced mushrooms, salt and pepper, french roll, butter, garlic clove

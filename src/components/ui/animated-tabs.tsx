@@ -31,12 +31,12 @@ export const AnimatedTabs = ({ tabs, defaultTab, className, activeTab: controlle
 
   return (
     <div className={cn("w-full flex flex-col gap-y-1", className)}>
-      <div className="flex gap-2 flex-wrap bg-[var(--bg-secondary)] border border-[var(--border-primary)] p-1 rounded-xl">
+      <div className="flex bg-[var(--bg-secondary)] border border-[var(--border-primary)] p-1 rounded-xl">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className="relative px-3 py-1.5 text-sm font-medium rounded-lg text-white outline-none transition-colors"
+            className="relative flex-1 px-3 py-1.5 text-sm font-medium rounded-lg text-white outline-none transition-colors text-center"
           >
             {activeTab === tab.id && (
               <motion.div

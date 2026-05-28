@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screen 2 — Card Metadata Chips</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0d0d0c;
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  h1 { font-family: Georgia, serif; font-size: 22px; color: #EFE3CE; margin-bottom: 6px; font-weight: 400; }
+  .page-subtitle { font-size: 13px; color: #9c9c9b; margin-bottom: 32px; line-height: 1.5; }
+  .page-subtitle strong { color: #F4A261; }
+
+  .cols { display: grid; grid-template-columns: 1fr 60px 1fr; gap: 0; align-items: start; }
+  .col-header {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .badge { padding: 3px 8px; border-radius: 99px; font-size: 9px; font-weight: 600; }
+  .badge-current { background: rgba(225,36,41,0.2); color: #f87171; }
+  .badge-proposed { background: rgba(51,133,0,0.2); color: #6fca3e; }
+
+  /* Arrow divider */
+  .arrow-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 6px;
+  }
+  .arrow { font-size: 20px; color: #F4A261; }
+  .arrow-label { font-size: 8px; color: #696967; text-transform: uppercase; letter-spacing: 0.08em; text-align: center; }
+
+  /* Card grid */
+  .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+
+  /* Recipe card */
+  .recipe-card {
+    background: #1F1B19;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #3A3430;
+    position: relative;
+    transition: transform 0.15s;
+    cursor: pointer;
+  }
+  .recipe-card:hover { transform: scale(1.02); }
+
+  .card-img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    display: block;
+    background: linear-gradient(135deg, #2C2724 0%, #3A3430 40%, #4A3828 70%, #2C2724 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .card-img::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(31,27,25,0.95) 0%, rgba(31,27,25,0.3) 40%, transparent 70%);
+  }
+  .card-img-label {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 9px;
+    color: rgba(160,128,96,0.6);
+    z-index: 1;
+    white-space: nowrap;
+  }
+
+  /* Simulated food image colors per recipe */
+  .img-turkey   { background: linear-gradient(135deg, #4A3020, #8B5030, #3A2010); }
+  .img-salmon   { background: linear-gradient(135deg, #C86040, #804020, #A05030); }
+  .img-mousse   { background: linear-gradient(135deg, #1A0A00, #3A1A00, #251005); }
+  .img-salad    { background: linear-gradient(135deg, #254020, #3A6028, #1A3018); }
+  .img-noodles  { background: linear-gradient(135deg, #706020, #A08030, #504010); }
+  .img-cake     { background: linear-gradient(135deg, #503010, #7A5030, #3A2010); }
+
+  .card-body { padding: 10px; }
+
+  .card-tags { display: flex; gap: 4px; margin-bottom: 6px; flex-wrap: wrap; }
+  .card-tag {
+    font-size: 8px;
+    padding: 1px 5px;
+    border-radius: 99px;
+    background: rgba(244,162,97,0.1);
+    color: #A08060;
+    border: 1px solid rgba(244,162,97,0.15);
+  }
+
+  .card-title {
+    font-family: Georgia, 'Libre Baskerville', serif;
+    font-size: 13px;
+    color: #EFE3CE;
+    line-height: 1.3;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Save button */
+  .save-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 28px; height: 28px;
+    background: rgba(31,27,25,0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+  }
+
+  /* META CHIPS — only shown in proposed column */
+  .meta-chips {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 7px;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 8.5px;
+    color: #A08060;
+    background: rgba(0,0,0,0.3);
+    padding: 2px 5px;
+    border-radius: 99px;
+    white-space: nowrap;
+  }
+  .chip svg { display: inline; vertical-align: middle; }
+
+  /* Null-safe: some chips only render when data present */
+  .chip-missing {
+    /* chips simply don't render when data is missing — no placeholder */
+    display: none;
+  }
+
+  /* Legend */
+  .legend {
+    margin-top: 28px;
+    display: flex;
+    gap: 16px;
+    font-size: 11px;
+    color: #696967;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* Info box */
+  .info-box {
+    margin-top: 20px;
+    padding: 14px 16px;
+    background: rgba(244,162,97,0.07);
+    border: 1px solid rgba(244,162,97,0.2);
+    border-radius: 10px;
+    font-size: 12px;
+    color: #EFE3CE;
+    line-height: 1.6;
+  }
+  .info-box strong { color: #F4A261; }
+
+  .callout {
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #696967;
+    padding: 6px 8px;
+    border-left: 2px solid rgba(244,162,97,0.3);
+    background: rgba(255,255,255,0.02);
+    border-radius: 0 6px 6px 0;
+  }
+  .callout strong { color: #F4A261; display: block; margin-bottom: 2px; }
+</style>
+</head>
+<body>
+
+<h1>Screen 2 — Recipe Card Metadata Chips</h1>
+<p class="page-subtitle">
+  All Recipes grid currently shows <strong>image + title only</strong>. The proposed change adds time,
+  difficulty, and calorie chips — the same data already shown on Hero/Swipe cards. Null-safe: missing data = chip simply doesn't render.
+</p>
+
+<div class="cols">
+
+  <!-- CURRENT -->
+  <div>
+    <div class="col-header">
+      <span class="badge badge-current">Current</span>
+      All Recipes Grid — no metadata
+    </div>
+    <div class="card-grid">
+
+      <!-- Card 1: all data present, but chips hidden -->
+      <div class="recipe-card">
+        <div class="card-img img-turkey">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Italian</span><span class="card-tag">High-protein</span></div>
+          <div class="card-title">Lean Turkey Meatballs</div>
+          <!-- no chips in current -->
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="recipe-card">
+        <div class="card-img img-salmon">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Japanese</span></div>
+          <div class="card-title">Miso Glazed Salmon</div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 3: missing calories -->
+      <div class="recipe-card">
+        <div class="card-img img-mousse">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Dessert</span><span class="card-tag">French</span></div>
+          <div class="card-title">Dark Chocolate Mousse</div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="recipe-card">
+        <div class="card-img img-salad">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Vegan</span></div>
+          <div class="card-title">Garlic Butter Salmon with Asparagus</div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="recipe-card">
+        <div class="card-img img-noodles">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Thai</span></div>
+          <div class="card-title">Spicy Peanut Noodles</div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 6: no tags, no calories in data -->
+      <div class="recipe-card">
+        <div class="card-img img-cake">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Rice Krispy Squares</div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+    </div>
+    <div class="callout">
+      <strong>Problem:</strong>
+      To find out if a recipe is quick or manageable, you have to click into each one. That's a lot of taps to browse 26,000+ recipes.
+    </div>
+  </div>
+
+  <!-- ARROW -->
+  <div class="arrow-col">
+    <div class="arrow">→</div>
+    <div class="arrow-label">add chips</div>
+  </div>
+
+  <!-- PROPOSED -->
+  <div>
+    <div class="col-header">
+      <span class="badge badge-proposed">Proposed</span>
+      All Recipes Grid — with metadata chips
+    </div>
+    <div class="card-grid">
+
+      <!-- Card 1: full data -->
+      <div class="recipe-card">
+        <div class="card-img img-turkey">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Italian</span><span class="card-tag">High-protein</span></div>
+          <div class="card-title">Lean Turkey Meatballs</div>
+          <div class="meta-chips">
+            <span class="chip">⏱ 35 min</span>
+            <span class="chip">◑ Easy</span>
+            <span class="chip">🔥 280 kcal</span>
+          </div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 2: full data -->
+      <div class="recipe-card">
+        <div class="card-img img-salmon">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Japanese</span></div>
+          <div class="card-title">Miso Glazed Salmon</div>
+          <div class="meta-chips">
+            <span class="chip">⏱ 20 min</span>
+            <span class="chip">◑ Easy</span>
+            <span class="chip">🔥 320 kcal</span>
+          </div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 3: missing calories — null-safe, only 2 chips -->
+      <div class="recipe-card">
+        <div class="card-img img-mousse">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Dessert</span><span class="card-tag">French</span></div>
+          <div class="card-title">Dark Chocolate Mousse</div>
+          <div class="meta-chips">
+            <span class="chip">⏱ 45 min</span>
+            <span class="chip">◔ Medium</span>
+            <!-- no calorie chip — data missing, safely omitted -->
+          </div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 4: full data -->
+      <div class="recipe-card">
+        <div class="card-img img-salad">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Vegan</span></div>
+          <div class="card-title">Garlic Butter Salmon with Asparagus</div>
+          <div class="meta-chips">
+            <span class="chip">⏱ 20 min</span>
+            <span class="chip">◑ Easy</span>
+            <span class="chip">🔥 410 kcal</span>
+          </div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 5: only time available -->
+      <div class="recipe-card">
+        <div class="card-img img-noodles">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag">Thai</span></div>
+          <div class="card-title">Spicy Peanut Noodles</div>
+          <div class="meta-chips">
+            <span class="chip">⏱ 15 min</span>
+            <!-- difficulty + calories not in DB for this recipe -->
+          </div>
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+      <!-- Card 6: no tags, no data at all — no chips render -->
+      <div class="recipe-card">
+        <div class="card-img img-cake">
+          <div class="card-img-label">food photo</div>
+        </div>
+        <div class="card-body">
+          <div class="card-title">Rice Krispy Squares</div>
+          <!-- zero chips — all data missing, no broken UI -->
+        </div>
+        <div class="save-btn">🔖</div>
+      </div>
+
+    </div>
+    <div class="callout">
+      <strong>Null-safe design:</strong>
+      Cards 3, 5, 6 show fewer chips because their DB records are incomplete. No "— kcal" placeholder —
+      the chip simply doesn't render. Sparse data looks intentional, not broken.
+    </div>
+  </div>
+
+</div>
+
+<div class="info-box">
+  <strong>Implementation note:</strong>
+  The recipe card component already receives <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">totalTime</code>,
+  <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">difficulty</code>, and
+  <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">calories</code> as props —
+  the data pipeline is already in place. The only code change is removing the <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">featured === true</code>
+  guard that currently hides chips in grid view. One condition removal + chip CSS = done.
+</div>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Heart, X, Bookmark, BookmarkCheck, Info, RotateCcw } from "lucide-react";
+import { Heart, X } from "lucide-react";
 import { useSwipeSession } from "@/lib/hooks/use-swipe-session";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
 import { RecipeCard, RecipePreviewSheet, MatchScreen } from "@/components/swipe/swipe-cards";
@@ -18,7 +18,7 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
     return (
       <div
         className="w-full flex flex-col overflow-y-auto rounded-2xl mx-auto"
-        style={{ height: 480, maxWidth: 480, background: "#1C1209", margin: "16px auto" }}
+        style={{ height: 560, maxWidth: 540, background: "#1C1209", margin: "16px auto" }}
       >
         <MatchScreen
           liked={liked}
@@ -35,8 +35,8 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
       data-tour="swipe-deck"
       className="w-full flex flex-col rounded-2xl overflow-hidden shadow-2xl"
       style={{
-        height: 520,
-        maxWidth: 480,
+        height: 600,
+        maxWidth: 540,
         margin: "16px auto",
         background: "#1C1209",
         border: "1px solid #2A1804",
@@ -96,9 +96,6 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
               recipe={nextCard}
               likeOpacity={0}
               nopeOpacity={0}
-              saved={savedIds.has(nextCard.id)}
-              onToggleSave={() => session.toggleSave(nextCard)}
-              onInfo={() => session.setPreviewRecipe(nextCard)}
             />
           </div>
         )}
@@ -116,38 +113,22 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
               recipe={currentCard}
               likeOpacity={session.likeOpacity}
               nopeOpacity={session.nopeOpacity}
-              saved={savedIds.has(currentCard.id)}
-              onToggleSave={() => session.toggleSave(currentCard)}
-              onInfo={() => session.setPreviewRecipe(currentCard)}
             />
           </div>
         )}
       </div>
 
-      {/* Action buttons */}
-      <div className="flex items-center justify-center gap-3 py-2 pb-3">
+      {/* Action buttons — heart + X only */}
+      <div className="flex items-center justify-center gap-5 py-2 pb-3">
         <button
           type="button"
           onClick={() => session.commitSwipe("left")}
           disabled={!!session.exiting}
-          className="w-11 h-11 rounded-full flex items-center justify-center shadow-lg transition-transform active:scale-90 hover:scale-110"
-          style={{ background: "#1C1209", border: "2px solid #3A2416" }}
+          className="rounded-full flex items-center justify-center shadow-lg transition-transform active:scale-90 hover:scale-110"
+          style={{ width: 60, height: 60, background: "#1C1209", border: "2px solid rgba(200,90,47,0.5)" }}
           aria-label="Skip"
         >
-          <X className="w-5 h-5" style={{ color: "#C85A2F" }} />
-        </button>
-
-        <button
-          type="button"
-          onClick={() => currentCard && session.toggleSave(currentCard)}
-          disabled={!currentCard}
-          className="w-10 h-10 rounded-full flex items-center justify-center shadow-md transition-transform active:scale-90 hover:scale-110 disabled:opacity-30"
-          style={{ background: "#1C1209", border: "2px solid #3A2416" }}
-          aria-label="Save"
-        >
-          {currentCard && savedIds.has(currentCard.id)
-            ? <BookmarkCheck className="w-4 h-4" style={{ color: "#7B9FD4" }} />
-            : <Bookmark className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
+          <X className="w-6 h-6" style={{ color: "#C85A2F" }} />
         </button>
 
         <button
@@ -155,32 +136,10 @@ export function HeroSwiper({ recipes }: { recipes: SwipeRecipe[] }) {
           onClick={() => session.commitSwipe("right")}
           disabled={!!session.exiting}
           className="rounded-full flex items-center justify-center shadow-xl transition-transform active:scale-90 hover:scale-110"
-          style={{ width: 56, height: 56, background: "linear-gradient(135deg, #C85A2F, #E8834A)" }}
+          style={{ width: 72, height: 72, background: "linear-gradient(135deg, #C85A2F, #E8834A)", boxShadow: "0 6px 28px rgba(200,90,47,0.5)" }}
           aria-label="Like"
         >
-          <Heart className="w-6 h-6 fill-white text-white" />
-        </button>
-
-        <button
-          type="button"
-          onClick={() => currentCard && session.setPreviewRecipe(currentCard)}
-          disabled={!currentCard}
-          className="w-10 h-10 rounded-full flex items-center justify-center shadow-md transition-transform active:scale-90 hover:scale-110 disabled:opacity-30"
-          style={{ background: "#1C1209", border: "2px solid #3A2416" }}
-          aria-label="View recipe"
-        >
-          <Info className="w-4 h-4" style={{ color: "#8A6A4A" }} />
-        </button>
-
-        <button
-          type="button"
-          onClick={() => session.undo()}
-          disabled={session.skipped.length === 0 || !!session.exiting}
-          className="w-11 h-11 rounded-full flex items-center justify-center shadow-lg transition-transform active:scale-90 hover:scale-110 disabled:opacity-40"
-          style={{ background: "#1C1209", border: "2px solid #3A2416" }}
-          aria-label="Undo"
-        >
-          <RotateCcw className="w-4 h-4" style={{ color: "#8A6A4A" }} />
+          <Heart className="w-7 h-7 fill-white text-white" />
         </button>
       </div>
     </div>

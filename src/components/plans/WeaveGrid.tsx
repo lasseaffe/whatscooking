@@ -18,13 +18,17 @@ interface Props {
   conflictsByClientid?: Record<string, string[]>;
   onSwapCells?: (aClientid: string, bClientid: string) => void;
   pantryPctByRecipeId?: Record<string, number>;
+  dayMacroValues?: Record<number, number | null>;
+  activeMacroField?: string | null;
+  activeMacroUnit?: string;
+  activeMacroColor?: string;
 }
 
 const MEAL_TYPE_LABEL: Record<string, string> = {
   breakfast: 'Breakfast', lunch: 'Lunch', dinner: 'Dinner', snack: 'Snack',
 };
 
-export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid, onSwapCells, pantryPctByRecipeId }: Props) {
+export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart, onCellTap, onCellRemove, onPinSuggestion, tensionByClientid, conflictsByClientid, onSwapCells, pantryPctByRecipeId, dayMacroValues, activeMacroField: _activeMacroField, activeMacroUnit, activeMacroColor }: Props) {
   const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 5 } }));
 
   function dayStats(day: number): { cookMinutes: number; hasLeftover: boolean; pantryPct: number } {
@@ -64,24 +68,36 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
   const get = (day: number, mt: MealType) =>
     entries.find(e => e.day_number === day && e.meal_type === mt) ?? null;
 
+  const SERIF = "var(--font-fraunces, 'Libre Baskerville', Georgia, serif)";
+  const MONO = "var(--font-geist-mono, ui-monospace, monospace)";
+
   return (
     <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
-    <div className="overflow-x-auto">
-      <div className="grid gap-2" style={{ gridTemplateColumns: `100px repeat(${durationDays}, minmax(140px, 1fr))` }}>
+    <div className="overflow-x-auto rounded-2xl p-4" style={{ border: '1px solid #2A1E13', background: 'rgba(21,16,11,0.5)' }}>
+      <div className="grid gap-2.5" style={{ gridTemplateColumns: `104px repeat(${durationDays}, minmax(150px, 1fr))` }}>
         <div />
         {Array.from({ length: durationDays }).map((_, i) => {
           const day = i + 1;
           const stats = dayStats(day);
           return (
-            <div key={i} className="text-xs text-center font-semibold pb-2" style={{ color: '#8A6A4A' }}>
+            <div key={i} className="text-center pb-2" style={{ fontFamily: MONO, fontSize: 11, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#C9B79B' }}>
               <div>{dayLabel(day)}</div>
+              {/* Per-day macro value */}
+              {dayMacroValues?.[day] != null && (
+                <div style={{ fontFamily: MONO, fontSize: 10, color: activeMacroColor ?? '#E67E22', fontWeight: 600, marginTop: 2 }}>
+                  {Math.round(dayMacroValues[day]!)}{activeMacroUnit ?? 'kcal'}
+                </div>
+              )}
+              {dayMacroValues?.[day] == null && dayMacroValues != null && (
+                <div style={{ fontSize: 9, color: '#3A2A1A', marginTop: 2 }}>—</div>
+              )}
               <DayDensityRibbon cookMinutes={stats.cookMinutes} hasLeftover={stats.hasLeftover} pantryPct={stats.pantryPct} />
             </div>
           );
         })}
         {mealTypes.map(mt => (
           <div key={mt} className="contents">
-            <div className="text-xs font-semibold py-2" style={{ color: '#6B4E36' }}>
+            <div className="flex items-center py-2" style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 15, color: '#9A7E5E' }}>
               {MEAL_TYPE_LABEL[mt] ?? mt}
             </div>
             {Array.from({ length: durationDays }).map((_, i) => {
@@ -103,11 +119,16 @@ export function WeaveGrid({ entries, recipes, durationDays, mealTypes, weekStart
                   ) : (
                     <button
                       onClick={() => onCellTap(day, mt, null)}
-                      className="w-full h-full min-h-20 rounded-md border-dashed border flex items-center justify-center text-2xl"
-                      style={{ borderColor: '#3A2A1A', color: '#3A2A1A' }}
+                      className="w-full h-full min-h-20 rounded-xl border-dashed border flex items-center justify-center transition-colors hover:brightness-125"
+                      style={{
+                        fontFamily: MONO, fontSize: 12,
+                        borderColor: '#3A2A1B',
+                        background: 'rgba(12,9,7,0.35)',
+                        color: '#6E573D',
+                      }}
                       aria-label={`Add ${mt} for day ${day}`}
                     >
-                      +
+                      + add
                     </button>
                   )}
                 </div>

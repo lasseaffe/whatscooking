@@ -14,40 +14,25 @@ interface Props {
   matches: PantryMatch[];
   totalMatchCount: number;
   pantryItemCount: number;
+  pantryNames: string[];
 }
 
-export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }: Props) {
-  const heading = (
-    <h2
-      className="text-sm font-bold mb-3"
-      style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}
-    >
-      🧺 Cook from Pantry
-    </h2>
-  );
-
-  // No pantry items: show CTA
+export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount, pantryNames }: Props) {
+  // No pantry items: simple warm CTA
   if (pantryItemCount === 0) {
     return (
-      <div
-        className="px-4 py-5"
-        style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
-      >
-        {heading}
+      <div className="px-4 py-5" style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
         <Link
           href="/pantry"
           className="flex items-center gap-3 px-4 py-3 rounded-xl"
-          style={{
-            background: "rgba(244,162,97,0.06)",
-            border: "1px solid rgba(244,162,97,0.18)",
-          }}
+          style={{ background: "rgba(200,90,47,0.06)", border: "1px solid rgba(200,90,47,0.18)" }}
         >
-          <span className="text-2xl">🛒</span>
+          <span className="text-2xl">🧺</span>
           <div className="flex-1">
-            <p className="text-xs font-semibold" style={{ color: "var(--wc-text, #EFE3CE)" }}>
+            <p className="text-xs font-semibold" style={{ color: "#EFE3CE" }}>
               Add items to your pantry
             </p>
-            <p className="text-xs" style={{ color: "var(--fg-secondary, #8A6A4A)" }}>
+            <p className="text-xs" style={{ color: "#8A6A4A" }}>
               We&apos;ll show recipes you can cook right now →
             </p>
           </div>
@@ -56,77 +41,124 @@ export function PantryMatchSection({ matches, totalMatchCount, pantryItemCount }
     );
   }
 
+  const displayedPills = pantryNames.slice(0, 4);
+  const extraCount = pantryNames.length - displayedPills.length;
+
   return (
     <div
       data-tour="pantry-matches"
       className="px-4 py-5"
       style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
     >
-      <div className="flex items-center justify-between mb-3">
-        {heading}
-        <Link href="/pantry" className="text-xs font-semibold" style={{ color: "var(--wc-accent-saffron, #F4A261)" }}>
-          My Pantry →
-        </Link>
-      </div>
-
-      {/* Match count banner */}
+      {/* Hero header */}
       <div
-        className="flex items-center gap-3 px-4 py-3 rounded-xl mb-3"
+        className="rounded-xl px-4 pt-4 pb-3 mb-3"
         style={{
-          background: "rgba(244,162,97,0.08)",
-          border: "1px solid rgba(244,162,97,0.2)",
+          background: "linear-gradient(135deg, rgba(200,120,42,0.1) 0%, transparent 70%)",
+          border: "1px solid rgba(200,90,47,0.15)",
         }}
       >
-        <span className="text-xl">🥦</span>
-        <div className="flex-1">
-          <p className="text-xs font-semibold" style={{ color: "var(--wc-text, #EFE3CE)" }}>
-            {totalMatchCount} recipe{totalMatchCount !== 1 ? "s" : ""} match your pantry
-          </p>
-          <p className="text-xs" style={{ color: "var(--fg-secondary, #8A6A4A)" }}>
-            Based on {pantryItemCount} pantry item{pantryItemCount !== 1 ? "s" : ""}
-          </p>
+        {/* Ingredient pills */}
+        <div className="flex flex-wrap gap-1.5 mb-3">
+          {displayedPills.map((name) => (
+            <span
+              key={name}
+              className="text-xs px-2 py-0.5 rounded-full font-medium capitalize"
+              style={{
+                background: "rgba(244,162,97,0.1)",
+                border: "1px solid rgba(244,162,97,0.2)",
+                color: "#F4A261",
+              }}
+            >
+              {name}
+            </span>
+          ))}
+          {extraCount > 0 && (
+            <span
+              className="text-xs px-2 py-0.5 rounded-full font-medium"
+              style={{ background: "rgba(244,162,97,0.06)", border: "1px solid rgba(244,162,97,0.15)", color: "rgba(244,162,97,0.6)" }}
+            >
+              +{extraCount} more
+            </span>
+          )}
         </div>
+
+        <p
+          className="font-semibold mb-0.5"
+          style={{ fontFamily: "'Playfair Display', Georgia, serif", fontStyle: "italic", fontSize: 16, color: "#EFE3CE" }}
+        >
+          Cook without shopping.
+        </p>
+        <p className="text-xs mb-3" style={{ color: "rgba(239,227,206,0.45)" }}>
+          {totalMatchCount} recipe{totalMatchCount !== 1 ? "s" : ""} you can make right now
+        </p>
+
         <Link
           href="/pantry"
-          className="text-xs font-bold px-3 py-1.5 rounded-lg"
-          style={{ background: "var(--wc-accent-saffron, #F4A261)", color: "#1C0E04" }}
+          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold"
+          style={{
+            background: "linear-gradient(135deg, #C85A2F, #E8834A)",
+            color: "white",
+            boxShadow: "0 3px 12px rgba(200,90,47,0.35)",
+          }}
         >
-          View
+          ⚡ Show my matches
         </Link>
       </div>
 
-      {/* Top 2 match cards */}
-      {matches.length > 0 ? (
-        <div className="grid grid-cols-2 gap-3">
-          {matches.map((m) => (
-            <Link
-              key={m.id}
-              href={`/recipes/${m.id}`}
-              className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
-              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.07)" }}
-            >
-              <div className="overflow-hidden rounded-lg shrink-0" style={{ width: 36, height: 36 }}>
-                {m.image_url ? (
-                  <img src={m.image_url} alt={m.title} className="w-full h-full object-cover" />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center text-lg" style={{ background: "#2A1804" }}>🍳</div>
-                )}
-              </div>
-              <div className="min-w-0">
-                <p className="text-xs font-semibold truncate" style={{ color: "var(--wc-text, #EFE3CE)" }}>
-                  {m.title}
-                </p>
-                <p className="text-xs" style={{ color: "var(--fg-secondary, #8A6A4A)" }}>
-                  {m.matchedCount} / {m.totalIngredients} ingredients
-                </p>
-              </div>
-            </Link>
-          ))}
+      {/* Match recipe rows */}
+      {matches.length > 0 && (
+        <div className="flex flex-col gap-0">
+          {matches.map((m) => {
+            const pct = m.totalIngredients > 0
+              ? Math.round((m.matchedCount / m.totalIngredients) * 100)
+              : 0;
+            return (
+              <Link
+                key={m.id}
+                href={`/recipes/${m.id}`}
+                className="flex items-center gap-3 py-3"
+                style={{ borderBottom: "1px solid rgba(255,255,255,0.05)" }}
+              >
+                {/* Thumbnail with % badge */}
+                <div className="relative shrink-0" style={{ width: 48, height: 48 }}>
+                  <div className="w-full h-full rounded-lg overflow-hidden">
+                    {m.image_url ? (
+                      <img src={m.image_url} alt={m.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center text-lg" style={{ background: "#2A1804" }}>🍳</div>
+                    )}
+                  </div>
+                  <span
+                    className="absolute bottom-0.5 right-0.5 text-xs font-bold leading-none px-1 py-0.5 rounded"
+                    style={{ background: "rgba(18,10,4,0.85)", color: "#F4A261", fontSize: 8 }}
+                  >
+                    {pct}%
+                  </span>
+                </div>
+
+                {/* Info + progress bar */}
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs font-semibold truncate mb-0.5" style={{ color: "#EFE3CE" }}>
+                    {m.title}
+                  </p>
+                  <p className="text-xs mb-1.5" style={{ color: "#8A6A4A" }}>
+                    {m.matchedCount} of {m.totalIngredients} ingredients in pantry
+                  </p>
+                  <div className="h-1 rounded-full" style={{ background: "rgba(255,255,255,0.07)" }}>
+                    <div
+                      className="h-full rounded-full"
+                      style={{
+                        width: `${pct}%`,
+                        background: "linear-gradient(90deg, #C85A2F, #F4A261)",
+                      }}
+                    />
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
-      ) : (
-        <p className="text-xs text-center py-3" style={{ color: "var(--fg-secondary, #8A6A4A)" }}>
-          Add more pantry items to find recipe matches.
-        </p>
       )}
     </div>
   );

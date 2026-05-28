@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbonara v4 — Ember & Steam</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&family=IM+Fell+English:ital@0;1&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #050403;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px 16px;
+    font-family: Inter, sans-serif;
+  }
+
+  .poster {
+    width: 100%;
+    max-width: 520px;
+    aspect-ratio: 2/3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+    background: #0a0704;
+  }
+  .poster:hover  { border-color: rgba(220,120,30,0.4); }
+  .poster.selected { border-color: rgba(220,120,30,0.8); }
+
+  /* ── EMBER CORE — the heart of the heat ── */
+  .ember-core {
+    position: absolute;
+    top: 28%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px; height: 340px;
+    background: radial-gradient(circle,
+      rgba(255,160,30,0.22)  0%,
+      rgba(220,80,10,0.14)  30%,
+      rgba(160,40,5,0.08)   55%,
+      transparent           75%
+    );
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  /* ── STEAM WISPS — CSS animated tendrils ── */
+  @keyframes wisp {
+    0%   { transform: translateY(0)   scaleX(1)   opacity(0);   opacity: 0; }
+    10%  { opacity: 0.55; }
+    80%  { opacity: 0.3; }
+    100% { transform: translateY(-90px) scaleX(1.6) opacity(0); opacity: 0; }
+  }
+  .steam-wrap {
+    position: absolute;
+    bottom: 56%; left: 0; right: 0;
+    height: 120px;
+    z-index: 3;
+    pointer-events: none;
+  }
+  .wisp {
+    position: absolute;
+    bottom: 0;
+    width: 3px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(255,200,120,0.5), transparent);
+    animation: wisp 3.2s ease-out infinite;
+    transform-origin: bottom center;
+  }
+  .wisp:nth-child(1) { left: 32%; height: 60px; animation-delay: 0s;    animation-duration: 3.0s; }
+  .wisp:nth-child(2) { left: 41%; height: 80px; animation-delay: 0.7s;  animation-duration: 3.5s; width: 2px; }
+  .wisp:nth-child(3) { left: 50%; height: 70px; animation-delay: 1.2s;  animation-duration: 2.8s; }
+  .wisp:nth-child(4) { left: 58%; height: 55px; animation-delay: 0.4s;  animation-duration: 3.2s; width: 2px; }
+  .wisp:nth-child(5) { left: 66%; height: 75px; animation-delay: 1.8s;  animation-duration: 3.6s; }
+
+  /* ── FOOD PHOTO ── */
+  .photo-zone {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 52%;
+    z-index: 1;
+  }
+  .photo-img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+    display: block;
+    filter: contrast(1.08) saturate(1.15);
+  }
+  .photo-fallback {
+    width: 100%; height: 100%;
+    background: radial-gradient(ellipse at 50% 60%, #3a1a04 0%, #0a0704 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 90px;
+  }
+  /* photo → dark stone dissolve */
+  .photo-fade {
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 52%;
+    z-index: 4;
+    background: linear-gradient(
+      to bottom,
+      rgba(10,7,4,0.08)  0%,
+      rgba(10,7,4,0.0)   15%,
+      rgba(10,7,4,0.0)   45%,
+      rgba(10,7,4,0.7)   72%,
+      rgba(10,7,4,1.0)   100%
+    );
+    pointer-events: none;
+  }
+  /* side burn-in */
+  .photo-sides {
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 52%;
+    z-index: 4;
+    background:
+      linear-gradient(to right, rgba(10,7,4,0.65) 0%, transparent 22%),
+      linear-gradient(to left,  rgba(10,7,4,0.65) 0%, transparent 22%);
+    pointer-events: none;
+  }
+
+  /* ── AMBER ACCENT STRIPE — left edge ── */
+  .accent-stripe {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    background: linear-gradient(
+      to bottom,
+      transparent         0%,
+      rgba(220,140,20,0.7) 30%,
+      rgba(255,100,10,0.9) 52%,
+      rgba(220,140,20,0.5) 72%,
+      transparent         100%
+    );
+    z-index: 10;
+  }
+
+  /* ── CONTENT ── */
+  .content {
+    position: absolute;
+    inset: 0; z-index: 8;
+    padding: 30px 36px 32px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .top-meta {
+    position: absolute;
+    top: 28px; left: 44px; right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 9;
+  }
+  .provenance {
+    font-size: 8px; letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(220,160,60,0.6);
+    line-height: 1.9;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.8);
+  }
+  .num-badge {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: rgba(220,140,20,0.35);
+    text-align: right;
+  }
+
+  /* ghost Roman numeral — bridges the photo/content zone */
+  .ghost-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+    font-weight: 900;
+    color: rgba(200,100,10,0.08);
+    line-height: 1;
+    letter-spacing: -6px;
+    margin-bottom: -38px;
+    user-select: none;
+    pointer-events: none;
+    text-shadow: 0 0 40px rgba(220,120,10,0.15);
+  }
+
+  /* ── TITLE ── */
+  .recipe-name {
+    font-family: 'IM Fell English', 'Playfair Display', serif;
+    font-size: clamp(52px, 10.5vw, 78px);
+    font-weight: 400;
+    line-height: 0.89;
+    letter-spacing: -1px;
+    /* ember-lit text */
+    color: #f0c870;
+    text-shadow:
+      0  2px  0   rgba(0,0,0,0.95),
+      0  0   20px rgba(220,100,10,0.35),
+      0  0   60px rgba(220,100,10,0.15);
+  }
+  .recipe-name em {
+    display: block;
+    font-style: italic;
+    font-size: 0.48em;
+    color: rgba(220,140,20,0.45);
+    letter-spacing: 2px;
+    margin-top: 8px;
+    text-shadow: none;
+  }
+
+  /* ── HEAT RULE ── */
+  .rule {
+    display: flex; align-items: center; gap: 8px;
+    margin: 14px 0;
+  }
+  .rule-line   { flex: 1; height: 1px; background: linear-gradient(90deg,  rgba(220,120,20,0.6), transparent); }
+  .rule-line-r { flex: 1; height: 1px; background: linear-gradient(270deg, rgba(220,120,20,0.6), transparent); }
+  .rule-dot    { width: 4px; height: 4px; background: rgba(255,140,20,0.7); border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 6px rgba(255,140,20,0.5); }
+
+  /* ── INSCRIPTION ── */
+  .inscription {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 11px;
+    color: rgba(220,160,60,0.4);
+    letter-spacing: 1.5px;
+    line-height: 1.85;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  /* ── INGREDIENTS ── */
+  .ingr-label { font-size: 8px; letter-spacing: 5px; text-transform: uppercase; color: rgba(220,120,20,0.3); margin-bottom: 8px; }
+  .ingr-list  { list-style: none; display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; }
+  .ingr-list li {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: rgba(230,180,80,0.45);
+  }
+  .ingr-list li::before {
+    content: '';
+    width: 12px; height: 1px;
+    background: linear-gradient(90deg, rgba(255,120,10,0.6), rgba(220,140,20,0.3));
+    flex-shrink: 0;
+  }
+
+  .meta-row { display: flex; gap: 22px; margin-bottom: 13px; }
+  .meta-item { font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: rgba(220,120,20,0.28); }
+  .meta-item span { color: rgba(255,160,40,0.55); }
+
+  /* ── CITATION ── */
+  .citation-block { border-top: 1px solid rgba(220,120,20,0.18); padding-top: 10px; }
+  .citation-ref   { font-size: 8px; letter-spacing: 3px; text-transform: uppercase; color: rgba(220,120,20,0.28); margin-bottom: 5px; }
+  .citation-text  {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 11px;
+    color: rgba(240,190,80,0.48);
+    line-height: 1.7;
+  }
+  .citation-source { margin-top: 5px; font-size: 8.5px; letter-spacing: 1.5px; color: rgba(220,120,20,0.22); text-transform: uppercase; }
+
+  /* ── HOVER TRANSLATIONS ── */
+  .it {
+    position: relative;
+    border-bottom: 1px dotted rgba(220,140,20,0.4);
+    cursor: help;
+    transition: border-color 0.2s;
+  }
+  .it:hover { border-bottom-color: rgba(255,160,40,0.7); }
+  .it::after {
+    content: attr(data-en);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(10,7,4,0.97);
+    border: 1px solid rgba(220,140,20,0.4);
+    color: rgba(240,190,80,0.9);
+    padding: 5px 10px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    border-radius: 2px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    text-transform: none;
+    z-index: 20;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.18s;
+  }
+  .it:hover::after { opacity: 1; }
+
+  /* border corners */
+  .corner { position: absolute; width: 12px; height: 12px; border-color: rgba(220,140,20,0.4); border-style: solid; z-index: 11; }
+  .corner-tl { top: 12px; left: 12px;   border-width: 1px 0 0 1px; }
+  .corner-tr { top: 12px; right: 12px;  border-width: 1px 1px 0 0; }
+  .corner-bl { bottom: 12px; left: 12px;  border-width: 0 0 1px 1px; }
+  .corner-br { bottom: 12px; right: 12px; border-width: 0 1px 1px 0; }
+</style>
+<script>
+  function selectPoster(el) {
+    el.classList.toggle('selected');
+    try { fetch('/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'click',choice:'carbonara-v4',text:'carbonara v4 ember approved',timestamp:Date.now()})}); } catch(e){}
+  }
+</script>
+</head>
+<body>
+
+<div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#3a1a04;margin-bottom:14px;font-family:Inter,sans-serif">
+  Carbonara · v4 · Ember & Steam · hover Italian for English
+</div>
+
+<div class="poster" onclick="selectPoster(this)">
+  <!-- PHOTO LAYER -->
+  <div class="photo-zone">
+    <img class="photo-img"
+      src="https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=600&q=80"
+      alt="Carbonara"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="photo-fallback" style="display:none">🍝</div>
+  </div>
+  <div class="photo-fade"></div>
+  <div class="photo-sides"></div>
+
+  <!-- ATMOSPHERE -->
+  <div class="ember-core"></div>
+  <div class="steam-wrap">
+    <div class="wisp"></div>
+    <div class="wisp"></div>
+    <div class="wisp"></div>
+    <div class="wisp"></div>
+    <div class="wisp"></div>
+  </div>
+
+  <!-- ACCENT STRIPE -->
+  <div class="accent-stripe"></div>
+
+  <!-- DECORATION -->
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+
+  <!-- TOP META (floats over photo) -->
+  <div class="top-meta">
+    <div class="provenance">Roma · Lazio<br>Repubblica Italiana</div>
+    <div class="num-badge">No. I · MMXXVI</div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <div class="ghost-num">I</div>
+    <div class="recipe-name">
+      Carbo<br>nara
+      <em><span class="it" data-en="Roman-style pasta">Pasta alla Romana</span></em>
+    </div>
+
+    <div class="rule">
+      <div class="rule-line"></div><div class="rule-dot"></div><div class="rule-line-r"></div>
+    </div>
+
+    <div class="inscription">
+      <span class="it" data-en="Cured pork cheek · Aged sheep's cheese · Egg yolks · Black pepper">Guanciale · Pecorino · Uova · Pepe</span><br>
+      <span class="it" data-en="Four ingredients. No excuses.">Quattro ingredienti. Nessuna scusa.</span>
+    </div>
+
+    <div>
+      <div class="ingr-label"><span class="it" data-en="Raw Ingredients">Materie Prime</span></div>
+      <ul class="ingr-list">
+        <li><span class="it" data-en="Aged pork cheek">Guanciale stagionato</span> · 200g</li>
+        <li><span class="it" data-en="Protected designation — aged sheep's cheese">Pecorino Romano DOP</span> · 80g</li>
+        <li><span class="it" data-en="Egg yolks">Tuorli d'uovo</span> · 4</li>
+        <li>Spaghetti · 400g</li>
+        <li><span class="it" data-en="Freshly ground black pepper">Pepe nero macinato</span></li>
+      </ul>
+    </div>
+
+    <div class="meta-row">
+      <div class="meta-item"><span class="it" data-en="Time">Tempo</span> <span>25 min</span></div>
+      <div class="meta-item"><span class="it" data-en="Servings">Porzioni</span> <span>4</span></div>
+      <div class="meta-item"><span class="it" data-en="Difficulty · Technical">Difficoltà</span> <span><span class="it" data-en="Technical">Tecnica</span></span></div>
+    </div>
+
+    <div class="citation-block">
+      <div class="citation-ref">† Cultural Note</div>
+      <div class="citation-text">
+        "Italians do not use cream in cooking. Not in pasta,
+        not in sauces, not ever. Adding cream to carbonara
+        doesn't make it Italian — it makes it something else."
+      </div>
+      <div class="citation-source">— <span class="it" data-en="Unwritten law, respected everywhere · Est. before memory">Legge non scritta, rispettata ovunque · Est. ante memoriam</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#3a1a04;margin-top:14px;text-align:center;font-family:Inter,sans-serif">
+  Hover Italian · Click to approve · then we do Croissant
+</div>
+
+</body>
+</html>

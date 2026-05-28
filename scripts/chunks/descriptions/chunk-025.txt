@@ -1,0 +1,2153 @@
+TITLE: Asian Green Bean Salad
+CURRENT_DESCRIPTION: this recipe is from emeril from the food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, crushed red pepper flakes, rice vinegar, garlic, olive oil, sesame oil
+---
+TITLE: Asian Green Beans
+CURRENT_DESCRIPTION: an easy and delicious side. cooking time includes refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, soy sauce, vegetable oil, vinegar, sesame oil, garlic clove
+---
+TITLE: Asian Green Beans In A Snap
+CURRENT_DESCRIPTION: this is a yummy way to jazz up a can of green beans from the pantry :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cut green beans, onion, garlic clove, soy sauce, bacon
+---
+TITLE: Asian Grilled Beef Salad
+CURRENT_DESCRIPTION: this recipe uses a fabulous technique that gives you more flavor than regular marinating does - you put the meat in the marinade after you cook it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, water, fresh parsley, rice vinegar, ground ginger, sugar
+---
+TITLE: Asian Grilled Chicken Breasts
+CURRENT_DESCRIPTION: from foodfit.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, soy sauce, garlic cloves, ginger, dijon mustard, salt
+---
+TITLE: Asian Grilled Chicken Campbell S Kitchen
+CURRENT_DESCRIPTION: swanson broth balances the vinegar and soy in the marinade to create moist grilled chicken that is served with its own light sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: swanson chicken broth, soy sauce, vinegar, sugar, garlic powder, crushed red pepper flakes
+---
+TITLE: Asian Grilled Chicken Salad
+CURRENT_DESCRIPTION: yet another recipe posted in preparation for zaar's world tour 4! preparation time does not include the 30 minutes needed to marinate chicken breasts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground ginger, honey, red wine vinegar, boneless skinless chicken breast halves, vegetable oil, dijon mustard
+---
+TITLE: Asian Grilled Flank Steak
+CURRENT_DESCRIPTION: serve with white rice, grilled potatoes or grilled veggies and a mixed green salad
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef flank steak, barbecue sauce, soy sauce, green onion, sesame seeds, garlic clove
+---
+TITLE: Asian Grilled Green Beans
+CURRENT_DESCRIPTION: a great sounding recipe from toh that i am posting for zwt 6.  the description states:  you’ll love the great flavor and easy preparation of trisha kruse’s fresh side dish. the eagle, idaho cook tosses bright green beans in a sweet sauce with a subtle kick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, sesame oil, reduced sodium soy sauce, garlic cloves, crushed red pepper flakes, fresh green beans
+---
+TITLE: Asian Grilled Pork Chops
+CURRENT_DESCRIPTION: quick marinated chops done up on the grill.  serve with steamed veggies and rice for a complete dinner. taken from another website. and time doesnt not include marinating.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced sodium soy sauce, vegetable oil, brown sugar, garlic clove, ground ginger, dark sesame oil
+---
+TITLE: Asian Grilled Pork Tenderloin
+CURRENT_DESCRIPTION: a recipe from paula deen, really good and lite. has a great sauce, easy to prepare. your family will love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, oranges, juice of, lime, juice of, tamarind paste, dijon mustard, ground ginger
+---
+TITLE: Asian Grilled Salmon
+CURRENT_DESCRIPTION: from ina garten, a simple, flavorful way to make salmon. i have also broiled this instead of grilling. perfect for a dinner party! serve it warm or cold.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, dijon mustard, soy sauce, olive oil, garlic
+---
+TITLE: Asian Grilled Salmon   Low Carb   Fabulous
+CURRENT_DESCRIPTION: this amazing recipe was shared on a low-carb (diabretic lifestyle) group i'm part of. we love this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, vegetable oil, soy sauce, balsamic vinegar, green onions, brown sugar
+---
+TITLE: Asian Grilled Short Ribs
+CURRENT_DESCRIPTION: tender sweet and spicy finger licking good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: short rib of beef, brown sugar, peanuts, sesame seeds, sesame oil, soy sauce
+---
+TITLE: Asian Grilled Vegetables
+CURRENT_DESCRIPTION: super side dish.  kids will eat their veg! - you will need a "grill wok"  available at home stores (i have two for large groups) the ingredients are flexible - use any vegetables that you would normally grill - zucchini, eggplant, onions, peppers, mushrooms, asparagus, green beans. cut the pieces fairly large - 3/4" or so.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell pepper, onion, zucchini, sesame oil, soy sauce, garlic powder
+---
+TITLE: Asian Ground Beef  Pepper And Onion Saute
+CURRENT_DESCRIPTION: a recipe i found on www.allrecipes.com that i modified to fit my allergies and our tastes.  we like our oriental food saucy, so i made extra sauce and added water chestnuts for dd.  this has a kick to it from the ginger, red pepper flakes and the chili paste. makes 6 1-cup servings.  this is a ww friendly recipe, if you use 96% lean ground beef.  points value per serving as calculated on the ww website is 3.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, lean ground beef, bell peppers, onion, garlic cloves, fresh gingerroot
+---
+TITLE: Asian Ground Beef Casserole
+CURRENT_DESCRIPTION: this is from a recipe that was in a cookbook given to my grandma when she retired from "ore ida" a potato processing plant in burley, idaho. her co-workers put this book together because they knew her love of cooking and wanted to share their favorite recipes....i've made this often and sometime i add my own goodies to it like mushrooms, bamboo shoots, celery or anything else that sounds good in my pantry.  if you add extras you may need to adjust the cooking time.  i really recieved my love of cooking from my grandma and i try about any recipe just to try it....i hope you do the same.  not sure about yield or serving size i come from a group of hungary men.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, cream of mushroom soup, cream of chicken soup, bean sprouts, water
+---
+TITLE: Asian Herb Salad
+CURRENT_DESCRIPTION: wildly refreshing! using delicate herbs and a wonderful sweet and sour vinaigrette! adapted from good cooking cookbook by jill dupleix
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: arugula leaves, mint leaves, fresh basil leaves, cilantro leaves, chervil, bamboo shoot
+---
+TITLE: Asian Honey Chiffon Cake  Japanese  Taiwanese
+CURRENT_DESCRIPTION: since i was little, i've always had honey cake. it's the fluffiest, melt-in-your-mouth cake that has a nice scent of honey. it's usually baked in a rectangular tin (loaf tin), and once cooled, we put a glaze of clear jelly/apricot glaze on top for a glossy finish and served as simple slices, as anything else would overwhelm the delicate taste of honey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, caster sugar, honey, vegetable oil, milk, flour
+---
+TITLE: Asian Honey Grilled Fish
+CURRENT_DESCRIPTION: from 'the everything barbeque cookbook'  time does not include marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, white onion, lime, juice of, soy sauce, hoisin sauce, garlic cloves
+---
+TITLE: Asian Honey Tea Grilled Shrimp
+CURRENT_DESCRIPTION: posted for zaar world tour.  times are estimates.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, salt, scallions, brewed tea, honey, rice vinegar
+---
+TITLE: Asian Hot And Sour Chicken Soup
+CURRENT_DESCRIPTION: tofu may be replaced for the chicken if desired, make this as spicy as you like by adjusting the chili flakes, 1/4 teaspoon for mild heat, 1/2 teaspoon for medium heat, 1 teaspoon for very spicy :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, fresh mushrooms, bamboo shoot, gingerroot, garlic cloves, soy sauce
+---
+TITLE: Asian Hot Wings  By Pioneer Woman  Ree Drummond  Make Ahead
+CURRENT_DESCRIPTION: i saw these on food network pioneer woman show.  i am planning on making for super bowl and put here for safe keeping.  i like that they can be fried in advance and reheated in the oven!  perfect for a party!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, chicken wings, plum jelly, soy sauce, rice wine vinegar, brown sugar
+---
+TITLE: Asian Hummous
+CURRENT_DESCRIPTION: bon appetit january 2006. use canned beans for quicker preparation. don't skip the star anise as it is a key ingredient. good with shrimp chips or kettle chips' brand spicy thai potato chips!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, fresh ginger, garbanzo beans, smooth cashew butter, sesame oil, toasted sesame oil
+---
+TITLE: Asian Influnced Salmon
+CURRENT_DESCRIPTION: this was created for a seafood marinade or rub challenge.i didnt want a heavy marinade on my salmon as the fish is a beautiful tasting fish to begin with. if you want it stonger tasting with a bit more heat,add a bit more salsa. i used my own hot salsa but a store bought one will work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillet, salmon steaks, hoisin sauce, soy sauce, garlic clove, hot salsa
+---
+TITLE: Asian Inspired Chili
+CURRENT_DESCRIPTION: a change of pace for you chili lovers. this is something i've developed over the years as a way to use up hoisin sauce. can be made in crock pot...just throw everything in and cook on low for 6 hours.  this makes very thick chili, if you like it thinner, just add water or broth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, scallions, red pepper, garlic cloves, sesame oil, lean ground beef
+---
+TITLE: Asian Inspired Coconut Crab Cakes
+CURRENT_DESCRIPTION: i got the idea for this recipe taking an international cooking class in college..  i adapted it til it was perfect..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flaked coconut, crabmeat, fresh ginger, green onion, red bell pepper, carrot
+---
+TITLE: Asian Inspired Cucumber Salad
+CURRENT_DESCRIPTION: sliced cucumbers tossed with rice-wine vinegar make for a refreshing and simple summer salad.
+
+from eatingwell: the eatingwell healthy in a hurry cookbook (2006)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, rice wine vinegar, sugar, cayenne pepper, salt & freshly ground black pepper
+---
+TITLE: Asian Inspired Meatballs
+CURRENT_DESCRIPTION: this is a variation of my recipe #226422 with a little asian flair.  it was a big hit with my husband.  you could make this recipe as the main course of a meal, or it could work for an appetizer as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, milk, rolled oats, saltine crackers, egg, onion
+---
+TITLE: asian inspired meatballs and spaghetti
+CURRENT_DESCRIPTION: this one is hot off the press from eat boutique blog.  the creator, denise woodward, said she's been developing this recipe for a year.  she finally nailed it by using pork instead of beef, chicken or turkey and even veal.  the sesame seeds add crunch to the meatballs and the sauce is definitely umami with it's sweet, sour and spicy flavors.  soba noodles completes the meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, panko breadcrumbs, sesame seeds, cilantro, garlic cloves, green onion
+---
+TITLE: Asian Inspired Meatballs And Spaghetti
+CURRENT_DESCRIPTION: this one is hot off the press from eat boutique blog.  the creator, denise woodward, said she's been developing this recipe for a year.  she finally nailed it by using pork instead of beef, chicken or turkey and even veal.  the sesame seeds add crunch to the meatballs and the sauce is definitely umami with it's sweet, sour and spicy flavors.  soba noodles completes the meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, panko breadcrumbs, sesame seeds, cilantro, garlic cloves, green onion
+---
+TITLE: Asian Inspired Pork And Broccoli Stir Fry
+CURRENT_DESCRIPTION: i love chinese take out.  but why order chinese all the time, when it's so much fun to make it yourself.  this may not be authentic, but i like it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin chops, head of broccoli, carrots, onion, garlic cloves, ginger
+---
+TITLE: Asian Inspired Rice
+CURRENT_DESCRIPTION: tired of boring white rice, i made this to go with "recipe #88991".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, chicken broth, thai sweet chili sauce, soy sauce, rice wine vinegar
+---
+TITLE: Asian Inspired Salad
+CURRENT_DESCRIPTION: the ingredients spoke to me from the rsc#18 list, so came up with this easy and delicious salad. you can easily double the salad and the dressing. hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, snow peas, purple cabbage, ear of corn, celery, avocado
+---
+TITLE: Asian Inspired Tuna Cakes
+CURRENT_DESCRIPTION: found this recipe in "the metro st. louis guide to smart parenting" as a kid-friendly healthy recipe.  very simple and very tasty!  the sauce really makes the recipe!  the soy and panko give a nice twist to the familiar boring tuna cakes of yesteryear.  can be used as a main dish or as an appetizer.  note:  due to the concensus of reviewers, i have decreased the original 1/4 cup soy sauce to 1.5 tablespoons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna in water, low sodium soy sauce, eggs, pepper, white onion, panko breadcrumbs
+---
+TITLE: Asian Inspired Veggie Zucchini Burger
+CURRENT_DESCRIPTION: who said veggie burgers couldn't be healthy and taste good too? this burger on your choice of bun plus the addition of your favorite condiments is sure to please.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, onion, zucchini, red bell pepper, eggs, ginger
+---
+TITLE: Asian Inspired Zucchini
+CURRENT_DESCRIPTION: from phoenix home & garden magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, red onion, garlic cloves, sesame oil, olive oil, soy sauce
+---
+TITLE: Asian Joe Wraps   Weight Watchers
+CURRENT_DESCRIPTION: i have not tried this recipe. i got the recipe from a weight watchers magazine. this is a 5 point value. each wrap should get 3/4 cup turkey filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, garlic clove, peanut oil, ground turkey breast, tomato puree, hoisin sauce
+---
+TITLE: Asian Latkes With Gingered Sour Cream
+CURRENT_DESCRIPTION: definitely not your normal everyday latke.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, cashews, flour, wasabi powder, eggs, vegetable oil
+---
+TITLE: Asian Lemon Grass Pork
+CURRENT_DESCRIPTION: delicious as an appetizer for a party or for a quick evening meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, lemongrass, garlic, shallot, fish sauce, sugar
+---
+TITLE: Asian Lentil Loaf
+CURRENT_DESCRIPTION: a vegetarian comfort food with an eastern influence that can be served as a side or main dish with roasted potatoes.  leftovers can be used in sandwiches or wraps the next day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red lentil, water, onion, garlic cloves, zucchini, olive oil
+---
+TITLE: Asian Lettuce Cups With Spicy Ground Turkey Filling
+CURRENT_DESCRIPTION: having two teenage boys and trying to stay on a diet can be impossible.  i am really trying to reduce my carbs and i found this recipe on kalyn's kitchen blog.  they loved it!  good for a phase 1 south beach diet too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, red onions, garlic, ginger, ground turkey, soy sauce
+---
+TITLE: asian lettuce cups with turkey and green apple
+CURRENT_DESCRIPTION: this came from "the steamy kitchen", a site bursting with gorgeous food pics that have me drooling over top my keyboard. this is modern asian cuisine at its best. i've posted this for zwt4. it is a gluten free recipe. i can't wait to try it out on my friend who is crazy for all the asian lettuce cups served in many restaurants these days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, garlic, gingerroot, red bell pepper, scallions, yellow bell pepper
+---
+TITLE: Asian Lettuce Cups With Turkey And Green Apple
+CURRENT_DESCRIPTION: this came from "the steamy kitchen", a site bursting with gorgeous food pics that have me drooling over top my keyboard. this is modern asian cuisine at its best. i've posted this for zwt4. it is a gluten free recipe. i can't wait to try it out on my friend who is crazy for all the asian lettuce cups served in many restaurants these days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, garlic, gingerroot, red bell pepper, scallions, yellow bell pepper
+---
+TITLE: Asian Lettuce Wraps
+CURRENT_DESCRIPTION: super quick and easy, and great for a hot summer day.  often instead of wrapping in lettuce, i just serve on a mound of salad greens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, smooth peanut butter, brown sugar, soy sauce, lime juice, seasoned rice vinegar
+---
+TITLE: Asian Lettuce Wraps Vegetarian
+CURRENT_DESCRIPTION: a delicious vegetarian recipe from vegetarian times magazine(2003).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, miso, sesame seeds, lettuce leaves, basil leaves, olive oil
+---
+TITLE: Asian Lime  Noodles
+CURRENT_DESCRIPTION: this is so good. i have been eating it off and on for weeks. if you like noodles with asian flair then this is the dish for you. it is so nice becuase you can change it up and have a whole new meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oriental-flavor instant ramen noodles, onion, garlic cloves, beef broth, sliced mushrooms, chinese five spice powder
+---
+TITLE: Asian Lime And Herbed Tofu In Lettuce Cups
+CURRENT_DESCRIPTION: from bon appetit january 2006. wonderful tofu taking on the flavors of whatever ingredients you add to it-a blank canvas waiting to be painted...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh ginger, fresh lemongrass, fresh lime juice, fish sauce, water, sweet chili sauce
+---
+TITLE: Asian Lime Ribs
+CURRENT_DESCRIPTION: found this in a magazine, and thought it looked good.  the serving size and cook time are estimates.  serving size depends on the people eating and cooktime depends on how hot the grill is and the size of the ribs.  also included in the cook time, is the chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sparerib racks, ground cinnamon, kosher salt, black pepper, ground cloves, ground coriander
+---
+TITLE: Asian Marinade
+CURRENT_DESCRIPTION: a friend had suggested ages ago, after marinading and immediately before grilling or cooking, to place 1 small spring of rosemary on top each piece of meat.  the asian-rosemary infused flavor is delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, sesame oil, rice vinegar, garlic, ginger, green onions
+---
+TITLE: Asian Marinade For  Fish Or Shrimp
+CURRENT_DESCRIPTION: i found this recipe on the internet. it was originally for tuna steaks, but i've found that it is just as delicious for catfish and other white fish fillets, and for shrimp. original recipe is for 1 pound of fish, but i think this makes enough to marinate a bit more than that. preparation time includes 20 minutes marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, sesame oil, sesame seeds, soy sauce, ginger, scallions
+---
+TITLE: Asian Marinade For Chicken Kebabs
+CURRENT_DESCRIPTION: this is really good. i was in absolute heaven when i tasted this on the chicken. i have also just grilled the chicken on a gf grill and served with rice and vege. we all devored it. this recipe is from the cook book
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, sesame oil, soy sauce, garlic, ginger, fresh cilantro leaves
+---
+TITLE: Asian Marinated Cucumbers
+CURRENT_DESCRIPTION: the times listed does not included marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, rice vinegar, peanut oil, soy sauce, sugar, garlic clove
+---
+TITLE: Asian Marinated Flank Steak
+CURRENT_DESCRIPTION: i originally got the idea for this out of sunset magazine, and have tweaked it to suit my family and friends.  it makes a great oamc entree for the grill, or to take camping.  i've used this on chicken and salmon as well as beef, just reducing the marinating time appropriately.  don't use ground (dry) ginger in this- the flavor is not the same.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, soy sauce, rice vinegar, gingerroot, sugar, chili flakes
+---
+TITLE: Asian Marinated Pork Chops
+CURRENT_DESCRIPTION: a recipe i found on-line at mr.food.com for easy chinese recipes.  here is what is stated about the recipe:  "these asian marinated pork chops will melt in your mouth, and each bite is packed with great taste!"  sounds delicious and was highly rated so i decided to post for the cq 2014, china region.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, lemon juice, ground ginger, garlic, pork loin chops, butter
+---
+TITLE: Asian Maryland Fusion Hard Cider Shrimp
+CURRENT_DESCRIPTION: this was an experiment i tried for dinner one night, and it turned out incredibly well!  it all started because i was craving shrimp scampi, but didn't have several of the necessary ingredients.  instead, i improvised.  this is the result.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, hard apple cider, old bay seasoning, szechuan sauce, hoisin sauce, sriracha sauce
+---
+TITLE: Asian Meatball Soup
+CURRENT_DESCRIPTION: i found this in women's day, and since i am always looking for more recipes to use ramen noodles, i copied this down.  looks easy and good.  you could sub. 1 (16 oz) bag of frozen vegetables for the broccoli and carrots.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, dry breadcrumbs, egg white, fresh ginger, light soy sauce, garlic
+---
+TITLE: Asian Meatballs
+CURRENT_DESCRIPTION: a big hit at our wedding. meatballs can be formed 1 day ahead and kept in refrigerator uncooked, and then just cooked and served.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, sweet italian sausage links, ginger, shallot, water chestnut, low sodium soy sauce
+---
+TITLE: Asian Meatballs  As A Side Dish
+CURRENT_DESCRIPTION: a wonderfully easy side dish to compliment an asian meal.  (uses store bought meatballs.)   got the idea from another recipe here, and changed it to my tastes.  i made lots of sauce and after i removed the meatballs from it i used it in a stir fry, so i only used 1 bag of meatballs.  i'm sure homemade meatballs would be better if you have the time.  it would be so easy to just heat up the meatballs in a purchased stir fry sauce too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen meatballs, water, orange juice, honey, honey-flavored barbecue sauce, lemon juice
+---
+TITLE: Asian Meatballs With Plum Sauce
+CURRENT_DESCRIPTION: two-flavor meatballs with a delicious sweet-sour sauce that is to die for. serve over rice or have as cocktail meatballs, whichever you prefer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chicken, pork sausage, onion, red bell pepper, ground ginger, soy sauce
+---
+TITLE: Asian Meatballs With Rice Noodles
+CURRENT_DESCRIPTION: submitted for rsc #9. this whole recipe was a new experience for me...i was so happy it worked out! i made it as a last effort for the contest after 2 failed recipes. i knew what fresh asian flavors i liked together so that is what inspired the meatballs. i was impressed with how flavorful they turned out! they did end up a little hot so feel free to cut down on the peppers. i loved the rice noodles so much that they will be come a regular quick meal in my home. i love the suggestions from reviewers to bake the meatballs. why didn't i think of that? i do think the sesame oil is a very important flavor enhancer for the noodles. thanks to everyone who tried this for the contest!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, white onion, egg, fresh garlic cloves, fresh ginger, salt
+---
+TITLE: Asian Meatballs With Sesame Lime Dipping Sauce
+CURRENT_DESCRIPTION: this recipe comes from the may 2007 issue of gourmet magazine. this is a quick, delicious meal. something different from the normal weeknight routine. hope you enjoy it!
+serve over steamed white rice.
+
+(one reviewer said that they substituted ground beef for the pork/veal and it turned out great that way too.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, fine dry breadcrumb, ground pork, ground veal, egg, sliced water chestnuts
+---
+TITLE: Asian Mini Chicken Loaves
+CURRENT_DESCRIPTION: i got this recipe from an egg recipes pamphlet from our supermarket. these are great served with stir fried vegetables and rice. you can adjst the
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chicken, green onions, garlic, soy sauce, chili sauce, fine dry breadcrumbs
+---
+TITLE: Asian Mint S Thai Red Curry With Shrimp
+CURRENT_DESCRIPTION: dallas' asian mint chef-owner nikky phinyawatana  says the essence of thai cooking is the sweet/salty/spicy/sour balance which is exemplified in this really delicious dish.  by way of the dallas morning news.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut milk, red curry paste, medium shrimp, water, bamboo shoots, sugar
+---
+TITLE: Asian Mole
+CURRENT_DESCRIPTION: this sauce is much adapted from a ming tsai recipe. it goes well with chicken, pork, vegetables or tofu. i haven't tried it with seafood, but i imagine it would go wonderfully with shrimp (and one reviewer really liked it over salmon).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, onion, garlic, ginger, jalapenos, red wine
+---
+TITLE: Asian Mushroom Barley And Vegetable Soup
+CURRENT_DESCRIPTION: lovely rich filling soup - asian flavours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried chinese mushrooms, leeks, garlic clove, gingerroot, celery, carrot
+---
+TITLE: Asian Mushroom Soup
+CURRENT_DESCRIPTION: shiitakes are a great source of vitamin d and are thought to aid digestion. this recipe comes from the food coach.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried shiitake mushrooms, star anise, tamari, baby bok choy, fresh coriander, gingerroot
+---
+TITLE: Asian Mushroom Soup   Diabetic Friendly
+CURRENT_DESCRIPTION: a simple mushroom soup with an asian-style ginger broth.  serving size is for 4 but dh and i say more like 2 servings. fresh mushrooms are a low glycemic food as they contain very little carbohydrate. that means that they do not raise blood-sugar levels as significantly as carbohydrate-rich foods, such as bread.
+foods with a low gi may help to control blood sugar levels, control appetite and lower the likelihood of getting type 2 diabetes.
+
+weight watching
+
+fresh mushrooms are a perfect choice for weight management, since they have high water content, are low in fat and contain some fibre: three factors that will help you feel full with fewer calories. that means less room for calorie-laden foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, fresh gingerroot, garlic cloves, fat free low-sodium beef broth, mushrooms, rice vinegar
+---
+TITLE: Asian Napa Slaw
+CURRENT_DESCRIPTION: i came up with this recipe as an alternative to regular coleslaw.  it has some of my favorite spices (cardamom, cumin, coriander and ginger) as well as a nice crunch from the pistachios and the sprouts.  it has become one of my signature salads and is often requested at summer bbqs.  i promise it will become one of your favorites too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: napa cabbage, red pepper, green pepper, alfalfa sprout, scallion, roasted pistachios
+---
+TITLE: Asian Noodle Bowl
+CURRENT_DESCRIPTION: probably the best asian type dish i have made yet. taken from a hannaford recipe card.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, canola oil, garlic cloves, chili powder, stir fry vegetables, water
+---
+TITLE: Asian Noodle Bowl With Sesame Salmon
+CURRENT_DESCRIPTION: easy, easy and with tons of flavor and eye appeal.  can pan fry salmon for a quicker execution.  just don't forget the teriyaki sauce for a nice glaze.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless salmon fillet, teriyaki sauce, sesame seeds, vermicelli, rice wine vinegar, red onion
+---
+TITLE: Asian Noodle Salad
+CURRENT_DESCRIPTION: this is yet another version of asian salad.  i love snow peas when they are in season so i cannot resist adding them to this salad.  we enjoy this dish in the summer and spring for our main dish, and absolutely love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ramen noodles, snow peas, pork tenderloin, gingerroot, bell pepper, carrot
+---
+TITLE: Asian Noodle Salad Quick And Easy Version
+CURRENT_DESCRIPTION: i concocted this while in a pinch over not having all the ingredients on hand for my traditional recipe #39439 to take to a potluck.  i remembered i had kraft asian toasted sesame dressing and marinade on hand and how much it resembled the dressing in my other recipe.  i made this very quickly and it was completely devoured at the potluck.   i had many requests for the recipe.  this recipe is potluck size, but you can adjust it to the size of your family or number of desired servings.  one pound of spagetti gave about 30 servings and it was all gone.  not a drop left.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, green onions, carrot, garlic, fresh ginger, sesame dressing
+---
+TITLE: Asian Noodle Stir Fry
+CURRENT_DESCRIPTION: i had a craving for stir fry but just couldn't seem to find a recipe made with veggies my family liked. maybe its a combo your family likes too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet-hot mustard, tamari, vegetable stock, sesame oil, boneless skinless chicken breasts, red pepper flakes
+---
+TITLE: Asian Noodles  My Sister S Recipe
+CURRENT_DESCRIPTION: we are staying in my sister's home right now although she's not here. she left the sauce, noodles and recipe for this dish for us along with brief instructions to go out and buy some meat and bits to go in it to make a quick meal. it's really delicious. i have converted the mls to teaspoons for the metrically challenged ;-) use half the sauce, the rest keeps well in the fridge til next time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light soy sauce, dark soy sauce, oyster sauce, fish sauce, sugar, white pepper
+---
+TITLE: Asian Noodles And Broccoli
+CURRENT_DESCRIPTION: this recipe was featured in our april/may 2001 newsletter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broccoli, dry pasta, dark sesame oil, light olive oil, minced garlic cloves, hot pepper flakes
+---
+TITLE: Asian Noodles And Pork Pasta Salad
+CURRENT_DESCRIPTION: this is a refreshing summer meal that does not take a long time to prepare. chicken can be used instead of pork
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne, broccoli, button mushroom, rice vinegar, sugar, oil
+---
+TITLE: Asian Noodles With Asparagus And Shrimp
+CURRENT_DESCRIPTION: cooking light
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soba noodles, fat-free chicken broth, rice vinegar, low sodium soy sauce, peanut butter, sugar
+---
+TITLE: Asian Noodles With Chicken And Scallions
+CURRENT_DESCRIPTION: a great one dish meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken tenders, broccoli, udon noodles, oyster sauce, hoisin sauce, sesame oil
+---
+TITLE: Asian Noodles With Edamame
+CURRENT_DESCRIPTION: this is from the sept 2005 issue of vegetarian times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low sodium soy sauce, rice vinegar, toasted sesame oil, udon noodles, edamame, carrots
+---
+TITLE: Asian Noodles With Shrimp
+CURRENT_DESCRIPTION: from woman's day (april 1, 2005)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, light coconut milk, carrots, onion, medium raw shrimp, ramen noodles
+---
+TITLE: Asian Noodles With Vegetables And Shredded Pork
+CURRENT_DESCRIPTION: 5 points per serving
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low sodium chicken broth, cornstarch, soy sauce, sugar, dark sesame oil, canola oil
+---
+TITLE: Asian Orange Beef
+CURRENT_DESCRIPTION: this recipe comes from taste of home/healthy cooking. it sounds so-o-o-o good that i'm posting it here so as not to lose it. let me know what you think when you try it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel oranges, green onion, sugar, cornstarch, reduced sodium soy sauce, garlic cloves
+---
+TITLE: asian orange chicken
+CURRENT_DESCRIPTION: i got this recipe from another online site. this is what was posted:"a delicious citrus chicken recipe with flavors reminiscent of the orange chicken from a popular restaurant in the mall."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, orange juice, lemon juice, rice vinegar, soy sauce, orange zest
+---
+TITLE: Asian Orange Chicken
+CURRENT_DESCRIPTION: i got this recipe from another online site. this is what was posted:"a delicious citrus chicken recipe with flavors reminiscent of the orange chicken from a popular restaurant in the mall."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, orange juice, lemon juice, rice vinegar, soy sauce, orange zest
+---
+TITLE: Asian Oriental Cabbage Salad
+CURRENT_DESCRIPTION: while sailing the sea of cortez, with not a leaf of lettuce in sight, i came up with this recipe one night.    a welcomed change from tacos and burritos!
+shrimp or chicken can be added to make a complete meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, carrot, green onion, celery, sliced almonds, sesame seeds
+---
+TITLE: Asian Pad Thai
+CURRENT_DESCRIPTION: the most well-known dish in thailand, this ones a goodie! not sure if they have ketchup in thailand but i like to add it in! don't let the list of ingredients scare you, this is not a hard recipe and well worth making! to save some time you can chop all the ingredients up to one day ahead and refrigerate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice noodles, chicken broth, sugar, fish sauce, lime juice, ketchup
+---
+TITLE: Asian Pasta Salad
+CURRENT_DESCRIPTION: vegetarian recipes from around the world website, courtesy of karen c. greenlee - greenlee@bellsouth.net, is where this easy and quick pasta salad can be found. the recipe will also be included in the zaar world tour 2005 swap, asian tour
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry linguine, broccoli florets, cherry tomatoes, green onions, carrots, soy sauce
+---
+TITLE: Asian Pasta With Tofu  Shiitake Mushrooms And Broccoli
+CURRENT_DESCRIPTION: a great healthy recipe from the ny times.
+(you can prepare the ingredients and blanch the broccoli hours ahead of cooking the dish. the stir-frying is a last-minute operation.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, shiitake mushrooms, garlic cloves, fresh ginger, scallions, hot red pepper flakes
+---
+TITLE: Asian Pea Pods Casserole  Microwave
+CURRENT_DESCRIPTION: a recipe given to me years ago by an old friend.  this can also be adapted to stovetop cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen pea pods, sliced water chestnuts, green onions, butter, soy sauce, cornstarch
+---
+TITLE: Asian Peanut And Pasta Salad
+CURRENT_DESCRIPTION: from southern living magazine.  a nice asian salad with orange juice/rind to balance the rice vinegar and sesame oil.  prep time does not include refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, roasted peanuts, fresh orange juice, rice wine vinegar, teriyaki marinade, sesame oil
+---
+TITLE: Asian Peanut Burgers
+CURRENT_DESCRIPTION: an asian-inspired twist to an american classic!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, peanut butter, soy sauce, lime juice, sesame oil, ground ginger
+---
+TITLE: Asian Peanut Pasta
+CURRENT_DESCRIPTION: pasta with an asian twist. i know it sounds weird to use italian pasta with an asian sauce, but trust me it totally works. this is a great base to add all sorts of veggies and proteins too. i usually do it with snow peas, broccoli and tofu but feel free to experiment. if you are adding a lot you might want to increase the sauce a bit though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, fresh gingerroot, soy sauce, peanut butter, honey, chili paste
+---
+TITLE: Asian Peanut Vinaigrette
+CURRENT_DESCRIPTION: a nice light asian inspired salad dressing or dipping sauce that goes well on a salad or as accompanining sauce for entrees and apps.  you can adjust the heat according to your personal tastes.  start small with the pepper, and work your way up if you are not sure.  you can interchange the lemon juice with lime or orange, depending on your taste and what you have on hand.  as far as the fish sauce goes, its one of those things that on its own, not so good, but add it to something, and it really brings up the flavor.  enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon juice, seasoned rice vinegar, fish sauce, water, dark sesame oil, creamy peanut butter
+---
+TITLE: Asian Pear Martini
+CURRENT_DESCRIPTION: for an asian-themed dinner party
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sake, pear liqueur, apple juice, lemon, pear
+---
+TITLE: Asian Pear Mojito
+CURRENT_DESCRIPTION: from the website drink it! this is supposed to be a copycat of p.f. chang's. i multiplied this recipe by 16 and made it in a large plastic pitcher. i brought it to a party and just added the club soda to each glass when we got there. it was very well received!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: superfine sugar, lime segments, mint, sour apple liqueur, bacardi limon, pineapple juice
+---
+TITLE: Asian Pear Salad
+CURRENT_DESCRIPTION: this recipe is from my favorite chef, nathan lyon. i saw him make this on his program and just had to get the recipe, it looked so good.
+prep time = cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asian pear, radicchio, baby greens, blue cheese, pecans, extra virgin olive oil
+---
+TITLE: Asian Pear Slaw
+CURRENT_DESCRIPTION: this combination sounds kind of strange, but believe me, it is excellent! my husband went crazy over this, he ate the whole thing by himself. we love spicy food and this really hits the spot when we want a cold salad! recipe compliments of gourmet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: celery ribs, fresh lime juice, seasoned rice vinegar, fresh ginger, asian pears, scallions
+---
+TITLE: Asian Pears With Vanilla Poached Kumquats
+CURRENT_DESCRIPTION: gourmet |  november 2001
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla bean, water, fresh lime juice, sugar, kumquat, asian pears
+---
+TITLE: Asian Pecan Shrimp   Rice Salad
+CURRENT_DESCRIPTION: a simple recipe for those craving asian cusine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked white rice, pecan halves, green onion, medium shrimp, teriyaki sauce, oil
+---
+TITLE: Asian Plum Onion Chutney
+CURRENT_DESCRIPTION: i found this on the web, it didnt have a name attached.
+i decided to put the recipe up as it was written, but i made a few changes.
+i used 500grams of plum jam, and cut the white sugar down to 1/2 cup, it is still very sweet, and next time i might leave the white sugar out completely.
+i realy like the meld of flavours, and will make it often, tweaking as i go :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow onions, red onions, plums, golden raisin, candied ginger, brown sugar
+---
+TITLE: Asian Plum Sauce
+CURRENT_DESCRIPTION: this sauce is full of flavor. it's tangy, salty, spicy! serve over or along side fried tofu, chicken or pork. before serving garnish with fresh sliced scallions (green onions).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, fresh ginger, onion, brown sugar, water, teriyaki sauce
+---
+TITLE: Asian Plum Sauce For Canning
+CURRENT_DESCRIPTION: this is a sweet and sour condiment. use it in chinese cuisine as a dip for deep-fried dishes, such as spring rolls, egg rolls, pork, noodles, and deep-fried tofu as well as for roast duck or chicken. it is made from sweet tart plums along with sugar, vinegar, ginger and chilies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red plums, brown sugar, sugar, vinegar, onion, dried chili pepper flakes
+---
+TITLE: Asian Popcorn
+CURRENT_DESCRIPTION: i'm experimenting! for the 2 cups i have below the popcorn use any asian snacks that you enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: popped popcorn, rice crackers, butter, soy sauce, ground ginger, sesame oil
+---
+TITLE: Asian Pork  Marinade For Kebabs
+CURRENT_DESCRIPTION: this is an asian style marinade for pork chunks that happens to be sugar free.  skewer the pork chunks to either broil or bbq. serve with white or brown rice and with an asian-flavored cabbage salad with rice vinegar and ginger.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hoisin sauce, soy sauce, lemon, juice of, fresh ginger, onion, garlic cloves
+---
+TITLE: Asian Pork And  Shrimp Spring Rolls
+CURRENT_DESCRIPTION: you might want to consider doubling this recipe, i ate practically all of these myself they are that good!. don't be tempted to over-stuff the wrappers with filling or they will not seal properly. plan ahead the filling needs to chill for a minimum of 4 hours before using.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh shrimp, egg, ground pork, water chestnuts, bamboo shoots, fresh garlic
+---
+TITLE: Asian Pork And Cabbage  Low Carb
+CURRENT_DESCRIPTION: you will not believe how good this tastes after you find out how quick it is! the recipe is from 15-minute low-carb recipes by dana carpender. i used a vietnamese chili garlic sauce instead of anything called "paste" because my grocery quit carrying the one with the garlic included. i wouldn't go so far as to call the onion "optional," but i left it out because i had none left, so if you are on a strict carb limit or hate onions, you will still love this without it. the book lists 6 g carbs & 1 g fiber (just in case the computer can't tabulate one of the ingredients).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin, cabbage, onion, peanut oil, black bean sauce, garlic and red chile paste
+---
+TITLE: Asian Pork And Noodle Soup
+CURRENT_DESCRIPTION: from betty crocker simple winter meals.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork sirloin, garlic cloves, gingerroot, chicken broth, water, soy sauce
+---
+TITLE: Asian Pork And Pineapple Salad
+CURRENT_DESCRIPTION: cooking light 2003
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple chunks in juice, fresh lime juice, fish sauce, sugar, garlic, red onion
+---
+TITLE: Asian Pork Balls With Napa Cabbage
+CURRENT_DESCRIPTION: two of my most favorite ingredients in one recipe...sesame oil and sherry. what more could you ask for? i found this recipe online when i was low-carbing (just omitted the cornstarch and thickened the sauce by boiling it down) and then i tweaked it a little bit to suit my tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground lean pork, soy sauce, water chestnuts, onion, sesame oil, ginger
+---
+TITLE: Asian Pork Burgers
+CURRENT_DESCRIPTION: a different burger using pork mince for a nice change of pace. burgers make a great summer meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork mince, garlic cloves, green onions, red pepper, egg, ginger and chili paste
+---
+TITLE: Asian Pork Chicken   Noodle Skillet Pampered Chef
+CURRENT_DESCRIPTION: this is a great recipe for nights that you're pressed for time.  really easy & really yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, red bell pepper, green onions with tops, pork tenderloin, sesame oil, asian seasoning
+---
+TITLE: Asian Pork Chops And Baby Bok Choy   Nuwave   Flavorwave Ovens
+CURRENT_DESCRIPTION: recipes for nuwave - flavorwave ovens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black bean garlic sauce, garlic cloves, soy sauce, oriental sesame oil, fresh lime juice, fresh ginger
+---
+TITLE: Asian Pork Cutlets 4 5 Pts Ww Australian
+CURRENT_DESCRIPTION: 4.5 pts per serve
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plum sauce, soy sauce, chinese five spice powder, pork cutlets, baby bok choy, white rice
+---
+TITLE: Asian Pork Dumplings 2
+CURRENT_DESCRIPTION: this is another wonderful recipe that i have been making for a while, and can be frozen after you prepare them. you may use water in place of the broth. serve these on a platter with hot mustard dipping sauce or sweet sauce, these is one of the best recipes and method for making pork dumplings, they are absolutely awesome! yield is only estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground lean pork, fresh mushrooms, green onion, celery, ginger powder, soy sauce
+---
+TITLE: Asian Pork Kofte With Sweet Limed Slaw
+CURRENT_DESCRIPTION: this is an asian take on a middle eastern dish.  it's best when a mouthful consists of a bit of kofte and a bit of slaw!  you could also wrap it up in flatbread to make an asian kebab.   to slice and julienne the salad vegetables use a mandolin grater for the best effect.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, garlic cloves, dried chili pepper flakes, star anise, canola oil, coriander
+---
+TITLE: Asian Pork Patties
+CURRENT_DESCRIPTION: this recipe - by rodney dunn - is from the march 2001 issue of the 'australian good taste' magazine.  i have made these patties - served as a first course - with the chillis for guests who like hot and spicy food (and they've loved them) and for myself minus the chillis!  some useful conversions: 350g = a tad more than 11oz.; 50g = approximately 13/4oz.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, carrot, green beans, red onion, ground coriander, fish sauce
+---
+TITLE: Asian Pork Spaghettini
+CURRENT_DESCRIPTION: a simple and tasty recipe from rachael ray.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin roast, chicken broth, soy sauce, garlic cloves, spaghettini, snow peas
+---
+TITLE: Asian Pork Tenderloin
+CURRENT_DESCRIPTION: light and tasty! you'll never guess that you're eating healthy!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, honey, molasses, garlic, fresh gingerroot, light soy sauce
+---
+TITLE: Asian Pork Tenderloin With Spicy Asian Cole Slaw
+CURRENT_DESCRIPTION: i just saw this in cuisine at home magazine that i subscribe to, and it looked so good i just had to try it, and it was wonderful! family loved it, even the picky daughter said she liked the cabbage. now there's a good vote! the recipe calls for 2- 1 to 1 1/2 pound tenderloins...i used a 2.13 pound loin roast, (in one piece), and only adjusted the cooking time by 10 minutes. i wanted a starch to go with this meal, so i cooked up a package of tap ramen with the water and flavor packet, then let the water absorb into the noodles. this was a great meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, chinese five spice powder, kosher salt, ground black pepper, peanut oil, plum sauce
+---
+TITLE: Asian Pot Roast
+CURRENT_DESCRIPTION: adapted from an old cookbook.  it is prepared similar to an ordinary pot roast, but with an asian flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pot roast, vegetable oil, fresh ground black pepper, soy sauce, water, cabbage
+---
+TITLE: Asian Pot Sticker Soup
+CURRENT_DESCRIPTION: this soup is delicious. easy to prepare and can be adapted to suit your tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, garlic cloves, fresh ginger, chicken broth, shiitake mushrooms, baby corn
+---
+TITLE: Asian Potato Salad
+CURRENT_DESCRIPTION: from mr. food...cooking time is actually chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small red potatoes, salt, mayonnaise, soy sauce, light brown sugar, ground ginger
+---
+TITLE: Asian Prawn Brochette
+CURRENT_DESCRIPTION: this recipe is from appeal magazine from one of vancouver's celebrated chefs john bishop. it is excellent, very tasty and easy to do. you can serve this as an appetizer and it would serve up to 10.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prawns, garlic, ginger, teriyaki sauce, hoisin sauce, lime, juice of
+---
+TITLE: Asian Prawn Omelette
+CURRENT_DESCRIPTION: this from the local paper the west australian and makes for a nice weekend breakfast or brunch or light meal.  though i made it without mint or coriander.  i made as one large omelette and divided.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sesame oil, soy sauce, garlic, ginger, vegetable oil
+---
+TITLE: Asian Quinoa Salad
+CURRENT_DESCRIPTION: this bright and healthy asian quinoa salad is great for an easy lunch or dinner. it is also great to take to parties! it is always a hit! adapted from two peas and their pod.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quinoa, water, salt, red cabbage, edamame, red bell pepper
+---
+TITLE: Asian Racks Of Lamb With Sesame Sauce
+CURRENT_DESCRIPTION: deliciously different lamb racks. modified slightly to reduce fat content. time does not include marinating time of at least 1 hour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb racks, garlic cloves, ginger, sesame seeds, sugar, light soy sauce
+---
+TITLE: Asian Ramen Cole Slaw Salad
+CURRENT_DESCRIPTION: this is my grandmother's recipe; it is very flavorful and light. i usually refrigerate overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, cider vinegar, sugar, salt, pepper, chicken-flavored ramen noodles
+---
+TITLE: Asian Ramen Coleslaw
+CURRENT_DESCRIPTION: my sister-in-law makes this coleslaw and it usually disappears very quickly because it's so light and tasty.  it can be a light meal if by adding some chopped and grilled chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green onions, coleslaw mix, toasted sesame seeds, toasted almond, chicken-flavored ramen noodles, oil
+---
+TITLE: Asian Ramen Noodle Soup
+CURRENT_DESCRIPTION: this is a combination of sweet and sour soup and egg drop soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced-sodium fat-free chicken broth, boneless pork loin, mushroom, firm tofu, white vinegar, sherry wine
+---
+TITLE: Asian Ramen Salad With Chicken
+CURRENT_DESCRIPTION: a nice crunchy salad with a great tangy dressing. to save time, pick up some pre-cooked rotisserie chicken instead of cooking some chicken yourself.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ramen noodles, sunflower seeds, slivered almonds, cabbage, green onions, boneless skinless chicken breast
+---
+TITLE: Asian Risotto
+CURRENT_DESCRIPTION: this is my kind of comfort food-a very untradtional but flavorful way to prepare risotto. lots of shrimp, with garlic, ginger, pine nuts and cilantro. risotto goes pacific rim! adapted from a recipe from a local grocery store.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: arborio rice, butter, shiitake mushrooms, garlic, ginger, fresh shrimp
+---
+TITLE: Asian Roasted Asparagus
+CURRENT_DESCRIPTION: i adapted this from another recipe for grilled asparagus. the grill was out of gas, so i decided to try using the oven.  i modified the seasonings to reflect my desire to cut the fat content.  my company, family and i all loved the results. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, sesame oil, olive oil, soy sauce, garlic cloves, ginger
+---
+TITLE: Asian Roasted Green Beans With Mushrooms
+CURRENT_DESCRIPTION: this is an easy, delicious way to serve green beans.  this dish can be served any night of the week or is elegant enough for a dinner party.  ginger and soy sauce gives this dish a bit of asian flair and a little something that makes people wonder, "what was that?"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, shallot, garlic clove, baby portabella mushrooms, olive oil, soy sauce
+---
+TITLE: Asian Roasted Onions And Peppers
+CURRENT_DESCRIPTION: my own concoction.  hope you enjoy it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, bell peppers, vegetable oil, toasted sesame oil, soy sauce, oyster sauce
+---
+TITLE: Asian Roll Lettuce Wrap Fun For The Entire Family
+CURRENT_DESCRIPTION: this is a easy, wonderful, light yet filling meal with turkey or beef, rice and fresh veggies! fun to eat! you will need at least 8 - (10 inch) bamboo skewers for cooking the meat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, light soy sauce, garlic, fresh gingerroot, brown rice, water
+---
+TITLE: Asian Salad
+CURRENT_DESCRIPTION: the dressing is delicious and all the ingredients blend together perfectly. it's also great with chicken added. it's terrific for a potluck. sorry i don't know the exact amount of servings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white vinegar, vegetable oil, soy sauce, sugar, butter, ramen noodles
+---
+TITLE: asian salad   cole slaw   chinese cole slaw   light
+CURRENT_DESCRIPTION: i adapted this recipe from #54866 and had so many tweaks and changes from the original that i needed to put this one down so i could remember it all.   i've omitted alot of the oil from the original to lighten it up.  this is great for summer time bbq's as a side dish.  or grill some chicken and you've got a chinese chicken salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, green onions, minced garlic clove, fresh ginger, carrot, ramen noodles
+---
+TITLE: Asian Salad   Cole Slaw   Chinese Cole Slaw   Light
+CURRENT_DESCRIPTION: i adapted this recipe from #54866 and had so many tweaks and changes from the original that i needed to put this one down so i could remember it all.   i've omitted alot of the oil from the original to lighten it up.  this is great for summer time bbq's as a side dish.  or grill some chicken and you've got a chinese chicken salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, green onions, minced garlic clove, fresh ginger, carrot, ramen noodles
+---
+TITLE: Asian Salad Dressing Via Susiequsie
+CURRENT_DESCRIPTION: susiequsie & i are in "recipe exchange mode" these dys. aware of our fondness for oriental cuisine & that my sister (kathy) often shares her oriental recipes w/me, sq passed this 1 along to me & acknowledged her source as graham kerr who said "this is a low-fat tart/sweet dressing or marinade w/distinctive asian flavors." thx sq! (time does not include time for dressing to chill)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame oil, garlic clove, fresh ginger, low sodium chicken broth, rice wine vinegar, light soy sauce
+---
+TITLE: Asian Salad In Shells
+CURRENT_DESCRIPTION: this is a recipe that i made for my wife and her sisters for their supper club. i used aussiechef's recipe for peanut-lime vinaigrette to give it an asian flare. thanks aussiechef! they're a great, make ahead appetizer and really delicious the next day too. they loved them so here it is...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jumbo pasta shells, broccoli coleslaw mix, red bell pepper, yellow bell pepper, carrots, green onions
+---
+TITLE: Asian Salmon
+CURRENT_DESCRIPTION: this is very quick to prepare; i have marinated the salmon for as little as 1/2 an hour, yet it has plenty of flavor. for ease of preparation, we buy individually portioned salmon from a big-box store. we prefer to grill it on our indoor contact because it's so quick. i've used straight brown sugar, splenda brown sugar blend, and straight splenda - and they all work very well. but i think the brown sugar or the brown sugar blend will give you a little better color.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, extra virgin olive oil, sesame oil, rice wine vinegar, soy sauce, brown sugar
+---
+TITLE: Asian Salmon Bowl With Lime Drizzle
+CURRENT_DESCRIPTION: quick and simple meal in a bowl. great in the summer or anytime.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jasmine rice, unsalted butter, garlic clove, red pepper flakes, brown sugar, fresh lime juice
+---
+TITLE: Asian Salmon Burgers
+CURRENT_DESCRIPTION: i found this at the prevention website. yummmm
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless salmon fillet, whole wheat bread crumbs, egg, garlic cloves, reduced sodium soy sauce, dark sesame oil
+---
+TITLE: Asian Salmon Burgers With Provolone  Green Onion And Soy Sauce M
+CURRENT_DESCRIPTION: packed with ginger, garlic and green onions and topped with sargento deli style sliced provolone cheese, these salmon burgers are light and juicy and look gorgeous on a toasted bun. pair with juicy summer fruits like mango and pineapple for a fresh and healthy meal, and don't forget the cheese. "cheese is the grill accessory that never goes out of style," says diane morgan, author of dressed to grill, savvy recipes for girls who play with fire and salmon. "you can add it to almost anything to enhance the taste of your meal. natural cheeses, in particular, give the best flavor."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillet, fresh ginger, garlic, green onions, fresh cilantro, kosher salt
+---
+TITLE: Asian Salmon Cakes
+CURRENT_DESCRIPTION: this is a great way to use up leftover salmon, and makes a wonderful sandwich , or serve them over salad greens
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon, panko breadcrumbs, scallion, cilantro, eggs, fresh lime juice
+---
+TITLE: Asian Salmon Noodle Salad
+CURRENT_DESCRIPTION: leftover salmon from dinner the night before can be transformed into a tasty asian salad for lunch the next day.  recipe by rosie schwartz, rd and found at lcbo.ca.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, gingerroot, sesame oil, reduced sodium soy sauce, seasoned rice wine vinegar, sugar
+---
+TITLE: Asian Salmon Roll Ups
+CURRENT_DESCRIPTION: a nice asian twist on the old salmon salad wrap!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon, mandarin oranges, green onion, peanut butter, low sodium soy sauce, fresh lemon juice
+---
+TITLE: Asian Salmon Skewers With Peanut Butter Sauce
+CURRENT_DESCRIPTION: created for salmon but also works well with chicken.  from a supermarket handout.  note: if using bamboo skewers soak for about 30 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, fresh ginger, chunky peanut butter, hot pepper sauce, warm water, soy sauce
+---
+TITLE: Asian Salmon W  Asparagus   Nuwave Oven Flavorwave
+CURRENT_DESCRIPTION: wonderful for your nu-wave oven
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, hoisin sauce, soy sauce, fresh ginger, garlic cloves, sesame oil
+---
+TITLE: Asian Sauce
+CURRENT_DESCRIPTION: great for grilling with an asain touch!
+use it sparingly, as you would a steak sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hoisin sauce, soy sauce, sesame oil, sugar, garlic cloves, fresh ginger
+---
+TITLE: Asian Sauced Meatballs
+CURRENT_DESCRIPTION: haven't tryed this yet but i plan on doing so very soon, it looks easy delicious! make you own favorite meatball recipe for this. serve rice on the side if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, pineapple juice, hoisin sauce, dark sesame oil, white vinegar, fresh ginger
+---
+TITLE: Asian Sauteed Cauliflower
+CURRENT_DESCRIPTION: try this easy-to-prepare recipe that gives cauliflower an asian twist. one serving also provides 148% of the daily value (dv) for vitamin c, 13% dv for potassium and 12% dv for fiber. and it tastes great served cold the next day. enjoy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: head cauliflower, chicken broth, fresh ginger, garlic cloves, lemon juice, honey
+---
+TITLE: Asian Sauteed Spinach
+CURRENT_DESCRIPTION: spinach sauteed with asian flavors
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, garlic cloves, vegetable oil, sesame oil, soy sauce
+---
+TITLE: Asian Scrambled Eggs
+CURRENT_DESCRIPTION: entered for safe-keeping, from clean eating, fall 2008.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic clove, fresh ginger, peanut oil, mushroom, snow peas, red bell pepper
+---
+TITLE: Asian Sesame Apple Napa Cole Slaw
+CURRENT_DESCRIPTION: this is a savory slaw i got from woman's day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: seasoned rice vinegar, dark sesame oil, honey, salt, jalapeno peppers, gala apples
+---
+TITLE: Asian Sesame Chicken
+CURRENT_DESCRIPTION: chicken breasts are coated with plenty of crunchy sesame seeds, cooked in a skillet until golden and served with tart-sweet ginger dressing. sesame seeds can be store up to six months in the freezer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame seeds, plain breadcrumbs, salt, egg, boneless skinless chicken breast halves, vegetable oil
+---
+TITLE: Asian Sesame Cod
+CURRENT_DESCRIPTION: found in the taste of home's quick cooking.  a simple and delicious recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cod fish fillet, white wine, green onions, brown sugar, fresh gingerroot, rice vinegar
+---
+TITLE: Asian Sesame Cucumber Salad
+CURRENT_DESCRIPTION: sister found this on the internet and sent it to me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, kosher salt, white sesame seeds, rice wine vinegar, toasted sesame oil, sugar
+---
+TITLE: Asian Sesame Noodle Salad With Peanut Dressing  Vegetarian
+CURRENT_DESCRIPTION: do not let the noodles sit in the sauce toss the complete salad together just before serving --- to save some time the dressing and/or the pasta can be prepared a day in advance --- you can add in your favorite veggies to the salad if desired, the amounts may be doubled to yield 6-8 -- this is very good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smooth peanut butter, tamari, warm water, fresh ginger, garlic, rice wine vinegar
+---
+TITLE: Asian Sesame Roasted Green Beans
+CURRENT_DESCRIPTION: a side dish my family enjoys.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, olive oil, sesame seeds, sesame oil, soy sauce
+---
+TITLE: Asian Sesame Salmon
+CURRENT_DESCRIPTION: asian inspired sesame salmon fillets
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame seeds, garlic, onion, ground ginger, crushed red pepper flakes, honey
+---
+TITLE: Asian Short Ribs With Carrots And Rice
+CURRENT_DESCRIPTION: tasty, tender meat in asian sauce.
+
+i suppose stew meat could be used if short ribs are not available.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, onion, garlic cloves, boneless beef short ribs, diced tomatoes, dry sherry
+---
+TITLE: Asian Shredded Chicken Coleslaw
+CURRENT_DESCRIPTION: this is a nice hot weather main dish salad that is very easy to prepare. feel free to add any of your favorite veges. the cooking time does not reflect the time it would take to cook the chicken breasts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, white wine vinegar, fresh ginger, oriental sesame oil, sugar, dry crushed red pepper
+---
+TITLE: Asian Shrimp   Mushroom Stir Fry
+CURRENT_DESCRIPTION: this is really good.  use large, fresh shrimp for best results (peel before cooking).  this comes from one of my favorite diet cookbooks, modified to our tastes.  serve over brown rice for a delicious and complete meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, baby portabella mushrooms, green onion, red bell pepper, garlic cloves, shrimp
+---
+TITLE: Asian Shrimp And Crab Cakes
+CURRENT_DESCRIPTION: have not tried this yet but after a recent trip to the east coast i fell in love with crab cakes and this looks like an amazing variation! originally from epicurious.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fat-free mayonnaise, fresh cilantro, fresh ginger, thai fish sauce, canned crabmeat, bay shrimp
+---
+TITLE: Asian Shrimp And Ginger Fritters With Sweet Chili Dipping Sauce
+CURRENT_DESCRIPTION: these tasty morsels are always popular as an appetizer and team well with the sweet chili dipping sauce. add more chilies to the sauce if you like it hot! you can obtain fish sauce (and also a sweet chili dipping sauce, if you prefer not to make your own) in an asian food store. the fritters can also be served with my thai sweet chili sauce, posted separately.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, fresh breadcrumbs, coconut milk, ginger, cilantro leaf, egg
+---
+TITLE: Asian Shrimp And Lobster Sauce
+CURRENT_DESCRIPTION: served over rice - yummy!! cannot figure out why it's called
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, garlic, salt, soy sauce, oyster sauce, water
+---
+TITLE: Asian Shrimp And Pasta
+CURRENT_DESCRIPTION: this is a good dish for seafood lovers. from southern living magazine, may 2004
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, angel hair pasta, low sodium soy sauce, rice wine vinegar, sesame oil, green onions
+---
+TITLE: Asian Shrimp Basting And Dipping Sauce For A Voracious Appetite
+CURRENT_DESCRIPTION: a savory and slightly sweet sauce with a bit of spice.  great for basting shrimp on the bbq and as a dipping sauce served on the side.  created for zwt6 and the voracious vagabonds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red pepper flakes, ground coriander, sesame oil, ginger, garlic cloves, cilantro
+---
+TITLE: Asian Shrimp Bowl With Rice
+CURRENT_DESCRIPTION: yes, i know...microwave dishes can sometimes be good and sometimes be bad, but this was delicious, not to mention easy.  this came together quick and was very filling.  you'll want to keep this recipe handy for a fast meal when you've worked all day and dear husband is the chef.  it's easy enough for him!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked shrimp, frozen mixed vegetables, sesame ginger salad dressing, soy sauce, quick-cooking long grain and wild rice mix, cilantro
+---
+TITLE: Asian Shrimp Noodle Salad
+CURRENT_DESCRIPTION: this is the easiest of salads to prepare and it's healthy too with lots of fresh veggies and no oil. i think it tastes best if you let it marinate in the dressing for an hour or so but you can serve it right away as well. if you like a bit of kick, add some chopped hot chili peppers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg noodles, shrimp, bean sprouts, carrot, red pepper, zucchini
+---
+TITLE: Asian Shrimp Salad
+CURRENT_DESCRIPTION: this is a recipe served at walt disney world. love the oriental flair.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, soba noodles, snow peas, red bell pepper, carrot, onion
+---
+TITLE: Asian Skillet Cabbage
+CURRENT_DESCRIPTION: as a chinese-food-aholic, i'm constantly in search of low carb alternatives.  i've tried cauliflower fried rice, and just could not get around the texture, so rather than trying to fill a void with poor alternatives, i decided to make something just as good - but different.  the recipe is intended as a simple base recipe, add whatever you like.  keep in mind, the flavor comes from the sesame oil, and the soy sauce.  those ingredients are non-negotiable.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coleslaw mix, sesame oil, soy sauce, onion, salt and pepper
+---
+TITLE: Asian Skillet Chicken
+CURRENT_DESCRIPTION: from parent's magazine, may 2006.  haven't tried it yet but should be a kid pleaser and sounds easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, chicken thighs, garlic cloves, fresh ginger, green onions, chicken broth
+---
+TITLE: Asian Skirt Steak
+CURRENT_DESCRIPTION: this is a great and very easy to make skirt steak that you just have to marinad, throw on the grill, and then reduce the marinade to use as a dipping sauce. tons of flavor. makes sure the grill is very hot, because cooking time is not very long and you want some color on the steak.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skirt steaks, soy sauce, apple cider vinegar, sherry wine, salt, fresh ground black pepper
+---
+TITLE: Asian Slaw
+CURRENT_DESCRIPTION: my friend passed this recipe on to me.... whenever she brings it to our get togethers it goes really fast!  if you are taking this with you to a party you can keep the dressing in a separate container and mix it into your salad right before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coleslaw, ramen noodles, scallions, sliced almonds, sesame seeds, canola oil
+---
+TITLE: Asian Slaw  A Raw Food Recipe
+CURRENT_DESCRIPTION: this zesty, flavorful slaw is also healthy and nutritious.  the slaw is served cold, and cooking time in the recipe is refrigerator chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice wine vinegar, vegetable oil, sesame oil, creamy peanut butter, soy sauce, honey
+---
+TITLE: Asian Slaw With Ginger Peanut Dressing
+CURRENT_DESCRIPTION: from once upon a chef via bountiful baskets.  using the asian basket we recently got.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, vegetable oil, rice vinegar, soy sauce, sesame oil, peanut butter
+---
+TITLE: Asian Slaw With Spicy Thai Vinaigrette
+CURRENT_DESCRIPTION: a delicious spicy slaw adapted from a recipe courtesy of joe's farm grill in gilbert, arizona. this is a burger joint that grows  most of the food they use and has awesome food! adapted from guy fieri's cookbook, "diners, drive-ins and dives. guy says the slaw is most amazing! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, red cabbage, napa cabbage, green onion, red bell pepper, carrots
+---
+TITLE: Asian Sloppy Joes
+CURRENT_DESCRIPTION: sloppy joes with a twist!  served it with white rice and steamed veggies.  an adaptation of a r. reisman recipe.  if the sauce is not thick enough, add a  bit of flour or cornstarch and it will do the trick!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, garlic, fresh ginger, carrot, red bell pepper, extra lean ground beef
+---
+TITLE: Asian Snow Peas And Carrots
+CURRENT_DESCRIPTION: this is a recipe i adopted. i think it looks good, but i have not yet tested it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, soy sauce, cornstarch, red pepper, carrot, snow pea pods
+---
+TITLE: Asian Soup Stock
+CURRENT_DESCRIPTION: this recipe came from a moosewood recipe book. this flavored broth needs only some tender young bok choy or snow peas, sliced seasoned tofu, and a splash of soy sauce to become a delightful soothing, and light soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, leeks, carrots, celery & leaves, garlic, whole black peppercorns
+---
+TITLE: Asian Spaghetti
+CURRENT_DESCRIPTION: this is a base recipe. add ingredients or serve it this way.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, oil, sesame seeds, soy sauce, green onion
+---
+TITLE: Asian Spaghetti Sauce
+CURRENT_DESCRIPTION: i wanted something a little different for supper one night. had some ground turkey, and some leftover teriyaki sauce, and this is what i came up with! the chili flakes gave it enough heat for me, but more can be added!! amounts are estimated, as i don't measure when i'm "creating". lol
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, garlic, dried onion flakes, teriyaki sauce, sesame oil, ginger
+---
+TITLE: Asian Spareribs
+CURRENT_DESCRIPTION: yummy!  this is my own creation and everybody just loves them!!
+i like to make these on the grill in the warm weather months.  when i do that, i reserve about 1/2 the marinade before marinating the meat, and use the reserved marinade to brush the ribs with while grilling........or i'll just make 2 batches of marinade, and use the second batch just for brushing while grilling.
+prep time does not include marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork spareribs, olive oil, pineapple juice, light soy sauce, hoisin sauce, dry white wine
+---
+TITLE: Asian Spice Rubbed Pork Chops W  Wild Mushroom Soy Vinaigrette
+CURRENT_DESCRIPTION: dh and i made this recipe from my bobby flay "boy gets grill" cookbook last night and thought it was really good.  we used a combination of mushrooms, including shiitakes, oyster, and cremini that were pre-sliced so as to cut down on prep time.  bobby says that it is important to use the best mushrooms that you can find.  i thought that the peanut oil in the mushroom sauce could easily be reduced a bit, but dh thought it was fine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet paprika, dry mustard, salt, fresh ground black pepper, ground star anise, ground ginger
+---
+TITLE: Asian Spiced Chicken With Vanilla Apricot Sauce
+CURRENT_DESCRIPTION: i got this recipe from mccormick. this recipe has a unique contrast of flavor, is healthy, uses ingredients that most people have on hand, and is so good!  i have altered it a little from the original. i like to serve over rice with crunchy wonton strips on top (original recipe used wonton cups, no rice & served as an appetizer). i double the sauce when i make it because it's that good! i don't know of many asian resaurants that make a dish this great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, onion, soy sauce, lemon juice, olive oil, basil leaves
+---
+TITLE: Asian Spiced Pork Rissoles
+CURRENT_DESCRIPTION: different rissoles for a change
+does not include 30 mins standing time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, fresh ginger, red chilies, lemongrass, green onions, coriander leaves
+---
+TITLE: Asian Spiced Roasted Baby Carrots
+CURRENT_DESCRIPTION: the packages of the peeled baby carrots that you find the your grocery cuts back on the prep time for these babies!! a sara moulton recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby carrots, vegetable oil, kosher salt, soy sauce, butter, fresh ginger
+---
+TITLE: Asian Spiced Salmon Kedgeree  Nigella Lawson
+CURRENT_DESCRIPTION: this is one of those rare dishes that manages to be comforting and light at the same time. it's very easy to prepare and it makes great leftovers.  sometimes i omit the eggs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cold water, limes, salmon fillets, unsalted butter, oil, onion
+---
+TITLE: Asian Spiced Salmon With Wasabi Mayonnaise
+CURRENT_DESCRIPTION: this will make the novice back yard griller/bbqer look like a seasoned genius.  i promise!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, soy sauce, sugar, wasabi, garlic cloves, lemon juice
+---
+TITLE: Asian Spiced Turkey Burgers
+CURRENT_DESCRIPTION: to keep these burgers tender, handle them as little as possible. to make the bread crumbs, whirl 2 pieces of firm-textured white bread in a food processor or blender until fine crumbs form.
+
+the following garnishes are not included in the recipe below:  red-leaf lettuce leaves, hoisin sauce or chinese mustard, and plum sauce or traditional ketchup.  prep time does not include making your own breadcrumbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh white breadcrumbs, egg, green onion, soy sauce, garlic, minced ginger
+---
+TITLE: Asian Spicy Chicken Thighs
+CURRENT_DESCRIPTION: this recipe is a dramatic modification of an asian grilled chicken recipe i found on yahoo health. it's spicy and delicious. i originally made it with chicken thighs but it also works with chicken breasts. sid dishes i have had it with are asparagus, grilled brussels sprouts, curry couscous and rice pilaf. 5 minutes to prepare, 30 minutes to marinate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken thighs, olive oil, soy sauce, garlic powder, ground ginger, spicy brown mustard
+---
+TITLE: Asian Spinach And Shrimp Salad  With Sesame Dressing
+CURRENT_DESCRIPTION: this is a delicious salad that is a tasty meal in one - depending on how juicy the oranges are, you may need 2 oranges to yield 1/2 cup of squeezed juice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, orange zest, baby spinach, fresh ginger, rice vinegar, honey
+---
+TITLE: Asian Spinach Salad
+CURRENT_DESCRIPTION: this is one of my favourite salads.  it is different than most spinach salads that have a very sweet dressing.  if you choose to omit the rice, please reduce the dressing ingredients by half.  this is my first recipe post - hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, cooked white rice, celery, currants, fresh mushrooms, bell pepper
+---
+TITLE: Asian Spinach Salad With Orange And Avocado
+CURRENT_DESCRIPTION: light and refreshing!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shallots, seasoned rice vinegar, vegetable oil, fresh ginger, sesame oil, navel orange
+---
+TITLE: Asian Steak And Spinach Salad
+CURRENT_DESCRIPTION: in 'cooking from the hip' by cat cora
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, olive oil, garlic cloves, fresh lime juice, light brown sugar, soy sauce
+---
+TITLE: Asian Steak Dinner     Low Carb
+CURRENT_DESCRIPTION: 2.7 carbs per serving but even if you are not low carbing it -- try this you will love it!!!! use the left over sauce to pour over your salad --delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: top sirloin steak, beef broth, soy sauce, fresh ginger, cornstarch, butter
+---
+TITLE: Asian Steak Rub
+CURRENT_DESCRIPTION: this is good with extra soy sauce served on the side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, chinese five spice powder, brown sugar, ground ginger, salt, ground red pepper
+---
+TITLE: Asian Steak Salad
+CURRENT_DESCRIPTION: another great beat the heat dinner. sometimes i add diced tart apples or a can of drained mandarine oranges.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, red cabbage, fresh lime juice, hoisin sauce, tamari soy sauce, rib eye steaks
+---
+TITLE: Asian Steak Topped With Bell Pepper Stir Fry
+CURRENT_DESCRIPTION: a steakhouse take on thai beef with sweet red peppers; serve with steamed jasmine rice. bon appetit magazine, november 2008 edition.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: thai sweet chili sauce, soy sauce, balsamic vinegar, fresh ginger, new york strip steaks, vegetable oil
+---
+TITLE: Asian Steak Wraps
+CURRENT_DESCRIPTION: another recipe found in toh that i am posting for zwt 6.  description states:  the zesty marinade with a splash of fresh lime juice makes these slightly sesame-flavored wraps a treat. to speed prep time, use a 1-pound package of frozen onion and pepper mix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime juice, honey, reduced sodium soy sauce, sesame oil, fresh gingerroot, fresh cilantro
+---
+TITLE: Asian Steamed Dumpling Filling
+CURRENT_DESCRIPTION: this a really terrific filling for those asian steamed dumplings. the recipe was given to me by a good friend who is a chef at benihana. you can use ground pork, ground shrimp, or ground turkey with great success. i have posted the recipe using ground pork because that is the typical mixture most people are accustomed to... but shrimp is a great indulgence and ground turkey is what i usually use and i love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, cilantro, carrots, green onions, fresh ginger, oyster sauce
+---
+TITLE: asian steamed pork meatballs  sesame noodles   salad
+CURRENT_DESCRIPTION: ever order chinese and it takes forever ... well this is my version of a great 3 healthy course meal in under 40 minutes on the table. now, these meatballs are great as an appetizer but personally i love to serve them as a full meal with simple chilled sesame noodles, and a easy asian salad with napa cabbage, mandarine oranges, cucumber, red onion and water chestnuts. both recipes are listed below. i also like to make a quick dipping sauce for the meatballs that ties all the flavors together.
+
+now yes a 3 course dinner and it couldn't be simpler.  some simple asian ingredients and as the meatballs steam, the salad and noodles will be done. it is so easy.  and everything i bought was right in the everyday grocery store, no special market.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, button mushrooms, scallions, garlic, rice wine, hoisin sauce
+---
+TITLE: Asian Steamed Pork Meatballs  Sesame Noodles   Salad
+CURRENT_DESCRIPTION: ever order chinese and it takes forever ... well this is my version of a great 3 healthy course meal in under 40 minutes on the table. now, these meatballs are great as an appetizer but personally i love to serve them as a full meal with simple chilled sesame noodles, and a easy asian salad with napa cabbage, mandarine oranges, cucumber, red onion and water chestnuts. both recipes are listed below. i also like to make a quick dipping sauce for the meatballs that ties all the flavors together.
+
+now yes a 3 course dinner and it couldn't be simpler.  some simple asian ingredients and as the meatballs steam, the salad and noodles will be done. it is so easy.  and everything i bought was right in the everyday grocery store, no special market.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, button mushrooms, scallions, garlic, rice wine, hoisin sauce
+---
+TITLE: Asian Steamed Salmon
+CURRENT_DESCRIPTION: pair with a bottle of riesling or pinot grigio
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillet, low sodium soy sauce, scallions, fresh gingerroot, ground black pepper
+---
+TITLE: Asian Sticky Chicken
+CURRENT_DESCRIPTION: wonderful served with sticky rice...to soak up all those wonderful juices.  i found this recipe out of the new best of bridge series
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, flour, olive oil, orange juice, honey, hoisin sauce
+---
+TITLE: Asian Sticky Chicken Drumettes
+CURRENT_DESCRIPTION: i switched out pork ribs for chicken. from quick and simple february 2006. serve with a tossed green salad and jasmine rice! mmm!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, chinese five spice powder, ketchup, garlic clove, fresh ginger, soy sauce
+---
+TITLE: Asian Sticky Chicky
+CURRENT_DESCRIPTION: i always use skinless, boneless chicken thighs for this.  the breasts are just to dry for this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame oil, boneless skinless chicken thighs, garlic cloves, rice wine, water, reduced sodium soy sauce
+---
+TITLE: Asian Stir Fried Brussels Sprouts
+CURRENT_DESCRIPTION: another awesome way to eat brussels sprouts....posted for world tour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brussels sprouts, peanut oil, garlic, gingerroot, soy sauce, crushed red pepper flakes
+---
+TITLE: Asian Stir Fried Mussels And Prawns
+CURRENT_DESCRIPTION: this is a quick and easy meal to do, it tastes great and is a nice light meal. please note: i cooked this in a wok so if you are using a large frying pan, cooking times will vary as woks get very hot. i love mussels, but please make sure you do remove beards and scrub thoroughly as you will end up with a not nice fish smell in your food if you don't. i find if your mussels are very dirty with lots of barnacles on them, than you can not remove, it is often better to boil them separately and add at the end to warm. this way any grit or dirt that remains, ends up in your water not your stir-fry i have done this before, my mussels i bought yesterday were very clean so this was not necessary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mussels, prawns, peanut oil, fresh ginger, garlic cloves, shallots
+---
+TITLE: Asian Stir Fry Pork And Noodles
+CURRENT_DESCRIPTION: rice noodles may be used in place of the vermicelli  ---for easier slicing partially freeze the pork first.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vermicelli, boneless center cut pork chop, hoisin sauce, garlic, crushed red pepper flakes, low sodium soy sauce
+---
+TITLE: Asian Strawberry Salad With Dressing
+CURRENT_DESCRIPTION: this recipe is one of my family's summer favorites. it tastes so light, sweet, tangy, and fresh! works great as a side or stands well on it's own. i hope you enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, top ramen noodles, butter, broccoli, romaine lettuce hearts, spinach
+---
+TITLE: Asian Stuffed Eggplant With Hawaiian Style Pork  Or Turkey  Hash
+CURRENT_DESCRIPTION: this is a dish that combines two things that i really like... eggplant and pork hash.  pork hash in hawaii brings back memories of the hunabutta days (childhood) when the man in the manapua (steamed chinese bun) man would come around and sell his wares, kind of like the ice-cream man in the states.  but instead of getting ice-cream, one could get pork hash, half moon, manapua, fried noodles, candies, almond cookies and other stuff.
+
+pork hash is kind of like a meatball wrapped in a won ton wrapper.  it is usually served with chinese mustard mixed with soy sauce.  coleman's dry mustard mixed with soy sauce is a close approximation, and is the recommended accompaniment to this dish.  you could also use a chinese black bean sauce or a sweet and thick teriyaki sauce.
+
+good eating!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, eggs, green onions, water chestnuts, garlic cloves, ginger powder
+---
+TITLE: Asian Stuffed Eggs
+CURRENT_DESCRIPTION: a delightful way to stuff eggs and the presentation is nice too! from racael ray's big orange book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, fresh gingerroot, scallions, garlic clove, tamari soy sauce, hot sauce
+---
+TITLE: Asian Stuffed Peppers  Ww
+CURRENT_DESCRIPTION: this sounds really good. from weight watchers slim ways hearty meals.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, garlic cloves, fresh gingerroot, lean pork, cornstarch, reduced sodium soy sauce
+---
+TITLE: Asian Style Baby Back Ribs
+CURRENT_DESCRIPTION: the combination of tender grilled pork and an irresistible sauce will have you licking your fingers. be ready to add this dish to your list of summer favorites!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork baby back ribs, molasses, garlic salt, onion powder, worcestershire sauce, reduced sodium soy sauce
+---
+TITLE: Asian Style Barbecue Pork Loin Sirloin Chops
+CURRENT_DESCRIPTION: this sauce is great on pork or chicken and makes a healthier marinade for great tastiing korean barbecue!  my husband is asian and was born in hawaii and this is a favorite local dish. amazing flavor!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin chops, soy sauce, hot sauce, liquid smoke, water, brown sugar
+---
+TITLE: Asian Style Beef And Potato Salad
+CURRENT_DESCRIPTION: another recipe from the western australia potato magazine. i haven't made this one, but it looks really yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, rump steak, fresh coriander leaves, fresh mint leaves, mixed salad greens, red onion
+---
+TITLE: Asian Style Braised Lamb Shanks
+CURRENT_DESCRIPTION: a recipe from bill granger's holiday cookbook. i reduced the 5 spice to half a teaspoon as i find it a bit overpowering. feel free to use the original full teaspoon if you want to..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb shanks, plain flour, olive oil, onion, garlic cloves, red chile
+---
+TITLE: Asian Style Burger Bash
+CURRENT_DESCRIPTION: this is my submission for the first ready-set-cook in 2002. i admit the slaw on the burger seems a bit weird, but it's really great. the noodle salad is kind of a knock off of my favorite dish! all in all this was a pretty quick meal to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hamburger, tamari, sugar, garlic, ginger, rice wine vinegar
+---
+TITLE: Asian Style Cabbage Rolls
+CURRENT_DESCRIPTION: i saw huey make something similar this morning, but i'm not paying to join his site. he used pork, i want to use turkey, he microwaved his in a little asian flavoured sort of broth-i prefer to steam mine. i combined his ideas, my ideas and those of a similar recipe i found on the net to come up with these
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage leaves, ground turkey, carrot, green onions, water chestnut, bean sprouts
+---
+TITLE: Asian Style Chicken   Broccoli
+CURRENT_DESCRIPTION: i found this on a "works for me wednesday" blog entry, but i can't begin to remember where.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, broccoli, garlic cloves, brown sugar, sesame oil, soy sauce
+---
+TITLE: Asian Style Chicken   Cashew Cakes
+CURRENT_DESCRIPTION: so easy to make, and something a little different to serve with salad.
+i cut back on the coriander only because of family dislikes and also cooked in the oven, but nxt time i am going to try these on the the b.b.q.
+these would also be great made smaller for finger food.
+the size of your meatballs will will alter you serving size.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chicken, red onion, cream cheese, salted cashews, basil, coriander
+---
+TITLE: Asian Style Chicken Breasts And Bacon
+CURRENT_DESCRIPTION: this was in an issue of food and wine. it looked great and i thought i would share. i haven't made it yet, still looking for chinese 5-spice powder.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, chinese five spice powder, peanut oil, thick slab bacon, garlic, boneless skinless chicken breast
+---
+TITLE: Asian Style Chicken Croquettes
+CURRENT_DESCRIPTION: these are cheap and superfast for a weeknight dinner with a little flair. they go great with fried rice
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, water chestnuts, bamboo shoots, celery, green onions, mayonnaise
+---
+TITLE: Asian Style Chicken Mandarin
+CURRENT_DESCRIPTION: my father-in-law's recipe.  a nice, easy weeknight meal!  you may serve the chicken whole or cut-up into bite-size pieces.  we've had the most success with keeping the flour coating on when the chicken is whole.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, flour, butter, canola oil, lemon juice, orange juice
+---
+TITLE: Asian Style Chicken Nuggets
+CURRENT_DESCRIPTION: this recipe comes from two different cultures: asian and american--just like me! this is a very simple recipe. i recommend deep-frying the chicken in a pot or saucepan instead of a frying pan so that it doesn't make a mess on the stove top. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast, honey, soy sauce, minced ginger, cornstarch, egg
+---
+TITLE: Asian Style Chicken Packets With Vegetables
+CURRENT_DESCRIPTION: this is a dinner in a packet, very easy to make and no clean up. sbd phase 2.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry sherry, low sodium soy sauce, sesame oil, green onion, ginger, garlic
+---
+TITLE: Asian Style Chicken Ramen Dinner Cole Slaw
+CURRENT_DESCRIPTION: there are many different variations of this salad out there, of course.  my version differs in that the dressing is creamy, and not sweet.  the recipe makes 4 main-dish portions, or 8-10 side dish portions.  it's great as a dinner entrée, and fast and easy to make!  very popular as a take-along potluck or picnic item, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, olive oil, toasted sesame oil, mayonnaise, plain low-fat yogurt, garlic clove
+---
+TITLE: Asian Style Chicken Salad
+CURRENT_DESCRIPTION: from australian bh&g diabetic living issue 12 2007.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce leaves, boneless skinless chicken breasts, fresh pineapple, granny smith apples, yellow capsicum, light soy sauce
+---
+TITLE: Asian Style Coleslaw
+CURRENT_DESCRIPTION: the napa cabbage provides a mild taste and the sesame seed oil gives it a lot of flavor.  this is a simple but tasty slaw.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: napa cabbage, carrot, rice vinegar, sesame seed oil, canola oil, sugar
+---
+TITLE: Asian Style Corn Cakes
+CURRENT_DESCRIPTION: my son brought me some beautiful corn from hi garden, so we came up with these last night. you could use canned or frozen corn-i'm guessing about a 440g (16 ounce) can. this was quite a thin batter, but cooked up really nicely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn on the cob, eggs, all-purpose flour, green onions, garlic clove, green chili pepper
+---
+TITLE: Asian Style Couscous
+CURRENT_DESCRIPTION: from "dining in"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, scallion, water, soy sauce, sugar, ground ginger
+---
+TITLE: Asian Style Crab Cakes With Wasabi Caper Sauce
+CURRENT_DESCRIPTION: the crab cakes are best served over a bed of mixed organic greens in a light vinaigrette.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, capers, wasabi paste, leeks, egg, egg yolk
+---
+TITLE: Asian Style Cucumber Salad
+CURRENT_DESCRIPTION: a quick and easy asian style salad - nice and light, with a little kick!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: english cucumber, rice vinegar, soy sauce, vegetable oil, sesame oil, salt
+---
+TITLE: Asian Style Dressing  From Jamie Oliver S Winter Salad With Duck
+CURRENT_DESCRIPTION: this is a dressing recipe from the new food network show jamie at home. they didn't list the recipe on food network's site, so i'm putting it here for safe keeping. i find it tastes really fabulous over long thin slices of grated carrots as a carrot salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime juice, olive oil, sesame oil, soy sauce, unrefined sugar, chile
+---
+TITLE: Asian Style Edamame And Corn
+CURRENT_DESCRIPTION: the traditional asian flavors of ginger, sesame oil, rice vinegar and soy sauce set the stage for edamame and corn in this chilled salad.  adapted from a recipe in the complete soy cookbook by paulette mitchell, macmillan 1998
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice vinegar, sugar, low sodium soy sauce, sesame seeds, sesame oil, garlic
+---
+TITLE: Asian Style Flank Steak
+CURRENT_DESCRIPTION: broiled flank steak with a honey-ginger-soy sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green onion, garlic cloves, fresh ginger, soy sauce, honey, rice vinegar
+---
+TITLE: Asian Style Glazed Green Beans
+CURRENT_DESCRIPTION: yummy green beans from birds eye website.  serve with steamed brown rice and stir fryed chicken for a delicious asian meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, hoisin sauce, rice wine vinegar, brown sugar, sesame seeds, crushed red pepper flakes
+---
+TITLE: Asian Style Green Beans
+CURRENT_DESCRIPTION: a great addition to your next asian inspired meal.  the recipe is adapted from southern living.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, green onions, garlic cloves, fresh ginger, sesame oil, red sweet bell pepper
+---
+TITLE: Asian Style Grilled Chicken Salad
+CURRENT_DESCRIPTION: serve with rolls for a great meal!  adapted from a recipe found on the interent.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, seasoned pepper, pineapple slices, vegetable oil, soy sauce, pineapple juice
+---
+TITLE: Asian Style Grilled Sweet And Sour Scallops
+CURRENT_DESCRIPTION: 2 pounds scallops should give you 5-6 skewers, but the complete recipe can be doubled to 4 pounds, but each 2-pounds scallops will have to be marinated in two plastic bags using two rice wine/ginger mixtures.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallops, fresh ginger, rice wine, brown sugar, ketchup, chicken broth
+---
+TITLE: Asian Style Grilled Tilapia
+CURRENT_DESCRIPTION: i have to put this recipe somewhere before it gets thrown away!! it was in the paper as a "quick meal". i just love tilapia!! feel free to add more garlic or ginger to this sauce....the more the merrier, right?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, sugar, garlic cloves, lime, juice of, fresh ginger, crushed red pepper flakes
+---
+TITLE: Asian Style Grilled Tofu
+CURRENT_DESCRIPTION: this recipe came from my mom, who got it from family circle. i haven't tried it yet, but i will soon! i cut out the oyster sauce from the marinade, but if you want to use it, the original recipe called for 1 tablespoon of bottled oyster sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: teriyaki sauce, rice vinegar, fresh lime juice, ground ginger, splenda sugar substitute, red pepper flakes
+---
+TITLE: Asian Style Ground Beef And Broccoli With Noodles
+CURRENT_DESCRIPTION: since the beef broth, black bean sauce and soy sauce have a high salt content, i advise not to add in any salt to this recipe. asian soba noodles can be substituted for the spaghetti if desired. feel free to add in other veggies too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh broccoli florets, mushrooms, water, beef broth, black bean garlic sauce, cornstarch
+---
+TITLE: Asian Style Ground Chicken And Noodles
+CURRENT_DESCRIPTION: taken from 125 best ground meat recipe book by ilanna simon --- cooking time does not include cooking the pasta, ground turkey can be used in place of ground chicken, this is very good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, green onions, gingerroot, garlic, cauliflower florets, green bell pepper
+---
+TITLE: Asian Style Ham Noodle Saladwhat To Do With Ham Leftovers
+CURRENT_DESCRIPTION: do you have pounds of leftover ham in your refrigerator that you don't know what to do with? do you find you can't face another plate of, well, sliced ham? here is an easy and fabulous trick to serve your loved ones leftover ham that has almost no hint of its former origin. you will win praise and admiration, and secretly know you were smart to use up rather than toss out. also, if you love asian restaurant ginger-soy salad dressing, you will find this great recipe below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chow mein noodles, cooked ham, pineapple, vegetables, salad greens, ginger juice
+---
+TITLE: Asian Style Hamburgers
+CURRENT_DESCRIPTION: we eat a lot of hamburgers during racing season. i get tired of the "same old" burgers. when i came across this recipe, my family really enjoyed it. i sometimes double the recipe and freeze the burgers also. time does not include marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, vegetable oil, soy sauce, ketchup, white vinegar, garlic cloves
+---
+TITLE: Asian Style Honey Vegetable Stir Fry
+CURRENT_DESCRIPTION: i love this recipe, you can change the vegetables around to suit your tastes. ww points 3.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, stir-fry sauce, crushed red pepper flakes, peanut oil, broccoli florets, mushrooms
+---
+TITLE: Asian Style Kale
+CURRENT_DESCRIPTION: i love all kinds of kale. the article from the washington post mentions black kale (aka - dino, tuscan kale) as a nice choice but i suspect curly blue-green scotch kale would be fine as well. oh, did i mention how incredibly nutritious & economical kale is? or how unbelievably easy kale is to grow in anyone's garden.... even in the winter?
+more about kale - www.motherearthnews.com/organic-gardening/2003-08-01/the-best-kales.aspx
+
+article mentioned the recipe was adapted from northern virginia cooking instructor robyn webb.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kale, sesame oil, shallot, garlic cloves, scallion, gingerroot
+---
+TITLE: Asian Style Lettuce Wraps
+CURRENT_DESCRIPTION: this is a weight watchers recipe that my family has enjoyed several times. works just fine with all ground beef. feel free to jazz up the spices if you like a little kick to your asian cuisine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic, ground pork, lean ground beef, carrot, soy sauce
+---
+TITLE: Asian Style Meat Loaves
+CURRENT_DESCRIPTION: this looks to be a pretty quick and simple recipe, and something a little bit different to wake the boys up at the table on meatloaf night.  a cooking light recipe, posted for safekeeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice crackers, ground turkey breast, ground lean pork, green onion, hoisin sauce, red bell pepper
+---
+TITLE: Asian Style Meatballs
+CURRENT_DESCRIPTION: use sweet ginger-sesame grill sauce or bottled stir-fry sauce to infuse ordinary meatballs with asian flavor.  this is from one of my favorite cookbooks, "bhg off the shelf cooking."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, carrot, soft breadcrumbs, ginger, lean ground beef, sesame and ginger marinade
+---
+TITLE: Asian Style Meatloaf
+CURRENT_DESCRIPTION: this is a moist great tasting meatloaf. leftovers make great sandwiches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, ground pork, bread, eggs, onion, celery
+---
+TITLE: Asian Style Oven Baked Duck Legs
+CURRENT_DESCRIPTION: i bought a bag of  duck legs recently. there were 10 of them in a 2kg bag, all beautifully trimmed and ready to cook. normal eaters might eat one each but we ate two and our son ate 3 of them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: duck legs, garlic cloves, star anise, cinnamon, red chili pepper flakes, sesame oil
+---
+TITLE: Asian Style Party Mix
+CURRENT_DESCRIPTION: who needs guests when you have these in the house?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice chex, sesame sticks, wasabi peas, chow mein noodles, honey roasted peanuts, unsalted butter
+---
+TITLE: Asian Style Pork And Broccoli In Garlic Sauce
+CURRENT_DESCRIPTION: this can also be made in a large skillet, and is equally delicious using chicken *or* pork, i have made it with both and i have to say that i prefer the chicken better. you can double this recipe, but you will probably have to brown the meat in two batches depending on the size of your wok or skillet, and i strongly suggest to double this, it is very good! you can adjust all ingredients amounts to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, soy sauce, boneless pork, cold water, hoisin sauce, sesame oil
+---
+TITLE: Asian Style Pork And Noodle Bowl
+CURRENT_DESCRIPTION: i was inspired to create this from reading a similar one in a kraft magazine. if you like, feel free to add more soy sauce. submitted on may 3rd, 2006
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fettuccine pasta, frozen broccoli cuts, carrots, canola oil, crushed red pepper flakes, cooked pork
+---
+TITLE: Asian Style Pork And Noodles
+CURRENT_DESCRIPTION: you can use almost any kind of noodle in this dish.  originally from everyday food. i guess a taste for sweetness is subjective, because we love this dish! sometimes i add fresh orange zest, cilantro and crushed red pepper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh orange juice, hoisin sauce, cider vinegar, ketchup, coarse salt, broccoli
+---
+TITLE: Asian Style Pork Tenderloin
+CURRENT_DESCRIPTION: this is delicious. i got the recipe off the internet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chinese rice wine, soy sauce, hoisin sauce, sesame oil, gingerroot, garlic cloves
+---
+TITLE: Asian Style Pumpkin Soup
+CURRENT_DESCRIPTION: a bit of a twist on the traditional pumpkin soup. another ww one.  4 pts per serve.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, brown onion, pumpkin, chicken stock, light coconut milk, fish sauce
+---
+TITLE: Asian Style Quinoa Salad With Chili Orange Dressing
+CURRENT_DESCRIPTION: salad recipe from consumer report's food and fitness magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange zest, orange juice, soy sauce, honey, sesame oil, chili sauce
+---
+TITLE: Asian Style Ramen Broccoli Slaw
+CURRENT_DESCRIPTION: sliced almonds can be substituted for the sunflower seeds if desired, all ingredients can be adjusted to taste. you may make this complete salad well in advance, just add in the ramen noodles just before serving. this complete recipe may be doubled, for the 5 cups broccoli slaw i usually double the dressing ingredients ;-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken-flavored ramen noodles, broccoli coleslaw mix, green onions, sunflower seeds, black pepper, sesame oil
+---
+TITLE: Asian Style Salad Dressing
+CURRENT_DESCRIPTION: a delicious, easy, asian-influenced dressing of my own creation. it is definitely vinegar-y, so if you're not a far of such sour dressings, you'll want to add the additional oil!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice wine vinegar, sesame oil, soy sauce, garlic, salad oil
+---
+TITLE: Asian Style Salmon On A Bed Of French String Beans
+CURRENT_DESCRIPTION: beautifully seasoned salmon on a bed of veggies which i also served on a bed of shirataki (pronounced she-rah-tah-kee)fettuccine noodles that low carb food!: containing 3g of carbohydrate per serving.
+low calorie: 20 cal / 4 oz.
+no cholesterol, 
+no sugar,
+gluten-free,	
+dairy-free, 
+contains 10% calcium. 
+the only added oil in this recipe is the teaspoon of sesame oil keeping it low in fat. yes salmon is high in fat but it's a great fat so do eat and enjoy this healthy meal!
+ this is a quick moving recipe so have all ingredients prepared as called for.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onion, ginger paste, garlic cloves, sesame oil, soy sauce, honey
+---
+TITLE: Asian Style Salmon Or Tofu
+CURRENT_DESCRIPTION: came from my nutritionist.  when you're running really short on time, you can substitute the from-scratch sauce with your favorite asian dressing (just check the ingredients to make sure there's no high fructose corn syrup!).  you can substitute the salmon fillets for firm tofu.  if you do that, make sure you marinate the tofu in the dressing for about 2 hours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bok choy, red bell pepper, salmon fillets, pepper, scallions, low sodium soy sauce
+---
+TITLE: Asian Style Savory Baked Tofu
+CURRENT_DESCRIPTION: this was absolutely delicious! it will make a tofu lover out of you yet (i hope!). i let my tofu sit overnight in the marinade, and then baked it, and i thought it turned out great. as i describe below, be sure to really "press" the excess liquid out of your tofu to ensure that it absorbs the marinade. don't be afraid to put something really heavy on it to draw out the moisture. cast iron pan works great!  source: sunday moosewood cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm tofu, dark sesame oil, tamari soy sauce, rice wine, rice vinegar, garlic clove
+---
+TITLE: Asian Style Scallion Pancakes
+CURRENT_DESCRIPTION: yummy asian pancakes and a delicious dipping sauce of sesame oil, sugar and soy sauce.  my mother used to make these for me when i was a little girl.  i recently found this recipe in the october 2009 food network magazine.  prep time includes chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, kosher salt, vegetable shortening, scallions, vegetable oil, sesame oil
+---
+TITLE: Asian Style Shrimp Caesar Salad
+CURRENT_DESCRIPTION: a friend from new zealand served this to me about 20 years ago.  over the past 10 years i have self-published 8 cookbooks on various subjects and this is absolutely the most-commented on, highest praised recipe of all - for its awesome taste and simplicity.  be sure to use only the marukan brand seasoned (orange label) rice vinegar or it just won't taste the same.  for a good diet dressing substitute half the oil for water and toss with a green salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice vinegar, sunflower oil, garlic clove, worcestershire sauce, parmesan cheese, romaine lettuce
+---
+TITLE: Asian Style Snapper Bream In Banana Leaves
+CURRENT_DESCRIPTION: you can make this with snapper or bream and it works equally as well, i have made with both, last night i made it with bream. banana leaves a great way to cook fish especially if cooking the fish on the bbq, i cooked it in the oven last night. i served this with asian style vegetables and i cooked 2 fish,of about 750g a piece to serve 4 or if your fish are smaller you can cook 4 individual fillets. cooking times are based on my oven temperature, not a bbq and you will have to adjust if doing them on the bbq, mine gets very hot and cooks about 5-10 min's quicker on the bbq, if cooking on the bbq, cook with a covered bbq, using indirect heat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana leaves, bream, fresh ginger, lemongrass, garlic cloves, lime juice
+---
+TITLE: Asian Style Stuffed Pork Loin
+CURRENT_DESCRIPTION: this was an experiment that turned out really well, i had a pork loin i wanted to use up and wanted to create something a little bit different than how i usually stuff my pork loins. i had most of these ingredients on hand and had to use a lot up, so this is what i decided to do with them. i think it turned out very well with the pork being tender and juicy and the sauce poured over at the end was a nice touch. i served mine over stir-fried vegetables, but you could also serve this with noodles or steamed rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, salt, five-spice powder, celery rib, shallot, garlic cloves
+---
+TITLE: Asian Style Sweet   Sour Meatballs
+CURRENT_DESCRIPTION: this is a recipe i made my own version of sweet sour sauce. so delicious!!
+this is good for side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, tofu, egg, breadcrumbs, nutmeg, ground black pepper
+---
+TITLE: Asian Style Three Bean Salad
+CURRENT_DESCRIPTION: by ellie krieger, as featured in her book "the food you crave" and also in fitness magazine. three-bean salad gets an exciting asian twist, made with a trio of legumes all commonly used in the far east: green beans, edamame and black beans. the dressing is sweet and tangy just as in the traditional recipe, but this one, inspired by chinese duck sauce, gets its sweetness from apricot preserves and has a zingy hint of fresh ginger.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, edamame, canola oil, rice wine vinegar, apricot preserves, sugar
+---
+TITLE: Asian Style Tofu And Cucumber Noodles
+CURRENT_DESCRIPTION: another vegetarian idea - this one is from bbc goodfood
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, gingerroot, lime, firm tofu, medium egg noodles, sunflower oil
+---
+TITLE: Asian Style Turkey Burgers
+CURRENT_DESCRIPTION: from chef bobo's good food cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, scallion, soft breadcrumbs, fresh cilantro, soy sauce, fresh ginger
+---
+TITLE: Asian Style Vegetable Slaw
+CURRENT_DESCRIPTION: make this crunchy, clean amazing salad and your friends will eat it all day!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, carrots, sweet red peppers, bean sprouts, fresh basil, scallions
+---
+TITLE: Asian Style Wild Rice And Chicken Or Turkey Salad
+CURRENT_DESCRIPTION: plan ahead the salad needs to chill for about 2 hours before serving.  this will serve 3-4 people but can easily be doubled
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, toasted sesame oil, lemon juice, soy sauce, sugar, ginger powder
+---
+TITLE: Asian Sugar Snap Peas
+CURRENT_DESCRIPTION: i found this recipe on the safeway website.  it was listed as an appetizer recipe, but i think it could easily be served as a side dish, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar snap pea, garlic-flavored olive oil, soy sauce, sesame oil, chili oil, brown sugar
+---
+TITLE: Asian Summer Pasta Salad
+CURRENT_DESCRIPTION: this is an easy light supper or lunch pasta salad.  it's simple to add chicken, bacon or shrimp to make it a little heartier if you like.  thanks to jackie for submitting this to our new church cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked spaghetti, carrot, zucchini, bell pepper, green onion, cooked chicken
+---
+TITLE: Asian Summer Salad
+CURRENT_DESCRIPTION: this is good all year round!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: celery, cucumber, tomatoes, lemon, honey, rice vinegar
+---
+TITLE: Asian Sunflower Seed Spread
+CURRENT_DESCRIPTION: vegan spread for vegetables and crackers
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sunflower seeds, poppy seed, sesame seeds, lemon, juice of, garlic cloves, fresh ginger
+---
+TITLE: Asian Sweet And Spicy Noodles  Vegetarian
+CURRENT_DESCRIPTION: this is great either hot, warm or even cold, so you can make ahead and chill then take to work or a picnic! dark sesame oil only for this and refrigerate your sesame oil after opening, adjust all amounts to taste. to make this into a main meal add in some cooked shrimp or chicken. you will love the pasta dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice wine vinegar, low sodium soy sauce, honey, fresh ginger, dark sesame oil, chili-garlic sauce
+---
+TITLE: Asian Syle Spaghetti With Sweet Chili Lime Sauce
+CURRENT_DESCRIPTION: i adapted this reciped which was originally a single-serving , lunch dish, into a tasty and healthy family dinner. feel free to add any types of vegetables and protein to this great dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat spaghetti, bok choy, frozen asian-style vegetables, sweet chili sauce, lime juice, ground ginger
+---
+TITLE: Asian Tex Mex Breakfast
+CURRENT_DESCRIPTION: this is a ,albeit rather strange, awesomely delicious recipe i've adapted using sriracha, sour cream, eggs, and begedil (recipe provided below).
+
+note: you can find sriracha in most grocery stores (safeway, winco, etc.), it is red with a green cap; and has a picture of a rooster on it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yukon gold potatoes, eggs, curry powder, salt, black pepper, green onion
+---
+TITLE: Asian Tilapia In Foil
+CURRENT_DESCRIPTION: tilapia is popular in many asian cuisines.  use low-sodium soy sauce to cut back on the sodium, if desired. i wasn't crazy about it, but so far i haven't liked any tilapia recipes--i just don't like the taste of the fish, i guess! the topping is good, though, and i will probably use it with other kinds of fish i do like--like snapper or cod. i did find that it took a lot longer to cook than the recipe originally called for (10-12 minutes at 425* f), so i've updated it. if you are using thin fillets in single layers, you may want to cut back on the heat and time a bit. you can always cook it longer if needed, but you can't un-cook it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, soy sauce, toasted sesame oil, fresh gingerroot, green onion, pepper
+---
+TITLE: Asian Tofu Loaf
+CURRENT_DESCRIPTION: better than meat and has that oriental flavor to it too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame seeds, minced garlic clove, firm tofu, corn flakes, vegetable broth, oatmeal
+---
+TITLE: Asian Tofu Pitas
+CURRENT_DESCRIPTION: a tasty vegetarian lunch...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, onion, red bell pepper, garlic, extra firm tofu, soy sauce
+---
+TITLE: Asian Tofu Salad
+CURRENT_DESCRIPTION: from realage:
+
+"the best thing about tofu - besides its nutritional value - is the way it carries other flavors, such as the tanginess of this sesame dressing. serve this warm salad with crunchy breadsticks and a tall glass of iced jasmine tea."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, rice vinegar, honey, reduced sodium soy sauce, toasted sesame oil, fresh ginger
+---
+TITLE: Asian Tomato Salad
+CURRENT_DESCRIPTION: this recipe has been slightly tweaked from one by katsuyo kobayashi, japan's favourite tv cooking show host and an iron chef winner. it is so easy to make, but to ensure plenty of flavour, use the best quality tomatoes you can get. if possible, make it ahead and refrigerate for at least an hour to let the flavours blend. this doesn't seem to keep well, so eat it the day you make it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, white onion, rice vinegar, honey, salt
+---
+TITLE: Asian Tossed Salad
+CURRENT_DESCRIPTION: this recipe comes from a popular magazine.
+use recipe #280884 if you don't have a chinese dressing on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, coleslaw mix, sugar snap pea, carrot, red onion, low-fat mayonnaise
+---
+TITLE: Asian Tossed Salad With Wonton Strips
+CURRENT_DESCRIPTION: posting for zwt 6, so not tried by me yet.  this is what the description states:  this breezy salad from bonnie ann bussiere-bermeo of sparks, nevada has it all! fresh tomatoes and pineapple add pretty color while balancing the zesty dressing. topped with golden brown crispy wonton strips, every bite is full of flavor!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, plum tomatoes, fresh pineapple, onions, vegetable oil, wonton wrappers
+---
+TITLE: asian tsunami fusion soup
+CURRENT_DESCRIPTION: this recipe is dedicated to all the children, past, present and future who were  affected by the earthquake and tsunami of 2004.  this main soup bowl is a fusion of asian tastes from several of the 11 countries in the indian ocean which the tsunami reached.  from indonesia this soup contains hot, spicy & lemon flavors, from sri lanka/ceylon coconut & ginger flavors, from thailand shrimp & chicken, from malaysia rice noodles and from singapore the curry taste.  this is a very visually appealing bowl of soup, so get your digital camera ready and snap a few.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, chicken broth, shrimp, baking soda, rice noodles, bean sprouts
+---
+TITLE: Asian Tsunami Fusion Soup
+CURRENT_DESCRIPTION: this recipe is dedicated to all the children, past, present and future who were  affected by the earthquake and tsunami of 2004.  this main soup bowl is a fusion of asian tastes from several of the 11 countries in the indian ocean which the tsunami reached.  from indonesia this soup contains hot, spicy & lemon flavors, from sri lanka/ceylon coconut & ginger flavors, from thailand shrimp & chicken, from malaysia rice noodles and from singapore the curry taste.  this is a very visually appealing bowl of soup, so get your digital camera ready and snap a few.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, chicken broth, shrimp, baking soda, rice noodles, bean sprouts
+---
+TITLE: Asian Tuna And Cabbage Salad
+CURRENT_DESCRIPTION: from the complete idiot’s guide to glycemic index snacks
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, red cabbage, green onions, almonds, toasted sesame seeds, tuna in water
+---
+TITLE: Asian Tuna Patties
+CURRENT_DESCRIPTION: this recipes comes from michelle at allrecipes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna, egg, dry breadcrumbs, green onions, garlic clove, soya sauce
+---
+TITLE: Asian Turkey Burger
+CURRENT_DESCRIPTION: a delicious, moist turkey burger
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground turkey, applesauce, hoisin sauce, soy sauce, toasted sesame oil, gingerroot
+---
+TITLE: Asian Turkey Burgers
+CURRENT_DESCRIPTION: another great sounding burger from favorite brand name recipes website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, french, ,, ,, ,, ,
+---
+TITLE: Asian Turkey Burgers With Sesame Mayo
+CURRENT_DESCRIPTION: hoisin sauce gives these burgers a juicy texture, while ginger and garlic provide a burst of flavor and water chestnuts deliver an appealing crunch.
+serve them over toasted whole-wheat buns with a side of tender greens.
+we used this tangy mayonnaise to enliven the burger even more or for a chicken sandwich or a dip for a platter of wonderful roasted vegetables or perhaps use it as a dressing for sliced napa cabbage with scallions.:) i had some apricot mustard left over from another dish and the combination was great - i served it on the side. eatingwell newsletter, summer/03. nutrition profile: low cal - low carb - low sodium - low cholesterol - low sat fat - heart healthy - diabetes appropriate - healthy weight.:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sandwich bread, ground turkey breast, sliced water chestnuts, hoisin sauce, scallions, fresh ginger

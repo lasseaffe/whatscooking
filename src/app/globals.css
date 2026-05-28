@@ -66,7 +66,7 @@
   /* ── Semantic surface tokens ──────────────────── */
   --bg-depth:               #090908;
   --bg-base:                #0d0d0c;
-  --bg-primary:             #121211;
+  --bg-primary:             color-mix(in srgb, var(--wc-pal-accent, #B07040) 4%, #0a0503);
   --bg-secondary:           #171716;
   --bg-tertiary:            #1f1f1e;
   --bg-quaternary:          #272726;
@@ -288,6 +288,30 @@
   --wc-radius-2xl:  24px;
   --wc-radius-card: 16px;
   --wc-radius-container: 24px;
+
+  /* ── Background overlay context (data-bg system) ── */
+  --wc-overlay-bg-hero:       1;      /* Discover, empty states — full pattern */
+  --wc-overlay-bg-functional: 0.10;   /* Recipe detail, All Recipes, Pantry */
+  --wc-overlay-bg-cook:       0.04;   /* Active Cooking Mode — near-invisible */
+
+  /* ── Recipe card grid metadata ── */
+  --wc-card-grid-meta-opacity: 1;     /* chips always visible in grid view */
+
+  /* ── Meal plan surface tokens ── */
+  --wc-plan-day-label:         #EFE3CE;
+  --wc-plan-day-label-sub:     #A08060;
+  --wc-plan-slot-empty-border: rgba(239, 227, 206, 0.18);
+  --wc-plan-slot-empty-bg:     rgba(239, 227, 206, 0.03);
+  --wc-plan-pinboard-flex:     1;
+
+  /* ── Recipe card tokens (dark mode defaults) ── */
+  --rc-title:   #EFE3CE;
+  --rc-meta:    #A08060;
+  --rc-sub:     #696967;
+  --rc-bg:      #1F1B19;
+  --rc-surface: #2C2724;
+  --rc-rim:     #3A3430;
+  --rc-accent:  #F4A261;
 }
 
 /* ── Solid card surface — replaces glass/translucent patterns ── */
@@ -618,6 +642,63 @@ html[data-palette="midnight-pantry"] {
 }
 
 /* ══════════════════════════════════════════════════
+   TACTILE ELEGANCE — light mode personality
+   Overrides Culinary Parchment with warm terracotta,
+   sun-bleached linen, and deep forest green.
+   Dark mode is unaffected.
+══════════════════════════════════════════════════ */
+html[data-theme="light"] {
+  /* Surfaces — linen & cream */
+  --wc-floor:            #F5EDD6;
+  --wc-surface-1:        #FDF6EC;
+  --wc-surface-2:        #FFF9F2;
+
+  /* Accents — terracotta replaces claret */
+  --wc-accent-primary:   #C4622D;
+  --wc-accent-saffron:   #C4622D;
+  --wc-accent-persimmon: #9B2D1F;
+  --wc-accent-forest:    #2D5016;
+
+  /* Recipe card tokens */
+  --rc-title:   #2C2C2C;
+  --rc-meta:    #5A4A3A;
+  --rc-sub:     #7A6555;
+  --rc-bg:      #FDF6EC;
+  --rc-surface: #FFF9F2;
+  --rc-rim:     rgba(44, 98, 45, 0.15);
+  --rc-accent:  #C4622D;
+
+  /* Primary interactive — terracotta */
+  --bg-accent:              #C4622D;
+  --bg-accent-translucent:  #C4622D29;
+  --fg-accent:              #C4622D;
+  --primary:                hsl(20 65% 47%);
+  --ring:                   #C4622D;
+
+  /* Updated surface backgrounds to linen */
+  --bg-base:     #F5EDD6;
+  --bg-primary:  #FDF6EC;
+  --bg-secondary:#FFF9F2;
+  --background:  #F5EDD6;
+  --card:        #FDF6EC;
+  --popover:     #FDF6EC;
+
+  /* Forest green for positive/ecological signals */
+  --fg-positive: #2D5016;
+  --bg-positive: #2D5016;
+
+  /* Background overlay lighter on linen */
+  --wc-overlay-bg-functional: 0.06;
+  --wc-overlay-bg-hero:       0.18;
+
+  /* Meal plan surface tokens — warm for light mode */
+  --wc-plan-day-label:         #2C2C2C;
+  --wc-plan-day-label-sub:     #7A6555;
+  --wc-plan-slot-empty-border: rgba(44, 98, 45, 0.2);
+  --wc-plan-slot-empty-bg:     rgba(44, 98, 45, 0.04);
+}
+
+/* ══════════════════════════════════════════════════
    BASE STYLES
 ══════════════════════════════════════════════════ */
 @layer base {
@@ -633,9 +714,7 @@ html[data-palette="midnight-pantry"] {
     font-family: var(--font-plus-jakarta-sans, 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif);
     line-height: 1.5;
     background-color: #2d2d2b;
-    background-image: url('/kitchen-pattern.png');
-    background-repeat: repeat;
-    background-size: 500px auto;
+    /* background-image moved to BackgroundDecorations component for opacity control */
     transition: background-color 0.25s ease;
   }
 
@@ -648,18 +727,6 @@ html[data-palette="midnight-pantry"] {
     transition: color 0.3s ease;
   }
 
-  /* Fine noise grain over everything — layer 10 */
-  body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 9999;
-    opacity: 0.028;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-    background-size: 256px 256px;
-    background-repeat: repeat;
-  }
 
   /* Smooth theme transitions across structural elements */
   main, nav, aside, header, section {
@@ -1296,9 +1363,8 @@ html[data-theme="light"] {
   color: #fff;
 }
 .rc-card__save {
-  background: rgba(20,12,6,0.72);
+  background: rgba(20,12,6,0.92);
   border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(6px);
   border-radius: 50%;
   transition: background 0.18s;
 }
@@ -1425,9 +1491,7 @@ html[data-theme="light"] {
   text-transform: uppercase;
   padding: 2px 6px;
   border-radius: 999px;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  background: rgba(0,0,0,0.52);
+  background: rgba(20,12,6,0.82);
   color: rgba(255,255,255,0.88);
   border: 1px solid rgba(255,255,255,0.12);
   white-space: nowrap;
@@ -1603,4 +1667,348 @@ html[data-theme="light"] {
 }
 body[data-nav-expanded="true"] .wc-main-content {
   margin-left: 320px;
+}
+
+/* ── Landing page keyframes ── */
+@keyframes kenBurns {
+  0%   { transform: scale(1.08) translate(0, 0); }
+  100% { transform: scale(1.14) translate(-2%, -1.5%); }
+}
+@keyframes scrollUp {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+@keyframes breatheScale {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.025); }
+}
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.4; }
+  50%       { opacity: 1; }
+}
+@keyframes peekRight {
+  0%, 60%, 100% { transform: translateX(0) rotate(0deg); }
+  75%            { transform: translateX(14px) rotate(4deg); opacity: 0.7; }
+  85%            { transform: translateX(0) rotate(0deg); }
+}
+@keyframes arrowHint {
+  0%, 60%     { opacity: 0; transform: translateX(-4px); }
+  75%          { opacity: 0.7; transform: translateX(0); }
+  90%, 100%   { opacity: 0; }
+}
+@keyframes zoomSettle {
+  0%   { transform: scale(2.5); filter: blur(4px); opacity: 0; }
+  40%  { transform: scale(1.02); filter: blur(0); opacity: 1; }
+  55%, 100% { transform: scale(1); filter: blur(0); opacity: 1; }
+}
+@keyframes ringDissipate {
+  0%   { transform: scale(2.5); opacity: 0.5; }
+  40%  { transform: scale(1); opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes tonightsEditionUnfold {
+  0%         { transform: scaleY(0.02); opacity: 0; }
+  60%        { transform: scaleY(1.02); opacity: 1; }
+  80%, 100%  { transform: scaleY(1); opacity: 1; }
+}
+@keyframes arrowBounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); }
+  50%       { transform: rotate(45deg) translateY(4px); }
+}
+@keyframes fadeInUp {
+  0%   { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Drinks Hub — culture card animations ── */
+@keyframes drift-ne {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(3%, -3%) scale(1.04); }
+}
+@keyframes drift-nw {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-3%, -4%) scale(1.05); }
+}
+@keyframes drift-sw {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-2%, 3%) scale(1.03); }
+}
+@keyframes drift-se {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(4%, 2%) scale(1.04); }
+}
+@keyframes breathe {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+.culture-card {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  background: #080604;
+}
+.culture-card:hover .culture-card__photo { transform: scale(1.07); }
+.culture-card__photo { transform: scale(1); }
+.culture-card__text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 28px;
+  z-index: 10;
+}
+.culture-card__text--wide {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.culture-card__left { flex: 1; }
+.culture-card__emoji { display: block; font-size: 28px; margin-bottom: 6px; }
+.culture-card__eyebrow {
+  font-family: 'Courier New', monospace;
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+.culture-card__name {
+  font-size: clamp(18px, 2.5vw, 26px);
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: #EFE3CE;
+  line-height: 1.1;
+  transition: letter-spacing 0.4s cubic-bezier(0.22,1,0.36,1);
+}
+.culture-card:hover .culture-card__name { letter-spacing: 0.12em; }
+.culture-card__desc {
+  font-size: 10px;
+  color: rgba(239,227,206,0.55);
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.culture-card__tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 10px; }
+.culture-card__tag {
+  font-family: 'Courier New', monospace;
+  font-size: 7px;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  opacity: 0.7;
+}
+
+/* ── Drinks Hub — page layout ── */
+.drinks-hub {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 28px 20px;
+  background: #080604;
+  display: flex;
+  flex-direction: column;
+}
+.drinks-hub__grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.6;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+.drinks-hub__hero {
+  padding: 36px 0 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.drinks-hub__eyebrow {
+  font-family: 'Courier New', monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  color: #4A3820;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.drinks-hub__title {
+  font-size: clamp(24px, 4vw, 42px);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: #EFE3CE;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+.drinks-hub__title em { font-style: italic; color: #C8A030; }
+.drinks-hub__sub { font-size: 11px; color: #5A4030; letter-spacing: 0.04em; }
+.drinks-hub__grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.6fr;
+  gap: 3px;
+  min-height: 0;
+}
+.culture-card--wide { grid-column: 1 / -1; }
+
+/* ── Culture landing page ── */
+.culture-page {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+.culture-hero {
+  position: relative;
+  min-height: 320px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.culture-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.3) 50%, transparent 80%);
+}
+.culture-hero__text { position: relative; z-index: 1; padding: 40px 28px; }
+.culture-hero__eyebrow {
+  font-family: 'Courier New', monospace;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.culture-hero__name {
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 300;
+  color: #EFE3CE;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+.culture-hero__desc { font-size: 13px; color: rgba(239,227,206,0.65); }
+.culture-active-filters { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 28px 0; }
+.culture-active-filter-pill {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  color: #EFE3CE;
+  cursor: pointer;
+}
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 20px 28px;
+}
+@media (min-width: 640px) { .culture-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px) { .culture-grid { grid-template-columns: repeat(4, 1fr); } }
+.culture-empty { text-align: center; padding: 60px 28px; color: rgba(239,227,206,0.5); }
+.culture-empty button { margin-top: 12px; text-decoration: underline; color: #EFE3CE; cursor: pointer; }
+
+/* ── Drink filter bar ── */
+.drink-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 28px;
+  overflow-x: auto;
+}
+.drink-filter-group { display: flex; flex-direction: column; gap: 6px; }
+.drink-filter-group__label {
+  font-family: 'Courier New', monospace;
+  font-size: 8px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(239,227,206,0.4);
+}
+.drink-filter-group__chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.drink-filter-chip {
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(239,227,206,0.15);
+  background: transparent;
+  color: rgba(239,227,206,0.6);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.drink-filter-chip:hover { border-color: var(--accent); color: var(--accent); }
+.drink-filter-chip--active {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  color: var(--accent);
+}
+
+/* ── Drink meta hint (card level) ── */
+.drink-meta-hint { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+.drink-meta-hint__tag {
+  font-family: 'Courier New', monospace;
+  font-size: 9px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.06);
+  color: rgba(239,227,206,0.6);
+  letter-spacing: 0.04em;
+}
+
+/* ── Drink pro panel (recipe detail) ── */
+.drink-pro-panel {
+  margin: 24px 0;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.drink-pro-panel__toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(239,227,206,0.7);
+}
+.drink-pro-panel__chevron { opacity: 0.5; font-size: 8px; }
+.drink-pro-panel__body {
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .drink-pro-panel__toggle { pointer-events: none; }
+  .drink-pro-panel__toggle .drink-pro-panel__chevron { display: none; }
+  .drink-pro-panel__body { display: flex !important; }
+}
+.drink-pro-row { display: flex; gap: 12px; align-items: baseline; }
+.drink-pro-row__label {
+  font-family: 'Courier New', monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(239,227,206,0.35);
+  min-width: 90px;
+}
+.drink-pro-row__value { font-size: 13px; color: rgba(239,227,206,0.8); }
+.drink-pro-notes {
+  font-size: 13px;
+  color: rgba(239,227,206,0.65);
+  line-height: 1.6;
+  font-style: italic;
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.06);
 }

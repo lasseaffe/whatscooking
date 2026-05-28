@@ -3,8 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import {
-  Heart, X, Clock, Flame, ExternalLink, Bookmark, BookmarkCheck,
+  Heart, X, Clock, Flame,
   ChevronDown, ChevronUp, Zap, Mountain,
+  ExternalLink, Bookmark, BookmarkCheck,
 } from "lucide-react";
 import type { SwipeRecipe } from "@/lib/hooks/use-swipe-session";
 import { FocalPointEditor } from "@/components/focal-point-editor";
@@ -19,20 +20,17 @@ export const DIFFICULTY_CONFIG = {
 // ── Recipe Card ────────────────────────────────────────────────
 
 export function RecipeCard({
-  recipe, likeOpacity, nopeOpacity, saved, onToggleSave, onInfo,
+  recipe, likeOpacity, nopeOpacity,
 }: {
   recipe: SwipeRecipe;
   likeOpacity: number;
   nopeOpacity: number;
-  saved: boolean;
-  onToggleSave: () => void;
-  onInfo: () => void;
 }) {
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
 
   return (
-    <div className="relative w-full h-full select-none" style={{ background: "#fff" }}>
+    <div className="relative w-full h-full select-none" style={{ background: "#1C1209" }}>
       <div className="absolute inset-0">
         <FocalPointEditor
           recipeId={recipe.id}
@@ -58,27 +56,6 @@ export function RecipeCard({
         <span className="text-2xl font-black tracking-widest" style={{ color: "#C85A2F" }}>NOPE</span>
       </div>
 
-      {/* Top-right action buttons */}
-      <div className="absolute top-4 right-4 flex flex-col gap-2">
-        <button
-          onPointerDown={(e) => e.stopPropagation()}
-          onClick={(e) => { e.stopPropagation(); onInfo(); }}
-          className="w-9 h-9 rounded-full flex items-center justify-center hover:opacity-80"
-          style={{ background: "rgba(0,0,0,0.35)" }}
-          aria-label="View details"
-        >
-          <ExternalLink className="w-4 h-4 text-white" />
-        </button>
-        <button
-          onPointerDown={(e) => e.stopPropagation()}
-          onClick={(e) => { e.stopPropagation(); onToggleSave(); }}
-          className="w-9 h-9 rounded-full flex items-center justify-center hover:opacity-80"
-          style={{ background: saved ? "rgba(44,74,140,0.8)" : "rgba(0,0,0,0.35)" }}
-          aria-label="Save"
-        >
-          {saved ? <BookmarkCheck className="w-4 h-4 text-white" /> : <Bookmark className="w-4 h-4 text-white" />}
-        </button>
-      </div>
 
       {/* Difficulty badge */}
       {diff && (
@@ -100,7 +77,7 @@ export function RecipeCard({
         <div className="flex items-center gap-2 mb-2 flex-wrap">
           {recipe.cuisine_type && (
             <span className="text-xs px-2.5 py-1 rounded-full font-semibold"
-              style={{ background: "rgba(255,255,255,0.2)", color: "#fff", backdropFilter: "blur(4px)" }}>
+              style={{ background: "rgba(20,12,6,0.82)", color: "rgba(255,255,255,0.88)", border: "1px solid rgba(255,255,255,0.12)" }}>
               {recipe.cuisine_type}
             </span>
           )}
@@ -152,30 +129,30 @@ export function RecipePreviewSheet({
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col" style={{ background: "rgba(0,0,0,0.6)" }} onClick={onClose}>
+    <div className="fixed inset-0 flex flex-col" style={{ zIndex: 9990, background: "rgba(0,0,0,0.75)" }} onClick={onClose}>
       <div className="mt-auto max-h-[92vh] overflow-y-auto rounded-t-3xl"
-        style={{ background: "#FFFBF7" }}
+        style={{ background: "#1C1209" }}
         onClick={(e) => e.stopPropagation()}>
 
         <div className="relative h-56 overflow-hidden rounded-t-3xl">
           {recipe.image_url ? (
             <img src={recipe.image_url} alt={recipe.title} className="w-full h-full object-cover" />
           ) : (
-            <div className="w-full h-full flex items-center justify-center text-5xl" style={{ background: "#FFF0E6" }}>🍽️</div>
+            <div className="w-full h-full flex items-center justify-center text-5xl" style={{ background: "#2A1804" }}>🍽️</div>
           )}
-          <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,8,2,0.85) 0%, transparent 60%)" }} />
-          <div className="absolute top-3 left-1/2 -translate-x-1/2 w-10 h-1 rounded-full opacity-60" style={{ background: "#fff" }} />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,8,2,0.92) 0%, transparent 60%)" }} />
+          <div className="absolute top-3 left-1/2 -translate-x-1/2 w-10 h-1 rounded-full opacity-40" style={{ background: "#8A6A4A" }} />
           <div className="absolute bottom-4 left-5 right-5">
             <div className="flex items-center gap-2 mb-2 flex-wrap">
               {recipe.cuisine_type && (
                 <span className="text-xs px-2 py-0.5 rounded-full font-semibold"
-                  style={{ background: "rgba(255,255,255,0.2)", color: "#fff", backdropFilter: "blur(4px)" }}>
+                  style={{ background: "rgba(20,12,6,0.82)", color: "rgba(255,255,255,0.88)", border: "1px solid rgba(255,255,255,0.12)" }}>
                   {recipe.cuisine_type}
                 </span>
               )}
               {diff && (
                 <span className="text-xs px-2 py-0.5 rounded-full font-bold"
-                  style={{ background: diff.bg, color: diff.color }}>
+                  style={{ background: "rgba(20,12,6,0.82)", color: diff.color, border: `1px solid ${diff.color}40` }}>
                   {diff.label}
                 </span>
               )}
@@ -187,42 +164,42 @@ export function RecipePreviewSheet({
         <div className="px-5 py-4">
           <div className="flex items-center gap-4 mb-4 flex-wrap">
             {totalTime > 0 && (
-              <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl" style={{ background: "#F5EDE4" }}>
+              <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl" style={{ background: "#2A1804" }}>
                 <Clock className="w-4 h-4" style={{ color: "#C85A2F" }} />
-                <span className="text-sm font-semibold" style={{ color: "#3D2817" }}>{totalTime} min</span>
+                <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{totalTime} min</span>
               </div>
             )}
             {recipe.calories && (
-              <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl" style={{ background: "#F5EDE4" }}>
+              <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl" style={{ background: "#2A1804" }}>
                 <Flame className="w-4 h-4" style={{ color: "#C85A2F" }} />
-                <span className="text-sm font-semibold" style={{ color: "#3D2817" }}>{recipe.calories} kcal</span>
+                <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>{recipe.calories} kcal</span>
               </div>
             )}
             {recipe.servings && (
-              <div className="flex items-center gap-1 px-3 py-2 rounded-xl" style={{ background: "#F5EDE4" }}>
-                <span className="text-sm font-semibold" style={{ color: "#3D2817" }}>Serves {recipe.servings}</span>
+              <div className="flex items-center gap-1 px-3 py-2 rounded-xl" style={{ background: "#2A1804" }}>
+                <span className="text-sm font-semibold" style={{ color: "#EFE3CE" }}>Serves {recipe.servings}</span>
               </div>
             )}
           </div>
 
           {recipe.description && (
-            <p className="text-sm leading-relaxed mb-4" style={{ color: "#6B5B52" }}>{recipe.description}</p>
+            <p className="text-sm leading-relaxed mb-4" style={{ color: "#A69180" }}>{recipe.description}</p>
           )}
 
           {(recipe.protein_g || recipe.carbs_g || recipe.fat_g) && (
             <div className="flex gap-2 mb-4 flex-wrap">
               {recipe.protein_g && (
-                <span className="text-xs px-2.5 py-1 rounded-full font-semibold" style={{ background: "#DBEAFE", color: "#1D4ED8" }}>
+                <span className="text-xs px-2.5 py-1 rounded-full font-semibold" style={{ background: "#1A2840", color: "#7B9FD4" }}>
                   Protein {Math.round(recipe.protein_g)}g
                 </span>
               )}
               {recipe.carbs_g && (
-                <span className="text-xs px-2.5 py-1 rounded-full font-semibold" style={{ background: "#FEF3C7", color: "#92400E" }}>
+                <span className="text-xs px-2.5 py-1 rounded-full font-semibold" style={{ background: "#2A2010", color: "#C8A040" }}>
                   Carbs {Math.round(recipe.carbs_g)}g
                 </span>
               )}
               {recipe.fat_g && (
-                <span className="text-xs px-2.5 py-1 rounded-full font-semibold" style={{ background: "#F3E8FF", color: "#7C3AED" }}>
+                <span className="text-xs px-2.5 py-1 rounded-full font-semibold" style={{ background: "#221830", color: "#A070D0" }}>
                   Fat {Math.round(recipe.fat_g)}g
                 </span>
               )}
@@ -233,7 +210,7 @@ export function RecipePreviewSheet({
             <div className="flex flex-wrap gap-1.5 mb-4">
               {(recipe.dietary_tags ?? []).map((tag) => (
                 <span key={tag} className="text-xs px-2.5 py-1 rounded-full"
-                  style={{ background: "#DCFCE7", color: "#16A34A" }}>
+                  style={{ background: "rgba(115,190,89,0.15)", color: "#73be59", border: "1px solid rgba(115,190,89,0.3)" }}>
                   {tag}
                 </span>
               ))}
@@ -241,22 +218,22 @@ export function RecipePreviewSheet({
           )}
 
           {(recipe.ingredients ?? []).length > 0 && (
-            <div className="mb-3 rounded-2xl overflow-hidden" style={{ border: "1.5px solid #F0E8DC" }}>
+            <div className="mb-3 rounded-2xl overflow-hidden" style={{ border: "1px solid #3A2416" }}>
               <button onClick={() => setShowIngredients((s) => !s)}
                 className="w-full flex items-center justify-between px-4 py-3"
-                style={{ background: "#FAF7F2" }}>
-                <span className="font-semibold text-sm" style={{ color: "#3D2817" }}>
+                style={{ background: "#2A1804" }}>
+                <span className="font-semibold text-sm" style={{ color: "#EFE3CE" }}>
                   Ingredients ({recipe.ingredients?.length ?? 0})
                 </span>
-                {showIngredients ? <ChevronUp className="w-4 h-4" style={{ color: "#A69180" }} /> : <ChevronDown className="w-4 h-4" style={{ color: "#A69180" }} />}
+                {showIngredients ? <ChevronUp className="w-4 h-4" style={{ color: "#8A6A4A" }} /> : <ChevronDown className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
               </button>
               {showIngredients && (
                 <div className="px-4 py-3 flex flex-col gap-1.5">
                   {(recipe.ingredients ?? []).map((ing, i) => (
-                    <div key={i} className="flex items-center justify-between text-sm">
-                      <span style={{ color: "#3D2817" }}>{ing.name}</span>
+                    <div key={i} className="flex items-center justify-between text-sm py-1" style={{ borderBottom: i < (recipe.ingredients?.length ?? 0) - 1 ? "1px solid #2A1804" : "none" }}>
+                      <span style={{ color: "#EFE3CE" }}>{ing.name}</span>
                       {(ing.amount || ing.unit) && (
-                        <span className="text-xs font-medium" style={{ color: "#A69180" }}>
+                        <span className="text-xs font-medium" style={{ color: "#8A6A4A" }}>
                           {ing.amount != null ? ing.amount : ""} {ing.unit ?? ""}
                         </span>
                       )}
@@ -268,22 +245,22 @@ export function RecipePreviewSheet({
           )}
 
           {(recipe.instructions ?? []).length > 0 && (
-            <div className="mb-5 rounded-2xl overflow-hidden" style={{ border: "1.5px solid #F0E8DC" }}>
+            <div className="mb-5 rounded-2xl overflow-hidden" style={{ border: "1px solid #3A2416" }}>
               <button onClick={() => setShowInstructions((s) => !s)}
                 className="w-full flex items-center justify-between px-4 py-3"
-                style={{ background: "#FAF7F2" }}>
-                <span className="font-semibold text-sm" style={{ color: "#3D2817" }}>
+                style={{ background: "#2A1804" }}>
+                <span className="font-semibold text-sm" style={{ color: "#EFE3CE" }}>
                   Instructions ({recipe.instructions?.length ?? 0} steps)
                 </span>
-                {showInstructions ? <ChevronUp className="w-4 h-4" style={{ color: "#A69180" }} /> : <ChevronDown className="w-4 h-4" style={{ color: "#A69180" }} />}
+                {showInstructions ? <ChevronUp className="w-4 h-4" style={{ color: "#8A6A4A" }} /> : <ChevronDown className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
               </button>
               {showInstructions && (
                 <div className="px-4 py-3 flex flex-col gap-3">
                   {(recipe.instructions ?? []).map((step, i) => (
                     <div key={i} className="flex gap-3">
                       <span className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5"
-                        style={{ background: "#FFF0E6", color: "#C85A2F" }}>{i + 1}</span>
-                      <p className="text-sm leading-relaxed flex-1" style={{ color: "#6B5B52" }}>{step}</p>
+                        style={{ background: "#3A2010", color: "#C85A2F" }}>{i + 1}</span>
+                      <p className="text-sm leading-relaxed flex-1" style={{ color: "#A69180" }}>{step}</p>
                     </div>
                   ))}
                 </div>
@@ -293,19 +270,19 @@ export function RecipePreviewSheet({
 
           <Link href={`/recipes/${recipe.id}`}
             className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold mb-4 hover:opacity-80"
-            style={{ background: "#EEF2FA", color: "#2C4A8C" }}>
+            style={{ background: "#1A2840", color: "#7B9FD4" }}>
             <ExternalLink className="w-4 h-4" /> Full Recipe Page
           </Link>
 
           <div className="flex gap-3">
             <button type="button" onClick={onSkip}
               className="flex-1 py-3.5 rounded-2xl font-semibold text-sm hover:opacity-80 flex items-center justify-center gap-2"
-              style={{ background: "#F5EDE4", color: "#6B5B52" }}>
+              style={{ background: "#2A1804", color: "#8A6A4A" }}>
               <X className="w-4 h-4" /> Skip
             </button>
             <button type="button" onClick={onToggleSave}
               className="flex items-center justify-center gap-1.5 px-4 py-3.5 rounded-2xl font-semibold text-sm hover:opacity-80"
-              style={{ background: saved ? "#EEF2FA" : "#F5EDE4", color: saved ? "#2C4A8C" : "#6B5B52" }}>
+              style={{ background: saved ? "#1A2840" : "#2A1804", color: saved ? "#7B9FD4" : "#8A6A4A" }}>
               {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
               {saved ? "Saved" : "Save"}
             </button>

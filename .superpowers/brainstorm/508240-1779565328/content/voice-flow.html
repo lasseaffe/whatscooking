@@ -1,0 +1,422 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Geist+Mono&display=swap');
+
+  body { background: #0d0d0c; margin: 0; }
+  h2, .subtitle, p { color: #EFE3CE; }
+
+  .flow-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 16px;
+  }
+
+  .phone {
+    width: 220px;
+    height: 420px;
+    background: #1F1B19;
+    border-radius: 28px;
+    border: 1.5px solid #3A3430;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .top-bar {
+    flex-shrink: 0;
+    background: rgba(20,17,16,0.95);
+    padding: 12px 14px 9px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(176,125,86,0.12);
+  }
+  .step-label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 9px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+    color: #B07D56; margin-bottom: 2px;
+  }
+  .recipe-name {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 11px; color: #EFE3CE; opacity: 0.45;
+  }
+  .progress-wrap { height: 2px; background: #2C2724; flex-shrink: 0; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg,#F4A261,#E85D20); }
+
+  .step-area {
+    flex: 1; position: relative;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    overflow: hidden;
+  }
+  .illus-bg {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    pointer-events: none;
+  }
+  .illus-bg svg { width: 150px; height: 150px; opacity: 0.35; }
+
+  .step-content {
+    position: relative; z-index: 2;
+    padding: 0 14px 12px;
+    background: linear-gradient(to top, #1F1B19 50%, rgba(31,27,25,0.65) 82%, transparent 100%);
+    min-height: 100%;
+    display: flex; flex-direction: column; justify-content: flex-end;
+  }
+  .heading-anchor { margin-top: auto; padding-top: 120px; }
+  .step-duration {
+    font-family: 'Geist Mono', monospace;
+    font-size: 10px; color: #F4A261; opacity: 0.8; margin-bottom: 6px;
+  }
+  .step-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 18px; font-weight: 700; line-height: 1.2;
+    color: #EFE3CE; margin-bottom: 8px;
+  }
+  .step-body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px; line-height: 1.7; color: #b0a090;
+  }
+
+  /* Voice response card */
+  .oracle-card {
+    margin-top: 10px;
+    border-radius: 10px; padding: 9px 11px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 11px; line-height: 1.55; font-weight: 500;
+    display: flex; gap: 7px; align-items: flex-start;
+  }
+  .oracle-card.listening {
+    background: rgba(244,162,97,0.08);
+    border: 1px solid rgba(244,162,97,0.25);
+    color: #F4A261;
+  }
+  .oracle-card.responding {
+    background: rgba(176,125,86,0.12);
+    border: 1px solid rgba(176,125,86,0.25);
+    color: #d4aa80;
+  }
+  .oracle-card.error {
+    background: rgba(232,93,32,0.08);
+    border: 1px solid rgba(232,93,32,0.2);
+    color: #E85D20;
+  }
+  .oracle-icon { flex-shrink: 0; font-size: 13px; margin-top: 1px; }
+
+  /* Waveform animation */
+  .waveform {
+    display: flex; align-items: center; gap: 3px; height: 16px;
+  }
+  .bar {
+    width: 3px; background: #F4A261; border-radius: 2px;
+    animation: wave 0.8s ease-in-out infinite;
+  }
+  .bar:nth-child(1) { height: 6px; animation-delay: 0s; }
+  .bar:nth-child(2) { height: 12px; animation-delay: 0.1s; }
+  .bar:nth-child(3) { height: 16px; animation-delay: 0.2s; }
+  .bar:nth-child(4) { height: 10px; animation-delay: 0.3s; }
+  .bar:nth-child(5) { height: 14px; animation-delay: 0.15s; }
+  .bar:nth-child(6) { height: 8px; animation-delay: 0.25s; }
+  @keyframes wave {
+    0%, 100% { transform: scaleY(0.5); opacity: 0.6; }
+    50% { transform: scaleY(1); opacity: 1; }
+  }
+
+  /* Voice pill in top bar */
+  .voice-pill {
+    display: flex; align-items: center; gap: 5px;
+    background: rgba(244,162,97,0.1);
+    border: 1px solid rgba(244,162,97,0.25);
+    border-radius: 20px; padding: 3px 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 9px; font-weight: 600; letter-spacing: 0.08em;
+    color: #F4A261;
+  }
+  .voice-dot {
+    width: 5px; height: 5px; border-radius: 50%; background: #F4A261;
+    animation: pulse 1.2s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.7)} }
+
+  .exit-btn {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: rgba(176,125,86,0.12);
+    display: flex; align-items: center; justify-content: center;
+    color: #B07D56; font-size: 12px;
+  }
+
+  .bottom-bar {
+    flex-shrink: 0;
+    background: rgba(20,17,16,0.95);
+    border-top: 1px solid rgba(176,125,86,0.12);
+    padding: 9px 14px 13px;
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  }
+  .nav-btn {
+    height: 36px; padding: 0 14px;
+    border-radius: 9px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px; font-weight: 600;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .btn-prev { background: rgba(176,125,86,0.12); color: #B07D56; }
+  .btn-next { background: #F4A261; color: #1a0f08; flex:1; justify-content:center; }
+  .voice-btn {
+    width: 36px; height: 36px; border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .voice-btn.idle { background: rgba(176,125,86,0.12); }
+  .voice-btn.active { background: rgba(244,162,97,0.2); animation: mic-pulse 1.5s ease-in-out infinite; }
+  @keyframes mic-pulse { 0%,100%{box-shadow:0 0 0 0 rgba(244,162,97,0.3)} 50%{box-shadow:0 0 0 8px rgba(244,162,97,0)} }
+
+  /* Step-advance toast */
+  .step-toast {
+    position: absolute; top: 60px; left: 50%; transform: translateX(-50%);
+    background: rgba(244,162,97,0.15);
+    border: 1px solid rgba(244,162,97,0.3);
+    border-radius: 20px; padding: 5px 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px; font-weight: 600; color: #F4A261;
+    white-space: nowrap; z-index: 20;
+  }
+
+  .flow-label {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #B07D56; opacity: 0.7; margin-top: 8px;
+  }
+  .flow-sublabel {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px; color: #EFE3CE; opacity: 0.35; margin-top: 3px;
+    font-style: italic;
+  }
+
+  /* shared spice SVG shorthand */
+</style>
+
+<h2>Kitchen Oracle — Voice Flow States</h2>
+<p class="subtitle">Five states the voice oracle moves through during a cooking session. Voice is a mode of Kitchen Oracle — same AI, new interface.</p>
+
+<div class="flow-grid">
+
+  <!-- 1. IDLE — mic off -->
+  <div>
+    <div class="phone">
+      <div class="top-bar">
+        <div><div class="step-label">Step 3 of 5</div><div class="recipe-name">Shakshuka</div></div>
+        <div class="exit-btn">✕</div>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" style="width:60%"></div></div>
+      <div class="step-area">
+        <div class="illus-bg">
+          <svg viewBox="0 0 90 90" fill="none">
+            <ellipse cx="45" cy="60" rx="24" ry="8" fill="#2d2926" opacity="0.8"/>
+            <path d="M21 52 Q21 68 45 68 Q69 68 69 52 Z" fill="#2d2926" opacity="0.7"/>
+            <ellipse cx="36" cy="51" rx="8" ry="4" fill="#C8522A" opacity="0.8"/>
+            <ellipse cx="50" cy="50" rx="7" ry="3.5" fill="#D4A843" opacity="0.7"/>
+            <circle cx="38" cy="42" r="1.2" fill="#C8522A" opacity="0.4"/>
+            <circle cx="46" cy="38" r="1" fill="#D4A843" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="step-content">
+          <div class="heading-anchor">
+            <div class="step-duration">~ 1 min</div>
+            <div class="step-heading">Bloom the spices</div>
+            <div class="step-body">Stir cumin, paprika and coriander into the pan for 60 seconds until fragrant.</div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="nav-btn btn-prev">← Back</div>
+        <div class="voice-btn idle">🎙</div>
+        <div class="nav-btn btn-next">Next →</div>
+      </div>
+    </div>
+    <div class="flow-label">1 — Idle</div>
+    <div class="flow-sublabel">Mic off, tap to activate</div>
+  </div>
+
+  <!-- 2. LISTENING -->
+  <div>
+    <div class="phone">
+      <div class="top-bar">
+        <div><div class="step-label">Step 3 of 5</div><div class="recipe-name">Shakshuka</div></div>
+        <div class="voice-pill"><div class="voice-dot"></div>Listening</div>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" style="width:60%"></div></div>
+      <div class="step-area">
+        <div class="illus-bg">
+          <svg viewBox="0 0 90 90" fill="none">
+            <ellipse cx="45" cy="60" rx="24" ry="8" fill="#2d2926" opacity="0.8"/>
+            <path d="M21 52 Q21 68 45 68 Q69 68 69 52 Z" fill="#2d2926" opacity="0.7"/>
+            <ellipse cx="36" cy="51" rx="8" ry="4" fill="#C8522A" opacity="0.8"/>
+            <ellipse cx="50" cy="50" rx="7" ry="3.5" fill="#D4A843" opacity="0.7"/>
+            <circle cx="38" cy="42" r="1.2" fill="#C8522A" opacity="0.4"/>
+            <circle cx="46" cy="38" r="1" fill="#D4A843" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="step-content">
+          <div class="heading-anchor">
+            <div class="step-duration">~ 1 min</div>
+            <div class="step-heading">Bloom the spices</div>
+            <div class="step-body">Stir cumin, paprika and coriander into the pan for 60 seconds until fragrant.</div>
+            <div class="oracle-card listening">
+              <div>
+                <div style="margin-bottom:6px;opacity:0.7;font-size:10px">Say a command…</div>
+                <div class="waveform">
+                  <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                  <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="nav-btn btn-prev">← Back</div>
+        <div class="voice-btn active">🎙</div>
+        <div class="nav-btn btn-next">Next →</div>
+      </div>
+    </div>
+    <div class="flow-label">2 — Listening</div>
+    <div class="flow-sublabel">"How much cumin?"</div>
+  </div>
+
+  <!-- 3. ORACLE RESPONDING -->
+  <div>
+    <div class="phone">
+      <div class="top-bar">
+        <div><div class="step-label">Step 3 of 5</div><div class="recipe-name">Shakshuka</div></div>
+        <div class="voice-pill" style="border-color:rgba(176,125,86,0.3);background:rgba(176,125,86,0.1);color:#d4aa80">
+          <div class="voice-dot" style="background:#d4aa80;animation:none;opacity:0.6"></div>Speaking
+        </div>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" style="width:60%"></div></div>
+      <div class="step-area">
+        <div class="illus-bg">
+          <svg viewBox="0 0 90 90" fill="none">
+            <ellipse cx="45" cy="60" rx="24" ry="8" fill="#2d2926" opacity="0.8"/>
+            <path d="M21 52 Q21 68 45 68 Q69 68 69 52 Z" fill="#2d2926" opacity="0.7"/>
+            <ellipse cx="36" cy="51" rx="8" ry="4" fill="#C8522A" opacity="0.8"/>
+            <ellipse cx="50" cy="50" rx="7" ry="3.5" fill="#D4A843" opacity="0.7"/>
+            <circle cx="38" cy="42" r="1.2" fill="#C8522A" opacity="0.4"/>
+            <circle cx="46" cy="38" r="1" fill="#D4A843" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="step-content">
+          <div class="heading-anchor">
+            <div class="step-duration">~ 1 min</div>
+            <div class="step-heading">Bloom the spices</div>
+            <div class="step-body">Stir cumin, paprika and coriander into the pan for 60 seconds until fragrant.</div>
+            <div class="oracle-card responding">
+              <span class="oracle-icon">✦</span>
+              <span><b>½ tsp cumin</b> for 2 servings. Scaled to your 4 servings that's <b>1 tsp.</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="nav-btn btn-prev">← Back</div>
+        <div class="voice-btn idle">🎙</div>
+        <div class="nav-btn btn-next">Next →</div>
+      </div>
+    </div>
+    <div class="flow-label">3 — Oracle Responds</div>
+    <div class="flow-sublabel">TTS reads answer aloud</div>
+  </div>
+
+  <!-- 4. NAVIGATION COMMAND -->
+  <div>
+    <div class="phone">
+      <div class="top-bar">
+        <div><div class="step-label">Step 4 of 5</div><div class="recipe-name">Shakshuka</div></div>
+        <div class="voice-pill"><div class="voice-dot"></div>Listening</div>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" style="width:80%"></div></div>
+      <div class="step-area">
+        <div class="step-toast">▶ Moving to step 4…</div>
+        <div class="illus-bg">
+          <svg viewBox="0 0 90 80" fill="none">
+            <rect x="9" y="34" width="72" height="28" rx="8" fill="#c8c0b8"/>
+            <rect x="13" y="38" width="64" height="20" rx="6" fill="#b0a898"/>
+            <ellipse cx="45" cy="47" rx="26" ry="9" fill="#B83232"/>
+            <ellipse cx="32" cy="46" rx="9" ry="7" fill="#EFE3CE" opacity="0.95"/>
+            <ellipse cx="32" cy="46" rx="4" ry="3.5" fill="#F4A261"/>
+            <ellipse cx="58" cy="46" rx="9" ry="7" fill="#EFE3CE" opacity="0.95"/>
+            <ellipse cx="58" cy="46" rx="4" ry="3.5" fill="#F4A261"/>
+            <rect x="81" y="43" width="14" height="6" rx="3" fill="#888"/>
+            <circle cx="38" cy="44" r="2" fill="#4a7a2a"/>
+            <circle cx="52" cy="48" r="1.5" fill="#4a7a2a"/>
+          </svg>
+        </div>
+        <div class="step-content">
+          <div class="heading-anchor">
+            <div class="step-duration">~ 4 min</div>
+            <div class="step-heading">Nestle the eggs into the sauce</div>
+            <div class="step-body">Make small wells and crack an egg into each. Cover and cook until whites are set.</div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="nav-btn btn-prev">← Back</div>
+        <div class="voice-btn active">🎙</div>
+        <div class="nav-btn btn-next">Next →</div>
+      </div>
+    </div>
+    <div class="flow-label">4 — Nav Command</div>
+    <div class="flow-sublabel">"Next" → advances step</div>
+  </div>
+
+  <!-- 5. RECOVERY — too much added -->
+  <div>
+    <div class="phone">
+      <div class="top-bar">
+        <div><div class="step-label">Step 3 of 5</div><div class="recipe-name">Shakshuka</div></div>
+        <div class="voice-pill" style="border-color:rgba(176,125,86,0.3);background:rgba(176,125,86,0.1);color:#d4aa80">
+          <div class="voice-dot" style="background:#d4aa80;animation:none;opacity:0.6"></div>Speaking
+        </div>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" style="width:60%"></div></div>
+      <div class="step-area">
+        <div class="illus-bg">
+          <svg viewBox="0 0 90 90" fill="none">
+            <ellipse cx="45" cy="60" rx="24" ry="8" fill="#2d2926" opacity="0.8"/>
+            <path d="M21 52 Q21 68 45 68 Q69 68 69 52 Z" fill="#2d2926" opacity="0.7"/>
+            <ellipse cx="36" cy="51" rx="8" ry="4" fill="#C8522A" opacity="0.8"/>
+            <ellipse cx="50" cy="50" rx="7" ry="3.5" fill="#D4A843" opacity="0.7"/>
+            <circle cx="38" cy="42" r="1.2" fill="#C8522A" opacity="0.4"/>
+            <circle cx="46" cy="38" r="1" fill="#D4A843" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="step-content">
+          <div class="heading-anchor">
+            <div class="step-duration">~ 1 min</div>
+            <div class="step-heading">Bloom the spices</div>
+            <div class="step-body">Stir cumin, paprika and coriander into the pan for 60 seconds until fragrant.</div>
+            <div class="oracle-card responding" style="border-color:rgba(232,93,32,0.25);background:rgba(232,93,32,0.08);color:#e8a080">
+              <span class="oracle-icon">⚑</span>
+              <span>Too much cumin? <b>Add a squeeze of lemon</b> and a pinch of sugar to balance. Increase tomatoes if the sauce looks dry.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="nav-btn btn-prev">← Back</div>
+        <div class="voice-btn idle">🎙</div>
+        <div class="nav-btn btn-next">Next →</div>
+      </div>
+    </div>
+    <div class="flow-label">5 — Recovery</div>
+    <div class="flow-sublabel">"I added too much cumin"</div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:16px">
+  Voice commands recognized: <b>next / go back / repeat that / read the step / start timer / how much [ingredient] / what does [term] mean / I added too much [X]</b><br><br>
+  All complex queries (recovery, substitutions) route through Kitchen Oracle. Navigation + quantity commands are handled locally — no API call needed.
+</p>

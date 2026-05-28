@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbonara v8</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500&family=IM+Fell+English:ital@0;1&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0e0906;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    font-family: Inter, sans-serif;
+  }
+
+  .poster {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 2/3;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+    background: #130c07;
+  }
+  .poster:hover    { border-color: rgba(139,37,19,0.4); }
+  .poster.selected { border-color: rgba(139,37,19,0.75); }
+
+  /* ── ABSTRACT LAYER ── */
+  .abstract {
+    position: absolute; inset: 0;
+    z-index: 2; pointer-events: none;
+  }
+
+  /* ── FOOD PHOTO — circular crop ── */
+  .photo-wrap {
+    position: absolute;
+    top: 7%; left: 50%;
+    transform: translateX(-50%);
+    width: 62%;
+    aspect-ratio: 1;
+    z-index: 4;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:
+      0 0 0 2px rgba(200,168,110,0.3),
+      0 0 0 10px #130c07,
+      0 12px 40px rgba(0,0,0,0.6);
+  }
+
+  /* ── KEN BURNS — slow zoom + drift ── */
+  @keyframes kenBurns {
+    0%   { transform: scale(1.0)   translate(0px,  0px);  }
+    30%  { transform: scale(1.06)  translate(-8px, -4px); }
+    65%  { transform: scale(1.10)  translate(-4px,  6px); }
+    100% { transform: scale(1.0)   translate(0px,  0px);  }
+  }
+  .photo-wrap img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+    filter: contrast(1.1) saturate(0.95);
+    animation: kenBurns 18s ease-in-out infinite;
+    transform-origin: center center;
+  }
+  .photo-fallback {
+    width: 100%; height: 100%;
+    background: radial-gradient(#2a1008, #130c07);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 80px;
+  }
+
+  /* ── CONTENT ── */
+  .content {
+    position: absolute;
+    inset: 0; z-index: 6;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 32px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: auto;
+  }
+  .provenance {
+    font-size: 8px; letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(200,168,110,0.45);
+    line-height: 1.9;
+  }
+  .no {
+    font-family: 'IM Fell English', serif;
+    font-size: 11px;
+    color: rgba(139,37,19,0.6);
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+
+  .bottom { margin-top: auto; padding-top: 10px; }
+
+  .ghost-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 0.8;
+    color: rgba(139,37,19,0.055);
+    letter-spacing: -8px;
+    margin-bottom: -52px;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  @keyframes shimmer {
+    0%   { background-position: 140% 0, 0 0; }
+    50%  { background-position: -40% 0, 0 0; }
+    100% { background-position: 140% 0, 0 0; }
+  }
+
+  .recipe-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(44px, 9.5vw, 66px);
+    font-weight: 900;
+    line-height: 0.88;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+
+    /* travertine stone texture — banding like actual Roman limestone */
+    background-image:
+      linear-gradient(
+        108deg,
+        transparent 0%,
+        transparent 42%,
+        rgba(255,245,210,0.22) 48%,
+        rgba(255,255,240,0.12) 51%,
+        transparent 57%,
+        transparent 100%
+      ),
+      repeating-linear-gradient(
+        -14deg,
+        #E8D8B8 0px,
+        #D4C29E 2px,
+        #EBD9BB 5px,
+        #CCB890 8px,
+        #E2D0AE 13px,
+        #DECCAA 16px,
+        #E8D8B8 20px
+      );
+    background-size: 320% 100%, 100% 100%;
+    background-position: 140% 0, 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* shadow still renders on the text shape even with transparent fill */
+    text-shadow:
+      0 2px 12px rgba(0,0,0,0.9),
+      0 4px 28px rgba(0,0,0,0.7),
+      0 0 60px rgba(139,37,19,0.22);
+
+    animation: shimmer 6s ease-in-out infinite;
+  }
+  .recipe-name .origin-tag {
+    display: block;
+    font-family: 'IM Fell English', serif;
+    font-size: 0.27em;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 3px;
+    color: rgba(200,168,110,0.38);
+    margin-top: 9px;
+  }
+
+  /* ── DESCRIPTION — the soul in prose ── */
+  .description {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 15.5px;
+    color: rgba(200,168,110,0.58);
+    line-height: 1.72;
+    margin-top: 12px;
+    margin-bottom: 0;
+    max-width: 340px;
+    /* gentle fade at the right edge so it doesn't crowd the tesserae */
+    -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
+    mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  }
+
+  .rule {
+    width: 36px; height: 1px;
+    background: rgba(139,37,19,0.65);
+    margin: 14px 0;
+  }
+
+  .inscription {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 10.5px;
+    color: rgba(200,168,110,0.35);
+    letter-spacing: 1px;
+    line-height: 1.9;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .ingr-list {
+    list-style: none;
+    display: flex; flex-direction: column; gap: 4px;
+    margin-bottom: 12px;
+  }
+  .ingr-list li {
+    font-size: 8px; letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(200,168,110,0.36);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .ingr-list li::before {
+    content: '';
+    width: 5px; height: 5px;
+    background: rgba(139,37,19,0.5);
+    transform: rotate(45deg);
+    flex-shrink: 0;
+  }
+
+  .meta-row { display: flex; gap: 20px; margin-bottom: 12px; }
+  .meta-item {
+    font-size: 9px; letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(200,168,110,0.26);
+  }
+  .meta-item span { color: rgba(200,168,110,0.52); }
+
+  .citation-block { border-top: 1px solid rgba(139,37,19,0.18); padding-top: 9px; }
+  .citation-ref   { font-size: 8px; letter-spacing: 3px; text-transform: uppercase; color: rgba(139,37,19,0.38); margin-bottom: 4px; }
+  .citation-text  {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 10.5px;
+    color: rgba(200,168,110,0.42);
+    line-height: 1.65;
+  }
+  .citation-source {
+    margin-top: 4px;
+    font-size: 8px; letter-spacing: 1.5px;
+    color: rgba(139,37,19,0.28);
+    text-transform: uppercase;
+  }
+
+  /* ── HOVER TRANSLATIONS ── */
+  .it {
+    position: relative;
+    border-bottom: 1px dotted rgba(200,168,110,0.32);
+    cursor: help;
+  }
+  .it::after {
+    content: attr(data-en);
+    position: absolute;
+    bottom: calc(100% + 5px); left: 50%;
+    transform: translateX(-50%);
+    background: rgba(10,6,3,0.97);
+    border: 1px solid rgba(139,37,19,0.4);
+    color: rgba(200,168,110,0.92);
+    padding: 4px 9px;
+    font-size: 9.5px; letter-spacing: 1.5px;
+    white-space: nowrap;
+    border-radius: 2px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    text-transform: none;
+    z-index: 20; pointer-events: none;
+    opacity: 0; transition: opacity 0.15s;
+  }
+  .it:hover::after { opacity: 1; }
+</style>
+<script>
+  function sel(el) {
+    el.classList.toggle('selected');
+    try { fetch('/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'click',choice:'carbonara-v6',timestamp:Date.now()})}); } catch(e){}
+  }
+</script>
+</head>
+<body>
+
+<div style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#2a1208;margin-bottom:12px">
+  Carbonara · v6 · Ken Burns + description · hover Italian
+</div>
+
+<div class="poster" onclick="sel(this)">
+
+  <!-- ABSTRACT GEOMETRY -->
+  <svg class="abstract" viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <circle cx="78%" cy="-5%" r="52%" fill="#8B2513" opacity="0.82"/>
+    <circle cx="20%" cy="8%"  r="30%" fill="#3D5A6A" opacity="0.18"/>
+    <!-- tesserae -->
+    <rect x="8%"  y="42%" width="6" height="6" fill="#C8A040" opacity="0.50" transform="rotate(18,  40,315)"/>
+    <rect x="14%" y="55%" width="4" height="4" fill="#8B2513" opacity="0.45" transform="rotate(-8,  70,412)"/>
+    <rect x="82%" y="48%" width="5" height="5" fill="#C8A040" opacity="0.40" transform="rotate(31, 410,360)"/>
+    <rect x="88%" y="60%" width="3" height="3" fill="#3D5A6A" opacity="0.40" transform="rotate(12, 440,450)"/>
+    <rect x="75%" y="72%" width="4" height="4" fill="#C8A040" opacity="0.35" transform="rotate(-22,375,540)"/>
+    <rect x="5%"  y="68%" width="5" height="5" fill="#8B2513" opacity="0.30" transform="rotate(45,  25,510)"/>
+    <rect x="92%" y="78%" width="4" height="4" fill="#C8A040" opacity="0.40" transform="rotate(8,  460,585)"/>
+    <rect x="3%"  y="82%" width="3" height="3" fill="#3D5A6A" opacity="0.35" transform="rotate(-15, 15,615)"/>
+    <rect x="60%" y="40%" width="3" height="3" fill="#8B2513" opacity="0.30" transform="rotate(20, 300,300)"/>
+    <rect x="22%" y="72%" width="5" height="5" fill="#C8A040" opacity="0.28" transform="rotate(-30,110,540)"/>
+    <!-- fresco cracks -->
+    <line x1="72%" y1="0"   x2="68%" y2="35%"  stroke="rgba(200,168,110,0.07)" stroke-width="0.8"/>
+    <line x1="80%" y1="5%"  x2="85%" y2="28%"  stroke="rgba(200,168,110,0.05)" stroke-width="0.6"/>
+    <line x1="15%" y1="55%" x2="12%" y2="72%"  stroke="rgba(200,168,110,0.05)" stroke-width="0.6"/>
+    <!-- travertine strata -->
+    <line x1="0" y1="52%"   x2="100%" y2="52%"   stroke="rgba(200,168,110,0.07)" stroke-width="1"/>
+    <line x1="0" y1="52.5%" x2="100%" y2="52.5%" stroke="rgba(200,168,110,0.03)" stroke-width="0.5"/>
+  </svg>
+
+  <!-- FOOD PHOTO with Ken Burns -->
+  <div class="photo-wrap">
+    <img
+      src="https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=500&q=80"
+      alt="Carbonara"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="photo-fallback" style="display:none">🍝</div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <div class="top">
+      <div class="provenance">Roma · Lazio<br>Repubblica Italiana</div>
+      <div class="no">No. I</div>
+    </div>
+
+    <div class="bottom">
+      <div class="ghost-letter">C</div>
+
+      <div class="recipe-name">
+        CARBO<br>NARA
+        <span class="origin-tag"><span class="it" data-en="Roman-style pasta">Pasta alla Romana</span></span>
+      </div>
+
+      <!-- DESCRIPTION -->
+      <p class="description">
+        The Roman worker's pasta. Four ingredients, no shortcuts.
+        What separates it from everything else isn't the guanciale or
+        the Pecorino — it's knowing when to pull the pan off the heat.
+      </p>
+
+      <div class="rule"></div>
+
+      <div class="inscription">
+        <span class="it" data-en="Pork cheek · Sheep's cheese · Yolks · Pepper">Guanciale · Pecorino · Uova · Pepe</span><br>
+        <span class="it" data-en="Four ingredients. No excuses.">Quattro ingredienti. Nessuna scusa.</span>
+      </div>
+
+      <ul class="ingr-list">
+        <li><span class="it" data-en="Aged pork cheek · 200g">Guanciale stagionato · 200g</span></li>
+        <li><span class="it" data-en="Pecorino Romano DOP · 80g">Pecorino Romano DOP · 80g</span></li>
+        <li><span class="it" data-en="Egg yolks · 4">Tuorli d'uovo · 4</span></li>
+        <li>Spaghetti · 400g</li>
+        <li><span class="it" data-en="Freshly ground black pepper">Pepe nero macinato</span></li>
+      </ul>
+
+      <div class="meta-row">
+        <div class="meta-item"><span class="it" data-en="Time">Tempo</span> <span>25 min</span></div>
+        <div class="meta-item"><span class="it" data-en="Servings">Porzioni</span> <span>4</span></div>
+        <div class="meta-item"><span class="it" data-en="Difficulty">Difficoltà</span> <span><span class="it" data-en="Technical">Tecnica</span></span></div>
+      </div>
+
+      <div class="citation-block">
+        <div class="citation-ref">† Cultural Note</div>
+        <div class="citation-text">
+          "Italians do not use cream in cooking. Not in pasta,
+          not in sauces, not ever. Adding cream to carbonara
+          doesn't make it Italian — it makes it something else."
+        </div>
+        <div class="citation-source">— <span class="it" data-en="Unwritten law, respected everywhere · Est. before memory">Legge non scritta · Est. ante memoriam</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#2a1208;margin-top:12px;text-align:center">
+  Photo zooms slowly · Hover Italian text · Click to approve
+</div>
+
+</body>
+</html>

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What's Cooking — Design Preview</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #090908;
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── NAV ── */
+.nav {
+  background: #121211;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  padding: 0 24px;
+  display: flex;
+  align-items: stretch;
+  height: 50px;
+  flex-shrink: 0;
+  gap: 0;
+}
+.nav-logo {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #EFE3CE;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  white-space: nowrap;
+  gap: 6px;
+}
+.nav-logo span { color: #F4A261; }
+.nav-tabs { display: flex; align-items: stretch; gap: 2px; flex: 1; }
+.tab {
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 16px; cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-size: 12px; color: #696967;
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+.tab:hover { color: #9c9c9b; }
+.tab.active { color: #EFE3CE; border-bottom-color: #F4A261; }
+.tab-num {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  font-size: 9px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  color: #696967; flex-shrink: 0;
+}
+.tab.active .tab-num { background: rgba(244,162,97,0.2); color: #F4A261; }
+.tab-sub { display: block; font-size: 9px; color: #696967; margin-top: 1px; }
+.tab.active .tab-sub { color: #A08060; }
+.nav-right {
+  display: flex; align-items: center; gap: 8px;
+  margin-left: 12px; font-size: 10px; color: #696967;
+}
+.dot-live { width: 6px; height: 6px; border-radius: 50%; background: #6fca3e; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+/* ── SCREEN CONTAINER ── */
+.screen-wrap {
+  flex: 1;
+  overflow-y: auto;
+  display: none;
+  padding: 32px;
+}
+.screen-wrap.active { display: block; }
+
+/* ── STATUS BAR ── */
+.statusbar {
+  background: #0d0d0c;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 6px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-shrink: 0;
+}
+.statusbar-l { font-size: 10px; color: #696967; display: flex; align-items: center; gap: 10px; }
+.statusbar-r { font-size: 10px; color: #3a3a38; }
+.kbd {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px; padding: 1px 5px;
+  font-size: 9px; color: #9c9c9b; font-family: monospace;
+}
+.cur-name { color: #F4A261; font-weight: 600; }
+
+/* ══════════════════════════════════
+   SHARED DESIGN TOKENS
+══════════════════════════════════ */
+h1 { font-family: Georgia, serif; font-size: 22px; color: #EFE3CE; margin-bottom: 6px; font-weight: 400; }
+.subtitle { font-size: 13px; color: #9c9c9b; margin-bottom: 28px; line-height: 1.5; }
+.subtitle strong { color: #F4A261; }
+.badge { padding: 3px 8px; border-radius: 99px; font-size: 9px; font-weight: 600; }
+.badge-current { background: rgba(225,36,41,0.2); color: #f87171; }
+.badge-proposed { background: rgba(51,133,0,0.2); color: #6fca3e; }
+.badge-good { background: rgba(51,133,0,0.25); color: #6fca3e; }
+.badge-new { background: rgba(196,98,45,0.25); color: #E0905A; }
+.badge-status { background: rgba(255,255,255,0.08); color: #9c9c9b; }
+.annotation {
+  margin-top: 10px; font-size: 11px; line-height: 1.5; color: #696967;
+  background: rgba(255,255,255,0.03);
+  border-left: 2px solid rgba(244,162,97,0.3);
+  padding: 6px 8px; border-radius: 0 6px 6px 0;
+}
+.annotation strong { color: #F4A261; display: block; margin-bottom: 2px; }
+.info-box {
+  margin-top: 20px; padding: 14px 16px;
+  background: rgba(244,162,97,0.07);
+  border: 1px solid rgba(244,162,97,0.2);
+  border-radius: 10px; font-size: 12px; color: #EFE3CE; line-height: 1.6;
+}
+.info-box strong { color: #F4A261; }
+
+/* ══════════════════════════════════
+   SCREEN 1 — Background Opacity
+══════════════════════════════════ */
+.s1-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.col-lbl { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #696967; margin-bottom: 10px; }
+
+.sim-screen {
+  position: relative; border-radius: 12px; overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.pattern-layer {
+  position: absolute; inset: 0;
+  background-image: url('./kitchen-pattern.png');
+  background-size: 700px auto; background-repeat: repeat;
+  pointer-events: none;
+}
+.sim-content { position: relative; z-index: 2; display: flex; flex-direction: column; }
+.pair-label { font-size: 9px; margin-bottom: 5px; }
+.pair-label.bad { color: #f87171; }
+.pair-label.good { color: #6fca3e; }
+.op-badge {
+  position: absolute; top: 8px; right: 8px; z-index: 10;
+  font-size: 9px; font-weight: 700; padding: 3px 8px; border-radius: 99px;
+}
+.op-bad { background: rgba(225,36,41,0.85); color: #fff; }
+.op-good { background: rgba(51,133,0,0.85); color: #fff; }
+.pair-divider {
+  display: flex; align-items: center; gap: 8px; margin: 8px 0;
+  font-size: 9px; color: #696967; text-transform: uppercase; letter-spacing: 0.08em;
+}
+.pair-divider::before, .pair-divider::after { content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.06); }
+
+/* discover card sim */
+.dc-hero { padding: 10px; background: linear-gradient(to bottom, #121211, #1F1B19); }
+.dc-title { font-family: Georgia,serif; font-size: 14px; color: #EFE3CE; margin-bottom: 4px; }
+.dc-meta { font-size: 8px; color: #A08060; }
+.dc-tags { display: flex; gap: 4px; margin-bottom: 6px; }
+.dc-tag { font-size: 7px; padding: 1px 5px; border-radius: 99px; background: rgba(244,162,97,0.1); color: #A08060; border: 1px solid rgba(244,162,97,0.15); }
+.dc-img { width: 100%; height: 90px; background: linear-gradient(135deg,#4A3020,#8B5030,#3A2010); border-radius: 8px; margin-bottom: 8px; }
+.act-row { padding: 8px 10px; display: flex; gap: 6px; border-top: 1px solid rgba(255,255,255,0.05); background: rgba(9,9,8,0.6); }
+.btn-c { width: 28px; height: 28px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; font-size: 11px; }
+.btn-heart { background: #F4A261; border-color: #F4A261; }
+
+/* detail sim */
+.dt-hdr { padding: 10px; background: #1F1B19; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.dt-img { width: 100%; height: 70px; background: linear-gradient(135deg,#4A3020,#8B5030); border-radius: 7px; margin-bottom: 6px; }
+.dt-title { font-family: Georgia,serif; font-size: 13px; color: #EFE3CE; margin-bottom: 3px; }
+.dt-body { padding: 8px 10px; }
+.dt-ing-lbl { font-size: 7px; text-transform: uppercase; letter-spacing: 0.08em; color: #696967; margin-bottom: 6px; }
+.dt-row { display: flex; align-items: center; gap: 6px; padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 9px; color: #9c9c9b; }
+.dt-chk { width: 11px; height: 11px; border-radius: 3px; border: 1px solid rgba(255,255,255,0.15); flex-shrink: 0; }
+.dt-qty { color: #A08060; min-width: 24px; }
+
+/* plan sim */
+.pl-top { padding: 10px 12px 6px; }
+.pl-title { font-family: Georgia,serif; font-size: 12px; color: #EFE3CE; margin-bottom: 5px; }
+.pl-chips { display: flex; gap: 4px; flex-wrap: wrap; }
+.pl-chip { font-size: 7px; padding: 2px 5px; border-radius: 99px; border: 1px solid rgba(255,255,255,0.1); color: #9c9c9b; }
+.day-row { display: grid; grid-template-columns: 40px repeat(5,1fr); gap: 3px; margin-bottom: 3px; padding: 0 12px; }
+.day-hdr { font-size: 7px; text-align: center; padding: 2px; border-radius: 3px; background: rgba(255,255,255,0.04); }
+.day-current { color: #3a3a38; }
+.day-proposed { color: #EFE3CE; }
+.day-meal-lbl { font-size: 6px; color: #696967; display: flex; align-items: center; }
+.day-cell { height: 22px; border-radius: 3px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; font-size: 8px; }
+
+/* cook sim */
+.ck-top { padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; }
+.ck-lbl { font-size: 8px; color: #696967; }
+.ck-badge { font-size: 8px; padding: 2px 6px; border-radius: 99px; background: rgba(244,162,97,0.15); color: #F4A261; }
+.ck-main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; }
+.ck-step { font-family: Georgia,serif; font-size: 18px; color: #EFE3CE; line-height: 1.3; }
+.ck-nav { padding: 8px 12px; display: flex; gap: 6px; border-top: 1px solid rgba(255,255,255,0.05); }
+.ck-btn { flex: 1; padding: 6px; border-radius: 6px; text-align: center; font-size: 9px; border: 1px solid rgba(255,255,255,0.1); color: #9c9c9b; }
+.ck-next { background: #F4A261; border-color: #F4A261; color: #000; font-weight: 700; }
+
+/* ══════════════════════════════════
+   SCREEN 2 — Card Chips
+══════════════════════════════════ */
+.s2-cols { display: grid; grid-template-columns: 1fr 50px 1fr; gap: 0; align-items: start; }
+.s2-col-hdr { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.arrow-col { display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 36px; }
+.arrow { font-size: 22px; color: #F4A261; }
+.arrow-lbl { font-size: 8px; color: #696967; text-transform: uppercase; text-align: center; }
+
+.card-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; }
+.rc {
+  background: #1F1B19; border-radius: 10px; overflow: hidden;
+  border: 1px solid #3A3430; position: relative;
+}
+.rc-img {
+  width: 100%; aspect-ratio: 3/4; display: block;
+  position: relative; overflow: hidden;
+}
+.rc-img::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(31,27,25,0.95) 0%, rgba(31,27,25,0.3) 40%, transparent 70%);
+}
+.rc-body { padding: 8px; }
+.rc-tags { display: flex; gap: 3px; margin-bottom: 5px; flex-wrap: wrap; }
+.rc-tag { font-size: 7px; padding: 1px 4px; border-radius: 99px; background: rgba(244,162,97,0.1); color: #A08060; border: 1px solid rgba(244,162,97,0.15); }
+.rc-title { font-family: Georgia,serif; font-size: 11px; color: #EFE3CE; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.meta-chips { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 5px; }
+.chip { display: inline-flex; align-items: center; gap: 2px; font-size: 8px; color: #A08060; background: rgba(0,0,0,0.3); padding: 2px 5px; border-radius: 99px; white-space: nowrap; }
+.save-btn { position: absolute; bottom: 8px; right: 8px; width: 24px; height: 24px; background: rgba(31,27,25,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; }
+.callout { margin-top: 10px; font-size: 11px; line-height: 1.5; color: #696967; padding: 6px 8px; border-left: 2px solid rgba(244,162,97,0.3); background: rgba(255,255,255,0.02); border-radius: 0 6px 6px 0; }
+.callout strong { color: #F4A261; display: block; margin-bottom: 2px; }
+
+/* ══════════════════════════════════
+   SCREEN 3 — Meal Plan
+══════════════════════════════════ */
+.s3-split { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
+.s3-col-hdr { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.browser { background: #1a1a19; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 6px 24px rgba(0,0,0,0.5); }
+.browser-bar { background: #252524; padding: 8px 12px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.dots { display: flex; gap: 4px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; }
+.dot-r { background: #e05252; } .dot-y { background: #d0a030; } .dot-g { background: #3a9e3a; }
+.url-bar { flex: 1; background: rgba(255,255,255,0.05); border-radius: 5px; padding: 3px 8px; font-size: 9px; color: #696967; }
+.app-top { background: #121211; padding: 7px 14px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 9px; color: #9c9c9b; }
+.app-top-title { font-family: Georgia,serif; font-size: 11px; color: #EFE3CE; }
+.app-status { font-size: 8px; color: #F4A261; text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* current layout */
+.curr-body { display: grid; grid-template-columns: 1fr 180px; gap: 0; min-height: 440px; }
+.curr-l { padding: 12px; border-right: 1px solid rgba(255,255,255,0.04); }
+.curr-r { padding: 12px; }
+.s-bar { display: flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07); border-radius: 7px; padding: 6px 8px; margin-bottom: 10px; font-size: 9px; color: #696967; }
+.f-row { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 10px; }
+.f-chip { font-size: 7px; padding: 2px 6px; border-radius: 99px; border: 1px solid rgba(255,255,255,0.1); color: #9c9c9b; }
+.f-chip-on { background: rgba(244,162,97,0.1); border-color: rgba(244,162,97,0.25); color: #F4A261; }
+.inspo-lbl { font-size: 7px; color: #696967; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 5px; }
+.inspo-tags { display: flex; gap: 3px; flex-wrap: wrap; }
+.inspo-t { font-size: 7px; padding: 2px 5px; border-radius: 4px; background: rgba(255,255,255,0.03); color: #696967; border: 1px solid rgba(255,255,255,0.05); }
+.m-lbl { font-size: 7px; text-transform: uppercase; letter-spacing: 0.08em; color: #696967; margin: 8px 0 5px; }
+.thumb-row { display: flex; gap: 5px; flex-wrap: wrap; }
+.thumb { width: 58px; background: #2C2724; border-radius: 5px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); }
+.thumb-img { width: 100%; height: 38px; background: linear-gradient(135deg,#4A3020,#6A4030); }
+.thumb-lbl { padding: 3px; font-size: 6.5px; color: #9c9c9b; line-height: 1.2; }
+.empty-slot { height: 18px; background: rgba(255,255,255,0.02); border-radius: 4px; border: 1px dashed rgba(255,255,255,0.06); display: flex; align-items: center; padding: 0 7px; font-size: 7px; color: #3a3a38; }
+.pinboard-sb { background: rgba(255,255,255,0.02); border-radius: 7px; padding: 9px; height: 100%; }
+.pb-title { font-size: 9px; font-weight: 600; color: #EFE3CE; margin-bottom: 7px; }
+.pinned-dots { display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 10px; }
+.pd { width: 26px; height: 26px; border-radius: 5px; background: linear-gradient(135deg,#4A3020,#6A4030); border: 1px solid rgba(255,255,255,0.07); }
+.weave-btn { width: 100%; padding: 7px; background: #F4A261; color: #000; border-radius: 7px; font-size: 9px; font-weight: 700; text-align: center; margin-top: 10px; cursor: pointer; }
+
+/* proposed layout */
+.prop-body { display: flex; flex-direction: column; min-height: 440px; }
+.prop-search { padding: 12px 14px 8px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.pinboard-hero { padding: 12px 14px; flex: 1; display: flex; flex-direction: column; }
+.pb-hero-hdr { display: flex; align-items: center; justify-content: space-between; margin-bottom: 9px; }
+.pb-hero-title { font-family: Georgia,serif; font-size: 13px; color: #EFE3CE; }
+.pb-hero-count { font-size: 9px; color: #F4A261; }
+.pinned-rail { display: flex; gap: 7px; overflow-x: auto; padding-bottom: 5px; margin-bottom: 12px; }
+.pc { flex-shrink: 0; width: 66px; background: #2C2724; border-radius: 7px; overflow: hidden; border: 1px solid rgba(255,255,255,0.07); }
+.pc-img { width: 100%; height: 46px; position: relative; }
+.pc-img::after { content: '📌'; font-size: 8px; position: absolute; top: 3px; left: 3px; }
+.pc-lbl { padding: 3px 4px; font-size: 6.5px; color: #9c9c9b; line-height: 1.2; }
+.pc-empty { flex-shrink: 0; width: 66px; height: 76px; background: rgba(239,227,206,0.02); border: 1.5px dashed rgba(239,227,206,0.15); border-radius: 7px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; cursor: pointer; }
+.pc-empty-icon { font-size: 14px; opacity: 0.4; }
+.pc-empty-lbl { font-size: 7px; color: rgba(239,227,206,0.3); text-align: center; }
+.build-btn { width: 100%; padding: 9px; background: #F4A261; color: #000; border-radius: 8px; font-size: 10px; font-weight: 700; text-align: center; cursor: pointer; }
+.cal-divider { padding: 7px 14px; font-size: 8px; text-transform: uppercase; letter-spacing: 0.08em; color: #696967; border-top: 1px solid rgba(255,255,255,0.04); }
+.cal-grid { padding: 8px 14px; }
+.cal-row { display: grid; grid-template-columns: 38px repeat(7,1fr); gap: 3px; margin-bottom: 3px; }
+.cal-hdr { font-size: 7px; text-align: center; padding: 2px; border-radius: 3px; background: rgba(255,255,255,0.03); color: #EFE3CE; }
+.cal-ml { font-size: 7px; color: #696967; display: flex; align-items: center; }
+.cal-cell { height: 20px; border-radius: 3px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.04); display: flex; align-items: center; justify-content: center; font-size: 7px; }
+.cal-filled { background: rgba(244,162,97,0.07); border-color: rgba(244,162,97,0.12); }
+.cal-empty-prop { background: rgba(239,227,206,0.02); border: 1px dashed rgba(239,227,206,0.1); }
+.change-list { margin-top: 18px; display: flex; flex-direction: column; gap: 7px; }
+.change-item { display: flex; align-items: flex-start; gap: 8px; font-size: 11px; color: #9c9c9b; line-height: 1.4; }
+.cn { flex-shrink: 0; width: 18px; height: 18px; border-radius: 50%; background: rgba(244,162,97,0.15); color: #F4A261; font-size: 9px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.cn-txt strong { color: #EFE3CE; }
+
+/* ══════════════════════════════════
+   SCREEN 4 — Palette
+══════════════════════════════════ */
+.s4-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; }
+.s4-col-lbl { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #696967; margin-bottom: 8px; display: flex; align-items: center; gap: 5px; }
+
+/* Dark palette sim */
+.dk { background: #121211; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); }
+.dk-nav { background: #090908; padding: 8px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.dk-logo { font-family: Georgia,serif; font-size: 11px; color: #EFE3CE; }
+.dk-body { padding: 12px; }
+.dk-card { background: #1F1B19; border-radius: 8px; overflow: hidden; border: 1px solid #3A3430; margin-bottom: 9px; }
+.dk-card-img { width: 100%; height: 80px; background: linear-gradient(135deg,#4A3020,#8B5030,#3A2010); }
+.dk-card-body { padding: 8px; }
+.dk-tag { font-size: 7px; padding: 1px 4px; border-radius: 99px; background: rgba(244,162,97,0.1); color: #A08060; border: 1px solid rgba(244,162,97,0.15); }
+.dk-card-title { font-family: Georgia,serif; font-size: 11px; color: #EFE3CE; margin: 4px 0; }
+.dk-chips { display: flex; gap: 3px; }
+.dk-chip { font-size: 7px; padding: 1px 4px; border-radius: 99px; background: rgba(0,0,0,0.3); color: #A08060; }
+.dk-cta { background: #F4A261; color: #000; padding: 6px 12px; border-radius: 6px; font-size: 9px; font-weight: 700; display: inline-block; margin: 2px 0 8px; }
+.dk-mini-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 3px; }
+.dk-mini { background: #1F1B19; border-radius: 5px; border: 1px solid #3A3430; overflow: hidden; }
+.dk-mini-img { width: 100%; height: 32px; }
+.dk-mini-t { padding: 3px; font-size: 7px; color: #9c9c9b; }
+
+/* TE light palette */
+.te { background: #F5EDD6; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); }
+.te-nav { background: #FDF6EC; padding: 8px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(44,44,44,0.07); }
+.te-logo { font-family: Georgia,serif; font-size: 11px; color: #2C2C2C; }
+.te-body { padding: 12px; }
+.te-hero-img { width: 100%; height: 90px; border-radius: 8px; background: linear-gradient(135deg,#C86040,#8B3020,#E08050); position: relative; margin-bottom: 9px; overflow: hidden; }
+.te-hero-text { position: absolute; bottom: 0; left: 0; right: 0; padding: 8px; background: linear-gradient(to top, rgba(196,98,45,0.85) 0%, transparent 100%); }
+.te-hero-title { font-family: Georgia,serif; font-size: 12px; color: #FFF9F2; }
+.te-hero-meta { font-size: 7px; color: rgba(255,249,242,0.7); }
+.te-tag { font-size: 7px; padding: 1px 4px; border-radius: 99px; background: rgba(196,98,45,0.1); color: #C4622D; border: 1px solid rgba(196,98,45,0.18); }
+.te-tags { display: flex; gap: 3px; margin-bottom: 8px; }
+.te-cta { background: #C4622D; color: #FFF9F2; padding: 6px 12px; border-radius: 6px; font-size: 9px; font-weight: 700; display: inline-block; margin-bottom: 8px; }
+.te-section-lbl { font-size: 7px; text-transform: uppercase; letter-spacing: 0.08em; color: #7A6555; margin-bottom: 5px; }
+.te-mini-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 3px; }
+.te-mini { background: #FDF6EC; border-radius: 5px; border: 1px solid rgba(45,80,22,0.08); overflow: hidden; }
+.te-mini-img { width: 100%; height: 32px; }
+.te-mini-t { padding: 3px; font-size: 7px; color: #5A4A3A; }
+
+/* TE recipe detail */
+.te-det { background: #F5EDD6; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); display: flex; flex-direction: column; }
+.te-det-back { background: #FDF6EC; padding: 7px 12px; font-size: 8px; color: #C4622D; border-bottom: 1px solid rgba(44,44,44,0.05); }
+.te-det-hdr { padding: 12px; background: #FDF6EC; border-bottom: 1px solid rgba(44,44,44,0.05); }
+.te-det-img { width: 100%; height: 80px; border-radius: 7px; background: linear-gradient(135deg,#C86040,#8B3020); margin-bottom: 8px; }
+.te-det-title { font-family: Georgia,serif; font-size: 14px; color: #2C2C2C; margin-bottom: 3px; }
+.te-det-meta { font-size: 8px; color: #7A6555; display: flex; gap: 8px; }
+.te-det-body { padding: 10px 12px; flex: 1; }
+.te-ing-lbl { font-size: 7px; text-transform: uppercase; letter-spacing: 0.08em; color: #7A6555; margin-bottom: 7px; }
+.te-ing-row { display: flex; align-items: center; gap: 7px; padding: 4px 0; border-bottom: 1px solid rgba(44,44,44,0.05); font-size: 9px; color: #5A4A3A; }
+.te-chk { width: 11px; height: 11px; border-radius: 3px; border: 1.5px solid rgba(196,98,45,0.25); flex-shrink: 0; }
+.te-qty { color: #C4622D; min-width: 22px; font-weight: 600; }
+.te-cook-btn { margin: 10px 12px; background: #2D5016; color: #FFF9F2; padding: 8px; border-radius: 7px; font-size: 9px; font-weight: 700; text-align: center; }
+
+/* TE cook mode */
+.te-ck { background: #FFF9F2; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.07); display: flex; flex-direction: column; }
+.te-ck-nav { background: #FDF6EC; padding: 8px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(44,44,44,0.06); }
+.te-ck-exit { font-size: 8px; color: #C4622D; }
+.te-ck-name { font-family: Georgia,serif; font-size: 10px; color: #2C2C2C; }
+.te-ck-badge { font-size: 8px; padding: 2px 6px; border-radius: 99px; background: rgba(196,98,45,0.1); color: #C4622D; }
+.te-ck-prog { height: 3px; background: rgba(44,44,44,0.08); }
+.te-ck-prog-fill { height: 100%; width: 20%; background: #C4622D; border-radius: 0 2px 2px 0; }
+.te-ck-serve { padding: 6px 12px; display: flex; align-items: center; gap: 7px; font-size: 8px; color: #7A6555; border-bottom: 1px solid rgba(44,44,44,0.05); }
+.te-ck-main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px 16px; text-align: center; }
+.te-ck-step { font-family: Georgia,serif; font-size: 20px; color: #2C2C2C; line-height: 1.35; }
+.te-ck-dots { padding: 5px 12px; display: flex; gap: 5px; justify-content: center; }
+.te-ck-dot { width: 18px; height: 3px; border-radius: 99px; background: rgba(44,44,44,0.12); }
+.te-ck-dot-active { background: #C4622D; }
+.te-ck-foot { padding: 8px 12px; display: flex; gap: 6px; border-top: 1px solid rgba(44,44,44,0.06); background: #FDF6EC; }
+.te-ck-prev { flex: 1; padding: 7px; border-radius: 7px; border: 1.5px solid rgba(44,44,44,0.1); font-size: 9px; color: #5A4A3A; text-align: center; }
+.te-ck-next { flex: 2; padding: 7px; border-radius: 7px; background: #C4622D; color: #FFF9F2; font-size: 9px; font-weight: 700; text-align: center; }
+
+.swatches { display: flex; gap: 5px; margin-top: 9px; flex-wrap: wrap; }
+.sw { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.sw-c { width: 22px; height: 22px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.1); }
+.sw-l { font-size: 7px; color: #696967; }
+.caption { margin-top: 9px; font-size: 10px; line-height: 1.5; color: #696967; background: rgba(255,255,255,0.02); border-left: 2px solid rgba(196,98,45,0.35); padding: 5px 7px; border-radius: 0 5px 5px 0; }
+.caption strong { color: #E0905A; display: block; margin-bottom: 2px; }
+
+.s4-bottom { margin-top: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.s4-card { padding: 13px 15px; border-radius: 9px; font-size: 11px; line-height: 1.6; color: #9c9c9b; }
+.s4-card-in { background: rgba(51,133,0,0.07); border: 1px solid rgba(51,133,0,0.17); }
+.s4-card-out { background: rgba(244,162,97,0.07); border: 1px solid rgba(244,162,97,0.17); }
+.s4-card strong { display: block; margin-bottom: 3px; }
+.s4-card-in strong { color: #6fca3e; }
+.s4-card-out strong { color: #F4A261; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-logo"><span>🍳</span> Design Preview</div>
+  <div class="nav-tabs">
+    <div class="tab active" onclick="switchTo(1)">
+      <div class="tab-num">1</div>
+      <div>Background Opacity<span class="tab-sub">Discover · Detail · Plan · Cook</span></div>
+    </div>
+    <div class="tab" onclick="switchTo(2)">
+      <div class="tab-num">2</div>
+      <div>Card Metadata<span class="tab-sub">Time · Difficulty · Calories</span></div>
+    </div>
+    <div class="tab" onclick="switchTo(3)">
+      <div class="tab-num">3</div>
+      <div>Meal Plan Layout<span class="tab-sub">Pinboard · CTA · Contrast</span></div>
+    </div>
+    <div class="tab" onclick="switchTo(4)">
+      <div class="tab-num">4</div>
+      <div>Tactile Elegance<span class="tab-sub">Terracotta · Linen · Forest</span></div>
+    </div>
+  </div>
+  <div class="nav-right"><div class="dot-live"></div> Preview only — no code changed yet</div>
+</nav>
+
+<!-- ══════ SCREEN 1 ══════ -->
+<div id="s1" class="screen-wrap active">
+  <h1>Screen 1 — Background Illustration Opacity</h1>
+  <p class="subtitle">Kitchen pattern is currently <strong>opacity 1.0 everywhere</strong>. Proposed: full on Discover, dimmed on task screens.</p>
+  <div class="s1-grid">
+
+    <!-- Discover — no change -->
+    <div>
+      <div class="col-lbl"><span class="badge badge-good">✓ No change</span> Discover / Hero</div>
+      <div class="sim-screen" style="background:#121211;">
+        <div class="pattern-layer" style="opacity:1.0;"></div>
+        <div class="op-badge op-good">1.0 ✓</div>
+        <div class="sim-content">
+          <div class="dc-hero">
+            <div class="dc-img"></div>
+            <div class="dc-tags"><span class="dc-tag">Italian</span><span class="dc-tag">High-protein</span></div>
+            <div class="dc-title">Lean Turkey Meatballs</div>
+            <div class="dc-meta">⏱ 35 min · 🔥 280 kcal</div>
+          </div>
+          <div class="act-row">
+            <div class="btn-c">✕</div><div class="btn-c">🔖</div>
+            <div class="btn-c btn-heart">♥</div><div class="btn-c">ℹ</div>
+          </div>
+        </div>
+      </div>
+      <div class="annotation"><strong>Keep as-is.</strong> Full texture on hero reinforces the premium editorial feel — the illustration IS the atmosphere here.</div>
+    </div>
+
+    <!-- Recipe Detail: before/after -->
+    <div>
+      <div class="col-lbl">Recipe Detail</div>
+      <div class="pair-label bad">● Current — opacity 1.0</div>
+      <div class="sim-screen" style="background:#121211;margin-bottom:8px;">
+        <div class="pattern-layer" style="opacity:1.0;"></div>
+        <div class="op-badge op-bad">1.0 — busy</div>
+        <div class="sim-content">
+          <div class="dt-hdr">
+            <div class="dt-img"></div>
+            <div class="dt-title">Rice Krispy Squares</div>
+          </div>
+          <div class="dt-body">
+            <div class="dt-ing-lbl">Ingredients</div>
+            <div class="dt-row"><div class="dt-chk"></div><div class="dt-qty">¼ c.</div><div>butter</div></div>
+            <div class="dt-row"><div class="dt-chk"></div><div class="dt-qty">10 oz.</div><div>marshmallows</div></div>
+            <div class="dt-row"><div class="dt-chk"></div><div class="dt-qty">6 c.</div><div>Rice Krispies</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="pair-divider">proposed</div>
+      <div class="pair-label good" style="margin-top:5px;">● Proposed — opacity 0.10</div>
+      <div class="sim-screen" style="background:#121211;">
+        <div class="pattern-layer" style="opacity:0.10;"></div>
+        <div class="op-badge op-good">0.10 — legible</div>
+        <div class="sim-content">
+          <div class="dt-hdr">
+            <div class="dt-img"></div>
+            <div class="dt-title">Rice Krispy Squares</div>
+          </div>
+          <div class="dt-body">
+            <div class="dt-ing-lbl">Ingredients</div>
+            <div class="dt-row"><div class="dt-chk"></div><div class="dt-qty">¼ c.</div><div>butter</div></div>
+            <div class="dt-row"><div class="dt-chk"></div><div class="dt-qty">10 oz.</div><div>marshmallows</div></div>
+            <div class="dt-row"><div class="dt-chk"></div><div class="dt-qty">6 c.</div><div>Rice Krispies</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="annotation"><strong>Dimmed to 10%.</strong> Ingredients become easy to scan. Texture is still present as a whisper, not a shout.</div>
+    </div>
+
+    <!-- Meal Plan: before/after -->
+    <div>
+      <div class="col-lbl">Meal Plan</div>
+      <div class="pair-label bad">● Current — opacity 1.0</div>
+      <div class="sim-screen" style="background:#121211;margin-bottom:8px;">
+        <div class="pattern-layer" style="opacity:1.0;"></div>
+        <div class="op-badge op-bad">1.0 — busy</div>
+        <div class="sim-content">
+          <div class="pl-top"><div class="pl-title">High-Protein Week</div><div class="pl-chips"><span class="pl-chip">Diet: high-protein</span><span class="pl-chip">Weeknight ≤30m</span></div></div>
+          <div class="day-row" style="margin-bottom:3px;"><div></div><div class="day-hdr day-current">Day 1</div><div class="day-hdr day-current">Day 2</div><div class="day-hdr day-current">Day 3</div><div class="day-hdr day-current">Day 4</div><div class="day-hdr day-current">Day 5</div></div>
+          <div class="day-row"><div class="day-meal-lbl">Bkfst</div><div class="day-cell">🥚</div><div class="day-cell">🥚</div><div class="day-cell">🥚</div><div class="day-cell"></div><div class="day-cell"></div></div>
+          <div class="day-row"><div class="day-meal-lbl">Lunch</div><div class="day-cell">🥗</div><div class="day-cell">🥗</div><div class="day-cell"></div><div class="day-cell"></div><div class="day-cell"></div></div>
+          <div class="day-row"><div class="day-meal-lbl">Dinner</div><div class="day-cell">🍱</div><div class="day-cell">🍱</div><div class="day-cell">🍱</div><div class="day-cell"></div><div class="day-cell"></div></div>
+        </div>
+      </div>
+      <div class="pair-divider">proposed</div>
+      <div class="pair-label good" style="margin-top:5px;">● Proposed — opacity 0.10</div>
+      <div class="sim-screen" style="background:#121211;">
+        <div class="pattern-layer" style="opacity:0.10;"></div>
+        <div class="op-badge op-good">0.10 — legible</div>
+        <div class="sim-content">
+          <div class="pl-top"><div class="pl-title">High-Protein Week</div><div class="pl-chips"><span class="pl-chip">Diet: high-protein</span><span class="pl-chip">Weeknight ≤30m</span></div></div>
+          <div class="day-row" style="margin-bottom:3px;"><div></div><div class="day-hdr day-proposed">Day 1</div><div class="day-hdr day-proposed">Day 2</div><div class="day-hdr day-proposed">Day 3</div><div class="day-hdr day-proposed">Day 4</div><div class="day-hdr day-proposed">Day 5</div></div>
+          <div class="day-row"><div class="day-meal-lbl">Bkfst</div><div class="day-cell">🥚</div><div class="day-cell">🥚</div><div class="day-cell">🥚</div><div class="day-cell"></div><div class="day-cell"></div></div>
+          <div class="day-row"><div class="day-meal-lbl">Lunch</div><div class="day-cell">🥗</div><div class="day-cell">🥗</div><div class="day-cell"></div><div class="day-cell"></div><div class="day-cell"></div></div>
+          <div class="day-row"><div class="day-meal-lbl">Dinner</div><div class="day-cell">🍱</div><div class="day-cell">🍱</div><div class="day-cell">🍱</div><div class="day-cell"></div><div class="day-cell"></div></div>
+        </div>
+      </div>
+      <div class="annotation"><strong>Day labels readable.</strong> Headers shift from #3a3a38 (invisible on busy bg) to #EFE3CE warm linen.</div>
+    </div>
+
+    <!-- Cooking Mode: before/after -->
+    <div>
+      <div class="col-lbl">Cooking Mode</div>
+      <div class="pair-label bad">● Current — opacity 1.0</div>
+      <div class="sim-screen" style="background:#090908;margin-bottom:8px;">
+        <div class="pattern-layer" style="opacity:1.0;"></div>
+        <div class="op-badge op-bad">1.0 — distracting</div>
+        <div class="sim-content" style="display:flex;flex-direction:column;min-height:160px;">
+          <div class="ck-top"><span class="ck-lbl">Dark Chocolate Mousse</span><span class="ck-badge">1/5</span></div>
+          <div class="ck-main"><div class="ck-step">Melt chocolate gently; cool until just warm to the touch.</div></div>
+          <div class="ck-nav"><div class="ck-btn">← Prev</div><div class="ck-btn ck-next">Next Step →</div></div>
+        </div>
+      </div>
+      <div class="pair-divider">proposed</div>
+      <div class="pair-label good" style="margin-top:5px;">● Proposed — opacity 0.04</div>
+      <div class="sim-screen" style="background:#090908;">
+        <div class="pattern-layer" style="opacity:0.04;"></div>
+        <div class="op-badge op-good">0.04 — focused</div>
+        <div class="sim-content" style="display:flex;flex-direction:column;min-height:160px;">
+          <div class="ck-top"><span class="ck-lbl">Dark Chocolate Mousse</span><span class="ck-badge">1/5</span></div>
+          <div class="ck-main"><div class="ck-step">Melt chocolate gently; cool until just warm to the touch.</div></div>
+          <div class="ck-nav"><div class="ck-btn">← Prev</div><div class="ck-btn ck-next">Next Step →</div></div>
+        </div>
+      </div>
+      <div class="annotation"><strong>Near-invisible.</strong> Cooking mode is a focus tool — flour-covered hands, tired eyes. The step text must win.</div>
+    </div>
+  </div>
+  <div class="info-box" style="margin-top:24px;">
+    <strong>How it works:</strong> A <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">data-bg</code> attribute on each page wrapper
+    (<code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">hero / functional / cook</code>)
+    drives the opacity. BackgroundDecorations reads the nearest ancestor — no routing logic, no palette conflicts.
+  </div>
+</div>
+
+<!-- ══════ SCREEN 2 ══════ -->
+<div id="s2" class="screen-wrap">
+  <h1>Screen 2 — Recipe Card Metadata Chips</h1>
+  <p class="subtitle">All Recipes grid currently shows <strong>image + title only</strong>. Proposed: always show time, difficulty, calorie chips. Data is already in the DB — one guard condition removed.</p>
+  <div class="s2-cols">
+    <div>
+      <div class="s2-col-hdr"><span class="badge badge-current">Current</span> Grid — no metadata</div>
+      <div class="card-grid">
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#4A3020,#8B5030);aspect-ratio:3/4;"></div>
+          <div class="rc-body"><div class="rc-tags"><span class="rc-tag">Italian</span><span class="rc-tag">High-protein</span></div><div class="rc-title">Lean Turkey Meatballs</div></div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#C86040,#804020);aspect-ratio:3/4;"></div>
+          <div class="rc-body"><div class="rc-tags"><span class="rc-tag">Japanese</span></div><div class="rc-title">Miso Glazed Salmon</div></div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#1A0A00,#3A1A00);aspect-ratio:3/4;"></div>
+          <div class="rc-body"><div class="rc-tags"><span class="rc-tag">Dessert</span><span class="rc-tag">French</span></div><div class="rc-title">Dark Chocolate Mousse</div></div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#254020,#3A6028);aspect-ratio:3/4;"></div>
+          <div class="rc-body"><div class="rc-tags"><span class="rc-tag">Vegan</span></div><div class="rc-title">Garlic Butter Salmon</div></div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#706020,#A08030);aspect-ratio:3/4;"></div>
+          <div class="rc-body"><div class="rc-tags"><span class="rc-tag">Thai</span></div><div class="rc-title">Spicy Peanut Noodles</div></div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#503010,#7A5030);aspect-ratio:3/4;"></div>
+          <div class="rc-body"><div class="rc-title">Rice Krispy Squares</div></div>
+          <div class="save-btn">🔖</div>
+        </div>
+      </div>
+      <div class="callout"><strong>Problem:</strong> Must click into every recipe to find out if it's quick or easy. That's a lot of taps across 26,000+ recipes.</div>
+    </div>
+    <div class="arrow-col"><div class="arrow">→</div><div class="arrow-lbl">add<br>chips</div></div>
+    <div>
+      <div class="s2-col-hdr"><span class="badge badge-proposed">Proposed</span> Grid — with chips</div>
+      <div class="card-grid">
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#4A3020,#8B5030);aspect-ratio:3/4;"></div>
+          <div class="rc-body">
+            <div class="rc-tags"><span class="rc-tag">Italian</span><span class="rc-tag">High-protein</span></div>
+            <div class="rc-title">Lean Turkey Meatballs</div>
+            <div class="meta-chips"><span class="chip">⏱ 35m</span><span class="chip">◑ Easy</span><span class="chip">🔥 280</span></div>
+          </div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#C86040,#804020);aspect-ratio:3/4;"></div>
+          <div class="rc-body">
+            <div class="rc-tags"><span class="rc-tag">Japanese</span></div>
+            <div class="rc-title">Miso Glazed Salmon</div>
+            <div class="meta-chips"><span class="chip">⏱ 20m</span><span class="chip">◑ Easy</span><span class="chip">🔥 320</span></div>
+          </div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#1A0A00,#3A1A00);aspect-ratio:3/4;"></div>
+          <div class="rc-body">
+            <div class="rc-tags"><span class="rc-tag">Dessert</span><span class="rc-tag">French</span></div>
+            <div class="rc-title">Dark Chocolate Mousse</div>
+            <div class="meta-chips"><span class="chip">⏱ 45m</span><span class="chip">◔ Med</span></div>
+          </div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#254020,#3A6028);aspect-ratio:3/4;"></div>
+          <div class="rc-body">
+            <div class="rc-tags"><span class="rc-tag">Vegan</span></div>
+            <div class="rc-title">Garlic Butter Salmon</div>
+            <div class="meta-chips"><span class="chip">⏱ 20m</span><span class="chip">◑ Easy</span><span class="chip">🔥 410</span></div>
+          </div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#706020,#A08030);aspect-ratio:3/4;"></div>
+          <div class="rc-body">
+            <div class="rc-tags"><span class="rc-tag">Thai</span></div>
+            <div class="rc-title">Spicy Peanut Noodles</div>
+            <div class="meta-chips"><span class="chip">⏱ 15m</span></div>
+          </div>
+          <div class="save-btn">🔖</div>
+        </div>
+        <div class="rc">
+          <div class="rc-img" style="background:linear-gradient(135deg,#503010,#7A5030);aspect-ratio:3/4;"></div>
+          <div class="rc-body">
+            <div class="rc-title">Rice Krispy Squares</div>
+            <!-- no chips — data missing, safely omitted -->
+          </div>
+          <div class="save-btn">🔖</div>
+        </div>
+      </div>
+      <div class="callout"><strong>Null-safe:</strong> Cards 3, 5, 6 show fewer chips because DB records are incomplete. No "— kcal" placeholder — the chip simply doesn't render.</div>
+    </div>
+  </div>
+  <div class="info-box">
+    <strong>One line of code:</strong> RecipeCard already receives totalTime, difficulty, calories as props. The only change is removing the <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">featured === true</code> guard that currently hides chips in grid view.
+  </div>
+</div>
+
+<!-- ══════ SCREEN 3 ══════ -->
+<div id="s3" class="screen-wrap">
+  <h1>Screen 3 — Meal Plan Elevation</h1>
+  <p class="subtitle">The pinboard is the page's <strong>core action</strong>. Four changes: prominence, CTA rename, empty-slot treatment, Day-label contrast.</p>
+  <div class="s3-split">
+    <!-- CURRENT -->
+    <div>
+      <div class="s3-col-hdr"><span class="badge badge-current">Current</span> Pinboard as sidebar</div>
+      <div class="browser">
+        <div class="browser-bar"><div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div><div class="url-bar">whatscooking.app/plans/high-protein-week</div></div>
+        <div class="app-top"><span style="font-size:9px;">← Plans</span><span class="app-top-title">High-Protein Week</span><span class="app-status">planning</span></div>
+        <div class="curr-body">
+          <div class="curr-l">
+            <div class="s-bar">🔍 Search &amp; add recipes...</div>
+            <div class="f-row"><span class="f-chip f-chip-on">Diet: high-protein</span><span class="f-chip">Weeknight ≤30m</span><span class="f-chip">Pantry-aware</span></div>
+            <div class="inspo-lbl">Inspiration</div>
+            <div class="inspo-tags"><span class="inspo-t">Italian</span><span class="inspo-t">Thai</span><span class="inspo-t">Quick</span><span class="inspo-t">Cozy</span><span class="inspo-t">Summer</span></div>
+            <div class="m-lbl">Breakfast</div>
+            <div class="thumb-row">
+              <div class="thumb"><div class="thumb-img"></div><div class="thumb-lbl">Egg White Frittata</div></div>
+              <div class="thumb"><div class="thumb-img"></div><div class="thumb-lbl">Egg White Frittata</div></div>
+              <div class="thumb"><div class="thumb-img"></div><div class="thumb-lbl">Egg White Frittata</div></div>
+            </div>
+            <div class="m-lbl">Lunch</div>
+            <div class="empty-slot">no recipes pinned</div>
+            <div class="m-lbl">Dinner</div>
+            <div class="empty-slot">no recipes pinned</div>
+          </div>
+          <div class="curr-r">
+            <div class="pinboard-sb">
+              <div class="pb-title">📌 9 pinned</div>
+              <div class="pinned-dots"><div class="pd"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div></div>
+              <div class="weave-btn">Weave the week →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="annotation"><strong>Problems:</strong> The pinboard — the entire point — is a narrow sidebar. "Weave the week" is poetic but opaque. Empty slots show near-invisible text. Calendar headers unreadable.</div>
+    </div>
+    <!-- PROPOSED -->
+    <div>
+      <div class="s3-col-hdr"><span class="badge badge-proposed">Proposed</span> Pinboard as hero</div>
+      <div class="browser">
+        <div class="browser-bar"><div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div><div class="url-bar">whatscooking.app/plans/high-protein-week</div></div>
+        <div class="app-top"><span style="font-size:9px;">← Plans</span><span class="app-top-title">High-Protein Week</span><span class="app-status">planning</span></div>
+        <div class="prop-body">
+          <div class="prop-search">
+            <div class="s-bar">🔍 Search &amp; add recipes...</div>
+            <div class="f-row"><span class="f-chip f-chip-on">Diet: high-protein</span><span class="f-chip">Weeknight ≤30m</span><span class="f-chip">Pantry-aware</span></div>
+          </div>
+          <div class="pinboard-hero">
+            <div class="pb-hero-hdr"><div class="pb-hero-title">📌 Pinned Recipes</div><div class="pb-hero-count">9 pinned</div></div>
+            <div class="pinned-rail">
+              <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#4A3020,#7A5030);"></div><div class="pc-lbl">Turkey Meatballs</div></div>
+              <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#C86040,#804020);"></div><div class="pc-lbl">Miso Salmon</div></div>
+              <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#254020,#3A6028);"></div><div class="pc-lbl">Ahi Poke Bowl</div></div>
+              <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#706020,#A08030);"></div><div class="pc-lbl">Peanut Noodles</div></div>
+              <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#503010,#7A5030);"></div><div class="pc-lbl">Egg Frittata</div></div>
+              <div class="pc-empty"><div class="pc-empty-icon">+</div><div class="pc-empty-lbl">Add recipe</div></div>
+              <div class="pc-empty"><div class="pc-empty-icon">+</div><div class="pc-empty-lbl">Add recipe</div></div>
+            </div>
+            <div class="build-btn">Build this week →</div>
+          </div>
+          <div class="cal-divider">↓ Week overview</div>
+          <div class="cal-grid">
+            <div class="cal-row"><div class="cal-ml"></div><div class="cal-hdr">Day 1</div><div class="cal-hdr">Day 2</div><div class="cal-hdr">Day 3</div><div class="cal-hdr">Day 4</div><div class="cal-hdr">Day 5</div><div class="cal-hdr">Day 6</div><div class="cal-hdr">Day 7</div></div>
+            <div class="cal-row"><div class="cal-ml">Bkfst</div><div class="cal-cell cal-filled">🥚</div><div class="cal-cell cal-filled">🥚</div><div class="cal-cell cal-filled">🥚</div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div></div>
+            <div class="cal-row"><div class="cal-ml">Lunch</div><div class="cal-cell cal-filled">🥗</div><div class="cal-cell cal-filled">🥗</div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div></div>
+            <div class="cal-row"><div class="cal-ml">Dinner</div><div class="cal-cell cal-filled">🍱</div><div class="cal-cell cal-filled">🍱</div><div class="cal-cell cal-filled">🍱</div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div><div class="cal-cell cal-empty-prop"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="annotation"><strong>What changed:</strong> Pinboard is full-width and the first thing you see. Empty slots have dashed borders. CTA is "Build this week →". Day labels are #EFE3CE — readable.</div>
+    </div>
+  </div>
+  <div class="change-list">
+    <div class="change-item"><div class="cn">1</div><div class="cn-txt"><strong>Pinboard prominence:</strong> moved from narrow sidebar to full-width hero above the calendar.</div></div>
+    <div class="change-item"><div class="cn">2</div><div class="cn-txt"><strong>CTA rename:</strong> "Weave the week →" → <strong>"Build this week →"</strong>. Passes the non-power-user comprehension test.</div></div>
+    <div class="change-item"><div class="cn">3</div><div class="cn-txt"><strong>Empty slots:</strong> dashed-border "+" cards instead of invisible placeholder text.</div></div>
+    <div class="change-item"><div class="cn">4</div><div class="cn-txt"><strong>Day label contrast:</strong> headers shift from #3a3a38 (invisible) to #EFE3CE warm linen.</div></div>
+  </div>
+</div>
+
+<!-- ══════ SCREEN 4 ══════ -->
+<div id="s4" class="screen-wrap">
+  <h1>Screen 4 — Tactile Elegance Palette</h1>
+  <p class="subtitle">Gemini brief: <strong>terracotta · linen · forest green · charcoal</strong>. Additive — a 6th palette alongside your existing 5. Nothing gets overwritten. Cherry-pick what you like.</p>
+  <div class="s4-grid">
+    <!-- A: Current dark -->
+    <div>
+      <div class="s4-col-lbl"><span class="badge badge-status">Current</span> Cast Iron &amp; Thyme</div>
+      <div class="dk" style="min-height:460px;">
+        <div class="dk-nav"><span class="dk-logo">🍳 What's Cooking</span><span style="font-size:8px;color:#696967;">⚡ Premium</span></div>
+        <div class="dk-body">
+          <div class="dk-card">
+            <div class="dk-card-img"></div>
+            <div class="dk-card-body">
+              <div style="display:flex;gap:3px;margin-bottom:4px;"><span class="dk-tag">Italian</span><span class="dk-tag">High-protein</span></div>
+              <div class="dk-card-title">Lean Turkey Meatballs</div>
+              <div class="dk-chips"><span class="dk-chip">⏱ 35m</span><span class="dk-chip">◑ Easy</span><span class="dk-chip">🔥 280</span></div>
+            </div>
+          </div>
+          <div class="dk-cta">Cook from Pantry →</div>
+          <div style="font-size:7px;text-transform:uppercase;letter-spacing:0.08em;color:#696967;margin-bottom:5px;">All Recipes</div>
+          <div class="dk-mini-grid">
+            <div class="dk-mini"><div class="dk-mini-img" style="background:linear-gradient(135deg,#4A3020,#6A4030);"></div><div class="dk-mini-t">Cherry Nut Cake</div></div>
+            <div class="dk-mini"><div class="dk-mini-img" style="background:linear-gradient(135deg,#1A0A00,#3A1A00);"></div><div class="dk-mini-t">Choc Mousse</div></div>
+            <div class="dk-mini"><div class="dk-mini-img" style="background:linear-gradient(135deg,#254020,#3A6028);"></div><div class="dk-mini-t">Veggie Stir Fry</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="swatches">
+        <div class="sw"><div class="sw-c" style="background:#121211;border-color:rgba(255,255,255,0.15);"></div><div class="sw-l">#121211</div></div>
+        <div class="sw"><div class="sw-c" style="background:#F4A261;"></div><div class="sw-l">#F4A261</div></div>
+        <div class="sw"><div class="sw-c" style="background:#EFE3CE;"></div><div class="sw-l">#EFE3CE</div></div>
+        <div class="sw"><div class="sw-c" style="background:#A08060;"></div><div class="sw-l">#A08060</div></div>
+      </div>
+      <div class="caption"><strong>Status quo.</strong> Moody dark espresso. Premium, editorial, kitchen-at-night. Works great in dim environments.</div>
+    </div>
+    <!-- B: TE Discover -->
+    <div>
+      <div class="s4-col-lbl"><span class="badge badge-new">New</span> Tactile Elegance · Discover</div>
+      <div class="te" style="min-height:460px;">
+        <div class="te-nav"><span class="te-logo">🍳 What's Cooking</span><span style="font-size:8px;color:#5A4A3A;">⚡ Premium</span></div>
+        <div class="te-body">
+          <div class="te-hero-img">
+            <div class="te-hero-text"><div class="te-hero-title">Lean Turkey Meatballs</div><div class="te-hero-meta">⏱ 35m · ◑ Easy · 🔥 280 kcal</div></div>
+          </div>
+          <div class="te-tags"><span class="te-tag">Italian</span><span class="te-tag">High-protein</span></div>
+          <div class="te-cta">Cook from Pantry →</div>
+          <div class="te-section-lbl">All Recipes</div>
+          <div class="te-mini-grid">
+            <div class="te-mini"><div class="te-mini-img" style="background:linear-gradient(135deg,#C86040,#804020);"></div><div class="te-mini-t">Cherry Nut Cake</div></div>
+            <div class="te-mini"><div class="te-mini-img" style="background:linear-gradient(135deg,#5A2A10,#1A0A00);"></div><div class="te-mini-t">Choc Mousse</div></div>
+            <div class="te-mini"><div class="te-mini-img" style="background:linear-gradient(135deg,#3A6028,#254020);"></div><div class="te-mini-t">Veggie Stir Fry</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="swatches">
+        <div class="sw"><div class="sw-c" style="background:#F5EDD6;border-color:rgba(0,0,0,0.1);"></div><div class="sw-l">#F5EDD6</div></div>
+        <div class="sw"><div class="sw-c" style="background:#C4622D;"></div><div class="sw-l">#C4622D</div></div>
+        <div class="sw"><div class="sw-c" style="background:#2D5016;"></div><div class="sw-l">#2D5016</div></div>
+        <div class="sw"><div class="sw-c" style="background:#2C2C2C;border-color:rgba(255,255,255,0.15);"></div><div class="sw-l">#2C2C2C</div></div>
+      </div>
+      <div class="caption"><strong>Warm &amp; editorial.</strong> Linen backgrounds, terracotta accent, forest green for depth. Premium independent food magazine. Kitchen-in-daylight.</div>
+    </div>
+    <!-- C: TE Recipe Detail -->
+    <div>
+      <div class="s4-col-lbl"><span class="badge badge-new">New</span> TE · Recipe Detail</div>
+      <div class="te-det" style="min-height:460px;">
+        <div class="te-det-back">← Back to recipes</div>
+        <div class="te-det-hdr">
+          <div class="te-det-img"></div>
+          <div class="te-det-title">Rice Krispy Squares</div>
+          <div class="te-det-meta"><span>⏱ 25 min</span><span>◑ Easy</span><span>🔥 180 kcal</span></div>
+        </div>
+        <div class="te-det-body">
+          <div class="te-ing-lbl">Ingredients — serves 4</div>
+          <div class="te-ing-row"><div class="te-chk"></div><div class="te-qty">¼ c.</div><div>butter</div></div>
+          <div class="te-ing-row"><div class="te-chk" style="background:rgba(196,98,45,0.15);border-color:#C4622D;"></div><div class="te-qty">10 oz.</div><div style="text-decoration:line-through;opacity:0.5;">marshmallows</div></div>
+          <div class="te-ing-row"><div class="te-chk"></div><div class="te-qty">6 c.</div><div>Rice Krispies</div></div>
+          <div style="margin-top:8px;padding:7px;background:rgba(45,80,22,0.06);border-radius:5px;border-left:2px solid #2D5016;font-size:8px;color:#2D5016;font-style:italic;font-family:Georgia,serif;">"Use good quality butter — it's the only fat in this recipe."</div>
+        </div>
+        <div class="te-cook-btn">Start Cooking Mode →</div>
+      </div>
+      <div class="caption"><strong>High contrast &amp; legible.</strong> Charcoal on linen passes WCAG AA. Terracotta for quantities. Forest green for pro tips. Great in a bright kitchen.</div>
+    </div>
+    <!-- D: TE Cook Mode -->
+    <div>
+      <div class="s4-col-lbl"><span class="badge badge-new">New</span> TE · Cooking Mode</div>
+      <div class="te-ck" style="min-height:460px;">
+        <div class="te-ck-nav"><span class="te-ck-exit">✕ Exit</span><span class="te-ck-name">Dark Chocolate Mousse</span><span class="te-ck-badge">1/5</span></div>
+        <div class="te-ck-prog"><div class="te-ck-prog-fill"></div></div>
+        <div class="te-ck-serve"><span style="letter-spacing:0.08em;">SERVINGS</span><span>—</span><span style="font-weight:700;color:#C4622D;">6</span><span>+</span></div>
+        <div class="te-ck-main"><div class="te-ck-step">Melt chocolate gently; cool until just warm to the touch.</div></div>
+        <div class="te-ck-dots">
+          <div class="te-ck-dot te-ck-dot-active"></div>
+          <div class="te-ck-dot"></div><div class="te-ck-dot"></div><div class="te-ck-dot"></div><div class="te-ck-dot"></div>
+        </div>
+        <div style="padding:0 12px 8px;font-size:8px;color:#7A6555;text-align:center;">Melt &amp; cool · Separate eggs · Whip cream · Fold &amp; chill</div>
+        <div class="te-ck-foot"><div class="te-ck-prev">← Prev</div><div class="te-ck-next">Next Step →</div></div>
+      </div>
+      <div class="caption"><strong>Maximum legibility.</strong> Charcoal on pure cream — highest contrast. 20px serif reads from 1m away with floury hands. Terracotta CTA, forest green for tips.</div>
+    </div>
+  </div>
+  <div class="s4-bottom">
+    <div class="s4-card s4-card-in">
+      <strong>✓ What Tactile Elegance adds</strong>
+      Terracotta (#C4622D) replaces saffron as the primary interactive color — warmer, more "clay pot." Forest green (#2D5016) provides a cool complement without going blue. Linen/cream backgrounds make typography feel printed on parchment. Charcoal text passes WCAG AA on all surfaces.
+    </div>
+    <div class="s4-card s4-card-out">
+      <strong>→ Cherry-pick options</strong>
+      A) Terracotta accent only — swap saffron in dark mode, keep dark backgrounds.<br>
+      B) Full TE light palette as a toggle (6th personality alongside existing 5).<br>
+      C) TE cooking mode only — cream/charcoal contrast for the focus screen.<br>
+      In all cases, the 5 existing palettes remain 100% unchanged.
+    </div>
+  </div>
+</div>
+
+<!-- STATUS BAR -->
+<div class="statusbar">
+  <div class="statusbar-l">
+    <span>Viewing: <span class="cur-name" id="cur-name">Background Opacity</span></span>
+    <span><span class="kbd">←</span><span class="kbd">→</span> or <span class="kbd">1</span><span class="kbd">2</span><span class="kbd">3</span><span class="kbd">4</span> to navigate</span>
+  </div>
+  <div class="statusbar-r">http://localhost:56321 · preview only — no production code touched</div>
+</div>
+
+<script>
+const names = { 1:'Background Opacity', 2:'Card Metadata Chips', 3:'Meal Plan Layout', 4:'Tactile Elegance Palette' };
+let current = 1;
+function switchTo(n) {
+  if (n < 1 || n > 4) return;
+  document.querySelectorAll('.screen-wrap').forEach(s => s.classList.remove('active'));
+  document.getElementById('s' + n).classList.add('active');
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab')[n-1].classList.add('active');
+  document.getElementById('cur-name').textContent = names[n];
+  current = n;
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') switchTo(current + 1);
+  else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') switchTo(current - 1);
+  else if (e.key >= '1' && e.key <= '4') switchTo(parseInt(e.key));
+});
+</script>
+</body>
+</html>

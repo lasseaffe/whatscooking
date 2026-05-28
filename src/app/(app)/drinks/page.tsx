@@ -1,16 +1,11 @@
-import { createClient } from "@/lib/supabase/server";
-import { DrinksClient } from "./drinks-client";
+import { DrinksHubClient } from "./drinks-hub-client";
 
-export const dynamic = "force-dynamic";
+export const metadata = {
+  title: "Drinks | What's Cooking",
+  description:
+    "Café culture, bar craft, wine & spirits, wellness, and zero-proof — professional-grade drinks for every discipline.",
+};
 
-export default async function DrinksPage() {
-  const supabase = await createClient();
-
-  const { data: drinks } = await supabase
-    .from("recipes")
-    .select("*")
-    .contains("dish_types", ["drink"])
-    .order("created_at", { ascending: true });
-
-  return <DrinksClient drinks={drinks ?? []} />;
+export default function DrinksPage() {
+  return <DrinksHubClient />;
 }

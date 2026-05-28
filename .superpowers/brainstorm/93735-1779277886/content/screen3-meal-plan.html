@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screen 3 — Meal Plan Elevation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0d0d0c;
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #fff;
+    padding: 32px;
+    min-height: 100vh;
+  }
+  h1 { font-family: Georgia, serif; font-size: 22px; color: #EFE3CE; margin-bottom: 6px; font-weight: 400; }
+  .page-subtitle { font-size: 13px; color: #9c9c9b; margin-bottom: 28px; line-height: 1.5; }
+  .page-subtitle strong { color: #F4A261; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
+  .col-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+    font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+  }
+  .badge { padding: 3px 8px; border-radius: 99px; font-size: 9px; font-weight: 600; }
+  .badge-current { background: rgba(225,36,41,0.2); color: #f87171; }
+  .badge-proposed { background: rgba(51,133,0,0.2); color: #6fca3e; }
+
+  /* ─── BROWSER CHROME ─── */
+  .browser {
+    background: #1a1a19;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  }
+  .browser-bar {
+    background: #252524;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .dots { display: flex; gap: 5px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot-r { background: #e05252; }
+  .dot-y { background: #d0a030; }
+  .dot-g { background: #3a9e3a; }
+  .url-bar {
+    flex: 1;
+    background: rgba(255,255,255,0.06);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 10px;
+    color: #696967;
+  }
+
+  /* ─── APP CHROME ─── */
+  .app-topbar {
+    background: #121211;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 10px;
+    color: #9c9c9b;
+  }
+  .app-topbar-title { font-family: Georgia, serif; color: #EFE3CE; font-size: 12px; }
+  .app-topbar-status { font-size: 9px; color: #F4A261; text-transform: uppercase; letter-spacing: 0.08em; }
+
+  /* ─── CURRENT LAYOUT ─── */
+  .current-body {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 0;
+    min-height: 520px;
+  }
+  .current-left { padding: 14px; border-right: 1px solid rgba(255,255,255,0.05); }
+  .current-right { padding: 14px; }
+
+  /* search */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 7px 10px;
+    margin-bottom: 12px;
+    font-size: 10px;
+    color: #696967;
+  }
+
+  /* filter chips */
+  .filter-row { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 12px; }
+  .filter-chip {
+    font-size: 8px;
+    padding: 2px 7px;
+    border-radius: 99px;
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #9c9c9b;
+  }
+  .filter-chip-active {
+    background: rgba(244,162,97,0.12);
+    border-color: rgba(244,162,97,0.3);
+    color: #F4A261;
+  }
+
+  /* inspiration tags */
+  .inspiration-section { margin-bottom: 10px; }
+  .inspo-label { font-size: 8px; color: #696967; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+  .inspo-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+  .inspo-tag {
+    font-size: 8px; padding: 2px 6px; border-radius: 4px;
+    background: rgba(255,255,255,0.04); color: #696967;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  /* meal slot rows in left (current) */
+  .meal-section-label {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 0.1em;
+    color: #696967; margin: 10px 0 6px;
+  }
+  .recipe-thumbnail-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .recipe-thumb {
+    width: 64px;
+    background: linear-gradient(135deg, #2C2724, #3A3430);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .recipe-thumb-img {
+    width: 100%; height: 46px;
+    background: linear-gradient(135deg, #4A3020, #6A4030);
+  }
+  .recipe-thumb-label {
+    padding: 3px 4px;
+    font-size: 7px;
+    color: #9c9c9b;
+    line-height: 1.2;
+  }
+  .recipe-thumb-meta { font-size: 6px; color: #696967; padding: 0 4px 3px; }
+
+  /* pinboard (current — small sidebar) */
+  .pinboard-sidebar {
+    background: rgba(255,255,255,0.02);
+    border-radius: 8px;
+    padding: 10px;
+    height: 100%;
+    min-height: 400px;
+  }
+  .pinboard-title {
+    font-size: 10px; font-weight: 600; color: #EFE3CE; margin-bottom: 8px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .pinboard-count { font-size: 9px; color: #F4A261; }
+  .pinned-strip {
+    display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .pinned-dot {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #4A3020, #6A4030);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .weave-btn {
+    width: 100%;
+    padding: 8px;
+    background: #F4A261;
+    color: #000;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: auto;
+    cursor: pointer;
+  }
+  .weave-btn-current { margin-top: 16px; }
+
+  /* ─── PROPOSED LAYOUT ─── */
+  .proposed-body { min-height: 520px; display: flex; flex-direction: column; }
+
+  /* Top search */
+  .proposed-search-area {
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  /* HERO PINBOARD */
+  .pinboard-hero {
+    padding: 14px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .pinboard-hero-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .pinboard-hero-title {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: #EFE3CE;
+  }
+  .pinboard-hero-count { font-size: 10px; color: #F4A261; }
+
+  /* Pinned recipe cards — larger, hero prominence */
+  .pinned-rail {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+  }
+  .pinned-card {
+    flex-shrink: 0;
+    width: 72px;
+    background: #2C2724;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .pinned-card-img {
+    width: 100%; height: 52px;
+    background: linear-gradient(135deg, #4A3020, #6A4030);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 3px;
+  }
+  .pinned-card-img::after {
+    content: '📌';
+    font-size: 9px;
+    position: absolute;
+    top: 3px; left: 3px;
+  }
+  .pinned-card-label { padding: 4px 5px; font-size: 7px; color: #9c9c9b; line-height: 1.2; }
+
+  /* Empty slot cards */
+  .pinned-card-empty {
+    flex-shrink: 0;
+    width: 72px;
+    height: 88px;
+    background: rgba(239,227,206,0.03);
+    border: 1.5px dashed rgba(239,227,206,0.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+  .pinned-card-empty-icon { font-size: 16px; opacity: 0.4; }
+  .pinned-card-empty-label { font-size: 7px; color: rgba(239,227,206,0.3); text-align: center; }
+
+  /* CTA button */
+  .build-btn {
+    width: 100%;
+    padding: 10px;
+    background: #F4A261;
+    color: #000;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+
+  /* calendar grid — below fold in proposed */
+  .calendar-divider {
+    padding: 8px 16px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #696967;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .calendar-grid { padding: 10px 16px; }
+  .cal-row {
+    display: grid;
+    grid-template-columns: 44px repeat(7, 1fr);
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+  .cal-header {
+    font-size: 7px; text-align: center; padding: 3px 2px;
+    border-radius: 3px; background: rgba(255,255,255,0.04);
+  }
+  /* PROPOSED — readable day labels */
+  .cal-header-proposed { color: #EFE3CE; }
+  .cal-meal-label { font-size: 7px; color: #696967; display: flex; align-items: center; }
+  .cal-cell {
+    height: 22px; border-radius: 3px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.05);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 6px; color: #696967; overflow: hidden;
+  }
+  .cal-cell-filled { background: rgba(244,162,97,0.08); border-color: rgba(244,162,97,0.15); }
+  .cal-cell-empty-proposed {
+    background: rgba(239,227,206,0.02);
+    border: 1px dashed rgba(239,227,206,0.12);
+  }
+
+  /* Annotations */
+  .annotation {
+    margin-top: 14px;
+    font-size: 11px; line-height: 1.5; color: #696967;
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(244,162,97,0.3);
+    padding: 8px 10px; border-radius: 0 6px 6px 0;
+  }
+  .annotation strong { color: #F4A261; display: block; margin-bottom: 3px; }
+
+  /* change callouts */
+  .change-list { margin-top: 20px; display: flex; flex-direction: column; gap: 8px; }
+  .change-item {
+    display: flex; align-items: flex-start; gap: 10px;
+    font-size: 11px; color: #9c9c9b; line-height: 1.4;
+  }
+  .change-num {
+    flex-shrink: 0;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: rgba(244,162,97,0.15);
+    color: #F4A261;
+    font-size: 9px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .change-text strong { color: #EFE3CE; }
+</style>
+</head>
+<body>
+
+<h1>Screen 3 — Meal Plan Elevation</h1>
+<p class="page-subtitle">
+  The pinboard is the page's <strong>core action</strong> — it should dominate the layout, not be a sidebar.
+  Four changes: pinboard prominence, day-label contrast, CTA rename, empty-slot treatment.
+</p>
+
+<div class="split">
+
+  <!-- CURRENT -->
+  <div>
+    <div class="col-label"><span class="badge badge-current">Current</span> Planning View — pinboard as sidebar</div>
+    <div class="browser">
+      <div class="browser-bar">
+        <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+        <div class="url-bar">whatscooking.app/plans/high-protein-week</div>
+      </div>
+      <div class="app-topbar">
+        <span>← Plans</span>
+        <span class="app-topbar-title">High-Protein Week</span>
+        <span class="app-topbar-status">planning</span>
+      </div>
+      <div class="current-body">
+
+        <!-- Left: search + inspiration + meal rows -->
+        <div class="current-left">
+          <div class="search-bar">🔍 Search &amp; add recipes...</div>
+          <div class="filter-row">
+            <span class="filter-chip filter-chip-active">Diet: high-protein</span>
+            <span class="filter-chip">Weeknight ≤30m</span>
+            <span class="filter-chip">Squad 2</span>
+            <span class="filter-chip">Pantry-aware</span>
+          </div>
+          <div class="inspiration-section">
+            <div class="inspo-label">Inspiration</div>
+            <div class="inspo-tags">
+              <span class="inspo-tag">Italian</span><span class="inspo-tag">Thai</span>
+              <span class="inspo-tag">Quick</span><span class="inspo-tag">Cozy</span>
+              <span class="inspo-tag">Impress guests</span><span class="inspo-tag">Summer</span>
+            </div>
+          </div>
+          <div class="meal-section-label">Breakfast</div>
+          <div class="recipe-thumbnail-row">
+            <div class="recipe-thumb">
+              <div class="recipe-thumb-img"></div>
+              <div class="recipe-thumb-label">Egg White Veggie Frittata</div>
+              <div class="recipe-thumb-meta">⏱ diet · 30m</div>
+            </div>
+            <div class="recipe-thumb">
+              <div class="recipe-thumb-img"></div>
+              <div class="recipe-thumb-label">Egg White Veggie Frittata</div>
+              <div class="recipe-thumb-meta">⏱ diet · 30m</div>
+            </div>
+            <div class="recipe-thumb">
+              <div class="recipe-thumb-img"></div>
+              <div class="recipe-thumb-label">Egg White Veggie Frittata</div>
+              <div class="recipe-thumb-meta">⏱ diet · 30m</div>
+            </div>
+          </div>
+          <div class="meal-section-label">Lunch</div>
+          <div style="height:18px;background:rgba(255,255,255,0.02);border-radius:4px;border:1px dashed rgba(255,255,255,0.06);display:flex;align-items:center;padding:0 8px;font-size:8px;color:#3a3a38;">no recipes pinned</div>
+          <div class="meal-section-label">Dinner</div>
+          <div style="height:18px;background:rgba(255,255,255,0.02);border-radius:4px;border:1px dashed rgba(255,255,255,0.06);display:flex;align-items:center;padding:0 8px;font-size:8px;color:#3a3a38;">no recipes pinned</div>
+        </div>
+
+        <!-- Right: pinboard sidebar (small, secondary) -->
+        <div class="current-right">
+          <div class="pinboard-sidebar">
+            <div class="pinboard-title">
+              <span>📌 9 pinned</span>
+              <span class="pinboard-count"></span>
+            </div>
+            <div class="pinned-strip">
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+              <div class="pinned-dot"></div>
+            </div>
+            <!-- CTA buried in sidebar, unclear label -->
+            <div class="weave-btn weave-btn-current">Weave the week →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <strong>Problems:</strong>
+      The pinboard — the entire point of this screen — is a narrow sidebar.
+      "Weave the week" is poetic but opaque. Lunch/Dinner empty rows show invisible placeholder text.
+      Day labels in the calendar are unreadable (#3a3a38 on dark).
+    </div>
+  </div>
+
+  <!-- PROPOSED -->
+  <div>
+    <div class="col-label"><span class="badge badge-proposed">Proposed</span> Planning View — pinboard as hero</div>
+    <div class="browser">
+      <div class="browser-bar">
+        <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
+        <div class="url-bar">whatscooking.app/plans/high-protein-week</div>
+      </div>
+      <div class="app-topbar">
+        <span>← Plans</span>
+        <span class="app-topbar-title">High-Protein Week</span>
+        <span class="app-topbar-status">planning</span>
+      </div>
+
+      <div class="proposed-body">
+
+        <!-- Search bar at top -->
+        <div class="proposed-search-area">
+          <div class="search-bar">🔍 Search &amp; add recipes...</div>
+          <div class="filter-row">
+            <span class="filter-chip filter-chip-active">Diet: high-protein</span>
+            <span class="filter-chip">Weeknight ≤30m</span>
+            <span class="filter-chip">Pantry-aware</span>
+          </div>
+        </div>
+
+        <!-- HERO PINBOARD — full width, prominent -->
+        <div class="pinboard-hero">
+          <div class="pinboard-hero-header">
+            <div class="pinboard-hero-title">📌 Pinned Recipes</div>
+            <div class="pinboard-hero-count">9 pinned</div>
+          </div>
+
+          <!-- Pinned recipe cards as a scrollable rail -->
+          <div class="pinned-rail">
+            <div class="pinned-card">
+              <div class="pinned-card-img" style="background:linear-gradient(135deg,#4A3020,#7A5030);"></div>
+              <div class="pinned-card-label">Turkey Meatballs</div>
+            </div>
+            <div class="pinned-card">
+              <div class="pinned-card-img" style="background:linear-gradient(135deg,#C86040,#804020);"></div>
+              <div class="pinned-card-label">Miso Salmon</div>
+            </div>
+            <div class="pinned-card">
+              <div class="pinned-card-img" style="background:linear-gradient(135deg,#254020,#3A6028);"></div>
+              <div class="pinned-card-label">Ahi Poke Bowl</div>
+            </div>
+            <div class="pinned-card">
+              <div class="pinned-card-img" style="background:linear-gradient(135deg,#706020,#A08030);"></div>
+              <div class="pinned-card-label">Peanut Noodles</div>
+            </div>
+            <div class="pinned-card">
+              <div class="pinned-card-img" style="background:linear-gradient(135deg,#503010,#7A5030);"></div>
+              <div class="pinned-card-label">Egg Frittata</div>
+            </div>
+            <!-- Empty slots — dashed border, inviting -->
+            <div class="pinned-card-empty">
+              <div class="pinned-card-empty-icon">+</div>
+              <div class="pinned-card-empty-label">Add recipe</div>
+            </div>
+            <div class="pinned-card-empty">
+              <div class="pinned-card-empty-icon">+</div>
+              <div class="pinned-card-empty-label">Add recipe</div>
+            </div>
+          </div>
+
+          <!-- Primary CTA — clear label, full prominence -->
+          <div class="build-btn">Build this week →</div>
+        </div>
+
+        <!-- Calendar grid — below, still accessible -->
+        <div class="calendar-divider">
+          ↓ Week overview
+        </div>
+        <div class="calendar-grid">
+          <div class="cal-row">
+            <div class="cal-meal-label"></div>
+            <div class="cal-header cal-header-proposed">Day 1</div>
+            <div class="cal-header cal-header-proposed">Day 2</div>
+            <div class="cal-header cal-header-proposed">Day 3</div>
+            <div class="cal-header cal-header-proposed">Day 4</div>
+            <div class="cal-header cal-header-proposed">Day 5</div>
+            <div class="cal-header cal-header-proposed">Day 6</div>
+            <div class="cal-header cal-header-proposed">Day 7</div>
+          </div>
+          <div class="cal-row">
+            <div class="cal-meal-label">Bkfst</div>
+            <div class="cal-cell cal-cell-filled">🥚</div>
+            <div class="cal-cell cal-cell-filled">🥚</div>
+            <div class="cal-cell cal-cell-filled">🥚</div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+          </div>
+          <div class="cal-row">
+            <div class="cal-meal-label">Lunch</div>
+            <div class="cal-cell cal-cell-filled">🥗</div>
+            <div class="cal-cell cal-cell-filled">🥗</div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+          </div>
+          <div class="cal-row">
+            <div class="cal-meal-label">Dinner</div>
+            <div class="cal-cell cal-cell-filled">🍱</div>
+            <div class="cal-cell cal-cell-filled">🍱</div>
+            <div class="cal-cell cal-cell-filled">🍱</div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+            <div class="cal-cell cal-cell-empty-proposed"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <strong>What changed:</strong>
+      Pinboard takes the full page width and is the first thing you see.
+      Empty slots have dashed borders that signal "drop something here."
+      CTA is "Build this week →" — clear and confident.
+      Day labels are #EFE3CE — readable at a glance.
+    </div>
+  </div>
+
+</div>
+
+<div class="change-list">
+  <div class="change-item">
+    <div class="change-num">1</div>
+    <div class="change-text"><strong>Pinboard prominence:</strong> moved from narrow sidebar to full-width hero above the calendar. The planning board IS the page — it should look like it.</div>
+  </div>
+  <div class="change-item">
+    <div class="change-num">2</div>
+    <div class="change-text"><strong>CTA rename:</strong> "Weave the week →" → <strong>"Build this week →"</strong>. Keeps forward momentum, passes the non-power-user test.</div>
+  </div>
+  <div class="change-item">
+    <div class="change-num">3</div>
+    <div class="change-text"><strong>Empty slots:</strong> dashed-border cards with a "+" icon instead of invisible placeholder text. Users immediately understand these are droppable.</div>
+  </div>
+  <div class="change-item">
+    <div class="change-num">4</div>
+    <div class="change-text"><strong>Day label contrast:</strong> column headers shift from #3a3a38 (invisible on dark) to #EFE3CE warm linen. The week overview becomes scannable.</div>
+  </div>
+</div>
+
+</body>
+</html>

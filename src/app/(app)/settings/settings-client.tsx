@@ -1,9 +1,11 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle } from "lucide-react";
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle, BarChart2, Zap } from "lucide-react";
+import { UsageMeter } from "@/components/upgrade/UsageMeter";
 import { PaletteSwitcher } from "@/components/palette-switcher";
+import { ThemeStudio } from "@/components/theme-studio";
 import { useTheme } from "@/lib/theme-context";
 
 function Section({ icon, title, children }: { icon: React.ReactNode; title: string; children: React.ReactNode }) {
@@ -232,17 +234,150 @@ function PlaywrightFixerButton() {
   );
 }
 
-export function SettingsClient() {
+function CopyReferralLink() {
+  const [copied, setCopied] = useState(false);
+  const [referralCode, setReferralCode] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch('/api/billing/usage')
+      .then(r => r.json())
+      .then(d => setReferralCode(d.referral_code ?? null))
+      .catch(() => {});
+  }, []);
+
+  async function handleCopy() {
+    if (!referralCode) return;
+    const url = `${window.location.origin}/signup?ref=${referralCode}`;
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  if (!referralCode) return null;
+
+  return (
+    <button
+      onClick={handleCopy}
+      className="text-xs font-medium transition-colors"
+      style={{ color: copied ? "#7fba7f" : "#C97D2E" }}
+    >
+      {copied ? "Copied!" : "Copy invite link →"}
+    </button>
+  );
+}
+
+interface SettingsClientProps {
+  trackIntake: boolean;
+  userId: string | null;
+}
+
+export function SettingsClient({ trackIntake: initialTrackIntake, userId }: SettingsClientProps) {
   const { theme, setTheme } = useTheme();
+  const [trackIntake, setTrackIntake] = useState(initialTrackIntake);
+  const searchParams = useSearchParams();
+  const justUpgraded = searchParams.get("upgraded") === "1";
+
+  const [upgradeLoading, setUpgradeLoading] = useState(false);
+
+  async function handleUpgrade(plan: "monthly" | "annual") {
+    setUpgradeLoading(true);
+    try {
+      const res = await fetch("/api/billing/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ plan }),
+      });
+      if (!res.ok) throw new Error("checkout failed");
+      const { url } = await res.json();
+      window.location.href = url;
+    } catch {
+      setUpgradeLoading(false);
+    }
+  }
+
+  const toggleTrackIntake = async (val: boolean) => {
+    setTrackIntake(val);
+    if (!userId) return;
+    try {
+      const res = await fetch('/api/profile/track-intake', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ track_intake: val }),
+      });
+      if (!res.ok) setTrackIntake(!val);
+    } catch {
+      setTrackIntake(!val);
+    }
+  };
 
   return (
     <div>
+      {/* ── Plan & Billing ── */}
+      <Section icon={<Zap style={{ width: 16, height: 16 }} />} title="Plan & Billing">
+        {justUpgraded && (
+          <div
+            className="rounded-xl p-3 mb-4 text-sm"
+            style={{ background: "rgba(34,80,40,0.3)", border: "1px solid rgba(60,140,60,0.3)", color: "#7fba7f" }}
+          >
+            You&apos;re now a Pro Cook. Enjoy unlimited AI imports!
+          </div>
+        )}
+
+        <div className="mb-4">
+          <UsageMeter />
+        </div>
+
+        <div className="flex items-start justify-between gap-3 mb-3">
+          <div>
+            <p className="text-sm font-medium" style={{ color: "#EFE3CE" }}>Pro Cook</p>
+            <p className="text-xs mt-0.5" style={{ color: "#7A5A40" }}>
+              Unlimited imports · Household sharing · Cookbooks
+            </p>
+          </div>
+          <div className="flex flex-col gap-1.5 shrink-0">
+            <button
+              onClick={() => handleUpgrade("annual")}
+              disabled={upgradeLoading}
+              className="text-xs font-medium px-3 py-1.5 rounded-lg transition-colors disabled:opacity-60"
+              style={{ background: "#C97D2E", color: "#fff" }}
+            >
+              {upgradeLoading ? "…" : "$45/yr"}
+            </button>
+            <button
+              onClick={() => handleUpgrade("monthly")}
+              disabled={upgradeLoading}
+              className="text-xs px-3 py-1.5 rounded-lg transition-colors disabled:opacity-60"
+              style={{ background: "rgba(42,24,8,0.8)", border: "1px solid rgba(90,50,20,0.4)", color: "#A07050" }}
+            >
+              {upgradeLoading ? "…" : "$5/mo"}
+            </button>
+          </div>
+        </div>
+
+        <p className="text-xs" style={{ color: "#5A3A20" }}>
+          Cancel anytime. Annual plan saves 3 months vs monthly.
+        </p>
+
+        <div className="mt-4 pt-3" style={{ borderTop: "1px solid rgba(58,36,22,0.4)" }}>
+          <p className="text-xs mb-1.5" style={{ color: "#7A5A40" }}>Earn free months</p>
+          <p className="text-xs mb-2.5" style={{ color: "#5A3A20" }}>
+            Refer a friend who subscribes → you get 1 free month, they get 15% off.
+          </p>
+          <CopyReferralLink />
+        </div>
+      </Section>
+
       {/* ── Appearance ── */}
       <Section icon={<Palette style={{ width: 16, height: 16 }} />} title="Colour Palette">
         <p className="text-xs mb-4" style={{ color: "#7A5A40" }}>
           Choose a palette that sets the mood for your kitchen. Changes apply instantly everywhere.
         </p>
         <PaletteSwitcher />
+      </Section>
+
+      {/* ── Theme Studio ── */}
+      <Section icon={<Palette style={{ width: 16, height: 16 }} />} title="Theme Studio">
+        <ThemeStudio />
       </Section>
 
       {/* ── Theme ── */}
@@ -308,6 +443,31 @@ export function SettingsClient() {
       {/* ── Playwright Report Fixer ── */}
       <Section icon={<Wand2 style={{ width: 16, height: 16 }} />} title="Report Fixer">
         <PlaywrightFixerButton />
+      </Section>
+
+      {/* ── Nutritional Tracking ── */}
+      <Section icon={<BarChart2 style={{ width: 16, height: 16 }} />} title="Nutritional Tracking">
+        <p className="text-xs mb-4" style={{ color: "#7A5A40", lineHeight: 1.6 }}>
+          When enabled, meal plan macro cards become clickable and show a per-day per-person breakdown.
+          Only turn this on if nutritional tracking actively supports your goals.
+        </p>
+        <div className="flex items-center justify-between">
+          <span className="text-sm" style={{ color: trackIntake ? "#EFE3CE" : "#7A5A40" }}>
+            {trackIntake ? "Tracking enabled across all plans" : "Tracking off"}
+          </span>
+          <button
+            onClick={() => toggleTrackIntake(!trackIntake)}
+            className="relative w-10 h-6 rounded-full transition-colors"
+            style={{ background: trackIntake ? "#AEB873" : "#2A1E13", border: "1px solid #3A2A1A" }}
+            aria-label={trackIntake ? "Disable nutritional tracking" : "Enable nutritional tracking"}
+            aria-pressed={trackIntake}
+          >
+            <span
+              className="absolute top-0.5 h-5 w-5 rounded-full bg-white transition-transform"
+              style={{ transform: trackIntake ? "translateX(16px)" : "translateX(2px)" }}
+            />
+          </button>
+        </div>
       </Section>
 
       {/* ── Notifications placeholder ── */}

@@ -1,8 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Clock, Flame, Calendar, Utensils } from "lucide-react";
+import { X, Clock, Flame, Calendar, Utensils, Loader2 } from "lucide-react";
 import type { PlanTemplate } from "./new/plan-templates";
 
 interface Props {
@@ -12,14 +13,59 @@ interface Props {
 
 export function TemplatePreviewModal({ template, onClose }: Props) {
   const router = useRouter();
+  const [name, setName] = useState("");
+  const [creating, setCreating] = useState(false);
+  const [error, setError] = useState("");
+  const [openedId, setOpenedId] = useState<string | null>(null);
+
+  // Seed the editable name when a new template is opened (render-phase reset).
+  if (template && template.id !== openedId) {
+    setOpenedId(template.id);
+    setName(template.title);
+    setError("");
+    setCreating(false);
+  }
 
   const avgCalories = template
     ? Math.round(template.meals.reduce((s, m) => s + m.calories, 0) / template.meals.length)
     : 0;
 
-  function handleCreate() {
+  async function handleCreate() {
     if (!template) return;
-    router.push(`/plans/new?template=${template.id}`);
+    const trimmed = name.trim();
+    if (!trimmed) { setError("Give your plan a name."); return; }
+    setCreating(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/plans", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: trimmed,
+          dietary_tags: template.dietaryFilters,
+          tags: template.tags,
+          description: template.description,
+          duration_days: template.durationDays,
+          meals_per_day: template.mealsPerDay,
+          template_meals: template.meals.map((m) => m.title),
+          pinboard_filters: { diet: template.dietaryFilters },
+        }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        setError(data.error ?? "Failed to create plan.");
+        setCreating(false);
+        return;
+      }
+
+      const plan = await res.json();
+      router.push(`/plans/${plan.id}`);
+    } catch {
+      setError("Something went wrong. Please try again.");
+      setCreating(false);
+    }
   }
 
   return (
@@ -121,7 +167,7 @@ export function TemplatePreviewModal({ template, onClose }: Props) {
               </div>
 
               {/* Tags */}
-              <div className="flex flex-wrap gap-1.5 mb-5">
+              <div className="flex flex-wrap gap-1.5 mb-4">
                 {template.tags.map((tag) => (
                   <span
                     key={tag}
@@ -133,13 +179,34 @@ export function TemplatePreviewModal({ template, onClose }: Props) {
                 ))}
               </div>
 
+              {/* Name your plan */}
+              <label className="flex flex-col gap-1 mb-4">
+                <span className="text-xs font-bold uppercase tracking-wider" style={{ color: "var(--fg-tertiary)", opacity: 0.6 }}>
+                  Name your plan
+                </span>
+                <input
+                  type="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === "Enter" && !creating) handleCreate(); }}
+                  autoFocus
+                  className="px-3 py-2.5 rounded-xl text-sm focus:outline-none"
+                  style={{ background: "var(--bg-secondary)", border: "1px solid var(--wc-border-subtle, #3A2416)", color: "var(--fg-primary)" }}
+                />
+              </label>
+
+              {error && <p className="text-xs mb-2" style={{ color: template.accentColor }}>{error}</p>}
+
               {/* CTA */}
               <button
                 onClick={handleCreate}
-                className="w-full py-3 rounded-xl font-bold text-sm transition-all btn-primary-glow"
+                disabled={creating || !name.trim()}
+                className="w-full py-3 rounded-xl font-bold text-sm transition-all btn-primary-glow disabled:opacity-40"
                 style={{ background: template.accentColor, color: "#fff" }}
               >
-                Create this plan
+                {creating
+                  ? <span className="flex items-center justify-center gap-2"><Loader2 className="w-4 h-4 animate-spin" /> Creating…</span>
+                  : "Create plan →"}
               </button>
             </div>
           </motion.div>

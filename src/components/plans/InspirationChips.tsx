@@ -11,8 +11,10 @@ const CATEGORIES = ['cuisine', 'mood', 'season'] as const;
 
 export function InspirationChips({ selected, onToggle }: Props) {
   return (
-    <div className="flex flex-col gap-2 py-2">
-      <p className="text-xs uppercase tracking-wider" style={{ color: '#6B4E36' }}>Inspiration</p>
+    <div className="flex flex-col gap-2.5">
+      <p style={{ fontFamily: "var(--font-geist-mono, ui-monospace, monospace)", fontSize: 10, letterSpacing: '0.16em', textTransform: 'uppercase', color: '#6E573D' }}>
+        ✦ Inspiration
+      </p>
       {CATEGORIES.map(cat => (
         <div key={cat} className="flex flex-wrap gap-1.5">
           {INSPIRATION_TAGS.filter(t => t.category === cat).map(t => {
@@ -24,8 +26,8 @@ export function InspirationChips({ selected, onToggle }: Props) {
                 className="px-2.5 py-1 rounded-full text-xs border transition-all"
                 style={{
                   background: on ? '#E67E22' : 'transparent',
-                  borderColor: on ? '#E67E22' : '#3A2A1A',
-                  color: on ? '#1A120A' : '#8A6A4A',
+                  borderColor: on ? '#E67E22' : '#2A1E13',
+                  color: on ? '#0C0907' : '#9A7E5E',
                 }}
               >
                 {t.label}

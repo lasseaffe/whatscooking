@@ -7,6 +7,7 @@ import { PantryMatchSection } from "./pantry-match-section";
 import { QuickEasySection } from "./quick-easy-section";
 import { CuisineRotator } from "./cuisine-rotator";
 import { AllRecipesClient } from "../recipes/all-recipes-client";
+import { RecipeQuestionnaire } from "./recipe-questionnaire";
 import type { CuisineInfo } from "@/lib/cuisines";
 
 interface TrendingRecipe {
@@ -75,38 +76,44 @@ export function DiscoverFeedClient({
   cuisines: _cuisines, // now sourced inside CuisineRotator
   gridRecipes,
   gridTotal,
-  pantryNames: _pantryNames,
+  pantryNames,
   isLoggedIn,
 }: Props) {
   return (
     <div className="min-h-screen" style={{ background: "transparent" }}>
 
       {/* ── Desktop: 2-col grid (swiper left, feed right); Mobile: stacked ── */}
-      <div className="lg:grid lg:grid-cols-[480px_1fr] lg:items-start">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="lg:grid lg:grid-cols-[540px_1fr] lg:items-start">
 
-        {/* Left column: swiper stays sticky while right column scrolls */}
-        <div className="lg:sticky lg:top-0">
-          <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
+          {/* Left column: swiper stays sticky while right column scrolls */}
+          <div className="lg:sticky lg:top-0">
+            <HeroSwiper recipes={swipeRecipes as SwipeRecipe[]} />
+          </div>
+
+          {/* Right column on desktop / full-width below swiper on mobile */}
+          <div>
+            {/* ── 1b. Recipe Questionnaire ── */}
+            <RecipeQuestionnaire />
+
+            {/* ── 2. Trending Now ── */}
+            <TrendingSection recipes={trendingRecipes} totalCount={trendingTotal} />
+
+            {/* ── 3. Cook from Pantry (logged-in only) ── */}
+            {isLoggedIn && (
+              <PantryMatchSection
+                matches={pantryMatches}
+                totalMatchCount={pantryMatchTotal}
+                pantryItemCount={pantryItemCount}
+                pantryNames={pantryNames}
+              />
+            )}
+
+            {/* ── 4. Quick & Easy ── */}
+            <QuickEasySection recipes={quickRecipes} />
+          </div>
+
         </div>
-
-        {/* Right column on desktop / full-width below swiper on mobile */}
-        <div>
-          {/* ── 2. Trending Now ── */}
-          <TrendingSection recipes={trendingRecipes} totalCount={trendingTotal} />
-
-          {/* ── 3. Cook from Pantry (logged-in only) ── */}
-          {isLoggedIn && (
-            <PantryMatchSection
-              matches={pantryMatches}
-              totalMatchCount={pantryMatchTotal}
-              pantryItemCount={pantryItemCount}
-            />
-          )}
-
-          {/* ── 4. Quick & Easy ── */}
-          <QuickEasySection recipes={quickRecipes} />
-        </div>
-
       </div>
 
       {/* ── 5. World Cuisines (rotating regional slideshow) ── */}

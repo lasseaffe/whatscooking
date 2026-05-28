@@ -1,0 +1,2153 @@
+TITLE: Applesauce Spice Bran Muffins
+CURRENT_DESCRIPTION: this moist, delicious muffin can be made with dried cranberries, raisins or chopped dates.  i baked these up as 12 jumbo muffins but am posting the recipe for 24 regular muffins, as this is the size of pan most bakers have.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wheat bran, all-purpose flour, dried cranberries, ground cinnamon, baking powder, baking soda
+---
+TITLE: Applesauce Spice Bread
+CURRENT_DESCRIPTION: this is a delicious flavorful quick-bread that was one of the first things i made when i started baking. yummy! (note: i made it without the nuts and it came out just fine).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, applesauce, butter, dark brown sugar, granulated sugar, all-purpose flour
+---
+TITLE: Applesauce Spice Bundt Cake
+CURRENT_DESCRIPTION: this is an easy and quick bundt cake that will leave your house smelling wonderful -- of apples and spice, a great recipe for fall.  cake is moist and full of wonderful spicey rich flavor!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spice cake mix, eggs, cinnamon applesauce, walnuts, raisins, caramel icing
+---
+TITLE: Applesauce Spice Cake
+CURRENT_DESCRIPTION: very good cake that the whole family enjoys. recipe source: bon appetit (february 1985)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, applesauce, vegetable shortening, water, eggs
+---
+TITLE: Applesauce Spice Cake With Brown Sugar Icing
+CURRENT_DESCRIPTION: this wonderful cake is from canadian living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, eggs, vanilla, all-purpose flour, baking powder
+---
+TITLE: Applesauce Spice Cupcakes
+CURRENT_DESCRIPTION: this is a toh recipe. i've had it for several years now.  this recipe makes great snack muffins for the little kiddos.  it reminds me more of a quick bread than something cakey.  these freeze very well.  the original recipe calls for cream cheese frosting.  i however have never added the frosting.  the kiddos don't even notice. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla extract, flour, baking powder
+---
+TITLE: Applesauce Spice Muffins
+CURRENT_DESCRIPTION: of all the apple muffin recipes, this is one of the lightest and tastiest. it comes from thornbury, ontario, in the heart of georgian bay apple country.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, egg, all-purpose flour, baking powder, baking soda
+---
+TITLE: Applesauce Squash Souffle
+CURRENT_DESCRIPTION: originally from the boston globe's confidential chat in the 1960s.  my children weren't crazy about yams in any form so i used this squash recipe instead. i ended up having to double the recipe because they absolutely loved it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: squash, butter, light brown sugar, salt, unsweetened applesauce, eggs
+---
+TITLE: Applesauce Streusel Cake
+CURRENT_DESCRIPTION: the aroma is simply sinful that will fill your house while this is baking.  and the taste, oh yum.  dont let the long list of ingredients throw you off, it's very easy to put together and well worth it!  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking soda, cinnamon, allspice, light brown sugar, butter
+---
+TITLE: Applesauce Streusel Muffins
+CURRENT_DESCRIPTION: what a great way to use fresh apples!  the smell while the muffins are baking is heavenly!  you can replace the applesauce by apple butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, grape-nuts cereal, flour, ground cinnamon, vegetable oil, water
+---
+TITLE: Applesauce Topped Pork Loin Roast
+CURRENT_DESCRIPTION: really good recipe found in a magazine. makes a very sweet gravy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork loin roast, applesauce, brown sugar, vinegar, ground cloves, garlic clove
+---
+TITLE: Applesauce Waffles
+CURRENT_DESCRIPTION: these waffles make a yummy breakfast treat!  the recipe was clipped from the houston chronicle - not sure how old but the clipping is pretty-well yellowed!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, sugar, salt, eggs, milk
+---
+TITLE: Applesauce Wheat Germ Muffins
+CURRENT_DESCRIPTION: these are really moist on the inside with a slightly crunchy top. great with a cup of herbal tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached flour, wheat germ, baking powder, baking soda, salt, cinnamon
+---
+TITLE: Applesauce Whole Wheat Cake
+CURRENT_DESCRIPTION: full of flavour and delicious, keeps well. from cooking smart by anne lindsay
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, egg, plain yogurt, applesauce, orange rind
+---
+TITLE: Applesauce With Cranberry Loaf Cake
+CURRENT_DESCRIPTION: base recipe was found in the all you magazine but i've tweaked it to make it my own.  this is a full flavored cake with a lemony glaze topping which i found to take this cake just over the top of expectations.  of course you can omit the glaze and just serve as a loaf cake for breakfast.  the original recipe does not include nuts but i really enjoyed it with some chopped walnuts so i've placed that as optional to this recipe. it also called for raisins but i used craisins instead.  please note it is very important to use a thicker applesauce for this recipe - using a thin commercial canned sauce can cause the batter to become too thin and not allow the cake loaf to rise properly while baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, sugar, egg, baking soda, unsweetened applesauce, all-purpose flour
+---
+TITLE: Applesauce With Strawberries
+CURRENT_DESCRIPTION: easy and delicious. from dave lieberman and the food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mcintosh apples, frozen strawberries, sugar, lemon, juice of, water, allspice
+---
+TITLE: Applescotch Crisp
+CURRENT_DESCRIPTION: from john willingham's world champion bar-b-q cookbook.  this uses butterscotch pudding mix in the topping.  sounds different and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apples, flour, brown sugar, water, milk, all-purpose flour
+---
+TITLE: Appletorte  Scandinavian Apple Cake
+CURRENT_DESCRIPTION: this is very easy and delicious.  use cortland, rome, golden delicious or mcintosh apples.  by mark bittman.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, baking powder, ground cinnamon, flour, butter, sugar
+---
+TITLE: Applets And Cotlets  Old Fashioned Candy  Like Persian Delights
+CURRENT_DESCRIPTION: found in a search and posted in response to a request to add this recipe to the zaar database.  i have not made this recipe so times are a guess-timate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unflavored gelatin, applesauce, sugar, walnuts, vanilla, powdered sugar
+---
+TITLE: Applewiches
+CURRENT_DESCRIPTION: this recipe is from kids in the kitchen #2 cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut butter, butter, cinnamon, toast, apples, brown sugar
+---
+TITLE: Applewood Farmhouse Apple Fritters
+CURRENT_DESCRIPTION: these fantastic apple fritters accompany each meal at the applewood farmhouse restaurant in sevierville, tennesee. roll warm fritters in powdered sugar and serve immediately with cold glasses of milk!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, sugar, eggs, milk, vegetable oil, apples
+---
+TITLE: Applewood Farmhouse Hot Fudge Pie
+CURRENT_DESCRIPTION: this recipe comes from the applewood farmhouse restaurant in tennesse.  i love the atmosphere of the restaurant and their food is so good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, pecans, butter, vanilla, semisweet chocolate, salt
+---
+TITLE: applicious cream cheese pie
+CURRENT_DESCRIPTION: mmm-mmm-good! an old fashioned apple pie with a delicious twist - cream cheese filling and a cheddar crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, powdered sugar, egg, lemon juice, pure maple syrup, pecans
+---
+TITLE: Applicious Cream Cheese Pie
+CURRENT_DESCRIPTION: mmm-mmm-good! an old fashioned apple pie with a delicious twist - cream cheese filling and a cheddar crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, powdered sugar, egg, lemon juice, pure maple syrup, pecans
+---
+TITLE: Approximately  Aurelio S Pizza And Pasta Sauce
+CURRENT_DESCRIPTION: aurelio's sauce has been a family secret since joe aurelio opened his first restaurant in homewood, illinois, in 1959.  some people call the sauce sweet, but i would describe it as mild and tomatoey.  there is some controversy over whether the sauce actually contains beer or not.  this is the recipe we have found to be closest to the original.  if you don't wish to use beer, a little malt extract will add the same flavor.
+thanks to handsomeg and gaga at pizzamaking.com for some clues that led me to create this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato puree, beer, white sugar, garlic powder, dried basil, dried oregano
+---
+TITLE: Appy Wappy Crab Balls
+CURRENT_DESCRIPTION: these little gems go over well at any social gathering
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabmeat, soft breadcrumbs, egg, hot sauce, mayonnaise, green onions
+---
+TITLE: Apri-Teri Chops Or Chicken
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 boneless chicken breasts or legs with bone, 4 pork chops or boneless cutlets, 1/4 to 1/2 c. flour, 2 Tbsp. vegetable oil for browning, 2/3 c. water, 1/4 c. soy sauce
+---
+TITLE: Apricot   Blueberry Crumble Cake
+CURRENT_DESCRIPTION: this crumble cake is great for a picnic, dessert, or for afternoon tea with friends.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, superfine sugar, self-raising flour, baking powder, eggs, milk
+---
+TITLE: Apricot   Cumin Stuffed Pork For Two
+CURRENT_DESCRIPTION: spoil your valentine with something a little bit special for dinner!  this recipe courtesy of bbc's good food magazine. *make sure your pan is hot before you start to brown the fillet, this will avoid over cooking it too much before it goes into the oven.
+
+
+
+courtesy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cumin seed, dried apricots, pork fillets, salt & freshly ground black pepper, sunflower oil, marsala
+---
+TITLE: Apricot   Mint Lamb Burgers W  Green Mayonnaise
+CURRENT_DESCRIPTION: these burgers are absolutely to die for!  an interesting twist to an ordinary meal. as you're prepping the patties they may seem a litle loose but don't worry, they will hold together, just be gentle! mayo can be made mixing by hand if you do not have a food processor, just make sure you chop everything really good before mixing.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground lamb, canned apricots, garlic cloves, red onion, of fresh mint, salt
+---
+TITLE: Apricot  Banana And Buttermilk Bread
+CURRENT_DESCRIPTION: from sanitarium, great for the lunch boxes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, wholemeal self-rising flour, baking powder, bicarbonate of soda, salt, ground cinnamon
+---
+TITLE: Apricot  Berry  And Jicama Salad With Honey Lime Dressing
+CURRENT_DESCRIPTION: i made this today without the jicama (couldn't find it at the grocery store, so i'll look somewhere else tomorrow!) this is excellent, esp. the dressing. very summery! (found at epicurious.com)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, strawberry, fresh blueberries, fresh raspberry, jicama, jalapeno chiles
+---
+TITLE: Apricot  Carrot And Goji Berry Marmalade
+CURRENT_DESCRIPTION: a lovely preserve which would be totally healthy if it weren't for the sugar!  a great gift when canned correctly in nice kilmner jars
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, carrots, water, goji berries, sugar, orange, juice of
+---
+TITLE: Apricot  Chocolate  And Walnut Scones
+CURRENT_DESCRIPTION: with valentine's day coming up i just had to share this scrumptious-looking recipe for heart-shaped scones. i plan on trying it very soon using margarine and soy milk in place of the heavy cream! i got this from care2.com's eat well naturally newsletter. they also say you can make the dough hearts ahead of time and freeze them, then bake the frozen dough hearts 20 to 25 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, baking powder, salt, unsalted butter, heavy cream
+---
+TITLE: Apricot  Coconut And Almond Bars
+CURRENT_DESCRIPTION: these bars are packed with fruits and nuts and oats-granola to go! from food & wine magazine(oct. 2005).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, dried apricots, unsalted butter, brown sugar, honey
+---
+TITLE: Apricot  Cornmeal And Sage Cookies
+CURRENT_DESCRIPTION: a fellow church members brought these delightfully different cookies last sunday for coffee hour after service.  she advised it came from the feb 1997 issue of gourmet magazine.  they are pretty on a plate and delicious on yur taste buds!  a very nice change from the usual cookie!  if this recipe interests you, please check out my recipe #318289 .
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, sugar, egg, all-purpose flour, baking soda, dried apricot
+---
+TITLE: Apricot  Cranberry   Almond Stuffed Brie
+CURRENT_DESCRIPTION: this is a wonderful elegant fall appetizer. serve with assorted crackers. so quick and so easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, apricot preserves, dried cranberries, sliced almonds, brie cheese
+---
+TITLE: Apricot  Fig And Yogurt Swirl
+CURRENT_DESCRIPTION: this came from a little booklet called
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain yogurt, dried apricots, dried figs, water, vanilla bean, star anise pods
+---
+TITLE: Apricot Almond Bars
+CURRENT_DESCRIPTION: it's hard to keep these bars around!!!  very sweet and delicious!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, flour, vanilla, apricot preserves, egg whites
+---
+TITLE: Apricot Almond Biscotti
+CURRENT_DESCRIPTION: this one is for my cookbook. from heart healthy cooking by becel
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, baking soda, salt, dried apricot, toasted almond
+---
+TITLE: Apricot Almond Bread   Breadmaker 1 1 2 Lb  Loaf
+CURRENT_DESCRIPTION: this recipe comes from fleischmann's yeast company.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot baby food, water, egg, butter, salt, bread flour
+---
+TITLE: Apricot Almond Bundt Cake
+CURRENT_DESCRIPTION: this recipe was passed on to me many years ago by another bundt cake enthusiast! i use the all-fruit variety of apricot preserves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, granulated sugar, eggs, almond extract, all-purpose flour, baking powder
+---
+TITLE: apricot almond buns
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, brown sugar, salt, yeast, milk, water
+---
+TITLE: Apricot Almond Cake With Rosewater   Cardamom
+CURRENT_DESCRIPTION: this is my idea of a perfect cake: simple, beautiful, fragrant and beguiling. i’ve been making this sort of cake, in one form or another, since my clementine cake in how to eat, and i can’t help but feel, with a certain calm excitement, that it has reached its apogee here. one of the things that makes this so easy, is that you can throw all the ingredients into a food processor. but if you don’t have one, simply chop the prepared dried apricots and cardamom seeds very finely and then beat together with the remaining cake ingredients. (recipe courtesy simply nigella)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, cold water, cardamom pods, ground almonds, polenta, baking powder
+---
+TITLE: Apricot Almond Chicken
+CURRENT_DESCRIPTION: from quick cooking!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, long grain brown rice, onion, green pepper, sweet red pepper, salt
+---
+TITLE: Apricot Almond Chocolate Balls
+CURRENT_DESCRIPTION: this recipe comes from the jewish holiday feasts cookbook and is a recipe for purim. all times are guesstimates and do not include cool times. these are wonderful as candy or cookies, after dinner or with wine. kids can help roll up the dough into balls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, almonds, bittersweet chocolate, sugar, water, confectioners
+---
+TITLE: Apricot Almond Cinnamon Jam
+CURRENT_DESCRIPTION: i just made this up. i wanted something different than the usual apricot jam so i added some almond extract and cinnamon. when you open the jar you can smell the almond but it isn't overpowering. they both are mostly a background taste. it is a softer jam but not syrupy. great on bread with peanut butter. update: it did jell up after about a month.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, certo, sugar, almond extract, cinnamon, butter
+---
+TITLE: Apricot Almond Coffee Cake
+CURRENT_DESCRIPTION: this cake is one of my family's all-time favorite cakes! you will need a purchased pound cake mix for this recipe. use my recipe for really easy and good creamy white glaze #120835 or use your favorite glaze recipe..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, apricot preserves, poundcake mix, sour cream, half-and-half cream, eggs
+---
+TITLE: Apricot Almond Cream Cheese Squares
+CURRENT_DESCRIPTION: i got this recipe from my girlfriend, after tasting this at her house party, i have been making these bars ever since, they are so delicious, and very rich, also, i have made these for parties, cut them small and served them in tiny muffin cups....i have never had any leftover. also, i have used this base mix recipe, omiting the preserves of course, in lots of other recipes that call for a base, it always turns out flakey and light, with a wonderful buttery taste! (note: prepare ahead, these squares have to stay in the fridge overnight)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, butter, almonds, apricot preserves, cream cheese, sugar
+---
+TITLE: Apricot Almond Muesli
+CURRENT_DESCRIPTION: an all natural muesli packed with nutrients, energy, and flavor. you can mix up the ingredients easily, and it will keep for a long time for convenient breakfasts on the go. from "the greatest ever vegetarian cookbook."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, dried apricot, rolled oats, bran flakes, raisins, pumpkin seeds
+---
+TITLE: Apricot Almond Oatmeal
+CURRENT_DESCRIPTION: i eat oatmeal 3 or 4 times a week and find myself looking for new ways to add flavor and interest without adding a lot of calories. this morning's experiment was worth sharing. feel free to adjust to your dietary and taste preferences.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oatmeal, water, almond extract, dried apricot halves, plain nonfat yogurt, splenda sugar substitute
+---
+TITLE: apricot almond orange tart with white chocolate cream
+CURRENT_DESCRIPTION: a delicious dessert, not too sweet, drizzled with white chocolate cream. what's not to love?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, ground cinnamon, salt, brown sugar, butter, egg yolk
+---
+TITLE: Apricot Almond Orange Tart With White Chocolate Cream
+CURRENT_DESCRIPTION: a delicious dessert, not too sweet, drizzled with white chocolate cream. what's not to love?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, ground cinnamon, salt, brown sugar, butter, egg yolk
+---
+TITLE: Apricot Almond Quinoa
+CURRENT_DESCRIPTION: gluten free...wonderful side dish or salad.
+http://dosesofnourishment.blogspot.com/2010/02/living-gluten-free.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quinoa, zucchini, dried apricot, sesame oil, toasted almond, fresh parsley
+---
+TITLE: Apricot Almond Rum Pound Cake
+CURRENT_DESCRIPTION: i got this recipe from my mom's recipe collection. flecked with apricot bits and flavored with rum and almonds, this is a moist and delicious pound cake. the recipe calls for light rum, but i have used dark rum and it was just as delicious. if you have the willpower, the cake tastes even better if wrapped when cool, and left overnight before cutting. i didn't name the recipe, but i don't know if i would classify this as a pound cake as it is quite light, just a bit denser than an angel food cake imho.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, ground almonds, dried apricot, light rum, almond paste, sugar
+---
+TITLE: Apricot Almond Scones
+CURRENT_DESCRIPTION: these are great with apricots but you can use any dried fruit you want.
+make sure the butter is cold or the scones will be tough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, butter, almonds, sugar, baking soda
+---
+TITLE: Apricot Almond Shortbread Bars
+CURRENT_DESCRIPTION: if you like rich, buttery cookies, you'll like these! i got this recipe from the ladies home journal, june 1990 issue.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg yolks, vanilla extract, almond extract, all-purpose flour
+---
+TITLE: Apricot Almond Stuffing
+CURRENT_DESCRIPTION: i have been in search of a good stuffing recipe that could be served any day of the week but does not taste similar to the usual bread/sage thanksgiving stuffing.  after trying several different stuffing recipes, i began to adjust ingredients and to try several new ingredients that i thought would enhance the flavor.  i eventually came up with this apricot almond stuffing.  it's very tasty with a unique flavor all it's own....perfect for any day of the week, or for that special side dish when company is over, whether you're serving beef or pasta or poultry as the main course.  and this is just such a tasty stuffing that i know it's just a matter of time before i eventually replace my traditional bread/sage stuffing at our annual thanksgiving dinner with this apricot almond stuffing.  (i don't want to invoke an impromptu riot within my family by venturing away from my family's traditional thanksgiving menu, so i'll preserve family tradiition by offering grandma's homemade stuffing every thanksgiving for the sake of family peace...at least for the time being.)  you can use this to stuff any bird, too.  i prefer chicken, but i assume it would go well with turkey or even game hens as well.  i hope you like it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: croissants, onion, sliced almonds, tarragon, thyme, parsley
+---
+TITLE: Apricot Almond Tartlets
+CURRENT_DESCRIPTION: a delightful pastry fit for a queen!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, granulated sugar, orange zest, butter, egg white, almond paste
+---
+TITLE: Apricot Almond Upside Down Cake
+CURRENT_DESCRIPTION: the runner-up recipe for 2004 in the san francisco chronicle, adapted by janet fletcher from a recipe from pastry chef sasha crehan.  try to find blenheim apricots as they are more fragrant.  peeled, fresh peaches are a good substitute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light brown sugar, apricots, all-purpose flour, baking powder, salt, unsalted butter
+---
+TITLE: Apricot Amaretto Jam
+CURRENT_DESCRIPTION: i haven't made this yet. my swap partner vegemight sent me the jam cookbook from australia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, water, orange rind, fresh orange juice, fresh lemon juice, sugar
+---
+TITLE: Apricot Ancho Barbecue Glaze
+CURRENT_DESCRIPTION: submitted by the culinary institute of america - low cholesterol, low-fat, and gluten-free.
+
+couldn't pass this up as i love ancho chilies for their earthy depth of flavor vs. heat and the combination of chilies and apricots sounded delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, yellow onions, garlic, ketchup, orange juice, dark brown sugar
+---
+TITLE: apricot and almond bread  gluten  dairy and egg free
+CURRENT_DESCRIPTION: this is one of my kids real favourites. i'll often throw in more apricots and almonds than the recipe calls for.
+this is a large loaf and can be reduced in size by multiplying all ingredients by 2/3 and reducing the cooking time by 10 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, canola oil, vinegar, brown rice flour, besan, rice flour
+---
+TITLE: Apricot And Almond Bread  Gluten  Dairy And Egg Free
+CURRENT_DESCRIPTION: this is one of my kids real favourites. i'll often throw in more apricots and almonds than the recipe calls for.
+this is a large loaf and can be reduced in size by multiplying all ingredients by 2/3 and reducing the cooking time by 10 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, canola oil, vinegar, brown rice flour, besan, rice flour
+---
+TITLE: Apricot And Almond Snack Cake
+CURRENT_DESCRIPTION: this is a nice light coffee cake that has a wonderful almond flavor and the apricot preserves adds the right amount of sweet/tart. it's also a nice presentation with the ribbon of almonds and preserved in the middle. enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, sour cream, almond extract, all-purpose flour
+---
+TITLE: Apricot And Almond Stew With Rice
+CURRENT_DESCRIPTION: this is an iraqi dish thought to have originated in iran.  it's tangy and sweet and is a special treat in my family.  i have not included the directions for making the rice as i sometimes use a rice cooker and at other times i make it steamed the traditional way.  either way is fine.
+sour salt, also called citric acid crystals looks like sugar and can be found in most stores.  careful, it is very potent.
+the weight of the apricots is a guess.  it is one box or bag of dried apricots as packaged in the stores.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, water, onion, sugar, slivered almonds, tomato paste
+---
+TITLE: Apricot And Almond Tart
+CURRENT_DESCRIPTION: this is a tart which i learned in paris.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, icing sugar, butter, egg, dried apricots, brandy
+---
+TITLE: Apricot And Cashew Stuffed Chicken Breast
+CURRENT_DESCRIPTION: serve with vegetables or salad to make a complete meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, onion, raw cashews, parsley, dried apricots, almond meal
+---
+TITLE: Apricot And Chevre Muffins
+CURRENT_DESCRIPTION: a buttery mixture of apricots and fresh thyme are combined with goat cheese and a handful of other ingredients to make these moist muffins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, butter, shallot, dried apricot
+---
+TITLE: Apricot And Chicken Bruschetta
+CURRENT_DESCRIPTION: a wonderful appetizer to prepare when you are in a hurry - use a rotisserie chicken from the deli. a giada de laurentiis recipe from everyday italian. these are so good & come together very easily! i prefer using white meat chicken but any that you like is fine. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ciabatta, olive oil, apricot preserves, crushed red pepper flakes, fontina cheese, roasted chicken breast
+---
+TITLE: Apricot And Coconut Balls
+CURRENT_DESCRIPTION: easy and yummy treat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-bran cereal, hot water, dried apricot, sweetened condensed milk, desiccated coconut
+---
+TITLE: Apricot And Coconut Biscuits
+CURRENT_DESCRIPTION: apricot and coconut biscuits
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, butter, syrup, sugar, self-raising flour, desiccated coconut
+---
+TITLE: Apricot And Coconut No Bake Squares
+CURRENT_DESCRIPTION: rich and delicious no-bake squares. everyone loves these and they are easy to keep on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cookies, dried apricot, coconut, sweetened condensed milk, butter, milk chocolate chips
+---
+TITLE: Apricot And Date Chutney
+CURRENT_DESCRIPTION: this is a great chutney. it's simple to make and goes well with any cold meats, grilled chops, curries or grilled chicken. it has no flour or gluten containing ingredients. great for a gift. if you like chillies you can add a chopped fresh chilli
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, sultanas, white vinegar, brown sugar, dates, candied ginger
+---
+TITLE: Apricot And Ginger Scones
+CURRENT_DESCRIPTION: this is an english recipe, from prue leith's column in the daily mail. i love the ginger cream that makes these scones really special. perfect for afternoon tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-raising flour, salt, butter, caster sugar, dried apricots, milk
+---
+TITLE: Apricot And Hazelnut Bran Cake
+CURRENT_DESCRIPTION: from diabetes australia the ultimate diabetes cookbook in response to a request for diabetic friendly recipes with nuts.  times are estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, low-fat milk, all-bran cereal, wholemeal self-rising flour, brown sugar, dried peaches
+---
+TITLE: Apricot And Lavender Marmalade
+CURRENT_DESCRIPTION: great breakfast treat on croissants.recipe from provence
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, caster sugar, lemon, juice of, honey, dried lavender flowers
+---
+TITLE: Apricot And Lime Chutney Relish
+CURRENT_DESCRIPTION: i have an over excited fruit tree out the back and i made this up. quite tasty
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, raw sugar, red onion, garlic cloves, tomatoes, lime juice
+---
+TITLE: Apricot And Mint Fish
+CURRENT_DESCRIPTION: white fish fillets with apricot and mint sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white fish fillets, apricot nectar, french onion soup mix, lemon juice, of fresh mint
+---
+TITLE: Apricot And Muesli Sesame Balls
+CURRENT_DESCRIPTION: this is something my granddaughter made when she was staying with me before xmas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, cold water, ground cinnamon, ground nutmeg, ground cardamom, sesame seeds
+---
+TITLE: Apricot And Orange Cream  Cream Aux Abricots Et Oranges
+CURRENT_DESCRIPTION: "a smooth fruit cream with a refreshing taste"
+recipe taken from popular french cookbook by mary berry - 1972 edition
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot, sugar, water, oranges, gelatin powder, heavy cream
+---
+TITLE: Apricot And Pecan Stuffed Pork Loin
+CURRENT_DESCRIPTION: delicious yet suprisingly simple to make. has a wonderfull taste and makes an elegant presentation too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, pecans, garlic, salt, fresh ground pepper, fresh thyme
+---
+TITLE: apricot and pistachio baklava with orange cardamom syrup
+CURRENT_DESCRIPTION: i love baklava and this take on the traditional gets a bit of tang from the citrus. this should be kept at room temerature.  tip: use california apricots for a tart, pronounced apricot flavor or turkish apricots for a sweeter, mellow flavor. from fine cooking
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, pistachios, dried apricots, granulated sugar, unsalted butter, orange juice
+---
+TITLE: Apricot And Pistachio Baklava With Orange Cardamom Syrup
+CURRENT_DESCRIPTION: i love baklava and this take on the traditional gets a bit of tang from the citrus. this should be kept at room temerature.  tip: use california apricots for a tart, pronounced apricot flavor or turkish apricots for a sweeter, mellow flavor. from fine cooking
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, pistachios, dried apricots, granulated sugar, unsalted butter, orange juice
+---
+TITLE: Apricot And Raisin Butter Cake
+CURRENT_DESCRIPTION: a moist and delicious cake. i prefer this than traditional mixed peel cakes. this is wonderful with a cup of hot tea (which i just had). prep time includes 2 hours of soaking time for the apricots and raisins. tips: if you're making the whole recipe, you may use a bundt pan. if halving the recipe, use a 8" square or round pan. if you're pressed for time, you can heat the dried fruits in brandy in the microwave on low, stirring every for 30 secs until warmed and fruits are soft. to chop the apricots finely, i use a kitchen shears.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, dried apricots, brandy, cake flour, baking powder, salt
+---
+TITLE: Apricot And Raisin Fruit Bars
+CURRENT_DESCRIPTION: delicious and easy fruit bars that make good use of your food processor. these bars have a very intense not-too-sweet apricoty flavor, so are best if cut into small squares.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, powdered sugar, salt, dried apricot halves, raisins
+---
+TITLE: Apricot And Sweet Chilli Chicken Hot Pot
+CURRENT_DESCRIPTION: i found this recipe from campbells, a great quick and easy warming dinner for a cold night and you can use whatever vegetables you have on hand. . very nice served with rice, and next time i am going to try it in the crock pot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, chicken breast fillets, chicken stock, dried apricots, assorted fresh vegetables, sweet chili sauce
+---
+TITLE: Apricot And Tarragon Baby Carrots
+CURRENT_DESCRIPTION: i serve these carrots often.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby carrots, unsalted butter, salt, apricot preserves, honey, fresh tarragon leaves
+---
+TITLE: Apricot Angel Brownies
+CURRENT_DESCRIPTION: here's something a bit different for the brownie fan who's willing to step away from milk or dark chocolates! the recipe was found in taste of home's chocolate lover's cookbook, volume 2, 2003!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white chocolate baking squares, unsalted butter, brown sugar, eggs, vanilla extract, all-purpose flour
+---
+TITLE: Apricot Applesauce   Jewish
+CURRENT_DESCRIPTION: this recipe -- for hanukkah -- was found in the2008 cookbook, jewish holiday cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, apple juice, vanilla bean, fresh ginger, salt, apples
+---
+TITLE: Apricot Baked Ham
+CURRENT_DESCRIPTION: my mom used to make this sometimes for sunday meals when i was a child.  it is great and not difficult to make at all.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked ham, cloves, apricot preserves, prepared mustard, brown sugar
+---
+TITLE: apricot baklava
+CURRENT_DESCRIPTION: this is my first attempt at working with filo and i ruined a couple of sheets before getting the hang of it.  i wanted to do a dessert and this seemed like a natural.  i actually made 4 different flavors but the one everyone liked the best is the one i will post.  1. vanilla  2.  vanilla and brown sugar 3. coconut  4. coconut and brown sugar.  the apricot flavored white wine i used was fetzer's gewurztraminer. uh huh, uh huh......  for white sugar, i use bakers sugar - it's a little finer and dissolves faster.
+time does not include soaking raisins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, white wine, dried apricots, cinnamon, white sugar, cashews
+---
+TITLE: Apricot Baklava
+CURRENT_DESCRIPTION: this is my first attempt at working with filo and i ruined a couple of sheets before getting the hang of it.  i wanted to do a dessert and this seemed like a natural.  i actually made 4 different flavors but the one everyone liked the best is the one i will post.  1. vanilla  2.  vanilla and brown sugar 3. coconut  4. coconut and brown sugar.  the apricot flavored white wine i used was fetzer's gewurztraminer. uh huh, uh huh......  for white sugar, i use bakers sugar - it's a little finer and dissolves faster.
+time does not include soaking raisins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, white wine, dried apricots, cinnamon, white sugar, cashews
+---
+TITLE: Apricot Balsamic Glazed And Grilled Chicken
+CURRENT_DESCRIPTION: from rachael ray's sept. '08 "everyday" magazine, so you know it's savory and simple--all at once.    her recipe called for apricot preserves, but i'm using up mil's peach jam, and we loved it just fine.    also, i used only 2 chicken breast halves (paillard-cut) for four of us and we had leftovers (our chickens are very large!), so adjust the recipe up or down accordingly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple juice, apricot preserves, balsamic vinegar, olive oil, chicken breast halves, salt & pepper
+---
+TITLE: Apricot Balsamic Glazed Salmon
+CURRENT_DESCRIPTION: this is a wonderfully simple and tasty recipe from the oct/nov 2004 issue of cooking pleasures magazine.  it's so good i don't bother making salmon any other way.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, balsamic vinegar, gingerroot, garlic, salt, salmon fillets
+---
+TITLE: Apricot Balsamic Skillet Chicken
+CURRENT_DESCRIPTION: a tasty and easy chicken entree that can be put together quickly from pantry/fridge items - my kind of dinner!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, fresh thyme, boneless skinless chicken breasts, salt and pepper, apricot jam
+---
+TITLE: Apricot Banana Bread
+CURRENT_DESCRIPTION: this is a really nice twist on the traditional banana bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, banana, buttermilk, flour
+---
+TITLE: Apricot Banana Squares
+CURRENT_DESCRIPTION: several years ago great-grandma passed away and i inherited her collection of handwritten recipes. this is one of those receipes. another use for ripe bananas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, brown sugar, apricot preserves, eggs, vanilla, flour
+---
+TITLE: Apricot Barbecue Sauce For Ham
+CURRENT_DESCRIPTION: from family recipe collection. contributed by aunt dorothea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot nectar, cornstarch, red wine vinegar, light brown sugar, apricot preserves, catsup
+---
+TITLE: Apricot Barbecued Chicken
+CURRENT_DESCRIPTION: this looks so scrumptious and sweet, i can't wait to try it. it's from the jan/feb issue of taste of home's quick cooking magazine, and it's supposed to be very kid-friendly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, garlic, olive oil, apricot preserves, barbecue sauce, water
+---
+TITLE: Apricot Barley Casserole
+CURRENT_DESCRIPTION: very easy to throw together this bakes while you prepare the rest of the meal. especially good with poultry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pine nuts, butter, pearl barley, scallion, chicken broth, dried apricot
+---
+TITLE: Apricot Bars
+CURRENT_DESCRIPTION: i always liked apricots and its high nutritional value. this recipe came from recumbent-bikes-trut-for-you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot, almonds, walnuts, honey, wheat germ, flour
+---
+TITLE: Apricot Bars With Shortbread Crust
+CURRENT_DESCRIPTION: a moist apricot-walnut layer on top of a light buttery shortbread crust. the crust for these bars must be made on a processor. these are wonderful to serve to guests! the apricot filling can be prepared hours in advance. yield is only estimated depending on the size of bars. cooking time is for the filling and crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, butter, dried apricots, baking powder
+---
+TITLE: Apricot Bbq Sauce
+CURRENT_DESCRIPTION: cost to make this bbq sauce is $1.76. i found this recipe in family circle magazine. i have not tried this recipe, but i'm posting it for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, apricot preserves, cider vinegar, onion, garlic cloves, worcestershire sauce
+---
+TITLE: Apricot Beer Bread
+CURRENT_DESCRIPTION: apricot adds a new twist to beer bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, sugar, vegetable oil, beer
+---
+TITLE: Apricot Bellinis
+CURRENT_DESCRIPTION: you can replace the canned apricots with 12 fresh apricots.  apricots are in season in june.  can substitute the sparkling wine/champagne for 2 (12-ounce) cans ginger ale or lemon-lime soda.  from southern living, april 2005 on myrecipes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot halves, apricot nectar, sugar, ice, sparkling wine, mint sprig
+---
+TITLE: apricot biscotti
+CURRENT_DESCRIPTION: another great find on american  - i like chewy biscotti so i only cook it once.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, unsalted butter, sugar, lemon, rind of, eggs, vanilla extract
+---
+TITLE: Apricot Biscotti
+CURRENT_DESCRIPTION: another great find on american  - i like chewy biscotti so i only cook it once.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, unsalted butter, sugar, lemon, rind of, eggs, vanilla extract
+---
+TITLE: Apricot Bran Honey Cakes
+CURRENT_DESCRIPTION: these are baked in individual ramekins and eaten from the dish with a spoon. mmmm good! adapted from cooking light(jan/2006)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, butter, apricot nectar, honey, flour, oat bran
+---
+TITLE: Apricot Bran Muffins Fat Free
+CURRENT_DESCRIPTION: recipe using non fat buttermilk.  this recipe is from sandra woodruff rd. fat frees baking cookbook,  and posted for another interested zaar chef.  have not tried it myself.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wheat bran, fat-free buttermilk, unbleached flour, baking soda, brown sugar, egg whites
+---
+TITLE: Apricot Brandy Balls
+CURRENT_DESCRIPTION: from marshalltown iowa cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, coconut, sweetened condensed milk, apricot brandy, powdered sugar
+---
+TITLE: Apricot Brandy Chicken
+CURRENT_DESCRIPTION: this is a super simple quick recipe to make, it tastes wonderful and the sauce goes really well with the chicken. we all enjoyed it very much and both my son and husband thought it was moreish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, brandy, apricot jam, water, instant chicken bouillon granules, whole grain mustard
+---
+TITLE: Apricot Brandy Pound Cake
+CURRENT_DESCRIPTION: a real suprise. always a treat. best if aged two days or so.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, margarine, eggs, flour, baking soda, salt
+---
+TITLE: Apricot Bread
+CURRENT_DESCRIPTION: delicious apricot bread
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, apricot, egg whites, nonfat milk, butter
+---
+TITLE: Apricot Bread Pudding
+CURRENT_DESCRIPTION: dried apricots and a hint of cardamom make this old favorite into something special.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, sugar, vanilla, dry bread, dried apricot halves
+---
+TITLE: Apricot Bread Scrumptious
+CURRENT_DESCRIPTION: my sister made this for me and gave me the recipe last year.
+it's just plain scrumptious! 
+from the inn at maranatha ranch, alvarado, tx
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, sugar, flour, orange juice, water, eggs
+---
+TITLE: Apricot Breakfast Cake
+CURRENT_DESCRIPTION: an easy cake – not too big – deliciously flavoured and moist.  perfect to have over the weekend with endless cups of steaming tea and coffee.  developed for rsc #6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, tea bag, ground coriander, butter, sugar, salt
+---
+TITLE: Apricot Bundt Cake
+CURRENT_DESCRIPTION: this is so moist and delicious.  it takes just minutes to prepare - and disappears almost as fast.  enjoy with a scoop of vanilla ice cream!  from my cousin lisa who definitely knows how to bake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, apricot gelatin, eggs, apricot nectar, vegetable oil, powdered sugar
+---
+TITLE: Apricot Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. sugar, 4 eggs, 1 1/2 c. Wesson oil, 2 junior jars apricot with tapioca baby food or 3 small jars, 2 c. flour, 2 tsp. baking soda
+---
+TITLE: Apricot Canapes
+CURRENT_DESCRIPTION: these are so simple to make and so tasty with just the right blend of sweet and savory. courtesy eatingwell.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, blue cheese, shelled pistachios, honey, fresh ground pepper
+---
+TITLE: Apricot Carrot Bread
+CURRENT_DESCRIPTION: here's one of the few whole wheat bread recipes that i managed to acquire some years ago.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pastry flour, baking powder, ground cinnamon, ground nutmeg, ground ginger, natural bran
+---
+TITLE: Apricot Carrots
+CURRENT_DESCRIPTION: i needed a side dish and had a bag of mini-carrots.  found this recipe in the 1998 toh book.  this really hit the spot!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, apricot preserves, butter, lemon juice, orange peel, ground nutmeg
+---
+TITLE: Apricot Cheese Danish
+CURRENT_DESCRIPTION: "my family thinks this delicious danish is a real treat. it's a treat to make, too, since you mix it up at night, then just roll it out and bake the next morning." from taste of home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, eggs, butter, sour cream, sugar
+---
+TITLE: Apricot Cherry Bars
+CURRENT_DESCRIPTION: this recipe comes from the 10-12 dec 2004 issue of the usa weekend newspaper. it's a great tasting fruit bar, but you do need to watch out for any stray cherry pit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, old fashioned oats, light brown sugar, salt, unsalted butter, sweetened flaked coconut
+---
+TITLE: Apricot Cherry Crisp
+CURRENT_DESCRIPTION: modified from a recipe in a pike place market basket newsletter. apricots and cherries have been fabulous in washington this summer and this recipe is quick, easy and very yummy. like all crisps and cobblers, this is very flexible. blackberries or blueberries can be substituted for cherries, and peaches can be substituted for apricots (i add some cornstarch when using peaches as they generate more juices than apricots).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, sugar, flour, orange juice, rolled oats, brown sugar
+---
+TITLE: Apricot Chick Peas
+CURRENT_DESCRIPTION: serve this alongside rice or couscous and enjoy the lefovers hot or cold.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, tomatoes, chickpeas, dried apricot
+---
+TITLE: Apricot Chicken
+CURRENT_DESCRIPTION: a favourite in our home....tastes even better reheated the next day. serve with either plenty of boiled rice or mash potato.
+can be made gluten free by using gluten free flour liquid stock and dry soup mix. in australia massell stock is gluten free as is basco gf dry french onion soup mix.options- top with some ground pepper or stir through some parsley or cilantro (coriander) before serving. for anyone who is gluten-free you can use "recipe#244204" to make your soup replacement to use in this chicken dish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, skinless chicken breasts, plain flour, dry onion soup mix, apricot nectar, chicken stock
+---
+TITLE: Apricot Chicken Casserole
+CURRENT_DESCRIPTION: a recipe i adapted from the traditional apricot chicken recipe my mother used to make.
+
+i was looking for a dish that had a thicker sauce with no bones that would allow for a less messy dish. with all the flavour of the original.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, rindless bacon, brown onions, dried apricot, plain flour, chicken stock
+---
+TITLE: Apricot Chicken Rice Salad
+CURRENT_DESCRIPTION: this recipe does not give the serving size so i am just guessing at 8 servings. hope i am kind of close.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, salt, curry powder, fresh ginger, instant brown rice, dried apricot
+---
+TITLE: Apricot Chicken Salad
+CURRENT_DESCRIPTION: the cayenne pepper and sweet apricot preserve combination is a great balance.  got this from a magazine a few years ago, perhaps everyday food.  a bit more sophisticated than regular chicken salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, apricot preserves, lemon juice, cayenne pepper, cooked chicken, red grapes
+---
+TITLE: Apricot Chicken Stir Fry
+CURRENT_DESCRIPTION: i love this recipe the dried apricots sweeten this dish.  the snow peas add some color to this dish.  i'll have to pull this one out again to make as it has been many years since i made it.  i can't remember which magazine this came from.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot, hot water, all-purpose flour, cilantro, salt, pepper
+---
+TITLE: Apricot Chicken With Almonds
+CURRENT_DESCRIPTION: this is so easy, tastes great, and is elegant enough to serve company. adapted from gourmet magazine- january 2005.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, salt, pepper, sliced almonds, apricot jam, soy sauce
+---
+TITLE: Apricot Chicken With Cashews
+CURRENT_DESCRIPTION: from taste of home's simple and delicious magazine.  from start to finish this dish takes about 15 minutes to prepare because it is cooked in the microwave!  how easy is that?  serve over hot cooked rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, soy sauce, chicken broth, vegetable oil, cornstarch, garlic
+---
+TITLE: Apricot Chicken With Pasta
+CURRENT_DESCRIPTION: apricot chicken with pasta
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, oil, chicken breasts, apricots, malt vinegar
+---
+TITLE: Apricot Chile Pork Roast
+CURRENT_DESCRIPTION: there are other apricot/pork recipes here on zaar but this one is just a little different. the glaze has a zippy sweet sour flavor that compliments the pork
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin roast, apricot jam, chili sauce, red wine vinegar, dijon mustard, vegetable oil cooking spray
+---
+TITLE: Apricot Choc Chip Cake
+CURRENT_DESCRIPTION: this is an all time favourite in our family, my mum used to make it when we were little, its sure to please.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, apricot nectar, butter, sugar, eggs, desiccated coconut
+---
+TITLE: Apricot Chocolate Chip Cake
+CURRENT_DESCRIPTION: for the apricot and chocolate lovers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, apricot nectar, butter, raw sugar, eggs, coconut
+---
+TITLE: Apricot Chocolate Chip Cheesecake Muffins
+CURRENT_DESCRIPTION: from 125 best chocolate chip recipes.  and it is one of the best ones!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, dried apricot, baking powder, salt, sugar, eggs
+---
+TITLE: Apricot Chutney
+CURRENT_DESCRIPTION: posting for zwt 6
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, curry powder, onion, garlic clove, ginger, dried apricot
+---
+TITLE: Apricot Citrus Drink
+CURRENT_DESCRIPTION: here's a very good tasting, non-alcoholic drink.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot nectar, lemon juice, lime juice, orange juice, sugar, mint sprig
+---
+TITLE: Apricot Citrus Preserves
+CURRENT_DESCRIPTION: a deliciously different jam to enjoy on your toast, bagel or muffin.  developed for rsc #6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, golden raisin, oranges, lemons, ground coriander, ground cinnamon
+---
+TITLE: Apricot Citrus Scones
+CURRENT_DESCRIPTION: based on a recipe from the starbucks passion for coffee cookbook.in its intro it recommends "use soft, moist dried apricots. if yours are firm and chewy, soak them for 15 minutes in boiling water and drain well. as a counterpoint to the tartness of the dried fruit, choose a full-bodied indonesian coffee."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, baking powder, salt, baking soda, unsalted butter
+---
+TITLE: Apricot Clafouti
+CURRENT_DESCRIPTION: a simple dessert that you can prep in a couple of minutes. pop it into the oven during dinner and it'll be ready before you are!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, egg, cognac, sugar, all-purpose flour, apricot
+---
+TITLE: Apricot Cloud Salad
+CURRENT_DESCRIPTION: dodge county extension 1976. jell-o, apricots, and whipping cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, lemon jell-o gelatin, sugar, boiling water, cream
+---
+TITLE: Apricot Coconut Balls
+CURRENT_DESCRIPTION: great served after dinner with coffee, or with a picnic. great as a gift with home made rum balls at christmas time. can be made up to 2 weeks ahead and stored in airtight container in refrigerator.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, brandy, cream, white chocolate chips, ground almonds, plain sweet biscuit crumbs
+---
+TITLE: Apricot Coconut Bars
+CURRENT_DESCRIPTION: just a wonderful combination of apricots, coconut, condensed milk to make a delicious fruity bar cookie. sometimes i use a 6 ounce package sunkist fruit bits instead of the apricots.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, flour, baking powder, salt, eggs
+---
+TITLE: Apricot Coconut Crumble Cake
+CURRENT_DESCRIPTION: easy! you may use peaches if you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, margarine, granulated sugar, milk, eggs, vanilla extract
+---
+TITLE: Apricot Coconut Filled Oat Bars
+CURRENT_DESCRIPTION: easy apricot bar recipe 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, quick oats, sugar, butter, baking soda, salt
+---
+TITLE: Apricot Coconut Pearls
+CURRENT_DESCRIPTION: this is sweet, but doesn't have a lot of sugar in it. the apricot-coconut paste must be handled when it is chilled. if necessary, thin the melted white cooking chocolate with coconut milk if it should harden too much.------
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cooking chocolate, dried apricots, coconut milk, desiccated coconut, fennel seed, cinnamon
+---
+TITLE: Apricot Congealed Salad
+CURRENT_DESCRIPTION: i love
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crushed pineapple, apricot gelatin, buttermilk, cool whip, walnuts
+---
+TITLE: Apricot Cookies
+CURRENT_DESCRIPTION: i created this recipe when i was baking cookies for chinese new year in 2009.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, cornflour, bicarbonate of soda, salt, butter, caster sugar
+---
+TITLE: Apricot Coriander Chicken With Brie All  Wrapped Up  In Phyllo
+CURRENT_DESCRIPTION: this recipe was submitted for rsc 2005 -- i found it in the recipes needing a home and adopted it because it was an entry in rsc #6.  the chef who created the recipe wrote "i love anything wrapped in phyllo dough, especially if it includes brie cheese.  this is a twist on that combination.  it can be served in wedges as an appetizer or a lunch dish."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken thighs, coriander seed, dried apricots, lemon juice, roasted cashews, white wine
+---
+TITLE: Apricot Couscous
+CURRENT_DESCRIPTION: a quick side dish with an exotic flair!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: couscous, red onion, low sodium chicken broth, dried apricot, whole almond, scallions
+---
+TITLE: Apricot Cranberry Bread
+CURRENT_DESCRIPTION: bright flecks of apricot and cranberry peek through the crust of this hearty bread. well wrapped, this bread will keep for a month or two in the freezer. a wrapped loaf atop a cutting board would make a thoughtful hostess gift. you can cut the amount of butter by 1/2 cup for a lower fat version; it will be a slightly drier yet still delicious bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, whole wheat pastry flour, old fashioned oats, baking powder, ground cardamom, ground allspice
+---
+TITLE: Apricot Cranberry Bread Pudding
+CURRENT_DESCRIPTION: nothing says comfort food like a creamy bread pudding. this bread pudding is extra special, taken to new heights we have made it perfect for serving at thanksgiving or christmas. this recipe comes from alberta milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, dried cranberries, orange liqueur, french bread, apricot jam, whipping cream
+---
+TITLE: Apricot Cranberry Conserve
+CURRENT_DESCRIPTION: this is the best for all holiday celebrations. all of the flavors compliment each other. lovely and impressive served in a cut-glass dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, fresh cranberries, dried apricot, orange marmalade, orange zest
+---
+TITLE: apricot cranberry kugel
+CURRENT_DESCRIPTION: this delicious sweet dairy loksen kugel (noodle pudding) is a favorite side dish in my family.  traditionally eaten hot, i also like it cold, and at any time of day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium egg noodles, sour cream, whipped cream cheese, apricot preserves, salt, vanilla extract
+---
+TITLE: Apricot Cranberry Kugel
+CURRENT_DESCRIPTION: this delicious sweet dairy loksen kugel (noodle pudding) is a favorite side dish in my family.  traditionally eaten hot, i also like it cold, and at any time of day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium egg noodles, sour cream, whipped cream cheese, apricot preserves, salt, vanilla extract
+---
+TITLE: Apricot Cranberry Sauce
+CURRENT_DESCRIPTION: a must have with turkey or baked chicken. has a very fresh taste. i didn't include chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot halves, cranberry juice cocktail, cranberries, sugar, fresh ginger
+---
+TITLE: Apricot Cranberry Sauce   Beats  Canned Cranberry Sauce By Far
+CURRENT_DESCRIPTION: we made this several years ago for thanksgiving instead of the yucky stuff from a can - prepared the day ahead and chilled in the refrigerator it thickens nicely and is so lovely and garnet-colored - and the flavor is delicious and refreshing  - maribeth and i thought we'd share it with you all!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, fresh cranberries, dried apricot, orange, zest of
+---
+TITLE: Apricot Cream Cake
+CURRENT_DESCRIPTION: recipe taken from the duncan hines website. i was searching for a birthday cake to meet some dietary restrictions of the guests (no seeds, no citrus, no chocolate).
+
+apricot preserves, generously spread between layers of cream cake, present a delightful alternative to berries. garnish with coconut flakes to create a tropical contrast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: duncan hines moist deluxe yellow cake mix, vegetable oil, eggs, water, apricot preserves, vanilla flavor instant pudding and pie filling mix
+---
+TITLE: Apricot Cream Cheese Salad
+CURRENT_DESCRIPTION: oh my, this is a delicious jelled salad.  it's almost celestial, you can hear the angels sing.  growing up, this was one of the fruit salads served at our big sunday meal after church.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot gelatin, boiling water, cold water, crushed pineapple, bananas, mini marshmallows
+---
+TITLE: Apricot Cream Cheese Scones
+CURRENT_DESCRIPTION: the cooling weather always puts me in the mood to bake, and this is on my list of things to try.  i'm drooling already!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, granulated sugar, baking powder, salt, cream cheese, butter
+---
+TITLE: Apricot Crescent Rolls For Oamc
+CURRENT_DESCRIPTION: it's always nice to have some crescent rolls in the freezer. they only take about 15 minutes out of the freezer to make for a tasty addition to dinner or buffet
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, flour, salt, cold water, apricot preserves
+---
+TITLE: Apricot Crisp
+CURRENT_DESCRIPTION: though margaret walker orchards was to provide fruits for the manufacture of jams and jellies, margaret made sure some of the apricots went on the table. apricots making a lovely crisp.	tweeked from this recipe inmamaskitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, all-purpose flour, walnuts, sugar, butter, ground cloves
+---
+TITLE: Apricot Crumble Squares
+CURRENT_DESCRIPTION: this recipe comes from 500 best cookies, bars and squares cookbook by esther brody. these squares remind me of apricot cobbler, but you can eat them with your hands.enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, butter, egg, vanilla
+---
+TITLE: Apricot Curried Rice With Chicken
+CURRENT_DESCRIPTION: a easy & fast recipe i found in
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: minute rice, red bell pepper, green onion, fresh apricots, boneless skinless chicken breast halves, salt and pepper
+---
+TITLE: Apricot Curry Dressing
+CURRENT_DESCRIPTION: something a little different.  for those on ww points ..... 1tbps = 1 point.  for those not watching their weight you can use standard ingredients :)
+this dressing quickly became our all time favourite.  you can add more of what you like, ie, garlic or curry powder to vary the taste.   if the mixture is too thick for what you want to use it for, just add some fat free or low fat milk to thin it down.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light mayonnaise, light cream cheese, low-calorie apricot jam, curry powder, garlic cloves
+---
+TITLE: Apricot Custards
+CURRENT_DESCRIPTION: a great dessert for 2.  the recipe comes from better homes and gardens special interest publications low calorie and low-fat recipes 1994.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot halves, eggs, nonfat milk, sugar, vanilla, almond extract
+---
+TITLE: Apricot Damper
+CURRENT_DESCRIPTION: a rustic bread that is crispy on the out side and tender on the inside. best eaten right out of the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self rising flour, splenda sugar substitute, dried apricot, cinnamon, cardamom, milk
+---
+TITLE: Apricot Dessert
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 angel food cake, broken into pieces, 46 oz. apricot nectar, 1 1/4 c. sugar, 7 Tbsp. cornstarch, 1 c. chopped walnuts
+---
+TITLE: Apricot Dessert Sauce
+CURRENT_DESCRIPTION: sweetly delicious served over bread puddings, cakes or apple dumplings.  from the united states regional cookbook, culinary arts institute of chicago, 1947.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, sugar, butter, apricot juice, lemon juice
+---
+TITLE: Apricot Dijon Chicken
+CURRENT_DESCRIPTION: sweet and tangy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, ketchup, dijon mustard, ground ginger, boneless skinless chicken breasts, toasted hazelnuts
+---
+TITLE: Apricot Dijon Mustard Chicken With Couscous
+CURRENT_DESCRIPTION: this makes a very quick and easy meal....just add a salad and bread, or a vegetable or two!  garnish the chicken with lime wedges and fresh basil sprigs for presentation. its great for a busy week night, because total prep and cooking time can be kept to under 40 minutes!  this recipe came from bellingham covenant church's cookbook in bellingham, wa.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, couscous, apricot nectar, dijon mustard, boneless skinless chicken breast halves, fresh basil
+---
+TITLE: Apricot Dijon Pork Or Chicken Salad
+CURRENT_DESCRIPTION: this pork salad it to die for, it is one that you should really not pass up on making! i have made this several times, it is one of my family favorite main dish salads. if you prefer more apricot dressing, just double the recipe. to save time i most always cook the tenderloin a day ahead, slice and just refrigerate until ready to use it saves a lot of time and prep work. i have substituted feta for the blue cheese, and walnuts for the pecans, also, i have made this salad on several occasions using cooked chicken breast in place of the pork tenderloin, just broil the breast and baste using the same method using the apricot glaze. if serving more than 3-4 people i suggest to double the recipe, i could eat this whole salad myself lol! prep time includes cooking the tenderloin or chicken breast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, white wine vinegar, dijon-style mustard, ginger powder, pork tenderloin, mixed salad greens
+---
+TITLE: Apricot Dried Fruit Compote
+CURRENT_DESCRIPTION: in rural homes in eastern europe summer fruits are often dried for compotes in the winter. this fruit compote is rich in apricot, prunes and raisins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot halves, prune, raisins, water, sugar, cinnamon sticks
+---
+TITLE: Apricot Dumplings  Marillenkndel
+CURRENT_DESCRIPTION: posted for the zaar world tour-austria.
+from the "best of international cooking" cookbook. i haven't tried this recipe yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cottage cheese, salt, eggs, all-purpose flour, fresh apricot
+---
+TITLE: Apricot Empanadas  Easy
+CURRENT_DESCRIPTION: these little cookies are so good!  you can use any flavor jam in place of apricot to customize these for your family's tastes.  be sure to allow the dough to chill overnight so it's easy to handle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, all-purpose flour, lemon zest, apricot jam, cinnamon sugar
+---
+TITLE: Apricot Fig Bread
+CURRENT_DESCRIPTION: the apricot jam and chopped fig swirl make this a nice breakfast bread. rise time is not included in cook or prep time. both bread machine and non-bread machine options. the original recipe comes from the ca fig advisory board.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fast rising yeast, splenda brown sugar blend, splenda sugar substitute, non-fat powdered milk, ground cardamom, ground nutmeg
+---
+TITLE: Apricot Fig Thumbprint Cookies
+CURRENT_DESCRIPTION: thumbprint cookies are fun for kids to make, have some fun with you kids and enjoy some delicious cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried fig, walnuts, apricot preserves, brown sugar, fresh lemon juice, unsalted butter
+---
+TITLE: apricot filled cake roll
+CURRENT_DESCRIPTION: a white cake filled with creamy apricot curd covered with a cream cheese frosting and crushed cashew and toasted coconut garnishing the cake. apricot curd is a take off of lemon curd which is a spread of choice in england and scotland, and originated in portugal. for ease this can be made as a layer cake filled and frosted.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, white wine, sugar, eggs, egg yolks, lemon, juice and zest of
+---
+TITLE: Apricot Filled Cake Roll
+CURRENT_DESCRIPTION: a white cake filled with creamy apricot curd covered with a cream cheese frosting and crushed cashew and toasted coconut garnishing the cake. apricot curd is a take off of lemon curd which is a spread of choice in england and scotland, and originated in portugal. for ease this can be made as a layer cake filled and frosted.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, white wine, sugar, eggs, egg yolks, lemon, juice and zest of
+---
+TITLE: Apricot Filled Cookies
+CURRENT_DESCRIPTION: this recipe came from a little pamphlet with cookie recipes that a neighbor gave to me when i was about 12.  my family always has this at christmas, along with the russian tea cookies and frittula.  it's an old recipe calling for shortening, and that's the way we still make it.  the recipe calls for making your own apricot filling, but when time is short you can substitute prepared apricot preserves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, eggs, baking powder, milk, sugar, flour
+---
+TITLE: Apricot Filled Muffins
+CURRENT_DESCRIPTION: these tasty muffins are filled with apricot spreadable fruit(jam)or use your favorite such as peach or raspberry spreadable fruit. note:fruit,1.5 diabetic exchange. make-ahead tip;  store baked muffins at room temperature, wrapped lightly in heavy foil, for up to 3 days or freeze for up to 3 months, to reheat, bake in a 300 degree oven for about 15 to 18 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, flour, soy flour, sugar, baking powder, cinnamon
+---
+TITLE: Apricot Filled Pork Tenderloin
+CURRENT_DESCRIPTION: this flavorful main course is a great company offering. the tenderloin tastes wonderful and looks so pretty when it's sliced to reveal the golden apricot centre!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, dried apricots, sweet and sour dressing, brown sugar, teriyaki sauce, ketchup
+---
+TITLE: Apricot Flan In Caramel Raisin Sauce
+CURRENT_DESCRIPTION: flan is always a welcome sight.  this recipe does require for the flans to chill overnight and that is not reflected in preparation.  the actual prep time is minimal for the filling and caramel sauce.  recipe was developed for rsc winter 2005.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, light corn syrup, lemon juice, eggs, dried apricot halves
+---
+TITLE: Apricot French Toast
+CURRENT_DESCRIPTION: from taste of home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, vanilla extract, walnuts, french bread, eggs, heavy whipping cream
+---
+TITLE: Apricot Frost
+CURRENT_DESCRIPTION: yet another frozen dessert recipe from the 1967 better homes and gardens cookbook 'so good with fruit.' preparation time includes neither the time to cool down nor the time to freeze & refreeze.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot halves, orange gelatin, granulated sugar, egg yolks, lemon juice, whole milk
+---
+TITLE: Apricot Gelatin Salad
+CURRENT_DESCRIPTION: very fruity. we love this one. allow time to chill.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange jell-o, boiling water, crushed pineapple, cream cheese, apricot halves, walnuts
+---
+TITLE: Apricot Ginger Chicken
+CURRENT_DESCRIPTION: healthy tasty chicken from my slimmers book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, oil, fresh ginger, apricot nectar, dry sherry, light soya sauce
+---
+TITLE: Apricot Ginger Pork Chops
+CURRENT_DESCRIPTION: a sweet and savory meal that's easy to prepare, and a treat to eat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork chops, apricot preserves, soy sauce, ground ginger, water
+---
+TITLE: Apricot Ginger Pork Tenderloin
+CURRENT_DESCRIPTION: apricot-ginger pork tenderloin
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, dried oregano, salt, dried thyme, dried rosemary, fresh ground black pepper
+---
+TITLE: Apricot Ginger Sauce
+CURRENT_DESCRIPTION: this sauce is very versatile. it is delicious warm with pork or ham, and also good cold served over ice cream!  you can vary the texture by blending the mix with a hand held blender, or leave it chunky...your choice!  if you do choose to blend it, the yield will be slightly less than specified.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, dried apricots, crystallized ginger, apricot brandy
+---
+TITLE: Apricot Glazed Baked Ham For Two
+CURRENT_DESCRIPTION: great main dish for a couple! tasty glaze and beautiful presentation!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked ham, pineapple slices, apricot preserves, dry mustard, ground allspice, ground nutmeg
+---
+TITLE: Apricot Glazed Carrots  With Nutmeg   Orange
+CURRENT_DESCRIPTION: a sweet & savory version of glazed carrots.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, butter, apricot preserves, fresh orange juice, orange rind, ground nutmeg
+---
+TITLE: Apricot Glazed Chicken And Couscous
+CURRENT_DESCRIPTION: another entry for the "i got home late, but still want a great meal" category. you can make this faster than it would take to go out and get take-out. and it's delicious. this one is for 2, but can very easily be doubled.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken, salt, black pepper, olive oil, apricot preserves, balsamic vinegar
+---
+TITLE: Apricot Glazed Chicken Breasts
+CURRENT_DESCRIPTION: a simple and quick main dish designed for busy nights or cooking novices. add a steamed vegetable and rice and a tasty dinner is on the table in 30 minutes or less. i like to include the hot sauce not to make this a spicy dish but to cut the sweetness just a bit. planning to try this on the grill this summer as it should work very well. (ww 4 pts)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, apricot preserves, ketchup, cider vinegar, tabasco sauce, boneless skinless chicken breast halves
+---
+TITLE: Apricot Glazed Chicken Drumsticks Or Drumettes
+CURRENT_DESCRIPTION: you may use mixed chicken pieces in place of the legs for this recipe, also you can use about 3 to 3-1/2 pounds chicken wings, separated in half at the joint in place of the chicken pieces to serve at a get-togther, see note below --- i always add in a sliced green bell pepper and a sliced onion on the bottom of the pan but that is optional. serve this with cooked rice. you will *love* this, i promise, the sauce is delicious and the amount is enough for up to 3 pounds of chicken legs or pieces :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken drumsticks, salt and pepper, vegetable oil, onion, green bell pepper, butter
+---
+TITLE: apricot glazed cornish game hens with apricot rice stuffing
+CURRENT_DESCRIPTION: a little effort but well worth the raves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornish hens, water, apricot preserves, cinnamon, garlic powder, cooking spray
+---
+TITLE: Apricot Glazed Cornish Game Hens With Apricot Rice Stuffing
+CURRENT_DESCRIPTION: a little effort but well worth the raves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornish hens, water, apricot preserves, cinnamon, garlic powder, cooking spray
+---
+TITLE: Apricot Glazed Green Beans
+CURRENT_DESCRIPTION: wonderful side dish for dinner party or to impress.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, ribbon, apricot preserves, salt, cayenne pepper
+---
+TITLE: apricot glazed grilled chicken
+CURRENT_DESCRIPTION: we really like apricot chicken.  in the summer i hate to heat up the house. dh made this for a cookout.  absolutely delicious!  **there is also a variation in the directions for asian glazed chicken.
+
+*please note!*  for easier clean up i would suggest using a grill pan or aluminum to cook the chicken on.  
+
+found this recipe in cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, red wine vinegar, extra virgin olive oil, garlic clove, chicken breast halves, chicken thighs
+---
+TITLE: Apricot Glazed Grilled Chicken
+CURRENT_DESCRIPTION: we really like apricot chicken.  in the summer i hate to heat up the house. dh made this for a cookout.  absolutely delicious!  **there is also a variation in the directions for asian glazed chicken.
+
+*please note!*  for easier clean up i would suggest using a grill pan or aluminum to cook the chicken on.  
+
+found this recipe in cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, red wine vinegar, extra virgin olive oil, garlic clove, chicken breast halves, chicken thighs
+---
+TITLE: Apricot Glazed Ham
+CURRENT_DESCRIPTION: had extra apricot preserves. started mixing things. this was the result serve with apricot ham gravey if desired or just the pan juices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked ham, ground cloves, apricot preserves, hot water, brown sugar, dry mustard
+---
+TITLE: Apricot Glazed Pears
+CURRENT_DESCRIPTION: served with a scoop of ice cream, this is a light yet satisfying dessert.  recipe from radio city rockette lori barber in rachael ray's 12/08 magazine.  cooking note:  use a melon baller to core the pears.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, orange juice, pears, ice cream, ground cinnamon, cinnamon sticks
+---
+TITLE: Apricot Glazed Pork Chops
+CURRENT_DESCRIPTION: one recipe you will want to add to your menu selections for sure! yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot jam, cider vinegar, soy sauce, fresh ginger, garlic cloves, cayenne pepper
+---
+TITLE: Apricot Glazed Pork Kabobs
+CURRENT_DESCRIPTION: serve with your favorite or try
+recipe #66258, 
+recipe #134493,
+& 
+recipe #60560.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin, apricot preserves, ground ginger, orange liqueur, butter
+---
+TITLE: Apricot Glazed Pork Loin
+CURRENT_DESCRIPTION: i was experimenting a bit, and came up with this deliciousness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, ginger, ground thyme, garlic cloves, green onion, pork loin
+---
+TITLE: Apricot Glazed Pork Medallions
+CURRENT_DESCRIPTION: i got this recipe off of the food network, and my wife loved it.  it's an amazing dish, really simple, and feeds a lot of folks.  we made this with rice and added some broccoli and everyone enjoyed it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, salt, ground black pepper, sesame oil, apricot preserves, tamari soy sauce
+---
+TITLE: Apricot Glazed Pork Tenderloin
+CURRENT_DESCRIPTION: from "everyday food".  easy, quick and delicious.  great for a weeknight meal, but definitely company-worthy.  i usually double the sauce because it's so good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, olive oil, coarse salt, ground pepper, apricot jam, spicy brown mustard
+---
+TITLE: apricot glazed pork with baked onions
+CURRENT_DESCRIPTION: i find that although it is reduced fat it has an elegance about it that makes it acceptable for company. the prep time includes minimum marinating time of two hours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, dijon mustard, orange juice concentrate, dark brown sugar, orange zest, gingerroot
+---
+TITLE: Apricot Glazed Pork With Baked Onions
+CURRENT_DESCRIPTION: i find that although it is reduced fat it has an elegance about it that makes it acceptable for company. the prep time includes minimum marinating time of two hours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, dijon mustard, orange juice concentrate, dark brown sugar, orange zest, gingerroot
+---
+TITLE: Apricot Glazed Roasted Asparagus
+CURRENT_DESCRIPTION: i found this recipe some time back in a magazine. it is very tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, cooking spray, apricot preserves, low sodium soy sauce, garlic, salt
+---
+TITLE: Apricot Glazed Roasted Asparagus  Low Fat
+CURRENT_DESCRIPTION: this makes a perfect side to a turkey, prime rib or ham dinner. the recipe can easily be doubled.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, apricot preserves, soy sauce, garlic powder, salt, black pepper
+---
+TITLE: Apricot Glazed Roasted Brussels Sprouts
+CURRENT_DESCRIPTION: easy, quick, spicy and tangy. just a few ingredients and what a nice unique side dish.  i know ... not everyone loves those little cabbages.  personally, i love them.  this gives this a little sweet glaze with a bit of a tang, but the process is so easy just roasting them.  no pans to clean up which always scores points with me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brussels sprouts, olive oil, dried dill, kosher salt, ground black pepper, apricot jam
+---
+TITLE: Apricot Glazed Sausages
+CURRENT_DESCRIPTION: this is from a shortcuts cookbook put out by the australian meat & livestock corporation. the sauce has a lovely tang and it's a good way to use up leftover apricot nectar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef sausages, brown sugar, oil, apricot nectar, beef stock, worcestershire sauce
+---
+TITLE: Apricot Glazed Shrimp Stir Fry
+CURRENT_DESCRIPTION: this is one of my favorite stir-fry dishes. the apricot preserves is what makes this dish unique. i make this often in the summer because it doesn't require heaating up the oven, and i usually have all the ingredients on hand. you can also play around with the kind of veggies you use, but i have found this combination to be my favorite. oh, and an added bonus: it's low-fat!!:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, chicken broth, apricot preserves, soy sauce, sesame seeds, green pepper
+---
+TITLE: Apricot Glazed Sweet Potato Bake
+CURRENT_DESCRIPTION: this makes a great side dish to turkey or ham, its really delicious! adjust all ingredients to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, brown sugar, cornstarch, salt, cinnamon, apricot nectar
+---
+TITLE: apricot glazed turkey with onion and shallot gravy
+CURRENT_DESCRIPTION: i first made this 5 years ago and it's become a thanksgiving staple ever since. the turkey is always very tender and the gravy is to die for.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot nectar, apricot preserves, fresh ginger, honey, unsalted butter, fresh thyme
+---
+TITLE: Apricot Glazed Yams
+CURRENT_DESCRIPTION: great sweet potato recipe!  especially delicious with ham.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yams, apricot halves, brown sugar, cornstarch, salt, ground cinnamon
+---
+TITLE: Apricot Gooey Cake
+CURRENT_DESCRIPTION: not sure where this came from....another handwritten note here for safe keeping.  i have not made this yet, but it is a smaller cake (9 in sq pan)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, water, flour, baking powder, baking soda, salt
+---
+TITLE: Apricot Granola
+CURRENT_DESCRIPTION: crunchy and healthy. hmm..did i say the
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegan margarine, sucanat, rolled oats, wheat bran, whole wheat flour, sesame seeds
+---
+TITLE: Apricot Grape Nuts Bread
+CURRENT_DESCRIPTION: modified from the recipe that appeared on the post grape nuts box around 1981.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, yogurt, post grape-nuts cereal, whole wheat flour, all-purpose flour, baking powder
+---
+TITLE: Apricot Habanero Short Ribs
+CURRENT_DESCRIPTION: we have made this only with jalepeno peppers (no guts), they are delicious!! and easy. adapted from b h & g
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: short rib of beef, onion, garlic, cooking oil, catsup, apricot preserves
+---
+TITLE: Apricot Heaven
+CURRENT_DESCRIPTION: delicious and decadent, in a healthy sort of way! this lovely dessert looks beautiful in a crystal or glass serving dish, when the different layers look very striking. the quantities here serve four (in a dish measuring about 4.75" or 12 cm in diameter, filled to a depth of about 1.75" or 4.5cm),
+but the recipe multiplies very well. indeed, it started life as a recipe for 8-10, but i scaled it down! the recipe is very quick and easy to prepare (the cooking time shown includes 3 hours chilling) and the quantities 
+are quite flexible, according to taste, availability and size of serving dish.
+i used "no soak" dried apricots; if your apricots are very dry (the sort
+which you can't eat straight from the packet), add a little more water 
+in step 2 and simmer for longer (until the fruit is tender) before continuing
+with the recipe. created for ready set cook #9 (2007), to use the following
+five ingredients: dried apricots, fresh oranges, grand marnier, brown sugar
+and cinnamon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, orange, water, grand marnier, natural yoghurt, soft brown sugar
+---
+TITLE: Apricot Honey Grilled Chicken
+CURRENT_DESCRIPTION: this was great for our 1st barbecue of the season! it is delicious! serve with herbed rice for the glaze and a delicious green salad. found on land o' lakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, apricot fruit spread, honey, lemon peel, dried oregano leaves
+---
+TITLE: Apricot Honey Ham Glaze
+CURRENT_DESCRIPTION: this is one of the best recipes for a ham glaze, i use it quite often for a special ham dinner and i always get rave reviews from all my guests and family, this may easily be doubled :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, honey, cornstarch, lemon juice, ground cloves
+---
+TITLE: Apricot Honey Oatmeal
+CURRENT_DESCRIPTION: a yummy breakfast for a weekend treat! my roommates mother brought this recipe to my attention.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, dried apricot, honey, oats, cinnamon
+---
+TITLE: Apricot Honey Wheat Pudding
+CURRENT_DESCRIPTION: a speciality of the northwestern region on india, where wheat is a staple, this sweet dish is served as a dessert or a delicious breakfast treat. if apricots are not available, it can be made with any type of chopped, dried fruit. the leftovers can be served cold or reheated in the microwave.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, bulgar wheat, skim milk, honey, apricot, ground cinnamon
+---
+TITLE: Apricot Horseradish Spread
+CURRENT_DESCRIPTION: ultra easy and yet impressive. apricots and horseradish aren't an everyday combination, folks will notice. (i got this recipe from attending a party a number of years back and noticing!) i suggest adjusting preserve and horseradish amounts to your personal taste.  you can sneak a taste as you are mixing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, white horseradish, lime juice, salt, pepper
+---
+TITLE: Apricot Jalapeno Glazed Carrots
+CURRENT_DESCRIPTION: we love glazed carrots, so i threw this together for dinner tonight to serve with a brown sugar baked salmon filet.  a slightly different glazed carrot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby carrots, butter, garlic clove, jalapeno, rosemary, apricot preserves
+---
+TITLE: Apricot Jalapeno Jelly
+CURRENT_DESCRIPTION: i love the jalapeno-fruit recipes to have at home and to give as gifts.  with a nice wheat cracker, a little cream cheese and dollop of the jelly you have a nice snack or appetizer. the 'heat' from the jalapenos depends on how many of the seeds you leave in the jelly. a friend likes this on hotcakes, and we also like the jelly on biscuits.try this, it will surprise you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh jalapeno pepper, red bell pepper, apple cider vinegar, dried apricots, granulated sugar, liquid pectin
+---
+TITLE: Apricot Jam   Microwave
+CURRENT_DESCRIPTION: quite good and quick
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, sugar, water, lemon juice, whole cloves
+---
+TITLE: Apricot Jello Dessert
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 (3 oz.) pkg. apricot jello, 1 (16 oz.) can crushed pineapple with juice, 2 c. cold water, 1 (8 oz.) pkg. cream cheese, softened, 1 (8 oz.) container Cool Whip, softened, finely chopped nuts
+---
+TITLE: Apricot Kielbasa Slices
+CURRENT_DESCRIPTION: every once in a while we have a soup and sandwich night at church.  sometimes, appetizers end up on the buffet.  i found this in an old toh and plan to try them out on the church crowd.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kielbasa, apricot preserves, lemon juice, dijon mustard, ground ginger
+---
+TITLE: Apricot Lamb
+CURRENT_DESCRIPTION: this tender lamb has just a little sweetness and a great spice blend.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, olive oil, boneless lamb shoulder, cumin, cinnamon, coriander
+---
+TITLE: Apricot Lamb Kebabs
+CURRENT_DESCRIPTION: a recipe from 'fatty's big bbq book'. i suspect gail stanton who compiled the recipes may have had more input that paul (fatty) vaugtin - an australian rugby player. preparation time does not include 4 hours to marinate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb, apricot nectar, dried apricots, grapeseed oil, golden syrup, garlic cloves
+---
+TITLE: Apricot Lemon Chicken
+CURRENT_DESCRIPTION: the breading does not get crispy, rather it combines with the apricot mixture and forms a lovely, soft coating. i like using lots of lemons, but it's a matter of personal preference. for the preserves, i used apricot/orange conserve #116457, which also contains raisins and nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, bottled lemon juice, soy sauce, lemon, zest of, chicken breasts, plain breadcrumbs
+---
+TITLE: Apricot Lemon Chiffon Cake
+CURRENT_DESCRIPTION: this recipe starts with a cake mix, making this easy, not to mention delicious and healthy! adapted from a recipe from prevention magazine, via the cake doctor! you may substitute peach nectar, to make this peach lemon chiffon cake. try other nectars!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, cream of tartar, white cake mix, egg yolks, apricot nectar, vegetable oil
+---
+TITLE: Apricot Lemon Marmalade
+CURRENT_DESCRIPTION: got this in a neat cookbook from vegemite in a swap.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange, lemons, water, dried apricots, sugar
+---
+TITLE: Apricot Lentil Soup
+CURRENT_DESCRIPTION: this armenian soup has been my stand-by cold weather soup for as long as i remember!  it's rich and flavorful, sweet (but not too sweet) and tangy; perfect for a cold winter's night.  it freezes extremely well, too, and is actually pretty tasty served cold (esp. if you puree it completely).  a very versatile dish, and so quick and easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, dried apricot, ground cumin, nutmeg
+---
+TITLE: Apricot Loaf
+CURRENT_DESCRIPTION: this very quick recipe came from a friend who brought it to work to share regularly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot, currants, sultana, sugar, butter, self raising flour
+---
+TITLE: Apricot Mango Martini
+CURRENT_DESCRIPTION: yum! if you like fruity cocktails this is the martini for you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet mangoes, gin, apricot brandy, simple syrup, fresh lemon juice, lemon, rind of
+---
+TITLE: Apricot Mashed Sweet Potatoes
+CURRENT_DESCRIPTION: these make a wonderful fall dish with a fruity twist. the apricot and sweet potato flavors really go well with each other.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, apricot preserves, butter, orange rind, ground nutmeg, milk
+---
+TITLE: Apricot Meringue Bars(Makes 16 Servings)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. soft butter or margarine, 1/2 c. sugar, 2 egg yolks, 1 1/4 c. sifted flour, 1 c. apricot preserves, 2 egg whites
+---
+TITLE: Apricot Mousse
+CURRENT_DESCRIPTION: light summer dessert
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, honey, cottage cheese, nonfat plain yogurt, unflavored gelatin
+---
+TITLE: Apricot Muesli Balls
+CURRENT_DESCRIPTION: taken from a muesli promotion feature in an australian magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: muesli, dried apricot, honey, butter, coconut
+---
+TITLE: Apricot Munch
+CURRENT_DESCRIPTION: a handy snack mix that can be stored in an airtight container for up to 5 days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot halves, walnut halves, miniature pretzel twists, chex cereal, unsalted butter, orange rind
+---
+TITLE: Apricot Mustard Chicken
+CURRENT_DESCRIPTION: this is a very tasty and simple recipe with only 7 ingredients. the marinade can also be used on chicken thighs or lamb steaks. meat can also be marinated overnight. serve with salad or vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot nectar, teriyaki sauce, olive oil, honey, grainy mustard, garlic clove
+---
+TITLE: Apricot Mustard Chicken Breasts  Ww Friendly
+CURRENT_DESCRIPTION: with all the variants of apricot chicken that appear on recipezaar, this one doesn't seem to have been posted yet ... i got this from "your family will love it!", put out by prevention magazine some time in the mid-1990s.  it's my go-to recipe when my oven isn't free (and we don't have access to a grill).  couldn't be easier, and i always have the ingredients in the house.  one 4-ounce portion is 4 ww points.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast, dijon mustard, apricot preserves, soy sauce, scallion, water
+---
+TITLE: Apricot Mustard Chicken On The Grill
+CURRENT_DESCRIPTION: from the ontario liquor board.
+reserve some glaze for dipping! the first time i tried it, i didn't bother heating it.  i heated the glaze the second time and the flavors seemed more pronounced. this is a delicious way to grill chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot jam, cider vinegar, dijon mustard, garlic cloves, salt and pepper, chicken breasts
+---
+TITLE: Apricot Mustard Glazed Pork Chops  Bone In
+CURRENT_DESCRIPTION: bone-in chops are skillet cooked, then simmer in an slightly sweet glaze.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chops, olive oil, onion, apricot preserves, water, honey mustard
+---
+TITLE: Apricot Mustard Glazed Pork Roast
+CURRENT_DESCRIPTION: an easy recipe that is great for a dinner party.  i found it in a magazine (women's day?  family circle?) while sitting in the waiting area of the hospital emergency room.  my family now refers to it as "emergency room roast."  i served it with sweet potato casserole and creamed spinach.  (btw, my dad was in the er but he's just fine now, thank you!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, dijon mustard, cider vinegar, garlic salt, pepper, boneless pork loin
+---
+TITLE: Apricot Mustard Grilled Pork Tenderloin
+CURRENT_DESCRIPTION: this quick and simple recipe can be served with couscous and a cool cucumber and onion salad in italian dressing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, apricot preserves, mustard, salt, pepper
+---
+TITLE: Apricot Mustard Sauce For Fish  Asia
+CURRENT_DESCRIPTION: this recipe was created for the wild card fish & seafood forum challenge: the mixing pot -- zwt6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, honey dijon mustard, dried thyme, dried rosemary, garlic clove, prepared horseradish
+---
+TITLE: Apricot Nectar Cake
+CURRENT_DESCRIPTION: wonderfully moist; incredibly easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, eggs, apricot nectar, wesson oil, confectioners, ,
+---
+TITLE: Apricot Nectar Punch
+CURRENT_DESCRIPTION: this is a beautiful punch, very easy and very tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot nectar, frozen orange juice concentrate, water, lemon juice, apricot puree, ginger ale
+---
+TITLE: Apricot Noodle Chicken
+CURRENT_DESCRIPTION: stir fried apricot chicken with noodles.  sure to please picky eaters, what is even better is it takes less than 20 minutes to have on the table!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken fillets, apricot nectar, french onion soup, apricot halves, cellophane noodles, oil
+---
+TITLE: Apricot Noodle Kugel
+CURRENT_DESCRIPTION: came across the original of this recipe while scouting for recipes suited to zaar's world tour!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg noodles, condensed milk, granulated sugar, whipped cream cheese, eggs, apricot nectar
+---
+TITLE: Apricot Nut Bread
+CURRENT_DESCRIPTION: another favorite quick bread that my mom made when i was a child. i often make small tins of my apricot nut bread, pumpkin bread, and cranberry bread to give as teacher gifts, along with the recipe for each, during the holidays.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, butter, milk
+---
+TITLE: Apricot Oat Bars   Wheat Free
+CURRENT_DESCRIPTION: this is a recipe i found in a dairy free cookbook.  i converted this when my daughter was little and had several allergies that we had to adjust for.  this recipe is not gluten free or dairy free as posted but can be made dairy free by using milk-free margarine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almonds, oat flour, potato starch, baking soda, ground cinnamon
+---
+TITLE: Apricot Oat Bran Hot Breakfast Cereal
+CURRENT_DESCRIPTION: a warm tasty low-cal breakfast cooked in the microwave.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oat bran, skim milk, water, dried apricots, vanilla extract, brown sugar
+---
+TITLE: Apricot Oat Bran Muffins   Low Fat
+CURRENT_DESCRIPTION: taken from an old recipe book, adapted for my needs and tastes.  195 calories per serving, 3 grams of fat and 2 mg of cholesterol.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oat bran, brown sugar, baking powder, egg whites, buttermilk, molasses
+---
+TITLE: Apricot Oat Cakes
+CURRENT_DESCRIPTION: a recreation of the dense, heavy oat cakes available in some northern california coffee houses and health food stores.  they're shaped like hockey pucks and come with a choice in fruit.
+
+source: www.fatfree.com/recipes/desserts/apricot-oat-cakes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, flour, baking powder, plain fat-free yogurt, dry sweetener, honey
+---
+TITLE: Apricot Oatmeal Bars
+CURRENT_DESCRIPTION: these are so good! you won't believe how fast and easy they are too!
+we love them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking oats, all-purpose flour, brown sugar, salt, baking soda, canola oil
+---
+TITLE: Apricot Oatmeal Bars  Just Like You Remember
+CURRENT_DESCRIPTION: i am not much for sweets, but when i do develop a sweet tooth, this is what i make.
+please note: this is an adopted recipe and i hope to make it soonest. if you make it before i do, i would appreciate feedback, thanks ! zwt region: united states of america.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, flour, quick-cooking oats, light brown sugar, baking soda, salt
+---
+TITLE: Apricot Oatmeal Cake
+CURRENT_DESCRIPTION: nice for lunchbox, coffee/tea time, snacks
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boiling water, oats, whole wheat flour, baking powder, baking soda, salt
+---
+TITLE: Apricot Oatmeal Cookies
+CURRENT_DESCRIPTION: this cookie you could eat for breakfast. prep time includes cooling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, granulated sugar, eggs, all-purpose flour, baking soda
+---
+TITLE: Apricot Oatmeal Cookies  Vegan
+CURRENT_DESCRIPTION: i hear these are soft and chewy and delicious, and i can't wait to try them!  recipe by brenda walsh on the show cooking with the micheff sisters on their holiday cooking swap episode. keep fresh by storing in an air-tight plastic container. for variety, try adding raisins, dried cranberries, or dried prunes. you
+can also substitute pecans for the walnuts, or use other nuts as you like.  she didn't specify the amount of cookies it makes so i did an estimation based on some of my own cookie recipes, so let me know if it's off.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking rolled oats, walnuts, brown sugar, vegan margarine, vanilla, cornstarch
+---
+TITLE: Apricot Orange Balls
+CURRENT_DESCRIPTION: from grassroots magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prunes, dried apricots, raisins, orange juice, orange zest, desiccated coconut
+---
+TITLE: Apricot Orange Barbecued Tofu
+CURRENT_DESCRIPTION: this is really good. i got this from a book called tofu cookery. the flavors marry well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm tofu, oil, onion, apricot jam, frozen orange juice concentrate, water
+---
+TITLE: Apricot Orange Bread
+CURRENT_DESCRIPTION: easy, tasty bread that always reminds me of fall for some reason. not too sweet either, but perfect for breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, water, margarine, sugar, egg, orange rind
+---
+TITLE: Apricot Orange Bundt Cake
+CURRENT_DESCRIPTION: i love bundt cakes & this one has been a favorite of mine for over 20 years! *for the 1/3 cup of orange juice in the glaze, i like to use half oj & half triple-sec, or something similar!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, unsalted butter, eggs, vanilla extract, dates, dried apricot
+---
+TITLE: Apricot Orange Butter
+CURRENT_DESCRIPTION: from my recipe files. small batch
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, orange, water, lemon juice, sugar
+---
+TITLE: Apricot Orange Chicken
+CURRENT_DESCRIPTION: found online from taste of home - light &tastey
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced-sodium chicken broth, long grain rice, cornstarch, cold water, boneless skinless chicken breast, canola oil
+---
+TITLE: Apricot Orange Chicken Bake
+CURRENT_DESCRIPTION: delicious chicken variation, not too fancy. i made this for my elderly mother-in-law from the america's test kitchen family cookbook of 2006, and it cries out to be featured in my first day of spring celebration.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, salt and pepper, apricot preserves, dried apricot, orange juice, honey
+---
+TITLE: Apricot Orange Glazed Carrots With Cranberries
+CURRENT_DESCRIPTION: this recipe, slightly tweaked, came from taste of home summer slow cooker meals, jul 08.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, dried apricot, dried cranberries, orange juice, unsalted butter, brown sugar
+---
+TITLE: Apricot Orange Salad With Sour Cream Cream Cheese Topping
+CURRENT_DESCRIPTION: this yummy salad has fruit and vegetables both in it and is topped with a delicious sour cream/cream cheese mixture with cinnamon in it. make ahead so it can set and pull it out at meal time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange gelatin, water, grand marnier, dried apricots, dried cranberries, mandarin oranges
+---
+TITLE: Apricot Orange Yogurt Muffins
+CURRENT_DESCRIPTION: i love these fresh from the oven for breakfast with my favorite fruit. mixture can be prepared ahead and refrigerated for up to 12 hours lightly covered.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, nutmeg, baking soda, salt
+---
+TITLE: Apricot Oven Fried Chicken
+CURRENT_DESCRIPTION: easy, healthy, delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chicken, apricot preserves, corn flakes, cinnamon, pam butter cooking spray
+---
+TITLE: Apricot Pancakes
+CURRENT_DESCRIPTION: another fruity breakfast treat. the nutritional punch of oatmeal, apricots, and walnuts is loaded into a recipe so tasty that no one will notice how healthy it is. serve with butter and syrup in the traditional way or try spreading them with softened cream cheese instead. freeze the extras to reheat in the microwave and you’ll have a hot, delicious breakfast a lot faster than waiting in line at the drive-thru. or hand them to the kids cold for an on-the-go, in-the-car start when time is short.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, oatmeal, baking powder, baking soda, ginger, salt
+---
+TITLE: apricot pastries
+CURRENT_DESCRIPTION: this recipe is for the serious pastry chef. these little apricot pastries are absolutely delictible! it is my mom's recipe and requires making the pastry shell from scratch. it takes a little more time and effort to make these but your family will be glad you did because they are just so incredibley delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, dry yeast, water, milk, flour, vanilla
+---
+TITLE: Apricot Pastries
+CURRENT_DESCRIPTION: this recipe is for the serious pastry chef. these little apricot pastries are absolutely delictible! it is my mom's recipe and requires making the pastry shell from scratch. it takes a little more time and effort to make these but your family will be glad you did because they are just so incredibley delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricots, dry yeast, water, milk, flour, vanilla
+---
+TITLE: apricot pastry
+CURRENT_DESCRIPTION: a nice cooky like base covered with cooked apricot puree and finished with a lattice covering and sprinkled with powdered sugar at serving time. this was another of my mother's favorites...and mine, too. pretty looking and good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, lemon, rind of, sour cream, sugar, sweet butter
+---
+TITLE: Apricot Pastry
+CURRENT_DESCRIPTION: a nice cooky like base covered with cooked apricot puree and finished with a lattice covering and sprinkled with powdered sugar at serving time. this was another of my mother's favorites...and mine, too. pretty looking and good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, lemon, rind of, sour cream, sugar, sweet butter
+---
+TITLE: Apricot Peach Iced Tea
+CURRENT_DESCRIPTION: a refreshing drink inspired from our friends down south.  with a pitcher of this on a hot day, you just can't go wrong.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, apricot nectar, superfine sugar, tea bags, frozen sliced peaches
+---
+TITLE: Apricot Peach Pie
+CURRENT_DESCRIPTION: this is a delicious pie and quite easy to prepare, even for a novice baker. it's great in the winter when fresh fruit isn't always available.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 9, ,, ,, ,, ,, ,
+---
+TITLE: Apricot Peach Smoothies
+CURRENT_DESCRIPTION: yummy summer sipping! i really enjoy this, even though i don't typically drink any creamy drinks. this was a taste of home recipe. prep time includes freezing time for the banana.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot nectar, banana, non-fat vanilla yogurt, fresh peaches, lemon juice, honey
+---
+TITLE: Apricot Pecan Chicken Salad
+CURRENT_DESCRIPTION: during the week, i sometimes grab lunch at whole foods. the hot foods and salad bars are extensive but i go there especially for two things: cabbage crunch and apricot chicken salad. given the chance, i can eat these for lunch everyday. it really is hard to go wrong with chicken salad but adding sweet, juicy, dried apricots livens up this classic  lunch dish. for my own recipe, i used the left over roasted chicken but, really, any well seasoned pieces of chicken breast (pre-cooked) can be used.
+
+www.healthyandgourmet.blogspot.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, dried apricot, pecans, celery, green onions, cilantro
+---
+TITLE: Apricot Pecan Muffins
+CURRENT_DESCRIPTION: a fluffy muffin bursting with flavor. this is a great muffin base recipe. i use it for all my muffin baking, just change the ingredients to use what i have on hand. the apricot is so wonderful. people who don't like apricots even ask for more of these.i usually use my dehydrated apricots but fresh works great also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla, baking powder, salt
+---
+TITLE: Apricot Pecan Stuffing
+CURRENT_DESCRIPTION: my husband loves pecans so i dug around until i found this very tasty and interesting stuffing. i now make it for big gatherings and get so many compliments on it and friends requesting the recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: leek, onion, butter, apples, pecans, dried apricot
+---
+TITLE: Apricot Pecan Tassies
+CURRENT_DESCRIPTION: i've made these great one-bite apricot pecan "pies" for my christmas gift trays for a couple of years and always get rave reviews.  i love the dried apricots, but you could substitute almost any dried fruit you like.  i got this recipe from a christmas cookie cookbook that credits the recipe to the california apricot advisory board.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, butter, reduced calorie cream cheese, light brown sugar, egg, vanilla
+---
+TITLE: Apricot Pepper Marmalade
+CURRENT_DESCRIPTION: spread onto bread or crackers, or use as a condiment for baked ham or grilled meats. i like to make appetizers by spreading this marmalade on mini-biscuits and topping with smoked turkey. very versatile.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, red onion, green onion, red bell pepper, jalapeno pepper, apricot jam
+---
+TITLE: Apricot Pie
+CURRENT_DESCRIPTION: posted for the zaar world tour 2006-canada.
+from the "best of international cooking" cookbook. i haven't had the opportunity to try this pie yet. note: if fresh or frozen apricots are not available, one (29 oz.) can apricot halves in heavy syrup, drained, can be used. if using canned apricots, omit granulated sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbaked double pie crusts, ground almonds, fresh breadcrumbs, walnuts, fresh apricots, granulated sugar
+---
+TITLE: Apricot Pistachio Ice Cream
+CURRENT_DESCRIPTION: i came across this recipe recently while looking for apricot recipes. although i haven't made it yet it sounds delicious combining two of my favorite things (apricots and pistachios). processing time is included with cooking time, but cooling time and freezing time is not included (allow overnight freezing and an additional 2-4 hours cooling/refrigeration time). recipe source: bon appetit (july 1982)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, egg yolks, whipped cream, apricot puree, pistachios
+---
+TITLE: Apricot Plum Sauce
+CURRENT_DESCRIPTION: original from a book "taste of summer" by diane worthington and taken from a posting to a mastercook e-list.  number of servings is based on a 4 cups yield and allowing 2 tbsp as a serving size.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, fresh ginger, limes, apricot, plum
+---
+TITLE: Apricot Poppy Chicken With Dill Potatoes
+CURRENT_DESCRIPTION: a rachel ray 30 minute meal--although i must say, i usually can't make things in 30 minutes!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small potatoes, salt, extra virgin olive oil, chicken breasts, pepper, shallots
+---
+TITLE: Apricot Pork Chops
+CURRENT_DESCRIPTION: this recipe was given to me by my flute teacher and fellow cooking enthusiast.  he said we would like it and we did.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, orange juice, apricot preserves, brown sugar, curry powder, olive oil
+---
+TITLE: Apricot Pork With Herb Crust
+CURRENT_DESCRIPTION: something to try as dh loves apricot chicken
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, pork cutlets, apricot jam, breadcrumbs, flat leaf parsley, chicken stock
+---
+TITLE: Apricot Prune Coffee Cake
+CURRENT_DESCRIPTION: this is one of the best coffee cakes i have ever tasted. a real favorite whenever i serve it. i got the recipe many years ago from some mccalls cooking cards.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, dried prune, flour, baking powder, baking soda, salt

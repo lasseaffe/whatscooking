@@ -23,10 +23,10 @@ export function WeaveCell({ entry, recipe, onTap, onPin, onRemove, tension = 0, 
   const drag = useDraggable({ id: entry.clientid, data: { kind: 'cell' } });
   const drop = useDroppable({ id: entry.clientid, data: { kind: 'cell' } });
 
-  const borderStyle = isPinned ? 'solid' : isSuggestion ? 'dashed' : 'solid';
-  const borderColor = isPinned ? '#E67E22' : isSuggestion ? '#3A2A1A' : '#6B4E36';
-  const imageOpacity = isSuggestion ? 0.85 : 1;
-  const bgTint = isLeftover ? 'rgba(74, 104, 48, 0.15)' : '#1A120A';
+  const borderStyle = isSuggestion ? 'dashed' : 'solid';
+  const borderColor = isPinned ? '#E67E22' : isSuggestion ? '#3A2A1B' : '#4A3826';
+  const imageOpacity = isSuggestion ? 0.88 : 1;
+  const bgTint = isLeftover ? 'rgba(122, 163, 80, 0.10)' : '#15100B';
 
   const setRefs = (el: HTMLDivElement | null) => {
     drag.setNodeRef(el);
@@ -43,11 +43,11 @@ export function WeaveCell({ entry, recipe, onTap, onPin, onRemove, tension = 0, 
       aria-label={`${entry.recipe_title} — tap to swap`}
       onClick={() => { if (!drag.isDragging) onTap(); }}
       onKeyDown={e => { if (e.key === 'Enter') onTap(); }}
-      className="group relative flex flex-col gap-1 p-1.5 rounded-md transition-colors hover:bg-[#2A1F14]"
+      className="group relative flex flex-col gap-1.5 p-2 rounded-xl transition-colors"
       style={{
         border: `1px ${borderStyle} ${borderColor}`,
         background: bgTint,
-        minHeight: 80,
+        minHeight: 88,
         opacity: drag.isDragging ? 0.4 : 1,
         outline: drop.isOver && !drag.isDragging ? '2px solid #E67E22' : undefined,
         outlineOffset: drop.isOver && !drag.isDragging ? -2 : undefined,
@@ -55,7 +55,7 @@ export function WeaveCell({ entry, recipe, onTap, onPin, onRemove, tension = 0, 
         cursor: drag.isDragging ? 'grabbing' : 'grab',
       }}
     >
-      <div className="relative w-full h-12 rounded overflow-hidden" style={{ background: '#2A1F14', opacity: imageOpacity }}>
+      <div className="relative w-full rounded-lg overflow-hidden" style={{ height: 56, background: '#241A11', opacity: imageOpacity }}>
         <RecipeImage
           recipeId={entry.clientid}
           imageUrl={recipe?.image_url ?? null}
@@ -65,11 +65,11 @@ export function WeaveCell({ entry, recipe, onTap, onPin, onRemove, tension = 0, 
           className="w-full h-full"
         />
       </div>
-      <div className="flex items-center gap-1">
-        {isPinned && <span aria-label="pinned" title="Pinned">📌</span>}
-        {isSuggestion && <span aria-label="suggestion" title="Suggestion" style={{ color: '#E67E22' }}>✨</span>}
-        {isLeftover && <span aria-label="leftover" title="Leftover" style={{ color: '#7AA350' }}>♻</span>}
-        <p className="text-xs leading-tight line-clamp-2 flex-1" style={{ color: '#EFE3CE' }}>
+      <div className="flex items-start gap-1">
+        {isPinned && <span aria-label="pinned" title="Pinned" style={{ fontSize: 11 }}>📌</span>}
+        {isSuggestion && <span aria-label="suggestion" title="Suggestion" style={{ color: '#E67E22', fontSize: 11 }}>✨</span>}
+        {isLeftover && <span aria-label="leftover" title="Leftover" style={{ color: '#AEB873', fontSize: 11 }}>♻</span>}
+        <p className="leading-tight line-clamp-2 flex-1" style={{ fontSize: 12.5, fontWeight: 600, color: '#EFE3CE' }}>
           {entry.recipe_title}
         </p>
         {hasLeftoverDescendant && (

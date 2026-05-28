@@ -17,6 +17,7 @@ export interface RecipeRow {
   id: string;
   title: string;
   image_url: string | null;
+  image_status: string | null;
   cuisine_type: string | null;
   dietary_tags: string[] | null;
 }
@@ -88,7 +89,7 @@ async function fetchRecipes(supabase: SupabaseClient<any>): Promise<RecipeRow[]>
   while (true) {
     const { data, error } = await supabase
       .from("recipes")
-      .select("id, title, image_url, cuisine_type, dietary_tags")
+      .select("id, title, image_url, image_status, cuisine_type, dietary_tags")
       .range(from, from + PAGE - 1);
     if (error) throw new Error(`Supabase fetch error: ${error.message}`);
     if (!data?.length) break;
@@ -112,6 +113,7 @@ export async function runImageMonitor(options: MonitorOptions): Promise<MonitorR
 
   // 1. Null image check
   for (const r of recipes) {
+    if (r.image_status === 'ok') continue;
     if (!r.image_url) {
       issueMap.set(r.id, {
         id: r.id,
@@ -136,6 +138,7 @@ export async function runImageMonitor(options: MonitorOptions): Promise<MonitorR
     for (const id of ids.slice(1)) {
       if (issueMap.has(id)) continue;
       const r = recipes.find(x => x.id === id)!;
+      if (r.image_status === 'ok') continue;;
       issueMap.set(id, {
         id,
         title: r.title,
@@ -148,7 +151,7 @@ export async function runImageMonitor(options: MonitorOptions): Promise<MonitorR
 
   // 3. Relevance check (Unsplash only)
   for (const r of recipes) {
-    if (!r.image_url || issueMap.has(r.id)) continue;
+    if (!r.image_url || issueMap.has(r.id) || r.image_status === 'ok') continue;
     const photoId = extractUnsplashId(r.image_url);
     if (!photoId) continue;
     const storedCategory = photoIndex.get(photoId);
@@ -199,7 +202,7 @@ export async function runImageMonitor(options: MonitorOptions): Promise<MonitorR
     for (const issue of issues) {
       const { error } = await supabase
         .from("recipes")
-        .update({ image_url: issue.fixedUrl })
+        .update({ image_url: issue.fixedUrl, image_status: "fallback" })
         .eq("id", issue.id);
       if (!error) fixed++;
     }

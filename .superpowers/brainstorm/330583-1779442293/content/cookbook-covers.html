@@ -1,0 +1,68 @@
+<style>
+  .mock-card { border-radius: 12px; overflow: hidden; background: #2C1F10; width: 200px; display: inline-block; margin: 8px; vertical-align: top; }
+  .cover-a { height: 120px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 2px; overflow: hidden; }
+  .cover-a-cell { background: #3A2A1A; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+  .cover-a-cell.food1 { background: linear-gradient(135deg,#5A3820,#8B4513); }
+  .cover-a-cell.food2 { background: linear-gradient(135deg,#2D5A27,#4A8840); }
+  .cover-a-cell.food3 { background: linear-gradient(135deg,#1A2B4A,#2E5090); }
+  .cover-a-cell.food4 { background: linear-gradient(135deg,#4A1A2A,#8B3550); }
+  .cover-b { height: 120px; background: linear-gradient(160deg,#8B4513,#E67E22); display: flex; align-items: center; justify-content: center; font-size: 40px; position: relative; }
+  .cover-b-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.7)); }
+  .cover-b-icon { position: relative; z-index: 1; }
+  .card-body { padding: 10px 12px 12px; }
+  .card-title { font-size: 13px; font-weight: 700; color: #F5EDE0; margin: 0 0 3px; font-family: Georgia, serif; }
+  .card-meta { font-size: 10px; color: #8B7355; display: flex; justify-content: space-between; margin: 0; }
+  .badge { font-size: 9px; background: rgba(0,0,0,0.55); border-radius: 4px; padding: 2px 6px; color: white; position: absolute; top: 8px; left: 8px; }
+  .follow-row { margin-top: 6px; display: flex; justify-content: space-between; align-items: center; }
+  .follow-btn { font-size: 9px; border: 1px solid #E67E22; color: #E67E22; border-radius: 12px; padding: 2px 8px; background: transparent; }
+  .pro-label { color: #AEB873; font-size: 9px; }
+</style>
+
+<h2>Cookbook Cover Fallback</h2>
+<p class="subtitle">When a cookbook has no uploaded cover image, what shows instead?</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:20px; background:#111; text-align:center">
+      <div class="mock-card">
+        <div class="cover-a" style="position:relative">
+          <span class="badge">Free</span>
+          <div class="cover-a-cell food1">🥩</div>
+          <div class="cover-a-cell food2">🥗</div>
+          <div class="cover-a-cell food3">🐟</div>
+          <div class="cover-a-cell food4">🍄</div>
+        </div>
+        <div class="card-body">
+          <p class="card-title">Fire & Smoke</p>
+          <p class="card-meta"><span>@lasse</span><span>5 recipes</span></p>
+          <div class="follow-row"><span class="pro-label">↑ 142 views</span><button class="follow-btn">+ Follow</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Recipe Photo Collage</h3>
+      <p>2×2 grid of the cookbook's first 4 recipe images auto-tiled as the cover. Rich, content-driven. Breaks down if recipes have no images.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:20px; background:#111; text-align:center">
+      <div class="mock-card">
+        <div class="cover-b" style="position:relative; background: linear-gradient(160deg,#8B4513,#C0622A)">
+          <span class="badge">Free</span>
+          <div class="cover-b-overlay"></div>
+          <span class="cover-b-icon" style="font-size:36px">🔥</span>
+        </div>
+        <div class="card-body">
+          <p class="card-title">Fire & Smoke</p>
+          <p class="card-meta"><span>@lasse</span><span>5 recipes</span></p>
+          <div class="follow-row"><span class="pro-label">↑ 142 views</span><button class="follow-btn">+ Follow</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Gradient + Emoji Icon</h3>
+      <p>Theme color gradient with a large emoji derived from the cookbook's primary cuisine/tag. Cleaner fallback, never breaks, more editorial.</p>
+    </div>
+  </div>
+</div>

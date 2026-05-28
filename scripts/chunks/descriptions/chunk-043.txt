@@ -1,0 +1,2149 @@
+TITLE: Baked Vegetable Frittata
+CURRENT_DESCRIPTION: this makes a delicious vegetarian main course or a tasty side dish. once you get the hang of this it's really easy to put together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, olive oil, red onion, broccoli, red peppers, eggs
+---
+TITLE: Baked Vegetable Medley
+CURRENT_DESCRIPTION: great make ahead side dish for any occasion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: head cauliflower, broccoli, carrots, fresh mushrooms, green onion, butter
+---
+TITLE: Baked Vegetable Omelet
+CURRENT_DESCRIPTION: this is from a friend's family cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: monterey jack pepper cheese, broccoli florets, tomatoes, milk, flour, salt
+---
+TITLE: Baked Vegetable Ratatouille
+CURRENT_DESCRIPTION: this is a great side to a nice steak, very colourful, flavoursome & simple to make too!
+you could add eggplant to this also but i don't like so it's not included in my recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red capsicum, green capsicum, yellow capsicum, zucchini, cherry tomatoes, red onion
+---
+TITLE: Baked Vegetables
+CURRENT_DESCRIPTION: i suggest cooking the potatoes for about fifteen minutes before throwing in the vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, carrots, fresh broccoli, zucchini, salt, olive oil
+---
+TITLE: Baked Vegetables  Turlu Furno
+CURRENT_DESCRIPTION: this is from the best of international cooking book.  for zwt greece
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, potatoes, zucchini, fresh dill, parsley, olive oil
+---
+TITLE: Baked Vegetables Tamale
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. (can) corn, 3/4 c. (can) tomatoes, 1/3 c. corn meal, 2 c. grated sharp Cheddar cheese, 1 green pepper, 1 chopped onion
+---
+TITLE: Baked Vegetables With White Beans
+CURRENT_DESCRIPTION: from favediets.com. they say "this veggie and potato casserole is a delicious way to enjoy a vegetarian meal or have a flavorful side dish with your main course. try mixing and matching your favorite vegetables for a variation." when i made it i used a combination of broccoli and cauliflower. i did add the salt, pepper, and spices; the original calls only for garlic. i  might switch up the cheese next time as well, as i think mozzarella or monterrey jack (think something gooier) would be even better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broccoli, potatoes, tomatoes, cannellini beans, pitted black olives, olive oil
+---
+TITLE: Baked Vegetarian Buffalo Cauliflower  Wings
+CURRENT_DESCRIPTION: i haven't tried this yet. saving for safekeeping. i don't usually like cauliflower but this seems different enough to be tasty. i'm told this works fine with gluten-free flour and/or soy milk if desired. a cup of hot sauce seems like an awful lot to me. i'll probably start with less. i'd also like to incorporate jack cheese into this somehow but haven't figured it out yet. i'll adjust after i've tried it. i see no reason you couldn't do this with bbq sauce or whatever instead
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1% low-fat milk, flour, garlic powder, cauliflower, buffalo wing sauce, olive oil
+---
+TITLE: Baked Vegetarian Chimichangas  Warm Or Cold
+CURRENT_DESCRIPTION: these are a deliciously healthy, filling meal, and good for both everyday eating and when your vegetarian guests come over for dinner! my non-vegetarian husband doesn't even miss the meat when i fix these.  this is a *big* batch, so plan on leftovers.  :) good for picnics & potlucks, too... see note below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, mushroom, olive oil, green chilies, vegetarian refried beans
+---
+TITLE: Baked Vegetarian Enchiladas
+CURRENT_DESCRIPTION: this recipe is adapted from the pillsbury bake-off recipe. i like it because you can make it using very mild sauces (like i did) or hotter sauces. while corn tortillas work well, flour tortillas would work just as well, or perhaps even better. serve it with some white rice on the side.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn, black beans, salsa, firm tofu, salt, corn tortillas
+---
+TITLE: Baked Veggie Burgers
+CURRENT_DESCRIPTION: a good friend gave me this recipe forever ago...  it's a great way to use up your veggies or impress vegetarian guests. this recipe can easily be doubled for the whole family to enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white kidney beans, celery, carrot, onion, green pepper, breadcrumbs
+---
+TITLE: Baked Veggie Chips
+CURRENT_DESCRIPTION: take advantage of the season's white and sweet potatoes, beets, parsnips, and carrots. slice them into paper thin rounds, toss with seasonings, and enjoy as a side dish or afterschool treat. each serving is 20 chips. i found this recipe in nick jr. family magazine. i have not tried this recipe, but i'm posting this for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potato, beet, white potato, parsnips, canola oil, parmesan cheese
+---
+TITLE: Baked Veggie Dip
+CURRENT_DESCRIPTION: i love this recipe because you can substitute a lot of the ingredients for the full version or skinny version and they both taste equally great!  warning, you'll want to skip the crackers and eat it with a fork. yea, it's that good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced-fat parmesan cheese, asparagus spear, frozen chopped spinach, artichoke hearts, cream cheese with chives and onions, light mayonnaise
+---
+TITLE: Baked Veggie Penne
+CURRENT_DESCRIPTION: my husband and i are commuters so the last thing we want to be spending a lot of time on in the evenings is dinner.  this pasta bake is quick and filling, and it makes great leftovers too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat penne, olive oil, marinara sauce, yellow zucchini, green bell pepper, red bell pepper
+---
+TITLE: Baked Veggie Tex Mex  Burritos
+CURRENT_DESCRIPTION: i like this recipe for it's simplicity. modified to suit tastes from "what's cooking" seen on the "w" network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green pepper, onion, fresh mushrooms, vinaigrette dressing, salsa, cheese
+---
+TITLE: Baked Venison   Beef Parmesan
+CURRENT_DESCRIPTION: delicious italian flavors; extra cheesy for my kids! any steak will work in this recipe, although i use 1/2 inch thick butterflies. i use either purchased spaghetti sauce or homemade italian tomato sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: venison steak, fresh breadcrumb, parmesan cheese, garlic salt, italian seasoning, egg
+---
+TITLE: Baked Vidalia Dip
+CURRENT_DESCRIPTION: this is vidalia season here in the south, but walla walla or texas sweet onions will do. just don't use regular yellow onions, they aren't sweet enough. i serve with buttery round crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, vidalia onions, swiss cheese, mayonnaise, water chestnuts, dry white wine
+---
+TITLE: Baked Vidalia Onions
+CURRENT_DESCRIPTION: these tender, cheese-frosted globes of sweet onion dress up dinner the way a top hat crowns a formal suit. its textural balance of silky-tender onion and crumbly cheese and croutons is sheer pleasure on the tongue.
+
+compliments of the blue willow inn.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vidalia onions, crouton, salt and pepper, butter, shredded cheddar cheese, water
+---
+TITLE: Baked Walleye
+CURRENT_DESCRIPTION: i got this recipe from a fishing magazine years back and it wound up my make again section. goes well with a platter of rice or a hot baked potato.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walleyed pike fillet, butter, lemon juice, mushroom, onions, salt and pepper
+---
+TITLE: Baked Wedges With Fresh Rosemary And Sea Salt
+CURRENT_DESCRIPTION: tasty, delicious golden wedges, that are so easy to prepare and great served with grilled meats, chicken, ribs, or on their own as a snack, or light lunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, fresh rosemary, sea salt, butter, garlic cloves, olive oil
+---
+TITLE: Baked Weekend Meatballs
+CURRENT_DESCRIPTION: no it doesn't take the whole weekend to make! i've combined recipes #173026 and #84957 and modified them so much it's taken a life of it's own... enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, ground pork, onion, garlic cloves, egg, romano cheese
+---
+TITLE: Baked White Bean And Rosemary Spread
+CURRENT_DESCRIPTION: i love the flavor of rosemary - it's one of my favorite herbs. i was never a big bean dip fan until i found this recipe, but it's very tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic, rosemary, olive oil, white beans, white wine vinegar
+---
+TITLE: Baked White Beans With Sage And Garlic
+CURRENT_DESCRIPTION: i believe this is from a cooking light magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable broth, tomato paste, white beans, garlic, fresh sage leaves, salt and pepper
+---
+TITLE: Baked White Fish
+CURRENT_DESCRIPTION: this is based on a recipe i got from a friend 30 years ago.  it was called greek fish but it didn't seem particularly greek to me. the original recipe called for haddock or white fish - i usually use snapper or cod fillets. hope you like it - this is the first recipe i have posted!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white fish fillet, tomatoes, sugar, parsley, butter, flour
+---
+TITLE: Baked Whitefish
+CURRENT_DESCRIPTION: got this one from the newpaper and have made it a couple of times. really good baked fish recipe and can you can use cod or halibut if whitefish is unavailable. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white fish fillets, onions, butter, white wine, salt, pepper
+---
+TITLE: Baked Whitefish Parmesan
+CURRENT_DESCRIPTION: an easy way to serve a pretty and delicious dish! serve it with roasted vegetables and some type of brown or basmati rice dish. mealsforyou.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sour cream, dry onion soup mix, crushed red pepper flakes, breadcrumbs, parmesan cheese, fresh parsley
+---
+TITLE: Baked Whiting With Bok Choy And Vermouth
+CURRENT_DESCRIPTION: whiting is a delicate and small ocean-going fish, with a white flakey consistency upon being cooked. it has more flavor than flounder, but is by no means a "heavy-tasting" fish.
+
+when i've found them locally, they're usually sold whole.  you can get your fishmonger to de-gut and clean them, if you'd rather not do this yourself.  
+
+i personally prefer the sesame oil to the canola oil, but tastes vary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whiting fish fillets, baby bok choy, canola oil, dry vermouth, teriyaki sauce, lemon
+---
+TITLE: Baked Whole Chicken With Rosemary
+CURRENT_DESCRIPTION: easy chicken and very tasty. you can even prepare the day before.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, salt, black pepper, rosemary sprigs, garlic cloves, olive oil
+---
+TITLE: Baked Whole Fish
+CURRENT_DESCRIPTION: top baked fish with butter, lemon juice and perphaps sliced almonds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish, lemons, onions, celery, salt and pepper, onion salt
+---
+TITLE: Baked Whole Onions
+CURRENT_DESCRIPTION: posting for zwt6 great britain region. from recipehound.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow onions, chicken broth, butter, paprika, breadcrumbs
+---
+TITLE: Baked Whole Wheat Pasta With Spinach And Mozzarella
+CURRENT_DESCRIPTION: a fresh, light, dish. i am sure you could use regular pasta, but the whole wheat pasta with fresh mozzarella (not pre-shredded) is really what makes this extra good. baked with a golden brown crust and gooey cheese.  start dinner with a bowl of tomato soup (your favorite recipe) and a toasted baguette with pesto and parmesan. and then enjoy the main course.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pasta, onion, baby spinach, fresh mozzarella cheese, garlic, lemons
+---
+TITLE: Baked Wild Rice With Almonds
+CURRENT_DESCRIPTION: easy to prepare healthy side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, green pepper, garlic cloves, brown and wild rice mix, slivered almonds
+---
+TITLE: Baked Winter Squash
+CURRENT_DESCRIPTION: this is so simple!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, butter, honey, salt, pepper
+---
+TITLE: Baked Winter Squash  Au Gratin
+CURRENT_DESCRIPTION: easy. gives the impression of taking more prep time than it actually does! use any winter squash! delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: winter squash, garlic, cilantro, maple syrup, garlic salt, whole wheat pastry flour
+---
+TITLE: Baked Winter Squash Soup
+CURRENT_DESCRIPTION: i got this recipe from my friend jodi moore in bellingham washington.  she made it for a dinner party in the dead of winter and gave it to us in mugs as we walked in from the snow.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butternut squash, butter, dark brown sugar, carrots, onion
+---
+TITLE: Baked Wrapped Tilapia
+CURRENT_DESCRIPTION: my friend got this recipe off of epicurious where it is touted as tori amos' favorite recipe. it is certainly popular with our husbands. it has a spicy sweetness to it. we live in too small of a town to find banana leaves so it is parchment paper for us. coconut rice.makes a nice accompaniment.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh gingerroot, garlic cloves, green onions, chili pepper, fresh cilantro, grapeseed oil
+---
+TITLE: Baked Yams  Or Sweet Potatoes
+CURRENT_DESCRIPTION: this is the way my mom makes yams every thanksgiving....it definitely would not be the same dinner without them!  no one in my family ever liked yams or sweet potaotes until she made these-they are incredible!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yams, brown sugar, salt, ground cloves, nutmeg, lemon juice
+---
+TITLE: Baked Yams With Cinnamon Chili Butter
+CURRENT_DESCRIPTION: a terrific blend of spices, that is a nice change from candied yams.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, mild chili powder, ground cinnamon, salt, cayenne pepper, yams
+---
+TITLE: Baked Yams With Ginger And Honey
+CURRENT_DESCRIPTION: this is a very flavorful recipe.  i have had people that don't even care for yams - love these!  for years i never added the cardamom (it's very pungent) but i finally added it this year - and wow - it really makes the flavor pop!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yams, honey, ginger, canola oil, ground cardamom, ground black pepper
+---
+TITLE: Baked Yams With Grand Marnier
+CURRENT_DESCRIPTION: a nice holiday dish with a nice orange flavor.  goes good with turkey or pork.  you can use less nutmeg if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yam, unsalted butter, orange juice, grand marnier, nutmeg, orange
+---
+TITLE: Baked Yams With Lime And Honey
+CURRENT_DESCRIPTION: *an adopted recipe*. if you love yams as i do,
+you will love this combination of flavors! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yams, water, honey, unsalted butter, limes, salt
+---
+TITLE: Baked Yeast Doughnuts
+CURRENT_DESCRIPTION: these doughnuts are light, fluffy, pillows of joy.  i was looking for a recipe for baked doughnuts that are fluffy and soft liked the fried version and these are it.  from tartelette blog, this is what she has to say "they are a tad chewier and more like soft pillows of dough"  oh, and these are best right out of the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, dry yeast, sugar, eggs, all-purpose flour, nutmeg
+---
+TITLE: Baked Yellow Squash Casserole
+CURRENT_DESCRIPTION: i love the addition of hot sauce to this casserole.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow squash, onion, bacon, butter, eggs, evaporated milk
+---
+TITLE: Baked Za Atar Eggplant Fries With Lemon Tahini Dip
+CURRENT_DESCRIPTION: these fries are definitely best eaten right out of the oven. as happens with many baked eggplant dishes, when the fries have a chance to cool fully, they can get a little limp and not nearly as delicious. sprinkle flaky salt on them the moment they come out of the oven.
+
+you can also double the recipe for lemon tahini sauce and spread it on sandwiches, fold a little into omelettes, or spoon it atop warm grain bowls. store the sauce, covered, in the refrigerator and just thin it out with additional water if it settles or thickens.
+from the kitchn.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, all-purpose flour, panko breadcrumbs, parmesan cheese, za, ,
+---
+TITLE: Baked Zesty Italian Chicken
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 to 5 breasts (deboned and skinless), 1 bottle Zesty Italian dressing, 1 tsp. salt, 1 tsp. pepper, 1 tsp. garlic, 1 can Italian bread crumbs
+---
+TITLE: Baked Zita With Mozzarella
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. to 1 lb. low sodium tomatoes, 1 Tbsp. olive oil, 1 medium onion, diced, 1 c. tomato sauce, 3 cloves minced garlic, 1/2 tsp. oregano
+---
+TITLE: Baked Ziti
+CURRENT_DESCRIPTION: good italian comfort food!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, italian sausage, ricotta cheese, egg, parsley, mozzarella cheese
+---
+TITLE: Baked Ziti   Aimees Adventures
+CURRENT_DESCRIPTION: i found this recipe on the aimeesadventures.com while doing weight watchers. though i no longer follow weight watchers i still use this recipe often. this is a terrific quick, low-fat, meatless recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, cottage cheese, egg white, dried basil, dried parsley, parmesan cheese
+---
+TITLE: Baked Ziti   Ziti Al Forno
+CURRENT_DESCRIPTION: this classic italian casserole with ziti macaroni, tiny meatballs and homemade sauce is easy to make and delicious.  the sauce takes 1 1/2 hours to reduce so to save time you can make the meatballs and sauce ahead of time.  i like to top it with fresh strips of basil !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, onion, mushroom, garlic cloves, tomato puree
+---
+TITLE: Baked Ziti  5 Ww Points
+CURRENT_DESCRIPTION: i got this from aimeesadventures.com....spunds yummy
+per serving: 278 calories; 3g fat (8.3% calories from fat); 22g protein; 42g carbohydrate; 4g dietary fiber; 7mg cholesterol; 1009mg sodium. exchanges: 2 grain (starch); 1 lean meat; 0 fat. wwp: 5
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, fat-free cottage cheese, egg white, dried basil, dried parsley, reduced-fat parmesan cheese
+---
+TITLE: Baked Ziti  About Com
+CURRENT_DESCRIPTION: baked ziti from about.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, egg, ricotta cheese, garlic powder, fresh basil, mozzarella cheese
+---
+TITLE: Baked Ziti  Meatless
+CURRENT_DESCRIPTION: this is an easy casserole with lots of tomato taste, tender pasta, and of course cheese.  makes plenty to serve company, and kids love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, spaghetti sauce, tomato paste, water, ricotta cheese, parsley flakes
+---
+TITLE: Baked Ziti  With Turkey
+CURRENT_DESCRIPTION: this is the same as the baked ziti recipe (92292) but with turkey instead of beef.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, ground turkey, ricotta cheese, parmesan cheese, fresh parsley, egg
+---
+TITLE: Baked Ziti  Ww
+CURRENT_DESCRIPTION: recipe source: ww meeting handout. 8 points plus/serving
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey sausage, onion, green pepper, tomatoes, green peas, tomato paste
+---
+TITLE: Baked Ziti And Italian Sausage
+CURRENT_DESCRIPTION: this is different from the other baked ziti's posted....it has no tomato sauce or tomatoes!  i have to admit, i sometimes increase the sausage to 1 1/2 lbs, especially if i have a teenage boy eating!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, italian sausage, vegetable oil, butter, all-purpose flour, milk
+---
+TITLE: Baked Ziti And Meatball Casserole
+CURRENT_DESCRIPTION: great recipe fo serve a bunch. if you have meatballs and tomato sauce recipe #240802 waiting for you in the freezer;it is fast to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, tomato sauce, egg, part-skim ricotta cheese, parmesan cheese, fresh parsley
+---
+TITLE: Baked Ziti And Roasted Veggies
+CURRENT_DESCRIPTION: baked veggies makes this dish special. this recipe is from a clipping out of a magazine. not sure which on but this is sooo tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, red onion, yellow peppers, olive oil, salt, onion
+---
+TITLE: Baked Ziti And Sausage Casserole
+CURRENT_DESCRIPTION: this recipe was taken from mccall's magazine years ago, it has remained a family favorite for years! you can use ricotta cheese in place of the cottage cheese if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, oil, italian sausage, butter, onion, garlic
+---
+TITLE: Baked Ziti And Summer Vegetables
+CURRENT_DESCRIPTION: i recommend this 40 minute dish.  perfect for a weeknight dinner, and paired with recipe#459021#459021, is a nice complimentary meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, olive oil, yellow squash, zucchini, onion, chopped tomatoes
+---
+TITLE: Baked Ziti Casserole
+CURRENT_DESCRIPTION: a thread in ee on everyone's best
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, ziti pasta, part-skim ricotta cheese, mozzarella cheese, meatless sauce, fresh basil leaf
+---
+TITLE: baked ziti florentine
+CURRENT_DESCRIPTION: this is a casserole my family can't get enough of.  it freezes and reheats well - a great make-ahead meal.  i usually serve it with garlic bread and a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, olive oil, ground chuck, onion, crushed tomatoes, garlic
+---
+TITLE: Baked Ziti Florentine
+CURRENT_DESCRIPTION: this is a casserole my family can't get enough of.  it freezes and reheats well - a great make-ahead meal.  i usually serve it with garlic bread and a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, olive oil, ground chuck, onion, crushed tomatoes, garlic
+---
+TITLE: Baked Ziti From Cook S Illustrated
+CURRENT_DESCRIPTION: this is the best baked ziti i have ever tried...and i have tried a lot.  this is from the march 2009 issue of cook's illustrated and has been thoroughly tested by them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1% fat cottage cheese, eggs, parmesan cheese, salt, ziti pasta, extra virgin olive oil
+---
+TITLE: Baked Ziti My Way
+CURRENT_DESCRIPTION: thisis my easy substitute for lasagna
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, beef, spaghetti sauce, mozzarella cheese, ricotta cheese, parmesan cheese
+---
+TITLE: Baked Ziti Oamc
+CURRENT_DESCRIPTION: hearty, cold-weather comfort food for a crowd- like "dream dinners"
+freezer friendly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, dried rosemary, italian seasoning, nonfat sour cream, nonfat cottage cheese, marinara sauce
+---
+TITLE: Baked Ziti Our Way
+CURRENT_DESCRIPTION: i had made a wonderful baked ziti based loosely on a zaar recipe, but it's since changed so i want to post it myself! you can sub a jar of pasta sauce plus a can of diced tomatoes instead of making the sauce for a quick meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken sausage, onion, garlic cloves, olive oil, diced tomatoes, crushed tomatoes
+---
+TITLE: Baked Ziti Pizza
+CURRENT_DESCRIPTION: absolutely love baked ziti pizza at the local pizza shops...  searched everywhere for a recipe, then decided to go out and make one on my own...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza crust, diced tomatoes, dried basil, dried parsley, dried oregano, ziti pasta
+---
+TITLE: Baked Ziti With Beef And Green Beans
+CURRENT_DESCRIPTION: i'm not a fan of green beans but i have to say that i, as well as the entire family, really enjoy this recipe.  recipe is from the american heart association no fad diet book and the recipe called for no salt tomatoes and tomato paste or other added salt.  original recipe also called for 1 tbls bacon bits which i omitted.  nice casserole style comfort food dish that is healthy and doesn't need any else served with it except a nice salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, lean ground beef, onion, diced tomatoes, nonfat beef broth, tomato paste
+---
+TITLE: Baked Ziti With Eggplant And Ricotta Cheese
+CURRENT_DESCRIPTION: layers of pasta, eggplant cooked in a fresh tomato sauce and cheese is wonderful comfort food
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, salt, ziti pasta, butter, onion, garlic
+---
+TITLE: Baked Ziti With Feta
+CURRENT_DESCRIPTION: most baked ziti recipes are red sauce based.  this one is entirely different, but really easy!  posted for zwt6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, feta cheese, eggs, milk, shallot, kefalotiri
+---
+TITLE: Baked Ziti With Fire Roasted Tomatoes
+CURRENT_DESCRIPTION: this is a recipe from muir glen organic tomatoes, but i know hunt's has a fire roasted diced tomato product out too. my dh loves this--he requests it about once a month!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra lean ground beef, sweet onion, garlic cloves, zucchini, tomato sauce, diced tomatoes
+---
+TITLE: Baked Ziti With Four Cheeses
+CURRENT_DESCRIPTION: i love macaroni and cheese. this version is terrific, with a crusty-cheesy layer on top and creamy-cheesy baked pasta in the middle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, milk, nutmeg, salt, pepper
+---
+TITLE: Baked Ziti With Mini Meatballs
+CURRENT_DESCRIPTION: this is another baked ziti recipe. if available, use authentic italian brands of sauce and crushed tomatoes. the italian brands of canned tomatoes are all 28 oz--just use a bit less.  when forming the meatballs, test for consistency: the meatball should hold together well. if too soft then add some bread crumbs. if too stiff then add a bit of water.    i use a lasagna pan for this ( spray with non-stick spray for easiest cleanup)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, pasta sauce, tomatoes with basil, part-skim ricotta cheese, part-skim mozzarella cheese, eggs
+---
+TITLE: Baked Ziti With Sausage
+CURRENT_DESCRIPTION: i like to use the sauce as a base and change the meat and pasta. easy to put together and rarely leftovers! stacey
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, yellow onion, italian sausages, tomatoes, dried oregano, dried basil
+---
+TITLE: Baked Ziti With Spinach  Sausage  And Mozzarella
+CURRENT_DESCRIPTION: delicious ziti recipe with fresh spinach. easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot italian turkey sausage, onion, garlic cloves, diced tomatoes, pesto sauce, ziti pasta
+---
+TITLE: Baked Ziti With Spinach And Cheese
+CURRENT_DESCRIPTION: this is great if you need to feed an army on the cheap!  serve with a salad and garlic bread, sure to be a pleaser!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, eggs, ricotta cheese, pepper, parmesan cheese, ziti pasta
+---
+TITLE: Baked Ziti With Thick Rich Meat Sauce
+CURRENT_DESCRIPTION: this does make enough to feed 12 very fillingly! using recipe #256239 which is a large amount that we top the baked ziti additional sauce and then freeze the remaining cooled sauce in 1 cup amounts for future use. the pasta is under cooked by 4 minutes it will finish when baked and it will absorb the liquid from the sauce making it yummier. this is very hearty, comforting, and satisfying because mom's will know their families are getting many nutrients that they need.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta sauce with meat, ziti pasta, ricotta cheese, mozzarella cheese, parmesan cheese, egg
+---
+TITLE: Baked Ziti With Tomato  Mozzarella And Sausage
+CURRENT_DESCRIPTION: i was horrified one night to discover i had misplaced this recipe, and had to go without. so, here it is for safekeeping. recipe originally from fine cooking. although it claims to serve four, it seems to make an incredible amount. i freeze half of what it makes before baking, to be enjoyed another evening.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic cloves, hot italian sausage, salt & freshly ground black pepper, dry red wine
+---
+TITLE: Baked Ziti With Vegetables And Mushrooms
+CURRENT_DESCRIPTION: cookinglight.com recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, green bell pepper, red bell pepper, portabella mushrooms, garlic cloves
+---
+TITLE: Baked Zucchini
+CURRENT_DESCRIPTION: good side dish, great way to use end of the season glut of zucchini.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, water, onion, butter, poppy seed, garlic salt
+---
+TITLE: Baked Zucchini   Squash
+CURRENT_DESCRIPTION: a super easy way to enjoy wonderful summer squash!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, yellow squash, butter, oregano, parmesan cheese, salt & pepper
+---
+TITLE: Baked Zucchini Balls  Gluten Free
+CURRENT_DESCRIPTION: these zucchini balls can be served as a side dish or appetizer. i suggest serving them with your favorite sauce, such as ketchup, mayo, ranch dressing, or aioli sauce. for more healthy gluten-free, low-gi, pesco-vegetarian recipes, please visit my blog, www.innerharmonynutrition.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, parmesan cheese, breadcrumbs, basil, egg, salt and black pepper
+---
+TITLE: Baked Zucchini Boats
+CURRENT_DESCRIPTION: these stuffed zucchini halves are a nice addition to dinner, and go over well even with kids!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, onion, egg, lean ground beef, spaghetti sauce, parsley
+---
+TITLE: Baked Zucchini Carrot Fritters
+CURRENT_DESCRIPTION: this can be dropped by spoonfuls and fried in the traditional manner, but baking makes this much lower in fat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, salt, carrots, onion, garlic cloves, butter
+---
+TITLE: Baked Zucchini Casserole
+CURRENT_DESCRIPTION: a simple and tasty side dish from favorite recipes from hawaii.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, onions, tomatoes, parsley, fresh basil, salt and pepper
+---
+TITLE: Baked Zucchini Cheddar Casserole
+CURRENT_DESCRIPTION: this recipe comes from recipes4living's emailed newsletter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, cheddar cheese, cream of chicken soup, sour cream, butter, onion
+---
+TITLE: Baked Zucchini Chips
+CURRENT_DESCRIPTION: a delicious, quick and healthy way to use zucchini!  i have also used yellow squash instead.  this is also great cooked on the george foreman.  i heat mine to 450 deg and cook about 15-20 minutes, or until lightly browned.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, seasoned dry bread crumb, ground black pepper, parmesan cheese, egg whites
+---
+TITLE: Baked Zucchini Coins
+CURRENT_DESCRIPTION: if you love to order deep fried zucchini sticks in restaurants, then you will love this healthier at home version. you won't even be able to tell they aren't deep fried! i serve them as a side to steak and a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, whole wheat flour, salt, dried basil, fresh ground pepper, zucchini
+---
+TITLE: Baked Zucchini Eggplant   Aubergine  And Tomatoes
+CURRENT_DESCRIPTION: this is 3 veggies that we really like and they go very well together. this easy to make recipe comes from justvegetablesrecipes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, zucchini, tomatoes, onion, sliced mushrooms, dried thyme
+---
+TITLE: Baked Zucchini Meal
+CURRENT_DESCRIPTION: a simple zucchini dish , ready in 45 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, monterey jack cheese, eggs, salt, garlic powder, white pepper
+---
+TITLE: Baked Zucchini Potato Latkes
+CURRENT_DESCRIPTION: this is probably not at all traditional but it is way healthier and very tasty. easy and quick enough to throw together after work and it will use up some of the garden's bounty. i just eyeball this so all measurements are approximate. feel free to improvise. you can use more or less potato and zucchini, you just may need to add a bit more egg or flour to get it to come together nicely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, potato, low-fat cheddar cheese, flour, white onion, egg
+---
+TITLE: Baked Zucchini Sticks
+CURRENT_DESCRIPTION: from gina's skinny recipes
+
+http://www.skinnytaste.com/2009/01/baked-zucchini-sticks-13-pts.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg white, seasoned bread crumbs, italian cheese blend, zucchini, garlic powder, salt
+---
+TITLE: Baked Zucchini Tomato Pie
+CURRENT_DESCRIPTION: stolen from a blogger.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, tomatoes, cooked bacon, basil, mayonnaise, parmesan cheese
+---
+TITLE: Baked Zucchini With Cheddar Cheese
+CURRENT_DESCRIPTION: a easy tasty casserole the recipe comes from the gourmet connection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, ground nutmeg, egg, green onion, dijon mustard, cheddar cheese
+---
+TITLE: Baked Zucchini With Cheese
+CURRENT_DESCRIPTION: a simple side dish from the american diabetes association. we hope to try this soon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, egg, prepared mustard, white pepper, ground nutmeg, green onion
+---
+TITLE: Baked Zucchini With Herbed Broad Beans
+CURRENT_DESCRIPTION: i love zucchini!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broad beans, zucchini, oil, spanish onion, garlic clove, cherry tomatoes
+---
+TITLE: Baked Zucchini With Mushrooms
+CURRENT_DESCRIPTION: this comes from a sunset cookbook compilation, in the section titled "low fat italian."  i made this when my wonderful vegetarian nephew came for dinner, and we all thought it was heavenly. it's a little bit like an oven-baked frittata.  i used a mix of zucchini and yellow summer squash.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh mushrooms, onion, vegetable broth, eggs, zucchini, fine dry breadcrumb
+---
+TITLE: Baked Zucchini With Parmesan
+CURRENT_DESCRIPTION: very easy recipe for when the zucchini is rolling in faster than you can think.  from ivillage.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, olive oil, salt & freshly ground black pepper, parmesan cheese, garlic cloves
+---
+TITLE: Baked Zucchini With Tomatoes
+CURRENT_DESCRIPTION: this colorful dish has a distinctly mediterranean flair.  serve with something simple- roast chicken, for example, or pasta and cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, tomatoes, sweet green pepper, yellow onion, salt, pepper
+---
+TITLE: Baker  Baker
+CURRENT_DESCRIPTION: this came from the good eats tv program with alton brown. posting so i won't forget this wonderful recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, flour, light brown sugar, ground cinnamon, ground ginger, salt
+---
+TITLE: Baker S Angel Flake Coconut Macaroons
+CURRENT_DESCRIPTION: this is from the back of the angel flake bag of coconut.  soft, chewy, toothsome, with just a hint of almond flavor.  yummmmm.  let them 'ripen' a few hours before serving to let them soften.  the edges can be a bit crispy straight from the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened coconut, sugar, flour, salt, egg whites, almond extract
+---
+TITLE: Baker S Chocolate Caramel Bars
+CURRENT_DESCRIPTION: i got this from an old baker's cookbook. it's actually similar to a revel bar. really good warm and fudgy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kraft caramels, evaporated milk, all-purpose flour, quick-cooking oats, brown sugar, baking soda
+---
+TITLE: Baker S Creme
+CURRENT_DESCRIPTION: nice. based on a recipe from the june 1988 issue of bon appetit, the r.s.v.p section. it hails from the falls terrace restaurant in tumwater, washington. it says it can be easily halved.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipping cream, egg yolks, sugar, vanilla extract, light brown sugar
+---
+TITLE: baker s dozen favorite butter cake
+CURRENT_DESCRIPTION: this recipe was selected by the baker's dozen after extensive testing of butter cakes. if there is one recipe to have in your file for making tender, golden celebration cakes, it's this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, unsalted butter, sugar, eggs
+---
+TITLE: Baker S Dozen Favorite Butter Cake
+CURRENT_DESCRIPTION: this recipe was selected by the baker's dozen after extensive testing of butter cakes. if there is one recipe to have in your file for making tender, golden celebration cakes, it's this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, unsalted butter, sugar, eggs
+---
+TITLE: Baker S Easter White Chocolate And Lime Cheesecake
+CURRENT_DESCRIPTION: another recipe found in mom's collection, - hope you enjoy -
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ladyfingers, cream cheese, sugar, white chocolate baking squares, lime juice, unflavored gelatin
+---
+TITLE: Baker S Frosting
+CURRENT_DESCRIPTION: ever wonder how they made that bakery frosting?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, milk, powdered sugar, solid shortening, salt
+---
+TITLE: Baker S Original German Sweet Chocolate Cake
+CURRENT_DESCRIPTION: from razzle dazzle recipe site. for zaar world tour ii.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: german sweet chocolate, boiling water, butter, sugar, eggs, vanilla
+---
+TITLE: Baker S Prune Butter  Substitute For Oil In Chocolate Cakes
+CURRENT_DESCRIPTION: this butter can be used as a fat replacement in chocolate cakes and brownies. its dark color makes it most suitable for darker-colored baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boiling water, tea bags, prune, sugar, fresh lemon rind, vanilla
+---
+TITLE: Bakery Baker S Cake Icing
+CURRENT_DESCRIPTION: this recipe is really great.  it takes a little longer to make..please do not cut short beating time.  it will not sink into cake..you can put layers together with just 1/2" of icing and icing will stay put.  this makes enough to frost a 3 layer cake..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, cornstarch, vegetable shortening, butter, granulated sugar, salt
+---
+TITLE: Bakery Like Frosting
+CURRENT_DESCRIPTION: saw this in a recipe book and am posting for safekeeping. i thought it looked interesting and since i do cake decorating i'm always looking at frosting recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable shortening, confectioners, ,, ,, ,, ,
+---
+TITLE: Bakery Oatmeal Chocolate Chip Cookies
+CURRENT_DESCRIPTION: these are the best i've ever had. a friend shared the recipe with me and she swears the secret is hand mixing. so even if you are tempted, put that electric tool down!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, egg, vanilla, baking soda, salt
+---
+TITLE: Bakery Shop Frosting
+CURRENT_DESCRIPTION: this is a rich, but not overly sweet, frosting often favored by bakery shops because of its durability. it holds its shape (seemingly forever) and freezes well. it is very fluffy, good for filling in cracks and uneven spaces and for covering large areas on a cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, non-dairy powdered coffee creamer, water, confectioners, ,, ,
+---
+TITLE: Bakery Style Bran Muffins
+CURRENT_DESCRIPTION: i love a good bakery bran muffin and have tried countless refrigerator bran muffin recipes, which always come up short. this recipe is from cook's illustrated and promises the best bran muffins. what is different about the ingred. is the ratio of white and wheat flours and wheat bran. the molasses, dark brown sugar help make up the great flavor and you will love the bakery crusty top. it is a little more work, but i would never bake any other recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, baking powder, baking soda, salt, cinnamon
+---
+TITLE: Bakery Style Breakfast Cookies
+CURRENT_DESCRIPTION: these cookies will make your mouth sing! if you love the flavor thar toasted nuts have, you will love these cookies. they are not a doctored up oatmeal cookie, but like a really good energy bar/cookie. these have been adapted from a bakery called "tutti's" in montecito, ca.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old fashioned oats, whole wheat flour, all-purpose flour, grape-nuts cereal, wheat germ, oat bran
+---
+TITLE: Bakery Style Chewy Chocolate Chip Cookies
+CURRENT_DESCRIPTION: i know... not another chocolate chip cookie recipe... but, you'll find that these are sheer perfection, large bakery-style, thick and chewy, cookies that taste as good as they look with a fool-proof set of instructions.  it was pointed out to me that this recipe is from baking illustrated, perhaps so as i wrote down the ingredients from a morning show years ago!  thanks for letting me know.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, unsalted butter, brown sugar, granulated sugar
+---
+TITLE: Bakery Style Lemon Crumb Muffins
+CURRENT_DESCRIPTION: found this on a baking web-site. haven't tried this one yet, but it sounds wonderful:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pastry flour, sugar, baking powder, salt, lemons, zest of, lemon extract
+---
+TITLE: Bakery Style Muffins
+CURRENT_DESCRIPTION: 47K likes, 2,007 comments - beth_thefirstyear on September 18, 2024: "Tip #1 - Let your batter rest for 15 minutes before baking! ⏲️
+
+Tip #2 - Only fill every other hole in your muffin pan. This ensures you’ll get a perfectly round dome top to your muffins! 😋
+
+Tip #3 - Fill each muffin liner with 6-8 tablespoons of batter. It may seem like a lot, but trust me it works! 🙌
+
+Tip #4 - Bake your muffins at 425°F for the first 7 minutes, then lower the temperature to 350°F for the rest of the bake t
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Bakery Style Pumpkin Chocolate Chip Cookies
+CURRENT_DESCRIPTION: the inspiration for this recipe was recipe #287236 posted by lulabelle4822.  they were great muffins but i was still trying to get closer to the local bakery's cookie recipe.  i'm posting the recipe i've developed over several practice runs that i feel comes the closest to the bakery cookies.  these make big, soft & slightly chewy pumpkin cookies loaded with chocolate chips.  delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, cinnamon, nutmeg, ground ginger, ground cloves
+---
+TITLE: bakery style sourdough bread
+CURRENT_DESCRIPTION: sourdough is believed to have originated in ancient egyptian times around 1500 bc, and was likely the first form of leavening available to bakers.
+this is amazing bread, is not difficult but does take some advance planning. the recipe and the step-by-step (and i do mean step-by-step) instructions come from cook's illustrated!   the key is to use healthy refreshed starter.  note:  if you are short on time, step #21 can be skipped, however the taste of bread will be effected slightly.  let me know if you need more information on how to refresh your starter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sourdough starter, bottled water, unbleached flour, unbleached bread flour, table salt
+---
+TITLE: Bakery Style Upside Down Hawaiian Pineapple Muffins
+CURRENT_DESCRIPTION: you may use fresh pineapple in place of canned, or use pineapple rings, diced into small pieces, also add in some chopped macadamia nuts or walnuts to the muffin batter if desired. these muffins are best served warm, also they freeze very well, make certain to generously grease the bottom of each muffin tin to make removing the muffins easier :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pineapple tidbits, brown sugar, butter, honey, flour, natural bran
+---
+TITLE: Bakery Style Whoopie Pie Cake
+CURRENT_DESCRIPTION: i found this recipe on a website for parents.  the original was for the actual whoopie pies, but i am too lazy for all of that.  i altered a little and made a cake out of it.  it is awesome and so worth the work. note: use real butter, makes it much better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: devil, ,, ,, ,, ,, ,
+---
+TITLE: Bakery Three Layer Cake
+CURRENT_DESCRIPTION: this cake taste just like the ones at your bakery, it is so moist! frost it with you favorite butter cream frosting. for this use 1/2-cup each butter, oil and shortening only no changes please! see my recipe#78579 for greasing pans
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: buttermilk, baking soda, white sugar, butter, vegetable oil, shortening
+---
+TITLE: Bakes   Baking Powder Biscuits From Barbados
+CURRENT_DESCRIPTION: sweet biscuits from the caribbean. very easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, sugar, salt, eggs, butter
+---
+TITLE: Bakes Beans    Brilliant    Vegan
+CURRENT_DESCRIPTION: adapted from how it all vegan.  this is really easy to throw together, provided you have the beans ready to go (or use canned).  even if you have to boil some up, dry navy beans and soy beans are pretty quick if you've soaked them for 6 hours or so.  this is a less sweet version of baked beans with only a little molasses, more tomato-ey.  it's satisfying and simple.  if accompanied by a salad and some hearty bread it would probably be enough for 4 people.  for larger portions though, i'd say more like 2 or 3, with some leftovers.  the original recipe only called for 1 1/2 cups broth, i adjusted to 2 1/2, found it was too dry otherwise, but then i really like sauce so you may choose to cut that back down.  i also added 1 tbsp of brown sugar, found it was just lacking a little something without it.  the last adjustment was to the cooking time - originally calling for 40 mins at 350, that wasn't near enough time to even cook the onions, so i upped to 375 for an hour.  (note, prep/cook time does not include soaking or boiling of the beans).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navy beans, vegetable broth, molasses, brown sugar, tomato paste, onion
+---
+TITLE: Bakes Potato Eggs
+CURRENT_DESCRIPTION: i used to make this alot when my sons were small. sometimes even for dinner. the adults often have salsa on the side to kick it up a bit. it's very versatile and can be varied in many ways.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, butter, milk, parmesan cheese, turkey sausage, eggs
+---
+TITLE: bakesale betty s fried chicken sandwich
+CURRENT_DESCRIPTION: from one of my favorite restaurants in oakland. grabbed this recipe from muffintop's blog when i got a hankering. also made this sandwich using fried tilapia. still good but i found that all i really wanted to eat was the coleslaw filling. hope you have an appetite cause this is one huge sandwich.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, kosher salt, buttermilk, dijon mustard, red wine vinegar, extra virgin olive oil
+---
+TITLE: Bakesale Betty S Fried Chicken Sandwich
+CURRENT_DESCRIPTION: from one of my favorite restaurants in oakland. grabbed this recipe from muffintop's blog when i got a hankering. also made this sandwich using fried tilapia. still good but i found that all i really wanted to eat was the coleslaw filling. hope you have an appetite cause this is one huge sandwich.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, kosher salt, buttermilk, dijon mustard, red wine vinegar, extra virgin olive oil
+---
+TITLE: Bakewell Pudding
+CURRENT_DESCRIPTION: a buttery mixture, flavoured with ground almonds and baked in a light flaky pastry case, is the basis of this traditional derbyshire recipe, sometimes known as bakewell tart, the origin of which is secret to this day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: puff pastry, raspberry jam, ground almonds, caster sugar, butter, eggs
+---
+TITLE: Bakewell Tart
+CURRENT_DESCRIPTION: this is a fabulous tart that deserves more recognition.  it is positively divine with a steaming cup of tea (or coffee for that matter!).  slightly adapted from a recipe by jamie oliver.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla bean, butter, powdered sugar, salt, flour, lemon
+---
+TITLE: Bakewell Tarts
+CURRENT_DESCRIPTION: interesting ingredients for an interesting recipe from carolyn at allrecipes. try other cake flavors, as well as different kinds of jam flavors. this recipe calls for dough for a double crust pie. you can either use your own pie crust recipe, or from a mix, for those who may be intimidated by a pie crust.
+feel free to use other kinds of jams and cake mixes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, water, oil, eggs, pie crust mix, cold water
+---
+TITLE: Bakinbaby S  Zucchini Summer  Casserole
+CURRENT_DESCRIPTION: delish..  zucchini recipe, with cumin, ground beef,red bell pepper and corn. you can use mexicorn ( 1 each 12 oz. can) instead of corn and red pepper. this recipe comes from an old country living recipe book. .  when i make this for the kids, i omit the cumin. quick and easy!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, red bell pepper, zucchini, kosher salt, garlic cloves
+---
+TITLE: Bakinbaby S Blackberry Cobbler
+CURRENT_DESCRIPTION: this is a biscuit type topped cobbler that is very quick and easy to make. you can use fresh or frozen berries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, butter, milk
+---
+TITLE: Bakinbaby S Bread And Butter Pickles
+CURRENT_DESCRIPTION: orange marmalade gives these cukes a whole new twist on b&b pickles. i've spent many hours coming up with this sweet, but sour delght.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, sweet onions, green bell pepper, red bell pepper, kosher salt, white vinegar
+---
+TITLE: Bakinbaby S Dijon Baked Cod
+CURRENT_DESCRIPTION: this comes from a costco cod package from copper river seafoods in alaska. we like to bake our fish, so this is one of our favorites. most ingredients are on hand like; mayonnaise, dijon, lemon juice, parmesan, etc. and so low in fat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, dijon mustard, horseradish, lemon juice, breadcrumbs, parmesan cheese
+---
+TITLE: Bakinbaby S Egg   Mushroom Breakfast
+CURRENT_DESCRIPTION: bacon,mushrooms, red pepper and onions bring excitement to the scrambled egg.  if using leftover bacon drippings isn't your thing, you might try olive oil.  this has become dh's favorite breakfast. sometimes i eat one of the pieces of bacon (while dh isn't looking), so if you're like me, plan on cooking more. adding the cheese and bacon right before serving insures the bacon is crisp and the cheese is barely melted.
+revision: 7/17/09 per kate's review: at step 5 be ready and prepared to add back in the sauted veggies when eggs are not quite done, certainly not set, but not completely runny, if you let the eggs cook too much, you'll end up with over cooked eggs, no fun!!!! then right before serving toss/fold in the fried bacon. i'm sorry this was not completley clear in my original posting of the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, mushroom, red pepper, onion, mexican blend cheese, eggs
+---
+TITLE: Bakinbaby S Elegant Stove Top Stuffing
+CURRENT_DESCRIPTION: easy and elegant made from a box, but who would have thought? i like to use the savory herb stove top stuffing mix, but you can use any flavor you have on hand. dh and i are watching our cholesterol intake and are amazed at how low this dish is and so satisfying.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: stove top stuffing mix, chicken broth, water, butter, celery, onion
+---
+TITLE: Baking Mix Aka  Bisquick
+CURRENT_DESCRIPTION: this is a recipe that is higher in fiber and slightly lower in fat than most of the ones already posted.  i use whole wheat pastry flour and the shortening is the zero trans fat variety.  this can be used just like bisquick for making pancakes or biscuits.  the recipe comes from the new american diet cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pastry flour, white flour, nonfat dry milk powder, cream of tartar, baking powder, salt
+---
+TITLE: Baking Mix Cheese And Garlic Biscuits
+CURRENT_DESCRIPTION: this recipe is from cooks.com.  i use watermelon's recipe #75577.  thanks, watermelon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking mix, milk, cheese, butter, garlic powder
+---
+TITLE: Baking Powder Biscuits
+CURRENT_DESCRIPTION: i found this recipe in a cook book from the 1800 while trying to recreate my husband's grandmother's biscuits. dh say they are close enough for him.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pastry flour, salt, baking powder, shortening, milk
+---
+TITLE: Baking Powder Biscuits  Drop Type
+CURRENT_DESCRIPTION: i get this recipe from my pillsbury family cookbook that was published in 1963. it was my mothers, a graduation present i believe, and i refer to it on a regular basis for the classic preparation of many foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, shortening, milk
+---
+TITLE: Baking Powder Biscuits  Pre 1940
+CURRENT_DESCRIPTION: this recipe included in my "grandma's wartime edition" cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, fat, milk
+---
+TITLE: Baking Powder Buscuits
+CURRENT_DESCRIPTION: i received this recipe from a dear friend clark who used to make the best biscuits and and gravy (rip clark we love you)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, vegetable shortening, milk
+---
+TITLE: Baking Powder Dumplings
+CURRENT_DESCRIPTION: czech recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking powder, milk, egg
+---
+TITLE: Baking Powder Meatballs
+CURRENT_DESCRIPTION: this is really good if you want to use ground turkey instead of beef too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, milk, bread, onion, salt, pepper
+---
+TITLE: Baking Powder Pancakes
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. flour, 1 tsp. salt, 3 Tbsp. sugar, 2 tsp. baking powder, 2 eggs, lightly beaten, 1 1/4 c. milk
+---
+TITLE: Baking Powder Stollen
+CURRENT_DESCRIPTION: this is a easy quick bread version of the traditional german christmas bread made with yeast. no waiting for dough to rise. no waiting for bread to mellow. i do not care for the citron and orange peel, so i substitute with orange flavored dried cranberries. this recipe makes 2 medium loaves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ricotta cheese, butter, sugar, eggs, lemon juice, fresh lemon rind
+---
+TITLE: Baking Spice   Copycat Pampered Chef Cinnamon Plus Mix
+CURRENT_DESCRIPTION: we don't use plain cinnamon in our house since we have found this. we love it and think you will also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground cinnamon, ground allspice, dried orange peel, ground nutmeg, ground cloves, ground ginger
+---
+TITLE: Baking Stones
+CURRENT_DESCRIPTION: these treats are a cross between english muffins and pancakes...but uniquely welsh. they are quite nutritious, too, especially if you use all or part whole wheat flour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, egg, butter, sugar
+---
+TITLE: baklava
+CURRENT_DESCRIPTION: i can't claim this as my own since it was found on another on line site. my kids had as much fun helping make this recipe as they did eating it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, nuts, butter, ground cinnamon, water, white sugar
+---
+TITLE: Baklava
+CURRENT_DESCRIPTION: i can't claim this as my own since it was found on another on line site. my kids had as much fun helping make this recipe as they did eating it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, nuts, butter, ground cinnamon, water, white sugar
+---
+TITLE: Baklava   An Indian Milk Sweet In Sugar Syrup
+CURRENT_DESCRIPTION: from today's thursday magazine, now you know what i'm making for my sabbath tomorrow;-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, semolina, butter, sugar, water, orange rind
+---
+TITLE: baklava   orange pomegranate honey syrup
+CURRENT_DESCRIPTION: don’t let the complex instruction fool you… it is simple, it’s just hard to find detailed directions. it’s really not a “science” like baking and pastry is, so fee free to play around a little! the important part is that you have everything prepared before you start to assemble with the dough, it can be finicky, but totally do-able!
+
+my mother in law is a purist and makes baklava with only walnuts, sugar, and karo syrup (and dough of course!). i wanted to experiment with a more complex palate and this is what i came up with! 
+
+from researching recipes, it looks like baklava is holy to some people:
+“only butter!”, “only rosewater!”, “only walnuts/pistachios/etc.!” – ummm… calm down. it’s only a dessert!  this is a recipe that i made by combining what looked best to me and what felt right at the time. it came out wonderfully so i wanted to let you know what i did…
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, pomegranate syrup, fresh orange juice, orange, cinnamon stick
+---
+TITLE: Baklava   Orange Pomegranate Honey Syrup
+CURRENT_DESCRIPTION: don’t let the complex instruction fool you… it is simple, it’s just hard to find detailed directions. it’s really not a “science” like baking and pastry is, so fee free to play around a little! the important part is that you have everything prepared before you start to assemble with the dough, it can be finicky, but totally do-able!
+
+my mother in law is a purist and makes baklava with only walnuts, sugar, and karo syrup (and dough of course!). i wanted to experiment with a more complex palate and this is what i came up with! 
+
+from researching recipes, it looks like baklava is holy to some people:
+“only butter!”, “only rosewater!”, “only walnuts/pistachios/etc.!” – ummm… calm down. it’s only a dessert!  this is a recipe that i made by combining what looked best to me and what felt right at the time. it came out wonderfully so i wanted to let you know what i did…
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, pomegranate syrup, fresh orange juice, orange, cinnamon stick
+---
+TITLE: Baklava (Greek Pastry)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 large pkg. filo dough, 3 c. sugar, 5 Tbsp. cinnamon, 1 Tbsp. cloves, 2 sticks butter, 1/4 c. lemon juice
+---
+TITLE: baklava cheesecake
+CURRENT_DESCRIPTION: i love playing with cheesecake recipes :)  i used coconut sugar in the cake. it's far less sweet tasting. you can also use all butter in the crust. i like the texture coconut oil gives. the time does not include giving the cheesecake 24 hours to sit. you can make the syrup the next day so it's warm when you serve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, coconut oil, almond meal, brown sugar, cream cheese, sour cream
+---
+TITLE: Baklava Cheesecake
+CURRENT_DESCRIPTION: i love playing with cheesecake recipes :)  i used coconut sugar in the cake. it's far less sweet tasting. you can also use all butter in the crust. i like the texture coconut oil gives. the time does not include giving the cheesecake 24 hours to sit. you can make the syrup the next day so it's warm when you serve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, coconut oil, almond meal, brown sugar, cream cheese, sour cream
+---
+TITLE: Baklava Cups
+CURRENT_DESCRIPTION: i made the most wonderful baklava on ethnic night in gourmet class.  i hadn't made it in a while and started craving it when i saw this little shortcut in a magazine at the doctor's office.  (the best part about the wait is scanning the magazine rack!)  also, if you want to get even more fancy and creative, top with a dollop of nutella or chocolate fudge, or even an chocolate mint bar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: miniature phyllo cups, mixed nuts, sugar, honey, water
+---
+TITLE: Baklava Latte
+CURRENT_DESCRIPTION: from the cappuccino espresso the book of beverages by christie and thomas katona. zaar would not accept maple walnut syrup, so it's listed as maple syrup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: praline syrup, hazelnut syrup, maple syrup, lemon syrup, honey, espresso
+---
+TITLE: Baklava Mini Bites
+CURRENT_DESCRIPTION: these mini baklava slices are perfect for a dessert tray. recipe is from land o lakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, honey, lemon juice, ground cinnamon, walnuts, raisins
+---
+TITLE: Baklava Minis
+CURRENT_DESCRIPTION: this is a neat desert or appetizer for people who like baklava but hate the sticky mess it leaves behind.  unfortunatly the shells may not be available in all locations.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, butter, sugar, cinnamon, pecans, walnuts
+---
+TITLE: Baklava Muffins
+CURRENT_DESCRIPTION: i love baklava and this is a delightful treat that brings the same flavors through.    from how to be a  domestic goddess by nigella lawson.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, sugar, cinnamon, butter, flour, baking powder
+---
+TITLE: Baklava Salmon  Salmon With Honey  Butter  Walnuts  And Mustard
+CURRENT_DESCRIPTION: one of my friends deemed this "baklava salmon" and the name stuck. the salmon & mustard go well with the honey, butter, and walnuts. we usually serve this with rice and steamed carrots or broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, whole grain mustard, honey, dry breadcrumbs, walnuts, fresh parsley
+---
+TITLE: Baklava Salmon With Asparagus
+CURRENT_DESCRIPTION: all of the best ingredients of baklava meet salmon for an epic one dish dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, dijon mustard, honey, pistachios, panko breadcrumbs, parsley
+---
+TITLE: Baklava Syrup
+CURRENT_DESCRIPTION: delicious syrup for over your baklava. way better than just honey!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, whole cloves, cinnamon stick, honey, lemon juice
+---
+TITLE: Baklava Tarts
+CURRENT_DESCRIPTION: delicately spiced nuts encased in tender, buttery pastry - even the burst of citrus from the lemon zest is authentic as you would normally find that in the syrup poured over the baklava.  easy to make and very good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, flour, walnuts, brown sugar, eggs
+---
+TITLE: Baklava With Honey Syrup
+CURRENT_DESCRIPTION: one of several recipes featured as a dish to be served for a greek-style meal, in the november issue of the australian magazine 'super food ideas', and posted for the 2005 zaar world tour.  the preparation and cooking times do not include the 30 minutes standing time, to allow the syrup to be fully absorbed by the baklava.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame seeds, walnuts, ground cinnamon, phyllo pastry, unsalted butter, lemon
+---
+TITLE: Baklavas  Light Version
+CURRENT_DESCRIPTION: very light because we don't use butter!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo pastry, walnuts, extra virgin olive oil, honey, sugar, ground cinnamon
+---
+TITLE: Baklawa  Lebanese  Version Of Baklava
+CURRENT_DESCRIPTION: i haven't made this yet, but plan to.  the mazahar, or orange blossom water, can be purchased at any middle eastern or greek specialty store.  keep in mind that this makes 60 servings. tip: syrup must either be cool and poured over hot baklawa or hot and poured over cooled baklawa. never pour hot syrup over hot baklawa; it will make it soggy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, walnuts, sugar, orange blossom water, butter, water
+---
+TITLE: Baklazhanovaya Ikra   Eggplant  Aubergine   Caviar
+CURRENT_DESCRIPTION: this was given to me by one of my russian language teachers.  it is best served cool on rye or pumpernickel toast points.  passive time is chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, onion, tomatoes, garlic cloves, vinegar, vegetable oil
+---
+TITLE: Bal   More Crabby Bake    5Fix
+CURRENT_DESCRIPTION: 5-ingredient fix contest entry
+in baltimore we love crabs and old bay. this is a fun and delicious appetizer that everyone will enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: simply potatoes shredded hash browns, shredded cheddar cheese, cream cheese, lump crabmeat, old bay seasoning
+---
+TITLE: Bal S Lentil Cookies
+CURRENT_DESCRIPTION: i know this sounds strange, and i haven't tried it yet, but the reviews are so good, i must try it and posting here for safekeeping. bal arneson from spice goddess on the cooking channel is the creator. you can make these vegan by substituting earth balance butter for the butter, one tablespoon flaxseed meal mixed with 3 t water(see recipe #395664)
+ for the egg and vegan chocolate chips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lentils, butter, brown sugar, egg, whole wheat flour, baking soda
+---
+TITLE: Bal S No Butter Butter Chicken
+CURRENT_DESCRIPTION: entered for safe-keeping, from bal arneson, "spice goddess".  i generally enjoy her recipes and i can't wait to try this lightened version of one of our favorite dishes, a very mild curry.  i started using grapeseed oil because of bal; it has a high smoke point and the sautéed food tastes "clean".  i have learned that in indian cuisine it is paramount to have fresh spices.  i store my ground spices in the freezer.  for this dish, you could puree the onion, garlic and ginger in a food processor prior to cooking, which will ensure a smooth, thick sauce.  serve with roti or rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grapeseed oil, red onion, fresh garlic, fresh ginger, tomato paste, brown sugar
+---
+TITLE: Balah Isham  Deep Fried  Cream Puffs  Pastry
+CURRENT_DESCRIPTION: this is a wonderful dessert i got from my mother. it may seem like a lot of work, but well worth the effort!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, butter, flour, baking powder, eggs, vanilla
+---
+TITLE: Balaleet  Vermicelli And Egg Omelet
+CURRENT_DESCRIPTION: found on emiratican kitchen . the intro says: this is an unusually delicious salty and sweet breakfast dish that is enjoyed on a regular basis.  this is also traditionally served on the eid holidays along with boiled garbanzo beans and boiled black-eye peas.  along with the salty-sweet taste your taste buds will be tickled with the cardamom spice.  it is very interesting to eat this for the first time because you think it will not be delicious but it will soon become a favorite of yours too. posted exactly as written.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vermicelli, cooking oil, ghee, sugar, cardamom powder, saffron
+---
+TITLE: Balalit  Saweeya Or Seviyan  Sweet Vermicelli Breakfast
+CURRENT_DESCRIPTION: a gluten-free tasty sweet breakfast or dessert made especially during the month of ramadan in the arabian gulf - kuwait, uae, oman... sometimes made with onion and egg. originally published on http://arabicbites.blogspot.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice vermicelli, sugar, ground cardamom, rose water, olive oil, saffron
+---
+TITLE: Baldpate Quiche
+CURRENT_DESCRIPTION: got this receipe from a cookbook "the baldpate collections".  the baldpate inn is a wonderful bed and breakfast/lodge nestled in the rocky mountains near estes park, colorado.  if you are in the area, the baldpate is a must see....and eat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: breakfast sausage, dry vegetable soup mix, swiss cheese, milk, baking mix, eggs
+---
+TITLE: Bali Baked Fish
+CURRENT_DESCRIPTION: a recipe picked up from the food network a few years ago.  a nice flavorful way to eat baked fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red snapper fillets, salt & freshly ground black pepper, onion, garlic cloves, gingerroot, tamarind paste
+---
+TITLE: Bali Beef
+CURRENT_DESCRIPTION: a savory casserole my mom used to make often. nothing like beef and cheese!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, salt, garlic salt, worcestershire sauce, cooked rice
+---
+TITLE: Bali Wings
+CURRENT_DESCRIPTION: my husband is a wing nut and loves when i make him this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken wings, brown sugar, granulated sugar, cornstarch, ground ginger, salt
+---
+TITLE: Bali Yummy
+CURRENT_DESCRIPTION: avocado and chocolate? the combination sounds surprising but tastes great! this dessert recipe was developed by kirsti soukka who wanted to recreate a dessert she enjoyed on her holiday in bali.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, cornstarch, cocoa powder, sugar, dark chocolate, vanilla
+---
+TITLE: Balinese Lamb Chops
+CURRENT_DESCRIPTION: this is from super food ideas. this is nice served with noodles and baby bok choy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, brown onion, crunchy peanut butter, sweet chili sauce, ketjap manis, light coconut milk
+---
+TITLE: Balinese Rice Salad
+CURRENT_DESCRIPTION: one of my favorite salads in the moosewood daily special cookbook. it can be made quickly with leftover rice and served as a main course or side dish that is perfect for last minute picnic or easy summer supper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mango chutney, cider vinegar, vegetable oil, unsweetened pineapple, garlic, soy sauce
+---
+TITLE: Balkenbrij  Liverwurst
+CURRENT_DESCRIPTION: i live in holland, michigan and these are just a few of the "traditional"  recipes i've collected from people i know who probably brought them from "the  old country." enjoy!     balkenbrij (liverwurst)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef liver, beef heart, pork roast, broth, buckwheat flour, salt & pepper
+---
+TITLE: Ball Blue Book Plum Jam
+CURRENT_DESCRIPTION: this is the recipe i have always used to make plum jam.  my family loves this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plums, water, sugar, lemon juice, dry pectin
+---
+TITLE: Ballet Party Rice
+CURRENT_DESCRIPTION: my daughter's boyfriend's mom gave her a cookbook that was created by the houston ballet for their nutcracker christmas market in 1984. the recipes in the book were submitted by directors, choreographers, and dancers in the houston ballet that year. this recipe was submitted by jeanne doornbos, soloist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, bacon, jalapenos, sour cream, monterey jack cheese, butter
+---
+TITLE: Ballindalloch Chicken
+CURRENT_DESCRIPTION: a delightful recipe from the spey valley in the scottish highlands.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, onion, cream, tomato puree, ham, cheese
+---
+TITLE: Ballpark Hot Dogs  Vegan
+CURRENT_DESCRIPTION: easy, inexpensive kid-friendly recipe for vegan dogs from "quick and easy low-cal vegan comfort food." i use these with vegan dad's corndog recipe: http://vegandad.blogspot.com/2012/01/baked-mini-corn-dogs.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, olive oil, ketchup, garlic clove, onion, brown sugar
+---
+TITLE: Ballpark Scramble
+CURRENT_DESCRIPTION: all-american ingredients come together on the (home)plate for an all-star taste in record breaking time!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, hot dog, american cheese, onion, red hot sauce
+---
+TITLE: Bally S Casino Bread Pudding
+CURRENT_DESCRIPTION: i just adore simple homey but elegant custardy bread pudding. this one is adorned with the most wicked bourbon sauce ever devised. such a combination!  saved forever!  from the times-picayune - "bally's casino first shared this recipe in 1996, then it was reprinted in sept. of 2006 for a reader who had a copy on her refrigerator when katrina came through st. bernard parish. the pudding was very light and fluffy, she said."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, raisins, eggs, milk, sugar, vanilla extract
+---
+TITLE: Ballymaloe Apple Cake
+CURRENT_DESCRIPTION: thick cakelike crust enveloping apples, rhubarb or gooseberries is always served with whipped cream and brown sugar. as common as this cake is, it varies from house to house in ireland, all are made with bramley apples, whick break down into a foamy mass when cooked.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, unsalted butter, brown sugar, egg, milk
+---
+TITLE: Ballymaloe Brown Bread  Zwt 8
+CURRENT_DESCRIPTION: a staple of irish meals, brown bread can be served alongside soups & stews, often w/slices of cheddar or smeared w/butter or a thick fruit jam. this adapted version comes from colman andrews' the country cooking of ireland, an award-winning resource for regional recipes. colman learned it from tim allen (a former instructor at the ballymaloe cookery school) & the orig recipe comes from baker doris grant. i found it another 1 of my grandparents.com newsletters & think the baking tips mentioned in the directions are helpful for experienced bread makers, but esp so for bread makers less-experienced like myself. (rising times were included in the prep time) *enjoy!*
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: molasses, active dry yeast, whole wheat flour, sea salt, canola oil
+---
+TITLE: Ballymaloe Fudge
+CURRENT_DESCRIPTION: caution do not make this fudge the recipe is incorrect will be  corrected shortly!!!!!!
+
+
+
+got a sweet tooth? simple recipe for a tasty fudge add nuts if you wish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, evaporated milk, water, vanilla extract
+---
+TITLE: Ballymaloe Irish Stew
+CURRENT_DESCRIPTION: recipe adapted from irish country cooking by darina allen, published by viking penguin, 1996; posting for zwt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shoulder lamb chops, salt, fresh ground black pepper, vegetable oil, beer, new potato
+---
+TITLE: Balmain Bugs  Shrimp  With Mango Sauce
+CURRENT_DESCRIPTION: a delicious-sounding recipe from the land down under.  the recipe calls for balmain bugs, which the zaar database won't accept, so i've put very large shrimp in their place (a fine substitute).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, mangoes, sour cream, lemons, soft brown sugar, thai sweet chili sauce
+---
+TITLE: Balochi Rosh
+CURRENT_DESCRIPTION: an authentic recipe from baluchistan,which is usually made for special events like marriage ceremony,picnics etc.the recipe is originated from persia and it is one of the common luxury recipe made for farewells.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb, turmeric powder, coriander powder, cumin seed, green cardamoms, cardamoms
+---
+TITLE: Baloney   Bologna Gravy
+CURRENT_DESCRIPTION: i was raised on this recipe, my grandmother made it, my mother made it, and i make it at least twice a month. back in my grandmothers time, feeding 8 children, you made due. to this day, my children could have sausage, or bacon gravy for breakfast. they want baloney gravy every time. don't let the name scare you off, this is very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bologna, oil, flour, milk, water, salt and pepper
+---
+TITLE: Balouza Muhallabia  Fragrant Milk Pudding
+CURRENT_DESCRIPTION: a creamy milk jelly, which is basically a fragrant blancmange, from the middle east.  the recipe is adapted from one in a claudia roden book.  i made it with orange blossom water and pistachios, with about 3/4 cup sugar, and it was lovely - even my dessert-resistant husband loved it, and it's a good way of getting more calcium into children!  next time, however, i will reduce the sugar to 1/2 cup.  note that 2 hours of the preparation time are chill time - it only takes 15 minutes to make the dish.  posted for the north african and middle eastern tag game  :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornflour, milk, sugar, orange blossom water, blanched almonds
+---
+TITLE: Balsalmic Kale And Squash Saute
+CURRENT_DESCRIPTION: healthy lite and sweet combination makes for a great vegetarian meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onion, kale, vegetable broth, squash, roma tomatoes, balsamic vinegar
+---
+TITLE: Balsamic    Bacon   And  Pistachio  Asparagus
+CURRENT_DESCRIPTION: ok, this is a recipe that has been taken from another recipe and changed to use asparagus, and credit for the idea must go to kelbel, recipe #104476.
+
+i hope you enjoy this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, bacon, pistachios, balsamic vinegar, poppy seed
+---
+TITLE: Balsamic    Garlic Beans
+CURRENT_DESCRIPTION: a very quick and easy side dish of vegetables to serve.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, garlic cloves, fresh parsley leaves, balsamic vinegar, olive oil, almonds
+---
+TITLE: Balsamic   Glazed Pork Chops
+CURRENT_DESCRIPTION: this recipe is from my new weight watcher's cookbook, and is 3 points.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, lemon juice, worcestershire sauce, honey, dijon mustard, oil
+---
+TITLE: Balsamic   Lime Vinaigrette
+CURRENT_DESCRIPTION: from gwyneth paltrow's my father's daughter
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, agave nectar, fresh lime juice, olive oil, coarse salt, fresh ground black pepper
+---
+TITLE: Balsamic   Parmesan Roasted Cauliflower
+CURRENT_DESCRIPTION: this easy and delicious recipe is from eatingwell magazine. the florets are cut into thick slices and tossed with extra-virgin olive oil and herbs. wherever the flat surfaces come into contact with the hot roasting pan, a deep browning occurs that results in a sweet, nutty flavor.  you can easily halve the recipe or change up the herbs to suit your taste and mood.
+
+tip: to prepare florets from a whole head of cauliflower, remove outer leaves. slice off the thick stem. with the head upside down and holding a knife at a 45° angle, slice into the smaller stems with a circular motion—removing a “plug” from the center of the head. break or cut florets into the desired size.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cauliflower florets, olive oil, dried marjoram, salt, pepper, balsamic vinegar
+---
+TITLE: Balsamic   Roasted Garlic Vinaigrette
+CURRENT_DESCRIPTION: a great vinaigrette to top your salad, or as a marinade for grilled vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, balsamic vinegar, dijon mustard, olive oil, salt and pepper
+---
+TITLE: Balsamic  Chicken With Baby Spinach
+CURRENT_DESCRIPTION: saw this on the food networks low fat, low carb section and thougth it looked good, and wanted to share.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, boneless skinless chicken breasts, baby spinach, balsamic vinegar, low sodium chicken broth
+---
+TITLE: Balsamic  Orange  Honey  Maple Syrup Glazed Duck
+CURRENT_DESCRIPTION: i went looking for inspiration for my duck i bought for dinner. eventually i found it on the bag the duck came in!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: duck, maple syrup, honey, dijon mustard, dried thyme, orange juice
+---
+TITLE: Balsamic And Dijon Glazed Ham With Roasted Pearl Onions
+CURRENT_DESCRIPTION: this ham will take center stage at any holiday meal!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white pearl onions, brown sugar, balsamic vinegar, dijon mustard, butter, salt
+---
+TITLE: Balsamic And Goat Cheese Filet Mignon
+CURRENT_DESCRIPTION: i found this recipe on food network and it is incredible. really easy to prepare and one of my (picky) husbands favorite meals! i have also made it with sirloin, just as good and a little cheaper :) i buy the peppered goat cheese from the deli and it adds a little spice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, sugar, butter, filet mignon steaks, salt, fresh ground black pepper
+---
+TITLE: Balsamic And Olive Chicken
+CURRENT_DESCRIPTION: super quick and super easy dinner that is extremely high in protein and very low in carbs and fat. i make this as a simple after-work/gym dinner with a green salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, onion, garlic clove, balsamic vinegar, green olives, flat leaf parsley
+---
+TITLE: Balsamic Asparagus With Bacon Yum
+CURRENT_DESCRIPTION: i got this from a friend. it's one of those easy recipes that makes people think you know what you're doing in the kitchen. i love those. (as with all of my recipes, i guessed on the amounts cause i always just eye it.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon drippings, onion, bacon, asparagus, balsamic vinegar, salt
+---
+TITLE: Balsamic Baby Carrots
+CURRENT_DESCRIPTION: a lovely side dish that has a tangy flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, baby carrots, shallots, red bell pepper, olive oil, balsamic vinegar
+---
+TITLE: Balsamic Baked Beets With Red Onions   Hazelnuts
+CURRENT_DESCRIPTION: i just love baked beets! being red one of the things i like to serve on valentines day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, beets, red onion, balsamic vinegar, olive oil, honey
+---
+TITLE: Balsamic Baked Onions And Potatoes  Jamie Oliver
+CURRENT_DESCRIPTION: from jamie at home by jamie oliver.  a must-try for all who love great spuds.  pair with roast pork, lamb or chicken.  jamie has this cooking on the top shelf of his oven while he does his roast pork underneath.  i made this dish to accompany grilled lamb chops, so i baked it in the middle of the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, olive oil, butter, fresh rosemary, bulb of garlic, red onions
+---
+TITLE: Balsamic Barbecue Chicken
+CURRENT_DESCRIPTION: from everyday italian
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, ketchup, brown sugar, garlic clove, worcestershire sauce, dijon mustard
+---
+TITLE: Balsamic Basil Carrots
+CURRENT_DESCRIPTION: we really enjoyed this for dinner and i couldn't find a recipe quite like it on recipezaar.  this was lovely with ham and a salad.  from a weight watcher's cookbook.  each serving is 1 point.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, water, balsamic vinegar, honey, olive oil, spicy brown mustard
+---
+TITLE: Balsamic Bbq Sauce
+CURRENT_DESCRIPTION: this is a fantastic bbq sauce! and if you like balsamic vinegar, this is a really fantastic bbq sauce! we use it on everything but our favorite is chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, olive oil, diced tomatoes, tomato paste, catsup, balsamic vinegar
+---
+TITLE: Balsamic Bean Dip With Fresh Veggies
+CURRENT_DESCRIPTION: source: bon appétit magazine, february 2008 issue
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white kidney beans, olive oil, balsamic vinegar, oil, assorted crudites, pita bread
+---
+TITLE: Balsamic Beef Or Pork Marinade
+CURRENT_DESCRIPTION: a delicious tangy marinade that is wonderful on either meat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, olive oil, balsamic vinegar, garlic, dried oregano, salt
+---
+TITLE: Balsamic Beer Flank Steak
+CURRENT_DESCRIPTION: try this on your barbecue. great with a green salad and rice or pasta. marinating time is not in prep time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steaks, beer, garlic cloves, ketchup, chili powder, balsamic vinegar
+---
+TITLE: Balsamic Beet  Lemon  Thyme And Chili Couscous Salad
+CURRENT_DESCRIPTION: this healthy couscous salad is ideal with poached chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beets, olive oil, balsamic vinegar, garlic cloves, thyme, couscous
+---
+TITLE: Balsamic Beets And Greens
+CURRENT_DESCRIPTION: beets are a good source of potassium  and vitamins c and a. not to mention they taste good too! adapted from great good food cookbook by julee rosso.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, extra virgin olive oil, sugar, dijon-style mustard, baby beets, vegetable oil
+---
+TITLE: Balsamic Bleu Beets
+CURRENT_DESCRIPTION: support your local beetroot pusher.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, extra virgin olive oil, beets, walnuts, blue cheese
+---
+TITLE: Balsamic Bloody Mary
+CURRENT_DESCRIPTION: the addition of balsamic vinegar is a surprise but also a delight if you love a good bloody mary. these have a kick. great for the holidays! i understand this recipe comes from the foodtv show
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable cocktail, celery seed, fresh ground black pepper, lime, lemon, horseradish
+---
+TITLE: Balsamic Blueberries And Peaches
+CURRENT_DESCRIPTION: found on epicurious.com.  sounds like a unique twist to me...........  used for zwt 3 with midwest and south as the regions, blueberries in michigan and peaches in georgia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, balsamic vinegar, blueberries, peach, black pepper
+---
+TITLE: Balsamic Braised Chicken
+CURRENT_DESCRIPTION: when i was given this free recipe in the grocery store and saw balsamic vinegar in it, i knew i had to give it a try someday.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, chicken drumsticks, pepper, salt, vegetable oil, garlic
+---
+TITLE: Balsamic Braised Chicken With Honey
+CURRENT_DESCRIPTION: a wonderful fragrant savory dish from health magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken thighs, salt, pepper, olive oil, shallot, fresh thyme
+---
+TITLE: balsamic braised pot roast
+CURRENT_DESCRIPTION: adapted from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry red wine, balsamic vinegar, sugar, olive oil, chuck roast, kosher salt
+---
+TITLE: Balsamic Braised Pot Roast
+CURRENT_DESCRIPTION: adapted from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry red wine, balsamic vinegar, sugar, olive oil, chuck roast, kosher salt
+---
+TITLE: Balsamic Brown Rice Salad
+CURRENT_DESCRIPTION: a very tasty cold salad that's easy to make. it is meant to be served cold but i find that it is also good at room temperature.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, brown rice, red onion, celery, dried cranberries, vinaigrette dressing
+---
+TITLE: Balsamic Browned Butter Over Tilapia Fillets
+CURRENT_DESCRIPTION: this recipe comes from the queen of tasty, fast and simple-to-prepare meals - rachael ray. we could eat this every day (if it weren't for the butter!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, salt & freshly ground black pepper, all-purpose flour, extra virgin olive oil, butter, balsamic vinegar
+---
+TITLE: Balsamic Brussels Sprouts
+CURRENT_DESCRIPTION: from 28cooks.blogspot.com, a vegetarian cooking blog.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brussels sprouts, red onion, garlic cloves, olive oil, salt, shallot
+---
+TITLE: Balsamic Butter Glazed Baby Carrots
+CURRENT_DESCRIPTION: another tantalizing fall recipe from southern living magazine, november 2006
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby carrots, water, balsamic vinegar, brown sugar, butter, thyme
+---
+TITLE: Balsamic Caesar Salad
+CURRENT_DESCRIPTION: an easy caesar recipe with a kicked up balsamic dressing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, kosher salt, italian bread, parmesan cheese, mayonnaise
+---
+TITLE: Balsamic Cherry Ice Cream Topping
+CURRENT_DESCRIPTION: this is such a wonderful, elegant combination of flavors - balsamic vinegar, apple juice, sugar, with a hint of lemon and cinnamon, plus plump dark sweet cherries. it's fantastic over creamy rich vanilla ice cream!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, apple juice, water, sugar, lemon, zest of, cinnamon
+---
+TITLE: Balsamic Cherry Tomato Onion Conserve
+CURRENT_DESCRIPTION: i planted my very first garden this year and hoping for a bounty to emerge so i can make some "canned" goods.  this recipe make 5 half-pints which i think is a manageable amount.  from "better homes and gardens - can it!"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, sweet onions, sea salt, sugar, cherry tomatoes
+---
+TITLE: Balsamic Chicken
+CURRENT_DESCRIPTION: a simple yet delicious chicken recipe. this only takes about 10 minutes of actual work, plus the marinating and cook time you’ll have an easy chicken dinner with explosive flavor in 45 minutes total.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breast, balsamic vinegar, chicken broth, white sugar, italian seasoning, salt
+---
+TITLE: Balsamic Chicken And Fresh Mozzarella
+CURRENT_DESCRIPTION: this is great. sometimes we make this into sandwiches and i always scale down the servings. time does not include marinating.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, balsamic vinaigrette, tomatoes, fresh mozzarella cheese, fresh basil leaf, balsamic vinegar
+---
+TITLE: Balsamic Chicken And Mushrooms
+CURRENT_DESCRIPTION: this is a quick, easy, and elegant ww recipe that is suitable for entertaining. (4 points)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, balsamic vinegar, dijon mustard, garlic, boneless skinless chicken breasts, small mushrooms
+---
+TITLE: Balsamic Chicken And Onions
+CURRENT_DESCRIPTION: this is a tasty main course. served best with mashed potatoes.
+
+if you need to save time, you may also follow the instructions below but fry the chicken rather than boil. cook chicken for about 25 minutes on medium following all other instruction.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast tenders, cooking sherry, balsamic dressing, italian parsley, red onion, brown sugar
+---
+TITLE: Balsamic Chicken And Pears
+CURRENT_DESCRIPTION: another balsamic recipe it's all kiddle's fault !!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, boneless skinless chicken breast halves, bosc pears, chicken broth, balsamic vinegar, cornstarch
+---
+TITLE: Balsamic Chicken And Peppers
+CURRENT_DESCRIPTION: i have not made this yet, but it sounds delicious. i am planning on making it tonight. an easy way to flatten a chicken breast is to put it in a large freezer bag (not sealed) and use a meat mallet, rolling pin, or the bottom of a small heavy saucepan to flatten it. works like a charm! edited to add that i made this dish last night(dec.29) and it was delicious! i served it with a saffron basamati rice pilaf and green beans. i put the dish of chicken in the oven with the peppers and sauce poured over it to keep it warm while i made the rice. my husband really enjoyed it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, olive oil, red bell peppers, currants, balsamic vinegar, sugar
+---
+TITLE: Balsamic Chicken And Veggies
+CURRENT_DESCRIPTION: excellant italian chicken dish! nice to sprinkle a little of your favourite shredded cheese over. from b h & g
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian salad dressing, balsamic vinegar, honey, crushed red pepper flakes, olive oil, chicken breasts
+---
+TITLE: Balsamic Chicken Breast
+CURRENT_DESCRIPTION: this is one of those recipes i made up one night because i was tired of the same old thing i did with chicken breasts. it is tangy and different, and i serve it with couscous or brown rice as a side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, olive oil, garlic clove, salt and pepper, roma tomatoes, oregano
+---
+TITLE: Balsamic Chicken Breast With Cilantro
+CURRENT_DESCRIPTION: here is a quick and easy chicken dish that can be thrown together in a few minutes and will impress your dinner guests as if you have been in the kitchen all day. every time someone new tries this they insist it is the best chicken they have had. it also provides a wonderful aroma with the balsamic vinegar and clilantro mixture when cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, balsamic vinegar, fresh cilantro, fresh garlic, fresh mushrooms, olive oil
+---
+TITLE: Balsamic Chicken Breasts
+CURRENT_DESCRIPTION: i made these up with ingredients on hand, and have cooked them several times since -- they are a big hit with my husband and neighbor who comes for dinner! i tend to overcook my chicken to play it safe, so at 45 minutes, i uncover and leave in oven while i finish up side dishes like rice pilaf and green beans. even if cooked too long, chicken remains moist and tender. use your own expertise to cook chicken until done.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, balsamic vinegar, italian breadcrumbs, diced tomatoes, parmesan cheese, garlic salt
+---
+TITLE: Balsamic Chicken Breasts With Peppers And Onions
+CURRENT_DESCRIPTION: quick skillet chicken flavored with peppers, onions, garlic, basil and balsamic vinegar. makes chicken very tender and dinner is ready in less than 30 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, salt & pepper, olive oil, bell peppers, onion, garlic
+---
+TITLE: Balsamic Chicken Drumsticks
+CURRENT_DESCRIPTION: this recipe is courtesy of giada de laurentiis.  i haven't actually made it, but i work with a young lady who prepared it and brought it to the office.  this was so good we looked like some hogs "slopping at the trough" gnawing on those drumsticks and licking our fingers.  we were even eating the marinade after all the chicken was gone because we didn't want to waste a drop.  if you wanted to serve this as an appetizer you could use the "drumettes" from the chicken wings.  the original recipe does not call for salt, but after tasting it i feel it does need some salt so i listed it as an optional ingredient.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, honey, brown sugar, soy sauce, salt, fresh rosemary
+---
+TITLE: Balsamic Chicken Livers
+CURRENT_DESCRIPTION: if you are reading this, then you probably like chicken livers! this recipe, however, may convert the
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, red chili pepper flakes, olive oil, chicken liver, balsamic vinegar, butter
+---
+TITLE: balsamic chicken over a corn puree
+CURRENT_DESCRIPTION: this is one of the best simple dishes you can serve.  it can be for a elegant dinner party or you can serve it family style. i like to serve this dinner with some hearty homemade bread and your favorite green salad. but whatever you serve this with, it is a great dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, olive oil, salt, pepper, balsamic vinegar, honey
+---
+TITLE: Balsamic Chicken Over A Corn Puree
+CURRENT_DESCRIPTION: this is one of the best simple dishes you can serve.  it can be for a elegant dinner party or you can serve it family style. i like to serve this dinner with some hearty homemade bread and your favorite green salad. but whatever you serve this with, it is a great dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, olive oil, salt, pepper, balsamic vinegar, honey
+---
+TITLE: Balsamic Chicken Pasta
+CURRENT_DESCRIPTION: the balsamic vinaigrette adds a nice zing to this collection of leftovers and pasta. the dish can be served hot or refrigerated and served as a cold salad
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken breast, dry pasta, balsamic vinaigrette, black olives, diced tomato, salt
+---
+TITLE: Balsamic Chicken Sandwich  Or Panini
+CURRENT_DESCRIPTION: a friend of mine and i once made this from a recipe we found in a cooking magazine, but lost the recipe. i found it again, so i'm putting it here so as not to lose it again. it calls for ciabatta bread, but anything light with a good crunchy crust will be as good. it's also great grilled panini-style.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, olive oil, salt and pepper, ciabatta rolls, goat cheese, baby spinach leaves
+---
+TITLE: Balsamic Chicken Thighs
+CURRENT_DESCRIPTION: this is a quick and easy recipe that never fails to please even my picky dds. since chicken thighs are usually inexpensive it makes a economical meal. i like to serve these with some type of rice side dish and a green salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken thighs, salt and pepper, shallot, balsamic vinegar, cooking spray
+---
+TITLE: Balsamic Chicken Thighs With Red Onions
+CURRENT_DESCRIPTION: i like using balsamic vinegar in my cooking, and this recipe is no exception: you can substitute chicken breasts, but i'd advise against it -- the thighs are higher in fat, but taste much better. note: very good over cooked rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken thighs, red onion, olive oil, balsamic vinegar, salt, ground pepper
+---
+TITLE: Balsamic Chicken Vindaloo
+CURRENT_DESCRIPTION: this recipe is adapted from a family circle recipe circa 1999. i have tweaked it to my liking but the integrity of the dish remains throughout. it's super simple and full of flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, onion, garlic cloves, ginger, paprika, curry powder
+---
+TITLE: Balsamic Chicken With Baby Spinach
+CURRENT_DESCRIPTION: balsamic chicken with baby spinach
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, boneless skinless chicken breasts, baby spinach, balsamic vinegar, low sodium chicken broth
+---
+TITLE: Balsamic Chicken With Garlic Couscous
+CURRENT_DESCRIPTION: from donna hay's
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, balsamic vinegar, chicken stock, sugar, garlic, couscous
+---
+TITLE: Balsamic Chicken With Ginger Rice
+CURRENT_DESCRIPTION: adapted from "not your mother's casseroles" by faith durand. i halved the recipe and baked it in two individual 16-ounce baking dishes for convenience. i thought the ginger-garlic rice would have been better with more asian flavors; next time i'm going to try soy sauce and shaoxing wine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, kosher salt, ground black pepper, white rice, fresh ginger, garlic cloves
+---
+TITLE: Balsamic Chicken With Mushrooms
+CURRENT_DESCRIPTION: hubby and i had the other night, and hope you enjoy it as much as we do. serve over pasta. we eat the leftovers for lunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, black pepper, salt, chicken breasts, olive oil, mushrooms
+---
+TITLE: balsamic chicken with pears
+CURRENT_DESCRIPTION: this is from the diet recipe section on whatscookingamerica.com and they credit the recipe as adapted from the cookbook the convent cook, by maria tisdall.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, salt & freshly ground black pepper, extra virgin olive oil, shallot, pears, chicken broth
+---
+TITLE: Balsamic Chicken With Pears
+CURRENT_DESCRIPTION: this is from the diet recipe section on whatscookingamerica.com and they credit the recipe as adapted from the cookbook the convent cook, by maria tisdall.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, salt & freshly ground black pepper, extra virgin olive oil, shallot, pears, chicken broth
+---
+TITLE: Balsamic Chicken With Red  Orange And Yellow Peppers
+CURRENT_DESCRIPTION: stir-fried chicken with colorful peppers in balsamic vinegar and basil bring plenty of flavor to this exciting dish. (i use the small colorful peppers from costco.) serve with rice or pasta. 4 points per serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, olive oil, boneless skinless chicken breast halves, salt and pepper, red bell peppers, yellow bell peppers
+---
+TITLE: Balsamic Chicken With Spinach And Fresh Tomato
+CURRENT_DESCRIPTION: fresh & easy, tweak as you like. as mentioned below, i serve it over egg noodles. recipe from check your health courtesy of chef bryan wolley.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, garlic cloves, onion, fresh tomatoes, balsamic vinegar, white wine
+---
+TITLE: Balsamic Chicken With Sun Dried Tomatoes And Mushrooms
+CURRENT_DESCRIPTION: modified from a recipe from www.weightwatchers.com called "balsamic chicken with mushrooms".  serving suggestion:  serve with cranberry beans and parsleyed potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, balsamic vinegar, dijon mustard, garlic clove, chicken tenders, sun-dried tomatoes packed in oil
+---
+TITLE: balsamic chicken with sweet flavor
+CURRENT_DESCRIPTION: great taste
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, garlic, yellow onion, tomatoes, balsamic vinegar, salt
+---
+TITLE: Balsamic Chicken With Sweet Flavor
+CURRENT_DESCRIPTION: great taste
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, garlic, yellow onion, tomatoes, balsamic vinegar, salt
+---
+TITLE: Balsamic Chicken With Thyme
+CURRENT_DESCRIPTION: this recipe came from woman's day magazine several years ago. it is easy to make and i have served it to guests with to great reviews.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, pepper, boneless skinless chicken breasts, olive oil, red onion
+---
+TITLE: Balsamic Chicken With White Beans   Spinach
+CURRENT_DESCRIPTION: this amazing skillet dish brings the flavors of tuscany right into your own home.  ready in just 35 minutes, it's simple and delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless skinless chicken breast halves, garlic cloves, balsamic vinegar, condensed golden mushroom soup, cannellini beans
+---
+TITLE: Balsamic Chicken With White Beans And Wilted Spinach Rachael Ray
+CURRENT_DESCRIPTION: rachael ray
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, extra virgin olive oil, mccormick, ,, ,, ,
+---
+TITLE: Balsamic Chocolate Truffles
+CURRENT_DESCRIPTION: decadent and rich, these make a lovely gift.  orginally posted by kristine sitko on the design*sponge blog:  http://www.designspongeonline.com/2008/12/in-the-kitchen-with-kristine-sitko.html#more-16238
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark chocolate, cream, balsamic vinegar, dried cherries, cocoa powder
+---
+TITLE: Balsamic Cipolline Onions
+CURRENT_DESCRIPTION: this is a nice side dish and goes well with roasted or grilled meats. from bon appetit november 1999.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, beef stock, balsamic vinegar, butter, sugar, fresh parsley
+---
+TITLE: Balsamic Citrus Pork Chops
+CURRENT_DESCRIPTION: this is a tasty and simple skillet recipe for pork chops.  i usually use really thick boneless chops (about 1 1/4" thick), but any thickess can be used; just adjust cooking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless center cut pork chops, salt, pepper, olive oil, balsamic vinegar, pineapple juice
+---
+TITLE: Balsamic Coconut Milk Sauce
+CURRENT_DESCRIPTION: chef rob pronk at hopkins hotel in belize as printed in the cookbook 'flavors of belize'. please use a good quality aged balsamic. i tested this sauce over steamed summer vegetables: zucchini, cauliflower and broccoli;  leftover brown rice. unusual yet delicious combination of flavors. recipe introduction in the cookbook recommends the sauce over beef tenderloin or fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, sugar, coconut milk, salt, cracked black pepper
+---
+TITLE: Balsamic Couscous
+CURRENT_DESCRIPTION: this is a recipe i developed when i couldn't find one that was exactly what i wanted.  this is a good side dish recipe for many different menus.  it's also very versatile.  you can add any different kind of veggies along with the onion (celery, peas, zucchini, carrots, tomatoes, corn).  i use tri-color couscous in this recipe, but any kind will work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, garlic clove, chicken broth, couscous, balsamic vinegar
+---
+TITLE: Balsamic Cucumbers With Basil
+CURRENT_DESCRIPTION: garden-fresh flavors simply presented are sure to please. and nobody but the cook needs to know how easy this one is. ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, extra virgin olive oil, balsamic vinegar, fresh basil, garlic
+---
+TITLE: Balsamic Dijon Sirloin Tips
+CURRENT_DESCRIPTION: based on other sirloin tip recipes i've made in the past, here's how we've tweaked the recipe to our own liking.  delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, sirloin tip steaks, onion, garlic cloves, cremini mushrooms
+---
+TITLE: Balsamic Duck Breasts And Asparagus Pure
+CURRENT_DESCRIPTION: this makes a lovely dish for guests and looks like a lot more work than it actually is. i cook mine longer as i prefer mine cooked through.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: duck breasts, salt & pepper, balsamic vinegar, asparagus, yukon gold potato, olive oil
+---
+TITLE: Balsamic Egg  Bruschetta   Salad
+CURRENT_DESCRIPTION: this is one of my favorite dishes which i made when  i had very limited things on hand.  i make it often now.  this can be eaten warm or cold.  i prefer room temperature.  good balsamic vinegar makes a difference.  it can be eaten alone or on toasted bread. i find if i cannot find a decent tomato or it is not tomato season it is better to use sun-dried. the amounts of oil and vinegar you use should be according to your personal taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, vidalia onion, roasted peppers, tomatoes, olive oil, balsamic vinegar
+---
+TITLE: Balsamic Egg Plant And Spinach Saute
+CURRENT_DESCRIPTION: this dish is a little different and results in a sweet and savory combination that even the most finicky eater will love. our two year old scarfed it down.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: celery, green onion, olive oil, balsamic vinegar, eggplants, fresh spinach
+---
+TITLE: Balsamic Eggplant  Aubergine  Casserole
+CURRENT_DESCRIPTION: best and easiest eggplant dish i've found to date (and i've tried many)!  you do not need to add all the specific veggies on top - use what is in fridge.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, bell peppers, onion, zucchini, tomatoes, breadcrumbs
+---
+TITLE: Balsamic Eggplant  Aubergine  Parmesan
+CURRENT_DESCRIPTION: this is so good! i love the flavors and i hope you do too! i got this off the internet (i don't remember where) and tweaked it a bit. not only is this yummy but only 3 weight watcher points! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, olive oil, salt and pepper, sugar, oregano, eggplants
+---
+TITLE: Balsamic Fajita Chicken Wraps To Go
+CURRENT_DESCRIPTION: these are
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, balsamic vinegar, lime juice, olive oil, garlic, butter
+---
+TITLE: Balsamic Fig Sauce
+CURRENT_DESCRIPTION: i have not made this sauce yet, but just reading it got my heart beating fast. seems like it would go well with game, poultry or pork.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black mission fig, red wine, balsamic vinegar, salt, fresh ground pepper, sugar
+---
+TITLE: Balsamic Fried Eggs With Wilted Greens  In Under 10 Minutes
+CURRENT_DESCRIPTION: this recipe is sooo fast and easy and adds a very interesting flavour dimension to simple fried eggs!  you can use dandelion greens, beet greens, escarole, or arugula.  i personally love arugula.
+if you like onions, you can add some chopped onions to the pan with the garlic.
+this recipe is from chowhound.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic clove, arugula, eggs, balsamic vinegar
+---
+TITLE: Balsamic Garlic T Bone Steak
+CURRENT_DESCRIPTION: i got this off a free recipe card at a local store (hart's)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, fresh thyme, garlic, black peppercorns, salt, beef t-bone steaks
+---
+TITLE: Balsamic Glazed Asparagus
+CURRENT_DESCRIPTION: for anyone that loves asparagus, this is a very tasty way to enjoy it - so good!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, salt, pepper, balsamic vinegar, parmesan cheese
+---
+TITLE: Balsamic Glazed Baby Onions
+CURRENT_DESCRIPTION: this recipe comes from the australian women's weekly christmas cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, coarse grain mustard, honey, canola oil, baby onion
+---
+TITLE: Balsamic Glazed Broccoli
+CURRENT_DESCRIPTION: special thanks to paula deen who provided this recipe to all her fans who came to her show at the chicago theater in november.
+
+thanks for a great dinner!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broccoli, balsamic vinegar, butter, brown sugar, salt, ground black pepper
+---
+TITLE: Balsamic Glazed Brussels Sprouts
+CURRENT_DESCRIPTION: not sure how i acquired this recipe. i love brussels sprouts, and this is a great way to prepare them....so easy too!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh brussels sprouts, red onion, olive oil, kosher salt, fresh ground black pepper, shallot
+---
+TITLE: Balsamic Glazed Brussels Sprouts With Pancetta
+CURRENT_DESCRIPTION: for those of us brussels sprouts lovers, these are excellent and easy.  i got this recipe from my sister in law...i think it's from fine living. great side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pancetta, extra virgin olive oil, brussels sprouts, balsamic vinegar, fresh ground black pepper, butter
+---
+TITLE: Balsamic Glazed Chicken
+CURRENT_DESCRIPTION: this is from rachael ray’s 365: no repeats. it is great! easy and fast to make. i served it with sour cream mashed potatoes. the leftovers are great over pasta or plain polenta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, onion, fresh thyme, fresh rosemary, garlic cloves, honey
+---
+TITLE: Balsamic Glazed Chicken And Bell Pepper Sandwiches
+CURRENT_DESCRIPTION: from cooking light magazine.  these are very good and filling sandwiches.  we all enjoy them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, salt, chicken breast tenders, balsamic vinegar, red bell peppers, onions
+---
+TITLE: Balsamic Glazed Chicken Sandwiches With Goat Cheese
+CURRENT_DESCRIPTION: found this in cooking light and surprise, everyone liked it (that's rare in our house). my ds uses plain cream cheese instead of the goat cheese but my dh & i like the slight tang of the goat cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, red wine, brown sugar, soy sauce, boneless skinless chicken breasts, salt
+---
+TITLE: Balsamic Glazed Chicken With Spring Onion Mash
+CURRENT_DESCRIPTION: a very simple recipe for those who love balsamic vinegar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless skinless chicken breasts, balsamic vinegar, granulated sugar, tomato puree, fresh ground black pepper
+---
+TITLE: Balsamic Glazed Cicken Cabrese Sandwich  Rachael Ray
+CURRENT_DESCRIPTION: saw her make this on one of her shows and tried it, with a slight adjustment.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, balsamic vinegar, oil, garlic, fresh rosemary, dried oregano
+---
+TITLE: Balsamic Glazed Cracked Pepper Salmon
+CURRENT_DESCRIPTION: from clean eating fall 2008
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, salmon fillets, sea salt, cracked black pepper, balsamic vinegar, honey
+---
+TITLE: Balsamic Glazed Cracked Pepper Salmon   Clean Eating
+CURRENT_DESCRIPTION: this is out of the fall 2008 clean eating magazine...this is great served with brown rice or rice pilaf and a salad. based on the first two reviews i have made a change in the directions for the sauce...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, salmon fillets, sea salt, cracked black pepper, balsamic vinegar, honey
+---
+TITLE: Balsamic Glazed Grilled Plums With Vanilla Ice Cream
+CURRENT_DESCRIPTION: this is a slightly tweaked rachael ray recipe. i'm planning on trying it with raspberry balsamic vinegar. i also plan on spraying the plums with non-stick spray and grilling them on a regular gas grill, since i don't have a grill pan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plums, extra virgin olive oil, balsamic vinegar, brown sugar, vanilla extract, lemon juice

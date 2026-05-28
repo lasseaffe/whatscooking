@@ -1,0 +1,63 @@
+<h2>Challenge Hub — Page Layout</h2>
+<p class="subtitle">Does this section breakdown feel right? Click to select your preference.</p>
+
+<div class="cards" style="gap:24px; margin-top: 24px;">
+  <div class="card" data-choice="layout-a" onclick="toggleSelect(this)" style="flex:1; min-width:280px;">
+    <div class="card-image" style="background:#111; padding:20px; font-family:monospace; font-size:12px; color:#aaa; line-height:1.8;">
+      <div style="color:#F4A261; font-weight:bold; margin-bottom:8px;">── /challenge ──────────────────</div>
+      <div style="color:#fff;">🎲 HERO — Spin the Wheel</div>
+      <div style="padding-left:12px; color:#888;">[ Random challenge randomizer ]</div>
+      <div style="padding-left:12px; color:#888;">[ Big CTA: "Take a Challenge" ]</div>
+      <br/>
+      <div style="color:#fff;">🏷 ACTIVE CHALLENGE BANNER</div>
+      <div style="padding-left:12px; color:#888;">[ Currently running challenge ]</div>
+      <div style="padding-left:12px; color:#888;">[ Timer / Mark Complete ]</div>
+      <br/>
+      <div style="color:#fff;">📋 TABS</div>
+      <div style="padding-left:12px; color:#F4A261;">[ Browse ] [ My Progress ] [ Social ]</div>
+      <br/>
+      <div style="color:#fff;">Browse tab → Category grid:</div>
+      <div style="padding-left:12px; color:#888;">🔌 Appliance Chaos</div>
+      <div style="padding-left:12px; color:#888;">🦾 Handicap Mode</div>
+      <div style="padding-left:12px; color:#888;">⚡ Speedrun</div>
+      <div style="padding-left:12px; color:#888;">🎰 Random Wildcard</div>
+      <div style="padding-left:12px; color:#888;">😳 Dare Challenges</div>
+      <br/>
+      <div style="color:#fff;">My Progress tab:</div>
+      <div style="padding-left:12px; color:#888;">Badge wall + streak counter</div>
+      <div style="padding-left:12px; color:#888;">Completion history log</div>
+      <br/>
+      <div style="color:#fff;">Social tab:</div>
+      <div style="padding-left:12px; color:#888;">Friends' completions feed</div>
+      <div style="padding-left:12px; color:#888;">Leaderboard</div>
+    </div>
+    <div class="card-body">
+      <h3>A — Tabbed Hub</h3>
+      <p>Hero randomizer always visible. Tabs switch between Browse, Progress, Social. Clean separation.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="layout-b" onclick="toggleSelect(this)" style="flex:1; min-width:280px;">
+    <div class="card-image" style="background:#111; padding:20px; font-family:monospace; font-size:12px; color:#aaa; line-height:1.8;">
+      <div style="color:#F4A261; font-weight:bold; margin-bottom:8px;">── /challenge ──────────────────</div>
+      <div style="color:#fff;">🎲 HERO — Spin the Wheel</div>
+      <div style="padding-left:12px; color:#888;">[ Randomizer + active challenge ]</div>
+      <br/>
+      <div style="color:#fff;">📋 CATEGORY SECTIONS (scrollable)</div>
+      <div style="padding-left:12px; color:#888;">🔌 Appliance Chaos →→→ cards</div>
+      <div style="padding-left:12px; color:#888;">🦾 Handicap Mode →→→ cards</div>
+      <div style="padding-left:12px; color:#888;">⚡ Speedrun →→→ cards</div>
+      <div style="padding-left:12px; color:#888;">🎰 Wildcard →→→ cards</div>
+      <br/>
+      <div style="color:#fff;">🏆 MY BADGES (collapsed panel)</div>
+      <div style="padding-left:12px; color:#888;">Expandable badge wall row</div>
+      <br/>
+      <div style="color:#fff;">👥 FRIENDS FEED (bottom section)</div>
+      <div style="padding-left:12px; color:#888;">Recent completions from friends</div>
+    </div>
+    <div class="card-body">
+      <h3>B — Long Scroll</h3>
+      <p>Single scrolling page. Categories are horizontal scroll rows (Discover-style). Progress + social below.</p>
+    </div>
+  </div>
+</div>

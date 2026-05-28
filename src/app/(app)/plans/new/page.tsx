@@ -1,10 +1,9 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { Sparkles, CalendarDays, Loader2, ChevronDown, ChevronUp, ChevronLeft, ChevronRight } from 'lucide-react';
-import { PLAN_TEMPLATES, type PlanTemplate } from './plan-templates';
-import { TemplateCard } from './template-card';
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { CalendarDays, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
+import { FeatureGateBanner } from "@/components/upgrade/FeatureGateBanner"
 
 const DIETARY_OPTIONS = [
   'vegetarian', 'vegan', 'gluten-free', 'dairy-free',
@@ -13,54 +12,15 @@ const DIETARY_OPTIONS = [
 
 export default function NewPlanPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const presetId = searchParams.get('template');
 
-  const [selectedTemplate, setSelectedTemplate] = useState<PlanTemplate | null>(
-    presetId ? PLAN_TEMPLATES.find((t) => t.id === presetId) ?? null : null,
-  );
-  const [title, setTitle] = useState<string>(
-    presetId ? PLAN_TEMPLATES.find((t) => t.id === presetId)?.title ?? '' : '',
-  );
-  const [durationDays, setDurationDays] = useState<number>(
-    presetId ? PLAN_TEMPLATES.find((t) => t.id === presetId)?.durationDays ?? 7 : 7,
-  );
-  const [mealsPerDay, setMealsPerDay] = useState<number>(
-    presetId ? PLAN_TEMPLATES.find((t) => t.id === presetId)?.mealsPerDay ?? 3 : 3,
-  );
-  const [dietaryFilters, setDietaryFilters] = useState<string[]>(
-    presetId ? PLAN_TEMPLATES.find((t) => t.id === presetId)?.dietaryFilters ?? [] : [],
-  );
-  const [showCustom, setShowCustom] = useState<boolean>(!presetId);
+  const [title, setTitle] = useState('');
+  const [durationDays, setDurationDays] = useState(7);
+  const [mealsPerDay, setMealsPerDay] = useState(3);
+  const [dietaryFilters, setDietaryFilters] = useState<string[]>([]);
+  const [showCustom, setShowCustom] = useState(true);
   const [creating, setCreating] = useState(false);
   const [error, setError] = useState('');
-
-  // Carousel scroll state
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [atStart, setAtStart] = useState(true);
-  const [atEnd, setAtEnd] = useState(false);
-
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    const check = () => {
-      setAtStart(el.scrollLeft < 10);
-      setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 10);
-    };
-    check();
-    el.addEventListener('scroll', check);
-    window.addEventListener('resize', check);
-    return () => {
-      el.removeEventListener('scroll', check);
-      window.removeEventListener('resize', check);
-    };
-  }, []);
-
-  function scrollCarousel(dir: 'left' | 'right') {
-    const el = scrollRef.current;
-    if (!el) return;
-    el.scrollTo({ left: el.scrollLeft + (dir === 'left' ? -el.clientWidth * 0.8 : el.clientWidth * 0.8), behavior: 'smooth' });
-  }
+  const [planLimitReached, setPlanLimitReached] = useState(false);
 
   function toggleDiet(tag: string) {
     setDietaryFilters((prev) =>
@@ -68,26 +28,10 @@ export default function NewPlanPage() {
     );
   }
 
-  function applyTemplate(t: PlanTemplate | null) {
-    setSelectedTemplate(t);
-    if (t) {
-      setTitle(t.title);
-      setDurationDays(t.durationDays);
-      setMealsPerDay(t.mealsPerDay);
-      setDietaryFilters(t.dietaryFilters);
-      setShowCustom(false);
-    } else {
-      setTitle('');
-    }
-  }
-
   async function create() {
     if (!title.trim()) { setError('Give your plan a name.'); return; }
     setCreating(true);
     setError('');
-
-    const template_meals = selectedTemplate ? selectedTemplate.meals.map((m) => m.title) : undefined;
-    const pinboard_filters = selectedTemplate ? { diet: selectedTemplate.dietaryFilters } : undefined;
 
     try {
       const res = await fetch('/api/plans', {
@@ -96,19 +40,21 @@ export default function NewPlanPage() {
         body: JSON.stringify({
           title: title.trim(),
           dietary_tags: dietaryFilters,
-          tags: selectedTemplate ? selectedTemplate.tags : [],
-          description: selectedTemplate
-            ? selectedTemplate.description
-            : `${durationDays}-day plan, ${mealsPerDay} meals/day`,
+          tags: [],
+          description: `${durationDays}-day plan, ${mealsPerDay} meals/day`,
           duration_days: durationDays,
           meals_per_day: mealsPerDay,
-          template_meals,
-          pinboard_filters,
         }),
       });
 
+      if (res.status === 402) {
+        setPlanLimitReached(true);
+        setCreating(false);
+        return;
+      }
+
       if (!res.ok) {
-        const data = await res.json();
+        const data = await res.json().catch(() => ({}));
         setError(data.error ?? 'Failed to create plan.');
         setCreating(false);
         return;
@@ -123,67 +69,69 @@ export default function NewPlanPage() {
   }
 
   return (
-    <div className="px-4 sm:px-6 py-8 max-w-4xl mx-auto">
+    <div className="px-4 sm:px-6 py-8 max-w-2xl mx-auto">
       <header className="mb-7">
-        <h1 className="text-2xl font-serif flex items-center gap-2" style={{ color: '#EFE3CE' }}>
+        <h1 className="text-2xl font-serif flex items-center gap-2" style={{ color: 'var(--fg-primary)' }}>
           <CalendarDays className="w-6 h-6" style={{ color: '#E67E22' }} />
           New Meal Plan
         </h1>
-        <p className="text-sm mt-1" style={{ color: '#8A6A4A' }}>
-          Start from a template or build your own. You&apos;ll land on the Pinboard to fine-tune.
+        <p className="text-sm mt-1" style={{ color: 'var(--fg-tertiary)' }}>
+          Build your own from scratch — or start from a template on the Plans page. You&apos;ll land on the Pinboard to fill it out.
         </p>
       </header>
 
-      {/* Custom settings — on top so it's immediately visible */}
-      <section className="mb-8">
+      <label className="flex flex-col gap-1 mb-4">
+        <span className="text-xs uppercase tracking-wider" style={{ color: 'var(--fg-tertiary)' }}>Plan name</span>
+        <input
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          onKeyDown={(e) => { if (e.key === 'Enter' && !creating) create(); }}
+          placeholder="e.g. Cozy Sunday week"
+          autoFocus
+          className="px-3 py-2.5 rounded-xl text-sm focus:outline-none"
+          style={{ background: 'var(--bg-secondary)', border: '1px solid var(--wc-border-subtle, #3A2A1A)', color: 'var(--fg-primary)' }}
+        />
+      </label>
+
+      <section className="mb-6">
         <button
           onClick={() => setShowCustom((s) => !s)}
           className="flex items-center gap-2 mb-3 text-sm"
-          style={{ color: '#EFE3CE' }}
+          style={{ color: 'var(--fg-primary)' }}
           aria-expanded={showCustom}
         >
           {showCustom ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
-          Custom settings
+          Duration, meals &amp; dietary tags
         </button>
         {showCustom && (
-          <div className="flex flex-col gap-4 p-4 rounded-lg border" style={{ background: '#1A120A', borderColor: '#3A2A1A' }}>
-            <label className="flex flex-col gap-1">
-              <span className="text-xs uppercase tracking-wider" style={{ color: '#6B4E36' }}>Plan name</span>
-              <input
-                type="text"
-                value={title}
-                onChange={(e) => setTitle(e.target.value)}
-                placeholder="e.g. Cozy Sunday week"
-                className="px-3 py-2 rounded border text-sm focus:outline-none"
-                style={{ background: '#2A1F14', borderColor: '#3A2A1A', color: '#EFE3CE' }}
-              />
-            </label>
+          <div className="flex flex-col gap-4 p-4 rounded-xl border" style={{ background: 'var(--bg-secondary)', borderColor: 'var(--wc-border-subtle, #3A2A1A)' }}>
             <div className="flex gap-4">
               <label className="flex flex-col gap-1 flex-1">
-                <span className="text-xs uppercase tracking-wider" style={{ color: '#6B4E36' }}>Duration</span>
+                <span className="text-xs uppercase tracking-wider" style={{ color: 'var(--fg-tertiary)' }}>Duration</span>
                 <select
                   value={durationDays}
                   onChange={(e) => setDurationDays(parseInt(e.target.value))}
-                  className="px-3 py-2 rounded border text-sm"
-                  style={{ background: '#2A1F14', borderColor: '#3A2A1A', color: '#EFE3CE' }}
+                  className="px-3 py-2 rounded-lg border text-sm"
+                  style={{ background: 'var(--bg-primary)', borderColor: 'var(--wc-border-subtle, #3A2A1A)', color: 'var(--fg-primary)' }}
                 >
                   {[3, 5, 7, 10, 14].map((d) => <option key={d} value={d}>{d} days</option>)}
                 </select>
               </label>
               <label className="flex flex-col gap-1 flex-1">
-                <span className="text-xs uppercase tracking-wider" style={{ color: '#6B4E36' }}>Meals / day</span>
+                <span className="text-xs uppercase tracking-wider" style={{ color: 'var(--fg-tertiary)' }}>Meals / day</span>
                 <select
                   value={mealsPerDay}
                   onChange={(e) => setMealsPerDay(parseInt(e.target.value))}
-                  className="px-3 py-2 rounded border text-sm"
-                  style={{ background: '#2A1F14', borderColor: '#3A2A1A', color: '#EFE3CE' }}
+                  className="px-3 py-2 rounded-lg border text-sm"
+                  style={{ background: 'var(--bg-primary)', borderColor: 'var(--wc-border-subtle, #3A2A1A)', color: 'var(--fg-primary)' }}
                 >
                   {[1, 2, 3, 4].map((m) => <option key={m} value={m}>{m}</option>)}
                 </select>
               </label>
             </div>
             <div>
-              <p className="text-xs uppercase tracking-wider mb-2" style={{ color: '#6B4E36' }}>Dietary tags</p>
+              <p className="text-xs uppercase tracking-wider mb-2" style={{ color: 'var(--fg-tertiary)' }}>Dietary tags</p>
               <div className="flex flex-wrap gap-1.5">
                 {DIETARY_OPTIONS.map((d) => {
                   const on = dietaryFilters.includes(d);
@@ -194,8 +142,8 @@ export default function NewPlanPage() {
                       className="px-3 py-1 rounded-full text-xs border transition-colors"
                       style={{
                         background: on ? '#E67E22' : 'transparent',
-                        borderColor: on ? '#E67E22' : '#3A2A1A',
-                        color: on ? '#1A120A' : '#8A6A4A',
+                        borderColor: on ? '#E67E22' : 'var(--wc-border-subtle, #3A2A1A)',
+                        color: on ? '#1A120A' : 'var(--fg-tertiary)',
                       }}
                     >
                       {d}
@@ -208,18 +156,11 @@ export default function NewPlanPage() {
         )}
       </section>
 
-      {!showCustom && (
-        <label className="flex flex-col gap-1 mb-4">
-          <span className="text-xs uppercase tracking-wider" style={{ color: '#6B4E36' }}>Plan name</span>
-          <input
-            type="text"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            placeholder={selectedTemplate?.title ?? 'e.g. Cozy Sunday week'}
-            className="px-3 py-2 rounded border text-sm focus:outline-none"
-            style={{ background: '#2A1F14', borderColor: '#3A2A1A', color: '#EFE3CE' }}
-          />
-        </label>
+      {planLimitReached && (
+        <FeatureGateBanner
+          feature="Multiple meal plans"
+          description="Pro Cook unlocks unlimited plans — for meal prep, different diets, or planning weeks ahead."
+        />
       )}
 
       {error && <p className="text-sm mb-3" style={{ color: '#E67E22' }}>{error}</p>}
@@ -227,59 +168,11 @@ export default function NewPlanPage() {
       <button
         onClick={create}
         disabled={creating || !title.trim()}
-        className="w-full sm:w-auto px-6 py-3 rounded-full text-sm font-semibold disabled:opacity-40 transition-opacity mb-10"
+        className="w-full sm:w-auto px-6 py-3 rounded-full text-sm font-semibold disabled:opacity-40 transition-opacity"
         style={{ background: '#E67E22', color: '#1A120A' }}
       >
         {creating ? <span className="flex items-center gap-2"><Loader2 className="w-4 h-4 animate-spin" /> Creating…</span> : 'Create plan →'}
       </button>
-
-      {/* Template carousel — single scrolling row */}
-      <section>
-        <div className="flex items-center gap-2 mb-4">
-          <Sparkles className="w-4 h-4" style={{ color: '#E67E22' }} />
-          <h2 className="text-sm font-semibold" style={{ color: '#EFE3CE' }}>Choose a template</h2>
-          <span className="text-xs" style={{ color: '#6B4E36' }}>— optional</span>
-        </div>
-
-        <div className="relative -mx-4 sm:-mx-6">
-          <div
-            ref={scrollRef}
-            className="flex gap-4 overflow-x-auto px-4 sm:px-6 pb-3"
-            style={{ scrollbarWidth: 'none' }}
-          >
-            {PLAN_TEMPLATES.map((tpl) => (
-              <div key={tpl.id} className="flex-shrink-0 w-[280px]">
-                <TemplateCard
-                  template={tpl}
-                  selected={selectedTemplate?.id === tpl.id}
-                  onSelect={() => applyTemplate(selectedTemplate?.id === tpl.id ? null : tpl)}
-                />
-              </div>
-            ))}
-          </div>
-
-          {!atStart && (
-            <button
-              onClick={() => scrollCarousel('left')}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full shadow-md transition-colors"
-              style={{ background: '#2A1F14', border: '1px solid #3A2A1A', color: '#EFE3CE' }}
-              aria-label="Scroll left"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-          )}
-          {!atEnd && (
-            <button
-              onClick={() => scrollCarousel('right')}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full shadow-md transition-colors"
-              style={{ background: '#2A1F14', border: '1px solid #3A2A1A', color: '#EFE3CE' }}
-              aria-label="Scroll right"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          )}
-        </div>
-      </section>
     </div>
   );
 }

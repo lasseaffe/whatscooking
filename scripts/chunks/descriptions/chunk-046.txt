@@ -1,0 +1,2139 @@
+TITLE: banana crepes
+CURRENT_DESCRIPTION: these are delicious dessert or breakfast crepes with banana flavor within the crepe itself. they are really good with recipe #209347. i like to use a paper towel with a little butter on it to swipe the pan before adding the batter. this recipe works best with a non-stick pan or a crepe maker. you must use a very ripe banana to get the full banana flavor. the recipes include very detailed instructions which are great if this is your first time to make crepes. from crepes & omelettes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, oil, vanilla, banana, sugar
+---
+TITLE: Banana Crepes
+CURRENT_DESCRIPTION: these are delicious dessert or breakfast crepes with banana flavor within the crepe itself. they are really good with recipe #209347. i like to use a paper towel with a little butter on it to swipe the pan before adding the batter. this recipe works best with a non-stick pan or a crepe maker. you must use a very ripe banana to get the full banana flavor. the recipes include very detailed instructions which are great if this is your first time to make crepes. from crepes & omelettes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, oil, vanilla, banana, sugar
+---
+TITLE: banana crepes with brown sugar rum sauce
+CURRENT_DESCRIPTION: garnish these delicious banana crepes with the brown sugar rum sauce and a few pecans, berries, or more slices of banana and some cinnamon sugar. the prep time is really chill time. from: southern u.s. cuisine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, all-purpose flour, butter, granulated sugar, salt
+---
+TITLE: Banana Crepes With Brown Sugar Rum Sauce
+CURRENT_DESCRIPTION: garnish these delicious banana crepes with the brown sugar rum sauce and a few pecans, berries, or more slices of banana and some cinnamon sugar. the prep time is really chill time. from: southern u.s. cuisine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, all-purpose flour, butter, granulated sugar, salt
+---
+TITLE: Banana Crisp
+CURRENT_DESCRIPTION: while sailing i found myself with a bunch of bananas that were ripening too quickly, so came up with this  quick, easy, delicious dessert.   it's sophisticated enough to serve to guest!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lime juice, orange-flavored liqueur, nutmeg, brown sugar, all-purpose flour
+---
+TITLE: Banana Crispy Rolls
+CURRENT_DESCRIPTION: a simple dessert that sounds wonderful topped with vanilla ice cream and summer berries. this is also a great dessert to make to use up soome phyllo dough and ice cream sauce. recipe source: realtor's flyer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, lemon juice, phyllo pastry, hot fudge, powdered sugar
+---
+TITLE: Banana Crumb Muffins
+CURRENT_DESCRIPTION: bananas are great in any dessert :p
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, baking powder, salt, sugar, vegetable oil
+---
+TITLE: Banana Crumble
+CURRENT_DESCRIPTION: recipe comes from ashley manor in barnstable, mass.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, flour, brown sugar, rolled oats, cinnamon, salt
+---
+TITLE: Banana Crunch Bread
+CURRENT_DESCRIPTION: don't worry if bread seems a little darker than you would expect... it is still very moist and delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flaked coconut, brown sugar, butter, all-purpose flour, canola oil, sugar
+---
+TITLE: Banana Crunch Cake
+CURRENT_DESCRIPTION: from pillsbury bake-off 1973 grand prize winner. sounds good to me!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, coconut, rolled oats, brown sugar, pecans, butter
+---
+TITLE: Banana Crunch Muffins
+CURRENT_DESCRIPTION: these are from ina garten's barefoot contessa book. they are wonderful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, unsalted butter
+---
+TITLE: Banana Crunch Muffins  A Healthy Alternate
+CURRENT_DESCRIPTION: this is an adaptation of a regular cookbook recipe for a banana bran muffin. i changed several things, writing it down as i made the changes. customers loved them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, light vanilla soymilk, corn chex, vegetable oil, raisins, whole wheat pastry flour
+---
+TITLE: Banana Crunch Muffins  W Grape Nuts
+CURRENT_DESCRIPTION: we were recently in pa and i picked up a box of grape nuts cereal at wegmans. it was much cheaper than back here at home! i have wanted to make muffins using grape nuts for a long time, and am glad i found this one on the kraftfoods.com website!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, egg, bananas
+---
+TITLE: Banana Crunch Pie
+CURRENT_DESCRIPTION: yummy and different banana pie made like dutch apple pie with a brown sugar crumb topping. make it easy by using a prepared refrigerated pie crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lemon juice, sugar, cinnamon, nutmeg, unbaked pie shell
+---
+TITLE: Banana Crunch Popsicle  Raw Vegan
+CURRENT_DESCRIPTION: these are so super yummy & you can switch the toppings up however you would like - try pistachios, pecans, or mint with carob.  put popsicle sticks in the end for ease!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, almonds, walnuts, carob powder, dried coconut
+---
+TITLE: Banana Crunch Punch
+CURRENT_DESCRIPTION: a beverage by marie goodman from the pleasant grove united methodist church cookbook "what's been cookin' at pleasant grove for the past 100 years" 1988
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, frozen orange juice, frozen lemonade, pineapple juice, bananas
+---
+TITLE: Banana Crunch Ravioli
+CURRENT_DESCRIPTION: a delicious snack filled with fruit and healthy protein!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, sugar, cinnamon, brown sugar, graham cracker, peanut butter
+---
+TITLE: Banana Cupcakes
+CURRENT_DESCRIPTION: simple recipe to put together.  use the frosting recipe that is with the recipe, or use your favorite cream cheese or even chocolate frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, sugar, eggs, vanilla extract, banana, buttermilk
+---
+TITLE: Banana Cupcakes W  Peanut Butter Frosting
+CURRENT_DESCRIPTION: looking for something to do with those overripe bananas besides the plain old banana bread?  this recipe is for you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, salt, bananas, sour cream
+---
+TITLE: Banana Cupcakes With Amaretto Buttercream
+CURRENT_DESCRIPTION: these are so moist with a light banana flavor.  the frosting is wonderful!  my yield was only 10 cupcakes.  from cooking light, october 2006.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, granulated sugar, butter, eggs, flour, baking soda
+---
+TITLE: Banana Cupcakes With Cream Cheese Frosting
+CURRENT_DESCRIPTION: adapted from cooking light (sept. 1999). original recipe uses plain fat-free yogurt, but i prefer powdered buttermilk, reconstituted. this allegedly yields 12 standard-sized cupcakes, but i like to make 24 mini ones for parties. nutmeg adds that special something.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, banana, unsalted butter, vanilla extract, eggs, all-purpose flour
+---
+TITLE: Banana Cupcakes With Honey Cinnamon Frosting
+CURRENT_DESCRIPTION: a wonderful way to use up your over ripe bannas. these are like a cross between a muffin and a cupcake. you could serve them for breakfast plain, or add the frosting for a sweet treat. or if you don't like your cupcakes too sweet, you might consider using a cream cheese frosting instead. this only makes 12 cupcakes and comes together very quickly. from martha stewart.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, unsalted butter
+---
+TITLE: Banana Cupcakes With Orange Cream Cheese Glaze
+CURRENT_DESCRIPTION: indescribably delicious. believe it or not, it's adapted from rosie daley's the healthy kitchen, her book with andrew weil, changed very slightly. i think it's healthy more for it's high-fiber ingredients than for being nonfattening. it's a great way to use those naughty boys bananas gone bad. she says you can actually make this using just a wooden spoon and a whisk, but you have to be careful that nothing--including the sugar--is left lumpy and clumpy so i just use an electric mixer. the original recipe said walnuts but i use pecans; actually i'd say the nuts are optional. in the glaze, i also use more of the orange zest than the original recipe (which says 1/2 tsp) and i grate it on one size larger hole size on the grater than is usual. instead of cupcakes, you can cook 1 big cake in an ordinary loaf pan, but let it bake 45 minutes instead of 20.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, carrots, butter, brown sugar, eggs, vanilla extract
+---
+TITLE: banana cupcakes with vanilla pastry cream
+CURRENT_DESCRIPTION: from baked: new frontiers in baking by matt lewis and renato poliafito
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, salt, unsalted butter, vegetable shortening
+---
+TITLE: Banana Cupcakes With Vanilla Pastry Cream
+CURRENT_DESCRIPTION: from baked: new frontiers in baking by matt lewis and renato poliafito
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, salt, unsalted butter, vegetable shortening
+---
+TITLE: Banana Curd
+CURRENT_DESCRIPTION: i have made this a few times, keeps about 3-4 months in the refrigerator, goes well as a filling in cakes, or on scones, muffins,fesh bread or whatever takes your fancy!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, caster sugar, lemon, eggs
+---
+TITLE: Banana Curry
+CURRENT_DESCRIPTION: damn cyclone
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable stock, curry paste, bananas, lime juice, onion, chicken breasts
+---
+TITLE: Banana Curry   Vegetarian
+CURRENT_DESCRIPTION: my grandparents owned a banana plantation near the queensland border, and as such i was fortunate to acquire some banana recipes that are just that much different. this is a great dish winter or summer, and i find it quick and easy to prepare, and a total change for your taste buds. as with most curry recipes, the chilli and curry powder can be adjusted to suit your own likes. on occasions i also add a side dish of salad, particularly if it is served as a main meal.
+                            john connolly
+                            lake munmorah
+                            australia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onions, butter, curry powder, cooking apples, red chile, apricot jam
+---
+TITLE: Banana Curry Soup
+CURRENT_DESCRIPTION: simple african soup. posted in responce to an iso reqest.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, curry powder, low-fat chicken broth, bananas, lemon juice
+---
+TITLE: Banana Custard Pudding
+CURRENT_DESCRIPTION: this is a basic custard recipe with sliced bananas folded in just before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, salt, milk, egg yolks, vanilla
+---
+TITLE: Banana Custard Slice
+CURRENT_DESCRIPTION: from james reeson alive and cooking, this looks delicious and relatively easy.  times are estimated and have not included 1 hour refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, milk, eggs, caster sugar, vanilla essence, arrowroot
+---
+TITLE: Banana Dahl
+CURRENT_DESCRIPTION: this recipe came from simon rimmer or greens vegetarian restaurant in manchester. this is the original recipe but as i am trying to watch my weight i use 4 sprays of cooking oil rather than 2 tablespoons and leave out the fried plantain which brings it to about 230 calories per serving and 1.2g fat. its wonderfully warm and comforting and just needs to be served with some chapattis or naan bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, gingerroot, vegetable oil, turmeric, red lentils
+---
+TITLE: Banana Daiquiri Muffins
+CURRENT_DESCRIPTION: bananas are my favorite fruit.  i also love the sweetness of a daiquiri, so when i found this recipe (heaven only knows where), i thought they were wonderful!  if you're not a rum-runner (fff reference), feel free to sub in a few drops of rum extract to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, bananas, butter, rum, cherries, nutmeg
+---
+TITLE: Banana Date Bread
+CURRENT_DESCRIPTION: a great banana bread that uses the least amount of oil i've seen compared to some other banana bread recipes.  tastes great all by itself or add a little butter or cream cheese to make it even better.
+
+leave the dates and/or nuts out if that's not your thing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, sugar, egg, all-purpose flour, baking powder, baking soda
+---
+TITLE: Banana Date Flax Seed Bread
+CURRENT_DESCRIPTION: from cooking light, oct. 1999.
+this healthful bread is full of goodness, and it tastes delicious, too! store in an airtight container in your refrigerator or freezer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flax seed, banana, sugar, vegetable oil, eggs, all-purpose flour
+---
+TITLE: Banana Date Muffins
+CURRENT_DESCRIPTION: tasty, easy to make, moist muffins - make a great breakfast treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, eggs, plain nonfat yogurt, unsweetened applesauce, canola oil, brown sugar
+---
+TITLE: Banana Date Peach Pudding  Raw Food
+CURRENT_DESCRIPTION: this little gem comes from the 2004 cookbook, raw foods for busy people!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dates, water, banana, peaches, vanilla extract, ground cinnamon
+---
+TITLE: Banana Date Tofu Pudding
+CURRENT_DESCRIPTION: keep in the fridge for hungry children to snack on, or put in healthy lunch boxes for a protein rich desert.  this is a great recipe for people who don't like tofu.  they can get friendly with it in a nonthreatening atmosphere.  this pudding uses fruit as it's only sweetener.  you will be surprised at just how sweet and delicious the combination of bananas and dates can be.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soft tofu, corn oil, water, bananas, pitted dates, vanilla extract
+---
+TITLE: Banana Date Walnut Muffins  Low Fat  Vegan
+CURRENT_DESCRIPTION: from the blog fatfreevegan. these are tasty treats that are vegan and low in fat.  we loved 'em.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pastry flour, baking powder, salt, cinnamon, raw sugar, bananas
+---
+TITLE: Banana Delight
+CURRENT_DESCRIPTION: simple easy dessert or breakfast
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, honey, coconut, butter, lemon, juice of
+---
+TITLE: Banana Delight Dessert
+CURRENT_DESCRIPTION: banana's and pudding, a fantastic sweet treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonfat milk, instant vanilla pudding, light whipped topping, firm banana, graham cracker crumbs
+---
+TITLE: Banana Dessert
+CURRENT_DESCRIPTION: if you like chocolate, you can substitute chocolate cookie crumbs for the graham cracker.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mini marshmallows, milk, whipping cream, banana, vanilla, graham cracker crumbs
+---
+TITLE: banana dessert wraps
+CURRENT_DESCRIPTION: easy and yummy treat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut, pecans, refrigerated pie crust, sugar, ground cinnamon, ground nutmeg
+---
+TITLE: Banana Dessert Wraps
+CURRENT_DESCRIPTION: easy and yummy treat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut, pecans, refrigerated pie crust, sugar, ground cinnamon, ground nutmeg
+---
+TITLE: Banana Devils Food Cake
+CURRENT_DESCRIPTION: easy as it gets....start with a devils food cake mix with bananas added for a unique taste. goes together in a jif!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: devil, ,, ,, ,, ,, ,
+---
+TITLE: Banana Dog
+CURRENT_DESCRIPTION: a fun take on the hot dog. it would be perfect for a young child's "cooking" lesson.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dog bun, peanut butter, strawberry jam, banana, raisins, shredded coconut
+---
+TITLE: Banana Doghnuts
+CURRENT_DESCRIPTION: from guam comes an interesting idea for using those overripe bananas!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, flour, sugar, vegetable oil, powdered sugar
+---
+TITLE: Banana Dream Pie
+CURRENT_DESCRIPTION: creamy banana pie that is quick and easy for anyone to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant vanilla pudding, cool whip, milk, vanilla, graham crackers, bananas
+---
+TITLE: Banana Drop Cookies
+CURRENT_DESCRIPTION: giving to me by my daughter kim.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, shortening
+---
+TITLE: Banana Drop Scones
+CURRENT_DESCRIPTION: the bananas actually go over the scones, they are not in it.  a delicious tea time snack for two.  from brian turnerupdate 03/03/12 so easy to make, perfect for someone under the weather who needs a pickmeup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-raising flour, free-range egg, milk, vegetable oil, butter, caster sugar
+---
+TITLE: Banana Dumplings
+CURRENT_DESCRIPTION: getting tired of fruit chaat for your iftari? need to whip up something fried quickly for a friend? banana dumplings to the resuce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, flour, milk, sugar, egg, baking powder
+---
+TITLE: Banana Dumplings With Toffee Sauce
+CURRENT_DESCRIPTION: soft banana flavoured dumplings in a toffee sauce. serve with ice-cream for a delicious dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, baking powder, ground cinnamon, butter, caster sugar, banana
+---
+TITLE: Banana Eggs
+CURRENT_DESCRIPTION: mrbreakfast.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, banana, cinnamon, salt, butter
+---
+TITLE: Banana Empanadas
+CURRENT_DESCRIPTION: recipe courtesy robin miller, 2007
+
+show: quick fix meals with robin miller episode: sensational salads
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, bananas, dark brown sugar, ground cinnamon, refrigerated pie crusts, ice cream
+---
+TITLE: Banana Everything Cookies From Vegan Cookies Take Over The World
+CURRENT_DESCRIPTION: by isa chandra moskowitz and terry hope romero
+
+i made these a little while ago and everyone at work went mental over them. i ommitted the walnuts due to my nut allergy but these are mega tasty nom noms.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, canola oil, sugar, vanilla, all-purpose flour, baking soda
+---
+TITLE: Banana Express
+CURRENT_DESCRIPTION: nothing upscale or glamorous, but better than what you'd expect.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, honey, cinnamon, frozen yogurt, coconut
+---
+TITLE: Banana Farina Bread
+CURRENT_DESCRIPTION: i copied this recipe down ages ago, always meaning to give it a try. i found it today in one of my piles of recipes and decided to share it. this is not a sweet bread. supposedly, this recipe is from liberia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: farina, granulated sugar, baking powder, nutmeg, salt, bananas
+---
+TITLE: Banana Faux Lada
+CURRENT_DESCRIPTION: i came up with this when i wanted to use up a couple of ripe bananas and i was in the mood for a colada type drink. i didn't want to use cream of coconut or coconut milk, so this is the result. it still has the same sort of taste, but is much lighter. since i am not a big fan of heavy creamy drinks, i actually like this better!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light rum, coconut rum, lime juice, sugar, bananas, sweetened flaked coconut
+---
+TITLE: Banana Fizz Favorite
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. (4 serving size) Jell-O brand gelatin (any flavor) or use sugar-free gelatin, 3/4 c. boiling water, 1/2 c. cold water, ice cubes, 1 banana, sliced
+---
+TITLE: Banana Flambe Over Ice Cream
+CURRENT_DESCRIPTION: this is posted for a tag player jude looking for something to do with bananas and nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, brown sugar, grand marnier, butter, sugar, banana rum
+---
+TITLE: Banana Flapjacks
+CURRENT_DESCRIPTION: this is from a supermarket magazine. i posted it here for future use and safekeeping. a treat for the afternoon or when you need a little pick-me-up, with nourishing oats and bananas. cooking time doesn't include time to cool.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, honey, porridge oats, bananas, banana chips
+---
+TITLE: Banana Flax Muffins
+CURRENT_DESCRIPTION: this is a recipe i came up with for flax seed using recipe #9176 by evie*. i tried changing it and it worked perfectly. i sometimes add dried or freeze-dried fruit to these. this recipe make a wonderful flax muffin. the addition of flax seed to recipes gives a nutty flavor without nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, sugar, ground flax seeds, egg, milk, baking soda
+---
+TITLE: Banana Flax Pancakes With Blueberry Sauce
+CURRENT_DESCRIPTION: my dh loves pancakes!  i am always trying something new to find the "right" taste to suit him.  this is one of many that he likes.... i don't really remember where this recipe came from... my sister i think....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, canola oil, honey, skim milk, banana, complete pancake and waffle mix
+---
+TITLE: Banana For Dessert
+CURRENT_DESCRIPTION: cook the bananas while enjoying dinner. after they are cooked, cool a while then assemble and enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lemon, sugar, water, orange marmalade, rum
+---
+TITLE: Banana Foster Martini
+CURRENT_DESCRIPTION: found this on the internet. it's more like a smoothie than a martini, but has the flavors of the south's bananas foster.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vodka, banana liqueur, godiva original chocolate liqueur, banana, vanilla ice cream, cocoa powder
+---
+TITLE: banana foster trifle
+CURRENT_DESCRIPTION: great recipe from southern living christmas at home magazine.  this recipe uses a white cake mix, make the cake according to the box instructions, but add mashed bananas and ginger to the mix...the computer gave me a hard time with the whole cake mix thing...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, water, oil, eggs, mashed banana, ground ginger
+---
+TITLE: Banana Foster Trifle
+CURRENT_DESCRIPTION: great recipe from southern living christmas at home magazine.  this recipe uses a white cake mix, make the cake according to the box instructions, but add mashed bananas and ginger to the mix...the computer gave me a hard time with the whole cake mix thing...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, water, oil, eggs, mashed banana, ground ginger
+---
+TITLE: Banana French Toast
+CURRENT_DESCRIPTION: the banana in this recipe is pureed into the batter along with eggs, milk, cinnamon and vanilla. this is wonderful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, cinnamon, vanilla, banana, bread
+---
+TITLE: Banana French Toast Sandwich
+CURRENT_DESCRIPTION: i am a fan of french toast and bananas and this is a yummy combination!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, milk, white bread, banana, butter
+---
+TITLE: Banana French Toast With Chocolate Drizzle
+CURRENT_DESCRIPTION: decadent...........i make this for my husband when i want something!! the recipe comes from linda haynes at the ace bakery.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, whipping cream, ground cinnamon, ground nutmeg, orange, day-old white bread
+---
+TITLE: Banana Friendship Bread
+CURRENT_DESCRIPTION: if you're sick of making the same bread every 10 days, try this one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amish starter, flour, sugar, cinnamon, milk, eggs
+---
+TITLE: Banana Frittatas
+CURRENT_DESCRIPTION: you can also use apples with this instead of bananas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, white sugar, milk, eggs, bananas
+---
+TITLE: Banana Fritters
+CURRENT_DESCRIPTION: lovely with ice cream
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, flour, cornflour, baking powder, salt, milk
+---
+TITLE: Banana Fritters A La Jacques Pepin
+CURRENT_DESCRIPTION: this is from sweet simplicity: jacques pepin's fruit desserts. these are all he said it is and more! the batter becomes like a "tempura" batter because of the ice water. we added a large egg because it is included in the directions and not ingredients and it made sense. if there is anyone who can look it up for me, i would appreciate it. i copied the notes by hand, copy machine at library was broken, & i wasn't allowed to check the book out.  we made these for the last night of hanukah, there were a lot of over ripe bananas and went ahead and made the fritters. i had been saving this recipe for awhile - am glad i did.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, egg, ice water, canola oil, bananas
+---
+TITLE: Banana Fritters With Brandy Sauce
+CURRENT_DESCRIPTION: i found this recipe in my mother's recipe box.  it looks as though it was clipped from a magazine.  the description to the recipe states as follows: " the koran says that the fatal fruit in the garden of eden was a banana, not an apple.  if eve offered adam banana fritters drenched in brandy sauce it's no wonder he succumbed to temptation."
+enjoy ; )
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, sugar, egg, milk
+---
+TITLE: Banana Fruit Loaf
+CURRENT_DESCRIPTION: i found this gorgeous recipe in ruth isabel ross' "irish baking book", which i had originally given to my mum as a birthday present when spending a year abroad in ireland. it is easy to make and just tastes so fruity. =)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, sugar, sultanas, egg, bananas
+---
+TITLE: Banana Fruit Salad
+CURRENT_DESCRIPTION: another fruit salad with a different cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, lemon juice, icing sugar, fresh fruit, egg white
+---
+TITLE: Banana Fudge Pie
+CURRENT_DESCRIPTION: the best pie in the world :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen pie crust, semisweet mini chocolate chips, cool whip, eggs, bananas, sugar
+---
+TITLE: Banana Fudgicle
+CURRENT_DESCRIPTION: great on a hot summer day/evening to refresh you!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark creme de cacao, banana, half-and-half, ice cubes, bittersweet chocolate
+---
+TITLE: Banana Gelato
+CURRENT_DESCRIPTION: gelato, or italian ice cream, tends to be lower in fat than ice cream, as it’s made from milk with just a touch of cream. however, its texture is traditionally denser as it has less air beaten into it. oddly enough, this gelato tastes like caramel and is great with toasted pecans. from relish magazine.  freezing time is not included in prep time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, bananas, egg yolks, sugar, vanilla extract, salt
+---
+TITLE: Banana Ginger Crepes With Yogurt
+CURRENT_DESCRIPTION: this is a great "do most of the work ahead of time" recipe. i like to have crepes ready in the freezer for a quick tea time sweet or after dinner dessert.the combination of ginger, banana & yogurt will keep your guests guessing. the vanilla is optional or you may like some cinnamon in the filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, eggs, evaporated milk, whole milk, brown sugar, butter
+---
+TITLE: Banana Ginger Parkin
+CURRENT_DESCRIPTION: this is a great way to use up soft bananas.
+this nutritious and energy giving cake doesn't break up easily,making it good for the childrens packed lunch boxes.the parkin keeps really well in a covered container for up to two months.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, bicarbonate of soda, ground ginger, oatmeal, dark muscovado sugar, sunflower margarine
+---
+TITLE: Banana Gingerbread
+CURRENT_DESCRIPTION: two of my favorite things: gingerbread and bananas.  how can you go wrong?  the bananas keep the bread so moist.  this is the perfect fall treat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, cinnamon, butter, brown sugar, allspice, molasses
+---
+TITLE: Banana Gingerbread Muffins
+CURRENT_DESCRIPTION: yum, yum! these are so good, and so easy! two of my favorite flavors: banana and gingerbread! if you frost these with vanilla frosting, they make a great dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, quick-cooking oats, water, eggs, gingerbread cake mix
+---
+TITLE: Banana Glace
+CURRENT_DESCRIPTION: this double-strength banana dessert beats a banana split halfway to dakar! served with an excellent demitasse, it is a delicious and sophisticated dessert. posted for zwt 2006.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, heavy cream, sugar, candied fruit, raisins, peanuts
+---
+TITLE: Banana Graham Cracker Pudding
+CURRENT_DESCRIPTION: this is my granny sell's recipe. she never wrote it down before she passed away, so i've tried to copy it with trial and error. it is such a family favorite that i usually double the recipe when i make it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, salt, milk, egg yolks, butter
+---
+TITLE: Banana Granola Pancakes
+CURRENT_DESCRIPTION: a nice hearty breakfast from lone mountain ranch, big sky, montana. we make this when we go camping/canoeing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, kosher salt, granola cereal
+---
+TITLE: Banana Gumdrop Bread
+CURRENT_DESCRIPTION: a recipe my grandmother used to make at christmas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, baking powder, salt, sugar, gumdrops
+---
+TITLE: Banana Gyoza Dessert
+CURRENT_DESCRIPTION: this came from a bento site as an eggroll, but i didn't like that very much so i improvised. do whatever you like with this, it was all just a guess anyway!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, honey, gyoza skins, cinnamon, olive oil
+---
+TITLE: Banana Half Wheat Pancakes
+CURRENT_DESCRIPTION: this is a modification of the pancake recipe on the back of the saco powdered buttermilk container.  you can find saco powdered buttermilk in the baking section of the grocery store; it's great for baking and unlike fresh buttermilk you can measure just the amount you need and store the tub in the fridge indefinitely.  i tried the saco pancake recipe the first time about ten years ago and have never bought pancake mix again... this is just so superior to that bisquick junk.  this weekend i wondered how it would be to do half white / half wheat flour... i would not have guessed this recipe could be improved but wow these are good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, wheat flour, dry buttermilk, sugar, baking powder, baking soda
+---
+TITLE: Banana Halva
+CURRENT_DESCRIPTION: this recipe is from an old “cooking for today magazine”, published by good housekeeping in 1973.  the recipe features in an section of indian recipes.  cooling time is not included.  posted for zaar world tour 2005.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, sugar, water, ghee, almonds, cardamom seed
+---
+TITLE: Banana Health Bar
+CURRENT_DESCRIPTION: this is a version of a health bar. it's sweet enough to satisfy my sweet tooth. perfect for breakfast with yogurt or to fuel a workout.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wheat germ, flour, oats, raisins, sesame seeds, carob chips
+---
+TITLE: Banana Health Loaf
+CURRENT_DESCRIPTION: very very good!! from canadian diabetes association.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, unsweetened dried shredded coconut, baking powder, baking soda, salt, banana
+---
+TITLE: Banana Health Nut Bread Muffins
+CURRENT_DESCRIPTION: adapted from a favorite banana bread recipe, this banana bread recipe uses less butter, no sugar, and has lots of fiber.  it tastes delicious too!  it can be made into a bread loaf or muffins.  if you don't have one of the ingredients you can supplement a little more of another similar one (i.e. oat bran for ground flax seed, or walnuts for another type of nuts).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, applesauce, eggs, bananas, honey, vanilla
+---
+TITLE: Banana Honey And Seed Loaf
+CURRENT_DESCRIPTION: this is from the australian womens weekly. we made it over the weekend and it was really delicious. i managed to find a seed mix already made up in the supermarket that i used. i modified slightly - did not use the raisins, used 3/4 cup mashed banana and did not sprinkle honey at the end. i have recently remade this recipe and instead of the buttermilk i added yoghurt. i used rapdura (better for you) sugar. it really is wonderful...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: toasted sesame seeds, sunflower seeds, pepitas, olive oil, brown sugar, honey
+---
+TITLE: Banana Ice Cream  Weight Watchers
+CURRENT_DESCRIPTION: this is from an old weight watcher's cookbook 'favorite homestyle recipes' before they did points, but i estimate it as 3 points plus per serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: evaporated skim milk, egg substitute, bananas, vanilla, sugar substitute, low-fat milk
+---
+TITLE: Banana Ice Cream Crepes
+CURRENT_DESCRIPTION: i originally got this idea from a dessert i had at joe's crab shack. my husband and i loved it so much, that i gave the combination a shot and it turned out just like what my husband and i had eaten at the restaurant. if you have a favorite crepe recipe, any one will probably do. this is the one i like to use. this sweet treat is so amazing, i hope you like it as much as we do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, milk, butter, eggs
+---
+TITLE: Banana Ice Cream That Really Tastes Like Banana
+CURRENT_DESCRIPTION: this is our all-time favorite ice cream in my family.  it is super delicious.  i like using about 4 medium bananas to make this ice cream.  if you prefer, you can also use only 3 for lighter texture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipping cream, milk, vanilla, eggs, sugar, bananas
+---
+TITLE: Banana In Coconut Cream
+CURRENT_DESCRIPTION: this is a thai recipe creamy and not too sweet, with all the healthy benefits of bananas, so rich in bone-building phosphorus and calcium, heart-healthy potassium, vitamins a and b6. great for those leg cramps!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, coconut milk, granulated sugar, salt, cinnamon stick, coconut
+---
+TITLE: Banana In Coconut Milk
+CURRENT_DESCRIPTION: aimply the best thai dessert. wasy and quick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, coconut milk, sugar, salt, mint leaf
+---
+TITLE: Banana Instant Oatmeal Muffins
+CURRENT_DESCRIPTION: i had some instant honey almond flavored oatmeal that no one in my family was eating so i came up with these. i'm sure you could use any kind of instant oatmeal packets with great results.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white whole wheat flour, light brown sugar, baking soda, baking powder, salt, ground cinnamon
+---
+TITLE: Banana Jam
+CURRENT_DESCRIPTION: i was trying to find a recipe for banana jelly and didn't... so i went on mama'shealth.com and found this one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lemon juice, pectin, sugar, unsalted butter
+---
+TITLE: Banana Jam Betty
+CURRENT_DESCRIPTION: fruity and sweet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, bananas, lemon juice, jam, walnuts, coconut
+---
+TITLE: banana jubilee pie
+CURRENT_DESCRIPTION: this is way better than any banana cream pie i’ve ever had. i liked it with whipped cream, my hubby and mother liked the cherry topping. i tried this with 2x the bananas and it wasn’t as good…it was mushy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crust, sugar, all-purpose flour, salt, milk, eggs
+---
+TITLE: Banana Julius
+CURRENT_DESCRIPTION: there are lots of other julius recipes here, but i didn't find this one. suprising!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, egg substitute, vanilla, sugar, bananas, ice
+---
+TITLE: Banana Jumbo Cookies
+CURRENT_DESCRIPTION: this is a cookie that my family has been making for a long time. it is incredibly moist and chewy cookie. we sometimes top it with a frosting but it tastes just as great alone.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, sugar, eggs, banana, buttermilk, vanilla extract
+---
+TITLE: Banana Kale Smoothie
+CURRENT_DESCRIPTION: adapted from a blender cookbook.  i have a 3hp blender so it makes this wonderfully smooth and velvety.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, kale, vanilla yogurt, fat-free hazelnut-flavored nondairy liquid coffee creamer, coconut extract, ice
+---
+TITLE: Banana Ketchup
+CURRENT_DESCRIPTION: you won't find this delicious condiment in one of those fancy new heinz coloured squeezy bottles!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sultanas, onions, garlic, tomato paste, cider vinegar, bananas
+---
+TITLE: Banana Lassi
+CURRENT_DESCRIPTION: a delicious yoghurty milkshake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ice cubes, ice water, natural yoghurt, bananas, honey, ground nutmeg
+---
+TITLE: Banana Latkes
+CURRENT_DESCRIPTION: light and tasty pancakes make a yummy passover breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, eggs, egg white, sugar, cinnamon, matzo meal
+---
+TITLE: banana layer cake with cream cheese frosting
+CURRENT_DESCRIPTION: mashed bananas adds more than just flavor to this cake--it also keeps the layers moist. i found this recipe on aol.com/food/ while i was surfing around. this looked very interesting and it turned out so beautifully. it tastes great too! it uses coconut which i don't like so i only ate a smidgin!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, all-purpose flour, baking powder, baking soda, salt, granulated sugar
+---
+TITLE: Banana Layer Cake With Cream Cheese Frosting
+CURRENT_DESCRIPTION: mashed bananas adds more than just flavor to this cake--it also keeps the layers moist. i found this recipe on aol.com/food/ while i was surfing around. this looked very interesting and it turned out so beautifully. it tastes great too! it uses coconut which i don't like so i only ate a smidgin!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, all-purpose flour, baking powder, baking soda, salt, granulated sugar
+---
+TITLE: Banana Layered Pie
+CURRENT_DESCRIPTION: from great american favorite brand name cookbook.
+cook time is chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, vanilla flavor instant pudding and pie filling mix, 9-inch baked pie crusts, bananas, non-dairy whipped topping, lemon juice
+---
+TITLE: Banana Lemon Bread
+CURRENT_DESCRIPTION: a lemony twist to traditional banana bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, all-purpose flour, baking powder, baking soda, salt
+---
+TITLE: Banana Lemon Poppy Seed Muffins
+CURRENT_DESCRIPTION: moist, easy, delicious muffins... what could be better?  if you love the lemony flavor, add a tsp. or more of freshly grated lemon zest to the liquid ingredients. this makes 2 dozen regular sized muffins or 4 dozen mini muffins - i usually make 1 dozen of the larger and 2 dozen of the smaller.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: powdered sugar, lemon juice, whole wheat flour, unbleached flour, baking powder, baking soda
+---
+TITLE: Banana Lemon Pudding Cake
+CURRENT_DESCRIPTION: a recipe from rachael ray.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, plain fat-free yogurt, lemon, juice and rind of, sugar, flour, salt
+---
+TITLE: banana lemon sensation
+CURRENT_DESCRIPTION: bet you can't have just one piece! this recipe is the most delicious i have ever made, or developed. of course the basis for a good banana bread was originally developed during the days when our ancestors used the palms of their hands to measure flour, and plain soda as rising agents. i would not recommend this; how things have changed and improved, and i am glad they did. banana bread is a staple in our home; unfortunately i must monitor my personal consumption because of health implications. i am happy to share my recipe with you and know you will enjoy it as much as my own family. to increase the number of loaves, simply multiply the recipe accordingly. because banana/lemon sensation freezes so well, i habitually bake these in large quantities; (up to a dozen loaves), preparing and cooking two at a time. your oven may accommodate more than two loaves at a time, but i have found that any more than two loaves in an oven will result in uneven baking of the product. the loaves at the rear of my oven will overbake while the front loaves are lighter in colour, and will take a little more time for centres to cook. suggest also making more than one loaf; a family of four will polish off an entire loaf at one sitting, because you can't have just one piece! better make several, and put a couple away for future consumption. kids will love the snack after school. you cannot hide anything; the aroma of baking banana/lemon sensation tells all.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, sugar, all-purpose flour, baking soda, salt
+---
+TITLE: Banana Lemon Sensation
+CURRENT_DESCRIPTION: bet you can't have just one piece! this recipe is the most delicious i have ever made, or developed. of course the basis for a good banana bread was originally developed during the days when our ancestors used the palms of their hands to measure flour, and plain soda as rising agents. i would not recommend this; how things have changed and improved, and i am glad they did. banana bread is a staple in our home; unfortunately i must monitor my personal consumption because of health implications. i am happy to share my recipe with you and know you will enjoy it as much as my own family. to increase the number of loaves, simply multiply the recipe accordingly. because banana/lemon sensation freezes so well, i habitually bake these in large quantities; (up to a dozen loaves), preparing and cooking two at a time. your oven may accommodate more than two loaves at a time, but i have found that any more than two loaves in an oven will result in uneven baking of the product. the loaves at the rear of my oven will overbake while the front loaves are lighter in colour, and will take a little more time for centres to cook. suggest also making more than one loaf; a family of four will polish off an entire loaf at one sitting, because you can't have just one piece! better make several, and put a couple away for future consumption. kids will love the snack after school. you cannot hide anything; the aroma of baking banana/lemon sensation tells all.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, sugar, all-purpose flour, baking soda, salt
+---
+TITLE: Banana Lemon Tea Bread
+CURRENT_DESCRIPTION: i always like to have some kind of quick bread or cake on hand for my kids to snack on. this one is really flavourful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, bananas, fresh lemon juice, all-purpose flour
+---
+TITLE: Banana Lemonade
+CURRENT_DESCRIPTION: i thought this sounded a little bizzare-o but the taste was pleasing to me. something for the more adventurous to try out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, fresh lemon juice, water, superfine sugar, ice cubes, lemon
+---
+TITLE: Banana Lettuce Salad
+CURRENT_DESCRIPTION: growing up, my great grandma would make this every weekend while i was there...now that she has passed, i still make it often and remember the good times we have shared...the ingrediants in this recipe are simple...and somewhat weird, but overall the taste is yummy...hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce, miracle whip, mayonnaise, milk, sugar, bananas
+---
+TITLE: Banana Lime Cake
+CURRENT_DESCRIPTION: bananas and lime work well together in general evoking tropical flavors.  this cake is actually from the uk, from a volume given to me in a cookbook swap.  after gema's disappointing review, i made this myself and made some minor changes (namely reducing the flour by two tablespoons and adding a tablespoon of yogurt) and clarifying the directions according to preparation in my own kitchen.  i found the cake to be a lovely snacking cake perfect as a midday sweet or informal dessert. as a low-fat chef, i was pleased to find the cake had a natural moistness drawn from the bananas, yogurt and raisins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, baking powder, light brown sugar, lime zest, egg
+---
+TITLE: Banana Loaf
+CURRENT_DESCRIPTION: a squidgy banana-ry loaf that will go down well at home with a cup of coffee for breakfast or hold it's own at a social gathering (our church coffee morning!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light muscovado sugar, eggs, bananas, pecans, raisins
+---
+TITLE: Banana Loaf 1968
+CURRENT_DESCRIPTION: got this when i was first married in 1968, and still is one of my favourites. fast , easy, can't go wrong...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, canola oil, baking soda, soured milk, bananas, walnuts
+---
+TITLE: Banana Loaf Cake
+CURRENT_DESCRIPTION: recipe from an email from a kitchen wharehouse supplier - looks interesting and would like to try if i can get some bananas ripened enough and not have the ds throw them out on me (24 year old nearing 25 with autism intellectual impairment), i just may get to make this recipe, in the mean time here for safe keeping.  times are estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, bananas, bicarbonate of soda, baking powder, sugar, plain flour
+---
+TITLE: Banana Lumpia
+CURRENT_DESCRIPTION: i found this on aish.com. they were offerring an assortment of asian recipes for chanukkah, and this dessert influenced by filipino cuisine piqued my interest. this recipe makes 16 lumpia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spring roll wrappers, bananas, sugar, cinnamon, canola oil
+---
+TITLE: Banana Macadamia Bread
+CURRENT_DESCRIPTION: this is a dairy-free and very easy version of this recipe. beautiful sliced, served warm or cold with margarine or butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, eggs, plain flour, caster sugar, brown sugar, salt
+---
+TITLE: Banana Macadamia Madeleines
+CURRENT_DESCRIPTION: a delicious twist on an old favorite. i love these!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, butter, dark rum, vanilla extract, egg white, eggs
+---
+TITLE: Banana Macadamia Nut Bread
+CURRENT_DESCRIPTION: a tropical hawaiian treat! lots of yummy nuts in this banana quick bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, flour, baking powder, salt, bananas
+---
+TITLE: Banana Macadamia Nut Bread  Abm
+CURRENT_DESCRIPTION: this recipe was in the book that came with my bread-maker, lovely served with cream cheese and a large mug of coffee!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, plain flour, sugar, salt, egg, margarine
+---
+TITLE: Banana Macadamia Nut Muffins
+CURRENT_DESCRIPTION: these are delicious with macadamia nuts, but are also very good with the more traditional pecans or walnuts.  this recipe is less sweet than some muffin recipes - which i think makes them perfect for breakfast.  try them plain, or cut in half and toast in a toaster oven with butter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed banana, vegetable oil, milk, macadamia nuts, egg, whole wheat flour
+---
+TITLE: Banana Macadamia Nut Pancakes With Orange Butter
+CURRENT_DESCRIPTION: very simple and good! read the ingredients, need i say more? this is a recipe adopted in a very wild zaar adoption in september 2006! i haven't made it yet but as soon as i do, i'll let everyone know!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, orange zest, fresh orange juice, salt, all-purpose flour, sugar
+---
+TITLE: Banana Macaroon Cake
+CURRENT_DESCRIPTION: we have been making this cake for years. i use it when i don't feel like a pound cake,
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, sugar, eggs, milk, almond extract, flour
+---
+TITLE: Banana Macaroon Trifle Dessert
+CURRENT_DESCRIPTION: very sweet and chewy. i got this recipe from the recent march/april 2002
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, flaked coconut, old fashioned oats, all-purpose flour
+---
+TITLE: Banana Mandarin Cream Cheese Pie
+CURRENT_DESCRIPTION: wow!  great recipe from eagle brand evaporated milk!  (time includes chill time)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumb crust, cream cheese, sweetened condensed milk, lemon juice, vanilla extract, bananas
+---
+TITLE: Banana Mandazi
+CURRENT_DESCRIPTION: a wonderful mandazi (south african fritter) by alan coxon
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, bananas, milk, vanilla extract, self-raising flour, baking powder
+---
+TITLE: Banana Mango Smoothieeeeeeeee
+CURRENT_DESCRIPTION: a quick way to start the day! a on the go breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, mango, mango yogurt, orange juice, ice cubes
+---
+TITLE: Banana Maple French Toast
+CURRENT_DESCRIPTION: all the tastes blended together to makes a wonderful tasting french toast that the kids and many adults as well will enjoy. great way to get your potassium!....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, milk, eggs, sugar, maple syrup, vanilla
+---
+TITLE: Banana Maple Ice Cream
+CURRENT_DESCRIPTION: lowfat but nice and creamy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2% low-fat milk, sugar, egg yolks, nonfat dry milk powder, vanilla extract, banana
+---
+TITLE: Banana Maple Nut Coffee Cake
+CURRENT_DESCRIPTION: maple syrup, with it's rich, natural flavor, is by far my favorite sweetener.  you can substitute honey, if that's what you have on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, brown sugar, ground cinnamon, walnuts, sugar, maple syrup
+---
+TITLE: Banana Maple Pecan Bread Muffins  Gluten Free
+CURRENT_DESCRIPTION: i bought a 20lb bag of bananas at krogers for $1.00 and have been trying to use them all up. this is one of the recipes i made in the process. it was by far the most scrumptious recipe that i made. it could also be made into a bread, but i made muffins. this is definitely my new default banana bread recipe! imade a double batch and ended up with 39 muffins. i made half with the called for maple syrup/pecan topping and half with a cream cheese topping. to make the cream cheese topping, i whipped 6oz cream cheese with 1/4 cup brown sugar and 1/4 cup maple syrup. these were absolutely heavenly fresh out of the oven. *for the gluten free flour, i used bette hagman's mix: 2 parts garfava bean flour, 1 part sorghum flour, 3 parts cornstarch, and 3 parts tapioca flour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, pure maple syrup, pecans, flour, xanthan gum, brown sugar
+---
+TITLE: Banana Marshmallow Ice Cream  Still Freeze
+CURRENT_DESCRIPTION: originally from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, marshmallows, sugar, bananas, fresh lemon juice, heavy cream
+---
+TITLE: Banana Marshmallow Squares
+CURRENT_DESCRIPTION: easy to make and so good! the original recipe states to bake this in a 13x9-inch pan i made mine in an 11x7-inch pan and it worked fine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, butter, eggs, nuts, mini marshmallows, vanilla instant pudding mix
+---
+TITLE: Banana Meringue Delight
+CURRENT_DESCRIPTION: a kosher dessert for the zaar world tour '05.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, sugar, vanilla, salt, cream of tartar, instant vanilla pudding
+---
+TITLE: Banana Milk Drink
+CURRENT_DESCRIPTION: this was a wonderful drink even during the summer and for breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, milk, sugar, vanilla extract, ground cinnamon
+---
+TITLE: Banana Mini Choco Chip Muffins
+CURRENT_DESCRIPTION: adapted from the penzey's spices catalog. these are very moist and speckled with tiny bits of chocolate.  i fill my muffin tins very full,m so i actually only get 12 large muffins (which require more like 20-25 minutes cooking time), but if you prefer smaller muffins, you will get 16-18 by filling the tins 3/4s full.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet unsalted butter, granulated sugar, eggs, pure vanilla extract, all-purpose flour, baking soda
+---
+TITLE: Banana Mini Morsel Bars
+CURRENT_DESCRIPTION: this is a yummy chocolate treat that has just the perfect flavor of bananas!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, fat-free margarine, sugar, brown sugar, vanilla extract
+---
+TITLE: Banana Miracle Whip Muffins
+CURRENT_DESCRIPTION: taken from canadian catholic ladies treasured family recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed banana, sugar, miracle whip, vanilla, flour, baking soda
+---
+TITLE: Banana Mocha Smoothie
+CURRENT_DESCRIPTION: i found this recipe in light & tasty magazine. i was pleasantly surprised at how tasty and refreshing it is! this is a reduced-calorie recipe, but if you do not need to calorie count, then use regular milk and ice cream. you can also add more coffee granules if you like a stronger coffee flavor. i make the original recipe as a quick breakfast on hot summer days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat vanilla frozen yogurt, nonfat milk, banana, instant coffee granules, ice cube
+---
+TITLE: Banana Mojito
+CURRENT_DESCRIPTION: a cross between a mojito and banana batido.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, bacardi light rum, fresh lime juice, sugar, fresh mint leaves, ice
+---
+TITLE: Banana Monkey Bars
+CURRENT_DESCRIPTION: what to do with those last two bananas?  make these quick and easy cookies!  this uses a yellow cake mix as a base and adds lots of goodies on top.  this recipe is from camilla saulsbury's book cake mix cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, vegetable oil, egg, nuts, sweetened condensed milk, banana
+---
+TITLE: Banana Morning Glory Muffins  Cooking Light
+CURRENT_DESCRIPTION: a delicious, nutritious and satisfying muffin from "cooking light magazine (july 2007).  you can definitely play around with this recipe- it does well with substitutions.  these freeze very well.  either microwave for 20 seconds or just pull one out of the freezer before you leave for the day, and it will be defrosted and perfect in about an hour, just in time for a snack!.  if you want, you can fold the flax into the batter, rather than sprinkling it on top.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, whole wheat flour, all-purpose flour, oats, brown sugar, wheat bran
+---
+TITLE: Banana Mousse
+CURRENT_DESCRIPTION: a low fat dessert. only 2 points.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat milk, sugar, vanilla, banana, plain low-fat yogurt, bananas
+---
+TITLE: Banana Muesli Muffins
+CURRENT_DESCRIPTION: these muffins are not too sweet and are filled with whole grains.  the museli, sucanat sugar, and flax seeds help to lower the glycemic index.  as with almost all baked goods, these muffins do not have a low glycemic load, so enjoy them in moderation.  for the museli, i like to use bob's red mill.  you can substitute the muesli with granola, but it will increase the fat and calories.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, safflower oil, eggs, sugar, low-fat milk, vanilla
+---
+TITLE: Banana Muffin Tops  Or Muffins And Mini Muffins
+CURRENT_DESCRIPTION: these moist muffins bake up great in muffin top tins or mini muffins too. maskes 12 muffins, 10 muffin tops or 24-30 mini muffins.  use very ripe bananas.    recipe was found on the internet --  diana's desserts, however i have made a few modifications.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, table salt, bananas, light brown sugar
+---
+TITLE: Banana Muffins
+CURRENT_DESCRIPTION: banana loaf/muffins
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, margarine, eggs, bananas, water, flour
+---
+TITLE: Banana Muffins  Chocolate Chips Optional
+CURRENT_DESCRIPTION: this has been a long time family recipe that we love to eat warm for breakfast or for snacks. you can make these with or without chocolate chips, but i highly recommend adding them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, sugar, vegetable oil, bananas, milk, vinegar
+---
+TITLE: Banana Muffins  Diabetic And Delicious
+CURRENT_DESCRIPTION: i met this muffin on the christine cushing live show and had to try it. for my money this is the ultimate banana muffin when it comes to the health aspect and just plain good taste. this can be made with some chopped nuts in place of the blueberries (or a small amount in addition to the berries). the nuts will add fat but nuts are heart healthy fat, you know the good kind.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, apple butter, vanilla, brown sugar, low-fat buttermilk, vegetable oil
+---
+TITLE: Banana Muffins  Fast  Easy   Yummy
+CURRENT_DESCRIPTION: banana muffins or bread with or without choco chips.  so fast and easy and good! from my friend, trees, who got it from her mother in law, sheila.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, eggs, yogurt, vanilla, flour, sugar
+---
+TITLE: Banana Muffins  Low Fat
+CURRENT_DESCRIPTION: very moist and tasty muffin!  the kids love them too!
+adapted from a butter buster's cookbook
+by pam mycoskie
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, white flour, sugar, baking powder, baking soda, salt
+---
+TITLE: Banana Muffins  Makes One Dozen
+CURRENT_DESCRIPTION: these are tasty muffins that are good for a lunch, snack, or desert. they are easy to make and will satisfy the nutritionally conscientious. they get great reviews with children too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, oil, white sugar, mashed banana, whole wheat flour, baking powder
+---
+TITLE: Banana Muffins With Chocolate And Ginger
+CURRENT_DESCRIPTION: these are definitely a sweet treat muffin - and pretty low fat too.  great taste and who can resist the combo of banana, chocolate and ginger???
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, vegetable oil, plain yogurt, brown sugar, salt, egg
+---
+TITLE: Banana Muffins With Chocolate Chips
+CURRENT_DESCRIPTION: a family favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, oil, milk, banana, vanilla, flour
+---
+TITLE: Banana Muffins With Chocolate Peanut Frosting
+CURRENT_DESCRIPTION: a recipe from ricardo.  so yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, brown sugar, baking powder, baking soda, bananas, lemon juice
+---
+TITLE: Banana Muffins With Cream Cheese
+CURRENT_DESCRIPTION: you will never go back to plain old banana bread again!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, egg, all-purpose flour, baking powder, baking soda
+---
+TITLE: Banana Muffins With Crunchy Granola Topping
+CURRENT_DESCRIPTION: this is giada delaurentes' recipe for banana muffins, these are just without the frosting and with granola. my family really likes them !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, baking powder, ground cinnamon, ground nutmeg
+---
+TITLE: Banana Muffins With Mascarpone Cream Frosting Or Spread
+CURRENT_DESCRIPTION: these are from giada de laurentiis. so sinfully good!  these are muffins, so the frosting isn't really very sweet. as suggested by a reviewer, it really could be used more as a spread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, baking powder, ground cinnamon, ground nutmeg
+---
+TITLE: Banana Muffins With Sour Cream
+CURRENT_DESCRIPTION: a mellow banana flavored muffin which stays soft. this recipe makes 12 jumbo muffins, or 24 medium muffins
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, baking powder, salt, butter, brown sugar
+---
+TITLE: Banana Nectarine Smoothie
+CURRENT_DESCRIPTION: good way to use up nectarines if they ripen too quickly. sometimes i buy too many at once. ditto for bananas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, unsweetened orange juice, nectarine, milk, ice cubes
+---
+TITLE: Banana Nugget Cookies
+CURRENT_DESCRIPTION: combination of spice cookie, banana bread, oatmeal, and chocolate chip cookies! we always called these banana nougat cookies, but i think they're really called nugget cookies. either way, these are the best. everyone loves them. they're a great "breakfast cookie".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, sugar, egg, flour, baking soda, salt
+---
+TITLE: Banana Nut Baked Oatmeal
+CURRENT_DESCRIPTION: from the weight watchers message boards. quantities and directions modified based on comments from member #1007259.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, baking powder, salt, skim milk, egg substitute, unsweetened applesauce
+---
+TITLE: Banana Nut Bread
+CURRENT_DESCRIPTION: this recipe came from a cookbook i got for christmas from a friend of mine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, brown sugar, butter, bananas, egg, egg whites
+---
+TITLE: Banana Nut Bread  Cake
+CURRENT_DESCRIPTION: this recipe came from my scout leader back in the 1970's and our troop made them to raise money for a long since forgotten reason. its best to use bananas that are very ripe. *note: cooking times have been corrected.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, milk, pancake mix, black walnut, egg, bananas
+---
+TITLE: Banana Nut Bread  For The Crock Pot
+CURRENT_DESCRIPTION: this recipe is from www.crock-pot.com.  it is basically for a 3 or 4 qt slow-cooker.  there are directions for using a larger slow-cooker at the site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, eggs, dark corn syrup, bananas, all-purpose flour
+---
+TITLE: Banana Nut Bread  Healthy  Low Fat  Low Sugar
+CURRENT_DESCRIPTION: this quickbread is naturally sweetened with bananas and applesauce. nuts add healthy fats and great flavour.
+this is great for breakfast or as a snack bread. i hope youll enjoy it as much as we do! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, baking powder, cinnamon, sugar, bananas, applesauce
+---
+TITLE: Banana Nut Bread  Reduced Sodium
+CURRENT_DESCRIPTION: i am a foodie. i just love cooking and eating. when i was put on a low sodium diet i thought the world had ended.  but in true foodie style i am creating and recreating the foods i love in a form i can have.  this bread is great with cream cheese but if you are on a low sodium diet, read the label on the cream cheese. you may have to cut down the amount you use.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, sugar, eggs, bananas, all-purpose flour, baking powder
+---
+TITLE: Banana Nut Bread Butter
+CURRENT_DESCRIPTION: found online while searching for new canning recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, fresh lemon juice, fruit-fresh produce protector, sure-jell, butter, granulated sugar
+---
+TITLE: Banana Nut Bread Coffee
+CURRENT_DESCRIPTION: banana nut bread in a drink!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana liqueur, hazelnut-flavored liqueur, strong coffee, sugar, whipped topping, cinnamon
+---
+TITLE: banana nut bread for the bread machine
+CURRENT_DESCRIPTION: i got this recipe from my sister-in-law and it is to die for! banana bread is a long time favorite in my house and this recipe won us all over....even grandma.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, vegetable oil
+---
+TITLE: Banana Nut Bread For The Bread Machine
+CURRENT_DESCRIPTION: i got this recipe from my sister-in-law and it is to die for! banana bread is a long time favorite in my house and this recipe won us all over....even grandma.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, vegetable oil
+---
+TITLE: Banana Nut Bread Jam
+CURRENT_DESCRIPTION: a delicious spread to be used on toast, french toast, pancakes, ice cream, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, lemon juice, granulated sugar, brown sugar, walnuts, pectin
+---
+TITLE: Banana Nut Bread Made By Mom
+CURRENT_DESCRIPTION: my mom has been making banana nut bread as far back as i can remember.  she told me she worked with a woman that gave her the recipe.  she followed the recipe to a "t" but it never came out the same.  it was either too soggy, or too sticky.  finally she tweaked the recipe until it came out just right.  the original recipe called for 8 very ripe bananas, and too much shortening.  i've been making this recipe since i was 18, and have never had a bad loaf.  the order in how the ingredients are put together is very important for some reason.  i have tried mixing everything in one bowl and it does change it quite drastically.  i guessed on the servings as it depends on how thick or thin you cut the slices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, baking soda, baking powder, salt, flour, shortening
+---
+TITLE: Banana Nut Bread Trifle
+CURRENT_DESCRIPTION: leftover banana bread? few leftover muffins? other than frying slices in a buttered saute' pan, this is another great way to use em up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar-free cheesecake pudding mix, 2% low-fat milk, banana nut bread, bananas, cool whip lite
+---
+TITLE: Banana Nut Bread With Yogurt And Whole Wheat Flour
+CURRENT_DESCRIPTION: low-cholesterol banana bread
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, baking powder, baking soda, sugar, plain fat-free yogurt, egg whites
+---
+TITLE: Banana Nut Bread(Diabetic)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 1/2 c. flour, 1 c. Equal, 3 Tbsp. salad oil, 3/4 c. skimmed milk, 1 egg, 1 c. finely chopped nuts
+---
+TITLE: Banana Nut Breakfast Cookies
+CURRENT_DESCRIPTION: moist & chewy.  awesome breakfast cookie!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: applesauce, agave nectar, rice milk, brown sugar, coconut oil, flax seed
+---
+TITLE: Banana Nut Bundt Cake
+CURRENT_DESCRIPTION: i have not tried this cake. i'm posting this for safe keeping. i found this in taste of home quick cooking 2005. this eye appealing cake has a temptingly tropical twist in every slice, thanks to the chopped bananas, pineapple bits and coconut.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking soda, ground cinnamon, eggs, vegetable oil
+---
+TITLE: Banana Nut Buttermilk All Bran Muffins
+CURRENT_DESCRIPTION: this recipe was developed with kellogg's all bran cereal i have never used any other bran cereal for this so i cannot guarantee good results with anything else --- if desired a crumb topping can be sprinkled on top, see my recipe#184305 for the topping mixture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, white sugar, buttermilk, all-bran cereal, egg, vegetable oil
+---
+TITLE: Banana Nut Buttermilk Cake
+CURRENT_DESCRIPTION: one of the better recipes for banana cakes. i have made this many times, it is very good. make certain to mash the bananas not puree them, it makes a difference in the cakes texture, i mash with my hands for this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, fresh lemon juice, flour, baking soda, salt, butter
+---
+TITLE: Banana Nut Butterscotch Drop Cookies
+CURRENT_DESCRIPTION: these are yummy and quick to make. i buy bananas while on sale, let them ripen, then freeze them in their own skins. when i am ready to use them i just thaw and pop them right out of their skins
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, salt, cinnamon, nutmeg
+---
+TITLE: Banana Nut Cake
+CURRENT_DESCRIPTION: this cake is one of my favorites. try it to see of its yours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, oil, eggs, bananas, flour, baking powder
+---
+TITLE: Banana Nut Cake Bread
+CURRENT_DESCRIPTION: another of my mom's great recipe box recipes. this one is fading in my own treasury, so required recopying and i thoguht, "why not into zaar!"  the nicest thing is i can pull up my recipes at work and print them out for co-workers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, banana, vanilla, flour
+---
+TITLE: Banana Nut Cake With Butter Pecan Frosting
+CURRENT_DESCRIPTION: originally from taste of home magazine, december january 2007 issue and adapted slightly, replacing the eggs with egg substitute, replacing some of the white flour with whole wheat and replacing the whole milk with 1% milk...now placed here for safekeeping!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, granulated sugar, egg substitute, vanilla extract, all-purpose flour, whole wheat flour
+---
+TITLE: Banana Nut Cake With Cream Cheese Frosting  Paula Deen
+CURRENT_DESCRIPTION: this was the wedding cake paula deen used for her wedding.  this recipe is not formulated for a wedding cake, but for a normal size everyone can use. increase as needed if you are making tiered or extra large cakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, sugar, baking soda, ground cinnamon, salt
+---
+TITLE: Banana Nut Cake With Whipped Cream Frosting
+CURRENT_DESCRIPTION: this is my most requested cake for birthdays in our family.it came from an old betty crocker dessert cookbook published in 1977. (if you use the banana slices before to put a little lemon juice on them so they don't turn brown)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking soda, salt, baking powder, shortening
+---
+TITLE: Banana Nut Cheesecake
+CURRENT_DESCRIPTION: family summer treat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer crumbs, margarine, cream cheese, white sugar, mashed banana, eggs
+---
+TITLE: Banana Nut Chip Muffins
+CURRENT_DESCRIPTION: from the flushing rotary cookbook by susan feth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, eggs, bananas, all-purpose flour, salt
+---
+TITLE: Banana Nut Chocolate Chip Bread
+CURRENT_DESCRIPTION: .an easy to make, moist, delicious banana bread with the added addition of chocolate and nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, mashed banana, flour, baking powder
+---
+TITLE: Banana Nut Chocolate Chip Cookies
+CURRENT_DESCRIPTION: yummy! 8) kind of a merge between banana nut bread and the chocolate chip cookie.yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, baking soda, sugar, butter
+---
+TITLE: Banana Nut Chocolate Chip Scones
+CURRENT_DESCRIPTION: i found this recipe online and just had to pass it on.it is a a+ scone recipe 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, brown sugar, baking powder, salt, baking soda, butter
+---
+TITLE: Banana Nut Coffeecake With Caramel Icing
+CURRENT_DESCRIPTION: i found this wonderful recipe in a penzey's catalog and it became one of my favorites.  i posted the recipe as i found it, but check the notes at the bottom as i made a few suggestions for the tweaks i've made.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cinnamon sugar, pecans, vegetable shortening, sugar, eggs, bananas
+---
+TITLE: Banana Nut Cookies
+CURRENT_DESCRIPTION: a great alternative to breads and muffins when you want to use up those over ripe bananas.  savor a fresh banana taste, enhanced with spices and nuts. a perfect treat for any time of day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, sugar, egg, mashed banana, baking soda, flour
+---
+TITLE: Banana Nut Crumb Cake
+CURRENT_DESCRIPTION: i got this recipe from a woman's day magazine at work. i haven't made it yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, vegetable oil, sugar, eggs, sour cream, vanilla
+---
+TITLE: Banana Nut Crunch Muffins
+CURRENT_DESCRIPTION: banana muffins made with both fresh bananas and banana nut crunch® cereal then topped with a crunchy sweet streusal topping. the recipe is from post®
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, egg, milk, brown sugar
+---
+TITLE: Banana Nut Doughnuts  Baked
+CURRENT_DESCRIPTION: i love banana nut bread, so this recipe seemed like it would be an easy favorite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed bananas, egg whites, canola oil, brown sugar, all-purpose flour, whole wheat flour
+---
+TITLE: Banana Nut French Toast
+CURRENT_DESCRIPTION: this was almost sinful tasting, too good for breakfast. almost dessert, bananas caramelizing on the griddle make this breakfast absolutely scrumptious. egg-less, non-dairy, vegan, vegetarian.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, rice milk, cinnamon, nutmeg, maple syrup, bread
+---
+TITLE: Banana Nut Fudge Brownies
+CURRENT_DESCRIPTION: bananas and chocolate.  yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, vanilla, sugar, baking powder, walnuts, salt
+---
+TITLE: Banana Nut Ice Cream
+CURRENT_DESCRIPTION: this is a variation of a recipe that is posted on the web. i used some lower fat items as well as reducing the amount of sugar by using half splenda sugar substitute and half sugar. it is wonderful, rich and creamy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skim milk, fat-free half-and-half, eggs, sugar, salt, banana
+---
+TITLE: Banana Nut Matzoh Kugel
+CURRENT_DESCRIPTION: passover comfort food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat matzot, eggs, honey, butter, bananas, walnuts
+---
+TITLE: Banana Nut Muffins
+CURRENT_DESCRIPTION: delicious banana nut muffins. on the breaksfast table in half an hour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, whole wheat flour, baking powder, baking soda, salt, butter
+---
+TITLE: Banana Nut Muffins   Vegan
+CURRENT_DESCRIPTION: from vegan-a-go-go.  they didn't give specifics for the type of flour or the type of milk, i chose whole wheat flour & almond milk this time, in order to get the right nutritional data.....it sounds like nearly any flour or milk would work.  haven't tried yet....but plan to!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, sugar, baking powder, baking soda, salt, oat bran
+---
+TITLE: Banana Nut Muffins  Healthy
+CURRENT_DESCRIPTION: i adapted this recipe from a mango bread recipe but substituted yogurt for sour cream, vegetable oil for butter, cut the amound of sugar in half and used local honey instead of sugar, and used whole wheat flour. i also added almond meal, oats, flax seed, blueberries, and almonds to give some healthy fats, fiber, and sweetness. the result is not too sweet but still delicious and somewhat healthy muffins. this makes about 6-7 muffins, i live alone and do not need 12, but double if you need to make more :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain yogurt, vegetable oil, egg, honey, banana, vanilla
+---
+TITLE: Banana Nut Muffins  Sbd Phase1
+CURRENT_DESCRIPTION: delicious flour free muffins. perfect breakfast  or snack for south beach diet phase 1. don't be put off by the beans. there is no bean taste and the muffins turn out really moist! experiment with different extracts for different flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: great northern beans, eggs, splenda granular, olive oil, vanilla extract, banana extract
+---
+TITLE: Banana Nut Muffins Or Loaf
+CURRENT_DESCRIPTION: you can either make muffins or a 9 inch loaf.  you can use toasted pecans or raw mamadamia nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, splenda sugar blend for baking, baking soda, salt, margarine, bananas
+---
+TITLE: Banana Nut Muffins With Splenda
+CURRENT_DESCRIPTION: this is a recipe that i tweaked for my diabetic husband. he enjoys them everyday as a mid morning snack at work. they have protein and fruit and low in carbohydrates which is really good for his diet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar substitute, egg, lemon juice, bananas, white flour, salt
+---
+TITLE: Banana Nut Oatmeal
+CURRENT_DESCRIPTION: heart healthy breakfast item which is delicious!  stick to your ribs for energy and liked by both adults and kids.  may be doubled or tripled easily.  old fashioned oats maybe used -- see amounts in recipe directions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking oats, water, salt, brown sugar, banana, walnuts
+---
+TITLE: Banana Nut Oatmeal Cookies
+CURRENT_DESCRIPTION: a reduced-fat cookie with a cakey texture and the flavor of banana nut bread.  another in the "cookies for breakfast" series!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old fashioned oats, skim milk, pecans, mashed bananas, egg whites, dark brown sugar
+---
+TITLE: Banana Nut Pancakes
+CURRENT_DESCRIPTION: this is a recipe that i had an idea for. i made it one morning and it seemed to come out very good. it has a mild flavor, nothing extremely strong. i tried to make it as healthy as i could at the time since the only thing i actually bought to make this recipe was a small pack of chopped pecans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, sugar, canola oil, bisquick heart smart mix, cinnamon, skim milk
+---
+TITLE: Banana Nut Peanut Butter Muffins
+CURRENT_DESCRIPTION: neat recipe 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, egg, milk
+---
+TITLE: Banana Nut Pina Colada Bread
+CURRENT_DESCRIPTION: adding a little pina colada yogurt to an otherwise ordinary banana nut bread recipe, gives it a little extra "something special." add some kahlua and make it extraordinary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, eggs, pina colada yogurt, milk, kahlua
+---
+TITLE: Banana Nut Pineapple Bread
+CURRENT_DESCRIPTION: esy yummy banana nut bread recipe,with pineapple! yumm! 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking soda, ground cinnamon, salt, walnuts
+---
+TITLE: Banana Nut Pound Cake
+CURRENT_DESCRIPTION: better homes and garden favorite reader recipe of the year (2012).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, cream cheese, butter, sugar
+---
+TITLE: Banana Nut Raisin Bread For Abm
+CURRENT_DESCRIPTION: i found this recipe on allrecipes.com and wanted to post it here for safe keeping. this is the best thing that has ever come out of my bread machine! a light fluffy tasty bread that my family gobbled up and asked for more! remove your predetermined ideas of banana bread and try this yeast bread, the banana flavor is very subtle, but i think it adds to the nice texture.  i am posting the recipe as i found it, but be warned i had to reduce the amount of yeast i used because when i used it with the full 2 1/2 teaspoons the dough spilled over the top of my abm. i had better results with 2 tsp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, butter, bananas, all-purpose flour, white sugar, salt
+---
+TITLE: Banana Nut Salad
+CURRENT_DESCRIPTION: this recipe comes from the chicago sun-times and was featured in an article about the 'cavendish' banana....america's favorite type of banana.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut butter, honey, mayonnaise, bananas, lemon juice, lettuce
+---
+TITLE: Banana Nut Scones
+CURRENT_DESCRIPTION: i made these up this morning when we were looking for a different flavour of scone for breakfast - and well, the very ripe bananas were calling me! i went easy on the sugar in the scones, and i sprinkled the top with turbinado sugar and oats to mimic a cruchy topping. these are not your typical buttery scones, but hearty, healthy, and hold you till lunch scones! if you don't have cinnamon chips, add a tbsp brown sugar, or you might wish to add raisins or chocolate chips, if you like your banana bread that way.  this is my basic scone formula - i just change up the fruit and nuts to keep it interesting!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oatmeal, all-purpose flour, whole wheat flour, brown sugar, baking powder, cinnamon
+---
+TITLE: Banana Nut Snack Bars
+CURRENT_DESCRIPTION: i found this recipe on the www.cheerios.com website:  "stir up a whole-grain snack bar with new banana nut cheerios® cereal in just 15 minutes. the chocolate drizzle is a sweet bonus."  tips from the kitchen
+variation - skip the chocolate drizzle, or use peanut butter chips instead of the chocolate chips.   nutrition information per serving: 
+serving size: 1 bar 
+calories 110  calories from fat 30 
+ % daily value  
+total fat 3g  5%  
+    saturated 1/2g  3%  
+    trans fat 0g    
+cholesterol 0mg  0%  
+sodium 90mg  4%  
+total carbohydrate 19g  6%  
+    dietary fiber 0g  0%  
+    sugars 11g    
+protein 1g
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, miniature marshmallows, banana nut cheerios, sunflower seeds, semi-sweet chocolate chips, canola oil
+---
+TITLE: Banana Nut Snacks
+CURRENT_DESCRIPTION: another bar cookie recipe from womans day magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, unsalted butter, brown sugar, eggs, vanilla extract, flour
+---
+TITLE: Banana Nut Toffee Latte
+CURRENT_DESCRIPTION: it's like having a lush gourmet coffee bar at home! cooking time is however it takes for the coffee to brew.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana syrup, hazelnut syrup, caramel syrup, espresso, milk, hazelnut powder
+---
+TITLE: Banana Nut Tofu Muffin
+CURRENT_DESCRIPTION: i had whole foods banana nut muffin and it was amazing!  i always hoped i would find a recipe that tasted similar.  i altered a recipe today drastically and was very pleased at how close i got to it.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, oats, cocoa powder, baking soda, baking powder, salt
+---
+TITLE: Banana Nut Waffles  Gluten Free And Vegan
+CURRENT_DESCRIPTION: everybody loves these (not just people on special diets)!  for a special treat, substitute blueberries or vegan chocolate chips for the nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, soymilk, vegetable oil, honey, gluten-free flour, baking powder
+---
+TITLE: Banana Nut Yeast Bread  Bread Machine
+CURRENT_DESCRIPTION: something different - banana yeast bread with a hint of cinnamon and toasted chopped walnuts. bake time is per bread machine. really easy in your bread machine or you can make it the conventional way. fabulous!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, mashed banana, egg, butter, bread flour, sugar
+---
+TITLE: Banana Nutella Empanadas   Empanadas De Platanos Y Chocolate
+CURRENT_DESCRIPTION: a luscious morsel.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, chocolate hazelnut spread, 9-inch pie shells, water, granulated sugar, cinnamon ice cream
+---
+TITLE: Banana Nutmeg Bread Pudding
+CURRENT_DESCRIPTION: this is my way to make a bread pudding. i started doing this years ago to use up the ends of the loaves that were ageing. since it's (almost) fat free a lot of the goodness comes from the bread it's self so use good quality bread. this works with most other fruits as well (i don't suggest apples or berries).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pam cooking spray, bananas, whole grain bread, splenda sugar substitute, splenda brown sugar blend, egg white
+---
+TITLE: Banana Nutmeg Cream Cake
+CURRENT_DESCRIPTION: this cake is a great way to use up over-ripe bananas.  it will become more moist and flavorful the longer it chills.  it makes use of a yummy whipped cream based frosting!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, salt, sugar, banana
+---
+TITLE: Banana Oat Bars
+CURRENT_DESCRIPTION: mrbreakfast.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, quick-cooking rolled oats, mashed banana, sugar, raisins, low-fat milk
+---
+TITLE: Banana Oat Bran Muffins
+CURRENT_DESCRIPTION: this started out as a high fat recipe from epicurious.com. i replaced the white flour with whole wheat and whole wheat pastry flour, substituted nonfat yogurt and applesauce for the whole milk and butter and used raisins in place of nuts. in the end, you end up with a moist, flavorful, nutritious, fat-free muffin. what is better than that? they also freeze very well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat pastry flour, whole wheat flour, oat bran, sugar, maple syrup, baking powder
+---
+TITLE: Banana Oat Bran Muffins With No Added Sugar
+CURRENT_DESCRIPTION: yummy muffins with only fruit as the sweetener.  also, no flour only oat bran.  this is the second recipe i have tried from "sweet & natural; desserts without sugar, honey, molasses or artificial sweeteners" by janet warrington.  this is definitely not a cupcake, but a good solid muffin with good nutrition.  my kids liked them with jelly or a little spray butter (hey, we can't eat perfectly all the time!).  dense and moist these are a nice breakfast or snack.  i used frozen banana because i have a ton of bananas in my freezer, plus i think it mashes more easily.  but feel free to use what you have!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oat bran, baking powder, cinnamon, nutmeg, mashed banana, skim milk
+---
+TITLE: Banana Oat Bread
+CURRENT_DESCRIPTION: the oats and nuts in this banana bread make it different and give it a great flavor and texture. it's one of my favorite quick breads, and i probably make it more frequently than any other! don't forget to sprinkle the oats on top for a great crunch! this recipe came from shanna at the ibs message boards at www.helpforibs.com, although i modified it slightly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, quick oats, brown sugar, white sugar, baking soda, baking powder
+---
+TITLE: Banana Oat Breakfast Bars
+CURRENT_DESCRIPTION: a quick and delicious breakfast bar.  i make these for my daughter and husband to get them fed and out the door quick in the morning.  i have made these with a variety of combinations of dried fruits.  you can also try diced carrots or parsnips in place of the cranberries for a nice change.  its an easy way to sneak veggies into a kid's diet!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oatmeal, baking powder, salt, cinnamon, eggs, banana
+---
+TITLE: Banana Oat Breakfast Cookies
+CURRENT_DESCRIPTION: adapted from http://bossacafez.blogspot.com/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut butter, banana, honey, golden syrup, vanilla extract, rolled oats
+---
+TITLE: Banana Oat Brown Sugar Muffins
+CURRENT_DESCRIPTION: tasty, easy and healthy muffins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed bananas, condensed milk, cinnamon, nutmeg, brown sugar, baking powder
+---
+TITLE: Banana Oat Cookie Bars
+CURRENT_DESCRIPTION: i tried playing around with a few recipes, and this is the one that worked out the best for my family.  it's a light cookie; i found that making it into bars worked better for me, since i only had one hand and could not spoon them onto a cookie sheet. i also used a food processor to mix the batter to make it quicker and easier to do while holding my daughter. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, shortening, egg, bananas, flour, sugar
+---
+TITLE: Banana Oat Cookies
+CURRENT_DESCRIPTION: a moist cookie that's very similar to banana bread - only in convenient cookie form! can add chocolate chips or nuts, as desired. only contains 2 tablespoons of flour...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, brown sugar, egg whites, rolled oats, flour
+---
+TITLE: Banana Oat Crepes  Gluten Free
+CURRENT_DESCRIPTION: these gluten-free crepes get their special sweetness from bananas and can have the same texture as normal crepes, depending on the equipment you use. they are very easy to make and cheap too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oat flour, milk, water, mashed banana, eggs, ground cinnamon
+---
+TITLE: Banana Oat Pancakes
+CURRENT_DESCRIPTION: thick, oversize pancakes that will satisfy even the hungriest of eaters.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old fashioned oats, nonfat milk, banana, eggs, toasted wheat germ, ground cinnamon
+---
+TITLE: Banana Oatmeal Bars
+CURRENT_DESCRIPTION: these can be eaten for breakfast or anytime. kids will eat them before the realize how much oatmeal they contain.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, baking soda, nutmeg, cinnamon, butter
+---
+TITLE: Banana Oatmeal Bars With Chocolate Chunks
+CURRENT_DESCRIPTION: i think even i will like this one and i don't like bananas!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, quick-cooking oats, baking powder, salt, unsalted butter, sugar
+---
+TITLE: Banana Oatmeal Biscuits
+CURRENT_DESCRIPTION: adapted from the recipe "banana whole wheat biscuits" from the website: www.mealsforyou.com to my own baking habits of trying to make them as simple, healthy and tasty as i know how, these biscuits still taste very good after storing and reheating them every morning for breakfast. .....thanks to blake f for pointing out it being too salty in his review of this recipe. i checked back at the website where this recipe came from and, my goodness, there were no salt at all! i have made a huge mistake. here it is again with apology and without the salt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oatmeal, whole wheat flour, sugar, salt, baking powder, baking soda
+---
+TITLE: Banana Oatmeal Blueberry Cookies
+CURRENT_DESCRIPTION: i adapted a recipe (#98997 here - excellent recipe) to add banana, and the cookies turned out really great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, cinnamon, oats, butter
+---
+TITLE: Banana Oatmeal Bread
+CURRENT_DESCRIPTION: i love bananas and oatmeal, so when i saw this in the september 2004 issue of cooking light, i just knew i had to make it! i wasn't at all disappointed. the oatmeal makes it hearty and somewhat chewy, while the bananas and buttermilk make it sweet and moist - yet it is not as sweet or sticky-moist as some other banana breads i've had. this makes a smaller loaf than some recipes. i made 2 mini-loaves instead of one large one, and they were done in 30-35 minutes.  edited to mention- since i posted this recipe, i've made it several times.  it has become the banana bread recipe for this household, and when i give it as gifts it never fails to receive compliments.  it is extremely versatile also.  i have made it with yogurt in place of buttermilk, walnut oil for the vegetable oil, and i have cut back the sugar and added cinnamon as a couple reviewers suggested.  this last time i made an eggless version by substituting 2 tablespoons ground flax seed + 6 tablespoons water for the eggs.  (i think next time i will try a vegan version by also replacing the buttermilk with soymilk.)  every time it has turned out perfect!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, oats
+---
+TITLE: Banana Oatmeal Breakfast Brule
+CURRENT_DESCRIPTION: interesting breakfast idea
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonfat milk, quick-cooking rolled oats, salt, brown sugar, low-fat french vanilla yogurt, bananas
+---
+TITLE: Banana Oatmeal Cake
+CURRENT_DESCRIPTION: this is a rather unusually-flavored, but very good, cake. i think it would work well for bridal or baby showers--a good change from plain yellow or chocolate cake. the batter in this may seem runny, but that's how it's supposed to be before you put it in the oven!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, bananas, sugar, vegetable oil, buttermilk, vanilla
+---
+TITLE: Banana Oatmeal Chocolate Chip Bars
+CURRENT_DESCRIPTION: an alterative to banana bread for over ripe bananas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, quick-cooking oats, baking powder, salt, unsalted butter, sugar
+---
+TITLE: Banana Oatmeal Chocolate Chip Cookies
+CURRENT_DESCRIPTION: moist and yummy oatmeal chocolate chip cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, brown sugar, banana, egg white, vanilla
+---
+TITLE: Banana Oatmeal Cookies
+CURRENT_DESCRIPTION: a twist on an old favorite
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, eggs, mashed banana, vanilla, lemon juice
+---
+TITLE: Banana Oatmeal Cooky Cookies
+CURRENT_DESCRIPTION: easy cooky since 1962...substitue raisins wit chipits, or dried cherries, dried cranberries,,,try different variations...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, white sugar, egg, mashed banana, oatmeal, walnuts
+---
+TITLE: Banana Oatmeal Drop Cookies
+CURRENT_DESCRIPTION: these wholesome, chewy oatmeal cookies, made without flour or eggs are good for the cookie jar since the raisins and banana add moisture to the oatmeal/walnut dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, oil, bananas, salt, oatmeal, walnuts
+---
+TITLE: Banana Oatmeal Honey Bread
+CURRENT_DESCRIPTION: this is adapted from a cooking light recipe for my son, who is allergic to dairy and eggs.  i also added some wheat flour to see how it tasted. it turned out light and delicious!  you could make this vegan by not using the goat milk, and adding the juice of 1/2 a lemon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, all-purpose flour, baking powder, baking soda, potato flour, salt
+---
+TITLE: Banana Oatmeal Mini Muffins
+CURRENT_DESCRIPTION: my toddler loves these bite size muffins.  i love how good they are for him!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white whole wheat flour, unbleached all-purpose flour, oats, flax seed meal, brown sugar, cinnamon
+---
+TITLE: Banana Oatmeal Muffins
+CURRENT_DESCRIPTION: a nice and easy recipe with healthy ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, brown sugar, baking powder, baking soda, quick oats, plain yogurt
+---
+TITLE: Banana Oatmeal Rocks
+CURRENT_DESCRIPTION: don't let the name fool you!  these are cookies that end up soft and tender with a nice crunch from the nuts.  i love the flavor comination of the lemon and banana. i personally don't care for rasins, so i use crasins (dried cranberries) this is another great way to use up ripe bananas!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, butter, banana, egg, lemon peel, all-purpose flour
+---
+TITLE: Banana Oatmeal Snack Cake
+CURRENT_DESCRIPTION: original recipe is from allrecipes. i think this could also be great if you subbed white chocolate or butterscotch chips for the chocolate chips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, quick-cooking oatmeal, baking soda, salt, butter, granulated sugar
+---
+TITLE: Banana Oatmeal Waffles
+CURRENT_DESCRIPTION: from a cookbook called rise & dine canada, recipes from b&b's across canada.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, oatmeal, brown sugar, baking powder, baking soda, cinnamon
+---
+TITLE: Banana Omelette
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 Tbsp. Butter, 4 Bananas (sliced), 6 Eggs (separated), 1/2 tsp. Salt, Dash of Cayenne Pepper, 1/4 c. Milk
+---
+TITLE: Banana Orange Bran Muffins With Pecans And Raisins
+CURRENT_DESCRIPTION: great muffins with no added sugar. try them for a weekend breakfast warm from the oven or any time you want a quick snack that is good for you. yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, banana, frozen orange juice concentrate, egg, canola oil, bran flakes
+---
+TITLE: Banana Orange Bread
+CURRENT_DESCRIPTION: the beauty of this recipe is its versatility.  experiment as you wish with the ingredients.  some people like raisins or currant in their loaves (i do not, but that should not stop anyone).  this recipe is a delicious, healthy version of an old standby, and one which the entire family can enjoy.  the following recipe has batter sufficient for one loaf; i have doubled the ingredients to create two loaves and bake them at the same time.  eat one, and freeze the other.  enjoy.
+
+important:  please note nut ingredients.  omit nuts if there are allergy implications. 
+
+this recipe was originally created by tracy holly, general manager of the cory holly institute.  she writes for national magazines and is a lifestyle coach, lecturer and emcee.  tracy is a health and fitness activist and believes in natural medicine. tracy is the author of "the athlete's cookbook", teaches latin and ballroom dancing, and competes in masters' level ms fitness and natural body building.
+
+tracy's recipe appears in the current issue of vista magazine; a canadian health publication.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, cinnamon, baking powder, baking soda, walnuts, raisins
+---
+TITLE: Banana Orange Ice Cream
+CURRENT_DESCRIPTION: originally from "1001 cookie recipes". freezing time not included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, fresh lemon juice, salt, sugar, fresh orange juice, confectioners
+---
+TITLE: Banana Orange Muffin Bread
+CURRENT_DESCRIPTION: delicious banana bread with a touch of orange
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, mashed banana
+---
+TITLE: Banana Orange Muffins
+CURRENT_DESCRIPTION: got it from the quaker oatmeal website and wanted to try it. it is described as a kid favorite, low sodium, lower fat, and less than 30 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quaker oats, all-purpose flour, brown sugar, baking powder, baking soda, ground cinnamon
+---
+TITLE: Banana Orange Nut Bread
+CURRENT_DESCRIPTION: the oj and dried cranberries add just a little something to make it a somewhat different banana bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, shortening, eggs, orange juice, baking powder
+---
+TITLE: Banana Orange Nutmeg Bread
+CURRENT_DESCRIPTION: from my collection of fruit breads.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, walnuts, flour, baking powder, baking soda, nutmeg
+---
+TITLE: Banana Orange Oatmeal  Porridge
+CURRENT_DESCRIPTION: this is from cd kitchen, combine your morning oj with your oatmeal for a tangy brekky.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, banana, salt, quick-cooking rolled oats, nutmeg
+---
+TITLE: Banana Orange Smoothie
+CURRENT_DESCRIPTION: one of my favorites!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, plain nonfat yogurt, banana, vanilla extract, honey
+---
+TITLE: Banana Overload Oatmeal Cookies
+CURRENT_DESCRIPTION: i have enough recipes for three lifetimes...and this is just one more i finally tried!  i had an overabundance of over-the-hill bananas and used them all in one fell swoop with this recipe!  easy, moist, tastes good!  not too many cookies left after only one day either!  feel free to change the spices to your liking!  sorry...no clue as to the origin of this recipe.  prep time and baking time are guesstimates.  i use commercial-sized sheets so it doesn't take me too long!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, brown sugar, oil, bananas, vanilla extract, old fashioned oats
+---
+TITLE: Banana Pancake
+CURRENT_DESCRIPTION: this recipe is from papua new guinea
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self raising flour, baking powder, milk, honey, butter, bananas
+---
+TITLE: Banana Pancakes
+CURRENT_DESCRIPTION: this is a good made from scratch recipe. i also made extras and put them in the freezer for another quick breakfast for my son. this recipe came from allrecipes, submitted by andrea. you can put any fruit in your pancakes. also, when you want to freeze them, make sure they are cool and put them in a freezer bag layered between wax paper. layer 3 at a time. then put them into another storage bag. when your ready for a quick pancake fix, just put 3 pancakes on top of each other, on a microwavable plate,do not cover, and cook on high for about 30-45 seconds. that's it. enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, eggs, milk
+---
+TITLE: Banana Pancakes  Eggless
+CURRENT_DESCRIPTION: it's really hard to find a recipe for eggless pancakes, and after lots of searching, i found a few pancake recipes and fine-tuned them to come up with this one, which is awfully easy and pretty darn yummy as well! it tastes wonderful with honey, or, if using apples instead of bananas, apple jam! it can easily be veganised using soy milk, or a similar substitution.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, salt, baking powder, white sugar, skim milk
+---
+TITLE: Banana Pancakes  Gluten Free
+CURRENT_DESCRIPTION: these are yummy south & central american in flavour/ingredients. a gluten free version of recipe #372739 based on recipe #342995. "brazil is the leading banana grower in south america—about 3 million tons per year, mostly locally consumed, while colombia and ecuador are the leading exporters. venezuela's crop in 1980 reached 983,000 tons. large scale commercial production for export to north america is concentrated in honduras (where banana fields may cover 60 sq mi) and panama, and, to a lesser extent, costa rica." http://www.hort.purdue.edu.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice flour, tapioca flour, potato starch, brown sugar, baking powder, baking soda
+---
+TITLE: Banana Pancakes  Wayan S Recipe
+CURRENT_DESCRIPTION: wayan was one of the chefs at our hotel in bali. she was great at making these pancakes and happy to share the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, egg, salt, milk, butter, bananas
+---
+TITLE: Banana Pancakes With Gingersnap Spread
+CURRENT_DESCRIPTION: from the parkay website
+posting for safe keeping.
+i have not tried this yet.
+makes 18 pancakes with 2 teaspoons of spread per pancake
+time is very approximate
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gingersnap cookies, margarine, dark brown sugar, unbleached all-purpose flour, granulated sugar, baking powder
+---
+TITLE: banana pancakes with hazelnut mascarpone crme
+CURRENT_DESCRIPTION: hazelnut cream is a delightful and satisfying sweet enjoyed throughout europe, and in our opinion, americans will love it equally well.  blending it with mascarpone cheese makes it a winner for spreading atop deliciously rich banana pancakes. this dish reminds us of dad’s sunday morning pancakes, but we’ve elevated the presentation slightly above what dad would have done, enough that it can be served as an elegant part of a casual brunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nutella, mascarpone cheese, nutmeg, vanilla extract, powdered sugar, hazelnuts
+---
+TITLE: Banana Pancakes With Hazelnut Mascarpone Crme
+CURRENT_DESCRIPTION: hazelnut cream is a delightful and satisfying sweet enjoyed throughout europe, and in our opinion, americans will love it equally well.  blending it with mascarpone cheese makes it a winner for spreading atop deliciously rich banana pancakes. this dish reminds us of dad’s sunday morning pancakes, but we’ve elevated the presentation slightly above what dad would have done, enough that it can be served as an elegant part of a casual brunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nutella, mascarpone cheese, nutmeg, vanilla extract, powdered sugar, hazelnuts
+---
+TITLE: Banana Papaya Cupcakes
+CURRENT_DESCRIPTION: found half of a very ripe papaya in my fridge(from my mom-rita), and decided to try something different with it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana cake mix, eggs, water, vegetable oil, applesauce, papaya
+---
+TITLE: Banana Papaya Pie
+CURRENT_DESCRIPTION: this tropical pie can be topped with fresh whipped cream! a great summer time, luau treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, papaya nectar, sugar, powdered ginger, cinnamon, lemon juice
+---
+TITLE: Banana Party Punch
+CURRENT_DESCRIPTION: this recipe would be perfect for those summer parties! i hope that you enjoy it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, water, bananas, pineapple juice, frozen orange juice concentrate, frozen lemonade concentrate
+---
+TITLE: Banana Passion Fruit Smoothie
+CURRENT_DESCRIPTION: a refreshing tropical smoothie ideal for breakfast on the run (put it in an insulated lidded container and take it with you!) or for a leisurely brunch or an anytime snack!  i often make this and take it to work in 2 tupperware containers: one for breakfast, the other as a snack during the day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, passion fruit, soymilk, wheat germ, vanilla essence, ice cubes
+---
+TITLE: Banana Pb Chip Chip Chip Blondies  Egg Free
+CURRENT_DESCRIPTION: the original of this recipe comes from this blog: http://bakingpowders.blogspot.de/2010/11/banana-peanut-butter-coconut.html.
+i loved the idea of combining peanut butter, coconut milk and some sort of chips into a decadent yet not too sinful dessert, so i played with the recipe and this is my version. i hope youll enjoy it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, flour, baking powder, salt, peanut butter chips, cinnamon baking chips
+---
+TITLE: Banana Peach Bread
+CURRENT_DESCRIPTION: i once had a few ripe bananas and a few ripe peaches which needed to be used. i thought peach banana bread might taste good so combined a few recipes and added a little of my own. my two-year old loves it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, white sugar, baking soda, baking powder, cinnamon, allspice
+---
+TITLE: Banana Peanut Butter And Jelly Wraps
+CURRENT_DESCRIPTION: a fruit wrap infused with all the great flavor of a pb&j sandwich.  a favorite of mine that i made to have as a quick lunch in college.  i'm thinking of trying other fruits like kiwi or blackberries in place of strawberries to see if they're just as great as this combination.  or if you're feeling more adventurous, you could try changing the type of jam.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sandwich wrap, fresh strawberries, banana, creamy peanut butter, strawberry jam, granola cereal
+---
+TITLE: Banana Peanut Butter Bread
+CURRENT_DESCRIPTION: when i make this, it doesn't make it to the table.  i keep pinching off pieces and eating it until it's gone.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, egg, vanilla extract, oil, honey, whole wheat flour
+---
+TITLE: Banana Peanut Butter Chip Muffins  Light
+CURRENT_DESCRIPTION: from r. reisman.  haven't made these yet but they sure look yummy!!  i'm sure these will be a big hits with kids!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, vegetable oil, peanut butter, banana, egg, vanilla
+---
+TITLE: Banana Peanut Butter Chocolate Milk Shake
+CURRENT_DESCRIPTION: banana, peanut butter and chocolate shake!  it tastes like it has ice cream in it!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, crunchy peanut butter, 1% low-fat milk, hersheys chocolate syrup, ice cubes
+---
+TITLE: Banana Peanut Butter Cookies
+CURRENT_DESCRIPTION: i found this one on the "ripe bananas" bag from the grocery store...putting it here for safe keeping....  i will make it gluten-free.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, banana, brown sugar, butter, peanut butter
+---
+TITLE: Banana Peanut Butter Quick Bake
+CURRENT_DESCRIPTION: this is one i found on a post-it in my kitchen cabinet.  having bananas in the yard, i am always looking for recipes to use them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, oats, milk, egg, splenda sugar substitute, vanilla
+---
+TITLE: Banana Peanut Butter Smoothie
+CURRENT_DESCRIPTION: Banana, peanut butter, oat milk, and a touch of honey. Thick, filling, and tastes like a milkshake. The best breakfast smoothie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 frozen ripe banana, 2 tbsp peanut butter, 250 ml oat milk, 1 tsp honey, 0.5 tsp vanilla extract, 0.5 cup ice
+---
+TITLE: Banana Peanut Chocolate Smoothie  Diabetic
+CURRENT_DESCRIPTION: a rich but healthy smoothie made with bananas, peanut butter, and chocolate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, fat free sour cream, reduced-fat peanut butter, splenda sugar substitute, unsweetened cocoa powder, ice cubes
+---
+TITLE: Banana Pear Bread With Dates
+CURRENT_DESCRIPTION: this bread is the best banana bread i have ever made.  i didn't have enough of the ingredients i needed for banana bread so i improvised and the outcome was wonderful!  i have to post this one so i will remember how to make it again.  entire family loved it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, splenda granular, eggs, vanilla, orange extract
+---
+TITLE: Banana Pecan Beignets
+CURRENT_DESCRIPTION: if you've never had a beignet, they are simply delicious!!  light airy pillows of fried dough  something like a french donut ^_^
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, pecan pieces, banana, vanilla, eggs
+---
+TITLE: Banana Pecan Biscotti
+CURRENT_DESCRIPTION: from cooking light website. something different to make with over-ripe bananas (this is the key to a strong banana flavour--the more spotted the banana the tastier.) the biscotti are very small "baby-finger" sized--probably how they earned a low calorie rating!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, white sugar, baking powder, salt, mashed banana, vegetable oil
+---
+TITLE: Banana Pecan Bread
+CURRENT_DESCRIPTION: this can also be made using mini-loaf pans, make this a day ahead it's even better the next day! --- bread flour only for this ;-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, light brown sugar, eggs, sour cream, bananas

@@ -8,6 +8,7 @@ import {
 import Link from "next/link";
 import { ReportButton } from "@/components/report-button";
 import { RecipeImage } from "@/components/recipe-image";
+import { SetBgMode } from "@/components/set-bg-mode";
 
 type Recipe = {
   id: string;
@@ -21,6 +22,7 @@ type Recipe = {
   cook_time_minutes?: number | null;
   difficulty_level?: string | null;
   required_utensils?: string[] | null;
+  source?: string | null;
 };
 
 type TagGroup = { label: string; emoji: string; tags: string[] };
@@ -101,7 +103,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
       <Link
         href={`/recipes/${recipe.id}`}
         className="flex items-center gap-4 p-4 rounded-xl border transition-all hover:border-amber-700/50 group"
-        style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
+        style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgb(30,18,8)" }}
       >
         <div className="shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-amber-950/30">
           <RecipeImage
@@ -122,6 +124,12 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
             {totalTime > 0 && (
               <span className="flex items-center gap-1 text-xs" style={{ color: "#6B5040" }}>
                 <Clock className="w-3 h-3" />{totalTime}m
+              </span>
+            )}
+            {recipe.source === "imported" && (
+              <span className="text-xs font-semibold px-2 py-0.5 rounded-full"
+                style={{ background: "rgba(107,114,128,0.25)", color: "#9CA3AF", border: "1px solid rgba(107,114,128,0.3)" }}>
+                Imported
               </span>
             )}
             {recipe.cuisine_type && (
@@ -152,7 +160,7 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
     <Link
       href={`/recipes/${recipe.id}`}
       className="group rounded-2xl overflow-hidden border transition-all hover:-translate-y-0.5 hover:shadow-lg"
-      style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgba(30,18,8,0.4)" }}
+      style={{ borderColor: "rgba(90,50,20,0.25)", background: "rgb(30,18,8)" }}
     >
       <div className="relative h-44 overflow-hidden bg-amber-950/30">
         <RecipeImage
@@ -164,6 +172,12 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,10,4,0.7) 0%, transparent 55%)" }} />
+        {recipe.source === "imported" && (
+          <span className="absolute top-2 left-2 text-xs font-semibold px-2 py-0.5 rounded-full z-10"
+            style={{ background: "rgba(107,114,128,0.85)", color: "#fff" }}>
+            Imported
+          </span>
+        )}
         {recipe.difficulty_level && (
           <span className="absolute top-2 right-2 text-xs px-1.5 py-0.5 rounded-full font-medium capitalize"
             style={{ background: "rgba(0,0,0,0.5)", color: "#EFE3CE" }}>
@@ -217,7 +231,7 @@ function TagPill({
       className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full border transition-all hover:scale-105 capitalize"
       style={{
         borderColor: active ? "#F4A261" : "rgba(90,50,20,0.4)",
-        background: active ? "rgba(244,162,97,0.15)" : "rgba(30,18,8,0.6)",
+        background: active ? "rgba(244,162,97,0.15)" : "rgb(30,18,8)",
         color: active ? "#F4A261" : "#9A7A58",
         fontWeight: active ? 600 : 400,
       }}
@@ -245,6 +259,9 @@ export function AllRecipesClient({
   const [utensilFilters, setUtensilFilters] = useState<string[]>([]);
   const [utensilMode, setUtensilMode] = useState<"positive" | "negative">("negative");
 
+  const [activeTab, setActiveTab] = useState<"all" | "imported">("all");
+  const [showImported, setShowImported] = useState(true);
+
   const [displayedRecipes, setDisplayedRecipes] = useState<Recipe[]>(initialRecipes);
   const [page, setPage] = useState(0);
   const [total, setTotal] = useState(initialTotal);
@@ -259,6 +276,8 @@ export function AllRecipesClient({
     diets: Set<string>;
     difficulty: string | null;
     append: boolean;
+    tab?: "all" | "imported";
+    showImported?: boolean;
   }) => {
     setIsLoading(true);
     const params = new URLSearchParams({ page: String(opts.page), limit: "50" });
@@ -266,6 +285,8 @@ export function AllRecipesClient({
     if (opts.difficulty)    params.set("difficulty", opts.difficulty);
     const allTags = [...opts.tags, ...opts.diets].filter(Boolean);
     if (allTags.length)     params.set("tags", allTags.join(","));
+    if (opts.tab === "imported") params.set("source", "imported");
+    else if (opts.showImported === false) params.set("excludeSource", "imported");
 
     try {
       const res = await fetch(`/api/recipes/list?${params}`);
@@ -296,7 +317,7 @@ export function AllRecipesClient({
     setActiveTags((prev) => {
       const next = new Set(prev);
       next.has(tag) ? next.delete(tag) : next.add(tag);
-      fetchRecipes({ page: 0, search: query, tags: next, diets: activeDiets, difficulty: activeDifficulty, append: false });
+      fetchRecipes({ page: 0, search: query, tags: next, diets: activeDiets, difficulty: activeDifficulty, append: false, tab: activeTab, showImported });
       return next;
     });
   };
@@ -305,7 +326,7 @@ export function AllRecipesClient({
     setActiveDiets((prev) => {
       const next = new Set(prev);
       next.has(diet) ? next.delete(diet) : next.add(diet);
-      fetchRecipes({ page: 0, search: query, tags: activeTags, diets: next, difficulty: activeDifficulty, append: false });
+      fetchRecipes({ page: 0, search: query, tags: activeTags, diets: next, difficulty: activeDifficulty, append: false, tab: activeTab, showImported });
       return next;
     });
   };
@@ -328,7 +349,8 @@ export function AllRecipesClient({
   };
 
   return (
-    <div className="min-h-screen">
+    <div data-bg="functional" className="min-h-screen" style={{ background: "var(--wc-floor, #1F1B19)" }}>
+      <SetBgMode mode="functional" />
       {/* ── Header ── */}
       <div className="px-6 pt-8 pb-4">
         <h1 className="text-2xl font-bold mb-1" style={{ fontFamily: "'Libre Baskerville', Georgia, serif", color: "#EFE3CE" }}>
@@ -337,6 +359,27 @@ export function AllRecipesClient({
         <p className="text-sm" style={{ color: "#6B5040" }}>
           {total.toLocaleString()} recipes &middot; {localFiltered.length.toLocaleString()} showing
         </p>
+      </div>
+
+      {/* ── Tab bar ── */}
+      <div className="px-6 pb-3 flex items-center gap-2">
+        {(["all", "imported"] as const).map((tab) => (
+          <button
+            key={tab}
+            onClick={() => {
+              setActiveTab(tab);
+              fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false, tab, showImported });
+            }}
+            className="px-4 py-1.5 rounded-full text-sm font-medium transition-all capitalize"
+            style={{
+              background: activeTab === tab ? "rgba(244,162,97,0.18)" : "transparent",
+              color: activeTab === tab ? "#F4A261" : "#6B5040",
+              border: `1px solid ${activeTab === tab ? "rgba(244,162,97,0.5)" : "rgba(90,50,20,0.3)"}`,
+            }}
+          >
+            {tab === "all" ? "All Recipes" : "Imported"}
+          </button>
+        ))}
       </div>
 
       {/* ── Search bar + controls ── */}
@@ -352,11 +395,11 @@ export function AllRecipesClient({
               setQuery(val);
               if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
               searchTimerRef.current = setTimeout(() => {
-                fetchRecipes({ page: 0, search: val, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false });
+                fetchRecipes({ page: 0, search: val, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false, tab: activeTab, showImported });
               }, 300);
             }}
             className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm border outline-none"
-            style={{ background: "rgba(30,18,8,0.6)", borderColor: "rgba(90,50,20,0.4)", color: "#EFE3CE" }}
+            style={{ background: "rgb(30,18,8)", borderColor: "rgba(90,50,20,0.4)", color: "#EFE3CE" }}
           />
           {query && (
             <button onClick={() => setQuery("")} className="absolute right-3 top-1/2 -translate-y-1/2">
@@ -370,7 +413,7 @@ export function AllRecipesClient({
           className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-medium transition-all"
           style={{
             borderColor: showFilters ? "#F4A261" : "rgba(90,50,20,0.4)",
-            background: showFilters ? "rgba(244,162,97,0.12)" : "rgba(30,18,8,0.6)",
+            background: showFilters ? "rgba(244,162,97,0.12)" : "rgb(30,18,8)",
             color: showFilters ? "#F4A261" : "#9A7A58",
           }}
         >
@@ -388,7 +431,7 @@ export function AllRecipesClient({
           {(["grid", "list"] as const).map((v) => (
             <button key={v} onClick={() => setView(v)} className="p-2.5 transition-colors"
               style={{
-                background: view === v ? "rgba(244,162,97,0.15)" : "rgba(30,18,8,0.6)",
+                background: view === v ? "rgba(244,162,97,0.15)" : "rgb(30,18,8)",
                 color: view === v ? "#F4A261" : "#6B5040",
               }}>
               {v === "grid" ? <LayoutGrid className="w-4 h-4" /> : <List className="w-4 h-4" />}
@@ -442,7 +485,7 @@ export function AllRecipesClient({
       {/* ── Filter panel ── */}
       {showFilters && (
         <div className="mx-6 mb-6 rounded-2xl border p-4 space-y-5"
-          style={{ borderColor: "rgba(90,50,20,0.35)", background: "rgba(20,10,4,0.6)" }}>
+          style={{ borderColor: "rgba(90,50,20,0.35)", background: "rgb(20,10,4)" }}>
 
           {/* Dietary quick filters */}
           <div>
@@ -453,7 +496,7 @@ export function AllRecipesClient({
                   className="text-xs px-2.5 py-1 rounded-full border capitalize transition-all hover:scale-105"
                   style={{
                     borderColor: activeDiets.has(diet) ? "#6DCC8A" : "rgba(90,50,20,0.4)",
-                    background: activeDiets.has(diet) ? "rgba(100,200,100,0.12)" : "rgba(30,18,8,0.6)",
+                    background: activeDiets.has(diet) ? "rgba(100,200,100,0.12)" : "rgb(30,18,8)",
                     color: activeDiets.has(diet) ? "#6DCC8A" : "#9A7A58",
                     fontWeight: activeDiets.has(diet) ? 600 : 400,
                   }}>
@@ -471,12 +514,12 @@ export function AllRecipesClient({
                 <button key={d} onClick={() => {
                   const next = activeDifficulty === d ? null : d;
                   setActiveDifficulty(next);
-                  fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: next, append: false });
+                  fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: next, append: false, tab: activeTab, showImported });
                 }}
                   className="text-xs px-2.5 py-1 rounded-full border capitalize transition-all hover:scale-105"
                   style={{
                     borderColor: activeDifficulty === d ? "#B07ADA" : "rgba(90,50,20,0.4)",
-                    background: activeDifficulty === d ? "rgba(160,100,200,0.12)" : "rgba(30,18,8,0.6)",
+                    background: activeDifficulty === d ? "rgba(160,100,200,0.12)" : "rgb(30,18,8)",
                     color: activeDifficulty === d ? "#B07ADA" : "#9A7A58",
                     fontWeight: activeDifficulty === d ? 600 : 400,
                   }}>
@@ -485,6 +528,25 @@ export function AllRecipesClient({
               ))}
             </div>
           </div>
+
+          {/* Show imported toggle */}
+          {activeTab === "all" && (
+            <div>
+              <label className="flex items-center gap-2 text-sm cursor-pointer select-none" style={{ color: "#9A7A58" }}>
+                <input
+                  type="checkbox"
+                  checked={showImported}
+                  onChange={(e) => {
+                    const val = e.target.checked;
+                    setShowImported(val);
+                    fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false, tab: activeTab, showImported: val });
+                  }}
+                  className="rounded accent-amber-500"
+                />
+                Show imported recipes
+              </label>
+            </div>
+          )}
 
           {/* Collapsible category groups */}
           <div>
@@ -500,7 +562,7 @@ export function AllRecipesClient({
                       type="button"
                       onClick={() => toggleGroup(group.label)}
                       className="w-full flex items-center justify-between px-3 py-2.5 text-left transition-colors"
-                      style={{ background: isOpen ? "rgba(30,18,8,0.8)" : "rgba(20,10,4,0.4)" }}
+                      style={{ background: isOpen ? "rgb(30,18,8)" : "rgb(20,10,4)" }}
                     >
                       <div className="flex items-center gap-2">
                         <span>{group.emoji}</span>
@@ -520,7 +582,7 @@ export function AllRecipesClient({
                     </button>
                     {isOpen && (
                       <div className="px-3 pb-3 pt-2 flex flex-wrap gap-1.5"
-                        style={{ background: "rgba(14,7,2,0.5)" }}>
+                        style={{ background: "rgb(14,7,2)" }}>
                         {group.tags.map((tag) => (
                           <TagPill
                             key={tag}
@@ -593,6 +655,8 @@ export function AllRecipesClient({
               diets: activeDiets,
               difficulty: activeDifficulty,
               append: true,
+              tab: activeTab,
+              showImported,
             })}
             className="px-8 py-3 rounded-2xl text-sm font-semibold transition-all disabled:opacity-50"
             style={{

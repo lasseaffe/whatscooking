@@ -1,0 +1,216 @@
+<style>
+  .split-preview {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  .preview-col {
+    flex: 1;
+    min-width: 280px;
+  }
+  .mode-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    opacity: 0.6;
+  }
+
+  /* ── SHARED CARD STRUCTURE ── */
+  .step-card {
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .step-card:hover { transform: translateY(-2px); }
+  .step-card.selected { border-color: #F4A261 !important; }
+
+  .illus-banner {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .illus-banner svg { width: 90px; height: 90px; }
+
+  .step-body-area {
+    padding: 20px 22px 22px;
+  }
+  .step-counter {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .step-heading {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+  .step-text {
+    font-size: 14px;
+    line-height: 1.75;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+  .pro-tip {
+    margin-top: 12px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    line-height: 1.5;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .pro-tip-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+
+  /* ── DARK MODE ── */
+  .dark-card { background: #1F1B19; }
+  .dark-card .illus-banner { background: #2C2724; }
+  .dark-card .step-counter { color: #B07D56; }
+  .dark-card .step-heading { color: #F4A261; }
+  .dark-card .step-text { color: #c9b99a; }
+  .dark-card .pro-tip { background: rgba(176,125,86,0.12); color: #d4b896; }
+
+  /* ── LIGHT MODE ── */
+  .light-card { background: #FDFAF6; }
+  .light-card .illus-banner { background: #F2EAE0; }
+  .light-card .step-counter { color: #B07D56; }
+  .light-card .step-heading { color: #1a0f08; }
+  .light-card .step-text { color: #5c4333; }
+  .light-card .pro-tip { background: #F2EAE0; color: #6b5444; }
+
+  /* nav bar mock */
+  .nav-mock {
+    border-radius: 10px 10px 0 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .dark-nav { background: #141110; color: #EFE3CE; }
+  .light-nav { background: #EDE4D8; color: #2C1F14; }
+  .nav-title { font-weight: 600; font-size: 13px; font-family: Georgia, serif; }
+  .nav-sub { font-size: 10px; opacity: 0.5; letter-spacing: 0.08em; text-transform: uppercase; }
+  .progress-bar-wrap { height: 3px; border-radius: 0; overflow: hidden; }
+  .dark-prog { background: #2C2724; }
+  .light-prog { background: #E5D9CC; }
+  .progress-fill { height: 100%; width: 33%; background: linear-gradient(90deg, #F4A261, #E85D20); border-radius: 2px; }
+</style>
+
+<h2>Cooking Mode — Dark & Light Variants</h2>
+<p class="subtitle">Direction C layout (illustration banner above text) — dark uses the warm saffron palette, light uses the linen/terracotta palette. Same structure, both modes.</p>
+
+<div class="split-preview">
+
+  <!-- DARK -->
+  <div class="preview-col">
+    <div class="mode-label">Dark Mode</div>
+    <div class="nav-mock dark-nav">
+      <div>
+        <div class="nav-title">Shakshuka</div>
+        <div class="nav-sub">Step 2 of 6</div>
+      </div>
+      <span style="font-size:18px;opacity:0.5">✕</span>
+    </div>
+    <div class="progress-bar-wrap dark-prog">
+      <div class="progress-fill"></div>
+    </div>
+    <div class="step-card dark-card" data-choice="dark" onclick="toggleSelect(this)">
+      <div class="illus-banner">
+        <!-- Pan with tomato sauce SVG -->
+        <svg viewBox="0 0 90 80" fill="none">
+          <!-- pan -->
+          <ellipse cx="45" cy="62" rx="36" ry="8" fill="#181410"/>
+          <rect x="9" y="34" width="72" height="28" rx="8" fill="#2d2926"/>
+          <rect x="13" y="38" width="64" height="20" rx="6" fill="#222018"/>
+          <!-- tomato sauce surface -->
+          <ellipse cx="45" cy="48" rx="28" ry="10" fill="#8B2020" opacity="0.7"/>
+          <ellipse cx="45" cy="47" rx="26" ry="9" fill="#B83232"/>
+          <!-- egg 1 -->
+          <ellipse cx="32" cy="46" rx="9" ry="7" fill="#EFE3CE" opacity="0.9"/>
+          <ellipse cx="32" cy="46" rx="4" ry="3.5" fill="#F4A261"/>
+          <!-- egg 2 -->
+          <ellipse cx="58" cy="46" rx="9" ry="7" fill="#EFE3CE" opacity="0.9"/>
+          <ellipse cx="58" cy="46" rx="4" ry="3.5" fill="#F4A261"/>
+          <!-- handle -->
+          <rect x="81" y="43" width="14" height="6" rx="3" fill="#4a4744"/>
+          <!-- steam -->
+          <path d="M35 34 Q33 28 36 24" stroke="#EFE3CE" stroke-width="1.2" opacity="0.15" fill="none" stroke-linecap="round"/>
+          <path d="M55 34 Q53 28 56 24" stroke="#EFE3CE" stroke-width="1.2" opacity="0.15" fill="none" stroke-linecap="round"/>
+          <!-- herbs -->
+          <circle cx="38" cy="44" r="2" fill="#4a7a2a" opacity="0.8"/>
+          <circle cx="52" cy="48" r="1.5" fill="#4a7a2a" opacity="0.8"/>
+          <circle cx="45" cy="43" r="1.5" fill="#4a7a2a" opacity="0.8"/>
+        </svg>
+      </div>
+      <div class="step-body-area">
+        <div class="step-counter">Step 2 · ~4 min</div>
+        <div class="step-heading">Nestle the eggs into the sauce</div>
+        <div class="step-text">Use a spoon to make small wells in the simmering sauce, then crack an egg into each. Cover the pan and cook on low until the whites are just set but the yolks still wobble.</div>
+        <div class="pro-tip">
+          <span class="pro-tip-icon">✦</span>
+          <span>Cold eggs straight from the fridge crack more cleanly and hold their shape better in the pan.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHT -->
+  <div class="preview-col">
+    <div class="mode-label">Light Mode</div>
+    <div class="nav-mock light-nav">
+      <div>
+        <div class="nav-title">Shakshuka</div>
+        <div class="nav-sub">Step 2 of 6</div>
+      </div>
+      <span style="font-size:18px;opacity:0.4">✕</span>
+    </div>
+    <div class="progress-bar-wrap light-prog">
+      <div class="progress-fill"></div>
+    </div>
+    <div class="step-card light-card" data-choice="light" onclick="toggleSelect(this)">
+      <div class="illus-banner">
+        <!-- Same pan, lighter treatment -->
+        <svg viewBox="0 0 90 80" fill="none">
+          <ellipse cx="45" cy="62" rx="36" ry="8" fill="#D4C4B4" opacity="0.4"/>
+          <rect x="9" y="34" width="72" height="28" rx="8" fill="#8a6a5a"/>
+          <rect x="13" y="38" width="64" height="20" rx="6" fill="#7a5a4a"/>
+          <ellipse cx="45" cy="48" rx="28" ry="10" fill="#8B2020" opacity="0.5"/>
+          <ellipse cx="45" cy="47" rx="26" ry="9" fill="#C0392B" opacity="0.8"/>
+          <!-- egg 1 -->
+          <ellipse cx="32" cy="46" rx="9" ry="7" fill="#FFFDF8" opacity="0.95"/>
+          <ellipse cx="32" cy="46" rx="4" ry="3.5" fill="#E67E22"/>
+          <!-- egg 2 -->
+          <ellipse cx="58" cy="46" rx="9" ry="7" fill="#FFFDF8" opacity="0.95"/>
+          <ellipse cx="58" cy="46" rx="4" ry="3.5" fill="#E67E22"/>
+          <rect x="81" y="43" width="14" height="6" rx="3" fill="#6b5040"/>
+          <circle cx="38" cy="44" r="2" fill="#2d6a2a" opacity="0.9"/>
+          <circle cx="52" cy="48" r="1.5" fill="#2d6a2a" opacity="0.9"/>
+          <circle cx="45" cy="43" r="1.5" fill="#2d6a2a" opacity="0.9"/>
+        </svg>
+      </div>
+      <div class="step-body-area">
+        <div class="step-counter">Step 2 · ~4 min</div>
+        <div class="step-heading">Nestle the eggs into the sauce</div>
+        <div class="step-text">Use a spoon to make small wells in the simmering sauce, then crack an egg into each. Cover the pan and cook on low until the whites are just set but the yolks still wobble.</div>
+        <div class="pro-tip">
+          <span class="pro-tip-icon">✦</span>
+          <span>Cold eggs straight from the fridge crack more cleanly and hold their shape better in the pan.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:20px">Click either card if you prefer one mode's feel, or just tell me what to adjust — illustration size, text size, spacing, pro-tip style, etc.</p>

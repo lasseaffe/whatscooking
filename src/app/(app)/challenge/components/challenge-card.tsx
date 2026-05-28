@@ -1,7 +1,9 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import type { ChallengeDef } from '../types';
-import { CATEGORY_GRADIENT, DIFFICULTY_COLOR, setActiveChallenge } from '../utils';
+import { CATEGORY_GRADIENT, DIFFICULTY_COLOR, toActiveChallenge } from '../utils';
+import { useChallengeRun } from '@/lib/challenge-run-context';
 
 interface Props {
   challenge: ChallengeDef;
@@ -10,16 +12,13 @@ interface Props {
 
 export function ChallengeCard({ challenge, onAccepted }: Props) {
   const diff = DIFFICULTY_COLOR[challenge.difficulty];
+  const router = useRouter();
+  const { start } = useChallengeRun();
 
   function handleAccept() {
-    setActiveChallenge({
-      challengeId: challenge.id,
-      title: challenge.title,
-      emoji: challenge.emoji,
-      startedAt: new Date().toISOString(),
-      requiresProof: challenge.requires_proof,
-    });
+    start(toActiveChallenge(challenge));
     onAccepted?.();
+    router.push('/challenge/run');
   }
 
   return (

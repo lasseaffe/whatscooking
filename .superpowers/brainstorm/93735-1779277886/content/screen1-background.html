@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screen 1 — Background Opacity</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0d0d0c;
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    padding: 32px;
+  }
+
+  h1 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #EFE3CE;
+    margin-bottom: 6px;
+    font-weight: 400;
+  }
+  .page-subtitle {
+    font-size: 13px;
+    color: #9c9c9b;
+    margin-bottom: 32px;
+    line-height: 1.5;
+  }
+  .page-subtitle strong { color: #F4A261; }
+
+  /* Grid of 4 columns */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .col-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #696967;
+    margin-bottom: 10px;
+  }
+  .col-label span {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 99px;
+    font-weight: 600;
+  }
+  .col-label .badge-good { background: rgba(51,133,0,0.25); color: #6fca3e; }
+  .col-label .badge-current { background: rgba(225,36,41,0.2); color: #f87171; }
+  .col-label .badge-proposed { background: rgba(51,133,0,0.2); color: #6fca3e; }
+
+  /* Simulated screen */
+  .screen {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 380px;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  /* Kitchen pattern layer */
+  .pattern {
+    position: absolute;
+    inset: 0;
+    background-image: url('./kitchen-pattern.png');
+    background-size: 700px auto;
+    background-repeat: repeat;
+    pointer-events: none;
+  }
+
+  /* Dark base bg */
+  .bg-dark  { background: #121211; }
+  .bg-cook  { background: #090908; }
+
+  /* Content layers */
+  .screen-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── Discover hero screen ── */
+  .hero-top {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .hero-tags { display: flex; gap: 6px; margin-bottom: 8px; }
+  .tag {
+    font-size: 9px;
+    padding: 2px 7px;
+    border-radius: 99px;
+    background: rgba(244,162,97,0.2);
+    color: #F4A261;
+    border: 1px solid rgba(244,162,97,0.3);
+  }
+  .hero-title {
+    font-family: Georgia, 'Libre Baskerville', serif;
+    font-size: 18px;
+    color: #EFE3CE;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .hero-desc {
+    font-size: 10px;
+    color: #9c9c9b;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  .hero-meta { display: flex; gap: 10px; font-size: 9px; color: #A08060; }
+
+  /* action row */
+  .action-row {
+    padding: 12px 16px;
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    background: rgba(9,9,8,0.6);
+    backdrop-filter: blur(4px);
+  }
+  .btn-circle {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.05);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+  }
+  .btn-heart {
+    background: #F4A261;
+    border-color: #F4A261;
+  }
+
+  /* ── Recipe detail screen ── */
+  .detail-header {
+    height: 130px;
+    background: linear-gradient(to bottom, transparent, rgba(9,9,8,0.7));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 12px;
+  }
+  .detail-title {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #EFE3CE;
+    margin-bottom: 4px;
+  }
+  .detail-body {
+    padding: 12px 16px;
+    flex: 1;
+    overflow: hidden;
+  }
+  .ingredients-label {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #696967;
+    margin-bottom: 8px;
+  }
+  .ingredient-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 10px;
+    color: #9c9c9b;
+  }
+  .ingredient-row .qty { color: #A08060; min-width: 28px; }
+  .ingredient-row .check {
+    width: 12px; height: 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.15);
+    flex-shrink: 0;
+  }
+
+  /* ── Meal plan screen ── */
+  .plan-top {
+    padding: 12px 14px 8px;
+  }
+  .plan-title { font-family: Georgia, serif; font-size: 14px; color: #EFE3CE; margin-bottom: 6px; }
+  .plan-chips { display: flex; gap: 5px; flex-wrap: wrap; }
+  .plan-chip {
+    font-size: 8px;
+    padding: 2px 6px;
+    border-radius: 99px;
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #9c9c9b;
+  }
+  .plan-grid {
+    flex: 1;
+    padding: 8px 14px;
+    overflow: hidden;
+  }
+  .day-row {
+    display: grid;
+    grid-template-columns: 52px repeat(5, 1fr);
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  .day-header {
+    font-size: 8px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+  }
+  /* CURRENT — too dark day headers */
+  .day-header-current { color: #3a3a38; }
+  /* PROPOSED — readable */
+  .day-header-proposed { color: #EFE3CE; }
+  .meal-label { font-size: 7px; color: #696967; display: flex; align-items: center; }
+  .meal-cell {
+    height: 28px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+    color: #696967;
+    overflow: hidden;
+  }
+  .meal-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 3px;
+  }
+
+  /* ── Cook mode screen ── */
+  .cook-screen {
+    background: #090908;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .cook-top {
+    padding: 10px 14px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cook-top-left { font-size: 9px; color: #696967; }
+  .cook-step-badge {
+    font-size: 9px;
+    padding: 2px 8px;
+    border-radius: 99px;
+    background: rgba(244,162,97,0.15);
+    color: #F4A261;
+  }
+  .cook-main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .cook-step-text {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #EFE3CE;
+    line-height: 1.3;
+    font-weight: 400;
+  }
+  .cook-nav {
+    padding: 12px 14px;
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .cook-btn {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #9c9c9b;
+  }
+  .cook-btn-next {
+    background: #F4A261;
+    border-color: #F4A261;
+    color: #000;
+    font-weight: 600;
+  }
+
+  /* Overlay badge on screen */
+  .opacity-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 99px;
+  }
+  .opacity-badge-current {
+    background: rgba(225,36,41,0.85);
+    color: #fff;
+  }
+  .opacity-badge-proposed {
+    background: rgba(51,133,0,0.85);
+    color: #fff;
+  }
+  .opacity-badge-good {
+    background: rgba(51,133,0,0.85);
+    color: #fff;
+  }
+
+  /* Screen pair container */
+  .screen-pair {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .pair-divider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 9px;
+    color: #696967;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .pair-divider::before, .pair-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+  }
+
+  /* Hero image simulation */
+  .hero-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .hero-img-placeholder {
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(135deg, #2C2724 0%, #3A3430 50%, #2C2724 100%);
+    border-radius: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #6B4E36;
+  }
+
+  .annotation {
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #696967;
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(244,162,97,0.3);
+    padding: 6px 8px;
+    border-radius: 0 6px 6px 0;
+  }
+  .annotation strong { color: #F4A261; display: block; margin-bottom: 2px; }
+</style>
+</head>
+<body>
+
+<h1>Screen 1 — Background Illustration Opacity</h1>
+<p class="page-subtitle">
+  The kitchen pattern is currently <strong>opacity: 1.0 everywhere</strong>. The proposed change applies
+  context-sensitive opacity: full on Discover (good), dimmed on reading/task screens.
+</p>
+
+<div class="grid">
+
+  <!-- COL 1: Discover — hero (no change) -->
+  <div>
+    <div class="col-label"><span class="badge-good">✓ No change</span>&nbsp; Discover / Hero</div>
+    <div class="screen bg-dark">
+      <div class="pattern" style="opacity: 1.0;"></div>
+      <div class="opacity-badge opacity-badge-good">opacity 1.0 ✓</div>
+      <div class="screen-content">
+        <div class="hero-top">
+          <div class="hero-img-placeholder">[ Food Photography ]</div>
+          <div class="hero-tags">
+            <span class="tag">Italian</span>
+            <span class="tag">High-protein</span>
+            <span class="tag">Dairy-free</span>
+          </div>
+          <div class="hero-title">Lean Turkey Meatballs</div>
+          <div class="hero-desc">Light, herby meatballs that are tender. Batch-cook and freeze.</div>
+          <div class="hero-meta">
+            <span>⏱ 35 min</span>
+            <span>🔥 280 kcal</span>
+          </div>
+        </div>
+        <div class="action-row">
+          <div class="btn-circle">✕</div>
+          <div class="btn-circle">🔖</div>
+          <div class="btn-circle btn-heart">♥</div>
+          <div class="btn-circle">ℹ</div>
+          <div class="btn-circle">↩</div>
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <strong>Keep as-is.</strong>
+      Full texture on hero cards reinforces the premium, editorial feel. The illustration IS the atmosphere here.
+    </div>
+  </div>
+
+  <!-- COL 2: Recipe Detail — current vs proposed -->
+  <div>
+    <div class="col-label">Recipe Detail</div>
+    <div class="screen-pair">
+      <div>
+        <div style="font-size:9px;color:#f87171;margin-bottom:5px;">● CURRENT — opacity 1.0</div>
+        <div class="screen bg-dark" style="height:180px;">
+          <div class="pattern" style="opacity:1.0;"></div>
+          <div class="opacity-badge opacity-badge-current">1.0 — busy</div>
+          <div class="screen-content">
+            <div class="detail-header">
+              <div class="hero-tags"><span class="tag">Dessert</span></div>
+              <div class="detail-title">Rice Krispy Squares</div>
+            </div>
+            <div class="detail-body">
+              <div class="ingredients-label">Ingredients</div>
+              <div class="ingredient-row"><div class="check"></div><div class="qty">¼ c.</div><div>butter</div></div>
+              <div class="ingredient-row"><div class="check"></div><div class="qty">10 oz.</div><div>marshmallows</div></div>
+              <div class="ingredient-row"><div class="check"></div><div class="qty">6 c.</div><div>Rice Krispies</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pair-divider">proposed</div>
+      <div>
+        <div style="font-size:9px;color:#6fca3e;margin-bottom:5px;">● PROPOSED — opacity 0.10</div>
+        <div class="screen bg-dark" style="height:180px;">
+          <div class="pattern" style="opacity:0.10;"></div>
+          <div class="opacity-badge opacity-badge-proposed">0.10 — legible</div>
+          <div class="screen-content">
+            <div class="detail-header">
+              <div class="hero-tags"><span class="tag">Dessert</span></div>
+              <div class="detail-title">Rice Krispy Squares</div>
+            </div>
+            <div class="detail-body">
+              <div class="ingredients-label">Ingredients</div>
+              <div class="ingredient-row"><div class="check"></div><div class="qty">¼ c.</div><div>butter</div></div>
+              <div class="ingredient-row"><div class="check"></div><div class="qty">10 oz.</div><div>marshmallows</div></div>
+              <div class="ingredient-row"><div class="check"></div><div class="qty">6 c.</div><div>Rice Krispies</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <strong>Dimmed to 10%.</strong>
+      Ingredients and step text become easy to scan. The "Walnut & Linen" texture is still there as a whisper — not screaming.
+    </div>
+  </div>
+
+  <!-- COL 3: Meal Plan — current vs proposed -->
+  <div>
+    <div class="col-label">Meal Plan</div>
+    <div class="screen-pair">
+      <div>
+        <div style="font-size:9px;color:#f87171;margin-bottom:5px;">● CURRENT — opacity 1.0</div>
+        <div class="screen bg-dark" style="height:180px;">
+          <div class="pattern" style="opacity:1.0;"></div>
+          <div class="opacity-badge opacity-badge-current">1.0 — busy</div>
+          <div class="screen-content">
+            <div class="plan-top">
+              <div class="plan-title">High-Protein Week</div>
+              <div class="plan-chips">
+                <span class="plan-chip">Diet: high-protein</span>
+                <span class="plan-chip">Weeknight ≤30m</span>
+                <span class="plan-chip">Squad 2</span>
+              </div>
+            </div>
+            <div class="plan-grid">
+              <div class="day-row">
+                <div class="meal-label"></div>
+                <div class="day-header day-header-current">Day 1</div>
+                <div class="day-header day-header-current">Day 2</div>
+                <div class="day-header day-header-current">Day 3</div>
+                <div class="day-header day-header-current">Day 4</div>
+                <div class="day-header day-header-current">Day 5</div>
+              </div>
+              <div class="day-row">
+                <div class="meal-label">Bkfst</div>
+                <div class="meal-cell">🥚</div>
+                <div class="meal-cell">🥚</div>
+                <div class="meal-cell">🥚</div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+              </div>
+              <div class="day-row">
+                <div class="meal-label">Lunch</div>
+                <div class="meal-cell">🥗</div>
+                <div class="meal-cell">🥗</div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+              </div>
+              <div class="day-row">
+                <div class="meal-label">Dinner</div>
+                <div class="meal-cell">🍱</div>
+                <div class="meal-cell">🍱</div>
+                <div class="meal-cell">🍱</div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pair-divider">proposed</div>
+      <div>
+        <div style="font-size:9px;color:#6fca3e;margin-bottom:5px;">● PROPOSED — opacity 0.10</div>
+        <div class="screen bg-dark" style="height:180px;">
+          <div class="pattern" style="opacity:0.10;"></div>
+          <div class="opacity-badge opacity-badge-proposed">0.10 — legible</div>
+          <div class="screen-content">
+            <div class="plan-top">
+              <div class="plan-title">High-Protein Week</div>
+              <div class="plan-chips">
+                <span class="plan-chip">Diet: high-protein</span>
+                <span class="plan-chip">Weeknight ≤30m</span>
+                <span class="plan-chip">Squad 2</span>
+              </div>
+            </div>
+            <div class="plan-grid">
+              <div class="day-row">
+                <div class="meal-label"></div>
+                <div class="day-header day-header-proposed">Day 1</div>
+                <div class="day-header day-header-proposed">Day 2</div>
+                <div class="day-header day-header-proposed">Day 3</div>
+                <div class="day-header day-header-proposed">Day 4</div>
+                <div class="day-header day-header-proposed">Day 5</div>
+              </div>
+              <div class="day-row">
+                <div class="meal-label">Bkfst</div>
+                <div class="meal-cell">🥚</div>
+                <div class="meal-cell">🥚</div>
+                <div class="meal-cell">🥚</div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+              </div>
+              <div class="day-row">
+                <div class="meal-label">Lunch</div>
+                <div class="meal-cell">🥗</div>
+                <div class="meal-cell">🥗</div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+              </div>
+              <div class="day-row">
+                <div class="meal-label">Dinner</div>
+                <div class="meal-cell">🍱</div>
+                <div class="meal-cell">🍱</div>
+                <div class="meal-cell">🍱</div>
+                <div class="meal-cell"></div>
+                <div class="meal-cell"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <strong>Day labels readable.</strong>
+      Day 1–5 headers shift from invisible (#3a3a38 on busy bg) to clearly legible (#EFE3CE warm linen).
+    </div>
+  </div>
+
+  <!-- COL 4: Cooking mode — current vs proposed -->
+  <div>
+    <div class="col-label">Cooking Mode</div>
+    <div class="screen-pair">
+      <div>
+        <div style="font-size:9px;color:#f87171;margin-bottom:5px;">● CURRENT — opacity 1.0</div>
+        <div class="screen bg-cook" style="height:180px;">
+          <div class="pattern" style="opacity:1.0;"></div>
+          <div class="opacity-badge opacity-badge-current">1.0 — distracting</div>
+          <div class="screen-content cook-screen">
+            <div class="cook-top">
+              <span class="cook-top-left">Dark Chocolate Mousse</span>
+              <span class="cook-step-badge">1 / 5</span>
+            </div>
+            <div class="cook-main">
+              <div class="cook-step-text">Melt chocolate gently; cool until just warm to the touch.</div>
+            </div>
+            <div class="cook-nav">
+              <div class="cook-btn">← Prev</div>
+              <div class="cook-btn cook-btn-next">Next Step →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pair-divider">proposed</div>
+      <div>
+        <div style="font-size:9px;color:#6fca3e;margin-bottom:5px;">● PROPOSED — opacity 0.04</div>
+        <div class="screen bg-cook" style="height:180px;">
+          <div class="pattern" style="opacity:0.04;"></div>
+          <div class="opacity-badge opacity-badge-proposed">0.04 — focused</div>
+          <div class="screen-content cook-screen">
+            <div class="cook-top">
+              <span class="cook-top-left">Dark Chocolate Mousse</span>
+              <span class="cook-step-badge">1 / 5</span>
+            </div>
+            <div class="cook-main">
+              <div class="cook-step-text">Melt chocolate gently; cool until just warm to the touch.</div>
+            </div>
+            <div class="cook-nav">
+              <div class="cook-btn">← Prev</div>
+              <div class="cook-btn cook-btn-next">Next Step →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <strong>Near-invisible texture.</strong>
+      Cooking mode is a focus tool — hands are messy, eyes are stressed. The step text must win over all decoration.
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top:28px;padding:14px 16px;background:rgba(244,162,97,0.07);border:1px solid rgba(244,162,97,0.2);border-radius:10px;font-size:12px;color:#EFE3CE;line-height:1.6;">
+  <strong style="color:#F4A261;">How this works technically:</strong>
+  A <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">data-bg</code> attribute on each page's wrapper div
+  (<code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">hero</code> / <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">functional</code> / <code style="background:rgba(255,255,255,0.08);padding:1px 5px;border-radius:4px;">cook</code>)
+  drives the opacity. No routing logic — the component just reads the nearest ancestor's attribute.
+  Zero risk of touching other palettes or themes.
+</div>
+
+</body>
+</html>

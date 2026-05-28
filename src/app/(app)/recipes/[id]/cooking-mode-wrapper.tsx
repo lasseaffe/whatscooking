@@ -5,6 +5,7 @@ import { ChefHat } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { CookingModeProvider, useCookingMode } from "@/lib/cooking-mode-context";
 import { CookingModeScreen } from "./cooking-mode-screen";
+import { SetBgMode } from "@/components/set-bg-mode";
 
 export interface CookingModeWrapperProps {
   children: React.ReactNode;
@@ -33,7 +34,9 @@ function CookingModeWrapperInner({
 
   if (active) {
     return (
-      <CookingModeScreen
+      <>
+        <SetBgMode mode="cook" />
+        <CookingModeScreen
         recipeTitle={recipeTitle}
         chefName={chefName}
         rating={rating ? parseFloat(rating) : null}
@@ -44,11 +47,13 @@ function CookingModeWrapperInner({
         ingredients={ingredients}
         onExit={deactivate}
       />
+      </>
     );
   }
 
   return (
     <div style={{ minHeight: "calc(100vh - 48px)", position: "relative" }}>
+      <SetBgMode mode="functional" />
       {children}
     </div>
   );

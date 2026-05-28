@@ -1,0 +1,2273 @@
+TITLE: Savory Meat Loaf
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground chuck, 1 lb. ground pork, 1 medium onion, diced, 1 clove garlic, crushed, 1 1/4 c. bread crumbs, 1/3 c. milk
+---
+TITLE: savory or sweet napoleon sandwiches
+CURRENT_DESCRIPTION: you all know the sweet bakery napoleons, layered with custard and laced with chocolate. this savory version uses frozen puff pastry, baked and split; then the crispy layers are filled to make tiny sandwiches. i have included a list of sandwich spread suggestions after the directions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen puff pastry, egg
+---
+TITLE: Savory Peas And Rice(For Microwave)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. butter or margarine, 1 large onion, chopped, 1 c. regular rice (Uncle Ben's does best), 2 (17 oz.) cans chicken broth, 1/2 tsp. salt, 1/4 tsp. pepper
+---
+TITLE: savory sausage bites with apple and onions
+CURRENT_DESCRIPTION: quick to put together and always a crowd pleaser. just finished in a crock pot if you want or even on the stove. they are sweet and savory and the apples and onion get soft and almost butter like and make a great topping for the toasted baguettes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sausage links, baguette, apples, onion, apple cider, beer
+---
+TITLE: Savory Sausage Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. bulk pork sausage, 1 c. uncooked rice, 2 (2 oz. each) pkg. dehydrated chicken noodle soup, 1/4 c. finely chopped onion, 1 c. sliced celery, 2 1/2 c. water
+---
+TITLE: savory spiral cut ham
+CURRENT_DESCRIPTION: i just love spiral cut ham. i got one on sunday at a very good price. when i got home i looked on zaar for a recipe but couldn't find what i wanted. this is a culmination of a recipe that was suggested and my own ideas. this recipe uses an oven cooking bag. i don't know how the recipe will come out if you do not use one. my ham came out so good and moist. the oven cooking bags help to seal in the juices from the ham and any other ingredients you add to it. it keeps the juices from evaporating and drying out in the pan. i also noticed that the ham didn't take as long to bake as i thought it would. you also don't have to turn your oven to a high temp...only 325°f. it kind of slow cooks the ham. spiral cut hams are precooked so you basically just want to warm them up..get them hot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, spiral cut ham, honey glaze mix, chicken broth, prepared yellow mustard, orange juice concentrate
+---
+TITLE: savory thai sticky rice
+CURRENT_DESCRIPTION: a recipe i found on about.com for thai recipes that sounds so good and i am posting it for zwt.  here is what is stated about the rice:  "this sticky rice recipe is simple to make and oh so delicious! a meal unto itself, this thai sticky rice with pork & mushrooms is a savory dish that is similar to fried rice, except it has a wonderfully chewy texture that even kids enjoy. while this recipe would normally be made with thai or chinese sausage, i've substituted strips of bacon, which i find works wonders with this recipe. note that you can either include the minced chili in the recipe, or leave it out and serve with chili sauce on the side (it's delicious like this!)."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sticky rice, bacon, shallot, shiitake mushroom, garlic, chili
+---
+TITLE: savoury crescents
+CURRENT_DESCRIPTION: these are a fabulous cross between bread rolls, croissants and pizza.  don't let my super detailed instructions put you off, they're really easy to make, even if you're a beginner at working with yeast and kneading dough.  basically, the idea is you make a dough, roll it out into a 'pizza', top the pizza, slice it, roll each slice into 'croissant' shape, then bake.  i made mine with two different kinds of fillings but you could make them all the same if you like (just double the filling ingredients).  and don't necessarily use the fillings i suggest - use your imagination!  try any combination of:  chopped salami, chopped semi-dried tomatoes, sauteed mushrooms, chopped herbs, camembert, goats cheese, chopped capscium (peppers), sliced olives, pesto, tapenade, etc, etc.  times given below don't include 1 hour for the dough to rise.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, dried yeast, salt, garlic powder, dried herbs, oil
+---
+TITLE: savoury moroccan pie
+CURRENT_DESCRIPTION: in morocco, this dish is known as pastilla and is traditionally made with pigeon meat but chicken works equally well. the flaky layers of pastry, tender meat and sugar-cinnamon topping make a delightful combination. if you want to make this for a dinner party, just prepare it ahead of time, then freeze until a few hours before you need to serve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: phyllo dough, salt and pepper, chicken pieces, onions, vegetable oil, fresh coriander
+---
+TITLE: scacchi  passover lasagna
+CURRENT_DESCRIPTION: adapted from a recipe in joyce goldstein's _cucina ebraica_. this italian-jewish recipe is layered like a lasagna, with both a meat and vegetable filling. no cheese or tomato sauce here, and matzos are used in place of noodles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, onion, fresh parsley, garlic clove, cinnamon
+---
+TITLE: scallion chicken and soba noodles  ww
+CURRENT_DESCRIPTION: i love soba noodle dishes and can't wait to try this one. from weight watchers slim ways chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, boneless skinless chicken thighs, red bell pepper, fresh gingerroot, garlic cloves, watercress
+---
+TITLE: scallion wild rice crepes  mushroom filled w  red pepper sauce
+CURRENT_DESCRIPTION: from gourmet magazine (november 2002) these savory crepes are the perfect vegetarian entree for a fancy dinner party. each component can be made 2-days ahead, then assembled at the last minute. not difficult to make, but there are a lot of steps. the result is worth the effort! recipe by shelly wiseman. (can substitute jarred roasted red peppers. and green onions are the same as a scallion...) edited to add: sauted portabello strips can completely replace all the fussiness with the dried mushrooms. i also served this with creamed spinach in place of the red pepper sauce. just depends on what color looks best to you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, wild rice, salt, whole milk, eggs, unsalted butter
+---
+TITLE: scallop lasagna
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bay scallops, butter, green onion, garlic, fresh thyme leaves, all-purpose flour
+---
+TITLE: Scallop Stew
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 stick butter, 1 lb. onions, thinly sliced, 1/2 lb. mushrooms, thinly sliced, 2 lb. scallops, 4 c. milk, 1/2 tsp. Dijon mustard
+---
+TITLE: Scalloped Broccoli
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 (10 oz.) pkg. chopped broccoli, cooked and drained, 6 Tbsp. plus 1 stick margarine, 4 Tbsp. flour, 2 c. milk, 4 chicken bouillon cubes, 4 oz. Pepperidge Farms herb stuffing
+---
+TITLE: Scalloped Noodles With Chicken
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 c. cooked noodles, 3 c. cooked chicken, diced, 1/4 lb. mushrooms, sliced, 1/2 tsp. salt, dash of pepper, 2 Tbsp. margarine, melted
+---
+TITLE: scalloped potatoes with shallots mushrooms garlic and thyme
+CURRENT_DESCRIPTION: cooking light march 2003.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic heads, olive oil, shallots, mushrooms, balsamic vinegar, 2% low-fat milk
+---
+TITLE: Scalloped Tomatoes(Heart Smart)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (16 oz.) can tomatoes in juice, chopped, 2 Tbsp. minced green pepper, 2 Tbsp. minced onion, 1 garlic clove, minced, 1 tsp. basil, crushed, 1/8 tsp. pepper
+---
+TITLE: scallops  mushroom  pea  pie with colcannon topping
+CURRENT_DESCRIPTION: the irish are known for their potatoes and cabbage recipes which can be bland.  i add pepper flakes for a slick kick.  cooking the leeks and scallops in the milk help flavor the dish. potatoes contain plentiful carbohydrates and some protein, calcium, and niacin. the potato topping is a mix of colcannon and champ or poundies. making this meal go father for your money.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green cabbage, butter, potatoes, leek, milk, ground nutmeg
+---
+TITLE: scallops alfredo
+CURRENT_DESCRIPTION: from bhg cooking for today stir-fries, this is a simple and satisfying dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sea scallops, half-and-half, parsley, cornstarch, pepper, cooking oil
+---
+TITLE: scandinavian almond puff
+CURRENT_DESCRIPTION: from land o'lakes.  baking a traditional almond scandinavian coffee cake is streamlined using cream puff pastry.  see variations below.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, butter, water, almond extract, eggs, powdered sugar
+---
+TITLE: scandinavian saint lucia wreath and buns  sahramileipa  saffrans
+CURRENT_DESCRIPTION: you can make a wreath or buns from the same dough.  delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, milk, butter, saffron thread, sugar
+---
+TITLE: Schnitzel
+CURRENT_DESCRIPTION: 9,373 likes, 525 comments - nikaaabo on April 3, 2025: "Schnitzel geht auch für 0,15 Cent 👀😍".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Schoko-Brezel-Splitter mit Himbeerstücken
+CURRENT_DESCRIPTION: 1,584 likes, 10 comments - gesahanna on March 17, 2025: "Hier gibt’s das Rezept <3
+
+Schoko-Brezel-Splitter mit Himbeerstücken
+(wie von @dm_deutschland )
+
+25g Mini Brezeln (ohne Salz -> gibt’s z.B. bei dm)
+25g Haselnüsse (gehackt)
+5g gefriergetrocknete Himbeeren 
+100g Bitterschokolade
+
+—-
+
+Die Brezeln in der Hand zerbröseln und mit gehackten Haselnüssen, gefriergetrockneten Himbeeren und der geschmolzenen Bitterschokolade in einer Schüssel vermischen. Mit einem Esslöffel kleine Häufchen auf ein B
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 25 g Mini Brezeln ohne Salz, 25 g Haselnüsse gehackt, 5 g gefriergetrocknete Himbeeren, 100 g Bitterschokolade
+---
+TITLE: schokoladen torte  chocolate cake
+CURRENT_DESCRIPTION: found in multicultural cookbook of life-cycle celebrations.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, chocolate, butter, sugar, eggs
+---
+TITLE: Schokomousse
+CURRENT_DESCRIPTION: 8,771 likes, 71 comments - oatmealmeanslove on October 5, 2024: "SCHOKOMOUSSE - 1 Rezept, 2 Versionen!
+
+Welche würdest du eher testen?? 🍫
+
+Du brauchst: 
+400g Seidentofu 
+80g Schokolade, 100% Kakaoanteil
+80-100g Datteln, je nach Süße
+50g braunes Mandelmus
+
+-> alles pürieren.
+Nun kannst du entscheiden: für die Mousse einfach in einen Behälter geben und mind. 5h im Kühlschrank ruhen lassen, sodass sie fest wird.
+Für das Eis: die Masse ca. 24h einfrieren - ich habe sie direkt in meinem ninja creami
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 400 g Seidentofu, 80 g Schokolade, 100% Kakaoanteil, 90 g Datteln, 50 g braunes Mandelmus
+---
+TITLE: school cafeteria pourable pizza crust
+CURRENT_DESCRIPTION: pourable pizza crust from a quantity 1988 usda school cafeteria recipe. made in a half-sheet pan  (13" x 18" x 1") . the recipe makes a nice, soft bread like crust. this is the pizza crust that's been served at schools for the past 25 years. this recipe would be really good for something like a kids birthday party. the dough has the consestency of very thick pancake batter. you pour it into a sheet pan, with the help of a rubber spatula. i like it because it saves all the rolling and fussing with normal pizza dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, all-purpose flour, instant nonfat dry milk powder, granulated sugar, salt, vegetable oil
+---
+TITLE: School Girl Pickles(Sweet Spear)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 14 tsp. alum, 12 lb. cucumbers (whole), 9 c. water, 1 c. salt, 8 lb. sugar, pickling spice
+---
+TITLE: Schoolhouse Peanut Butter Cookies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. brown sugar, 1 c. white sugar, 1/4 c. peanut butter, 2 eggs, 1 1/4 c. plain flour, 1/2 tsp. soda
+---
+TITLE: schwarzwaelder torte  black forest cake
+CURRENT_DESCRIPTION: it's quick and easy and you can make it as simple or elaborate as you will. preparation time: 30 min., baking time:10 - 15 min., set together and decorate time: 30 min. the origin is the black forest in germany
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, vanilla, white sugar, cocoa, all-purpose flour, sour cherries
+---
+TITLE: Scoby'S Creamed Corn
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (12 oz.) bag frozen corn, 1 tsp. salt, 2 c. half and half, 1 tsp. bread crumbs, 1 Tbsp. butter, 1/2 tsp. Accent
+---
+TITLE: scott peacock s chocolate meringue pie
+CURRENT_DESCRIPTION: scott peacock is a famous atlanta restaurateur and chef and he's known for his homey, southern dishes like buttermilk biscuits and well, this pie!  this was published in the may 2010 issue of better homes and gardens.  his secret to a great meringue is beating the egg whites by hand.  this takes just 3 or 4 minutes longer but you get more volume and there's less risk of overbeating.  this is the ideal chocolate pie, chocolaty and beautiful, and it will be the talk of the potluck.  serve it as a dessert or a luxurious afternoon reward.  this one takes me back to grandma's house, where there were always chocolate pies, homemade ice cream and hydrangeas in full bloom in the summertime.  note:  for scott's pie pastry recipe, go to bhg.com/americanclassics/piepastry.  cooking time includes preparing pie filling and meringue as well as baking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crusts, eggs, milk, granulated sugar, all-purpose flour, unsweetened cocoa powder
+---
+TITLE: scottish shortbread
+CURRENT_DESCRIPTION: simple perfection. buttery and elegant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, powdered sugar, granulated sugar, all-purpose flour
+---
+TITLE: Scramble
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. salted mixed nuts, 1 (11 oz.) box spoon size Shredded Wheat, 1 (10 oz.) pkg. Cheerios, 1 (6 oz.) pkg. Rice Chex, 1 (7 oz.) can pretzels, 1 (4 1/2 oz.) can pretzel bits
+---
+TITLE: scratch pumpkin pie
+CURRENT_DESCRIPTION: this pie has an old fashion look and taste to it because i use a fresh pumpkin not pumpkin from the can. i make this recipe myself because i like squash and have always liked the smell of the jack-o-lantern as a child. i have also used an acorn squash. this is for the person who likes to "putter" in the kitchen. yes, it's time consuming.
+this recipe will make one pie plus one quart pumpkin custard see directions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh pumpkin, evaporated milk, eggs, sugar, salt, ground cinnamon
+---
+TITLE: scrumptious beef wellington
+CURRENT_DESCRIPTION: for a special meal your guests will think they are in a five star restaurant when they first see and then taste this entree. this elegant recipe looks like a lot of work, but the fillings can be made the night before and the dish assembled the next day, just remember to bring the fillings to room temperature to aid in spreading. cooking time does not include marinating time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, onion, burgundy wine, dry sherry, bay leaves, fresh mushrooms
+---
+TITLE: scrumptious black bottom banana cream pie
+CURRENT_DESCRIPTION: this is my husband's favorite dessert!  it sounds like a lengthy process, but is easy to make and very yummy!  i use a store purchased chocolate pie crust most of the time, but have the ingredients for the crust in case you want to home make it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, semisweet chocolate, chocolate wafer cookies, half-and-half, sugar, eggs
+---
+TITLE: Scrumptious Pork Steak(Toms Favorite)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 Tbsp. veg. oil, 4 pork steaks, salt, pepper, garlic powder, 4 Tbsp. cornstarch
+---
+TITLE: scrumptious rocky road nougatine
+CURRENT_DESCRIPTION: this is an irresistible dessert of marshmallowy, rocky-road, crispy-topped deliciousness!! it has a certain rustic charm about it, as it's just about impossible to remove from the tin in neat squares, but once tasted, you'll realise that it does not matter at all! i've sliced a preserved green fig for the photographs and used a syrup which is maple-flavoured, to drizzle over. preserved green figs are bottled whole, and widely available in south africa. preserved watermelon-and-ginger pieces will also work, but it's probably only known to south africans. use whatever kind of preserve you think suitable. the original recipe was incomplete, so i tweaked and changed it. cover the cracks in the meringue with a blob of cream! i timed the prep time, which included chopping and cutting and well as a heated few minutes when an egg yolk broke and some yolk got into the whites ... if that happens, use one of the broken egg shells to fish it out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dates, cookie, cashew nuts, superfine sugar, cornstarch, baking powder
+---
+TITLE: scrumptious sausage calzones
+CURRENT_DESCRIPTION: this recipe is adapted from one published in taste of home magazine. it's delightful in that you can substitute, add or remove the filling ingredients to suit your particular tastes. enjoy! prep time doesn't include 1 hour dough rising time. my children (ages 5 & 4) love this recipe - no complaints about the spinach! hooray!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, water, milk, olive oil, salt, sugar
+---
+TITLE: sea bass grilled  in corn husks with compound butter
+CURRENT_DESCRIPTION: this recipe is from a cuisine magazine.  cooking fish in corn husk packets poaches and steams the fish so that you don't have to turn it over.  the corn husks also make a neat presentation since the fish is served in the packet.
+note:  i have included the nutritional breakdown in the recipe because zaar is calculating based on the 3 butter recipes included.  you will only use 2 tsp. butter per fish, but i am including 3 choices which all work well with this fish. these compound butters can be made in advance and can be frozen and cut into medallions as needed.  when these butters melt, they become a sauce, not just melted butter and taste good on a variety of meats, vegetables and pasta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sea bass fillets, corn husks, salt and pepper, unsalted butter, tomato paste, fresh basil
+---
+TITLE: sea bass w  mediterranean vegetables and bouillabaisse sauce  al
+CURRENT_DESCRIPTION: famous recipe from alain ducaisse's atelier in paris
+
+not for the casual chef...follow instructions very carefully to do it justice!  but ingredients can always be tweaked to taste.  works with almost any fish, i've even done it with mixed prawns and/or scallops and it turned out great!
+
+must be served immediately!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sea bass fillets, tomatoes, olive oil, garlic clove, thyme, parsley
+---
+TITLE: seafood  crab  shrimp and lobster  boil and how to open and eat
+CURRENT_DESCRIPTION: this was fun. this is our 5th summer having this. of course it 's always different! this year my ds 's lydia brought the lobster, and theresa brought the dungeness crabs as well as regular crabs. this is made in those outdoor boiler-fryers. but i won 't stop you from making it on your stove top. we covered the table with plastic tablecloths then covered it with brown paper (paper used for wrapping packages). and of course you can cut down the recipe. just leave the first 8 ingredients as is then add whatever and amount of seafood you 'd like. don 't forget the bibs or aprons and nutcrackers, hammers, small mallets, nut picks and paper towels. oh an empty large foil pan or a trash can for discarding the shells. don't forget plenty of beer! crawfish and mussels would be great in this too.
+ check out the step x step demo of this http://www.recipezaar.com/bb/viewtopic.zsp?t=225384
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, beer, hot pepper sauce, elephant garlic, lemons, fresh bay leaves
+---
+TITLE: Seafood Coquilles
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (12 oz.) pkg. scallops, thawed, drained and quartered, 1 (12 oz.) pkg. cooked shrimp, thawed and drained, 1 (10 oz.) can sliced mushrooms, drained, 2 (10 oz. each) cans condensed cream of shrimp soup, 1 Tbsp. grated lemon peel, 1 Tbsp. chopped chives
+---
+TITLE: Seafood Crepes(Serves 6)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 Tbsp. butter or margarine, 2 Tbsp. flour, 1 1/4 c. milk, 3 Tbsp. dry sherry, 1 tsp. instant chicken granules, 1/2 tsp. salt
+---
+TITLE: seafood kabobs
+CURRENT_DESCRIPTION: nice light meal. serve with rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish fillet, fresh shrimp, fennel bulbs, olive oil, lemon juice, garlic
+---
+TITLE: seafood lasagna alfredo
+CURRENT_DESCRIPTION: this looks like it should be horribly difficult, but it's really simple. if you are a beginner cook and really want to impress people, this is the recipe for you. i use fresh garlic and garlic powder - feel free to cut back on either. we actually prefer this made with surimi (fake crab meat) rather than fresh crab, but either is fine. make sure the crab is picked over for shells. feel free to toss in some scallops too - just saute them for a few minutes in some butter first. substitute 1 box of chopped broccoli, defrosted, for the spinach, if desired, or omit entirely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, garlic cloves, flour, milk, chicken broth, mozzarella cheese
+---
+TITLE: Seafood Linguini
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. fresh sliced mushrooms (6 oz.), 4 shallots or green onions, finely chopped, 1/2 c. butter or margarine, 1 1/2 c. Madeira (cooking) wine, 1 Tbsp. tomato paste (optional), 1 Tbsp. fresh snipped tarragon
+---
+TITLE: seafood newburg casserole
+CURRENT_DESCRIPTION: this is a recipe i found in one of the grocery store recipes booklets.  it is very rich tasting and the sherry just gives it a great accent.  since i don't have easy access to fresh seafood, i used the canned crab and it was fine.  although i haven't tried it, i would feel comfortable using scallops or any shellfish to make this dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium raw shrimp, crabmeat, dry sherry, long-grain white rice, water, butter
+---
+TITLE: seafood pizza
+CURRENT_DESCRIPTION: from bon appetit and taste of the world.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mussels, dry white wine, sun-dried tomatoes, garlic cloves, shallot, crushed tomatoes
+---
+TITLE: seafood pot pie
+CURRENT_DESCRIPTION: bubbly warm goodness under a crispy crust. another one dish wonder from ina. house beautiful magazine, september 2009 edition. i have tasted ina garten's lobster potpie and it was awesome - so how can you improve on something so delicious but she has!!! "one of my philosphies of cooking is to take a recipe you are totally comfortable making, and then have three variations of it up your sleeve." she also says that "she loves all kinds of potpies -- chicken, lobster, vegetable, plus the one with seafood. 1 process =  4 recipes and you have a whole dinner in one dish that goes from the oven to the table. how easy is that?" i really love the way this lady thinks, creates recipes, cooks with ease and has awesome & lovely dinner parties. :) rated 5 stars out of 525 reviews. believe it or not - this recipe has been reworked since i tasted it the first time from her 1999 the barefoot contessa cookbook. this can be served to anyone - it can become a family meal or one for guests! oops - almost forgot the pastry dough has a 30 minute chilling time - sorry ;) i know - it is once in a lifetime experience!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, yellow onions, fennel, all-purpose flour, fish stock, pernod
+---
+TITLE: seafood stuffed eggplant  aubergine
+CURRENT_DESCRIPTION: from cooking light (june 2005)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, cooking spray, olive oil, ham, onion, red bell pepper
+---
+TITLE: seafood stuffed manicotti
+CURRENT_DESCRIPTION: this has been at the top of our favorites since 1991. slightly labor intensive to make, but well worth it.  very light - the fontina white sauce with nutmeg and dry vermouth, along with all the other ingredients, make this a delectable choice.  great for a private romantic dinner or if you're having dinner guests who like seafood.  using a food processor makes the fine chopping easy. recipe originally came from sunset's casserole cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, carrot, diced tomato, chicken broth, dry basil
+---
+TITLE: seafood stuffed pork chops
+CURRENT_DESCRIPTION: i make these when i really want to impress my guests. someone actually told me this was the best dish they'd ever tasted outside of a fancy restaurant. it takes a bit of time, but it'll all be worth it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: center-cut pork chops, raw shrimp, lump crabmeat, olive oil, unsalted butter, zucchini
+---
+TITLE: seafood trio w shrimp  scallops and crab
+CURRENT_DESCRIPTION: this is my re-creation of a fabulous dish of shrimp, scallops and crab that i enjoyed in northern california almost 40 years ago.  it made such an impression on me that i've tried to find someone... anyone... who served it ever since, but with no success.  now, here is my own version that i believe captures the original qualities i've tried so many years to find.
+
+a very nice factor with this recipe is you don't need fresh seafood to make it.  we live 45 miles from the nearest fresh fish market, so we've learned to not depend on fresh fish for the success of our recipes.  if you have access to fresh shellfish for this recipe, it will be even better, but if you need to use iqf seafood, the recipe will work perfectly well if you simply allow your shellfish to thaw gently, either in cold running water, or overnight in the refrigerator.  the sauce is not heavy but still rather rich, and will actually thin some as it cooks because the shellfish will give up some of its moisture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bay shrimp, bay scallops, lump crabmeat, scallions, olive oil, wondra flour
+---
+TITLE: seal the deal pasta from downtime
+CURRENT_DESCRIPTION: reprinted from downtime: deliciousness at homeby arrangement with pam krauss books, an imprint of penguin publishing group, a division of penguin random house llc. copyright © 2017, nadine levy redzepi.  |||  we jokingly gave this pasta its name because it’s what rené made for me on our first date. it’s a bit more sophisticated than my everyday tomato sauce—the tomatoes are peeled, for example, although in reality this is not as much extra work as you’d think. that little refinement makes a big difference though. the beurre blanc sauce is silky smooth and downright seductive, so i guess it truly does earn its name. for a simple sauce like this, i like the flavor of dry vermouth, and always have a bottle in the pantry. unlike white wine, it can stay on the shelf almost indefinitely, so when you need only a small amount, as here, you don’t need to open up a whole bottle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plum tomatoes, fresh basil leaves, coarse sea salt, penne rigate, sea salt, salted butter
+---
+TITLE: seared duck breast with plums and port
+CURRENT_DESCRIPTION: this recipe is from "bistro cooking at home" by gordon hamersley. it is an excellent way to prepare duck, and it is not very difficult. an excellent main course for a holiday meal or for a dinner party.
+this pairs very nicely with a zinfandel, a syrah or a shiraz.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, port wine, shallot, fresh ginger, red pepper flakes, ground cumin
+---
+TITLE: seared opah  moonfish  with vine ripe tomato garlic butter
+CURRENT_DESCRIPTION: it's my understanding that opah isn't easy to come by, so i was thrilled when i found some. then i discovered that there are not many recipes out on the internet, so recipes are also hard to come by. i found this one and we loved both the fish and the recipe. i also had to search for a recipe for the tomato concasse, so included it here for convenience. just as a note, i didn't use nearly as much butter as the recipe calls for.  from chef linda yamada of the beach house in hawaii.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: opah fillet, olive oil, garlic, lemon juice, white wine, parsley
+---
+TITLE: seared scallops  orange rice  and citrus key lime sauce
+CURRENT_DESCRIPTION: this is a very quick cooking dish with tons of flavor.  fresh sea scallops cook up so quick and i love to use some fragrant jasmine rice flavored with orange zest to compliment the flavors.  serve this sauteed snow peas or fresh roasted zucchini, something light and simple to compliment the light dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallops, key lime juice, orange juice, garlic, butter, honey
+---
+TITLE: seasoned chicken calzones
+CURRENT_DESCRIPTION: i have only made this recipe once, but boy was it good. the next time i make it, i think i will cut back on the peppers (they don't go over too well at my home) and add some sauteed onion instead. this serves 12 as a snack, but less if you want to make these a meal (i'd recommend serving with mexican rice and a salad). based on a gail hall recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, fast-rising active dry yeast, salt, sugar, water, olive oil
+---
+TITLE: seattle s pike place market salad
+CURRENT_DESCRIPTION: i've seen this recipe on several websites, but this one is from the health.com website.  the ingredients are largely from fresh pacific nw produce from the pike place market.  most people associate pike place market with its brief spot in the limelight in the tom hanks/meg ryan movie "sleepless in seattle" that was filmed in seattle, or for the entertaining "fish tossers" at the fresh fish stand.  but it's so much more than that.  pike place market is truly a must-see for anyone visiting seattle with stand after stand of fresh fish caught in the pacific northwest waters, locally grown fresh produce, and a plethora of intriguing and quaint boutiques selling local artisan's crafts and wares.  be sure to visit the pike place market whenever you make a stop in seattle.  note:  the recipe calls for pre-bagged herb salad mix.  if you cannot find it at a your local market, just use any combination of lettuces and herbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, walnuts, cooking spray, apple cider, water, cornstarch
+---
+TITLE: sebastians chocolate raspberry mousse cake torte
+CURRENT_DESCRIPTION: dark chocolate devil's food cake layered with drunken raspberries and tart raspberry mousse, garnished with chocolate filled raspberries. this recipe comes from boston based sebastians
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa powder, flour, sugar, baking powder, baking soda, oil
+---
+TITLE: Second Only To My Meatloaf  Meatballs
+CURRENT_DESCRIPTION: my daughters, ages 12 and 6, love my meatloaf! but when i want to give them something close to it, but different, these meatballs are just the thing!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, oatmeal, onion, egg, milk, salt
+---
+TITLE: secret chocolate strawberry pie
+CURRENT_DESCRIPTION: if you like chocolate and strawberries then this recipe is for you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh strawberries, sugar, cornstarch, strawberry gelatin, butter, lemon juice
+---
+TITLE: Secret Ingredient  Bbq Meatloaf
+CURRENT_DESCRIPTION: i know what you might be thinking,'ho hum, another meatloaf recipe " .well your right, but i think the secret ingredient sets this recipe apart from any other meatloaf in the "zaar"data base.please feel free to adjust any of the seasonings or veggies to suit your own personal tastes. submitted to "zaar" on december 9th,2008.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, egg, barbecue sauce, red bell pepper, sweet onion, garlic powder
+---
+TITLE: Secret Ingredient  Beef  Stew
+CURRENT_DESCRIPTION: the secret ingredient is italian salad dressing and the flavor it adds is wonderful. comfort food at its best.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef stew meat, italian salad dressing, water, beef bouillon granules, crushed tomatoes, beef broth
+---
+TITLE: seitan roast with shitakes and leeks  vegan
+CURRENT_DESCRIPTION: this recipe is straight from the post punk kitchen: http://www.theppk.com?  creator isa chandra moskowitz is a genius! this is a stunning centerpiece ideal for thanksgiving or any other meal where you want to impress.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, shiitake mushrooms, leeks, salt, fresh black pepper, garlic cloves
+---
+TITLE: selkirk bannock
+CURRENT_DESCRIPTION: this bread is from bernard clayton's complete book of breads.  according to the book, this recipe originated in 1859 from a baker named robbie douglas, in the scottish town of selkirk, near edinburgh.  looks like one for raisin lovers! submitting for zaar world tour iii - i confess i have not made this one yet, but will try to do so soon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, yeast, salt, hot water, butter, lard
+---
+TITLE: Selma'S Best Oatmeal Cookies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. shortening, 1 c. white sugar, 1/2 c. brown sugar, 1 beaten egg, 1 1/2 c. flour, 1 tsp. soda
+---
+TITLE: semita de pia  salvadoran jam filled pastry
+CURRENT_DESCRIPTION: semita, a popular pastry in el salvador, is basically a tart of bread dough filled with jam or other rich fillings. semita de piña, with a tasty pineapple filling, is a favorite. prep time includes rising and resting.  posted for zwt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, butter, sugar, salt, warm water, active dry yeast
+---
+TITLE: semmel rolls   bavarian bread rolls
+CURRENT_DESCRIPTION: delicious semmels easily made with your stand mixer. these have a wonderful crisp and chewy crust. great for sandwiches or burgers hot off the grill. fabulous with butter while still warm. :)
+
+this recipe is more of a hamburger/ sandwich bun vs a dinner roll. i suppose you could make them smaller but would need to adjust baking time.
+
+i found this recipe duplicated on several websites so i am not sure exactly who to credit it to. i made several changes to the original recipe to suit our taste.
+
+the recipe calls for 1/4 ounce of yeast but i often add an additional tsp of yeast if i am going to use all of the flour. i can usually tell by the weather if i am going to need all of the flour (damp, humid).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, dry yeast, sugar, salt, warm water, malt extract
+---
+TITLE: semolina and sesame grissini  breadsticks
+CURRENT_DESCRIPTION: grissini are thin, crispy italian breadsticks, "like an extra serving of the best part of bread; the brown, crunchy, sesame-coated crust in concentrated form." this recipe is from gina depalma, the pastry chef at mario batali's _babbo_ in nyc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, granulated sugar, semolina flour, unbleached all-purpose flour, kosher salt
+---
+TITLE: semolina braid
+CURRENT_DESCRIPTION: the original recipe called for honey crystals, but they can be hard to come by; feel free to use them if you have them. you could even use plain white sugar if that's all you have. adapted from a recipe by donna currie at serious eats. http://bit.ly/9apg3t
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, yeast, light brown sugar, semolina flour, bread flour, salt
+---
+TITLE: semolina cake with orange confites
+CURRENT_DESCRIPTION: using semolina as the base for cakes and sweets is an art in greece.  this "cake" is not baked, but cooked and chilled in a mold and decorated with candied orange segments and rind.  it's beautiful and delicious.  try to use organic oranges.  i've said there's 5 hour of passive cooking time--the time to cool and then chill the cake--but i haven't included time involved making the candied orange which obviously could be done while the cake chills or the night before.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, vanilla bean, salt, orange, zest of, butter
+---
+TITLE: semolina cute snacks
+CURRENT_DESCRIPTION: this is just so cute that it'll win your heart right the very second its all ready and done. you simply
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semolina, sugar, water, salt, coconut, cardamom powder
+---
+TITLE: Semolina Fufu (Tuwo Masara)
+CURRENT_DESCRIPTION: A northern Nigerian fufu made from semolina or cornmeal — faster to prepare than pounded varieties and equally satisfying. Tuwo masara is the weeknight fufu, ready in under 30 minutes, and pairs beautifully with miyan kuka (dried baobab leaf soup) or miyan taushe (pumpkin soup).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 300 g semolina (or fine cornmeal), 900 ml water, 1 tsp salt
+---
+TITLE: sensational cinnamon chip biscotti
+CURRENT_DESCRIPTION: source: hersheys website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla extract, all-purpose flour, baking powder
+---
+TITLE: Sensational Double Layer Pumpkin Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (3 oz.) pkg. cream cheese, softened, 1 c. plus 1 Tbsp. cold half and half or milk, 1 Tbsp. sugar, 1 1/2 c. thawed Cool Whip, 1 graham cracker pie crust, 2 (4 serving size) pkg. vanilla instant pudding
+---
+TITLE: sensational scallops
+CURRENT_DESCRIPTION: i saw that scallops were on the list of ingredients to incorporate and was so happy, because i love them! this recipe is perfect for a romantic dinner or a special occasion, but it comes together very quickly and easily. use large scallops - the larger the better. mine were about the size of a good sized plum. serve over rice and with a side of any veggie you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, butter, scallops, brown sugar, lime, juice and zest of, cayenne powder
+---
+TITLE: serious eats chicken tikka masala   maybe the best
+CURRENT_DESCRIPTION: entered for safe-keeping, by j. kenji lopez-alt of serious eats, touted as "the best chicken tikka masala".  adapted somewhat. he gives 2 ways to finish cooking: on the grill or under the broiler.  he recommends pulsing the peeled ginger and garlic in a food processor instead of box-grating them.  can't wait to try this!  he recommends bone-in chicken because the meat (especially breasts) is less likely to overcook.  for best taste, toast whole seeds and then grind in a spice-dedicated coffee grinder. preparation time includes 4 hours for marination.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken pieces, ground cumin, paprika, ground coriander, ground turmeric, cayenne pepper
+---
+TITLE: serrano chili and cilantro cornbread muffins
+CURRENT_DESCRIPTION: entered for safe-keeping, reggie dwork (bread-bakers) found this on bigoven.com, said they are "moist and chewy, spicy and sweet", so i have to try this!  when handling serrano chilies, do not touch your eyes; i wear latex gloves.  if you don't like chilie peppers, just saute 1/2 cup onions in 1 tablespoon of extra-virgin olive oil and use them in lieu of the chilie peppers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: serrano chilies, unbleached white flour, yellow cornmeal, baking powder, salt, cayenne
+---
+TITLE: Sesame  Noodles With Peanut Sauce
+CURRENT_DESCRIPTION: delicious cold dish for a hot day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, natural-style peanut butter, soy sauce, sugar, hot chili oil, rice wine
+---
+TITLE: sesame chicken  as healthy as you can get it   possibly
+CURRENT_DESCRIPTION: this recipe was adapted from several recipes combined over the years.  my dh thinks it is better than what you could get at the restaurant and to put it in our regular "ro-tay" (menu rotation that is)!  hope you enjoy it and i look forward to any further recommendations you all may have.  this is the first recipe i have posted....ever.....so be kind!  ;-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, toasted sesame seeds, low sodium soy sauce, whole wheat flour, salt, garlic
+---
+TITLE: Sesame Miso Noodles
+CURRENT_DESCRIPTION: 7,496 likes, 58 comments - thrivingonplants on May 16, 2024: "Sesame Miso Noodles 🥢 Welcome to episode 3 of ✨noods✨, today we're making these 10 minute easy and umami packed noodles! They're the perfect base for adding your choice of protein and veggies onto for a quick and delicious meal. Let's go!!
+
+Serves: 2 
+Prep: 5 min
+Cook: 5 min 
+
+Ingredients: 
+2 servings noodles of choice (I'd recommend thick wheat noodles) 
+1 tbsp white miso paste
+1 tbsp sesame paste or peanut butter if you want a cre
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 servings noodles of choice (thick wheat noodles recommended), 1 tbsp white miso paste, 1 tbsp sesame paste or peanut butter, 1 tbsp sesame oil, 2 tsp soy sauce, splash dark soy
+---
+TITLE: sesame noodles
+CURRENT_DESCRIPTION: from fine cooking. possibly the most fabulous sesame noodles ever! a note: i had pre-roasted sesame seeds that i purchased at a local asian grocery store, so i didn't need to roast them in the oven. if yours aren't roasted, though, be sure not to skip that step. roasted sesame seeds are much more flavorful. also ,this would be a great bag lunch item--no microwave or refrigerator needed. finally, for our tastes, i needed to up the spice factor--i added three times the recommended amount of chile paste. we're dangerous, though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame seeds, peanut oil, shallots, garlic clove, toasted sesame oil, soy sauce
+---
+TITLE: sesame pork with thai cucumber salad
+CURRENT_DESCRIPTION: from thai cooking and more.  to toast sesame seeds, spread seeds in a small skillet.  shake skillet over medium heat 2 minutes or until seeds begin to pop and turn golden.  prep time does not include marinade time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, soy sauce, garlic cloves, honey, brown sugar, fresh ginger
+---
+TITLE: Sesamstangen
+CURRENT_DESCRIPTION: 56K likes, 442 comments - _elifooooo on December 13, 2025: "Sesamstangen
+
+Zutaten ✨
+
+Für den Teig
+1 Würfel Hefe
+2 Teelöffel  Salz
+100 ml Öl
+400 ml lauwarmes Wasser 
+4–5 Gläser Mehl (200 ml) 
+
+Für die Sirup-Sauce
+1 Glas Wasser
+½ Glas Zuckerrübensirup oder Traubensirup
+
+Außerdem
+Viel Sesam
+
+⸻
+
+Zubereitung
+
+Hefeteig herstellen
+Die Hefe im Wasser auflösen, Öl, Salz und nach und nach das Mehl dazugeben und alles etwa 10 Minuten zu einem glatten Hefeteig kneten, dann den Teig abdecken und 30 Minuten g
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 Würfel Hefe, 2 Teelöffel Salz, 100 ml Öl, 400 ml lauwarmes Wasser, 4.5 Gläser Mehl, 1 Glas Wasser
+---
+TITLE: Seva   Bean   Vegetable Stew
+CURRENT_DESCRIPTION: a hearty flavorful exotic bean and vegetable stew.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ghee, kidney beans, onion, garlic clove, carrot, potatoes
+---
+TITLE: seven layer cookies
+CURRENT_DESCRIPTION: this recipe is posted by request and was found on the net-no name is attached. i have no idea how many this makes so i'm going to guess.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, butter, almond extract, flour, sugar, baking powder
+---
+TITLE: Seven-In-One Hot Dish
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. hamburger, browned with onion, 1 onion, 1 can cream-style corn, 1 can vegetarian vegetable soup, 1 c. milk, 1 egg
+---
+TITLE: severed fingers halloween cookies
+CURRENT_DESCRIPTION: this recipe is from martha stewart, so not only do they look cool but they also have fantastic flavor--not too dry or hard. even though they are soft inside, they aren't too, too fragile.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red food coloring, blanched almonds, eggs, vanilla extract, butter, confectioners' sugar
+---
+TITLE: sfeeha
+CURRENT_DESCRIPTION: it is a stuffed bread dough recipe that looks great. this one is ground beef.  it is inspired by the food doctor at word press.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, honey, yeast, olive oil, flour, salt
+---
+TITLE: sfenj   deep fried moroccan doughnuts
+CURRENT_DESCRIPTION: my husband, who spent the first 25 years of his life in casablanca, claims these tasted authentic. these doughnuts are less sweet than sufganyot or beignets - more like fried bread. but it tastes like home to him!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, sugar, salt, dry active yeast, flour, oil
+---
+TITLE: sfogliatelle
+CURRENT_DESCRIPTION: the italian classic cheese pastry filled and delicately flavored inside, crisp and crunchy outside. you have probably heard this pastry mentioned on the sopranos. sfogliatelle is pronouned something like (shvwee-ah-dell).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, shortening, ricotta cheese, confectioners' sugar, candied orange
+---
+TITLE: shabbat breakfast bread  kubaneh
+CURRENT_DESCRIPTION: this unique yemenite bread, which is baked all night in a tightly covered dish, is prepared for sabbath breakfast or brunch. it defies all the usual rules for bread baking--it bakes at a very low temperature rather than at high heat, and it is baked covered, so it steams, rather than uncovered. and it is absolutely delicious. when i prepared this for a cooking class on jewish breads in california, the students were wild about it. before baking, you can put a few eggs (in their shells) in the baking dish; they come out brown and are a good accompaniment for the bread. in some families, this bread is served with sugar for sprinkling; in others, it is accompanied by yemenite tomato salsa and hot pepper-garlic chutney.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, water, sugar, salt, margarine, boiling water
+---
+TITLE: shakespeare s romeo   juliet capon capulet
+CURRENT_DESCRIPTION: i love vintage cookbooks and old community cookbooks. and i picked up ( second hand of course) a great cookbook called
+" cooking with shakespeare"    this cookbook is dedicated "to all shakespeare lovers...and especially to those actors, directors and producers of extraordinary talent and dedication who perpetuate his genius throughout the world.."   i have not tried this recipe but it looks so interesting. in this great cookbook, here are recipes ( and quotes, drawings" for each play.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: capons, rosemary, celery, butter, corn oil, champagne
+---
+TITLE: shakey s famous chicken   mojos  copycat
+CURRENT_DESCRIPTION: my reverse-engineered recipe for shakey's original fried chicken with crispy potatoes. it can be labor-intensive and messy (you will dirty a few dishes), but it will be so worth it. please note: the nutritional information listing here is inaccurate -- since only a fraction of flour and salt actually end up in the finished product. so be aware -- the suggested sodium, sugar, carbohydrate and calorie levels are ridiculously exaggerated!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, russet potatoes, cold water, lawry's seasoned salt, fine sea salt, citric acid
+---
+TITLE: Shakshuka
+CURRENT_DESCRIPTION: Eggs poached in a spiced tomato sauce with peppers and onions. A Middle-Eastern classic that works for breakfast, lunch, or dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 large eggs, 400 g crushed tomatoes, 1 large red pepper, 1 medium onion, 4 cloves garlic, 1 tsp cumin
+---
+TITLE: Shakshuka
+CURRENT_DESCRIPTION: Eggs poached in a spiced tomato sauce with peppers and onions. A Middle-Eastern classic that works for breakfast, lunch, or dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 large eggs, 400 g crushed tomatoes, 1 large red pepper, 1 medium onion, 4 cloves garlic, 1 tsp cumin
+---
+TITLE: Shakshuka Verde
+CURRENT_DESCRIPTION: A vibrant green twist on the classic shakshuka: eggs poached in a tomatillo, jalapeño, and spinach sauce spiced with cumin and coriander. Finished with crumbled cotija, avocado, and warm flatbread for a stunning brunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 eggs, 500 g tomatillos, 2 jalapeño, 1 poblano pepper, 150 g spinach, 1 onion
+---
+TITLE: Shakshuka with Feta & Za'atar
+CURRENT_DESCRIPTION: Eggs poached in a vibrant, harissa-spiked tomato and pepper sauce, crowned with crumbled feta and fragrant za'atar. A one-pan wonder equally brilliant for brunch or a quick weeknight dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 eggs, 800 g canned crushed tomatoes, 2 red bell peppers, 1 onion, 4 cloves garlic, 2 tbsp harissa paste
+---
+TITLE: shamrock irish onion soup
+CURRENT_DESCRIPTION: a wonderful first course for your st. pat's day feast.  puff pastry shamrocks float on a tasty irish whiskey laced leek & onion broth.
+you'll dazzle your lucky guests!
+trader joe now has frozen leeks already cleaned & ready to go.
+i'd use 2 packages.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, leeks, onion, garlic cloves, sugar, pepper
+---
+TITLE: shanghai pork and shrimp spring rolls
+CURRENT_DESCRIPTION: i decided to make another variation on classic spring rolls other than mine that i've been using and chose this recipe based on ingredients used.  the recipe comes from a. nguyen "asian dumplings".  although her recipes calls for 18-20 spring rolls, i find 18 better than 20 unless you increase the ingredient amount a bit more or prefer thinner spring rolls.  i have altered the recipe somewhat to make it easier for my own cooking method and taste. there are several variations on shaping spring rolls and i've decided to use a method that may be easiest to work for most people. tastes wonderful with sweet and sour sauce, recipe #447509 i've posted from the same book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, pork tenderloin, medium shrimp, dried shiitake mushrooms, vegetable oil
+---
+TITLE: Sharon'S Special Sugar Cookies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. confectioners sugar, sifted, 1 c. butter, 1 egg, 1 tsp. vanilla, 1/2 tsp. almond flavoring, 2 1/2 c. all-purpose flour
+---
+TITLE: shchi   russian cabbage soup
+CURRENT_DESCRIPTION: shchi has been a russian staple for centuries for many reasons. it is very cheap, easily changed according to what ingredients are available, keeps well, and has many vitamins and minerals in each serving. it can be made with meat or vegetarian. this is my version of the recipe :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef stock, green cabbage, garlic cloves, potatoes, onions, tomatoes
+---
+TITLE: She Crab  Cream Of Crab Soup
+CURRENT_DESCRIPTION: i got this recipe from my grandmother, who was one of my main inspirations for cooking, i think it's hard to find a good cream of crab soup that is fairly simple to make.  anyone from maryland will appreciate this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream of mushroom soup, cream of celery soup, half-and-half, milk, sherry wine, crabmeat
+---
+TITLE: Sheet Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. sugar, 2 c. self-rising flour, 2 sticks butter, 4 Tbsp. cocoa, 1 tsp. vanilla flavoring, 1 c. water
+---
+TITLE: Sheet Pan Burritos
+CURRENT_DESCRIPTION: 297K likes, 1,685 comments - frasercooks on November 26, 2024: "SHEET PAN BURRITOS👇
+
+I’m not sure if it’s the lack of sunlight, the seasonal depression creeping in, or the anxiety of becoming a parent, but the nesting has started. So, I was drawn to meal prep today. These burritos are actually amazing and you should give them a try! 
+
+Follow @frasercooks for more delicious recipes ✨
+Ingredients:
+1 red onion, diced
+1 sweet potato, diced
+1 bell pepper, diced
+1 brick of soft tofu
+1 cup yellow lent
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 red onion, 1 sweet potato, 1 bell pepper, 1 brick soft tofu, 1 cup yellow lentils, soaked, 1 cup water
+---
+TITLE: Sheet Pan Gnocchi
+CURRENT_DESCRIPTION: 62K likes, 695 comments - plantyou on August 23, 2024: "🍅 sheet pan meals will change your life - and this is the perfect one to start with. The full recipe at PlantYou dot com 🥰 #recipe #plantbased #vegan #gnocchi #sheetpandinner #sheetpanmeals #plantbaseddiet #pasta #pastarecipe".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Sheet Pan Greek Bowls
+CURRENT_DESCRIPTION: 43K likes, 239 comments - plantyou on May 8, 2024: "Sheet pan “Greek Bowls”. 🥰 One of my favorite go-to plant-based meals. Absolutely delicious, nourishing and also fabulous for meal prep. You can get the full recipe now at PlantYou dot com. 💖🌱#recipe #mealprep #salad #greeksalad #vegan #plantbased #plantbaseddiet #plantbasedfood #plantbasedrecipes #healthyfood #healthydiet #eatmoreplants #quickrecipe #healthydinner".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Sheet Pan Red Lentil Protein Pancakes
+CURRENT_DESCRIPTION: cookingforpeanuts on January 10, 2026: "🥞DELICIOUS & HEALTHY Comment YES for the recipe! 28G Fiber 30G Protein. Quick, Easy, Naturally Sweetened sheet pan red lentil protein pancakes! These are so good! You guys are going to love them! Love, Nisha #healthybreakfast #healthysnacks #highprotein #healthyrecipe".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red lentils, protein powder
+---
+TITLE: Sheet-Pan Chicken Thighs with Potatoes & Arugula
+CURRENT_DESCRIPTION: Crispy skin-on chicken thighs roasted over potatoes until golden, finished with a peppery arugula salad. One pan, big flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 bone-in skin-on chicken thighs, 500 g baby potatoes, 60 g arugula, 3 tbsp olive oil, 4 cloves garlic, 1 whole lemon
+---
+TITLE: Sheet-Pan Chicken Thighs with Potatoes & Arugula
+CURRENT_DESCRIPTION: Crispy skin-on chicken thighs roasted over potatoes until golden, finished with a peppery arugula salad. One pan, big flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 bone-in skin-on chicken thighs, 500 g baby potatoes, 60 g arugula, 3 tbsp olive oil, 4 cloves garlic, 1 whole lemon
+---
+TITLE: sheila s best apple crisp  no oats
+CURRENT_DESCRIPTION: this is the apple crisp from my childhood (there is no oatmeal in the topping).  if i could only pick one dessert to make the rest of my life, this would probably be it.  mom always made this in her beautiful copper au gratin pan.  i bought the same pan when i got married, just so i could make this dessert.  originally from the 1966 version of the "woman's day encyclopedia of cookery", mom adapted it slightly over the years (with a little help from cooks illustrated i think).  cutting the apples into "cubes" (instead of slices)  helps the apples keep the apples firm throughout. i have made this with pecans or walnuts.  i have also made it without nuts.  i like it best with pecans, but all versions are yummy!!  i love it warm or cold.  you can serve it with ice cream, but i usually only do that for dinner parties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, water, sugar, light brown sugar, nutmeg, cinnamon
+---
+TITLE: sheila s derby day hot brown
+CURRENT_DESCRIPTION: i have never had an authentic hot brown before so i was working from just a basic understanding of the dish when i came up with this version.  we enjoyed this while watching the kentucky derby and, it was such a hit, that i decided to share it with my friends on zaar!  while there are a few different steps to putting this together, it really is easy and not time-consuming.  this actually makes more than enough cheese sauce, so you can be as liberal with it as you want.  i saved the remaining sauce to be used over asparagus, broccoli, or a baked potato.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked bacon, fresh coarse ground black pepper, light brown sugar, cayenne pepper, onion, white mushrooms
+---
+TITLE: sheila s green bean casserole   west
+CURRENT_DESCRIPTION: this is the most incredible green bean casserole.  the mushroom base is just fabulous tasting with the porcinis in it.  when it's time to plan our thanksgiving, everyone says "are you gonna make your green bean casserole?" with a hopeful look in their eyes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sandwich bread, unsalted butter, salt, ground black pepper, fried onions, green beans
+---
+TITLE: sheila s pepper crusted prime rib with horseradish sauce
+CURRENT_DESCRIPTION: this main course is as simple to prep as it is show-stopping and, most importantly, it gives you time to enjoy the company of your guests.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef rib roast, garlic cloves, worcestershire sauce, mixed peppercorns, kosher salt, garlic powder
+---
+TITLE: Shellfish Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 lb. sea scallops, 3/4 lb. large shrimp, 1/2 lb. crabmeat, 1/4 lb. cooked lobster, cut up, 1/2 lb. butter, 1/3 c. all-purpose flour
+---
+TITLE: shells stuffed with fresh tuna salad and a tomato vinaigrette
+CURRENT_DESCRIPTION: this is quick, easy, and makes a great light dinner. i love salads, and love to try to come up with something new that is still hearty, satisfying but easy. serve this with a hearty white bean soup, or a fresh garden potato soup, also fresh grilled asparagus, zucchini or marinated mushrooms make a great side dish. i like to plate these over a small bed of lettuce and let the fresh tomato vinaigrette be the dressing for that as well. one last note ... you can use canned or packaged tuna (i prefer the packaged vs. the canned), but i use fresh tuna for this if you can get it. it literally takes 5 minutes or less to saute, let it cool as you cut up and prepare everything else. stuff the shells, drizzle with then vinaigrette over fresh greens makes a great salad option to that every night tossed salad.  i don't like this icy cold, but prefer it more room temp -i find the room temp really accents the flavors, but you can always served them chilled.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna steaks, fresh ground pepper, kosher salt, olive oil, jumbo pasta shells, mayonnaise
+---
+TITLE: shepherd s pie from leftover beef roast and mashed potatoes
+CURRENT_DESCRIPTION: recipe courtesy paula deen
+show: paula's party -> episode: paula to the rescue
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, pot roast, salt, black pepper, new potatoes
+---
+TITLE: shepherd s pie potatoes
+CURRENT_DESCRIPTION: different spin on shepherds pie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, olive oil, brown onion, button mushrooms, extra lean beef, carrot
+---
+TITLE: Shepherd'S Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. hamburg, 1/4 c. chopped onion, 1/4 tsp. salt, 1/8 tsp. pepper, 1 c. mashed potatoes
+---
+TITLE: Sherbet Treats
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 gal. lime sherbet or orange, 1/2 gal. pineapple sherbet, 2 liters 7-Up
+---
+TITLE: Sherried  Mushroom Sauce
+CURRENT_DESCRIPTION: this is my favourite mushroom sauce recipe.  its paricularly good as an acompinament to red meat or pork.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh mushrooms, onion, garlic clove, butter, parsley, cake flour
+---
+TITLE: sherrill s secret soft gingerbread boys
+CURRENT_DESCRIPTION: this is cookbook author nancy baggett's re-creation of a popular gingerbread cookie sold at a former capitol hill landmark eatery, sherrill's restaurant and bakery.
+the cookies are fragrant with spice, plump and slightly soft, yet not cakey. they are finished with a light, sugary icing that is reminiscent of doughnut glaze.
+baker howard ward was not willing to part with his original recipe, but several fans of the sherrill's version have told baggett that hers is very close to the original. adapted from her "the all-american dessert book".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, vegetable oil, honey, light molasses, light brown sugar, flour
+---
+TITLE: shhdont tell your man that this is a salad
+CURRENT_DESCRIPTION: you know how some men won’t eat anything green—relying on meat and potatoes to fill them up? don’t tell your man you’ve found a way to make him eat a huge plate of veggies-- topped with steak, of course! he will be amazed at the flavor of the steak and the chipotle dressing. a marriage of flavors made in heaven! prep time is mostly marinating meat in the refrigerator. this recipe calls for 2 chipotles in adobo—if you don’t like heat, try using only one chile  to start—taste it and decide if you want  it hotter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rib eye steaks, olive oil, balsamic vinegar, fresh basil leaves, garlic cloves, salt
+---
+TITLE: shih tzu tou   lion s head casserole
+CURRENT_DESCRIPTION: ruffled napa cabbage is arranged around large pork meatballs to create the appearance of the lionlike tibetan dog. a wonderful balance of flavors, serve it with steamed white rice. the pork mixture can be made up to 1 day ahead and chilled, covered, and the cabbage can be cut 1 day ahead, then chilled, wrapped in dampened paper towels, in large sealed plastic bags(press out any excess air before sealing).from the may 2007 issue of gourmet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried shiitake mushrooms, boiling water, ground pork butt, scallion, water chestnuts, chinese rice wine
+---
+TITLE: shiitake tofu pot stickers
+CURRENT_DESCRIPTION: this recipe comes from the popular "rebar" cookbook, a local restaurant which specializes in vegan and organic foods. i find this recipe to be worth every minute, and is very versitle. use ground pork if you don't like the tofu, don't use the wonton wrappers if you're worried about carbs, just eat the filling, or add to some cooked plain rice and cover with the sauce. the sauce in-itself if outstanding for all sorts of things. get creative!
+i find it easier to do the dip the day before, just leave it in a container in the fridge, it will keep for 2 weeks. the tofu mixture is also easy to do the day before, leaving you only with making the wontons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried shiitake mushroom, firm tofu, vegetable oil, sesame oil, minced ginger, fresh garlic cloves
+---
+TITLE: shining star cookies
+CURRENT_DESCRIPTION: this recipe is from "the little book of christmas cooking". it is full of these great little recipes designed for kids to do with adults, with easy step by step instructions. - after the cookies are done, you can thread a ribbon through the small holes and hang them on the christmas tree. but please don't eat them if you put them on the tree. - you will also need a large star-shaped cookie cutter, a fat drinking straw, a small round cookie cutter (slightly larger than the candy you are using), parchment paper, and a large baking sheets.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, butter, egg, all-purpose flour, allspice, hard candies
+---
+TITLE: Shipwrecked
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 7 medium potatoes, sliced, 1 chopped onion, 1 lb. hamburger, 1/4 c. rice (uncooked), 1/4 c. celery, 1 1/2 c. cooked tomatoes
+---
+TITLE: Shirazi Salad
+CURRENT_DESCRIPTION: 33K likes, 328 comments - alfiecooks on September 7, 2023: "SHIRAZI SALAD - TAKE A DIP SEASON 2 🌞
+
+(FULL FREE WRITTEN RECIPE - LINKED IN BIO)
+
+Welcome back to TAKE A DIP SEASON 2 - the series where I show you how to make the best dips in town. 
+
+For episode 5, we’re making PERSIAN SHIRAZI SALAD. Similar to Pico de Gallo, this is one of my favourite things to dip into when the sun is out 🌞
+
+I KNOW IT’S TECHNICALLY A SALAD, but I’ve been using it as a dip for tortilla chips for as long as I can
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: shirley s sausage stuffing
+CURRENT_DESCRIPTION: my mom made the best stuffing, which always made our holiday dinners complete.   here is her recipe, and mine as well.    there is enough stuffing in this recipe to stuff up to a 25 pound bird, and still have some left over to bake in a casserole dish or aluminum foil, the last hour of cooking, so that you have plenty for everyone.  great to use for leftovers along with some sliced turkey and cranberry sauce, for a delicious sandwich...  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jimmy dean sausage, margarine, turkey gizzards, turkey neck, turkey liver, onions
+---
+TITLE: Shirley Temple
+CURRENT_DESCRIPTION: Ginger ale, grenadine, and orange juice. The original "fancy" drink for non-drinkers — and still excellent when made with quality grenadine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 200 ml ginger ale, 30 ml grenadine, 60 ml fresh orange juice, 1 whole maraschino cherry, 1 whole orange slice, 1 cup ice
+---
+TITLE: Shirley Temple(Nonalcoholic Mixed Drink)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 dash grenadine, 6 oz. ginger ale, or to fill, maraschino cherry, orange slice
+---
+TITLE: shlomo s kosher sour pickles tomatoes by sy
+CURRENT_DESCRIPTION: there is nothing quite like a "mouth watering" kosher new york city sour pickle or sour tomato from a wooden barrel.  i remember as a teenager in "the bronx" biking over to the local indoor but "open" food market, with many  vendors providing produce.   i would then go over to the "pickle man" and watch him put his hand into the wooden barrel and pull out a "big one",  for only 5 cents!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kirby cucumbers, kosher salt, vinegar, pickling spices, garlic cloves, dill seeds
+---
+TITLE: shmoo torte
+CURRENT_DESCRIPTION: a specialty of cafe livre, in mcnally robinson booksellers, winnipeg, manitoba.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipping cream, icing sugar, vanilla, pecan halves, sugar, flour
+---
+TITLE: Shoe Peg Corn Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 cans Shoe Peg corn, 2 Tbsp. flour, 1/3 c. oleo, 3/4 c. half and half
+---
+TITLE: Shoo-Fly
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. flour, 1 1/2 c. brown sugar, 2 Tbsp. butter, 1 1/2 c. boiling water, 2 c. molasses, 3 eggs
+---
+TITLE: Shoo-Fly Pie(Cake Type)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. flour, 1/2 c. brown sugar, 1/2 c. granulated sugar, 1 tsp. baking powder, 2 Tbsp. shortening, 1/2 c. hot water
+---
+TITLE: Short Ribs Of Beef
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 5 1/4 lb. short ribs, 2 1/2 tsp. salt, 2 tsp. thyme, 1/4 tsp. dry mustard, 1 1/4 tsp. sugar, 1/8 tsp. black pepper
+---
+TITLE: short ribs provenale w  mashed potatoes
+CURRENT_DESCRIPTION: yield: makes 6 servings
+short ribs provençale with crème fraîche mashed potatoes
+this sensational dish is best when made with meaty short ribs that are three to four inches long. serve with a simple green salad and glasses of good zinfandel. this recipe is as written from bon appetit january 2002
+
+chef note: i make these the day prior and skim off the fat then reheat slowly :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, beef short ribs, onion, carrot, celery, garlic cloves
+---
+TITLE: short ribs provencale
+CURRENT_DESCRIPTION: very simple to make, and absolutely delicious, everyone raves about it and always wants the recipe!  i highly suggest to make 2 days ahead (or at least 1 day) as the flavors only get better with time, plus you may want to skim off the excess fat, so plan ahead. this also makes it perfect for a do-ahead dinner.
+i use half beef broth, half chicken broth for more depth. any good red wine will do, the additional 1/2 cup of broth may not be necessary, use your judgement. reducing the sauce down after removing the solids enriches the flavors, add a bit more salt and reduce for about 45 minutes before serving.  
+i have also used a boneless chuck roast, cutting it up into approx. 12 to 14 large chunks. (the size of a short rib).  this is less expensive and there is less fat, more meat, but we still like the short rib method! i also urge very strongly to serve with your favorite mashed potato recipe, the sauce is to die for! this is adapted from bon appetit, jan. 2002.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless beef short ribs, onion, carrot, celery, garlic cloves
+---
+TITLE: short ribs with tagliatelle  and chocolate   giada de laurentiis
+CURRENT_DESCRIPTION: from everyday italian with giada.  she is so convincing that i'll love everything she makes!  i hope to try this soon
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, pancetta, beef short ribs, salt, fresh ground black pepper, all-purpose flour
+---
+TITLE: short smoked salmon
+CURRENT_DESCRIPTION: this is to-die-for delicious! it reminds me of the short smoked salmon served at sweetwater tavern. serve it with roasted garlic mashed potatoes along with a stone ground mustard and mayonnaise sauce and you will be applauded!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh salmon, measuring cup, salt, white sugar, garlic powder, black pepper
+---
+TITLE: Short'Nen Bread
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. flour, 1/8 tsp. salt, 1/2 c. butter, 1 c. sweet milk, 1 tsp. vanilla, 2 tsp. baking powder
+---
+TITLE: shortcut moussaka
+CURRENT_DESCRIPTION: from bon appetit, march 1992
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, onion, tomato sauce, dry red wine, fresh parsley
+---
+TITLE: Shortcut Rocky Road Candy
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. butterscotch chips, 1 c. semi-sweet chocolate chips, 1 (14 oz.) can sweetened condensed milk, 2 c. walnuts, sliced, 2 c. miniature marshmallows
+---
+TITLE: shotts fudgy chocolate layer cake
+CURRENT_DESCRIPTION: after reading a brief article about the all-american chocolatier, andrew shotts, i wanted to try one of his decadent recipes that helped him earn his spot among the “top 10 artisanal chocolatier” by usa today. i can honestly say, hands down, this is the best chocolate cake i have ever made and probably will ever make. warning: if you are not a fan of incredibly moist and tender, rich but light, and fudgy but creamy chocolate cakes then this dessert is certainly not for you.  if you are… then buckle your seat belt this is pure chocolate ecstasy.  use the highest quality chocolate and cocoa you can find. make ahead: the cake will stay fresh in the refrigerator for up to 3 days (covered). bring to room temperature before slicing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, all-purpose flour, unsweetened cocoa powder, baking powder, baking soda, salt
+---
+TITLE: showstopper eggnog cheesecake
+CURRENT_DESCRIPTION: i got this out of the latest issue of "midwest living." this will definately get made for the holiday season! there are two options, baking with or without a waterbath. cook time is for waterbath option.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cashews, graham cracker, sugar, butter, cream cheese, rum
+---
+TITLE: shredded beef enchiladas
+CURRENT_DESCRIPTION: your time is well rewarded with this easy recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steaks, cheese, oil, corn tortillas, fresh garlic, chipotle chiles
+---
+TITLE: shredded beef pappardelle in creamy tomato marinara
+CURRENT_DESCRIPTION: i discovered this dish while on the road with my best friend.  we decided to share a plate and quickly regretted it because it was so great.  i reccommend making the roast the day before if you can.  this recipe can easily feed 10 people by doubling the pasta amount, adding another jar of marinara and serving with a couple big loaves of yummy garlic french bread.
+** remember recipes are guidelines please make it your own :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chuck roast, marinara sauce, italian-style diced tomatoes, carrots, beef broth, tomato sauce
+---
+TITLE: Shredded King Oyster Mushroom Tacos
+CURRENT_DESCRIPTION: 211K likes, 3,680 comments - healthysimpleyum on December 1, 2023: "My fav tacos ready in minutes and packed with flavor! 🌮
+
+Save this shredded King oyster shroom taco recipe made with only  7️⃣ main ingredients!
+
+The hardest part is just shredding the mushrooms with a fork which takes about 10 minutes total. After that you just add everything to a pan and it comes together in less than 7 minutes!
+
+Get more recipes like this one in my ebook “Healthy Simple Mexican Recipes” - 30 recipes ready i
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: King Oyster Mushrooms, Garlic powder or minced garlic, Dark soy sauce, tamari or salsa maggie, Cumin powder, Onion powder, Black pepper
+---
+TITLE: Shredded Tofu with Crispy Potatoes
+CURRENT_DESCRIPTION: 126K likes, 236 comments - ginamarie.grimm on February 7, 2026: "Rezept 🌱⬇️ UFFF - Eines der Rezepte, die ich nie vergessen könnte & immer wieder mache 🥹
+
+Mir haben auch Freundinnen geschrieben, dass sie süchtig danach sind 😂✨
+Wer hat ihn schon nachgemacht?? 
+
+Inspiration von @gina.kaas - hab hier eine eigene Version gemacht 🤝
+
+Neu hier? Hi, ich bin Gina  und du kannst mir folgen für: einfache, bunte vegane Rezepte 🫶🏼 + Feel Good Food für die Seele. 
+
+Rezept (ca 4-5 Portionen bei uns) 
+1 k
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 kg Potatoes, 1 EL Olive oil, 1 TL Paprika powder, Salt, Pepper, 3 Tofu blocks
+---
+TITLE: Shredded Tofu Wrap
+CURRENT_DESCRIPTION: 91K likes, 356 comments - plantyou on March 21, 2024: "🤤QUICKIES EP 15 - Shredded Tofu Wrap. ❤️ Find the full vegan delicious meal prep friendly recipe at PlantYou dot com. While you’re there, if you like this recipe, PICK UP A COPY OF SCRAPPY COOKING out in just 10 days! #recipe #vegan #plantbased #plantbaseddiet #healthy #wrap #wraprecipe #salad #saladrecipe #tofu #tofurecipes #whatveganseat #eatmoreplants".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: shrimp   cheesy grits
+CURRENT_DESCRIPTION: this is a favorite recipe around my house. i found it originally on foodtv.com as one of emeril's recipes. it's definitely more of a winter dish as it's filling and comforting. you may use vegetable stock but if you can use shrimp stock or seafood base dissolved in water.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, butter, salt, white pepper, grits, cheddar cheese
+---
+TITLE: Shrimp (Stir-Fry) Sauce
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. mayonnaise, 1/3 c. ketchup, paprika, garlic salt, milk
+---
+TITLE: shrimp and chicken sesame firecrackers
+CURRENT_DESCRIPTION: add sparkle to your dinner party with these make-ahead appetizers - an explosion of flavour and very little last-minute work. refrigerate or freeze the raw firecrackers right on the baking sheet and bake at the last minute for the best texture. if freezer space and baking sheets are at a premium, freeze until firm and carefully stack between layers of waxed paper in an airtight container.
+recipe by chef jennifer mackenzie
+for food and drink magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen shrimp, thai sweet chili sauce, boneless skinless chicken breast, phyllo pastry, butter, sesame seeds
+---
+TITLE: shrimp and corn chowder
+CURRENT_DESCRIPTION: the grated plantain in this coastal ecuadoran soup gives the dish a wonderfully light and creamy body. tiny and virtually flavorless, annatto seeds, also known as achiote seeds, are commonly used throughout latin america to add a distinctive reddish yellow color to sautéed foods. they are available in latin markets and the latin section of some supermarkets. at zafra, chef maricel presilla accents her ecuadoran chowders, as well as grilled chicken and fish, with this crisp salsa. to turn up the heat, add 1 finely chopped fresh chile, such as cayenne or serrano. this delicious recipe is from food & wine, may 2001.
+make ahead: the annatto oil can be refrigerated in a tightly sealed jar for up to 2 months. the salsa can be refrigerated for up to 3 days.
+note: please check refrigeration times in the instructions, they are not included in prep or cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, garlic cloves, scallions, fresh lime juice, salt, fresh corn kernels
+---
+TITLE: shrimp and cotija enchiladas with salsa verde and crema mexicana
+CURRENT_DESCRIPTION: from bon appetit - what could be better for easy summer entertaining than homemade enchiladas? how about -- instead of the usual chicken or cheese -- ones made with shrimp and fresh salsa verde? bon appetit associate food editor lena cederham birnbaum came up with this -- the ultimate version.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, tomatillos, poblano chiles, garlic cloves, cilantro, green onion
+---
+TITLE: Shrimp And Crab With Rice
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. fresh crab meat, 1 lb. cooked shrimp, 1/2 c. chopped green pepper, 1/2 c. onion, 1/2 small can chopped pimento, 1 c. chopped celery
+---
+TITLE: shrimp and grits
+CURRENT_DESCRIPTION: joe barnett's shrimp and grits from throwdown with bobby flay.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, cajun seasoning, paprika, dried italian seasoning, fresh ground black pepper, water
+---
+TITLE: shrimp and lobster sauce
+CURRENT_DESCRIPTION: an old favorite
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium raw shrimp, cornstarch, salt, toasted sesame oil, chicken broth, dark soy sauce
+---
+TITLE: shrimp and poblano chile tamales
+CURRENT_DESCRIPTION: from bhg.com. our shrimp and poblano-chile tamales are wonderful party fare because they freeze so well. plus, we added mexican chihuahua cheese, a buttery semisoft cheese that melts beautifully, to the filling. dried corn husks are the traditional wrapping, but you can also wrap the tamales in foil. prep time: 1 hour. cooking time: 40 to 45 minutes. degree of difficulty: moderate. low-calorie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn husks, chicken broth, cream-style corn, milk, masa harina, poblano chiles
+---
+TITLE: shrimp and scallop lasagna
+CURRENT_DESCRIPTION: this recipe is courtesy martha nesbit as adapted by paula deen on her houswarming episode on foodnetwork tv. i have taken the liberty to add a few optional elements, i hope i do the recipe justice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lasagna noodles, unsalted butter, onion, garlic cloves, all-purpose flour, half-and-half
+---
+TITLE: Shrimp And Scallop Pilaf
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 Tbsp. butter or margarine, 1/4 tsp. turmeric or saffron, 1 c. uncooked long grain white rice, 1 medium-size onion, chopped, 1 clove garlic, minced, 1 (13 3/4 oz.) can chicken broth plus enough water to measure 2 1/2 c.
+---
+TITLE: shrimp and smoked sausage cornbread casserole
+CURRENT_DESCRIPTION: to save time prepare the cornbread recipe up to 2 days in advance or prepare and freeze the cornbread until ready to use in the recipe, i have only made this stuffing using this cornbread recipe so i cannot say how it would be using another cornbread recipe, i use andouille sausage for this but any dry smoked sausage will do, i prefer andouille --- if your shrimp is small you can leave the shrimp whole, i also add in cayenne for heat :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, butter, onion, celery, garlic, smoked sausage
+---
+TITLE: shrimp and vegetable stir fry
+CURRENT_DESCRIPTION: an uncomplicated stir fry.  add a spicey pepper for kick.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, cornstarch, ground ginger, garlic clove, fresh broccoli, oil
+---
+TITLE: Shrimp Barbecue
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. shrimp, peeled and deveined, salt and pepper to taste, juice of 1 lemon, 1 c. butter, 1/2 c. olive oil, 1/2 Worcestershire sauce
+---
+TITLE: Shrimp Batter
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. flour, 1/2 tsp. cornstarch, 1/2 tsp. soda, 1/2 tsp. baking powder, 1 beaten egg, 1/2 to 1 c. cold water
+---
+TITLE: shrimp bulgur salad with avocado relish and chipotle dressing
+CURRENT_DESCRIPTION: combining spicy and cooling ingredients for a festive main dish shrimp salad served on bulgur and ringed by avocado relish. formalize the presentation by molding the shrimp and rice (in a rice mold or 6-oz. ramekin), then ringing with avocado relish and pouring remaining chipotle dressing as outer ring.  the avocado relish can be made ahead and refrigerated. the chipotle dressing makes 3 cups and can be held in the top of a double boiler over simmering water for 2 hours. (bulgur is a nutritious, versatile wheat product with a pleasant, nut-like flavor and an extended shelf-life that allows it to be stored for long periods; it can be substituted for converted rice, although it is more nutritious.) the avocado relish can be prepared while the bulgur is cooking, hence the low preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white wine vinegar, water, shallots, dijon mustard, agave syrup, egg yolk
+---
+TITLE: shrimp ceviche
+CURRENT_DESCRIPTION: this is my twist on the traditional mexican ceviche (which differs from that of south american cuisine).  it's a very colorful and appealing appetizer dish, and is exceptionally low in calories.  the shrimp is "cooked" chemically by the acid in the lime juice, rather than physically (with heat).  you may substitute a good-quality white fish, such as halibut or mahi-mahi, for the shrimp, if desired.  depending on how fast and skilled you are with your knives, and whether you use fresh-squeezed or bottled lime juice, the initial prep for this ceviche can take anywhere from 15 to 60 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, red bell pepper, orange bell pepper, yellow bell pepper, poblano chiles, red onion
+---
+TITLE: shrimp chowder with fennel
+CURRENT_DESCRIPTION: from 50 chowders by jasper white
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small shrimp, fennel bulb, olive oil, garlic, dry white wine, water
+---
+TITLE: shrimp copobianco
+CURRENT_DESCRIPTION: another wonderful recipe from mary nell reck's weekly cooking lesson.everything i've ever made of hers is company-worthy and delicious. this one was in the houston post from the late 80's. it consists of fresh gulf shrimp sautéed with fresh rosemary,fresh spinach sautéed with garlic and a vegetable sauce. only a simple pasta and a salad are needed to complete the meal. a good pinot grigio or savignon blanc would be an excellent wine choice!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach leaves, large shrimp, pine nuts, red onion, roma tomatoes, zucchini
+---
+TITLE: shrimp crab crepes in wine cheese sauce
+CURRENT_DESCRIPTION: although many steps, this dish is really quite easy to prepare and can be made ahead. not for the diet-conscious, but this luscious meal is well worth the extra effort and calories for a splurge or special occasion! adapted from a southern living recipe collected long ago. lobster, scallops, or fish may be substituted as some of the seafood. serve crepes in cheese sauce individually for a lovely presentation at a brunch, luncheon or dinner party. the shrimp crab filling could be spooned in pre-baked mini-pastry shells for an outstanding appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, all-purpose flour, butter, cold water, skim milk, sea salt
+---
+TITLE: shrimp egg rolls
+CURRENT_DESCRIPTION: i think i got this recipe and others i have posted from the back of a package of egg roll wrappers. they keep nicely in the freezer for up to a month (thaw completely before frying) and for up to 24 hours in the fridge.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw shrimp, cornstarch, dry sherry, peanut oil, bean sprouts, shallots
+---
+TITLE: shrimp egg spring roll with sweet hot and sour sauce   gluten fr
+CURRENT_DESCRIPTION: these are delicious rolls with a little kick.  they take a little time to put together but taste great.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canola oil, ground pork, shrimp, onion, garlic cloves, carrots
+---
+TITLE: shrimp in lobster style sauce
+CURRENT_DESCRIPTION: this is my version of madame wong's "lobster cantonese". i came up with this when my husband asked me to cook one of his chinese restaurant favorites, 'shrimp in lobster sauce'. i know it looks like a long list of ingredients and steps but once you have all the ingredients ready, the cooking goes fast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, garlic clove, preserved black bean, water, oil, ginger
+---
+TITLE: shrimp kabobs w lime butter sauce   cilantro couscous
+CURRENT_DESCRIPTION: exotic...yes?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, butter, fresh cilantro, green onions, lime zest, lime juice
+---
+TITLE: shrimp mac n cheese
+CURRENT_DESCRIPTION: i had some shrimp and other various items in the pantry, and the result was this recipe. my family loved it, which is my best indicator of whether or not it's worth making again. don't be afraid to add other ingredients if that's what you have on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, garlic cloves, purple onion, water, instant bouillon granules
+---
+TITLE: Shrimp On Rice
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 lb. medium shrimp, peeled and deveined, 1 stick butter or margarine, 2 tsp. garlic salt, 1/2 tsp. black pepper, 2 c. fresh mushroom (sliced), 2 Tbsp. Worcestershire sauce
+---
+TITLE: shrimp pie  scandanavian
+CURRENT_DESCRIPTION: i suppose you could cheat on this crust, but it is very easy to make, it's simply pressed into a deep-dish pie plate, no rollling out of the dough is needed. judging from the other reviews on myrecipes.com, i advise to use a glass pie pan. it also might take more than 40 minutes to set up. like a quiche, i can imagine adding onions, shrooms, broccoli, etc..., possibilites are endless. this also warms up well for lunch the next day.
+adapted from cooking light, june 2005. posted for zwt6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, semolina, sugar, salt, butter, vegetable shortening
+---
+TITLE: shrimp po boy salad with remoulade dressing  or chicken
+CURRENT_DESCRIPTION: try it with chicken or oysters.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw shrimp, olive oil, skewers, cajun seasoning, romaine lettuce hearts, french baguettes
+---
+TITLE: shrimp puffs
+CURRENT_DESCRIPTION: these puffs are just great as an appetizer. i developed this recipe after making cream puffs and thought it would be a good idea to have something different.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, water, all-purpose flour, salt, eggs, shrimp
+---
+TITLE: shrimp ravioli with a tomato vodka cream sauce
+CURRENT_DESCRIPTION: i have been making these for years - ever since i moved to fl where shrimp is so affordable. they are light and creamy.  wonton wrappers make this easy to make and the creamy sauce is a quick 10 minutes on the stove.  i often make these ahead and freeze ... then when i need them, just pop them in some boiling water, heat up my sauce, and dinner is ready. serve with a traditional crisp salad (i happen to like a grilled romaine salad) and then of course some crusty garlic bread. a nice twist to the traditional cheese or beef ravioli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wonton wrappers, large shrimp, ricotta cheese, parmesan cheese, eggs, garlic
+---
+TITLE: Shrimp Sandwiches
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can small shrimp, 1 (8 oz.) pkg. cream cheese, 1/4 c. Catalina salad dressing, parsley flakes
+---
+TITLE: shrimp scampi  my way
+CURRENT_DESCRIPTION: this is a recipe (method) my grandpa taught me many years ago. the good sauce could also be used for steaming clams or mussels, too. then pour all over pasta, serve with a good garlic bread and salad and your sure to be in some sort of bliss. i hope you try and enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw shrimp, butter, olive oil, garlic, onion, red pepper flakes
+---
+TITLE: shrimp scampi pizza
+CURRENT_DESCRIPTION: i love a good garlicky pizza! i love that this has the sauce poured on top before baking. it really keeps the shrimp from drying out and enhances the garlic flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, granulated sugar, water, olive oil, salt, unbleached flour
+---
+TITLE: shrimp scampi pizza  california pizza kitchen
+CURRENT_DESCRIPTION: this is a fun way to eat shrimp scampi, from the the california pizza kitchen cookbook.  prep time does not include time to make dough (a nice sturdy pizza dough is good for this - one that can hold up to being coated with a butter sauce without going limp and spilling the shrimp!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, shallot, garlic, dried thyme, salt, white pepper
+---
+TITLE: shrimp scampi potstickers
+CURRENT_DESCRIPTION: stuff shrimp scampi into these irresistible potstickers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raw shrimp, white wine, cornstarch, garlic, olive oil, lemon juice
+---
+TITLE: Shrimp Scampi(Makes 4 Servings)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. large shrimp, 1/2 c. olive oil, 2 tsp. finely chopped garlic, 2 Tbsp. finely chopped parsley, 1/8 tsp. crushed red pepper flakes, 1/2 tsp. dried, crushed oregano
+---
+TITLE: Shrimp Topping For Fish
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 lb. peeled, deveined shrimp, 3 Tbsp. vegetable oil, 2 Tbsp. flour, 1/4 c. each: chopped onion, pepper and celery, 3 cloves minced garlic, 3/4 c. hot water
+---
+TITLE: shrimp tostadas
+CURRENT_DESCRIPTION: adapted from fine cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground cumin, garlic powder, black pepper, kosher salt, chili powder, brown sugar
+---
+TITLE: shrimp with black beans in lobster sauce
+CURRENT_DESCRIPTION: this is my #1 favorite chinese dish and it has taken me a few years to duplicate the restaurant recipes and then enhanced to my liking.  this origins of this recipe comes from the lobster cantonese style dish (with lobster sauce and a chinese-american creation) which was popular in cantonese restaurants in north america around 1950 or so years ago. then another variation was created using shrimp and this dish was called shrimp in lobster sauce (which uses the same sauce as the lobster cantonese dish but no lobster meat is used). these basic recipes contained a white type of sauce and with some green peas and ground pork added.  after this still another variation was created and this time using salted fermented black beans in a dark soy sauce and either lobster or shrimp was used.  further, for this recipe (and the other above dishes) getting the eggs to "set" on top of the sauce was a challenge since most home ranges can not generate a very high heat (when using a wok) for cooking.  however, i was successful in getting the eggs to "set" properly by using heated sesame oil. that is, getting the eggs to "set" by partially cooking them (slightly runny eggs) and not incorporated them completely into the sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, coarse salt, preserved black beans, garlic cloves, ginger, rice wine
+---
+TITLE: Shrimp With Rice
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 stick butter, 1 chopped onion, 1 c. sliced mushrooms, 1 chopped green pepper, 1 1/4 c. raw rice, 1/4 tsp. nutmeg
+---
+TITLE: Shrimp With Tomato Sauce
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (10 oz.) pkg. frozen medium shrimp, 1 medium onion, chopped, 1 jalapeno pepper (optional), 1 clove garlic, chopped, 1 (16 oz.) can tomatoes, 1 stalk celery, chopped
+---
+TITLE: Shrimp Wreck(Tastes Best When Made Earlier In The Day.)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 8 oz. frozen shrimp, thawed, 1 c. sharp grated cheese, 1 c. mayonnaise, 1/2 c. finely chopped onion, 1 tsp. Worcestershire sauce
+---
+TITLE: Shrimply Delicious Cauliflower
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 medium cauliflower, cooked (flowerets), 1 can cream of shrimp soup, 1/2 c. sour cream, 1/4 c. toasted almonds, parsley
+---
+TITLE: shrimps with bell peppers and cheese sauce
+CURRENT_DESCRIPTION: it's easy and tasty! it's slightly different from the usual shrimp recipes. i felt like a light cheesy sauce, and this is what developed. prep time does not include time perhaps needed for cleaning shrimps.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large shrimp, onion, green bell pepper, yellow bell pepper, chili pepper flakes, fish sauce
+---
+TITLE: Shrooms And Sausage Dressing
+CURRENT_DESCRIPTION: this recipe is a holiday tradition for my brother's former in-laws. he may of parted ways with his wife and most of his worldly possessions, but at least he got to keep this delicious recipe! all holiday dishes should be this simple and scrumptious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, bulk sausage, onion, canned mushrooms, condensed mushroom soup, eggs
+---
+TITLE: shrove tuesday buns  semlor
+CURRENT_DESCRIPTION: tradition is deep-rooted in sweden, and many eating habits go back many generations!one of them is to serve the "shrove tuesday bun" as dessert on the tuesday night before ash wednesday and all through lent. these buns are very popular and you'll see them in many coffee shop windows in sweden! they are rather large, but light buns, sprinkled with powdered sugar. the insides are generously filled with a thick slice of almond paste and lots of whipped ceam! these are pure heaven! hope you try them! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, egg, heavy cream, sugar, salt
+---
+TITLE: shu cream  japanese cream puff
+CURRENT_DESCRIPTION: this is my modified version of the great tasting shu cream recipe  (japanese cream puff) that i got at about.com. yum!
+
+*you can also use your own cream puff pastry and just use the custard cream i have here!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, water, flour, eggs, milk
+---
+TITLE: sichuan stir fried pork in garlic sauce cook s illustrated
+CURRENT_DESCRIPTION: if chinese black vinegar is unavailable, substitute 2 teaspoons of balsamic vinegar and 2 teaspoons of rice vinegar. if asian broad-bean chili paste is unavailable, substitute 2 teaspoons of asian chili-garlic paste or sriracha sauce. serve with steamed white rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, sugar, soy sauce, black vinegar, sesame oil, chinese rice wine
+---
+TITLE: Sichuan Tofu Miso Ramen
+CURRENT_DESCRIPTION: 69K likes, 730 comments - alfiecooks on October 13, 2023: "CREAMY MISO RAMEN 🍜
+
+Autumn (fall) has OFFICIALLY arrived, and soup season is coming. To get you in the mood, this is my SICHUAN TOFU MISO RAMEN. Ready in 30 minutes, and PERFECT for the colder days ahead. 
+
+A creamy, fragrant ramen-style broth with miso paste, peanut butter + coconut milk, packed with chilli, garlic + ginger. 
+
+Topped with sticky sichuan tofu pieces, spring onions, red chillis + toasted sesame seeds. 
+
+Full recipe can
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 tbsp sesame oil, 1 knob ginger, 4 garlic cloves, 1 red chilli, 2 tbsp soy sauce, 1 tsp ground turmeric
+---
+TITLE: sicilian braciole loaf
+CURRENT_DESCRIPTION: a variation of a much loved italian classic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, celery rib, carrot, garlic cloves, lean ground beef
+---
+TITLE: Sicilian Meat Loaf
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 eggs, beaten, 1/2 c. tomato juice, 1/2 tsp. oregano, 1 clove garlic, minced, 8 thinly sliced deli ham, 1 1/2 c. shredded Mozzarella cheese
+---
+TITLE: sicilian pizza
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, water, sugar, olive oil, flour, whole wheat flour
+---
+TITLE: Silken Tofu Magic
+CURRENT_DESCRIPTION: 51K likes, 296 comments - vegan_punks on September 2, 2024: "SILKEN TOFU MAGIC 🪄 Follow @vegan_punks for all the best tofu tips and recipes!
+
+Which one are you trying first? Or have we missed your favourite technique? Let us know 👇
+
+Btw, we’ve shared all these techniques and recipes before, so you can find them on our grid! But if you can’t find what you’re after you can always drop a comment or a DM and we’ll hook you up 🫶
+
+🍗 Silken tofu schnitzel
+🍫 Tofu chocolate pudding
+🍭 Tofu ice lolli
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Silky NO BAKE Vegan Peanut Butter Pie
+CURRENT_DESCRIPTION: 65K likes, 7,781 comments - the_bananadiaries on January 29, 2024: "Silky NO BAKE Vegan Peanut Butter Pie!! Just 7 simple ingredients and 10 minutes to make, this no bake peanut butter pie has a simple Oreo cookie crust with a lush & fluffy peanut butter filling that sets just beautifully. This is strictly for peanut butter lovers only 😍
+
+COMMENT “peanut butter pie” and I’ll send you the full recipe. Or just head to my site. You’re going to LOVE!".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Silky Peanut Butter Fudge
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 3/4 c. sugar, 1/2 c. evaporated milk, 1/4 c. butter, 1/4 tsp. salt, 1 c. roasted peanuts (unsalted), 1 tsp. vanilla
+---
+TITLE: Silky Smooth Hummus
+CURRENT_DESCRIPTION: Restaurant-quality hummus at home — the secret is cooking dried chickpeas from scratch and blending them while still warm. Serve with olive oil, paprika, and warm pita.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 250 g dried chickpeas, 80 g tahini, 3 tbsp lemon juice, 2 cloves garlic, 3 tbsp olive oil, 0.5 tsp cumin
+---
+TITLE: Silky Smooth Hummus
+CURRENT_DESCRIPTION: Restaurant-quality hummus at home — the secret is cooking dried chickpeas from scratch and blending them while still warm. Serve with olive oil, paprika, and warm pita.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 250 g dried chickpeas, 80 g tahini, 3 tbsp lemon juice, 2 cloves garlic, 3 tbsp olive oil, 0.5 tsp cumin
+---
+TITLE: Silly Toast
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 5 or 6 slices bread, food coloring, vanilla or strawberry extract (flavoring), sugar, butter, milk
+---
+TITLE: silodka pod shuboy   herring  potato  beet salad
+CURRENT_DESCRIPTION: literally, "herring in an overcoat", this is a russian favorite.  the presentation is absolutely beautiful too.  personally, i do not eat herring at all, but since everyone else around here does...  recipe is adapted from the one found at russianfoods.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: herring fillets, potatoes, carrots, beets, eggs, mayonnaise
+---
+TITLE: silpancho  traditional bolivian meal
+CURRENT_DESCRIPTION: this is a bolivian dish that i learned from my good friend's mom. i am posting the entire meal since i think everything goes so well together. i have provided preparation steps below that you can do the day beforehand to help cut down on time spent cooking the day of. i recommend going to a latino market for the meat if possible. tell them you want "carne por milanesas, mas suave" and it will be well worth it. i make recipe #287183 with the leftover salsa the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef, breadcrumbs, adobo seasoning, vegetable oil, white rice, red pepper
+---
+TITLE: simon   garfunkel roast chicken
+CURRENT_DESCRIPTION: the blend of flavors in this dish, and the aroma, is wonderful. it's a bit of work, but in my opinion, worth it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, salt, dried sage, dried rosemary, dried thyme, fresh ground black pepper
+---
+TITLE: simple  scrumptious caesar salad with quick garlic croutons
+CURRENT_DESCRIPTION: there are many great caesar salad recopies out there, and i really wasn't interested in another, until i made this last night.  it was great! cooks note:  if you like anchovies like we do, i added a teaspoon of anchovies paste to the dressing. also, i like to add grilled shrimp, salmon or chicken to make this a dinner meal. from: pam anderson as printed in the sj mercury news. please note: this is an adopted recipe and i hope to make it soonest. if you make it before i do, i would appreciate feedback, thanks ! zwt region: united states of america.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, extra virgin olive oil, bread cubes, salt, romaine lettuce hearts, lemon juice
+---
+TITLE: simple basic  unbaked cheesecake with variations
+CURRENT_DESCRIPTION: i found this is in a nz magazine that had chef genevieve mcgough as a guest food writer. she says that cheesecake is believed to have originated in ancient greece. the first recorded mention is that it was served to athletes during the first olympic games in 776bc !!!  the two main techniques used these days are baked or gelatine based. this one is even easier as it does not use gelatine, does not require baking and only three ingredients are needed for the filling. i haven't made all the variations but i am sure they will be delicious.  i have included 2 variations here and will post another separately.  for the biscuit bases digestive or plain sweet biscuits eg nice or super wine biscuits seem to be most commonly used. however, try to match your base with filling eg,chocolate chip biscuits with chocolate filling. chocolate covered biscuits as long as they don't have a chewy filling make a softer textured base that is easy to slice but as the packets weigh less, more than one is needed.
+note:cooking time is chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, biscuits, cream cheese, caster sugar, heavy cream
+---
+TITLE: simple beef and barley soup
+CURRENT_DESCRIPTION: while many beef and barley soups add lots of veggies or potatoes, cabbage or lots of different spices, this soup, which came from my polish grandmother, is very simple, straightforward and full of beef flavor. i add kulski noodles to it in the bowl. if you give it two days while making it - start it one day and serve it the next, you can strain off a lot of fat. if that isn't a big deal, you can make this all in one day. add a squirt or two of ketchup to the soup if you wish as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef short rib, oxtails, boneless chuck roast, vegetable oil, whole tomatoes, carrot
+---
+TITLE: simple carrot cake with cream cheese frosting cook s illustrated
+CURRENT_DESCRIPTION: if you like nuts in your cake, stir 1 1/2 cups toasted chopped pecans or walnuts into the batter along with the carrots. raisins are also a good addition; 1 cup can be added along with the carrots. if you add both nuts and raisins, the cake will need an additional 10 to 12 minutes in the oven. below are instructions for using a food processor.
+**if making 2-9" round cakes, make 1.5-2 of frosting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, baking powder, baking soda, ground cinnamon, ground nutmeg, ground cloves
+---
+TITLE: Simple Cherry-Pineapple Crisp
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can crushed pineapple, 1 can cherry pie filling, 1 box yellow cake mix, 1 stick margarine
+---
+TITLE: simple chocolate oatmeal cake
+CURRENT_DESCRIPTION: posted for zwt6 german region.  this simple cake, made with oatmeal, chocolate chips, and coconut, is great for lunchboxes or a family dinner. it's very similar to german chocolate cake, but with more chocolate! and the cake is very easy to make because you don't have to cream butter and sugar together, and the topping is simply stirred together and spooned on the cake. *** warning *** after placing topping on the cake it is extremely important that you watch this cake 100% of the time or it will burn/scorch quickly.  it is a bit more labor intensive but turns out great with a watchful eye.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking oatmeal, butter, semi-sweet chocolate chips, boiling water, cocoa, sugar
+---
+TITLE: simple easy stuffed roast chicken with gravy  for beginners
+CURRENT_DESCRIPTION: this method can be used for roast chicken or turkey. it turns out a lovely moist delicious bird with a tasty stuffing and gravy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken flavor stuffing mix, hot water, butter, water chestnuts, onion, poultry seasoning
+---
+TITLE: Simple Girl Dinner with Tomatoes, Beans & Toast
+CURRENT_DESCRIPTION: 187K likes, 836 comments - thehealthyhophead on August 8, 2023: "Simple Girl Dinner with refreshing tomatoes, beans, & toast ✨ I love this recipe because it’s just throwing ingredients in a baking dish & letting it bake! No chopping or prepping required! (Recipe below & follow @thehealthyhophead for more easy & nutritious recipes!)
+
+Recipe:
+
+Ingredients-
+1 cup cherry or grape tomatoes
+1/4 cup garlic cloves
+Rosemary to liking 
+3 tbsp olive oil
+1/3 cup cannelloni beans
+Chili pepper flakes to likin
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 cup cherry or grape tomatoes, 0.25 cup garlic cloves, rosemary, 3 tbsp olive oil, 0.33 cup cannelloni beans, chili pepper flakes
+---
+TITLE: simple golden raisin scones
+CURRENT_DESCRIPTION: this is a recipe that i adapted from one that i found in one of my old cookbooks. it's amazingly easy to make and it tastes so good for being decently low fat. my father (who is british) insists on me making them for him whenever i visit.these are fantastic reheated in the microwave for a few seconds with some whipped cream on the side or spread with butter.
+edit: ahh - i forgot to add the amount of flour needed in the ingredients. thank you for the review that pointed it out beansy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, low-fat buttermilk, egg, baking powder, baking soda, salt
+---
+TITLE: simple lemon cheesecake
+CURRENT_DESCRIPTION: this was posted in the montreal gazette. some one had requested a cheesecake made from the restaurant franny's that has been closed for quite some time now. this is in time for shavuot, which requires jews to eat dairy during the holiday.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, brown sugar, unsalted butter, cream cheese, granulated sugar, sour cream
+---
+TITLE: simple perfect pot roast
+CURRENT_DESCRIPTION: this is the cook's illustrated recipe, but it tastes exactly like mom's recipe. she used to put it in the oven before we went to church, and then served it with hot rolls and a crisp salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chuck roast, salt and pepper, vegetable oil, onion, carrot, celery rib
+---
+TITLE: Simple Red Lentil & Chickpea Bowl
+CURRENT_DESCRIPTION: 122K likes, 955 comments - sophsplantkitchen on August 20, 2023: "High Protein Meals I eat as a Vegan Personal Trainer Ep 3:  Simple Red Lentil & Chickpea Bowl 💪 @sophsplantkitchen
+
+This simple Indian inspired stew combines red split lentils with chickpeas which when served with bread or cooked quinoa will contain over 40g plant protein. 
+
+INGREDIENTS (serves 2)
+
+1 onion, diced
+4-5 minced garlic 
+One large finger size of minced fresh ginger 
+Spices: 2 tsp cumin, 2 tsp coriander, 1 tsp mild chi
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 onion, 4 cloves garlic, minced, 1 large finger size fresh ginger, minced, 2 tsp cumin, 2 tsp coriander, 1 tsp mild chilli powder
+---
+TITLE: simple red velvet cake
+CURRENT_DESCRIPTION: this recipe is from the "cake mix doctor" book.  the book is authored by anne bryn.  very quick and simple to make.  great for those that do not have the time to "slave" over a hot stove all day.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, flour, german chocolate cake mix, sour cream, water, oil
+---
+TITLE: simple roman pizza dough
+CURRENT_DESCRIPTION: i found this recipe in peter reinhart's book american pie, and i adapted it for the bread machine.  he has traveled the globe searching for the best pizza around. peter is a master breadmaker, and he probably would not approve of making this dough with the bread machine.  alas, i lack the patience and strength in my hands to knead dough.  if you want to make this dough the old fashioned way, i encourage you to get a copy of peter's wonderful book.  the way i prepare it, though, makes the best pizza dough i have ever had.  it is thin and  flavorful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, water, kosher salt, unbleached flour, semolina flour, bread machine yeast
+---
+TITLE: Simple Salsa Dip
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 jar (any size) salsa, 1 lb. American cheese (shredded), 1 can refried beans
+---
+TITLE: Simple Stir-Fry
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. stir-fry vegetables, 1/2 lb. chicken breast, 1/2 lb. water chestnuts, 5 Tbsp. cooking wine, 5 Tbsp. soy sauce, 1/2 c. warm water
+---
+TITLE: Simple Turkey Casserole
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 c. cooked turkey, 1 c. diced potatoes, 1 c. cut celery, 1 c. mushroom soup, cracker crumbs
+---
+TITLE: simplest ever roast chicken
+CURRENT_DESCRIPTION: a thomas keller recipe.  this is delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, kosher salt, fresh ground black pepper, thyme, unsalted butter, dijon mustard
+---
+TITLE: simplified cassoulet with lamb and andouille sausage
+CURRENT_DESCRIPTION: from cook's illustrated magazine, january 2000.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kosher salt, granulated sugar, skinless chicken thighs, sandwich bread, unsalted butter, flageolet beans
+---
+TITLE: simply  dilly icous  egg sandwich  5fix
+CURRENT_DESCRIPTION: 5-ingredient fix contest entry.  a full meal deal all in one. i thought this looked like the old fashioned dilly bar ice cream sandwich, once i had it done, so, hence, the name. the sausages are the "dillies" on top.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: simply potatoes diced potatoes with onion, eggs, mexican blend cheese, raspberry chipotle jam, andouille sausages
+---
+TITLE: simply elegant artichoke quiche
+CURRENT_DESCRIPTION: my recipe for artichoke quiche.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsifted all-purpose flour, chicken bouillon powder, rubbed sage, onion powder, turmeric powder, canola oil
+---
+TITLE: simply german potato salad
+CURRENT_DESCRIPTION: ready, set, cook! special edition contest entry -- a no-fuss german potato salad that is sure to please. a delicious side can be ready in a matter of minutes when using diced potatoes and onions from simply potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, olive oil, simply potatoes diced potatoes with onion, red bell pepper, salt, pepper
+---
+TITLE: simply perfect galette
+CURRENT_DESCRIPTION: a great alternative to pie that you can use with almost any fruit. the best part is the juices that gather under the crust. it's a free-form tart that looks like a fruit pizza.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, butter, cold water, sugar, fruit
+---
+TITLE: simply sinful cinnamon rolls
+CURRENT_DESCRIPTION: my good friend delynn took a cinnamon roll making class at the culinary institute 15 years ago and this is the recipe she's being using ever since. she brought these to a gathering this weekend and they were delicious! i can see why she's never strayed from this recipe...why change from the best!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, dry yeast, water, flour, eggs
+---
+TITLE: Sin Amon Brown Sugar Oatmeal
+CURRENT_DESCRIPTION: nope, no sin to eat this oatmeal... just tastes like it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, ground cinnamon, vanilla extract, splenda brown sugar blend, i can, s not butter spread
+---
+TITLE: Sinful Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large pkg. strawberry gelatin, 1 c. boiling water, 3 medium bananas, mashed, 1 c. chopped pecans, 2 (10 oz.) pkg. frozen strawberries, thawed, 1 (20 oz.) can crushed pineapple, drained
+---
+TITLE: sinful snickers cheesecake
+CURRENT_DESCRIPTION: this is amazing and only for those who like rich and very sweet cheesecake. i made this for my dad on father's day, and it took a bit of work, but it turned out amazing. i found the recipe at thepartyworks.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookies, butter, water, sugar, philadelphia cream cheese, eggs
+---
+TITLE: sinfully good a million layers chocolate layer cake  with strawb
+CURRENT_DESCRIPTION: i'm not sure how you could get any more chocolate into this moist yummy layer cake.  so very good, rich, sinful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, brown sugar, unsalted butter, eggs, chocolate pudding mix, vanilla
+---
+TITLE: singapore fried noodles
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chow mein noodles, frozen shrimp, eggs, bean sprouts, water chestnut, baby sweet corn cob
+---
+TITLE: singapore rice noodles
+CURRENT_DESCRIPTION: this popular rice noodle dish has moved up the malay peninsula to china and became an important part of chinese cuisine. make sure all the ingredients are prepped before you start to cook. this recipe is very authentic!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: noodles, eggs, curry powder, oriental sesame oil, peanut oil, medium shrimp
+---
+TITLE: singapore s rottiboy  mexican bun
+CURRENT_DESCRIPTION: this bun is also known as the mexican bun. the rotiboy consists of three parts: the filling, topping, and sweet dough. the filling and topping can be prepared beforehand and kept in the refrigerator until ready for use. the ingredients and instructions for preparing each of the three parts are given as follows.  pls don't be put off by all the steps, i have just been very detailed.  the aroma that is going to fill your home is wonderful, but it's nothing compared to trying this fresh out of your oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salted butter, vanilla flavoring, brown sugar, butter, icing sugar, eggs
+---
+TITLE: single serving pie in a jar
+CURRENT_DESCRIPTION: a too cute idea from http://www.ourbestbites.com/2009/09/single-serving-pie-in-jar.html .  this is a great gift-giving idea for a wedding, party favors or everyday.  the half pint jars with wide mouth and straight sides can be purchased and/or ordered from your local hardware store, amazon, fred meyer's or a feed store for about $9.  also, keep a lookout at garage sales.  the jars are made of tempered glass and can handle the heat.  vary the fillings and it has been suggested making pumpkin or even chicken pot pies.   these can be baked immediately, but designed to be baked frozen.  keep the heat high to promote a crisp crust, otherwise a lower heat will melt the butter producing a soggy crust.  don't worry about how long these can be frozen for they probably won't last that long.  one more tip, it has been suggested to place a silpat sheet on the bottom of the baking sheet to prevent the cups from sliding around.  for best show, allow to cool and pop the pies from the jars onto a serving plate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbaked double pie crust, fruit, sugar, flour, butter, cinnamon
+---
+TITLE: siopao
+CURRENT_DESCRIPTION: this recipe is posted by request.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, active dry yeast, pork loin, white sugar, cooking oil, water
+---
+TITLE: Sirloin With Special Sauce
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 Tbsp. Crisco shortening, 1/4 tsp. salt, 3 onions, sliced thin, 2 Tbsp. prepared mustard, 1 Tbsp. Worcestershire sauce, 1/2 tsp. chili powder
+---
+TITLE: Six Cup Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. cottage cheese, 1 c. sour cream, 1 c. fruit cocktail, drained, 1 c. coconut, 1 c. miniature marshmallows, 1 c. chopped nuts
+---
+TITLE: six versions of  my strawberry delights for your pleasure
+CURRENT_DESCRIPTION: these are old family favorites, quick, simple and delicious, full of flavor and interesting textures.  my family enjoys this dessert served many different ways, they are always so good, we always make two per person, you won't be sorry.
+
+
+with this kind of dessert, your imagination is the only limit.  everything tastes great with puffed pastry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, strawberry jam, grand marnier, orange rind, puff pastry shells, icing sugar
+---
+TITLE: sizzling beef with spring onions   black bean sauce
+CURRENT_DESCRIPTION: this works best with rice that has been prepared earlier, then completely chilled in the fridge.  from jamie oliver's ministry of food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sea salt, black pepper, long grain rice, sirloin steaks, fresh ginger, garlic cloves
+---
+TITLE: sizzling chilli prawns with egg fried rice
+CURRENT_DESCRIPTION: most of this recipe can be prepared ahead of time, so when you want to serve dinner you've only got a few minutes of easy cooking that will result in an impressive oriental meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, garlic, spring onion, eggs, coriander, vegetable oil
+---
+TITLE: Skewered Chicken In Mustard Dill
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 large whole chicken breasts (on the bone), 1 Tbsp. peppercorns, 1 large onion, peeled and cut in quarters, Mustard Dill Sauce, fresh dill for garnish
+---
+TITLE: Skewered Shrimp(For 4)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 lb. beef cubes, 4 Tbsp. Worcestershire sauce, 1 doz. large shrimp (20 count per lb. minimum size) (raw is better but precooked is okay), 2 cloves garlic, 2 inches ginger root, 2 onions
+---
+TITLE: skillet apple pie     america s test kitchen
+CURRENT_DESCRIPTION: this recipe is from "america's test kitchen" on pbs. they suggest a combination of sweet and tart apples. i use a mixture of rome and granny smith, but that's just my preference.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, sugar, table salt, vegetable shortening, unsalted butter, ice water
+---
+TITLE: Skillet Baked Beans
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large can pork and beans, 1/2 lb. bacon, 1 medium green pepper, 1 medium onion, 1/2 c. syrup, 1/2 c. catsup
+---
+TITLE: Skillet Barbecue Beans
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 lb. ground pork sausage, 1/2 c. chopped onion, 1/4 c. chopped green pepper, 1 (28 oz.) can pork and beans, 1 (3 1/2 oz.) envelope barbecue flavored seasoning and coating mix (for pork)
+---
+TITLE: Skillet Chicken Italiano
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. chicken parts, 2 Tbsp. salad oil, 1 can creamy chicken mushroom soup, 1/2 c. chopped canned tomatoes, 2 Tbsp. chopped onions, 1 small clove garlic, minced
+---
+TITLE: skillet chicken pot pie
+CURRENT_DESCRIPTION: this is a recipe shown on america's test kitchen on pbs. this is the first dish i tried to make from their recipes and it turns out excellent! the "pie crust" topping are actually biscuits that you dip into the thickened chicken pot pie broth. it is so incredibly easy. the biscuits that top the chicken that atk used were james beard's cream biscuits, but i rarely have cream to use, and i just used regular milk and they still turned out great! you can double the biscuit recipe if you need more, this one should make about a dozen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, butter, salt and pepper, onion, flour, poultry seasoning
+---
+TITLE: Skillet Date Balls
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 lb. butter, 1 egg, 1 c. sugar, 1 c. dates, 2 c. Rice Krispies, 1 tsp. vanilla
+---
+TITLE: skillet lasagna with italian sausage and butternut squash
+CURRENT_DESCRIPTION: dh and i saw this recipe in a williams-sonoma catalog and tried it last night.  we loved it!  we used hot italian sausage, as that is what we had on hand, and found we had to break the noodles a bit to get them to fit into our skillet.  i definitely think this one is a keeper.  prep time includes resting time at the end.  cook time includes time to cook the lasagna noodles al dente, which is specified in the ingredient list, but not in the directions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, yellow onion, garlic cloves, salt, fresh ground pepper, mild italian sausage
+---
+TITLE: Skillet Pineapple Upside-Down Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/4 c. butter, 1 c. brown sugar, 8 slices canned pineapple, 8 maraschino cherries, 3 eggs, beaten, 1/2 tsp. salt
+---
+TITLE: skillet shrimp and rice
+CURRENT_DESCRIPTION: this is a recipe from cooks country magazine. i used frozen shrimp and thawed them and diced tomatoes with mild green chilies for a flavor boost. this can be transferred to a covered baking dish, instead of using the ovenproof skillet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra-large shrimp, extra virgin olive oil, paprika, salt, chorizo sausages, onion
+---
+TITLE: Skinny  Meatloaf
+CURRENT_DESCRIPTION: this is a great meatloaf recipe.  the mushroom sauce is the best.  i have doubled the recipe, split it and and will freeze the two loaves for future meals. i can defrost a meatloaf the night before to save a little time the next day.  i got this recipe out of the cuisine at home magazine and is always asked for the recipe by friends.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground sirloin, ground turkey, ground pork, panko breadcrumbs, fresh parsley, onion
+---
+TITLE: skinny down home chicken pot pie
+CURRENT_DESCRIPTION: this is my sister jackies fav. cookbook  , "cook yourself thin
+'
+'and this is a great pot pie made with phyllo dough
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, flour, onion, garlic cloves, leek, carrot
+---
+TITLE: skinny in pink cupcakes
+CURRENT_DESCRIPTION: this is an easy cupcake recipes that you will think came from one of those expensive cupcake shops. it's rich and decadent without all the extra fat and calories. i hope it's a winner around your house like it is around here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, baking powder, seltzer water, vanilla extract, egg whites, light butter
+---
+TITLE: Skinny Soup(Weight Watchers)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large head cabbage, cut in shreds, 2 c. celery, cut up, 2 large cans tomato juice, 8 pkg. sweetener, juice of 1 lemon (1/4 c. juice), 1/2 c. onion flakes or 1 c. fresh onion
+---
+TITLE: skip s chicken tetrazzini
+CURRENT_DESCRIPTION: i have been trying to recreate a recipe i tasted many years ago at one of my wife's clubs.  i think i finally did it, because this tastes like i remember.  maybe better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, broth seasonings, chicken stock, cooked chicken, garlic powder, celery
+---
+TITLE: Skor Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 box German chocolate cake mix, 1 can Eagle Brand condensed milk, 1 jar Smucker's caramel sauce, 1 container Cool Whip, 6 Skor candy bars
+---
+TITLE: Skordy  New Potatoes W Rosemary Lemon   Olive Oi
+CURRENT_DESCRIPTION: i took this recipe from a vegan tastes of greece for a  recipe called skordalia which seemed like a dip.  i wanted this flavour without dip, so i changed it a bit;  hence skordy.  i listened to penulum while making greek treats which was rather funky do try!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: new potatoes, lemon, juice of, lemon, zest of, rosemary, olive oil, garlic cloves
+---
+TITLE: Skroodle Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can red beans, 1 can mixed vegetables, 1 (8 oz.) pkg. Skroodle noodles, 1 small jar pimentos, 1 c. chopped onions, 1/2 c. chopped celery
+---
+TITLE: slammin   jammin  parmigiana
+CURRENT_DESCRIPTION: a recipe i watched guy fieri and his son hunter make on guy's big bite! easy and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, kosher salt, sugar, flour, eggs, milk
+---
+TITLE: Slavic Oven Stew
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 medium potatoes, peeled and sliced, 1 large onion, sliced, 1 large green pepper, sliced, 1/2 c. uncooked rice, margarine, salt and pepper
+---
+TITLE: Slaw
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/3 c. sugar, 3/4 tsp. salt, 3/4 tsp. pepper, 1 Tbsp. celery seed, 1 Tbsp. prepared mustard, 1/4 c. apple cider vinegar
+---
+TITLE: slice of heaven cake
+CURRENT_DESCRIPTION: i first had this cake at a friend's house about 10 years ago.    i begged her for the recipe for two weeks before she finally gave in and honored me with the recipe.  it's a little time consuming, but you end up with a very elegant and delicious cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white chocolate, vanilla, water, chocolate chips, butter, pecans
+---
+TITLE: sliced beef with black beans   chinese broccoli on rice
+CURRENT_DESCRIPTION: in new york city’s chinatown restaurants, you can order dishes of fish, meat or other foods on/over white rice and a meal for one person. however, this recipe will serve two or more…  this sliced beef with black beans, chinese broccoli and with white rice is “my take” on this easy-to-make and tasty beef dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steak, broccoli, peanut oil, preserved black beans, ginger, cornstarch
+---
+TITLE: sliced grilled steak on blue cheese biscuits
+CURRENT_DESCRIPTION: rachael ray's 365: no repeats
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, mccormick grill seasoning, worcestershire sauce, salt, fresh ground pepper, extra virgin olive oil
+---
+TITLE: Sliced Potatoes
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 5 potatoes, sliced, 3/4 c. melted butter, 1 tsp. dry mustard
+---
+TITLE: sliders  mini burgers w cheese
+CURRENT_DESCRIPTION: these burgers are similiar to white castle/krystal type burgers.  i use sara lee dinner rolls that come 12 to package and can be found in the bread section of most supermarkets. the recipe sounds complicated, but i prep everything ahead of time so that once i start frying the burgers, i can make 12 of them in less than 15 minutes. i usually serve 3 burgers per serving. i hope you and yours enjoy them as much as my family.  these are requested twice a week in my house!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 90% lean ground beef, vidalia onion, cheddar cheese, dinner rolls, dill pickle slices, ketchup
+---
+TITLE: slightly better for you cinnamon rolls
+CURRENT_DESCRIPTION: based on a recipe from bon appetit magazine, but changed just slightly to include a few lower-fat options and a bit of whole grains.  still retains all its yummy-gooeyness, though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1% low-fat milk, half-and-half, plain yogurt, unsalted butter, whole wheat pastry flour, white whole wheat flour
+---
+TITLE: Slightly Spicy  Black Bean Burgers
+CURRENT_DESCRIPTION: this is a twist on recipe #111177. very good and cheap.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, oil, frozen corn, garlic, onion, cumin
+---
+TITLE: Slinky(Apple Flavored, Low Calorie Quencher)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2/3 c. sparkling mineral water, 2/3 c. unsweetened apple juice, 1 Tbsp. freshly squeezed lemon juice, a few apple slices and sprig of mint
+---
+TITLE: Slomgolian
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1/2 c. chopped onion, 1/3 c. chopped bell pepper, small can sliced mushrooms (or use fresh), 15 oz. can tomato sauce, 2 c. cooked elbow macaroni
+---
+TITLE: sloppy bombay joes
+CURRENT_DESCRIPTION: recipe courtesy of aarti sequeira winner of the next food network star, 2010 and star of "aarti party". i thought this recipe sounded interesting when she featured it in her show because it includes many spices i love to use. my disclaimer: i used what i had on hand. i am not fond of cooked raisins and did not add the pistachios. i subbed ground beef for turkey and a jalapeno pepper for the serrano chili. clearly beef and turkey are different and the taste will be different but this was enjoyed by the grownups & the kids in the family. the kids prefer this to "regular" sloppy joes. aarti said it was ok to use beef but turkey would lend a sweeter flavor to the dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, ginger, garlic cloves, serrano chili, garam masala, paprika
+---
+TITLE: sloppy joe mac and cheese
+CURRENT_DESCRIPTION: from light and tasty.  this is one of their makover recipes.  the original recipe had 658 calories a serving, but this versio only has about 350.  they also cut the fat hugely.  but, just like them to keep the flavor.  give this a try...you won't be sorry.  a serving = 1 1/3 cups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: elbow macaroni, lean ground turkey, celery, carrot, diced tomatoes, tomato paste
+---
+TITLE: Sloughed  Tortellini Salad
+CURRENT_DESCRIPTION: this is a favorite make-ahead salad for company when we barbecue. from aces cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheese-filled tortellini, fresh spinach, green onions, ripe olives, red bell pepper, baby shrimp
+---
+TITLE: slow cooked  pork ribs with sweet and sour sauce
+CURRENT_DESCRIPTION: jamie is the executive chef of jamie kennedy’s wine bar and restaurant in toronto. these ribs were his choice of favourite comfort foods from 10 top canadian chefs. recipe adapted by the chatelaine test kitchen.
+i like to add the grated rind of an orange to the sauce mixture. prep time does not include marinating overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato sauce, orange juice, onion, celery, cider vinegar, honey
+---
+TITLE: slow cooked smothered pork chops
+CURRENT_DESCRIPTION: this uses a crock pot to make a tender pork chop with gravy.  perfect to serve with mashed potatoes.  from cook's country, july 2008.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, pork chops, salt and pepper, yellow onions, light brown sugar, water
+---
+TITLE: slow cooker chicken chasseur
+CURRENT_DESCRIPTION: from the america's test kitchen cookbook., the same folks as cook's illustrated.  i haven't tried it yet.  the chicken pieces should still have both the bone in and the skin on.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, vegetable oil, chicken breast halves, salt and pepper, cremini mushrooms, red onion
+---
+TITLE: slow cooker french onion soup
+CURRENT_DESCRIPTION: i made this fantastic recipe for a big batch of onion soup that you can freeze in portions to use later.  serve this with a lovely red wine and salad and voilà for a romantic meal.  these are 14 large servings so if you are serving this before a meal reduce the amount of soup in your bowl.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, butter, beef stock, worcestershire sauce, bay leaf, thyme
+---
+TITLE: slow cooker french onion soup cook s country
+CURRENT_DESCRIPTION: after quartering, slice the onions pole to pole for substantial slices that will hold up to long cooking. beef bones are stocked in the freezer or meat section of supermarkets.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef bones, unsalted butter, yellow onions, salt and pepper, brown sugar, fresh thyme
+---
+TITLE: slow cooker pork roast    roti de porc a la mijoteuse
+CURRENT_DESCRIPTION: this slow cooker pork roast recipe is perfect for a weeknight dinner when you know you won't have much time to cook. just brown the pork loin in a butter, cover with mustard and cook on low for 6 hours with a little broth and vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin roast, garlic cloves, salt and pepper, butter, olive oil, dijon mustard
+---
+TITLE: slow cooker texas pulled pork
+CURRENT_DESCRIPTION: this is like a texas-style pulled pork simmers in a tangy chili-seasoned barbecue sauce with plenty of onion, then pulled into tender shreds to serve on a buttered, toasted bun.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, pork shoulder, barbecue sauce, apple cider vinegar, chicken broth, light brown sugar
+---
+TITLE: slow roasted turkey breast with gravy
+CURRENT_DESCRIPTION: this preparation will not produce a turkey breast with crispy skin.  in fact, i normally remove the skin completely (and discard it) after the turkey has cooked.  the meat comes out wonderfully moist and the gravy is out-of-this-world!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey breast, salt, vegetable oil, onion, garlic cloves, butter
+---
+TITLE: slow simmer chicken and dumplins
+CURRENT_DESCRIPTION: it's the cracker barrel recipe.  i got it from the copycat recipes website.  it's rather long but worth it.  i was raised eating chicken and dumplins but was never able to re-create it like my daddy's.  this recipe is right on target!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, chicken broth, broiler-fryer chickens, salt, onion, celery
+---
+TITLE: slow steamed goat or lamb with mild chile seasoningbirria de chivo o de carnero
+CURRENT_DESCRIPTION: this is posted by request, i've never made it. it's also a copy cat recipe from the cook book authentic mexican by rick and deann bayless.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: goat meat, chiles guajillos, garlic, cider vinegar, ground cumin, ground black pepper
+---
+TITLE: Slow-Cooked Bolognese
+CURRENT_DESCRIPTION: J. Kenji Lopez-Alt's definitive bolognese — a rich, deeply savoury meat sauce built with three meats, milk, and a long slow braise. Worth every minute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 250 g ground beef, 250 g ground pork, 100 g pancetta, 1 medium onion, 1 medium carrot, 2 stalks celery
+---
+TITLE: Slow-Cooked Bolognese
+CURRENT_DESCRIPTION: J. Kenji Lopez-Alt's definitive bolognese — a rich, deeply savoury meat sauce built with three meats, milk, and a long slow braise. Worth every minute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 250 g ground beef, 250 g ground pork, 100 g pancetta, 1 medium onion, 1 medium carrot, 2 stalks celery
+---
+TITLE: slowburn goat curry with friend roti
+CURRENT_DESCRIPTION: thick indian inspired goat curry, with potatoes, coconut milk and serrano chilies, that turns up the heat, every so slowly till you melt. grab a piece of crisp fried roti and dive right in.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: goat meat, coconut milk, ground ginger, curry powder, olive oil, white onion

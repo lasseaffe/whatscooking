@@ -1,0 +1,163 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap');
+
+  .wc-preview {
+    background: #0F0B08;
+    border: 1px solid #2A1804;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  .wc-header {
+    padding: 18px 24px 14px;
+    text-align: center;
+    border-bottom: 1px solid rgba(244,162,97,0.1);
+  }
+  .wc-supertitle {
+    letter-spacing: 6px;
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .wc-recipe-title {
+    margin: 0 0 6px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .wc-subtitle {
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  /* Option A — Current (for reference) */
+  .opt-a .wc-supertitle { color: rgba(244,162,97,0.35); font-family: 'Inter', sans-serif; }
+  .opt-a .wc-recipe-title { font-size: clamp(22px,3vw,34px); font-family: 'Libre Baskerville', serif; color: rgba(239,227,206,0.88); }
+  .opt-a .wc-subtitle { color: rgba(244,162,97,0.3); font-family: 'Inter', sans-serif; }
+  .opt-a .wc-header { background: color-mix(in srgb, #B07040 6%, #0a0503); }
+
+  /* Option B — Editorial Elegance */
+  .opt-b .wc-supertitle {
+    color: rgba(244,162,97,0.6);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 8px;
+    font-size: 8px;
+  }
+  .opt-b .wc-recipe-title {
+    font-size: clamp(26px,4vw,44px);
+    font-family: 'Playfair Display', serif;
+    color: #EFE3CE;
+    text-shadow: 0 2px 24px rgba(244,162,97,0.15);
+    letter-spacing: -0.5px;
+  }
+  .opt-b .wc-subtitle {
+    color: rgba(244,162,97,0.5);
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    letter-spacing: 4px;
+  }
+  .opt-b .wc-header {
+    background: linear-gradient(180deg, rgba(184,100,40,0.08) 0%, transparent 100%);
+    padding: 22px 24px 18px;
+  }
+  .opt-b::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(244,162,97,0.3), transparent);
+    margin: 0 40px;
+  }
+
+  /* Option C — Cinematic */
+  .opt-c .wc-header {
+    background: #0F0B08;
+    padding: 20px 24px;
+    position: relative;
+  }
+  .opt-c .wc-supertitle {
+    color: #C85A2F;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .opt-c .wc-recipe-title {
+    font-size: clamp(20px,3.2vw,38px);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    color: #F5EBD8;
+    letter-spacing: 0.5px;
+    font-style: italic;
+  }
+  .opt-c .wc-subtitle {
+    color: rgba(200,90,47,0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    letter-spacing: 3px;
+  }
+  .opt-c-dot {
+    display: inline-block;
+    width: 4px; height: 4px;
+    background: #C85A2F;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 6px;
+    opacity: 0.6;
+  }
+</style>
+
+<h2>Header Typography Direction</h2>
+<p class="subtitle">The "Tonight's Edition" header sets the editorial tone for the whole page. Pick the direction that feels most like a premium food experience.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="wc-preview opt-a">
+        <div class="wc-header">
+          <div class="wc-supertitle">What's Cooking — Tonight's Edition</div>
+          <h3 class="wc-recipe-title">Apple Nut Cinnamon Muffins With Brown Sugar Cinnamon Topping</h3>
+          <div class="wc-subtitle">Fresh Picks · Updated Daily</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Current (Libre Baskerville)</h3>
+      <p>Warm, familiar serif italic. Solid but not exceptional — the title runs long and loses impact.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="wc-preview opt-b">
+        <div class="wc-header">
+          <div class="wc-supertitle">What's Cooking — Tonight's Edition</div>
+          <h3 class="wc-recipe-title">Apple Nut Cinnamon Muffins With Brown Sugar Cinnamon Topping</h3>
+          <div class="wc-subtitle">Fresh Picks · Updated Daily</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Editorial Elegance (Playfair Display) ★ Recommended</h3>
+      <p>Playfair Display italic is richer, more magazine-like. Subtle warm glow under the title. Feels like a real food publication.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="wc-preview opt-c">
+        <div class="wc-header">
+          <div class="wc-supertitle">What's Cooking<span class="opt-c-dot"></span>Tonight's Edition</div>
+          <h3 class="wc-recipe-title">Apple Nut Cinnamon Muffins With Brown Sugar Cinnamon Topping</h3>
+          <div class="wc-subtitle">Fresh Picks<span class="opt-c-dot"></span>Updated Daily</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Cinematic Thin (Cormorant Garamond)</h3>
+      <p>Ultra-light weight, wide letter-spacing. Very high-fashion food editorial. More daring — might feel too delicate on mobile.</p>
+    </div>
+  </div>
+
+</div>

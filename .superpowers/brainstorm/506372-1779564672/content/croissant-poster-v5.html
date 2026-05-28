@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Croissant v5</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,600&family=Inter:wght@200;300;400&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #1a1410;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 24px 16px;
+    font-family: Inter, sans-serif;
+  }
+
+  .poster {
+    width: 100%; max-width: 500px;
+    aspect-ratio: 2/3;
+    position: relative; overflow: hidden;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+    background: #EFE4CE;
+  }
+  .poster:hover    { border-color: rgba(180,130,110,0.4); }
+  .poster.selected { border-color: rgba(180,130,110,0.7); }
+
+  /* pastel color washes */
+  .washes {
+    position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background:
+      radial-gradient(ellipse 70% 50% at 15% 20%, rgba(210,160,148,0.26) 0%, transparent 65%),
+      radial-gradient(ellipse 55% 45% at 88% 82%, rgba(148,172,148,0.20) 0%, transparent 60%),
+      radial-gradient(ellipse 45% 35% at 10% 85%, rgba(172,158,192,0.16) 0%, transparent 55%);
+  }
+
+  /* photo */
+  .photo-zone {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 46%; z-index: 3; overflow: hidden;
+  }
+  .photo-zone img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center 45%;
+    filter: sepia(0.12) saturate(1.05) brightness(1.02);
+    animation: kenBurns 20s ease-in-out infinite;
+    transform-origin: center center;
+  }
+  @keyframes kenBurns {
+    0%   { transform: scale(1.0) translate(0px, 0px); }
+    35%  { transform: scale(1.06) translate(-5px,-2px); }
+    70%  { transform: scale(1.09) translate( 3px, 4px); }
+    100% { transform: scale(1.0) translate(0px, 0px); }
+  }
+  .photo-fallback {
+    width: 100%; height: 100%;
+    background: linear-gradient(#D4A070, #EFE4CE);
+    display: flex; align-items: center; justify-content: center; font-size: 90px;
+  }
+  .photo-fade {
+    position: absolute; top: 0; left: 0; right: 0; height: 46%;
+    z-index: 4; pointer-events: none;
+    background: linear-gradient(to bottom, transparent 0%, transparent 55%, rgba(239,228,206,0.6) 78%, rgba(239,228,206,1.0) 100%);
+  }
+
+  /* content */
+  .content {
+    position: absolute; inset: 0; z-index: 9;
+    display: flex; flex-direction: column;
+    padding: 20px 28px 22px;
+  }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .provenance {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(240,228,208,0.85); line-height: 1.9;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .no {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10px; font-style: italic;
+    color: rgba(240,228,208,0.7); letter-spacing: 2px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .bottom { margin-top: auto; }
+
+  .recipe-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(52px, 11vw, 76px);
+    font-style: italic; font-weight: 400;
+    line-height: 0.87; letter-spacing: -1px;
+    color: #2E1A0E;
+  }
+
+  .scroll-divider {
+    display: flex; align-items: center; gap: 6px;
+    margin: 10px 0 8px;
+  }
+  .scroll-divider .arm { flex: 1; height: 1px; background: rgba(160,100,80,0.4); }
+
+  .sub-label {
+    font-size: 7px; letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(160,100,80,0.65); margin-bottom: 9px;
+  }
+  .description {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic; font-size: 14.5px;
+    color: rgba(46,26,14,0.58); line-height: 1.72;
+    max-width: 320px; margin-bottom: 10px;
+  }
+  .double-rule { display: flex; flex-direction: column; gap: 2px; margin-bottom: 9px; }
+  .double-rule .r1 { height: 1px; background: rgba(160,100,80,0.45); }
+  .double-rule .r2 { width: 44px; height: 1px; background: rgba(160,100,80,0.22); }
+
+  .ingr-label { font-size: 7px; letter-spacing: 5px; text-transform: uppercase; color: rgba(90,50,30,0.38); margin-bottom: 6px; }
+  .ingr-list { list-style: none; display: flex; flex-direction: column; gap: 3px; margin-bottom: 9px; }
+  .ingr-list li {
+    font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: rgba(46,26,14,0.42); display: flex; align-items: center; gap: 7px;
+  }
+  .ingr-list li::before { content: ''; display: block; width: 8px; height: 1px; background: rgba(160,100,80,0.5); flex-shrink: 0; }
+
+  .meta-row { display: flex; gap: 18px; margin-bottom: 9px; }
+  .meta-item { font-size: 8px; letter-spacing: 3px; text-transform: uppercase; color: rgba(90,50,30,0.35); }
+  .meta-item span { color: rgba(90,50,30,0.62); }
+
+  .citation-block { border-top: 1px solid rgba(90,50,30,0.15); padding-top: 7px; }
+  .citation-ref { font-size: 7px; letter-spacing: 3px; text-transform: uppercase; color: rgba(148,158,182,0.7); margin-bottom: 3px; }
+  .citation-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 11px; color: rgba(46,26,14,0.46); line-height: 1.65; }
+  .citation-source { margin-top: 3px; font-size: 7px; letter-spacing: 1.5px; color: rgba(90,50,30,0.28); text-transform: uppercase; }
+
+  .fr { position: relative; border-bottom: 1px dotted rgba(90,50,30,0.28); cursor: help; }
+  .fr::after {
+    content: attr(data-en);
+    position: absolute; bottom: calc(100% + 5px); left: 50%;
+    transform: translateX(-50%);
+    background: rgba(239,228,206,0.98); border: 1px solid rgba(90,50,30,0.2);
+    color: rgba(46,26,14,0.88);
+    padding: 4px 10px; font-size: 10px; letter-spacing: 1.5px;
+    white-space: nowrap; border-radius: 2px;
+    font-family: Inter, sans-serif; font-style: normal; text-transform: none;
+    z-index: 20; pointer-events: none; opacity: 0; transition: opacity 0.15s;
+  }
+  .fr:hover::after { opacity: 1; }
+</style>
+<script>
+function sel(el){el.classList.toggle('selected');try{fetch('/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'click',choice:'croissant-v5',timestamp:Date.now()})});}catch(e){}}
+</script>
+</head>
+<body>
+
+<div style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#5a3820;margin-bottom:12px">
+  Croissant · v5 · trellis monogram · correct fleur-de-lis
+</div>
+
+<div class="poster" onclick="sel(this)">
+
+  <!-- ══════════════════════════════════════════════
+       LAYER 1 — TRELLIS MONOGRAM PATTERN (SVG)
+       Diamond grid lines + correct fleur-de-lis at every intersection.
+       Lines stop before each fleur — small clear halo around each symbol.
+       The whole pattern IS the monogram.
+  ══════════════════════════════════════════════ -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none"
+       xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!--
+        TILE: 22×22px — diamond cell
+        Intersection at center (11,11).
+        Lines approach from 4 diagonal directions, each stopping 5px before center
+        (so gap radius ≈ 5px clears the fleur glyph).
+
+        The correct heraldic fleur-de-lis SVG path (60×78 viewBox):
+          • Center petal: tall oval, wide shoulders, narrow waist at collar
+          • Side petals: broad sweeping wings, span nearly full width
+          • Collar: horizontal band binding all three petals
+          • Base lobe: small oval below collar
+          • Platform cap: tiny rect at bottom
+        Scaled down to ~8×10px for the tile via transform="translate(7,6) scale(0.133)"
+      -->
+      <pattern id="trellis-fdl" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+
+        <!-- NW→SE line, split at center: (0,0)→(7.5,7.5), gap, (14.5,14.5)→(22,22) -->
+        <line x1="0"    y1="0"    x2="7.5"  y2="7.5"  stroke="rgba(150,90,60,0.13)" stroke-width="0.7"/>
+        <line x1="14.5" y1="14.5" x2="22"   y2="22"   stroke="rgba(150,90,60,0.13)" stroke-width="0.7"/>
+        <!-- NE→SW line, split at center: (22,0)→(14.5,7.5), gap, (7.5,14.5)→(0,22) -->
+        <line x1="22"   y1="0"    x2="14.5" y2="7.5"  stroke="rgba(150,90,60,0.13)" stroke-width="0.7"/>
+        <line x1="7.5"  y1="14.5" x2="0"    y2="22"   stroke="rgba(150,90,60,0.13)" stroke-width="0.7"/>
+
+        <!--
+          CORRECT HERALDIC FLEUR-DE-LIS at intersection (11,11).
+          Path defined in a 60×78 coordinate system,
+          centered at (30,39), scaled by 0.133 and translated to (11,11).
+          transform: translate(11,11) scale(0.133) translate(-30,-39)
+
+          PATH ANATOMY (60×78 viewBox):
+          ① Center petal — upright oval shape
+          ② Left wing — broad, sweeps left, tip at x≈0, same height as collar
+          ③ Right wing — mirror of left
+          ④ Collar band — horizontal rect, ties all 3 petals
+          ⑤ Base lobe — small oval hanging below collar
+          ⑥ Base platform — thin cap at very bottom
+        -->
+        <g transform="translate(11,11) scale(0.133) translate(-30,-39)" fill="rgba(150,90,60,0.48)">
+          <!-- ① Center petal -->
+          <path d="M30,4 C24,7 20,15 21,24 C22,30 26,36 30,38 C34,36 38,30 39,24 C40,15 36,7 30,4Z"/>
+          <!-- ② Left wing — broad sweep -->
+          <path d="M30,38 C24,35 17,31 10,30 C3,29 -1,33 0,39 C1,45 7,49 14,48 C21,47 27,43 30,38Z"/>
+          <!-- ③ Right wing — mirror -->
+          <path d="M30,38 C36,35 43,31 50,30 C57,29 61,33 60,39 C59,45 53,49 46,48 C39,47 33,43 30,38Z"/>
+          <!-- ④ Collar band -->
+          <rect x="8" y="46" width="44" height="9" rx="3"/>
+          <!-- ⑤ Base lobe -->
+          <path d="M22,55 C21,62 23,71 30,73 C37,71 39,62 38,55Z"/>
+          <!-- ⑥ Base platform cap -->
+          <rect x="19" y="72" width="22" height="4" rx="1.5"/>
+        </g>
+
+      </pattern>
+    </defs>
+    <!-- Fill entire poster with the trellis+fleur pattern -->
+    <rect width="100%" height="100%" fill="url(#trellis-fdl)"/>
+  </svg>
+
+  <!-- LAYER 2 — pastel color washes -->
+  <div class="washes"></div>
+
+  <!-- LAYER 3 — photo -->
+  <div class="photo-zone">
+    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=500&q=80"
+      alt="Croissant"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="photo-fallback" style="display:none">🥐</div>
+  </div>
+  <div class="photo-fade"></div>
+
+  <!-- ══════════════════════════════════════════════
+       DECORATIVE SVG OVERLAY — ornamental elements
+       Uses the SAME correct heraldic fleur path
+       for all visible decorative accents.
+       Z=8, above washes, below content text.
+  ══════════════════════════════════════════════ -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:8;pointer-events:none;overflow:visible"
+       viewBox="0 0 500 750" preserveAspectRatio="xMidYMid meet"
+       xmlns="http://www.w3.org/2000/svg">
+
+    <!-- ── Editorial rule under photo ── -->
+    <line x1="28" y1="330" x2="472" y2="330" stroke="rgba(100,60,30,0.45)" stroke-width="1.5"/>
+    <line x1="28" y1="334" x2="472" y2="334" stroke="rgba(100,60,30,0.18)" stroke-width="0.7"/>
+
+  </svg>
+
+  <!-- LAYER 9 — readable content -->
+  <div class="content">
+    <div class="top">
+      <div class="provenance">Paris · Île-de-France<br>Maison fondée 1838</div>
+      <div class="no">No. III</div>
+    </div>
+
+    <div class="bottom">
+
+      <div class="recipe-name">Crois-<br>sant</div>
+
+      <!-- ── Scroll divider below title (image 2 mustache-scroll style) ── -->
+      <div class="scroll-divider">
+        <div class="arm"></div>
+        <!-- Correct fleur-de-lis flanked by scroll arms -->
+        <svg width="72" height="16" viewBox="0 0 72 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Left S-scroll arm -->
+          <path d="M0,8 C3,8 5,5 7,8 C9,11 11,11 13,8 C15,5 17,4 19,6 C21,8 22,8 24,8"
+                stroke="rgba(160,100,80,0.52)" stroke-width="0.9" stroke-linecap="round" fill="none"/>
+          <!-- Right S-scroll arm (mirror) -->
+          <path d="M72,8 C69,8 67,5 65,8 C63,11 61,11 59,8 C57,5 55,4 53,6 C51,8 50,8 48,8"
+                stroke="rgba(160,100,80,0.52)" stroke-width="0.9" stroke-linecap="round" fill="none"/>
+          <!-- Correct heraldic fleur-de-lis at center, 60×78 path scaled to ~12×15px -->
+          <!-- centered at (36,8): translate(36,8) scale(0.19) translate(-30,-39) -->
+          <g transform="translate(36,8) scale(0.19) translate(-30,-39)" fill="rgba(160,100,80,0.72)">
+            <path d="M30,4 C24,7 20,15 21,24 C22,30 26,36 30,38 C34,36 38,30 39,24 C40,15 36,7 30,4Z"/>
+            <path d="M30,38 C24,35 17,31 10,30 C3,29 -1,33 0,39 C1,45 7,49 14,48 C21,47 27,43 30,38Z"/>
+            <path d="M30,38 C36,35 43,31 50,30 C57,29 61,33 60,39 C59,45 53,49 46,48 C39,47 33,43 30,38Z"/>
+            <rect x="8" y="46" width="44" height="9" rx="3"/>
+            <path d="M22,55 C21,62 23,71 30,73 C37,71 39,62 38,55Z"/>
+            <rect x="19" y="72" width="22" height="4" rx="1.5"/>
+          </g>
+        </svg>
+        <div class="arm"></div>
+      </div>
+
+      <div class="sub-label">
+        <span class="fr" data-en="Pastry shop · Layered pastry">Boulangerie · Viennoiserie</span>
+      </div>
+
+      <p class="description">
+        Paris doesn't wake up. It breathes in slowly —
+        coffee, cast iron, the sound of a paper bag.
+        The croissant is not breakfast. It is the reason to get up.
+      </p>
+
+      <div class="double-rule"><div class="r1"></div><div class="r2"></div></div>
+
+      <div class="ingr-label">Ingrédients</div>
+      <ul class="ingr-list">
+        <li><span class="fr" data-en="Premium unsalted butter · 250g">Beurre de qualité · 250g</span></li>
+        <li><span class="fr" data-en="Fine wheat flour · 500g">Farine T45 · 500g</span></li>
+        <li><span class="fr" data-en="Fresh yeast · 20g">Levure fraîche · 20g</span></li>
+        <li><span class="fr" data-en="Whole milk · 140ml">Lait entier · 140ml</span></li>
+        <li><span class="fr" data-en="Salt · Sugar · Egg wash">Sel · Sucre · Dorure</span></li>
+      </ul>
+
+      <div class="meta-row">
+        <div class="meta-item"><span class="fr" data-en="Active time">Actif</span> <span>45 min</span></div>
+        <div class="meta-item"><span class="fr" data-en="Rest overnight">Repos</span> <span>8 h</span></div>
+        <div class="meta-item"><span class="fr" data-en="Bake">Cuisson</span> <span>18 min</span></div>
+      </div>
+
+      <!-- Citation with paired fleurs flanking label -->
+      <div class="citation-block">
+        <div class="citation-ref">
+          <span style="display:inline-flex;align-items:center;gap:5px">
+            <!-- tiny fleur left -->
+            <svg width="7" height="9" viewBox="0 0 60 78" fill="rgba(148,158,182,0.65)">
+              <path d="M30,4 C24,7 20,15 21,24 C22,30 26,36 30,38 C34,36 38,30 39,24 C40,15 36,7 30,4Z"/>
+              <path d="M30,38 C24,35 17,31 10,30 C3,29 -1,33 0,39 C1,45 7,49 14,48 C21,47 27,43 30,38Z"/>
+              <path d="M30,38 C36,35 43,31 50,30 C57,29 61,33 60,39 C59,45 53,49 46,48 C39,47 33,43 30,38Z"/>
+              <rect x="8" y="46" width="44" height="9" rx="3"/>
+              <path d="M22,55 C21,62 23,71 30,73 C37,71 39,62 38,55Z"/>
+              <rect x="19" y="72" width="22" height="4" rx="1.5"/>
+            </svg>
+            <span class="fr" data-en="Baker's note">Note du Boulanger</span>
+            <!-- tiny fleur right -->
+            <svg width="7" height="9" viewBox="0 0 60 78" fill="rgba(148,158,182,0.65)">
+              <path d="M30,4 C24,7 20,15 21,24 C22,30 26,36 30,38 C34,36 38,30 39,24 C40,15 36,7 30,4Z"/>
+              <path d="M30,38 C24,35 17,31 10,30 C3,29 -1,33 0,39 C1,45 7,49 14,48 C21,47 27,43 30,38Z"/>
+              <path d="M30,38 C36,35 43,31 50,30 C57,29 61,33 60,39 C59,45 53,49 46,48 C39,47 33,43 30,38Z"/>
+              <rect x="8" y="46" width="44" height="9" rx="3"/>
+              <path d="M22,55 C21,62 23,71 30,73 C37,71 39,62 38,55Z"/>
+              <rect x="19" y="72" width="22" height="4" rx="1.5"/>
+            </svg>
+          </span>
+        </div>
+        <div class="citation-text">
+          "A proper croissant shatters when you bite it.
+          If it bends, it was made with margarine.
+          The French don't negotiate on butter."
+        </div>
+        <div class="citation-source">— <span class="fr" data-en="Unwritten rule · Every French bakery · Est. 1838">Règle non écrite · Toutes les boulangeries · 1838</span></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#5a3820;margin-top:12px;text-align:center">
+  Hover French for English · Click to approve
+</div>
+
+</body>
+</html>

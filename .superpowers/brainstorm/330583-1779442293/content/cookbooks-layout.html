@@ -1,0 +1,133 @@
+<style>
+  .mock-page { background: #1A120A; border-radius: 12px; padding: 20px; font-family: sans-serif; color: #F5EDE0; margin-bottom: 12px; }
+  .mock-title { font-size: 22px; font-weight: 700; color: #E67E22; margin: 0 0 4px; }
+  .mock-sub { font-size: 12px; color: #8B7355; margin: 0 0 14px; }
+  .mock-filter { display: flex; gap: 8px; margin-bottom: 16px; }
+  .mock-chip { background: #2C1F10; border: 1px solid #3A2A1A; border-radius: 20px; padding: 4px 12px; font-size: 11px; color: #8B7355; }
+  .mock-chip.active { background: #E67E22; border-color: #E67E22; color: white; }
+  .mock-chip.outline { background: transparent; border: 1px solid #E67E22; color: #E67E22; }
+
+  /* Section label */
+  .section-label { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: #8B7355; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: #2C1F10; }
+
+  /* Horizontal scroll strip */
+  .scroll-strip { display: flex; gap: 10px; margin-bottom: 20px; }
+  .strip-card { width: 120px; flex-shrink: 0; border-radius: 8px; overflow: hidden; background: #2C1F10; }
+  .strip-card-img { height: 70px; background: linear-gradient(135deg, #3A2010, #5A3820); display: flex; align-items: center; justify-content: center; font-size: 20px; }
+  .strip-card-body { padding: 6px 8px; }
+  .strip-card-title { font-size: 10px; font-weight: 600; color: #F5EDE0; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .strip-card-creator { font-size: 9px; color: #8B7355; margin: 2px 0 0; }
+
+  /* Main grid */
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .grid-card { border-radius: 10px; overflow: hidden; background: #2C1F10; }
+  .grid-card-img { height: 80px; display: flex; align-items: flex-end; padding: 8px; }
+  .grid-card-img.green { background: linear-gradient(160deg, #2D5A27, #4A8840); }
+  .grid-card-img.orange { background: linear-gradient(160deg, #8B4513, #E67E22); }
+  .grid-card-img.dark { background: linear-gradient(160deg, #1A1A1A, #3A2A1A); }
+  .grid-card-img.blue { background: linear-gradient(160deg, #1A2B4A, #2E5090); }
+  .grid-card-img.rose { background: linear-gradient(160deg, #4A1A2A, #8B3550); }
+  .grid-card-img.teal { background: linear-gradient(160deg, #1A3A35, #2E6B5A); }
+  .badge { font-size: 9px; background: rgba(0,0,0,0.5); border-radius: 4px; padding: 2px 6px; color: white; }
+  .badge.following { background: #E67E22; }
+  .grid-card-body { padding: 8px 10px; }
+  .grid-card-title { font-size: 12px; font-weight: 700; color: #F5EDE0; margin: 0 0 2px; }
+  .grid-card-meta { font-size: 10px; color: #8B7355; display: flex; justify-content: space-between; }
+
+  /* Follow button on card */
+  .follow-btn { font-size: 9px; background: transparent; border: 1px solid #E67E22; color: #E67E22; border-radius: 12px; padding: 2px 8px; margin-top: 4px; }
+
+  /* Divider */
+  .trending-section { margin-top: 4px; }
+</style>
+
+<h2>Cookbooks — Social Layout</h2>
+<p class="subtitle">How should contacts' cookbooks be surfaced vs. trending content?</p>
+
+<div class="cards">
+
+  <!-- Option A: Feed Strip -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 16px; background: #111;">
+      <div class="mock-page" style="padding:14px">
+        <div class="mock-title">Cookbooks</div>
+        <div class="mock-sub">Curated recipe collections from creators around the world</div>
+        <div class="mock-filter">
+          <span class="mock-chip active">All</span>
+          <span class="mock-chip">Free</span>
+          <span class="mock-chip">Paid</span>
+          <span class="mock-chip outline">+ New Cookbook</span>
+        </div>
+
+        <div class="section-label">From people you follow</div>
+        <div class="scroll-strip">
+          <div class="strip-card">
+            <div class="strip-card-img" style="background: linear-gradient(135deg,#2D5A27,#4A8840)">🥗</div>
+            <div class="strip-card-body"><p class="strip-card-title">Green & Clean</p><p class="strip-card-creator">@sara_eats</p></div>
+          </div>
+          <div class="strip-card">
+            <div class="strip-card-img" style="background: linear-gradient(135deg,#8B4513,#E67E22)">🔥</div>
+            <div class="strip-card-body"><p class="strip-card-title">Smoke Signals</p><p class="strip-card-creator">@pitmaster_j</p></div>
+          </div>
+          <div class="strip-card">
+            <div class="strip-card-img" style="background: linear-gradient(135deg,#1A2B4A,#2E5090)">🐟</div>
+            <div class="strip-card-body"><p class="strip-card-title">Ocean to Table</p><p class="strip-card-creator">@marinfresh</p></div>
+          </div>
+          <div class="strip-card" style="border: 1px dashed #3A2A1A; background: transparent; display:flex; align-items:center; justify-content:center; height:100px; border-radius:8px; color:#8B7355; font-size:10px; text-align:center; padding:8px">
+            Find more creators →
+          </div>
+        </div>
+
+        <div class="section-label">Trending now</div>
+        <div class="grid-3">
+          <div class="grid-card"><div class="grid-card-img orange"><span class="badge">Free</span></div><div class="grid-card-body"><p class="grid-card-title">Weeknight Wins</p><p class="grid-card-meta"><span>@lasse</span><span>8 recipes</span></p></div></div>
+          <div class="grid-card"><div class="grid-card-img dark"><span class="badge">Free</span></div><div class="grid-card-body"><p class="grid-card-title">Fire & Smoke</p><p class="grid-card-meta"><span>@lasse</span><span>5 recipes</span></p></div></div>
+          <div class="grid-card"><div class="grid-card-img teal"><span class="badge">Free</span></div><div class="grid-card-body"><p class="grid-card-title">Pacific Rim</p><p class="grid-card-meta"><span>@chef_kai</span><span>11 recipes</span></p></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Feed Strip + Grid</h3>
+      <p>Followed creators in a horizontal scroll strip above trending. Clear separation, easy to browse following without leaving the main page. Recommended for social-first feel.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Unified Grid -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 16px; background: #111;">
+      <div class="mock-page" style="padding:14px">
+        <div class="mock-title">Cookbooks</div>
+        <div class="mock-sub">Curated recipe collections from creators around the world</div>
+        <div class="mock-filter">
+          <span class="mock-chip active">Following</span>
+          <span class="mock-chip">Trending</span>
+          <span class="mock-chip">Newest</span>
+          <span class="mock-chip">Free</span>
+          <span class="mock-chip outline">+ New</span>
+        </div>
+
+        <div class="section-label">Cookbooks from people you follow</div>
+        <div class="grid-3" style="margin-bottom:14px">
+          <div class="grid-card"><div class="grid-card-img green"><span class="badge following">Following</span></div><div class="grid-card-body"><p class="grid-card-title">Green & Clean</p><p class="grid-card-meta"><span>@sara_eats</span><span>12 recipes</span></p><button class="follow-btn">Following ✓</button></div></div>
+          <div class="grid-card"><div class="grid-card-img orange"><span class="badge following">Following</span></div><div class="grid-card-body"><p class="grid-card-title">Smoke Signals</p><p class="grid-card-meta"><span>@pitmaster_j</span><span>7 recipes</span></p><button class="follow-btn">Following ✓</button></div></div>
+          <div class="grid-card"><div class="grid-card-img blue"><span class="badge following">Following</span></div><div class="grid-card-body"><p class="grid-card-title">Ocean to Table</p><p class="grid-card-meta"><span>@marinfresh</span><span>9 recipes</span></p><button class="follow-btn">Following ✓</button></div></div>
+        </div>
+
+        <div class="trending-section">
+          <div class="section-label">Trending</div>
+          <div class="grid-3">
+            <div class="grid-card"><div class="grid-card-img dark"><span class="badge">Free</span></div><div class="grid-card-body"><p class="grid-card-title">Fire & Smoke</p><p class="grid-card-meta"><span>@lasse</span><span>5 recipes</span></p><button class="follow-btn">+ Follow</button></div></div>
+            <div class="grid-card"><div class="grid-card-img teal"><span class="badge">Free</span></div><div class="grid-card-body"><p class="grid-card-title">Pacific Rim</p><p class="grid-card-meta"><span>@chef_kai</span><span>11 recipes</span></p><button class="follow-btn">+ Follow</button></div></div>
+            <div class="grid-card"><div class="grid-card-img rose"><span class="badge">Paid</span></div><div class="grid-card-body"><p class="grid-card-title">Spice Routes</p><p class="grid-card-meta"><span>@flavor_lab</span><span>18 recipes</span></p><button class="follow-btn">+ Follow</button></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Unified Grid + Follow Chips</h3>
+      <p>Single grid with tab filters (Following / Trending / Newest). Follow/unfollow button on each card. Cleaner, but the "Following" tab is empty until you follow someone.</p>
+    </div>
+  </div>
+
+</div>

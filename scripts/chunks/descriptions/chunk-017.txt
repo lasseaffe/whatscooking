@@ -1,0 +1,2148 @@
+TITLE: Apple Cheddar Muffins
+CURRENT_DESCRIPTION: from "down home cookin'", this recipe is delicious! it's sweet and savory :p
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, 2% low-fat milk, vegetable oil, unsweetened applesauce, sugar, all-purpose flour
+---
+TITLE: Apple Cheddar Nut Scones
+CURRENT_DESCRIPTION: i found this recipe in a booklet from mott's applesauce and thought that they sounded really good.  the booklet suggests serving these with chili.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, butter, baking powder, cheddar cheese, baking soda, sunflower seeds
+---
+TITLE: Apple Cheddar Panini
+CURRENT_DESCRIPTION: a tasty sandwich and fun to make and eat! adapted from the us apple consumers association.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole grain bread, honey mustard, apples, mild cheddar cheese, cooking spray
+---
+TITLE: Apple Cheddar Pie With Sweet Potato Crust
+CURRENT_DESCRIPTION: this is great cold--also with a good salad and chutney.  i've also taken it on picnics and the children have taken it in lunch boxes. it's also good weekend fare for when you're busy and everyone's in and out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked sweet potato, egg, butter, fresh orange juice, all-purpose flour, salt
+---
+TITLE: Apple Cheddar Potato Soup
+CURRENT_DESCRIPTION: this is a nice autumn soup to make after going apple-picking.  uses simple ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, tart apples, potato, celery, onion, ground thyme
+---
+TITLE: Apple Cheddar Salad With Maple Dressing
+CURRENT_DESCRIPTION: this is a bonnie stern recipe found in readers digest, with a bit of an adjustment.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce, walnuts, apples, sharp cheddar cheese, vinegar, maple syrup
+---
+TITLE: Apple Cheddar Scones
+CURRENT_DESCRIPTION: these are wonderfully light and moist scones- a perfect meeting of sweet and savoury.  the recipe is from the fabulous dorie greenspan and is printed in her cookbook "baking: from my home to yours".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, buttermilk, apple cider, all-purpose flour, yellow cornmeal, sugar
+---
+TITLE: Apple Cheddar Skillet Corn Bread
+CURRENT_DESCRIPTION: while corn tortillas are by far the most popular bread in mexico, cornmeal is used in other breads as well. apples are added to this one, leading a sweetness and texture that is very appealing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cornmeal, baking powder, baking soda, salt, skim milk, vinegar
+---
+TITLE: Apple Cheddar Snack Wraps  Anna Olson
+CURRENT_DESCRIPTION: this is a delicious snack for kids and adults alike! anna olson is a canadian chef who has had a couple of shows on food network canada. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mild cheddar cheese, apple, low-fat plain yogurt, walnut pieces, grainy mustard, whole wheat tortillas
+---
+TITLE: Apple Cheddar Soup
+CURRENT_DESCRIPTION: from better homes & gardens....a wonderful autumn soup!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, potatoes, apple cider, dried thyme, salt
+---
+TITLE: Apple Cheddar Turkey Burgers
+CURRENT_DESCRIPTION: this recipe is a little bit of a twist on the turkey burger. the apples are really great in this dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, scallions, flat leaf parsley, poultry seasoning, olive oil, granny smith apple
+---
+TITLE: Apple Cheddar Walnut Bread
+CURRENT_DESCRIPTION: the classic apple/cheddar combination shines in this delicious bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, sugar, cinnamon, walnuts, apples, butter
+---
+TITLE: Apple Cheddar Walnut Toasts
+CURRENT_DESCRIPTION: these are tasty little snacks or appetizers. they compliment cheddar butternut squash soup nicely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat french bread, tart apple, sharp cheddar cheese, walnut pieces, black pepper
+---
+TITLE: Apple Chedder Panini
+CURRENT_DESCRIPTION: buddy valaski is an italian, who makes a living as a pastry chef. he has two shows on tlc called cake boss and kitchen boss. on the latter show, buddy makes primarily italian food, mostly from sicily, where his family is originally from. i don't know if paninis are sicilian in origin, but buddy sure knows how to make good recipes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, apples, ground cinnamon, apple jelly, egg bread, mild cheddar cheese
+---
+TITLE: Apple Cheese Ball
+CURRENT_DESCRIPTION: i got this from southern living magazine perfect tailgating appetizer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cheddar cheese, cream cheese, garlic powder, paprika, cinnamon sticks, bay leaf
+---
+TITLE: Apple Cheese Bars
+CURRENT_DESCRIPTION: apples, cheddar cheese and a cream cheese topping.... these bars sound delicious. i haven't made them yet, but i can't wait to try them. (prep time is a guess). recipe from better homes and gardens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, butter, sugar, egg yolks, baking powder, apples
+---
+TITLE: Apple Cheese Bites
+CURRENT_DESCRIPTION: this is an easy, tasty snack that you and your kids will love! adapted from canadian living. new england, mid atlantic, canadian
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light cream cheese, craisins, apples, cinnamon, nutmeg
+---
+TITLE: Apple Cheese Danish
+CURRENT_DESCRIPTION: found a scandinavian recipe contest and this was one of the winners. i haven't had a chance to make it yet but it sounds easy and good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, vanilla, refrigerated biscuits, apple, pecans
+---
+TITLE: Apple Cheese Danish  Pie
+CURRENT_DESCRIPTION: this is posted for the zwt 2006.  i have not not tried this recipe and it is compliments of fooddownunder.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crackers, apples, sugar, sugar substitute, cinnamon, raisins
+---
+TITLE: Apple Cheese English Muffin Pizzas
+CURRENT_DESCRIPTION: this was from the woman's day magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: english muffins, apple, cheddar cheese, cream cheese, dried cranberries
+---
+TITLE: Apple Cheese Lunch
+CURRENT_DESCRIPTION: a diet-proof lunch i always bring to my bookclub meeting. nutrious and delicious. you can also sub. vanilla yogurt for sour cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sour cream, liquid honey, lemon juice, red apples, colby cheese, celery
+---
+TITLE: Apple Cheese Muffins
+CURRENT_DESCRIPTION: a nice combination of apples and cheese - a classic!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, sugar, eggs, flour, baking soda, salt
+---
+TITLE: Apple Cheese Quesadilla
+CURRENT_DESCRIPTION: i love to make these after mexican meals. they are so easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, flour tortillas, fat-free american cheese, splenda sugar substitute, cinnamon
+---
+TITLE: Apple Cheese Salad
+CURRENT_DESCRIPTION: posted for zwt7- switzerland. found on alleasyrecipes.com.
+note: cook time is refrigerator time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red apples, fresh lemon juice, celery, swiss cheese, mayonnaise, prepared mustard
+---
+TITLE: Apple Cheese Sausage Balls
+CURRENT_DESCRIPTION: this recipe can be prepared ahead and frozen.  from gourmet-soups-stews-side_dishes-and-dinner_pies newsgroup posted by "granny mae". edited 7/04/12: i would bake on a broiling pan so the grease and juice could drain away.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bulk sausage, sharp cheddar cheese, egg, unseasoned breadcrumbs, apples
+---
+TITLE: Apple Cheese Spread
+CURRENT_DESCRIPTION: delicious on a toasted bagel, plain toast or serve as an appetizer with crackers.it will keep covered in the fridge for a couple of days.  recipe originated from direct recipes on the internet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, cheddar cheese, fresh lemon juice, granny smith apple, black pepper, dried thyme
+---
+TITLE: Apple Cheese Torte
+CURRENT_DESCRIPTION: very delicious warm or cool!!!! serve for a brunch, lunch, tea time, snack time, dessert, in other words, anytime!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, all-purpose flour, raspberry jam, cream cheese, egg
+---
+TITLE: Apple Cheesecake
+CURRENT_DESCRIPTION: another recipe i found on a german website! apeel kase  kuchen
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, sugar, butter, egg, vanilla extract
+---
+TITLE: Apple Cheesecake Pie
+CURRENT_DESCRIPTION: simply delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker pie crusts, cream cheese, sugar, lemon juice, vanilla, eggs
+---
+TITLE: apple cherry brie appetizer
+CURRENT_DESCRIPTION: from november 2007 holiday appetizers & mini desserts cookbook from pillsbury.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brie round, apple, dried cherries, sugar, water, cornstarch
+---
+TITLE: Apple Cherry Brie Appetizer
+CURRENT_DESCRIPTION: from november 2007 holiday appetizers & mini desserts cookbook from pillsbury.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brie round, apple, dried cherries, sugar, water, cornstarch
+---
+TITLE: Apple Cherry Cobbler Pie
+CURRENT_DESCRIPTION: i made this for company last night and it was fabulous and so easy...
+got it from betty crockers fall baking magazine...i used a pillsbury
+refrigerated pie crust. the only thing i changed is i used splenda instead of sugar as i was feeding a diabetic...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated pie crust, sugar, cornstarch, ground cinnamon, almond extract, tart apples
+---
+TITLE: Apple Cherry Crisp
+CURRENT_DESCRIPTION: this is delicious and healthy.  it is from one of my favorite cookbooks:  moosewood.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, frozen cherries, brown sugar, quick-cooking tapioca, rolled oats, unbleached white flour
+---
+TITLE: Apple Cherry Fruit Spread
+CURRENT_DESCRIPTION: from the washington apple commision. no sugar, no fat! serve on pancakes, waffles, toast, english muffins or graham crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fuji apples, dried cherries, fruit juice, cinnamon stick, lemon zest
+---
+TITLE: Apple Cherry Haroset Charoset For Passover
+CURRENT_DESCRIPTION: from a jewish newspaper.  i clipped this some years ago.  may be prepared up to 2 days ahead of time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cherries, almonds, cinnamon, honey, red wine
+---
+TITLE: Apple Cherry Pecan Crisp
+CURRENT_DESCRIPTION: i found this on starchefs, a delicious sounding recipe.  i have not tried it yet so serving size is a guesstimate
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red delicious apples, granny smith apples, dried cherries, orange juice, cinnamon stick, raspberry liqueur
+---
+TITLE: Apple Cherry Pie Loaves
+CURRENT_DESCRIPTION: this quick-to-make bread makes great holiday gifts for friends and family!  i found this recipe in a folder of magazine and newspaper clippings that i ran across when i was cleaning up my office.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, cinnamon, salt, baking soda, eggs
+---
+TITLE: Apple Chestnut Stuffing
+CURRENT_DESCRIPTION: this is a great stuffing for turkey or chicken but would also go well with pork. from christine cushing live. *note*: time for roasting the chestnuts is not included. have them ready when you start.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, butter, prune, chestnuts, challah, garlic cloves
+---
+TITLE: Apple Chicken
+CURRENT_DESCRIPTION: nummy fall dish, be sure to use apples that keep their shape when cooked, such as golden delicious. adapted from canadian living mag.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, dried thyme, salt, pepper, vegetable oil, apples
+---
+TITLE: Apple Chicken Patties
+CURRENT_DESCRIPTION: they were giving out samples of this and the recipe at a grocery store and it was really good!  you can eat them with buns or plain.  we've since tried out the recipe at home and my husband really likes them as well. sounds a little funny but give them a try!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apple, poultry seasoning, salt, pepper, ground chicken
+---
+TITLE: Apple Chicken Quesadillas
+CURRENT_DESCRIPTION: a great lunch or party finger food.  three wedges = one serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apples, cooked chicken breast, fat-free cheddar cheese, part-skim mozzarella cheese, fresh tomato, onion
+---
+TITLE: Apple Chicken Salad
+CURRENT_DESCRIPTION: this salad makes a very nice packed lunch for work or a picnic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, apple, celery, raisins, italian dressing, brown sugar
+---
+TITLE: Apple Chipotle Salsa  Southwest
+CURRENT_DESCRIPTION: this recipe was found in the 1997 cookbook, vegetarian planet. recommended for quesadillas or burritos.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, red onion, green bell peppers, chipotle peppers, garlic clove, lime juice
+---
+TITLE: Apple Chocolate Pudding
+CURRENT_DESCRIPTION: this is from a book called celebrating chocolate written by beverley sutherland smith.this pudding is light, not too sweet and has a moist, almost sticky texture.it looks like a cake and can be served as one and slices beautifully once cooled. i also substituted flaked almonds instead of the walnuts and apricots can also be use in place of apples.just divine served with the cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, sugar, lemon juice, butter, egg, flour
+---
+TITLE: Apple Chocolate Quick Bread
+CURRENT_DESCRIPTION: "from favorite name brand muffin collection"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, semisweet chocolate morsels, sugar, baking powder, cinnamon, salt
+---
+TITLE: Apple Chocolate Salad
+CURRENT_DESCRIPTION: i had this for dessert in a movie bistro many years ago. very simple but tasty treat!
+the chocolate should be at least 70 percent.
+the pecans can of course remain raw if you prefer that to toasting them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, lemon juice, chocolate, maple syrup, dried cranberries, pecans
+---
+TITLE: Apple Chunk Bread For The Bread Machine
+CURRENT_DESCRIPTION: a great bread for breakfast.  cooking time is the amount of time it takes in my bread machine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, vegetable oil, sugar, cinnamon, salt, bread flour
+---
+TITLE: Apple Chutney
+CURRENT_DESCRIPTION: the original of this recipe (which has been tweaked slightly) was found on the wood's cider mill website, the same website on which can be purchased the boiled cider that makes this chutney so very tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, onion, cider vinegar, dark raisins, cider, ground cloves
+---
+TITLE: Apple Chutney  From The New Revised Moosewood Cookbook
+CURRENT_DESCRIPTION: i love chutney but it is expensive to buy. apples are plentiful and cheap in nova scotia (and many other locations) so i like to make this one to accompany samosas and anything else that needs a delicious kick. it's also very easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, garlic clove, fresh ginger, cinnamon, cloves, salt
+---
+TITLE: Apple Chutney From The Duck Soup Inn
+CURRENT_DESCRIPTION: this is from the duck soup inn in the san juan islands.  we really liked this alot with ham.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, onion, brown sugar, water, cider vinegar, red pepper
+---
+TITLE: Apple Cider   Wild Rice  Pilaf  Treasure
+CURRENT_DESCRIPTION: oh this is sooo good. i really hope that you will enjoy this tasty dish as much as we all do. quick, easy to make with delicious results...try it...see for yourselves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wild rice, apple cider, water, butter, pecans, golden raisin
+---
+TITLE: Apple Cider And Rosemary Ice Pops
+CURRENT_DESCRIPTION: this is an delicious autumn-y popsicle! the recipe is from locopops, a gourmet ice pop place in north carolina, but i found it on bon appetit's website. the recipe said it made 12 popsicles, but for me it made about 7 large ones.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple juice, water, sugar, fresh rosemary, cinnamon stick, whole cloves
+---
+TITLE: Apple Cider Biscuits
+CURRENT_DESCRIPTION: good fall recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, sugar, salt, butter, apple cider
+---
+TITLE: Apple Cider Bread
+CURRENT_DESCRIPTION: this loaf is warm and makes the whole house smell good while baking
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, all-purpose flour, baking powder, salt
+---
+TITLE: Apple Cider Bread Pudding
+CURRENT_DESCRIPTION: from "baking bites" - http://bakingbites.com/2011/01/apple-cider-bread-pudding/#more-8551
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, apples, raisins, eggs, brown sugar, ground cinnamon
+---
+TITLE: apple cider brined turkey
+CURRENT_DESCRIPTION: from the www.chefscatalog.com website - diane morgan, the thanksgiving table (chronicle books, 2001).
+if you would like to purchase this book, please visit chronicle books.
+"trust me here - you will never again complain, nor hear complaints about dry meat if you make brining the first step in the preparation of your holiday bird. brining requires nothing more than boiling water with salt, sugar and spices; cooling the mixture; then soaking the turkey in the brine for 12 to 24 hours."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kosher salt, sugar, fresh ginger, bay leaves, whole cloves, black peppercorns
+---
+TITLE: apple cider brined turkey with savory herb gravy
+CURRENT_DESCRIPTION: i found this recipe about 5 years ago in cooking light and have been using it ever since. it makes the best turkey ever and couldn't imagine preparing mine any other way now. very juicy and delicious!!!  this is for a 12 1/2 lb turkey. i usually double it for a bigger turkey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, kosher salt, sugar, black peppercorns, whole allspice, ginger
+---
+TITLE: Apple Cider Brined Turkey With Savory Herb Gravy
+CURRENT_DESCRIPTION: i found this recipe about 5 years ago in cooking light and have been using it ever since. it makes the best turkey ever and couldn't imagine preparing mine any other way now. very juicy and delicious!!!  this is for a 12 1/2 lb turkey. i usually double it for a bigger turkey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, kosher salt, sugar, black peppercorns, whole allspice, ginger
+---
+TITLE: Apple Cider Brisket
+CURRENT_DESCRIPTION: from "adventures in jewish cooking" by jeffrey nathan.  i found this in the paper. cook and serve the next day which i didn't include in the cook time.*variation in "jewish cookery" by leah h. leonard is similar but instead of using rosemary and thyme for the spices, her recipe uses 1/8 tsp. ginger, 1/8 tsp. allspice and 2 bay leaves instead.  just thought i'd post this here too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, beef brisket, onions, apple cider, molasses, garlic cloves
+---
+TITLE: Apple Cider Cake
+CURRENT_DESCRIPTION: a wonderful blend of fall flavors. the glaze sets up like a fondant. and is extra yummy! :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot cake mix, caramel flavored cake mix, eggs, oil, apple cider, pumpkin pie spice
+---
+TITLE: Apple Cider Cake Donuts
+CURRENT_DESCRIPTION: these are really a small bundt cake.  good for breakfast.  not sure where i got this recipe but i like them especially in the fall.  i use a pan that has four bundt style molds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, salt, cinnamon, egg
+---
+TITLE: Apple Cider Cake Mix Doughnuts
+CURRENT_DESCRIPTION: the fall always reminds me of a few things the changing of the leaves, cool crisp air, halloween and of course warm apple cider doughnuts. these are very yummy and are best served warm. be sure to make plenty because these don't last very long.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, yeast, white cake mix, flour, cinnamon-sugar mixture
+---
+TITLE: Apple Cider Cheddar Fondue
+CURRENT_DESCRIPTION: fall will be here soon. i can almost hear the leaves rustling now. have fun with this fondue on a cool fall evening.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sharp cheddar cheese, cornstarch, sparkling apple cider, lemon juice, salt, ground cinnamon
+---
+TITLE: Apple Cider Cheesecake   No Cook
+CURRENT_DESCRIPTION: this recipe was on the lid of some whipped cream.  i always have instant apple cider on hand, so this is an easy addition to my quick to make desserts.  prep time is refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple pie filling, graham cracker pie crust, cream cheese, sour cream, instant apple cider drink mix, whipped topping
+---
+TITLE: Apple Cider Chicken
+CURRENT_DESCRIPTION: i found this recipe on dlife.com. i thought it sounded very yummy. of course since i'm on a gluten free diet i made a few changes to the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gluten-free flour, salt, black pepper, garlic powder, ground sage, boneless skinless chicken breast
+---
+TITLE: Apple Cider Doughnuts
+CURRENT_DESCRIPTION: from the new york times, adapted from todd gray, equinox restaurant, washington. i haven't made this but i want it in my cookbook so i'm posting it. if desired serve with recipe #403679. the 30 minutes cooking time refers to 30 minutes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, all-purpose flour, baking powder, baking soda, salt, nutmeg
+---
+TITLE: Apple Cider Doughnuts  Not Fried
+CURRENT_DESCRIPTION: yummm...doughnuts that aren't bad for you, and a perfect accompaniment to some nice fresh apple cider. from the detroit free press on oct 14, 2003.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, cinnamon, all-purpose flour, baking powder, baking soda, salt
+---
+TITLE: Apple Cider Doughnuts With Maple Glaze
+CURRENT_DESCRIPTION: in the vermont countryside, there are two sure signs of spring: frost heaves  in the road and smoke rising from the chimneys of the sugarhouses. this  recipe was inspired by treats you find while touring this corner of america:  cider  doughnuts and maple syrup. a mini-bundt pan produces adorable  doughnut-shaped  cakes, but if you do not have one, you can use a regular  bundt pan and make a  coffee cake; bake it in a 375-degree f oven fo r 25 to 30  minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose white flour, baking powder, baking soda, salt, cinnamon, egg
+---
+TITLE: Apple Cider Fondue
+CURRENT_DESCRIPTION: this has a marvelous flavor and is perfect on french bread, fruit slices, pumpernickel bread, crackers, or vegetables. you do not need a fondue pot to make this dip; just place it in a heavy bowl that will keep it warm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, mozzarella cheese, provolone cheese, flour, garlic powder, onion powder
+---
+TITLE: Apple Cider Gingerbread
+CURRENT_DESCRIPTION: this is best right out of the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, dark brown sugar, ground ginger, baking soda, apple cider, vegetable oil
+---
+TITLE: Apple Cider Glazed Carrots
+CURRENT_DESCRIPTION: great fall carrot side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, carrot, apple cider, brown sugar, tarragon, salt
+---
+TITLE: Apple Cider Glazed Spiced Carrots
+CURRENT_DESCRIPTION: i made this up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby carrots, apple cider, cinnamon, ground ginger, chinese five spice powder, salt
+---
+TITLE: Apple Cider Glazed Squash
+CURRENT_DESCRIPTION: reducing apple cider to a sweet syrup produces a glaze that tastes like the essence of autumn. this simple glazing method is an excellent way to prepare a wide range of squash varieties, from everyday acorn to large, meaty banana. as a variation, substitute orange juice for apple cider and 3/4 teaspoon ground cumin for cinnamon. i found this recipe in cooking club magazine. i have not tried this recipe, but i'm posting it for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, salt, pepper, water, apple cider, butter
+---
+TITLE: Apple Cider Gravy
+CURRENT_DESCRIPTION: i serve this when i cook a pork roast. i always get raves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: drippings, chicken broth, apple cider, garlic, flour, bourbon
+---
+TITLE: Apple Cider Green Beans
+CURRENT_DESCRIPTION: i really liked the cider sauce and tend to double it.  you could also use fresh green beans.  i tried this on a whim b/c i love apple cider and at thanksgiving even the veggie haters seemed to like this. if you sub apple juice the sauce will probably be ok, just without the "tang" of the cider.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen green beans, extra virgin olive oil, yellow onion, apple cider, bacon, salt and pepper
+---
+TITLE: Apple Cider Health Drink
+CURRENT_DESCRIPTION: in 400 b.c., hippocrates, the father of medicine, treated his patients with natural apple cider vinegar for its powerful cleansing, healing, and germ-fighting qualities. (this recipe is from the cookbook "how it all vegan".)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon, apple cider vinegar, liquid sweetener, cayenne pepper, water
+---
+TITLE: Apple Cider Pancakes
+CURRENT_DESCRIPTION: this comes from my parish house inn breakfast cookbook.  serve with cardamom cider syrup (recipe #359954)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oat flour, all-purpose flour, whole wheat flour, baking powder, sugar, salt
+---
+TITLE: Apple Cider Pie
+CURRENT_DESCRIPTION: made this for a bake sale, they got $6.00 for it!! hope the buyer liked it, have no idea what it tastes like! but it sounds good. will try it on the family at next family dinner and let you know.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, pitted dates, cornstarch, ground ginger, fresh lemon rind, pie crusts
+---
+TITLE: Apple Cider Pork Chops
+CURRENT_DESCRIPTION: just a little something i whipped up one evening when trying to avoid going to the grocery store by using stuff i had on hand. its delicious and satisfying.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork loin chops, butter, yellow onions, salt, apple cider, fresh ground black pepper
+---
+TITLE: Apple Cider Pound Cake
+CURRENT_DESCRIPTION: this recipe comes from the johnson county kentucky apple festival cookbook. 25th anniversary 1987
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, shortening, sugar, eggs, all-purpose flour, baking powder
+---
+TITLE: Apple Cider Pumpkin Bisque
+CURRENT_DESCRIPTION: a wonderful hearty autumn soup, goes great with a cold sandwich. this is not my recipe however-- i found this on the internet somewhere a while back and don't recall the source-- so if this is your recipe (especially if it could've been copyrighted by now) or you know whose it is, please let me know so i can give credit where it is due!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, milk, pumpkin puree, apple cider, nutmeg
+---
+TITLE: Apple Cider Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 oz. box orange jello, 4 c. apple cider, 1 c. raisins, 1 c. chopped apples, 1 c. chopped celery, juice and rind of 1 lemon
+---
+TITLE: Apple Cider Sauce
+CURRENT_DESCRIPTION: from cook's illustrated. serve with recipe #303303 - or come up with your own uses! equally good on grilled chicken, or on steaks (especially filet mignon).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, low sodium chicken broth, cider vinegar, cinnamon stick, unsalted butter, shallots
+---
+TITLE: Apple Cider Spiced Oatmeal
+CURRENT_DESCRIPTION: this oatmeal is hearty, sweet, and healthy because it receives its sweetness from apple cider instead of added sugar.  i love putting cranberries or fresh fruit in it and sometimes a bit of maple syrup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quaker oats, apple cider, water, cinnamon, nutmeg, grapes
+---
+TITLE: Apple Cider Spiced Raisin Bread
+CURRENT_DESCRIPTION: a great autumn bread. with fragrant apple cider and warming spices.
+passive time depends on the machine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, apple cider, butter, white bread flour, brown sugar, salt
+---
+TITLE: Apple Cider Strusel Muffins
+CURRENT_DESCRIPTION: fill your home with the scent of autumn with these flavorful muffins. they are great for breakfast or a snack!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, all-purpose flour, ground cinnamon, butter, granulated sugar, baking powder
+---
+TITLE: Apple Cider Syrup
+CURRENT_DESCRIPTION: make your own syrup for french toast strata, pancakes, or waffles. use more or less cinnamon according to your preferences.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, cinnamon, apple juice, lemon juice, butter
+---
+TITLE: Apple Cider To Mull Over C O   Tasty Dish
+CURRENT_DESCRIPTION: mommy picked up a gallon of local apple cider at the orchard the other day to make this recipe! from henrysmarkets.com. *important*: do not feed honey to children under 2 years of age. i'm quite sure this could also be prepared in a crock pot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, cinnamon sticks, cardamom pods, black peppercorns, allspice berries, crystallized ginger
+---
+TITLE: Apple Cider Vinegar Marinade
+CURRENT_DESCRIPTION: good use of that healthy, tangy nectar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic powder, sea salt, worcestershire sauce, red pepper powder, apple cider vinegar, oil
+---
+TITLE: Apple Cinnachip Crumble Topped Muffins
+CURRENT_DESCRIPTION: moist and cinnamon-y with a crumble top... mark loves these better than the banana granola muffins and these are my favorites so far. these are groovy with the starbucks lite caramel clone or as a snack.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, margarine, sugar, cinnamon, cereal, apple pie filling
+---
+TITLE: Apple Cinnamon Baked Oatmeal
+CURRENT_DESCRIPTION: make this yummy cooked oatmeal ahead and refrigerate for quick wholesome and fun start to the day.  in the  morning, heat in the microwave and invite everyone to sprinkle on their own favorite topping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, apple, brown sugar, cinnamon, carnation evaporated milk, yogurt
+---
+TITLE: Apple Cinnamon Balls No Bake Cookies
+CURRENT_DESCRIPTION: these were a big hit for christmas. i don't recall how many they made i'm thinking 40. these are moist little morsels of nuts flavored with apple and buttershots liqueur. these are better as they sit in an air tight container.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: powdered sugar, karo light corn syrup, vanilla wafers, almonds, butterscotch schnapps, apple schnapps
+---
+TITLE: Apple Cinnamon Banana Bran Flax Muffins
+CURRENT_DESCRIPTION: quite a mouthful, but so deliciously healthy!  this simple, wholesome muffin uses flax seed meal in place of butter or oil and comes out fluffy and moist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, flax seed meal, oat bran, brown sugar, baking soda, baking powder
+---
+TITLE: Apple Cinnamon Bars
+CURRENT_DESCRIPTION: this recipe comes from the pillsbury fall baking booklet that i found in the checkout aisle of the grocery store.  "use a multipurpose apple, such as braeburn or gala, or a cooking apple such as mcintosh, for this recipe.  hint:  look for the cinnamon chips near the chocolate chips in the grocery store."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, brown sugar, apple butter, eggs, vanilla
+---
+TITLE: Apple Cinnamon Blinis
+CURRENT_DESCRIPTION: i found this on the kraft site.  my family loves it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apple, sugar, ground cinnamon, butter, flour, salt
+---
+TITLE: apple cinnamon bread pudding
+CURRENT_DESCRIPTION: apple-cinnamon  bread pudding
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: golden delicious apples, cinnamon sugar, sugar, cinnamon, butter, eggs
+---
+TITLE: Apple Cinnamon Bread Pudding
+CURRENT_DESCRIPTION: apple-cinnamon  bread pudding
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: golden delicious apples, cinnamon sugar, sugar, cinnamon, butter, eggs
+---
+TITLE: Apple Cinnamon Bundt Cake
+CURRENT_DESCRIPTION: this recipe is from every day foods. i saw it on tv, and it looked so easy, i had to make it. it's moist and full of tender and chunky apple slices, and has a rich cinnamon spice flavor. i served it still warm with a scoop of vanilla ice cream. wow!  be sure to serve within the first day or two, as the apples will break down.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, ground cinnamon, baking powder, salt, baking soda, unsalted butter
+---
+TITLE: Apple Cinnamon Butter Crunch
+CURRENT_DESCRIPTION: use a firmer apple for this, and top with ice cream!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, flour, cinnamon, walnuts, apples
+---
+TITLE: Apple Cinnamon Buttermilk Pancakes
+CURRENT_DESCRIPTION: cooking time will vary depending on the size of the pancake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking soda, flour, baking powder, brown sugar, salt, ground cinnamon
+---
+TITLE: Apple Cinnamon Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (18.25 oz.) pkg. spice or cake mix, 1 (21 oz.) can apple pie filling, 3 eggs, 3 Tbsp. sugar, 1 tsp. ground cinnamon
+---
+TITLE: Apple Cinnamon Cappuccino
+CURRENT_DESCRIPTION: from cappuccino espresso the book of beverages by christie and thomas katona. this sounds really good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple syrup, cinnamon syrup, espresso, milk, cinnamon
+---
+TITLE: Apple Cinnamon Cheese Ball
+CURRENT_DESCRIPTION: one of my friends made something similar to this at a party, and i loved it.  i asked for the recipe but lost it, and ended up trying to make it by memory.  it may not be the original recipe, but its darn good!  it has a sweeter taste than your average cheese ball.  excellent with sesame seed crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, cheddar cheese, cinnamon, dried apple, nuts, cinnamon stick
+---
+TITLE: Apple Cinnamon Cheesecake With Almond  Praline Topping
+CURRENT_DESCRIPTION: this luscious cheesecake is yours from eagle brand and so easy! you have the delightful combination of apple and cinnamon, two ingredients that were made for each other and they'll prove it when you try this!
+
+*you can use a 13x9" baking pan, just double the topping ingredients, simmer 10 to 12 minutes, until thickened.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, slivered almonds, brown sugar, butter, cream cheese, sweetened condensed milk
+---
+TITLE: Apple Cinnamon Cobbler Ish Dessert
+CURRENT_DESCRIPTION: this isn't a true cobbler, but it is a similar recipe. using cereal makes it a little faster to prepare - be creative and try whatever kind of cereal you have! any kind of flake and/or nut cereal will work, think nut n honey, or oat clusters. i'm not a raisin fan, but raisin bran would probably work well, too.
+
+i've tried three different flavors of yogurt (blueberry, blackberry and vanilla), and each was wonderful. i just grab one little container of whatever's in my fridge that week and use it.
+
+the apples: again, i've tried different varieties. i usually buy fiji or something tart; i've used both, and they both work well.
+
+almost all of the 15 minute prep time comes from peeling and cutting the apples. after that, it comes together incredibly quickly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, eggs, yogurt, cereal, brown sugar, cinnamon sugar
+---
+TITLE: apple cinnamon coffee cake
+CURRENT_DESCRIPTION: this coffee cake recipe comes from cook's illustrated.  it is suggested that this is best eaten the day it is prepared.  it has a very dense batter, so be sure to use your electric mixer, rather than trying to mix by hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, granny smith apples, granulated sugar, unbleached all-purpose flour, ground cinnamon, table salt
+---
+TITLE: Apple Cinnamon Coffee Cake
+CURRENT_DESCRIPTION: simple, quick and it smells great! i will make it the night before and refrigerate, then pop it in the oven while i fix the rest of a hearty breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, eggs, plain yogurt, apple pie filling, sugar, cinnamon
+---
+TITLE: apple cinnamon coffee cake   sugar free
+CURRENT_DESCRIPTION: i have not tried this recipe. i got this recipe from ossg recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: splenda granular, all-purpose flour, ground cinnamon, reduced-calorie margarine, granny smith apples, lemon juice
+---
+TITLE: Apple Cinnamon Coffee Cake   Sugar Free
+CURRENT_DESCRIPTION: i have not tried this recipe. i got this recipe from ossg recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: splenda granular, all-purpose flour, ground cinnamon, reduced-calorie margarine, granny smith apples, lemon juice
+---
+TITLE: Apple Cinnamon Coleslaw
+CURRENT_DESCRIPTION: oh look more cinnamon lol.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla yogurt, frozen apple juice concentrate, cinnamon, cabbage, apples, walnuts
+---
+TITLE: Apple Cinnamon Cornmeal Pancakes
+CURRENT_DESCRIPTION: this recipe is from the cookbook "how it all vegan".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, cornmeal, flour, baking powder, cinnamon, applesauce
+---
+TITLE: Apple Cinnamon Cream Cheese Cake
+CURRENT_DESCRIPTION: i made this cake recently using 4 firm spartan apples... it is simple wonderful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cream cheese, butter, vanilla, almond extract, eggs
+---
+TITLE: Apple Cinnamon Creme Brulee
+CURRENT_DESCRIPTION: from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, cinnamon, sugar, water, egg yolks, vanilla extract
+---
+TITLE: Apple Cinnamon Crisp
+CURRENT_DESCRIPTION: each serving is 3/4 cup. i got this recipe from cornell cooperative extension. i have not tried this recipe, but i'm posting it for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, margarine, oats, sugar, flour, cinnamon
+---
+TITLE: Apple Cinnamon Crumble Pie
+CURRENT_DESCRIPTION: this is just as good made without the crust and just baked in a 9-inch baking dish, make certain to use granny smith apples or similar baking apples,  a frozen deep-dish  9-inch pie shell will work well for this
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbaked 9-inch deep dish pie pastry, granny smith apples, sugar, flour, cinnamon, butter
+---
+TITLE: Apple Cinnamon Dessert Enchiladas
+CURRENT_DESCRIPTION: these are sooooooo delicious! i have also made these using peach pie filling in place of apple, it is just as good as the apple! i strongly suggest to double the complete recipe, i could eat pretty much this whole dish just myself, they are that good! you can use your own homemade apple pie filling for this in place of canned --- top these with vanilla ice cream or whipped cream :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple pie filling, raisins, flour tortillas, cinnamon, butter, sugar
+---
+TITLE: Apple Cinnamon Dutch Baby
+CURRENT_DESCRIPTION: i found this recipe on a site called food for tots. looks baby friendly. a wonderful light egg soufflé that kids are sure to love and it's easy to make! dutch babies also make a good dinner meal accompanied by canadian bacon or ham and take less of the cook's time than regular pancakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, apples, cinnamon, sugar, eggs, milk
+---
+TITLE: Apple Cinnamon French Toast
+CURRENT_DESCRIPTION: i love to make french toast whenever there is left-over challah (egg bread) that is a little too stale to eat. this is one of my favorite ways to prepare it. you can use a different kind of bread if that's what you have on hand though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, sugar, vanilla, butter, cinnamon
+---
+TITLE: Apple Cinnamon French Toast Casserole In A Mug
+CURRENT_DESCRIPTION: a yummy, filling breakfast that is college-student friendly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat bread, egg, egg white, skim milk, cinnamon, sugar-free maple syrup
+---
+TITLE: Apple Cinnamon Friendship Bread
+CURRENT_DESCRIPTION: if you're tired of eating the same bread every 10 days, try this one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: amish starter, eggs, baking powder, oil, baking soda, milk
+---
+TITLE: Apple Cinnamon Granola
+CURRENT_DESCRIPTION: i adapted my own version of this from 3 or four other recipes.  i wanted a low fat, low cal granola so this is what i came up with.  this version isn't real sweet but it has an excellent flavor.  i wanted my granola pretty crunchy so i left it in the oven for almost 90 minutes.  the only thing is, you have to keep a close eye on it or it could burn.  for the first 60 minutes i stirred it every 10-15 minutes.  for the last 30 minutes i stirred it about every 5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, pecan pieces, apple pie spice, honey, egg whites, unsweetened applesauce
+---
+TITLE: Apple Cinnamon Granola Bread
+CURRENT_DESCRIPTION: this is a good bread recipe for a bread machine.  i obtained and tasted this bread when i took a nutrition class.  directions are for a 1-1/2 lb. loaf. serve with honey butter!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, applesauce, butter, salt, whole wheat flour, all-purpose white flour
+---
+TITLE: Apple Cinnamon Muffins
+CURRENT_DESCRIPTION: delicious
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, soy flour, sugar, baking powder, salt, ground cinnamon
+---
+TITLE: Apple Cinnamon Muffins Mix  Or Just Make The Muffins Yourself
+CURRENT_DESCRIPTION: just found this online on a site called livingonadime.com.  i thought it would make a good gift and/or a good make-ahead mix, so that i could just whip up some muffins in the morning before i am fully awake.  haven't tasted them yet.  let me know what you think.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, baking powder, ground cinnamon, raisins
+---
+TITLE: Apple Cinnamon Muffins With Crumble Topping  Gluten Free
+CURRENT_DESCRIPTION: these are definitely 5 stars. do use muffin cups it makes them a lot more professional looking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown rice flour, rice flour, tapioca flour, potato starch, brown sugar, baking powder
+---
+TITLE: Apple Cinnamon Mug Cake
+CURRENT_DESCRIPTION: quick, easy and cheap mug cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oatmeal, sugar, cinnamon, baking powder, apple, milk
+---
+TITLE: Apple Cinnamon Mug Cake  Microwave
+CURRENT_DESCRIPTION: this is an adaptation of recipe #58189 that can be made one serving at a time in the microwave. it does not contain eggs or dairy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, dark brown sugar, granulated sugar, cinnamon, applesauce, water
+---
+TITLE: Apple Cinnamon Oatmeal
+CURRENT_DESCRIPTION: this is good served with milk and a sprinkle of sweetener of your choice(sugar, brown sugar, or honey). wonderful on a cold morning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, apple juice, apple, rolled oats, cinnamon
+---
+TITLE: Apple Cinnamon Oatmeal   Ww Points 4 5
+CURRENT_DESCRIPTION: i don't recall where i got this recipe and how much i've done to it to change it for my own liking. however, i eat this almost every morning. i haven't grown tired of it and it is so good. for those who aren't fans of "traditionally" prepared oatmeal, this is quick, easy and best of all not gooey! i can't stand gooey salty oatmeal. i use individual packs of apple sauce. mostly because after opening regular apple sauce, you have to refrigerate it. since the apple sauce in this recipe is added after it's cooked, it can make the oatmeal slightly cold if it's from the jar in the fridge. i have tried adding the apple sauce and cooking it with the oatmeal and milk, it didn't turn out that great. make sure to use unsweetened apple sauce to keep within point range. i am not sure how much the regular apple sauce will raise the points. this tastes great with or without added sweetener. i use unsweetened because i can control the sugar/sweetness that way.
+
+enjoy!! ww points - 4.5
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking oatmeal, low-fat milk, unsweetened applesauce, raisins, cinnamon, splenda sugar substitute
+---
+TITLE: Apple Cinnamon Oatmeal Bread
+CURRENT_DESCRIPTION: since the rain, cold and gray of pre-winter has set in i have the desire to be baking again. this is one of my real favorites. it bakes up with that wonderful aroma of cinnamon and apples that just welcomes everyone be they family or guests.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, splenda brown sugar blend, splenda granular, unsweetened applesauce, ground cinnamon, instant apple and cinnamon oatmeal
+---
+TITLE: Apple Cinnamon Oatmeal Porridge
+CURRENT_DESCRIPTION: i for one like the flavoured porridges and this one is warm and tasty. also an excellent way for the kids to start their day and a perfect way to keep some money in your pocket on grocery day. tastes pretty darn close to the packaged oatmeal on your grocers shelves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened apple juice, salt, quick-cooking rolled oats, apple, raisins, cinnamon
+---
+TITLE: Apple Cinnamon Pancakes
+CURRENT_DESCRIPTION: taken from the 2010 milk calendar
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, whole wheat flour, baking powder, cinnamon, milk, eggs
+---
+TITLE: Apple Cinnamon Pecan Cake
+CURRENT_DESCRIPTION: this is a delish fruit-and-spice coffee cake. i could eat half of it with a pot of earl gray tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, ground cinnamon, ground nutmeg, granulated sugar, butter
+---
+TITLE: Apple Cinnamon Pork Tenderloin
+CURRENT_DESCRIPTION: this meal is simple to make and delicious. a great substitution at christmas if you don't want the labour of preparing a turkey dinner. using dried cranberries instead of raisins adds great colour to the dish. i use the ingredient amounts and cooking times as estimates and vary them to suit the size of the pork tenderloin. i sometimes also add some fruity wine vinegar to the apple mixture for some added flavour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, cornstarch, ground cinnamon, brown sugar, apples, dried cranberries
+---
+TITLE: Apple Cinnamon Quesadillas And Spice Yogurt Dipping Sauce
+CURRENT_DESCRIPTION: this is easy to make and very yummy my kids love them
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat vanilla yogurt, unsweetened applesauce, ground cinnamon, apple, flour tortillas, cheddar cheese
+---
+TITLE: Apple Cinnamon Quiche
+CURRENT_DESCRIPTION: the original recipe came from the april 1992 issue of the yankee magazine under the article 'breakfasts to crow about.'  inn keepers said that returning guests always asked for it.  i surely understand why!  this is one that will wow your overnite guests.  when i first read this recipe i immediately began to chew on the contents, if you know what i mean!  i hope you will enjoy it as much as we do whenever i make it.  this would be excellent for an easter brunch!  and it is so quick and oh, so  easy even for a new bride!  note, i tweeked the recipe a wee bit and  i sometimes add a dash of  saigon cinnamon for a little kick!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apple, butter, cheddar cheese, unbaked 10-inch pie shell, sugar, ground cinnamon
+---
+TITLE: Apple Cinnamon Quinoa   Cereal
+CURRENT_DESCRIPTION: love oatmeal, but not gluten?  this has the warmth and nostalgia of apple cinnamon oatmeal and is a wonderful way to prepare this nutritious “grain”.  a yummy, nutritious way to start the day, and even the kids will love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quinoa, water, granny smith apple, raisins, almonds, cinnamon
+---
+TITLE: Apple Cinnamon Raisin Bread
+CURRENT_DESCRIPTION: this is a slightly sweet bread with a marvelous subtle flavor. i got the recipe from a fellow teacher years ago.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, dry yeast, sugar, salt, cinnamon, unsweetened apple juice
+---
+TITLE: Apple Cinnamon Raisin Pitas  Bread Machine
+CURRENT_DESCRIPTION: i used to buy these breakfast "pitas" from the grocery store, but figured out how to make them at home - for a heck of alot less.  they're more like small, flatbreads, and i slice them in half, toast them, and spread them with peanut butter, honey, or jam.  yum!  they're not very sweet, as there isn't much sugar in them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, bread flour, dry yeast, warm water, salt, sugar
+---
+TITLE: Apple Cinnamon Rice Pudding
+CURRENT_DESCRIPTION: this came from the milk calendar.  make sure you use short grain rice for this recipe to get a creamy pudding.   the long grain rice won't cook properly and the pudding won't thicken.   the apples and cinnanmon are a nice change from plain rice pudding.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, apples, sugar, cinnamon, salt, short-grain rice
+---
+TITLE: Apple Cinnamon Rings
+CURRENT_DESCRIPTION: for a romantic dessert these work well, trust me. lol it says 2 to 4 servings, well 2 of us ate it all. oops. ww points 3.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, ground cinnamon, ground nutmeg, ground cloves, unsalted butter, apples
+---
+TITLE: apple cinnamon rolls
+CURRENT_DESCRIPTION: this came from the yankton, south dakota press and dakotan newspaper. my dd does not like cinnamon rolls (my child?) so i thought this might be more like a caramel apple and less like cinnamon. it is very caramel-like and the apples are soft and fragrant. worth the time to make the filling. if you have a kitchen aid mixer, follow your manufacturer directions to make the dough with the mixer!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, flour, sugar, butter, ground cinnamon, ground nutmeg
+---
+TITLE: Apple Cinnamon Rolls
+CURRENT_DESCRIPTION: this came from the yankton, south dakota press and dakotan newspaper. my dd does not like cinnamon rolls (my child?) so i thought this might be more like a caramel apple and less like cinnamon. it is very caramel-like and the apples are soft and fragrant. worth the time to make the filling. if you have a kitchen aid mixer, follow your manufacturer directions to make the dough with the mixer!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, flour, sugar, butter, ground cinnamon, ground nutmeg
+---
+TITLE: Apple Cinnamon Scones
+CURRENT_DESCRIPTION: ***updated 4/8/08 - this recipe has been adjusted regarding bake times and temperature.  that seemed to correct the problems stated by the reviewer (based on her baking these again.)  the reviewer did suggest to just use a powdered sugar/milk glaze over the scones also.  thank you to "chef #532663" for all her help in figuring out what when wrong the first time.****
+
+from pillsbury recipe clip-out.  i made these years ago and unfortunately cannot remember the results...one of the few recipes i did not write down a comment outside of the date i made them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, cinnamon, butter, apple
+---
+TITLE: Apple Cinnamon Sour Cream Muffins
+CURRENT_DESCRIPTION: the smell of cinnamon and apple evokes thoughts of autumn, home, warmth, and comfort. these scrumptously moist muffins with their
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, half-and-half cream, nutmeg, brown sugar, raisins, baking powder
+---
+TITLE: Apple Cinnamon Squares
+CURRENT_DESCRIPTION: i have made these quite a few times they are a huge hit with my family, they are similar to a muffin but baked in a pan! this will work great using peaches or blueberries in place of apples.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, cinnamon, nutmeg, butter
+---
+TITLE: Apple Cinnamon Steel Cut Oats
+CURRENT_DESCRIPTION: off internet for stove top. i use rice cooker. works great. taste's good and healthy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: steel cut oats, water, cinnamon, salt, apple, soymilk
+---
+TITLE: Apple Cinnamon Streusel Bars
+CURRENT_DESCRIPTION: from the jasmine cuisine blog
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, all-purpose flour, brown sugar, sugar, ground cinnamon, butter
+---
+TITLE: Apple Cinnamon Sugared Muffins  From A Cake Mix
+CURRENT_DESCRIPTION: i was looking for some simple muffins to make for a church bake sale when i came across the "base recipe" for these muffins on the dunkin hines website.  i added a few ingredients and came up with this delicious number that combines my bounty of apples, cinnamon and sugar to create a moist muffin that goes great with your morning cup of java!  cooking time is per each dozen tray of muffins. (also, the picture is missing the cinnamon/sugar coating.  i decided to add that later)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, baking powder, all-purpose flour, milk, canola oil, eggs
+---
+TITLE: Apple Cinnamon Sweet Potato Muffins
+CURRENT_DESCRIPTION: this is from cooks recipes. what a lovely muffin for fall! healthy too! you can use canned sweet potatoes instead of fresh.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oat bran, whole wheat flour, granulated sugar, ground cinnamon, baking powder, baking soda
+---
+TITLE: Apple Cinnamon Swirl Bread
+CURRENT_DESCRIPTION: delicious snack that's big on flavor and low on fat! this isn't a super sweet bread, but the powdered sugar glaze helps to give it just enough extra sweetness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, granulated sugar, baking soda, salt, nutmeg, cinnamon
+---
+TITLE: Apple Cinnamon Swirl Pancakes  Vegan
+CURRENT_DESCRIPTION: from a fatfreevegan.com blog. yummy, vegan pancakes with a twist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached flour, sugar, baking powder, salt, cinnamon, almond milk
+---
+TITLE: Apple Cinnamon Syrup Canning
+CURRENT_DESCRIPTION: this makes a lovely gift! adapted from the ball blue book of canning. apples are grown all over america. new england, mid atlantic, canada, mid west, western, south.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple juice, cinnamon sticks, sugar, water, corn syrup, lemon juice
+---
+TITLE: Apple Cinnamon Upside Down Cake
+CURRENT_DESCRIPTION: found this on the web -- looks like it would be a tasty fall recipe.  time listed does not include time to cool
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light-brown sugar, apples, lemon juice, flour, baking powder
+---
+TITLE: Apple Cinnamon Upside Down Pancake
+CURRENT_DESCRIPTION: found this recipe in a magazine.  it is worth the effort!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, buttermilk
+---
+TITLE: Apple Cinnamon Waffles
+CURRENT_DESCRIPTION: i just purchased a new waffle iron and am on a search for awesome waffle recipes.  this is one i found on mr.breakfast.com.  i hope you enjoy it as much as my family did.  any left over waffles would freeze well (oamc).
+note:  you can also try adding different fruits and spices instead of apple and cinnamon.  i added a couple fistfuls of semi-sweet chocolate chips to the batter and the grandkids flipped over them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, eggs, milk
+---
+TITLE: Apple Cinnamon Walnut Bread
+CURRENT_DESCRIPTION: mmmmmmmmmmm.  so good and so good for you !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, milk, butter, sugar, eggs, flour
+---
+TITLE: Apple Cinnamon Wontons
+CURRENT_DESCRIPTION: here's a great autumn dessert that's waist friendly. apples, cinnamon, brown sugar and a nice crunch. great alternative when craving apple pie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, light brown sugar, fresh lemon juice, ground cinnamon, wonton wrappers, powdered sugar
+---
+TITLE: Apple Clafouti
+CURRENT_DESCRIPTION: posted for zaar world tour 06
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, eggs, milk, cold water, vegetable oil
+---
+TITLE: Apple Clementine Chutney
+CURRENT_DESCRIPTION: this is a recipe i developed trying to come up with something to put on my kids plain turkey or chicken sandwiches as they don't like mayo, miracle whip, etc.  this is kind of a sweet and sour with an optional spicy taste if you like.  i will find out if they like it tomorrow.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gala apples, clementine, rice vinegar, light brown sugar, lemon, juice of, lemon zest
+---
+TITLE: Apple Cobbler
+CURRENT_DESCRIPTION: yummy old school apple cobbler. with a wonderful topping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, sugar, cinnamon, rolled oats, rice milk, butter
+---
+TITLE: Apple Cobbler For One Or Two
+CURRENT_DESCRIPTION: simple dessert for two.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, flour, baking powder, salt, milk
+---
+TITLE: Apple Cobbler Just For Two
+CURRENT_DESCRIPTION: this is a great way to have a little dessert with a lot of flavor.  a perfect dish for the 2 of you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, cinnamon sugar, water, all-purpose flour, oats, baking powder
+---
+TITLE: Apple Cobbler With Oatmeal
+CURRENT_DESCRIPTION: my grandmother's recipe that always has guests begging for thirds! it is easy to make and especially decadent if served with vanilla ice cream
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking apples, white sugar, margarine, ground cinnamon, quick-cooking oatmeal, brown sugar
+---
+TITLE: Apple Cobbler With Poached Dried Figs
+CURRENT_DESCRIPTION: this recipe is from russo's market in watertown, ma. it is a nice variation on this winter dessert staple.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried fig, red wine, honey, tart apples, brown sugar, flour
+---
+TITLE: Apple Cobbler With Sweet Biscuit Crust
+CURRENT_DESCRIPTION: have you ever had one of those recipes that gets lost and then finds it way back home again? i pulled out a cookbook i hadn't used in years and found this recipe tucked neatly inside. this is an impressive presentation for your guests.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, salt, cinnamon, water, lemon juice
+---
+TITLE: Apple Coconut Crumble
+CURRENT_DESCRIPTION: in the fall i have alot of apples from my two apple trees. i am always on the look out for different recipes and i was looking for a recipe for apples other than a apple pie or crisp. happened to find this one. i didn't know if the coconut and the apples would work but they sure do. give it a taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, flaked coconut, butter, apples, sugar, water
+---
+TITLE: Apple Coconut Pie With Cream Cheese Pastry
+CURRENT_DESCRIPTION: this is an apple pie different from the ordinary . . . please notice, no cinnamon! i've never made a pastry as easily as this; it rolls out like a dream and bakes up puffy, golden and tender. yummy with a scoop of vanilla ice cream. preparation time does not include chilling time for the pastry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, all-purpose flour, salt, tart apples, sugar
+---
+TITLE: Apple Coffee Cake
+CURRENT_DESCRIPTION: simply the best
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, vanilla extract, eggs, all-purpose flour, baking powder
+---
+TITLE: Apple Coffee Cake With Crumble Topping
+CURRENT_DESCRIPTION: i got this recipe from food network and it tastes amazing it even has an optional brown sugar glaze
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, brown sugar, eggs, all-purpose flour, baking soda, ground cinnamon
+---
+TITLE: Apple Coffee Cake With Crumble Topping And Brown Sugar Glaze
+CURRENT_DESCRIPTION: food network, emeril lagasse, 2002.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, eggs, all-purpose flour, baking soda, ground cinnamon
+---
+TITLE: Apple Cole Slaw
+CURRENT_DESCRIPTION: this is our favorite cole slaw recipe, a yummy combo of fruit and veggies in a sweet dressing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, red apple, granny smith apples, carrot, red bell pepper, green onions
+---
+TITLE: apple confit  pate
+CURRENT_DESCRIPTION: this can be a side dish to meat, or a dessert. don't let the long directions scare you, only 3 ingredients, its not difficult. bake time is long so plan accordingly. since it sits for 24 hours, then chills after baking i would suggest making it 2 days before serving. times do not include sitting time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, oranges, granny smith apples
+---
+TITLE: Apple Cookie Crisp
+CURRENT_DESCRIPTION: apple crisp that uses oatmeal raisin cookie dough for the topping.  this is something that just sounded good one day.   i used half a package of toll house place and bake dough and baked the other half as cookies.  :)
+my oven runs a bit odd, so cooking times are guesstimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, vanilla, sugar, flour, cinnamon, nutmeg
+---
+TITLE: Apple Core And Peeling Jelly
+CURRENT_DESCRIPTION: posted in response to a request. i haven't tried this, but love the idea of using that which would normally be tossed to make something delightful. cook time is approximate and does not include water bath time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apples, water, dry pectin, sugar, red food coloring
+---
+TITLE: Apple Cornbread
+CURRENT_DESCRIPTION: a different twist on corn bread, this is sweet and very moist. it's been a favorite with hubby and the kids around here for years. if you dice the apples very finely, they almost disappear into the batter; leave them larger for chunks of fruity flavor. this is also good with cinnamon mixed into the batter (i usually do that more for a breakfast/brunch than dinner). originally submitted by nancy kirkland in a church cookbook from maryland.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, flour, sugar, baking powder, salt, milk
+---
+TITLE: Apple Cottage Cheese Salad
+CURRENT_DESCRIPTION: this came from taste of home
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low fat cottage cheese, apples, raisins, lemon juice, honey, sunflower seeds
+---
+TITLE: Apple Crack Dip
+CURRENT_DESCRIPTION: i updated the recipe because i believe the measurements were off based on the review it is way to sweet.  this one is a perfect balance.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, brown sugar, vanilla extract, mini chocolate chips, toffee pieces
+---
+TITLE: Apple Cranberry Bars With Orange Buttercream Frosting
+CURRENT_DESCRIPTION: this recipe is from the land o'lakes butter company.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, butter, eggs, orange rind, vanilla extract, all-purpose flour
+---
+TITLE: Apple Cranberry Bread
+CURRENT_DESCRIPTION: from toh holiday recipes and different from the one posted here in that it uses a bit more egg in the batter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, canola oil, all-purpose flour, baking powder, ground cinnamon
+---
+TITLE: Apple Cranberry Bundt Cake
+CURRENT_DESCRIPTION: this cake is very easy to make. looked delicious when i seen it made on tv everyone that tasted it said it was moist and yummy. the recipe comes courtsy kcra tv and apple hill.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, eggs, apples, canola oil
+---
+TITLE: Apple Cranberry Chicken
+CURRENT_DESCRIPTION: i made this up because i thought the flavors would match perfectly--and they do. the balsamic vinegar is really the key ingredient and adds a nice zip. this is for one serving, but it can be doubled, tripled, etc. to feed a larger crowd.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, granny smith apple, fresh cranberries, chicken breast, applesauce, cinnamon
+---
+TITLE: Apple Cranberry Chutney
+CURRENT_DESCRIPTION: this recipe was found in betty crocker holiday easy entertaining cookbooklet from nov 02.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cranberries, red bell pepper, onion, brown sugar, golden raisin
+---
+TITLE: apple cranberry crescent cookies
+CURRENT_DESCRIPTION: i found this recipe in a diabetic magazine. my husband is diabetic.
+enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, dried cranberries, low-fat sour cream, cholesterol-free egg substitute, margarine, sugar
+---
+TITLE: Apple Cranberry Crescent Cookies
+CURRENT_DESCRIPTION: i found this recipe in a diabetic magazine. my husband is diabetic.
+enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, dried cranberries, low-fat sour cream, cholesterol-free egg substitute, margarine, sugar
+---
+TITLE: Apple Cranberry Crisp
+CURRENT_DESCRIPTION: from "cook's country by america's test kitchen," episode 105, "autumn supper."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, light brown sugar, granulated sugar, ground cinnamon, unsalted butter, old fashioned oats
+---
+TITLE: Apple Cranberry Crisp Pie
+CURRENT_DESCRIPTION: my love of cranberries led to me to adopted this recipe.  i think that it is the perfect fall pie with the crisp tartness of the berries shining about the sweetness of the apples.  original poster's comments:  "found this in the sunday paper in the coupon section and it's become a huge hit. i'm not usually a fan of cranberries, but i like the flavor of this pie! i hope you like it, too!"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crusts, sugar, all-purpose flour, cinnamon, salt, apples
+---
+TITLE: Apple Cranberry Crisp With Warm Toffee Sauce
+CURRENT_DESCRIPTION: toffee sauce adds richness to this tart autumn-fruit crisp. while nicely gooey, the slightly bitter undertone of "burnt sugar" makes the toffee sauce subtly but not overly sweet.
+blatantly stolen from marilyn bentz crowley, with thanks!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, granulated sugar, butter, whipping cream, pure vanilla extract, apples
+---
+TITLE: Apple Cranberry Crisps   Chatelaine
+CURRENT_DESCRIPTION: i found this recipe in of all places....the air miles magazine.  turns out it's from chatelaine magazine.  this is baked in individual serving sizes, but i expect it could also be made in a 9 or 10 inch casserole dish.  either way...nothing says comfort quite like a fruit crisp.  this one especially.  would be wonderful to top off your thanksgiving or christmas dinner.  i used orange juice in place of the liqueur.  use granny smith or any other firm apple because of the long baking time.  individual serving dishes should have a 1-1/2 cup capacity.  oh....don't forget the whipping cream on top ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, brown sugar, flour, almonds, butter, cranberries
+---
+TITLE: Apple Cranberry Crumb Pie
+CURRENT_DESCRIPTION: i've been making this pie for over 10 years! it's like no other recipe i've found. the secret ingredient is the crushed fruit sauce, which by the way can be found near the poultry. this recipe was printed in our local newspaper which had a beautiful picture.  i had to try it! now it's become a must have at thanksgiving. the only pie that has even come close is a marie calendar pie.  i thought i'd lost this recipe, but recently found it, so i wanted to get in on zaar before i lost it again! it's one of those you go crazy trying to find. enjoy --v
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortbread pie crust, egg yolk, butter, baking apples, cranberry sauce, cornstarch
+---
+TITLE: Apple Cranberry Crumb Tart
+CURRENT_DESCRIPTION: this recipe is taken from an old food & wine 1993 magazine.  apples and cranberries remind me so much of the fall and this tart is a great holiday dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, granulated sugar, egg yolk, cake flour, tart apples, fresh cranberries
+---
+TITLE: Apple Cranberry Crumble
+CURRENT_DESCRIPTION: this recipe is from the taste of home holidays & celebrations cookbook. my family loves it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cranberries, sugar, oats, brown sugar, all-purpose flour
+---
+TITLE: Apple Cranberry Crumble Muffins
+CURRENT_DESCRIPTION: mhmmm, they are so yummy! =) the fruits make them quite light and also perfect for warm weather. would go great with pears or some other type of fruit as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, whole wheat flour, baking powder, cinnamon, brown sugar, milk
+---
+TITLE: Apple Cranberry Crunch
+CURRENT_DESCRIPTION: i like to serve this with a scoop of vanilla ice cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cinnamon, whole berry cranberry sauce, quick-cooking oats, all-purpose flour, brown sugar
+---
+TITLE: Apple Cranberry Lattice Tart
+CURRENT_DESCRIPTION: from morning glories, by b&b owner donna leahy.  this is a lovely tart with rich fall flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg yolks, flour, walnuts, cinnamon
+---
+TITLE: Apple Cranberry Maple Syrup Crisp
+CURRENT_DESCRIPTION: you can use frozen cranberries but increase the flour by 2 teaspoons. the topping can be prepared up to a day ahead and refrigerated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cinnamon, old fashioned oats, brown sugar, salt, butter
+---
+TITLE: Apple Cranberry Muffins
+CURRENT_DESCRIPTION: these muffins are part of our thanksgiving tradition.  since we have many dishes for this holiday, i often make these muffins in mini-muffin pans and bake them only half as long.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, cinnamon, salt, eggs, brown sugar
+---
+TITLE: Apple Cranberry Nut Loaf
+CURRENT_DESCRIPTION: my boss makes this bread every holiday season, and it is soooo good. i couldn't believe my life was devoid of cranberry bread before i met my boss! :) *note - this makes 2 loaves of bread *note2 - the bread requires 2 days of refrigeration before serving. (and it freezes really really well)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, sugar, shortening, eggs
+---
+TITLE: Apple Cranberry Omelette
+CURRENT_DESCRIPTION: this is a wonderful breakfast for the day after thanksgiving or any day when you want to use up leftover cranberry sauce (try it with cranberry sauce with apple cider recipe#78078 or any whole berry cranberry sauce). *the original recipe recommended  lingonberries but suggested cranberries as a good alternative. recipe source: bon appetit (october 1985)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, flour, salt, butter, cranberry sauce
+---
+TITLE: Apple Cranberry Pear Crisp
+CURRENT_DESCRIPTION: delicious and nutritious! add different spices (cloves, pumpkin pie) to you own taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, ground cinnamon, ground ginger, almonds, oats
+---
+TITLE: Apple Cranberry Pecan Stuffing
+CURRENT_DESCRIPTION: this is from a food and family magazine. it's made on the stove top, ready in just a few minutes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple juice, butter, apples, dried cranberries, chicken flavor stuffing mix, pecans
+---
+TITLE: Apple Cranberry Pie
+CURRENT_DESCRIPTION: this is my adopted recipe feb 2005. i made this today and love the flavor of apples and cranberries together. i used granny smith apples but i think any good cooking apple will do. this makes a lot, it would make 2 smaller pies, like the disposable foil pie plates you buy. i made it in a 9 1/2
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: double crust pie crust, sugar, cornstarch, apple juice, apples for pies, cranberries
+---
+TITLE: apple cranberry pie  cook s illustrated
+CURRENT_DESCRIPTION: use sweet, crisp apples, such as golden delicious, jonagold, fuji, or braeburn. the two fillings can be made ahead, cooled, and stored separately in the refrigerator for up to 2 days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberries, orange juice, sugar, ground cinnamon, table salt, water
+---
+TITLE: Apple Cranberry Pie  Cook S Illustrated
+CURRENT_DESCRIPTION: use sweet, crisp apples, such as golden delicious, jonagold, fuji, or braeburn. the two fillings can be made ahead, cooled, and stored separately in the refrigerator for up to 2 days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberries, orange juice, sugar, ground cinnamon, table salt, water
+---
+TITLE: Apple Cranberry Pie 2002
+CURRENT_DESCRIPTION: a nice pie. sugar varies with the tartness of the apple and berries. can add more sugar if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pastry for double-crust pie, granny smith apples, fresh cranberries, white sugar, pecans, cornstarch
+---
+TITLE: Apple Cranberry Pudding
+CURRENT_DESCRIPTION: no flour in this pudding, the sponge topping is made with ground almonds, good warm or cold but best warm with lightly whipped cream and at its very best warm with vanilla ice cream!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apple, brown sugar, ground cinnamon, cranberries, butter, sugar
+---
+TITLE: Apple Cranberry Puff Pastry Strudel Slices
+CURRENT_DESCRIPTION: this is so easy to make! yield is only estimated, depending on how large you slice the strudel roll. this recipe can easily be doubled to make two rolls, and raisins can be used in place of dried cranberries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen puff pastry, egg, water, sugar, flour, cinnamon
+---
+TITLE: Apple Cranberry Puffed Pancakes
+CURRENT_DESCRIPTION: discovered on another site, this is a specialty recipe served at the greenwoods gate bed and breakfast inn in norfolk, connecticut. i haven't yet tried it, but given my love of cranberries i know i'll be making this soon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, flour, milk, butter, granny smith apples, cranberries
+---
+TITLE: Apple Cranberry Quick Bread
+CURRENT_DESCRIPTION: an excellent-tasting, golden , fruity quick bread made with fresh tart apples and dried cranberries. recipe is easily doubled for two loaves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, eggs, vanilla, all-purpose flour, sugar, ground cinnamon
+---
+TITLE: Apple Cranberry Raisin Salad
+CURRENT_DESCRIPTION: i absolutely love the grand parisian salad at costco, but always find myself adding ingredients.  here is my version of this great salad!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce, crisp red apples, english cucumber, craisins, golden raisin, feta cheese
+---
+TITLE: Apple Cranberry Raspberry Pie
+CURRENT_DESCRIPTION: this is my second most request pie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, quick-cooking tapioca, cinnamon, salt, almond extract, granny smith apples
+---
+TITLE: Apple Cranberry Rhubarb Crisp
+CURRENT_DESCRIPTION: i often make this for a sunday dessert. you can vary the fruit to suit your taste. use fresh when it's in season or frozen all year round.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, oats, whole wheat flour, cinnamon, margarine, sugar
+---
+TITLE: Apple Cranberry Salad With Creamy Lemon Vinaigrette
+CURRENT_DESCRIPTION: this delicious salad comes from cook's illustrated magazine. this colorful salad makes a beautiful addition to any holiday table.  raisins make a suitable substitute for the dried cranberries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, lemon, canola oil, heavy cream, salt & fresh ground pepper, celery rib
+---
+TITLE: Apple Cranberry Sauce
+CURRENT_DESCRIPTION: this is a twist on your "open the can" cranberry sauce, quick and easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, cranberries, lemon, sugar, water, dried sweetened cranberries
+---
+TITLE: Apple Cranberry Scones
+CURRENT_DESCRIPTION: these have a terrific aroma and taste. great for breakfast or brunch. this is my recipe of apple cranberry scones.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, butter
+---
+TITLE: Apple Cranberry Squares
+CURRENT_DESCRIPTION: my son loves apple squares. i added some craisins to the standard recipe and he loves it more now.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, quick-cooking oatmeal, all-purpose flour, salt, applesauce
+---
+TITLE: Apple Cranberry Streusel Custard Pie
+CURRENT_DESCRIPTION: it sounds like a mouthful, and is... a mouthful of flavors! i came across this recipe while trying to find something to make with all of the apples coming off of our trees. i have no idea what website i got it from, but i'm sure thankful i found it. i served it at a gathering of friends and it was gobbled right up!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened condensed milk, ground cinnamon, eggs, hot water, frozen cranberries, apples
+---
+TITLE: Apple Cranberry Strudel  German
+CURRENT_DESCRIPTION: i made these strudels for my family's annual oktoberfest 2008, and everyone agreed they are sinfully delicious.  i say this because a great deal of butter is used in this recipe.  the strudels have a crispy, buttery phyllo dough exterior with a juicy, semi-tart apple filling seasoned with cinnamon, cloves and nutmeg.  i use northern spy apples for the filling, but they are difficult to find.  macintosh, courtland or granny smith would do just as well.  this is definitely one of my favorite comfort foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cranberries, lemon rind, sugar, cinnamon, clove
+---
+TITLE: Apple Cranberry Sweet Rice
+CURRENT_DESCRIPTION: pretty and pink, this makes a lovely breakfast! i make this in my rice cooker, but it could also be done on the stove-top or in the microwave (or however you usually make your rice).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown rice, fresh cranberries, apples, apple juice, cinnamon, brown sugar
+---
+TITLE: Apple Cranberry Walnut Muffins
+CURRENT_DESCRIPTION: these are so good, especially when they are warm!  butter is always delish on them, and recently i tried cream cheese on them, and was pleasantly surprised!  don't wait until winter to try these!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, cinnamon, salt, eggs, dark brown sugar
+---
+TITLE: Apple Cranberry Wheat Muffins
+CURRENT_DESCRIPTION: whole wheat and wheat germ makes this a healthy muffin and the apple juice helps them to stay moist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, granulated sugar, toasted wheat germ, baking powder, ground cinnamon
+---
+TITLE: Apple Cranberry Wrap Arounds
+CURRENT_DESCRIPTION: simple-to-make pastries good for snacks or desserts around the thanksgiving and christmas seasons. raisins can be substituted for the cranberries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, golden delicious apples, sugar, cinnamon, apricot preserves, dried cranberries
+---
+TITLE: Apple Cream Cheese Bundt Cake
+CURRENT_DESCRIPTION: recipe is from southern living.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, butter, granulated sugar, egg, all-purpose flour, vanilla extract
+---
+TITLE: Apple Cream Cheese Cigars
+CURRENT_DESCRIPTION: years ago, i was looking for a low fat, yet satisfying dessert for a special dinner and i came across these flavor packed, strudel like, cigars. they are so satisfying, look elegant and disappear quickly. they also pack a wallop for presentation, but are very simplistic to make. they also freeze well if you freeze them before baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apple, apple juice concentrate, ground cinnamon, ground nutmeg, sugar, low-fat cream cheese
+---
+TITLE: Apple Cream Cheese Pie
+CURRENT_DESCRIPTION: i found this in a local newspaper and fell in love with it. it was unlike any pie i ever had. fabulous! this recipe came from pillsbury.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie dough, cream cheese, sugar, egg, vanilla, apples
+---
+TITLE: Apple Cream Cheese Stuffed Acorn Squash  Microwave
+CURRENT_DESCRIPTION: a slight twist on a classic favorite, invented when i realized i had no butter. this is a wonderful breakfast or dessert, or just something to warm you up on a cozy fall day.  it's one of my ultimate comfort foods.
+
+p.s.i usually just eyeball the ingredients. there really is no right or wrong amount of each, nor is there a limit on what kinds of extras you can add. 
+you can also substitute pumpkin pie spice instead of cinnamon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, apples, brown sugar, cinnamon, cream cheese, raisins
+---
+TITLE: Apple Cream Cheese Stuffed French Toast
+CURRENT_DESCRIPTION: this could be breakfast or dessert! from ladies home journal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, confectioners, ,, ,, ,, ,
+---
+TITLE: Apple Cream Cheese Tart
+CURRENT_DESCRIPTION: this is a really easy delicious tart! the combination of cream cheese and spiced apples is delightful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, lemon zest, eggs, granny smith apples, unbaked pie crust
+---
+TITLE: Apple Cream Cheese Topped Pie
+CURRENT_DESCRIPTION: delicious baked apple pie topped with an unbaked cream cheese layer...yummy! this can also be made in a 8 x 8-inch square baking pan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, egg, salt, cinnamon, nutmeg
+---
+TITLE: Apple Cream Coffee Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. chopped walnuts, 2 tsp. cinnamon, 1 1/2 c. sugar, 1/2 c. softened butter or margarine, 2 eggs, 1 tsp. vanilla
+---
+TITLE: Apple Cream Coffee Cake 1965
+CURRENT_DESCRIPTION: quick and easy cake
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, ground cinnamon, granulated sugar, butter, eggs, vanilla
+---
+TITLE: Apple Cream Crumb Cake
+CURRENT_DESCRIPTION: this is really really good.  i love apples so much!  they're so versatile and the different apples give each dish such unique flavor.  this one is so easy to throw in the oven and makes a beautiful presentation for dessert.  serve with a really good vanilla ice cream and you've got some really good eatin!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen pound cake, cream cheese, sugar, sour cream, egg, vanilla
+---
+TITLE: Apple Cream Dream Sandwich
+CURRENT_DESCRIPTION: this is my re-creation of a sandwich i used to order often for lunch at a great restaurant in ny state. it may sound like a bizarre combination of ingredients, but it tastes very good and is a nice light luncheon choice.  i also like this with cinnamon raisin bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pumpernickel bread, cream cheese, apples, raisins, pecans, celery
+---
+TITLE: Apple Cream Lasagna
+CURRENT_DESCRIPTION: this is amazingly good...and can become quite a topic of conversation at the end of a meal! i dare you to try it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lasagna noodles, butter, granny smith apples, brown sugar, pecans, ground cinnamon
+---
+TITLE: Apple Cream Leather
+CURRENT_DESCRIPTION: from my food preservation group files.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cinnamon, clove, nonfat yogurt, nutmeg
+---
+TITLE: Apple Cream Party Tart
+CURRENT_DESCRIPTION: i think this recipe is from a canadian living magazine, but i have changed it a little.  the recipe calls for 2 - 250g packages of cream cheese, but i use 1 and only 1/2 the other because i don't like the cream cheese layer so thick.
+i also don't add the nuts because they seem to go soft in a day or two.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, vanilla, all-purpose flour, apples, cinnamon
+---
+TITLE: Apple Cream Pennies
+CURRENT_DESCRIPTION: these cookies are delicious! i make them quite often at my house. using spiced apple butter gives them more flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, dark brown sugar, white sugar, salted butter
+---
+TITLE: Apple Cream Pie
+CURRENT_DESCRIPTION: a nice changge from the every day apple pie
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking apples, 9, ,, ,, ,, ,
+---
+TITLE: Apple Cream Pork Tenderloin
+CURRENT_DESCRIPTION: a recipe from d. jean rice, of ohio.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, half-and-half, cream sherry, dijon mustard, prepared horseradish, butter
+---
+TITLE: Apple Cream Scones
+CURRENT_DESCRIPTION: this is an adopted recipe. i will post an intro after i make it!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granny smith apples, sugar, butter, baking powder, coarse sugar
+---
+TITLE: Apple Cream Sponge
+CURRENT_DESCRIPTION: equally good as a dessert , served hot with whipped cream and/or custard....or cut into cubes when cold and served for afternoon tea.
+this one comes from my mothers cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy cream, sugar, salt, eggs, self raising flour, apple
+---
+TITLE: Apple Creme Brulee
+CURRENT_DESCRIPTION: a little patience in preparing the custard will reward you with this elegant finale. recipe taked from www.foodland.gov.on.ca
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, granulated sugar, cinnamon, lemon rind, ground nutmeg, egg yolks
+---
+TITLE: apple creme brulee cheesecake
+CURRENT_DESCRIPTION: this recipe is from tish boyle's "cake" cookbook. be sure to use the water bath, it keeps the cheesecake moist and prevents the top from cracking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sugar, butter, green apples, lemon juice, unsalted butter
+---
+TITLE: Apple Creme Brulee Cheesecake
+CURRENT_DESCRIPTION: this recipe is from tish boyle's "cake" cookbook. be sure to use the water bath, it keeps the cheesecake moist and prevents the top from cracking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sugar, butter, green apples, lemon juice, unsalted butter
+---
+TITLE: Apple Crepes
+CURRENT_DESCRIPTION: i just love to make them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, flour, cognac, butter, sugar
+---
+TITLE: Apple Crescent Dumplings
+CURRENT_DESCRIPTION: awesome! a wonderful dessert that will surely please!  the crescent rolls provide a quick and easy method in preparing this treat!  has an apple-cinnamony flavor that is superb!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, refrigerated crescent dinner rolls, cinnamon, butter, sugar, water
+---
+TITLE: Apple Crescent Treats
+CURRENT_DESCRIPTION: this makes for a tasty treat that is faster and easier than making apple dumplings. * as per reviewers suggestion, i have reduced the amount of liquid in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, crescent rolls, orange juice, sugar, butter
+---
+TITLE: Apple Crescents
+CURRENT_DESCRIPTION: i got this recipe from my mother. these little apple pies are so yummy!!! they don't last long at my house.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crescent rolls, apples, orange juice, white sugar, butter, cornstarch
+---
+TITLE: Apple Crisp
+CURRENT_DESCRIPTION: apple crisp
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, flour, salt, sugar, egg, baking powder
+---
+TITLE: Apple Crisp   No Oats
+CURRENT_DESCRIPTION: a great apple crisp recipe with no oats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, cinnamon, water, butter, flour, sugar
+---
+TITLE: Apple Crisp   The Neely S
+CURRENT_DESCRIPTION: saw this on food network show down home with the neely's.  simple and yummy, what more can you ask for?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, pecans, all-purpose flour, brown sugar, maple syrup, lemon juice
+---
+TITLE: Apple Crisp  Apple Crisp And More Apple Crisp   Kid S All Time F
+CURRENT_DESCRIPTION: i have had this recipe since 1968 served for lunch in the cafeteria at adams jr. high school in sandusky, ohio. home of the best amusement park in the world, cedar point! if you have this one time you will be hooked,lucky for me i was good friends with the supervisor at the cafeteria, leave alone it was my good friends mom!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, rolled oats, brown sugar, ground cinnamon, butter, sliced apples
+---
+TITLE: Apple Crisp A La Lydia
+CURRENT_DESCRIPTION: gourmet published their version of an apple crisp and when i was looking for a crisp recipe like my grandma's i tweeked this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, rolled oats, dark brown sugar, granulated sugar, ground cinnamon, salt
+---
+TITLE: Apple Crisp A La Mode
+CURRENT_DESCRIPTION: easy to make and delicious. all the topping ingredients go into a bag and are easily mixed up to pour on top. the kids love to help make this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, rolled oats, brown sugar, flour, cinnamon, nutmeg
+---
+TITLE: Apple Crisp Bars
+CURRENT_DESCRIPTION: remember the smell and taste of home baked apple crisp in the morning? these bars revive that experience by making a portable pocket-sized version of this old favorite. it's a quick breakfast on-the-go or healthy lunch-time snack.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, dried apple, apple juice, rolled oats, rice krispies, oat flour
+---
+TITLE: Apple Crisp Cake
+CURRENT_DESCRIPTION: this is really good
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick-cooking oatmeal, all-purpose flour, granulated sugar, cinnamon, butter, white cake mix
+---
+TITLE: Apple Crisp Cheesecake
+CURRENT_DESCRIPTION: it is very different and i loved the combination of the fruit, the cream cheese and the oats. really good and i have hundreds of recipes for cheesecake. especially nice in fall and winter
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, oats, brown sugar, unsalted butter, flour, cinnamon
+---
+TITLE: Apple Crisp Chicken
+CURRENT_DESCRIPTION: this recipe is from a publix recipe card.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple chips, corn flakes, flour, seasoning salt, boneless skinless chicken breast, apple butter
+---
+TITLE: apple crisp cookies
+CURRENT_DESCRIPTION: in case you haven't seen any of my other recipes, i should tell you that i'm pretty much partial to cookies:) this recipe is pretty much a staple in my kitchen--it's easy, adaptable, really yummy, and everyone who drops by eats them by the handful. i have used other pie fillings as well, but the apple is just so cozy and fitting for the coming seasons;) if you get a chance to try these, i hope you enjoy them:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, vanilla extract, old fashioned oats, flour, baking soda
+---
+TITLE: Apple Crisp Cookies
+CURRENT_DESCRIPTION: in case you haven't seen any of my other recipes, i should tell you that i'm pretty much partial to cookies:) this recipe is pretty much a staple in my kitchen--it's easy, adaptable, really yummy, and everyone who drops by eats them by the handful. i have used other pie fillings as well, but the apple is just so cozy and fitting for the coming seasons;) if you get a chance to try these, i hope you enjoy them:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, light brown sugar, vanilla extract, old fashioned oats, flour, baking soda
+---
+TITLE: Apple Crisp Crumble For Passover And All Year
+CURRENT_DESCRIPTION: i can never find good recipes for passover that taste like all year round- that is until i tried this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato starch, eggs, sugar, oil, salt, vanilla sugar
+---
+TITLE: Apple Crisp For 2
+CURRENT_DESCRIPTION: a small batch dessert recipe from somewhere in my old recipe files.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, all-purpose flour, brown sugar, oatmeal, cinnamon, ground nutmeg
+---
+TITLE: Apple Crisp Ii
+CURRENT_DESCRIPTION: dessert
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, brown sugar, oatmeal, baking powder, salt, butter
+---
+TITLE: Apple Crisp Low Fat
+CURRENT_DESCRIPTION: a great dessert for any occasion
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking apples, cinnamon, splenda sugar substitute, flour, quick oats, vanilla
+---
+TITLE: Apple Crisp Muffins
+CURRENT_DESCRIPTION: these are one of my favorite muffins to eat... especially in the fall. pretty simple to make.
+
+from goodness gracious cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, apples, sugar, salt, baking soda, cinnamon
+---
+TITLE: Apple Crisp Muffins Recipe
+CURRENT_DESCRIPTION: this is today's toh recipe of the day. they look wonderful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, brown sugar, baking powder, salt, ground cinnamon, egg
+---
+TITLE: Apple Crisp Oven Pancake
+CURRENT_DESCRIPTION: i got this recipe off the internet, but i don't remember the website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, bisquick, brown sugar, butter, cinnamon, milk
+---
+TITLE: Apple Crisp Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 graham cracker crust, 1 large egg yolk, 5 1/2 c. sliced apples, 1 Tbsp. lemon juice, 1/2 c. sugar, 1/4 c. light brown sugar
+---
+TITLE: Apple Crisp Plus
+CURRENT_DESCRIPTION: this is a different, richer apple crisp. this recipe comes from a bed and breakfast in searsport, maine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, ground cinnamon, nutmeg, sugar, flour, baking powder
+---
+TITLE: apple crisp tarts
+CURRENT_DESCRIPTION: a wonderful not-too-sweet apple cinnamon tart with a deliciously crunchy crust. makes 12 tarts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cornmeal, sugar, salt, margarine, water
+---
+TITLE: Apple Crisp Tarts
+CURRENT_DESCRIPTION: a wonderful not-too-sweet apple cinnamon tart with a deliciously crunchy crust. makes 12 tarts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cornmeal, sugar, salt, margarine, water
+---
+TITLE: Apple Crisp With A Difference
+CURRENT_DESCRIPTION: scrumptious!!! alone or topped with ice cream or whipped cream. (stand time 30 minutes) originally from lorraine fadden in kootenay country kitchens cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, apples, amber rum, white sugar, cinnamon, walnuts
+---
+TITLE: Apple Crisp With Corn Flakes
+CURRENT_DESCRIPTION: childhood memories abound in this dessert. my mother would make this for functions that i attended and it always garnered tons of raves and requests for the recipe. inexpensive and delicious. extremely easy to make. recipe is not my own, i received it after making a request here on "zaar". :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, brown sugar, quaker oats, flour, corn flakes, cinnamon
+---
+TITLE: Apple Crisp With Macadamia Nuts
+CURRENT_DESCRIPTION: from cooking light.  it's actually somewhat "light" in calories until you top with ice cream or whipped cream...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, brown sugar, macadamia nuts, ground cinnamon, ground nutmeg
+---
+TITLE: Apple Crisp With Orange Juice
+CURRENT_DESCRIPTION: this allegedly is a favorite of mama barbara bush and i refuse to make any political statements. let's just say the recipe is good and leave it at that.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, orange juice, sugar, all-purpose flour, ground cinnamon, ground nutmeg
+---
+TITLE: Apple Crisp With Organic Sugar
+CURRENT_DESCRIPTION: this is a good apple crisp made with one of my favorite sugars for baking.
+i love cooking with anything organic so please, enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, lemon, juice of, cinnamon, rolled oats, flour, sugar
+---
+TITLE: Apple Crisp With Peanut Brittle Crust
+CURRENT_DESCRIPTION: a great casserole dish, that is great for potlucks, or a dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, all-purpose flour, brown sugar, lemon juice, maple syrup, cinnamon
+---
+TITLE: Apple Crisp With Pecans And Oats
+CURRENT_DESCRIPTION: i started with recipe #1423 and made enough adjustments to have a new recipe that perfectly suits my tastes.  one big change is that i tossed the apples in cinnamon sugar.  i hope you enjoy it as much as i did.  don't forget the vanilla ice cream and thanks to whtsebring for the original recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, brown sugar, flour, unsalted butter, pecans, oats
+---
+TITLE: Apple Crostata  Ina Garten
+CURRENT_DESCRIPTION: this recipe is from ina garten, the "barefoot contessa". prep time includes the hour that the pastry dough is in the frig.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, kosher salt, unsalted butter, ice water, apples
+---
+TITLE: Apple Crostata With Caramel Sauce
+CURRENT_DESCRIPTION: this rustic apple pie comes together quickly when using a premade or refrigerated pie crust. i like to use jonagold apples sliced pretty thin, about 2 medium will equal the 4 cups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crusts, sugar, all-purpose flour, apples, ground cinnamon, nutmeg
+---
+TITLE: Apple Crumb Cake
+CURRENT_DESCRIPTION: my dh hates apple cakes and pies of all kinds but will eat this until i stop him and i love apple cake and pies of all kinds and will eat this until i stop myself; in other words everyone loves this cake. this is not a fluffy cake but a good heavy crumb cake with an almost cookie-like crust. the nice thing about this is that you really can use any kind of fresh or frozen fruit or any combination (except strawberries). my personal favorite is apple and apricot. it is especially good with a layer of fruit pie filling on top of the apples like cherry pie filling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, vanilla sugar, oil, eggs
+---
+TITLE: Apple Crumb Cheesecake Pie
+CURRENT_DESCRIPTION: delectable dessert that's easy as one, two, three!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie shell, cream cheese, granulated sugar, egg, lemon juice, vanilla
+---
+TITLE: Apple Crumb Deep Dish Pie
+CURRENT_DESCRIPTION: when i make apple pie, this is the recipe that i usually use, it always turns out great ---prep time does not include preparing the pastry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crust, baking apples, lemon, juice of, sour cream, flour, white sugar
+---
+TITLE: Apple Crumb Pie
+CURRENT_DESCRIPTION: tired of boring crumb pies?  wow them with this one at your next family picnic.  this is a family favorite and is even requested for birthdays instead of cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, flour, sugar, cinnamon, brown sugar, pecans
+---
+TITLE: Apple Crumb Pie  Zwt Midwestern Region
+CURRENT_DESCRIPTION: when i was a kid, my mom was always required to bring pies to family gatherings because no one else made them as well.  here is my spicier version of her most popular recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apples, sugar, brown sugar, flour, cinnamon, allspice
+---
+TITLE: Apple Crumb Squares
+CURRENT_DESCRIPTION: these bars are quick and simple to prepare....and delicious, too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant oats, flour, brown sugar, ground cinnamon, salt, baking soda
+---
+TITLE: Apple Crumble
+CURRENT_DESCRIPTION: from prevention magazines "guide to foods that heal"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, unsweetened applesauce, rolled oats, toasted wheat germ, light brown sugar, cinnamon
+---
+TITLE: Apple Crumble
+CURRENT_DESCRIPTION: 88K likes, 146 comments - tigerlariz on October 30, 2025: "Mein favorite Apple crumble🍎😋
+Wenn ihr ein schnelles Dessert wollt, welches jedem schmeckt, dann macht den unbedingt 😍🥹
+Ihr könnt natürlich auch den Zucker ersetzen, aber ich hab das hier nicht gemacht - denn man kann sich den auch mal so gönnen 
+
+Was du brauchst:
+-4-5 Äpfel
+-Apfelmus (am besten kaltgeriebener ohne Zuckerzusatz)
+-Mehl 160g
+-brauner Zucker 100g
+-Butter 100g
+-Zimt 
+
+Wie?:
+1) erst schneidest du die Äpfel klein & gibst s
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4.5 Apples, Applesauce, 160 g Flour, 100 g Brown sugar, 100 g Butter, Cinnamon
+---
+TITLE: Apple Crumble  Barbados
+CURRENT_DESCRIPTION: i received this recipe from a friend in barbados, after i asked to bring a few of her favorite recipes back home with me.  the ingredients are meant to be weighed for the most consistent results.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, cinnamon, butter, lard, apple pie filling
+---
+TITLE: Apple Crumble  Gluten  Dairy And Egg Free
+CURRENT_DESCRIPTION: a delicious apple crumble made without gluten. my son was intolerant of coconut, so it is also free of that, using flaked almonds instead. in place of the self-raising flour you can simply add 3 teaspoons of gluten-free baking powder to 1 1/2 cups of any all purpose gluten-free flour mix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, water, sugar, cinnamon, gluten-free self-raising flour, sliced almonds
+---
+TITLE: Apple Crumble  Known As Apple Cracknell From Sussex Uk
+CURRENT_DESCRIPTION: a different version of an old favourite apple crisp or apple crumble! posted by request. recipe posted as written, the amount of brown sugar is 'to taste', depends on the type and sweetness of your apples. i find 1/4 to 1/2 cup is enough for my 'taste'.
+source: favourite sussex recipes by pat smith
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced apple, brown sugar, crystallized ginger, self-raising flour, butter, porridge oats
+---
+TITLE: Apple Crumble Coffee Cake
+CURRENT_DESCRIPTION: 5 ingredient cake that takes 5 minutes to put together and is fat free
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, sugar, ground cinnamon, butter, bisquick baking mix
+---
+TITLE: Apple Crumble In A Jar
+CURRENT_DESCRIPTION: great gift!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, brown sugar, oats, cinnamon, nutmeg
+---
+TITLE: Apple Crumble Pie
+CURRENT_DESCRIPTION: very easy and tasty.  source is chatelaines adventures in cooking 1968.  my book is getting covered in a variety of sauces.  one of the best cook books i have ever found.  use your favorite pastry recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, lemon juice, brown sugar, all-purpose flour, butter, cinnamon
+---
+TITLE: Apple Crumble Tarts
+CURRENT_DESCRIPTION: i got this recipe in betty crockers cookbook, a reprint actually, that was from a very old book. it was for a pie and i only had 12 tarts so i changed it and modified it and yum yum....we had them for ukranian christmas dessert and my husband and son told me to write  it down before i forget what i did....so enjoy please...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, flour, cinnamon, sugar, butter, walnuts
+---
+TITLE: Apple Crumble With Granola Topping
+CURRENT_DESCRIPTION: this is a nice and simple recipe, the most time consuming thing is preparing the apples. the topping is nice and crunchy. different fruits, such as dried cranberries, raisins, rhubarb or any type of berry could be added for a unique taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, brown sugar, cinnamon, lemon juice, butter, granola cereal
+---
+TITLE: Apple Crumble With Tea Masala Spices
+CURRENT_DESCRIPTION: i tried this crumble variation with tea masala spices and this came out really delicious. you can try with your favorite spices mix or with my recipe #448067 mix (quantity to taste).
+what’s the difference between a british crumble and an american crisp? 
+according to  http://www.fromkarenskitchen.com/tips/types_of_cobblers.php  this is the answer: the traditional crumble topping contains flour, sugar, and butter but may also include oats, nuts, and spices. as more of these ingredients are added, the crumble becomes even more similar to a crisp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, brown sugar, flour, rolled oats, butter, spices
+---
+TITLE: Apple Crumbles Cake
+CURRENT_DESCRIPTION: one of our favorite apples cakes…always welcome!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, vanilla powder, egg, salt, baking powder
+---
+TITLE: Apple Crunch
+CURRENT_DESCRIPTION: comfort dessert!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, flour, butter, sugar, baking powder, salt
+---
+TITLE: Apple Crunch Bars
+CURRENT_DESCRIPTION: this bar is a healthy and nutritious bar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, brown sugar, margarine, baking soda, ground cinnamon, ground nutmeg

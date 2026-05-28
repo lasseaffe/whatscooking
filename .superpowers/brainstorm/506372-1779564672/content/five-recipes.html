@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5 Curated Recipes</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d0d0c; color: #EFE3CE; font-family: Inter, sans-serif; padding: 32px 24px; }
+  h2 { font-family: Georgia, serif; font-size: 22px; text-align: center; margin-bottom: 6px; }
+  .subtitle { color: #a08060; font-size: 13px; text-align: center; margin-bottom: 32px; }
+
+  .recipe-row {
+    display: grid;
+    grid-template-columns: 64px 1fr 1fr 80px;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .recipe-row:hover { transform: translateX(4px); }
+  .recipe-row.selected { border-color: rgba(255,255,255,0.4); }
+
+  .recipe-emoji { font-size: 40px; text-align: center; }
+  .recipe-name { font-family: Georgia, serif; font-size: 22px; line-height: 1.1; }
+  .recipe-origin { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; opacity: 0.6; }
+  .recipe-desc { font-size: 12px; opacity: 0.7; line-height: 1.5; }
+  .recipe-vibe {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    border: 1px solid currentColor;
+  }
+
+  /* Each recipe gets its own palette */
+  .r-carbonara { background: linear-gradient(135deg, #1f0f05 0%, #2d1505 100%); }
+  .r-carbonara .recipe-name { color: #f0c890; }
+  .r-carbonara .recipe-vibe { color: #c8a060; }
+
+  .r-fattoush { background: linear-gradient(135deg, #051a05 0%, #0a200a 100%); }
+  .r-fattoush .recipe-name { color: #90d890; }
+  .r-fattoush .recipe-vibe { color: #5a9a5a; }
+
+  .r-harira { background: linear-gradient(135deg, #1a0505 0%, #250808 100%); }
+  .r-harira .recipe-name { color: #f09080; }
+  .r-harira .recipe-vibe { color: #c05040; }
+
+  .r-ramen { background: linear-gradient(135deg, #050c1a 0%, #08101f 100%); }
+  .r-ramen .recipe-name { color: #90b8f0; }
+  .r-ramen .recipe-vibe { color: #5080c0; }
+
+  .r-tacos { background: linear-gradient(135deg, #1a1005 0%, #241500 100%); }
+  .r-tacos .recipe-name { color: #f0d070; }
+  .r-tacos .recipe-vibe { color: #c0a030; }
+
+  .legend {
+    max-width: 680px;
+    margin: 28px auto 0;
+    padding: 16px;
+    background: #1a1a18;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #a08060;
+    line-height: 1.8;
+  }
+  .legend strong { color: #EFE3CE; }
+
+  .confirm { text-align: center; margin-top: 20px; color: #6b5040; font-size: 12px; }
+</style>
+<script>
+  function toggle(el) {
+    el.classList.toggle('selected');
+    const selected = [...document.querySelectorAll('.recipe-row.selected')].map(r => r.dataset.choice);
+    try {
+      fetch('/event', {method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({type:'click', choice: selected.join(','), text: selected.join(','), timestamp: Date.now()})});
+    } catch(e) {}
+  }
+</script>
+</head>
+<body>
+
+<h2>The 5 Curated Recipes</h2>
+<p class="subtitle">Each becomes a full-screen color world in the showcase. Does this lineup feel right?<br>Click any you'd swap out.</p>
+
+<div style="max-width:680px;margin:0 auto">
+
+  <div class="recipe-row r-carbonara" data-choice="carbonara" onclick="toggle(this)">
+    <div class="recipe-emoji">🍝</div>
+    <div>
+      <div class="recipe-name">Carbonara</div>
+      <div class="recipe-origin">Rome · Italy</div>
+    </div>
+    <div class="recipe-desc">Rich egg-and-guanciale pasta. The definition of "few ingredients, maximum depth." Warm amber world.</div>
+    <div class="recipe-vibe">comfort</div>
+  </div>
+
+  <div class="recipe-row r-fattoush" data-choice="fattoush" onclick="toggle(this)">
+    <div class="recipe-emoji">🥗</div>
+    <div>
+      <div class="recipe-name">Fattoush</div>
+      <div class="recipe-origin">Beirut · Lebanon</div>
+    </div>
+    <div class="recipe-desc">Crisp toasted pita, fresh herbs, sumac dressing. Light, vibrant. Deep forest green world.</div>
+    <div class="recipe-vibe">fresh</div>
+  </div>
+
+  <div class="recipe-row r-harira" data-choice="harira" onclick="toggle(this)">
+    <div class="recipe-emoji">🍲</div>
+    <div>
+      <div class="recipe-name">Harira</div>
+      <div class="recipe-origin">Fez · Morocco</div>
+    </div>
+    <div class="recipe-desc">Slow-cooked tomato, lentil & lamb soup. Ramadan staple, spiced and deeply satisfying. Brick red world.</div>
+    <div class="recipe-vibe">slow & deep</div>
+  </div>
+
+  <div class="recipe-row r-ramen" data-choice="ramen" onclick="toggle(this)">
+    <div class="recipe-emoji">🍜</div>
+    <div>
+      <div class="recipe-name">Tori Ramen</div>
+      <div class="recipe-origin">Tokyo · Japan</div>
+    </div>
+    <div class="recipe-desc">Clear chicken broth, soft egg, wavy noodles. Precision and patience in a bowl. Midnight blue world.</div>
+    <div class="recipe-vibe">precise</div>
+  </div>
+
+  <div class="recipe-row r-tacos" data-choice="tacos" onclick="toggle(this)">
+    <div class="recipe-emoji">🌮</div>
+    <div>
+      <div class="recipe-name">Birria Tacos</div>
+      <div class="recipe-origin">Jalisco · Mexico</div>
+    </div>
+    <div class="recipe-desc">Consommé-dipped, cheese-crisped tortilla. The internet's favourite taco. Deep gold world.</div>
+    <div class="recipe-vibe">bold</div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <strong>Color logic:</strong> Carbonara → warm amber · Fattoush → forest green · Harira → brick red · Ramen → midnight blue · Tacos → deep gold<br>
+  <strong>Each poster shows:</strong> ambient gradient background · large emoji with glow · cuisine origin · dish name (serif, large) · one-line description · 3–4 flavor/diet tags · cook time + kcal
+</div>
+
+<div class="confirm">This lineup gives global range: Italian · Lebanese · Moroccan · Japanese · Mexican.<br>Click any row to flag it for swapping, then reply in terminal.</div>
+
+</body>
+</html>

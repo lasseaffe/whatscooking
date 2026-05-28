@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass, Swords,
-  ChevronRight, ShoppingCart, Leaf,
+  ChevronRight, ShoppingCart, Leaf, BookOpen, Plus, Heart, GlassWater,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -51,10 +51,27 @@ const NAV_GROUPS: NavGroup[] = [
         desc: "",
       },
       {
+        href: "/explore",
+        label: "Explore",
+        icon: Compass,
+        desc: "Browse TheMealDB & Spoonacular",
+      },
+      {
         href: "/challenge",
         label: "Challenge Mode",
         icon: Swords,
         desc: "Cooking with rules",
+      },
+    ],
+  },
+  {
+    group: "Drinks",
+    items: [
+      {
+        href: "/drinks",
+        label: "Drinks",
+        icon: GlassWater,
+        desc: "Café, Bar, Wine & more",
       },
     ],
   },
@@ -67,8 +84,28 @@ const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    group: "Kitchen",
+    group: "My Kitchen",
     items: [
+      {
+        href: "/my-recipes",
+        label: "My Recipes",
+        icon: Heart,
+        desc: "",
+        children: [
+          { href: "/my-recipes",     label: "My Recipes",   icon: Heart,  desc: "" },
+          { href: "/my-recipes/new", label: "Create Recipe", icon: Plus,  desc: "" },
+        ],
+      },
+      {
+        href: "/cookbooks",
+        label: "Cookbooks",
+        icon: BookOpen,
+        desc: "",
+        children: [
+          { href: "/cookbooks",     label: "Browse Cookbooks", icon: BookOpen, desc: "" },
+          { href: "/cookbooks/new", label: "New Cookbook",     icon: Plus,     desc: "" },
+        ],
+      },
       {
         href: "/pantry",
         label: "My Pantry",
@@ -402,7 +439,7 @@ export function AppNav() {
       >
         {/* ── Logo ── */}
         <div className="px-3 py-4 border-b shrink-0" style={{ borderColor: "var(--wc-border-subtle)", overflow: "hidden" }}>
-          <Link href="/dashboard" className="flex items-center gap-2.5 min-w-0">
+          <Link href="/" className="flex items-center gap-2.5 min-w-0">
             <div
               className="wc-logo shrink-0 flex items-center justify-center rounded-xl"
               style={{ width: 42, height: 42, background: "linear-gradient(135deg, var(--wc-pal-accent, #B07D56), var(--wc-pal-mid, #5F3E2D))", flexShrink: 0 }}

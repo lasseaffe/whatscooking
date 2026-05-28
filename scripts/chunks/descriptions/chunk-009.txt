@@ -1,0 +1,2136 @@
+TITLE: Almond Cinnamon Rolls
+CURRENT_DESCRIPTION: cinnamon rolls made even more delicious with almond paste and slivered almonds! as always, you can use dry yeast instead of fresh if you prefer - adjust the temperature of the milk and butter mixture accordingly. the recipe doubles well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, milk, fresh yeast, ground cardamom, cinnamon, salt
+---
+TITLE: Almond Citrus Olive Oil Cake
+CURRENT_DESCRIPTION: this is from everyday italian.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, sugar, eggs, orange zest
+---
+TITLE: Almond Citrus Tart
+CURRENT_DESCRIPTION: a lovely dessert tart. posted for zaar world tour 2005. prep time doesn't include 1 hour resting the dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, caster sugar, butter, lemon zest, egg yolks, fresh ricotta
+---
+TITLE: Almond Cloud Cookies
+CURRENT_DESCRIPTION: this is a recipe for one of king arthur flour's best-selling cookies.  they are chewy-crisp cookie with an intense almond flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, sugar, egg whites, almond extract, bitter almond oil, confectioners
+---
+TITLE: Almond Coated Basa
+CURRENT_DESCRIPTION: crispy pan fried fish with an almond and parmesan coating
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, parmesan cheese, dried parsley, lemon pepper, cayenne pepper, egg
+---
+TITLE: Almond Coconut 3 Layer Cake With Coconut Frosting
+CURRENT_DESCRIPTION: be prepared everyone will be asking you for this recipe after they try it! the cake can be made without the almond extract but i think it is better with it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, white sugar, butter, crisco shortening, almond extract, all-purpose flour
+---
+TITLE: Almond Coconut Bars
+CURRENT_DESCRIPTION: sweet, gooey and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, brown sugar, margarine, eggs, sugar, corn syrup
+---
+TITLE: Almond Coconut Brownies
+CURRENT_DESCRIPTION: a want-to-try recipe from best of country cooking.  prep/cook times include chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, unsweetened chocolate squares, sugar, eggs, all-purpose flour, slivered almonds
+---
+TITLE: Almond Coconut Christmas Balls
+CURRENT_DESCRIPTION: these are very easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: confectioners, ,, ,, ,, ,, ,
+---
+TITLE: Almond Coconut Joy
+CURRENT_DESCRIPTION: a frozen non-alcoholic drink your family will enjoy. for best results freeze fresh bananas ahead of time. recipe from my daily moments website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light coconut milk, chocolate sorbet, bananas, coconut, coconut extract, almond extract
+---
+TITLE: almond coconut macaroons
+CURRENT_DESCRIPTION: these macaroons are really quick to make, and they are so yummy!  the original recipe was on the label of solo brand pure almond paste.  only three ingredients, how easy is that?!  but i do add coconut and a cherry on top to make these beauties!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, egg whites, sugar, coconut, maraschino cherries
+---
+TITLE: Almond Coconut Macaroons
+CURRENT_DESCRIPTION: these macaroons are really quick to make, and they are so yummy!  the original recipe was on the label of solo brand pure almond paste.  only three ingredients, how easy is that?!  but i do add coconut and a cherry on top to make these beauties!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, egg whites, sugar, coconut, maraschino cherries
+---
+TITLE: Almond Coffee Cheesecake For Anna
+CURRENT_DESCRIPTION: this is the perfect choice for a elegant dinner party.  this cake is being posted in honor of my friend anna...the brew mistress.
+
+i hope you all enjoy this delicious cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer cookies, almonds, butter, coffee, cream cheese, sugar
+---
+TITLE: Almond Cookie Cups
+CURRENT_DESCRIPTION: from the italian inn cookbook.  i just love these, there are so many possibilities.  they are fun, and most of all delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sliced almonds, dark brown sugar, light corn syrup, butter, vanilla
+---
+TITLE: Almond Cookies
+CURRENT_DESCRIPTION: more italian goodies.  passive cook time is per cookie sheet.  this makes a massive batch since they are normally made for weddings and other large events so you may want to make half a batch at a time as i do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, canola oil, orange juice, almond extract, ground almonds
+---
+TITLE: Almond Cookies  Gluten Free
+CURRENT_DESCRIPTION: these rich, chewy cookies are gluten-free and honey sweetened.  you can add optional ingredients to your taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond flour, coconut flour, eggs, butter, honey, vanilla extract
+---
+TITLE: Almond Cracked Wheat Bread  Abm
+CURRENT_DESCRIPTION: the addition of almond paste gives this loaf a tender moistness; it's also a good complement to the nutty flavor of cracked wheat. the almond flavor isn't strong, but adds a delicate hint of sweetness. baking time is however long your bread machine takes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, unsalted butter, almond paste, granulated sugar, salt, cracked wheat
+---
+TITLE: Almond Cranberry Apricot Biscotti
+CURRENT_DESCRIPTION: these started out with just almonds and the cranberries and dried apricots got worked in there somehow. they are really good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, dried apricot, dried cranberries, sliced almonds, eggs
+---
+TITLE: Almond Cranberry Biscotti
+CURRENT_DESCRIPTION: in stead of using cranberries use dried cherries for almond-cherry biscotti's. this biscotti recipe is posted by request, i have not made this one yet. recipe comes from plumercrest bed and breakfast.(i would watch the bake time it seems long)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, eggs, baking powder, salt, vanilla
+---
+TITLE: Almond Cranberry Bread
+CURRENT_DESCRIPTION: from ocean spray flyer.  it has been a many years since i've made this bread but my notes say it is yummy!  my notes also say i added a 1/4 cup of chopped almonds to the batter and then used another 1/4 cup of sliced/slivered almonds for the topping.  so i've adjusted the original to include this but feel free to leave the chopped almonds out of the batter itself. **updated 12/7/11 - i've adjusted the bake time for this bread.  the original times were definitely too long for this quick bread **
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, egg, 1% low-fat milk
+---
+TITLE: Almond Cranberry Bundt
+CURRENT_DESCRIPTION: i've created this lightened bundt so you can eat a big piece! uses solo almond pastry filling. can be topped with a dusting of powdered sugar, or glaze with almond slivers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, whole wheat flour, baking powder, salt, unsalted butter, applesauce
+---
+TITLE: Almond Cream  Crema Di Mandorle
+CURRENT_DESCRIPTION: posted for the zaar world tour-italy.
+from the "best of international cooking" cookbook. i haven't tried this recipe. prep time doesn't include refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, blanched almond, whipping cream, brandy
+---
+TITLE: Almond Cream Cheese Pound Cake
+CURRENT_DESCRIPTION: this cake comes from one of my favorite cookbooks, *the cake mix doctor*.  it is a keeper of a cake recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter recipe cake mix, cream cheese, eggs, sugar, water, vegetable oil
+---
+TITLE: Almond Cream Puff Ring
+CURRENT_DESCRIPTION: this dessert is simple in preparation but elegant on presentation, and quite yummy. the recipe is always requested when i serve it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, butter, flour, salt, eggs, vanilla instant pudding mix
+---
+TITLE: Almond Cream With Fruit
+CURRENT_DESCRIPTION: elegant, but so easy dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french vanilla instant pudding, milk, whipping cream, almond extract, mixed fruit
+---
+TITLE: Almond Creme
+CURRENT_DESCRIPTION: this is a nice desert, easy to make. the kids love it. this does need to chill for 3 hours. posted for world zaar tour 05
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cold water, unflavored gelatin, sugar, boiling water, evaporated milk, vanilla
+---
+TITLE: Almond Creme Bars
+CURRENT_DESCRIPTION: these are a delicious melt-in-your-mouth kind of bar that is simple to make and yet gives an elegant presentation.  if you like almond flavoring, and a cream cheese or cheesecake consistency, you will most surely love these.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, powdered sugar, cream cheese, sugar, eggs
+---
+TITLE: Almond Crescent Cookies
+CURRENT_DESCRIPTION: a moroccan recipe from the multicultural cookbook for students. this is also called sesame cornes de gazelles.  "moroccan pastries are works of art.  they have incorporated the flair of the french with the use of middle east ingredients, such as honey, almonds, sesame seeds, and dried fruit." notice how the flour starts with one cup and then you might add more depending upon how sticky it is. the oven time seems a bit long to me.  i have not made this but think it sounds good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, confectioners, ,, ,, ,, ,
+---
+TITLE: Almond Crescent Puffs
+CURRENT_DESCRIPTION: all puffed up and ready to go! crescent roll dough makes quick work of tasty pastry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, water, all-purpose flour, eggs, almond extract, pillsbury refrigerated crescent dinner rolls
+---
+TITLE: almond crescents
+CURRENT_DESCRIPTION: light and tender and they keep really well. one of our holiday favorites
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, sugar, unsalted butter, all-purpose flour, salt, superfine sugar
+---
+TITLE: Almond Crescents
+CURRENT_DESCRIPTION: light and tender and they keep really well. one of our holiday favorites
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, sugar, unsalted butter, all-purpose flour, salt, superfine sugar
+---
+TITLE: Almond Crescents  Kourabiedes
+CURRENT_DESCRIPTION: posted for the zaar world tour-greece.
+from the "international vegetarian cookbook". i have had cookies similar to these, but not this exact recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, sweet butter, powdered sugar, egg yolk, brandy, all-purpose flour
+---
+TITLE: Almond Crescents  Mandlove Rohlicky
+CURRENT_DESCRIPTION: this has been a family favorite for many, many, years, i usually make a double batch to ensure having them around for more than a day! the recipe comes from the now defunct country cooking magazine in an article on czechoslovakian cooking. i grind my almonds in my cuisinart and mix the recipe up in it also, but a mixer will also work fine. (i guessed on the yield, they make a full tray plus).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, almonds, powdered sugar, salt, butter, vanilla extract
+---
+TITLE: Almond Crowned Kugel
+CURRENT_DESCRIPTION: my mother used to make this for very special dairy meals. i used to think that when i started cooking i would make this all the time, but now i know my mother was right (she always is), this is so rich you should only eat it a few times a year. you have been warned!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium noodles, butter, sugar, sour cream, milk, cottage cheese
+---
+TITLE: Almond Crumbed Chicken Schnitzel With Avocado Salad
+CURRENT_DESCRIPTION: from a promotional magazine put out by moro oils.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, chicken tenderloins, plain flour, egg, breadcrumbs, sliced almonds
+---
+TITLE: Almond Crusted Catalan Chicken
+CURRENT_DESCRIPTION: this really turns plain-old-chicken into something interesting. i've doubled this recipe and it works just as well. goes great with some basmati rice and a green salad. prep time includes marinating the chickens.  use matzoh meal instead of breadcrumbs and this is perfect for passover.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broiler-fryer chicken, mayonnaise, garlic cloves, fresh orange juice, orange rind, honey
+---
+TITLE: Almond Crusted Catfish
+CURRENT_DESCRIPTION: this is a great way to enjoy a unique take on
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: breadcrumbs, parmesan cheese, almonds, garlic, salt, ground black pepper
+---
+TITLE: Almond Crusted Cherry Cream Pie
+CURRENT_DESCRIPTION: this is my dad's favorite pie. it's pretty easy to prepare. if you don't feel like mixing a pie crust/making your own you can buy a store bought one and just press the almonds into the crust. it is extremely rich and yummy! i don't even like cherries and i love this pie!
+cook time is chill time.
+
+for the crust i usually use recipe #51537 and just grind the almonds up and mix them in with the dry ingredients... this has seemed to work really well for me
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crust mix, slivered almonds, sweetened condensed milk, lemon juice, vanilla, almond extract
+---
+TITLE: Almond Crusted Chicken
+CURRENT_DESCRIPTION: i found this recipe in fitness magazine and it sounds pretty tasty (and healthy!)... can't wait to try it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, brown sugar, garlic salt, boneless skinless chicken breast halves, fresh parsley
+---
+TITLE: Almond Crusted Chicken Breast
+CURRENT_DESCRIPTION: the almonds in the crust make this a very elegant dish, good for when royalty comes to visit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, lemon juice, extra virgin olive oil, salt and pepper, boneless skinless chicken breasts, almonds
+---
+TITLE: Almond Crusted Chicken Fingers
+CURRENT_DESCRIPTION: this is a good chicken dish to enjoy when you are in a hurry and just got a few minutes to grab a quick meal and go. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, whole wheat flour, paprika, garlic powder, dry mustard, salt
+---
+TITLE: Almond Crusted Chicken Tender Salad
+CURRENT_DESCRIPTION: from the kikkoman website:www.yourteriyaki.com. since it is from their website, they recommend the kikkoman brand of marinade, bread crumbs and orange-teriyaki-honey dressing.  i say use your own favorite brand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: teriyaki marinade, olive oil, honey, vinegar, orange peel, chicken breast tenders
+---
+TITLE: Almond Crusted Chicken With A Strawberry Balsamic Sauce
+CURRENT_DESCRIPTION: almonds are loaded with good fats that keep you full longer and are bursting with vitamin e, an antioxidant that bolsters the immune system. the combination of the tender and crunchy almond crust combined with a savory strawberry sauce is definitely a winner!  a subtle hint of balsamic vinegar adds a nice extra layer of flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, almonds, egg white, fresh strawberries, sugar, balsamic vinegar
+---
+TITLE: Almond Crusted Chicken With Scallion Rice
+CURRENT_DESCRIPTION: delicious chicken with a crisp almond crust. add a simple tossed salad for a complete meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown rice, boneless chicken breast halves, salt, black pepper, all-purpose flour, low-fat buttermilk
+---
+TITLE: Almond Crusted Orange Mustard Pork Chops
+CURRENT_DESCRIPTION: i couldn't find quite what i was looking for so i combined a couple of recipes together and made these pork chops for company the other night.  the almonds make a wonderful brown crispy crust that was refreshingly different an delicious. i rarely measure when i cook so the amounts are approximate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chop, ground almonds, salt, cayenne pepper, black pepper, egg
+---
+TITLE: Almond Crusted Pork
+CURRENT_DESCRIPTION: i got this out of a yahoo article supposed to be like only 300 calories. i want to try it, and figured this is the perfect place to put it for safe keeping. also try the honey mustard dipping sauce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry breadcrumbs, sliced almonds, garlic powder, kosher salt, fresh ground pepper, egg white
+---
+TITLE: Almond Crusted Pork With Honey Dijon Dipping Sauce
+CURRENT_DESCRIPTION: this recipe is one i found on epicurious. it is delicious! i drizzled the sauce on the "pork fingers" rather than dipping them. i hope you enjoy it. here is the description that came with the recipe:
+sliced almonds add a delectable, almost-like-fried-chicken crunch to the breading for these tender pieces of pork. we slice the pork thinly to keep the cooking time quick. the resulting pork “fingers” are great dipped in this surprisingly simple, delicious honey, soy and mustard sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat bread crumbs, sliced almonds, garlic powder, kosher salt, fresh ground pepper, egg white
+---
+TITLE: Almond Crusted Salmon
+CURRENT_DESCRIPTION: if you are, like i am, a fan of salmon, you'll especially like this one. crunchy almonds make this fish delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, fresh parsley, lemon peel, salt, ground black pepper, all-purpose flour
+---
+TITLE: Almond Crusted Salmon With Capers And Lemon
+CURRENT_DESCRIPTION: this recipe is very versatile and can be used with other fish, such as tilapia, halibut, grouper, orange roughy or sole.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, sliced almonds, eggs, salmon fillets, fresh lemon juice, capers
+---
+TITLE: Almond Crusted Salmon With Leek And Lemon Cream
+CURRENT_DESCRIPTION: we’re blessed with an abundance of fresh salmon, here in the pacific northwest.  here’s a favorite way to prepare them!  from “bon appétit” magazine, this one is absolutely wonderful.  lj entry of thursday, april 18th, 2002.  although the directions are long, they are detailed and not difficult to follow.  serve with pilaf and salad (recipe #36428 is especially good with this).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, leeks, dry sherry, fresh lemon juice, whipping cream, salt & freshly ground black pepper
+---
+TITLE: Almond Crusted Shrimp
+CURRENT_DESCRIPTION: very different and very easy and elegant too! not to  mention yummy!!
+please note: this is an adopted recipe and i hope to make it soonest. if you make it before i do, i would appreciate feedback, thanks ! zwt region: australia
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, flour, fresh parsley, seafood seasoning, salt, black pepper
+---
+TITLE: Almond Crusted Tilapia With Caramelized Onions  Rsc
+CURRENT_DESCRIPTION: ready, set, cook!  reynolds wrap contest entry.  the best thing about using reynolds wrap foil is the easy clean up.  these tilapia fillets are like a little gift packet.  bursting with flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, extra virgin olive oil, honey, balsamic vinegar, salt, tilapia fillets
+---
+TITLE: Almond Cupcakes
+CURRENT_DESCRIPTION: these cupcakes are the "i'm-trying-so-hard-to-stop-pretending-these-are-a-main-dish" type, when prepared with recipe #213910 as the icing--the guava cream-cheese filling.  i hulled out a small circle in the middle of the cupcakes and filled them with this.  undeniably addicting!  found this idea on an online blog.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, almond extract, vanilla extract, baking powder
+---
+TITLE: Almond Custard
+CURRENT_DESCRIPTION: a simple dessert custard. serve with some fresh fruit or canned.  can be made suitable for a gluten-free diet by ensuring the cornflour/cornstarch used is gluten-free. ready in less than 10 minutes and can be served warm or cold as desired
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, milk, egg, cream, ground almonds, sugar
+---
+TITLE: Almond Cutout Cookies Ww
+CURRENT_DESCRIPTION: from weight watcher's magazine. if you get 60 cookies out of a batch (i can't! lol!), it is 1 point for every 2 cookies. i prefer to 'decorate' them in a very little drizzling of melted chocolate. do not over bake! prep time doesn't include refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, sliced almonds, unsalted butter, vanilla extract, egg, flour
+---
+TITLE: almond danish puff
+CURRENT_DESCRIPTION: this is yet another of my family's recipes. my mom used to make this every christmas morning. it was and is a special treat that i hope to carry on with my family. this recipe came from an old betty crocker cookbook. glaze recipe for the puff follows the instructions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, water, almond extract, eggs, powdered sugar
+---
+TITLE: Almond Danish Puff
+CURRENT_DESCRIPTION: this is yet another of my family's recipes. my mom used to make this every christmas morning. it was and is a special treat that i hope to carry on with my family. this recipe came from an old betty crocker cookbook. glaze recipe for the puff follows the instructions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, water, almond extract, eggs, powdered sugar
+---
+TITLE: Almond Danish Swirls
+CURRENT_DESCRIPTION: this is a paula deen recipe (although i've heard it was originally a pillsbury bake-off winner years ago) that is absolutely simple and delicious! it's easy to make variations, too, if you're not that into almond.... substitute the almond extract for vanilla, or orange, or butter rum.... and the almonds in the filling for pecans, or a bit of orange marmalade, or toffee bits, or mini-chocolate chips.... the variations are endless!
+
+i increased and slightly sweetened the filling, and make half again (1 1/2 recipe) the amount of glaze from paula's recipe according to our family's tastes. splenda also works well to sub for the sugar for those low-carbers and diabetics out there. the egg wash isn't mandatory; i usually skip it and just ice the danishes and sprinkle on the nuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, almond extract, confectioners, ,, ,, ,
+---
+TITLE: Almond Delight
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 small can coconut, 1 c. slivered almonds, 1/4 c. brown sugar, 1 c. plain flour, 1 stick margarine, melted, 2 small boxes instant vanilla pudding mix
+---
+TITLE: Almond Delight Chicken
+CURRENT_DESCRIPTION: this is great with stir fry veggies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cereal, boneless skinless chicken breasts, butter, garlic salt, sweet and sour sauce
+---
+TITLE: Almond Delite  Cheesecake W Raspberry Sauce
+CURRENT_DESCRIPTION: this is a nice variation of cheesecake, it uses yogurt and neufcha'tel instead of cream cheese; making it a low-fat sinless treat.
+
+note: you can sub the almond extract for any other type of extract for different flavor variations
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, cashews, graham cracker, neufchatel cheese, eggs
+---
+TITLE: Almond Deviled Eggs
+CURRENT_DESCRIPTION: i made these for a party and the guests raved about them.  definitely not your typical deviled egg with it's almond flair.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, mayonnaise, dijon mustard, garlic salt, roasted almonds, parsley
+---
+TITLE: Almond Disaronno Truffles
+CURRENT_DESCRIPTION: tender rich little morsels flavored with almonds and almond liquor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate chips, butter, fat-free sweetened condensed milk, almond liqueur, almonds, cocoa
+---
+TITLE: Almond Dream Coffee Cake
+CURRENT_DESCRIPTION: almonds complement this moist and rich sour cream coffee cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, eggs, all-purpose flour, sour cream, baking powder
+---
+TITLE: Almond Dream Coffeecake
+CURRENT_DESCRIPTION: very good and moist. originally from land o'lakes.
+this is one of my favorites! it is made with nonfat sour cream and still delicious! egg substitute can be successfully used also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, eggs, flour, nonfat sour cream, baking powder
+---
+TITLE: Almond Dukkah
+CURRENT_DESCRIPTION: this dukkah uses almonds and has a hint of fennel to make it a bit different.  great served with oil and turkish bread, but also nice as a crust for chicken or fish.  australian measurements used.  time includes 15 mins for toasted ingredients to cool.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame seeds, coriander seed, cumin seeds, ground cumin, fennel seed, flaked sea salt
+---
+TITLE: Almond Dusted Strawberry Balsamic Chicken Breasts
+CURRENT_DESCRIPTION: this is a impressive dish--men your wives will love you for this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, salt, black pepper, almonds, shallots, chicken broth
+---
+TITLE: Almond Encrusted English Toffee
+CURRENT_DESCRIPTION: i got this recipe last year from the atlanta journal-constitution. it is by john kessler and by far the best toffee i've tried to make. (and i have tried others from the site!) i made this for christmas gifts and people just loved it! for best results, use quality ingrediants such as plugra butter and ghirardelli chocolate. the original recipe calls for bittersweet chocolate, but i prefer milk chocolate. just a matter of preference. also, if you use roasted almonds instead of raw, they may overcook!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, unsalted butter, sea salt, vanilla extract, granulated sugar, chocolate
+---
+TITLE: Almond Fig Baklava
+CURRENT_DESCRIPTION: fresh figs for your baklava!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh figs, slivered almonds, ground cinnamon, phyllo dough, butter, warm water
+---
+TITLE: Almond Filled Cookie Cake
+CURRENT_DESCRIPTION: from pillsbury bake-off. i think this sounds good!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, butter, salt, egg, almonds
+---
+TITLE: Almond Filled Crescent Rolls
+CURRENT_DESCRIPTION: these crescents are easy to prepare and it looks as though you have spent the whole day in the kitchen. found on odense.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, sugar, butter, egg, all-purpose flour, crescent rolls
+---
+TITLE: Almond Filo Snake
+CURRENT_DESCRIPTION: sweet and crunchy - and looks great on the plate, too!  a sweet ending to a moroccan meal!  you can use butter in place of the oils, but watch carefully to prevent burning.  it will also alter the taste considerably.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, sliced almonds, confectioners, ,, ,, ,
+---
+TITLE: Almond Fingers
+CURRENT_DESCRIPTION: a christmas must!!!!! these really need to be made with solo almond fillng not almond paste. i made bought ways and the paste is no way as tender as made with the solo fillng. http://www.solofoods.com/cprod.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg yolk, almond filling, vanilla, flour
+---
+TITLE: Almond Flour Applesauce Muffins
+CURRENT_DESCRIPTION: my husband's favorite breakfast food - try one of these instead of a bowl of cereal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, plain yogurt, honey, applesauce, cinnamon, ground almonds
+---
+TITLE: Almond Flour Banana Pancakes
+CURRENT_DESCRIPTION: moist, low-carb pancakes with the wonderful taste of ripe, fresh bananas. this was originally published on a website whose copyright has expired in 2010 called weelicious.com for yo baby yogurt contestants.  they selected this recipe as the winner, as written by mara stephens. i did change the sweetener she used from agave to splenda as i am trying to keep sugar to a minimum. i am posting here to take advantage of the nutrition calculations this site offers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, splenda sugar substitute, vanilla extract, banana, plain nonfat yogurt, baking soda
+---
+TITLE: Almond Flour Berry Muffins
+CURRENT_DESCRIPTION: delicious and easy recipe from grain-free gourmet by jodi bager and jenny lass. i use a frozen three berry mix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blueberries, water, almond meal, baking soda, ground cinnamon, pure vanilla extract
+---
+TITLE: Almond Flour Blueberry Muffins Best Ever
+CURRENT_DESCRIPTION: i got this recipe off the internet.  these are truly the best almond flour muffins ever.  my granddaughter was just diagnosed with celiac disease and i have been looking for a great gluten free muffin and i finally hit the mark with this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond flour, baking soda, salt, nutmeg, sugar, eggs
+---
+TITLE: Almond Flour Cake  Muffins
+CURRENT_DESCRIPTION: a low carb treat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, splenda sugar substitute, eggs, almond flour, baking powder, lemon extract
+---
+TITLE: Almond Flour German Pancakes
+CURRENT_DESCRIPTION: a low-carb, low-glycemic, nutrient-dense food for a quick breakfast or snack. i use blanched almond flour from honeyville grain co. and kal brand stevia extract powder. the ascorbic acid is unbuffered vitamin c which acidifies the mix and makes the baking soda react faster. keep in the refrigerator for a quick on-the-go, primal snack. use this similar to quick bread, with jam or cream cheese on top. leave out the vanilla and add cheese or use similarly to focaccia.
+
+make several times and memorize it, then customize it on the fly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, salt, baking soda, ascorbic acid, almond flour, eggs
+---
+TITLE: Almond Flour Pound Cake   Sugar Free
+CURRENT_DESCRIPTION: i have not tried this recipe. i got this recipe from obesity help. this recipe was posted by a better jennifer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, splenda granular, eggs, sour cream, almond flour, baking powder
+---
+TITLE: Almond Flour Stevia Cookies
+CURRENT_DESCRIPTION: this is a basic cookie made with real whole foods.   you can spice it up by subbing a different flavor extract.   next time i am going to try adding a 1/4 cup of dark baking chocolate powder and maybe some coconut.   i am excited about trying different variations.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almond flour, stevia, salt, vanilla extract, egg
+---
+TITLE: Almond French Toast
+CURRENT_DESCRIPTION: these almonds are browned in butter to bring a nutty crunch to this classic french toast recipe. from gourmet may 2006.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, half-and-half, sugar, vanilla, salt, sliced almonds
+---
+TITLE: Almond Fudge Banana Cake
+CURRENT_DESCRIPTION: so glad i adopted this recipe.  i finally tried it and my family all said yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dole banana, sugar, margarine, eggs, amaretto liqueur, vanilla extract
+---
+TITLE: Almond Fudge Topped Shortbread
+CURRENT_DESCRIPTION: this needs about 3 hours chilling time
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, powdered sugar, salt, unsifted flour, semi-sweet chocolate chips, eagle brand condensed milk
+---
+TITLE: Almond Ginger Biscotti
+CURRENT_DESCRIPTION: from everyday food october 2005.  allow extra time for cooling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, lemon zest, salt, unblanched whole almonds
+---
+TITLE: Almond Glazed Cherry Chip Sugar Cookies
+CURRENT_DESCRIPTION: a little sweet, a little tart and very savory!
+from the package of eillien's cherry chips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, almond extract, all-purpose flour, baking powder, salt
+---
+TITLE: Almond Glazed Sugar Cookies
+CURRENT_DESCRIPTION: these are delicious!  so simple to make and so tasty.  this recipe comes from the "land o lakes website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, almond extract, flour, baking powder, powdered sugar
+---
+TITLE: Almond Graham Squares
+CURRENT_DESCRIPTION: this is a very easy to make cookie bar. the recipe comes from food everyday.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, graham cracker crumbs, sweetened condensed milk, salt, sliced almonds
+---
+TITLE: Almond Granola
+CURRENT_DESCRIPTION: found this recipe in a magazine while waiting at the doctors office.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, almond butter, liquid honey, cinnamon, vanilla, salt
+---
+TITLE: Almond Granola Bars
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. lightly salted butter or margarine, 2 to 4 Tbsp. light brown sugar, 2 Tbsp. honey, 3 c. uncooked old-fashioned oats, 1/2 c. chopped almonds
+---
+TITLE: Almond Grapes
+CURRENT_DESCRIPTION: this is a favorite, easy, yummy dessert or snack, even breakfast!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: seedless grapes, sour cream, brown sugar, almond extract, pecans
+---
+TITLE: Almond Green Bean Salad
+CURRENT_DESCRIPTION: from a california almonds are in! ad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, cherry tomatoes, red onion, balsamic vinegar, vegetable oil, salt and pepper
+---
+TITLE: Almond Half Moons
+CURRENT_DESCRIPTION: these crisp little cookies, reminiscent of chinese almond cookies, will taste great in any shape your cookie press makes, but be sure to choose a tip with at least a 1/2 -inch opening.  otherwise, the ground nuts might get caught in the opening.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, egg, almond extract, all-purpose flour, ground almonds
+---
+TITLE: Almond Halibut Fillets  You Can Also Use Sole Or Perch
+CURRENT_DESCRIPTION: on those days when you are 'truly down to the wire' and need to fix something fast and easy but long on flavor, this made-in-the-microwave dish can be on the table in just about 10 minutes flat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: halibut fillet, butter, slivered almonds, lemon juice, dill weed, salt
+---
+TITLE: Almond Ham Roll Ups
+CURRENT_DESCRIPTION: this recipe was the appetizer winner of the holiday recipe contest of our local newspaper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, instant minced onion, dry mustard, hot sauce, ham, mayonnaise
+---
+TITLE: Almond Honey Carrots
+CURRENT_DESCRIPTION: colourful carrots brighten tables any time of year, especially when accented with nuts and honey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, chicken stock, liquid honey, salt, pepper, nutmeg
+---
+TITLE: Almond Honey Granola
+CURRENT_DESCRIPTION: the advantage to using honey instead of sugar in granola is that you need significantly less.  this is a good recipe as is, but please feel free to experiment with coconut, sesame seeds, sunflower seeds, powdered milk or additional oil or honey for a richer taste.  ground granola makes a wonderful crumb crust for pies, too!  from an old newspaper clipping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, honey, almond extract, old fashioned oats, wheat germ, almonds
+---
+TITLE: Almond Honey Whole Wheat Bread  1 1 2 Pound Recipe
+CURRENT_DESCRIPTION: i got this really cool recipe book, this came from it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, honey, margarine, bread flour, whole wheat flour, slivered almonds
+---
+TITLE: Almond Horns
+CURRENT_DESCRIPTION: we were eating some almond horns the other evening and we thought that they wouldn't be too difficult to make -- well we were wrong. however, the instructions are long and convuluted but they are worth their while. it is a macaroon type dough rolled in sliced almonds and it is delicious. cooling time is 20 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, confectioners, ,, ,, ,, ,
+---
+TITLE: Almond Hot Chocolate
+CURRENT_DESCRIPTION: a simple but oh so yummy recipe from the  almond board of california.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond milk, bittersweet chocolate, unsweetened cocoa, vanilla extract, almonds
+---
+TITLE: Almond Hummus
+CURRENT_DESCRIPTION: adapted from the almond board of california.
+hummus is used through out the middle east, the mediterranean, as well as many parts of india. there is no way of knowing where its origin began – though it is presumed to be somewhere in the middle east.
+
+
+test and  measure before posting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chickpeas, almond butter, lemon juice, garlic, salt, lemon zest
+---
+TITLE: Almond Iced Shortbread Balls  Gluten Free
+CURRENT_DESCRIPTION: these melt in your mouth shortbread cookies are a family favorite at christmas time.  they are very delicate, so i usually make them in a one or two bite size.  this recipe works best with a blend of gluten-free flours, rather than a single flour.  the recipe was tested with recipe #208061.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salted butter, white sugar, eggs, gluten-free flour, icing sugar, almond extract
+---
+TITLE: Almond Jello
+CURRENT_DESCRIPTION: this is the most delightful dessert, very light and so refreshing. i got this recipe from a girl i worked with who brought it to a potluck, (made by her mother).we all had to wait for some time to get the recipe since her mother had to translate the recipe from chinese to english. it was well worth the wait.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: evaporated milk, sugar, unflavored gelatin, almond extract, fruit cocktail
+---
+TITLE: Almond Jelly Chunks With Sweet Tangy Longan
+CURRENT_DESCRIPTION: i have been searching for the perfect recipe to make the jelly for this dessert but it always came out wrong and not to my liking. but now i've got it right after some experimenting and it has become a favourite in my home, even with my mom who hates almond jelly (surprisingly!). and the lemon really makes a huge difference, i love everything about this dessert! i hope you'll like it too =) if you can't find canned longan, you can substitute with canned lychees (litchi). cooking/prep time does not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, gelatin powder, sugar, almond extract, longans in heavy syrup, lemon zest
+---
+TITLE: Almond Joy Balls
+CURRENT_DESCRIPTION: homemade candy that tastes like an almond joy candy bar
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, sweetened coconut, powdered sugar, almond extract, chocolate
+---
+TITLE: Almond Joy Bars
+CURRENT_DESCRIPTION: these are so yummy! they really do taste like an almond joy candy bar. i usually make these for christmas, but i tend to also make them for pot lucks or other family functions. these are a huge hit. trust me, you will love them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham crackers, sugar, margarine, flaked coconut, sweetened condensed milk, toasted almonds
+---
+TITLE: Almond Joy Bread
+CURRENT_DESCRIPTION: if you love almond joy candy bars, this recipe is for you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, canola oil, unsalted butter, vanilla, coconut extract
+---
+TITLE: Almond Joy Brownie Bites
+CURRENT_DESCRIPTION: i found this receipe on another website.  i haven't tried them yet, but i will soon.  i love almond joys.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: batter, sweetened flaked coconut, sweetened condensed milk, almonds, chocolate almond bark
+---
+TITLE: Almond Joy Brownies
+CURRENT_DESCRIPTION: this is a pillsbury bake-off recipe from the 50s. the almond joys are melted and mixed into the recipe.  i expected a more chocolately brownie when i discovered this recipe and was surprised to end up with a "blonde" coconut brownie with only a hint of chocolate taste.  very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond joy candy bars, butter, sugar, vanilla, eggs, all-purpose flour
+---
+TITLE: Almond Joy Brownies   Jar Recipe
+CURRENT_DESCRIPTION: this is a great gift for a brownie mix for christmas. store in a mason jar and give to your boss, neighbor, or friends! the wet ingredients don't go in the jar, but are needed to make the recipe yourself (and needed for the directions which you'll need to give to the recipient!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, cocoa powder, flaked coconut, almond extract, whole almond, flour
+---
+TITLE: Almond Joy Butter
+CURRENT_DESCRIPTION: this recipe is so simple to throw together, requiring less than 30 minutes, 5 ingredients and one spoon (or spatula). less mess, more time to do what you please!
+ 
+beyond being easy to make this spread is incredibly versatile.slather it on my toast in the mornings, serve it alongside  carrots and apples, and even eat it right out of the jar. i can only imagine how sensational it would be atop pancakes or inside the little squares of a well-crafted waffle.  adapted from minimalist baker.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, unsweetened dried shredded coconut, dark chocolate, vanilla extract, sea salt
+---
+TITLE: Almond Joy Cake
+CURRENT_DESCRIPTION: what a great idea to make with a cake mix, and it tastes like almond joys.  simple recipe that looks like you slaved all day in the kitchen.  serving size is estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark chocolate cake mix, butter, sugar, evaporated milk, marshmallows, coconut
+---
+TITLE: Almond Joy Cake With Creamy Coconut Butter Frosting
+CURRENT_DESCRIPTION: chocolate, almond, & coconut make up this 2 layer cake. one layers is the coconut layer and the other is chocolate almond. this is made for a crowd. you can make the whole cake or just each layer. if baking both cakes at once be sure to rotate them in the oven for even baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut pudding mix, water, white cake mix, vegetable oil, eggs, coconut rum
+---
+TITLE: Almond Joy Candies
+CURRENT_DESCRIPTION: this is a very simple recipe that tastes so good you'll want to hide them!  i have made candy to sell at christmas time off and on for the past 12 years and these are a must have!  this is a very small batch and i am guessing the # you'll get because you can make them like a snack size almond joy or a half bar with 2 almonds, so the size is as you wish. i have made this times 4 the amount with out any problem .  they keep very well in an airtight container in a cool place for 1 month.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: karo syrup, coconut, almond extract, almonds, chocolate bark
+---
+TITLE: Almond Joy Challah
+CURRENT_DESCRIPTION: i love the almond joy candybar, so i thought to myself, why not make challah that tastes just like it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut milk, water, butter, egg, salt, coconut extract
+---
+TITLE: Almond Joy Cheesecake
+CURRENT_DESCRIPTION: i took this recipe from a bon appetit recipe. i like to bake cheesecakes at a lower temperature than most recipes call for--so i lower the baking temperature, use a water bath for moisture and let the cheesecake cool more slowly in the cooling oven. you get less cracks and the texture is creamier and smoother.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, sliced almonds, sweetened flaked coconut, unsalted butter, golden brown sugar, cream cheese
+---
+TITLE: Almond Joy Chocolate Pie
+CURRENT_DESCRIPTION: found online somewhere that i don't remember so i can't give credit as appropriate.  this is a decadent pie & very easy to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: miniature almond joy bars, graham cracker crumbs, granulated sugar, cornstarch, cocoa powder, salt
+---
+TITLE: Almond Joy Cookies
+CURRENT_DESCRIPTION: i tweaked a chocolate chip recipe and came up with this soft, tasty treat. the almond flavor is relatively subtle, but still present.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, light brown sugar, egg, vanilla extract, almond extract
+---
+TITLE: Almond Joy Dark
+CURRENT_DESCRIPTION: did you ever try drinking an almond joy!!!???
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: malibu rum, dark creme de cacao, creme de noyaux, pineapple juice, grenadine
+---
+TITLE: Almond Joy Drop Cookies
+CURRENT_DESCRIPTION: if you like the candy bar, you will love these cookies. cooking time is per batch and yield depends on how large you make them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, brown sugar, eggs, vanilla extract, flour
+---
+TITLE: Almond Joy Fudge Brownies
+CURRENT_DESCRIPTION: almond joy fudge brownies    these are wonderful and simple.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: duncan hines chewy fudge brownie mix, vegetable oil, eagle brand condensed milk, miniature almond joy bars, toasted almond
+---
+TITLE: almond joy layer cake
+CURRENT_DESCRIPTION: this is an absolutely fabulous recipe in both the taste and looks department. it was straight forward to follow and came from rachael ray's magazine "everyday". if you like chocolate, coconut and almonds you will love this cake. it is very moist and flavourful!
+the only thing i changed was that i used semisweet chocolate chips instead of a chopped chocolate bar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened cocoa powder, unsalted butter, semisweet chocolate, granulated sugar, pure vanilla extract, salt
+---
+TITLE: Almond Joy Layer Cake
+CURRENT_DESCRIPTION: this is an absolutely fabulous recipe in both the taste and looks department. it was straight forward to follow and came from rachael ray's magazine "everyday". if you like chocolate, coconut and almonds you will love this cake. it is very moist and flavourful!
+the only thing i changed was that i used semisweet chocolate chips instead of a chopped chocolate bar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened cocoa powder, unsalted butter, semisweet chocolate, granulated sugar, pure vanilla extract, salt
+---
+TITLE: Almond Joy Macaroons
+CURRENT_DESCRIPTION: i got this from the cuisine at home holiday cookbook.  these are delicious!  a moist coconut dough is wrapped around an almond hershey kiss.  the cookie is chewy on the outside with a chocolate almond surprise inside.  it's almost a cross between a cookie and a candy.  mmmmmm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened flaked coconut, flour, sugar, light corn syrup, cream of coconut, egg whites
+---
+TITLE: Almond Joy Muffins
+CURRENT_DESCRIPTION: i own a small cafe, and i started making muffins for breakfast....i love toasted almonds and chocolate chips, and then i thought of the almond joy bar and said....hmm, i think i will add some coconut and call them almond joy.....my customers love them, and i'm happy:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, egg, milk
+---
+TITLE: Almond Kiss Cookies
+CURRENT_DESCRIPTION: my valentine's day indulgence.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, brown sugar, egg, almond extract, all-purpose flour
+---
+TITLE: Almond Kowadjik
+CURRENT_DESCRIPTION: this is an african adaption of a dessert made of almonds, coconut and rice. recipe by chef keith famie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, dried coconut, long-grain rice, whole milk, oranges, zest of, salt
+---
+TITLE: Almond Lace Cookies
+CURRENT_DESCRIPTION: these easy to make cookies look delicious and are close to the top of my "recipes to try soon" list.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, flour, sliced almonds, egg whites, butter, vanilla extract
+---
+TITLE: Almond Legend Cake
+CURRENT_DESCRIPTION: happy new year! legend has it that the person that gets the piece of cake with the almond will have goodluck!this is a delicious cake! i love apricots.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, pillsbury plus yellow cake mix, orange juice, water, oil, almond extract
+---
+TITLE: Almond Lemon And Anise Biscotti
+CURRENT_DESCRIPTION: these biscotti are very easy to make, even for a novice.  a couple of them broke while i was slicing them for the second baking and they tasted darn good only after first!  from "williams-sonoma italian favorites."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, granulated sugar, vegetable oil, lemon zest, anise seeds, baking powder
+---
+TITLE: Almond Lemon Cake
+CURRENT_DESCRIPTION: delicious and reasonably low cal, i use splenda brown sugar instead of regular but otherwise keep to the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, lemon zest, vanilla extract, baking powder, salt
+---
+TITLE: Almond Lemon Cake With Lemon Mascarpone Frosting
+CURRENT_DESCRIPTION: from "17 and baking" - http://17andbaking.com/2010/03/19/17-and-baking-turns-one/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, almond meal, baking powder, baking soda, salt, unsalted butter
+---
+TITLE: Almond Lemon Chocolate Chews  Rsc
+CURRENT_DESCRIPTION: ready, set, cook!  reynolds wrap contest entry.  this special little cookie is packed with flavor. it really has all my favorite flavors, almonds, lemon and dark chocolate. the special bonus with this cookie is that it caramelizes on the bottom when it bakes.
+what more could you want? crunchy, chewy, tender too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reynolds wrap foil, all-purpose flour, whole wheat pastry flour, baking powder, baking soda, sea salt
+---
+TITLE: Almond Lemon Punch
+CURRENT_DESCRIPTION: this is a very sweet party drink with delicious almond fragrance. i tasted it this week at a friends home and was blown away by the fragrance and then the taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tea bag, tea, frozen concentrated lemonade, sugar, almond extract
+---
+TITLE: Almond Lemon Tart
+CURRENT_DESCRIPTION: a tasty lemon tart made slightly more interesting with the use of almonds. from claire macdonald's simply seasonal
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, plain flour, icing sugar, almond extract, sliced almonds, caster sugar
+---
+TITLE: almond lemon tea cake
+CURRENT_DESCRIPTION: tartine bakery, san francisco, ca
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, salt, eggs, vanilla extract, almond paste
+---
+TITLE: Almond Lemon Tea Cake
+CURRENT_DESCRIPTION: tartine bakery, san francisco, ca
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, salt, eggs, vanilla extract, almond paste
+---
+TITLE: Almond Lemon Zucchini Bread
+CURRENT_DESCRIPTION: because i love the taste of lemon and almonds together and a had a large zucchini to use up, i took a recipe from the canada bed & breakfast hosts and put my own twist on it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, egg whites, sugar, oil, nonfat vanilla yogurt, almond extract
+---
+TITLE: Almond Macaroon Cake
+CURRENT_DESCRIPTION: this is a simple recipe that produces results everyone will rave about.  easy enough to whip up for unexpected company.  i also just made this with lemon zest, lemon juice and a bit of ginger, subtracting the almond extract, and everyone loved it.  i'll post that recipe seperately.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, butter, flour, sugar, almond extract, slivered almonds
+---
+TITLE: Almond Macaroons    The Passover Cookies
+CURRENT_DESCRIPTION: there they are, every single passover, those macaroons. you can't escape them! i, personally, am not a fan of the coconut macaroon, which is the more popular kind of passover cookie you find in the supermarket. but an almond macaroon? that's almost worth the whole holiday!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, sugar, almond extract, salt, fresh lemon rind, egg whites
+---
+TITLE: Almond Macaroons  Makroul El Louse
+CURRENT_DESCRIPTION: posted for the zaar world tour 2006-algeria.
+from the "best of international cooking" cookbook. i haven't tried this recipe yet, but they sound delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, granulated sugar, lemon zest, eggs, all-purpose flour, water
+---
+TITLE: Almond Mandarin Salad
+CURRENT_DESCRIPTION: this is a tasty salad that i found online. great for warm weather. crumbled bacon, green onions, and of course, mandarin oranges!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, white wine vinegar, honey, hot dry mustard, celery salt, ground paprika
+---
+TITLE: Almond Meatballs  Spain
+CURRENT_DESCRIPTION: this recipe was found in the 2005 cookbook, the best recipes in the world. these are great as appetizers or served on a finger food buffet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground veal, ground pork, egg, breadcrumbs, garlic, blanched almond
+---
+TITLE: Almond Meltaways
+CURRENT_DESCRIPTION: these little gems will melt in your mouth! recipe is from family circle. the dough must refrigerate for 2 hours (not included in prep time).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, confectioners, ,, ,, ,
+---
+TITLE: Almond Meringue Cookies
+CURRENT_DESCRIPTION: here is alittle sweetie for those that crave a treat - just have one cookie and you will be fine - even maybe 2 but no more.  this is a splenda recipe.   caution read the review abd then decide if you want to make them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, cream of tartar, almond extract, splenda sugar substitute, blanched almond
+---
+TITLE: Almond Meringue Tartlets
+CURRENT_DESCRIPTION: this is such an easy recipe to make. a modified version of the original recipe (i buy premade tart shells instead of making them)from an old five roses flour cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prepared tart shells, jam, ground almonds, icing sugar, almond flavoring, egg
+---
+TITLE: Almond Milk Hot Chocolate   Martha Stewart
+CURRENT_DESCRIPTION: very good
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond milk, cinnamon stick, sugar, cocoa, semisweet chocolate, salt
+---
+TITLE: Almond Milk Pancakes
+CURRENT_DESCRIPTION: easy light pancakes!  my husband loves pancakes on the weekend.  i needed a recipe that wasn't over the top with carbs as he is diabetic and will eat and eat without a care.  these aren't that bad so i can let him eat without a lot of nagging.  he uses low sugar maple syrup on his
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, splenda sugar substitute, salt, unsweetened almond milk, canola oil
+---
+TITLE: Almond Mocha Cake
+CURRENT_DESCRIPTION: it melts in your mouth!mmmmm...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, strong coffee, margarine, semi-sweet chocolate chips, sugar, amaretto
+---
+TITLE: Almond Muffins With Gooey Fig Center
+CURRENT_DESCRIPTION: from melissa perello, executive chef at fifth floor restaurant in san francisco.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon, zest of, almond meal, all-purpose flour, oat flour, sugar, baking powder
+---
+TITLE: Almond Oat Bars
+CURRENT_DESCRIPTION: from health magazine.you can make almond meal by grinding almonds in a coffee grinder.
+also to thicken yogurt, strain through a coffee filter overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oats, sliced almonds, almond meal, whole wheat flour, brown sugar, baking powder
+---
+TITLE: Almond Orange Cake
+CURRENT_DESCRIPTION: a nice tasting dessert, that is  great for company. cooking time also includes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, all-purpose flour, granulated sugar, butter, fresh orange juice, almond extract
+---
+TITLE: Almond Orange Chicken
+CURRENT_DESCRIPTION: this is adapted from a recipe i found on the net. i brought it to a friend's house for dinner the other night, having doubled the recipe since there were 6 of us for dinner. it was inhaled! my advice, make more than you think you need! prep time includes marinading time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon juice, dijon mustard, garlic, olive oil, white pepper, boneless skinless chicken breast halves
+---
+TITLE: Almond Orange Cookies
+CURRENT_DESCRIPTION: these delicate cookies are made with ground almonds, orange zest and orange juice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, granulated sugar, orange, eggs, all-purpose flour, baking powder
+---
+TITLE: Almond Orange Couscous
+CURRENT_DESCRIPTION: this is a foolproof side dish that is great served with lentils, stew, lamb or beef.  source:  cuisine at home.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: couscous, chicken broth, butter, sliced almonds, cilantro, orange zest
+---
+TITLE: Almond Orange Macaroons
+CURRENT_DESCRIPTION: these are some of the most delicious cookies i have ever tasted. i like to peel the orange zest with my microplane zester, which gives me a nice, powdery zest, but you can use a potato peeler and cut strips as well, since it will all get mixed up with the sugar in the food processor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, confectioners, ,, ,, ,, ,
+---
+TITLE: Almond Orange Muffins
+CURRENT_DESCRIPTION: fantastic muffins! from a newspaper last fall. i think this should be attributed to the associated press. the recipe says you can add 1 cup of raspberries, blueberries or blackberries but i've never tried it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, baking powder, cinnamon, salt, wheat germ, eggs
+---
+TITLE: Almond Orange Shortbread
+CURRENT_DESCRIPTION: delicate, flavorful cookies. keep in the freeze and slice and bake just what you want.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, confectioners, ,, ,, ,, ,
+---
+TITLE: Almond Orange Tossed Salad
+CURRENT_DESCRIPTION: this is very nice for an easter menu. very pretty salad, with its slightly sweet homemade dressing and crispy sugar-toasted almonds. great for potlucks.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, sliced almonds, iceberg lettuce, romaine lettuce, mandarin oranges, avocado
+---
+TITLE: Almond Oreo Truffles Balls  And Other Flavors
+CURRENT_DESCRIPTION: i love oreo truffles and have put a few personal touches on them to make them unique and even more yummy if possible! when this recipe was created, and oreo package was 18 oz. and included 45 oreos. the new packages have only 14.3 ounces, and around 36 cookies. you will need more than one package now.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookies, cream cheese, almond extract, dipping chocolate, white chocolate
+---
+TITLE: Almond Pancake Mix
+CURRENT_DESCRIPTION: yummy!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: non-fat powdered milk, all-purpose flour, whole wheat flour, almonds, baking powder, granulated sugar
+---
+TITLE: Almond Pancakes
+CURRENT_DESCRIPTION: detox with this vegan take on a comfort food classic from dr. alejandro junger!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond meal, almond milk, baking powder, sea salt, flax seed meal, cinnamon
+---
+TITLE: Almond Paste Or Marzipan
+CURRENT_DESCRIPTION: marzipan, cover cakes with it, make biscuits with it (roll it up in cookie dough), make animals with it, eat it with a spoon. save any left over in the fridge in a glass bowl covered with cling film.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, caster sugar, powdered sugar, eggs, egg yolks, brandy
+---
+TITLE: almond paste twirl coffee cake
+CURRENT_DESCRIPTION: obtained from my mother-in-law.  a fabulous recipe that disappears quickly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, yeast, milk, butter, granulated sugar, salt
+---
+TITLE: Almond Paste Twirl Coffee Cake
+CURRENT_DESCRIPTION: obtained from my mother-in-law.  a fabulous recipe that disappears quickly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, yeast, milk, butter, granulated sugar, salt
+---
+TITLE: Almond Pastry
+CURRENT_DESCRIPTION: decadent! starting with refrigerater crescent rolls makes this incredibly easy, but no one would ever guess. whenever i take it somewhere i have started taking the recipe along, because people always ask for it. in fact, that's how i got it too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated crescent dinner rolls, cream cheese, egg, sugar, almond extract, sliced almonds
+---
+TITLE: Almond Pastry Sticks
+CURRENT_DESCRIPTION: layered pastry cookie
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, almond extract, butter, cream cheese, flour, baking powder
+---
+TITLE: Almond Pea Pesto Pasta
+CURRENT_DESCRIPTION: when i became a vegan i had to give up all of my favourite pastas, so when i came upon this recipe i was pleasantly surprised. it tastes pretty good! i just want to say that all the amounts i give here are approximate, i never follow the recipe exactly. you might want to add less salt or lemon, and add more peas or olive oil. :) and don't be intimidated by all of the steps, it's actually fairly quick and easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne, frozen peas, blanched almond, salt, lemon, olive oil
+---
+TITLE: Almond Peach Clafouti
+CURRENT_DESCRIPTION: this french pudding is equally nice served at brunch or as dessert on your dinner table.  however, it is imperative that you serve this warm.  adapted from good food magazine, august 1987.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, amaretto liqueur, firm ripe peach, sliced almonds, eggs, egg yolk
+---
+TITLE: Almond Peach Crisp
+CURRENT_DESCRIPTION: this recipe which came from a first magazine is the absolute best i've ever eaten. prep time includes peeling the peaches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, nutmeg, salt, butter, sliced almonds
+---
+TITLE: Almond Peach Muffins
+CURRENT_DESCRIPTION: these were entered into a taste of home muffin contest, by robin henry. this recipe was in the top 12! i think it sounds absolutely amazing!! yummy stuff!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, salt, baking soda, eggs, vegetable oil
+---
+TITLE: Almond Peach Yogurt Bread
+CURRENT_DESCRIPTION: this is a recipe that i found at a bed and breakfast. it's very tasty--great for guests.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, baking soda, baking powder, eggs, vegetable oil
+---
+TITLE: Almond Peaches With Amaretti Filling
+CURRENT_DESCRIPTION: this is a delicious recipe i found in complete italian cooking by sonja grey. the book says that these are a specialty of the piedmont region in the north of italy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peaches, amaretti cookies, superfine sugar, butter, egg yolk, fresh lemon rind
+---
+TITLE: Almond Peachy Pie
+CURRENT_DESCRIPTION: i love this for summer dinner parties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blanched almonds, coconut, sugar, butter, sour cream, salt
+---
+TITLE: Almond Pear Flan
+CURRENT_DESCRIPTION: i have prepared this for most holiday get together for years. you can prepare pastry case up to a day before adding filling and pears. bake up to 3 hours before serving. this holds up well and can be prepared in advance and served the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, butter, sugar, egg yolks, eggs, ground almonds
+---
+TITLE: Almond Pear Tart
+CURRENT_DESCRIPTION: i found this recipe from southern living.  i made it for easter dinner and everyone raved about it.  it is quite easy to make, and well worth it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated pie crusts, butter, almond paste, sugar, brandy, all-purpose flour
+---
+TITLE: Almond Pecan Brittle
+CURRENT_DESCRIPTION: from country fair food and crafts and one of my christmas gift basket recipes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blanched almonds, pecans, sugar, brown sugar, golden syrup, water
+---
+TITLE: Almond Pepper Green Beans
+CURRENT_DESCRIPTION: i adapted this from vegancoach.com.  simplified it, reduced the portion size and the oil content.  delicious, simple flavors that work amazingly well together.  for such a simple dish, this is a very elegant, pretty, and tasty dish.  my family scarfed it down.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, extra virgin olive oil, red bell pepper, onion, butter, slivered almonds
+---
+TITLE: Almond Pesto Pasta
+CURRENT_DESCRIPTION: i got this recipe from a bag of lucky nuts. spaghetti or fettuccine pasta is best. reserved pasta water can be substituted for cream if prefered.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, light cream, parmesan cheese, frozen peas, blanched almond, garlic cloves
+---
+TITLE: Almond Pie Bars
+CURRENT_DESCRIPTION: sweet, buttery and decadent. not for diabetics or dieters! fool proof recipe and delicious results---what more can you ask for???
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, icing sugar, flour, white sugar, eggs, almond extract
+---
+TITLE: Almond Pie Crust
+CURRENT_DESCRIPTION: my grandmother-in-law gave me this recipe because so many of our family have celiac disease or are allergic to wheat.  i love it so much, that i now use it for all of my pies.  if you don't like almonds, you can use any other nuts instead
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, xanthan gum, rice flour, vanilla, almonds
+---
+TITLE: Almond Pistachio Macaroons
+CURRENT_DESCRIPTION: these macaroons are made with almond paste rather than coconut, for those who either cannot eat sweetened coconut or don't like it (it also reduces the carbohydrate count so this recipe could be good for diabetics).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, granulated sugar, powdered sugar, egg whites, vanilla, salt
+---
+TITLE: Almond Popcorn Crunch
+CURRENT_DESCRIPTION: found this recipe in an old ideals magazine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, brown sugar, light corn syrup, water, salt, whole almonds
+---
+TITLE: Almond Poppy Seed Bars
+CURRENT_DESCRIPTION: from taste of home magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, milk, vegetable oil, almond extract, vanilla extract
+---
+TITLE: Almond Poppy Seed Bread
+CURRENT_DESCRIPTION: my husband's favorite breakfast quick bread. when i'm in a hurry, i put the batter in muffin tins and reduce the baking time. eitherway, it is quick and easy to whip up because you just put everything in a bowl and then mix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, eggs, baking powder, salt, poppy seeds
+---
+TITLE: Almond Poppy Seed Cake
+CURRENT_DESCRIPTION: i usually try to stay away from recipes with box-ingredients because i'm not likely to have them on hand, but this cake is worth it.  the butter-cinnamon-sugar crust is so yummy.  i suppose you could frost or glaze it but i never do because it just doesn't need it.  everyone loves it just as it is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, vanilla instant pudding mix, eggs, cooking oil, hot water, poppy seed
+---
+TITLE: Almond Poppy Seed Muffins
+CURRENT_DESCRIPTION: i had almond poppyseed muffins at a restaurant called yoders in shipshewana, in. a few years ago and they were the best muffins i've ever eaten. i searched on the internet and found this recipe. not sure what site it came from. i hope you like them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, milk, vegetable oil
+---
+TITLE: Almond Poppy Seed Pound Cake
+CURRENT_DESCRIPTION: this recipe is very moist and tastes very good with warm milk or tea. it started out as a williams-sonoma recipe but i changed it to fit my taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, butter, sugar, vanilla extract
+---
+TITLE: Almond Poppy Seed Scones
+CURRENT_DESCRIPTION: this scone comes out light and sweet.  it has an elegant presentation, an excellent addition to a brunch table.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, poppy seed, baking powder, salt, unsalted butter
+---
+TITLE: Almond Poppy Seed Shortbread
+CURRENT_DESCRIPTION: good, flaky delicate flavor. the poppyseed add a nice texture. it's not overly sweet. i decided to add the poppyseed and almond flavor to my shortbread cookies one day and was pleasantly surprised.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, unsalted butter, sugar, poppy seeds, almond extract, cream cheese
+---
+TITLE: Almond Pork Tenderloin With Dried Cranberry Apple Conserve
+CURRENT_DESCRIPTION: a great cooking light recipe.  was enjoyed by my bf ... who doesn't like pork!! :).  i used "panko" (which is japanese breacrumbs).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork tenderloin, breadcrumbs, sliced almonds, dried rosemary, fresh coarse ground black pepper, salt
+---
+TITLE: Almond Pound Cake
+CURRENT_DESCRIPTION: very rich! one of my favourite cakes. this is good dressed up with frosting, served plain, or with fruit. i quadrupled this recipe, and baked it in two 9"x13" pans to make a cake for my father's 65th birthday party. note: be sure the almonds are finely ground; if they seem somewhat coarse you should run them through the food processor until quite fine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, eggs, almond extract, water, flour
+---
+TITLE: Almond Power Bar
+CURRENT_DESCRIPTION: these no bake, high-protein, high-fiber bars are based upon melissa diane smith’s recipe for amaretto protein bars in her book going against the grain and are a cinch to make.
+
+the chocolate topping makes them seem a bit decadent (skip it if you must, they’ll still come out fine) – though dark chocolate, rich in anti-oxidants has now entered the echelon of power foods so i’ll keep it on mine.
+
+view the full recipe at http://www.elanaspantry.com/2008/02/01/power-bars/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, flax seed meal, unsweetened dried shredded coconut, almond butter, sea salt, coconut oil
+---
+TITLE: almond praline cake with mascarpone frosting and chocolate bark
+CURRENT_DESCRIPTION: this recipe is a bit time consuming, without doubt.  however, the final product  is to die for!!  once decorated this cake is soo beautiful.  this was published in bon appetit, march 2007 edition.  this cake should be done a day before.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy whipping cream, dark brown sugar, semisweet chocolate, cake flour, baking powder, salt
+---
+TITLE: Almond Pudding
+CURRENT_DESCRIPTION: this is a milk pudding that is served in india at open houses or for dessert.  to keep a "skin" from forming on the top of the pudding while it is cooling, carefully place a piece of clear plastic wrap or waxed paper directly on the surface of the hot pudding.  after the pudding has cooled, remove the paper and spoon the pudding into dessert dishes.  chilling time is not included in cooking or prep time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, long grain rice, ground cardamom, sugar, almonds, rose water
+---
+TITLE: almond puff loaf
+CURRENT_DESCRIPTION: the recipe for this buttery, flaky, tender confection has been around for years and years but, like all fine classics, its beauty never fades. it's incredibly easy to make, yet tastes and looks as though a professionally trained pastry chef might have labored over it for hours. hey, a little subterfuge never hurts any bakers' reputation!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, water, eggs, almond extract, jam
+---
+TITLE: Almond Puff Loaf
+CURRENT_DESCRIPTION: the recipe for this buttery, flaky, tender confection has been around for years and years but, like all fine classics, its beauty never fades. it's incredibly easy to make, yet tastes and looks as though a professionally trained pastry chef might have labored over it for hours. hey, a little subterfuge never hurts any bakers' reputation!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, water, eggs, almond extract, jam
+---
+TITLE: Almond Puffs
+CURRENT_DESCRIPTION: this is an interesting change of pace if you like working with yeast. very light and delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, milk, sugar, salt, yeast, egg
+---
+TITLE: Almond Raisin Granola
+CURRENT_DESCRIPTION: the title more or less says it all...i got tired of my other granola so i decided to switch up a few things, and i definitely like this modified version better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole almonds, quaker oats, oat bran, cinnamon, honey, molasses
+---
+TITLE: Almond Raisin Pudding  Pudin De Almendras
+CURRENT_DESCRIPTION: from: "the art of south american cookery" by myra waldo, 1961ed. posted for zaar world tour 4. i think some orange zest and vanilla would be good in this also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: seedless raisin, dry sherry, eggs, sugar, light cream, blanched almonds
+---
+TITLE: Almond Raisin Winter Cookies
+CURRENT_DESCRIPTION: this recipe imakes for lovely seasonal cookies featuring cranberries, raisins and almonds. the texture is crumbly with a lovely crunch.
+i hope youll enjoy them as much as my friends and family did! :d
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, butter, sugar, egg, flour, baking soda
+---
+TITLE: almond raspberry cream roll
+CURRENT_DESCRIPTION: it's a bit involved to make, but the end product is simply incredible. a very yummy dessert....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, eggs, granulated sugar, water
+---
+TITLE: Almond Raspberry Cream Roll
+CURRENT_DESCRIPTION: it's a bit involved to make, but the end product is simply incredible. a very yummy dessert....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, eggs, granulated sugar, water
+---
+TITLE: Almond Raspberry Croissant Breakfast Pudding
+CURRENT_DESCRIPTION: nice to serve for brunch - and all the fuss gets done the previous evening.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain croissants, butter, raspberry jam, amaretto, eggs, milk
+---
+TITLE: Almond Raspberry Jalousie
+CURRENT_DESCRIPTION: from woman's day, november 2003.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: puff pastry sheet, almond paste, raspberry preserves, confectioners, ,
+---
+TITLE: Almond Raspberry Tassies
+CURRENT_DESCRIPTION: makes 24..these will be a hit at your next buffet..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, flour, sugar, milk, raspberry preserves
+---
+TITLE: almond raspberry torte
+CURRENT_DESCRIPTION: this cake is a "cover girl"--its picture was on the cover of better homes & gardens back in the 80s. it is fairly easy to make and beautiful dessert. i usually think of making it in the spring and summer, but it would be delicious anytime! i love it for entertaining because you can make it the day before--assembling at the last minute. prep time only includes time for cooling though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, butter, sugar, vanilla
+---
+TITLE: Almond Raspberry Torte
+CURRENT_DESCRIPTION: this cake is a "cover girl"--its picture was on the cover of better homes & gardens back in the 80s. it is fairly easy to make and beautiful dessert. i usually think of making it in the spring and summer, but it would be delicious anytime! i love it for entertaining because you can make it the day before--assembling at the last minute. prep time only includes time for cooling though.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, butter, sugar, vanilla
+---
+TITLE: Almond Red Tea Custard
+CURRENT_DESCRIPTION: this is from the almond board and i have not tried it yet.
+cook time is chill time
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond milk, eggs, egg whites, sugar, salt, tea bags
+---
+TITLE: Almond Rhubarb Coffee Cake
+CURRENT_DESCRIPTION: from my collection of recipes. haven't tried it yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, vegetable oil, egg, vanilla, flour, salt
+---
+TITLE: Almond Rice
+CURRENT_DESCRIPTION: i make this recipe over and over again as friends and family are enjoying it so much. hope you will too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, dry parsley flakes, instant minced onion, oregano leaves, long grain rice, butter
+---
+TITLE: Almond Rice Casserole
+CURRENT_DESCRIPTION: vegetarian cooking for dummies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, celery, green onions, green bell pepper, sliced mushrooms, fresh parsley
+---
+TITLE: Almond Rice Cookies
+CURRENT_DESCRIPTION: this recipe is from "low fat cooking", by pamela westland. i haven't tried this yet, due to my bulging cookbook and i'm trying to cut back in desserts... anyway, if u try them, do let me know if u like it. posted on request by love4culinary. prep time is an estimation; seems like a really easy recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice flour, ground almonds, sugar, egg white, clear honey, almond extract
+---
+TITLE: Almond Rice Custard With Berries
+CURRENT_DESCRIPTION: this creamy rice pudding is yummy, very easy to prepare and extremely versatile. it can be served warm, cool or chilled.  by adding the seeds of 8-12 green cardamom pods in step 4, and substituting rose or kewra essence for the almond essence (and entirely omitting the amaretto) it takes on the flavor of kheer, that wonderful indian rice dessert. i use basmati or jasmine rice and grind it in my coffee grinder. time does not include chilling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, ground almonds, salt, rice, whipping cream, superfine sugar
+---
+TITLE: Almond Rice Mix
+CURRENT_DESCRIPTION: a nice gift idea from home cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, dried parsley, dill weed, dried onion, salt, garlic powder
+---
+TITLE: Almond Rice Pilaf  Instant Rice
+CURRENT_DESCRIPTION: i never use instant rice but this recipe caught my eye - so simple. this dish goes nicely with a beef fondue. recipe originally from soup central
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, slivered almonds, butter, chicken broth, instant rice
+---
+TITLE: Almond Rice Pudding  Arroz Almendrado
+CURRENT_DESCRIPTION: i am a huge fan of rice pudding and am constantly looking for my favorite one. i haven't found it yet, so maybe this is it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, long-grain rice, orange rind, salt, milk, sugar
+---
+TITLE: Almond Rice Pudding Tart  3 Ww Points
+CURRENT_DESCRIPTION: weight watchers did it again. i've never made rice pudding before and this was wonderful. serving size is 1/8 of tart. 3 ww points per serving
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, skim milk, arborio rice, ground cinnamon, table salt, sugar
+---
+TITLE: Almond Rice Pudding With Dried Cherries
+CURRENT_DESCRIPTION: i made this for dessert this weekend and it was great (i was trying to use up some dried cherries). it's also pretty healthy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonfat milk, almond extract, egg, egg white, brown sugar, salt
+---
+TITLE: almond riesling savarin with fig compote
+CURRENT_DESCRIPTION: any gourmet meal worth serving, deserves the time and attention in the preparation of this magnificently incomparable dessert. following your sumptuous dinner of roast rack of venison, horseradish potatoes, sauteed carrots and leeks, and salad of beets and curly endive, you and your guests will have experienced the
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, compressed yeast, milk, unsalted butter, eggs, orange zest
+---
+TITLE: Almond Riesling Savarin With Fig Compote
+CURRENT_DESCRIPTION: any gourmet meal worth serving, deserves the time and attention in the preparation of this magnificently incomparable dessert. following your sumptuous dinner of roast rack of venison, horseradish potatoes, sauteed carrots and leeks, and salad of beets and curly endive, you and your guests will have experienced the
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, compressed yeast, milk, unsalted butter, eggs, orange zest
+---
+TITLE: Almond Roasted Duck With Chinese Spices
+CURRENT_DESCRIPTION: this simple preparation has many of the complex spices of a classically prepared chinese duck, but it takes little preparation or special skills.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, chinese five spice powder, salt, fresh ground pepper, duck, garlic cloves
+---
+TITLE: Almond Roca
+CURRENT_DESCRIPTION: this is the simplest treat to make, yet everyone at the staff christmas party could not get enough of it! you won't believe how something so easy can taste so good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, vanilla, brown sugar, slivered almonds, chocolate chips, soda cracker
+---
+TITLE: Almond Roca  English Toffee
+CURRENT_DESCRIPTION: a delectable confection from the kitchen of june oaks, wife of brigham young university president dallin oaks.  this was surprisingly easy to make and an absolutely delicious addition to my goodie plates for christmas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, almonds, sugar, water, milk chocolate candy bars
+---
+TITLE: Almond Roca Bars
+CURRENT_DESCRIPTION: these bars are delicious and very easy. we make them around the holidays and everyone enjoys them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, brown sugar, egg, flour, vanilla
+---
+TITLE: Almond Roca Cookies
+CURRENT_DESCRIPTION: this recipe came from lynn scully, rancho santa fe, california via emeril's holiday cookie show. and it's a show stopper!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, brown sugar, sugar, butter
+---
+TITLE: Almond Roca Gourmet Popcorn
+CURRENT_DESCRIPTION: movie night treat from copykat.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: popped popcorn, butter, brown sugar, sugar, salt, light corn syrup
+---
+TITLE: Almond Roco
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. butter (not margarine), 2 c. granulated sugar, 1/2 c. water, 1/2 c. chopped almonds, 3 chocolate candy bars, 1/4 c. chopped almonds or as desired (for topping)
+---
+TITLE: Almond Rose Pound Cake
+CURRENT_DESCRIPTION: i have been extremely interested in the use of rose water in the kitchen and decided to post this recipe. i would suggest using tonkcat's recipe for rose petal jam recipe #3160 for this distinctive pound cake. take a culinary adventure with me!! adapted from "new food of life: ancient persian and modern iranian cooking and ceremonies" by najmieh batmanglij
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, slivered almonds, granulated sugar, eggs, all-purpose flour, salt
+---
+TITLE: Almond Sandwich Cookies
+CURRENT_DESCRIPTION: these easy, elegant, tiny sandwich cookies are sure to be a crowd pleaser at showers, tea parties or anytime a little nibble is on the menu. you can tint the filling any color to fit your event or mood!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated sugar cookie dough, all-purpose flour, almond extract, granulated sugar, powdered sugar, butter
+---
+TITLE: Almond Scones
+CURRENT_DESCRIPTION: great with a cup of tea or coffee for a snack, but equally at home on the breakfast or brunch table.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, all-purpose flour, baking powder, baking soda, salt, sugar
+---
+TITLE: Almond Sesame Mounds
+CURRENT_DESCRIPTION: i usually make these and add to my christmas baking or just make as a treat any time of year.  very easy and no bake. i nice little sweet
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, sesame seeds, butter, vanilla extract, honey, semi-sweet chocolate chips
+---
+TITLE: Almond Shake Paleo And Gluten Free
+CURRENT_DESCRIPTION: this recipe came from cookingchanneltv.com by bal arneson. i changed it up a little to be paleo friendly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ice, almond milk, plain yogurt, slivered almonds, ground cardamom, ground fennel
+---
+TITLE: Almond Sherry Bundt Cake
+CURRENT_DESCRIPTION: easy, yet really elegant and so tasty.  this has got to be one of the most wonderful cakes i have ever eaten.  i got this recipe from a christian brothers & blue diamond almond ad in a magazine back in the late 70's.  it is still a favorite and people always ask for the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, eggs, cream sherry, vegetable oil, vanilla instant pudding mix, nutmeg
+---
+TITLE: Almond Shortbread
+CURRENT_DESCRIPTION: i love to have this delicious cookie at christmas. if you can wait a couple days after baking before you eat them, you will be rewarded with a much richer cookie. very easy and not at all time consuming!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: real butter, sugar, vanilla, almond extract, flour, almonds
+---
+TITLE: Almond Shortbread Cookies
+CURRENT_DESCRIPTION: this is my version of a wonderful recipe from washington state bed & breakfast cookbook 2nd edition, carol faino & doreen hazledine. i've experimented with adding lemon, orange or lime zest (using a microplaner) and all three versions are great. this has got to be the easiest recipe to make, and quick too. they literally melt in your mouth and everyone who eats them asks for the recipe. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, butter, salt, sugar, ground almonds, lemon zest
+---
+TITLE: Almond Shortbreads
+CURRENT_DESCRIPTION: pair these rich shortbreads with a cordial  for an elegant holiday toast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, sugar, unsalted butter, pure vanilla extract, almond extract, fine salt
+---
+TITLE: Almond Shrimp With Amaretto Butter
+CURRENT_DESCRIPTION: a fabulous, romantic dish for two - and it's quick and easy! i adapted the recipe from a junior league of lafayette, la recipe; they say that it is the creation of sous chef bryan richard of chez marcelle. the original recipe calls for an entire stick of butter, but i think you'll agree that 3 tbsp. is plenty. if you like amaretto, you'll love this! it can be served with angel hair pasta, but i like to eat it without so as not to interfere with the delicious flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, large shrimp, amaretto liqueur, slivered almonds, salt
+---
+TITLE: Almond Smoothie   Steak Shake
+CURRENT_DESCRIPTION: anyone who likes smoothies should try almond milk - not just those who are trying to avoid cow's milk. almonds are extremely rich in protein and iron, even more so than red meat (so i've heard). that's why we sometimes call this a "steak shake." it's so yummy and easy to make, and it sustains us all morning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, water, soymilk, carob powder, bananas, ice cubes
+---
+TITLE: Almond Snack Mix
+CURRENT_DESCRIPTION: a yummy snack mix my family enjoys.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice chex, sliced almonds, sugar, light corn syrup, butter, almond extract
+---
+TITLE: Almond Snowball Cookies
+CURRENT_DESCRIPTION: this is based on a rachael ray recipe. i've made them twice, and both times they've turned out perfectly. while they seem like a holiday cookie, they're nice any time of the year when you have a couple of egg whites to use up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, kosher salt, sugar, flaked coconut, almond extract, nutmeg
+---
+TITLE: Almond Softies
+CURRENT_DESCRIPTION: big, soft cookies with a wonderful "almondy" aroma and flavor. i can't remember where i got the recipe exactly, but i can remember having and making it for a few years. it has become a classic cookie staple in my home. if you like the flavor of almonds, you'll love these cookies; and if your cookie monsters are anything like mine, they'll be gone really fast. my mother and husband actually got into a fight over the last cookie!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, almond filling, milk, flour
+---
+TITLE: Almond Spice Rice Pudding From Leftover Rice
+CURRENT_DESCRIPTION: i just made up this recipe.  i had a lot of leftover jasmine rice, and decided to try an experiment.  my mom used to make rice pudding from leftovers all the time, but i added my own flavors for this one.  the quantities are approximate, and you can modify according to your taste or according to the amount of leftover rice you have.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, sugar, milk, almond extract, vanilla extract, ground cardamom
+---
+TITLE: Almond Spiced Chicken
+CURRENT_DESCRIPTION: i found this recipe on one of my low carb diabetic recipe sites. we loved it and i could eat it because it was so low in carbs which wasn't hard on my blood surgar levels. plus, it tasted really good.  i ate it over 1/4 c of cooked rice which had 36 g of carbs and the chicken dish has only 9.5 g carbs. so, it gave me only 45 g of carbs for my dinner. i had been trying to keep it to 45g carbs per meal so i loved this one! the 28 minute cooking time is for the chicken dish only. there is another 20 minutes to cook the rice.  that makes it 48 minutes for cooking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted margarine, sliced almonds, curry powder, apple, onion, white button mushrooms
+---
+TITLE: Almond Sponge Cake
+CURRENT_DESCRIPTION: excellent in it's own right with a chocolate mousse, or fruit and whipped cream, this is also perfect for making a gluten-free layered cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, baking soda, salt, sugar, cornstarch, almond meal
+---
+TITLE: Almond Sponge Cake    Spain Bizcocho De Almendras
+CURRENT_DESCRIPTION: posted for zwt
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blanched almond, eggs, cake flour, salt, sugar, powdered sugar
+---
+TITLE: almond sponge cake filled with almond cream
+CURRENT_DESCRIPTION: a elegant and light ending to a meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, almonds, eggs, egg yolk, sugar, pure vanilla extract
+---
+TITLE: Almond Sponge Cake Filled With Almond Cream
+CURRENT_DESCRIPTION: a elegant and light ending to a meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, almonds, eggs, egg yolk, sugar, pure vanilla extract
+---
+TITLE: Almond Spritz Press Cookies
+CURRENT_DESCRIPTION: these are my hubby's favorite christmas cookies. his great aunt gin used to make them for him every year and it just isn't christmas without them. she always made green christmas trees and pink wreaths because those were her two favorite colors. since they use all shortening they are a very crisp cookie. the recipe is originally from the cookbook that came with the mirro cookie press. note: you must sift the flour first and then measure or you will add too much flour and the dough will be too stiff! (if you prefer a butter cookie, i recommend recipe #98883)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, sugar, egg, sifted flour, salt, baking powder
+---
+TITLE: Almond Squares
+CURRENT_DESCRIPTION: i made these cookies this year and everyone loved them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, vegetable shortening, granulated sugar, egg
+---
+TITLE: Almond Stuffed Baked Apple Halves
+CURRENT_DESCRIPTION: the recipe is from scandinavian feasts by beatrice ojakangas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, almonds, sugar, water, butter, dry breadcrumbs
+---
+TITLE: Almond Stuffed Dates
+CURRENT_DESCRIPTION: an easy and delicious snack or dessert, great put on cookie trays!  serving dates stuffed with nuts and bowls of warm milk to visitors is a symbol of hospitality in north african homes.
+african, and posted for the zwt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dates, blanched almonds, honey, cinnamon, black pepper
+---
+TITLE: Almond Stuffed Mushrooms
+CURRENT_DESCRIPTION: these almond stuffed mushrooms make a delicious appetizer, or you could make a meal by putting the stuffed mushrooms on a bed of greens or grains. mushrooms, as a relatively solitary representative in our diet from the fungi family, bring a very different nutrient profile from most other vegetables. they are thought of as an important component of healing in chinese medicine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushrooms, yellow onion, olive oil, garlic clove, fresh thyme, red wine
+---
+TITLE: Almond Stuffed Tofu Cubes
+CURRENT_DESCRIPTION: even tofu 'haters' will be intrigued by these tasty, crunchy little cubes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, firm tofu, dry breadcrumbs, parmesan cheese, garlic powder, salt
+---
+TITLE: Almond Sugar Cookies
+CURRENT_DESCRIPTION: this is the recipe i use instead of refrigerated cookie dough for my e-z strawberry pizza (recipe #92226). just omit steps 3 & 4.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, butter, sugar, milk, baking powder, almond extract
+---
+TITLE: Almond Sunshine Citrus
+CURRENT_DESCRIPTION: from toh everyday light meals cookbook and they suggest serving it with pork for dinner, but i think it would be equally as good for breakfast or brunch. make sure you allow time for this to be refrigerated overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel oranges, red grapefruit, white grapefruit, lemon, lime, sugar
+---
+TITLE: Almond Tabbouli Salad
+CURRENT_DESCRIPTION: filled with herbs and nuts and grains, this is wonderfully healthy and a pleasure to eat! africa/middle east recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cracked wheat, boiling water, chopped tomatoes, parsley, green onion, toasted almond
+---
+TITLE: Almond Tart
+CURRENT_DESCRIPTION: a co-worker of mine brought this in for coffee break and i fell in love with it.  i believe it is of dutch origin. can be served in pie slice shape or cut into squares.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, granulated sugar, egg, flour, baking powder, almond extract
+---
+TITLE: almond tart with cranberry topping
+CURRENT_DESCRIPTION: a almond crust under a creamy almond filling topped with fresh cooked cranberries and grand marnier.tweeked from odense almond paste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, butter, unsweetened cocoa powder, bleached all purpose flour, confectioners' sugar, egg
+---
+TITLE: Almond Tart With Cranberry Topping
+CURRENT_DESCRIPTION: a almond crust under a creamy almond filling topped with fresh cooked cranberries and grand marnier.tweeked from odense almond paste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, butter, unsweetened cocoa powder, bleached all purpose flour, confectioners, ,
+---
+TITLE: Almond Tea
+CURRENT_DESCRIPTION: another cool refreshing iced tea that beats the summertime heat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, tea bags, sugar, vanilla extract, almond extract, lemons, juice of
+---
+TITLE: Almond Tea Cake
+CURRENT_DESCRIPTION: oh - i just love, love, love this recipe! they are so easy, have a divine almond taste and fantastic texture. the amount of extract may seem surprising, but let me assure you it works perfectly in these chewy, sweet bars. yield is approx.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, flour, salt, almond extract
+---
+TITLE: Almond Tea Cookies
+CURRENT_DESCRIPTION: these easy crispy almond cookies are perfect with a cup of tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, butter, vegetable oil, almond extract, baking soda, salt
+---
+TITLE: Almond Tea Latte
+CURRENT_DESCRIPTION: it doesn't take long to make a special cup of tea that warms the soul as well as the hands.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tea bags, water, almond syrup, whole milk, ground nutmeg
+---
+TITLE: Almond Thins
+CURRENT_DESCRIPTION: from real simple's facebook page feature of desserts -- life made easier, everyday!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: slivered almonds, light brown sugar, all-purpose flour, baking soda, kosher salt, unsalted butter
+---
+TITLE: Almond Tilapia And Peas And Carrots Rice
+CURRENT_DESCRIPTION: rachael ray.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, butter, long-grain rice, carrots, frozen peas, scallions
+---
+TITLE: Almond Tile Cookies
+CURRENT_DESCRIPTION: a recipe from coup de pouce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg white, sugar, flour, butter, water, vanilla
+---
+TITLE: Almond Toffee Bars
+CURRENT_DESCRIPTION: this recipe was given several 5-star ratings from better homes & gardens readers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, quick-cooking rolled oats, graham cracker crumbs, semisweet chocolate piece, almond toffee bits, almonds
+---
+TITLE: Almond Toffee Cookies
+CURRENT_DESCRIPTION: this is another winning cookie recipe picked from my 10 star cookie recipe folder.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, icing sugar, vegetable oil, eggs, almond extract
+---
+TITLE: Almond Toffee Crunch
+CURRENT_DESCRIPTION: this recipe came from a book of wonderful recipes from a bunch of wonderful people. all of which are diagnosed with scleroderma. it's called "cooking up a storm for scleroderma". i received it from my support group leader as a christmas gift. thank you, annie!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: saltine crackers, butter, brown sugar, chocolate chips, walnuts
+---
+TITLE: Almond Toffee Mocha Squares
+CURRENT_DESCRIPTION: this rich dessert will remind you of having a chocolate treat along with a cup of your favorite coffee. it is very rich and gooey - make sure you cut your bars into smaller than ususal size. this recipe was made for the pillsbury bake-off 41 (hollywood, 2004) & was submitted by beverly starr from nashville,ar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: toffee pieces, instant coffee granules, butter, water, eggs, chocolate-covered english toffee bar
+---
+TITLE: Almond Toffee Rugelach
+CURRENT_DESCRIPTION: this is a recipe i came up with on a whim while trying to find a way to use refrigerated pre-rolled pie crusts that i had on hand, and didn't want to waste.  although not as rich a dough as traditional rugelach, these are delicious, and they came out even better than i expected!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated pie crusts, almond paste, ground cinnamon, sugar, english toffee bits, egg
+---
+TITLE: Almond Toffee Triangles
+CURRENT_DESCRIPTION: oooey, gooey almond toffee! need i say more?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, margarine, karo light corn syrup, egg, vanilla, all-purpose flour
+---
+TITLE: Almond Tofu
+CURRENT_DESCRIPTION: this is a very popular dessert dish in asian countries. it's easy, simple, and refreshing! it doesn't actually use tofu, but it's white and cubed, which resembles tofu, hence its name. give it a try, i have shared this with many of my non-asian friends and they all loved it and gave rave reviews!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boiling water, gelatin, sugar, milk, almond essence, fruit salad in syrup
+---
+TITLE: Almond Topped Pear Pie
+CURRENT_DESCRIPTION: --adopted recipe--
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, ground ginger, salt, dark corn syrup, butter, lemon juice
+---
+TITLE: Almond Topped Pumpkin Cheesecake
+CURRENT_DESCRIPTION: from taste of home oct/nov 2006.  cook time does not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, almonds, sugar, pumpkin pie spice, butter, cream cheese
+---
+TITLE: Almond Torta
+CURRENT_DESCRIPTION: posted for zaar world tour 2005.  recipe source is a moosewood cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, flour, salt, egg yolks, amaretto, vanilla extract
+---
+TITLE: Almond Torte With Mocha Whipped Cream Frosting
+CURRENT_DESCRIPTION: incredible simple, elegant, delicious torte that is perfect for birthdays or hostess gift.  top with mocha whipped cream frosting (recipe also on this site)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, whole almond, flour, baking powder, amaretto liqueur
+---
+TITLE: Almond Tres Leches Muffins
+CURRENT_DESCRIPTION: these muffins are just delicious. one 12oz can of sweetened condensed milk will give you enough to double a batch (24 muffins). i brought these twice to work already and they are devoured. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, almond extract, eggs, all-purpose flour, baking powder
+---
+TITLE: Almond Truffle Brownies
+CURRENT_DESCRIPTION: this is from t.o.h. web site and starts with a brownie mix and you can't tell. do yourself a favor and try it, but don't use imitation almond extract use the real stuff.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fudge brownie mix, water, vegetable oil, egg, almonds, almond extract
+---
+TITLE: almond tuiles
+CURRENT_DESCRIPTION: i recently adopted this recipe having loved it when i prepared it myself.  they are a bit of work, but the results are delicious and impressive.  i do not plan to change the recipe but may add some hints from my own experiences. orignal chef's comments:
+these are very simple fancy cookies to be served either alone or with a mousse, ice cream, fruit, custard or most anything. they can be formed into cups to hold your dessert. this is a simple and foolproof recipe which i make at work all of the time. prep time does not include chilling the batter overnight. recipe adapted from david blom
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy cream, unsalted butter, vanilla, almonds, sugar, flour
+---
+TITLE: Almond Tuiles
+CURRENT_DESCRIPTION: i recently adopted this recipe having loved it when i prepared it myself.  they are a bit of work, but the results are delicious and impressive.  i do not plan to change the recipe but may add some hints from my own experiences. orignal chef's comments:
+these are very simple fancy cookies to be served either alone or with a mousse, ice cream, fruit, custard or most anything. they can be formed into cups to hold your dessert. this is a simple and foolproof recipe which i make at work all of the time. prep time does not include chilling the batter overnight. recipe adapted from david blom
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy cream, unsalted butter, vanilla, almonds, sugar, flour
+---
+TITLE: Almond Vanilla Bean Biscotti
+CURRENT_DESCRIPTION: wonderful dunker with tea, coffee or hot chocolate. keep these out overnight after baking so that they completely dry out. a good biscotti is a crisp biscotti.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, granulated sugar, egg, egg white, pure vanilla extract, vanilla bean
+---
+TITLE: Almond Vanilla Breakfast Bread
+CURRENT_DESCRIPTION: this is a twist on the usual bubble/monkey bread recipes... and it is now my personal favorite.  i made it over the holidays when the extended family was visiting as part of one morning's breakfast buffet for the hordes.  i am about 99% sure i got the recipe from southern living but, of course, cannot find it now.  luckily, i had typed out the recipe to email to my sisters so actually had a copy of it! (prep time does not include rising time ...either 3 hrs on the counter or overnight in the refrig!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light brown sugar, butter, almond extract, frozen yeast dinner roll dough, vanilla instant pudding mix, sliced almonds
+---
+TITLE: Almond Vanilla Cookies
+CURRENT_DESCRIPTION: don't let all the vanilla scare you away. these are excellent cookies. very nutty and delicately sweet. a fine finish to a heavy or spicy meal. to add a unique taste substitute the vanilla with 1 tablespoon of gin. the original recipe stated that. i have never tried it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, flour, baking powder, salt, butter, sugar
+---
+TITLE: Almond Vanilla Yogurt Loaf
+CURRENT_DESCRIPTION: a moist and flavorful cake-like loaf for afternoon coffee
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, baking soda, baking powder, cinnamon
+---
+TITLE: Almond Vegetable Slaw
+CURRENT_DESCRIPTION: a great healthy salad adapted from  the almond board of california. the recipe calls for julienned veggies, but you can chop if you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broccoli stem, zucchini, celery, red onion, red bell pepper, slivered almonds
+---
+TITLE: Almond Veloute Sauce
+CURRENT_DESCRIPTION: a french white sauce that goes nicely with poultry or fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, all-purpose flour, chicken broth, salt, pepper, ground nutmeg
+---
+TITLE: Almond Walnut Coconut Granola
+CURRENT_DESCRIPTION: this is my version of a granola recipe i saw on sarah's secrets one day. i did make a few changes to suit our taste, but the recipe is basically the same. this is wonderful eaten dry or with milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old fashioned oats, sliced almonds, walnuts, coconut, sunflower seeds, salt
+---
+TITLE: Almond Wheat Germ Muffins
+CURRENT_DESCRIPTION: there's a couple wheat germ muffins here on 'zaar, but none quite like this. i love wheat germ! recipe is from the la leache league international cookbook "whole foods for the whole family" and credit goes to maureen onstott of jacksonville, florida and shannon stieglitz of norcross, gerogia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, honey, eggs, powdered milk, wheat germ, baking powder
+---
+TITLE: Almond White Chocolate Fudge
+CURRENT_DESCRIPTION: found this in "food & family" and is so easy to make. it calls for a minimum of at least 2 hours chilling time. this fudge is a great choice for cookie plates or platters, as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white chocolate, sweetened condensed milk, toasted almond, dried cranberries, orange zest
+---
+TITLE: Almond Yogurt Cake
+CURRENT_DESCRIPTION: almond flavor :p
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, baking soda, salt, granulated sugar, egg
+---
+TITLE: Almond Zucchini Burritos
+CURRENT_DESCRIPTION: this recipe won the california almond growers cooking contest grand prize many years ago. i've made it many times with some slight modifications and it's always a hit; even the meat eaters like it. and, during the summer months it's another way to use up all that excess zucchini!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, zucchini, onion, vegetable oil, salsa, water
+---
+TITLE: Almond-Deviled Eggs
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 6 hard-cooked eggs, 1/4 c. mayonnaise, 1 tsp. Dijon mustard, 1/4 tsp. garlic salt, 3 Tbsp. finely chopped roasted almonds, 12 whole roasted almonds
+---
+TITLE: Almonds   Great Appetizer With Drinks
+CURRENT_DESCRIPTION: i don't know where the recipe originated from.  i use them as an appetizer...but if you use sliced almonds...they would be great on top of a 'hearty' salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, butter, fresh rosemary, brown sugar, salt, ground red pepper
+---
+TITLE: Almonds  Mushrooms  Raisins And Red Pepper Pilaf
+CURRENT_DESCRIPTION: this is a very easy and very very tasty rice pilaf. it is a perfect side dish for any meal. i hope you will enjoy this dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long grain rice, butter, baby portabella mushrooms, onion, red pepper, orange bell pepper
+---
+TITLE: Almost  Boston Market Creamed Spinach
+CURRENT_DESCRIPTION: this is quite similar to the creamed spinach at boston market, well so i'm told anyway! --- this is a great side dish, even people that hate spinach love this, it's great to serve along side a holiday turkey or a ham dinner, or at any meal --- i also like to saute about 2 teaspoons fresh minced garlic and a pinch of cayenne pepper in the butter for about 2 minutes before adding in the flour but that is optional, add in some grated parmesan cheese too if desired, this complete recipe can be doubled :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, salt, half-and-half, sour cream, onions
+---
+TITLE: Almost  Grandma Alta S Meatballs  Aka My Favorite Meatball
+CURRENT_DESCRIPTION: i have to use gf breadcrumbs, but otherwise these are hers.  i tried to find a similar recipe here... i thought everyone put cranberries in the sauce! i e-mailed mom for the recipe and the directions are in her words. this meatball is sweet, moist and tangy.  best of all, it is easy.  as with my "second favorite meatballs", serving size is debatable. enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, breadcrumbs, water, eggs, onion, salt
+---
+TITLE: almost  my grandma s rouladen   melissa d arabian
+CURRENT_DESCRIPTION: this is a delicious version of beef rouladen. i have tried a couple recipes over the years and i was not always happy with the tenderness of the meat.  in my quest to get tender slice of beef, i sought out a recipe using red wine > a meat tenderizer.  i am happy to report that i struck gold with this recipe. the addition of red wine made all the difference. it was fall apart tender. i had hope for nice pretty slices, but that didn't happen.  i did modify the recipe just a tad and added 1 c of beef broth so there would be enough liquid to braise the meat in while baking.  i'm glad i did or there would not have been enough sauce.  recipe courtesy melissa d'arabian and food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, round steaks, salt, fresh ground pepper, dijon mustard, yellow onions
+---
+TITLE: Almost  My Grandma S Rouladen   Melissa D Arabian
+CURRENT_DESCRIPTION: this is a delicious version of beef rouladen. i have tried a couple recipes over the years and i was not always happy with the tenderness of the meat.  in my quest to get tender slice of beef, i sought out a recipe using red wine > a meat tenderizer.  i am happy to report that i struck gold with this recipe. the addition of red wine made all the difference. it was fall apart tender. i had hope for nice pretty slices, but that didn't happen.  i did modify the recipe just a tad and added 1 c of beef broth so there would be enough liquid to braise the meat in while baking.  i'm glad i did or there would not have been enough sauce.  recipe courtesy melissa d'arabian and food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, round steaks, salt, fresh ground pepper, dijon mustard, yellow onions

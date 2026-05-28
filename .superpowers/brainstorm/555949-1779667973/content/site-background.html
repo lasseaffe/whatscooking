@@ -1,0 +1,170 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400&family=Inter:wght@400;500&display=swap');
+
+  /* Simulate the WC palette accent (the warm amber the user picks) */
+  :root { --wc-pal-accent: #C8782A; --wc-floor: #160E08; }
+
+  .page-mock {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2A1804;
+    margin-bottom: 6px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mock-header {
+    padding: 14px 18px 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(244,162,97,0.1);
+    position: relative; z-index: 2;
+  }
+  .mock-supertitle { font-family: 'Inter', sans-serif; font-size: 8px; letter-spacing: 8px; text-transform: uppercase; color: rgba(244,162,97,0.6); margin-bottom: 4px; }
+  .mock-title { font-family: 'Playfair Display', serif; font-style: italic; font-size: 18px; color: #EFE3CE; margin: 0; text-shadow: 0 2px 24px rgba(244,162,97,0.15); }
+
+  .mock-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; z-index: 2;
+    gap: 12px;
+    padding: 12px;
+  }
+  .mock-card {
+    width: 80px; height: 100px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  .mock-card-img {
+    width: 100%; height: 60px;
+    background: linear-gradient(135deg, #5A2E10 0%, #2A1208 100%);
+    opacity: 0.7;
+  }
+  .mock-card-text { padding: 4px 6px; font-family: 'Inter', sans-serif; font-size: 8px; color: rgba(239,227,206,0.7); line-height: 1.3; }
+
+  .mock-btn-row {
+    display: flex; gap: 8px; align-items: center; justify-content: center;
+    padding: 0 0 12px;
+    position: relative; z-index: 2;
+  }
+  .mock-btn-x { width: 30px; height: 30px; border-radius: 50%; background: rgba(200,90,47,0.1); border: 1.5px solid rgba(200,90,47,0.5); display: flex; align-items: center; justify-content: center; color: #C85A2F; font-size: 12px; }
+  .mock-btn-h { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #C85A2F, #E8834A); display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; box-shadow: 0 4px 16px rgba(200,90,47,0.5); }
+
+  /* ─── OPTION A: current (grey PNG tinted dark, no palette react) ─── */
+  .bg-a {
+    background: #1F1B19;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23888888' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  /* ─── OPTION B: warm-tinted overlay on top of grey pattern ─── */
+  .bg-b { background: var(--wc-floor, #160E08); }
+  .bg-b-pattern {
+    position: absolute; inset: 0; z-index: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23888888' fill-opacity='0.12'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .bg-b-tint {
+    position: absolute; inset: 0; z-index: 1;
+    background: rgba(200, 120, 42, 0.08); /* --wc-pal-accent at 8% */
+    mix-blend-mode: screen;
+  }
+
+  /* ─── OPTION C: CSS-only kitchen icon pattern — fully palette-reactive ─── */
+  .bg-c { background: var(--wc-floor, #160E08); }
+  .bg-c-pattern {
+    position: absolute; inset: 0; z-index: 0;
+    opacity: 0.06;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ctext x='10' y='40' font-size='28' fill='%23C8782A'%3E🍳%3C/text%3E%3Ctext x='65' y='40' font-size='22' fill='%23C8782A'%3E🥄%3C/text%3E%3Ctext x='10' y='85' font-size='22' fill='%23C8782A'%3E🔪%3C/text%3E%3Ctext x='65' y='85' font-size='28' fill='%23C8782A'%3E🫙%3C/text%3E%3C/svg%3E");
+    background-size: 120px 120px;
+  }
+  .bg-c-vignette {
+    position: absolute; inset: 0; z-index: 1;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(22,14,8,0.7) 100%);
+  }
+
+  /* Label badge */
+  .badge { display: inline-block; background: rgba(200,120,42,0.15); border: 1px solid rgba(200,120,42,0.3); color: rgba(200,120,42,0.9); font-family: 'Inter', sans-serif; font-size: 9px; padding: 2px 6px; border-radius: 20px; margin-bottom: 4px; }
+  .badge-problem { background: rgba(150,150,150,0.12); border-color: rgba(150,150,150,0.25); color: rgba(150,150,150,0.7); }
+</style>
+
+<h2>Site Background Treatment</h2>
+<p class="subtitle">The <code>kitchen-pattern.png</code> is a grey PNG — it can't react to the user's chosen colour palette. Three fixes:</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="page-mock bg-a">
+        <div class="mock-header">
+          <div class="mock-supertitle">What's Cooking — Tonight's Edition</div>
+          <h3 class="mock-title">Apple Nut Cinnamon Muffins</h3>
+        </div>
+        <div class="mock-content">
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Butter chicken</div></div>
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Miso ramen</div></div>
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Tacos</div></div>
+        </div>
+        <div class="mock-btn-row"><div class="mock-btn-x">✕</div><div class="mock-btn-h">♥</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="badge badge-problem">Current — grey & static</div>
+      <h3>A — Grey pattern, no palette</h3>
+      <p>Current state. Pattern is neutral grey, invisible in the warm palette. Changing user palette does nothing.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="page-mock bg-b">
+        <div class="bg-b-pattern"></div>
+        <div class="bg-b-tint"></div>
+        <div class="mock-header">
+          <div class="mock-supertitle">What's Cooking — Tonight's Edition</div>
+          <h3 class="mock-title">Apple Nut Cinnamon Muffins</h3>
+        </div>
+        <div class="mock-content">
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Butter chicken</div></div>
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Miso ramen</div></div>
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Tacos</div></div>
+        </div>
+        <div class="mock-btn-row"><div class="mock-btn-x">✕</div><div class="mock-btn-h">♥</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="badge">Keep PNG + warm tint layer ★ Recommended</div>
+      <h3>B — Tint overlay with <code>mix-blend-mode: screen</code></h3>
+      <p>Keep <code>kitchen-pattern.png</code>, add a second layer using <code>var(--wc-pal-accent)</code> at 8% opacity with screen blend. Pattern stays, colour shifts with palette. Zero new assets needed.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;">
+      <div class="page-mock bg-c">
+        <div class="bg-c-pattern"></div>
+        <div class="bg-c-vignette"></div>
+        <div class="mock-header">
+          <div class="mock-supertitle">What's Cooking — Tonight's Edition</div>
+          <h3 class="mock-title">Apple Nut Cinnamon Muffins</h3>
+        </div>
+        <div class="mock-content">
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Butter chicken</div></div>
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Miso ramen</div></div>
+          <div class="mock-card"><div class="mock-card-img"></div><div class="mock-card-text">Tacos</div></div>
+        </div>
+        <div class="mock-btn-row"><div class="mock-btn-x">✕</div><div class="mock-btn-h">♥</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="badge">Fully palette-reactive</div>
+      <h3>C — CSS emoji icon pattern, 100% palette-reactive</h3>
+      <p>Replace PNG with an inline SVG tile of kitchen icons (🍳 🥄 🔪 🫙) tinted by <code>var(--wc-pal-accent)</code> directly. Changes colour the instant the palette switches. Vignette darkens edges.</p>
+    </div>
+  </div>
+
+</div>

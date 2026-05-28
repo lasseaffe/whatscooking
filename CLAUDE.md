@@ -61,3 +61,29 @@ Every recipe must store three JSONB columns on the `recipes` table:
 - The original `instructions` field may be kept as a fallback during migration, but must not be the sole source of truth once expansion is complete.
 
 See `docs/superpowers/specs/2026-04-27-expanded-recipe-instructions-design.md` for the full system prompt and schema details.
+
+## MANDATORY: Image Cards — Report Issue + Crop Controls
+
+**Every card or component that renders a user-facing image must include both of the following. No exceptions.**
+
+### 1. Report Issue Button
+- Visible on hover (desktop) or always-visible on mobile, positioned top-right of the image.
+- On click: opens the image report pipeline at `/api/images/report` with `{ imageUrl, recipeId, reportType: 'image' }`.
+- Use the existing `ReportIssueButton` component (`src/components/ui/ReportIssueButton.tsx`). If it doesn't exist yet, create it there.
+- The pipeline must log the report to Supabase table `image_reports` (columns: `id`, `recipe_id`, `image_url`, `reported_at`, `user_id`).
+
+### 2. Crop / Focal-Point Control
+- A crop icon button (bottom-right of the image, same hover reveal as the report button).
+- Opens an inline crop overlay that shows the image at full width with:
+  - A **rule-of-thirds grid** (2 horizontal + 2 vertical lines dividing the image into a 3×3 grid) rendered as a semi-transparent white overlay — this is the standard photographer alignment grid.
+  - A draggable crop region the user can resize and reposition.
+  - "Save crop" commits the focal-point offset (as `{ x: 0–1, y: 0–1 }` fractions) to `recipes.focal_point` in Supabase.
+  - "Reset" clears the focal point back to center (0.5, 0.5).
+- Use the existing `ImageCropOverlay` component (`src/components/ui/ImageCropOverlay.tsx`). If it doesn't exist yet, create it there.
+- The grid lines must always be visible while the overlay is open — do not hide them on drag.
+
+### Checklist — run before logging any card component as done:
+- [ ] Card renders a `<ReportIssueButton>` wired to `/api/images/report`
+- [ ] Card renders a crop icon wired to `<ImageCropOverlay>` with the rule-of-thirds grid visible
+- [ ] Focal-point save writes to `recipes.focal_point` in Supabase
+- [ ] Both controls are hover-revealed on desktop, always-visible on mobile

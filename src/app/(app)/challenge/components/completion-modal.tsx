@@ -1,24 +1,33 @@
 'use client';
 
 import { useState, useRef } from 'react';
+import { motion } from 'framer-motion';
 import type { ActiveChallenge } from '../types';
-import { clearActiveChallenge } from '../utils';
+import { parResult, formatElapsed } from '../utils';
 import { createClient } from '@/lib/supabase/client';
 
 interface Props {
   active: ActiveChallenge;
+  /** Seconds the run took — recorded + compared against par on completion. */
+  finalElapsed?: number;
   onClose: () => void;
   onDone: () => void;
 }
 
-export function CompletionModal({ active, onClose, onDone }: Props) {
+export function CompletionModal({ active, finalElapsed, onClose, onDone }: Props) {
   const [note, setNote] = useState('');
   const [proofFile, setProofFile] = useState<File | null>(null);
   const [uploading, setUploading] = useState(false);
+  const [celebrating, setCelebrating] = useState(false);
   const [error, setError] = useState('');
   const fileRef = useRef<HTMLInputElement>(null);
 
   const canSubmit = !active.requiresProof || proofFile !== null;
+
+  const elapsedSeconds = finalElapsed ?? null;
+  const par = active.targetSeconds != null && elapsedSeconds != null
+    ? parResult(elapsedSeconds, active.targetSeconds)
+    : null;
 
   async function handleSubmit() {
     setUploading(true);
@@ -42,7 +51,12 @@ export function CompletionModal({ active, onClose, onDone }: Props) {
       const res = await fetch('/api/challenge/completions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ challenge_id: active.challengeId, proof_url, note: note || null }),
+        body: JSON.stringify({
+          challenge_id: active.challengeId,
+          proof_url,
+          note: note || null,
+          elapsed_seconds: elapsedSeconds,
+        }),
       });
       if (!res.ok) throw new Error((await res.json()).error ?? 'Failed');
 
@@ -61,18 +75,61 @@ export function CompletionModal({ active, onClose, onDone }: Props) {
         });
       } catch { /* streak emit is best-effort */ }
 
-      clearActiveChallenge();
-      onDone();
+      // Celebrate, then let the parent clear the run + refresh.
+      setUploading(false);
+      setCelebrating(true);
+      setTimeout(onDone, 1500);
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Something went wrong');
-    } finally {
       setUploading(false);
     }
   }
 
+  if (celebrating) {
+    return (
+      <div style={{
+        position: 'fixed', inset: 0, zIndex: 400,
+        background: 'rgba(9,9,8,0.92)', backdropFilter: 'blur(10px)',
+        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 24,
+      }}>
+        <motion.div
+          initial={{ scale: 0.4, rotate: -12, opacity: 0 }}
+          animate={{ scale: 1, rotate: 0, opacity: 1 }}
+          transition={{ type: 'spring', stiffness: 320, damping: 14 }}
+          style={{ fontSize: 84 }}
+        >
+          {active.emoji}
+        </motion.div>
+        <motion.h2
+          initial={{ y: 12, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.15 }}
+          style={{ fontFamily: 'var(--font-fraunces, Georgia, serif)', color: '#EFE3CE', fontSize: 26, margin: '14px 0 4px' }}
+        >
+          Challenge Complete!
+        </motion.h2>
+        {par ? (
+          <motion.p
+            initial={{ y: 12, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.25 }}
+            style={{ color: par.beat ? '#7abd7a' : '#F2A900', fontSize: 16, fontWeight: 700, margin: 0 }}
+          >
+            {par.label}
+          </motion.p>
+        ) : elapsedSeconds != null ? (
+          <motion.p
+            initial={{ y: 12, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.25 }}
+            style={{ color: '#A08060', fontSize: 15, margin: 0, fontFamily: 'var(--font-geist-mono, monospace)' }}
+          >
+            Done in {formatElapsed(elapsedSeconds)}
+          </motion.p>
+        ) : null}
+      </div>
+    );
+  }
+
   return (
     <div style={{
-      position: 'fixed', inset: 0, zIndex: 50,
+      position: 'fixed', inset: 0, zIndex: 400,
       background: 'rgba(9,9,8,0.85)', backdropFilter: 'blur(8px)',
       display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 20,
     }}>
@@ -85,9 +142,24 @@ export function CompletionModal({ active, onClose, onDone }: Props) {
         <h2 style={{ color: 'var(--rc-title,#EFE3CE)', textAlign: 'center', marginBottom: 4, fontSize: 18 }}>
           Challenge Complete!
         </h2>
-        <p style={{ color: 'var(--rc-meta,#A08060)', textAlign: 'center', fontSize: 13, marginBottom: 20 }}>
+        <p style={{ color: 'var(--rc-meta,#A08060)', textAlign: 'center', fontSize: 13, marginBottom: par || elapsedSeconds != null ? 10 : 20 }}>
           {active.title}
         </p>
+        {par ? (
+          <p style={{
+            textAlign: 'center', fontSize: 14, fontWeight: 700, marginBottom: 18,
+            color: par.beat ? '#7abd7a' : '#F2A900',
+          }}>
+            {par.label}
+          </p>
+        ) : elapsedSeconds != null ? (
+          <p style={{
+            textAlign: 'center', fontSize: 13, marginBottom: 18, color: '#A08060',
+            fontFamily: 'var(--font-geist-mono, monospace)',
+          }}>
+            ⏱ {formatElapsed(elapsedSeconds)}
+          </p>
+        ) : null}
 
         <div style={{ marginBottom: 16 }}>
           <label style={{ color: 'var(--fg-secondary,#e7e7e6)', fontSize: 12, fontWeight: 600, display: 'block', marginBottom: 6 }}>

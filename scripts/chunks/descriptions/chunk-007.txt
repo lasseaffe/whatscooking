@@ -1,0 +1,2167 @@
+TITLE: Airman  Anderson S Chicken
+CURRENT_DESCRIPTION: saw this on sunny anderson's show. cooking for real on food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, chicken thighs, eggs, pepper, salt, black pepper
+---
+TITLE: Airy Chocolate Coconut Cream Pie
+CURRENT_DESCRIPTION: pretzel crust giving this pie a salty crispness. filled with a creamy, rich chocolate flavored with coconut and tiny airy marshmallows floating throughout.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pretzels, brown sugar, pumpkin spice, unsalted butter, coconut milk, low-fat sour cream
+---
+TITLE: Airy Hamburger Buns
+CURRENT_DESCRIPTION: this is a recipe made in the bosch.  the cookbook is titled "healthy recipes from the heart of our home" by phyllis stanley.  i'm not sure how these would work if not using a bosch, as the bosch does all the kneading for you.  but you're willing to try and convert!  the preparation includes rising time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, maple syrup, vinegar, oil, gluten, whole wheat flour
+---
+TITLE: Airy White Bread
+CURRENT_DESCRIPTION: i don't know where i got this recipe, but it makes the best loaf of white bread that i have tried so far. it makes a nice light white bread, good for everything from sandwiches to toast to whatever you like to use white bread for. the prep time is the entire time the dough is in the bread machine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, shortening, bread flour, sugar, salt, yeast
+---
+TITLE: Aish S Grated Potato Kugel
+CURRENT_DESCRIPTION: from the aish hatorah kosher for pesach cookbook, in response to a request.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, onions, oil, eggs, salt, pepper
+---
+TITLE: Aisha S Chili Pecans  Cajun
+CURRENT_DESCRIPTION: if you want the heat, go for it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, butter, dried chili pepper flakes, pecans, baking sheet
+---
+TITLE: Aj De Lentejas  Bolivian Spicy Lentil Stew
+CURRENT_DESCRIPTION: a bolivian vegan recipe  from around the world. the salsa is also typical of ecuador, chile, peru, and northern chile. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried hot pepper, onion, tomatoes, garlic cloves, italian parsley, dried lentils
+---
+TITLE: Aj S Best Baked Beans
+CURRENT_DESCRIPTION: started this recipe a year or so ago, and i toyed with it and toyed with it until i perfected it...try it out yourself and see what changes you'd make!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, red onion, green bell pepper, bacon, yellow mustard, light brown sugar
+---
+TITLE: Aj S Mild Salsa
+CURRENT_DESCRIPTION: this receipe is a combo of different recipes my fiance and i found online, with a little of our own ideas! people always ask us to bring this to parties.
+the lack of seeds is what makes this salsa mild, the flavor is awesome without the hot effects! great for people who like tasty but not hot salsa!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roma tomatoes, red onion, jalapenos, hot pepper, habanero pepper, garlic cloves
+---
+TITLE: Ajar  Thai Salad
+CURRENT_DESCRIPTION: a light salad.  cook time is refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice vinegar, sugar, salt, ground black pepper, cucumber, red onion
+---
+TITLE: Ajeen Beckford Creamy Garlic Shrimp
+CURRENT_DESCRIPTION: simple and healthy shrimp idea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, garlic, shrimp, salt, black pepper, onions
+---
+TITLE: Ajeen Beckford Lahma Bi Ajeen
+CURRENT_DESCRIPTION: a beautiful meat pie with jamaican jerk spice. i lift my hat to chef ajeen beckford for yet another beautiful and tantalizing dish. i am a big fan. i really think u are the best chef in jamaica and i await your book.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, vegetable shortening, yeast, salt, oil, warm water
+---
+TITLE: Ajeen Jerk Bbq Lamb Ribs
+CURRENT_DESCRIPTION: the finest ingredients of the caribbean prepared beautifully and complement the perfect lamb
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb ribs, red chili pepper flakes, garlic cloves, ginger, onions, olive oil
+---
+TITLE: Aji           Spicy And Full Of Flavor
+CURRENT_DESCRIPTION: a peruvian recipe that has been modified into a tex-mex recipe.
+serve with meats, or cooked on top of enchiladas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh cilantro, red onion, jalapenos, balsamic vinegar, olive oil, avocado
+---
+TITLE: Aji  Ecuadorean Hot Sauce
+CURRENT_DESCRIPTION: there many ways to make aji in ecuador, but one thing is certain, there is always aji on the table.  this is a recipe i learned while i was there.  cayenne or similar small red peppers are decent substitutes for the south american aji peppers from which this delicious (hot) condiment gets its name.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot red peppers, garlic cloves, water, tomatoes, scallions, fresh coriander
+---
+TITLE: Aji Criollo   Green Aji Salsa
+CURRENT_DESCRIPTION: this bright green salsa goes well with just about anything - empanadas, potatoes, vegetables, grilled meats, etc. it's a bit like chimichurri sauce, but without the garlic - scallions add a milder onion flavor instead.  recipe is from about.com south american food
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cilantro, green onions, lime, vinegar, green chili pepper, olive oil
+---
+TITLE: Aji De Carne    Bolivian Pork And Bananas
+CURRENT_DESCRIPTION: a sweet and spicy stew.  the original was from an eat low fat digest way back in the early 90s.  heat scale: medium. sweet-heat.  serve to guests with a salad and a slaw; chilled fruit and a little corn pudding.
+
+source:  chile pepper magazine presents "hot and spicy latin dishes" a collection. also appeared in the chile pepper magazine, april 1995.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light olive oil, sweet onion, green onions, garlic, boneless pork top loin, chopped tomatoes
+---
+TITLE: Aji De Gallina
+CURRENT_DESCRIPTION: the first time i tried this classic dish was at a peruvian restaurant in new york city's west village - it immediately became one of my favorite dishes. now that i live in washington, dc, which has a great peruvian community and lots of great restaurants, i can have it whenever i like. my favorite way, though, is to cook it at home. i've tried several recipes over the years, and by mixing and matching and editing and experimenting, this is what i've come up with. just a quick note - "gallina" means rooster, as this is what the traditional recipe was made with. i make mine with chicken, since it is more readily available. so technically this would be "aji de pollo." if you happen to have a rooster laying around, let me know how it goes!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, chicken broth, white bread, evaporated milk, parmesan cheese, walnut pieces
+---
+TITLE: Aji Verde  Peruvian Green Chili Sauce
+CURRENT_DESCRIPTION: courtesy of wanderingchopsticks.blogspot.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cilantro, jalapenos, garlic clove, salt, olive oil, mayonnaise
+---
+TITLE: Ajiaco Bogotano  Chicken And Potato Soup  Bogota Style
+CURRENT_DESCRIPTION: ajiaco is a typical dish in colombia.  it has a lot of potatoes since bogota is in the mountains and potatoes are plentiful.  this recipe calls for yucca which can be found in the produce section or frozen (goya).  if you cannot find it, just use yukon gold potatoes, both will all but disintegrate and thicken the broth.  corn on the cob is cut into 1 inch rounds and thrown into the soup.  they are easier to cut if you rotate the corn, eventually the cob will break.  once you remove the cover, you'll get a burst of sweet corn aroma.  an avocado half is served either on the side, so you can take a spoonful of avocado and dip it in the soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, olive oil, potato, yucca root, ear of corn, chicken stock
+---
+TITLE: ajiaco cubano
+CURRENT_DESCRIPTION: ajiaco is a cuban stew consisting of different indiginous root vegetables. it is incredibly tasty and nutritious. a native dish that symbolizes who cubans are as a people and how diverse their ethnic backgrounds came to be formed. according to famed cuban scholar fernando ortiz, the amerindians gave us the maiz (corn), papa(potato), malanga (arum), boniato(sweet potato), yuca (cassava),and aji(pepper). the spaniards added calabaza(pumpkin) and nabo (turnip), while the chinese added spices. the africans contributed name(yams). he says, that cubans are " a mestizaje(mixture) of kitchens, a mestisaje of races, a mestisaje of cultures, a dense broth of civilization that bubbles on the stove of the caribbean." the cuban ajiaco retains the unique flavors of its diverse ingredients, which enrich one another. some ingredients may dissolve completely, while others may remain more distinct. yet all provide flavor to this hearty simmering stew, which by its very nature is always in a state of flux. the cuts of meat all have something in common aside from being "cuban-style-cut" they are cheaper cuts, as this is the dish of the "common man." i have used many sources to come up with this recipe for you, from books published in 1925 to ones that i found on the internet. also, used a taste of cuba recipe by sonia martinez, from el asere.com.,ms ramona v. abella's "the cuban food fairy", and srta maria antonieta reyes gavilan y moenk's "delicias del la mesa - manual de cocina y reposteria".  all you need with this dish is some good cuban bread, a french baguette or even foccaccia and some sliced fresh fruit, if you aren't too stuffed by this point! cuban food is highly seasoned but never hot! the ajiaco is/was made every saturday(before castro)and was served as a noon meal which would have a longer lasting effect and in the evening they would have something light. this is very good and appetizing. hope you will enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, beef jerky, flank steak, pork spareribs, chicken pieces, corn
+---
+TITLE: Ajillo Mushrooms
+CURRENT_DESCRIPTION: few tapas taste more spanish than champiñones al ajillo (ajillo mushrooms), dripping with olive oil, garlic and dry spanish sherry. to make this tapa even more authentic, be sure to serve the mushrooms with plenty of fresh, crusty bread to mop up the delicious juices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, mushrooms, garlic cloves, dry sherry, lemon juice, dried red chili
+---
+TITLE: Ajlouk Qura A  Mashed Zucchini Salad
+CURRENT_DESCRIPTION: in this tunisian salad (pronounced aj-luke coo-rah-ah), served as an appetizer with bread, the rich flavoring lifts the blandness of zucchini. harissa, a spicy north african sauce made with chile peppers and garlic, is available in specialty markets. you can use a good pinch of ground chile pepper instead. (begin with a small dash--you can always add more).  i am posting this dish for world tour 2-middle eastern
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, fresh lemon juice, extra virgin olive oil, salt, caraway seed, ground coriander
+---
+TITLE: Ajvar  Eggplant  Aubergine    Peppers
+CURRENT_DESCRIPTION: posted in response to a request. this is a croatian appetizer. i have not tried this recipe. source: "our favorite recipes" st. anthony croatian catholic church. times are estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, red sweet peppers, salt, pepper, garlic clove, lemon
+---
+TITLE: ajvar  roasted red pepper spread
+CURRENT_DESCRIPTION: a versatile roasted red pepper spread that can be served with bread, crackers, vegies with or without cream cheese or on meats and fish.  also, good in the middle of a grilled cheese sandwich made with pepper jack cheese and rye or whole wheat bread.  i love trader joe's roasted red pepper spread but i am allergic to sunflower oil and had to find a way to make my own.  i found this recipe in a newspaper article and then tweaked it to my taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell peppers, eggplant, garlic clove, olive oil, white vinegar, salt and pepper
+---
+TITLE: Ajvar  Roasted Red Pepper Spread
+CURRENT_DESCRIPTION: a versatile roasted red pepper spread that can be served with bread, crackers, vegies with or without cream cheese or on meats and fish.  also, good in the middle of a grilled cheese sandwich made with pepper jack cheese and rye or whole wheat bread.  i love trader joe's roasted red pepper spread but i am allergic to sunflower oil and had to find a way to make my own.  i found this recipe in a newspaper article and then tweaked it to my taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell peppers, eggplant, garlic clove, olive oil, white vinegar, salt and pepper
+---
+TITLE: Aka Crispies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 box graham crackers, 1/2 c. sugar, 1 c. chopped pecans, 1 stick butter, 1 stick margarine, 1/2 c. chopped almonds
+---
+TITLE: Akara  African
+CURRENT_DESCRIPTION: recipe from the food network.  states that this is a traditional nigerian dinner.  you have to plan ahead (to soak the beans), but otherwise it comes together quite quickly.  and it's vegetarian to boot!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried black-eyed peas, onions, red pepper, salt, white pepper, olive oil
+---
+TITLE: Akhrot Murgh  Indian Walnut Chicken
+CURRENT_DESCRIPTION: posted for zwt6.  adapted from sanjeev kapoor's website.  marinated with yogurt and spices and cooked with chilies and onions in a walnut tomato cream sauce.  the type of chicken used is not specified, i would use a mix of breasts and thighs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, chicken, ginger paste, garlic paste, salt, ground cumin
+---
+TITLE: Akkras  Black Eye Pea Fritters
+CURRENT_DESCRIPTION: you can also use canned black eyed peas, rinsed and mashed.  from the world of cooking.  posted for zwt #7.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black-eyed peas, onion, chili, water, oil
+---
+TITLE: Akoori   Parsi Scrambled Eggs
+CURRENT_DESCRIPTION: a spicy scrambled egg to spice up your breakfast
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, salt, pepper, spring onions, chilies
+---
+TITLE: Akoori   Scrambled Eggs  Parsi
+CURRENT_DESCRIPTION: we love this preparation. great for a tiffin. i decided to post all egg recipes today.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, salt, ground black pepper, ghee, spring onions
+---
+TITLE: Akuri  Spiced Scrambled Eggs
+CURRENT_DESCRIPTION: this is an easy-to-make  anglo-indian  recipe for spiced scrambled eggs.  serve with chapatis or puris and some spiced vegetables.   recipe adapted from: "the vegetarian epicure, book two", by anna thomas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, salt, black pepper, cilantro, butter
+---
+TITLE: Al   Tipper Gore S Chinese Chicken With Walnuts
+CURRENT_DESCRIPTION: not sure where i got this recipe, but it's become a staple in our house. serve over rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breasts, soy sauce, water, cornstarch, chinese rice wine, sugar
+---
+TITLE: al andalus paella
+CURRENT_DESCRIPTION: this recipe comes from a 1960's newspaper clipping in my grandmother's recipe box. supposedly the recipe from the restaurant at the hotel al andalus, torremolinos, espana.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, salt & freshly ground black pepper, extra virgin olive oil, saffron threads, chicken broth, frozen green beans
+---
+TITLE: Al Andalus Paella
+CURRENT_DESCRIPTION: this recipe comes from a 1960's newspaper clipping in my grandmother's recipe box. supposedly the recipe from the restaurant at the hotel al andalus, torremolinos, espana.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, salt & freshly ground black pepper, extra virgin olive oil, saffron threads, chicken broth, frozen green beans
+---
+TITLE: Al Brown S Lasagna
+CURRENT_DESCRIPTION: this was the first meal i cooked and served to company about 25 years ago.  i got the recipe originally from better homes & gardens in 1978 from an article about men who cook.  this lasagna intrigued me since it was the first time i had thought about lasagna without a tomato based sauce.  this freezes well.  i have used both white and orange colored cheddar for this.  i don't remember who al brown was but thanks al brown, where ever you are!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lasagna noodles, extra lean ground beef, celery, onion, garlic clove, basil
+---
+TITLE: Al Bussell Peach Cobbler
+CURRENT_DESCRIPTION: i found this recipe years ago, o.k. i admit it was in high school in a cook book put out by home ec teachers that i got from my teacher. it's one of the best easy cobblers i've ever had. i generally add more nutmeg or cinnamon than the recipe says, but i'm posting as it was originally given to me.
+cindy brown from mcfarland high school was the person that originally submitted the recipe from a rancher in her area.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, sugar, salt, baking powder, lemon juice
+---
+TITLE: Al Capone Roast
+CURRENT_DESCRIPTION: very interesting type of
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian sausage, round steaks, green peppers, red onion, tomato paste, water
+---
+TITLE: Al Dente Green Beans In  Soy Garlic Sauce
+CURRENT_DESCRIPTION: i wanted to make a light, low fat side dish using fresh beans that was similar to a chinese version we like at the buffet.   this turned out different but great!  the balsamic vinegar, soy sauce, garlic and olive oil worked great together.  this dish is great hot as a side dish and the leftovers are awesome cold in a salad or just as they are.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, extra virgin olive oil, garlic, soy sauce, balsamic vinegar, greek salad dressing
+---
+TITLE: Al Fredo S Popcorn
+CURRENT_DESCRIPTION: courtesy rachael ray.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, unpopped popcorn, butter, garlic clove, parmesan cheese, salt and black pepper
+---
+TITLE: al fresco bread
+CURRENT_DESCRIPTION: original recipe. please note than quantities cannot be exact, as much will depend on the size of your bread! do make sure that the ingredients are as dry as possible, as one wants to prevent a soggy bottom. always start the filling with the driest ingredient, as a buffer against the inevitable juices! use salt sparingly, as many of the ingredients are naturally salty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, butter, bell peppers, parmesan cheese, kalamata olives, feta cheese
+---
+TITLE: Al Fresco Bread
+CURRENT_DESCRIPTION: original recipe. please note than quantities cannot be exact, as much will depend on the size of your bread! do make sure that the ingredients are as dry as possible, as one wants to prevent a soggy bottom. always start the filling with the driest ingredient, as a buffer against the inevitable juices! use salt sparingly, as many of the ingredients are naturally salty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, butter, bell peppers, parmesan cheese, kalamata olives, feta cheese
+---
+TITLE: Al Kabsa   Ancient Arabian Chicken And Fragrant Rice
+CURRENT_DESCRIPTION: this classic arabian dish is saudi arabian in origin, and is believed to originate from the nomadic bedouin tribes centuries ago. arabic cuisine has its roots in tent cookery. nomadic tribes could use only transportable foods such as rice and dates, or their nomadic stock like sheep and camels in their recipes. as the caravans journeyed throughout the middle east, new seasonings and vegetables were discovered and added to the existing repertoire. each new discovery was incorporated into the diet in quantities palatable to a particular tribe - a fact that many cooks believe is responsible for the anomalies found in some arabic dishes today. you can use lamb (or camel !!) in this dish, but it is more usual to make it with chicken nowadays.
+i have a recipe posted on zaar for the kabsa spice mix needed in this recipe.  recipe #290159
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken piece, basmati rice, dried limes, fresh tomatoes, onions, garlic cloves
+---
+TITLE: Al Kabsa   Traditional Saudi Rice    Chicken  Dish
+CURRENT_DESCRIPTION: al khabsa / khabsa is very traditional. it can be made with many variations - this is just one of them - i hope to post more! use chicken for this recipe, my others have lamb instead.....i have revised the recipe as of 09/02/09, although when i cook it the amounts are correct - perhaps it's the rice i use?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, chicken, onion, garlic cloves, tomato puree, chopped tomatoes
+---
+TITLE: Al Kabsa   Traditional Saudi Rice    Meat  Dish
+CURRENT_DESCRIPTION: this is my meat (lamb) version of al kabsa / kabsah. kabsa is one of the most famous of all the traditional saudi dishes & is actually easy to make! see my other recipes for the chicken version.......
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lamb, basmati rice, carrot, green pepper, tomatoes, onion
+---
+TITLE: Al Khurshoof
+CURRENT_DESCRIPTION: marinated artichoke appetizer from morocco. the arabian delights by weiss-armush. english: artichoke, spanish : alcachofa, arabic: al-khurshuf. works beautifully as part of a mezzeh; or in the manner of spanish tapas. middle eastern red pepper powder is usually aleppo or turkish but you can sub 4 parts sweet paprika to 1 part cayenne. also, i've read several sources online that ancho chili powder will work, too. if you really hate cilantro, substitute fresh flat leaf/italian parsley.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, salt, olive oil, lemon juice, sumac, dried tarragon
+---
+TITLE: Al Lewis  Spinach Fettuccine With Crab Sauce
+CURRENT_DESCRIPTION: this is from the grandpa on the munsters tv show from when i was a kid! i found this in "the brooklyn cookbook" and thought it sounded good and easy to make. http://www.munsters.com/allewis.html
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach fettuccine, olive oil, shallots, crabmeat, butter, fresh tomatoes
+---
+TITLE: Al Pastor Fish Tacos
+CURRENT_DESCRIPTION: tacos eaten during lent. seemed to have originated in baja california.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna, onion, pineapple, salt & pepper, achiote, lime juice
+---
+TITLE: Al Roker S Spicy Beef Chili
+CURRENT_DESCRIPTION: "spicy, meaty and with just the right amount of beans, it's a terrific chili".  i made this after watching al roker make it on his morning show.  my family prefers the more tradional mild ground beef and beans type of chili but i needed a change.  it is spicy, but i personally did not find this too spicy.  if you are not overpowered by hot italian sausage that has simmered away, then you should be fine.  this is the first chili i have eaten more than 1 bowl of.  the first i have made using a diced meat.  i made this using 45oz. kidney beans per family preference.  simmered an additional 45 minutes before adding the beans.  i did find that it took a lot more time than 15 minutes to thicken.  possibly due to the rain here?  much thicker and better on day 2!  if it were not for my partners "delicate" palate, i would up the heat a bit.  cooking times were provided by the recipe with the 45 minutes being active cooking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, chuck steaks, kosher salt, fresh ground pepper, hot italian sausage, white onion
+---
+TITLE: Al Roker S Spicy Chicken Wings
+CURRENT_DESCRIPTION: these wings are marinated for a few hours in a mixture of hot pepper sauce, honey, chili powder and butter and are then baked until crispy.  serve with blue cheese dressing.  recipe found in womans day magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot pepper sauce, honey, butter, chili powder, salt, chicken wings
+---
+TITLE: Al S Beef And Spinach In Oyster Sauce
+CURRENT_DESCRIPTION: came across this by accident when my supplier gave me a bag of frozen spinach instead of broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sirloin steak, spinach, garlic cloves, oyster sauce, peanut oil, onions
+---
+TITLE: Al S Chili Dogs
+CURRENT_DESCRIPTION: this is in memory of my dad.  he would cook dinner when my mother worked nights and she would tell him to fix something "healthy" for us kids.  hope you enjoy it :). be prepared to eat this with a fork. (preparation and cooking time depends on how you cook your dogs and chili and whether you buy shredded lettuce and cheese).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dogs, hot dog buns, cheddar cheese, lettuce, roma tomatoes, onion
+---
+TITLE: Al S Egg Salad
+CURRENT_DESCRIPTION: i've been told it's the best...you decide:). makes a wonderful sandwich and is good for those light lunches. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, mayonnaise, dijon mustard, dried onion flakes, dried dill weed, salt & freshly ground black pepper
+---
+TITLE: Al S Garlic Bread
+CURRENT_DESCRIPTION: it's not a complete italian dinner unless there's garlic bread. mangia!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, garlic powder, italian seasoning, dried oregano, pepper, italian cheese blend
+---
+TITLE: Al S Pancakes
+CURRENT_DESCRIPTION: these are the lightest pancakes i've ever eaten. my business partner (al) gave me the recipe. try 1/4 cup of pecans or blueberries in the batter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking powder, sugar, cooking oil, vanilla, salt, flour
+---
+TITLE: Al S Sloppy Joes
+CURRENT_DESCRIPTION: a popular party quickie - more flavorful when prepared the day ahead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, onion, green bell pepper, celery, ketchup
+---
+TITLE: Ala Mexicana Corn Soup
+CURRENT_DESCRIPTION: add a little mexicana to your meal. a wonderful way to use corn on the cob. this recipe came from gourmet magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, olive oil, onion, fresh jalapeno peppers, ground cumin, coriander powder
+---
+TITLE: Alabama Bbq Chicken And White Sauce  Grilled
+CURRENT_DESCRIPTION: had this at a friend's house this weekend and it was great.  very different.  she used a "green egg smoker" which cooked the chicken slowly and kept it very moist.  you can use boneless, skinless breasts and then serve them on nice bread with lettuce leaves, pickles (if you like) and the white sauce!  my friend got the recipe from "smoke and spice" and this is a similar one from the bbq general website from a magazine called cook's country. hope you like it.  i don't have a smoker but i can try indirect heating. i have a gas grill too so there are obstacles but i can experiment!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, cider vinegar, sugar, prepared horseradish, salt, black pepper
+---
+TITLE: Alabama Biscuit Muffins
+CURRENT_DESCRIPTION: don't know why these are called alabama biscuit muffins, but hey, i'm from alabama so i'm proud to claim them!  i love breads made with buttermilk---they just seem to be richer tasting.  this recipe is from "the glory of southern cooking" by james villas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, baking soda, butter
+---
+TITLE: Alabama Biscuits
+CURRENT_DESCRIPTION: this recipe comes from a very good friend of my aunt's in west virginia.  her name was mildred reynolds and she was a phenomenal cook and baker.  i remember having these biscuits with some warmed canned peaches, which mrs. reynolds had also put up herself.  i had made this recipe many years ago and the biscuits were so good my mother even noted (with a star) "delicious" next to the recipe.  i'm glad to have found the recipe again and even made a batch to go with some fried chicken i made for dinner -- and they still are delicious!!!  unfortunately, mrs. reynolds has since passed away but i'm thankful to still have access to her best recipes.  hope you like these tasty biscuits just as much as we do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, baking soda, sugar, active dry yeast, water
+---
+TITLE: Alabama Blueberry Bread
+CURRENT_DESCRIPTION: this recipe was obtained from penzey's "one" magazine. it is very moist and flavorful. a cross between quick bread and cake. easy one bowl preparation for a fast,delicious snack. i've modified it some on instructions, pans, etc. enjoy!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, nutmeg, ground cloves, ground cinnamon, canola oil, lemon extract
+---
+TITLE: Alabama Camp Stew
+CURRENT_DESCRIPTION: this recipe makes a very thick stew that's really good to eat on cold winter days. i've been eating this stew since i was a very small child and it's dee-lish! it does take a while to make (i'm estimating on the cook time), but definitely worth it. i like to serve cornbread with this stew.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork, chicken, roast beef, potatoes, white onion, tomatoes
+---
+TITLE: Alabama Catfish Stew
+CURRENT_DESCRIPTION: a healthy and hearty soup from the cookbook delicious ways to lower cholesterol.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, tomatoes, potato, catsup, water
+---
+TITLE: Alabama Chicken
+CURRENT_DESCRIPTION: my most favorite chicken casserole. i got this recipe from a lady who retired from a job that i took over about 26 years ago. when we had office potlucks, i always requested her to make this. even though we don't live in alabama, no other name would seem right for this dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, green pepper, celery, onion, velveeta cheese, green olives
+---
+TITLE: Alabama Chocolate-Pecan Jumbo Christmas Fudge Pie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/4 c. chocolate wafer crumbs, 1/3 c. butter or margarine, melted, 1/2 c. butter or margarine, softened, 3/4 c. firmly packed brown sugar, 3 eggs, 1 (12 oz.) pkg. semi-sweet chocolate morsels, melted
+---
+TITLE: Alabama Coney Style Hot Dogs
+CURRENT_DESCRIPTION: inspired by  pete's famous hot dogs, brimingham, al (not a secret recipe).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, yellow mustard, cider vinegar, sugar, water
+---
+TITLE: Alabama Dip
+CURRENT_DESCRIPTION: a wonderful friend makes this for her open houses, and it is a fantastic queso type dip to serve with tortilla chips.  just a touch of heat, but not too spicy (though if you like it spicy - just use hotter picante sauce).  i'm a transplant and moved to alabama in the late 90's, and ironically it's named alabama dip!  hope you enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, sausage, velveeta cheese, picante sauce, rotel tomatoes & chilies, cream of mushroom soup
+---
+TITLE: Alabama Egg And Sausage Souffle
+CURRENT_DESCRIPTION: this is a popular favorite at the raven haven bed and breakfast in mentone, alabama.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bulk sausage, eggs, milk, salt, dry mustard, white bread
+---
+TITLE: Alabama Hot Slaw
+CURRENT_DESCRIPTION: colorful and delicious. moosewood recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, celery ribs, carrots, red bell pepper, red onions, cider vinegar
+---
+TITLE: Alabama Jefferson Davis Pie
+CURRENT_DESCRIPTION: this recipe came about after a trip to mississippi, new orleans and alabama...had a pie in a restaurant in alabama that was awesome but they wouldn't give me the recipe. this was the closest i could come to duplicating it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, flour, nutmeg, half-and-half, eggs, lemon juice
+---
+TITLE: Alabama Meatloaf
+CURRENT_DESCRIPTION: the hot sauce and brown sugar are a nice combination, and it is really different with the deli ham and ground pork added to the ground beef. i recently discovered this, after "rediscovering" meatloaf, and this is very good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, ground pork, green bell pepper, onion, eggs, soft breadcrumbs
+---
+TITLE: Alabama Oven Fried Chicken
+CURRENT_DESCRIPTION: this is a simple recipe and most people have the needed ingredients on hand.  it was in a cookbook mother gave me from the huntsville, alabama pilot club years ago.  i have made my changes to it over the years.  hope you enjoy it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, flour, salt, pepper, margarine
+---
+TITLE: Alabama Roast
+CURRENT_DESCRIPTION: this is an easy and tasty roast.  it turns out very tender.  you can adjust all seasoning to your taste--the amounts listed give a very mild flavor, so if you like lots of flavor, you will want to tweak the amounts!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, beef roast, worcestershire sauce, soy sauce, garlic salt, black pepper
+---
+TITLE: Alabama Style Shrimp Bake
+CURRENT_DESCRIPTION: i found this in a book that was lying around my buddy's house.  i modified it a little and came up with this.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, lemon juice, worcestershire sauce, salt, fresh coarse ground black pepper, dried rosemary
+---
+TITLE: Alabama White Bbq Sauce  2
+CURRENT_DESCRIPTION: this traditional alabama barbecue sauce uses mayonnaise as its base rather than tomato sauce, vinegar, or any of the other traditional barbecue sauce bases. like many barbecue sauces you want to apply this only at the very end of your grilling or smoking. it will breakdown and separate if it is heated too long. use this sauce on chicken and turkey. it is also good on pork. alabama white barbecue sauce has a tangy flavor that is a great addition to grilled foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, cider vinegar, lemon juice, black pepper, salt, cayenne
+---
+TITLE: Alain S Cabbage Rolls
+CURRENT_DESCRIPTION: found this recipe in our regional magazine saltscapes, hope you enjoy it!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, eggs, pepper, garlic cloves, tabasco sauce, soy sauce
+---
+TITLE: Alaine S Tangy Stove Top Sweet Potatoes
+CURRENT_DESCRIPTION: this is an entirely new take on sweet potatoes, and i know you'll enjoy it, i can't stop eating it!  this recipe came to me by accident, i was looking for something new on the internet that i could make with sweet potatoes on the stove top but couldn't find anything.  i threw together some ingredients i had on hand, and the result was great. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, butter, marshmallows, ginger, yogurt
+---
+TITLE: Alambre De Bistec
+CURRENT_DESCRIPTION: mexican traditional d2d.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, beef, onions, green bell peppers, salt, pepper
+---
+TITLE: Alambre De Camarones  Grilled Shrimp Skewers
+CURRENT_DESCRIPTION: i saw this recipe on the self magazine website.  looks fabulous - would make such a nice pool side treat this summer!  i thought i would store it here for safe keeping.  if you try it, please let me know what you think!  i'll keep you posted, if i get a chance to make these anytime soon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, olive oil, fresh lime juice, worcestershire sauce, dried oregano, salt
+---
+TITLE: Alan Jackson S Chocolate Cake And Frosting
+CURRENT_DESCRIPTION: fantastic chocolate cake recipe! i found this advertised on a parkay box, bought the box of margarine and tried the recipe. everyone who tasted it has asked for the recipe! it's easy and not too sweet. i use real butter for the margarine, but you can use either. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, eggs, sugar, salt, water, margarine
+---
+TITLE: Alan Nowell And Paula Deen Jumbo Lump Crab Cakes Sandwiches
+CURRENT_DESCRIPTION: i saw these on the food network today and instantly looked for the recipe!! couldn't find it here, so i'm posting it!  courtesy of alan nowell as seen on paula's best dishes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, egg, dijon mustard, hot chili sauce, green onions, dill
+---
+TITLE: Alan S Chicken Joe
+CURRENT_DESCRIPTION: low-fat chicken sloppy joe recipe. tastes great!!! easy to make. less fat than beef or pork. my own recipe from scratch. came out great the very first time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, ketchup, mustard, barbecue sauce, spaghetti sauce, tabasco sauce
+---
+TITLE: Alan S Tandoori Chicken
+CURRENT_DESCRIPTION: it is just great either on its own as a main dish or as an entree
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, tandoori paste, yogurt, lime, juice of, garlic
+---
+TITLE: Alan S Vegetarian Vegan Bean And Rice Burger Mashup
+CURRENT_DESCRIPTION: black beans, pinto beans and brown rice mixed with breadcrumbs, picante sauce and seasoned with chili powder, cumin, garlic, oregano, cayenne pepper, salt, pepper.
+i use this in bulk.
+roll up your sleeves, and when you wash your hands, you might want to wash up to your elbows because you might be elbow deep in this when mixing it. 
+i like to freeze this in 2-servings sizes in the freezer.  
+this is very filling, so a little bit goes a long way. 
+i used dry beans and dry brown rice. 
+the measurements were all measured dry, so this ends up being quite a large amount of food. feel free to divide for smaller portions. 
+
+this started as an experiment for vegan burgers, but i could never get the centers to a burger-like consistency. feel free to try it as a vegan burger recipe or in a wrap. once i put it in a wrap, i was blown away and have been using this for over a year now. i finally figured i should put the recipe somewhere so i could stop trying to remember everything. ;-)
+the breadcrumbs are technically not vegan, so if you know of a substitute for breadcrumbs, or know of a brand that does not use any animal product in their bread or breadcrumbs, go with that to make it vegan. 
+give it a try and let me know what you think, or any changed you made!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, pinto beans, brown rice, breadcrumbs, picante sauce, chili powder
+---
+TITLE: Alan Wong S Pineapple Mango Macadamia Nut Relish
+CURRENT_DESCRIPTION: this relish is so good, our friends have been known to beg us to allow them keep the leftovers. serve with grilled fish, chicken, or even by itself as a salad. the relish can be used immediately, but i like to refrigerate it for an hour or two to allow the flavors to mingle. you can be pretty liberal with the hot sauce because the pineapple and mango balance the fire, but use caution if you use habanero peppers together with an extreme sauce such as dave's insanity. the original recipe was published in the seattle times c. 1993
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh pineapple, mango, macadamia nuts, green onions, fresh basil, maui onions
+---
+TITLE: Alaska Burgers
+CURRENT_DESCRIPTION: another recipe from rachael ray. these are really good! be sure to chop the onion really small or pieces will fall out of your burgers. add slices of bacon and a drizzle of barbeque sauce if you want. serve with a cold summer veggie salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, worcestershire sauce, cumin, cracked black pepper, smoked cheddar cheese
+---
+TITLE: Alaska Canned Salmon Carbonara
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 8 oz. pasta, 6 slices bacon, diced, 1/2 onion, chopped, 3 large cloves garlic, minced, 2 tsp. oregano, 1/2 tsp. black pepper
+---
+TITLE: Alaska Molasses Cookies
+CURRENT_DESCRIPTION: from cooking light (september 2002).  allow an extra 30 minutes for the dough to chill.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: applesauce, sugar, butter, dark molasses, egg, flour
+---
+TITLE: Alaska Pink Salmon Spread
+CURRENT_DESCRIPTION: connie's recipe from family collection. this recipe is delicious on ritz crackers, tortilla pin-wheels or even a bagel.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light cream cheese, lemon juice, low-fat milk, green onion, hickory liquid smoke, pink salmon
+---
+TITLE: Alaska Salmon And Chipotle Wrap
+CURRENT_DESCRIPTION: my very favorite way to eat canned salmon.  it is so flavorful with lime and cilantro and a hint of spicy chipotle flavor all wrapped in a flour tortilla.  i found this on a card in a magazine a while back (but i can't remember where).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lime juice, chipotle chile in adobo, fresh cilantro, red bell peppers, red onion, garlic
+---
+TITLE: Alaska Salmon Bake With Pecan Crunch Coating
+CURRENT_DESCRIPTION: just got this one from a grocery website, and its getting rave reviews. i'm posting so that i can have a copy of it here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, butter, honey, fresh breadcrumb, pecans, fresh parsley
+---
+TITLE: Alaska Salmon W  Tomatillo Sauce  Fresh Corn   Poblano Chile
+CURRENT_DESCRIPTION: dairy-free
+
+courtesy of whole foods
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, tomatillo, serrano chilies, cilantro, lime juice, corn
+---
+TITLE: Alaska Smoked Salmon Dip
+CURRENT_DESCRIPTION: this is the best recipe for smoked salmon dip i've tried. it comes from my dad, an alaskan commercial fisherman, who makes the best smoked fish around. this dip is creamier than a lot of the pate' style smoked salmon spreads. you won't find your chips and crackers snapping in half as you go in for a dip. the green onions give it a little added texture and the garlic makes it more savory. if you don't have your own smoked salmon, you can always buy some at the supermarket. just make sure it's wild alaskan salmon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked salmon, cream cheese, sour cream, mayonnaise, tabasco sauce, garlic
+---
+TITLE: Alaska Sunday Hot Bread
+CURRENT_DESCRIPTION: an easy, no-yeast bread with a hint of lemon and a sweet topping.  a recipe i picked up in arizona but i have no idea where the name comes from!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, flour, baking powder, salt
+---
+TITLE: Alaska Wild Blueberry Peach Crisp
+CURRENT_DESCRIPTION: blueberry peach crisp - lighter than usual - very little sugar.  a way to make blueberries (especially tart ones) delightful!  alaskan blueberries have 10x the antioxidants of regular blueberries too.  kids and adults alike love this flavor!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: blueberries, frozen peaches, sugar, flour, rolled oatmeal, brown sugar
+---
+TITLE: Alaskan Bbq Salmon
+CURRENT_DESCRIPTION: simple and sweet, this recipe for grilling a whole salmon fillet is sure to be a family favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, honey, liquid smoke flavoring, apple cider vinegar, salmon fillets
+---
+TITLE: Alaskan Beer Quick Bread
+CURRENT_DESCRIPTION: this recipe was posted in reply to a beer bread request on the "recipe request" message board. "alaskan beer quick bread by john mcghee. a great addition with any alaskan beer and to any meal!"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, amber beer
+---
+TITLE: Alaskan Blueberry Coffee Cake
+CURRENT_DESCRIPTION: this sounds yummy and so simple. from cooksrecipes.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, vegetable oil, milk
+---
+TITLE: Alaskan Blueberry Lemon Tea Bread
+CURRENT_DESCRIPTION: when i lived in alaska, during blueberry season it was fun to climb the mountains and pick blueberries. the one hazard was that the bears were doing the same thing so it was a race to see who got the most berries during the season. the joke is that if you saw a large pile of blueberries on the trail, turn around and go away because it means bears are in the area. bears don't digest blueberries very well so they come out whole alot of the time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, salt, bananas, fat-free buttermilk
+---
+TITLE: Alaskan Blueberry Pie
+CURRENT_DESCRIPTION: originally from barbara
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cornstarch, water, blueberries, butter, lemon juice
+---
+TITLE: Alaskan Cranberry Dumplings
+CURRENT_DESCRIPTION: this recipe was included as part of a recipe for “roast wild duck with red cabbage stuffing and cranberry dumplings” in the collective cookbook “cooking alaskan.”  it is from “out of alaska’s kitchens.”  a delicious and unusual addition to meals!  (if you’re in a hurry, you can also use wonton wrappers instead of making your own dough.  see note below.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberries, flour, salt, double-acting baking powder, butter, milk
+---
+TITLE: Alaskan Parmesan Baked Halibut
+CURRENT_DESCRIPTION: an easy one from a bed & breakfast in alaska.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: halibut steaks, sour cream, parmesan cheese, butter, dill weed, salt
+---
+TITLE: Alaskan Pollack With Broccoli In A Cream Sauce
+CURRENT_DESCRIPTION: after eating a dish something like this one in a restaurant, i decided to reconstruct it in my kitchen. a few tries later, this is my delicious recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pollock fillets, broccoli florets, shrimp, shallots, fresh parmesan cheese, cream
+---
+TITLE: Alaskan Salmon Chowder
+CURRENT_DESCRIPTION: found in the taste of home. times are estimated as i have not tried to make this yet. posted in response to request
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, celery, green pepper, garlic clove, chicken broth, potatoes
+---
+TITLE: Alaskan Salmon Dip
+CURRENT_DESCRIPTION: i got this recipe while living in alaska from a real life mountain man i met at a bar one night after the entire bar was boosting that his salmon dip was the best they ever tasted. it's the best i've ever had and it works well with imitation crab too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, butter, onion, cream cheese, sour cream, worcestershire sauce
+---
+TITLE: Alaskan Salmon Marinade
+CURRENT_DESCRIPTION: "secret" recipe from the best steakhouse in cordova, alaska!  this makes almost any kind of salmon palatable (except for pinks).  requires only 30 minutes marinating time.  makes a huge batch of marinade - would probably cover two huge fillets.  you could try making half...  (i use dried parsley and it tastes great.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, soy sauce, ketchup, oil, parsley, lemon juice
+---
+TITLE: Alaskan Smoked Salmon Chowder
+CURRENT_DESCRIPTION: my brother gave me this recipe and i made it for my family and they went nuts! it was out of this world delicious! you can use any seafood you want but it is a must to have smoked salmon. my daughter who is 14 loved it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, garlic, onion, celery, green pepper, carrot
+---
+TITLE: Alaskan Smoked Salmon Sauce
+CURRENT_DESCRIPTION: this recipe is quick, easy and elegant.  it has become a favorite at our house, especially when having guests.  it is adapted from fast and flashy hors d'oevres.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked salmon, cream cheese, sour cream, mayonnaise, dill weed, fresh parsley
+---
+TITLE: Alaskan Sourdough Blueberry Gingerbread
+CURRENT_DESCRIPTION: this recipe is based on julesong’s recipe #7020, with some modifications and my addition of fresh alaskan blueberries!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark brown sugar, butter, molasses, egg, unbleached flour, salt
+---
+TITLE: Alaskan Sourdough Cornbread
+CURRENT_DESCRIPTION: after our recent trip to alaska, i have a renewed interest in sourdough baking. i found this recipe at alaska travel magazine.com. dh loves cornbread and this is a great recipe.  it is a little different than traditional cornbread with a mild sour flavor.  i updated the cooking time after 16paws review and my preparing the recipe again and watching the time closely.  be cautious when adding the milk due to differences in starter with regards to "wetness".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, sugar, salt, milk, sourdough starter, cream of tartar
+---
+TITLE: Albacore Tuna And Bow Tie Pasta Salad
+CURRENT_DESCRIPTION: yet another trader joe's copycat recipe for one of their
+excellent pre-packaged salads. perfectly acceptable to use canned tuna, but for a real treat try some fresh albacore!
+please note that all of my ingredient amounts are estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bow tie pasta, albacore tuna, red bell pepper, red onion, capers, fresh parsley
+---
+TITLE: Albacore Tuna Spread
+CURRENT_DESCRIPTION: this is a family recipe that originally came from my aunt gloria, a wonderful hostess and great cook.  this spread is a little different from ordinary tuna spread and is great served with crackers or used as a filling for tea sandwiches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: albacore tuna, cream cheese, mayonnaise, capers, horseradish, soy sauce
+---
+TITLE: Albacore Tuna With Jalapeno Bacon Cream Sauce
+CURRENT_DESCRIPTION: taken from the bonefish grill website.  haven't tried it yet, but sounds so very good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna fillets, butter, diced onion, garlic, heavy cream, jalapeno
+---
+TITLE: Albania  Byrek Ose Lakror  Leek Pie
+CURRENT_DESCRIPTION: this recipe is from week four of my food blog, "travel by stove." i am attempting to cook one meal from every country on earth, and albania is my fourth stop. this pie is really tasty and very different from american savory pies. to speed things up, you can use phyllo dough or puff pastry in place of the scratch-made dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, salt, water, butter, leeks, cottage cheese
+---
+TITLE: Albania  Gjell Me Arra  Chicken With Walnuts
+CURRENT_DESCRIPTION: this recipe is from week four of my food blog, "travel by stove." i am attempting to cook one meal from every country on earth, and albania is my fourth stop. this is actually a very simple recipe consisting of chicken with a thick walnut sauce. you can cook the breasts whole or dice them first.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, walnuts, egg yolks, garlic cloves, butter, chicken breasts
+---
+TITLE: Albanian Cornbread   Pite
+CURRENT_DESCRIPTION: courtesy of globaltableadventures.com, as adapted from "home cooking around the world" by david ricketts and mark thomas. this bread is a great accompaniment to stews. it is excellent warm, but can dry out, so try to use up promptly or store well-wrapped.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, cottage cheese, eggs, scallion, butter, paprika
+---
+TITLE: Albanian Spinach Pie  Byrek Me Spinaq Or Pite
+CURRENT_DESCRIPTION: albanians love savory pies and i do too. they make theirs with filo dough. any combination of greens can be used in this recipe. you can even add other vegetables as well, such as mushrooms. if the additional  vegetables used will be watery, towards the end of baking you might want to cut steam vents in the filo dough.
+albanians eat this pie hot accompanied by buttermilk or beaten yogurt thinned down with cold water, or with chilled stewed prunes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, phyllo dough, spinach, feta cheese, green onion, eggs
+---
+TITLE: Albanian Stewed Green Beans And Potatoes With Smokey Seitan
+CURRENT_DESCRIPTION: in the heart of the mediterranean, on the adriatic and ionian seas, albania is fast becoming one of the world's most interesting getaways. still relatively unspoiled by globalization, an inspiring mixture of civilizations and cultures - making this european country truly unique.
+
+
+this stewed green bean recipe is a great flavorful way to use green beans! the recipe makes enough for two hungry people, so if you have more people at home double the recipe. the recipe uses three tablespoons of olive oil so if you want to make this lower fat feel free to reduce some of the oil. you can replace the seitan with storebought "beef" or "chicken" chunks, or even veggie crumbles. taken directly from the vegan foodie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: seitan, green beans, red potatoes, onion, garlic cloves, tomatoes
+---
+TITLE: Albanian Tomato Cucumber Salad
+CURRENT_DESCRIPTION: this traditional salad is served throughout albania. it is often served as first course.  typically this salad has equal proportions of tomato and cucumber. the rest of the ingredients are stictly added based on personal preference.  i got this recipe from some missionaries that have lived in albania for a long time.  they made a cookbook with other missionaries called "from bugs to beans."  posted for zwt 4.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, cucumber, onion, green pepper, olive oil, feta cheese
+---
+TITLE: Albanian Tossed Salad
+CURRENT_DESCRIPTION: albanian tossed salad is a greek influenced dish that became very popular throughout albania.
+ 
+the main ingredients of albanian tossed salad are romaine lettuce, red leaf lettuce, feta cheese, black olives, tomatoes, onions and mushrooms.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, red onion, pitted black olives, red bell pepper, tomatoes, cremini mushroom
+---
+TITLE: Albanian Walnut Cake With Lemon Glaze
+CURRENT_DESCRIPTION: i have not tried this cake yet. it is supposed to be moist and rich, but not overly sweet.  i'm posting this for the zaar world tour. it's from a moosewood cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, plain yogurt, buttermilk, flour
+---
+TITLE: Alber S Cornbread
+CURRENT_DESCRIPTION: this is one of the first things i remember baking as a child.  my mom would let me mix it up all by myself and it was the first recipe i had memorized.  i never knew where she got it until one day recently i was looking at the box of alber's cornmeal, and lo and behold, it was on the box!  nevertheless, it's a good recipe and i still enjoy it, especially with a little butter and honey.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, flour, sugar, baking powder, salt, oil
+---
+TITLE: Albers Sweet Corn Muffins
+CURRENT_DESCRIPTION: i found this on the back of an albers cornmeal box. sweet and fluffiness makes this a great combo for any meal. works with cornbread as well. copyright word-for-word by albers. i'm not sure if it works with other cornmeal, but i'd reccomend albers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, granulated sugar, yellow cornmeal, baking powder, salt, milk
+---
+TITLE: Albers Tamale Pie Casserole
+CURRENT_DESCRIPTION: this casserole was found on the net in response to a post. it was from lois morgan of rocklin. i have not made it yet, but it sounds delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cornmeal, salt, carnation evaporated milk, water, ground beef, garlic
+---
+TITLE: Albert S Soy Sauce Steak
+CURRENT_DESCRIPTION: great beef recipe -- similiar to a teriyaki!  easy to make, and done in less than an hour!  prep time includes marinating meat, but does not include cutting meat into cubes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: top round steak, soy sauce, water, garlic, onion powder, seasoning salt
+---
+TITLE: Alberta Beef  Mushroom And Pepper Pasta
+CURRENT_DESCRIPTION: another wonderful recipe, adapted from the flavors of canada by anita stewart
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onions, paprika, caraway seed, round steaks, salt and pepper
+---
+TITLE: Alberta Prairie Burgers
+CURRENT_DESCRIPTION: what sets this burger apart from others, is that it has sour cream in the beef mixture; giving it tons of flavor and moisture. this recipe is from the travel alberta magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, quick-cooking oats, light sour cream, fresh mushrooms, onion, garlic cloves
+---
+TITLE: Alberta'S Hamburger Stew
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1/4 c. chopped onion, 1 tsp. salt, pepper, 1 c. diced potatoes, 1 c. diced carrots
+---
+TITLE: Albicocche Al Forno  Baked Apricots With Amaretti
+CURRENT_DESCRIPTION: a delicious italian classic often also made with peaches, but i prefer it with apricots. the apricots are filled with amaretti cookies, amaretto, sugar and egg yolk and baked in the oven with white wine. they can be served warm or at room temperature and are delicious paired with vanilla ice cream or white chocolate mousse. however, i also love them on their own. they were a big hit at a party i catered for. however, at the party i had far too much filling for the apricots. maybe i've made a mistake when multiplying the recipe. i will try it out again and make changes to the recipe if necessary.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, amaretti cookies, sugar, egg yolk, amaretto, white wine
+---
+TITLE: Albndigas
+CURRENT_DESCRIPTION: this soup is great for lent.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, white onions, garlic clove, chopped tomatoes, tomato sauce, chicken stock
+---
+TITLE: Albondigas  Cuban Meatballs
+CURRENT_DESCRIPTION: this is a recipe "by three guys from miami cook cuban" that i adapted a tiny bit.  here is what they state:  "giant cuban meatballs that put many italian meatballs to shame!"  i can't wait to try this version of meatballs, sounds delicious!!  i am posting this for zwt 9, so untried by me at this time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, cracker crumb, milk, ground beef, dry mustard, cumin
+---
+TITLE: Albondigas Con Salsa De Tomate  Spanish Style Meatballs
+CURRENT_DESCRIPTION: these spanish style meatballs with tomato sauce are fabulous....can't remember where i got this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground beef, scallions, garlic cloves, parmesan cheese, fresh thyme leaves
+---
+TITLE: Albondigas Soup
+CURRENT_DESCRIPTION: mexican meatball soup, very good hearty soup with everything for a good meal during any part of year but especially winter time
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, beef bouillon cubes, potatoes, carrots, onion, zucchini
+---
+TITLE: Albondigas Soup With Cilantro Pesto
+CURRENT_DESCRIPTION: taking its name from the word for the meatballs that float in its rich broth, this great one-dish meal is arguably the national soup of mexico. make a big pot for a casual party, keeping it warm on the stove top. adding the cilantro pesto to each serving produces a wonderfully fresh taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: short-grain white rice, water, vegetable oil, white onions, ground pork, ground beef
+---
+TITLE: Albondigas Spanish Style
+CURRENT_DESCRIPTION: spanish tapas recipe: the original albondiga recipe was moorish in origin. now offered throughout spain, every tapas bar varies the recipe to suit the local tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, ground veal, garlic cloves, dry breadcrumbs, coriander, nutmeg
+---
+TITLE: Albuquerque Pinon Red Chile Fudge
+CURRENT_DESCRIPTION: tasty and not too hot. great for holiday gifts. real southwestern flavor. put the dry ingredients in a mason jar and give them to friends. great hostess gift.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, pine nuts, red chili powder, sweetened condensed milk, vanilla extract
+---
+TITLE: Albuquerque Salad
+CURRENT_DESCRIPTION: brown rice, creamy black beans and corn create a wonderful texture in this colorful, crowd pleasing salad. a vinaigrette dressing with grated onion and jalapeno adds richness. easily doubles or triples to accomodate a crowd.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown rice, canned black beans, corn, onions, white vinegar, vegetable oil
+---
+TITLE: Alcachofas En Vinagreta Aromatica  Artichokes In Vinaigrette
+CURRENT_DESCRIPTION: spanish tapas recipe: this recipe offers an item first introduced by the moors into spain in the mid-fifteenth century and combined with the local spices that now is very popular on the tapas bar circuit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon juice, artichokes, salt, garlic cloves, fresh oregano, coriander
+---
+TITLE: Alcaparrado   Puerto Rican Olive   Pepper Mix
+CURRENT_DESCRIPTION: this recipe is used in conjunction with my recipe #315833. this mixture is used to add robust flavor to the dish with a true puerto rican flair. this mixture is also fabulous when used on muffaletta sandwiches or on bruschetta that has been toasted and rubbed with a raw garlic clove.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pimento-stuffed green olives, capers, red wine vinegar, olive oil, black pepper
+---
+TITLE: Alcapurrias
+CURRENT_DESCRIPTION: another signature dish, lots of calories but worth all of them!  this was emailed to me by a friend, source is unknown.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green bananas, taro root, salt, sazon goya con culantro y achiote, shortening, hot water
+---
+TITLE: Alcohol Free Hot Toddy
+CURRENT_DESCRIPTION: feeling chilled and miserable? try this. a recipe inspired by chrissy o's ginger cordial!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, lemon, orange, cream of tartar, crystallized ginger, tabasco sauce
+---
+TITLE: Alcohol-Free Ginger Mule
+CURRENT_DESCRIPTION: Non-alcoholic spirit (Seedlip or similar), ginger beer, and fresh lime. All the burn and complexity of a mule with zero alcohol.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 60 ml non-alcoholic spirit, 150 ml spicy ginger beer, 20 ml fresh lime juice, 3 whole mint sprigs, 1 cup ice, 1 garnish lime wedge
+---
+TITLE: Alcoholic Purple Passion
+CURRENT_DESCRIPTION: i found this recipe in a book called "great american favorite brand name cookbook" and i have not tried it yet, but i'm trying to get some stuff up here before i have to return the book. so if anyone tries it and has any comments, let me know. hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen grape juice concentrate, cold water, vodka, lemon juice, sugar, ice cube
+---
+TITLE: Aldeburgh Flatbread
+CURRENT_DESCRIPTION: cook on a grill pan, bbq grill or frying pan. knead in your own favourite blend of crushed seeds, spices and herbs. a good combination is 1 tsp fennel seeds, 1 tsp crushed coriander seeds, 1 tbsp thyme, 1 tbsp marjoram or basil and 2 green spring onions finely chopped. knead these flavours in when the dough is ready not before.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, honey, water, strong white flour, fine sea salt, olive oil
+---
+TITLE: Alden S Grandmother S Cornbread
+CURRENT_DESCRIPTION: source: emeril lagasse (www.foodtv.com)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon grease, cornmeal, baking powder, baking soda, salt, fresh ground black pepper
+---
+TITLE: Alder Planked Salmon With Soy Ginger Marinade
+CURRENT_DESCRIPTION: a wonderful smokey salmon with a perfect sauce from fire & flavor grilling company, courtesy of elise lalor of issaquah, wa
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: minced garlic cloves, soy sauce, fresh ginger, fresh parsley, canola oil, boneless salmon fillets
+---
+TITLE: Ale 8 Cake
+CURRENT_DESCRIPTION: this is by far the best homemade chocolate cake i have ever had....thanks vickie!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, butter, cocoa, baking soda, ale 8 soft drink
+---
+TITLE: Ale And Cheddar Soup
+CURRENT_DESCRIPTION: this is a recipe from the howe sound inn and brewing company in squamish, bc canada. it was published in a newspaper years ago, and i held on to it. good thing, as no longer live there but i can still enjoy the tastes from where i grew up.  this soup goes great with the butter-beer bread (recipe #189804)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, smoked bacon, white onion, flour, chicken stock, ale
+---
+TITLE: Alea S Corned Beef And Cabbage Soup
+CURRENT_DESCRIPTION: my family loves corned beef and cabbage, so i take advantage of the sales on both items around st. patrick's day.  i buy extra corned beef when it goes on sale, so we can enjoy it over the next couple of months rather than just on st. patrick's day.  when i make corned beef and cabbage, i always end up with leftover corned beef.  i often use the leftovers to make corned beef and cabbage casserole, but this time i decided to go a slightly lower calorie route and make corned beef and cabbage soup.  i use 6 cups of liquid to make this soup, but to make it more flavorful, and reduce waste, i use all of the leftover dripping from cooking the corned beef to make up some of that 6 cups.  i also add any leftover gravy to add even more flavor.  i pour the leftover drippings and any leftover gravy into a large pyrex measuring cup, then i add enough beef broth to bring it to 6 cups of liquid.  the leftover corned beef will still have quite a bit of the original spice blend on it and the drippings will include spices, so there is no need to add additional spices to the broth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef broth, red potatoes, diced onion, garlic cloves, cooked corned beef, cabbage
+---
+TITLE: Alea S Meat Lover S Hashbrown Casserole
+CURRENT_DESCRIPTION: alea milham says, "as i was getting ready to make my breakfast casserole, i suddenly had the impulse to make it healthier by adding vegetables.  i asked my kids what vegetable they though i should add and my oldest son replied "bacon!"  my son't transcripts from college indicated that he is quite bright, so i am pretty sure he knows bacon isn't a vegetable.  i think bacon is just his default answer to most questions.  i have discovered that if you ask male college students what you should add to any recipe the most common answer is bacon.  don't believe me?  try it for yourself.  bacon is more expensive per pound than most of the meat i buy, so when it goes on sale i stock ip and freeze it for later use.  i also cook up a batch and crumble it and use it sparingly in recipes to add flavor rather than using it as a side dish.  whether you make the hashbrowns from scratch or use frozen hashbrowns that have thawed, be sure to squeeze out all of the excess liquid.  removing the excess liquid is essential to prevent the casserole from becoming runny.  you can make this with whatever meat you have on hand.  i usually make my hashbrown casserole with ham, but sausage works well too.  and a combination of both ham and sausage is always a hit.  no matter what meat you use, cut it into very small pieces.  this allows you to get a nice meaty flavor throughout the casserole while using as much meat of other casseroles."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hash brown potatoes, eggs, cottage cheese, green onions, cheddar cheese, mozzarella cheese
+---
+TITLE: Aleecha Vegetable Stew
+CURRENT_DESCRIPTION: ethiopia recipe for tour 2005
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, butter, onions, curry powder, carrots, potatoes
+---
+TITLE: Alegra S Six Week Muffins
+CURRENT_DESCRIPTION: these are the best bran muffin i have ever tasted. i got this recipe from the lazy gourmet cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisin bran cereal, sugar, flour, baking soda, salt, eggs
+---
+TITLE: Aleid S Mexican Fish Roll Up Tortillas
+CURRENT_DESCRIPTION: sister in law came back from central america with a cookbook and this was something she made out of it... can be made as hot n' spicy or as mild as you prefer,(start off mild so that you can judge how much extra sambal you might want to add another time) and can be made in advance and popped in the oven for dinner parties, and is excellent served with a simple crisp salad and plain while rice... enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, fish fillets, sambal tjampoer, soya sauce, desiccated coconut
+---
+TITLE: Alessandro S Secret Spinach
+CURRENT_DESCRIPTION: this is a recipe from the best (imho) italian place in portland oregon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, fresh spinach, salt, garlic, olive oil, red pepper flakes
+---
+TITLE: Alessi S Tiramisu
+CURRENT_DESCRIPTION: i have made many different tiramisus, this one is one of the best and very authentic. the recipe actually came from the package of alessi savoiardi cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, sugar, marsala, whipping cream, mascarpone cheese, brewed espresso
+---
+TITLE: Aletria  A Antiga  Sweet Angel Hair Pasta
+CURRENT_DESCRIPTION: this is a typical dish in every home at holiday times, its a very old tradition, thats a must on the table in every portuguese home. its a very simple receipe to prepare,yet very elegant, especially when its nicely decorated with cinnamon over the top. just let your imagination go to work .
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: angel hair pasta, lemon, milk, sugar, water, butter
+---
+TITLE: Alex Goh S Basic Sweet Bun Dough
+CURRENT_DESCRIPTION: i love making this and putting different fillings etc in it...such buns are extremely popular in asia
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, all-purpose flour, sugar, powdered milk, instant yeast, egg
+---
+TITLE: alex guarnaschelli s mother chicken with bbq
+CURRENT_DESCRIPTION: from food network's alex's day off. i made this and the sauce is so good. easy to prepare. sauce can be made ahead of time and stored until ready to use. sometimes, when all i use is chicken thighs or legs, then i half the sauce because it make alot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, cider vinegar, worcestershire sauce, light soy sauce, light brown sugar, dark brown sugar
+---
+TITLE: Alex Guarnaschelli S Mother Chicken With Bbq
+CURRENT_DESCRIPTION: from food network's alex's day off. i made this and the sauce is so good. easy to prepare. sauce can be made ahead of time and stored until ready to use. sometimes, when all i use is chicken thighs or legs, then i half the sauce because it make alot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, cider vinegar, worcestershire sauce, light soy sauce, light brown sugar, dark brown sugar
+---
+TITLE: Alex S Favorite Beef And Cheese Pie
+CURRENT_DESCRIPTION: this is the #1 all-time most requested meal that my two boys grew up on. now adam is 27 and alex has passed away, so i'm posting this in alex's memory. so easy, and you won't be dissapointed! also very good cold the next day. i got in the habit of making 2 pies so there would be leftovers! i got this recipe from a small cookbook i picked up at a truckstop while driving across country called "cooking for the king of the road"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, green pepper, tomato sauce, green beans, garlic salt
+---
+TITLE: Alex S Heavenly Snapper Fillets
+CURRENT_DESCRIPTION: an old friend of mine made this for me and i was impressed and kept the "recipe" all these years but there are no amounts (measurments) given so i will see if zaar will let me add it.  if i have to put ingredient amounts, just keep in mind that i guessed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow snapper fillets, mushrooms, garlic cloves, scallions, onion, fresh basil leaf
+---
+TITLE: Alex S Lemon Cream Cheese Butter Cake
+CURRENT_DESCRIPTION: my brother-inlaw used to make this cake and now we are just as happy to use this recipe. it keeps very well and tastes realy good.
+serve plain or with whipped cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, butter, lemon rind, caster sugar, eggs, self rising flour
+---
+TITLE: Alex S Lemon Shake
+CURRENT_DESCRIPTION: here is the story of this recipe in alex's own words, but mom's punctuation. "alex was playing on webkinz world and his mother went out shopping. when she came back, alex asked if she got the ingredients for a webkinz food. she didn't.  so that's why he invented something new!"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, lemon juice, non-fat vanilla yogurt, club soda, ice
+---
+TITLE: Alex S Old Fashioned Apple Pie
+CURRENT_DESCRIPTION: this is my absolute favourite and just a little different from all the others i have seen. the whole wheat flour makes all the difference
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flour, salt, leaf lard, butter, water, apples
+---
+TITLE: Alex S Vegan Chocolate Chip Cookies
+CURRENT_DESCRIPTION: i modified this recipe to be truly vegan. am storing it here so i don't lose it again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable shortening, brown sugar, sugar, soymilk, vanilla, unbleached flour
+---
+TITLE: Alex S Vegan Mushroom Gravy
+CURRENT_DESCRIPTION: this recipe used to be printed on the tofurkey box, but no longer. my vegan son loves this, as does everyone else that tries it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh mushrooms, onion, vegetable oil, flour, vegetable stock, soy sauce
+---
+TITLE: Alexa S Cilantro Ginger Flank Steak
+CURRENT_DESCRIPTION: a co-worker shared this recipe with me. it's really, really good and very simple. great on the grill or under the broiler. delish! the marinade is wonderful on all types of meats. prep time includes minimum marinating time. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, worcestershire sauce, fresh lemon juice, fresh cilantro, fresh ginger, flank steaks
+---
+TITLE: Alexander Cocktail
+CURRENT_DESCRIPTION: finish your party evening with a glass of this creamy cocktail flavoured with cognac and creme de cacoa. adapted from a recipe from nestlé brazil after buying a can of table cream and trying to figure out how to use it. ;-) table cream has 18% milk fat so half-and-half is a reasonable substitute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: table cream, cognac, chocolate liqueur, sugar, lime zest, ice
+---
+TITLE: Alexander Espresso
+CURRENT_DESCRIPTION: make 2 cups to share with your honey or make enough for a party, yummm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cold water, espresso coffee, cinnamon sticks, creme de cacao, brandy, whipped cream
+---
+TITLE: Alexander S Orzo And Wild Rice Salad
+CURRENT_DESCRIPTION: wonderful blend of flavors makes for a delightful side dish or lunch salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, lemon juice, fresh garlic, french dijon mustard, sugar, canola oil
+---
+TITLE: Alexander S Spaghetti Carbonara
+CURRENT_DESCRIPTION: i found this recipe in a local
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prosciutto ham, onion, cooked spaghetti, egg, parmesan cheese, parsley
+---
+TITLE: Alexandra S Feta Pasta
+CURRENT_DESCRIPTION: an easy meal that makes for great leftovers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, diced tomatoes, onion, feta cheese, heavy whipping cream, olive oil
+---
+TITLE: Alexandra Soup
+CURRENT_DESCRIPTION: this is the recipe that my mother likes to call her christmas soup.
+the recipe comes from the "old dough school" in glasgow (glasgow west of scotland college of domestic science) which i am proud to have gratuated from.  in my day it was called queens college, glasgow.  it has now become part of glasgow caledonia university.  the last reprint of the book that i have is from 1967. the book was mainly for students who were training in home economics or to be cooks or chefs.  hope you like it?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: barley, lentils, butter, onion, water, tomato puree
+---
+TITLE: Alexandras Famous Brownies
+CURRENT_DESCRIPTION: these brownies always have my friends asking how did you make these! they are so moist, and gooey--i want another one!  i never can exactly tell them my real secret, but i will share a little technique to help you create similar brownies. don't worry, they will have your friends saying your the best chef ever!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: low-fat brownie mix, dark chocolate chips, milk chocolate chips, olive oil, egg whites, water
+---
+TITLE: Alexandrian Style Liver  Kebda Eskandarani
+CURRENT_DESCRIPTION: a very popular dish in alexandria
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef liver, garlic cloves, cumin powder, ground coriander, salt, chili powder
+---
+TITLE: Alfajor De Maicena  Cornstarch Alfajor
+CURRENT_DESCRIPTION: finally i found the perfect recipe for alfajores. they are great and tasty!, the down side is that u can not stop eating them!!! good luck
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, sugar, all-purpose flour, unsalted butter, baking powder, vanilla extract
+---
+TITLE: alfajores
+CURRENT_DESCRIPTION: i found this recipe on nestle's website about 3 years ago. i have made it numerous time. it requires a bit of work but the results are well worth it. the time for preparing and cooking is a guess, i have never timed it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, caster sugar, egg, egg yolks, plain flour, honey
+---
+TITLE: Alfajores
+CURRENT_DESCRIPTION: i found this recipe on nestle's website about 3 years ago. i have made it numerous time. it requires a bit of work but the results are well worth it. the time for preparing and cooking is a guess, i have never timed it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, caster sugar, egg, egg yolks, plain flour, honey
+---
+TITLE: Alfajores  An Argentinean Dulce De Leche Sandwich Cookie
+CURRENT_DESCRIPTION: found these while playing on the internet and decided to give them a try soon.  for the dulce de leche, you can either make your own (many good recipes on this site) or find it in a local market that has a good selection of latin american products.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, egg yolks, vanilla, lemon rind
+---
+TITLE: Alfajores De Maizena
+CURRENT_DESCRIPTION: i love these!  they are a delicious sweet cookie from argentina.  they are a sandwich cookie - biscuit type cookie with dulce de leche in the middle then rolled in coconut.  sometimes they're called "cornstarch cookies".  my mother-in-law first introduced these to me.  she would make mine with crushed nuts or shaved white chocolate on the outside though as i have an allergy to coconut.  also, you can add 1 tablespoon of cognac for the traditional recipe, but i usually don't.
+
+** you can buy dulce de leche in spanish grocer or some of the larger supermarkets sell it by the condensed milk, if not, follow below...
+
+for the dulce de leche:  pour the two cans of condensed milk into a double boiler set over low heat. cook milk, stirring once in a while, for 2-4 hours, until mixture thickens and becomes caramel-like. remove from double boiler and refrigerate until needed. mixture will firm with chilling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornstarch, flour, baking soda, baking powder, sugar, butter
+---
+TITLE: Alfrado Chicken Enchiladas
+CURRENT_DESCRIPTION: white sauce enchiladas best recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: alfredo sauce, boneless skinless chicken breasts, olives, tortillas, cheddar cheese
+---
+TITLE: Alfredo And Artichoke Lasagna
+CURRENT_DESCRIPTION: this delicious version of lasagna is a real big hit with anyone i make it for.  it makes a really special vegetarian dish for a dinner party.  nobody ever complains about there being no meat.  serve with a tossed salad and garlic bread.  this also freezes well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen chopped spinach, mozzarella cheese, ricotta cheese, chive & onion cream cheese, provolone cheese, eggs
+---
+TITLE: Alfredo Bacon  Mushroom Pizza  Best Pizza Ever
+CURRENT_DESCRIPTION: this is the best pizza i have ever tried. even if you don't like mushrooms (i for one do not like mushrooms), or alfredo sauce you will probably will still think this is amazing! this is probably the best pizza i have ever had! i love it!
+warning: may get messy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: alfredo sauce, mushroom, pizza dough, bacon, mozzarella cheese
+---
+TITLE: Alfredo Bacon Chicken Pizza
+CURRENT_DESCRIPTION: abc pizza. creamy and gooey pizza. out of the ordinary pizza. this is total comfort food. it comes together quickly with the use of premade alfredo sauce and pizza crust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza crust, alfredo sauce, cooked chicken breasts, bacon, artichoke hearts, baby spinach
+---
+TITLE: Alfredo Bake
+CURRENT_DESCRIPTION: i found this at amber's delectable delights.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, broccoli florets, mushroom, cooked chicken, alfredo sauce, garlic cloves
+---
+TITLE: Alfredo Chicken And Biscuits
+CURRENT_DESCRIPTION: from taste of home
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh broccoli, fresh carrots, onion, olive oil, cooked chicken, alfredo sauce
+---
+TITLE: Alfredo Chicken Bake
+CURRENT_DESCRIPTION: looks simple and easy -- my favorite kind of recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken breasts, frozen sweet peas, swiss cheese, alfredo sauce, slivered almonds, bisquick baking mix
+---
+TITLE: Alfredo Chicken Lasagna
+CURRENT_DESCRIPTION: this is my favorite way to have lasagna..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, fresh mushrooms, onions, garlic clove, olive oil, all-purpose flour
+---
+TITLE: Alfredo Chicken Pasta Toss
+CURRENT_DESCRIPTION: great tasting pasta dish and easy to throw together at the last minute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rotini pasta, frozen sweet peas, carrot, vegetable oil, boneless skinless chicken breast, alfredo sauce
+---
+TITLE: Alfredo Chicken Supper
+CURRENT_DESCRIPTION: i downloaded this recipe off of toh and revamped it. no chef was given for this recipe.   i added more ravioli than 12 called for because it was too saucy for us.  i used white brick cheese as that is all i had and it turned out great.  dh loved the recipe. the recipe called for 2 boneless but i cut mine into four small ones and then put the two chicken breasts close together with one slice of cheese over it.  i am going to put 2 to 4 servings.  the recipe called for 2 but i could not eat all of mine and dh finished my plate.  dh does like to eat:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen cheese ravioli, boneless chicken breast halves, olive oil, alfredo sauce, fresh mushrooms, tomatoes and green chilies
+---
+TITLE: Alfredo Crab Dip
+CURRENT_DESCRIPTION: caution:  you might eat this entire dish by yourself!  it is the creamiest, cheesiest crab artichoke dip i have ever made.  you can cheat and buy the alfredo sauce from your favorite italian restaurant.  i buy mine from olive garden most of the time, or if you prefer, you can make it from scratch from your favorite alfredo recipe.  great with  salted tortilla chips!  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen spinach, blue crab meat, artichoke hearts, cream cheese, garlic powder, parmigiano
+---
+TITLE: Alfredo Deep Dish Pizza
+CURRENT_DESCRIPTION: your whole family will love this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, vegetable oil, active dry yeast, all-purpose flour, heavy cream, butter
+---
+TITLE: Alfredo Fettuccine
+CURRENT_DESCRIPTION: recipe from the olive garden cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, parmesan cheese, butter, milk, fettuccine
+---
+TITLE: Alfredo Fettuccine A La Olive Garden
+CURRENT_DESCRIPTION: this is an awesome "knock-off" i found on the internet. the only thing i changed was adding a little extra milk, to make the sauce thinner. if you like it thicker, it's easy to adjust the amount of milk. i also like to add a dash of nutmeg, to complete the flavour. the best i've found yet!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, parmesan cheese, butter, milk, nutmeg, dry fettuccine
+---
+TITLE: Alfredo Fettuccine With Chicken And Broccoli
+CURRENT_DESCRIPTION: to die for!  i never cared for white pasta sauce until i tried this... now i'm hooked.  my youngest calls it "white spaghetti" and will eat it until she pops!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken tenders, onion, red pepper, olive oil, alfredo sauce, broccoli florets
+---
+TITLE: Alfredo I Know It Was You  Salmon W Alfredo Sauce  Abs Diet
+CURRENT_DESCRIPTION: this comes from the abs diet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, part-skim ricotta cheese, 1% low-fat milk, canned salmon, whole wheat spaghetti, part-skim mozzarella cheese
+---
+TITLE: alfredo maui maui with crab
+CURRENT_DESCRIPTION: this is so scrumptious and rich you'd think you've gone to epicurean heaven.
+basil accents this entrée with a touch of garlic. lower in fat as it is prepared with nonfat half and half. i serve this with a medley of broccoli, cauliflower and carrots.
+times are estimated, as i don't clock myself.
+you can substitute other fish fillets, but never use imitation crab. this recipe just looks busy, but is step by step and actually not that difficult. so read through first and you'll see how simple it is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, fat-free half-and-half, parmesan cheese, minced garlic clove, pepper
+---
+TITLE: Alfredo Maui Maui With Crab
+CURRENT_DESCRIPTION: this is so scrumptious and rich you'd think you've gone to epicurean heaven.
+basil accents this entrée with a touch of garlic. lower in fat as it is prepared with nonfat half and half. i serve this with a medley of broccoli, cauliflower and carrots.
+times are estimated, as i don't clock myself.
+you can substitute other fish fillets, but never use imitation crab. this recipe just looks busy, but is step by step and actually not that difficult. so read through first and you'll see how simple it is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, fat-free half-and-half, parmesan cheese, minced garlic clove, pepper
+---
+TITLE: Alfredo Noodles
+CURRENT_DESCRIPTION: i love alfredo and wanted an easy recipe that my 7 yr old daughter could make. the key for me was letting her chose the type of pasta to use. when she made this recipe, she chose penne and rotoni. this is a recipe everyone can enjoy and anyone can make in many variations.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, butter, heavy cream, parmesan cheese, salt and pepper
+---
+TITLE: Alfredo Noodles Mix
+CURRENT_DESCRIPTION: another convienient mix to replace some of those boxes. this would be wonderful with  some tuna also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant nonfat dry milk powder, romano cheese, dried onion flakes, garlic powder, salt, white pepper
+---
+TITLE: Alfredo Oven Fried Chicken
+CURRENT_DESCRIPTION: this is one of my husbands favorite chicken dishes!  i make my alfredo sauce in batches, i refrigerate some and freeze the rest, when we have left over that needs to be used up, i make this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, alfredo sauce, milk, eggs, italian seasoned breadcrumbs, flour
+---
+TITLE: Alfredo Pasta Casserole
+CURRENT_DESCRIPTION: i got this recipe from my mother-in-law. i believe she may have gotten it out of southern living magazine. it's a quick weeknight main meal for those that need dinner in a hurry, but tastes like good old fashioned comfort food. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onion, water, bay leaf, garlic clove, no yolks egg noodle substitute
+---
+TITLE: Alfredo Pasta Primavera
+CURRENT_DESCRIPTION: this is an easy and fast dinner that has lots of flavor! i like to use about 1 cup frozen corn kernels, cooked and 1 cup ripe tomatoes, chopped, which i sprinkle on top along with the fresh parsley, if using. if i use the three cups i use whatever else i have on hand. this makes a very attractive dish to serve. please note the prep time is for the sauce. it would vary depending on the veggies you were using.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, parmesan cheese, butter, milk, vegetables, fettuccine
+---
+TITLE: Alfredo Pasta Sauce
+CURRENT_DESCRIPTION: this is a very good recipe i found in my local newspaper
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: grapeseed oil, green onion, all-purpose flour, garlic, evaporated skim milk, parmesan cheese
+---
+TITLE: Alfredo Perfecto
+CURRENT_DESCRIPTION: finally, finally! i finally found an alfredo sauce recipe that doesn't use cream and still tastes good! i have concocted this dish with shrimp and broccoli, but do use the sauce anytime you want a creamy alfredo-type sauce; it's very good and very versatile. and the sauce can be prepared while the pasta cooks; even better!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry penne pasta, fresh broccoli, shrimp, butter, all-purpose flour, evaporated low-fat milk
+---
+TITLE: Alfredo Potato Casserole
+CURRENT_DESCRIPTION: potatoes layered with a mixture of ham, peas and swiss cheese, cooked in purchased alfredo sauce and seasoned with parmesan. you can substitute frozen chopped spinach or broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: alfredo sauce, milk, ham, swiss cheese, frozen peas, baking potatoes
+---
+TITLE: Alfredo Potato Finger Fries
+CURRENT_DESCRIPTION: a tasty side dish from rachael ray.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fingerling potatoes, butter, garlic clove, salt, fresh ground black pepper, parmigiano-reggiano cheese
+---
+TITLE: Alfredo Potatoes
+CURRENT_DESCRIPTION: this is my original recipe and it was selected as a winner in the sargento just say cheese recipe search! it was published in volume two of sargento's simply the best cheese recipe cards collection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whipping cream, milk, garlic, salt, fresh ground black pepper, baking potatoes
+---
+TITLE: Alfredo Prosciutto Pizza
+CURRENT_DESCRIPTION: this is my take on an alfredo pizza i saw in a taste of home magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, prosciutto, green onions, alfredo sauce, fresh basil, monterey jack cheese
+---
+TITLE: Alfredo Ravioli Bake
+CURRENT_DESCRIPTION: this is a rich and flavorful dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, boneless skinless chicken breast halves, fresh mushrooms, alfredo sauce, cheese ravioli, red bell pepper
+---
+TITLE: Alfredo Sauce
+CURRENT_DESCRIPTION: simple alfredo sauce is perfect with pasta, chicken, or both chicken and pasta!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: parmesan cheese, mozzarella cheese, montasio cheese, butter, heavy cream, garlic clove
+---
+TITLE: Alfredo Sauce  From The Pantry
+CURRENT_DESCRIPTION: this is a quick and easy alfredo sauce, and i always seem to have the ingredients on hand. i don't claim it is authentic, but it is tasty, with the addition of garlic. my picky son loves it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, garlic powder, milk, parmesan cheese, ground black pepper
+---
+TITLE: Alfredo Sauce  Pasta Factory
+CURRENT_DESCRIPTION: yummy, thick alfredo sauce from a popular local restaurant.  this recipe is coveted!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, flour, heavy whipping cream, whole milk, parmesan cheese
+---
+TITLE: Alfredo Sauce  Using Soup Or Sauce Mix
+CURRENT_DESCRIPTION: serve this over cooked noodles or on pizza. see recipe #243518 for full batch recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: non-fat powdered milk, cornstarch, instant chicken bouillon, dried onion flakes, italian seasoning, water
+---
+TITLE: Alfredo Sauce Mix
+CURRENT_DESCRIPTION: a take-off on a recipe from cdkitchen - made this & it was great!
+does not have that "oh, you used dry milk" taste, at all!  note: there is no way, when listing the ingredients, to let you know to use either the butter or the sour cream, so they are both listed, but choose one or the other!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant nonfat dry milk powder, cornstarch, dried onion flakes, garlic powder, salt, white pepper
+---
+TITLE: Alfredo Sauce With Crab Meat
+CURRENT_DESCRIPTION: this is a thick and creamy alfredo sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, half-and-half, parmesan cheese, white pepper, pepper
+---
+TITLE: Alfredo Shrimp Shells
+CURRENT_DESCRIPTION: a jar of prepared alfredo sauce streamlines this tasty dish. it is a perfect dinner for two, adding a caesar salad and crusty french bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh mushrooms, butter, green onion, baby shrimp, alfredo sauce, pasta shells
+---
+TITLE: Alfredo Shrimp Tilapia
+CURRENT_DESCRIPTION: this is my version of ruby tuesday's new orleans tilapia. tilapia fillets are baked then topped with alfredo sauce, sauteed red peppers and garlic cooked shrimp. i'm not very good at copycatting recipes, but we had this last night and it was mighty fine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, alfredo sauce, shrimp, creole seasoning, sweet red pepper, olive oil
+---
+TITLE: Alfredo Tortellini And Chicken
+CURRENT_DESCRIPTION: i made this recipe up using simple ingredients you can buy from the store. everyone who tries it, loves it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, olive oil, garlic, alfredo sauce, cheese tortellini, pepper
+---
+TITLE: Alfredo With Angel Hair Pasta And Chicken
+CURRENT_DESCRIPTION: this is my own recipe for alfredo sauce.  i have caught more than one person eating it with a spoon!  i prefer angel hair pasta as it seems to trap the sauce better than most other pastas.  this stuff is really rich and absolutely sinful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast tenders, heavy whipping cream, butter, parmesan cheese, romano cheese, cracked black pepper
+---
+TITLE: Algarve Oven Baked Codfish With Cauliflower  Pescada Assada
+CURRENT_DESCRIPTION: found in a recipe book from the algarve region of portugal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cauliflower, cod fish fillets, onion, garlic cloves, chili powder, white wine
+---
+TITLE: Algerian   Zrodiya Mcharmla    Carrots With Vinegar
+CURRENT_DESCRIPTION: 'zrodiya mcharmla' also known as 'carottes au vinaigre' is a very famous carrot dish in algeria. this is actually delicious & isn't hard to make...beautiful with roast chicken!
+
+for a change to the carrots, you can also use courgette / zucchini or potato in its place.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, oil, garlic cloves, hot pepper, caraway seed, paprika
+---
+TITLE: Algerian  Beef
+CURRENT_DESCRIPTION: highly seasoned beef pairs with kidney beans and hominy in this latin-inspired dish. hominy is corn that has been soaked in lime or lye. the result is a versatile grain with a chewy texture and a very light, smoky-sour flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, onions, green bell pepper, garlic cloves, kidney beans, hominy
+---
+TITLE: Algerian Adess   Traditional Lentil Soup   Stew   Family Recipe
+CURRENT_DESCRIPTION: this is my family recipe for adess. i often cook it in the pressure cooker as it saves a lot of time! this recipe freezes well & is simple to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green lentils, onion, garlic cloves, carrot, courgette, dried mint
+---
+TITLE: Algerian Basboussa   Semolina Cake With Syrup
+CURRENT_DESCRIPTION: there are many, many versions of basboussa ( and many spelling variations!) throughout the arab world. some of these are a spongy cake-like texture & some are more of a grainy texture. this algerian version is more of a cake-like texture - which happens to be my favourite. i absolutely love the addition of coconut in the recipe, it really adds something to the basboussa. this recipe is extremely simple to make & is delicious served with coffee or tea. it is definitely a ramadan staple in our home!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semolina, plain flour, baking powder, unsweetened dried shredded coconut, granulated sugar, sunflower oil
+---
+TITLE: Algerian Broad Beans   Garlic   Fves En Sauce
+CURRENT_DESCRIPTION: here is my traditional recipe for ros bratel, which is a very old recipe from algeria. it is simple to make with just a few ingredients & is really delicious. eat it with plenty of fresh crusty bread for an inexpensive, light meal or have it as a side to roasted meats etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: broad bean, fresh cilantro, garlic cloves, olive oil, paprika, cayenne
+---
+TITLE: Algerian Carrots
+CURRENT_DESCRIPTION: this carrot dish is from the orange county register, attributed to jack elvis. it would pair well with chicken or a fish dish. i haven't tried this yet, but i imagine that the combination of flavors will be excellent.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, hot sauce, light olive oil, garlic cloves, lemon, juice of, cumin seeds
+---
+TITLE: Algerian Chicken   Chickpea Soup   Chorba   Shorba
+CURRENT_DESCRIPTION: i love this soup! during ramadan we have it at least twice a week as everyone likes it - even my little children! i think key to this being so delicious is the preserved lemon....it really adds so much to it. i also cook this in the pressure cooker: seal chicken add all ingredients except coriander / cilantro & lemon juice. cook on medium/high for 45 minutes. add remaining ingredients & simmer with lid off for 1 min. re-season & serve. this soup freezes really well, bag into portions & freeze. de-frost, re-heat, add a little more cilantro, lemon juice & ras el hanout & it's as good as before!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, chicken drumsticks, onion, garlic cloves, ras el hanout spice mix, ginger
+---
+TITLE: Algerian Chicken   Preserved Lemon Bourek
+CURRENT_DESCRIPTION: the fillings for bourek really are endless, i love the traditional ground lamb & parsley, the prawn & bechemel, potato & cheese........the list goes on. here i combined ground chicken with fresh coriander & a little preserved lemon for a delicious fried snack. you can freeze these bourek easily & when you come to cook them, allow to 1/2 thaw before deep frying. you can also shallow fry them in a frying pan about 1" deep in sunflower or vegetable oil. bourek are wonderful whenever, but really they are a ramadan essential in any algerian household. (if you are new to making bourek & rolls, here is a step by step -in photos- demo for you: http://radiancerecipes.com/chinese-springrolls/)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spring roll wrappers, ground chicken, brown onions, fresh cilantro, preserved lemon, ras el hanout spice mix
+---
+TITLE: Algerian Chicken And Olive Stew
+CURRENT_DESCRIPTION: this stew is a traditional algerian recipe called "died b'l-qasbour."  it is seasoned with saffron and cilantro.  serve over rice or couscous.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless skinless chicken breasts, butter, garlic cloves, saffron, cilantro
+---
+TITLE: Algerian Chicken Stew
+CURRENT_DESCRIPTION: this recipe is from "extending the table" and is meant to be eaten with couscous. if you prefer, substitute goat or lamb for the chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, chicken bouillon cube, cooked chicken, onion, fresh green beans, carrots
+---
+TITLE: Algerian Couscous
+CURRENT_DESCRIPTION: early inhabitants of algeria were the christian berbers who were early cultivaters of wheat and thus semolina. algerian cuisine is influenced by that of arabs, europeans, and asians.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, olive oil, onions, carrot, green bell pepper, red pepper
+---
+TITLE: Algerian Cucumber Salad
+CURRENT_DESCRIPTION: posted for the zaar world tour. a yummy salad!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumber, red bell pepper, sweet onions, green olives, parsley, fresh mint leaves
+---
+TITLE: Algerian Date Pudding
+CURRENT_DESCRIPTION: from 70 medecins de france le tresor de la cuisine du bassin mediterraneen and found in the good cook classic desserts. 1/2 lb dates is about 2 cups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dates, sugar, almonds, unsalted dry roasted peanuts, egg whites
+---
+TITLE: Algerian Farina Rolls
+CURRENT_DESCRIPTION: these small algerian rolls give an extra touch to any meal. the prep time includes resting time for the dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, warm water, olive oil, farina, whole wheat flour, salt
+---
+TITLE: Algerian Fish Soup
+CURRENT_DESCRIPTION: we had this kind of soup in a restaurant at the harbor of algier, algeria. back at home i tried to copy the recipe and came up with this version. feel free to add more cayenne pepper to increase the heat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish fillet, potatoes, green bell peppers, carrot, fennel bulb, onions
+---
+TITLE: Algerian Garantita   Karanteta   Chickpea   Garbanzo Souffle
+CURRENT_DESCRIPTION: garantita is one of the most famous dishes in algeria. it is made in every home & is a very popular 'fast food'. traditionally, it is cooked until just firm around the edges, golden on top & nice and squishy in the middle (a bit like souffle), then sliced (with difficulty!) & placed in a baguette with harissa. chickpea flour is readily available in all indian grocers (also known as besan) or in middle eastern grocers. you can also make your own by grinding dry chick peas. this is our much requested family recipe......
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chickpea flour, water, sunflower oil, salt, black pepper, egg
+---
+TITLE: Algerian Green Bean And Lamb Tagine
+CURRENT_DESCRIPTION: since trying chia's recipe #89278 we discovered just how yummy north african food is! this recipe is from the "the great book of couscous". i have adapted it slightly as i do not like the taste of raw/undercooked tomatoes, but i have also included the original directions. simple, tasty and hearty- great served over, surprisingly enough, couscous. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, boneless lamb shoulder, onion, garlic cloves, salt, fresh ground black pepper
+---
+TITLE: Algerian Green Beans With Almonds
+CURRENT_DESCRIPTION: fresh green beans must be used for this recipe.  frozen or canned will not work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh green beans, water, peanut oil, garlic cloves, ground cumin, paprika
+---
+TITLE: Algerian Harrissa    Not A Chilli Sauce But A Sweet
+CURRENT_DESCRIPTION: quite a misleading name and i've never been able to get to the bottom of it....
+
+however, these harrissa are very pretty little algerian helouwa (sweets). i always include these on my trays of eid helouwa that i give to friends and family as they are so nice to look at (and not bad tasting too). i also make these using a mix of 100g ground almonds with 250g desiccated coconut (ground up).
+
+these freeze well so you can whip a few out whenever you need them.
+
+oh and the best thing? you don't even need to cook them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, sugar, butter, orange blossom water, cornflour, food coloring
+---
+TITLE: Algerian Helouwa Ta Aba  Lemon Or Sesame Cookies
+CURRENT_DESCRIPTION: helouwa ta'aba are very traditional, lovely simple cookies from algeria. they should be quite hard, but if you prefer them a little softer then take them out of the oven at 20 minutes. there are 2 versions of this recipe, one flavoured with lemon & the other is plain but topped with sesame seeds. both versions are below. this particluar recipe is our family recipe & is dh's all time favourite helouwa as it is not too sweet (so he can eat more lol!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, eggs, granulated sugar, baking powder, sunflower oil, lemons, zest of
+---
+TITLE: Algerian Khobz El Dar    Semolina Bread
+CURRENT_DESCRIPTION: this is the traditional bread of every home in algeria, hence it's name which transaltes into english as 'bread of the house'. every home has a different version & this particular recipe is from my lovely sister in law 'um youcef' ;)
+just a word of warning, if you have never made this kind of bread before, you will be shocked at how sticky & hard to work with the dough is. unlike a regular bread, when your dough is too sticky you may add more flour - here adding more flour or semolina will make things worse...instead add a little water & knead gently with your fingertips . water will always make the dough come together & away from your hands & the mixing bowl. you can also knead the dough in a ka or similar mixer with a sturdy dough hook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fine semolina, white bread flour, water, sunflower oil, yeast, egg
+---
+TITLE: Algerian Lamb And Lentil Soup
+CURRENT_DESCRIPTION: maria luisa scott and jack denton scotts have traveled the world and collected its recipes in their many books.  this is from "a world of pasta".  posted for zwt3 - northern africa.  the lentils must be soaked for 2 hours before cooking so plan ahead.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, lean lamb, salt, pepper, chicken broth, lentils
+---
+TITLE: Algerian Mchewek   My Traditional Family Recipe
+CURRENT_DESCRIPTION: mchewek are small balls of mainly almond filling which are moist and slightly chewy on the inside while crisp on the outside. simple to make but incredibly delicious...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, granulated sugar, eggs, baking powder, vanilla powder, sliced almonds
+---
+TITLE: Algerian Poached Eggs   Chakchouka
+CURRENT_DESCRIPTION: these eggs are poached in a delicious in a pepper ragout. this dish, with many variations, is a popular breakfast in north africa, especially in algeria and tunisia. most recipes include the eggs, but they can actually be left out as well for vegetarians that do not eat eggs. variation: sometimes fresh shrimp or a spicy lamb sausage called merguez is added to the simmering peppers along with the eggs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, cumin seed, paprika, onion, harissa, garlic cloves
+---
+TITLE: Algerian Rice Salad
+CURRENT_DESCRIPTION: a great salad that's good for barbecues or picnics.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vinegar, salad oil, dijon mustard, parsley, chives, green peppers
+---
+TITLE: Algerian Stew For Couscous
+CURRENT_DESCRIPTION: this is our family's traditional recipe, usually served with plain steamed couscous. as it takes quite a while, it is always a big event, everyone loves it! this is my first recipe, so be kind!!
+
+note: if you cannot find ras el hanout in the stores, there are some recipes here on zaar! it is a mixture made of cumin, coriander, cinnamon, pepper and other spices. it can be omitted in this recipe, just go a little heavier on the other spices mentioned and add a pinch of cinnamon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: leg of lamb, carrots, yellow zucchini, chickpeas, onion, salt
+---
+TITLE: Algerian Stew With White Beans   Barboucha
+CURRENT_DESCRIPTION: the first time i had this stew was in a remote town in morocco. the smell of the spices, bursting through the steam caught my attention, then, the flavours melted in my mouth. serve with couscous or bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tripe, yellow onions, garlic, green peppers, black pepper, cumin
+---
+TITLE: Algerian Tli Tli B Djedj   Pasta With Chicken
+CURRENT_DESCRIPTION: this is our family recipe for the very traditional algerian dish  tli tli. you can make tli tli with chicken or meat - the meat recipe is slightly different & i will post it later. you can use any tiny pasta for this but traditionally homemade tli til pasta or orzo / bird's tongue that is used. my kids love it when i use the tiny stars or shells also.  traditionally we steam the pasta for this but you can cook it for 4 minutes or so in plenty of lighty salted water before adding the sauce - the pasta needs to absorb quite a bit of the sauce so keep it undercooked..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chicken, canned chick-peas, ghee, black pepper, cinnamon, tomato puree
+---
+TITLE: Algerian Vegetable Couscous
+CURRENT_DESCRIPTION: this recipe is from week five of my food blog, "travel by stove." i am attempting to cook one meal from every country on earth, and algeria is my fifth stop. couscous has been called the national dish of algeria, and this version is fragrant and delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, mushrooms, carrot, garlic cloves, cumin
+---
+TITLE: Algonquin Bar Punch
+CURRENT_DESCRIPTION: from the clover club bar in brooklyn, ny.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemons, rind of, superfine sugar, fresh raspberries, sloe gin, fresh lemon juice, dark jamaican rum
+---
+TITLE: Ali Baba S Oven Fries
+CURRENT_DESCRIPTION: serve with falafel or kebabs in pita or other favorite middle eastern foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, garlic powder, ground cumin, ground fenugreek, ground cinnamon, ground cayenne pepper
+---
+TITLE: Ali S Banana Cakes
+CURRENT_DESCRIPTION: this recipe is from my dear sister in law and is a quick way to make 2 cakes at once   using 2 ring tins or if preferred can be baked in 1 larger tin for longer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, eggs, bananas, baking soda
+---
+TITLE: Ali S Dill Pickle Deviled Eggs
+CURRENT_DESCRIPTION: i'm one of those people who doesn't like sweet relish or sweet mayonnaise. this recipe has been passed down from my grandmother to my mother, and now to me. it has been a favorite since i can remember. no matter how many eggs we make (we've even made 3 dozen for 10 people), there's never any left! hope you like it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled egg, mayonnaise, yellow mustard, relish, salt, paprika
+---
+TITLE: Ali S Fried Rice
+CURRENT_DESCRIPTION: i usually make this after we have scrambled eggs for breakfast, using the leftover scrambled eggs in the rice!  for veggie lovers, use the recipe's two cups of rice, but you can add another cup of rice if you like your fried rice more...rice-ier.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, vegetable shortening, onion, celery, carrot, garlic cloves
+---
+TITLE: Ali S Real Crab Crab Dip  Hot Or Cold
+CURRENT_DESCRIPTION: this is a slightly spicy crab dip. may be served hot or cold. to be served with toasted with ciabatta bread. yum! i created this recipe after eating a crab dip sandwich (ciabatta bread, swiss cheese and crab dip) at the marina cafe in jacksonville, nc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned crabmeat, cream cheese, cayenne pepper, garlic, onion powder, black pepper
+---
+TITLE: Ali Vincent S Mango Quinoa Salad
+CURRENT_DESCRIPTION: from the "biggest loser" tv show:  "a protein-loaded treat!" – ali vincent
+nutritional information (per serving)
+calories 240
+total fat 8 grams
+saturated fat 1 gram
+cholesterol 0 milligrams
+sodium 10 milligrams
+total carbohydrates 34 grams
+fiber 7 grams
+sugars 9 grams
+protein 7 grams
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quinoa, mango, cilantro, black beans, red bell pepper, green onions
+---
+TITLE: Alice Chicken
+CURRENT_DESCRIPTION: i don't know who alice is, but she makes a darn good chicken! :) this is a delicious recipe, and versatile - experiment with using your favorite dressings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, worcestershire sauce, bacon, butter, fresh mushrooms, green onion
+---
+TITLE: Alice Medrich S Peanut Butter Cookies
+CURRENT_DESCRIPTION: from alice medrich's cookies and brownies book, this is a great, easy-to-make recipe that produces a rich flavored peanut butter cookie, with a shortbread-like texture.  use cookie stamps and other kitchen tools to create simple, elegantly designed cookies -- this is a real crowd pleaser!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, unsalted butter, light brown sugar, granulated sugar, salt
+---
+TITLE: Alice Medrich S Real Chocolate Wafers
+CURRENT_DESCRIPTION: these cookies are wonderful on their own; make great bases for mini-cheesecakes and are perfect crumbled for crumb crusts or for the cookie crumbs on the sides of a cheesecake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cocoa powder, baking soda, salt, unsalted butter, dark brown sugar
+---
+TITLE: Alice Medrich S Tiger Cake
+CURRENT_DESCRIPTION: a wonderful marble cake made with extra virgin olive oil and a touch of white pepper.  it actually improves on the second day, it's delicious toasted, it freezes beautifully and it's self-marbling!  cook time does not include cooling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa powder, sugar, water, all-purpose flour, baking powder, salt
+---
+TITLE: Alice Pike S Famous Brownies
+CURRENT_DESCRIPTION: alice pike was my maternal grandmother. when my mother was a child her mother managed 2 employee's lunch counters, first in a cotton mill in st. john, new brunswick and then in eaton's in st. catharines, ontario. in both places alice pike's brownies were famous favourites and always sold out. in st. catharines eaton's employees were often asked by the kresge's employees (from across the road) to buy brownies for them, which were only available on fridays. she always turned down the endless offers to sell them by the dozen as she could always make more money selling them individually. she was a smart cookie! well, now you can make as many as you like! they are moist and super chocolaty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, cocoa powder, eggs, vanilla, flour
+---
+TITLE: Alice S Baked Chicken Breast
+CURRENT_DESCRIPTION: a dear friend of mine gave me this recipe many years ago. it is my husband's favorite meal and i always think of her when i make this meal. i call it alice's baked chicken in her memory, even though i don't know where she got this wonderful recipe. i always serve this with a tossed salad and bread or rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, monterey jack cheese, cream of chicken soup, pepperidge farm herb stuffing, butter
+---
+TITLE: Alice S Basic Fruit Smoothies
+CURRENT_DESCRIPTION: my sugar free and much less expensive version of the ever popular smoothie!  i got tired of paying $5 or more for one smoothie.  you can change the fruits around to suit your taste.  the combos are endless!  i've also used peaches, raspberries, and mangos in the past.  i've also added ground golden flaxseeds for those omega oils.
+the recipe below is "per blender".  depending on the size of your blender, this could be too much, or could be very little.  adjust according to your blender.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen unsweetened strawberries, unsweetened frozen blueberries, low-fat vanilla yogurt, reduced-fat milk, splenda granular, pure vanilla extract
+---
+TITLE: Alice S Brownies
+CURRENT_DESCRIPTION: this is and adopted recipe. original intro: "so good, i love brownies and these always hit the spot. i got this recipe from a very sweet lady named alice who got tired of me begging her for them."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, margarine, eggs, flour, chocolate syrup, milk
+---
+TITLE: Alice S Chicken Pot Pie
+CURRENT_DESCRIPTION: this is one of our family's chicken pot pie recipes. the time spent in preparation is well worth it
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: stewing chicken, salt, pepper, celery, onion, thyme
+---
+TITLE: Alice S Chocolate Chip Cookies
+CURRENT_DESCRIPTION: this is a recipe that comes from  apohaqui, nb, canada - so very good, you will love it -
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, brown sugar, white sugar, vanilla, eggs, flour
+---
+TITLE: Alice S French Canadian Meat Pie   Tourtiere
+CURRENT_DESCRIPTION: this is my mother's recipe that she got from her mother, who was born in montreal canada. we have had these pies every christmas since i was a little kid. it would not be christmas in our family without mom's tourtieres! thanks mom for the recipe and all the wonderful holidays you gave us over the years!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, ground pork, potatoes, salt, pepper, allspice
+---
+TITLE: Alice S Nanaimo Bars
+CURRENT_DESCRIPTION: a recipe handed down from my mother-in-law.  passive work time is estimate of time necessary to chill.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cocoa, granulated sugar, egg, vanilla, graham cracker crumbs
+---
+TITLE: Alice S Olympian Cream Chocolates
+CURRENT_DESCRIPTION: this recipe is handed down from my mother-in-law.  it is my favorite christmas candy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cream, light karo syrup, cold water, dipping chocolate, peanuts
+---
+TITLE: Alice S Pie Crust
+CURRENT_DESCRIPTION: another great recipe from my 5th grade teacher/ranch cook. this is an old fashioned recipe that calls for lard which you can find in most baking isles at the store. do not substitute because that gives it the crusts flaky texture. it will remind you of grandma's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, lard, sugar, salt, egg, vinegar
+---
+TITLE: Alice S Pistachio Streusel Cake  No Frost
+CURRENT_DESCRIPTION: this delicious cake has been made for years by my best-friend, alice.  this no-frost cake is easy, moist and always wins raves.  it is great for a breakfast, lunch or dinner treat.  8/8/09 note:  i goofed on cinnamon measurement!  it should be 1 1/2 tablespoon, so i am changing the original recipe.  sorry about that!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, instant pistachio pudding mix, eggs, sour cream, vegetable oil, cinnamon
+---
+TITLE: Alice S Pumpkin Risotto
+CURRENT_DESCRIPTION: since pumpkin is the "ingredient of the month", i thought i would contribute a few pumpkin recipes. if you like risotto, and are looking for something a bit different, you should give this one a try. i think the nutmeg and gorgonzola cheese are an interesting combination with the pumpkin. the risotto can be served as a side dish or main course.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic clove, yellow onion, vegetable oil, arborio rice, water, sugar pumpkin
+---
+TITLE: Alice S Restaurant Pork Burritos
+CURRENT_DESCRIPTION: a favourite in stockbridge, massachusetts
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground lean pork, fresh gingerroot, garlic, onion, coleslaw mix, sesame oil
+---
+TITLE: Alice S Zucchini Cheese Casserole
+CURRENT_DESCRIPTION: your neighbor just brought you a sack of zucchini and you need help with how to cook them into something good your family will enjoy. you won't be sorry with this easy to put together casserole. this is just one of my many zucchini recipes. this is from aunt alice in oklahoma in the 1970's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, onion, garlic clove, butter, flour, salt
+---
+TITLE: Alice Snelling S Easy Chili
+CURRENT_DESCRIPTION: alice raised 6 children so she is an expert at cooking up easy meals. she uses 1 can of cannelini beans and 1 of kidney beans.   i liked this chili even though i had never thought of cannellini as being a "chili bean."
+they are excellent in this chili.  actually, i like the 2 cans of beans called for in the recipe to be cannellini.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, garlic clove, olive oil, tomatoes, chili powder
+---
+TITLE: Alice Springs Chicken
+CURRENT_DESCRIPTION: this is a clone of the "alice springs chicken" served at the outback steakhouse. it is one of my favorites.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, marbled cheddar and swiss cheese, mushroom, bacon, honey mustard dressing
+---
+TITLE: Alice Springs Chicken Quesadillas
+CURRENT_DESCRIPTION: i had this yesterday at outback and it is fantastic! what a great idea! if you love the alice springs chicken dish then you will love this! i use recipe #123522 for the base.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, honey, canola oil, lemon juice, boneless skinless chicken breasts, vegetable oil
+---
+TITLE: Alicha  Ethiopian Stew
+CURRENT_DESCRIPTION: one of my distant relatives in the middle of outback australia married an ethiopian woman. good choice - the woman can cook, and well enough to be featured on a food show on national tv.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, red onions, garlic, new potatoes, carrots, cabbage
+---
+TITLE: Alicia S Guacamole  Allergy Friendly
+CURRENT_DESCRIPTION: i had some ripe avocados i needed to use up and thought i'd make a guacamole.  however i couldn't find a recipe on zaar that worked for us.  they either had things i just didn't have on hand, or were made with things like sour cream or mayo which are both foods we can no longer enjoy since finding out my son is allergic to both dairy and eggs.  so i whipped this up with things i had on hand and we enjoyed it very much.  cook time is chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, key lime juice, lime juice, pico de gallo, garlic powder, sugar
+---
+TITLE: alicia s jambalaya
+CURRENT_DESCRIPTION: quick & easy jambalaya
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, water, beef sausage, red onion, garlic cloves, jalapeno
+---
+TITLE: Alicia S Jambalaya
+CURRENT_DESCRIPTION: quick & easy jambalaya
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, water, beef sausage, red onion, garlic cloves, jalapeno
+---
+TITLE: Alicia S Potato Soup   2 Ww Points Per Serving
+CURRENT_DESCRIPTION: from aliciasrecipes.com.  2 points per serving, serves 6, so simply put, 12 points if ou could eat the entire pot of most delicious soup.  i love potatos and this hits the spot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, potatoes, celery, milk, salt, white pepper
+---
+TITLE: Alicia S Vashon Pasta Salad
+CURRENT_DESCRIPTION: this is mine and gay's pasta salad--very tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olives, pasta, yellow bell pepper, roasted red peppers, artichokes, garlic cloves
+---
+TITLE: Aligot
+CURRENT_DESCRIPTION: this is a recipe from delia smith's new vegetarian cook book. it is basically a french variation on mashed potatoes, to which garlic and cheese are added.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, garlic, butter, lancashire cheese, salt and pepper
+---
+TITLE: Alioli   Spanish Style
+CURRENT_DESCRIPTION: alioli or garlic mayonnaise is so tasty & so easy to make at home, i also think it tastes much better than the store bought jars.
+i first tried alioli while on holiday in spain. it must've been during the early 1980's while in the costa blanca area.
+at the time it was served with a meal, in a small dish (finger bowl size) & seemed to accompany every main meal.
+so, i guess as i was the youngest it was down to me to try it, maybe i was the adventurous one in my family........or maybe i had no choice?  anyway, whatever the reason it tasted delicious!
+
+this recipe does require the use of a blender making it easier & fool proof.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, garlic cloves, olive oil, lemon juice, salt
+---
+TITLE: Alisa S Amazing Frosted Brownies
+CURRENT_DESCRIPTION: decadent brownies made by my co-worker, alisa. every bite is better than the last. very cake-like and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, cocoa, eggs, margarine, milk
+---
+TITLE: alison holst s hot cross buns
+CURRENT_DESCRIPTION: from the doyenne of nz baking...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, flour, brown sugar, salt, milk, boiling water
+---
+TITLE: Alison Holst S Hot Cross Buns
+CURRENT_DESCRIPTION: from the doyenne of nz baking...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, flour, brown sugar, salt, milk, boiling water
+---
+TITLE: Alison S Colcannon
+CURRENT_DESCRIPTION: i got theis recipe from  allrecipes website. i don't know who alison is,she be irish. anyway my husband loves potatos and cabbage with corn beef. today i'm making this for the first time. i hope it turns out good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, butter, nonfat sour cream, cabbage, green onion, garlic cloves
+---
+TITLE: Aliya S Grilled Cheese Eggs Benedict
+CURRENT_DESCRIPTION: i made this up one morning when i had a bunch of leftover honey ham i was trying to use. my family just loves this, so whenever i have some good ham & the time, i make this. this is very satisfying, although not very "light" lol. it is much easier than it sounds, but since i even included the explanation for how i cook the eggs, it appears a little longer. usually 1 per person is enough, but some people may want 2 depending on how hearty their appetite is, these directions & amounts are for 4 pieces, so adapt ingredients for more if needed, however the recipe for the hollandaise sauce makes about 1 cup of sauce which should be enough sauce for a few more servings, depending on how much you like to use. this is the easiest & best hollandaise sauce, so don't be intimidated by it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white bread, honey-roasted ham, cheddar cheese, butter, eggs, lemon juice
+---
+TITLE: all aboard  snickerdoodle train
+CURRENT_DESCRIPTION: this recipe came with my nordicware train cake pan.  i don't wait to lose it so i'm posting it here.  the pan has a 5 cup/ 1.2 l capacity.  fill the pan no more then 3/4 full to avoid overflow.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, cinnamon
+---
+TITLE: All Aboard  Snickerdoodle Train
+CURRENT_DESCRIPTION: this recipe came with my nordicware train cake pan.  i don't wait to lose it so i'm posting it here.  the pan has a 5 cup/ 1.2 l capacity.  fill the pan no more then 3/4 full to avoid overflow.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, cinnamon
+---
+TITLE: All About The Heart Salad
+CURRENT_DESCRIPTION: "fresh flavor and bright with vegetables, this salad complements any fine meal."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce hearts, hearts of palm, cherry tomatoes, orange juice, orange zest, fresh lemon juice
+---
+TITLE: All About The Oatmeal Cookies
+CURRENT_DESCRIPTION: this makes a thick, crispy cookie, more about the oats than the butter and sugar (though there's lots of those too!)make sure you flatten them before baking, they don't spread very much in the oven. i originally found this recipe on the quaker oats website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, granulated sugar, egg, vanilla, flour
+---
+TITLE: all american apple pie
+CURRENT_DESCRIPTION: it's the 4th of july...what better way to celebrate than with an all-american dish like homemade apple pie??  there are lots of recipes out there, but i prefer this one that calls for the addition of cinnamon, nutmeg, and ginger for some added spice.  also, i like my apple pie overflowing with apples (an apple pie isn't supposed to be flat like a pumpkin or cream pie!) so this version has lots!  the ingredients list granny smith, but i tend to use a variety, incorporating granny smith, gold delicious, and braeburn.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, salt, unsalted butter, vegetable shortening, ice water
+---
+TITLE: All American Apple Pie
+CURRENT_DESCRIPTION: this came from mr. food's quick and easy diabetic cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, all-purpose flour, ground cinnamon, ground nutmeg, red delicious apples, butter
+---
+TITLE: All American Apple Pie Spread
+CURRENT_DESCRIPTION: from the box: keebler flipsides prezel crackers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, apple juice, brown sugar, apple pie spice, apple, pecans
+---
+TITLE: All American Barbecue Sandwiches
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 1/2 lb. ground beef, 1 1/2 c. chopped onion, 2 1/4 c. ketchup, 3 Tbsp. mustard, 3 Tbsp. Worcestershire sauce, 2 Tbsp. vinegar

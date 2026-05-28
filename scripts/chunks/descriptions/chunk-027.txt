@@ -1,0 +1,2147 @@
+TITLE: Asparagus Spinach Dip  Vegan
+CURRENT_DESCRIPTION: from veganomicon by isa chandra moskowitz and terry hope romero.  it has a lovely bright-green color and fresh flavor, perfect for barbecues or other outdoor events, and a fun way to eat your veggies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, asparagus, spinach, water, raw cashews
+---
+TITLE: Asparagus Splendida
+CURRENT_DESCRIPTION: i developed this pasta recipe about 4 years ago and it has been accepted very well at all of my cooking demonstrations. it has a nice crunchy taste with the asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, butter, extra virgin olive oil, garlic, button mushrooms, prosciutto
+---
+TITLE: asparagus spring pea pasta
+CURRENT_DESCRIPTION: asparagus is great with pasta. after the first review, i have updated the recipe to include some garlic, which i agree improves the flavor of this dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, snow peas, sugar snap pea, pasta, green peas, parmigiano-reggiano cheese
+---
+TITLE: Asparagus Spring Pea Pasta
+CURRENT_DESCRIPTION: asparagus is great with pasta. after the first review, i have updated the recipe to include some garlic, which i agree improves the flavor of this dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, snow peas, sugar snap pea, pasta, green peas, parmigiano-reggiano cheese
+---
+TITLE: Asparagus Steak Oscar
+CURRENT_DESCRIPTION: i made this for hubby's birthday. it was easy to make. adapted from simple & delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bearnaise sauce, fresh asparagus, fresh crabmeat, garlic, butter, lemon juice
+---
+TITLE: Asparagus Steamed In A Paper Bag
+CURRENT_DESCRIPTION: this is a simple and delicious way to prepare and serve asparagus.  recipe from tyler's ultimate, by tyler florence.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, extra virgin olive oil, lemon, bay leaf, sea salt, black pepper
+---
+TITLE: Asparagus Steamed With Lemon Butter
+CURRENT_DESCRIPTION: a nice light side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, salt, unsalted butter, lemon zest, lemon juice
+---
+TITLE: Asparagus Stir Fry
+CURRENT_DESCRIPTION: an easy veggie stir-fry to serve over steamed rice. sometimes i add water chestnuts and mushrooms.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, cornstarch, soy sauce, vegetable oil, asparagus, gingerroot
+---
+TITLE: Asparagus Strawberry Salad
+CURRENT_DESCRIPTION: a very colorful and different salad.  cooking time includes refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cider vinegar, poppy seed, sesame seeds, onion, salt
+---
+TITLE: Asparagus Strudel
+CURRENT_DESCRIPTION: if only thick stalks of asparagus are available, peel the stalks. blanch in boiling water for 2 minutes, drain and run under cold water until cold. if you have thin stalks, do not peel them, and blanch for only 1 minute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic, leeks, mint, orange rind, salt & freshly ground black pepper
+---
+TITLE: Asparagus Stuffed Chicken Breasts
+CURRENT_DESCRIPTION: this is a nice "date night" main course.  the recipe is from a local newspaper, with some adjustments.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, dijon mustard, green onion, asparagus spears, fresh ground pepper, butter flavored crackers
+---
+TITLE: asparagus stuffed chicken cordon bleu with a creamy wine sauce
+CURRENT_DESCRIPTION: one taste and you won't be able to resist saying: "c'est magnifique!"   chicken breasts are stuffed with fresh asparagus, wrapped in ham and swiss cheese, and topped off with bread stuffing and a creamy-wine sauce. while it may taste like you cooked it all day, this delicious chicken with its' "french flair" takes only about 1 hour to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, asparagus spears, seasoned stuffing mix, coarse salt, white pepper, butter
+---
+TITLE: Asparagus Stuffed Chicken Cordon Bleu With A Creamy Wine Sauce
+CURRENT_DESCRIPTION: one taste and you won't be able to resist saying: "c'est magnifique!"   chicken breasts are stuffed with fresh asparagus, wrapped in ham and swiss cheese, and topped off with bread stuffing and a creamy-wine sauce. while it may taste like you cooked it all day, this delicious chicken with its' "french flair" takes only about 1 hour to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, asparagus spears, seasoned stuffing mix, coarse salt, white pepper, butter
+---
+TITLE: Asparagus Stuffed Portabella Mushrooms
+CURRENT_DESCRIPTION: always very well received.  =)  i usually only use a little over 2/3 of the bread crumb mixture, but that just depends on your taste.  i hope you enjoy it as much as i do!  :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: portabella mushroom, virgin olive oil, fresh asparagus, shallots, fresh garlic cloves, roma tomato
+---
+TITLE: Asparagus Swiss Souffle
+CURRENT_DESCRIPTION: treat your guests to this elegant souffle containing asparagus and swiss cheese.  from the 365 favorite brand name casseroles and one-dish meals cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, yellow onion, all-purpose flour, salt, cayenne pepper, milk
+---
+TITLE: Asparagus Tarts
+CURRENT_DESCRIPTION: these pretty, savory tarts are a nice side dish for lunch with soup and salad perhaps, or with a formal dinner, and would be lovely at a brunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, herbes de provence, salt, fresh ground pepper, onions
+---
+TITLE: Asparagus Tofu Noodle Stir Fry
+CURRENT_DESCRIPTION: this healthy, absolutely delicious vegetarian dish comes from mollie katzen's great cookbook "still life with menu." you can do steps 1 and 2 well ahead of time. if you cook the noodles ahead, store them in water until use, then drain thoroughly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: scallions, garlic, fresh ginger, soy sauce, crushed red pepper flakes, fresh lemon juice
+---
+TITLE: Asparagus Tomato Salad
+CURRENT_DESCRIPTION: this is the type of salad that you can add whatever you want to the basic asparagus and tomatoes.
+be creative--your guests will love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, tomatoes, roasted red peppers, green pepper, green onions, white balsamic vinegar
+---
+TITLE: Asparagus Tomato Stir Fry
+CURRENT_DESCRIPTION: there is nothing like fresh asparagus and i am extremely spoiled because my parents grow it on their farm!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, chicken broth, soy sauce, cornstarch, cooking oil, gingerroot
+---
+TITLE: Asparagus Tossed Salad
+CURRENT_DESCRIPTION: this is a light salad with a lot of flavor. the dressing makes this salad standout. i like to make it and eat for lunch, or when having a friend over. makes quite a bit. i sometimes make the dressing and store in the refrigerator and cut ingredients in half.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, fresh asparagus, butter lettuce, orange juice, olive oil, white wine vinegar
+---
+TITLE: Asparagus Walnut Salad
+CURRENT_DESCRIPTION: this is wonderful! it is really rich for a pasta salad. it’s best at room temperature.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corkscrew macaroni, asparagus, mozzarella cheese, tomatoes, mushroom, walnuts
+---
+TITLE: Asparagus Wild Rice Soup
+CURRENT_DESCRIPTION: perfect for a cold winter day
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, vegetable broth, heavy cream, cooked wild rice, lemon juice
+---
+TITLE: Asparagus With Almond Butter Sauce
+CURRENT_DESCRIPTION: for more healthy gluten-free pesco-vegetarian recipe, please visit my blog, www.innerharmonynutrition.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, asparagus spears, red pepper, almond butter, tamari, coconut sugar crystals
+---
+TITLE: Asparagus With Almonds
+CURRENT_DESCRIPTION: one of the many ways to incorporate asparagus into authentic chinese cuisine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, salt, sugar, slivered almonds, scallions, vegetable oil
+---
+TITLE: Asparagus With Bacon
+CURRENT_DESCRIPTION: asparagus with a nice dijon mustard, white wine vinegar taste.  the bacon adds flavor and texture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, red onion, butter, asparagus, dijon mustard, white wine vinegar
+---
+TITLE: Asparagus With Bacon  Red Onion  And Balsamic Vinaigrette
+CURRENT_DESCRIPTION: from america's test kitchen. this looks just wonderful. "to prepare the asparagus for this salad, we found that broiling concentrates the flavor of the asparagus and lightly caramelizes the peel. we prefer to use thin (under 5/8-inch) asparagus under the broiler-this lets us skip the peeling step and allows the spears to cook more evenly."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, bacon, red onions, balsamic vinegar, fresh parsley leaves
+---
+TITLE: Asparagus With Balsamic Butter  Weight Watchers 0 Points
+CURRENT_DESCRIPTION: from weight watchers' five ingredient fifteen minute cookbook (spring 2008).  the recipe calls for boiling the asparagus but really you should cook the asparagus by your preferred method.  i prefer to saute my asparagus in a little olive oil and sea salt. enjoy  :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, cooking spray, shallots, light butter, balsamic vinegar, salt
+---
+TITLE: Asparagus With Basil Parmesan Butter
+CURRENT_DESCRIPTION: all of the work in this recipe can be done in advance. keep the butter at room temperature and refrigerate the asparagus until ready to cook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, parmesan cheese, fresh basil, garlic, fresh lemon juice
+---
+TITLE: Asparagus With Beer And Honey Sauce
+CURRENT_DESCRIPTION: a different type of asparagus side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, thyme leaves, dark beer, dijon mustard, garlic clove, honey
+---
+TITLE: Asparagus With Bow Ties
+CURRENT_DESCRIPTION: i adapted this from a recipe found in bon appetit, using the ingredients i had on hand
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, salt, cream cheese, parmesan cheese, bow tie pasta
+---
+TITLE: Asparagus With Butter And Parmesan Cheese
+CURRENT_DESCRIPTION: posted for zwt7- italy. found on alleasyrecipes.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, water, parmesan cheese, butter, salt and pepper
+---
+TITLE: Asparagus With Butter Lemon And Mint Drizzle
+CURRENT_DESCRIPTION: this is wonderful when that spring asparagus arrives on the supermarket shelves. i've also made this using lime with great results. this makes a light amount of the drizzle double it if you would like all of the asparagus well coated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, butter, lemon juice, fresh mint leaves, lemon zest
+---
+TITLE: Asparagus With Cambozola Sauce
+CURRENT_DESCRIPTION: nice appetizer or side dish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, crusty bread, sea salt, fresh ground black pepper, extra virgin olive oil, water
+---
+TITLE: Asparagus With Caramelized Onions
+CURRENT_DESCRIPTION: i saw this on a rachel ray episode on food network and thought i'd give it a try.  i really enjoyed it.  i made one change by adding the balsamic vinegar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, onion, salt, asparagus, dijon mustard, balsamic vinegar
+---
+TITLE: Asparagus With Caramelized Onions   Bacon
+CURRENT_DESCRIPTION: a nice tasty side dish for those (like me) who like asparagus.  really easy and quick to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, garlic clove, asparagus spear, salt, pepper
+---
+TITLE: Asparagus With Cashews
+CURRENT_DESCRIPTION: this is best prepared in a wok, but can be made in a skillet with high sloped sides.  this dish combines a delicious array of flavors that will compliment almost any dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, sesame oil, ginger, shiitake mushroom, roasted cashews
+---
+TITLE: Asparagus With Cheese Sauce
+CURRENT_DESCRIPTION: quick and easy to make in the microwave. the sauce is absolutely luscious over the crisp spears.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, flour, milk, cheddar cheese, salt
+---
+TITLE: Asparagus With Citrus And Oregano
+CURRENT_DESCRIPTION: this is a recipe from the weekly times, a dearly loved paper i always read.
+i found this recipe, tried it and ohhhh dd and i loved it.
+to prepare the vegetable, you will need to rinse the spears and break off the tough ends. this is so simple and was just wonderful for the 2 only asparagus lovers of the family! best of all it was done in the microwave, i suppose you have to watch, as all microwave have different a wattage and cook differently...so your time may vary.
+.......... hope you enjoy as much as we did.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oranges, olive oil, fresh lemon juice, dried oregano, spring onions, salt
+---
+TITLE: Asparagus With Citrus Vinaigrette
+CURRENT_DESCRIPTION: great side for fish or poultry
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, orange juice, lemon juice, dijon mustard, sugar, salt and pepper
+---
+TITLE: Asparagus With Country Ham And Egg Gravy
+CURRENT_DESCRIPTION: in 'a southerly course' by martha hall foose.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, country ham, unsalted butter, unbleached all-purpose flour, whole milk, hard-boiled eggs
+---
+TITLE: Asparagus With Creamy Dijon Sauce
+CURRENT_DESCRIPTION: adapted from better homes & gardens diabetic cookbook. this will dress up your dinner menu! save the woody ends of the asparagus  in the  freezer to make recipe#397862!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, skim milk, cornstarch, dijon mustard, white pepper, parmesan cheese
+---
+TITLE: Asparagus With Creamy Mustard Onion Sauce
+CURRENT_DESCRIPTION: this side dish is quick and easy to make.
+edit 1-18-06: thank you to the reviewer who pointed out a typo in the recipe.  the amount of ground mustard has been corrected to 1 1/2 tsp. sorry for the confusion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, onion, salt, white pepper, ground mustard
+---
+TITLE: Asparagus With Creamy Sesame Dressing
+CURRENT_DESCRIPTION: this can be served as a first course or a side dish. serving it cold means it can be prepared well in advance.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, nonfat yogurt, lemon juice, sesame oil, parsley, walnuts
+---
+TITLE: Asparagus With Curry Butter
+CURRENT_DESCRIPTION: supposedly this easy side dish is vegetarian, low fat, low sodium, low carb, and heart healthy.  they say it goes well with a grilled cheese or a grilled salmon. . .it truly works with a lot of different dishes.  recipe from eating well and placed here for safe keeping!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, curry powder, lemon juice, salt, extra virgin olive oil, shallot
+---
+TITLE: Asparagus With Eggs And Parmesan Cheese
+CURRENT_DESCRIPTION: this is one of my favorite suppers for eating alone.  the combination of flavors is just unbeatable!  [solo suppers - joyce goldstein]
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, unsalted butter, prosciutto, eggs, fresh ground black pepper, parmesan cheese
+---
+TITLE: Asparagus With Fontina And Cream Sauce
+CURRENT_DESCRIPTION: another great recipe for asparagus. the recipe was created for the stockon ca. asparagus festival and comes from kcra tv.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, salt, unsalted butter, heavy cream, fontina cheese, parmesan cheese
+---
+TITLE: Asparagus With Fresh Tomato Yogurt Sauce
+CURRENT_DESCRIPTION: looks as great as it tastes! a wonderful combination of flavors. simple, quick and easy. photo was shows recipe made with "grilled" asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, plain yogurt, mayonnaise, lemon juice, diced tomato, salt
+---
+TITLE: Asparagus With Garlic  Ginger And Sesame
+CURRENT_DESCRIPTION: from the food section of dallas morning news, est. 1994.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, oil, garlic, dried red pepper flakes, fresh ginger, low sodium soy sauce
+---
+TITLE: Asparagus With Garlic And Basil  Diabetic
+CURRENT_DESCRIPTION: from sally h. hunt's "easy diabetic, cooking with 4 ingredients."  this sounds good for anyone.  no artificial ingredients here. net carbs 3 g, calories 26., fiber 2 g, fat - less than 1 g.  serving size is 1/2 cup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, garlic cloves, dried basil, reduced sodium soy sauce, water, cooking spray
+---
+TITLE: Asparagus With Garlic Butter And Parmesan Cheese
+CURRENT_DESCRIPTION: we had this simple, delicious starter in a bali restaurant recently. i've since made it at home to rave reviews.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, garlic cloves, salt and pepper, parmesan cheese
+---
+TITLE: Asparagus With Ginger Orange Butter
+CURRENT_DESCRIPTION: i found this on the internet years ago. it's easy and the butter is made ahead and frozen. the butter is also good on all kinds of veggies. from al rice, north pole alaska. the cook time is the freezing time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel orange, unsalted butter, fresh cilantro, fresh ginger, salt, pepper
+---
+TITLE: Asparagus With Gingered Orange Sesame Dressing
+CURRENT_DESCRIPTION: a great way to dress up asparagus with this asian-flavored dressing. recipe is from bon appetit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, sesame seeds, rice vinegar, dijon mustard, soy sauce, fresh ginger
+---
+TITLE: Asparagus With Gorgonzola
+CURRENT_DESCRIPTION: a very rich side, sinfully delish served with grilled pork, or any meat really!  from the river cafe, london.  this sauce would be good with grilled pork tenderloin, or steaks, with a spoon... :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, sea salt, fresh ground pepper, butter, gorgonzola, mascarpone
+---
+TITLE: Asparagus With Gorgonzola Sauce
+CURRENT_DESCRIPTION: awesome way to serve asparagus!
+serve with any food, but is especially good with other italian dishes. courtesy of chef silvia maccari, le cordon bleu restaurant, and italian cooking and living.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, leeks, gorgonzola, parmigiano-reggiano cheese, sage, whipping cream
+---
+TITLE: Asparagus With Grainy Mustard Dressing
+CURRENT_DESCRIPTION: serve hot or cold.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, grainy mustard, white wine vinegar, caster sugar, light olive oil, salt
+---
+TITLE: Asparagus With Hazelnut Gremolata
+CURRENT_DESCRIPTION: the first time i made this was when my parents came over to my house for dinner.  i was making a hazelnut crusted mahi mahi for dinner and needed the perfect side dish to go with it.  well, i had asparagus and hazelnuts, so i decided to throw this together and am i glad that i did!  it has quickly become one of our favorite ways to eat asparagus.  the recipe came from my mayo clinic cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, garlic clove, hazelnuts, flat-leaf italian parsley, lemon zest, fresh lemon juice
+---
+TITLE: Asparagus With Hazelnut Vinaigrette
+CURRENT_DESCRIPTION: this makes a nice appetizer or side dish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, shallot, white wine vinegar, dijon mustard, walnut oil, toasted hazelnuts
+---
+TITLE: Asparagus With Herbed Cheese On Toast
+CURRENT_DESCRIPTION: i got this off the internet somewhere and it looked very tempting. i haven't tried this yet, so it's here for safekeeping!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, extra virgin olive oil, fresh chervil, fresh chives, fresh thyme, pepper
+---
+TITLE: Asparagus With Hollandaise
+CURRENT_DESCRIPTION: french-inspired treatment of asparagus. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, egg yolks, lemon juice, butter, salt, lemon wedges
+---
+TITLE: Asparagus With Lemon And Mint
+CURRENT_DESCRIPTION: i've been saving this since 1997 from mccall's magazine. there are 9 passover recipes in it. the menu they gave is gefilte fish (no recipe), chicken soup with matzo balls, mixed green salad (no recipe), stuffed tarragon roast capon with rich pan gravy, matzo walnut and mushroom stuffing, roasted tzimmes, asparagus with lemon and mint, chocolate-almond torte with strawberry sauce, and assorted macaroons. one of these days i may get this made but for safe keeping i'm saving it here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, extra virgin olive oil, lemon zest, salt, fresh ground pepper, mint leaves
+---
+TITLE: Asparagus With Lemon And Parmesan Butter
+CURRENT_DESCRIPTION: these flavours go so well together!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, lemon, parmesan cheese, garlic salt, asparagus spears, sea salt
+---
+TITLE: Asparagus With Lemon And Tarragon
+CURRENT_DESCRIPTION: this is from 365 low fat recipes. posting for zwt3. asparagus is in season as i type this! yum.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, olive oil, lemon zest, fresh tarragon, lemon juice, sugar
+---
+TITLE: Asparagus With Lemon Basil Gouda Cheese Sauce
+CURRENT_DESCRIPTION: fresh bright green asparagus is just wonderful and adding a nice cheese and lemon flavored sauce, topped with sun dried tomatoes and pine nuts… not only is an appealing dish to the eye, but tasty as well! this recipe was made especially for the rsc# 11 contest.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, salt, basil leaves, shallot, garlic, cayenne pepper
+---
+TITLE: Asparagus With Lemon Broth  Low Sodium
+CURRENT_DESCRIPTION: this is a recipe from the no salt cookbook.  very tasty side dish that is flavorful in spite of the fact that it's low sodium.  feel free to substitute veggie broth to turn this into a fabulous vegetarian/vegan dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, vegetable oil, shallot, garlic clove, low sodium chicken broth, lemon, juice of
+---
+TITLE: Asparagus With Lemon Browned Butter Sauce
+CURRENT_DESCRIPTION: haven't tried this yet but it's sound fabulous.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, butter, garlic clove, lemon juice, balsamic vinegar, salt and pepper
+---
+TITLE: Asparagus With Lemon Butter
+CURRENT_DESCRIPTION: this is a nice, simple side dish for dinner, or for brunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, fresh asparagus, butter, seasoned rice vinegar, lemon, zest of
+---
+TITLE: Asparagus With Lemon Butter Crumbs
+CURRENT_DESCRIPTION: from delia smiths vegetarian collection. i add garlic to this so it is mentioned as an optional ingredient.
+if you prefer you can pan roast the asparagus instead of steaming them.
+meant as a starter but can easily be served as a side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, lemon juice, butter, fresh white breadcrumbs, garlic clove, lemon, zest of
+---
+TITLE: Asparagus With Lemon Caper Dipping Sauce
+CURRENT_DESCRIPTION: this is easy, yummy and looks elegant when served for company.  i've also used the sauce for a "tarter" to dip for sweet potato fries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light mayonnaise, light sour cream, extra virgin olive oil, capers, lemon juice, thyme leaves
+---
+TITLE: Asparagus With Lemon Caper Vinaigrette
+CURRENT_DESCRIPTION: family fave adapted from gh best recipes 1998.  this is great with fish, the vinaigrette complements any mild white fish, too.  also a good, quick make-ahead dish for a dinner party, it will keep in the fridge for a couple hours.  also doubles or triples easily.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, salt, lemon, juice of, capers, dijon mustard, sugar
+---
+TITLE: Asparagus With Lemon Curd
+CURRENT_DESCRIPTION: this is roasted asparagus with lemon curd garlic, ginger.
+this makes a great finger food (appetizer)!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, olive oil, lemon curd, garlic clove, gingerroot, coarse salt
+---
+TITLE: Asparagus With Low Fat Orange Sauce
+CURRENT_DESCRIPTION: the dreamsicle-colored sauce is a nice accent on steamed asparagus and adds very few calories.  this won rave reviews when i served it for easter dinner. i have included my make-shift instructions for steaming asparagus in a large frying pan.  the sauce came from taste of home in april/may 1999.  preparation time does not include refrigerator chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain nonfat yogurt, light mayonnaise, orange juice, orange peel, cayenne pepper, asparagus
+---
+TITLE: Asparagus With Melon
+CURRENT_DESCRIPTION: this asparagus is quite delicious!! do not over cook!! for a change of pace, try it with cubed pear instead of the melon. lemon can also be used instead of orange.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, honeydew melon, blue cheese, dry white wine, hot mustard, orange
+---
+TITLE: Asparagus With Morels
+CURRENT_DESCRIPTION: fromgourmet magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white asparagus, green asparagus, butter, shallot, morel, salt and pepper
+---
+TITLE: Asparagus With Mushrooms
+CURRENT_DESCRIPTION: hubby will eat anything i put mushrooms in :) this is a yummy side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, ground ginger, olive oil, fresh mushrooms, salt, sugar
+---
+TITLE: Asparagus With Mustard Dill Sauce
+CURRENT_DESCRIPTION: this creamy mustard dill sauce would be great with most any veggie or a combination of vegetables. the asparagus can be served hot, chilled or at room temp.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, yogurt, dijon-style mustard, mayonnaise, fresh dill, fresh chives
+---
+TITLE: Asparagus With Mustard Dressing
+CURRENT_DESCRIPTION: easy appetizer or snack.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, whole grain mustard, white wine vinegar, olive oil, salt & freshly ground black pepper
+---
+TITLE: Asparagus With Mustard Seed Dressing
+CURRENT_DESCRIPTION: i think this is based on a cooking light recipe, but i can't remember!  a very easy side dish for a dinner party or brunch!  note:  dh and i both really like this dish, so the serving size is big!
+
+update 12/31/2011: i finally found the original recipe from cooking light.  the original sauce was:
+2 tablespoons dijon mustard, 
+2 tablespoons lemon juice, 
+1/4 teaspoon salt, 
+1 tablespoon mustard seeds
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, whole mustard seeds, lemon juice, white vinegar, dijon mustard
+---
+TITLE: Asparagus With No Cook Creamy Mustard Sauce
+CURRENT_DESCRIPTION: you may want to play with some different seasonings in the sauce to add more flavor.  from diabetic cooking magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain nonfat yogurt, light mayonnaise, dijon mustard, lemon juice, salt, water
+---
+TITLE: Asparagus With Nutmeg Butter
+CURRENT_DESCRIPTION: adapted from an old cookbook which suggested it as a good accompaniment to a dinner omelet.  i just love asparagus, in fact i never met one i didn't like, except of course for the dreaded overcooked asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, butter, lemon, nutmeg, salt & freshly ground black pepper
+---
+TITLE: Asparagus With Olive Oil   Herbs
+CURRENT_DESCRIPTION: i love the spring when fresh asparagus is available! this recipe is from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh parsley, garlic, extra virgin olive oil, asparagus, salt & pepper, of fresh mint
+---
+TITLE: Asparagus With Orange Curry Sauce
+CURRENT_DESCRIPTION: an adaptation and simplification  of a friend's recipe.  the sauce is good with a lot of different vegetables, but i like it best with asparagus.  this amount will (probably) leave you with some extra to experiment with.  adjust the amount of curry powder to your liking--i have to please the kid!--   the sauce tastes best if you can let it sit for about half an hour.  i usually make it first, then start the rest of dinner.  i've also served this cold as an appetizer salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, plain yogurt, orange juice, orange zest, curry powder, asparagus
+---
+TITLE: Asparagus With Orange Ginger Sauce
+CURRENT_DESCRIPTION: a nice dress-up for steamed asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, orange juice, orange zest, cornstarch, fresh gingerroot, slivered almonds
+---
+TITLE: Asparagus With Orange Vinaigrette
+CURRENT_DESCRIPTION: this is a lovely, light side dish i got many years ago from an article in the new york times food section.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, orange rind, olive oil, hot mustard, orange juice
+---
+TITLE: Asparagus With Oyster Sauce
+CURRENT_DESCRIPTION: this is a quick, easy side dish that will go over well at your next chinese feast night!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, ginger, green onion, garlic, asparagus, oyster sauce
+---
+TITLE: Asparagus With Parmesan Crust
+CURRENT_DESCRIPTION: try to use only freshly shaved or grated parmesan cheese for this, it melts and tastes better! double the recipe if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, olive oil, parmesan cheese, black pepper, salt, balsamic vinegar
+---
+TITLE: Asparagus With Parmesan Lemon Sauce
+CURRENT_DESCRIPTION: quick and delicious accompanyment to any meal. the lemon pepper and cheese really compliment the fresh taste of asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, salt, lemon pepper, parmesan cheese, butter
+---
+TITLE: Asparagus With Pine Nuts
+CURRENT_DESCRIPTION: this is great on an antipasto plate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, pine nuts, olive oil, fresh lemon juice, garlic, sugar
+---
+TITLE: Asparagus With Raspberry Vinaigrette
+CURRENT_DESCRIPTION: in the spring time, savor fresh asparagus with this dressing. this is low in fat too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, raspberry vinegar, honey, fresh asparagus, boiling water, ice water
+---
+TITLE: Asparagus With Saffron Mint Sauce
+CURRENT_DESCRIPTION: makes a fresh and flavorful sauce for spring asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, saffron strand, garlic cloves, greek yogurt, fresh mint leaves, salt
+---
+TITLE: Asparagus With Sauce Gribiche
+CURRENT_DESCRIPTION: sauce gribiche is similar to an aioli or a mayonnaise sauce with chopped hard cooked eggs, capers, pickles and herbs.  it is also terrific over meat or fish or even potatoes!  you can substitute 1/2 cup mayonnaise (or to taste) instead of making your own.  taste and add mustard and/or vinegar, if desired.  also, use your choice of fresh herbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, eggs, egg, whole grain dijon mustard, white wine vinegar, fleur de sel
+---
+TITLE: Asparagus With Sesame Ginger Sauce
+CURRENT_DESCRIPTION: 1 points
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soy sauce, rice vinegar, peanut oil, water, tahini, fresh ginger
+---
+TITLE: Asparagus With Sesame Oil Vinaigrette
+CURRENT_DESCRIPTION: this is the runner-up recipe for 1987 in the san francisco chronicle.  because sesame oil is such an integral part of the dressing, be sure you use fresh oil of the highest quality. this asparagus makes a perfect accompaniment to grilled, broiled or fried salmon fillets or steak. toasted sesame seeds sprinkled over the asparagus just before serving are a nice touch. other vegetables, such as green beans, work well with this dressing. from bruce cost.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, garlic, salt, fresh ground white pepper, dijon mustard, fresh lemon juice
+---
+TITLE: Asparagus With Sesame Seeds
+CURRENT_DESCRIPTION: a yummy asparagus side dish. i also have used canned asparagus in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, water, reduced sodium soy sauce, olive oil, salt, pepper
+---
+TITLE: Asparagus With Shallots
+CURRENT_DESCRIPTION: this is an adopted recipe i have not yet tried.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, salt, peanut oil, shallots, parsley
+---
+TITLE: Asparagus With Spicy Nutmeg Butter
+CURRENT_DESCRIPTION: nutmeg butter on asparagus spears- you'll never want to boil your asparagus again! and its low-carb too. what could be better? from mccormick recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground nutmeg, garlic salt, ground red pepper, butter, asparagus spears, olive oil
+---
+TITLE: Asparagus With Tarragon Butter
+CURRENT_DESCRIPTION: great flavours
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, butter, fresh tarragon, fresh parsley, lemon, rind of, lemon juice
+---
+TITLE: Asparagus With Tarragon Dipping Sauce
+CURRENT_DESCRIPTION: love asparagus like i do? try this appetizer recipe from ladies home journal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, mayonnaise, sour cream, shallots, fresh tarragon, fresh lemon juice
+---
+TITLE: Asparagus With Thai Dressing
+CURRENT_DESCRIPTION: a different way to eat one of my favourite veggies when it's in season.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, onion, mint, coriander, peanut oil, lime juice
+---
+TITLE: Asparagus With Thyme
+CURRENT_DESCRIPTION: love asparagus and this one is very good!! from cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, asparagus spears, olive oil, dried thyme, salt and pepper
+---
+TITLE: Asparagus With Toasted Almonds
+CURRENT_DESCRIPTION: the almonds give a nice crunch to this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, almonds, extra virgin olive oil, garlic cloves, salt & freshly ground black pepper
+---
+TITLE: Asparagus With Toasted Sesame Aioli
+CURRENT_DESCRIPTION: here's a great appetizer for springtime entertaining. the bold, toasty sesame oil adds depth to the classic garlic-lemon sauce. arrange the crisp-tender asparagus spears, tips up, in a tall, clear glass, with the sesame sauce nearby, served in a radicchio leaf cup to add color. the asparagus can be cooked up to 1 day in advance. the sauce will keep for up to 1 week in a covered container in the refrigerator. bring both to room temperature for serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, mayonnaise, dark sesame oil, soy sauce, fresh lemon juice, toasted sesame seeds
+---
+TITLE: Asparagus With Tofu And Balsamic Butter
+CURRENT_DESCRIPTION: this is a donna hay recipe. the combination of flavors and textures is wonderful. the sauce is really versatile, and could be easily be used for other veggies. it is quick and easy to make, and makes a great vegetarian meal served over brown rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, garlic cloves, butter, balsamic vinegar, water, asparagus
+---
+TITLE: Asparagus With Tomato Vinaigrette
+CURRENT_DESCRIPTION: this recipe is from vegan italiano.  "serve this versatile recipe as an appetizing antipasto, elegant first course, or tasty side dish."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, olive oil, red wine vinegar, plum tomatoes, scallions, fresh parsley
+---
+TITLE: Asparagus With Truffle Oil Vinaigrette
+CURRENT_DESCRIPTION: my 'zaar buddy terese gave me a bottle of white truffle oil for my birthday-now i'm looking for recipes to use it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, white truffle oil, extra virgin olive oil, white wine vinegar, lemon juice, coarse salt
+---
+TITLE: Asparagus With Vinaigrette
+CURRENT_DESCRIPTION: an easy and flavorful accompaniment to any meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, salt, wine vinegar, dijon mustard, peanut oil, shallots
+---
+TITLE: Asparagus With Warm Tomato Vinagrette
+CURRENT_DESCRIPTION: great summer/spring recipe. good hot, warm or cold!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, tomatoes, salt and pepper, olive oil, white wine vinegar, honey
+---
+TITLE: Asparagus With Wasabi Mayonnaise Dip
+CURRENT_DESCRIPTION: adapted from cooking live, this is excellent! you may add more wasabi if you want more kick! this is good with other vegetables, meat, sandwiches and crackers!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, mayonnaise, soy sauce, sugar, fresh lemon juice, wasabi paste
+---
+TITLE: Asparagus With Watercress Sauce
+CURRENT_DESCRIPTION: this is an old recipe i found that i used to serve as an entrée at dinner parties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, watercress, light sour cream, mayonnaise, salt & freshly ground black pepper
+---
+TITLE: Asparagus-Bacon Roll-Ups
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 12 slices white sandwich bread, 1 container whipped cream cheese, 12 fresh asparagus spears or canned asparagus spears, crumbled bacon bits, melted butter, Parmesan cheese
+---
+TITLE: Aspargus With Tarragon Sherry Vinagarette
+CURRENT_DESCRIPTION: my favorite way to serve asparagus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus, sherry wine vinegar, shallots, dijon mustard, salt, black pepper
+---
+TITLE: Aspen Sugar Daddy
+CURRENT_DESCRIPTION: the "official drink of aspen," the aspen sugar daddy!  with amarula.  taken on http://african-tradition.com  in 2004, the sugar daddy clobbered such concoctions as the aspendisiac and the aspen mixtreme to take the championship belt at the second annual aspen cocktail classic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vodka, amarula cream liqueur, cointreau liqueur, pomegranate juice, pomegranate concentrate, sugar
+---
+TITLE: Asperge Violette  Violet Asparagus With Hollandaise Sauce
+CURRENT_DESCRIPTION: a springtime treat in france, violet asparagus - gently steamed and then served with hollandaise sauce, divine! all that is needed to accompany this seasonal delicacy is crusty bread and chilled white wine. there are several ways of making this classic french sauce, i give you a very simple method here, and this recipe is well behaved enough to stay warm for up to 30 minutes! there are three types of cultivated asparagus: white, violet and green. the exposure time of asparagus to sunlight determines its colour – under sunlight the white asparagus turns first violet and then green. the cultivation methods applied determine the colour. green asparagus for example is grown above ground and tastes most similar to the “original” wild asparagus. i like to sprinkle fresh violets from the garden on my asparagus - violets are edible and even if you do not eat them, they make a beautiful garnish! serves 4 as an appetiser and 2 to 3 as a light meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spear, butter, lemon wedge, fresh edible flower, egg yolks, hot water
+---
+TITLE: Asphodel Bread
+CURRENT_DESCRIPTION: another classic from our handwritten family cookbook, this is a bread you don't have to knead! it doesn't have asphodel in it, though--it was named for the historic asphodel plantation in east feliciana parish, louisiana, where it was originally served.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: biscuit mix, sugar, salt, yeast, milk, eggs
+---
+TITLE: Assamee Chicken
+CURRENT_DESCRIPTION: another interesting dish from india. this is a favorite of my son and his fiends. i have to cook this for them nearly every week.
+with just a few steps to follow it's easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken, ghee, ground black pepper, bay leaves, turmeric, chili powder
+---
+TITLE: Assault With A Deadly Breath Garlic Chicken
+CURRENT_DESCRIPTION: my husband brought his variation of this dish from the netherlands and while i admit to loving garlic, i was a bit hesitant (before i tried it) about loving so much garlic. as many of you know and i soon found out, the sharpness of raw garlic softens considerably into a sweet, creamy loveliness that can't be beat. i started eating this dish with a tiny smidgen of garlic with each bite of chicken and i've since graduated to about 1 clove per bite. make sure everyone you plan to meet in the next three days also eats it or you could be jailed for assault with a deadly breath.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, garlic, salt, pepper, sugar, herbes de provence
+---
+TITLE: Assorted Kebabs
+CURRENT_DESCRIPTION: instruction for preparing an assortment of kebabs, both meat and vegetable.   lemon marinade (recipe #374081) is prepared for chicken, pork, and seafood.  balsamic marinade (recipe #374082) is prepared for beef, lamb, and vegetables.  marinating times will vary.  all can be prepared (skewered) the day before.  makes 4 servings of each.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, marinade, english cucumber, swordfish fillets, shrimp, boneless leg of lamb
+---
+TITLE: Assorted Polish Canapes
+CURRENT_DESCRIPTION: this is an assortment of polish appetizers and all the ingredients are not necessary. the amounts are an estimate, depending on which canapes you choose to make.  you choose the ones you wish to make and use just those ingredients needed. times are approx and number of servings depends on how many you make. check my separate posting of the flavored butters for these.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, butter, hard-boiled eggs, roast beef, lox, cheese
+---
+TITLE: Assyrian Chicken And Potatoes With Yellow Rice
+CURRENT_DESCRIPTION: for middle eastern game.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turmeric, cinnamon, cumin, salt, paprika, parsley
+---
+TITLE: Assyrian Rice
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 c. long grain rice, 1/4 c. salt, 1/4 c. melted butter
+---
+TITLE: Astonishingly Easy  Yeasty  Bisquick Pizza Dough
+CURRENT_DESCRIPTION: this amazed me when i first came up with it. the yeast is basically a flavoring agent, the dough works pretty well without it but it does add a tiny bit of springy-ness.
+measurements are (very) approximate, just follow the directions...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: biscuit mix, whole wheat flour, warm water, yeast, olive oil
+---
+TITLE: Astoria Frosting
+CURRENT_DESCRIPTION: not your typical
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, flour, salt, butter, sugar, vanilla extract
+---
+TITLE: Astragalus Vegetable Soup  Detox Soup
+CURRENT_DESCRIPTION: broccoli and tomato is considered a great anti-oxidant pair. they are reputed to aid in cell repair, balance blood pressure and lower blood sugar. however, they are not suitable for everyone. those with kidney problems should avoid them.
+
+this astragalus vegetable recipe tells you to remove the tomato skin because it is not easily digested. this is good for people who have digestive issues or for the elderly. if you like the skin (like me), you can skip that step.
+
+astragalus root, known as é»„èšª huang qi in mandarin, is a common chinese herb used to boost the immune system and helps relieve fatigue. if you are new to it, add just a little so that the taste is not too strong.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: astragalus root, broccoli, tomatoes, shiitake mushrooms, salt, water
+---
+TITLE: Astronaut  Alcoholic Drink
+CURRENT_DESCRIPTION: from http://www.drinksmixer.com/
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vodka, light rum, dark rum, sprite, pineapple juice
+---
+TITLE: At Home Bowls  A La Kfc
+CURRENT_DESCRIPTION: these bowls are a slightly healthier version of the kfc bowls.  i take them to work for lunch and eat them at home.  this is a great way to use left-over mashed potatoes!  if you already have mashed potatoes, skip to step 5.  amounts of ingredients in the bowls should be adjusted for personal preference.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, milk, cheese, whole kernel corn, popcorn chicken, brown gravy mix
+---
+TITLE: Ataif    Atayif Bil Ishta    Arab Pancakes Filled With Cream
+CURRENT_DESCRIPTION: ataif / atayif are famous throughout the arab world & are eaten most often during ramadan. they are a little fiddly & time consuming to make but are certainly worth it! this recipe is an old one but very similar to the version arabic bites blog : http://arabicbites.blogspot.com/2007/06/ataif-bil-ashta.html - take a look at the step by step pictures :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, dried yeast, sugar, skim milk, water, cornflour
+---
+TITLE: Ataif  Arab Filled Pancakes
+CURRENT_DESCRIPTION: extremely sweet, rich, and delicious sweets for anyone who loves baklava and pancakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, water, sugar, all-purpose flour, lemon juice, rose water
+---
+TITLE: Atar Allecha
+CURRENT_DESCRIPTION: a spicy pea puree, goes very well with hot injeera. cooking time does not include soaking time for the peas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, corn oil, dried split green peas, turmeric, salt
+---
+TITLE: Atayef Mehshi
+CURRENT_DESCRIPTION: lebanese pancakes eating during festive occasions
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, sugar, warm water, all-purpose flour, vegetable oil, ground walnuts
+---
+TITLE: Athen S Marinated Black Eyed Peas
+CURRENT_DESCRIPTION: i got this recipe from "the genuine official texas cookbook".  it's a great salad especially for get togethers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black-eyed peas, onion, green bell pepper, garlic clove, cider vinegar, sugar
+---
+TITLE: Athena S Lemon Greek Penne Pasta
+CURRENT_DESCRIPTION: this is a dish from a local greek restaurant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne pasta, heavy cream, butter, parmesan cheese, lemon juice, lemon zest
+---
+TITLE: Athena S Ma Cropolis  Rsc
+CURRENT_DESCRIPTION: ready, set, cook! hidden valley contest entry. you don't have to be a greek goddess to make this, but you'll think it's worthy of a special spot in athena's sacred temple - the parthenon - once you've sampled this pasta dish with blu cheese stuffed olives.  it's a mac and cheese transformation, and just as the acropolis is a "must-see" in greece, this simple dish will become a "must-eat" at your gatherings, thanks to the special flavors from hidden valley that pair so well with this greek inspired dish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small elbow macaroni, ground pork, yellow sweet onion, hidden valley original ranch seasoning mix, frozen chopped spinach, balsamic vinegar
+---
+TITLE: athena s spanakopita  spinach and feta pie
+CURRENT_DESCRIPTION: this recipe is from a local greek restaurant. you can freeze the spanakopita wrapped well in plastic wrap. bake the spanakopita frozen and increase the baking time by 5 to 10 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach leaves, water, feta cheese, greek yogurt, scallions, eggs
+---
+TITLE: Athena S Spanakopita  Spinach And Feta Pie
+CURRENT_DESCRIPTION: this recipe is from a local greek restaurant. you can freeze the spanakopita wrapped well in plastic wrap. bake the spanakopita frozen and increase the baking time by 5 to 10 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach leaves, water, feta cheese, greek yogurt, scallions, eggs
+---
+TITLE: Athenian Artichoke Dip
+CURRENT_DESCRIPTION: this dip uses feta cheese and artichoke hearts to make a warm tasty dip.  i had this at a christmas party and i had to have the recipe.  thanks abby!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, feta cheese, red peppers, garlic clove, mayonnaise, green onions
+---
+TITLE: Athenian Blintzes
+CURRENT_DESCRIPTION: a phi theta kappa greek blintz filled with spinach, feta cheese, and kalamata olives. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, eggs, all-purpose flour, salt, frozen spinach, butter
+---
+TITLE: Athenian Chicken And Sauce
+CURRENT_DESCRIPTION: very nice, light, greek chicken dish. this came from the diabetics life website.
+
+dietary exchanges
+1 fat, 1/2 vegetable, 6 very lean meat
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, extra virgin olive oil, fresh onion, green bell pepper, garlic cloves, reduced-sodium fat-free chicken broth
+---
+TITLE: Athenian Fish  20 Minute Meal
+CURRENT_DESCRIPTION: a low calorie and speedy recipe from family style spring 2009, a publix publication.  they say tilapia, snaper or mahi mahi all provide great results; i made it with grouper and that worked well.  they also recommend serving with a salad of cucumbers, tomatoes and feta along with some pita bread and hummus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tilapia fillets, lemon pepper, all purpose greek seasoning, extra virgin olive oil, garlic, diced onion
+---
+TITLE: Athenian Ranch Pork Empanadas  Rsc
+CURRENT_DESCRIPTION: ready, set, cook! hidden valley contest entry. refrigerated pizza dough makes a conveniently delicious crust for these athenian ranch pork empanadas. filled with ground pork, red bell pepper, shallots, artichokes, parmesan cheese, feta cheese, greek yogurt, and hidden valley original ranch dressing-a combination that will throw a delicious greek party in your mouth! easy to prepare and fast to cook!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza crust, extra virgin olive oil, ground pork, red bell pepper, shallot, marinated artichoke hearts
+---
+TITLE: Athenian Rice With Feta Cheese
+CURRENT_DESCRIPTION: posted for zwt ii 2006-greece. i found this recipe on reciperewards.com, and find that posting any recipes found elsewhere here gives me better nutritional values than the sites i get them off of.  loving zaar!!! *** note*** to soften sun-dried tomatoes, place in 1/3 cup boiling water; stir to coat.  let stand 10 minutes; drain water.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, red onion, red bell pepper, garlic clove, cooked rice, sun-dried tomato
+---
+TITLE: Athenian Spinach
+CURRENT_DESCRIPTION: so you think you don't like spinach?  give this a try and i can almost guarantee that you'll change your mind!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, red onion, garlic, olive oil, balsamic vinegar, pepper
+---
+TITLE: Athens Linguine
+CURRENT_DESCRIPTION: this is a recipe from the sunday paper that we decided to try. my family enjoyed it so i am posting here before i misplace my newspaper clipping!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: linguine, alfredo sauce, sun-dried tomato, marinated artichoke hearts, feta cheese, kalamata olives
+---
+TITLE: Athens Pork Tenderloin With Goat Cheese
+CURRENT_DESCRIPTION: "a filling of mushrooms, dried tomatoes, kalamata olives, oregano & crumbled feta is rolled inside pounded pork tenderloin before roasting."
+from betterrecipes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, butter, mushrooms, onion, sun-dried tomato packed in oil, kalamata olive
+---
+TITLE: Athole Brose
+CURRENT_DESCRIPTION: a classic drink in scotland. the honey and milk soften the flavor of the whiskey, pleasing even those who aren't big scotch lovers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, half-and-half, honey, whiskey, nutmeg
+---
+TITLE: Atjar Ketimun  Cucumbers In Turmeric
+CURRENT_DESCRIPTION: serve this as a cooling contrast to curry or other spicy dishes.  adapted from the new york times cookbook.  although the book suggests substituting 1 teaspoon ground ginger for the fresh, i don't recommend this, as the taste will be completely different.  cook time includes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, salt, shallots, garlic cloves, fresh ginger, peanut oil
+---
+TITLE: Atk S Grandma Pizza
+CURRENT_DESCRIPTION: a thin-crusted pizza done like an italian grandma used to make.  different that the average pizza, thinner and crisper than a sicilian pie, you are going to love this quick, simple recipe.   from america's test kitchens.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, water, bread flour, yeast, sugar, salt
+---
+TITLE: Atk S Super Crispy  Honey Dipped Fried Chicken
+CURRENT_DESCRIPTION: the crunchiest crust, covered in a sweet-hot honey glaze.  crunch, glaze and juicy chicken in every bite - guaranteed!  one of america's test kitchen's best.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken parts, water, sugar, kosher salt, cornstarch, black pepper
+---
+TITLE: Atkin Induction Friendly Crustless Quiche
+CURRENT_DESCRIPTION: this is a great recipe anytime but is perfect for induction on the atkins diet.  i like the "crust" that forms on the outside so i do use muffin tins instead of a pie shell.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, yellow onion, eggs, cream, spinach, gruyere cheese
+---
+TITLE: Atkin S Almond Flan  Low Carb
+CURRENT_DESCRIPTION: from atkins cooking magazine, you'd hardly know this was diet food!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, eggs, heavy cream, water, sugar substitute, almond extract
+---
+TITLE: Atkins Broccoli Parmigiano
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, crushed red pepper flakes, broccoli, water, fresh lemon juice
+---
+TITLE: Atkins Cauliflower Potato Salad
+CURRENT_DESCRIPTION: i had heard about cauliflower being used as a substitute for potatoes , but had never tried it. i came across it on the low carb cooking, was liked by all.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cauliflower, mayonnaise, lemon juice, sugar substitute, dried mustard, green onions
+---
+TITLE: Atkins Cauliflower With Indian Spices
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, ground cumin, ground coriander, ground ginger, tomatoes, cauliflower
+---
+TITLE: atkins cheesecake
+CURRENT_DESCRIPTION: this is the cheesecake from www.atkins.com itself! according to the site one peice is 4.5 net carbs total. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pine nuts, macadamia nuts, sugar substitute, butter, cream cheese, eggs
+---
+TITLE: Atkins Cheesecake
+CURRENT_DESCRIPTION: this is the cheesecake from www.atkins.com itself! according to the site one peice is 4.5 net carbs total. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pine nuts, macadamia nuts, sugar substitute, butter, cream cheese, eggs
+---
+TITLE: Atkins Cinnamon Custard
+CURRENT_DESCRIPTION: similar to flan —but without the extra carbs— this creamy custard makes a refreshing finale to any spicy meal.  this recipe can be made up to 1 day ahead, covered with plastic wrap and stored in the refrigerator.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy cream, cinnamon, eggs, egg yolks, splenda sugar substitute, salt
+---
+TITLE: Atkins Classic Ham Salad
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ham, dijon mustard, mayonnaise, cayenne pepper, shallot, dill pickle
+---
+TITLE: Atkins Creamy Mushroom Soup
+CURRENT_DESCRIPTION: another atkins recipe from my friend.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushroom, butter, chicken broth, beef broth, toasted sesame seeds, salt and pepper
+---
+TITLE: Atkins Creamy Spinach Soup
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, onion, garlic, frozen chopped spinach, chicken broth, heavy cream
+---
+TITLE: Atkins Cucumber Avocado Salad With Cumin Dressing
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground cumin, fresh lemon juice, olive oil, salt, pepper, mixed salad greens
+---
+TITLE: Atkins Diet Creamy Cheesecake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. chopped pecans, 1/2 c. cool water, 1/2 c. Splenda, 1 Tbsp. butter, softened, 1 tsp. vanilla, 1 pkg. unflavored gelatin
+---
+TITLE: Atkins Friendly  Cheesecake
+CURRENT_DESCRIPTION: my neighbor frannie came up with the idea for this cheesecake. her husband and mine (who are on the atkins diet) both love it! this cake is sweetened with splenda. makes 12 servings, 6 to 8 grams of carbs each.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almonds, vanilla protein powder, butter, cinnamon, nutmeg, splenda sugar substitute
+---
+TITLE: Atkins Greek Spinach Salad
+CURRENT_DESCRIPTION: from the atkins cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red wine vinegar, garlic clove, olive oil, baby spinach, red onion, feta cheese
+---
+TITLE: Atkins Herb Roasted Chicken With Lemon
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chicken, salt, black pepper, dried thyme, lemon, butter
+---
+TITLE: Atkins Roasted Green And Wax Beans
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green beans, wax bean, olive oil, kosher salt, thyme leaves, oregano
+---
+TITLE: Atkins Sauteed Chicken
+CURRENT_DESCRIPTION: atkins website
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, chicken thighs, onion, garlic cloves, chicken broth
+---
+TITLE: Atkins Vegetarian Clam Chowder
+CURRENT_DESCRIPTION: this is from recipe #52272 by "teen". i modified it for atkins and re-added so it can be pulled up in an atkins search. it is delish! thanks teen!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, baby clams, cream of celery soup, heavy cream, milk, butter
+---
+TITLE: Atkins Yogurt  Strawberry Banana Smoothie
+CURRENT_DESCRIPTION: just learning how to eat right and came up with these ingredients. don't care for bananas in it, maybe next time i will try just strawberry. taste good though. hope you enjoy :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen strawberries, banana, low-carb strawberry-banana yogurt, 1% low-fat milk, ice
+---
+TITLE: atlanta brisket
+CURRENT_DESCRIPTION: from cook's country
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef brisket, salt and pepper, canola oil, onion, cola, ketchup
+---
+TITLE: Atlantic City Sour Cream Biscuits
+CURRENT_DESCRIPTION: from "lean beach cuisine - a collection of healthy coastal recipes" by jewel cammarano, this sounds tasty!  i love biscuits and can't wait to try these.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, baking powder, salt, fat free sour cream
+---
+TITLE: Atlantic Clam Chowder
+CURRENT_DESCRIPTION: a heary clam chowder.  great for the winter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby clams, side bacon, peameal bacon, celery, onion, chicken stock
+---
+TITLE: Atlantic Imperial Crab
+CURRENT_DESCRIPTION: this recipe is from the atlantic hotel in ocean city, md and was submitted by sarah l. purnell to the ocean city museum society cookbook and can be found on page 257.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: backfin crab meat, eggs, green pepper, pimentos, coleman, ,
+---
+TITLE: Atlantic Seafood Chowder
+CURRENT_DESCRIPTION: ths is a fantastic atlantic chowder!!  i"m sure you will enjoy every mouthful -
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked bacon, butter, sweet onion, garlic cloves, celery ribs, carrot
+---
+TITLE: Atol De Elote
+CURRENT_DESCRIPTION: from whats4eats.com: "atoles are very popular beverages in el salvador with roots in mayan cuisine. they are a sort of thick drink often eaten with a spoon. atol de elote is based on fresh corn (elote) and has a wonderfully fresh flavor. for ultimate effect, serve it in a bowl made out of a dried calabash gourd."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn on the cob, water, sugar, salt, cornstarch, ground cinnamon
+---
+TITLE: Atol De Elote  Sweet Corn And Milk Drink
+CURRENT_DESCRIPTION: this is a classic central american beverage.  it is sweet and silky smooth.  the recipe was posted in saveur magazine and is based on a recipe from maria franco, a salvadoran cook in los angeles.  it is mayan in origin, and is for many central americans part of a morning and midday ritual.  it's believed to be as curative as chicken soup is to many other cultures.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn, milk, sugar, cinnamon sticks, kosher salt
+---
+TITLE: Atole
+CURRENT_DESCRIPTION: masa harina may be found in the specialty foods section of the grocery store.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: masa harina, milk, brown sugar, ground cinnamon, vanilla extract
+---
+TITLE: Atomic Buffalo Turds
+CURRENT_DESCRIPTION: these are really, really hot.  serranos look like a jalapeno but bite like a habanero.  use jalapenos for the faint at heart.  use hot italian sausage if you cant find chorizo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: serrano peppers, habanero pepper, chorizo sausage, cream cheese, extra-sharp cheddar cheese, pepper bacon
+---
+TITLE: Atomic Coffee  Secret Recipe
+CURRENT_DESCRIPTION: i got this from a friend, who probably got it from a friend, who... well...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground coffee, tap water, coffee, sugar, cinnamon, salt
+---
+TITLE: Atomic Hot Sauce
+CURRENT_DESCRIPTION: first words out of dh mouth was atomic!
+this is not for wimps!
+
+ go with the flow it is said------ 
+ if you can't move to this then you probably are dead------- 
+ so wave your hands in the air------ 
+ bust a few moves run your fingers through your hair--------- 
+this is it for a winner-------- 
+ dance to this and you're gonna get thinner 
+ can't touch this-------------
+ can't touch this!------------
+
+a blend of habanero, jalapeno and bell pepper. 
+try it on scrambled eggs make hot wings with it add a couple drops into a salsa, dip or to kick up anything for a fiery, euphoric experience! i roasted all the peppers and bulb of garlic outdoors on the grill. the prep (peeling of the habaneros)of this is time consuming
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bell peppers, habanero, garlic, tomatoes, sweet onion, chipotle peppers
+---
+TITLE: Atsa Spicy Pizza Sausage
+CURRENT_DESCRIPTION: a nicely seasoned meat topping for pizza. this recipe makes enough for several pizzas. the recipe originally came from cooking light magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, ground pork, dry red wine, fresh parsley, parmesan cheese, fennel seed
+---
+TITLE: Attack Of The Killer Tomato Sauce With Penne
+CURRENT_DESCRIPTION: this is one of those pasta recipes where the pasta really takes a back seat to the sauce. the sauce really is amazing, or as one of my kids would say,
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, olive oil, fresh tomatoes, salt & freshly ground black pepper, hot red pepper flakes, penne
+---
+TITLE: Attempting To Duplicate Progresso Lentil Soup
+CURRENT_DESCRIPTION: just what the title says
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: celery, salt, garlic cloves, fresh ginger, fresh ground black pepper, lentils
+---
+TITLE: Atwood Inn Breakfast Scones
+CURRENT_DESCRIPTION: very versatile recipe. you can use any fruit and or nuts you like. recipe courtesy the maria atwood inn franklin, new hampshire
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, buttermilk
+---
+TITLE: Au Gratin Artichokes
+CURRENT_DESCRIPTION: mmmm...so good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, garlic clove, onion, butter, salt, white pepper
+---
+TITLE: Au Gratin Beef Bake
+CURRENT_DESCRIPTION: this is a family favorite. i have no idea where i got this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, celery ribs, green pepper, au gratin potatoes, tomato soup
+---
+TITLE: Au Gratin Brussels Sprouts
+CURRENT_DESCRIPTION: another one of my favorites, i found this on the internet a couple years ago on another site and i have stayed pretty true to the recipe. i have turned on quite a few to brussels sprouts in the proccess also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh brussels sprouts, butter, salt, flour, milk, sour cream
+---
+TITLE: Au Gratin Cabbage
+CURRENT_DESCRIPTION: i have an organic box of vegetables delived to my door once a week, and a recipe came along with 3 small heads of cabbage.  the recipe came from simply in season by mary beth lind and cathleen hockman-wert.  i served it with danish meatballs  by bergy(recipe #12845) and a boiled potato.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, carrot, green onion, milk, egg, parmesan cheese
+---
+TITLE: Au Gratin Cheese Soup
+CURRENT_DESCRIPTION: i found this recipe on the back of a box of au gratin potatoes.  very easy and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: au gratin potato mix, chicken broth, water, carrot, celery, light cream
+---
+TITLE: Au Gratin Chicken   Broccoli
+CURRENT_DESCRIPTION: fast, tasty, and easy is the name of the game with this dish.  put this on your table very quickly for a hearty pleasing meal in one dish.  this is also great for potlucks and when hubby has to prepare the meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: au gratin potato mix, canola oil, salt & pepper, boneless skinless chicken breasts, broccoli florets
+---
+TITLE: Au Gratin Chicken And Potato Bake
+CURRENT_DESCRIPTION: packaged au gratin potato mix is the magic ingredient for this one dish dinner casserole.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken parts, au gratin potato mix, boiling water, milk, ground mustard, onions
+---
+TITLE: Au Gratin Chicken Bake
+CURRENT_DESCRIPTION: this is a very simple cheesy pasta with chicken recipe.  i like to make this when i'm in the mood for something simple. i really like the crunch that the water chestnuts give it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, cream of celery soup, water chestnuts, spaghetti, cheddar cheese, milk
+---
+TITLE: Au Gratin Ham Pot Pie
+CURRENT_DESCRIPTION: this simple and tasty potpie recipe goes together quickly. it was created by mary zinsmeister of slinger, wisconsin and published by toh. i'd use lower-fat ingredients (turkey ham, soup, milk and sour cream) to cut calories.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: au gratin potatoes, boiling water, frozen peas and carrots, cooked ham, condensed cream of chicken soup, mushroom stems and pieces
+---
+TITLE: Au Gratin Hash Browns Casserole
+CURRENT_DESCRIPTION: i think i found this recipe in my "goody bag" when taste of home hosted one of their "cooking schools" at the local high school several years ago. i've only made it a handful of times, much to my boyfriend's dismay for he loves this dish! it really is very good, but don't just take my word for it- try it for yourself!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream of chicken soup, sour cream, margarine, dried onion flakes, salt, frozen hash brown potatoes
+---
+TITLE: Au Gratin Hash Browns Potatoes
+CURRENT_DESCRIPTION: i took this to a potluck meal at work, and was bombarded with requests for the recipe. it's fast and easy and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hash brown potatoes, onion, half-and-half, margarine, american cheese, cottage cheese
+---
+TITLE: Au Gratin Peas
+CURRENT_DESCRIPTION: only way my son will eat peas...well i guess any kid will eat peas covered in cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, butter, flour, milk, frozen peas, seasoned bread crumbs
+---
+TITLE: Au Gratin Peas And Potatoes
+CURRENT_DESCRIPTION: makes a wonderful skillet supper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, potatoes, salt and pepper, frozen peas, cheddar cheese
+---
+TITLE: Au Gratin Potato Balls
+CURRENT_DESCRIPTION: a different take on the traditional au gratin potatoes.  i keep these in my freezer all the time for when i dont have time for making the real deal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, dried onion, cream cheese, sour cream, butter, salt
+---
+TITLE: Au Gratin Potato Pancakes
+CURRENT_DESCRIPTION: the next time you make mashed potatoes make a 2 cups extra and put that 2 cups away before adding the milk and butter to the rest. you can even freeze the 2 cups that you saved. that way your all set to make this delicious side dish when ever you want to.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed potatoes, egg, chives, fresh parsley, salt, instant minced garlic
+---
+TITLE: Au Gratin Potatoes
+CURRENT_DESCRIPTION: hi everyone! i have lived in the states for over 30 years, but my american husband and i moved to norway almost 7 years ago. (i was born in norway) converting recipes is sometimes a challenge, but the "try-and-fail" method seems to work, and is sometimes very funny----i have a few recipes that have been favorites through the years and this au gratin potato recipe is one of them. i don't know where or when i got it, but my 3 kids, who are now 34, 32 and 27 and all living in america, loved this when they were growing up, and still do! try it! p.s. so happy to find this site! it is fantastic, and much fun! i've also submitted another recipe--one of my favorites , called tuna-broccoli bake, delicious and practically fat-free! check it out! i like this potato recipe as it is delicious and very, very simple to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, butter, cream of chicken soup, cheddar cheese, sour cream, onion
+---
+TITLE: Au Gratin Potatoes A La Fitz
+CURRENT_DESCRIPTION: this is a marvellous side dish, or even a tasty main meal if you feel like sitting in front of the television on a cold night!!!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken fat, flour, milk, sharp cheddar cheese, potatoes, bacon
+---
+TITLE: Au Gratin Sausage Skillet
+CURRENT_DESCRIPTION: this is a gooseberry patch recipe;submitted by teresa podracky.  it is a quick weeknight supper  that takes less than 25 minutes to get from stove to table.  i have changed it from oil to coconut oil and from regular cheddar to light cheddar cheese to make it diet friendly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kielbasa, coconut oil, au gratin potato mix, frozen mixed vegetables, water, shredded cheddar cheese
+---
+TITLE: Au Gratin Scalloped Potatoes   Onions
+CURRENT_DESCRIPTION: i had some potatoes i needed to use and was planning on making plain scalloped potatoes. i noticed that i also had two sweet onions that i probably should use also so this is the recipe that came out of it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, milk, cracked pepper, oregano, basil
+---
+TITLE: Au Gratin Taco Bake
+CURRENT_DESCRIPTION: i received this recipe in an email.  i have yet to try it but it looked like something we would like
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, au gratin potatoes, whole kernel corn, no-salt-added stewed tomatoes, milk, water
+---
+TITLE: Au Jus Onion Burgers
+CURRENT_DESCRIPTION: very tasty burger recipe served with a flavorful dipping sauce.  use whatever type bun that you like but i recommend a really crispy roll or an 8" slice of french baguette sliced through the middle. use the cheese of your choice. serve with a small green/tomato side salad. i have said 4 slices of cheese and 4 rolls but you can make this recipe to serve 6 just get 2 more rolls & cheese slices.  i have added 1-2 tsp wasabi but only if you like hot
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, garlic clove, worcestershire sauce, pepper, wasabi, onion
+---
+TITLE: Au Naturale Energy Bites
+CURRENT_DESCRIPTION: ain't nothing like the real thing... no artificial junk in these energy-boosting treats.  kids will like them- and so will you!    you can also experiment with using other nuts or even adding some chocolate chips or using flaxseeds to replace some of the sesame seeds... endless possiblilites!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crunchy peanut butter, honey, water, dry milk, wheat germ, unsweetened coconut
+---
+TITLE: Aubby Gobby Nana Muffins
+CURRENT_DESCRIPTION: found on-line and posted for 'zaar world tour 5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed bananas, sweetened condensed milk, brown sugar, baking powder, flour
+---
+TITLE: Auberge Blend    Herbes De Provence
+CURRENT_DESCRIPTION: there are numerous recipes for this famous herb mixture from the south of france. as a rule, it always contains thyme, lavender, rosemary, basil, savory, marjoram and basil, but it does vary from area to area depending on local tastes. this is my own "auberge" blend that i make & use regularly in our chambres d'hôtes; i find it appeals to most people's taste! feel free to add or omit those herbs that you are not keen on or find difficult to obtain. this makes a wonderful gift - add a ribbon, a sprig of lavender & a recipe! (i sell this blend at the auberge, in little fabric bags with a recipe sheet inside!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried basil, dried thyme, marjoram, dried summer savory, dried chervil, rosemary
+---
+TITLE: Auberge Cheddar Cheese And Ham Breakfast Buns   Muffins
+CURRENT_DESCRIPTION: these are what the french call "cakes" - they are little savoury buns or muffins - and are always requested for breakfasts in the auberge. they are delicious split and spread with herb and garlic cheese when warm - or serve them alongside hot soups, stews, chilli or casseroles! i have also made these with grated gruyere cheese as well as emmenthal....the trick is to use a mature and strong tasting cheese. i have suggested using smoked ham in this recipe - it just gives a wonderful extra flavour to these delicious buns/muffins. they freeze well and are easily reheated, if you have any left! we often have these for christmas morning breakfast or brunch with the optional chives added, and then spread with smoked salmon butter - divine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self raising flour, instant bouillon granules, smoked paprika, dry english-style mustard, smoked ham, cheddar cheese
+---
+TITLE: Auberge Chorizo  Goat S Cheese And Onion Pizza   Thin Crust
+CURRENT_DESCRIPTION: this is the pizza i make the most often at home. it has a thin pizza crust base, which we all prefer, and all our favourite toppings! try to use high quality chorizo sausage for this; also, fresh goat's cheese without a rind is the best. when i have time, i like to caramelise the onions first by frying them in a couple of teaspoons of olive oil and a teaspoon of balsamic vinegar - try it as an option. it also works well with ready made onion confit/onion jam as a topping. the sauce used and shown in my photoes, is leggy peggy's wonderful recipe #210246.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, sugar, water, bread flour, salt, chorizo sausage
+---
+TITLE: Auberge Cranberry And Sausage Stuffing With Chestnuts And Orange
+CURRENT_DESCRIPTION: a wonderful colourful, fruity & flavourful stuffing recipe; you can use any type of bread, but stale bread works best! i have used dried cranberries, but fresh can be used too. likewise, i have listed vacuum packed chestnuts, but fresh, frozen or canned can also be used. this stuffing is best made upto a day before - to allow the flavours to infuse & mingle......it can also be frozen for up to a month if you want to get ahead for christmas or thanksgiving! i stuff some into the neck cavity & under the breast skin - this keeps the breast from drying out; i then bake the rest in an ovenproof dish. makes a great filling for post-christmas sandwiches!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, shallots, fresh rosemary, fresh thyme, celery top, stale bread
+---
+TITLE: Auberge Creamed Carrots With Basil And Garlic
+CURRENT_DESCRIPTION: one of the most requested vegetable accompaniments that i serve in the auberge; simple & easy to adapt to personal tastes - they are finished off in a flash before serving. if you are not fond of garlic, don't add it......the same with basil, it's just that i find the two work very well together with the sweetnes of the carrots!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh carrot, creme fraiche, garlic granules, fresh basil, salt
+---
+TITLE: Auberge French Lavender Marinade For Beef  Lamb Or Chicken
+CURRENT_DESCRIPTION: a wonderful marinade for beef, lamb or chicken; this marinade is suffused with the flavours and smells of summer, minus the sound of the bees buzzing! allow the meats to marinate all day or overnight for a more pronounced flavour as well as being extra moist and juicy. culinary lavender essence can be bought at specialist cook's shops online or at your local lavender farms. if you cannot get hold of culinary lavender essence, use a handful of lavender flowers, lightly crushed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, lavender honey, lavender, garlic clove, lemon, salt and pepper
+---
+TITLE: Auberge French Lavender Pancakes With Lavender Honey
+CURRENT_DESCRIPTION: our own auberge de la fontaine lavender pancakes - these are made with home-grown organic lavender flowers from our garden here in sw france, where we often serve them for breakfast! they also make a very elegant dessert when served with cream and fruit - i sometimes serve them with recipe #241775. if you cannot get hold of culinary lavender, these pancakes are just fine if served with the lavender honey, butter and/or cream and fresh fruit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain flour, brown sugar, dried lavender flowers, salt, baking powder, eggs
+---
+TITLE: Aubergine  Chickpea  And Tamarind Stew
+CURRENT_DESCRIPTION: aubergine, chickpea, and tamarind stew
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergine, oil, onion, garlic cloves, chili, cumin
+---
+TITLE: Aubergine  Eggplant   Courgette And Chickpea Stew
+CURRENT_DESCRIPTION: tasty, spicy stew full of goodness. delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergines, onion, garlic cloves, chili pepper, olive oil, cumin
+---
+TITLE: Aubergine  Eggplant   Tomato   Mozzarella Melts
+CURRENT_DESCRIPTION: hadn't ever cooked with aubergine & discovered a delicious easy mousakka & thought i'd play around with the idea of aubergine with my fav flavour of mozzarella & tomato, the garlic is a real bonus!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergines, salt, pepper, olive oil, mozzarella cheese, tomatoes
+---
+TITLE: Aubergine  Eggplant  And Broccoli Laksa
+CURRENT_DESCRIPTION: here's a soup to clear your sinuses and fill your belly, not to mention all the healthy veggies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot red chili peppers, garlic cloves, fresh coriander, fresh ginger, lemongrass, fresh lime leaves
+---
+TITLE: Aubergine  Eggplant  And Chickpea Curry In Minted Tomato Cream
+CURRENT_DESCRIPTION: this is a mild and creamy eggplant curry that is absolutely delicious. adapted from "classic curries".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergine, zucchini, ghee, onion, garlic cloves, fresh green chile
+---
+TITLE: Aubergine  Eggplant  And Chickpea Tagine
+CURRENT_DESCRIPTION: a tagine is a moroccan casserole dish used to maximize flavour.  if you don't have a tagine a normal casserole dish works just fine.  goes well over brown rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, celery ribs, leek, garlic cloves, ground cumin
+---
+TITLE: Aubergine  Eggplant  Assanta
+CURRENT_DESCRIPTION: another unusual recipe, which i have slightly adapted - just by adding some garlic - from a recipe from greek chef and restaurateur theodore kyriakou's ‘real greek food’, which he co-authored with food writer charles campion. this recipe, which can be served as part of a mezedes spread, "originates from the greek jewish community of the city of thessaloniki".  i am posting it here for the 2005 zaar world tour.  the recipe did not specify the quantity this recipe makes.  my guesstimate is 4 cups.  if you make this before i have a chance to make it, it would be really helpful if you could please indicate in your review the quantity this recipe makes.  any specific information you can offer on your experience of cooking times would also be helpful.  this recipe is strangely lacking in those details, but sounded too interesting to pass over.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried garbanzo beans, spanish onions, garlic cloves, extra virgin olive oil, aubergines, powdered cumin
+---
+TITLE: Aubergine  Eggplant  Balls
+CURRENT_DESCRIPTION: this is from my mom, i'm not a huge fan of eggplant, but this is pretty tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, egg, flour, red bell peppers, onions, carrot
+---
+TITLE: Aubergine  Eggplant  Curry With Lemongrass   Coconut Milk
+CURRENT_DESCRIPTION: try to get japanese aubergines for this as they work really well
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red chilies, garlic cloves, fresh ginger, lemongrass, ground turmeric, chili powder
+---
+TITLE: Aubergine  Eggplant  Fritters
+CURRENT_DESCRIPTION: crispy little fritters. a treat for two or a feast for one! serve with your favourite dip but may i suggest my caper and lemon chutney?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergine, halloumi cheese, seasoned flour, egg, white breadcrumbs, oil
+---
+TITLE: Aubergine  Eggplant  Pitas
+CURRENT_DESCRIPTION: a quick veggie lunch with a hot sauce to taste, served with a crunchy salad........delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, aubergines, garlic clove, tabasco sauce, tomatoes
+---
+TITLE: Aubergine  Tomato   Parmesan Bake  Melanzane Alla Parmigiana
+CURRENT_DESCRIPTION: goodfood magazine, 04/2009 edition, is where i found this recipe. i imagine everyone has at least one version of this meal - so i'm just adding mine one of the biggest advantages is that it tastes better the second day!. of course i like mine the best!:) can be frozen without topping, vegetarian & "posh" comfort food! marvelous, just wonderful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, olive oil, crushed red pepper flakes, chopped tomato, tomato puree, aubergines
+---
+TITLE: Aubergine  Tomato And Haloumi Tart
+CURRENT_DESCRIPTION: this tasty tart is easy to prepare and tastes great with a crisp, green salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: puff pastry, milk, sun-dried tomato paste, aubergines, tomatoes, halloumi cheese
+---
+TITLE: Aubergine And Garlic Chutney  1
+CURRENT_DESCRIPTION: if you enjoy a curry this is a good chutney to make. it will keep for ever ( if you haven't used it ) make it in advance and allow the flavour to develope. don't just eat this with curry, it goes well with cheese and cold meats too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergines, oil, sesame seeds, garlic, onions, dried red chilies
+---
+TITLE: Aubergine And Pepper Delight
+CURRENT_DESCRIPTION: entered for zwt, recipe from olivado website, using nz avocado oil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergines, green capsicum, red capsicums, yellow peppers, avocado oil, salt
+---
+TITLE: Aubergine Lebanon  Lebanese Eggplant
+CURRENT_DESCRIPTION: this is an interesting twist on eggplant. it makes a great side for lamb, or it can be served over rice as the centerpiece to a meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, garlic cloves, olive oil, diced tomatoes, brown sugar, black pepper
+---
+TITLE: Aubergines Espanol
+CURRENT_DESCRIPTION: this recipe is very popular in the bars and restaurants in andalucia, in southern spain.often served as a starter or tapas. it so simple anyone can prepare this tasty dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergines, flour, eggs, salt, black pepper, oil
+---
+TITLE: Aubergines In A Spicy Honey Sauce
+CURRENT_DESCRIPTION: real comfort food, fragrant and spicy, the honey stops it being too firey
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: aubergines, olive oil, garlic cloves, fresh gingerroot, ground cumin, cayenne
+---
+TITLE: Audlin Sweet Potato Pie
+CURRENT_DESCRIPTION: i got this recipe from a very dear friend.  i will do the original recipe with changes for diabetics.  this pie is very good and i really think the ginger makes it taste sooo goood.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed sweet potatoes, sugar, margarine, eggs, cinnamon, nutmeg
+---
+TITLE: Audrey Hepburn S Favorite Spaghetti Al Pomodoro
+CURRENT_DESCRIPTION: from her son sean's memoir: audrey hepburn, an elegant spirit
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, carrots, celery, roma tomatoes, fresh basil
+---
+TITLE: Audrey S Chicken Salad
+CURRENT_DESCRIPTION: this is one of my mom's famous recipes. she was known for her fried chicken, cabbage rolls and homemade bread. my mom passed away nov 11.05 from 5 yrs battling colon cancer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, celery, light mayonnaise, chili powder, chunk pineapple, firm bananas
+---
+TITLE: Audrey S Golden  Peach Butter
+CURRENT_DESCRIPTION: this is one of my mom's recipes she has had for years. this is a gentle spicy fruit butter that is great spread on top of hot popvers right out of the oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peaches, water, sugar, lemon juice, lemons, zest of, cinnamon
+---
+TITLE: Audrey S Oriental Chicken
+CURRENT_DESCRIPTION: this is an adopted recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, vinegar, pineapple chunks, onion, boneless chicken breasts, cornstarch
+---
+TITLE: Audrey S Salsa Burgers
+CURRENT_DESCRIPTION: i love beef and these hamburgers are a nice change from the traditional burger. i serve these with a side salad topped with grated mexican cheese and dressing and spanish rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, salsa, plain breadcrumbs, monterey jack pepper cheese, hamburger buns, tomatoes
+---
+TITLE: Audrey S Special Stew
+CURRENT_DESCRIPTION: this is a recipe that i came up with when i was a teenager. we lived in a rural area where you made meals out of what was in the freezer or pantry. this was the results of one of those experiments. my family loves this dish. it is time consuming, but it can also be placed in a slow cooker and left to cook on its own.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: round steak, oil, boiling water, lemon juice, worcestershire sauce, garlic
+---
+TITLE: Audrey S Sunshine Raisin Broccoli Salad
+CURRENT_DESCRIPTION: we had this at christmas.  even the picky eaters had seconds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh broccoli, raisins, bacon, red onion, sugar, cider vinegar
+---
+TITLE: Audry S Chicken
+CURRENT_DESCRIPTION: grilled chicken with an asian flair
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, soy sauce, honey, garlic cloves, cilantro, fresh ginger
+---
+TITLE: Augie Oliver S Italian Sausage
+CURRENT_DESCRIPTION: to stuff the casings, you will need a meat grinder with a sausage horn attachment. if you don't have such a device, use the mixture to make fried patties by shaping 1/4 cup of filling into a 1/2 inch thick patty and frying in hot oil until golden brown on both sides.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork butt, salt, fennel seeds, red peppers, casing
+---
+TITLE: Augusta Hopping John
+CURRENT_DESCRIPTION: southern cooking at its finest!  get ready to have some good luck in the new year if you have this dish on new years!  this recipe is totally "from scratch", using dried beans and fresh ingredients.  for a short cut, you could use canned or frozen black eyed peas, but try the dried peas...they don't take that long to cook once they have soaked for a while.  i can make a meal of this by itself, just by adding a piece of cornbread!  i hope you enjoy this as much as my family has in the past. please note: prep time does not include soaking time!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried black-eyed peas, water, salt, ham hock, bacon, long grain rice
+---
+TITLE: Aunt Abbie S Deviled Eggs
+CURRENT_DESCRIPTION: my aunt abbie made these deviled eggs for family dinners. the melted butter makes them extra creamy. if you like them with a little kick, you may add a little hot sauce or some prepared horseradish, but our family likes them as is.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, tartar sauce, prepared mustard, butter, pepper, paprika
+---
+TITLE: aunt ada s carrot coconut cake
+CURRENT_DESCRIPTION: ever since i joined zaar i wanted to post this wonderful, never-fails-to-impress recipe. i know there are dozens of carrot cake recipes on zaar, but i haven't come across one exactly like this one. it bakes perfectly at any altitude and is scrumptious. the metric measures are the ones i use.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, cinnamon, mixed spice, salt, cooking oil
+---
+TITLE: Aunt Ada S Carrot Coconut Cake
+CURRENT_DESCRIPTION: ever since i joined zaar i wanted to post this wonderful, never-fails-to-impress recipe. i know there are dozens of carrot cake recipes on zaar, but i haven't come across one exactly like this one. it bakes perfectly at any altitude and is scrumptious. the metric measures are the ones i use.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, cinnamon, mixed spice, salt, cooking oil
+---
+TITLE: Aunt Agnes  Broken Glass Cake
+CURRENT_DESCRIPTION: love things that are colourful, true! dessert reminds me of a rainbow too! perhaps you'd like to try it, yes? how simple is it to make? guess!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange gelatin, lime jell-o gelatin, strawberry gelatin, hot water, plain gelatin, cold water
+---
+TITLE: Aunt Aileen S Ratatouille
+CURRENT_DESCRIPTION: when my kids were young, we had lunch once a week with my grandmother, mom sisters and aunts. this is one of my favorite "gramma day" recipes.
+note:this can be made in one large skillet and baked in one large casserole. the cooking times will be a little longer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian sausages, olive oil, onion, garlic cloves, green pepper, red pepper
+---
+TITLE: Aunt Alta S Crazy Crust Pizza
+CURRENT_DESCRIPTION: aunt alta really loved pizza. i found this recipe tucked into her collection, which she had clipped out of a pillsbury ad.  the crust is not traditional at all...it is very thin and will not taste like a typical risen pizza crust.  she made this for me when i visited her as a young teen. she used the round pizza plate, i only have a jelly roll pan.  note:you may replace the sauce ingredients with 1- 1 1/2 cups of prepared pizza sauce, if desired.  my aunt's original version was quite mild and contained no garlic, but i like lots of garlic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, oregano, black pepper, eggs, skim milk
+---
+TITLE: Aunt Anita S No Bake Peanut Butter Krispies
+CURRENT_DESCRIPTION: i got this recipe from my aunt anita. she is the most organized woman on earth. this is just one of the many treats she had around for all of us when we were young, and then she fed these same things to our kids. still love to go to her house!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, white sugar, light karo syrup, peanut butter, vanilla extract, rice krispies
+---
+TITLE: Aunt Ann S Best Oven Roasted Ribs
+CURRENT_DESCRIPTION: oh man, are these good!  takes a little time to make them, but they are worth the time and effort... delish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, paprika, seasoning, garlic powder, salt, dijon mustard
+---
+TITLE: Aunt Annie S Bran Muffins
+CURRENT_DESCRIPTION: this recipe has been in my family for over a 100 years.  i add 1/2 to 1 cup of sugar depending on if i am on a diet or not.  ha ha.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: natural bran, brown sugar, salt, egg, all-purpose flour, baking soda
+---
+TITLE: Aunt Annie S Cheese Ball
+CURRENT_DESCRIPTION: i'm asked to bring this to every family function. this is my great aunt's recipe and when she could no longer make it, i took over.  i hope you enjoy it as much as we do.
+you can use low-fat or fat-free cream cheese for this, but it will not get hard and form a ball. if you make it with low-fat ingredients, place the mixture in a bowl or decorative crock and top with crushed pecans. cook time does not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, crushed pineapple, seasoning salt, onions, green peppers, cheddar cheese
+---
+TITLE: Aunt Annie S Chicken Chili
+CURRENT_DESCRIPTION: my sister, ann, hates to cook but has several delicious recipes in her repertoire that she makes again and again.  this is one of those recipes. it is a little different from most chicken chilis as it includes black beans and beer and olives. excellent comfort food! enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, boneless skinless chicken breasts, onion, garlic cloves, red bell pepper, cumin seeds
+---
+TITLE: Aunt Annie S Honey French Dressing
+CURRENT_DESCRIPTION: my aunt annie is famous for her homemade honey french dressing. it's so delicious! i like this version of french because there is no tomato base.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, mustard powder, paprika, celery seed, salt, lemon juice
+---
+TITLE: Aunt Annie S Pretzels
+CURRENT_DESCRIPTION: recipe quest, simalar to mall pretzels
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, brown sugar, salt, bread flour, flour
+---
+TITLE: Aunt Annie S Sugar Cookies
+CURRENT_DESCRIPTION: a wonderful vegan sugar cookie. i borrowed this recipe, but can't remember where i got it from. this is the title it came with, though, so thank you to the originator! i originally found it while looking for a recipe for christmas cut out cookies. this one works great! i have altered it ever so slightly. i like to roll them thin (but not too thin). they get eaten very quickly, especially warm out of the oven. by the way, i'm fully guessing at the yield. it depends on what size cutters you use, and how thin you roll them out. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, vegan margarine, soymilk, vinegar, flour, baking powder
+---
+TITLE: Aunt Ava S Buttermilk Spice Cake
+CURRENT_DESCRIPTION: aunt ava is a next door neighbor who became family to me when i moved into her neighborhood. i had no family nearby to give me a hand when i went through 11 years of illness and then the birth of twins, my third and fourth daughters. she adopted me and treated me like i was  family and shared all her special recipes with me. she passed on about 10 years ago but i miss her so much. she'll always hold a special place in my heart and her recipes will continue to nourish my body and soul for years to come.
+bon appetit--
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, brown sugar, baking powder, baking soda, salt
+---
+TITLE: Aunt B S Pasta Salad
+CURRENT_DESCRIPTION: this salad is so easy and you can use it as a side dish or as a meal in it self. everyone always wants me to make it for cookouts or they want the recipe.you can add just about any vegetables to this. this will be one of your families favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rotini noodles, deli turkey, deli ham, pepperoni, green peppers, cucumber
+---
+TITLE: Aunt Barb S Apple Crisp
+CURRENT_DESCRIPTION: my aunt barb developed this recipe and i make it all the time. wonderful with homemade icecream, or any ice cream for that matter!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, brown sugar, flour, oatmeal, cinnamon, nutmeg
+---
+TITLE: Aunt Barb S Swedish Meat Balls
+CURRENT_DESCRIPTION: a strange mix of ingredients but it tastes good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, chili sauce, grape jelly, onion, garlic, worcestershire sauce
+---
+TITLE: Aunt Barbara S Creamy Fudge
+CURRENT_DESCRIPTION: one of the first things my mother taught me how to cook.  i remember the smell and hardly being able to wait for it to cool.  now days, everyone asks me for it on the holidays so it's stayed a holiday tradition.  it takes almost 30 minutes exactly from start to finish and sets up every time.  i have never made it where it doesn't get hard.  handed down from my aunt whom i was named after.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, evaporated milk, butter, marshmallows, semi-sweet chocolate chips, vanilla
+---
+TITLE: Aunt Barbra S Firecracker Shrimp
+CURRENT_DESCRIPTION: this recipe comes from my aunt barbra in texas.  i have made some minor adjustments to the recipe.  the original recipe called for 1 cup of butter, i use 1/4 cup or feel free to use olive oil instead.  a combination of the 2 will also work.  you can control the heat of this dish by using either mild or spicy diced tomatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, celery, green onion, garlic cloves, medium-sized shrimp
+---
+TITLE: Aunt Bea S Famous Swedish Meatballs
+CURRENT_DESCRIPTION: delicious and easy swedish meatballs! great for entertaining.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: saltine crackers, water, ground beef, grape jelly, chili sauce, lemon, juice of
+---
+TITLE: Aunt Becky S Porcupine Meatballs
+CURRENT_DESCRIPTION: my aunt becky gave my mother this recipe years ago when i was a little girl. she made it for us often. now i make it for my family and they love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, minute rice, water, onion, salt, celery salt
+---
+TITLE: Aunt Bee S Lentil Soup
+CURRENT_DESCRIPTION: this came from a cookbook that was done years and years ago from the andy griffith show. aunt bee is andy's aunt bee. it's a great tasting soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: smoked sausage, lentils, onion, celery, carrot, garlic salt
+---
+TITLE: Aunt Benette S Green Layered Salad
+CURRENT_DESCRIPTION: on easter of 2000, this salad rocked our family luncheon like a hurricane. it took forever for me to track down the recipe because i hadn't been paying that much attention to the food...i was the designated egg-hider! but i loved it, and remembered it, and when benette stopped feeling up to cooking i took over the responsibility of salad-maker!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: iceberg lettuce, green onion, celery, frozen peas, swiss cheese, bacon
+---
+TITLE: Aunt Berline S Pecan Pie
+CURRENT_DESCRIPTION: i required a magazine from a feed store called "out here". there was a wonderful recipe in it that i had to share. i have not made it yet, but plan too for this 2005 thanksgiving year. it has no corn syrup which i really liked!
+
+recipe from joyce shelly-baz
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crusts, butter, eggs, white sugar, brown sugar, vanilla
+---
+TITLE: Aunt Bernice S Cornbread
+CURRENT_DESCRIPTION: i received this recipe from my cousin leslie when putting together our family cookbook. the recipe belonged to her grandmother, bernice peters chastain (my grandpa's sister). she said that she originally used white cornmeal, but her family always thought it looked
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cornmeal, all-purpose flour, buttermilk, sugar, egg, baking powder
+---
+TITLE: Aunt Bessie S Cream Cheese Cookies
+CURRENT_DESCRIPTION: a delicious addition to the holiday tray.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, granulated sugar, flour, raisins, pecans
+---
+TITLE: Aunt Beth S Sage Dressing Balls
+CURRENT_DESCRIPTION: my aunt (by marriage) gave me this recipe that has been a tradition in her family for many years.  not sure of serving size as i have not made this yet but intend to do so for thanksgiving!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hamburger buns, onion, celery ribs, butter, sage, salt and pepper
+---
+TITLE: Aunt Bette S Casserole
+CURRENT_DESCRIPTION: old family recipe, likely originated from the back of a can in the 50's. this makes a wonderful, warm, bubbly alternative to green bean casserole. perfect for thanksgiving, christmas, or any large format meal.the slivered almonds add a great texture and flavor to top it off.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white corn, french style green beans, cream of celery soup, onion, cheddar cheese, ritz crackers
+---
+TITLE: Aunt Betty S Apple Upside Down Corn Bread
+CURRENT_DESCRIPTION: this is from my aunt betty who has been making this for at least 50 years. she didn't remember where the recipe came from. serve with butter and warm maple syrup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, maple syrup, granny smith apples, cornmeal, flour, baking powder
+---
+TITLE: Aunt Betty S Chocolate Peanut Butter Fudge
+CURRENT_DESCRIPTION: this fudge is out of this world!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, light brown sugar, white sugar, chocolate squares, marshmallows, margarine
+---
+TITLE: Aunt Betty S Famous Pie Crust
+CURRENT_DESCRIPTION: my aunt betty was famous for her pies.
+as she is no longer with us, i believe she
+would want to share it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, vegetable shortening, salt, egg, vinegar, water
+---
+TITLE: Aunt Betty S Fruit Salad
+CURRENT_DESCRIPTION: my aunt made this for years for us for the holidays, and it was always a special treat!  i know if you make it once you will have to make it again:)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jello gelatin, chunk pineapple, mandarin oranges, peaches, green grape, maraschino cherries
+---
+TITLE: Aunt Betty S Mandarin Orange Cake
+CURRENT_DESCRIPTION: delicious, moist yellow cake with cool whip pudding frosting.  easily made with a box yellow cake mix and flavored with mandarin oranges.  yummy - my favorite cake of all time & quick to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, oil, mandarin oranges, cool whip, vanilla flavor instant pudding and pie filling mix, crushed pineapple
+---
+TITLE: Aunt Betty S Mock Cherry Pie
+CURRENT_DESCRIPTION: here in new england, where cranberries are more plentiful (and less expensive) than cherries, my dear sister-in-law would make this pie every year. we lost her a few years ago, but will always remember her warm and loving personality through her recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh cranberries, raisins, flour, sugar, water, vanilla
+---
+TITLE: Aunt Betty S Sweet Potato Casserole
+CURRENT_DESCRIPTION: my favorite dish!  typically served as a side dish, but this is sweet enough to serve as dessert.  cook time does not include cooking and mashing the sweet potatoes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed sweet potatoes, sugar, salt, eggs, margarine, milk
+---
+TITLE: Aunt Bettye S Famous Crock Pot Macaroni And Cheese
+CURRENT_DESCRIPTION: this is a crock-pot method for my aunt's macaroni and cheese.  i use a rival 5 qt crock pot, and have successfully doubled this recipe without changing the cooking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: elbow macaroni, velveeta cheese, sharp cheddar cheese, cheddar cheese soup, butter, salt
+---
+TITLE: Aunt Bev S   Weird  Hot Dogs
+CURRENT_DESCRIPTION: i went camping with my uncle dick and aunt bev last summer and was introduced to this recipe.  my aunt bev was raised by 'daddy' (who has the most fantastic southern drawl you will ever hear) and her mom (heaven now has a perfect angel looking down on all of us. )  this is how her family ate their hot dogs.  when my uncle first told me about them i looked at him and said, "there is no way those can be good!  that's crazy!"  guess what was for dinner that night?  aunt bev's "weird" hot dogs.  because i love her and didn't want to offend her, i tried them.  love 'em!  this is definitely a recipe for someone who is willing to try different things. ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dogs, hot dog buns, peanut butter, ketchup, sweet relish
+---
+TITLE: Aunt Bev S Fruit Cocktail Cake
+CURRENT_DESCRIPTION: this is my favorite cake - it's so simple and moist.  i serve it warm with ice cream or whipped topping. my aunt bev gave me this recipe along with other recipes for my wedding shower that she gave me over 30 years ago!  it's still a favorite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, baking soda, salt, fruit cocktail
+---
+TITLE: Aunt Bev S Hominy
+CURRENT_DESCRIPTION: you won't be sorry if you put a ladle of this in the bowl with your favorite chili!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow hominy, white hominy, diced green chilies, sour cream, monterey jack cheese
+---
+TITLE: Aunt Bill S Brown Candy
+CURRENT_DESCRIPTION: bon apetit magazine's columnist molly wizenberg shares her holiday baking ritual: the old-timey aunt bill's brown candy, a cross between praline and fudge from her homestate of oklahoma. this soft, nutty, and somewhat crumbly southern delight is the ideal holiday treat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, half-and-half, water, baking soda, unsalted butter, vanilla extract
+---
+TITLE: Aunt Bobbie S Broccoli Salad
+CURRENT_DESCRIPTION: i had this at a potluck dinner. it was very good. it is sweet and slightly sour; but not too sour. it is crunchy to which makes it interesting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, sugar, vinegar, bacon, sweet onion, raisins
+---
+TITLE: Aunt Brendas Chicken Marinade
+CURRENT_DESCRIPTION: a very good chicken marinade from one of my friend's family.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast, soy sauce, vegetable oil, red wine vinegar, oregano, basil
+---
+TITLE: Aunt Brennie S Holiday Cranberry Salad
+CURRENT_DESCRIPTION: this is my favorite item on the thanksgiving table.  it is tangy, sweet, crunchy and all around yummy.
+i find myself often searching for this recipe, so have put it here for safe keeping.  
+this is best if you make it the day before which is great to get one thing out of the way before the big cooking day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red jell-o, orange, apples, walnuts, boiling water, crushed pineapple in juice
+---
+TITLE: Aunt Carrie S Banana Bread
+CURRENT_DESCRIPTION: this not "just another" banana bread. i've made it time and time again throughout the years. it's from an old and yellowed recipe clipping (50 plus years old) from my local newspaper that my great aunt had written her own success notes beside. my aunt was a caterer, and she writes that this banana bread was her most requested treat for her teas and luncheons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, sugar, eggs, bananas, flour, baking soda
+---
+TITLE: Aunt Carrie S Indian Pudding
+CURRENT_DESCRIPTION: "rich, subtly spiced with cinnamon and ginger, and sweet with molasses, this dessert is a version of the pudding that has been served at the venerable rhode island clam shack aunt carrie's since it opened, in the 1920s." - saveur
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, water, yellow cornmeal, butter, molasses, flour
+---
+TITLE: Aunt Caryn S Party Mix
+CURRENT_DESCRIPTION: my version of the traditional chex party mix. this is a favorite among my nieces and nephews.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice chex, corn chex, wheat chex, pretzels, cheez-it crackers, cheerios toasted oat cereal
+---
+TITLE: Aunt Catherine S Million Dollar Sugar Cookies
+CURRENT_DESCRIPTION: every christmas i looked forward to eating handfuls of my great aunt catherine's sugar cookies (oh, if my parents only knew!) these truly are the most fantastic sugar cookies i have ever eaten.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, brown sugar, vanilla, egg, flour
+---
+TITLE: Aunt Cecil S Goulash
+CURRENT_DESCRIPTION: a quick, tasty top of the stove casserole, one of our favorites. great with a green salad and hot rolls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: velveeta cheese, egg noodles, ground beef, cream of mushroom soup, cream of tomato soup, onion
+---
+TITLE: Aunt Ceil S Chip Dip
+CURRENT_DESCRIPTION: wonderful alternative to the sour cream chip dips.  tangy, and very simple to make. everyone will love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, chili sauce, miracle whip, worcestershire sauce, onion
+---
+TITLE: Aunt Charolette S Calico Baked Beans
+CURRENT_DESCRIPTION: easy and wonderful. i normally don't like baked beans but i fell in love with these when aunt charolette brought them to a family reunion. i have taken them many times to potluck dinners and am always asked for the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hamburger, brown sugar, onion, mustard, catsup, kidney bean
+---
+TITLE: Aunt Claire S Cornbread
+CURRENT_DESCRIPTION: a great corn bread recipe, sweet and moist.
+for a less "granule" texture, let the corn meal soak in the milk for about 15 minutes before mixing everything together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, cornmeal, sugar, vegetable oil
+---
+TITLE: Aunt Claire S Pul Gol Gi    Bul Gogi
+CURRENT_DESCRIPTION: aunt claire's korean bbq sirloin beef. this one has beer in the marinade,what the heck as our family likes beer. the recipe came from claire's sister in law kim who is from korea. aunt claire served this with chop chae (recipe posted) for our family gatherings. claire has passed but lives on through her recipes and many fond memories. thanks aunt claire!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sirloin tip roast, soy sauce, toasted sesame seeds, sesame seed oil, green onions, brown sugar
+---
+TITLE: Aunt Clara S Rice Balls
+CURRENT_DESCRIPTION: my great-aunt clara would serve these rice balls as appetizers, but i could make a whole meal out of them they're so good! a great idea for leftover rice which served with a salad, makes a lite-comfort meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, egg, parsley, parmesan cheese, mozzarella cheese, salt & pepper
+---
+TITLE: Aunt Clara S Soft Molasses Cookies
+CURRENT_DESCRIPTION: simple to make and delicous home style soft batch cookies.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: molasses, sugar, butter, egg, flour, ground cloves
+---
+TITLE: Aunt Colleen S Pumpkin Roll
+CURRENT_DESCRIPTION: this is the absolute best pumpkin roll i've ever tasted.  the cake part of it is sooo moist - the whole thing just melts in your mouth!  one of my aunt colleen's tried and true recipes, always on high request during the holiday season.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, pumpkin puree, lemon juice, flour, baking soda
+---
+TITLE: Aunt Collie S Soft Biscotti
+CURRENT_DESCRIPTION: my aunt collie always had these on hand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, crisco shortening, eggs, anise extract, salt, baking powder
+---
+TITLE: Aunt Cora S Nut Bread
+CURRENT_DESCRIPTION: cora was my mother's aunt, and my grandmother baked it for us.  supposedly aunt cora came up with this to deal with rationing and shortages and it was so good, they kept making it.  happily, this is one of the few of that generation's recipes that was written down.  it's wonderful sliced very thin and spread with sweet butter or cream cheese.  cooking time includes 20 minutes for the dough to sit, one hour baking and ten minutes cooling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, sugar, nuts, raisins, unbleached flour, baking powder
+---
+TITLE: Aunt Darlene S Cream Cheese Frosting
+CURRENT_DESCRIPTION: a delicious frosting for any carrot cake recipe #19884. i like to make mine white, but in the chicago area you often see it tinted pink.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, butter, powdered sugar, vanilla, pecans, coconut
+---
+TITLE: Aunt Darlene S Macaroni   Cheese
+CURRENT_DESCRIPTION: the absolute best macaroni and cheese i have ever tasted. my kids love macaroni and cheese and this takes it up a notch! every time i have taken it to a potluck it is gone almost as soon as it is set out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kraft macaroni and cheese, milk, eggs, butter, salt and pepper, evaporated milk

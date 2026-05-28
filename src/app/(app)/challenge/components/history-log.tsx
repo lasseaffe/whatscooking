@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { ChallengeCompletion } from '../types';
+import { formatElapsed } from '../utils';
 
 interface Props {
   completions: ChallengeCompletion[];
@@ -43,6 +44,7 @@ export function HistoryLog({ completions }: Props) {
                 </div>
                 <div style={{ color: 'var(--fg-tertiary,#9c9c9b)', fontSize: 10 }}>
                   {new Date(c.completed_at).toLocaleDateString()}
+                  {c.elapsed_seconds != null ? ` · ⏱ ${formatElapsed(c.elapsed_seconds)}` : ''}
                   {c.proof_url ? ' · 📸 Photo' : ''}
                 </div>
               </div>

@@ -1,0 +1,2156 @@
+TITLE: Baileys Irish Creme
+CURRENT_DESCRIPTION: this is one of my mom's famous recipes. a classic to say the least.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweetened condensed milk, cocoa, heavy cream, coconut essence, irish whiskey
+---
+TITLE: Baileys Macadamia Nut Pie
+CURRENT_DESCRIPTION: this is a scrumptious dessert. the macadamia nuts can be raw or dry-roasted, either will work. be sure to watch the crust while baking - tent with foil if it browns too quickly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, salt, unsalted butter, light karo syrup, baileys irish cream
+---
+TITLE: Baileys Mocha Frapp
+CURRENT_DESCRIPTION: mmmm baileys
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ice cubes, irish cream, instant coffee, milk, chocolate fudge topping
+---
+TITLE: Baileys Mocha Frappe
+CURRENT_DESCRIPTION: so easy and so deliciously cooling on one of those  hot summers nights. i finish the top of this drink with a scoop of vanilla ice cream..........
+go on indulge !!!!!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ice cubes, baileys irish cream, milk, instant coffee, chocolate fudge topping
+---
+TITLE: Baileys Sexy Chocolate Mousse
+CURRENT_DESCRIPTION: sexy, silky, naughty, fabulous, mmm...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate, baileys irish cream, eggs, double cream, cream, muscovado sugar
+---
+TITLE: Baileys Yoghurt Cream Dessert
+CURRENT_DESCRIPTION: a decadent dinner party dessert.  but very yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: greek yogurt, double cream, baileys irish cream, icing sugar, meringue nests, chocolate
+---
+TITLE: Baingan Bharta   Spicy Roasted Eggplant With Tomatoes  Cilantro
+CURRENT_DESCRIPTION: one of my fav indian recipes. great with naan or rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplants, vegetable oil, onions, ginger, tomatoes, ground cumin
+---
+TITLE: Baingan Bharta  Curried Eggplant  Aubergine
+CURRENT_DESCRIPTION: an easy, tasty indian dish that goes great with naan or rice. the more finely you chop the pepper, the hotter it will be.
+
+[[thanks to charishma ramchandani for the correction about the curry powder!]]
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, vegetable oil, cumin seed, onion, ginger paste, garlic paste
+---
+TITLE: Baingan Bharta  Indian Style Fire Roasted Eggplants
+CURRENT_DESCRIPTION: baingan bharta is a favorite north indian curry made by first roasting the eggplants until very soft. the flesh is scraped from the skin and cooked with tomatoes, onions, garlic, fresh and dried coriander, turmeric, and other spices until thickened and richly flavored.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, onions, tomatoes, green chili, oil, garlic cloves
+---
+TITLE: Baingan Ka Bharta  Indian Punjabi Style
+CURRENT_DESCRIPTION: a sort of eggplant curry. recipe given by a wonderful punjabi cook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggplant, onions, green chilies, fresh ginger, tomatoes, red chili powder
+---
+TITLE: Bair Family Macaroni Salad
+CURRENT_DESCRIPTION: this is something that i grew up eating. now my sister makes it for every cookout and holiday gathering due to requests from in-laws. it's the only macaroni salad i have ever liked. prep time is time to cook macaroni and chop veggies. i did not include refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: macaroni, eggs, green bell pepper, sweet onion, celery ribs, mayonnaise
+---
+TITLE: Baja Beer Battered Tilapia  Great For Fish Tacos
+CURRENT_DESCRIPTION: this recipe is a healthful version of the battered, deep-fried and crispy fish at rossy's tacos in baja california. i have never had their fish tacos, but this recipe sound great as a main dish or in a taco. from eatingwell.com .
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beer, all-purpose flour, whole wheat pastry flour, salt, dried oregano, dry mustard
+---
+TITLE: Baja Bites
+CURRENT_DESCRIPTION: from gooseberry patch mom's favorite recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, cottage cheese, all-purpose flour, baking powder, butter, green onions
+---
+TITLE: Baja Black Beans  Corn And Rice
+CURRENT_DESCRIPTION: a south of the border blend of textures and flavors. serve hot as a main dish or a side dish with grilled meat or chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked brown rice, black beans, corn, fresh tomatoes, red onion, cilantro
+---
+TITLE: Baja Blue Jello Shots
+CURRENT_DESCRIPTION: so good.  the beautiful color of blue for the sea, tropical in taste and sure to please.  made these up for my neice's bachelorette party.  number of servings depends on the size of your cups; i used 2 oz cups, so mine made about 20.  sugar free versions of jello work just fine as well!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jello gelatin, water, coconut rum, schnapps, unsweetened pineapple juice
+---
+TITLE: Baja California Tofu Scramble
+CURRENT_DESCRIPTION: i've been trying to come up with a tofu breakfast that i really like.  this uses the mexi-cali herbs and spices we often cooked with in la.  the veggies i used were the ones i had on hand, but diced sweet potato, carrots, nopales (if you have that on hand i envy you!), or a tablespoon or two of corn kernels or black beans would probably also be tasty.  i tend to eyeball herbs and spices, so the measurements here are best guestimates-- add more or less to your own taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, zucchini, red sweet bell pepper, garlic cloves, green chili pepper, olive oil
+---
+TITLE: Baja Chicken Salad With Taco Vinaigrette
+CURRENT_DESCRIPTION: this is a deliciously different type of taco xalad which includes chicken, avocado, and a tantalizing taco-flavored dressing. it's a very classy salad and a pillsbury bake-off winner. blue tortilla chips accompanying this dish adds the final touch of authentic mexican flair!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: taco seasoning mix, light brown sugar, olive oil, cider vinegar, boneless skinless chicken breast halves, mixed baby greens
+---
+TITLE: Baja Chicken Soup
+CURRENT_DESCRIPTION: this is my take on chicken tortilla soup. low fat but still very filling. hope you like it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, red bell peppers, jalapeno pepper, cumin, coriander
+---
+TITLE: Baja Chipotle Fish Tacos
+CURRENT_DESCRIPTION: marinated cod, cabbage, and zesty white sauce lend authentic baja flavors to these easy to make tacos. this recipe was posted by a popular seasoning company and adapted from a cooking websites newsletter. included in the 2006 zaar world tour - mexico.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lawry baja chipotle marinade, cod, mayonnaise, sour cream, taco-size corn tortillas, green cabbage
+---
+TITLE: Baja Dip
+CURRENT_DESCRIPTION: a quick throw-together dip when you have unexpected guests.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hummus, avocado, fresh lime juice, chunky salsa, sour cream, fresh cilantro
+---
+TITLE: Baja Fish Taco
+CURRENT_DESCRIPTION: courtesy of chef jorge fuentes
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, black pepper, chicken bouillon, mexican oregano, mustard, water
+---
+TITLE: Baja Fish Tacos
+CURRENT_DESCRIPTION: this recipe is dedicated to my niece ruth who lives in san diego. when i visit we always drive down to ensenada for fish tacos. the fish are fried in batter there. i've taken a few liberties and added beer and taco seasoning to the batter. i prefer the catfish nuggets because they are nice and firm, have a great taste and are usually the cheapest fish at the local market.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: catfish nuggets, dark beer, flour, taco seasoning mix, cilantro, sour cream
+---
+TITLE: Baja Fish Tacos
+CURRENT_DESCRIPTION: Beer-battered white fish with shredded cabbage, crema, pico de gallo, and avocado in warm corn tortillas. Instant vacation in a taco.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 600 g cod or tilapia, 12 small corn tortillas, 180 ml beer, 120 g flour, 200 g (shredded) cabbage, 2 large avocado
+---
+TITLE: Baja Fish Tacos
+CURRENT_DESCRIPTION: Beer-battered white fish with shredded cabbage, crema, pico de gallo, and avocado in warm corn tortillas. Instant vacation in a taco.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 600 g cod or tilapia, 12 small corn tortillas, 180 ml beer, 120 g flour, 200 g (shredded) cabbage, 2 large avocado
+---
+TITLE: Baja Fish Tacos
+CURRENT_DESCRIPTION: Beer-battered white fish with shredded cabbage, crema, pico de gallo, and avocado in warm corn tortillas. Instant vacation in a taco.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 600 g cod or tilapia, 12 small corn tortillas, 180 ml beer, 120 g flour, 200 g (shredded) cabbage, 2 large avocado
+---
+TITLE: baja fish tacos with fresh avocado cream and cilantro salsa
+CURRENT_DESCRIPTION: from avocados from mexico.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, plain yogurt, mayonnaise, lime juice, honey, cilantro
+---
+TITLE: Baja Fish Tacos With Fresh Avocado Cream And Cilantro Salsa
+CURRENT_DESCRIPTION: from avocados from mexico.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, plain yogurt, mayonnaise, lime juice, honey, cilantro
+---
+TITLE: Baja Fried Fish Tacos  A San Diego Surfers Delight
+CURRENT_DESCRIPTION: wow! do we love these fish tacos, and there are so many variations.  this is one of my favorites and most authentic. or, think fresh grilled mahi-mahi slipped inside a thick warm corn tortilla and topped with thinly sliced cabbage, drizzled with lime juice and a splash of creme fresh. yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark beer, flour, salt, white fish fillet, vegetable oil, corn tortillas
+---
+TITLE: Baja Fried Fish Tacos With Spicy Cabbage Slaw
+CURRENT_DESCRIPTION: i love these fish tacos.  you can find them in many california areas.  you can either order the fish grilled or fried and because i love deep fried food, it's always fried fish for me when ordering or making them.  besides the spicy cabbage slaw i also like to top the whole thing with mounds of salsa and taco sauce. goes great with pacifico!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salsa, mayonnaise, vegetable oil, beer, all-purpose flour, salt
+---
+TITLE: Baja Pork Chops  Pressure Cooker
+CURRENT_DESCRIPTION: a quick and tasty one pot meal!      the original recipe comes from the pressured cook and includes sweet potatoes, however i've found it  very difficult to keep from over cooking the sweet potatoes so substituted red potatoes.   also made some other changes to the recipe to 'kick it up a notch'.    total time includes marinading the pork chops.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bottled chili sauce, spicy brown mustard, worcestershire sauce, chipotle pepper, adobo sauce, maple syrup
+---
+TITLE: Baja Potato Salad
+CURRENT_DESCRIPTION: this is a zesty potato salad that is a nice change of pace. it is great with a grilled steak! recipe can be doubled and the seasonings can be adjusted to your taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, celery, onion, diced green chilies, cilantro, low-fat cream cheese
+---
+TITLE: Baja Sandwich
+CURRENT_DESCRIPTION: quick, tasty and low-cal! another of my successful
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat bread, low-fat cream cheese, avocado, taco sauce, lemon juice, salt
+---
+TITLE: Baja Sauce
+CURRENT_DESCRIPTION: creamy happiness for shrimp and fish wraps.  also good for dipping fresh veggies!  i use light mayonnaise and low fat sour cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, sour cream, avocado, fresh lime juice, cilantro leaf, jalapeno pepper
+---
+TITLE: Baja Seafood Stew
+CURRENT_DESCRIPTION: from betty crocker's southwest cooking, chock full of fresh flavors & delicious seafood!  posted for zaar world tour 5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, green chili, garlic cloves, olive oil, dry white wine, orange peel
+---
+TITLE: Baja Shrimp Tacos  Grilled Corn Salsa   Chipotle Yogurt  Rsc
+CURRENT_DESCRIPTION: ready, set, cook! hidden valley contest entry.  transport yourself to baja with these easy and delicious shrimp tacos!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium shrimp, olive oil, hidden valley original ranch seasoning mix, corn, salsa, greek yogurt
+---
+TITLE: Baja Spinach Dip
+CURRENT_DESCRIPTION: addictive! swiss chard is a good sub for the spinach. i have also divided this into smaller portions, frozen, and thawed in fridge. works great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach, onion, garlic cloves, canola oil, tomatoes and green chilies, cream cheese
+---
+TITLE: Baja Style Grilled Tempeh Tacos
+CURRENT_DESCRIPTION: from the veganomicon.  i add lots of hot sauce to this (both in the lime creme and the tempeh marinade).  it's very pretty with shredded purple cabbage, but you can substitute with lettuce if you'd prefer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cabbage, carrot, apple cider vinegar, pickled jalapeno peppers, salt, fresh ground black pepper
+---
+TITLE: Baja Tuna Steaks
+CURRENT_DESCRIPTION: spicy baja tuna steaks topped with your favorite guacamole. the recipe #400754 has chili's that are quite spicy and the guacamole is a perfect accomodante. my chili powder is very hot and fresh. if need be do double yours accordingly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tuna steaks, salt, coriander seed, chili powder, juice, onion
+---
+TITLE: Baja Vegetable Stew
+CURRENT_DESCRIPTION: from the ellsworth cooking school in ellsworth, maine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red chili peppers, olive oil, onion, garlic, cumin, tomatoes
+---
+TITLE: Bajan Banana Cake
+CURRENT_DESCRIPTION: this recipe is a favorite at the almond resorts, barbados.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, rolled oats, mixed nuts, cornmeal, cooking oil, almond essence
+---
+TITLE: Bajan Beans
+CURRENT_DESCRIPTION: a wonderful and healthful combination of beans, rice and vegetables.  it's also very pretty, vegetarian, caribbean and low-fat.  it has a meaty texture and mild curry flavor.  my boyfriend, who is not fond of curry dishes, loved this.  if you don't want any peppers left over, you could just add a whole red or orange pepper for color.  flageolet beans are a bit on the expensive side, so buy cannellini if you'd like to save money.  adding tofu, a meat substitute or cooked meat would make this a more substantial one-dish meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, green chili peppers, curry powder, vegetable broth, brown rice
+---
+TITLE: Bajan Sweet Bread
+CURRENT_DESCRIPTION: this is also known as coconut bread. traditionally it's eaten for breakfast or tea. posted for zaar world tour 05
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut, butter, flour, shortening, baking powder, salt
+---
+TITLE: Bajan Sweet Bread  Barbados
+CURRENT_DESCRIPTION: a sweet coconut bread with a light almond flavor and little bits of dried fruit.  eat a slice as a snack, dessert, or as toast for breakfast. the bread is a little crumbly (like banana bread,) and absolutely delicious! from caribbeanchoice.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, shortening, butter, flour, salt, coconut
+---
+TITLE: Bak Ku Teh  Pork Rib Tea Soup
+CURRENT_DESCRIPTION: found online; posting for zwt6 (asia/singapore).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork back ribs, garlic clove, water, cinnamon stick, star anise, white peppercorns
+---
+TITLE: Bakari S Cabbage  How I Remember It
+CURRENT_DESCRIPTION: i once had a friend in town whose husband is from tanzania. this is one of the sides that was served with some coconut fish one evening i was over for dinner. poor little me had only had boiled cabbage growing up. i couldn't get enough of this! now that i am more knowledgeable, i know this is just a variation on braising cabbage. bakari told me it is very important to slice the cabbage thin. i can't remember if his had garlic in it but i usually add it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cabbage, vegetable oil, butter, garlic cloves, turmeric, salt and pepper
+---
+TITLE: Bake A Chocolate Cake
+CURRENT_DESCRIPTION: the mention of chocolate cake brings water in everyone's mouth. this article will help you bake a chocolate cake on your own. here are easy and simple steps to bale a chocolate cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa, brown sugar, baking soda, flour, salt, eggs
+---
+TITLE: Bake Cheez It Chicken Strips
+CURRENT_DESCRIPTION: this is a bit different than the other cheez-it chicken recipes posted. i use mayo to keep the chicken juicy.  this is a favorite of my boys, and reasonably lower in fat than fried chicken strips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, mayonnaise, cheez-it crackers, cayenne pepper, garlic salt, black pepper
+---
+TITLE: Bake Exchange Butter Tart Bars
+CURRENT_DESCRIPTION: i received these from pamela's annual baking exchange and thought that i'd share the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, flour, eggs, baking powder, salt
+---
+TITLE: Bake Fish
+CURRENT_DESCRIPTION: taste nice and this recipe come from my friend
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red sea bass, red chilies, ginger, chili-garlic sauce, char siu sauce, black bean garlic sauce
+---
+TITLE: Bake Fried Potatoes
+CURRENT_DESCRIPTION: papas fritas from steven raichlen's healthy latin cooking.  i have made these a lot!  they are so good. soaking in the water makes the texture of these perfect and the paprika gives them good coloring.  the taste fried, but they are much more healthy.  i use a cookie-sheet covered in foil and sprayed with pam.  the key is to flip/ stir after 10 minutes or they will stick. if your potatoes are small, use four.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, extra virgin olive oil, garlic clove, salt, ground black pepper, paprika
+---
+TITLE: Bake Off Contest  Peanut Butter Brownie Cookies
+CURRENT_DESCRIPTION: this recipe is off of the pillsbury web site and was a bake-off contest winner by deb mcgowan.   i took these cookies to an open house that i was holding and they were a hit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fudge brownie mix, butter, cream cheese, egg, powdered sugar, creamy peanut butter
+---
+TITLE: Bake Or Break Nutella Oatmeal Cookies
+CURRENT_DESCRIPTION: i have a wonderful relationship with nutella.  it's manna from heaven.  it's ambrosia straight from the elysian fields.  it's delicious in cakes, ice creams, spread on bread and licked off a loved one's fingers.  i found this recipe on a favorite food blog, bake or break.  it had the magic word it in:  nutella!  the minute i read the blog entry i knew i had to try these out.  these are amazingly easy-to-make cookies with a powerful nutella flavor.  you would think that with nutella in the recipe that would be enough, but noooooooooo!  there's also a heavy, heady dose of cocoa in there, so it's chocolate overload.  and what's so bad about that?  i find it very hard to share these cookies, i really have to love you to let you have one out of my stash.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, milk, sugar, cocoa, almond liqueur, nutella
+---
+TITLE: Bake Sale Banana Bread
+CURRENT_DESCRIPTION: i use this recipe at work,(in a bakery). so, it makes a lot! good for institutional use or when a large amount is needed; and ample room is available. wait till the banana's are almost rotten for the best taste. they'll be gross but tasty. slowly save them up in your freezer till you have enough; or check with your grocery store for overripe ones.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, bananas, vegetable oil, eggs, bread flour, ground cinnamon
+---
+TITLE: Bake Sale Lemon Bars
+CURRENT_DESCRIPTION: this is a recipe from taste of home. my husband says these are better than his mother's, and she's a repeat blue prize winner. these absolutely melt in your mouth and leave you begging for more.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, confectioners, ,, ,, ,, ,
+---
+TITLE: Bake Sale Time   Rice Krispies W  Malted Milk Ball Bars
+CURRENT_DESCRIPTION: here's one to add to your bake sale repertoire--and they'll be just enough different [but still the same thing] to get the kids curious, and good enough that they'll sell like "hot cakes!"    save a couple for the home-folks, because you won't be bringing any home when you take these to the potluck or family reunion picnic!   i use two bowls (recycle the first one) so i have everything ready to pour and mix--goes much quicker and no wasting time to measure when the stuff is hot!    again, the gals at taste of home get all the credit--aug/sep '09.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: large marshmallows, butter, rice krispies, malted milk balls, instant malted milk powder, chocolate chips
+---
+TITLE: Baked   Apple Oatmeal Raisin Cookie  Oatmeal
+CURRENT_DESCRIPTION: for years i never ate oatmeal due to the "mushy" texture. after seeing a baked oatmeal prepared on foodnetwork, it inspired me to come up with a few baked oatmeal recipes inspired by some popular baked goods. this oatmeal has a much more firm texture. check out my recipes for recipe #354498 and recipe #354499.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick oats, brown sugar, salt, cinnamon, nutmeg, milk
+---
+TITLE: Baked   Banana Bread  Oatmeal
+CURRENT_DESCRIPTION: for years i never ate oatmeal due to the "mushy" texture. after seeing a baked oatmeal prepared on foodnetwork, it inspired me to come up with a few baked oatmeal recipes inspired by some popular baked goods. this oatmeal has a much more firm texture. check out my recipes for recipe #354497 and recipe #354498.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick oats, sugar, cinnamon, nutmeg, salt, milk
+---
+TITLE: Baked   Bread Machine  Focaccia With The Works
+CURRENT_DESCRIPTION: i use my bread machine to do all the grunge of making the dough for this recipe. keeps the kitchen clean too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, water, oil, garlic powder, onion powder, sugar
+---
+TITLE: Baked   Cranberry Nut Bread  Oatmeal
+CURRENT_DESCRIPTION: for years i never ate oatmeal due to the "mushy" texture. after seeing a baked oatmeal prepared on foodnetwork, it inspired me to come up with a few baked oatmeal recipes inspired by some popular baked goods. this oatmeal has a much more firm texture. check out my recipes for baked "apple oatmeal raisin cookie" oatmeal and baked "banana bread" oatmeal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quick oats, brown sugar, cinnamon, salt, dried cranberries, pecans
+---
+TITLE: Baked  Apple Cinnamon Oatmeal
+CURRENT_DESCRIPTION: this is a twist on regular oatmeal for breakfast. it's quick because you "bake" the apples in the microwave and use instanat oatmeal.
+note: most of y measurements are guestimates because this was the first time i made this recipe so feel free to add or subtract ingredients. this makes 2 servings but you can easy double it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, brown sugar, cinnamon, oats, dried cranberries, margarine
+---
+TITLE: Baked  Biscuit Filled Apple
+CURRENT_DESCRIPTION: an easy-to-make, dessert, impressive presentation. makes a nice brunch addition. recipe donated by foodland ontario.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, cinnamon, apples, biscuit mix, milk
+---
+TITLE: Baked  Caught  Fish
+CURRENT_DESCRIPTION: my 7 yr old came home from a friend's house raving about dinner and saying i *had* to call and get the recipe. i was surprised when she said it was fish, as she is not the biggest fan. when i asked if she knew what kind of fish it was, she nodded enthusiastically and said it was 'caught fish.' i made a phone call to check it out...here for you is my friend's recipe for super easy 'cod fish.' ;o) btw, she said bags of frozen cod fillets were readily available at the local sam's warehouse but had been hard to find at the groceries.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cornmeal, onion salt, pepper, butter, cod
+---
+TITLE: Baked  Cheese Polenta With Swiss Chard
+CURRENT_DESCRIPTION: we love this casserole, easy to put together and oh so good and good for you. i found the recipe at fooddownunder.com ,and make a couple changes to our liking.
+note: this recipe can be prepared up to 24 hours in advance.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, swiss chard, cooking spray, chicken broth, water
+---
+TITLE: Baked  Chicken Breasts With Cheese
+CURRENT_DESCRIPTION: a dish that sounds delicious and easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, boneless chicken breasts, salt and pepper, scallions, parsley, dried thyme
+---
+TITLE: Baked  Chicken Pot Stickers With Sweet Asian Dipping Sauce
+CURRENT_DESCRIPTION: soooo good! an asian favorite with a twist! from pampered chef. a great appetizer, meal, or snack.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white chicken meat, water chestnuts, green onions with top, carrot, fresh gingerroot, soy sauce
+---
+TITLE: Baked  Chicken Salad
+CURRENT_DESCRIPTION: a delicious recipe, that i got from a co-worker, i have tried it. it is fantastic. this needs to be refrigerated overnight for 8 hours.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken breasts, mayonnaise, onion, celery, hard-boiled eggs, chopped pimiento
+---
+TITLE: Baked  Chicken Stuffed Portabella Mushrooms
+CURRENT_DESCRIPTION: i found this one on the net, and thought i would give it a try.  after thoroughly enjoying this recipe, i decided to post it.  what a great hearty, lunch/dinner... or an appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinara sauce, fresh basil leaf, portabella mushrooms, cooked chicken, garlic clove, green onion
+---
+TITLE: Baked  Cod   Bacalhau No Forno
+CURRENT_DESCRIPTION: this is a very typical salted cod fish recipe here in portugal, you'll find it in about just  any restaurant.  this is very easy to prepare, as usually
+you will have to soak the salted cod,for 24 hrs, changing the water 3-4
+times. that's a must with any kind of salted cod-fish.  i usually do this and
+then freeze it,  that way  i'm always prepared. 
+i usually do this recipe with fresh new small potatoes skin and all, it's
+wonderful.  but if the potatoes are not new then by all means peel them.
+
+i hope you all enjoy this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cod fish fillets, tomatoes, onions, garlic cloves, olive oil, white wine
+---
+TITLE: Baked  Fish  Almondine
+CURRENT_DESCRIPTION: this delicious fish is another of our favorites when i make it. i found this recipe in a luby's cafeteria free recipe cards dispenser at the cash register counter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry breadcrumbs, almonds, light butter, kosher salt, cod fish fillets, all-purpose flour
+---
+TITLE: Baked  Fried  Chicken Thighs
+CURRENT_DESCRIPTION: my husband and i love comfort food like fried chicken. but, in order to keep our diet lower in fat, we make this delicious recipe instead. the chicken comes out crispy on the outside and moist inside. the coating has a little "bite" to it but you can adjust the red pepper to your taste. we both prefer dark meat and when thighs (or legs) go on sale we stock up to make this family favorite. we tried it with chicken breasts but felt it was too dry for our liking. i often serve this chicken with my spicy rice and kale.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil flavored cooking spray, breadcrumbs, parmesan cheese, cornmeal, ground red pepper, garlic powder
+---
+TITLE: Baked  Lite  Spam
+CURRENT_DESCRIPTION: my younger sister found this recipe on a very old spam can at an old family house at lake chelan.  i modified how i serve it (in slices and by using lite spam) but, the rest of the recipe is the same...a family favorite. thank you daralyn!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spam, vinegar, brown sugar, prepared yellow mustard, water, ground cloves
+---
+TITLE: Baked  Macaroni And Cheese
+CURRENT_DESCRIPTION: this is the macaroni & cheese that i grew up on. it's still my favorite. i like the cheese on top crispy. it is almost like anthony bourdain's mom made. hope you enjoy it too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shell macaroni, salt, pepper, sharp cheddar cheese, butter, milk
+---
+TITLE: Baked  Mostaccioli Florentine
+CURRENT_DESCRIPTION: a good and easy recipe, start to finnish in less than 1 hour. the recipe comes from ronzoni.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mostaccioli pasta, spaghetti sauce, water, low-fat cream cheese, milk, frozen spinach
+---
+TITLE: Baked  Mushroom Chicken I I
+CURRENT_DESCRIPTION: my friend windy gave me this recipe the other day.  it was easy to make and was a nice change to those recipes that call for a can of 'cream of this or that soup'.  friday's pal has this recipe posted but she has a couple of extra ingredients in her's.  i made extra when i fixed this so we are having it again tonight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, flour, butter, mushroom, chicken broth, salt
+---
+TITLE: Baked  Not Fried  Mac And Cheese Balls
+CURRENT_DESCRIPTION: this traditionally fired appetizer is now a bit healthier for you, in this delicious baked version!
+
+these are great served with marianara sauce for dipping!
+
+note: the prep time does not include the overnight chilling of the mac and cheese
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: macaroni and cheese mix, flour, black pepper, cayenne pepper, garlic powder, onion powder
+---
+TITLE: Baked  Or Grilled  Cedar Plank Salmon  Real Simple
+CURRENT_DESCRIPTION: this recipe is a (very) slightly adapted version of a recipe from real simple magazine, jan. 2009. it was voted no. 9 in a list of readers 50 favorite recipes! it is delicious and so easy! buy your salmon fillets fresh (with skin) and you won't get that fishy smell at all! i baked the salmon when i made this recipe, but i have also included instructions for grilling outdoors. the cedar plank adds a wonderful, smoky flavor. it should be 7 x 14 x 1/3 inches. i found cedar planks in the meat department of my local grocery store. you must soak the cedar plank in water for no less than 30 minutes before use. prep time includes soaking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, light brown sugar, canola oil, dried thyme, cayenne pepper
+---
+TITLE: Baked  Rice
+CURRENT_DESCRIPTION: amazingly delicious and sooo easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, long grain rice, butter, salt and pepper, onion
+---
+TITLE: Baked  Stuffed Scallops
+CURRENT_DESCRIPTION: another new england favorite from my mom!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bay scallops, margarine, onion, garlic, parsley flakes, sherry wine
+---
+TITLE: Baked  Tandoori  Vegetables
+CURRENT_DESCRIPTION: 'tandoori' means from the oven. this dish fits the busy lifestyle perfectly, especially when you have to make larger quantities. the baked look is very appealing too. use frozen veggies as desired. you may make it in advance and refrigerate. (from the cookbook 'recipes with a spice - indian cuisine for balanced nutrition')
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, carrots, cauliflower, green beans, bell peppers, eggplant
+---
+TITLE: Baked  Vegetarian  Chili Spaghetti
+CURRENT_DESCRIPTION: mmmm, comfort food!  i love this topped with chopped onions.  kinda reminds me of steak n shakes chili spaghetti, but so much better! oh, and it's vegetarian too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, fat free spaghetti sauce, vegetarian chili, mushrooms, chili powder, garlic powder
+---
+TITLE: Baked  Ziti  W  Tofu Shirataki
+CURRENT_DESCRIPTION: quick pasta dish without the calories!  makes three huge servings if made as one-dish meal or 4-6 if served in addition to fresh bread and green salad.  uses tofu shirataki noodles to drastically cut calories.  ground beef, chicken or turkey can be subbed for the buffalo meat, ounce for ounce.  *this entire dish as listed below has 917 calories, 31g of fat and 97g of protein (that's 305 calories, 10g of fat & a whopping 32g of protein per serving). calculated using eden organic pasta sauce and kraft cheeses.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tofu shirataki noodles, ground buffalo meat, onion, green pepper, garlic cloves, fresh ground black pepper
+---
+TITLE: Baked  Ziti With Hot Italian Sausage   Fresh Mozzarella
+CURRENT_DESCRIPTION: this is a modified version of a recipe given to me by momma maglione. her recipe does not include the sausage and uses her secret family gravy recipe which i cannot post. ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ziti pasta, hot italian sausage links, white wine, san marzano tomatoes, crushed red pepper flakes, salt
+---
+TITLE: Baked 4 Cheese Spaghetti
+CURRENT_DESCRIPTION: from food and wine, we all enjoyed this easy dish, and leftovers were great reheated for lunch the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, fontina, mozzarella cheese, gruyere, gorgonzola, salt & freshly ground black pepper
+---
+TITLE: Baked A Nju Pears In Butterscotch Schnapps Sauce
+CURRENT_DESCRIPTION: five to ten minutes prep, bake 35 minutes and serve warm with whipped cream. you may cool also and serve later. you may peel. slice and core. if you like the the peel, leave on the slices. i personally leave the peel on.
+a quick dessert for dinner guests. my dh wouldn't eat the a'nju pears plain, so i came up with this recipe. the alcohol cooks off so this is child friendly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pears, margarine, butterscotch schnapps, brown sugar, cinnamon, whipped cream
+---
+TITLE: Baked Acorn Squash   Sour Cream
+CURRENT_DESCRIPTION: acorn squash recipe we had at thanksgiving dinner.  very tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, onion, butter, sour cream, salt & pepper
+---
+TITLE: Baked Acorn Squash And Apples
+CURRENT_DESCRIPTION: this recipe is posted in response to a request for ways to use acorn squash. i've never tried it, but it looks excellent! i got it from jackie manni at the post punk kitchen (a website of vegan recipes). i'm sorry the amounts aren't more specific, but this is what she posted!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, water, apples, canola oil, maple syrup, pumpkin pie spice
+---
+TITLE: Baked Acorn Squash With Apple Stuffing
+CURRENT_DESCRIPTION: this is so nice with a pork roast or beef, we have even had it with chicken.
+points 1.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, apples, celery, onions, margarine, salt
+---
+TITLE: Baked Acorn Squash With Cinnamon
+CURRENT_DESCRIPTION: this says fall. orange, crispy, with spices to make you swoon. baked pieces look gorgeous on a beautiful serving platter. or on your plate!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, canola oil, cinnamon, nutmeg, raisins
+---
+TITLE: Baked Acorn Squash With Mustard And Honey
+CURRENT_DESCRIPTION: there are only 4 ingredients in this recipe (well, 6 if you count the salt & pepper)n but this recipe is a hit with everyone--an easy, tasty, addition to a weeknight meal. just be careful cutting the squash. recipe comes courtesy  sara moulton of the food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, unsalted butter, dijon mustard, honey, kosher salt, fresh ground black pepper
+---
+TITLE: Baked Adzuki Beans With Eggplant And Tomatoes
+CURRENT_DESCRIPTION: this isn't quite a stew, a chili, or a ratouille, yet it reminds me a bit of each. you'll just have to try it for yourself and see what you think. whatever you want to call it, we call it tasty. can be served as a side dish as well, but we like it on it's own accompanied by a nice loaf of a crusty bread. plan ahead, the preparation time does not include three hour soaking time for the beans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: adzuki beans, bouquet garni, eggplants, kosher salt, olive oil, onion
+---
+TITLE: Baked Aegean Style Eggplant With Lentils
+CURRENT_DESCRIPTION: a lovely use of different flavors and textures in greens and legumes is featured in this easy dish based on a recipe from “greens” - a magazine by the editors of “vegetarian times.”  swiss chard, with mild leaves and crunchy and slightly sweet stems, combines well with eggplant and lentils.  you can also use other leafy greens such as spinach (baby or otherwise) or kale!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lentils, yellow sweet onion, japanese eggplants, garlic cloves, fresh parsley, fresh basil
+---
+TITLE: baked alaska
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, salt, egg yolks, sugar, water
+---
+TITLE: Baked Alaska Ettes
+CURRENT_DESCRIPTION: a sweet little morsel from the mississippi valley chapter of the united states regional cookbook, culinary arts institute of chicago, 1947.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, egg, light cream
+---
+TITLE: Baked Alaska Meatloaf
+CURRENT_DESCRIPTION: no, not whipped egg whites but whipped potatoes encrust the delicious loaf. cheddar cheese is baked into the meat and when you cut into this, the look and taste will blow you away! from my trusty old pillsbury family cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, cheddar cheese, soft breadcrumbs, mushroom stems and pieces, onion, ketchup
+---
+TITLE: Baked Alaska Salmon Fillet With Mustard Sauce
+CURRENT_DESCRIPTION: baked alaska salmon fillet with mustard sauce
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salmon fillets, clarified butter, vegetable oil, lemon, butter, shallot
+---
+TITLE: Baked Alaska With Strawberry Ice Cream
+CURRENT_DESCRIPTION: this was created by the chef of elizabeth taylor. this is a very impressive dessert when entertaining that most people would like to make and have no idea where to begin, not to mention that making it frightens most people, because of ice cream in the oven. if you follow these directions, you will find it rather easy to make, even though there are several steps.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, vegetable shortening, granulated sugar, eggs, red food coloring, vanilla extract
+---
+TITLE: Baked Alfredo Pasta
+CURRENT_DESCRIPTION: a wonderfully grown-up macaroni and cheese. great served with a salad and bread or steamed peas or broccoli.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, heavy cream, parmesan cheese, nutmeg, garlic powder, black pepper
+---
+TITLE: Baked Alfredo Ravioli Chicken Oamc
+CURRENT_DESCRIPTION: use cheese filled ravioli, or meat if you like and omit the chicken.
+substitute pesto sauce for the alfredo for a great new flavor!
+use asiago or romano cheese instead of parmesan!
+like dream dinners cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, cheese ravioli, cooked chicken breast, fat free chicken broth, zucchini, red bell pepper
+---
+TITLE: Baked Almond Apples
+CURRENT_DESCRIPTION: a great alternative to apple pie, especially since it is already fall. found on odense.com
+haven't tasted it as yet but it sounds great.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, butter, flour, sliced almonds, brown sugar, raisins
+---
+TITLE: Baked Almond Chicken
+CURRENT_DESCRIPTION: easy to make, freezes well for oamc. we made something similar to this at dream dinners and have continued to make it ourselves, it was so easy! you may want to pound out very thick breasts so you get more crusty topping per bite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: panko breadcrumbs, sliced almonds, salt, pepper, flour, eggs
+---
+TITLE: Baked Alpine Noodles And Cheese
+CURRENT_DESCRIPTION: this swiss-inspired noodle dish is rich and satisfying.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg noodles, vegetable oil, butter, pancetta, caraway seeds, onions
+---
+TITLE: Baked Ambrosia
+CURRENT_DESCRIPTION: here's a bit of a twist to the usual 'ambrosia' recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot halves, peaches, purple plums, orange, orange juice, brown sugar
+---
+TITLE: Baked American Spaghetti
+CURRENT_DESCRIPTION: this is a recipe i used to make years ago and forgot about until my sister wanted the recipe.....i had to go hunting for it and i am putting here for her to get and for me to rememeber to make again.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, onion, garlic clove, ground beef, diced tomatoes, tomato sauce
+---
+TITLE: Baked Anna Potatoes
+CURRENT_DESCRIPTION: this is a nice change of pace for fixing potatoes. take them to a dinner party. everyone will love them. very attractive and classy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: idaho baking potatoes, yellow onions, chicken broth, parmesan cheese, salt and black pepper, paprika
+---
+TITLE: Baked Apple And Cheese Casserole
+CURRENT_DESCRIPTION: apples and cheddar cheese are baked together and the result is great.  it can be either a dessert or side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen harvest apples, sugar, flour, cheddar cheese, butter, vanilla wafer
+---
+TITLE: Baked Apple Breakfast Treat  Sugar Free
+CURRENT_DESCRIPTION: i have been making this so long, i don't remember where i got it from.  be careful of the almond extract - too much will make it bitter
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, low fat cottage cheese, splenda sugar substitute, almond extract, apple pie spice, cinnamon
+---
+TITLE: Baked Apple Butter
+CURRENT_DESCRIPTION: easy recipe for apple butter.  no real work involved, just stirring.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: applesauce, brown sugar, white vinegar, ground cinnamon, ground cloves
+---
+TITLE: Baked Apple Butter Sugar Free
+CURRENT_DESCRIPTION: this is a favorite of my grandsons and all my kids. i found it on recipeusa and adapted it for sugar free apple butter. of course, there is sugar in the apples, but none added to the recipe. it's great on toast or as a condiment.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, unsweetened apple juice, splenda sugar substitute, cinnamon, ground cloves, allspice
+---
+TITLE: baked apple cake
+CURRENT_DESCRIPTION: do you like baked apples? do you like cake? then you will love this treat. this cake will make a wonderful dessert or a different treat for an afternoon break. i use very small apples for this cake. i love the baked apples flavours in combination with a more dry texture of the cake. the cake is not overly sweet and will take up any juices from the apples. the taste of the slightly tart apples, which are still a bit firm after baking and the fluffy texture of the cake is great. the apples are stuffed with my favorite combination of marzipan, raisins and rum. if you want to make it for kids, you can sub the rum (see note on this). hope you enjoy it as much as i do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, marzipan, raisins, dark rum, cinnamon stick, butter
+---
+TITLE: Baked Apple Cake
+CURRENT_DESCRIPTION: do you like baked apples? do you like cake? then you will love this treat. this cake will make a wonderful dessert or a different treat for an afternoon break. i use very small apples for this cake. i love the baked apples flavours in combination with a more dry texture of the cake. the cake is not overly sweet and will take up any juices from the apples. the taste of the slightly tart apples, which are still a bit firm after baking and the fluffy texture of the cake is great. the apples are stuffed with my favorite combination of marzipan, raisins and rum. if you want to make it for kids, you can sub the rum (see note on this). hope you enjoy it as much as i do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, marzipan, raisins, dark rum, cinnamon stick, butter
+---
+TITLE: Baked Apple Chicken
+CURRENT_DESCRIPTION: easy baked chicken recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken thighs, apple cider, chicken bouillon powder, garlic cloves, tarragon, thyme
+---
+TITLE: Baked Apple Cider Donuts
+CURRENT_DESCRIPTION: not only do they taste like apples, they look like apples.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, vegetable oil, applesauce, sugar, eggs, vanilla extract
+---
+TITLE: Baked Apple Cranberry French Toast
+CURRENT_DESCRIPTION: a yummy breakfast guaranteed to please your family and friends.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, granny smith apples, corn syrup, milk, french bread, light brown sugar
+---
+TITLE: Baked Apple Crisp
+CURRENT_DESCRIPTION: if you've got apples or pears that are slightly bruised they can be made into this delicious dessert in no time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, lemon juice, water, porridge oats, soft brown sugar, butter
+---
+TITLE: Baked Apple Crumble
+CURRENT_DESCRIPTION: i stopped by the super busy union square market on saturday morning and picked up some wine sap apples. this special variety is supposed to be one of the best for baking, so i had to give them a try. you can make this easy dessert in a big batch or small. it has simple ingredients, is very healthy, but is also super comforting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, apple juice, old fashioned oats, walnuts, cinnamon, pure maple syrup
+---
+TITLE: Baked Apple Custard
+CURRENT_DESCRIPTION: easy traditional custard with a difference that children like. recipe source: bon appetit (november 1981)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, apple, eggs, sugar, salt, milk
+---
+TITLE: Baked Apple Donuts
+CURRENT_DESCRIPTION: from cooks.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, flour, sugar, salt, egg, nutmeg
+---
+TITLE: Baked Apple Doughnuts For Abm
+CURRENT_DESCRIPTION: these are the real deal, not muffins.  adapted from the scribbit website. posted by request.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, wheat germ, flour, olive oil, brown sugar, apple
+---
+TITLE: Baked Apple Dumpling Surprise
+CURRENT_DESCRIPTION: my friend sent me this recipe. i haven't gotten to try it yet but it sure sounds delicious. it has a special ingredient in it that i bet gives it a lemon citrus taste. i can't wait to try it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, pillsbury refrigerated crescent dinner rolls, sugar, butter, cinnamon, mountain dew soda
+---
+TITLE: Baked Apple Dumplings
+CURRENT_DESCRIPTION: an old new england comfort food.  from the us regional cookbook, chicago culinary arts institute, 1947.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, shortening, egg yolk, milk
+---
+TITLE: Baked Apple For One
+CURRENT_DESCRIPTION: this smells delicious while it bakes. it can easily be multiplied to accomodate a larger family. if you use a cold apple, the sugar will stick to the outside nicely, but it will take longer to cook. i have heard of people using honey instead of sugar, but it tastes funny to me.  (note:  i'm sorry i originally forgot to post the baking temperature of 375)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple, water, sugar, raisins, cinnamon
+---
+TITLE: Baked Apple French Toast
+CURRENT_DESCRIPTION: this is something i make for a special breakfast when the whole family has time for a leisurely morning. you can refrigerate it overnight and pop it into the oven in the morning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, butter, brown sugar, cream cheese, bread, eggs
+---
+TITLE: Baked Apple French Toast   Oamc
+CURRENT_DESCRIPTION: this can take a little time but it's really worth it.  great for a meal with family when they "happen" to come over.  i've never tried to break it down into smaller pans but i don't see why a 9x9 wouldn't work too.  the brown sugar and butter mixed give it a caramel taste, but for more fat/calorie conscious people just put in some brown sugar on the bottom that's really good too.  this is not a quickish meal because of the time to prepare (bake it)but it's a no work involved brunch.  alternatively you can bake it, package it and freeze it.  that works great too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple pie filling, brown sugar, cream cheese, bread, eggs, milk
+---
+TITLE: Baked Apple French Toast Recipe
+CURRENT_DESCRIPTION: taste of home recipe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, apple pie filling, eggs, milk, vanilla extract, ground cinnamon
+---
+TITLE: Baked Apple Hot Toddy
+CURRENT_DESCRIPTION: a warm winter drink from mixologist chris raab of sb3 and le poisson rouge in new york city.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, light brown sugar, honey syrup, lemon juice, brandy, calvados
+---
+TITLE: Baked Apple Maple Pancakes
+CURRENT_DESCRIPTION: tasty breakfast treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pancake batter, butter, apples, pecans, maple syrup, ground cinnamon
+---
+TITLE: Baked Apple Oatmeal
+CURRENT_DESCRIPTION: i found this recipe on another site.  since it's baked and doesn't have eggs in it, i thought that the recipe looked like something i'd want to post here for safekeeping.  i don't normally use soymilk but may try this anyway or use skim milk.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, old fashioned oats, raisins, ground cinnamon, salt, soymilk
+---
+TITLE: Baked Apple Pancake
+CURRENT_DESCRIPTION: easy enough to make for an everyday breakfast but fancy enough to wow brunch guests.  the recipe comes from the crow's nest.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, sugar, cinnamon, granny smith apples, eggs, milk
+---
+TITLE: Baked Apple Pancakes
+CURRENT_DESCRIPTION: from emeril - featured on good morning america.  from emeril's "there's a chef in my world".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, whole milk, all-purpose flour, ground nutmeg, vanilla extract, unsalted butter
+---
+TITLE: Baked Apple Pie Jam
+CURRENT_DESCRIPTION: this is a recipe a friend shared with me many years ago.  from the first time i tried it i knew it was a keeper!  i made a batch of the jam and there was a little left in the pot so i poured it into a small bowl to pop into the refrigerator.  i did the fatal mistake of taking a spoonful to try it.  it never made it the refrigerator after all!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, lemon juice, cinnamon, ginger powder, nutmeg, white sugar
+---
+TITLE: Baked Apple Pudding
+CURRENT_DESCRIPTION: another delicious recipe by lucy waverman, food and drink!
+steamed puddings have fallen out of fashion but try this oven-baked pudding - a light, apple-based dessert that will be enjoyed by young and old as a grand finale to christmas dinner, or any dinner for that matter. with it, you can serve a caramel sauce and a crème anglaise or just plain old-fashioned ice cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, water, butter, brown sugar, eggs, dried cranberries
+---
+TITLE: Baked Apple Slices
+CURRENT_DESCRIPTION: i haven't made this yet, but it sounds really yummy. baking time depends of the type of apples you use.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking apples, sugar, cinnamon, nutmeg, ground ginger, apple cider
+---
+TITLE: Baked Apple Slices With Peanut Butter Crumble
+CURRENT_DESCRIPTION: here is another recipe that was featured in an email from the www.hersheys.com website.  one reviewer said the following:  "we really liked this one - even the child who doesn't care for peanut butter! the mix of flavors and textures was interesting and made a great finish to a zippy meal. next time i'll add some more cinnamon though as the peanut butter overwhelmed it."  i may take that into consideration when i get around to trying this!  :-)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, sugar, all-purpose flour, butter, quick-cooking oats, ground cinnamon
+---
+TITLE: Baked Apple Turnovers
+CURRENT_DESCRIPTION: these are so easy and quick!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple pie filling, apple pie spice, refrigerated pie crusts, powdered sugar, milk, vanilla extract
+---
+TITLE: Baked Apples
+CURRENT_DESCRIPTION: this dessert is like homemade apple pie with 90% less effort.
+served al amode with a side of vanilla ice cream, this dessert is both rich and easy.
+
+i found this recipe and am posting it for the world to see courtesy of:
+
+http://frumteacher.blogspot.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, puff pastry, sugar, cinnamon, egg
+---
+TITLE: Baked Apples   Yum Yum
+CURRENT_DESCRIPTION: there are many versions of baked apples, and through the years i have tried most of them. this is by far a very delicious recipe. if you have any questions, feel free to e-mail me: alanleonetti@q.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red delicious apples, root beer, brown sugar, granulated sugar, ground cinnamon
+---
+TITLE: Baked Apples  With Chopped Hazelnuts
+CURRENT_DESCRIPTION: good old-fashioned baked apples. a great winter dessert and also gluten free. this recipe makes 6 baked apples. you can substitute different fruit and nut combinations, eg sultanas and sliced almonds.
+these are extremely hot when removed from the oven i usually allow them to sit for about 10 minutes. any extra apples can be stored in the fridge and reheated in the microwave.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, brown sugar, butter, hazelnuts, raisins, orange zest
+---
+TITLE: Baked Apples A La Pierre
+CURRENT_DESCRIPTION: baked apples go back to my childhood. this isn't mom's recipe, just one i picked up a long time ago and naturally it's been changed, morphed, and evolved over the years. my thanks to all of the people i've stolen bits and pieces from. the measure of ingredients is approximate to give you a scale to judge proportions by.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rome apple, dried currants, black walnut, unsalted butter, real maple syrup, dark rum
+---
+TITLE: Baked Apples Ala Erbe
+CURRENT_DESCRIPTION: i thought ginger would be tasty in a baked apple. so i tried it...the results were aromatic, sweet and darkly rich.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, butter, fresh ginger, brown sugar, raisins, dark molasses
+---
+TITLE: Baked Apples And Bananas
+CURRENT_DESCRIPTION: this is great served over oatmeal, french toast or waffles if you don't want to eat it plain. yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, bananas, lemon, dark brown sugar, light brown sugar, apple juice
+---
+TITLE: Baked Apples And Cranberries
+CURRENT_DESCRIPTION: delicious as a dessert or a side dish with chicken or pork!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh cranberries, apples, sugar, quick-cooking oats, brown sugar, pecans
+---
+TITLE: Baked Apples Filled With Berries
+CURRENT_DESCRIPTION: from ruth van waerebeek's "everybody eats well in belgium cookbook." she recommends serving as an accompaniment to roasted poultry or pork.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cranberries, sugar, apples, unsalted butter, water
+---
+TITLE: Baked Apples In Pastry
+CURRENT_DESCRIPTION: i would like to thank busymomof3 for this little treasure in sugar free cooking cookbook that she sent me in the recent cookbook swap.
+
+tip - for an extra rich pastry, use 1 egg yolk and half the amount of water in this recipe.
+
+variation - use pears instead of apples in the recipe.
+
+freezing - these apples freeze well after baking and should be thawed and then re-heated before eating.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, ground nutmeg, butter, ice water, apples
+---
+TITLE: Baked Apples In White Wine
+CURRENT_DESCRIPTION: a great dessert for every day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry white wine, apple juice, light brown sugar, sultana raisin, butter, cinnamon
+---
+TITLE: Baked Apples On The Grill
+CURRENT_DESCRIPTION: this is fun to make and the kids love to help fill the apples. from quick cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tart apples, raisins, flaked coconut, brown sugar, ground cinnamon
+---
+TITLE: Baked Apples Stuffed With Cranberries And Almonds
+CURRENT_DESCRIPTION: serve these tender apples with a sweet-tart filling alongside roasted turkey or pork, a delicious pairing with the apples' hint of cardamom - though you could substitute cinnamon. they make a great stuffing alternative for those who don't eat wheat or gluten. they're also tasty for breakfast, snack or dessert -- perhaps with whipped cream.  from whole foods "the whole deal" monthly newsletter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, butter, cranberries, honey, ground cardamom, dates
+---
+TITLE: Baked Apples Stuffed With Figs And Hazelnuts
+CURRENT_DESCRIPTION: healthy dessert...serve with vanilla ice-cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, dried figs, hazelnuts, lemon, brown sugar, ground cinnamon
+---
+TITLE: Baked Apples Stuffed With Goat Cheese And Leeks
+CURRENT_DESCRIPTION: a savory, cheesy-stuffed baked apple!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, leeks, water, dry white wine, bay leaf, sea salt
+---
+TITLE: Baked Apples Stuffed With Halvah
+CURRENT_DESCRIPTION: this dessert is very easy to do and good enough for company.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking apples, butter, halvah, white wine, cinnamon stick, whipped cream
+---
+TITLE: Baked Apples With Apricot And Walnut Filling  Microwave
+CURRENT_DESCRIPTION: from tempting desserts, this sounds quick and good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried apricot, walnuts, light brown sugar, unsalted butter, granny smith apples, fresh orange juice
+---
+TITLE: Baked Apples With Apricots And Cashews
+CURRENT_DESCRIPTION: created for rsc #6.  we love baked apples in our family, and are always on the lookout for interesting fillings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apples, applesauce, dark raisin, dried apricot, cashews, sugar
+---
+TITLE: Baked Apples With Cajeta
+CURRENT_DESCRIPTION: apples are grown in parts of cohuila and there harvest is celebrated in an annual festival in artega.  this is one of the popular dishes served at the festival.  cajeta is a traditional thick caramel syrup or candy popular throughout latin america by that name or as the related dulce de leche. usually it is made with goat's milk, it can also made with cow's milk (and presented her that way). i have not tried this yet, but this comes from one of my favorite cookbooks and i just love baked apples and cajeta.  the cooking time listed is a bit of an exageration as you can prepare the apples and cajeta simultaneously.  posted for the 'zaar world tour.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, water, sugar, light corn syrup, baking soda, dark brown sugar
+---
+TITLE: Baked Apples With Caramel Sauce
+CURRENT_DESCRIPTION: these are scrumptious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: walnuts, raisins, granny smith apples, lemon, zest of, butter, sugar
+---
+TITLE: Baked Apples With Dates And Apricots
+CURRENT_DESCRIPTION: laura frankel, chef-owner of shallots in skokie, includes this baked apple recipe in her new cookbook, "jewish cooking for all seasons." she thinks baked apples are the perfect, lighter ending to most holiday meals. the apples can be baked 4 hours ahead and kept loosely covered at room temperature. pomegranate molasses (also known as pomegranate paste) can be found in many middle eastern markets, or you can make your own using recipe # 86849.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pitted dates, dried apricot, honey, pomegranate molasses, sweet white wine, ground cinnamon
+---
+TITLE: Baked Apples With Dried Fruit
+CURRENT_DESCRIPTION: this is so simple and delicious. apples stuffed with fruits.
+can be serve with whipped cream. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: golden delicious apples, apple cider, brown sugar, butter, ground cinnamon, nutmeg
+---
+TITLE: Baked Apples With Honey Cream Sauce
+CURRENT_DESCRIPTION: now that fall is here what better time to get fresh apples and try this!
+found this recipe in a newspaper listing the source as: piano, piano, piano by susan mckenna grant
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, honey, sweet wine, heavy cream, apples, butter
+---
+TITLE: Baked Apples With Honey Syrup
+CURRENT_DESCRIPTION: --adopted recipe--
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, walnuts, golden raisin, honey, ground cinnamon, ground cloves
+---
+TITLE: Baked Apples With Mexican Chocolate
+CURRENT_DESCRIPTION: mexican chocolate is a solid disk of bittersweet chocolate flavored with cinnamon.  it's commonly available at ethnic markets or most major supermarkets.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apples, marshmallows, mexican chocolate, unsalted butter, water
+---
+TITLE: Baked Apples With Rum Soaked Raisins
+CURRENT_DESCRIPTION: a wonderful side dish to any pork dish. i serve it instead of applesauce. i never have leftovers with this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, cooking apples, sugar, flour, cinnamon, salt
+---
+TITLE: Baked Apples With Vanilla Sauce
+CURRENT_DESCRIPTION: a easy recipe to make for your company and the best part it is only 2 ww points.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking apples, sugar, cornstarch, salt, nonfat milk, vanilla
+---
+TITLE: Baked Applesauce
+CURRENT_DESCRIPTION: this is a 1960's comfort food that my non cook mother made all the time. we usually had it on friday night with salmon patties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: applesauce, bisquick baking mix, sugar, butter, cinnamon
+---
+TITLE: Baked Applesauce    Like An Apple Crisp
+CURRENT_DESCRIPTION: yum yum yum!  like a super easy apple crisp.  6 ingredients, and takes minutes.  serve warm with ice cream!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chunky applesauce, brown sugar, cinnamon, bisquick, white sugar, margarine
+---
+TITLE: Baked Applesauce Oatmeal
+CURRENT_DESCRIPTION: comfort food!!  if you are a lover of oatmeal, try this wonderful dish!  a good breakfast item and very satisfying.  an easy fix-ahead dish with leftovers warmed in the microwave.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, maple syrup, eggs, applesauce, milk
+---
+TITLE: Baked Apricot Chicken
+CURRENT_DESCRIPTION: this is a quick and easy recipe that's so tasty.  i've made this adding in some dried apricots also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricot preserves, lemon juice, soy sauce, chicken pieces, dry breadcrumbs, butter
+---
+TITLE: Baked Apricot Chicken And Rice
+CURRENT_DESCRIPTION: this is good both hot and cold. served cold in the summer months, you can garnish the dish with fresh fruit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breast halves, apricot preserves, dry onion soup mix, russian salad dressing, rice
+---
+TITLE: Baked Apricot Orange Chicken
+CURRENT_DESCRIPTION: one of the things i admire most about the silver palate cookbooks is the unusual and savory use of fruit in many of their main dishes. this delicious, succulent chicken is no exception! sweet and wonderful!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, salt and black pepper, ground ginger, orange marmalade, orange juice, apple juice
+---
+TITLE: Baked Apricots
+CURRENT_DESCRIPTION: i had not thought about apricots for a long time, but we had an apricot dish when a group that i belong to ate at the woodford reserves for our christmas celebration.  their apricots did have bourbon and were delicious and a little different than the usual casseroles.  i thought i would be able to see their recipe on line, but could not find it.  i did find a couple sites that talked about this southern dish.  they compared the apricots and ham to cranberries and turkey.  i tried it out for a brunch that i was having and found them to be very good.  even my dh who turned up his nose, but thought that he should try them really did like them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apricots, brown sugar, butter, ritz crackers, cinnamon
+---
+TITLE: Baked Apricots With Honey  Albaricoques Al Horno Con Miel
+CURRENT_DESCRIPTION: posted for the zaar world tour 2006.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, apricots, slivered almonds, honey, ground ginger, vanilla ice cream
+---
+TITLE: Baked Arroz Con Pollo
+CURRENT_DESCRIPTION: the original recipe was longer and used chicken pieces, but this is my quick and easy version! i hope you enjoy, it is packed with flavor!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, salt, olive oil, onion, garlic, green pepper
+---
+TITLE: Baked Artichoke   Spinach Cheesy Dip
+CURRENT_DESCRIPTION: this is a great dip to serve at parties or during the holidays. great with sourdough bread or crackers. best served right out of the oven hot and bubbly!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, water-packed artichoke hearts, mayonnaise, cream cheese, onion, garlic cloves
+---
+TITLE: Baked Artichoke And Pesto Risotto
+CURRENT_DESCRIPTION: torn out of a newspaper at some stage - i am making it right now so cannot comment on how it will taste but it seems like a great sort of meal to leave in the oven for the family if you have to go out and leave them to fend for themselves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: passata, chicken stock, onion, arborio rice, artichokes, pesto sauce
+---
+TITLE: Baked Artichoke Appetizer
+CURRENT_DESCRIPTION: this is a yummy favourite of mine to serve as part of pre-dinner munchies, or as a snack to a group of friends (it also doubles well). i found it many years ago in out of this world cookbook ii. credit for the recipe goes to virginia prentice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, parmesan cheese, mayonnaise, worcestershire sauce, garlic salt, tabasco sauce
+---
+TITLE: Baked Artichoke Dip
+CURRENT_DESCRIPTION: this recipe came from bon appetit.  a nice variation of artichoke dip plus it is a little lighter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romano cheese, light mayonnaise, light sour cream, dried marjoram, ground black pepper, onion salt
+---
+TITLE: Baked Artichoke Frittata
+CURRENT_DESCRIPTION: couldn't be easier.  this is baked in a shallow casserole dish or 4 small 1 1/2 cup sized shallow individual pans.  it gets nice and puffy almost like a souffle which makes a beautiful presentation.  i found this recipe in an old sunset cook book.  this is florentine sytle cooking.  makes a great dinner or breakfast.  you can sub jack cheese for the fontina also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen artichoke hearts, eggs, half-and-half, salt, pepper, ground nutmeg
+---
+TITLE: Baked Artichoke Hearts
+CURRENT_DESCRIPTION: easy side dish to any meal
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water-packed artichoke hearts, extra virgin olive oil, lemon, butter, garlic cloves, anchovy fillets
+---
+TITLE: Baked Artichoke Side With Crumb Topping
+CURRENT_DESCRIPTION: a quick and easy side for when artichokes are not in season. the crumb topping of nuts, cheese and italian seasonings gives these artichokes a whole new twist.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water-packed artichoke hearts, pecans, parmesan cheese, fine dry breadcrumb, dried oregano, dried basil
+---
+TITLE: Baked Artichoke Spinach Dip
+CURRENT_DESCRIPTION: i've been making this one for years. great for office potlucks. you can bake it the day before then nuke it when you get to work. you'll still get that nummy golden brown topping!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, whole milk, head of garlic, ground nutmeg, fresh parsley, sea salt
+---
+TITLE: Baked Artichoke Squares
+CURRENT_DESCRIPTION: this recipe was passed on to me by a co-worker. this makes a wonderful accompliment to any appetizer platter
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, mushroom, celery, artichoke hearts, green onion, dried marjoram
+---
+TITLE: Baked Artichokes And Bacon
+CURRENT_DESCRIPTION: these lovely little morsels are fabulous served on most kinds of crackers as appetizers. no doubt they'll be coming back for more!!
+
+you can substitute parmesan cheese for cheddar cheese to give it an italian flair.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichokes, onions, olive oil, cheddar cheese, eggs, saltine crackers
+---
+TITLE: Baked Artichokes With Coddled Eggs Nicoise
+CURRENT_DESCRIPTION: this recipe is re-printed from paul gaylor's exquisite book a passion for vegetables. the book has over 150 unique and innovative recipes from around the world for a huge variety of vegetables, most with full color photographs. too often vegetables are an afterthought, this book makes them an event, as in this recipe which makes for a dramatic presentation for eggs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, unsalted butter, dry white wine, water, eggs, heavy cream
+---
+TITLE: Baked Asian Style Chicken On Beans
+CURRENT_DESCRIPTION: put in for asian forum tag games.
+chinese rice wine (shaohsing) is available from asian food shops and selected supermarkets. substitute dry sherry if not available
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, gingerroot, shallots, low sodium soy sauce, chinese rice wine, sesame oil
+---
+TITLE: Baked Asian Style Salmon
+CURRENT_DESCRIPTION: i originally was going to make an asian salmon recipe that i saw on barefoot contessa, however after reading the reviews, i decided against it.  instead, i improvised by changing some of the ingredients, cooking time and style.  it ended up coming out fabulous!  i love this since it's healthy, full of flavor and incredibly easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh salmon, soy sauce, teriyaki sauce, olive oil, honey, chili-garlic sauce
+---
+TITLE: Baked Asparagus
+CURRENT_DESCRIPTION: an easy baked asparagus side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, seasoned bread crumbs, salt and pepper, garlic powder, parmesan cheese, butter
+---
+TITLE: Baked Asparagus And Cheese Frittata
+CURRENT_DESCRIPTION: dh and i have never eaten, let alone made, a frittata.  "healthy life magazine:  greater binghamton, ny's source for family health" is a free quarterly found in doctors' offices, grocery stores, etc.  the spring, 2009 issue carried this recipe. dh and i decided to finally take the plunge and were quite pleased with the outcome/taste. he's more of a veggie human than me, but we both love cheese; so, this satisfied both of us.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: breadcrumbs, asparagus, extra virgin olive oil, onion, red bell pepper, garlic cloves
+---
+TITLE: Baked Asparagus And Spinach Risotto  Cooking Light
+CURRENT_DESCRIPTION: i love risotto and needed to find one i could bake in the oven while i cooked dinner on the stove top.  this is a very easy risotto that tastes great and was described as "no fail" on the cooking light website.  to me, risotto is the ultimate comfort food that can always be served to company!  and this one requires no slaving over the pot!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, arborio rice, fresh spinach leaves, reduced-sodium fat-free chicken broth, salt
+---
+TITLE: Baked Asparagus Dip
+CURRENT_DESCRIPTION: i made this for book club last night and it was a hit with all the ladies!  it was also super quick eand easy to make.  serve with crackers or crostini for an easy and unique appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, parmesan cheese, light mayonnaise, garlic clove, ground pepper
+---
+TITLE: Baked Asparagus Parcels
+CURRENT_DESCRIPTION: from today's local paper, the west australian.  it is recommended as a main for 4 with another side dish.  the contributor thought thicker spears were better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, butter, spring onion, dijon mustard, cream, lemon juice
+---
+TITLE: Baked Asparagus Spinach Risotto
+CURRENT_DESCRIPTION: from cooking light, this is a no fail, no work risotto.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, arborio rice, fresh spinach leaves, chicken stock, salt
+---
+TITLE: Baked Asparagus With Balsamic Butter Sauce
+CURRENT_DESCRIPTION: i can't remember where i found this recipe, but even my husband will eat it. that says a lot since he's not a fan of anything green except lettuce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh asparagus, cooking spray, salt and pepper, butter, soy sauce, balsamic vinegar
+---
+TITLE: Baked Asparagus Wrapped In Prosciutto
+CURRENT_DESCRIPTION: i found this recipe on the internet. i love asparagus and this has become my favorite recipe when making it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: asparagus spears, salt, prosciutto, unsalted butter, parmesan cheese, ground pepper
+---
+TITLE: Baked Aubergine  Eggplant  Balls
+CURRENT_DESCRIPTION: my toddler loves to eat eggplant this way. to increase the variety of foods she was eating and because i had no breadcrumbs i substituted ground almonds and couscous with good effect. i have also substituted the parsley with finely chopped up vegetables. this is a good base recipe to play around with.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic cloves, eggplants, water, cheese, fresh parsley
+---
+TITLE: Baked Austrian Rice Pudding   Reisauflauf
+CURRENT_DESCRIPTION: one of my childhooddays favourites! and i still do like this very fragrant, aromatic sweet pie/tarte like dish. use apples (you might want to add more sugar then) instead of bananas, mangos or raisins. serve lukewarm with vanilla sauce as main dish or as dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: short-grain rice, milk, brown sugar, bananas, eggs, butter
+---
+TITLE: Baked Avocado Fries With Chipotle Cream
+CURRENT_DESCRIPTION: i recently won a whole case of avocados from the california avocado commission and went looking for recipes to use them up..... i won the contest by asking if one could cook with avocados and i found this on the adventures in cooking blog. made up the sauce. mmmmmmmm.....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, kosher salt, eggs, panko breadcrumbs, avocados, sour cream
+---
+TITLE: Baked Avocado With Red Salmon Filling
+CURRENT_DESCRIPTION: a tasty recipe that can be varied with the use of crabmeat or prawns. great appetiser or a special surprise for your dinner guests. just follow the recipe and enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, plain flour, milk, white wine, french mustard, worcestershire sauce
+---
+TITLE: Baked Baby Brie In A Puff Pastry With Chutney And Baby Spinach
+CURRENT_DESCRIPTION: what a presentation and simple, simple, simple. i was served this at a local ri restaurant and couldn't wait to go home and try it. after the brie is done baking, i place it on a platter of baby spinach that has been tossed lightly with vidalia onion dressing. while it is still hot, i spread the top of the baked brie with chutney (or you can use your favorite preserves) and serve it with sesame crackers. cut into the brie and watch the cheese ooze - delicious! preparation time includes thawing of frozen puff pastry sheet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brie cheese, puff pastry sheet, chutney, baby spinach, salad dressing, cracker
+---
+TITLE: Baked Baby Carrot Gratin With Horseradish Crumbs
+CURRENT_DESCRIPTION: i love "can-do-ahead" dishes. this one is ideal for a buffet or a family celebration.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby carrots, butter, onion, flour, chicken stock, lemon juice
+---
+TITLE: Baked Bacon
+CURRENT_DESCRIPTION: bacon acquires a crunching coat with wonderful zipped-up flavor. when i started making this more than 40 years ago, egg substitute was not readily available. now i use that instead of egg yolk, which will work, too. the recipe came from a newspaper years ago and is yellow with age. i make this often.....for breakfast, brunch or a snack!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg substitute, worcestershire sauce, dry mustard, bacon, fine cracker crumb
+---
+TITLE: Baked Bacon Wrapped Brown Sugar Smokies
+CURRENT_DESCRIPTION: i've seen other recipes for these little indulgent treats, but they cook them in a crockpot and i prefer to bake ours.  baking them in the oven allows the bacon to crisp, the liquids to be released from the smokies, and the brown sugar to caramelize on them deliciously.  it also allows to you control the fat content of them a bit more easily, as most of the bacon drippings will remain on the sheet pan after cooking.  we usually make them during the holidays, but they're good for all year 'round, of course.  so easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, sausages, brown sugar, cinnamon sugar, toothpick
+---
+TITLE: Baked Bacon Wrapped Center Cut Pork Chops
+CURRENT_DESCRIPTION: we get these beautiful little 4 ounce bacon-wrapped center-cut pork chops in our meat order each month.  this is elswet's recipe for the perfect baked chop, and it is written for 2.  the ingredients list will undoubtedly state 8 ounces of pork chop because i've never been able to master this submitting a recipe thing.  i've tried it without any marination time, and you can definitely tell the difference.  it's not horrible, but it's nowhere near as good.  do not allow the pan to be rattled.  you want the onions and apples to remain loosely piled atop the chops.  it acts as a natural basting process as these cook and the juices run into the meat.  i've never had apples with pork before, but it's fantastic!  we hope you enjoy these like we do!  note:  the pictured photo submitted by me was accomplished using this recipe served on a bed of my own "better than instant, instant stuffing."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: center-cut pork chops, bacon, red delicious apple, onion, white wine vinegar, worcestershire sauce
+---
+TITLE: Baked Bacon Wrapped Sea Scallops
+CURRENT_DESCRIPTION: a super easy recipe i got last week at a new years party. they are a meal in themselves.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sea scallops, bacon, butter, dry white wine, lemon juice, paprika
+---
+TITLE: Baked Baja Beef Chimichangas
+CURRENT_DESCRIPTION: this is an authentic 40 year-old recipe, and the filling will not taste the same as fast food style chimichangas.  the only thing americanized here is that the chimichangas are baked instead of fried.  caution:  if you use leanest ground beef, the filling will seem dry. serve lots of lettuce, tomatoes and other garnishes listed below with each chimichanga - they are important to this dish's all around flavors and textures.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour tortillas, butter, lean ground beef, distilled white vinegar, diced green chilies, garlic cloves
+---
+TITLE: Baked Balsamic Chicken
+CURRENT_DESCRIPTION: love balsamic vinegar, hope you enjoy this chicken. note; i have found that it's better with boneless, skinless  chicken breast or  boneless, skinless thighs. baking time may be less due to size.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast halves, balsamic vinegar, olive oil, dried oregano, kosher salt, fresh ground black pepper
+---
+TITLE: Baked Banana And Coconut Porridge
+CURRENT_DESCRIPTION: i got the idea out of la dolce vegan and changed the recipe.
+
+i had a spare banana and worked out some ingredients that would take alright with that!  this is gorgeous!
+
+makes two big bowls, can be reduced down further!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, water, milk, honey, molasses, salt
+---
+TITLE: Baked Banana Coconut Custard
+CURRENT_DESCRIPTION: adapted from martin yan’s asian favorites
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, canned unsweetened coconut milk, eggs, sugar, sweetened flaked coconut, butter
+---
+TITLE: Baked Banana Doughnuts
+CURRENT_DESCRIPTION: this is a pretty good recipe. this is not for the sweet lovers. it is a nice little something with coffee or tea and if you like bananas it is perfect! the girls in my office loved them!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, egg whites, vegetable oil, light brown sugar, all-purpose flour, whole grain wheat flour
+---
+TITLE: Baked Banana Oat Bars
+CURRENT_DESCRIPTION: sweetened by only dried fruit and fresh banana, but feel free to add any sweeteners of your choice. no added fat but nuts would be a great addition too. great versatile recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, dried fruit, mashed banana, kosher salt, skim milk, egg whites
+---
+TITLE: Baked Banana Oatmeal
+CURRENT_DESCRIPTION: i love baked oatmeal and make many different versions, but this is one of my kids favorites. it is really easy to throw together and smells so good. we like to eat it topped with vanilla yogurt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rolled oats, baking powder, salt, cinnamon, sugar, egg
+---
+TITLE: Baked Banana Orange French Toast
+CURRENT_DESCRIPTION: france meets french polynesia! exotic coconut, banana and cinnamon island flavors complement the rich creamy, buttery, orange staples of the french countryside. this is an easy breakfast or brunch meal since it's all made the day before (the 12 hours passive cooking time is when it sits in the refrigerator overnight). serve it directly from the baking dish...no syrup or butter needed!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: texas toast thick bread, eggs, coconut milk, orange zest, grand marnier, butter
+---
+TITLE: Baked Banana Pie
+CURRENT_DESCRIPTION: this banana pie is an african recipe that is similar to impossible pie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, evaporated milk, sugar, flour, nutmeg, cream of tartar
+---
+TITLE: Baked Banana Splits
+CURRENT_DESCRIPTION: this is a sweet treat that is super easy to make and yummy for kids and parents too. a fun way to get a little more fruit in your diet and use up those bananas that are going to get too ripe! i found this recipe in a family fun magazine and we love it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, cinnamon sugar, butter, honey, frozen yogurt
+---
+TITLE: Baked Banana Stuffed French Toast
+CURRENT_DESCRIPTION: i got this out of bon appetit magazine and it is just fabulous!they got it from peaks resort and spa, in telluride, colorado. cook it for a treat. my kids liked it too! who knew?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, mixed grain bread, nonfat milk, eggs, vanilla extract, ground cinnamon
+---
+TITLE: Baked Banana With Lime
+CURRENT_DESCRIPTION: another banana recipe from yours truely! found this on the bbc food website from ready steady cook. not yet tried but am posting it here for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: banana, brown sugar, butter, lime, juice of, lime wedge
+---
+TITLE: Baked Bananas
+CURRENT_DESCRIPTION: posted for zwt  a simple dessert popular in honduras and other latin american countries. the baking time is a guess as i haven't made this yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, sugar, cinnamon, milk, ice cream
+---
+TITLE: Baked Bananas A L  Orange
+CURRENT_DESCRIPTION: you don't want to miss this treat :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, fresh orange juice, coconut, cornflour, brown sugar, butter
+---
+TITLE: Baked Bananas And Blueberries
+CURRENT_DESCRIPTION: i got my copy of this recipe from wetm tv through chef fred. we were at a health expo and chef fred served this dish. my niece and i loved this recipe so much i made it the next morning for part of our big breakfast. this makes a great breakfast or bunch. this is a great dish to serve guest. i've topped this with canned whipped cream and cool whip.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, fresh blueberries, brown sugar, pecans, orange juice, brandy
+---
+TITLE: Baked Bananas In Orange Glaze
+CURRENT_DESCRIPTION: when, as a diabetic, your sugar supply is removed from life, you start mourning.  i turned to fruit to ease my aching sweet tooth.  this is one of the recipes i used to treat myself to something that is rich and a bit more sweet than i really should eat.  but it's sooo good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm bananas, butter, orange juice, brown sugar, orange peel
+---
+TITLE: Baked Bananas With Cream Cheese
+CURRENT_DESCRIPTION: this is great with low fat cream cheese as well. it is good over poundcake or shortbread cookies. i haven't made this yet but it sounds great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, cream cheese, brown sugar, white sugar, rum
+---
+TITLE: Baked Bananas With Maple Sauce
+CURRENT_DESCRIPTION: this is nice when you have extra bananas but don't want to go down banana pudding lane again. prepares quick, all in 20-25 minutes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, maple syrup, light brown sugar, fresh lime juice, ground allspice, bananas
+---
+TITLE: Baked Bananas With Rum Sauce
+CURRENT_DESCRIPTION: this recipe is from a diabetic cookbook and is easy to make. it tastes great with ice cream too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, dark rum, plum jam, butter, fresh lemon juice, nutmeg
+---
+TITLE: Baked Bananas With Strawberry Flambe
+CURRENT_DESCRIPTION: this makes its own sauce as it bakes and will impress your guests.  a wonderful and very simple treat.  if you  want to keep it simple, omit the flambe step.  from the best of the best from arkansas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bananas, butter, strawberries, brown sugar, grand marnier
+---
+TITLE: Baked Barbecue
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. hamburger, 1/2 c. oatmeal, 1 c. catsup, 1 small can tomato sauce, 1 medium onion, 3/4 tsp. salt
+---
+TITLE: Baked Barbecue Meatballs
+CURRENT_DESCRIPTION: i needed to use a pound of ground beef i had in the fridge and decided to make some cocktail meatballs using what i had in the fridge. these turned out great! tangy meatballs with horseradish and sweet barbecue sauce!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chuck, breadcrumbs, egg, onion, worcestershire sauce, tabasco sauce
+---
+TITLE: Baked Barbecue Tortilla Chips
+CURRENT_DESCRIPTION: crispy, low-fat, baked alternative to commercial tortilla or potato chips.  these may be cut into any shape you like instead of wedges.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: barbecue sauce, olive oil, sesame seeds, garlic powder, whole wheat tortillas
+---
+TITLE: Baked Barbecued Glazed Meatballs
+CURRENT_DESCRIPTION: you could just cook the meatballs in the sauce although you will experience grease in the sauce, it is better to pre-cook them first --- please adjust the amount of brown sugar, you might want to start with only 1/2 cup and add in more to taste ---
+ this is *very* good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ketchup, onion, garlic, brown sugar, seasoning, cayenne pepper
+---
+TITLE: Baked Barbecued Spareribs
+CURRENT_DESCRIPTION: not sure where i got this recipe from but they are the best,fall of the bone, melt in your mouth ribs i have ever tasted.  great in the winter when a barbecue isn't so readily available.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork spareribs, onion, ketchup, water, salt, worcestershire sauce
+---
+TITLE: Baked Barbequed Spare Ribs
+CURRENT_DESCRIPTION: when you're craving ribs in the middle of winter, these are great.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork ribs, boiling water, catsup, worcestershire sauce, vinegar, brown sugar
+---
+TITLE: Baked Barley Almond Pilaf With Kale
+CURRENT_DESCRIPTION: found on the whole foods website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sesame oil, purple onion, pearl barley, tomato paste, chili powder, sea salt
+---
+TITLE: Baked Barley Pudding
+CURRENT_DESCRIPTION: this is from toh magazine. i haven’t made these yet, but i am typing it up for zwt ii. 8 servings.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, barley, salt, milk, heavy whipping cream, sugar
+---
+TITLE: Baked Barley With Mushrooms
+CURRENT_DESCRIPTION: from weight watchers versatile vegetarian.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sun-dried tomatoes, olive oil, carrots, shallots, portabella mushrooms, thyme
+---
+TITLE: Baked Barley With Shiitake Mushrooms And Caramelized Onions
+CURRENT_DESCRIPTION: cooking light.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onions, sugar, button mushrooms, shiitake mushroom caps, pearl barley
+---
+TITLE: Baked Barramundi
+CURRENT_DESCRIPTION: when we trekked up to the gulf a few years back, we had fresh barra and salmon nearly every night! (see my web site on my page)
+barra doesnt taste as good after its' been frozen, but this recipe is really good! you can use other fish, i use nile perch these days, cause the barra ran out :(
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrots, mushrooms, tomatoes, spring onions, white wine, cream
+---
+TITLE: Baked Basmati Rice
+CURRENT_DESCRIPTION: i do not like rice, but i love it this way! this is the only way i will eat it. this recipe is a spin from observing my mom's iranian friend preparing basmati on a stove, he added the chicken stock and i thought it added such a great flavour. my sister always prepares rice in the oven with chopped onions and green peppers, so i tried the basmati that way. i usually serve it with tikka masala on top.
+*note* this rice is supposed to be
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, basmati rice, water, butter, chicken bouillon, onion
+---
+TITLE: Baked Bbq Beef
+CURRENT_DESCRIPTION: i found this recipe online, made it the other night and it was a huge hit with the family! very easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, green pepper, condensed tomato soup, chili sauce, vinegar
+---
+TITLE: Baked Bbq Meatballs
+CURRENT_DESCRIPTION: use a whisk when mixing the sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, ground beef, salt, pepper, quick-cooking oats, water
+---
+TITLE: Baked Bbq Pork Chops
+CURRENT_DESCRIPTION: i whooped this up last night because it would hit the spot.  boy did it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork chops, barbecue sauce, honey, red wine vinegar, salt and pepper
+---
+TITLE: Baked Bbq Tofu
+CURRENT_DESCRIPTION: rich sweet and tangy good ol fashioned barbecue tofu. for people who love barbecue but don't eat meat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: firm tofu, olive oil, salt and pepper, paprika, barbecue sauce
+---
+TITLE: Baked Bbq Tofu  Vegan
+CURRENT_DESCRIPTION: the bbq sauce recipe is from veganmenu.blogspot.whatever as adapted from slashfood and finally as slightly adapted by me. serving suggestion: baked tofu, (cheesy) grits and spinach salad. note: the barbecue sauce is best if prepared 12-48 hours in advance.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra firm tofu, vegetable oil, onion, garlic cloves, black mustard seeds, salt
+---
+TITLE: Baked Bbq Turkey Drumsticks
+CURRENT_DESCRIPTION: this is a really simple recipe to make that i found on the net somewhere. i don't remember but i made it last night and all i can say is the sauce is memorable. it was very very tasty. sweet and tangy. you could even make the sauce on its own for other purposes. i made steamed broccoli and i threw in red potatoes in foil on the rack above the turkey. it was and is devine! and the kids loved it too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey legs, sea salt, black pepper, unsulphured molasses, red wine vinegar, ketchup
+---
+TITLE: Baked Bean And Peanut Sandwiches
+CURRENT_DESCRIPTION: i used to know somebody who loved these sandwiches and thought it was just weird enough to post here. lol ;) i would love to hear from people who like this! a british recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetarian baked beans, peanuts, celery, instant minced onion, ketchup, salt
+---
+TITLE: Baked Bean And Tomato Soup
+CURRENT_DESCRIPTION: a perfect, thrifty way to use up that dab of leftover baked beans.  from the new england chapter of the united states regional cookbook, culinary arts institute of chicago, 1947
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, celery, onion, water, tomatoes, butter
+---
+TITLE: Baked Bean Cake Or Muffins
+CURRENT_DESCRIPTION: an unusual "veggie cake" made with baked beans! i find this similar to a carrot cake, it is easy to make and very tasty.
+adapted from a recipe found in saltscapes magazine, chef marie nightingale.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: raisins, boiling water, baked beans in tomato sauce, eggs, canola oil, granulated sugar
+---
+TITLE: Baked Bean Casserole
+CURRENT_DESCRIPTION: a wonderful baked bean dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, ground beef, onion, pork & beans, lima beans, kidney beans
+---
+TITLE: Baked Bean Corn Dog Casserole
+CURRENT_DESCRIPTION: this is easy, cheap, and delicious! kids and adults alike both love it. great for potlucks, and only takes about 10 minutes to throw together!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, hot dogs, jiffy cornbread mix, sharp cheddar cheese, milk, eggs
+---
+TITLE: Baked Bean Curry
+CURRENT_DESCRIPTION: this is a variation of a baked bean curry my mother used to make for the family. i think it was as a quick substitute for the normal curries she used to make and till this day remains a firm favourite for me.
+
+ive added a few ingredients, these are the fennel seeds, tandoori masala, and the addition of onions in the first stage.
+
+you can vary the spice levels within this recipe; i think the quantities i have added would make this hot - very hot if you are not used to curries. say perhaps a madras level. if you are reducing the spice, make sure you reduce the turmeric accordingly too.
+
+i have written 1/2 cup butter/oil/ghee but i prefer to use a combination of butter and oil.  also, i do not add salt as it is usually contained in the baked bean cans.
+
+hope you enjoy it. i usually eat with naan, pitta bread, chappati or if im feeling naughty - a paratha.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, fennel seeds, fresh coriander, butter, cayenne pepper, turmeric
+---
+TITLE: Baked Bean Dip
+CURRENT_DESCRIPTION: i made this for my family at christmas and got rave reviews from our mexican food lovers!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refried beans, chili seasoning mix, green onion, sour cream, cream cheese, cheddar cheese
+---
+TITLE: Baked Bean Fritters
+CURRENT_DESCRIPTION: awesome. courtesy of mr. food
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, salt, pepper, eggs, baked beans
+---
+TITLE: Baked Bean Hash
+CURRENT_DESCRIPTION: i got this recipe off a tin of watties baked beans. it's really simple yet very tasty. i love it as a quick throw together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hash brown patties, baked beans, eggs, bacon, fresh parsley, cheese
+---
+TITLE: Baked Bean Medley
+CURRENT_DESCRIPTION: this is another recipe that i got from a mother from my son's preschool.  i've tried this and it is really easy to make and honestly tastes like home-made "baked all day" stuff!  i did tweak it just a bit for our taste -- like by adding molasses...but anyway, it's very filling and the kids love it when i make this with a side of cornbread.  very good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chuck, onions, pork and beans, kidney beans, red beans, lima beans
+---
+TITLE: Baked Bean Pizza
+CURRENT_DESCRIPTION: a tasty & economical snack or lunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, coarse grain mustard, barbecue sauce, ham, cheese, prepared pizza crust
+---
+TITLE: Baked Bean Salad
+CURRENT_DESCRIPTION: from a recipe card set of twenty plus years ago it's deliciously different and a great addition to a picnic basket.  i've also made this up as a side dish to a  meal of baked ham and steamed broccoli.  either way it's a keeper in our family.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, tomatoes, stuffed green olive, green onion, red wine vinegar, prepared mustard
+---
+TITLE: Baked Bean Scrolls
+CURRENT_DESCRIPTION: a recipe i found from heinz. a great different way to make savoury scrolls, and not hard at all. these are served hot but are just as nice cold and they make a great snack on the weekend. my kids even like these served warm for breakfast, topped with some grated cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans in tomato sauce, tasty cheese, salami, spring onions, self-raising flour, butter
+---
+TITLE: Baked Bean Soup
+CURRENT_DESCRIPTION: this is from one of the moosewood cookbooks. i made a few changes to fit my own tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, olive oil, carrot, chili powder, garlic, dijon mustard
+---
+TITLE: Baked Beans    Using Can Of Pork And Beans
+CURRENT_DESCRIPTION: this is out of a community cookbook. i made this again recently and added about a 1/4 tsp chile powder, a little more dry mustard, and a diced tomato.   next time maybe some paprika and cayenne pepper, and maybe a touch more chile powder, and some cooked hamburger or hotdogs!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, bacon, balsamic vinegar, onions, green pepper, celery
+---
+TITLE: Baked Beans   Cajun Style
+CURRENT_DESCRIPTION: this is a spicy mild to medium hot recipe, to make a very mildly hot recipe, use only 1/4 teaspoon each of the three peppers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, bacon, catsup, brown sugar, onion, green bell pepper
+---
+TITLE: Baked Beans   On The Grill
+CURRENT_DESCRIPTION: this came from a weber grill leaflet. i have not tried this, just posting for safe keeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans in tomato sauce, brown sugar, dry mustard, molasses, onion, ketchup
+---
+TITLE: Baked Beans 1998
+CURRENT_DESCRIPTION: this recipe is from marjorie cottom, one of my best friends who died of cancer in 2001.  it is very good and fast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans in tomato sauce, green pepper, white onion, worcestershire sauce, tomato base barbecue sauce, brown sugar
+---
+TITLE: Baked Beans Aloha
+CURRENT_DESCRIPTION: i knew these beans had to be over the top, considering the fact that my dh asked for the recipe from a co-worker, who brought them to a potluck.  they are!  take the time to use fresh pineapple, that is what takes them over the top. 5/4/08: i made this recipe using crushed pineapple, in juice (one 20-ounce can and one 8-ounce can). the beans were still good, but i think i prefer the fresh to the canned. it seems a lot of the natural sugars and flavor is lost when it is processed; to me, it changed the taste. maybe i should have used more pineapple??
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetarian baked beans, brown sugar, ketchup, bacon, onions, fresh pineapple
+---
+TITLE: Baked Beans And Chuck
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 medium onion, chopped, 1 lb. ground beef or turkey, 1/2 lb. crisp bacon, 3/4 c. catsup, 3/4 c. brown sugar, 2 tsp. dry mustard
+---
+TITLE: Baked Beans And Chutney
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can organic pinto beans (15 oz.), 1/2 c. reserved liquid from can, 1/2 onion, finely chopped, 1/4 c. chutney (less if very hot), 3/4 tsp. dry mustard, 1/4 c. honey
+---
+TITLE: Baked Beans And Pineapple
+CURRENT_DESCRIPTION: this is an easy and tasty dish to take to a pot luck. i am always asked for the recipe. it is an adapted recipe from the company's coming cookbook series.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, onion, pork and beans in tomato sauce, red kidney beans, crushed pineapple, ketchup
+---
+TITLE: Baked Beans And Sauerkraut
+CURRENT_DESCRIPTION: an easy way to jazz up some baked beans for the sauerkraut lovers.  make it with or without the sausage.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, brown sugar, ketchup, prepared mustard, onion, sauerkraut
+---
+TITLE: Baked Beans Balti
+CURRENT_DESCRIPTION: from brit spice by manju malhi my favourite indian/british cook. this recipe turns an ordinary snack into something really tasty and satisfying, and makes you want more curry for dinner!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, green chili, garam masala, ground cumin, ground coriander
+---
+TITLE: Baked Beans Deluxe
+CURRENT_DESCRIPTION: quick and easy. double the recipe and it's great for picnics!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baked beans, bacon, onion, dry mustard, molasses, chili sauce
+---
+TITLE: Baked Beans Don T Get Any Better Than This
+CURRENT_DESCRIPTION: these are my all-time favorite baked beans (and i've tried plenty). "it don't get any better than this".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, butter beans, tomato soup, ground beef, bacon, onions
+---
+TITLE: Baked Beans Dressed For Dinner
+CURRENT_DESCRIPTION: dress up those canned baked beans with a few simple ingredients you probably have on hand already. quick and easy. from "the vegetarian gourmet's easy low-fat favorites".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, green pepper, vegetarian baked beans, crushed pineapple in juice, cornstarch
+---
+TITLE: Baked Beans For Saturday S Supper
+CURRENT_DESCRIPTION: saturday supper in this neck of the woods meant baked beans, potato salad, coleslaw and rolls for many years. a tradition that is almost gone.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried navy beans, onions, bacon, salt, dry mustard, dark molasses
+---
+TITLE: Baked Beans I Pressure Cooker
+CURRENT_DESCRIPTION: of all the recipes there are for baked beans, this is one of the simpler ones to make.  if you're not into pressure cooking you should try it, try it with baby steps at first, and i know that you will enjoy immensely, starting with this recipe!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beans, salt pork, brown sugar, ketchup, molasses, salt
+---
+TITLE: Baked Beans N Dogs
+CURRENT_DESCRIPTION: matt’s favorite
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, hot dogs, brown sugar, ketchup, dried onion flakes, prepared mustard
+---
+TITLE: Baked Beans Pennsylvania Style
+CURRENT_DESCRIPTION: from sister-in-law to sister-in-law, and then from friend-to-friend, brenda passed this recipe to me!  the combo of three varieties of beans in a savory, tangy-sweet sauce makes this bean dish disappear like a magic act!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, bacon, onion, pork & beans, butter beans, kidney beans
+---
+TITLE: Baked Beans Quintet
+CURRENT_DESCRIPTION: originally from bhg; given to me by my mil
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, garlic clove, butter beans, lima beans, pork and beans
+---
+TITLE: Baked Beans Rice And Chicken
+CURRENT_DESCRIPTION: from "the great minnesota hot dish" cookbook. serve with tossed salad along with warm crusty bread.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, boneless skinless chicken breast halves, long grain white rice, onion, green bell pepper, garlic cloves
+---
+TITLE: Baked Beans Smoked With A Kick
+CURRENT_DESCRIPTION: made this up for a back yard bbq, playing a little corn hole and italian lawn bowling!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prepared mustard, ketchup, diced onion, bell pepper, brown sugar, honey
+---
+TITLE: Baked Beans Southern Style
+CURRENT_DESCRIPTION: i saw this recipe on paula deen and gave it a try and it's the best baked beans i have ever eaten. i did replace a few ingredients to suit my style.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, onion, yellow mustard, maple syrup, brown sugar, ketchup
+---
+TITLE: Baked Beans Supreme  Aka Gene Brown Beans
+CURRENT_DESCRIPTION: this recipe was given to my mom (who, in turn, shared it with me) by a guy named gene brown. so, of course, when i was a kid we used to call it gene brown beans. i never met him, but evidently he was into bbq contests and whatnot. either way, i want to give credit where credit is due, so thanks gene, if you're out there. this is one serious recipe! in my house, we usually serve it over rice and make a meal of it. it's fabulous.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pinto beans, navy beans, smoked sausage, cooked chicken, rotel tomatoes, garlic powder
+---
+TITLE: Baked Beans Toast
+CURRENT_DESCRIPTION: a wonderful toast to enjoy at brunch or breakfast or as a snack or light dinner accompanied by soup. enjoy!
+note: if you omit cheese, then this becomes a vegan snack. personally, i prefer this without cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, olive oil, vegetarian baked beans, onion, carrot, green bell pepper
+---
+TITLE: Baked Beans Traditional Style
+CURRENT_DESCRIPTION: this recipe is from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navy beans, brown sugar, onion, fresh tomatoes, salt, dry mustard
+---
+TITLE: Baked Beans With 5 Kinds Of Beans
+CURRENT_DESCRIPTION: this is how my mother taught me to make baked beans.  warning they are on the sweet side but they are so good... i have put in a range for some of the ingredients start on the low side and then add more to suit your tastes.  also, you can change up the type of beans used as you desire - just be sure to always start with the large can of pork and beans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans in tomato sauce, great northern beans, butter beans, light kidney beans, dark red kidney beans, bacon
+---
+TITLE: Baked Beans With A Taste Of Orange
+CURRENT_DESCRIPTION: back in the days when i was cooking a lot with wine & mixers & cordials, etc, i squirreled away my version of baked beans. today it resurfaced, & here it is! i usually use a version of b&m baked beans. the onion soup mix is 1/2 of a 1-oz envelope.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hot dog, baked beans, onion soup mix, brown sugar, water, prepared mustard
+---
+TITLE: Baked Beans With An Asian Flair
+CURRENT_DESCRIPTION: i needed to put together something for dinner, so combined several things, working off one of my already published recipes, and came up with this.  the flavors worked well together.  however, i actually used recipe #204223 for the terikyaki sauce, and it was great!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground turkey, onion, garlic cloves, green pepper, baked beans, teriyaki sauce
+---
+TITLE: Baked Beans With Bacon And Hot Dogs
+CURRENT_DESCRIPTION: you may reduce or increase the amount of hot dogs if desired, i also like to add in some cayenne pepper, 3/4 cup of brown sugar will produce a sweet taste you may if you prefer a less sweeter taste then use 1/2 cup or adjust the amount to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, garlic, baked beans, molasses, prepared yellow mustard
+---
+TITLE: Baked Beans With Baked Bacon
+CURRENT_DESCRIPTION: this combines recipe #187790 and recipe #29709, with tweaks (like doubling the bacon).  made for july 4th party.  it tastes so good, with a big wallop of flavor, i don't feel guilty about starting with bush's homestyle baked beans.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, brown sugar baked beans, ketchup, garlic powder, onions
+---
+TITLE: Baked Beans With Burnt Ends
+CURRENT_DESCRIPTION: top as a garnish with fineiy chopped onions. i found this recipe in everyday with rachael ray magazine. i have not tried this recipe, but i'm posting it for safe keeping. i plan to use splenda brown sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, salt, pepper, brown sugar, ketchup
+---
+TITLE: Baked Beans With Ground Beef
+CURRENT_DESCRIPTION: my brother-in-law, bill, made these beans for a family dinner.   they are so delicious!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, bell pepper, ground beef, fajita seasoning mix, pepper, bacon
+---
+TITLE: Baked Beans With Ground Beef And Bacon
+CURRENT_DESCRIPTION: i often take these for potlucks or parties. people always love them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, celery, lean ground beef, worcestershire sauce, dark brown sugar
+---
+TITLE: Baked Beans With Kielbasa
+CURRENT_DESCRIPTION: a very different version of baked beans !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onions, navy beans, kidney beans, pinto beans, onion, green bell pepper
+---
+TITLE: Baked Beans With Pineapple
+CURRENT_DESCRIPTION: sounds interesting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, onion, baked beans, crushed pineapple, brown sugar, ketchup
+---
+TITLE: Baked Beans With Pineapple Rings
+CURRENT_DESCRIPTION: old-fashioned comfort food from a church cookbook.  i made a few changes to make it my own.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork and beans, prepared yellow mustard, barbecue sauce, brown sugar, pancake syrup, lawry
+---
+TITLE: Baked Beef And Chicken
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boned chicken breasts or thighs, 1 can cream of mushroom soup, 8 to 10 pieces bacon, cut in half, 1 large sour cream, 1 small jar dried beef
+---
+TITLE: Baked Beef And Ravioli
+CURRENT_DESCRIPTION: so good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheese ravioli, ground beef, spaghetti sauce, frozen spinach, mozzarella cheese
+---
+TITLE: Baked Beef And Rice Bake
+CURRENT_DESCRIPTION: this recipe goes back to the early 80's, i still make it once in a while, it's a really tasty and easy dish to throw together, if you have freezer ready beef all ready cooked and frozen in the freezer, just thaw on defrost in the microwave, and just throw in some cooked bacon with the other ingredients... freezer-ready ground beef makes this recipe even quicker!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, lean ground beef, uncooked rice, onion, fresh garlic, green bell pepper
+---
+TITLE: Baked Beef And Veggies With Rice
+CURRENT_DESCRIPTION: i took out beef mince for dinner tonight, but had no idea what i was going to do with it.  here's what i came up with.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lean ground beef, garlic clove, salt and pepper, onion, bell pepper, mushrooms
+---
+TITLE: Baked Beef Brisket In Wine
+CURRENT_DESCRIPTION: from "on your mark...get set...snow! this is a collection of favorite recipes from the athletes, families, volunteers and staff of the 1989 international winter special olympics.  this was submitted by e.j. in nevada.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef brisket, onions, red wine, white vinegar, brown sugar, soy sauce
+---
+TITLE: Baked Beef Empanadas  Light
+CURRENT_DESCRIPTION: from cooking light--they use wonton skins for easy assembly.  haven't tried it yet. this makes 36 empanadas at 3 per serving so i plan to freeze most.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, onion, beef broth, salt, ground cumin, ground allspice
+---
+TITLE: Baked Beef Macaroni
+CURRENT_DESCRIPTION: better tasting than hamburger helper!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: macaroni, ground beef, oil, green pepper, onion, mushrooms
+---
+TITLE: Baked Beef Patties
+CURRENT_DESCRIPTION: taste of home; family favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried thyme, water, garlic salt, dried oregano, paprika, pepper
+---
+TITLE: Baked Beef Ravioli
+CURRENT_DESCRIPTION: better homes and gardens
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheese ravioli, ground beef, onion, garlic cloves, diced tomatoes, condensed tomato soup
+---
+TITLE: Baked Beef Ravioli With Cheese
+CURRENT_DESCRIPTION: this cheesy dish goes great with a salad. for an american twist, use cheddar cheese instead of mozzarella
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef ravioli, marinara sauce, mozzarella cheese, fresh breadcrumb, olive oil
+---
+TITLE: Baked Beef Stew With Carrots
+CURRENT_DESCRIPTION: this comes from sunset's light ways with beef, lamb and pork cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef stew meat, onions, all-purpose flour, beef broth, red wine vinegar, dry thyme leaves
+---
+TITLE: Baked Beef Stroganoff
+CURRENT_DESCRIPTION: quick baked beef stroganoff.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, medium egg noodles, mushrooms, cream of mushroom soup, cream cheese
+---
+TITLE: Baked Beef Tenderloin With Diane Sauce
+CURRENT_DESCRIPTION: delicious! good enough for company. from pillsbury fast and healthy cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: beef tenderloin, beef broth, cornstarch, oil, green onion, fresh parsley

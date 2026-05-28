@@ -190,6 +190,158 @@ function RollDoughSVG() {
   );
 }
 
+function SpiceBowlSVG() {
+  return (
+    <svg viewBox="0 0 220 100" className="w-full max-w-sm" style={{ height: 80 }}>
+      {/* Bowl */}
+      <path d="M50 55 Q50 85 110 85 Q170 85 170 55 Z" fill="#2d2926" stroke="#B07D56" strokeWidth="1.5" />
+      <ellipse cx="110" cy="55" rx="60" ry="12" fill="#3a3430" stroke="#B07D56" strokeWidth="1.5" />
+      {/* Spice mounds */}
+      <ellipse cx="88" cy="52" rx="16" ry="7" fill="#C8522A" opacity="0.85" />
+      <ellipse cx="115" cy="50" rx="14" ry="6" fill="#D4A843" opacity="0.8" />
+      <ellipse cx="140" cy="53" rx="12" ry="5" fill="#8B4513" opacity="0.75" />
+      {/* Floating aroma particles */}
+      <circle cx="85" cy="38" r="2" fill="#C8522A" opacity="0.5" />
+      <circle cx="110" cy="32" r="2.5" fill="#D4A843" opacity="0.45" />
+      <circle cx="135" cy="36" r="2" fill="#C8522A" opacity="0.4" />
+      <circle cx="98" cy="26" r="1.5" fill="#D4A843" opacity="0.35" />
+      <circle cx="122" cy="24" r="1.5" fill="#C8522A" opacity="0.3" />
+      {/* Spoon */}
+      <ellipse cx="168" cy="38" rx="8" ry="5" fill="#B0B8C0" stroke="#8a9099" strokeWidth="1" />
+      <line x1="168" y1="42" x2="160" y2="62" stroke="#B0B8C0" strokeWidth="2" strokeLinecap="round" />
+      <text x="110" y="98" textAnchor="middle" fontSize="8" fill="#6B5B52">Bloom in hot fat — 60 seconds</text>
+    </svg>
+  );
+}
+
+function CoveredPotSVG() {
+  return (
+    <svg viewBox="0 0 220 100" className="w-full max-w-sm" style={{ height: 80 }}>
+      {/* Pot body */}
+      <rect x="30" y="50" width="160" height="38" rx="10" fill="#3a3634" stroke="#5a5452" strokeWidth="1.5" />
+      {/* Lid */}
+      <rect x="26" y="40" width="168" height="14" rx="7" fill="#4a4848" stroke="#5a5452" strokeWidth="1.5" />
+      <ellipse cx="110" cy="40" rx="16" ry="6" fill="#5a5856" stroke="#6a6664" strokeWidth="1" />
+      {/* Side handles */}
+      <rect x="10" y="56" width="20" height="12" rx="6" fill="#4a4644" stroke="#5a5452" strokeWidth="1" />
+      <rect x="190" y="56" width="20" height="12" rx="6" fill="#4a4644" stroke="#5a5452" strokeWidth="1" />
+      {/* Steam wisps from lid gap */}
+      <path d="M80 40 Q77 30 81 22" stroke="#EFE3CE" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.3" />
+      <path d="M110 40 Q107 29 111 20" stroke="#EFE3CE" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.35" />
+      <path d="M140 40 Q137 30 141 22" stroke="#EFE3CE" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.28" />
+      {/* Bubble hint through pot */}
+      <circle cx="80" cy="72" r="5" fill="#B83232" opacity="0.3" />
+      <circle cx="115" cy="76" r="7" fill="#B83232" opacity="0.25" />
+      <circle cx="148" cy="70" r="4" fill="#B83232" opacity="0.28" />
+      <text x="110" y="98" textAnchor="middle" fontSize="8" fill="#6B5B52">Low bubble — stir every few minutes</text>
+    </svg>
+  );
+}
+
+function PlatedDishSVG() {
+  return (
+    <svg viewBox="0 0 220 110" className="w-full max-w-sm" style={{ height: 90 }}>
+      {/* Plate rim */}
+      <circle cx="110" cy="55" r="52" fill="none" stroke="#8a7a6a" strokeWidth="2" />
+      <circle cx="110" cy="55" r="44" fill="none" stroke="#8a7a6a" strokeWidth="0.5" opacity="0.3" />
+      {/* Protein — left-centre */}
+      <ellipse cx="100" cy="55" rx="24" ry="17" fill="#C8522A" opacity="0.75" />
+      {/* Starch — right */}
+      <ellipse cx="128" cy="60" rx="15" ry="11" fill="#D4A843" opacity="0.7" />
+      {/* Veg — top */}
+      <ellipse cx="107" cy="38" rx="11" ry="8" fill="#4a7a2a" opacity="0.8" />
+      {/* Sauce swipe */}
+      <path d="M68 74 Q100 82 142 69" fill="none" stroke="#A07820" strokeWidth="3.5" strokeLinecap="round" opacity="0.6" />
+      {/* Herb dots */}
+      <circle cx="104" cy="50" r="2" fill="#4a7a2a" opacity="0.9" />
+      <circle cx="115" cy="56" r="1.5" fill="#4a7a2a" opacity="0.8" />
+      <circle cx="96" cy="58" r="1.5" fill="#4a7a2a" opacity="0.85" />
+      <text x="110" y="108" textAnchor="middle" fontSize="8" fill="#6B5B52">Protein at 7 o'clock · sauce swipe · herbs</text>
+    </svg>
+  );
+}
+
+function DicedOnionSVG() {
+  return (
+    <svg viewBox="0 0 220 100" className="w-full max-w-sm" style={{ height: 80 }}>
+      {/* Cutting board */}
+      <rect x="10" y="60" width="200" height="28" rx="6" fill="#8B6340" opacity="0.5" />
+      {/* Onion half — flat side down */}
+      <ellipse cx="90" cy="56" rx="44" ry="28" fill="#D4A843" opacity="0.75" />
+      <ellipse cx="90" cy="56" rx="33" ry="21" fill="none" stroke="#A07820" strokeWidth="0.8" opacity="0.5" />
+      <ellipse cx="90" cy="56" rx="22" ry="13" fill="none" stroke="#A07820" strokeWidth="0.8" opacity="0.35" />
+      {/* Grid cut lines */}
+      <line x1="60" y1="56" x2="120" y2="56" stroke="#8B4513" strokeWidth="0.8" opacity="0.5" strokeDasharray="3 2" />
+      <line x1="72" y1="36" x2="72" y2="72" stroke="#8B4513" strokeWidth="0.8" opacity="0.5" strokeDasharray="3 2" />
+      <line x1="90" y1="30" x2="90" y2="74" stroke="#8B4513" strokeWidth="0.8" opacity="0.5" strokeDasharray="3 2" />
+      <line x1="108" y1="36" x2="108" y2="72" stroke="#8B4513" strokeWidth="0.8" opacity="0.5" strokeDasharray="3 2" />
+      {/* Root end dot */}
+      <circle cx="46" cy="56" r="4" fill="#6B4A20" opacity="0.6" />
+      {/* Knife */}
+      <rect x="148" y="30" width="5" height="42" rx="1.5" fill="#B0B8C0" opacity="0.8" />
+      <path d="M148 30 L153 30 L155 70 L148 70Z" fill="#9aa0a8" opacity="0.5" />
+      <rect x="147" y="68" width="7" height="10" rx="2.5" fill="#8B6340" opacity="0.9" />
+      <text x="90" y="96" textAnchor="middle" fontSize="8" fill="#6B5B52">Keep root intact — holds shape as you cut</text>
+    </svg>
+  );
+}
+
+function SoftVegSVG() {
+  return (
+    <svg viewBox="0 0 220 100" className="w-full max-w-sm" style={{ height: 80 }}>
+      {/* Pan shadow */}
+      <ellipse cx="100" cy="88" rx="72" ry="8" fill="#181410" opacity="0.35" />
+      {/* Pan body */}
+      <rect x="28" y="52" width="144" height="36" rx="10" fill="#2d2926" stroke="#4a4340" strokeWidth="1.5" />
+      <rect x="32" y="56" width="136" height="28" rx="8" fill="#222018" />
+      {/* Translucent veg pieces */}
+      <ellipse cx="65" cy="70" rx="18" ry="10" fill="#D4A843" opacity="0.55" />
+      <ellipse cx="65" cy="70" rx="13" ry="7" fill="#E8C060" opacity="0.35" />
+      <ellipse cx="100" cy="66" rx="15" ry="9" fill="#D4A843" opacity="0.5" />
+      <ellipse cx="134" cy="70" rx="16" ry="9" fill="#D4A843" opacity="0.52" />
+      {/* Handle */}
+      <rect x="172" y="60" width="40" height="10" rx="5" fill="#4a4744" />
+      {/* Small flame */}
+      <path d="M40 52 Q38 44 43 40 Q40 48 48 45 Q42 38 52 34 Q49 44 55 42 Q53 52 47 52Z" fill="#F97316" opacity="0.5" />
+      <path d="M70 52 Q68 45 73 41 Q70 49 77 46 Q72 40 80 37 Q78 47 83 45 Q81 52 75 52Z" fill="#F97316" opacity="0.45" />
+      {/* Steam */}
+      <path d="M65 52 Q62 43 66 37" stroke="#EFE3CE" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.2" />
+      <path d="M100 52 Q97 43 101 37" stroke="#EFE3CE" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.18" />
+      <text x="100" y="98" textAnchor="middle" fontSize="8" fill="#6B5B52">Medium heat · no browning · just softening</text>
+    </svg>
+  );
+}
+
+function EggsInSauceSVG() {
+  return (
+    <svg viewBox="0 0 220 100" className="w-full max-w-sm" style={{ height: 80 }}>
+      {/* Pan */}
+      <ellipse cx="100" cy="88" rx="72" ry="8" fill="#181410" opacity="0.3" />
+      <rect x="28" y="46" width="144" height="42" rx="10" fill="#2d2926" stroke="#4a4340" strokeWidth="1.5" />
+      <rect x="32" y="50" width="136" height="34" rx="8" fill="#222018" />
+      {/* Tomato sauce surface */}
+      <ellipse cx="100" cy="67" rx="58" ry="16" fill="#8B2020" opacity="0.6" />
+      <ellipse cx="100" cy="65" rx="54" ry="14" fill="#B83232" opacity="0.7" />
+      {/* Egg 1 */}
+      <ellipse cx="72" cy="63" rx="16" ry="11" fill="#EFE3CE" opacity="0.92" />
+      <ellipse cx="72" cy="63" rx="7" ry="6" fill="#F4A261" />
+      {/* Egg 2 */}
+      <ellipse cx="128" cy="63" rx="16" ry="11" fill="#EFE3CE" opacity="0.92" />
+      <ellipse cx="128" cy="63" rx="7" ry="6" fill="#F4A261" />
+      {/* Herb dots */}
+      <circle cx="78" cy="58" r="2" fill="#4a7a2a" opacity="0.85" />
+      <circle cx="100" cy="56" r="1.5" fill="#4a7a2a" opacity="0.8" />
+      <circle cx="122" cy="59" r="2" fill="#4a7a2a" opacity="0.82" />
+      {/* Handle */}
+      <rect x="172" y="58" width="36" height="10" rx="5" fill="#4a4744" />
+      {/* Steam */}
+      <path d="M72 46 Q70 37 74 30" stroke="#EFE3CE" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.18" />
+      <path d="M128 46 Q126 37 130 30" stroke="#EFE3CE" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.16" />
+      <text x="100" y="98" textAnchor="middle" fontSize="8" fill="#6B5B52">Whites set · yolks wobble · don't overcook</text>
+    </svg>
+  );
+}
+
 // ── Keyword → SVG registry ───────────────────────────────────────────────────
 
 interface VisualizationEntry {
@@ -205,19 +357,14 @@ const VISUALIZATIONS: VisualizationEntry[] = [
     label: "How to halve an onion",
   },
   {
-    keywords: ["slice", "dice", "chop", "mince", "julienne", "knife", "grip the"],
+    keywords: ["slice", "julienne", "knife", "grip the"],
     render: KnifeClawSVG,
     label: "Knife claw grip",
   },
   {
-    keywords: ["sear", "sauté", "saute", "stir-fry", "stir fry", "fry", "brown the"],
+    keywords: ["sear", "stir-fry", "stir fry", "fry", "brown the"],
     render: SearSVG,
     label: "Hot pan technique",
-  },
-  {
-    keywords: ["plate", "plating", "serve", "serving", "arrange on", "presentation"],
-    render: PlatingDiagramSVG,
-    label: "Plating diagram",
   },
   {
     keywords: ["fold the napkin", "napkin fold", "folding napkins"],
@@ -234,20 +381,56 @@ const VISUALIZATIONS: VisualizationEntry[] = [
     render: RollDoughSVG,
     label: "Rolling dough",
   },
+  {
+    keywords: ["bloom", "toast the spice", "add spice", "add the spice", "add cumin", "add paprika", "add coriander", "spice into"],
+    render: SpiceBowlSVG,
+    label: "Blooming spices",
+  },
+  {
+    keywords: ["simmer", "reduce", "low heat", "low and slow", "lid on", "cover and cook"],
+    render: CoveredPotSVG,
+    label: "Simmer with lid",
+  },
+  {
+    keywords: ["plate", "plating", "serve", "serving", "arrange on", "presentation", "garnish"],
+    render: PlatedDishSVG,
+    label: "Plating guide",
+  },
+  {
+    keywords: ["dice", "chop", "mince", "dice the onion", "chop the onion", "mince the onion", "finely chop", "finely dice"],
+    render: DicedOnionSVG,
+    label: "Dicing an onion",
+  },
+  {
+    keywords: ["sauté", "saute", "soften", "sweat", "translucent", "softened onion", "cook the onion", "cook onion"],
+    render: SoftVegSVG,
+    label: "Softening veg",
+  },
+  {
+    keywords: ["egg", "crack", "nestle", "egg into", "eggs into", "crack the egg", "crack an egg"],
+    render: EggsInSauceSVG,
+    label: "Eggs in sauce",
+  },
 ];
 
 // ── Public component ─────────────────────────────────────────────────────────
 
 interface StepVisualizationProps {
   stepText: string;
+  mode?: "card" | "background"; // default: "card"
 }
 
-export function StepVisualization({ stepText }: StepVisualizationProps): React.ReactElement | null {
+export function StepVisualization({ stepText, mode = "card" }: StepVisualizationProps): React.ReactElement | null {
   const lower = stepText.toLowerCase();
   const match = VISUALIZATIONS.find((v) =>
     v.keywords.some((kw) => lower.includes(kw))
   );
   if (!match) return null;
+
+  if (mode === "background") {
+    // Return only the SVG, no wrapper — caller handles positioning and opacity
+    return <>{match.render()}</>;
+  }
 
   return (
     <div

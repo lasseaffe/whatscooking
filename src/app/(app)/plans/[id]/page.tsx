@@ -13,10 +13,10 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  const [{ data: plan }, { data: saves }] = await Promise.all([
+  const [{ data: plan, error: planError }, { data: saves }, { data: profile }] = await Promise.all([
     supabase
       .from("meal_plans")
-      .select("id, title, duration_days, week_start, meals_per_day, status, pinboard_filters, dietary_filters, nutritional_goals, user_id")
+      .select("id, title, duration_days, week_start, meals_per_day, status, pinboard_filters, dietary_filters, nutritional_goals, user_id, person_count, track_intake")
       .eq("id", id)
       .single(),
     supabase
@@ -25,9 +25,18 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
       .eq("user_id", user!.id)
       .order("saved_at", { ascending: false })
       .limit(40),
+    supabase
+      .from("profiles")
+      .select("track_intake")
+      .eq("id", user!.id)
+      .single(),
   ]);
 
+  void planError;
   if (!plan || plan.user_id !== user!.id) notFound();
+
+  const hasGoals = Object.keys((plan.nutritional_goals ?? {}) as Record<string, number>).length > 0;
+  const trackingEnabled = hasGoals || !!plan.track_intake || !!(profile?.track_intake);
 
   const savedRecipes = (saves ?? []).map((s) => s.recipe as unknown as {
     id: string; title: string; image_url: string | null;
@@ -65,6 +74,8 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
         status={(plan.status ?? "draft") as PlanStatus}
         pinboardFilters={(plan.pinboard_filters ?? {}) as Partial<PinboardFilters>}
         nutritionalGoals={(plan.nutritional_goals ?? {}) as Record<string, number>}
+        personCount={plan.person_count ?? 1}
+        trackingEnabled={trackingEnabled}
       />
 
       {/* Saved recipes that fit this plan */}

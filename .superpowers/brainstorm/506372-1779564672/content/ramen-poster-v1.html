@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramen v1</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,600&family=Inter:wght@200;300;400&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #1a0e08;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 24px 16px;
+    font-family: Inter, sans-serif;
+  }
+
+  .poster {
+    width: 100%; max-width: 500px; aspect-ratio: 2/3;
+    position: relative; overflow: hidden; cursor: pointer;
+    border: 1px solid transparent; transition: border-color 0.3s;
+    background: #F0E8D6;
+  }
+  .poster:hover    { border-color: rgba(196,30,58,0.35); }
+  .poster.selected { border-color: rgba(196,30,58,0.65); }
+
+  /* atmospheric washes — red, ink, indigo */
+  .washes {
+    position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background:
+      radial-gradient(ellipse 55% 40% at 85% 20%, rgba(196,30,58,0.09) 0%, transparent 60%),
+      radial-gradient(ellipse 45% 35% at 12% 78%, rgba(44,62,110,0.08) 0%, transparent 55%),
+      radial-gradient(ellipse 35% 30% at 92% 85%, rgba(180,110,40,0.07) 0%, transparent 50%);
+  }
+
+  .photo-zone {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 44%; z-index: 3; overflow: hidden;
+  }
+  .photo-zone img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center 35%;
+    filter: sepia(0.08) saturate(1.1) brightness(0.97);
+    animation: kenBurns 24s ease-in-out infinite;
+    transform-origin: center center;
+  }
+  @keyframes kenBurns {
+    0%   { transform: scale(1.0) translate(0,0); }
+    35%  { transform: scale(1.07) translate(-3px,-2px); }
+    70%  { transform: scale(1.10) translate(4px,3px); }
+    100% { transform: scale(1.0) translate(0,0); }
+  }
+  .photo-fallback {
+    width: 100%; height: 100%;
+    background: linear-gradient(#8B4513, #F0E8D6);
+    display: flex; align-items: center; justify-content: center; font-size: 90px;
+  }
+  .photo-fade {
+    position: absolute; top: 0; left: 0; right: 0; height: 44%;
+    z-index: 4; pointer-events: none;
+    background: linear-gradient(to bottom, transparent 52%, rgba(240,232,214,0.55) 78%, #F0E8D6 100%);
+  }
+
+  .content {
+    position: absolute; inset: 0; z-index: 9;
+    display: flex; flex-direction: column; padding: 20px 28px 22px;
+  }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .provenance {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(240,232,214,0.82); line-height: 1.9;
+    text-shadow: 0 1px 5px rgba(0,0,0,0.45);
+  }
+  .no {
+    font-family: 'Cormorant Garamond', serif; font-size: 10px; font-style: italic;
+    color: rgba(240,232,214,0.68); letter-spacing: 2px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .bottom { margin-top: auto; }
+  .recipe-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(52px, 11vw, 76px);
+    font-style: italic; line-height: 0.88; letter-spacing: -1px;
+    color: #1A1008;
+  }
+  .scroll-divider { display: flex; align-items: center; gap: 6px; margin: 10px 0 8px; }
+  .scroll-divider .arm { flex: 1; height: 1px; background: rgba(196,30,58,0.3); }
+  .sub-label {
+    font-size: 7px; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(196,30,58,0.6); margin-bottom: 9px;
+  }
+  .description {
+    font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 14.5px;
+    color: rgba(26,16,8,0.56); line-height: 1.72; max-width: 320px; margin-bottom: 10px;
+  }
+  .double-rule { display: flex; flex-direction: column; gap: 2px; margin-bottom: 9px; }
+  .double-rule .r1 { height: 1px; background: rgba(196,30,58,0.38); }
+  .double-rule .r2 { width: 44px; height: 1px; background: rgba(196,30,58,0.16); }
+  .ingr-label {
+    font-size: 7px; letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(26,16,8,0.36); margin-bottom: 6px;
+  }
+  .ingr-list { list-style: none; display: flex; flex-direction: column; gap: 3px; margin-bottom: 9px; }
+  .ingr-list li {
+    font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: rgba(26,16,8,0.40); display: flex; align-items: center; gap: 7px;
+  }
+  .ingr-list li::before {
+    content:''; display:block; width:8px; height:1px;
+    background: rgba(196,30,58,0.4); flex-shrink:0;
+  }
+  .meta-row { display: flex; gap: 18px; margin-bottom: 9px; }
+  .meta-item { font-size: 8px; letter-spacing: 3px; text-transform: uppercase; color: rgba(26,16,8,0.32); }
+  .meta-item span { color: rgba(26,16,8,0.60); }
+  .citation-block { border-top: 1px solid rgba(26,16,8,0.14); padding-top: 7px; }
+  .citation-ref {
+    font-size: 7px; letter-spacing: 3px; text-transform: uppercase;
+    color: rgba(196,30,58,0.52); margin-bottom: 3px;
+  }
+  .citation-text {
+    font-family: 'Cormorant Garamond', serif; font-style: italic;
+    font-size: 11px; color: rgba(26,16,8,0.44); line-height: 1.65;
+  }
+  .citation-source {
+    margin-top: 3px; font-size: 7px; letter-spacing: 1.5px;
+    color: rgba(26,16,8,0.26); text-transform: uppercase;
+  }
+
+  /* hover: Japanese → English */
+  .jp { position: relative; border-bottom: 1px dotted rgba(196,30,58,0.28); cursor: help; }
+  .jp::after {
+    content: attr(data-en);
+    position: absolute; bottom: calc(100% + 5px); left: 50%;
+    transform: translateX(-50%);
+    background: rgba(240,232,214,0.98); border: 1px solid rgba(196,30,58,0.22);
+    color: rgba(26,16,8,0.90); padding: 4px 10px; font-size: 10px; letter-spacing: 1.5px;
+    white-space: nowrap; border-radius: 2px;
+    font-family: Inter, sans-serif; font-style: normal; text-transform: none;
+    z-index: 20; pointer-events: none; opacity: 0; transition: opacity 0.15s;
+  }
+  .jp:hover::after { opacity: 1; }
+</style>
+<script>function sel(el){el.classList.toggle('selected');try{fetch('/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'click',choice:'ramen-v1',timestamp:Date.now()})});}catch(e){}}</script>
+</head>
+<body>
+
+<div style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#7a3818;margin-bottom:12px">
+  Ramen · v1 · ivory washi · seigaiha wave monogram
+</div>
+
+<div class="poster" onclick="sel(this)">
+
+  <!--
+    SEIGAIHA MONOGRAM — Japanese overlapping wave scales (青海波)
+    Tile: 20×20px.
+    Row A (at y=20 / tile bottom): half-disc centered at (10,20) → peaks at (10,10)
+    Row B (at y=10, offset): two half-discs centered at (0,10) and (20,10) → clip at tile edges,
+      combine across adjacent tiles into full scales centered at x=0,20,40…
+    Overall opacity: 0.085
+  -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;opacity:0.085"
+       xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="seigaiha" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+
+        <!-- Row A: full scale centered at (10,20), peaks at (10,10) -->
+        <path d="M0,20 A10,10 0 0,1 20,20 Z"
+              fill="rgba(196,30,58,0.08)" stroke="#C41E3A" stroke-width="0.55"/>
+
+        <!-- Row B: half-scales at tile edges; combine across tiles into full scales -->
+        <path d="M-10,10 A10,10 0 0,1 10,10 Z"
+              fill="rgba(196,30,58,0.08)" stroke="#C41E3A" stroke-width="0.55"/>
+        <path d="M10,10 A10,10 0 0,1 30,10 Z"
+              fill="rgba(196,30,58,0.08)" stroke="#C41E3A" stroke-width="0.55"/>
+
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#seigaiha)"/>
+  </svg>
+
+  <div class="washes"></div>
+
+  <div class="photo-zone">
+    <img
+      src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=500&q=80"
+      alt="Ramen"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="photo-fallback" style="display:none">🍜</div>
+  </div>
+  <div class="photo-fade"></div>
+
+  <!-- editorial double rule, ink + red -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:8;pointer-events:none;overflow:visible"
+       viewBox="0 0 500 750" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+    <line x1="28" y1="320" x2="472" y2="320" stroke="rgba(26,16,8,0.38)" stroke-width="1.5"/>
+    <line x1="28" y1="324" x2="472" y2="324" stroke="rgba(196,30,58,0.22)" stroke-width="0.7"/>
+  </svg>
+
+  <div class="content">
+    <div class="top">
+      <div class="provenance"><span class="jp" data-en="Japan · Fukuoka Prefecture">日本 · 福岡県</span><br><span class="jp" data-en="Since the Meiji era">明治時代より</span></div>
+      <div class="no">No. II</div>
+    </div>
+
+    <div class="bottom">
+      <div class="recipe-name">Ra-<br>men</div>
+
+      <!-- scroll divider — Japanese sun mon (circle + inner ring) -->
+      <div class="scroll-divider">
+        <div class="arm"></div>
+        <svg width="18" height="18" viewBox="-9 -9 18 18" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="0" cy="0" r="6" fill="none" stroke="rgba(196,30,58,0.65)" stroke-width="0.8"/>
+          <circle cx="0" cy="0" r="3" fill="rgba(196,30,58,0.55)"/>
+        </svg>
+        <div class="arm"></div>
+      </div>
+
+      <div class="sub-label">
+        <span class="jp" data-en="Wheat noodles · Rich bone broth">ラーメン · 濃厚スープ</span>
+      </div>
+
+      <p class="description">
+        In Japan, ramen is not fast food.
+        It is a broth that has been boiling since morning,
+        tended like a fire. You don't order the soup.
+        You enter its argument.
+      </p>
+
+      <div class="double-rule"><div class="r1"></div><div class="r2"></div></div>
+
+      <div class="ingr-label">
+        <span class="jp" data-en="Ingredients">材料</span>
+      </div>
+      <ul class="ingr-list">
+        <li><span class="jp" data-en="Pork bones · 12 hours">豚骨 · 12時間</span></li>
+        <li><span class="jp" data-en="Fresh wheat noodles">生ラーメン麺</span></li>
+        <li><span class="jp" data-en="Soft-boiled egg · soy-marinated">煮玉子 · 醤油漬け</span></li>
+        <li><span class="jp" data-en="Chashu pork · nori · bamboo">チャーシュー · 海苔 · メンマ</span></li>
+        <li><span class="jp" data-en="Shoyu tare · sesame oil · spring onion">醤油たれ · ごま油 · 葱</span></li>
+      </ul>
+
+      <div class="meta-row">
+        <div class="meta-item"><span class="jp" data-en="Active">作業</span> <span>1 h</span></div>
+        <div class="meta-item"><span class="jp" data-en="Broth">出汁</span> <span>12 h</span></div>
+        <div class="meta-item"><span class="jp" data-en="Serves">人前</span> <span>4</span></div>
+      </div>
+
+      <div class="citation-block">
+        <div class="citation-ref">
+          <span class="jp" data-en="Master's note">親方のひと言</span>
+        </div>
+        <div class="citation-text">
+          "A proper bowl arrives with heat that holds.
+          Cold ramen is not a bowl.
+          It is a failure of faith."
+        </div>
+        <div class="citation-source">
+          — <span class="jp" data-en="Unwritten rule · Every ramen shop · Since Showa">未成文の掟 · どのラーメン屋も · 昭和より</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#7a3818;margin-top:12px;text-align:center">
+  Hover Japanese for English · Click to approve
+</div>
+
+</body>
+</html>

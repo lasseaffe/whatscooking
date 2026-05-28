@@ -10,6 +10,7 @@ import type { PantryItem, IngredientCategory } from "@/lib/types";
 import { PantryScramble } from "./pantry-scramble";
 import { LeftoverStorage } from "./leftover-storage";
 import { SharedPantryTab } from "./shared-pantry-tab";
+import { SetBgMode } from "@/components/set-bg-mode";
 
 // ── Unit system helpers ──────────────────────────────────────
 type UnitSystem = "metric" | "imperial";
@@ -446,6 +447,7 @@ export function PantryClient({ initialItems, categories, userId }: Props) {
 
   return (
     <div className="px-4 sm:px-6 py-8 max-w-3xl mx-auto min-h-screen" style={{ background: "transparent" }}>
+      <SetBgMode mode="functional" />
       <ConfirmDeleteDialog
         open={!!pendingDelete}
         title="Remove from pantry?"

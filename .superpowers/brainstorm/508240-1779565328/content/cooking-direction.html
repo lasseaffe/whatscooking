@@ -1,0 +1,243 @@
+<style>
+  .directions {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  .direction-card {
+    flex: 1;
+    min-width: 280px;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .direction-card:hover { transform: translateY(-2px); }
+  .direction-card.selected { border-color: #F4A261 !important; }
+
+  /* Direction A — Editorial Warmth */
+  .dir-a { background: #1F1B19; }
+  .dir-a .mock-step {
+    padding: 28px 24px 20px;
+    font-family: Georgia, serif;
+    color: #EFE3CE;
+    min-height: 280px;
+    position: relative;
+  }
+  .dir-a .step-num {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #B07D56;
+    margin-bottom: 10px;
+  }
+  .dir-a .step-illus {
+    float: right;
+    margin: 0 0 12px 16px;
+    width: 100px; height: 100px;
+    background: #2C2724;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .dir-a .step-illus svg { width: 60px; height: 60px; }
+  .dir-a .step-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #F4A261;
+  }
+  .dir-a .step-body {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #c9b99a;
+  }
+  .dir-a .dir-label {
+    background: #2C2724;
+    padding: 14px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+
+  /* Direction B — Full-Bleed Illustration */
+  .dir-b { background: #141210; }
+  .dir-b .mock-step {
+    min-height: 280px;
+    position: relative;
+    overflow: hidden;
+  }
+  .dir-b .illus-bg {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 30%, #2a3a2a 0%, #141210 70%);
+    display: flex; align-items: center; justify-content: center;
+    padding-top: 20px;
+  }
+  .dir-b .illus-bg svg { width: 120px; height: 120px; opacity: 0.9; }
+  .dir-b .step-text {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 20px 24px;
+    background: linear-gradient(to top, #141210 60%, transparent);
+    color: #EFE3CE;
+    font-family: Georgia, serif;
+  }
+  .dir-b .step-title { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+  .dir-b .step-body { font-size: 13px; line-height: 1.6; color: #a89880; }
+  .dir-b .dir-label {
+    background: #1a1816;
+    padding: 14px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    color: #EFE3CE;
+  }
+
+  /* Direction C — Clean & Airy */
+  .dir-c { background: #FDFAF6; }
+  .dir-c .mock-step {
+    padding: 28px 24px 20px;
+    font-family: Georgia, serif;
+    color: #2C1F14;
+    min-height: 280px;
+  }
+  .dir-c .step-num {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #B07D56;
+    margin-bottom: 10px;
+  }
+  .dir-c .illus-row {
+    width: 100%;
+    height: 100px;
+    background: #F2EAE0;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .dir-c .illus-row svg { width: 64px; height: 64px; }
+  .dir-c .step-title { font-size: 20px; font-weight: 700; margin-bottom: 8px; color: #1a0f08; }
+  .dir-c .step-body { font-size: 13px; line-height: 1.7; color: #6b5444; }
+  .dir-c .dir-label {
+    background: #F2EAE0;
+    padding: 14px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    color: #2C1F14;
+  }
+
+  .dir-label-name { font-size: 13px; font-weight: 600; }
+  .dir-label-sub { font-size: 12px; opacity: 0.6; }
+  .badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  .badge-rec { background: #F4A261; color: #1a0f08; }
+  .badge-dark { background: #3A3430; color: #EFE3CE; }
+  .badge-light { background: #D4A88A; color: #1a0f08; }
+</style>
+
+<h2>Cooking Mode — Visual Direction</h2>
+<p class="subtitle">Three approaches for integrating step illustrations + redesigning the step reading experience. Click to select your preference.</p>
+
+<div class="directions">
+
+  <!-- Direction A -->
+  <div class="direction-card dir-a" data-choice="a" onclick="toggleSelect(this)">
+    <div class="mock-step">
+      <div class="step-num">Step 2 of 6</div>
+      <div class="step-illus">
+        <!-- Knife/chop SVG -->
+        <svg viewBox="0 0 60 60" fill="none">
+          <rect x="10" y="26" width="32" height="4" rx="2" fill="#B0B8C0"/>
+          <path d="M42 22 L52 28 L42 34 Z" fill="#8a9099"/>
+          <rect x="8" y="28" width="6" height="8" rx="2" fill="#8B6340"/>
+          <line x1="20" y1="36" x2="20" y2="48" stroke="#D4A843" stroke-width="1.5" stroke-dasharray="2 2"/>
+          <ellipse cx="26" cy="44" rx="10" ry="6" fill="#D4A843" opacity="0.4"/>
+          <ellipse cx="26" cy="44" rx="10" ry="6" fill="none" stroke="#D4A843" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="step-title">Dice the onion finely</div>
+      <div class="step-body">Halve the onion through the root, peel it, and make cuts parallel to the board before slicing down. Keeping the root intact stops it from falling apart as you work.</div>
+    </div>
+    <div class="dir-label">
+      <div>
+        <div class="dir-label-name">A — Editorial Warmth</div>
+        <div class="dir-label-sub">Illustration floated right, dark editorial feel</div>
+      </div>
+      <span class="badge badge-rec">Current vibe</span>
+    </div>
+  </div>
+
+  <!-- Direction B -->
+  <div class="direction-card dir-b" data-choice="b" onclick="toggleSelect(this)">
+    <div class="mock-step">
+      <div class="illus-bg">
+        <!-- Pan/sear SVG -->
+        <svg viewBox="0 0 120 100" fill="none">
+          <ellipse cx="60" cy="70" rx="42" ry="10" fill="#1a1a18"/>
+          <rect x="18" y="40" width="84" height="30" rx="6" fill="#2d2d2b"/>
+          <rect x="22" y="44" width="76" height="22" rx="4" fill="#222220"/>
+          <!-- food in pan -->
+          <ellipse cx="42" cy="55" rx="12" ry="8" fill="#8B4513"/>
+          <ellipse cx="42" cy="55" rx="12" ry="8" fill="#C8522A" opacity="0.5"/>
+          <ellipse cx="72" cy="55" rx="14" ry="8" fill="#8B4513"/>
+          <ellipse cx="72" cy="55" rx="14" ry="8" fill="#C8522A" opacity="0.5"/>
+          <!-- handle -->
+          <rect x="102" y="50" width="16" height="8" rx="4" fill="#5a5a58"/>
+          <!-- flames -->
+          <path d="M30 40 Q28 32 34 28 Q30 36 38 34 Q32 28 42 24 Q38 34 46 30 Q40 24 50 20 Q46 32 52 28 Q50 36 54 32 Q52 40 46 40Z" fill="#F97316" opacity="0.8"/>
+          <path d="M62 40 Q60 33 66 29 Q62 37 70 35 Q64 29 72 26 Q68 36 74 32 Q72 40 66 40Z" fill="#F97316" opacity="0.7"/>
+          <!-- steam -->
+          <path d="M42 40 Q40 34 44 30" stroke="#ffffff" stroke-width="1.5" opacity="0.2" fill="none" stroke-linecap="round"/>
+          <path d="M72 40 Q70 34 74 30" stroke="#ffffff" stroke-width="1.5" opacity="0.2" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="step-text">
+        <div class="step-title">Sear until deeply golden</div>
+        <div class="step-body">Heat oil until shimmering before adding the meat. Don't move it — let contact build colour.</div>
+      </div>
+    </div>
+    <div class="dir-label">
+      <div style="color:#EFE3CE">
+        <div class="dir-label-name">B — Full-Bleed Illustration</div>
+        <div class="dir-label-sub">Illustration dominates, text overlays below</div>
+      </div>
+      <span class="badge badge-dark">Dramatic</span>
+    </div>
+  </div>
+
+  <!-- Direction C -->
+  <div class="direction-card dir-c" data-choice="c" onclick="toggleSelect(this)">
+    <div class="mock-step">
+      <div class="step-num">Step 2 of 6</div>
+      <div class="illus-row">
+        <!-- Kneading dough SVG -->
+        <svg viewBox="0 0 64 52" fill="none">
+          <ellipse cx="32" cy="36" rx="24" ry="10" fill="#EDD170" opacity="0.5"/>
+          <ellipse cx="32" cy="34" rx="22" ry="9" fill="#EDD170"/>
+          <path d="M14 20 Q18 12 26 16 Q24 8 32 10 Q40 8 38 16 Q46 12 50 20 Q46 22 44 18 Q42 26 32 26 Q22 26 20 18 Q18 22 14 20Z" fill="#FDDCB5"/>
+          <!-- arrows -->
+          <path d="M6 32 L12 28" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M58 32 L52 28" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M6 32 L10 35" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M58 32 L54 35" stroke="#B07D56" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="step-title">Knead for 8 minutes</div>
+      <div class="step-body">Push the heel of your hand into the dough, fold it back, rotate 90°, repeat. You're done when the surface is smooth and springs back when poked.</div>
+    </div>
+    <div class="dir-label">
+      <div>
+        <div class="dir-label-name">C — Clean & Airy (Light Mode)</div>
+        <div class="dir-label-sub">Illustration in banner row, bright editorial feel</div>
+      </div>
+      <span class="badge badge-light">WC Light palette</span>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:20px">These are mockups of the step card area only — not the full cooking mode UI. Which overall direction feels right?</p>

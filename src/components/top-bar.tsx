@@ -67,8 +67,6 @@ export function TopBar() {
           z-index: 50;
           background: var(--wc-bg-base);
           border-bottom: 1px solid var(--wc-border-subtle);
-          backdrop-filter: blur(14px);
-          -webkit-backdrop-filter: blur(14px);
           flex-shrink: 0;
         }
 
@@ -126,9 +124,7 @@ export function TopBar() {
           max-width: 420px;
           border-radius: 16px;
           border: 1px solid var(--wc-border-default);
-          background: color-mix(in srgb, var(--wc-bg-base) 97%, transparent 3%);
-          backdrop-filter: blur(28px);
-          -webkit-backdrop-filter: blur(28px);
+          background: var(--wc-bg-base);
           box-shadow: 0 24px 72px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.3);
           overflow: hidden;
           animation: wc-panel-in 0.22s cubic-bezier(0.22,1,0.36,1) both;
@@ -180,9 +176,7 @@ export function TopBar() {
           width: 300px;
           border-radius: 14px;
           border: 1px solid var(--wc-border-default);
-          background: color-mix(in srgb, var(--wc-bg-base) 96%, transparent 4%);
-          backdrop-filter: blur(24px);
-          -webkit-backdrop-filter: blur(24px);
+          background: var(--wc-bg-base);
           box-shadow: 0 24px 72px color-mix(in srgb, var(--wc-bg-base) 65%, transparent 35%);
           overflow: hidden;
           animation: wc-notif-in 0.2s cubic-bezier(0.22,1,0.36,1) both;

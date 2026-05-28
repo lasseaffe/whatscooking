@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import Anthropic from "@anthropic-ai/sdk";
+import { checkFeatureGate, logFeatureUsage } from '@/lib/feature-gate'
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -252,13 +253,26 @@ export async function POST(_req: NextRequest, { params }: { params: Promise<{ id
   const { data: recipe } = await supabase.from("recipes").select("*").eq("id", id).single();
   if (!recipe) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
-  // Already fully extracted — return as-is
+  // Already fully extracted — return as-is (NO gate check — no Claude call made)
   if (
     recipe.instructions && (recipe.instructions as string[]).length > 2 &&
     recipe.ingredients && (recipe.ingredients as unknown[]).length >= 3 &&
     recipe.title !== "Premium Recipe"
   ) {
     return NextResponse.json({ recipe });
+  }
+
+  // Gate check — must be after the "already extracted" early return
+  const gate = await checkFeatureGate(user.id, 'recipe_extract')
+  if (!gate.allowed) {
+    return NextResponse.json(
+      {
+        error: 'limit_reached',
+        resets_at: gate.resets_at.toISOString(),
+        upgrade_url: '/settings?upgrade=1',
+      },
+      { status: 402 }
+    )
   }
 
   const isHack = (recipe.dish_types as string[] | null)?.includes("hack") ?? false;
@@ -319,6 +333,9 @@ export async function POST(_req: NextRequest, { params }: { params: Promise<{ id
     if (Object.keys(update).length > 0) {
       await supabase.from("recipes").update(update).eq("id", id);
     }
+
+    // Log this extraction against the user's weekly quota
+    await logFeatureUsage(user.id, 'recipe_extract', { recipe_id: id })
 
     return NextResponse.json({ recipe: { ...recipe, ...update } });
   } catch (err) {

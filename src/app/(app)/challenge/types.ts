@@ -12,6 +12,10 @@ export interface ChallengeDef {
   is_daily: boolean;
   is_active: boolean;
   created_at: string;
+  rules: string[];
+  objective: string | null;
+  target_seconds: number | null;
+  strategy_tip: string | null;
 }
 
 export interface ChallengeCompletion {
@@ -21,6 +25,7 @@ export interface ChallengeCompletion {
   completed_at: string;
   proof_url: string | null;
   note: string | null;
+  elapsed_seconds: number | null;
   challenge?: ChallengeDef;
   completer_name?: string | null;
   completer_avatar?: string | null;
@@ -39,4 +44,10 @@ export interface ActiveChallenge {
   emoji: string;
   startedAt: string;
   requiresProof: boolean;
+  category: ChallengeCategory;
+  difficulty: ChallengeDifficulty;
+  objective: string | null;
+  rules: string[];
+  targetSeconds: number | null;
+  strategyTip: string | null;
 }

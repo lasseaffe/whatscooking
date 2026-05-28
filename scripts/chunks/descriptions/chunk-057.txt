@@ -1,0 +1,2280 @@
+TITLE: chili man s engine 3 green chili
+CURRENT_DESCRIPTION: recipe from paul leibman a retired fire department captain who won the open-class competition at the cornhusker country chili cook-off and carryin' on in 1998 and 1999.  published in the world herald, 01-19-2000
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: poblano peppers, jalapeno peppers, garlic cloves, onions, ground cumin, white pepper
+---
+TITLE: chili s chocolate chip paradise pie by todd wilbur
+CURRENT_DESCRIPTION: from www.topsecretrecipes.com. recipe introduction:  "what makes this dessert so special is the way it comes to your table sizzling in a cast iron skillet. just like fajitas. the chocolate chip cookie and graham cracker
+crust "pie" is topped with a scoop of vanilla ice cream and then drizzled with chocolate and caramel syrup. it's all served up in a hot skillet of cinnamon butter. yum! if you want to prepare this one just like they do at the restaurant, you'll need one of those skillets for each serving. small iron skillets work the best, but any 6 or 8-inch frying pan will do fine. you just have to be sure your pan is super hot to get that authentic chili's "sizzle." if you don't have enough of the right pans for each serving, you can slide it all onto a plate. it may not have the sizzle of the real thing, but it'll still taste awesome!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, baking powder, butter, granulated sugar, egg
+---
+TITLE: chili s fajitas for two by todd wilbur
+CURRENT_DESCRIPTION: this recipe came from top secret restaurant recipes by todd wilbur.  www.topsecretrecipes.com fajitas are southwestern grilled chicken, beef or seafood served in a warm tortilla. everyone has their own way of creating a fajita, the challenge is rolling it up so you can take a bite.  this recipe can easily be doubled or tripled to create enough for your family.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lime juice, water, vegetable oil, garlic clove, vinegar, soy sauce
+---
+TITLE: Chili Strata
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 slightly beaten egg, 3/4 c. water, 1 (12 oz.) pkg. corn chips, 2 (15 1/2 oz.) cans chili with beans, 1 (20 oz.) can enchilada sauce, 3/4 c. chopped green pepper
+---
+TITLE: chili tofu
+CURRENT_DESCRIPTION: this delicious mouth watering recipe comes from today's young times. it's chef sanjeev kapoor's recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tofu, cornstarch, oil, onions, garlic cloves, green chilies
+---
+TITLE: Chili Willi Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. ground beef, 1 (16 oz.) can tomatoes, 1 pkg. McCormick chili seasoning mix, 1/2 c. uncooked macaroni, 1 beef bouillon cube, 6 slices toasted French bread
+---
+TITLE: chili zucchini marmalade
+CURRENT_DESCRIPTION: this unique marmalade is spicy good. using an overabundance of home grown zucchini and hot peppers. orange and chili do complement each other and work great in this. serve on cream cheese with crackers or glaze chicken,  salmon, or ribs at the end of cooking with the marmalade. using a food processor to shred the zucchini and apples is an easy way to go.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oranges, lemons, gingerroot, zucchini, granny smith apples, sugar
+---
+TITLE: Chili-Cheese Dip
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 jar Tostitos salsa Con Queso, 1 can chili
+---
+TITLE: Chili-Chicken
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 16 oz. medium size bag noodles, 1/2 c. chopped onion, 2 Tbsp. margarine, 3 cans mushroom soup, 4 oz. can/jar chopped pimento, 2 Tbsp. chopped chili pepper (or other peppers)
+---
+TITLE: Chili-Pepper Cheese Bake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 cans El Paso green chilies, 2 c. grated sharp cheese, 6 beaten eggs, 6 tsp. milk
+---
+TITLE: Chili-Style Chuck Roast
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 to 4 lb. beef chuck roast, 1 tsp. salt, 1/4 tsp. pepper, 1/3 c. Crisco, 2 Tbsp. firmly packed brown sugar, 1 1/2 tsp. dry mustard
+---
+TITLE: Chilie Squares
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 cans green chilies, 10 oz. shredded Cheddar cheese, 4 eggs, 4 Tbsp. milk
+---
+TITLE: Chilled Peanut Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3/4 c. roasted peanuts, 3 (10 1/2 oz.) cans beef broth, 1 1/2 c. half and half, 3/4 tsp. chili powder
+---
+TITLE: Chilled Tortellini Salad
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. tri-colored cheese tortellini, 1 (5 oz.) can black olives, pitted, 1 (4 or 5 oz.) jar or can broiled mushrooms, 1 bottle Italian dressing, grated Italian cheese (your choice)
+---
+TITLE: Chilli
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 lbs hamburger, 2 large onions, chopped, 1 large can tomatoes, 2 pkg. chili mix, salt and pepper, 1 small can tomato paste
+---
+TITLE: Chilli Crab with Mantou Buns
+CURRENT_DESCRIPTION: Singapore's most iconic dish: whole mud crab stir-fried in a sweet, spicy, egg-thickened tomato and chilli sauce. The steamed mantou buns for sauce-dunking are not optional — they are the entire point.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1.5 kg mud crab, cleaned and halved, 8 mantou buns, 4 tbsp tomato ketchup, 3 tbsp chilli sauce, 2 tbsp sambal oelek, 2 eggs
+---
+TITLE: Chilli Crisp TLT
+CURRENT_DESCRIPTION: 30K likes, 175 comments - rhi.scran on July 13, 2025: "Chilli crisp T.L.T 🥪🥪🥪 AD
+
+Consider this my lil twist on classic B.L.T flavours using @flora Sunflower Oil!
+
+It’s packed with unsaturated fats, making it a great alternative & an easy way to add extra nutrients to your cooking when using oil
+
+Ingredients (serves 2)
+
+Bread
+Lettuce
+Tomato
+
+Tofu ‘bacon’
+
+300g extra firm tofu, thinly sliced
+2 tbsp tamari (or light soy sauce)
+1 tbsp agave (or maple syrup)
+2 tsp paprika
+1/2 tsp msg (optional)
+1
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: Bread, Lettuce, Tomato, 300 g Extra firm tofu, thinly sliced, 2 tbsp Tamari, 1 tbsp Agave
+---
+TITLE: Chilli Garlic Tofu Bao
+CURRENT_DESCRIPTION: 67K likes, 207 comments - rhi.scran on March 21, 2024: "CHILLI GARLIC TOFU BAO 🌶️
+
+guys, when I tell you I was shook by how good these were !! all my fave things wrapped in fluffy buns with a crispy pan fried bottom, I’m OBSESSSSSED. if you do one thing today make these x
+
+ingredients (makes 8)
+
+for the tofu
+
+200g firm tofu, shredded
+2 spring onions, sliced, greens reserved for topping
+2 tbsp crispy chilli oil
+2 tbsp tamari (or dark soy sauce)
+1/2 tbsp agave
+1/2 tbsp rice vinegar
+50ml water
+1/2
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 200 g firm tofu, shredded, 2 spring onions, sliced, 2 tbsp crispy chilli oil, 2 tbsp tamari, 0.5 tbsp agave, 0.5 tbsp rice vinegar
+---
+TITLE: Chilli Log
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 16 oz. cream cheese, chilli powder
+---
+TITLE: Chilli Oil and Miso Mushroom Ragu
+CURRENT_DESCRIPTION: 1,615 likes, 26 comments - twistedgreen on October 17, 2024: "The richest, most savoury and comforting meat-free chilli oil and miso mushroom ragu 🍂🍄‍🟫
+
+Meat? HA, never heard of her. This is everything you could possibly need from a ragu but better because it’s just got mushrooms, miso, sundried tomatoes and umami chilli oil to give it a LOAD of flavour. It’s just unbelievably comforting. Make it, eat it, bathe in it. Have a lovely time please 💛 and keep an eye out for 3 stunning ways to use
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushrooms, miso, sundried tomatoes, chilli oil
+---
+TITLE: chilli paneer  tofu  kofta naramdil   spicy soft hearted tofu
+CURRENT_DESCRIPTION: i love paneer(tofu) and so does my family! this recipe is in today's 'thursday' magazine and there's 500 gms of tofu in my freezer:) you know what's going to be my lunch tomorrow, now, don't you? :)! the festive season is on, so, why not enjoy? i'm sure this is great, the picture in the magazine looks incredibly good!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: panir, flour, baking powder, salt, white pepper powder, green chili
+---
+TITLE: Chimichurri Skirt Steak
+CURRENT_DESCRIPTION: An Argentine asado classic: skirt steak cooked hard and fast over high heat until caramelised outside and gloriously pink within, draped in a herby, garlicky chimichurri that cuts through the richness perfectly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 800 g skirt steak, 2 large handfuls fresh flat-leaf parsley, 1 handful fresh oregano, 4 cloves garlic, 3 tbsp red wine vinegar, 80 ml extra virgin olive oil
+---
+TITLE: Chimichurri Tofu Sando
+CURRENT_DESCRIPTION: 8,473 likes, 125 comments - rhi.scran on February 6, 2025: "My all time fave chimichurri tofu sando 🥰 (and welcome to my *actual* kitchen !!)
+
+This sandwich has been my absolute fave for years, and for good reason. The tofu marinade, the chimichurri, ugh
+
+You also might notice a slightly different style in this vid, that’s bc it’s filmed in my actual kitchen & not in my usual window set up. I was feeling a lil uninspired by my vids lately, they just started to feel a bit impersonal (?), so I de
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 ciabatta rolls, 60 g roasted red peppers, 2 tbsp plant based mayo, plant based feta, rocket, 250 g firm tofu, sliced into 8 slices
+---
+TITLE: chin chin
+CURRENT_DESCRIPTION: this is a nigerian cookie that me and my mom perfected.  it is very simple to make and this is the best recipe out there. trust me, i have made this for many nigerian festivities and people tell me that it is the best.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, eggs, butter, water, salt, baking powder
+---
+TITLE: Chinese  Chop Suey
+CURRENT_DESCRIPTION: easy one-pot dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: celery, onion, ground pork, soy sauce, beef broth, cooking oil
+---
+TITLE: Chinese  Popcorn
+CURRENT_DESCRIPTION: this looks like a tasty treat, with a nice asian flair.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: popped corn, chow mein noodles, peanuts, butter, sesame oil, soy sauce
+---
+TITLE: chinese baked sweet bread dough
+CURRENT_DESCRIPTION: chinese bread dough is quite sweet compared with western breads (the further south you go in china, the sweeter the dough becomes). most chinese breads are steamed, which is why they look pale and uncooked to the western eye.
+this can be made plain or used for chinese buns (bao).  the buns can be filled with a variety of fillings, such as custard, mung bean paste, or bbqed meat.  be creative!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, sugar, milk, egg, vegetable oil, all-purpose flour
+---
+TITLE: chinese barbecued pork  char siu    cook s illustrated
+CURRENT_DESCRIPTION: published in cook's illustrated, march-april 2007.  pay close attention to the meat when broiling -- you are looking for it to darken and caramelize, not blacken.  serve with rice and vegetables.  leftover pork can be used in fried rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless pork butt, sugar, soy sauce, hoisin sauce, dry sherry, white pepper
+---
+TITLE: Chinese Buffet  Green Beans
+CURRENT_DESCRIPTION: from allrecipes.com, but i need to post it here for safekeeping, because this recipe is amazing!
+
+i had to cook my beans longer than i thought to get them soft enough for my taste.  so you might give yourself a little more time, depending on how you prefer your beans!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, garlic cloves, fresh green beans, white sugar, oyster sauce, soy sauce
+---
+TITLE: chinese chicken lettuce wraps
+CURRENT_DESCRIPTION: i came up with this recipe trying to replicate lettuce wraps offered at joey tomato's.  so far, i've determined, there are a number of elements that make the perfect lettuce wrap.  a balance between savory taste and crunch - which is given by the combination of soy, hoisin and chiles accented by the addition of crispy noodle.  i am sure this recipe will continue to evolve as i experiment with other flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: iceberg lettuce, egg noodles, vegetable oil, chicken breasts, garlic, yellow onion
+---
+TITLE: chinese chicken salad with peanut sesame dressing
+CURRENT_DESCRIPTION: cold shredded chicken in a peanut-sesame dressing is a common component of the exquisitely arranged cold appetizer platters served at chinese banquets.  this salad is as popular among westerners as it is with the chinese, and many variations of it are offered in casual dining spots throughout the west. from joyce jue, "far east cafe: the best of casual asian cooking".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chicken breasts, salt, chinese egg noodles, peanut oil, white sesame seeds, red bell pepper
+---
+TITLE: chinese coconut buns
+CURRENT_DESCRIPTION: soft buns with a yummy coconut filling. just like the ones your get from chinese bakeries and when you're out having dim sum. make sure you read the recipe first then get all your ingredients togethor. also, remeber there is a different between liquid measure and dry measure.
+
+this recipe comes from rhonda parkinson from about.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut flakes, granulated sugar, margarine, egg yolks, water, active dry yeast
+---
+TITLE: Chinese Cole Slaw
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 pkg. beef flavor Ramen noodles, broken into small pieces, 1 1/2 c. slivered almonds, 4 Tbsp. sesame seeds, 3 Tbsp. butter or margarine, 6 green onions, sliced thin, 1 (16 oz.) pkg. cole slaw mix
+---
+TITLE: chinese dim sum pot stickers
+CURRENT_DESCRIPTION: a recipe from my worn out copy of jeff smith's the frugal gourmet cooks 3 ancient cuisines. with this recipe, which i adapted from a soup to pot stickers, you have the choice of steaming or pan frying the dumplings. dim sum (also known more commonly as gyoza) wrappers are shaped like wonton wrappers except they are round not square. the wrappers can be found at any asian market and many grocery chains. we always serve the dim sum with both a sweet dipping sauce, (usually a purchased plum sauce) and a salty dipping sauce. you can also use freshly made dim sum wrappers, but as i am not to that confidence level in asian cooking i will leave that to the culinary experts. in the meantime i will take itty-bitty baby steps when it comes to cooking asian food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gyoza skins, water, cornstarch, peanut oil, ground chicken, tamari
+---
+TITLE: chinese dumplings
+CURRENT_DESCRIPTION: this is an authentic recipe given to me from a friend from malaysia. it is her grandfather's recipe who had a store.  you'll probably want to double (or triple) the recipe; they are that good.  the first four ingredients are for the dough.  you can use wonton wrappers instead, just roll them out a little thinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, eggs, vegetable oil, cold water, chinese chives, ground pork
+---
+TITLE: Chinese Hamburger
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 lb. hamburger, 2 Tbsp. oil, 1 onion, chopped, 1 celery rib, chopped, 1 c. cooked rice, 1 can cream of mushroom soup
+---
+TITLE: chinese lobster sauce
+CURRENT_DESCRIPTION: found this on about.com: chinese food.
+people are often surprised to discover that this popular dish doesn't contain lobster at all. the name comes from the fact that one of the ingredients is fermented black beans, which the cantonese use when preparing cantonese lobster.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground pork, soy sauce, pepper, cornstarch, fermented black beans, garlic clove
+---
+TITLE: Chinese Pepper Steak(Crockery Cooking)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 lb. round steak, 1 clove minced garlic, 1 Tbsp. sugar, 1 c. fresh or canned drained bean sprouts, 2 green peppers, cut in thin strips, 1 Tbsp. cornstarch with 2 Tbsp. cold water
+---
+TITLE: chinese roast pork buns
+CURRENT_DESCRIPTION: refrigerated biscuits are substituted for the traditional sweet bun dough, making this recipe an easy alternative.  courtesy of wayne hu.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: brown sugar, ketchup, soy sauce, hoisin sauce, dry sherry, garlic clove
+---
+TITLE: chinese spring rolls  shanghai  dim sum
+CURRENT_DESCRIPTION: spring roll skins are also known as shanghai-type spring roll skins and are available in some asian markets. lumpia skins, available in philippine markets, may be substituted. egg roll skins may also be substituted, but they are much thicker and not as nice as homemade spring roll skins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached flour, salt, eggs, water, vegetable oil, peanut oil
+---
+TITLE: chinese sticky rice dumplings
+CURRENT_DESCRIPTION: a dim sum dish. these dumplings are made from sticky or glutinous rice flour and have a soft chewy texture. this version has a pork and prawn filling. you can have fun making new filling combinations for these little dumplings. for a vegetarian version you could add more veges and use finely chopped tofu (you would need to thoroughly remove excess liquid from the tofu).
+this dish can be cooked gluten free by ensuring the cornflour and soy sauce used are gf. glutinous rice does not contain any gluten. these are time consuming to make, but will impress!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, pork fillets, prawns, cornflour, chinese wine, salt
+---
+TITLE: chinese style chestnut filled cake
+CURRENT_DESCRIPTION: i like this because all of the other chestnut cake cal for whipped cream, and this only uses it as decoration so i can leave it off if i want to. the chestnut filling is my favourite part!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, eggs, salt, vanilla essence, butter
+---
+TITLE: chinese style duck confit
+CURRENT_DESCRIPTION: the title really says it all - duck confit with a chinese twist. from one of my favorite chefs, the late, but very great, barbara tropp, and her great cookbook, china moon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: szechwan pepper, kosher salt, duck hindquarters, duck fat, garlic, orange zest
+---
+TITLE: chinese take out  orange chicken
+CURRENT_DESCRIPTION: i've found it easier (and cheaper) to make chinese food at home. no more waiting for the delivery driver to bring you cold food, no more waiting to be served in a restaurant, no more tipping. this is one of many chinese recipes that i prepare, and we feast at home for a fraction of the price. the best part is, we know it is going to be good. i hope you enjoy this one of my many "stay at home" chinese dishes. prep time includes 1 hour marinade time and 1 hour refrigeration time after coating. step #4 has been edited in response to googles2 review. thank you chef for bringing this to my attention. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, cornstarch, cold water, eggs, vegetable oil, sesame seeds
+---
+TITLE: chinese take out wonton soup
+CURRENT_DESCRIPTION: this version of the traditional soup is perfumed with ginger and swimming with flavorful five-spice-flavored pork wontons.  although most chicken stock-based soups taste like a chicken was just waved over the pot, we get big chicken flavor in this recipe by enriching canned chicken stock with extra chicken and vegetables for that rich flavor.  from the chinese take-out menu cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken backs and necks, chicken stock, peppercorns, fresh ginger, onion, carrot
+---
+TITLE: Chinese Vegetable Casserolewestboro, Missouri
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/4 lb. pkg. frozen broccoli and cauliflower, 1 can cream of celery soup, 1 can cream of mushroom soup, 1 8 1/2 oz. can water chestnuts, drained and sliced, 1 2 oz. jar pemento, drained and chopped, 3/4 c. Chow Mein Noodles
+---
+TITLE: Chipotle  Style Chicken Burrito Bowls
+CURRENT_DESCRIPTION: i love  those chicken burrito bowls at the restaurant chipotle, and this version is just as good - to me and my family anyway! the recipe appears to be long, but it consists of mostly toppings. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, sour cream, diced tomatoes with chiles and cilantro, sweet corn, chicken breasts, mexican rice
+---
+TITLE: chipotle apple pecan cake with spicy caramel glaze
+CURRENT_DESCRIPTION: liven up your dessert with a kick of heat!
+adapted from better homes & gardens magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, ground cinnamon, ground nutmeg, baking soda, dried chipotle powder, ground ginger
+---
+TITLE: chipotle bean tostadas
+CURRENT_DESCRIPTION: a bite of mexico in a spicy and flavorful  main dish
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, ground cumin, pinto beans, tabasco brand chipotle pepper sauce, salt
+---
+TITLE: Chipotle Breakfast Bagels
+CURRENT_DESCRIPTION: 3,518 likes, 60 comments - rhi.scran on August 10, 2025: "Chipotle breakfast bagels 🌶️🌶️🌶️
+
+I’m savoury brekkie all the way !! So here’s my spicy lil twist on a breakfast bagel, complete with chipotle sausage patty & tofu frittata, it’s bluddy tasty AND it’s prep-able 🫡
+
+Ingredients (makes 4)
+
+4 bagels
+Spinach
+
+For the patties
+
+8 plant based sausages
+1 tbsp chipotle paste
+1/2 tsp cumin
+1/2 tsp ground coriander
+1/2 tsp oregano
+
+For the frittata
+
+80g chickpea flour
+150ml unsweetened plant base
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 bagels, spinach, 8 plant based sausages, 1 tbsp chipotle paste, 0.5 tsp cumin, 0.5 tsp ground coriander
+---
+TITLE: chipotle cheddar corn casserole
+CURRENT_DESCRIPTION: diane phillips
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, sweet onion, chipotle chile in adobo, unbleached all-purpose flour, whole milk, sugar
+---
+TITLE: chipotle chicken salad with rice and roasted corn
+CURRENT_DESCRIPTION: this recipe is from a class i took with my favorite chef in portland, or, jessica benedetti. i have been asked for this recipe more times than i can count.  it's fabulous and really impresses everyone.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green onions, fresh lime juice, chipotle chile, ground cumin, olive oil, boneless skinless chicken breast halves
+---
+TITLE: chipotle chickpeas
+CURRENT_DESCRIPTION: this is a vegetarian recipe that was posted in the montreal gazette.  i couldn't pass up on this recipe because of the different blend of ingredients.  i think i should explain one of the ingredients here, since zaar may not accept it in the list of ingredients.  according to the explanation asafetida is used in many indian dishes as a flavouring.  it can be found in powedered or lump form in indian grocery stores.  in this recipe it is optional and you only need to use a 1/2 teaspoon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red bell peppers, sun-dried tomato, chickpeas, onion, olive oil, garlic cloves
+---
+TITLE: chipotle chilaquiles
+CURRENT_DESCRIPTION: this is one of my fall back recipes when i'm short on time and facing a "something spicy mexican" request. adapted from a rick bayless recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn tortillas, whole canned tomatoes, chipotle chiles in adobo, vegetable oil, white onion, garlic cloves
+---
+TITLE: chipotle fettuccine with smoked turkey
+CURRENT_DESCRIPTION: from betty crocker.
+
+every time i made this, i had to add about 1/4th cup of water to the dough.
+
+i've served this with chicken and topped with raspberry chipotle jelly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gold medal all-purpose flour, salt, vegetable oil, eggs, chipotle chile in adobo, whole kernel corn
+---
+TITLE: chipotle olive bread
+CURRENT_DESCRIPTION: from canadian living nov 2005
+posting for safe keeping and haven't made it yet.
+times are approximate
+i also included an abm method for the dough only
+tip: starting at a high oven temperature then reducing it plus baking the bread with a pan of water on the bottom rack creates a crisp crust
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, warm water, active dry yeast, milk, extra virgin olive oil, chipotle pepper
+---
+TITLE: chipotle shrimp with corn cakes  zwt usa southwest
+CURRENT_DESCRIPTION: from bernard clayton's cooking across america, posted for zwt iii.  this looks like some work, but sounds lovely.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, lemon, juice of, peppercorn, sea salt, medium shrimp, unsalted butter
+---
+TITLE: Chipotle Tofu Wrap
+CURRENT_DESCRIPTION: 35K likes, 162 comments - rhi.scran on August 2, 2024: "CHIPOTLE TOFU WRAP 🌯 It’s A Wrap - EP 4
+
+it’s episode 4 of my series of nice things in wraps & today I’m giving you this elite flavour combo of smoky chipotle tofu with a zingy avo slaw
+
+it’s an absolute flavour bomb & has all those light, fresh flavours to go with this gorge glimpse of summer we’ve had lately x
+
+ingredients (makes 3-4)
+
+3-4 wraps/flatbreads
+
+for the tofu:
+
+1 block (400g) firm tofu
+2 tbsp tamari (or soy sauce)
+1 tsp smoked
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3 wraps/flatbreads, 400 g firm tofu, 2 tbsp tamari, 1 tsp smoked paprika, 0.5 tsp msg, 0.25 cup chipotle paste
+---
+TITLE: Chipped Beef Dip Or Spread
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large pkg. cream cheese, 2 Tbsp. finely chopped onions, 2 Tbsp. mayonnaise, 1/2 c. chopped nuts, 1 (3 oz.) jar dried beef, 1 Tbsp. cream horseradish
+---
+TITLE: Chipped Steak Rolls
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. diced green peppers, 1 medium onion (1/2 c.), 1 pimento, chopped, 2 Tbsp. vegetable oil, 1 c. tomato paste (6 oz.), 1/2 c. chopped black olives
+---
+TITLE: Chippewa Soup
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 qt. carrots, diced, 2 qt. onions, chopped, 1 qt. celery, diced, 1 lb. green split peas, 2 qt. tomato puree, 6 cloves garlic
+---
+TITLE: Chitterlings(Makes 4 To 5 Servings)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 5 lb. chitterlings pig intestines, cleaned, 2 yellow onions, peeled and diced, 3 dried whole red peppers, 1 c. chopped celery, 1 Tbsp. seasoning salt, salt to taste
+---
+TITLE: Chive  Goat Cheese Mashed Potatoes
+CURRENT_DESCRIPTION: recipe comes from the december 2005 edition of canadian living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, garlic cloves, sour cream, soft fresh goat cheese, butter, salt
+---
+TITLE: Chmeur S  Pudding
+CURRENT_DESCRIPTION: a classic french-canadian sweet. "chômeur" means un-employed; therefore, the dish bears its name because it is inexpensive. along with rice pudding and jello, this is one of most commonly offered desserts in diners.
+
+warning: may cause sugar overdose.
+
+contrary to the usual recipe, this one uses milk for a more cake-like texture. the original recipe also doesn't call for an egg, but my mother always made it with the egg.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, margarine, sugar, milk, egg
+---
+TITLE: choc cherry tiramisu ice cream cake
+CURRENT_DESCRIPTION: this recipe jumped out at me!
+creamy, dreamy, yummy as can be!
+posted as special request, true!
+this recipe comes from super food ideas december 1009/january 2010 too!
+if anyone would like a photo, how it does appear,
+send me a zmail now or in the new year :)
+the photo can be found in the aus/nz forum as well!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: instant espresso coffee powder, marsala, boiling water, cream cheese, vanilla ice cream, biscuits
+---
+TITLE: choc peppermint slice
+CURRENT_DESCRIPTION: put in here so i would not lose it want to make for my friends baby shower. notes & tips:
+lining a slab pan: lightly grease the base and sides of a slab pan, paying particular attention to the two short ends. cut out a sheet of baking paper, allowing a 2cm overhang at each long side. use the overhang to lift slice from pan in one piece.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark chocolate, plain flour, baking powder, brown sugar, butter, sweetened condensed milk
+---
+TITLE: Chocaroon Pudding Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 egg whites, dash of salt, 1/3 c. sugar, 2 Tbsp. flour, 1 1/3 c. (1 packet) Baker's Angel Flake coconut, 1 (2 layer size) pkg. chocolate cake mix
+---
+TITLE: chochoyones in black bean soup
+CURRENT_DESCRIPTION: chochoyones are popular throughout the oaxaca region of mexico. indentations help the dumplings cook evenly.
+from cooking light magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, anise seed, cumin seed, garlic cloves, reduced-sodium fat-free chicken broth
+---
+TITLE: choco cherry cheesecake bars
+CURRENT_DESCRIPTION: looks great for valentine's day! they look very easy to make and yummy! found this on the pillsbury site. cooling and chilling time is about an hour and a half.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated sugar cookie dough, egg, cream cheese, eggs, sweetened condensed milk, almond extract
+---
+TITLE: chocoholic s cheesecake  rsc
+CURRENT_DESCRIPTION: ready, set, cook!  reynolds wrap contest entry.  it was late, the night before my wife's brithday.  i am still trying to figure out what to get her for this very special day.  then it hits me, a chocolate cheesecake.
+
+i spent the better part of the night quietly preparing this surprise for her, and part of the next day keeping it hid.
+
+her 70th birthday was very memorable, she loved the cheesecake, and made the comment to my mother, that she is a chocoholic, hence the name; chocoholic's cheesecake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reynolds wrap foil, parchment paper, almonds, graham crackers, sugar, cream cheese
+---
+TITLE: chocolate   vanilla cheesecake
+CURRENT_DESCRIPTION: the cocoa in this cheesecake makes a cheesecake to die for. sounds complicated, but it is not. you will be a star when you serve this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sugar, sour cream, vanilla, flour, eggs
+---
+TITLE: Chocolate  Cherry Pecan Biscotti
+CURRENT_DESCRIPTION: everybody i've ever made these for have loved them. i've made them with marshmellows before too... but that didn't really work out too well hehehe. in the picture the lighter biscottis don't have the cocoa powder in them and the darker ones do. (i like them without cocoa better but that's just me.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, salt, eggs, rum extract
+---
+TITLE: chocolate  date   hazelnut meringue torte
+CURRENT_DESCRIPTION: my old high school friend, helen, turned 50 this year (2007) and had her party at the gap tavern in brisbane.  they served this cake and mother kooka said, "that's all i want for my birthday!  i want you to make me that cake!"  well!  i had no idea what it was, but i googled and found some possibilities and then cobbled together this recipe.  we had it yesterday for mother kooka's 83rd birthday party and it was an absolute hit!  in fact, one guest said, "i am not going home until you give me the recipe!"  i promised i'd post it on zaar so that everyone could enjoy it - so here it is!  important:  make it the afternoon before you want it, as it needs to sit in the oven overnight. (oh, by the way, i've said it will serve 10, but we had nearly 20 at the party and i served everybody by cutting very thin slices.  it's quite rich, so nobody felt deprived).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, chocolate, dates, egg whites, caster sugar, whipping cream
+---
+TITLE: chocolate  hazelnut and ginger biscotti
+CURRENT_DESCRIPTION: for the crispiest cookies, slice the dough no thicker than a half inch. the biscotti keep well and look great wrapped in tinted cellophane tied with a silk ribbon or raffia, or packed into pretty holiday bags. from bon appetit
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, unsweetened cocoa powder, baking soda, salt, eggs
+---
+TITLE: Chocolate "Stuff"
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large box instant chocolate pudding mix, 1 small bag vanilla wafers, 1 small tub Cool Whip, 1 small pkg. chopped pecans (about 1/2 c.)
+---
+TITLE: Chocolate & Peanut Butter Silken Tofu Mousse
+CURRENT_DESCRIPTION: 21K likes, 173 comments - emmapetersen on February 22, 2024: "CHOCOLATE & PEANUT BUTTER SILKEN TOFU MOUSSE 🤎
+
+This pud has been a family fave since the avocado chocolate mousse craze (iykyk!) and it really is SO GOOD. If you’re a tofu sceptic, please don’t let using it in this put you off. The tofu is completely flavourless and basically just turns to a high protein cream when blended and perfectly carries the gorgeous nutty chocolate flavours 🫡
+
+Serves 3-4.
+▫️1 pack silken tofu (300g)
+▫️1 tbs
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 300 g silken tofu, 1 tbsp maple syrup, 1 tbsp natural peanut butter, 1 tbsp cacao powder, 100 g dark chocolate, melted and cooled slightly, Greek style yoghurt
+---
+TITLE: chocolate almond biscotti
+CURRENT_DESCRIPTION: these are great dipped in coffee or eaten by themselves. they make a nice gift when put in a large coffee mug.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, butter, sugar, cocoa, baking powder, baking soda
+---
+TITLE: chocolate amaretto cake
+CURRENT_DESCRIPTION: whomever you serve this to will think you slaved but this is so easy and delicious!! this is an incredibly moist, intensely chocolate cake, perfect for chocoholics.  does not taste like a 'box' cake at all!  the original recipe is from bon apetit magazine but i had read the reviews on epicuirious and made some of the suggested adjustments.  turns out perfect with very little effort!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, devil's food cake mix, water, eggs, vegetable oil, amaretto liqueur
+---
+TITLE: chocolate and peanut butter fix brownies
+CURRENT_DESCRIPTION: this recipe was developed with my recipe#87925 if you are in need of a peanut butter and chocolate fix, this will cure it for sure! prep time does not include make the brownies. the chocolate topping can be doubled if desired for a thicker layer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, water, semi-sweet chocolate chips, vanilla, eggs
+---
+TITLE: chocolate and pear trifle
+CURRENT_DESCRIPTION: posted in response to a request in the british cooking forum. i can't wait to try this one out, it looks yummy! prep time includes up to 24 hours chilling time, although it can be as little as 4-6 hours, you decide.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate pound cake, granulated sugar, flour, ground nutmeg, salt, milk
+---
+TITLE: chocolate and vanilla chip biscotti
+CURRENT_DESCRIPTION: originally from pillsbury.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, unsweetened cocoa, baking powder, sugar, brown sugar, butter
+---
+TITLE: chocolate angel food cake with marshmallow frosting
+CURRENT_DESCRIPTION: this dessert is nearly completely fat-free (except for a tiny amount of fat in the cocoa powder and in the chocolate shavings). with an extra-thick layer of fluffy marshmallow frosting, you’ll never even notice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: superfine sugar, unsweetened cocoa powder, cake flour, salt, egg whites, cream of tartar
+---
+TITLE: chocolate apricot passover torte
+CURRENT_DESCRIPTION: found this on the hershey's site and from what i understand their chocolate is kosher for passover. haven't tried this as yet but it looks good and is quite pretty, too! i did not include cooling times.update: 4/23/2008
+i finally made this and took a reviewer's advice about not straining the apricot preserves and used more apricot preserves and used 1/2 cup of apricot juice from the can (unsweetened) and reduced the sugar to 1 cup. decorated the cake with apricots and almonds.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, cocoa, eggs, water, vanilla extract
+---
+TITLE: chocolate apricot pecan torte
+CURRENT_DESCRIPTION: this recipe comes from an old bon apetite magazine.  my dear friend's boyfriend baked this torte for her birthday one year and after i had the honor of tasting it -- i told her she that she had my blessing to marry him.  they have now been married for over 20 years so i guess i was right!!!  i am placing this recipe here for safe keeping.  this is the second time i have had to request the recipe from my friend and i promised to place it somewhere safe and secure.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cognac, dried apricots, butter, dry breadcrumbs, unsalted butter, sugar
+---
+TITLE: chocolate apricot torte
+CURRENT_DESCRIPTION: this delicious torte is easy to put together and looks very pretty with its' alternating layers of apricot and chocolate. this is one of my favorite cake recipes that i've made many times over.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, all-purpose flour, egg yolks, vanilla, instant coffee
+---
+TITLE: Chocolate Avocado Smoothie
+CURRENT_DESCRIPTION: Avocado, cacao powder, banana, and almond milk. Tastes like a chocolate milkshake but is genuinely nutritious. The healthy dessert smoothie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 0.5 whole ripe avocado, 1 whole frozen banana, 2 tbsp raw cacao powder, 250 ml almond milk, 2 pitted medjool dates, 0.5 tsp vanilla extract
+---
+TITLE: chocolate babka
+CURRENT_DESCRIPTION: this yeast bread tastes heavenly and looks fantastic. everyone will wonder how you got the chocolate filling into such an elaborate pattern. but the best part is how great a slice tastes when warmed in the microwave. recipe makes three loaves so you can give one as a gift, freeze one for later baking and still have one to eat now. rising and resting times are included in cook time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: active dry yeast, milk, sugar, eggs, egg yolks, all-purpose flour
+---
+TITLE: chocolate baked alaska
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate chip ice cream, egg whites, cream of tartar, brown sugar, all-purpose flour, cocoa
+---
+TITLE: chocolate baklava
+CURRENT_DESCRIPTION: i love chocolate, and i adore baklava, and this is a sublime combination of the two. it involves a little work, so i make this for very special occasions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, pecans, cinnamon, sugar, semi-sweet chocolate chips, phyllo dough
+---
+TITLE: chocolate banana heaven cake
+CURRENT_DESCRIPTION: a decadent chocolate cake made with bananas, cream cheese and coffee! from another site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cake mix, cocoa powder, eggs, coffee, water, bananas
+---
+TITLE: chocolate belton cream pie
+CURRENT_DESCRIPTION: this is actually a cake--a chocolate version of boston cream pie, i created for our daughter-in-law: sure to please any chocoholic!! so inexpensive and easy to make!! layers of rich chocolaty cake, with chocolate pudding in between, covered entirely in chocolate fudge glaze.  delightful, cool way to end a summer meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking soda, vinegar, vanilla, salt
+---
+TITLE: chocolate birthday cake
+CURRENT_DESCRIPTION: rich chocolaty flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, eggs, sugar, all-purpose flour, almond extract, water
+---
+TITLE: Chocolate Black Bean Cookies
+CURRENT_DESCRIPTION: 18K likes, 195 comments - chloeevegan on January 31, 2022: "These Chocolate Black Bean Cookies are INSANE! 😱
+
+I’ve made many chocolate cookies in my days, but these bad boys may just take the crown. They’re soft, sweet and so simple to make. And yes, you saw right, they’re made from black beans. But I promise, you cannot taste them at all! Instead, they provide the perfect texture and pack these cookies with protein.
+
+🍫Vegan, refined sugar-free, oil-free and gluten-free. 
+
+RECIPE:
+- 1 Can Blac
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 can (240g drained) Black Beans, 9 Pitted Medjool Dates, 0.5 cup Almond Meal, 0.33 cup Cacao Powder, 0.25 cup Almond Butter, 3 tbsp Unsweetened Oat Milk
+---
+TITLE: chocolate blackout cake
+CURRENT_DESCRIPTION: (mean chef adoptee)  i have tried many versions of the famous new york blackout cake. after many trials i have settled on this one by wayne harley brachman - retro desserts. it is awsome. source: "retro desserts".   use recipe #37844 for icing.  adopted 9/06
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, unsweetened cocoa powder, baking soda, baking powder, salt, unsalted butter
+---
+TITLE: chocolate blood orange marble cake
+CURRENT_DESCRIPTION: in 'tate's bake shop: baking for friends' by kathleen king
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, bittersweet chocolate, unbleached all-purpose flour, baking soda, baking powder, salt
+---
+TITLE: chocolate boston cream pie
+CURRENT_DESCRIPTION: a little twist on the traditional boston cream pie.  for all you chocolate lovers out there, this one is for you!  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, cocoa powder, baking soda, butter, milk
+---
+TITLE: Chocolate Brandy Fondue
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (6 oz.) pkg. semi-sweet chocolate chips, 1 Tbsp. water, 2 Tbsp. heavy cream, 2 Tbsp. orange liqueur
+---
+TITLE: chocolate broiler cake
+CURRENT_DESCRIPTION: this cake is much requested in my house! it is sponge cake, layered chocolate/regular, and cooked in the broiler one layer at a time. not as labor intensive as the directions sound. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: german cooking chocolate, butter, sugar, vanilla, egg yolks, flour
+---
+TITLE: Chocolate Brownie Baked Oats
+CURRENT_DESCRIPTION: 46K likes, 360 comments - emmapetersen on October 29, 2023: "MEAL PREP BAKED OATS | Choc brownie 🤎
+
+Another week, another big batch baked oats combo !! Long overdue - I FINALLY made a choc version. And yessir, they were worth the wait. Healthy, high in protein & downright delicious 🫡
+
+Makes 3-5 servings depending on ur appetite:
+▫️ 200g rolled oats
+▫️ 2 bananas
+▫️ 60g salted caramel soy protein - @myprotein 
+▫️ 40g cacao powder
+▫️ 420ml milk
+▫️ 1 tsp baking powder
+▫️ 60g dark chocolate chunks
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 200 g rolled oats, 2 bananas, 60 g salted caramel soy protein, 40 g cacao powder, 420 ml milk, 1 tsp baking powder
+---
+TITLE: chocolate cake mix cheesecake
+CURRENT_DESCRIPTION: this is an ultra rich, creamy, and delectable cheesecake!  the flavor of the cheesecake improves the longer it is refrigerated.  it actually tastes better served 1 to 2 days later as the crust softens.  it keeps up to one week, so it is great to make ahead for special occasions.  it can also be frozen with a covering of foil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, milk chocolate chips, butter, devil's food cake mix, egg, cream cheese
+---
+TITLE: chocolate cake roll
+CURRENT_DESCRIPTION: this is a delicious soft sponge-cake recipe.  it received a reserve champion ribbon at my county fair.  it is much healthier than regular cakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, unsweetened cocoa powder, cornstarch, baking soda, baking powder, salt
+---
+TITLE: chocolate cake with ganache and praline topping
+CURRENT_DESCRIPTION: i found this one in bon appetit's july '09 issue and i'm posting it for my friend chef #1072593 cause she loves these praline cakes so much.  she's got me dying to make one but i haven't gotten to it yet.  so this one's for chef #1072593  note: prep time is cooling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, unsalted butter, unsweetened cocoa powder, boiling water, flour, sugar
+---
+TITLE: chocolate candy cane cake
+CURRENT_DESCRIPTION: a christmas classic (yes, i know it's july when i'm posting).  from better homes and gardens magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, cocoa powder, salt, shortening, granulated sugar, vanilla extract
+---
+TITLE: chocolate candy cane pie
+CURRENT_DESCRIPTION: a simple and easy to make, yet quite elegant. a very rich and decadent christmas dessert!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafer crumbs, unsweetened cocoa, confectioners' sugar, butter, water, chocolate chips
+---
+TITLE: chocolate caramel candy
+CURRENT_DESCRIPTION: my mom decided to try these snickers-like candy, and our family fell in love with them!!! they are very rich, so cut into small pieces!!! also, each layer has to be refrigerated before adding the next, so plan ahead. the time is worth it though!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk chocolate chips, butterscotch chips, creamy peanut butter, butter, sugar, evaporated milk
+---
+TITLE: chocolate caramel cheesecake bites
+CURRENT_DESCRIPTION: these special mini desserts have all the taste of a rich, chocolate-covered cheesecake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer crumbs, butter, caramels, milk, pecans, cream cheese
+---
+TITLE: chocolate caramel commotion bars
+CURRENT_DESCRIPTION: found this recipe on the jif peanut butter website a little while ago and made it for a potluck.  i haven't been able to stop thinking about it since - but i don't dare make it again, cuz it's super rich and i might eat the whole pan  :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate chips, butter, sweetened condensed milk, vanilla extract, all-purpose flour, granulated sugar
+---
+TITLE: chocolate caramel dream cookies
+CURRENT_DESCRIPTION: very attractive on a tray of treats...one bite and you will be hooked! compliments of better homes and garden.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, butter, sugar, milk, vanilla, flour
+---
+TITLE: chocolate caramel mocha cheesecake
+CURRENT_DESCRIPTION: wow, most decadent dessert. well worth the time it takes to make. your guests will be so impressed with this excellant homemade cheesecake. i loaned the cookbook that this recipe comes from to a co-worker and never got the book back, i think it was called extraordinary cheesecakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream-filled chocolate sandwich cookies, butter, cream cheese, dark brown sugar, cornstarch, eggs
+---
+TITLE: Chocolate Caramel Sheet Cake
+CURRENT_DESCRIPTION: 19K likes, 1,070 comments - thelittleblogofvegan on February 17, 2024: "Chocolate Caramel Sheet Cake🐰 YAY or NAY? Who wants a slice? Follow @thelittleblogofvegan for the best vegan recipes!
+
+An unbelievably Vegan moist chocolate sheet cake with hidden caramel, a fudgy chocolate buttercream decorated with cute bunnies & eggs for Easter🐰🐣 SO YUMMY! No-Egg, No-Dairy & easy to make! 
+
+✨ COMMENT ‘chocolate cake’ and I’ll DM you the recipe link! 
+
+• Get the full recipe on my website: thelittleblog
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: chocolate caramel tart
+CURRENT_DESCRIPTION: ultra-rich and indulgent, worth every effort.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, salt, lemons, zest of, unsalted butter, egg yolk
+---
+TITLE: chocolate caramel thumbprints
+CURRENT_DESCRIPTION: these taste like pecan turtles in a cookie!  who doesn't like chocolate with caramel and nuts? yummy!!
+time does not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, all-purpose flour, unsweetened cocoa powder, salt, butter, sugar
+---
+TITLE: chocolate cashew truffle bars recipe
+CURRENT_DESCRIPTION: made with chocolate, cashews, and more chocolate!
+adapted from home cooking, these looked so good i'm posting them here to make soon!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, unsweetened chocolate, sugar, eggs, all-purpose flour, vanilla
+---
+TITLE: chocolate chai cupcakes with buttercream frosting
+CURRENT_DESCRIPTION: recipe is from land o lakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, cream cheese, egg, boiling water, tea bags, chocolate cake mix
+---
+TITLE: chocolate challah
+CURRENT_DESCRIPTION: got this recipe by mail and within a few days i had made it twice. it has the consistency of challah, yet it is sweet and tastes like cake. without the glaze it freezes well and the recipe can also be doubled (which i have done). don't think of calories though!
+perfect for a simcha (a happy occasion)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread flour, fast-rising active dry yeast, water, brown sugar, cocoa, butter
+---
+TITLE: Chocolate Cheese Delight
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. soft margarine, 2 c. flour, 1/2 c. chopped pecans, 1 (8 oz.) pkg. cream cheese, 1 c. powdered sugar, 1 c. Cool Whip (from 12 oz. carton)
+---
+TITLE: chocolate cheese eclairs
+CURRENT_DESCRIPTION: found online when i was planning dessert for nye but i didn't get to them, thought i'd post them anyway.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cocoa, sugar, water, margarine, eggs
+---
+TITLE: chocolate cheesecake brownies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semisweet mini chocolate chips, semisweet chocolate, unsalted butter, instant coffee, eggs, sugar
+---
+TITLE: chocolate cheesecake candy cane bars
+CURRENT_DESCRIPTION: brownie meets cheesecake and makes a chocolate dream come true. these bars always get raves. even people who don't like cheesecake love this recipe. it's a chocolate thing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer cookies, unsalted butter, sugar, coffee beans, fine salt, semisweet chocolate
+---
+TITLE: chocolate cherry bread
+CURRENT_DESCRIPTION: similar to zingerman's yummy loaf...a not-too-sweet bread studded with bits of bittersweet chocolate and dried cherries. add some toasted pecan pieces for some extra crunch, or leave them out; your choice. prep time does not include 2 to 3 hours of rising time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, dry yeast, granulated sugar, all-purpose flour, dutch-processed cocoa powder, brown sugar
+---
+TITLE: chocolate cherry pocket cookies
+CURRENT_DESCRIPTION: yummy chocolate cherry pockets
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, cream cheese, powdered sugar, unsweetened cocoa powder, baking powder, baking soda
+---
+TITLE: Chocolate Chex Mix
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 large pkg. chocolate chips, 1 c. peanut butter, 1 large box Rice Chex cereal, 3 c. powdered sugar
+---
+TITLE: chocolate chiffon pie
+CURRENT_DESCRIPTION: this is light and creamy. really good.
+cooking times do not include chilling times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate baking squares, unsweetened chocolate square, milk, gelatin, sugar, eggs
+---
+TITLE: chocolate chile cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, cake flour, granulated sugar, baking soda, salt, cocoa powder
+---
+TITLE: chocolate chip and mascarpone cupcakes   giada de laurentiis
+CURRENT_DESCRIPTION: chocolate lovers will love these (chocolate cupcakes with chocolate chips topped with a chocolate ganache!). this is one of giada's recipes. it makes a lot so it's good to bring to a party.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, water, mascarpone cheese, sugar, vegetable oil, eggs
+---
+TITLE: chocolate chip banana cream pie
+CURRENT_DESCRIPTION: a rich dessert using cookie dough for the base. from country woman magazine, which won grand prize. prep time includes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated chocolate chip cookie dough, sugar, cornstarch, salt, milk, egg yolks
+---
+TITLE: chocolate chip bars  or gift mix in a jar
+CURRENT_DESCRIPTION: this recipe came from a book with all sorts of mixes that you layer in a quart canning jar to give as gifts.  i wanted to try this particular one so i just put everything together in a mixing bowl and didn't bother making a jar.  sometimes the goodies that are in a jar are not that great but these are delicious; they are moist and have lots of yummy flavors.  at the end of the recipe in the instructions, i will list how to do the layers if you should want to give this as a gift.  you will notice in the layers that there are two of flour, white sugar, and brown sugar.  that is just to make it look nice but if you are going to make it without the jar, just follow the instruction that i have listed. tie a big bow around the top and give as a gift.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white sugar, brown sugar, butter, eggs, vanilla, water
+---
+TITLE: chocolate chip cake with chocolate frosting
+CURRENT_DESCRIPTION: sinfully rich chocolate frosting covers tender vanilla cake layers studded with mini chocolate chips. to top it off, there are lots of hershey's hugs and kisses. preparation time includes cooling cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, salt, mini chocolate chips, butter
+---
+TITLE: chocolate chip cake with chocolate glaze
+CURRENT_DESCRIPTION: this is my absolute favorite cake, which i request every year for my birthday.  it comes from a lovingly-used, almost-falling-apart betty crocker cookbook that my mother owns.  it is very rich and somewhat dense with bits of chocolate chips throughout, creamy butterscotch filling and decadent chocolate glaze.  it is best served with a large glass of milk or scoop of vanilla ice cream.  it can be made as a layer cake or bundt cake (omitting the filling) with or without the glaze.  (note: preparation time does not include time required for cooling cake or filling.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, brown sugar, sugar, baking powder, salt, baking soda
+---
+TITLE: chocolate chip challah
+CURRENT_DESCRIPTION: this recipe is adapted from the beigel family challah recipe in joan nathan's the foods of israel today cookbook. if you have a favorite challah recipe, you can use it to make chocolate chip challah, just follow the directions below pertaining to adding the chocolate chips. however, this is a really good challah recipe, so i think its worth giving a try.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, sugar, warm water, vegetable oil, eggs, salt
+---
+TITLE: chocolate chip cheesecake
+CURRENT_DESCRIPTION: this is my husband's favorite dessert. he requests it every year for his birthday. it is creamy with just a little of that cream cheese twang. the filling and topping are from a toh recipe submitted by christina till, the crust has been adapted to our tastes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookies, butter, cream cheese, sugar, cornstarch, eggs
+---
+TITLE: Chocolate Chip Cookie
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 3/4 c. butter flavored Crisco, 1 1/4 c. brown sugar, 2 Tbsp. milk, 1 Tbsp. vanilla, 1 egg, 1 3/4 c. all-purpose flour
+---
+TITLE: chocolate chip cookie dough cheesecake
+CURRENT_DESCRIPTION: sounds like pure heaven:) *recipe indicates chilling time in prep time--may want to make a day ahead.*
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate chip cookies, sugar, butter, cream cheese, eggs, sour cream
+---
+TITLE: chocolate chip cookie dough fudge
+CURRENT_DESCRIPTION: it is my firm belief that the title speaks for itself.... (found this just browsing one night; not certain of prep time)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, flour, salt, mini chocolate chips, powdered sugar
+---
+TITLE: chocolate chip cookie truffles
+CURRENT_DESCRIPTION: found this recipe today. it looked pretty easy and tasty, so i'll have to try it for my holiday cooking this year. this was a note listed with the recipe on cooksrecipes.com. the cooling time is not included in prep or cooking times. note: the perfect truffle for the chocolate chip cookie lover! these sweet treats are a crushed chocolate chip cookie center, dipped in melted semi-sweet chocolate and dusted with cocoa. these chocolate chip cookie truffles will both surprise and delight. the key to making these truffles is to bake the cookies a little longer than the package states so they are crisp but not burnt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated chocolate chip cookie dough, cream cheese, nestl toll house semi-sweet chocolate morsels, vegetable shortening, nestle toll house baking cocoa
+---
+TITLE: chocolate chip cookies   with variations
+CURRENT_DESCRIPTION: "oh!no! not another chocolate chip cookie recipe"!!! well, this one's different. this may be the only recipe you'll ever need as it gives variations on the basic recipe to suit your type of cookie preference. my personal recipe hint: for a truly chewy texture, it's important to melt the butter called for in the recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, salt, butter, granulated sugar, brown sugar
+---
+TITLE: Chocolate Chip Dessert
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. chocolate chip cookies, 1 bowl milk, 1 container Cool Whip
+---
+TITLE: chocolate chip gooey butter cake
+CURRENT_DESCRIPTION: this recipe is for the person with a serious sweet tooth-- included are variations for different gooey butter cakes. recipe from paula deen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, egg, butter, cream cheese, eggs, vanilla extract
+---
+TITLE: chocolate chip pumpkin cheesecake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vanilla wafer crumbs, cocoa, powdered sugar, butter, cream cheese, granulated sugar
+---
+TITLE: chocolate chip refrigerator cookies
+CURRENT_DESCRIPTION: these are simple, and very, very good...they have a tender crisp texture..you can make the dough up to 2 months ahead, and can have homemade cookies in 15 minutes..simply, remove from freezer, slice and bake..
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose white flour, baking powder, salt, butter, corn oil, light brown sugar
+---
+TITLE: chocolate chip scones with peanut butter glaze
+CURRENT_DESCRIPTION: these are fabulous!  this one came from a "the farmgirl's dabbles" blog.  they're super quick and the flavor is out of this world.  chocolate and peanut butter???!!!???   yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, brown sugar, baking powder, baking soda, kosher salt, unsalted butter
+---
+TITLE: chocolate chocolate cherry pound cake
+CURRENT_DESCRIPTION: macrina bakery. the texture improves if the cake is allowed to sit overnight.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried tart cherries, dark cocoa, unbleached all-purpose flour, baking powder, salt, unsalted butter
+---
+TITLE: Chocolate Chocolate Chocolate Cake(With Chocolate Icing)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 box devil's food cake mix, 1 c. chocolate chips (add last), 2 eggs, 1 1/4 c. water, 1 box instant or regular chocolate pudding, 1/4 c. oil
+---
+TITLE: chocolate chocolate mousse torte
+CURRENT_DESCRIPTION: every chocolate lover's dream! looks like a lot of work but is actually very easy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk chocolate, dark chocolate, unsalted butter, eggs, greek yogurt, vanilla
+---
+TITLE: chocolate chocolate pudding cake with chocolate ganache
+CURRENT_DESCRIPTION: recipe courtesy of emeril lagasse. i got this from foodtv.com and had to share.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, unsweetened cocoa powder, flour, baking powder, butter
+---
+TITLE: chocolate chunk oatmeal cookies with pecans and dried cherries
+CURRENT_DESCRIPTION: i received this an email from atk.  i substituted dried cranraisins for the dried cherries, semi-sweet chocolate chips for bittersweet chocolate and used my hand mixer.   dried cranberries may also be used instead of the cherries.  quick oats may be used instead but will yield a cookie with slightly less chewiness.  these cookies will keep for 4 to 5 days stored in airtight container or zipper-lock bag, but they will lose their crisp exterior and become uniformly chewy after a day or so.  i only baked one cookie tray at a time.  these were very good.  i froze them in individual bags for a sweet treat.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, table salt, old fashioned oats, pecans
+---
+TITLE: chocolate chunk pecan pie
+CURRENT_DESCRIPTION: found this recipe on the king arthur recipe site.  the flavorings mentioned are their recommendations...........choose only 'one'.   use 1/2 teaspoon of any of the three mentioned - or - just use 2 teaspoons of pure vanilla extract.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, dry buttermilk, salt, baking powder, vegetable shortening, butter
+---
+TITLE: chocolate chunk pumpkin cake
+CURRENT_DESCRIPTION: it might not be the most beautiful and artistic cake in the world but it is one of the best tasting. it's texture is perfect for the new, more intricate, bundt pans. if you have one why not take advantage of it?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nonstick cooking spray, all-purpose flour, granulated sugar, brown sugar, pumpkin pie spice, baking powder
+---
+TITLE: chocolate cinnamon rolls  adopted
+CURRENT_DESCRIPTION: i love to make this in the morning for my kids.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, sugar, skim milk, margarine, vanilla extract, egg
+---
+TITLE: chocolate citrus biscotti
+CURRENT_DESCRIPTION: this is from foodtv.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, yellow cornmeal, baking powder, salt, eggs, sugar
+---
+TITLE: Chocolate Clair Dessert
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. graham crackers, 2 small boxes instant French vanilla pudding mix, 3 c. milk, 1 (8 oz.) container frozen Cool Whip, thawed, 1 (16 oz.) container Betty Crocker milk chocolate frosting
+---
+TITLE: chocolate coated orange peels
+CURRENT_DESCRIPTION: this makes a great gift, if you don't finish it all yourself first!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oranges, sugar, fresh lemon juice, semisweet chocolate, vegetable oil
+---
+TITLE: chocolate coconut cheesecake squares
+CURRENT_DESCRIPTION: something like a candy bar, this has a fudgy crust with, creamy cheesecake center and is topped with toasted coconut. please make sure to use unsweetened coconut which will be labeled "desiccated" coconut. from martha stewart.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham crackers, unsweetened coconut, semisweet chocolate, milk chocolate, granulated sugar, unsalted butter
+---
+TITLE: chocolate coconut cream cake
+CURRENT_DESCRIPTION: this is another delicious cake from the cake mix doctor's chocolate book.  since it stays in the pan, it's easy to take to a potluck.  everyone will ask for the recipe.  the frosting is divine; good enough to eat with a spoon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: german chocolate cake mix with pudding, cream of coconut, sour cream, vegetable oil, eggs, german chocolate
+---
+TITLE: chocolate coffee cake with coffee icing
+CURRENT_DESCRIPTION: dazzle your guests with this
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark brown sugar, raisins, walnuts, cocoa, cinnamon, instant coffee powder
+---
+TITLE: Chocolate Coffee Spoons
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy plastic spoons, color of your choice, chocolate (or colored) candy melts or chocolate chips
+---
+TITLE: chocolate cookarolis  fried ravioli cookies
+CURRENT_DESCRIPTION: you make these chocolate treats like ravioli. while this recipe requires a bit of work, the results will astound you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated sugar cookie dough, bittersweet chocolate chips, all-purpose flour, baking powder, kosher salt, shortening
+---
+TITLE: chocolate cookie cake
+CURRENT_DESCRIPTION: you'll definitely need a glass of milk with this one! i adapted this from my better homes and gardens new baking book. this cake is sweet and a little time consuming, but so worth it, especially if you like oreos! i've made it for a cake walk, as it makes a pretty presentation. before i even baked all of the batter, my husband asked if there would be any leftovers! :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking soda, salt, baking powder, milk
+---
+TITLE: Chocolate Corn Chip Clusters
+CURRENT_DESCRIPTION: 15K likes, 189 comments - chloeevegan on March 29, 2024: "Here’s a last-minute Easter recipe !! 🍫
+
+These 5-ingredient choc corn chip clusters are crunchy, chocolatey, sweet and salty. I love that they are no-bake, simple and you’ve probably got all the ingredients already in your pantry. 
+
+Recipe (makes 12):
+- 80g dark chocolate, chopped
+- 1/4 cup peanut butter
+- 1 tsp vanilla extract
+- 1/4 tsp cinnamon
+- 3 & 1/2 cups corn chips
+
+1. Place chocolate into a small microwave-safe bowl and melt in t
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 80 g dark chocolate, chopped, 0.25 cup peanut butter, 1 tsp vanilla extract, 0.25 tsp cinnamon, 3.5 cups corn chips
+---
+TITLE: chocolate covered candied orange peel
+CURRENT_DESCRIPTION: from birds & blooms magazine, this reminds me of my mom, who always loved these.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel oranges, sugar, water, corn syrup, salt, semi-sweet chocolate baking squares
+---
+TITLE: chocolate covered cheesecake squares
+CURRENT_DESCRIPTION: mini cheesecake squares with graham cracker crusts coated in chocolate. mmmmm!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, pecans, butter, cream cheese, sugar, orange zest
+---
+TITLE: chocolate covered chocolate chip cookie mud balls
+CURRENT_DESCRIPTION: this is just like when i was a kid making mud pies...cookie balls are formed by quickly breaking up warm chocolate chip cookies, pressing them into balls and refrigerating them till firm, then dipping them into more melted chocolate coating...this the mud ball stage..you can never have too much chocolate...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unbleached all-purpose flour, baking soda, salt, unsalted butter, light brown sugar, granulated sugar
+---
+TITLE: chocolate covered fruit
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oranges, strawberries, salted peanuts, semi-sweet chocolate baking squares
+---
+TITLE: chocolate covered gingerbread cake
+CURRENT_DESCRIPTION: so many german settlers carried their gingerbread treats to small towns around this country that the sweetly spiced cakes and cookies have become an all-american tradition. coated with a chocolate ganache glaze, the homey cake of holidays past is transformed into a special-occasion dessert. this cake can be made vegan by using non-dairy margarine instead of butter and rich's whip instead of real whipping cream and ghiradelli semi-sweet chocolate chips with exceptional results. you can also add raspberries to the top. recipe is from bon appetit, dec. 2002.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, ground ginger, baking powder, ground cinnamon, ground cloves, salt
+---
+TITLE: Chocolate Covered Strawberry Brownies
+CURRENT_DESCRIPTION: 107K likes, 2,977 comments - chahinez_tbt on January 31, 2024: "Chocolate covered strawberries for Valentine’s Day but make them into a brownie because everything is better in brownie form!
+Comment BROWNIE and I’ll DM you the recipe directly!".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: chocolate covered strawberry cake
+CURRENT_DESCRIPTION: this cake is awesome!  i got the recipe from my niece laura jean who had made it for christmas.  she said that everyone loved it, and she is right.  it is the most moist cake i have every had.  one tip that she gave me is to bake the cake ahead of time (if you can) and put it in the freezer,  since the recipe calls for splitting the cake layers.  this can easily be done then with a large serated knife.  be sure to make extra dipped strawberries if your kids are around to help!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white cake mix, strawberry gelatin, water, vegetable oil, eggs, strawberries
+---
+TITLE: Chocolate Covered Strawberry Cheesecake
+CURRENT_DESCRIPTION: 40K likes, 1,561 comments - thelittleblogofvegan on January 19, 2025: "Chocolate Covered Strawberry Cheesecake🍓 Follow @thelittleblogofvegan for the best vegan recipes!
+
+🍓Comment ‘CHEESECAKE’ and I’ll DM you the recipe link! 
+
+(Ad) The BEST Vegan & No-Bake Chocolate Covered Strawberry Cheesecake- An Oreo biscuit crust, creamy strawberry cheesecake filling (with a fresh strawberry compote), topped with chocolate ganache & of course chocolate covered strawberries!🍓🍫 Made using @naturescharm Oa
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: Oreo biscuits, Oat Whipping Cream, Fresh strawberries, Strawberry compote, Chocolate Fudge Sauce, Chocolate ganache
+---
+TITLE: chocolate covered strawberry turkey treats
+CURRENT_DESCRIPTION: in an effort to stray from the normal thanksgiving treats for kids (oreo turkey treats, candy pilgrim hats, etc.), i came up with these.  only five ingredients paired with a little bit of time and patience and you will have cute, delicious turkey treats that your guests will gobble, gobble up!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, chocolate candy melts, candies, candy corn
+---
+TITLE: Chocolate Cream Log
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. cake flour, 1 tsp. baking powder, 1/4 c. cocoa, 1/4 tsp. salt, 4 eggs, 3/4 tsp. sugar
+---
+TITLE: Chocolate Cream Pie
+CURRENT_DESCRIPTION: 14K likes, 1,072 comments - thelittleblogofvegan on April 2, 2024: "CHOCOLATE CREAM PIE🍫 YAY or NAY?? Who wants a slice? Follow @thelittleblogofvegan for the best vegan recipes!
+
+Unbelievably Vegan Chocolate Cream Pie: Homemade flakey pastry, a 4 ingredient chocolate filling topped with a mountain of dairy-free whipped cream! 🥵 Pastry: 4 Ingredients, filling : 4 ingredients, topping: 2 ingredients! You’re going to love this! Happy Baking ❤️ (no eggs, no dairy, 100% vegan) 
+
+🍫 COMMENT ‘Chocol
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: Pastry dough, Chocolate filling, Dairy-free whipped cream
+---
+TITLE: chocolate cream pie with chocolate meringue
+CURRENT_DESCRIPTION: this chocolate cream pie is rich and slightly tangy. the melted chocolate folded into the meringue is a nice accent to the creamy and rich chocolate filling. a nice summer time dessert. (prep time includes chill time)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, shortening, ice water, egg yolks, sugar
+---
+TITLE: chocolate cream puff ring
+CURRENT_DESCRIPTION: this is heaven for all chocoholics! my sister-in-law gave me the recipe in high school over 30 years ago, since then it has become a signature dish. several of my children's friends request it for their birthdays. don't let the length of the prep. discourage you. the ring is fast and easy to make. i have made it in heart, candy cane and tree shapes for different occasions. you can also make bite size or full size individual puffs (or anything in between), though the ring is the quickest to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, butter, sugar, salt, flour, eggs
+---
+TITLE: chocolate cream puffs with almond cream
+CURRENT_DESCRIPTION: this makes for a very elegant dessert. you can make these ahead of time, early in the day, and serve them after dinner with coffee or brandy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: almond paste, half-and-half, sugar, salt, egg yolks, cornstarch
+---
+TITLE: chocolate cream puffs with hazelnut filling  paula deen
+CURRENT_DESCRIPTION: i picked up a paula deen magazine and this was one of the first ones my daughter said we had to try.  these are divine using nutella!  we were in chocolate heaven!  if you haven't tried nutella, it is a chocolate hazelnut spread that can usually be found near the peanut butter.  i can't keep it in the house long.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, butter, salt, flour, dutch-processed cocoa powder, cinnamon
+---
+TITLE: chocolate cream roll
+CURRENT_DESCRIPTION: did you love suzyq's when you were little but find them lacking somehow now that you're all grown up? well, next time you get a craving, try this cake instead! this will satisfy you if you've lost that lovin' feelin' for suzyq's!  source:  epicurious forum.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cocoa, flour, eggs, confectioners' sugar, vanilla, granulated sugar
+---
+TITLE: chocolate cupcakes with nutella and mixed cream cheese frosting
+CURRENT_DESCRIPTION: chocolate cupcakes with nutella, almond butter, and vanilla cream cheese frosting.....devine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nutella, all-purpose flour, cake flour, unsweetened cocoa powder, baking soda, baking powder
+---
+TITLE: chocolate dipped almond anise biscotti
+CURRENT_DESCRIPTION: this wonderful tasting biscotti that is already on the lean side can be made diabetic friendly very easily. p.s. i should mention that if your not a dunker you'll want to bake these for a shorter time (maybe 20 mins the first time and 5 the second time).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking powder, anise seed, sliced almonds, salt
+---
+TITLE: chocolate dipped butterscotch logs
+CURRENT_DESCRIPTION: this doesn't include the 2 hour chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, brown sugar, butterscotch chips, baking powder, salt
+---
+TITLE: chocolate doberge cake
+CURRENT_DESCRIPTION: a special louisiana dessert so sinfully rich and loaded with flavor.  the traditional doberge is made with yellow cake, but this chocolate version kicks it up just a notch.  cooling time not included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking soda, salt, butter, sugar, eggs
+---
+TITLE: chocolate drizzled peanut butter cheesecake
+CURRENT_DESCRIPTION: peanut butter, chocolate and cheesecake...need i say more???
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker, sugar, butter, cream cheese, peanut butter chips, milk
+---
+TITLE: chocolate dulce de leche empanadas
+CURRENT_DESCRIPTION: found on pinterest
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, cocoa powder, sugar, salt, cinnamon, unsalted butter
+---
+TITLE: Chocolate Eclaire A La Highland Pointe
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 box graham crackers, 1 (8 oz.) container Cool Whip, 1 large box vanilla instant pudding, 3 c. milk (skim is okay)
+---
+TITLE: chocolate eclairs
+CURRENT_DESCRIPTION: eclairs have many variations, but 3 basic components: pate a choux, filling and icing. this recipe is filled with vanilla pastry cream and iced with chocolate ganache. the amount of everything that you make will depend on how many and how big the eclairs will be. the prep and cook times are misleading because you can do most of it simultaneously.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole milk, vanilla bean, sugar, cornstarch, flour, egg yolks
+---
+TITLE: chocolate eggnog cannoli
+CURRENT_DESCRIPTION: eggnog lovers rejoice!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, unsweetened cocoa powder, salt, butter, eggs
+---
+TITLE: chocolate espresso fudge cake
+CURRENT_DESCRIPTION: a smooth glaze sheathes discs of devil's food cake and coffee-flavored ganache. the chocolate espresso fudge sauce echoes the coffee flavor in the ganache, and all is harmony on land and sea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, granulated sugar, unsweetened alkalized cocoa powder, baking powder, unsalted butter, water
+---
+TITLE: chocolate espresso mini souffles
+CURRENT_DESCRIPTION: from fine cooking website.
+
+the preparation time includes 30 min. chill time.
+
+these can be made ahead and frozen for up to 2 weeks before baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, granulated sugar, dark rum, espresso powder, bittersweet chocolate, table salt
+---
+TITLE: chocolate espresso roulade
+CURRENT_DESCRIPTION: this is really good. if you like chocolate and the flavor of espresso, try this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, unsweetened cocoa powder, baking powder, salt, eggs, granulated sugar
+---
+TITLE: chocolate espresso swirl cheesecake
+CURRENT_DESCRIPTION: what a delicious way to end an elegant dinner!  this dessert can be made up to 3 days in advance.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer cookies, unsalted butter, instant espresso powder, water, cream cheese, sugar
+---
+TITLE: chocolate espresso tiramisu
+CURRENT_DESCRIPTION: timing does not include the 24 hours needed to chill.  you could sub in boughten ladyfingers-split, if you prefer. i prefer using amaretti biscuits myself.   i appreciate that this can be portioned into pudding cups and frozen-perfect when cooking for 2! i use regular coffee--i put a half scoop into small bowl with 1 cup water, cover it with wax paper (or it really messes up your microwave --i can vouch for that--lol!!)  then nuke for about 2 minutes-- strain through coffee filter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg, flour, unsweetened cocoa, baking powder, salt, sugar
+---
+TITLE: chocolate filled almond spritz cookies
+CURRENT_DESCRIPTION: a really terrific variation of the old classic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sliced almonds, sugar, unsalted butter, egg, pure vanilla extract, almond extract
+---
+TITLE: chocolate filled biscotti
+CURRENT_DESCRIPTION: i love biscotti and this is one of my most favorites! the cookie comes out chocolaty and chewy. it's baked only once, not twice, so it's not hard like most biscotti. plan ahead; dough needs to chill overnight. prep time does not include chilling overnight and cooling. recipe from good housekeeping.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, butter, cream cheese, granulated sugar
+---
+TITLE: Chocolate Fondant with Salted Caramel
+CURRENT_DESCRIPTION: A perfectly timed chocolate fondant with a molten, fudgy centre, served with a ribbon of warm salted caramel sauce. The recipe that made Gordon Ramsay famous — and it's far easier than it looks.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 200 g dark chocolate (70%), 120 g butter, 4 eggs, 4 egg yolks, 120 g caster sugar, 40 g plain flour
+---
+TITLE: Chocolate Frango Mints
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 pkg. devil's food cake mix, 1 pkg. chocolate fudge pudding mix (instant), 8 oz. sour cream, 3/4 c. water, 1/2 c. Wesson oil, 4 eggs
+---
+TITLE: chocolate fudge cake with butterscotch fudge frosting
+CURRENT_DESCRIPTION: my father-in-law is a baker for a bakery in our home state of new jersey and claims (with a mysterious twinkle in his eyes) that this is his recipe! however, it seems to be the same cake my grandmother has been making since my mother was a little girl...hmmm... whatever the case, this is real comfort food, especially if you go all the way and make the fudge sauce. it's something that both my grandmother and father-in-law do:) *cook and prep times are for all 3 recipes combined.*
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, granulated sugar, butter, baking soda, salt, vanilla extract
+---
+TITLE: chocolate fudge cheesecake
+CURRENT_DESCRIPTION: i made this recipe from southern living for christmas and everyone just loved it! the recipe makes two 9 inch cheesecakes so it feeds a lot of people. this three layered cheesecake has  a rich brownie bottom layer with a center layer of cream cheese and a decadently rich chocolate glaze covering the top.  the recipe is easily halved.  the chocolate glaze top layer is intended to divide between the two cheesecakes.   however, i used one full recipe to top one cheesecake.  allow 8 hours chilling time. this cheesecake is absolutely delicious and i am sure you will enjoy it, too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pecans, unsweetened chocolate squares, butter, sugar, eggs, all-purpose flour
+---
+TITLE: chocolate fudge cupcakes
+CURRENT_DESCRIPTION: these cupcakes are a chocolate-lover's dream. their fudgy flavor is complemented by a light, delicate texture, similar to that of a sponge cake. topped with a melt-in-your-mouth frosting and chocolate curls, they're irresistible.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, semisweet chocolate, sugar, eggs, all-purpose flour, baking powder
+---
+TITLE: Chocolate Fudge Easter Eggs
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. butter, 4 c. miniature marshmallows, 1 (6 oz.) pkg. chocolate chips (fudge or semi-sweet), 4 c. Rice Krispies, 1 (8 oz.) pkg. diced dates, 1/2 c. chopped dates
+---
+TITLE: chocolate glazed bailey s irish cream cheesecake
+CURRENT_DESCRIPTION: this is one of my all-time favorite cheesecake recipes, and i am a cheesecake lover! it was originally published in bon appetit about 10 years ago. it is simple, yet looks and tastes fabulous. perfect for a holiday dessert since it can be made ahead of time. i see there are several recipes in zaar for bailey's irish cream that could be used in this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham crackers, butter, cream cheese, sugar, all-purpose flour, eggs
+---
+TITLE: chocolate glazed coconut almond cake
+CURRENT_DESCRIPTION: this is the most sinfully delicious dessert you will ever try! make for any formal, (or any occasion at all) and this recipe will not disappoint. presentation is exceptional and elegant. you will need only a very small slice, very rich! this recipe came from bon appetit, february, 1994 issue.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, almond paste, unsalted butter, eggs, imitation coconut extract, salt
+---
+TITLE: chocolate glazed triple layer cheesecake
+CURRENT_DESCRIPTION: from southern living. one of their all-time favorite recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer cookies, sugar, butter, cream cheese, eggs, vanilla extract
+---
+TITLE: chocolate graham cracker cupcakes with toasted marshmallow
+CURRENT_DESCRIPTION: this delicious recipe is courtesy of jennifer shea, owner of trophy cupcakes.
+posted on everyday food newsletters.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, all-purpose flour, cocoa powder, baking powder, baking soda, salt
+---
+TITLE: chocolate guinness cheesecake
+CURRENT_DESCRIPTION: adapted from a recipe by m. wassenaar at allrecipes.com. time does not include the 45 minutes rest in the turned-off oven, nor the 4 hour chill in the fridge.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cookies, butter, white sugar, unsweetened cocoa powder, cream cheese, eggs
+---
+TITLE: chocolate hazelnut baklava
+CURRENT_DESCRIPTION: posted for ramadan tag. chef way ana sortun’s pastry chef, maura kilpatrick, adds cinnamon and cocoa nibs to the syrup that soaks her chocolate baklava. recipe by ana sortun
+from http://www.foodandwine.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, bittersweet chocolate, sugar, cinnamon, phyllo dough, unsalted butter
+---
+TITLE: chocolate hazelnut biscotti
+CURRENT_DESCRIPTION: biscotti is used to describe a long, dry, hard twice baked cookie with a curved top and a flat bottom designed for dunking into wine or coffee. the name biscotti is derived from 'bis' meaning twice in italian and 'cotto' meaning baked or cooked. these are very nice glazed or dipped in white chocolate. enjoy. don't let all the steps bother you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semisweet chocolate, light brown sugar, flour, unsweetened cocoa, instant espresso powder, baking soda
+---
+TITLE: chocolate hi hats  cupcakes
+CURRENT_DESCRIPTION: these pretty little cupcakes are eye and pallet pleasing, with yummy chocolate/sour cream cake bottoms and decadent chocolate covered marshmallow “hats”. give them a try! from woman’s day sept 2005
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened baking chocolate, all-purpose flour, baking powder, baking soda, salt, unsalted butter
+---
+TITLE: chocolate honey dome cake with chocolate honey glaze
+CURRENT_DESCRIPTION: straight from bon appetit, this scrumptious dome cake is ideal for special occassions. the cake will dome naturally in the oven. it is time consuming and needs to be made a day in advance, but it is so worth the wait.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil cooking spray, all-purpose flour, unsweetened cocoa powder, baking soda, salt, sugar
+---
+TITLE: chocolate ice cream   raspberry flavored cheesecake dipped i
+CURRENT_DESCRIPTION: chocolate, fruit and ice cream. another cream cheese variation of mine that i know you'll just love! eat by itself -or- with the raspberry sauce with a little dollop of whip cream. mmm, you'll be dreaming about this dessert even hours after you've fell asleep!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker pie crust, philadelphia cream cheese, sugar, raspberry jell-o gelatin, chocolate ice cream, hershey's semi-sweet chocolate chips
+---
+TITLE: chocolate italian cream cake
+CURRENT_DESCRIPTION: this is a chocolate version of the wonderful italian cream cake. the subtle flavor of cocoa is a nice change from the origional version, but only slightly alters the flavor. it's a winner in my house! :) (i got this recipe out of the november southern living magazine.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, butter, shortening, sugar, all-purpose flour, unsweetened cocoa
+---
+TITLE: chocolate layer cake with chocolate cream cheese frosting
+CURRENT_DESCRIPTION: excellent chocolate cake to use for birthdays. the coffee adds a nice depth of flavor. from gale gand, butter sugar flour eggs, food network.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, eggs, pure vanilla extract, unsweetened cocoa powder, baking soda
+---
+TITLE: chocolate layer cake with chocolate glaze
+CURRENT_DESCRIPTION: a chocoholic's delight! this cake is a bit time consuming to make, but worth the trouble! on the plus side, it can be made in stages, and assembled the day of serving. prep time includes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, sugar, cornstarch, egg yolks, milk chocolate, butter
+---
+TITLE: chocolate layer cake with raspberry cream filling
+CURRENT_DESCRIPTION: a nicely decorated chocolate cake always makes an impressive presentation, even if it is semi-homemade. adding raspberry cream filling between layers and a rich, chocolate-raspberry ganache on top, gives ordinary chocolate cake a hint of elegance and interest. prep time will vary depending on time spent decorating.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cake mix, cream cheese, seedless raspberry jam, powdered sugar, chocolate frosting, cocoa powder
+---
+TITLE: Chocolate Log
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 box chocolate cake mix, 1 box cream cheese, softened, 1 c. confectioners sugar, 1/8 tsp. mix flavoring, 1 drop food coloring
+---
+TITLE: chocolate lover s chiffon cake
+CURRENT_DESCRIPTION: this is a wonderful chocolate mousse cake. i got this years ago from a mccall's cooking school recipe collection. it takes some time, but is definitely worth it! the sifting should be done before the measuring. cooking time includes cooling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg white, unsweetened cocoa, boiling water, cake flour, sugar, baking soda
+---
+TITLE: Chocolate Lover'S No-Bake Brownies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 (12 oz.) pkg. (2 c.) semi-sweet chocolate chips, 1 (14 oz.) can sweetened condensed milk, 1 (8 1/2 oz.) pkg. chocolate wafers, finely crushed, 1 c. chopped nuts, divided
+---
+TITLE: chocolate mayan bundt cake
+CURRENT_DESCRIPTION: a yummy chocolate bundt cake with a mayan twist! adapted from nestles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark chocolate, all-purpose flour, ground cinnamon, baking soda, salt, ground cayenne pepper
+---
+TITLE: chocolate meringue cake
+CURRENT_DESCRIPTION: oh my gosh, this cake takes time, effort and energy, but the results are well worth it and it is actually easier than it looks.
+this is a beautiful cake and everyone raves over it.
+you can make the cake layers ahead of time and freeze them for up to a month (thaw them at room tem before assembling the cake).  the meringues can be baked a day ahead of time and store in tins.  the cream cheese filling can be prepared a day ahead of time and refrigerated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, butter, sugar, buttermilk, vanilla extract, all-purpose flour
+---
+TITLE: Chocolate Meringue Kisses(Cookies)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. egg whites, 1 1/4 c. sugar, 1 (6 oz.) bag chocolate chips, 1/2 tsp. vanilla, pinch of salt
+---
+TITLE: chocolate mint cheesecake
+CURRENT_DESCRIPTION: this is a decadent versin of an after-dinner mint! the sour cream gives this cheesecake and exceptionally light and creamy texture. prep time is a guesstimate, and cook time does not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cookie crumbs, butter, semisweet chocolate, cream cheese, sugar, all-purpose flour
+---
+TITLE: chocolate mint souffles for two
+CURRENT_DESCRIPTION: recieved this recipe from taste of home and couldn't wait to try it.  i love that they only served two so perfect for dh and me when i wanted something special for just us.  they came together easy, were light, fluffy and oh so chocolate.  it calls for mint extract but i didn't have that so just used vanilla and it was still good.  think it'd be really good with the mint and maybe a little mint leave as garnish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, sugar, baking cocoa, cornstarch, salt, nonfat milk
+---
+TITLE: Chocolate Mint Sugar Drops
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 1/2 c. flour, 1 1/2 tsp. baking powder, 3/4 tsp. salt, 1 1/4 c. sugar, divided, 3/4 c. oil, 2 eggs
+---
+TITLE: Chocolate Mocha-Dot Cake
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 3/4 c. sifted flour, 1/2 tsp. baking powder, 1 tsp. soda, 1 tsp. salt, 1 tsp. cinnamon, 1/2 c. cocoa
+---
+TITLE: chocolate mousse cake
+CURRENT_DESCRIPTION: if you like chocolate mousse then you will think this cake is to die for. make sure you use good chocolate -- at least 55 percent cocoa solids. i normally go for 70-75 percent cocoa solids, but that is a very intense chocolate taste that may not be to everyone's liking. the number of steps makes this look more difficult than it is. if you are organised and lay things out beforehand, you can go from start to having the glazed cake in the fridge in about an hour. as a mould for this cake, you should use a bottomless cake ring, about 10 inches across and 4-5 inches high, although i have also used a springform pan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground almonds, milk chocolate, ground ginger, chocolate, double cream, water
+---
+TITLE: chocolate mousse cake 1977
+CURRENT_DESCRIPTION: easy, almost flourlesss chocolate cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, butter, semisweet chocolate, whipping cream, eggs, vanilla extract
+---
+TITLE: chocolate mousse cake with chocolate whipped cream
+CURRENT_DESCRIPTION: if you are looking for a delicious, impressive dessert, you should give this recipe a try. this cake is best when made the day before serving. garnish the top with the chocolate whipped cream and nuts just before serving. the prep/cook times do not include the minimum 3 to 4 hour cooling time needed before serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hazelnuts, butter, semisweet chocolate, heavy whipping cream, eggs, vanilla
+---
+TITLE: chocolate mousse cheesecake
+CURRENT_DESCRIPTION: this is a magnificent dessert! a yummy chocolate wafer crust, smooth cheesecake filling and a chocolate mousse topping, what more could you want!?!?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer crumbs, pecans, sugar, butter, cream cheese, lemon juice
+---
+TITLE: chocolate mousse chiffon pie
+CURRENT_DESCRIPTION: serve with whipped cream. chill time = cook time
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crust, brewed coffee, unsalted butter, semisweet chocolate, eggs, vanilla extract
+---
+TITLE: chocolate nirvana cake
+CURRENT_DESCRIPTION: dense moist chocolate cake layered with ganache, homemade caramel sauce, fresh whipped cream and toasted pecans!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla, unsweetened chocolate squares, flour
+---
+TITLE: Chocolate Nut Clusters
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 lb. semi-sweet chocolate, 1 oz. melted butter, 1/2 c. cashews, 1/2 c. pecans, 1/2 c. walnuts
+---
+TITLE: chocolate nut phyllo cups
+CURRENT_DESCRIPTION: a delectable dessert from bh&g. this is a greek dessert, but using mexican chocolate makes it fusion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: honey, cornstarch, half-and-half, egg yolks, ground walnuts, granulated sugar
+---
+TITLE: chocolate nut upside down cake
+CURRENT_DESCRIPTION: a beautiful cake that tastes too good! adapted from finecooking(#47).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dark brown sugar, unsalted butter, water, unsalted nuts, flour, unsweetened cocoa powder
+---
+TITLE: Chocolate Or Coconut Pies
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 1/2 c. sugar, 2 c. Pet milk, 1 stick margarine, 2/3 c. flour, 5 egg yolks (save egg whites for meringue), 2 c. coconut or 4 Tbsp. cocoa
+---
+TITLE: chocolate orange pavlova
+CURRENT_DESCRIPTION: i found this recipe on the online edition of the jerusalem post.  it's perfect for passover.  i made it the other day, and had to hire bodyguards to keep the dornettes away until it was time for dessert.  this is my version, i always have to change a recipe just a bit.  even though the recipe for the orange curd calls for butter, i used margarine so my dessert would be dairy-free.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, salt, vanilla extract, sugar, whipping cream, icing sugar
+---
+TITLE: chocolate p nut butter pie   shenanigan s restaurant  tacoma  wa
+CURRENT_DESCRIPTION: incredibly thick, sweet and rich pie with an exotic blend of spices that combine to create a sensational flavor. unforgettable! slice extraordinarily thin - many people find it difficult to finish even one tiny slice!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cookies, ground almonds, sugar, cinnamon, mace, nutmeg
+---
+TITLE: chocolate pate
+CURRENT_DESCRIPTION: this is a divine, heavenly, extremely-rich chocolate masterpiece. you have to try it! try and find the clotted cream for the topping, it's so worth it. i got the recipe from a colleague of mine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, caster sugar, brewed coffee, dark chocolate, eggs
+---
+TITLE: chocolate peanut butter cake
+CURRENT_DESCRIPTION: if you love chocolate and peanut butter, then this is the cake for you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking cocoa, baking soda, salt, granulated sugar, shortening
+---
+TITLE: chocolate peanut butter cake with cr  cheese and butterfinger fr
+CURRENT_DESCRIPTION: adapted from a bon appetit magazine...super delicious..sorry about the first insertion..recipe ingredients have been corrected...thanks luby!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: heavy whipping cream, golden brown sugar, semisweet chocolate, chunky peanut butter, all-purpose flour, baking powder
+---
+TITLE: chocolate peanut butter cookie bars
+CURRENT_DESCRIPTION: fast and fairly easy cookie bar that is tasty and will disappear from you cookie plate in a flash.  great for gifts or to share with those you work with. adapted from a local supermarket advertising mailer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate cake mix, vegetable oil, egg, dry roasted peanuts, sweetened condensed milk, creamy peanut butter
+---
+TITLE: chocolate peanut butter layer cake
+CURRENT_DESCRIPTION: i wish i had a picture of this because it looks and tastes so good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, cake flour, cocoa, baking soda
+---
+TITLE: chocolate peanut butter moon pies
+CURRENT_DESCRIPTION: for years, i've wished such a thing existed, so i am way excited to find this recipe!  found on the food & wine website.  two hours of standing time not included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, light brown sugar, pure vanilla extract, egg, egg whites, all-purpose flour
+---
+TITLE: chocolate peanut butter mousse tart
+CURRENT_DESCRIPTION: this sounds so good, i was ready to eat the recipe right out of my ladies home journal! looks like it takes a fair amount of effort, but i bet it pays off! please tell me how this one tastes! prep time does not include chilling and standing time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, salt, light brown sugar, granulated sugar, unsalted butter
+---
+TITLE: chocolate peanut butter pinecone cakes
+CURRENT_DESCRIPTION: if you love a seasonal peanut butter cup, you'll go wild for these mini cakes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, baking soda, salt, eggs, sour cream
+---
+TITLE: Chocolate Peanut Butter Puffs
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 36 large marshmallows, 1 (6 oz.) pkg. semi-sweet chocolate bits, 1 1/2 c. peanut butter, 2 Tbsp. butter
+---
+TITLE: chocolate peanut butter tart with caramel peanut glaze
+CURRENT_DESCRIPTION: this tart was originally served at zarela in nyc, ny. i swapped out the crust for a chocolate one and added the chocolate swirled on top. enjoy!
+
+note: cooking time includes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oreo cookie pie crusts, butter, dark brown sugar, whipping cream, cream cheese, creamy peanut butter
+---
+TITLE: chocolate peanut butter terrine
+CURRENT_DESCRIPTION: this dessert is really worth the effort.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bittersweet chocolate, unsalted butter, smooth peanut butter, egg yolks, granulated sugar, heavy cream
+---
+TITLE: chocolate peanut butter whoopie pies
+CURRENT_DESCRIPTION: bhg
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: miniature semisweet chocolate chips, milk, butter, creamy peanut butter, granulated sugar, baking soda
+---
+TITLE: Chocolate Peanut Squares(Nut Goodies)
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 12 oz. milk chocolate chips, 12 oz. butterscotch chips, 18 oz. jar peanut butter, 16 oz. dry roasted peanuts, 1 c. butter or margarine, 1/2 c. milk
+---
+TITLE: Chocolate Peanut Supreme
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1/2 c. chunky peanut butter, 1/3 c. butter or margarine, melted, 1 1/2 c. graham cracker crumbs (about 24 squares), 1/2 c. sugar, 1 pkg. (5.9-oz.) instant chocolate pudding mix, 3 c. cold milk
+---
+TITLE: chocolate pecan bourbon cake  low fat
+CURRENT_DESCRIPTION: this is the most rich and delicious cake i have ever tasted. i think it needs something like a raspberry sauce drizzled over the top when it is served. other fruits which go with dark chocolate might also work. perhaps some fresh whipped cream? depending on your tastes, i recommend something to compliment it's richness.
+
+
+this cake recipe was created by alice medrich exclusively for american health magazine. medrich, author of the award-winning chocolate and the art of lowfat desserts, doesn't use artificial sweetener or fake fats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pecans, all-purpose flour, semisweet chocolate, dutch-processed cocoa powder, sugar, boiling water
+---
+TITLE: chocolate pecan cookies  better than publix bakery
+CURRENT_DESCRIPTION: this recipe makes twelve 3 ½ inch cookies with a dark chocolate color speckled with pecan pieces.  the cookies are more flat than puffy, and have a moist interior, and an exterior with just a slight crunch.  after many attempts and tweaks, this does it for me.  i mention some brand names in the ingredients list because some brands can make a big difference in the outcome (depending on your taste buds).  note, i have no interest or affiliation with any brand.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salted butter, soybean oil, granulated sugar, dark molasses, artificial sweetener, egg yolk
+---
+TITLE: Chocolate Pecan Puffs
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2 1/4 c. flour, 1/2 lb. butter, 1/2 c. powdered sugar, 1 tsp. vanilla, 3/4 c. pecan chips, 1/4 c. chocolate chips
+---
+TITLE: chocolate pecan tart
+CURRENT_DESCRIPTION: rich chocolate and crunchy glazed pecans combine in this dessert. i found it in a holiday baking magazine. i'm hoping to make this year for christmas! times do not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, unsweetened cocoa powder, sugar, butter, egg yolks, water
+---
+TITLE: chocolate pecan upside down cake
+CURRENT_DESCRIPTION: the gooey topping is poured into the bundt pan first, and creates a yummy topping for this upside down cake. plus it is chocolate!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light corn syrup, butter, brown sugar, whipping cream, pecans, unsweetened chocolate squares
+---
+TITLE: chocolate peppermint bark cookies   bon appetit
+CURRENT_DESCRIPTION: ba dec 2009
+
+from ba: in this festive treat, the shortbread base is topped with dark chocolate, chopped peppermint candies, and a drizzle of white chocolate. cutting the cookies into irregular pieces makes for a fun presentation.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, all-purpose flour, salt, unsalted butter, sugar, vanilla extract
+---
+TITLE: chocolate peppermint cookies
+CURRENT_DESCRIPTION: from martha stewart.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, dutch-processed cocoa powder, baking soda, baking powder, salt, unsalted butter
+---
+TITLE: chocolate peppermint ice cream cake
+CURRENT_DESCRIPTION: this is an easy but impressive dessert for any special occasion. begin making this one day in advance. for best results, use a rich, premium ice cream, as it will freeze firmly. cook time reflects overnight freezing time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, bittersweet chocolate, chocolate wafer cookies, whipping cream, light corn syrup, vanilla ice cream
+---
+TITLE: chocolate peppermint marshmallow sandwiches
+CURRENT_DESCRIPTION: i have not tried this recipe. i'm posting this recipe for safe keeping. i found this recipe in ladies home journal magazine. can be made ahead. store in an airtight container at room temperature, in single layers separated by waxed paper, up to 2 days.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa powder, baking soda, unsweetened chocolate, unsalted butter, sugar
+---
+TITLE: chocolate peppermint meringue kisses
+CURRENT_DESCRIPTION: these look so pretty and are a great use of extra egg whites. from bh & g magazine. these need to sit in the oven an hour so make sure you plan accordingly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg whites, salt, cider vinegar, peppermint extract, sugar, milk chocolate pieces
+---
+TITLE: chocolate peppermint pizzelle sandwich cookies
+CURRENT_DESCRIPTION: here's a new take on the pizzelle. it's from the foodnetwork.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa powder, baking powder, ground cinnamon, orange zest, fine salt
+---
+TITLE: chocolate peppermint stars
+CURRENT_DESCRIPTION: this is a great holiday cookie.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa powder, salt, unsalted butter, powdered sugar, vanilla extract
+---
+TITLE: chocolate pepsi cake
+CURRENT_DESCRIPTION: i am a fan of soda cakes anyway, so i thought it would be fun to make one with a few new twists.  applesauce replaces half of the fat in the cake, while ketchup and maple syrup add a nice kick to a delicious cake.  the english toffee pieces add a wonderful texture and crunch.  very easy to make and tastes just as delicious (if not more so!) the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yellow cake mix, butter, cocoa powder, applesauce, ketchup, vanilla extract
+---
+TITLE: Chocolate Pie Filling
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. sugar, 2 Tbsp. cocoa, 3 Tbsp. flour, 2 egg yolks, 2 c. sweet milk, 1 Tbsp. butter
+---
+TITLE: chocolate pound cake
+CURRENT_DESCRIPTION: i am resending this recipe.  this is the corrected version!  i really made a  goof up on the original.  sorry about the mistake i've made.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened dutch cocoa, boiling water, vanilla, eggs, cake flour, sugar
+---
+TITLE: chocolate praline cookies
+CURRENT_DESCRIPTION: this praline cookie is wonderful with or without the chocolate. in fact i have made it many times, and while i was waiting for the cookies to cool...somehow a few cookies would vanish every time my boyfriend went through the kitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, brown sugar, baking powder, egg, vanilla extract, all-purpose flour
+---
+TITLE: Chocolate Pudding Or Pie Filling
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. sugar, 3 Tbsp. flour, 1 1/2 Tbsp. cocoa, 2 eggs, 1 3/4 c. sweet milk, 1 tsp. vanilla
+---
+TITLE: chocolate pumpkin cake
+CURRENT_DESCRIPTION: from country living magazine.  makes a very moist rich cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: batter, flour, cocoa, baking powder, baking soda, salt
+---
+TITLE: chocolate pumpkin cheesecake bars
+CURRENT_DESCRIPTION: from everyday food november 2006.  please allow at least 2 hours to chill.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer cookies, sugar, butter, cream cheese, pumpkin puree, eggs
+---
+TITLE: Chocolate Quinoa Crunch Bars
+CURRENT_DESCRIPTION: 72K likes, 9,004 comments - georginaburgess_ on January 17, 2025: "Chocolate Quinoa Crunch Bars 😍🍫 comment ‘crunch’ and I’ll DM you the recipe link 🫶🏼 or you can find the recipe on my blog, link in bio! These were demolished in my household within 2 days 😅 you can also flavour with orange extract! 🍊
+
+#chocolatebars #plantbasedrecipes #vegansweets #quinoa #quinoacrunch #poppedquinoa #veganmealprep #easyvegan #vegansnacks #dairyfreerecipes #vegandessert #plantprotein #healthyvegan".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: chocolate raspberry cheesecake
+CURRENT_DESCRIPTION: got this in an email; looks very rich, would be perfect for valentine's day...description for the recipe:  "this cheesecake is laced with raspberry flavor, from the preserves brushed over the crust, to the creamy filling, to the fresh berry garnish. to make the dessert extra-special for valentine's day, use the raspberries to form a heart shape on the top of the cake."  *prep time does not include chilling overnight.*
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortbread cookies, unsalted butter, raspberry preserves, frozen raspberries, cream cheese, sugar
+---
+TITLE: chocolate raspberry cheesecake supreme
+CURRENT_DESCRIPTION: this is prize winning cheesecake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafers, unsalted butter, cream cheese, flour, sugar, vanilla
+---
+TITLE: chocolate raspberry mousse cake
+CURRENT_DESCRIPTION: this is a very elegant cake for a special occasion which i found years ago in canadian living magazine. it looks complicated but is actually quite easy to make. it can be served as is or with a raspberry coulis.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, granulated sugar, all-purpose flour, unsweetened cocoa powder, water, raspberry liqueur
+---
+TITLE: chocolate raspberry mousse truffle cake   raspberry cassis sauce
+CURRENT_DESCRIPTION: this recipe is the winner, hands down! just in case you want to know what it is that i'm saying -- this is the dessert that my friend judy chose for her very elegant dinner party. this is not easy at all! it's very involved but it is so worth it! i can't begin to tell you; takes 3 hours plus baking, cooling and chilling times. allow the truffle cake to chill overnight before serving. i am posting this for safe keeping.
+can be made up to four days ahead of time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking soda, salt, godiva dark chocolate bars, unsalted butter, vegetable shortening
+---
+TITLE: chocolate raspberry petit fours
+CURRENT_DESCRIPTION: this one may have it, hands down! i am practically sure, my friend, judy is going to decide that we should try all the godiva decadent chocolate and raspberry recipes she has asked me to find. how much fun, and i get to lick the bowls. ha! this is for a dinner party she is going to have in nov. so we have enough time to make a few. wow! good thing she has a large family!  approximate times have been posted. it takes 2 hrs. and 30 minutes prep time, plus baking and cooling
+times.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cake flour, baking powder, salt, unsalted butter, chambord raspberry liquor, eggs
+---
+TITLE: chocolate raspberry ruffle cake
+CURRENT_DESCRIPTION: alice medrich recipe, found in baking with julia. amazing, amazing cake recipe. this took me an entire long day to make, but it is well worth it. i'd also advise practice before you make it for company--i am glad i practiced on my husband once before i make it for a crowd. absolutely decadent recipe by the queen of chocolate. see directions below for needed equipment.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, pure vanilla extract, all-purpose flour, unsweetened cocoa powder, eggs, sugar
+---
+TITLE: chocolate raspberry torte
+CURRENT_DESCRIPTION: if you like chocolate and raspberries this is 4 layers of pure heaven.  it  may seem complicated & takes a while to make but is worth every minute.  of all the things i bake this on seems to be the most requested & has the biggest wow factor. it looks and tastes beautiful.  i hope you like it too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, vanilla extract, flour, cocoa
+---
+TITLE: chocolate raspberry triple decker cake
+CURRENT_DESCRIPTION: perfect for valentine's day or anytime you need a special cake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen sweetened raspberries, devil's food cake mix with pudding, sour cream, vegetable oil, eggs, heavy cream
+---
+TITLE: chocolate raspberry truffle cheesecake
+CURRENT_DESCRIPTION: chocolate and raspberry - a match made in heaven.  this is a plain cheesecake filled with chocolate-raspberry "truffles"  and gilded with a chocolate ganche on top.  rich!  use chocolate cookie crumbs for the crust (i've used oreos, filling and all) or the alternate chocolate shortbread crust given below. cook times includes cooling and chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chocolate wafer cookie, butter, cream cheese, sugar, eggs, sour cream
+---
+TITLE: chocolate ricotta pudding
+CURRENT_DESCRIPTION: this is from my sister. it looks very beautiful (and tastes great too!) i did not include sitting time or refrigeration time in the prep or cooking time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh strawberries, sugar, butter, bittersweet chocolate, whole milk ricotta cheese, egg yolks
+---
+TITLE: Chocolate Ritz Treats
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: Ritz crackers, peanut butter, chocolate bark
+---
+TITLE: chocolate roulade
+CURRENT_DESCRIPTION: source:
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, heavy cream, bittersweet chocolate, egg whites, granulated sugar, cocoa powder
+---
+TITLE: chocolate rum cake
+CURRENT_DESCRIPTION: luscious dark chocolate rum cake. the cake can be served plain, or it is delicious with coffee flavored whipped cream.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, meyer's dark rum, baking soda, sweet butter, salt, vanilla extract
+---
+TITLE: Chocolate Scotcharoos
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 1 c. Karo, 1 c. sugar, 1 c. peanut butter, 6 c. Rice Crispy Cereal, 1 c. semisweet chocolate chips, 1 c. butterscotch chips
+---
+TITLE: chocolate shortbread
+CURRENT_DESCRIPTION: for mom's holiday goodie tray
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsweetened chocolate, unsalted butter, powdered sugar, vanilla extract, all-purpose flour, salt
+---
+TITLE: chocolate shortcakes with bananas and caramel
+CURRENT_DESCRIPTION: from cooking light january 2007
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, sugar, unsweetened cocoa, baking soda, baking powder, salt
+---
+TITLE: chocolate shortcakes with mixed berries and raspberry sauce
+CURRENT_DESCRIPTION: found online.  author states:  "vanilla and espresso heighten the rich, chocolaty flavor in these irresistible biscuits. as an alternative to round or drop biscuits, try a large heart- or star-shaped cutter."  refrigerating berries for 3 hours is not included in prep time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, raspberries, blackberry, sugar, liqueur, cake flour
+---
+TITLE: chocolate sin
+CURRENT_DESCRIPTION: my dh and kids say this cake is
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, semisweet chocolate, lightly-salted butter, eggs, sugar
+---
+TITLE: chocolate sorbet  rich and creamy
+CURRENT_DESCRIPTION: enough said!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, sugar, light corn syrup, unsweetened cocoa powder, semisweet chocolate, vanilla extract
+---
+TITLE: chocolate sour cream cake with fudgy frosting
+CURRENT_DESCRIPTION: this is a very dense and rich cake, so smaller slices are in order unless you are serving a real chocolate lover such as my son, who can eat 1/4 of the cake in one sitting.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, all-purpose flour, unsweetened cocoa powder, baking powder, baking soda, salt
+---
+TITLE: chocolate spoon cake with cognac cherries
+CURRENT_DESCRIPTION: from jim graham, le francais.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried cherries, water, cognac, sugar, toasted almond, bittersweet chocolate
+---
+TITLE: chocolate sticky date pudding with whiskey butterscotch sauce
+CURRENT_DESCRIPTION: entered for safe-keeping. from “super food ideas”, september 2008 (#1 australian food magazine).  leftover cake and sauce can be saved for up to 3 days: store cake in airtight container at room temperature.  refrigerate sauce in an airtight container.  whiskey is an optional ingredient.  i have tried to give u.s. equivalents of measurements.  double cream is the name in britain for a very rich cream — containing 48% butterfat. whipping cream in this country, by contrast, contains between 30% and 40% butterfat. single cream in britain is comparable to american half and half (and may also be called pouring cream), with between 10% and 12% fat.  i am guessing that spreadable mascarpone will yield a similar rich creamy taste to finish off this dessert.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried dates, cold water, bicarbonate of soda, butter, brown sugar, eggs
+---
+TITLE: chocolate stout cake
+CURRENT_DESCRIPTION: i have not tried this recipe myself, but seeing all the guinness lovers here i thought i should post this. the stout gives this cake an intense, not-too-sweet flavor. from barrington's brewery in great barrington, massachusetts and bon appetit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: stout beer, unsalted butter, unsweetened cocoa powder, all-purpose flour, sugar, baking soda
+---
+TITLE: chocolate strawberry shortcake
+CURRENT_DESCRIPTION: i’d forgotten about some of my strawberry recipes until i joined the strawberry recipe swap.  this is one of my favorites but i’m partial to the chocolate/strawberry combo with anything!  this cakes it great just as a cake as is the glaze, but combine them all together and wowsers!  enjoy fellow chocolate/strawberry lovers, it makes a spectacular presentation.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: semi-sweet chocolate baking squares, butter, sugar, eggs, vanilla, flour
+---
+TITLE: chocolate strawberry tart
+CURRENT_DESCRIPTION: can be made up to 1 day ahead. refrigerate loosely covered.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tea biscuits, pecans, sugar, egg white, heavy whipping cream, unsalted butter
+---
+TITLE: chocolate strawberry thumbprint cookies
+CURRENT_DESCRIPTION: everyone loves these cookies!  easy and delicious.  from martha stewart living.  cook time does not count time to refrigerate dough.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, dutch-processed cocoa powder, salt, semisweet chocolate, unsalted butter, granulated sugar
+---
+TITLE: chocolate sugar cookies
+CURRENT_DESCRIPTION: a recipe i found in the baker's desserts for chocolate lover's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, baker's unsweetened chocolate squares, butter, sugar
+---
+TITLE: chocolate surprise cookies
+CURRENT_DESCRIPTION: these are the best cookies on the planet. i got the recipe from a book called "best-loved cookies".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, unsweetened cocoa powder, baking powder, baking soda, butter, light brown sugar
+---
+TITLE: chocolate surprise turtle cheesecake
+CURRENT_DESCRIPTION: this cheesecake has a surprise layer of chocolate on top of the crust when it is cut. mmmm, so yummy. i was trying to mimic johnny carino's turtle cheesecake, but i didn't quite get it right. this still tastes awesome, in my opinion, though. i wouldn't bother looking at the nutition info... :) *note:* prep time does not include cheesecake cooling or chilling time. updated 5/12/09 to add: the melted chocolate layer on top of the crust can become quite solid after refrigeration (...not how i envisioned it!), making it difficult to cut. fudge ice cream topping might be better and stay ooey-gooey when the cheesecake is cold. if you try this out, let me know what you did and how it works out!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: graham cracker crumbs, butter, pecans, semisweet chocolate, heavy whipping cream, cream cheese
+---
+TITLE: chocolate swirl bread
+CURRENT_DESCRIPTION: my husband and his coworkers request this bread at least once every 2 months. it is pretty simple to make. i got it from a bgh cookie magazine. prep time is approx. and includes rise time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, yeast, milk, sugar, butter, salt
+---
+TITLE: chocolate teasers
+CURRENT_DESCRIPTION: this recipes takes a little playing around, but it really worth it for the oohs and aahs and the
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, egg, vanilla extract, white chocolate, semi-sweet chocolate chips
+---
+TITLE: chocolate tiramisu 1996  canadian italian recipe
+CURRENT_DESCRIPTION: i had this at the keg restaurant in toronto....this is the way i prefer my tiramisu with chocolate cake...of course you could always use a cake mix if time is short...in place of the chiffon cake...
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granulated sugar, all-purpose flour, cocoa powder, baking powder, baking soda, eggs
+---
+TITLE: chocolate tres leches cake
+CURRENT_DESCRIPTION: the traditional version is a white, vanilla flaovered cake that is infused with 3 types of milk--sweet milk, whole milk and cream. this chocolate version was published in sabroso!, a southwest dining guide. the preparation time and cook time are estimates. when making a tres leches cake it is usually best to begin early in the morning or even the day before in order to have it ready in the evening. the process is lengthy and time consuming; but oh what wonderful results.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, light brown sugar, all-purpose flour, cocoa powder, baking powder, milk

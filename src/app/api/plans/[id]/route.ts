@@ -59,6 +59,9 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
     update.pinboard_filters = body.pinboard_filters;
   }
 
+  if (body.person_count !== undefined) update.person_count = Math.max(1, Number(body.person_count));
+  if (body.track_intake !== undefined) update.track_intake = Boolean(body.track_intake);
+
   if (Object.keys(update).length === 0) {
     return NextResponse.json({ error: "nothing to update" }, { status: 400 });
   }

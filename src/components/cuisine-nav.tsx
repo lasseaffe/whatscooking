@@ -77,9 +77,7 @@ export function CuisineNav({ continents }: CuisineNavProps) {
           position: sticky;
           top: 0;
           z-index: 40;
-          background: color-mix(in srgb, var(--wc-surface-2, #3A3430) 85%, transparent);
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
+          background: var(--wc-surface-2, #3A3430);
           border-bottom: 1px solid rgba(255,255,255,0.08);
         }
         [data-theme="light"] .cuisine-sticky-nav {

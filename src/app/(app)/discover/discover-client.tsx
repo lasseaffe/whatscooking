@@ -20,6 +20,7 @@ import { Globe2 } from "lucide-react";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 import { FilterDrawer, type FilterState as DrawerFilterState } from "@/components/filter-drawer";
 import { HeroFilterCard, type HeroFilterState } from "@/components/hero-filter-card";
+import { SetBgMode } from "@/components/set-bg-mode";
 
 const TIME_OPTIONS = [
   { label: "≤ 15 min", value: 15 },
@@ -156,9 +157,10 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
   }, [initialRecipes, q, type, dietFilters, cuisineFilter, seasonal, customAvoid, difficultyFilter, pantryFirst, pantryNames, utensilFilters, maxReadyMinutes]);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div data-bg="hero" className="flex flex-col min-h-screen" style={{ background: "var(--wc-floor, #1F1B19)" }}>
+      <SetBgMode mode="hero" />
       {/* ── HERO HEADER ─────────────────────────────────────────── */}
-      <div className="relative overflow-hidden" style={{ background: "transparent" }}>
+      <div className="relative overflow-hidden" style={{ background: "var(--wc-floor, #1F1B19)" }}>
         <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden>
           <span className="absolute top-6 right-12 opacity-5 rotate-12" style={{ fontSize: "3.5rem" }}>🍕</span>
           <span className="absolute top-20 right-36 opacity-5 -rotate-6" style={{ fontSize: "2.5rem" }}>🥑</span>
@@ -257,7 +259,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
         <button
           onClick={() => setShowCuisines(v => !v)}
           className="w-full flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all"
-          style={{ background: "rgba(28,18,9,0.6)", backdropFilter: "blur(6px)", border: "1.5px solid #3A2416" }}
+          style={{ background: "rgb(28,18,9)", border: "1.5px solid #3A2416" }}
         >
           <Globe2 className="w-5 h-5 shrink-0" style={{ color: "#828E6F" }} />
           <div className="flex-1">
@@ -367,7 +369,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
         <Link href="/menu-scanner"
           data-beacon="menu-scanner"
           className="group flex items-stretch gap-0 rounded-2xl overflow-hidden transition-all hover:shadow-lg hover:-translate-y-0.5"
-          style={{ border: "1.5px solid #3A2416", background: "linear-gradient(120deg, rgba(28,18,9,0.7) 0%, rgba(36,26,13,0.7) 100%)", backdropFilter: "blur(6px)" }}>
+          style={{ border: "1.5px solid #3A2416", background: "linear-gradient(120deg, rgb(28,18,9) 0%, rgb(36,26,13) 100%)" }}>
           {/* Left: image strip */}
           <div className="hidden sm:flex flex-col shrink-0 overflow-hidden" style={{ width: 120 }}>
             <div className="flex-1 bg-cover bg-center" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=240&q=70)" }} />

@@ -92,6 +92,7 @@ export function RecipeImage({
       src={src}
       alt={alt ?? title}
       className={className}
+      draggable={false}
       style={{
         objectFit: "cover",
         objectPosition: `${fx}% ${fy}%`,

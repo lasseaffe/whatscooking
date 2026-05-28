@@ -6,13 +6,15 @@ export const runtime = "nodejs";
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
 
-  const page       = Math.max(0, parseInt(searchParams.get("page")  ?? "0"));
-  const limit      = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") ?? "50")));
-  const search     = searchParams.get("search")?.trim()     ?? "";
-  const cuisine    = searchParams.get("cuisine")?.trim()    ?? "";
-  const tags       = searchParams.get("tags")?.trim()       ?? "";
-  const difficulty = searchParams.get("difficulty")?.trim() ?? "";
-  const maxTime    = parseInt(searchParams.get("maxTime")   ?? "0") || 0;
+  const page          = Math.max(0, parseInt(searchParams.get("page")  ?? "0"));
+  const limit         = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") ?? "50")));
+  const search        = searchParams.get("search")?.trim()        ?? "";
+  const cuisine       = searchParams.get("cuisine")?.trim()       ?? "";
+  const tags          = searchParams.get("tags")?.trim()          ?? "";
+  const difficulty    = searchParams.get("difficulty")?.trim()    ?? "";
+  const maxTime       = parseInt(searchParams.get("maxTime")      ?? "0") || 0;
+  const source        = searchParams.get("source")?.trim()        ?? "";
+  const excludeSource = searchParams.get("excludeSource")?.trim() ?? "";
 
   const supabase = await createClient();
 
@@ -20,18 +22,21 @@ export async function GET(req: NextRequest) {
     .from("recipes")
     .select(
       "id, title, description, image_url, cuisine_type, dish_types, dietary_tags, " +
-      "prep_time_minutes, cook_time_minutes, difficulty_level, required_utensils",
+      "prep_time_minutes, cook_time_minutes, difficulty_level, required_utensils, source",
       { count: "exact" }
     )
     .or('dish_types.is.null,dish_types.not.cs.{"hack"}')
     .or('dish_types.is.null,dish_types.not.cs.{"premium"}')
+    .neq("image_status", "hidden")
     .order("created_at", { ascending: false })
     .range(page * limit, (page + 1) * limit - 1);
 
-  if (search)      query = query.ilike("title", `%${search}%`);
-  if (cuisine)     query = query.eq("cuisine_type", cuisine);
-  if (difficulty)  query = query.eq("difficulty_level", difficulty);
-  if (maxTime > 0) query = query.lte("cook_time_minutes", maxTime);
+  if (search)         query = query.ilike("title", `%${search}%`);
+  if (cuisine)        query = query.eq("cuisine_type", cuisine);
+  if (difficulty)     query = query.eq("difficulty_level", difficulty);
+  if (maxTime > 0)    query = query.lte("cook_time_minutes", maxTime);
+  if (source)         query = query.eq("source", source);
+  if (excludeSource)  query = query.neq("source", excludeSource);
 
   if (tags) {
     for (const tag of tags.split(",").filter(Boolean)) {

@@ -27,7 +27,7 @@ export async function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
   const isAuthRoute = pathname.startsWith("/login") || pathname.startsWith("/signup");
-  const isAppRoute = pathname.startsWith("/dashboard") ||
+  const isAppRoute = pathname !== "/login" && pathname !== "/signup" && pathname !== "/" ||
     pathname.startsWith("/meals") ||
     pathname.startsWith("/recipes") ||
     pathname.startsWith("/discover") ||
@@ -38,7 +38,7 @@ export async function proxy(request: NextRequest) {
   }
 
   if (user && isAuthRoute) {
-    return NextResponse.redirect(new URL("/dashboard", request.url));
+    return NextResponse.redirect(new URL("/", request.url));
   }
 
   return supabaseResponse;

@@ -48,3 +48,20 @@ export function formatMacro(agg: MacroAggregate, unit: string): { display: strin
   const tilde = agg.known_slots < agg.total_slots;
   return { display: `${tilde ? '~' : ''}${rounded}${unit}`, tilde, em: false };
 }
+
+export function aggregateByDay(
+  entries: ProposedEntry[],
+  recipes: Record<string, Partial<RecipeMacros>>,
+  field: MacroField,
+): Record<number, MacroAggregate> {
+  const byDay: Record<number, ProposedEntry[]> = {};
+  for (const e of entries) {
+    if (e.is_leftover) continue;
+    (byDay[e.day_number] ??= []).push(e);
+  }
+  const result: Record<number, MacroAggregate> = {};
+  for (const [dayStr, dayEntries] of Object.entries(byDay)) {
+    result[Number(dayStr)] = aggregateMacro(dayEntries, recipes, field);
+  }
+  return result;
+}

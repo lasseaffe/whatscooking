@@ -34,11 +34,19 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
   const { entries } = await req.json();
   if (!Array.isArray(entries)) return NextResponse.json({ error: "entries must be an array" }, { status: 400 });
 
+  // Map each entry's (ephemeral) weave clientid to a stable uuid so leftover
+  // parent links survive the delete/insert and become real row references.
+  const idByClientid = new Map<string, string>();
+  for (const e of entries) {
+    if (e?.clientid && !idByClientid.has(e.clientid)) idByClientid.set(e.clientid, crypto.randomUUID());
+  }
+
   // Replace all entries atomically
   await supabase.from("meal_entries").delete().eq("meal_plan_id", id);
 
   if (entries.length > 0) {
     const rows = entries.map((e, i) => ({
+      ...(e.clientid && idByClientid.has(e.clientid) ? { id: idByClientid.get(e.clientid) } : {}),
       meal_plan_id: id,
       recipe_id: e.recipe_id ?? null,
       day_number: e.day_number,
@@ -51,6 +59,10 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
       fat_g: e.fat_g ?? null,
       fiber_g: e.fiber_g ?? null,
       position: e.position ?? i,
+      source: e.source === "pinned" || e.source === "suggestion" ? e.source : "manual",
+      is_leftover: !!e.is_leftover,
+      parent_clientid: e.parent_clientid ? (idByClientid.get(e.parent_clientid) ?? null) : null,
+      locked: !!e.locked,
     }));
     const { error } = await supabase.from("meal_entries").insert(rows);
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });

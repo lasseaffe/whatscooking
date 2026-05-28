@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Builder Redesign · C · Mission Control</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-0:#0B0907; --bg-1:#13100C; --bg-2:#1A150F; --bg-3:#221B12; --bg-rail:#100C08;
+    --line:#322516; --line-soft:#241b11;
+    --cream:#EFE3CE; --cream-2:#C7B594; --muted:#94795A; --muted-2:#665139;
+    --ember:#E67E22; --ember-deep:#C8522A; --olive:#AAB46F; --olive-bg:#262c15; --gold:#E0B85A;
+    --serif:'Fraunces',Georgia,serif; --sans:'Plus Jakarta Sans',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg-0);color:var(--cream);font-family:var(--sans);line-height:1.5}
+  .wrap{max-width:1240px;margin:0 auto;padding:36px 28px 70px}
+  .stamp{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 14px;margin-bottom:18px}
+  .dirtitle{font-family:var(--serif);font-size:34px;font-weight:600;letter-spacing:-.02em}
+  .dirsub{color:var(--muted);font-size:14px;margin-top:6px;max-width:640px}
+  .statelabel{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ember);margin:56px 0 18px;display:flex;align-items:center;gap:12px}
+  .statelabel::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+
+  .ph{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+  .ph h1{font-family:var(--serif);font-size:28px;font-weight:600;letter-spacing:-.02em}
+  .ph .meta{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .ph .pill{margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:5px 12px;border-radius:999px;background:var(--olive-bg);color:var(--olive);border:1px solid #3c4422}
+
+  .console{display:grid;grid-template-columns:236px 1fr;gap:18px}
+
+  /* left rail — chips get a HOME */
+  .rail{background:var(--bg-rail);border:1px solid var(--line-soft);border-radius:16px;padding:18px;align-self:start;position:sticky;top:20px}
+  .rail .grp{margin-bottom:20px}
+  .rail .grp:last-child{margin-bottom:0}
+  .rail .gh{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;display:flex;align-items:center;gap:7px}
+  .rail .chip{display:flex;align-items:center;justify-content:space-between;font-size:12.5px;color:var(--cream-2);background:var(--bg-2);border:1px solid var(--line-soft);border-radius:9px;padding:8px 11px;margin-bottom:7px;cursor:pointer}
+  .rail .chip.on{border-color:var(--ember);color:var(--cream);background:#2a1a0e}
+  .rail .chip.on .v{color:var(--ember);font-family:var(--mono);font-size:11px}
+  .rail .chip .v{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .rail .insp{display:flex;flex-wrap:wrap;gap:6px}
+  .rail .insp span{font-size:11px;color:var(--muted);border:1px solid var(--line-soft);border-radius:7px;padding:4px 9px;cursor:pointer}
+  .rail .insp span.on{color:var(--bg-0);background:var(--ember);border-color:var(--ember)}
+
+  /* main canvas */
+  .canvas{min-width:0}
+  .csearch{display:flex;align-items:center;gap:12px;background:var(--bg-1);border:1px solid var(--line);border-radius:13px;padding:13px 16px;margin-bottom:14px}
+  .csearch input{flex:1;background:none;border:none;color:var(--cream);font-size:15px;outline:none;font-family:var(--sans)}
+  .csearch input::placeholder{color:var(--muted-2)}
+  .csearch .pins{display:flex;align-items:center;font-family:var(--mono);font-size:12px;color:var(--ember);gap:8px}
+  .csearch .pins img{width:30px;height:30px;border-radius:7px;object-fit:cover;margin-left:-7px;border:2px solid var(--bg-1)}
+  .csearch .pins img:first-of-type{margin-left:0}
+
+  .secrow{display:flex;align-items:center;gap:10px;margin:22px 0 12px}
+  .secrow h3{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--cream-2)}
+  .secrow .cnt{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .secrow .ln{flex:1;height:1px;background:var(--line-soft)}
+
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .rc{background:var(--bg-1);border:1px solid var(--line-soft);border-radius:13px;overflow:hidden;transition:.18s}
+  .rc:hover{border-color:var(--line);transform:translateY(-2px)}
+  .rc .img{position:relative;height:96px}
+  .rc .img img{width:100%;height:100%;object-fit:cover}
+  .rc .img .b{position:absolute;top:7px;left:7px;display:flex;gap:4px}
+  .rc .img .b span{font-family:var(--mono);font-size:9px;background:#0b0907cc;border:1px solid #ffffff1f;color:var(--cream);padding:2px 6px;border-radius:5px;backdrop-filter:blur(4px)}
+  .rc .bd{padding:10px 11px 12px}
+  .rc .bd h4{font-size:13px;font-weight:600;line-height:1.25;font-family:var(--sans)}
+  .rc .bd .mac{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:4px}
+  .rc .bd .pin{margin-top:9px;width:100%;font-family:var(--mono);font-size:11px;letter-spacing:.04em;padding:7px;border-radius:8px;border:1px solid var(--ember);background:transparent;color:var(--ember)}
+  .rc.pinned .bd .pin{background:var(--ember);color:var(--bg-0)}
+  .inline-empty{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);font-family:var(--mono);background:#160f0866;border:1px dashed var(--line);border-radius:11px;padding:11px 14px;margin-top:6px}
+  .inline-empty button{margin-left:auto;color:var(--ember);background:none;border:1px solid var(--line);border-radius:7px;padding:6px 10px;font-family:var(--mono);font-size:11px}
+
+  .buildbar{position:sticky;bottom:16px;margin-top:22px;display:flex;align-items:center;gap:14px;background:#1a150ff2;border:1px solid var(--line);border-radius:14px;padding:13px 16px;backdrop-filter:blur(8px);box-shadow:0 16px 44px #0009}
+  .buildbar .lab{font-family:var(--mono);font-size:13px;color:var(--cream-2)}
+  .buildbar .lab b{color:var(--ember)}
+  .buildbar .go{margin-left:auto;font-family:var(--sans);font-weight:700;font-size:14px;color:var(--bg-0);background:var(--ember);border:none;border-radius:11px;padding:12px 24px}
+
+  /* ===== WOVEN — gauges + polished grid ===== */
+  .gauges{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}
+  .gauge{background:var(--bg-1);border:1px solid var(--line-soft);border-radius:14px;padding:15px 18px;display:flex;align-items:center;gap:14px}
+  .gauge .meter{width:48px;height:48px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;position:relative}
+  .gauge .meter .in{position:absolute;inset:6px;background:var(--bg-1);border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-size:12px;font-weight:600}
+  .gauge .tx .k{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .gauge .tx .v{font-family:var(--serif);font-size:19px;font-weight:600;margin-top:2px}
+  .gauge .tx .v.warn{color:var(--ember)}
+
+  .wgridwrap{display:grid;grid-template-columns:1fr 300px;gap:18px;align-items:start}
+  .macropanel{background:var(--bg-1);border:1px solid var(--line-soft);border-radius:16px;padding:18px;position:sticky;top:20px}
+  .macropanel .ph2{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+  .macropanel .mline{margin-bottom:16px}
+  .macropanel .mline .top{display:flex;justify-content:space-between;align-items:baseline}
+  .macropanel .mline .top .nm{font-size:13px;color:var(--cream-2);display:flex;gap:7px;align-items:center}
+  .macropanel .mline .top .val{font-family:var(--serif);font-size:20px;font-weight:600}
+  .macropanel .mline .top .val small{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:400}
+  .macropanel .mline .bar{height:6px;border-radius:4px;background:var(--bg-3);margin-top:8px;overflow:hidden}
+  .macropanel .mline .bar i{display:block;height:100%;border-radius:4px}
+  .macropanel .foot{font-family:var(--mono);font-size:10px;color:var(--olive);border-top:1px solid var(--line-soft);padding-top:12px;margin-top:4px}
+  .wact{display:flex;gap:10px;margin-top:16px}
+  .wact button{flex:1;font-family:var(--sans);font-weight:600;font-size:13px;border-radius:11px;padding:11px;border:1px solid var(--line);background:var(--bg-2);color:var(--cream)}
+  .wact .cook{background:var(--ember);border-color:var(--ember);color:var(--bg-0)}
+
+  .wgrid{border:1px solid var(--line-soft);border-radius:14px;overflow:hidden}
+  .wgrid .hd{display:grid;grid-template-columns:84px repeat(4,1fr);background:var(--bg-2)}
+  .wgrid .hd .c{padding:11px 12px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--cream-2);border-left:1px solid var(--line-soft)}
+  .wgrid .hd .c:first-child{border-left:none;color:var(--muted)}
+  .wgrid .r{display:grid;grid-template-columns:84px repeat(4,1fr);border-top:1px solid var(--line-soft)}
+  .wgrid .r .rl{padding:14px 12px;font-family:var(--mono);font-size:11px;color:var(--muted);background:var(--bg-2);display:flex;align-items:center}
+  .wgrid .cell{border-left:1px solid var(--line-soft);padding:8px;min-height:88px}
+  .wgrid .cell .card{display:flex;flex-direction:column;gap:6px;height:100%}
+  .wgrid .cell .card img{width:100%;height:42px;object-fit:cover;border-radius:7px}
+  .wgrid .cell .card .nm{font-size:11px;font-weight:600;line-height:1.2}
+  .wgrid .cell .card .nm .s{display:block;font-family:var(--mono);font-size:9px;color:var(--ember);margin-top:2px}
+  .wgrid .cell.add{display:grid;place-items:center;color:var(--muted-2);font-family:var(--mono);font-size:11px}
+  .note{color:var(--muted-2);font-size:12px;font-family:var(--mono);margin-top:14px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="stamp">◆ Direction C · Mission Control</div>
+  <div class="dirtitle">Power, organized — every control has a home</div>
+  <div class="dirsub">The dense planner, but no longer a wall. Constraints + inspiration live in a left rail; the canvas leads with recipes. The woven week pairs a polished grid with live gauges and a macro panel — confident, not flat.</div>
+
+  <!-- ============ PLANNING ============ -->
+  <div class="statelabel">Planning state — pin what you'll cook</div>
+
+  <div class="ph">
+    <h1>High-Protein Week</h1><span class="meta">7 days · 3 meals/day</span>
+    <span class="pill">Planning</span>
+  </div>
+
+  <div class="console">
+    <!-- LEFT RAIL -->
+    <aside class="rail">
+      <div class="grp">
+        <div class="gh">⚙ Constraints</div>
+        <div class="chip on"><span>Diet</span><span class="v">high-protein</span></div>
+        <div class="chip on"><span>Weeknight</span><span class="v">≤30m</span></div>
+        <div class="chip on"><span>Weekend</span><span class="v">≤120m</span></div>
+        <div class="chip on"><span>Squad</span><span class="v">2</span></div>
+        <div class="chip"><span>Pantry-aware</span><span class="v">off</span></div>
+        <div class="chip on"><span>Anti-repeat</span><span class="v">moderate</span></div>
+        <div class="chip"><span>Batch / leftovers</span><span class="v">off</span></div>
+      </div>
+      <div class="grp">
+        <div class="gh">✦ Inspiration</div>
+        <div class="insp">
+          <span>Italian</span><span class="on">Thai</span><span>Korean</span><span>Mexican</span><span>French</span><span>Mediterranean</span><span>Indian</span><span>Cozy</span><span class="on">Fresh &amp; light</span><span>Quick</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CANVAS -->
+    <div class="canvas">
+      <div class="csearch">
+        <span style="color:var(--ember);font-size:17px">⌕</span>
+        <input placeholder="Search &amp; add recipes…">
+        <div class="pins">
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=120&q=80">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=120&q=80">
+          <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=120&q=80">
+          📌 9
+        </div>
+      </div>
+
+      <div class="secrow"><h3>Breakfast</h3><span class="cnt">3 matches</span><span class="ln"></span></div>
+      <div class="grid">
+        <div class="rc pinned"><div class="img"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80"><div class="b"><span>✓ diet</span><span>30m</span></div></div><div class="bd"><h4>Egg White Frittata</h4><div class="mac">38g protein · 320 kcal</div><button class="pin">✓ PINNED</button></div></div>
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80"><div class="b"><span>✓ diet</span><span>15m</span></div></div><div class="bd"><h4>Greek Yogurt Bowl</h4><div class="mac">31g protein · 280 kcal</div><button class="pin">＋ PIN</button></div></div>
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&q=80"><div class="b"><span>✓ diet</span><span>20m</span></div></div><div class="bd"><h4>Protein Pancakes</h4><div class="mac">34g protein · 410 kcal</div><button class="pin">＋ PIN</button></div></div>
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1529059997568-3d847b1154f0?w=400&q=80"><div class="b"><span>✓ diet</span><span>10m</span></div></div><div class="bd"><h4>Smoked Salmon Toast</h4><div class="mac">29g protein · 350 kcal</div><button class="pin">＋ PIN</button></div></div>
+      </div>
+
+      <div class="secrow"><h3>Lunch</h3><span class="cnt">0 matches</span><span class="ln"></span></div>
+      <div class="inline-empty">No lunches under <b style="color:var(--cream)">≤30m + high-protein</b> right now. <button>Raise time → 45m</button></div>
+
+      <div class="secrow"><h3>Dinner</h3><span class="cnt">4 matches</span><span class="ln"></span></div>
+      <div class="grid">
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80"><div class="b"><span>✓ diet</span><span>25m</span></div></div><div class="bd"><h4>Lean Turkey Meatballs</h4><div class="mac">42g protein · 480 kcal</div><button class="pin">＋ PIN</button></div></div>
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=80"><div class="b"><span>✓ diet</span><span>20m</span></div></div><div class="bd"><h4>Ahi Tuna Poke Bowl</h4><div class="mac">40g protein · 520 kcal</div><button class="pin">＋ PIN</button></div></div>
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80"><div class="b"><span>✓ diet</span><span>22m</span></div></div><div class="bd"><h4>Miso Glazed Salmon</h4><div class="mac">36g protein · 460 kcal</div><button class="pin">＋ PIN</button></div></div>
+        <div class="rc"><div class="img"><img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=400&q=80"><div class="b"><span>✓ diet</span><span>28m</span></div></div><div class="bd"><h4>Garlic Steak Bowl</h4><div class="mac">45g protein · 590 kcal</div><button class="pin">＋ PIN</button></div></div>
+      </div>
+
+      <div class="buildbar">
+        <span style="font-size:17px">📌</span>
+        <span class="lab"><b>9</b> pinned · ready to weave</span>
+        <button class="go">Build this week →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ WOVEN ============ -->
+  <div class="statelabel">Woven state — your week, composed</div>
+
+  <div class="ph">
+    <h1>High-Protein Week</h1><span class="meta">7 days · 3 meals/day</span>
+    <span class="pill" style="background:#2c2410;color:#d8c06a;border-color:#4a3c14">Woven</span>
+  </div>
+
+  <div class="gauges">
+    <div class="gauge"><div class="meter" style="background:conic-gradient(var(--ember) 0%, #281d11 0)"><div class="in" style="color:var(--ember)">0%</div></div><div class="tx"><div class="k">Pantry coverage</div><div class="v warn">0% stocked</div></div></div>
+    <div class="gauge"><div class="meter" style="background:conic-gradient(var(--gold) 70%, #281d11 0)"><div class="in" style="color:var(--gold)">12h</div></div><div class="tx"><div class="k">Active cook time</div><div class="v">12h 19m</div></div></div>
+    <div class="gauge"><div class="meter" style="background:conic-gradient(var(--ember-deep) 33%, #281d11 0)"><div class="in" style="color:var(--ember-deep)">low</div></div><div class="tx"><div class="k">Variety score</div><div class="v warn">Low — 4 repeats</div></div></div>
+  </div>
+
+  <div class="wgridwrap">
+    <div class="wgrid">
+      <div class="hd"><div class="c">&nbsp;</div><div class="c">Day 1</div><div class="c">Day 2</div><div class="c">Day 3</div><div class="c">Day 4 →</div></div>
+      <div class="r">
+        <div class="rl">Breakfast</div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=200&q=80"><div class="nm">Egg White Frittata<span class="s">📌 pin</span></div></div></div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=200&q=80"><div class="nm">Turkey Meatballs<span class="s">📌 pin</span></div></div></div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&q=80"><div class="nm">Miso Salmon<span class="s">✨ pick</span></div></div></div>
+        <div class="cell add">+ add</div>
+      </div>
+      <div class="r">
+        <div class="rl">Lunch</div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=200&q=80"><div class="nm">Turkey Meatballs<span class="s">♻ leftover</span></div></div></div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&q=80"><div class="nm">Ahi Tuna Poke<span class="s">✨ pick</span></div></div></div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&q=80"><div class="nm">Miso Salmon<span class="s">♻ leftover</span></div></div></div>
+        <div class="cell add">+ add</div>
+      </div>
+      <div class="r">
+        <div class="rl">Dinner</div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&q=80"><div class="nm">Ahi Tuna Poke<span class="s">📌 pin</span></div></div></div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=200&q=80"><div class="nm">Garlic Steak Bowl<span class="s">✨ pick</span></div></div></div>
+        <div class="cell"><div class="card"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&q=80"><div class="nm">Miso Salmon<span class="s">📌 pin</span></div></div></div>
+        <div class="cell add">+ add</div>
+      </div>
+    </div>
+
+    <aside class="macropanel">
+      <div class="ph2">Week macros</div>
+      <div class="mline"><div class="top"><span class="nm">⚡ Energy</span><span class="val">4108<small> kcal</small></span></div><div class="bar"><i style="width:82%;background:var(--ember)"></i></div></div>
+      <div class="mline"><div class="top"><span class="nm">🥩 Protein</span><span class="val">416<small> g</small></span></div><div class="bar"><i style="width:96%;background:var(--olive)"></i></div></div>
+      <div class="mline"><div class="top"><span class="nm">🌾 Carbs</span><span class="val">242<small> g</small></span></div><div class="bar"><i style="width:54%;background:var(--gold)"></i></div></div>
+      <div class="mline"><div class="top"><span class="nm">🥑 Fat</span><span class="val">168<small> g</small></span></div><div class="bar"><i style="width:61%;background:var(--ember-deep)"></i></div></div>
+      <div class="foot">✓ 9/9 cook days have macros known</div>
+      <div class="wact">
+        <button>🔀 Reweave</button>
+        <button class="cook">🍳 Cook →</button>
+      </div>
+    </aside>
+  </div>
+  <div class="note">Days 5–7 scroll horizontally · drag to swap · ✨ picks chosen by the weaver, 📌 your pins</div>
+</div>
+</body>
+</html>

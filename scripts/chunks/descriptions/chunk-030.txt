@@ -1,0 +1,2140 @@
+TITLE: Autumn Pork Chops
+CURRENT_DESCRIPTION: supper tonight gives off the aroma of autumn! good tastes for the season are here.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, pork chops, cream of mushroom soup, apple juice, spicy brown mustard, honey
+---
+TITLE: Autumn Pork Skillet
+CURRENT_DESCRIPTION: this is posted in request for a pork recipe with sun-maid raisins. i will make this sounds like an easy recipe thats sweet and rich. i'd say comfort food. i tweeked it with cinnamon and ginger.  serve it with fluffy white rice. i finally made this and you can omit the cream and serve without.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork loin, garlic salt, vegetable oil, apple juice, all-purpose flour, tart apples
+---
+TITLE: Autumn Potato Gratin
+CURRENT_DESCRIPTION: this is a rachael ray recipe. any type of potato cut in slices will work. very easy and very good. dried herbs work well also.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby potatoes, heavy cream, butter, fresh thyme, fresh sage, fresh rosemary
+---
+TITLE: Autumn Pumpkin And Squash Soup
+CURRENT_DESCRIPTION: this hearty soup makes a great fall meal, served with a salad and some warm crusty bread (we usually have a whole wheat baguette), or use it as a first course. it is derived from a pumpkin soup recipe i found several years ago in the wine spectator. for a dressy presentation garnish with a bit of creme fraiche and some julienned prosciutto. i've made this recipe using brown sugar and also substituting spenda and my family has not noticed a difference. i have also substituted low fat evaporated milk for the heavy cream with no issues in the final result. this soup can be prepared up to 24 hours before serving. re-heat over very low heat prior to serving.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pumpkin, butternut squash, acorn squash, onions, fresh ginger, butter
+---
+TITLE: Autumn Pumpkin Apple Cider Bread
+CURRENT_DESCRIPTION: this is so easy to make! this bread is just perfect for autumn.the cider and pumpkin combine wonderfully!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: apple cider, canned pumpkin puree, eggs, vegetable oil, light brown sugar, orange zest
+---
+TITLE: Autumn Pumpkin Bread
+CURRENT_DESCRIPTION: ok, i admit it, this is from an ad for crisco oil. but it sounded like a great non-dairy dessert to me- and it is!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, baking soda, ground cloves, ground cinnamon, ground nutmeg
+---
+TITLE: Autumn Pumpkin Cream Cheese Pie
+CURRENT_DESCRIPTION: yes, yet another lovely, easy pie recipe.  perfect for autumn, my favorite season.  wonderful pie 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, pumpkin puree, sweetened condensed milk, eggs, pumpkin pie spice, unbaked pie shells
+---
+TITLE: Autumn Pumpkin Crisp W Creamy Frosting
+CURRENT_DESCRIPTION: this is a wonderful recipe. it is always fun to bake something special for the holidays and this is a nice treat for thanksgiving. it is not difficult at all 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pumpkin, evaporated milk, eggs, nuts, sugar, cinnamon
+---
+TITLE: Autumn Pumpkin Hazelnut Pie
+CURRENT_DESCRIPTION: yummy, easy holiday pie. plain pumpkin pie can get boring--this gives it a nice touch 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, canned pumpkin, sugar, light corn syrup, vanilla extract, cinnamon
+---
+TITLE: Autumn Pumpkin Muffins
+CURRENT_DESCRIPTION: these muffins freeze really well, especially when you decide to throw a last minute coffee.  just thaw them out overnight and pop them in the microwave or in a real low oven for a few minutes for a just baked aroma throughout the house!  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, baking soda, ground cloves, ground cinnamon, nutmeg
+---
+TITLE: Autumn Pumpkin Soup
+CURRENT_DESCRIPTION: i found this recipe listed in my local newspaper. i never liked anything pumpkin before this. the green apple really makes the soup flavorful.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, celery, dry white wine, dried sage, pumpkin, yellow onion
+---
+TITLE: Autumn Pumpkin Spice 4 Layer Bars
+CURRENT_DESCRIPTION: i really love recipes like this.autumn is my favorite season.it is just so pretty out,and magickal! i love the smell of baking with pumpkin,and this is a great treat,perfect for the season! 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, brown sugar, sugar, butter, nuts, mincemeat
+---
+TITLE: Autumn Pumpkin Spice Fudge
+CURRENT_DESCRIPTION: this is the best fudge recipe to make for halloween! 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar, milk, light corn syrup, pumpkin, salt, pumpkin pie spice
+---
+TITLE: Autumn Pumpkin Spice Muffins
+CURRENT_DESCRIPTION: i love to bake sweet and spicy treats in the fall. if you like to bake up tricks and treats for your lil goblins, try this one! 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, brown sugar, baking powder, salt, cinnamon
+---
+TITLE: Autumn Pumpkin Spice Pancakes
+CURRENT_DESCRIPTION: this sounds like a great recipe for fall! i haven't tried it yet, but it says to cook these slowly and not to worry about them darkening because of the pumpkin. 8)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, brown sugar, nutmeg, ginger, apple butter
+---
+TITLE: Autumn Pumpkin Waffles
+CURRENT_DESCRIPTION: this recipe was given to me by a friend and i made one change to the type of fat used. it takes some prep time so i like to combine the dry ingredients the night before or make several batches of dry ingredients and store in quart zip type bags in the pantry. it's good to label these and attach a copy of the recipe. i most recently tried mixing the wet ingredients, except the egg whites and melted butter, the night before and refrigerated it until morning. this also worked well and really cut down on the morning prep time. just add the melted butter to the pumpkin mixture. beat the egg whites and combine as stated. freeze any leftover waffles and put them in the toaster for a quick breakfast.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking powder, cinnamon, ground coriander, nutmeg, salt
+---
+TITLE: Autumn Quinoa   Butter Beans
+CURRENT_DESCRIPTION: this looks great! some people rinse their quinoa (to remove the bitter coating). i never do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: quinoa, margarine, onion, fresh ginger, orange blossom water, honey
+---
+TITLE: Autumn Ratatouille
+CURRENT_DESCRIPTION: almost every weekend, i make ratatouille to clean up all vegetables in my refrigerator, and the vegetables i use change by season. in autumn, my ratatouille becomes yellow because of the color of squash and pumpkin. i love the color so much.
+it's a japanese sytle to add a little bit soy sauce to finish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, yellow onion, garlic clove, acorn squash, zucchini, carrot
+---
+TITLE: Autumn Reuben Dip
+CURRENT_DESCRIPTION: a slightly different diversion from the standard reuben dips you've had.  a great appetizer for those cooler-day football sundays.  great served with rye rounds, party rye, even triscuits or wheat thins.  too good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, sour cream, thousand island dressing, sauerkraut, corned beef, velveeta cheese
+---
+TITLE: Autumn Root Stew
+CURRENT_DESCRIPTION: this is is the perfect recipe for harvest time or for a long cold winter.  the ingredients are quite affordable and the yield is high.   it is very filling and nutritious as well as freezing fairly well.  this is an original creation.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, carrots, sweet potatoes, parsnips, bacon, coconut milk
+---
+TITLE: Autumn S Best Mulligatawny   Chicken
+CURRENT_DESCRIPTION: fresh, tart apples from the orchard and some freshly-dug carrots, onions and garlic from the garden will give this stewy-soup a real punch of vitality!   we butcher our own chickens, too, so this is very fresh!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chicken, water, salt, onions, celery, carrots
+---
+TITLE: Autumn Salad
+CURRENT_DESCRIPTION: 206K likes, 7,274 comments - nutritionbykylie on November 22, 2024: "My favorite Autumn salad (that also happens to be perf for a Thanksgiving side 😉)
+
+If you want more recipes like these, my new cookbook “So Easy So Good” is now available for pre-order!! Link in my bio to pre-order or comment “COOKBOOK” and I’ll DM you the link 😊
+
+Full recipe on my substack for those interested!
+
+#thanksgiving #autumn #fallrecipe #salads".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unknown
+---
+TITLE: Autumn Salad With Apples And Candied Walnuts
+CURRENT_DESCRIPTION: i got this recipe from and friend and it is my favorite salad.  i like to use a lot more sugar than the recipe calls for - about 2-3 tablespoons, but i'll leave the recipe as written and you can sweeten to taste. i also like to use pecans in place of the walnuts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, walnuts, ground black pepper, sugar, garlic clove, dried oregano
+---
+TITLE: Autumn Salad With Bleu Cheese
+CURRENT_DESCRIPTION: this salad is fabulous.  i love the taste of the apple with the bleu cheese.  a very pretty salad sure to impress!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, canola oil, apple cider vinegar, sugar substitute, salt, pepper
+---
+TITLE: Autumn Salad With Red Wine Vinaigrette
+CURRENT_DESCRIPTION: i'm posting this recipe as written in cooking light, oct. 2007. however, when i made it i wasn't in the mood for so much fruit, or even the tart/sweet fruit. so i used 4 bosc pears. we loved this salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, red wine vinegar, sugar, garlic, paprika, dry mustard
+---
+TITLE: Autumn Sausage Soup
+CURRENT_DESCRIPTION: plain and simple. this soup has no spice in it, gets its flavor from the farmer sausage and green pepper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sausage, vegetable oil, potatoes, carrots, celery ribs, rutabagas
+---
+TITLE: Autumn Soup
+CURRENT_DESCRIPTION: a lovely soup for a crisp autumn day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, water, carrot, potato, salt
+---
+TITLE: Autumn Soup To Warm The Soul
+CURRENT_DESCRIPTION: whats better on a chill and blustery day, when the red and gold leaves are on the ground, than a hearty and steaming bowl of soup!.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, carrots, turnip, green pepper, vegetable oil, tomato puree
+---
+TITLE: Autumn Spice Bread
+CURRENT_DESCRIPTION: when i was growing up, my mom made this every christmas. the smell of it lingering through the house would be sure to wake us all up, and run for the kitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, ground cinnamon, salt, ground nutmeg, ginger
+---
+TITLE: Autumn Spice Cupcakes With Pumpkin Spice Frosting
+CURRENT_DESCRIPTION: this is an easy, festive recipe for autumn.  i made this recipe with our nursing home residents in celebration of our october birthdays.  they really enjoyed the aroma of the baking cupcakes and frosting them.  we inserted pretzel sticks into the center of each orange-colored frosted cupcake to make them look like little pumpkins.  what fun we had!  this would also be a fun children's project.  enjoy! (note: preparation time does not include time for cupcakes to cool.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spice cake mix, water, pumpkin, eggs, butter, pumpkin puree
+---
+TITLE: Autumn Spice Pound Cake W  Pomegranate Glaze
+CURRENT_DESCRIPTION: thank god for modern day supermarkets because i can make this cake year round! this combines some of my all-time favorites ( pumpkin, apple, and pomegranate), and is not too sweet but just perfect with a cup of coffee or tea.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shortening, sugar, eggs, pumpkin, pomegranate juice, all-purpose flour
+---
+TITLE: Autumn Spiced Banana Cake
+CURRENT_DESCRIPTION: i buy bananas with the idea of eating them right away, but somehow i always end up with a couple that have ripened too much for my taste.  i ran across a recipe for spiced prune cake in food everyday which i baked and it is delicious.  so, as most of us cooks do, i decided to try a variation with, you guessed it, bananas!  many combinations of fruit & nuts would be fun to try, pears, pecans, etc....enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, granulated sugar, ground cinnamon, ground cloves, ground nutmeg, salt
+---
+TITLE: Autumn Spiced Sweet Potatoes  South Beach
+CURRENT_DESCRIPTION: got this the other day from the sb newsletter--for phases 2 and 3.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potato, low-fat buttermilk, butter, salt, white pepper, nutmeg
+---
+TITLE: Autumn Squash   Pepper Casserole
+CURRENT_DESCRIPTION: wonderfully aromatic and colorful, as well as delicious and easy. i used peeled, cubed butternut squash to simplify my life.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butternut squash, red bell peppers, olive oil, garlic cloves, fresh parsley, coarse salt
+---
+TITLE: Autumn Squash Soup
+CURRENT_DESCRIPTION: if you’ve never tried a butternut squash soup or pumpkin soup, then you’re missing out…especially if you’re a lover of sweets. squash soup is one of my favorite things to eat in the fall and winter. when cooked, winter squashes turn soft and sweet, making them extremely versatile and comforting to eat when the weather is cool. winter squashes like acorn and butternut squash can be hard to cut, so i like to slice them in half vertically, bake them, and then scoop out the flesh to use in a recipe. this way i don’t have to kill my arm trying to cut up the squash when it’s still hard as a rock.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: acorn squash, butternut squash, yellow onion, garlic cloves, jalapenos, coconut milk
+---
+TITLE: Autumn Stew
+CURRENT_DESCRIPTION: this is an excellent tried-and-true soup recipe that i've used repeatedly through the years. it is one of my favorites from "betty crocker's recipe card library", which i've had since i began cooking in 1973. this one works equally as well in the crock pot (cook on low till vegetables are tender).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, onion, water, tomatoes, carrot, celery
+---
+TITLE: Autumn Stuffed Pork Loin With Cider Gravy
+CURRENT_DESCRIPTION: roast pork is one of our favorites, and apples go so well with it. the cider gravy i made up myself and used it on garlic mashed potatoes--this whole meal was served to a group of our local vietnam vets and they loved it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork loin roast, granny smith apples, onion, celery, oil, garlic
+---
+TITLE: Autumn Sweet Potato  Or Pumpkin  Muffins
+CURRENT_DESCRIPTION: these are delicious muffins with a unique ingredient... crystallized ginger! they're perfect on a crisp autumn morning, or anytime for that matter. they're also dairy-free and low-fat! the recipe is from mags2003 on the ibs message boards at www.helpforibs.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, light brown sugar, baking powder, baking soda, salt, ground cinnamon
+---
+TITLE: Autumn Tea
+CURRENT_DESCRIPTION: from taste of home magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tea bags, boiling water, unsweetened apple juice, cranberry juice, sugar, lemon juice
+---
+TITLE: autumn trifle w  roasted apples  pears and pumpkin caramel sauce
+CURRENT_DESCRIPTION: need a dessert to impress?  this is the one!  while somewhat labor-intensive, it's worth the work.  your guests will gush over the presentation and perfect flavor combination.
+
+a pastry bag and large rosette tip are optional for the whipped cream topping, which can also be spooned over the trifle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, whole milk, sugar, cake flour, vanilla extract, ground cinnamon
+---
+TITLE: Autumn Trifle W  Roasted Apples  Pears And Pumpkin Caramel Sauce
+CURRENT_DESCRIPTION: need a dessert to impress?  this is the one!  while somewhat labor-intensive, it's worth the work.  your guests will gush over the presentation and perfect flavor combination.
+
+a pastry bag and large rosette tip are optional for the whipped cream topping, which can also be spooned over the trifle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolks, whole milk, sugar, cake flour, vanilla extract, ground cinnamon
+---
+TITLE: Autumn Turkey Chops
+CURRENT_DESCRIPTION: today was a cold, rainy late october day. i bought a few mini pumpkins and gourds and things to decorate my house with and was feeling 'autumn inspired'. longing for the flavors of fall, i wanted something with cinnamon, nutmeg and maybe even cloves. i had some turkey 'chops' and decided to throw these things together. i have nothing for leftovers now! the whole family loved it! (even the super picky 3 and 5 year old!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey chops, apples, nutmeg, allspice, cinnamon, clove
+---
+TITLE: Autumn Two Potato Scallop
+CURRENT_DESCRIPTION: the combo of sweet and new potatoes are delightful in a cream sauce with parmesan.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sweet potatoes, small red potatoes, heavy cream, milk, garlic
+---
+TITLE: Autumn Vegetable Casserole
+CURRENT_DESCRIPTION: this earthy dish smells wonderful while baking and once you taste this creation you're sure to add it to your favourites list!  it is great reheated and is superb for potluck.  feel free to change out the veggies for ones that suit your palate  but i think you'll find this is a good combo.  i do not measure anything when i make this, it's all about a shake and a dash.  have fun with it, it's so yummy!  if you are vegan or want it to be pareve just omit the cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potato, sweet potato, red pepper, red onion, zucchini, tomatoes
+---
+TITLE: Autumn Vegetable Gratin
+CURRENT_DESCRIPTION: potato, sweet potato & rutabaga... so simple so good. i found this little gem at our local kroger store recipe bar. if you're not comfortable with rutagagas, you can combine 1 1/2 cups of onion, turnips and carrots.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potato, sweet potato, vegetables, chicken broth, milk, cornstarch
+---
+TITLE: Autumn Vegetable Soup
+CURRENT_DESCRIPTION: this hearty soup is a rare find. it is absolutly delicious. i you want to impress anyone...make this!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onions, garlic, carrots, zucchini, celery
+---
+TITLE: Av S  Biscoitos  Portuguese Biscotti Cookies
+CURRENT_DESCRIPTION: this is the portuguese version of a dunking cookie. they are delicious, buttery cookies. originally from sao miguel in the azores, my avô (grandpa) on my father's side was a baker for many years in montreal. this was his recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, sugar, eggs, all-purpose flour, baking powder
+---
+TITLE: Avacado And Tomato Salad
+CURRENT_DESCRIPTION: found this recipe on an african menu website. canned peach slices may be added to the avocado salad-in which case use one slice of tomato and two to three peach slices. this lemon dressing is excellent on a tossed green salad or hearts of lettuce. it is light and easy to make. posted for zwt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: iceberg lettuce, tomatoes, avocados, lemon juice, olive oil, peach syrup
+---
+TITLE: Avalanche Bark
+CURRENT_DESCRIPTION: oh my gosh! this has got to be one of the most addicting things on the face of the planet. i first saw this treat in a rocky mountain chocolate factory store and i had to mimick it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white chocolate chips, creamy peanut butter, crispy rice cereal, mini chocolate chip, miniature marshmallows
+---
+TITLE: Avalanche Cake
+CURRENT_DESCRIPTION: if you like carrot cake, you'll love this amazing creation. its unique blend of butterscotch, carrots and ricotta cheese give this cake a moist texture and unique flavor sensation unlike any other. avalanche cake is sure to be a hit at your next gathering.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fudge marble cake mix, ricotta cheese, carrots, butterscotch chips, sugar, vanilla
+---
+TITLE: Avanti Rolls
+CURRENT_DESCRIPTION: similar to randyk's recipe--my grandmother adapted this from avanti's restaurant in peoria, il.  rolls can be made round or long for more of a sub sandwich.  this is worth every minute of the "rise" time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry yeast, warm water, oil, salt, eggs, sugar
+---
+TITLE: Avanti S Sweet Bread
+CURRENT_DESCRIPTION: this tastes like the bread from avanti's italian restaurant in bloomington illinois.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, active dry yeast, egg, salt, granulated sugar, bread flour
+---
+TITLE: Avegolemono  Greek Lemon Chicken Soup
+CURRENT_DESCRIPTION: if you prefer a stronger lemon flavor then increase the juice to 1/2 cup that will give you an extreme lemon flavor, use fresh lemon juice only --- you may use as much cooked rice and chicken as desired, if you have ever had this soup in a greek restaurant or in greece and enjoyed it, then you will *love* this! --- homemade chicken broth is always better to use but canned will do fine for this recipe --- see my recipe#118258
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, chicken bouillon powder, garlic powder, fresh lemon juice, onion, celery
+---
+TITLE: Avena Breakfast Smoothies
+CURRENT_DESCRIPTION: one of the most delicious, thick, rich, creamy smoothies i've ever had! "avena" means "oats." i got this recipe from the book simply delicioso, by ingrid hoffman.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: old-fashioned oatmeal, milk, sugar, cinnamon, vanilla extract
+---
+TITLE: Avery Island Deviled Shrimp
+CURRENT_DESCRIPTION: put a little
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, breaded shrimp, onion, garlic, beef broth, water
+---
+TITLE: Avga Gemista Or Greek Stuffed Eggs
+CURRENT_DESCRIPTION: a yummy way to fix stuffed eggs! from the woman's day encyclopedia of cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, beet, capers, fresh parsley, vinegar, mayonnaise
+---
+TITLE: Avgolemono    Egg Lemon Soup  Greece
+CURRENT_DESCRIPTION: this recipe comes from the 2005 cookbook, the best recipes in the world.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable stock, long-grain rice, carrot, celery rib, salt, pepper
+---
+TITLE: Avgolemono  Chicken Soup With Egg Lemon Sauce
+CURRENT_DESCRIPTION: found this on foodtv site and am posting it for zwt6.  this is by cat cora and sounds delicious!!  you might want to start out by using 2/3 of the stated amount of lemon juice and then if it isn't lemony enough, add the other 1/3 per reviewers comments.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: free-range chicken, water, olive oil, onion, bay leaves, leek
+---
+TITLE: Avgolemono  Egg Lemon Soup
+CURRENT_DESCRIPTION: the first time i tried this in a restaurant i didn't like it, but it sure does grow on you. it's easy to make and i like it as a starter soup during a company meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken stock, fresh dill, rice, eggs, lemon juice, salt and pepper
+---
+TITLE: Avgolemono Sauce
+CURRENT_DESCRIPTION: adopted! goes with the already posted "avgolemono soup (chicken soup)" recipe.
+as cookgirl says, an onion? i don't know what the intent of the original poster was, but i don't use any onion. thanks, cg, for bringing it to my attention!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: soup, eggs, onion, lemon, juice of, flour
+---
+TITLE: Avgolemono Soup With Leek And Celery
+CURRENT_DESCRIPTION: from diane seed's mediterranean dishes. classic avgolemono ranks up there as one of the world's best soups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: leeks, celery ribs, extra virgin olive oil, chicken stock, lemon, juice of, eggs
+---
+TITLE: Avis  Garlic Puffs
+CURRENT_DESCRIPTION: my aunt avis loves to entertain in her beautiful home overlooking the atlantic ocean. she's given me lots of great recipes that my own guests rave about. this easy, elegant and decadent finger food is one of my favorites. garlic puffs also make a great snack, a side dish for pasta and soups, or a rich replacement for croutons in a ceasar salad.
+
+stock up your freezer so you always have some on hand. they will store for several months in a zip locked freezer bag, but they probably won't last that long! set up an assembly line with your egg dip and melted butter, and be ready to get your hands dirty. (these are worth it!)
+
+some tips; be sure to use flavourful garlic butter in this recipe - that's key to a tasty result. i usually add both fresh garlic and a pinch of garlic salt. don't buy expensive parm - you can use the less expensive variety sold in plastic shakers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white bread, eggs, milk, garlic butter, parmesan cheese
+---
+TITLE: Aviva S Cheesecake
+CURRENT_DESCRIPTION: this is not only the best cheesecake, it is the easiest cake i know. this is my mother-in-law's recipe and it is fabulous! cooking time does not include refrigeration of the cake after baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: petit beurre biscuits, white cheese, eggs, sugar, sour cream, yogurt
+---
+TITLE: Aviyal
+CURRENT_DESCRIPTION: aviyal is a traditional dish of the south indian state of kerala. this is a stew made of a variety of vegetables coconut and yoghurt. this is one dish that is mandatory while serving sadya (traditional celebration meal) along with saambaar, rasam, thoran etc. in the northern part of kerala this dish is made with yoghurt but in the southern part it is cooked with tamarind juice. both ways it is just plain yummy!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: carrot, white pumpkin, red pumpkins, banana, yams, french beans
+---
+TITLE: Aviyal   Indian Mixed Vegetable Stew
+CURRENT_DESCRIPTION: this is a mixed vegetable stew from south india. this version from iyer kitchen cookbook by arun ganapathy tastes just like the best aviyal i've had in india.
+
+the mixed vegetables should be harder ones. do not use greens, peas, tomatoes, etc. use vegetables like green beans, potatoes, carrots, plantain, zuchinni, and yam.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mixed vegetables, vegetable oil, mustard seeds, curry leaves, frozen coconut, hot green chili pepper
+---
+TITLE: Avo Ranch Twice Baked Spuds
+CURRENT_DESCRIPTION: this recipe came about last night after putting potatoes into the oven and realising i had no sour cream or cream for my twice baked potatoes.  i was inspired by recipe #149509  by dieniab.  the results were very tasty & worthy of st patrick's day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baking potatoes, butter, avocado, ranch dressing, cheddar cheese
+---
+TITLE: Avocado   Banana Shake
+CURRENT_DESCRIPTION: my friend made this for me, i thought an avocado shake sounded pretty weird, but it is yummy - it has an amazing texture and is not too sweet. also it is a lovely shade of green! note: if you slice and freeze the banana first, you will have a colder and thicker shake. i prefer mine less cold, but i believe i am in the minority on that.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, banana, nonfat plain yogurt, low-fat vanilla soymilk, ice cubes
+---
+TITLE: Avocado   Cilantro Spread
+CURRENT_DESCRIPTION: this is from the california avocado organization.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, goat cheese, onion powder, cilantro, black pepper, cayenne pepper
+---
+TITLE: Avocado   Coconut Cream Smoothie
+CURRENT_DESCRIPTION: this delicious and creamy avocado smoothie makes such a fantastic breakfast or snack. it’s high in fibre, vitamin k, potassium and folate – and has only 166 calories per glass.
+
+we’ve used coconut cream in this recipe, which is the cream from a can of full fat coconut milk that’s been left refrigerated. if you find this recipe too creamy for you, you can also add some of the liquid from the can too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, vanilla extract, spinach, greek yogurt, coconut cream
+---
+TITLE: Avocado   Corn Salsa
+CURRENT_DESCRIPTION: this is a great recipe for the summer or anytime!  it is so good that once i start eating it - it is hard to stop!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen corn, black olives, red pepper, onion, avocados, garlic cloves
+---
+TITLE: Avocado   Cucumber Soup
+CURRENT_DESCRIPTION: i don't remember where i got the recipe from.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable stock, garlic, english cucumbers, fresh chervil, avocados, fresh parsley
+---
+TITLE: Avocado   Egg Salad Open Faced Sandwich
+CURRENT_DESCRIPTION: when i was a kid, my mom would make open faced tuna salad, tomato with a slice of american cheese broiled on an english muffin. since i didn't like tuna salad or tomatoes, she always made me an egg salad & cheese. my adult taste buds have evolved, and i modified the recipe for dinner tonight, and was thrilled with the result.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, mayonnaise, salt, hamburger bun, avocado, mozzarella cheese
+---
+TITLE: Avocado   Jalapeno Salad
+CURRENT_DESCRIPTION: easy salad or appetizer that can be doubled or tripled for a crowd. this salad is really pretty when using the red jalapeños. can also be made with diced red pepper for those afraid of the heat. ensalada de aguacate con jalapeños
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, fresh lime juice, salt & freshly ground black pepper, cilantro leaf, red jalapeno chiles
+---
+TITLE: Avocado   Jicama Salad
+CURRENT_DESCRIPTION: simple attractive salad. be sure the jicama has a tight skin, does not look wrinkled and when you cut into it the flesh is pure white. if you have a couple of days before you want to make this salad choose green avocados place them in a paper bag and put them in a cupboard for 2-3 days and they will ripen perfectly. they are dark green almost black when they are ripe
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jicama, red onion, lemon, juice of, balsamic vinegar, extra virgin olive oil, salt and pepper
+---
+TITLE: Avocado   Melon Salad With Strawberry Dressing
+CURRENT_DESCRIPTION: a salad from australia
+unusual but scrumptious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: strawberries, sour cream, salt, lemon peel, avocados, melon balls
+---
+TITLE: Avocado   Mozzarella Salad With  Sun Dried Tomato Dressing
+CURRENT_DESCRIPTION: this makes a refreshing meal, served with a loaf of crusty french bread and good bottle of red wine; could also be used as a first course, in reduced quantities. i recommend using the finger-tip sized fresh mozzarella balls if you can find them. which salad greens you use are up to you, but a combination half dark green leaf/half alfalfa sprouts seems to work particularly well, and is also quite attractive. i'd never eaten alfalfa sprouts before trying this recipe but was a quick convert to their clean, spicy flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sun-dried tomatoes packed in oil, garlic clove, salt, balsamic vinegar, extra virgin olive oil, water
+---
+TITLE: Avocado   Mushroom Fettuccine
+CURRENT_DESCRIPTION: recipe sourced from www.avocado.org.au.  i haven't made it yet, but it sounds delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon, fettuccine, pesto sauce, olive oil, onion
+---
+TITLE: Avocado   Prawn Risotto  Gluten Free
+CURRENT_DESCRIPTION: yummy risotto
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gluten-free vegetable stock, unsalted butter, olive oil, onion, garlic cloves, arborio rice
+---
+TITLE: Avocado   Roasted Garlic Dip
+CURRENT_DESCRIPTION: my vice is chips and dips (i'm not really into sweets) and as you may have guessed i love garlic. this is a very garlicy recipe so you may want to reduce the garlic quantity. (note: cook time is for roasting the garlic)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, garlic, lemon juice, fresh garlic, parsley, dried oregano
+---
+TITLE: avocado   vegetable sushi  gluten free   vegan
+CURRENT_DESCRIPTION: i fell in love with avocado rolls from a near-by japanese take away, but i wanted to be able to make them at home to be sure of the ingredients used so my whole family (with allergies) could enjoy them also. i was, at first, apprehensive as they looked a little complicated and many recipes i found were actually very complex. however, it only took me two rolls before i got the hang of them. they really aren't difficult at all !!! i'm not really sure if my method is 100% correct, but it works for me.
+this recipe makes a mix of avocado and vegetable rolls - how many of each is up to you.
+you'll need a bamboo mat to help with the rolling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nori, water, rice vinegar, sushi rice, cold water, sugar
+---
+TITLE: Avocado   Vegetable Sushi  Gluten Free   Vegan
+CURRENT_DESCRIPTION: i fell in love with avocado rolls from a near-by japanese take away, but i wanted to be able to make them at home to be sure of the ingredients used so my whole family (with allergies) could enjoy them also. i was, at first, apprehensive as they looked a little complicated and many recipes i found were actually very complex. however, it only took me two rolls before i got the hang of them. they really aren't difficult at all !!! i'm not really sure if my method is 100% correct, but it works for me.
+this recipe makes a mix of avocado and vegetable rolls - how many of each is up to you.
+you'll need a bamboo mat to help with the rolling.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: nori, water, rice vinegar, sushi rice, cold water, sugar
+---
+TITLE: Avocado  Bacon  Sandwich
+CURRENT_DESCRIPTION: a yummy fresh sandwich that is easy to whip up and double if needed.  sprinkling the avocado with salt makes the sandwich mouth watering.  if making just for yourself or if you have left over avocados, leave them in their skin, sprinkle the flesh with lemon juice, wrap tight in tin foil, and place them in the fridge.  this will prevent them from browning and you can enjoy the avocados the next day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat toast, bacon, avocado, tomatoes, mozzarella cheese, kosher salt
+---
+TITLE: Avocado  Bacon And Shrimp Wraps
+CURRENT_DESCRIPTION: i found this recipe last year in the chicago tribune and have made it several times since then.  it's best to use a good, smoky bacon and i prefer the lavash bread to the flour tortillas, but that's just a personal taste.  also, i usually buy the cooked shrimp when it's on sale at my store, which makes this even easier.  i make one of these up in the evening, wrap in plastic wrap and throw it in my lunch bag in the morning to take to work.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flat bread, mayonnaise, lettuce, avocado, tomatoes, shrimp
+---
+TITLE: Avocado  Bacon And Tomato Salad
+CURRENT_DESCRIPTION: found this is a family circle mini cookbook called new style salads and prepared it for a bbq with friends recently. it was an absolute smash!! everyone wanted the recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, olive oil, balsamic vinegar, dijon mustard, bacon, salad leaves
+---
+TITLE: Avocado  Banana And Mango Muffins
+CURRENT_DESCRIPTION: an unusual combination, to be sure, but one that looks so good i just had to share! i've recently discovered the wonders of avocados, and have been trying to find new ways to enjoy their heart-healthy benefits. though i haven't yet tried these muffins (from the kiwi gardens b&b in kailua-kona, hawaii), i will certainly do so the next time i have some extra avocados on hand. you can save some time by using thawed frozen mango chunks instead of fresh mango.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mashed banana, avocado, mango, butter, eggs, sugar
+---
+TITLE: Avocado  Beet And Arugula Salad With Chevre Tartine
+CURRENT_DESCRIPTION: 'tartine' is the french word for a slice of bread with a topping. spread herbed goat cheese on crusty bread and toss together beets, avocadoes and greens for an usual, beautiful meal that combines warm with cool, bitter with sweet, and creamy with crisp."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: goat cheese, dried basil, crusty bread, dijon mustard, balsamic vinegar, salt and pepper
+---
+TITLE: Avocado  Black Bean And Pineapple Salad
+CURRENT_DESCRIPTION: this is absolutely over the top delicious!!!!!  it is bright and on the edge of spicey!  i found this after planting 2 avocado trees. need lots of good recipes to use my future crops.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, avocado, pineapple, red onion, puree, pepper sauce
+---
+TITLE: Avocado  Black Beans And Corn Dip  Great For The Big Game
+CURRENT_DESCRIPTION: have your friends over for the "big game" day and they will rave about this for days and ask for it again and again. so simple and sooo very delicious. this has just the right amount of heat without being too awful hot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, black beans, corn, rotel tomatoes, red bell peppers, jalapeno peppers
+---
+TITLE: Avocado  Cheddar  And Sprouts Pockets With Tangy Lime Mayo
+CURRENT_DESCRIPTION: i love avocado on anything so i can't wait to try this sandwich. from country living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mixed sprouts, red onion, lime zest, lime juice, salt, pepper
+---
+TITLE: Avocado  Cheddar  And Tomato Omelet
+CURRENT_DESCRIPTION: a tasty, summer time omelet that can very easily be served for breakfast, lunch, or dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, water, salt & freshly ground black pepper, olive oil, cheddar cheese, avocado
+---
+TITLE: Avocado  Corn And Tomato Salad
+CURRENT_DESCRIPTION: this is a wonderful, quick salad to make anytime. i usually serve it at cookouts or bbqs. or, i just make it for myself because it is so easy and tasty! for a variation on this recipe you can add a little feta cheese! or you don't have to add the balsamic vinegar at all, because the flavors naturally taste so good together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, frozen corn kernels, roma tomatoes, balsamic vinegar, lemon juice, salt and pepper
+---
+TITLE: Avocado  Cream Cheese  And Alfalfa Sprout Sandwich
+CURRENT_DESCRIPTION: this sandwich is modeled after a cafeteria sandwich i had years ago, made with whole wheat bread, cream cheese, avocados, cayenne, and alfalfa sprouts. i've added the crusty bread, olives and onion. i like that it is layered so you get lots of different flavors and textures from top to bottom, and it holds together best if you use thick-sliced, hefty bread and let it rest and chill a while. the variations are endless -- add garlic or chives or herbs to the cream cheese; mirror-image the ingredients for a fatter sandwich; add bacon or cheese; for a spicier bite substitute radish sprouts for some of the alfalfa sprouts, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat bread, cream cheese, avocado, lemon juice, coarse salt, lemon pepper
+---
+TITLE: Avocado  Feta And Pancetta Bruschetta
+CURRENT_DESCRIPTION: bruschetta derives from the italian 'bruscare' meaning "to roast over coals”.  at its most authentic, italian country-style bread is toasted over coals, rubbed with garlic and seasoned while hot with sea salt and fruity, virgin, cold-pressed olive oil. more commonly in english-speaking countries, the toasted garlic bread is topped with tomatoes and summery herbs. this version, without tomato, is a little different and is perfect for a casual lunch for 2 people, or as an appetiser for 4 people.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: italian bread, garlic cloves, extra virgin olive oil, lean bacon, feta cheese, avocado
+---
+TITLE: Avocado  Lettuce And Walnut Salad With Honey Dressing
+CURRENT_DESCRIPTION: this salad has an original taste. sometimes i do it without avocado. it still tastes good. the honey dressing adds zest to the ordinary lettuce salad. i cook it very often for a long time. i don't know where it came from. my mom cooked it very often.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce, onion, red wine vinegar, salt, ground black pepper, honey
+---
+TITLE: Avocado  Mango And Lentil Salad
+CURRENT_DESCRIPTION: adapted from a recipe found on wholehealthmd.com. recipe can be made in 20 minutes. start cooking the lentils and while they are cooking chop the fruits.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry lentils, balsamic vinegar, olive oil, salt, pepper, grape tomatoes
+---
+TITLE: Avocado  Mayonnaise   Candida Friendly
+CURRENT_DESCRIPTION: modified recipe from the whole life nutrition kitchen http://www.nourishingmeals.com. the original recipe called for 1-2 small avocados, 1-3 tbsp of fresh lemon juice and extra virgin olive oil, 1-2 tbsp water and a pinch of sea salt. once you have blended avocado, add other ingredients in small increments and mix to taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon juice, olive oil, water, salt
+---
+TITLE: Avocado  Mozzarella And Olive Salad
+CURRENT_DESCRIPTION: this very tasty and easy salad is out of a bon appetit and i think it originated in a london restaurant.   whatever, it is very, very good and goes well with rice dishes.  enjoy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plum tomatoes, black olives, olive oil, fresh basil, white wine vinegar, avocado
+---
+TITLE: Avocado  Orange And Jicama Salad
+CURRENT_DESCRIPTION: this is a nice light summer salad.  make sure you use a good jalapeno jelly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: jicama, oranges, jalapeno jelly, hass avocado, cilantro, red onion
+---
+TITLE: Avocado  Orange And Purple Onion Salad
+CURRENT_DESCRIPTION: from australia the beautiful cookbook; south australia. “navel oranges are available most of the year, as our vast continent affords us several picking seasons. oranges are used widely in the australian kitchen. serve this salad within 10 minutes of making it, before the avocado browns.”
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel oranges, avocado, purple onion, salt, light olive oil, dried italian seasoning
+---
+TITLE: Avocado  Pineapple  And Tomato Salad
+CURRENT_DESCRIPTION: my own creation for a summer salad. we eat this with garlic bread and a bowl of chicken noodle soup for dinner in the hot weather.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, lime juice, liquid hot pepper sauce, sugar, paprika, onion
+---
+TITLE: Avocado  Pink Grapefruit And Mache Salad
+CURRENT_DESCRIPTION: amounts are suggestions only.  you can use lettuce or mixed greens instead of mache.  use pink or ruby grapefruit.  as amandainoz suggested, i am revising this recipe to include a dijon dressing.   i like trader joe's dijon mustard with white wine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dijon mustard, extra virgin olive oil, fresh lemon juice, pink grapefruit, avocado, mache
+---
+TITLE: Avocado  Prawn   Shrimp   Pink Grapefruit Salad   For Two 2
+CURRENT_DESCRIPTION: from - 7th heaven: the avocado. i love the fresh zestiness of this salad! it would make a delicious starter - what a great alternative to the regular prawn cocktail!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pink grapefruit, tiger shrimp, dill, avocado, rocket, avocado oil
+---
+TITLE: Avocado  Shrimp  And Endive Salad
+CURRENT_DESCRIPTION: this is 3 of my favorite ingredients..great for spring/summer dining. super easy to prepare and looks great on the plate. cooks notes: taste the dressing first, and season prior to adding to salad. please note: this is an adopted recipe and i hope to make it soonest. if you make it before i do, i would appreciate feedback, thanks ! due to the style of the ingredients i have chosen zwt region: belgium / benelux.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lemon juice, salt, large shrimp, fresh tarragon, dijon mustard, black pepper
+---
+TITLE: Avocado  Shrimp  And Hearts Of Palm Salad
+CURRENT_DESCRIPTION: recipe source: realtor's flyer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, water, white vinegar, dijon mustard, onion, green bell pepper
+---
+TITLE: Avocado  Sun Dried Tomato And Mozzarella Stuffed Chicken Breast
+CURRENT_DESCRIPTION: i love experimenting with different stuffings for chicken. here's another combination i've come up with that works really well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chicken breasts, avocado, sun-dried tomatoes, mozzarella cheese, prosciutto ham, milk
+---
+TITLE: Avocado  Tomato   Corn Salad Salsa
+CURRENT_DESCRIPTION: refreshing, quick and easy. use as a salad or salsa. fill a wrap, top a plate of greens or grilled fish, meat or chicken. the frozen corn chills the salad down which adds to the refreshing taste for hot summer days! you can go mild or kick it up with a jalapeno or smokey chipotles! yes, parsley can be use in place of the cilantro.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, jalapeno, chipotle chile in adobo, lime, olive oil, fresh cilantro
+---
+TITLE: Avocado  Tomato   Feta Cheese Appetizer
+CURRENT_DESCRIPTION: this came in the mail from a ralphs grocery store flyer. my whole family loved it. i didn't have cumin, so i used coriander and it was great. i served this with "sesame thin" crackers from trader joes and "just chips" from just off melrose.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, roma tomatoes, red onion, cilantro, feta cheese, olive oil
+---
+TITLE: Avocado  Tomato And Mango Salsa
+CURRENT_DESCRIPTION: serve with fish or tortilla chips.  adapted from allrecipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mango, avocado, tomatoes, jalapeno pepper, fresh cilantro, garlic cloves
+---
+TITLE: Avocado  Tomato And Mozzarella Bruschetta
+CURRENT_DESCRIPTION: an appetizer that is quick to go together and very tasty as well.  i make 1/2 a recipe at a time in the toaster oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, french baguettes, avocado, garlic salt, black pepper, tomatoes
+---
+TITLE: Avocado  Tomato And Mozzarella Salad
+CURRENT_DESCRIPTION: i enjoyed this recipe at a picnic 2 years ago, and finally asked my friend for the recipe.  after craving it for so long, i was surprised at how easy it is to make.  i hope you enjoy it as much as i do.  cooking time is chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, tomatoes, lowfat mozzarella cheese, fresh basil, salt, pepper
+---
+TITLE: Avocado  Tomato And Mozzarella Tower Salad
+CURRENT_DESCRIPTION: easy and pretty, not to mention delicious! adapted from an avocado website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh mozzarella cheese, avocados, tomatoes, salt, balsamic vinegar, baby greens
+---
+TITLE: Avocado  Tomato And Pepper Salad
+CURRENT_DESCRIPTION: yummy!  a thumbs up from my partner!!!another success in the kitchen.....perhaps i'm getting better (or its just luck)?!  note: all quantities are approximated!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red pepper, yellow pepper, avocado, tomatoes, red onion, salt and pepper
+---
+TITLE: Avocado Ahdi
+CURRENT_DESCRIPTION: from sundays at moosewood. this is a nice refreshing side salad. it's great for summer...no cooking!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, red bell pepper, green bell pepper, carrot, cucumber, tomatoes
+---
+TITLE: Avocado Aioli Guacamole
+CURRENT_DESCRIPTION: you may serve this aioli as a dip, a sandwich spread or or to accompany  grilled salmon or chicken. adapted from food & wine magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, sour cream, fresh basil, garlic, fresh lemon juice, fresh lime juice
+---
+TITLE: Avocado Anchovy Dip
+CURRENT_DESCRIPTION: when i posted an earlier recipe for a hot anchovy dip, my intro said that most people have either love or hate relationships w/anchovies. that's still true, but this so easy-to-fix recipe from the *finger food* cookbook of the australian women's weekly cookbook series combines them w/the mellow flavor of avocado for a whole new taste sensation that has the potential to turn hate into love. *enjoy* !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, anchovy fillets, garlic clove, red pepper, red onion, sour cream
+---
+TITLE: Avocado And Apple Salad
+CURRENT_DESCRIPTION: this can be served on a bed of lettuce but is better on a bed of spinach.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, apples, dijon mustard, lemon juice, olive oil, fresh parsley
+---
+TITLE: Avocado And Bacon Dip
+CURRENT_DESCRIPTION: due to a terrible food allergy i have to cook all fruit i eat. i love guacamole but unfortunately there are horrible side effects when i eat it. so i came up with my own version. who knew that cooking the avocados would intensify the flavor so much! everyone who has tried this has told me it is the best guac they've ever eaten. perfect for pot lucks or casual dinner parties. best the next day!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, hass avocadoes, onion, garlic cloves, salt, pepper
+---
+TITLE: Avocado And Bacon Muffins
+CURRENT_DESCRIPTION: these muffins go well with soup for an easy meal, or make mini ones and serve as finger food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking powder, salt, sugar, cayenne pepper, tasty cheese
+---
+TITLE: Avocado And Beef Torta
+CURRENT_DESCRIPTION: avocado takes the place of mayonnaise in this delicious sandwich, making it healthier.  for just my husband and myself i made this using two large italian sandwich rolls but i'm posting the recipe the way i found it in our neighborhood pioneer press newspaper.  the cilantro was added by me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lime juice, salt, ground red pepper, ground cumin, chili powder
+---
+TITLE: Avocado And Black Bean Salad
+CURRENT_DESCRIPTION: i'm always on the lookout for any recipe containing avocado, black beans and corn.  this great summer salad was sent to me in a recipe exchange and i fell in love with it.  great salad to have for cinco de mayo.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, black beans, frozen white corn, onion, roma tomatoes, cilantro
+---
+TITLE: Avocado And Black Bean Salad   Tyler Florence
+CURRENT_DESCRIPTION: from tyler florence, "how to boil water"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic clove, salt, limes, kosher salt, chili powder, extra virgin olive oil
+---
+TITLE: Avocado And Brie On A Bagel
+CURRENT_DESCRIPTION: this is a great brunch or lunch sandwich.  it would also be great on lightly toasted french bread.  you can leave off the brie and it's still wonderful and refreshing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, butter, brie cheese, sweet onions, hass avocado, lime
+---
+TITLE: Avocado And Cheese Chalupas
+CURRENT_DESCRIPTION: a little nicer than a tostado! these are nice served with a little salsa and perhaps a lime wedge to squeeze over the top. i also like to have some margaritas with these!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn tortillas, avocado, goat cheese, red onion, cumin seed, lemon juice
+---
+TITLE: Avocado And Chicken Melts
+CURRENT_DESCRIPTION: this is nice for an easy brunch/lunch/supper dish. i made these up when i had a couple of avocados that needed using and some uncooked chicken left over from making another dish. you can also use some crushed garlic in with the avocado and also top with sliced tomato before topping with the cheese.  i have also made this with some shredded chicken from the deli and this works well too. if your avocado is still firm just use slices instead of mashing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon, chicken tenders, whole wheat bread, cheese, garlic pepper seasoning
+---
+TITLE: Avocado And Chicken Salad With Yummies
+CURRENT_DESCRIPTION: a lower fat recipe for a summer classic! we love chicken salad year round and this one is truly one of our favorite recipes. it's great for croissant sandwiches or on a bed of lettuce for a great salad! enjoy! (does not include cook time for chicken).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon juice, cooked chicken, red seedless grapes, tart apple, celery
+---
+TITLE: Avocado And Cilantro Salsa
+CURRENT_DESCRIPTION: from "the great california cookbook". this is a nice salsa over a chicken quesadilla.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, roma tomatoes, red onions, cilantro, garlic, jalapeno pepper
+---
+TITLE: Avocado And Crab Meat Soup
+CURRENT_DESCRIPTION: from avocadorecipes.net
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabmeat, avocados, onion, chicken stock, heavy cream, butter
+---
+TITLE: Avocado And Crab Thermidor  Easy Microwave Fix
+CURRENT_DESCRIPTION: this is recipe #4 from *microwave cooking* by lorna rhodes & another that gets high marks from me because of my particular fondness for its ingredients & versatility. i modified the recipe slightly w/the addition of old bay as i favor using it w/crabmeat. this recipe works well 2 ways: 1) as a starter or a salad course atop a bed of lettuce to serve 8 … or … 2) as a main entrée for a luncheon or dinner meal to serve 4. *enjoy* !
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, flour, milk, tomato puree, lemon, juice of, old bay seasoning
+---
+TITLE: Avocado And Crabmeat Dip
+CURRENT_DESCRIPTION: as i noshed my way through central market in dallas today, this was one of the dishes i sampled in the seafood aisle.  such a simple recipe with such an outstanding flavor!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lump crabmeat, avocados, lemon juice, cayenne pepper, chives, salt
+---
+TITLE: Avocado And Crabmeat Salad
+CURRENT_DESCRIPTION: got from my pr cookbook.....
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lump crabmeat, mayonnaise, lemon, onions, garlic clove, fresh parsley
+---
+TITLE: Avocado And Egg Salad
+CURRENT_DESCRIPTION: this recipe was my wonderful mother's. having been raised in california, we ate avocados every day. this is one of my husband's favorites. it can also be used on a sandwich and recently i actually smashed it up and filled eggs with it. a big hit with my friends.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, hard-boiled egg, mayonnaise, garlic powder, salt and pepper, paprika
+---
+TITLE: Avocado And Feta Cheese Salad Wraps
+CURRENT_DESCRIPTION: this recipe was in feb 04 vegetarian times. a tasty light wrap for lunch with great flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, feta cheese, fresh lime juice, fresh ground black pepper, scallion, vegetarian bacon bits
+---
+TITLE: Avocado And Feta Guacamole
+CURRENT_DESCRIPTION: this has to be one of my favorite salsas! you don't mash the avocados you cut them in cubes. something like plain guacamole but with a twist. if you love avocados and you love feta - put them together. try it. you will love this recipe!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, grape tomatoes, red onion, garlic cloves, fresh lime juice, white vinegar
+---
+TITLE: Avocado And Feta Pasta Salad
+CURRENT_DESCRIPTION: just a simple delicious meal, ideal for a fast evening meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne pasta, avocados, lemon, juice and zest of, sun-dried tomatoes packed in oil, feta cheese, pine nuts
+---
+TITLE: Avocado And Feta Salsa
+CURRENT_DESCRIPTION: from southern living, some time ago. serve with tortilla chips. delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, roma tomatoes, purple onion, garlic, fresh parsley, fresh oregano
+---
+TITLE: Avocado And Ginger Pasta
+CURRENT_DESCRIPTION: a wonderful recipe from an australian cooking show "the cook and the chef". got off the website ww.abc.net.au/tv/cookandchef. to make it vegan use non-egg pasta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon, juice of, sliced almonds, ginger, extra virgin olive oil, tagliatelle pasta noodles
+---
+TITLE: Avocado And Goat Cheese Dip
+CURRENT_DESCRIPTION: similar to guacamole but with the creaminess of goat cheese.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, goat cheese, lime, juice of, garlic, chilies, fresh cilantro
+---
+TITLE: Avocado And Ham Sandwiches
+CURRENT_DESCRIPTION: the avocado replaces swiss cheese, but i still like my swiss added.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french baguettes, mayonnaise, dijon mustard, coarse black pepper, sea salt, ham
+---
+TITLE: Avocado And Kiwi Salsa
+CURRENT_DESCRIPTION: a new zealand twist on salsa.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, kiwi fruits, green onion, chervil, sweet chili sauce, lemon
+---
+TITLE: Avocado And Kohlrabi Salad
+CURRENT_DESCRIPTION: i love both avocado and raw kohlrabi, so this salad is a favorite of mine. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kohlrabi, avocados, lime juice, scallion, balsamic vinegar, extra virgin olive oil
+---
+TITLE: Avocado And Lime Soup
+CURRENT_DESCRIPTION: who knew this combination could be so good!  we love avocados and this is a great "avie fix" and a refreshing cold soup.  i used low fat chicken broth and fat free half and half to reduce the damage a little. refrigeration time is not included, two hours in the refrigerator seemed about right.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, avocados, fresh lime juice, garlic powder, half-and-half, lime slice
+---
+TITLE: Avocado And Lime With Bacon On Toast
+CURRENT_DESCRIPTION: hardly qualifies as a recipe it’s so simple, but its charm as a breakfast, brunch or lunch dish is in its simplicity, in the contrasting tastes and textures of the avocado, lime and bacon, and in the contrast between the coolness of the first two ingredients and the warmth of the bacon.  i’m posting this recipe so that those who have never tried it can do so and to remind those – like me – who haven’t made it for a while but know how delicious it is, to make it again.  this version of the recipe serves the avocado and bacon on toast.  avocado and bacon is equally delicious in untoasted, really fresh crusty bread - or in whatever is your favourite bread.  i came across this particular version of it today in a magazine, the april edition of “super food ideas”.  with its combination of avocado and lime juice, this recipe echoes mexican dishes, but without the heat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lime juice, rindless bacon, dark rye bread, butter, flat leaf parsley
+---
+TITLE: Avocado And Mandarin Orange Salad
+CURRENT_DESCRIPTION: given to me by a society matron who used this as her "presentation salad" at luncheons.  i recommend cutting back on the oil a bit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wine vinegar, salad oil, orange juice, dry mustard, orange peel, lemon, juice of
+---
+TITLE: Avocado And Mushroom Quiche
+CURRENT_DESCRIPTION: mushrooms with a hint of curry, combined with creamy sliced avocado, produce an unusual but interesting dish. you should be able to detect the curry, but it shouldn't be searingly hot, so adjust the amount as necessary. this is a 'crustless' quiche and is served directly from the dish in which it is cooked. i serve it as a first course, or for a light lunch, and my guests always seem to enjoy it. you could also have it on a picnic. recipe from beverley sutherland smith.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: portabella mushrooms, butter, curry powder, salt, avocados, green onions
+---
+TITLE: Avocado And Onion Salad
+CURRENT_DESCRIPTION: lovely, simple recipe from www.avocadosalad.com; i haven't tried it yet, but i can just imagine how wonderful it will be next summer with homegrown tomatoes! mmmmmm.... also, while the salad says to toss the salad components and dressing, the picture shown was of a beautiful salad constructed of layers. so i'm modifying the instructions to make it as shown. if you're short on time or patience, just gently toss it all together, season with salt & pepper, and dish up. times are estimates.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, sweet onion, yellow bell pepper, tomatoes, fresh cilantro, lime, juice of
+---
+TITLE: Avocado And Orange Salad
+CURRENT_DESCRIPTION: this is one of my favourite salads.  i mainly like to make it up in asian soup spoons so you have little mouthful serves as hors d'ouvres.  oranges and dressing can be prepared in advance.  walnuts can be used if preferred.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oranges, avocados, lemon juice, pecan halves, unsweetened orange juice, sunflower oil
+---
+TITLE: Avocado And Orange Salad With Olive Oil Lemon Dressing
+CURRENT_DESCRIPTION: from olive tomato by chef giorgos makris from crete.   avocadoes have been cultivated in crete for over 25 years.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, orange, olive oil, lemon juice, ground cumin, coarse salt
+---
+TITLE: Avocado And Pineapple Salad   Ensalada De Aguacate Y Pina
+CURRENT_DESCRIPTION: this is a cuban recipe from three guys from miami cook cuban. make sure to use an extra virgin olive oil and don't forget to salt and pepper the dressing. this salad gets its sweetness from pineapple and a bit of sour flavor from the oil and vinegar
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, vinegar, orange juice, sugar, salt and pepper, iceberg lettuce
+---
+TITLE: Avocado And Prawn Shrimp Salad
+CURRENT_DESCRIPTION: from a recipe book from australian good food.  please note you more than likely would not use all the dressing in one sitting (depending on how much you like, so it is served on the side to let each person judge for themselves).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: iceberg lettuce, frisee lettuce, fresh chervil, olive oil, lemon juice, lemon
+---
+TITLE: Avocado And Prawns In Wasabi
+CURRENT_DESCRIPTION: a nice easy dish for entertaining though it must be served the moment it's made or the avocado will start to discolor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, king prawns, light soy sauce, rice wine vinegar, wasabi
+---
+TITLE: Avocado And Rice Salad
+CURRENT_DESCRIPTION: this is a fresh summer salad.
+you can add some chicken, or fish to make it a whole meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked basmati rice, tomatoes, vidalia onion, cilantro, lemon juice, jalapenos
+---
+TITLE: Avocado And Roasted Red Pepper Gazpacho With Scallops
+CURRENT_DESCRIPTION: from clean eating magazine, may/june 2010.  note that cooking time includes chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plum tomatoes, cucumber, roasted red pepper, celery, scallion, cilantro
+---
+TITLE: Avocado And Scrambled Egg Open Faced Sandwich
+CURRENT_DESCRIPTION: great sandwich for breakfast or brunch. i've only made these on english muffins, so am unsure how well they would do with regular bread. i personally like to use a blend of jack/cheddar cheese but have found that swiss makes for a nice change on occasion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: english muffins, eggs, milk, avocado, salsa, monterey jack cheese
+---
+TITLE: Avocado And Shrimp Cocktail
+CURRENT_DESCRIPTION: nice, cool way to serve shrimp cocktail. from cajun cooking and posted for zwt5. *does not include chill time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon, baby shrimp, mayonnaise, heavy cream, tabasco sauce
+---
+TITLE: Avocado And Shrimp Tomato Cups
+CURRENT_DESCRIPTION: do you like guacamole, shrimps and fresh tomatoes?
+then this is the perfect first course to serve at a summer dinner party. 
+the guacamole is served in the tomatoes to make it extra elegant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, olive oil, avocado, plain yogurt, tapenade, lime juice
+---
+TITLE: Avocado And Spinach Salad
+CURRENT_DESCRIPTION: a delishious treat!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach leaves, iceberg lettuce, avocados, crisp bacon, olive oil, fresh lemon juice
+---
+TITLE: Avocado And Strawberry Salad
+CURRENT_DESCRIPTION: lovely summer salad and low cal too!! try it for breakfast, great start for the day.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon, juice of, strawberries, low-fat plain yogurt, of fresh mint, sea salt
+---
+TITLE: Avocado And Sweet Potato  Hash
+CURRENT_DESCRIPTION: each and every ingredient's flavor comes through every bite.  when i planted my avocado trees i went on a search for new recipes.  this is one of them.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet potatoes, avocado, bacon, whole grain mustard, red onion, pecans
+---
+TITLE: Avocado And Tahini Dip
+CURRENT_DESCRIPTION: i attended a cooking demonstration by lisa brink of hod hasharon.  lisa has her own cooking blog, www.deliciouskitchen.weebly.com, and has some wonderful ideas about cooking and presentation.  this recipe comes from her take five class, recipes which contain five main ingredients and take five minites to prepare.   what makes this dip stand out from all the rest is the addition of mint.  at first it sounded weird to me, but upon tasting, wow, yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon, juice of, tahini paste, olive oil, garlic, salt and pepper
+---
+TITLE: Avocado And Tofu Dip
+CURRENT_DESCRIPTION: apparently the high nutritional value of avocados was well known by the aztecs and the incas.   in the twenty-first century, it’s often what we put with avocado that makes our recipes somewhat less than healthy.  this is a super-healthy avocado dip - with tofu, cider vinegar, yoghurt and spring onions – which loses none of the appeal of an avocado dip although it is packed with ingredients so healthy that even your cardiologist will be asking you for the recipe!  serve with crisp raw vegetables such as broccoli and cauliflower florets and sticks of celery, carrots and zucchini.  or, if you feel that the dip is healthy enough to make some small dietary sins permissible, serve with your favourite crackers.  adapted from the holistic.com website.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, tofu, apple cider vinegar, plain low-fat yogurt, garlic cloves, kelp powder
+---
+TITLE: Avocado And Tomato Sandwiches
+CURRENT_DESCRIPTION: a simple, but simply delicious sandwich!
+ i grew up on tomato and mayo sandwiches, but recently decided to add avocados. i've never looked back, yum!! do not attempt this recipe with a store bought, tasteless tomato! this recipe makes two sandwiches.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, tomatoes, mayonnaise, salt, pepper, white bread
+---
+TITLE: Avocado And Walnut Risotto
+CURRENT_DESCRIPTION: goes very well with a crisp mixed salad. lovely vegetarian risotto that can be adapted to vegan without much difficulty. very easy and simple to make. variation on other risottos i've made in the past, wasn't sure if avocado would work, but it goes very well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, butter, onion, garlic, risotto rice, vegetable stock
+---
+TITLE: Avocado Angel Eggs
+CURRENT_DESCRIPTION: a great little appetizer from the california avocado commision. you may leave out the egg yolks or add them in!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, hass avocadoes, lemon juice, garlic powder, green onions, capers
+---
+TITLE: Avocado Asparagus Salad
+CURRENT_DESCRIPTION: this is a great-tasting summer side-dish for barbecues. it's pretty, too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cucumbers, avocados, lemon juice, asparagus, onion, extra virgin olive oil
+---
+TITLE: Avocado Aspic
+CURRENT_DESCRIPTION: a beautiful gelatin mold from times gone by.  from the western chapter of the united states regional cookbook, culinary institute of chicago, 1947.  chilling time not included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: plain gelatin, cold water, boiling water, avocado, lemon juice, canned pimiento
+---
+TITLE: Avocado B L T  Salad
+CURRENT_DESCRIPTION: this is my favorite company salad, especially in nice weather. good with dinner or brunch/lunch. it looks and tastes fantastic and my guests always ask for the recipe. i adapted it from martha stewart but it's amazingly easy. (also, despite the richness of the bacon and avocado, i figured it as only 4 weight watchers points per serving for 6 servings, 6 pts for 4!) i love this salad and i hope you enjoy it, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, greens, tomatoes, salt & freshly ground black pepper, avocado, basil
+---
+TITLE: avocado b l t burgers with caramelized chipotle onions
+CURRENT_DESCRIPTION: this is the grand prize winner from the food network challenge, "build a better burger" show.  grand prize winner clint stephenson, friendswood, tx.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onion, chipotle hot sauce, beef broth, balsamic vinegar, olive oil, garlic
+---
+TITLE: Avocado B L T Burgers With Caramelized Chipotle Onions
+CURRENT_DESCRIPTION: this is the grand prize winner from the food network challenge, "build a better burger" show.  grand prize winner clint stephenson, friendswood, tx.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sweet onion, chipotle hot sauce, beef broth, balsamic vinegar, olive oil, garlic
+---
+TITLE: Avocado Bacon Boats
+CURRENT_DESCRIPTION: this is another recipe from the "1 of a kind" cookbook of the junior league of mobile, al. altho somewhat similar to another recipe here on rz that i liked & reviewed, this version expands the concept. yield was given as 6 servings, but i like this so much that i would want 2 for me! enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, sour cream, tomatoes, green onions, lemon juice, salt
+---
+TITLE: Avocado Bacon Burger
+CURRENT_DESCRIPTION: spicy, cheesy, delicious.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chuck, seasoning salt, hamburger bun, cheese, fat free sour cream, avocado
+---
+TITLE: Avocado Banana Chilled Soup
+CURRENT_DESCRIPTION: a chilled soup.  great for summer.
+cook time is chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, bananas, milk, sugar, lemon juice, cinnamon
+---
+TITLE: Avocado Basil Pasta
+CURRENT_DESCRIPTION: this looks so good, i belive it could be served as a salad or as a one-one dish meal. the recipe comes from better homes & gardens magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bow tie pasta, avocados, bacon, fresh basil, lemon juice, olive oil
+---
+TITLE: Avocado Basil Salad Dressing
+CURRENT_DESCRIPTION: an easy, yet zesty salad dressing.  goes equally well over salad greens or in a pasta salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, fresh basil, garlic clove, lime juice, olive oil, salt & freshly ground black pepper
+---
+TITLE: Avocado Bean Dip
+CURRENT_DESCRIPTION: my niece gave me this recipe.  it was delicious served with nacho's, is easy to prepare and is a great make-ahead appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, red onion, good seasonings italian salad dressing mix, mexicorn, chopped tomato, balsamic vinegar
+---
+TITLE: Avocado Beef Burgers
+CURRENT_DESCRIPTION: we love avocados and i was experimenting one day and came up with this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground beef, avocado, green chili pepper, egg, green onion, fresh lemon juice
+---
+TITLE: Avocado Bites
+CURRENT_DESCRIPTION: from recipe+ - this was to be served with a tomato and lentil soup as a mid week meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn chips, avocado, sour cream, lemon juice, garlic clove, cheddar cheese
+---
+TITLE: Avocado Blt Club
+CURRENT_DESCRIPTION: this is something i used to make at my cafe, the flying apron. what with all of the recipes i make here on food i had kind of forgotten about it. dh ask me last night if i could remember how it was made, and i said "sure that was an easy one"
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, mayonnaise, cooked bacon, avocado, tomatoes, lettuce
+---
+TITLE: Avocado Blt Salad
+CURRENT_DESCRIPTION: we love blt and avocadoes.  this recipe is from razzle dazzle recipes.  time doesn't include time for dressing to blend flavors.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, sour cream, milk, mayonnaise, lemon juice, garlic salt
+---
+TITLE: Avocado Blt Sandwiches
+CURRENT_DESCRIPTION: saw this on a leaflet, had to try it, had to make it again
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, mayonnaise, avocados, red onions, roasted chicken breast, bacon
+---
+TITLE: Avocado Boats
+CURRENT_DESCRIPTION: this came from the 30 minute gal...rachael ray.  it can't be any easier than this!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, lemon, hot sauce, extra virgin olive oil, plum tomatoes, scallions
+---
+TITLE: Avocado Bruschetta
+CURRENT_DESCRIPTION: another what's in the cupboard for an appetizer recipe.   you may serve this hot or warm. when you mash the avocado do not puree it, it should still have some texture.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, garlic cloves, sweet onion, chili flakes, fresh lime juice, roma tomatoes
+---
+TITLE: Avocado Burritos
+CURRENT_DESCRIPTION: pretty good in a pita pocket, too.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tortillas, avocados, bacon, tomatoes, jalapeno pepper, sour cream
+---
+TITLE: Avocado Butter
+CURRENT_DESCRIPTION: this is great on fish--specially swordfish and salmon. it would probably be good with chicken too. it's smooth, creamy and lemony. i have this posted with my recipe #202691. but some people might want to use it with another fish or chicken recipe so i'm posting it on it's own. prep time does not include refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, avocado, fresh lemon juice, fresh parsley, worcestershire sauce, garlic salt
+---
+TITLE: Avocado Butter With Baby Shrimp Sandwiches
+CURRENT_DESCRIPTION: the easiest way to prepare this sandwich is to buy frozen cooked baby shrimp. defrost them in the refrigerator overnight and drain before marinating. the cucumber slices are salted before using to draw out their juices, which would otherwise make the sandwich soggy.
+by lucy waverman for food and drink.
+cook time is "resting" time for cucumbers.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg bread, butter, avocado, lemon juice, chili powder, salt
+---
+TITLE: Avocado Buttermilk Salad Dressing
+CURRENT_DESCRIPTION: creamy avocado dressing for salads, pasta, etc.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, buttermilk, sour cream, sweet onions, fresh lime juice, olive oil
+---
+TITLE: Avocado Caesar Pasta Salad
+CURRENT_DESCRIPTION: this is a great summer pasta salad, or actually any time of the year pasta salad! everyone raves about it!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium pasta shell, caesar salad dressing, salt and pepper, artichoke hearts, cherry tomatoes, avocados
+---
+TITLE: Avocado Cake
+CURRENT_DESCRIPTION: i saw a recipe for this on the internet.  i liked the idea, having 2 avocado trees.  i just didn't like that recipe.  so here is mine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flour, baking soda, baking powder, eggs, sugar, olive oil
+---
+TITLE: Avocado Cantaloupe Salad With Honey Lime Vinaigrette
+CURRENT_DESCRIPTION: just wanted to add this recipe to the cantaloupe craze -- it's simple and delicious! cuisine at home, august/2007
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lime juice, honey, olive oil, salt & freshly ground black pepper, cantaloupe, avocados
+---
+TITLE: Avocado Cashew Enchiladas
+CURRENT_DESCRIPTION: from the enchanted broccoli forest cookbook by mollie katzen.  rich and delicious.  these are incredible!  high in good fats and protein.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hass avocadoes, lime, juice of, green onions, parsley, cilantro, jalapeno
+---
+TITLE: Avocado Cheese Ball
+CURRENT_DESCRIPTION: this is a really yummy different twist on a traditional cheese ball.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, sharp cheddar cheese, avocado, onion, nuts, garlic powder
+---
+TITLE: Avocado Cheese Tarts  Low Carb
+CURRENT_DESCRIPTION: perfect for people watching their carbohydrates. if you've ever tried to come up with appetizers that are low carb, you know it's not easy. this is not really a "tart" in the traditional sense, but they are tasty and have great texture. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, garlic clove, mayonnaise, lemon juice, cheddar cheese, cilantro
+---
+TITLE: Avocado Chicken
+CURRENT_DESCRIPTION: this is an old recipe i have made for many years. the recipe may sound a little strange, but the acid from the tomato and the oil from the avocado contributes to the chicken's incredible baked-in moistness and tenderness.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, flour, egg, italian seasoned breadcrumbs, butter, olive oil
+---
+TITLE: Avocado Chicken Mango Salad With Hazelnut Honey Dressing
+CURRENT_DESCRIPTION: the contrasting colours in this salad are appealing to the eye and the subtle combination of flavours is divine.  this is a great brunch or lunch dish, and in hot weather a dinner dish that i've found always proves to be popular.  it caters so well for those not into hot and spicy dishes.  adapted from a recipe on a 'pan or wok' recipe card from international masters.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast fillets, chicken stock, fresh lime juice, mango, avocado, baby spinach leaves
+---
+TITLE: Avocado Chicken Melt
+CURRENT_DESCRIPTION: found in a tyson chicken recipe book and changed it somewhat to suit our tastes.  tip:   you can sprinkle chicken with sliced green onions and serve with sliced cucumber, if desired. add sliced green onion tops to the yogurt  and red bell pepper sauce or substitute onion-flavored ranch or cucumber salad dressing for the sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, panko breadcrumbs, garlic salt, paprika, vegetable oil, avocado
+---
+TITLE: Avocado Chicken Pita
+CURRENT_DESCRIPTION: from simple & delicious magazine march/april 2008.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pita breads, olive oil, avocado, lemon juice, salt, garlic powder
+---
+TITLE: Avocado Chicken Pitas
+CURRENT_DESCRIPTION: i have been going through a big avocado phase and this sandwich really fills that craving. warm and cheesy how can you go wrong.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pita bread, olive oil, avocado, lime juice, cilantro, salt
+---
+TITLE: Avocado Chicken Salad
+CURRENT_DESCRIPTION: from cooking light
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, fresh lime juice, kosher salt, fresh ground black pepper, chicken breasts, cilantro
+---
+TITLE: Avocado Chicken Salad By Paula Deen
+CURRENT_DESCRIPTION: from paula deen's "the lady & sons savannah country cookbook".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, cooked white rice, avocados, lemon juice, onion, mayonnaise
+---
+TITLE: Avocado Chicken Salad Sandwiches
+CURRENT_DESCRIPTION: i combined a number of my favorite things to come up with this tasty sandwich.  this is a great use for leftover chicken.  makes a great summer supper, or hearty lunch.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, avocado, onions, pimentos, fresh parsley, celery
+---
+TITLE: Avocado Chimichurri Bruschetta
+CURRENT_DESCRIPTION: vegetarian times
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lemon juice, red wine vinegar, garlic cloves, salt, red pepper flakes, dried oregano
+---
+TITLE: Avocado Chipotle Coleslaw
+CURRENT_DESCRIPTION: creamy and just a little bit spicy! adds a nice crunch to a tex-mex wrap, and also works well as a side salad with chili. cook time is chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coleslaw mix, green pepper, red pepper, celery ribs, red onion, avocado
+---
+TITLE: Avocado Chutney
+CURRENT_DESCRIPTION: this is an interesting recipe from flatbreads and flavors by jeffery alford and naomi duguid. i have to try this when avocados are in season this year. according to the author, this chutney goes well with puris and dosas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, tomatoes, lemon juice, desiccated coconut, shallots, garlic cloves
+---
+TITLE: Avocado Cilantro Potato Salad
+CURRENT_DESCRIPTION: a unique version of a potato salad without any mayo. good for cookouts and potlucks.  i think the friend who gave this to me said it came from paula deen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, red onion, garlic, kosher salt, black pepper, extra virgin olive oil
+---
+TITLE: Avocado Cilantro Salsa
+CURRENT_DESCRIPTION: found on the tabasco web site
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, tomatillos, cilantro leaves, onion, pepper sauce, salt
+---
+TITLE: Avocado Club Egg Rolls
+CURRENT_DESCRIPTION: an eggroll with creamy avocado, crisp bacon, garlicky grilled chicken and melted cheese.
+
+be sure to prepare these in the exact order written, to prevent the wrappers from becoming soggy. you can use your favorite ranch dressing to make the ranchito sauce for dipping.  from the california pizza kitchen family cookbook
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg roll wraps, grilled chicken, roma tomatoes, cooked bacon, monterey jack cheese, hass avocado
+---
+TITLE: Avocado Corn Salad
+CURRENT_DESCRIPTION: this is lovely with fresh corn cut off the cob.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: corn, vegetable oil, water, ground cumin, cayenne, avocado
+---
+TITLE: Avocado Corn Salad  Moosewood Recipe
+CURRENT_DESCRIPTION: tasty blend of avocados, corn, bell pepper, and spices.  perfect side for a hearty black bean soup.  add a hunk of sourdough or cornbread and you've got yourself an easy and tasty meal!  :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen corn, olive oil, water, ground cumin, cayenne, avocado
+---
+TITLE: Avocado Corn Salsa
+CURRENT_DESCRIPTION: i can eat this salsa as a meal  it's great with any kind of tortilla chips, but i always use the ones that act more of like a spoon....or scoop.  heck, forget the chips and just use the spoon!  it's just that good.  i thank my mom for this keeper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen corn, black olives, sweet red pepper, onion, garlic cloves, olive oil
+---
+TITLE: Avocado Crab Crostini
+CURRENT_DESCRIPTION: these small and decorative toasted baguettes topped with savory avocado and crab spread are easy to prepare, easy to serve and delicious to eat. they make a popular and attractive hors d'oeuvre or appetizer
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabmeat, mayonnaise, sour cream, green onion, parmesan cheese, chopped pimiento
+---
+TITLE: Avocado Crab Soup
+CURRENT_DESCRIPTION: this soup is wonderful for a quick and light lunch or the beginning of an elegant meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, green onion, garlic clove, lemon juice, avocados, plain low-fat yogurt
+---
+TITLE: Avocado Crabmeat Sandwiches
+CURRENT_DESCRIPTION: from southern living annual recipes 1983. yummy!
+chill time is not included in cook time. cook time is assembly time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: crabmeat, mayonnaise, lemon juice, dill weed, white pepper, rye bread
+---
+TITLE: Avocado Cream Cheese Dip
+CURRENT_DESCRIPTION: this is a little different from anything i've seen on the site and it is my personal favorite.  i got it from a friend about 10 years ago.  it's for those of us who love avocado but don't like the spicy dips.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, fresh lemon juice, cream cheese, onion, salt, white pepper
+---
+TITLE: Avocado Cream Cheese Sandwiches
+CURRENT_DESCRIPTION: these are yummy if you are an avid avocado fan like i am.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, whole grain bread, avocados, sour cream, scallions, salt
+---
+TITLE: Avocado Cream Cheese Spread
+CURRENT_DESCRIPTION: this spread is gread on bagels, or as a sandwich spread
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, cream cheese, fresh lemon juice, garlic cloves, salt
+---
+TITLE: Avocado Cream Cheese Squares
+CURRENT_DESCRIPTION: this is such a wonderful dessert. i have to make it every time we have company visit us -- they all love it. one of my husband's employees brought this in to work, he brought a slice home and i needed that recipe. so she gave it to me. thank you, kathy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, butter, lime jell-o gelatin, hot water, cream cheese
+---
+TITLE: Avocado Cream Pasta
+CURRENT_DESCRIPTION: from asia food recipe great site
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, lemon, avocado, garlic cloves, olive oil, pepper
+---
+TITLE: Avocado Cream Sauce
+CURRENT_DESCRIPTION: from fooddownunder.com. great on chicken and fish. can also be used as a dip or in place of red or green salsa on enchiladas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, garlic clove, fresh chives, fresh cilantro, fresh tarragon, lime, juice of
+---
+TITLE: Avocado Cream Soup  Sopa De Aguacate
+CURRENT_DESCRIPTION: my husband loves avacados in all ways. myself, i'm not so keen on them. but he wants me to make this for him for father's day! dd is making avacado fudge...sheesh!
+anyway, we're giving this a try and also submitting for zwt4. i found it online but can't remember where. maybe recipegoldmine?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, heavy cream, chicken broth, dry sherry, salt, white pepper
+---
+TITLE: Avocado Cream With A Hot Tomato Ice Cube
+CURRENT_DESCRIPTION: part of a wonderful three course lunch at chez cecile (chef stephane pitre)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon, cream, tabasco sauce, tomato juice, celery salt
+---
+TITLE: Avocado Cristo With Cherry Tomato Jam And Balsamic Reduction
+CURRENT_DESCRIPTION: recipe courtesy brent wertz, mohonk mountain house in new paltz, ny.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, garlic, cumin, salt and pepper, sourdough bread
+---
+TITLE: Avocado Daiquiri
+CURRENT_DESCRIPTION: from webtender.com. sounds neat! haven't tried this so please do rate it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, fresh lime juice, ice, light rum, lime wedge
+---
+TITLE: Avocado Deviled Eggs
+CURRENT_DESCRIPTION: these are awesome!  very different from the typical mayo/mustard/onion deviled eggs.  great for summer parties, since there is no mayonnaise called for.  everyone has asked me for this recipe!  by the way, this is the first recipe that i have posted, so go easy on me.  recipe courtesy of penzey's spices.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: hard-boiled eggs, prosciutto, avocados, red onion, cherry tomatoes, water
+---
+TITLE: Avocado Dip   Spread
+CURRENT_DESCRIPTION: very tasty. must try. eat it with carne asada, steak, chips--anything you want!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, tomatoes, jalapeno, lemon juice, cilantro
+---
+TITLE: Avocado Dip Made Easy
+CURRENT_DESCRIPTION: dips for starters.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon juice, horseradish cream, garlic, light sour cream
+---
+TITLE: Avocado Dressing For Seafood Salads
+CURRENT_DESCRIPTION: this is like an avocado/hollandaise dressing. excellent on a shrimp salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, lemon juice, butter, avocados, salt, cayenne
+---
+TITLE: Avocado Dressing With Attitude
+CURRENT_DESCRIPTION: this dressing is wonderful on baby greens salad, but i would put it on, or mix it in, with any salad. it's simple and delicious!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic cloves, lime, lemon, honey, fresh ground black pepper, avocado
+---
+TITLE: Avocado Egg Rolls With Sweet Cilantro Dipping Sauce
+CURRENT_DESCRIPTION: from cooking a la mode.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, sun-dried tomatoes, red onions, fresh cilantro, salt, egg roll wraps
+---
+TITLE: Avocado Eggs Benedict
+CURRENT_DESCRIPTION: fresh avocado slices and a special creamy sauce really dress up this classic egg dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, all-purpose flour, milk, cheddar cheese, romano cheese, salt
+---
+TITLE: Avocado Fans With Black Olive Vinaigrette
+CURRENT_DESCRIPTION: i purchased some black-olive paste for the stocking swap with mama's kitchen (hope)and of course had to get one for myself. this is a recipe i found and adapted that uses the wonderful paste. the original recipe was by jimmy bradley, co-owner of  of chelsea's wonderful red cat at the mermaid inn.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, sherry wine vinegar, black olive paste, red onions, fresh basil, salt & freshly ground black pepper
+---
+TITLE: Avocado Feta Salsa
+CURRENT_DESCRIPTION: the basic recipe came from better homes and garden, but i added a few extra things. it is a delicious and easy appitizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, avocado, vidalia onion, garlic clove, basil leaves, dried parsley
+---
+TITLE: Avocado Fettuccine
+CURRENT_DESCRIPTION: from the california avocado commission. yummy!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, green pepper, white wine vinegar, fresh basil, tomatoes, green onion
+---
+TITLE: avocado filled with marinated scallops and mussels
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg yolk, white wine vinegar, dijon mustard, garlic clove, salt, worcestershire sauce
+---
+TITLE: Avocado Filling  Or Spread Or Dip
+CURRENT_DESCRIPTION: i love avocados and look forward to them every summer.  this recipe began life as a filling for stuffed tomatoes, but it's also yummy as a sandwich spread or dip. (or by the spoonful!)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, avocados, lemon juice, onion, green pepper, garlic
+---
+TITLE: Avocado Frappe
+CURRENT_DESCRIPTION: from vegetarian times  -
+
+in the philippines, this pale green drink is made with condensed milk. here, soy milk and a dash of fresh lime juice turn it into a lively breakfast smoothie. it’s particularly recharging after a morning workout. asian food stores sell palm sugar, as do some supermarkets (check the thai food section), though you can substitute brown sugar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, palm sugar, soymilk, ice cubes, fresh lime juice
+---
+TITLE: Avocado Fries With Chipotle Ketchup
+CURRENT_DESCRIPTION: these were very tasty, i didn't have the panko so i used my own seasoned bread crumbs. i don't think it made any difference. i served them with chicken.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, avocados, flour, cumin, coriander, salt
+---
+TITLE: Avocado Fries With Chipotle Remoulade
+CURRENT_DESCRIPTION: from pesce, houston’s seafood-centric restaurant.  the calories will knock you back on your diet, but so, so good.  having said that, double the recipe because you'd wish you had and the original recipe claims to serve 4...yeah, right!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chipotle chiles in adobo, lime juice, mayonnaise, cilantro, kosher salt, fresh ground black pepper
+---
+TITLE: Avocado Fries With Habanero Ketchup
+CURRENT_DESCRIPTION: i have a girlfriend who insists that anything can be deep fried. it's a southern thang. well these are delicious. your friends will love them. easy on the habanero if you're a wimp!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, avocados, flour, ground cumin, chili powder, salt
+---
+TITLE: Avocado Fruit Salad
+CURRENT_DESCRIPTION: a nice combo of avocado and fruits.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, tart apples, peaches, grapefruit, honey, lemon juice
+---
+TITLE: Avocado Fudge
+CURRENT_DESCRIPTION: now this is different.  i got the original recipe from about.com. the original recipe calls for 3 cups of powdered sugar which is a lot, so i have changed some of the ingredients to suit my tastes. i dropped the amount down to two cups of sugar instead.  it should still work.  also since i live at 5,000 feet less sugar is better. these brownies are rich and dairy-free. you can also substitute 1/2 cup apple sauce for the margarine if you want this to be lower in fat. and if you want less carbs,  you can also replace the sugars with a sugar substitute.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, earth balance margarine, vanilla extract, cocoa powder, turbinado sugar, date sugar
+---
+TITLE: Avocado Gelatin
+CURRENT_DESCRIPTION: i first had this when i taught in hawaii. one of the other teachers brought it for an end of the year party and i had to beg her for the recipe! it was worth begging.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, mayonnaise, cream, sugar, lime jell-o gelatin, gelatin
+---
+TITLE: Avocado Gelatin Salad
+CURRENT_DESCRIPTION: i like this recipe because it is very tasty and easy to make and i'm sure will be loved by all who like to eat avocado. i found it in woman's day encyclopedia of cookery.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unflavored gelatin, water, boiling water, lemon, juice of, hot pepper sauce, salt
+---
+TITLE: Avocado Grilling Butter
+CURRENT_DESCRIPTION: you can melt a slice of this butter over meat, poultry or fish while grilling or  just as the meat comes off the grill. or for something unique, spread some on french bread, sprinkle lightly with parmesan cheese and pop it under the broiler for a twist on garlic toast! cooking time is refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, lime juice, garlic cloves, flat leaf parsley, habanero sauce, worcestershire sauce
+---
+TITLE: Avocado Hummus
+CURRENT_DESCRIPTION: my husband found this recipe in his triathlete magazine, so we whipped it up tonight. "this twist on regular hummus - a mediterranean diet staple - is so creamy and delicious (and packed with healthy fats), that you may just eat it with a spoon and lose the pita altogether!"  from triathlete magazine, november 2009.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chickpeas, avocado, tahini, olive oil, lemon, garlic cloves
+---
+TITLE: Avocado Hummus Pita
+CURRENT_DESCRIPTION: interesting avocado salad and hummus pita
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pita bread rounds, romaine lettuce leaf, tomatoes, alfalfa sprout, hummus, avocados
+---
+TITLE: Avocado Ice Cream
+CURRENT_DESCRIPTION: an interesting recipe from ab, i remember him enjoying it on good eats.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, fresh lemon juice, whole milk, sugar, heavy cream
+---
+TITLE: Avocado Lime And Coconut No Bake Cheesecake
+CURRENT_DESCRIPTION: try something new, with this creamy and delicious no-bake cheesecake recipe. this tropically-inspired spin on a traditional cheesecake features a richly flavoured toasted coconut crust, topped with a creamy avocado and zesty lime cream cheese blend.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh raspberry, fresh lime juice, avocados, cream cheese, lime zest, granulated sugar
+---
+TITLE: Avocado Lime Pasta Sauce
+CURRENT_DESCRIPTION: this is one of my favorite pasta sauce. very easy to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lime, avocado, sour cream, chili, parsley, salt
+---
+TITLE: Avocado Lime Salad
+CURRENT_DESCRIPTION: a great vegan salad using avocado, tomatoes and scallions. adapted from vegetarian times magazine. a popular spanish and mexican recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh lime juice, salt, tomatoes, avocados, scallions, garlic clove
+---
+TITLE: Avocado Mandarin Salad
+CURRENT_DESCRIPTION: toh; goes well with tex-mex menu.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mandarin oranges, green onion, pecans, pepper, salad greens, avocado
+---
+TITLE: Avocado Mandarin Tossed Salad
+CURRENT_DESCRIPTION: crunchy toasted pecans and slices of creamy avocado and crisp salad greens. a lovely complement to pork.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mandarin orange, green onion, pecans, pepper, salad greens, avocado
+---
+TITLE: Avocado Mango Bruschetta
+CURRENT_DESCRIPTION: this reminds me of something i had while visiting my aunt in hawaii. i will be making this soon! recipe is from raley's something extra.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ciabatta rolls, extra virgin olive oil, avocado, fresh mango, red bell pepper, fresh basil
+---
+TITLE: Avocado Mango Salad
+CURRENT_DESCRIPTION: i bruise easily, and vitamin a is the key. i try to find interesting ways to serve avocado because it is so rich in vitamin a. (i don't worry about the fat in avocado). this goes well as a side dish for enchiladas, quesadillas or any mexican style foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, mango, cumin, chili powder, garlic powder, lettuce leaves
+---
+TITLE: Avocado Mango Salsa
+CURRENT_DESCRIPTION: great served with chicken or seafood as a side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: green mango, avocado, red onion, red chile, fresh lime juice, red wine vinegar
+---
+TITLE: Avocado Mashed Potatoes
+CURRENT_DESCRIPTION: heaven!!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, lemon, garlic cloves, avocados, potatoes, salt
+---
+TITLE: Avocado Mayonnaise
+CURRENT_DESCRIPTION: this is a wonderful alternitive to real mayonnaise. i have been put on a strict diet and this saves the day! makes a great salad dressing(i add a little honey), spread for sandwiches, or dip. adapted from raw and living foods.
+this is popular in spain, mexico, central america and the southern usa.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon, juice of, salt, cayenne pepper, extra virgin olive oil
+---
+TITLE: Avocado Mayonnaise  No Dairy
+CURRENT_DESCRIPTION: this recipe is from the whole foods allergy cookbook..it is great! the book is full of yummy substitutes for those who have multiple food allergies
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, rice milk, lemon juice, dijon mustard, paprika, salt
+---
+TITLE: Avocado Milkshake
+CURRENT_DESCRIPTION: a sweet, mild, creamy and smooth mint coloured milkshake. recipe given to me by my friend darlene brubaker. yum!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 2% low-fat milk, avocado, sugar, vanilla extract, ice
+---
+TITLE: Avocado Mousse
+CURRENT_DESCRIPTION: a flavorsome concoction that will take you back to the usvi's every single time!  from islandflave.com.  prep time does not include 4 hours refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unflavored gelatin, chicken broth, red wine vinegar, onion, lime juice, avocados
+---
+TITLE: Avocado Mousse And Melba Toast
+CURRENT_DESCRIPTION: november issue of australian table magazine.  looks like an elegant entree for a dinner party.  cook time is chill time for mousse and cook time for melba toast combined. believe you could do this in a larger mould and serve buffet style surrounded with melba toast, crackers and or fresh crispy vegetables.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon juice, worcestershire sauce, mayonnaise, chives, tabasco sauce
+---
+TITLE: Avocado N Philly Cheese Dip
+CURRENT_DESCRIPTION: quick, yummy & healthy.
+what more do you want?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light cream cheese, avocado, sweet chili sauce, lime juice, sea salt, cracked black pepper
+---
+TITLE: Avocado Nut Bread
+CURRENT_DESCRIPTION: this quick-bread is a great way to use up that lone avocado quickly passing it's prime! not too sweet, pretty color, and no one in my household could guess that it was avocado. it's moist despite containing no oil. avocados do differ in size, you want 1/2 cup mashed pulp. walnuts can be substitued for pecans if desired. number of servings is a broad estimate as it will depend on how thickly you slice it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, sugar, baking powder, baking soda, salt, egg
+---
+TITLE: Avocado Olive Salad
+CURRENT_DESCRIPTION: from allrecipes. this sounds like such a great combination of flavors and textures! hit that olive bar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: capers, garlic clove, limes, juice of, olive oil, balsamic vinegar, parmesan cheese
+---
+TITLE: Avocado Omelet
+CURRENT_DESCRIPTION: i got this from an old friend. it is easy and quite good. just make the omelet as you would normally with the diced avocado in the middle when you fold the omelet. then pour the sauce over it. yum! i added shredded pepper jack cheese like you would in a normal omelet. you could also use plain cheddar.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, salt, pepper, butter, avocado
+---
+TITLE: Avocado On The Half Shell
+CURRENT_DESCRIPTION: a memorable salad dish that is vibrantly fresh and beautiful - not to mention simple. it's nothing more than pico de gallo (tomato salsa) on an avocado. i had this at little city in austin, texas and fell in love. now i make it as a meal for myself or a starter for dinner parties.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, red onion, fresh jalapeno, fresh cilantro, tabasco sauce, avocado
+---
+TITLE: Avocado On Toast With Bacon And Maple Syrup
+CURRENT_DESCRIPTION: from our tv programme guide.  it is suggested that your use the best maple syrup you can get but for dietary reasons i would use a sugar free maple syrup.  times are estimated.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, avocados, lemon, salt, pepper, bacon
+---
+TITLE: Avocado Open Facers
+CURRENT_DESCRIPTION: these are a knife-and-fork version of a blt.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, lemon juice, whole wheat bread, avocado, lettuce, tomatoes
+---
+TITLE: Avocado Orange Black Bean Salad
+CURRENT_DESCRIPTION: a delicious salad for your next fiesta! (prep time includes soaking time for the beans.)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried black beans, olive oil, fresh lime juice, salt, garlic, cilantro
+---
+TITLE: Avocado Orange Salad
+CURRENT_DESCRIPTION: this looks yummy! from everyday food issue 9.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navel oranges, orange juice, white wine vinegar, olive oil, red leaf lettuce, avocado
+---
+TITLE: Avocado Orange Salsa
+CURRENT_DESCRIPTION: this colorful salsa comes from a cooking light recipe and is delicious with simple grilled meat or fish, or as part of a refreshing summer salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange section, avocado, orange juice, red onions, red bell peppers, chives
+---
+TITLE: Avocado Pate
+CURRENT_DESCRIPTION: this is a mild flavored pate so don't expect a guacamole spread. the recipe is easy to double for buffets or a party. it is very important to get good tasting and textured avocados for this dish. they should be ripe but firm, i once made this and the avocado was over ripe, the taste was bland and it would not firm up properly. the amounts given are not extremely vital, there is room for a little more or a little less of most ingredients, but in this case i would go easy on the garlic. i serve this with toast, herb or homemade melba toast, and sometimes substitute the nuts with very finely chopped red bell pepper. for a dinner party i put the pate in individual little molds, this amount makes then about 4 servings. if you have some leftover, its nice on bread with some slices tomato.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, cream cheese, green onion, parsley, lime juice, garlic
+---
+TITLE: Avocado Pesto Pasta   Vegan
+CURRENT_DESCRIPTION: rich and creamy with all your favourite pesto flavours! who knew flavour this big could come together so quickly.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: linguine, basil leaves, pine nuts, avocados, fresh lemon juice, garlic cloves
+---
+TITLE: Avocado Pie
+CURRENT_DESCRIPTION: this is cool and creamy,and tastes surprisingly like key lime pie.quick and easy too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, lemon juice, sweetened condensed milk, whipping cream, graham cracker pie crust
+---
+TITLE: Avocado Pizza
+CURRENT_DESCRIPTION: avocados are one of my favourite fruits and to have it on pizza is just divine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza crusts, tomato paste, garlic clove, green onion, mushroom, olive
+---
+TITLE: Avocado Potato Salad
+CURRENT_DESCRIPTION: this is a nice alternative to traditional potato salad, and a wonderful way to use avocados.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red potatoes, avocados, fresh lime juice, sweet onion, fresh cilantro, garlic
+---
+TITLE: Avocado Prawn And Sun Dried Tomato Stuffed Chicken
+CURRENT_DESCRIPTION: i had some prawns i wanted to use and there was not enough to make a meal out of so i decided to stuff some chicken breasts with them. these were really easy for me as the rest of the ingredients was all stuff i had in my fridge. i served ours over asparagus with a hollandaise sauce to accompany.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, prawns, sun-dried tomatoes, avocado, parmesan cheese, basil
+---
+TITLE: Avocado Pudding
+CURRENT_DESCRIPTION: don't mock it till ya try it!  i love this pudding and so does my family (including a toddler!).  adjust the cocoa powder and sugar to your liking.  i add chopped hazelnuts to the top of mine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, banana, milk, sugar, vanilla, cocoa powder
+---
+TITLE: Avocado Quesadillas
+CURRENT_DESCRIPTION: central market recipe for avocado quesadillas
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, avocado, red onion, fresh lemon juice, tabasco sauce, sour cream
+---
+TITLE: Avocado Quick Bread
+CURRENT_DESCRIPTION: an interesting way to use those avocados in the fridge on the verge of going bad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, baking soda, baking powder, salt, ground cinnamon, ground allspice
+---
+TITLE: Avocado Radish Salad
+CURRENT_DESCRIPTION: i found this recipe on a magazine years ago.
+it is very simple, but the combination of flavors and textures is perfect.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: balsamic vinegar, extra virgin olive oil, avocado, spring greens, radishes
+---
+TITLE: Avocado Raita  Indian Guacamole
+CURRENT_DESCRIPTION: avocado raita is the indian version of guacamole and tastes yummy with just about anything you serve it with. turn up the heat by adding more red chilli powder and chopped green chillies! i got this recipe from the internet. enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, onion, tomatoes, green chili, red chili powder, cumin powder
+---
+TITLE: Avocado Ranch Burgers With Smoked Cheddar
+CURRENT_DESCRIPTION: these are each served open-faced on a single piece of toasted bread, but you can certainly double up there. i’m seriously considering doing these in the cameron’s smoker i just got… :o)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ranch dip mix, lean ground beef, red onion, barbecue sauce, hass avocado, sourdough bread
+---
+TITLE: Avocado Ranch Dip
+CURRENT_DESCRIPTION: addicting with chips and carrots.  thin with a little milk to use on a salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry ranch dressing mix, sour cream, avocado, lime, juice and zest of, fresh cilantro, black pepper
+---
+TITLE: Avocado Reuben
+CURRENT_DESCRIPTION: i store ingredients separately, then throw together a quick sandwich when i'm hungry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, sauerkraut, thousand island dressing, swiss cheese, marbled rye bread
+---
+TITLE: Avocado Rice
+CURRENT_DESCRIPTION: my brother in new zealand sent me this, it's incredibly simple and delicious. i have no idea where he got it, i think he made it up.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, coconut, mustard, avocado, chili powder
+---
+TITLE: Avocado Ritz
+CURRENT_DESCRIPTION: avocado's are a favorite south african fruit and are often used in starters and salads. this dish is quick to prepare and is always well received when the weather is hot.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, small shrimp, seafood sauce, lemon, salt, cayenne pepper
+---
+TITLE: Avocado Ritz On A Budget
+CURRENT_DESCRIPTION: true avocado ritz is normally made with prawns (or shrimp), but this budget version using canned tuna is also delish! i normally serve this as a starter, but have occasionally had one or two avo halves as a lunch or summer main meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, lemon juice, tuna in water, mayonnaise, tomato ketchup, worcestershire sauce
+---
+TITLE: Avocado Rolls With Cream Cheese
+CURRENT_DESCRIPTION: this is a simple recipe that's sure to please. the only caution i would give is to not let the rolls sit out too long.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocado, cream cheese, sun-dried tomatoes, pine nuts, egg roll wraps, thai sweet chili sauce
+---
+TITLE: Avocado Rounds
+CURRENT_DESCRIPTION: tasty finger food.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, avocado, sour cream, lemon juice, coriander, ground cumin
+---
+TITLE: Avocado Salad
+CURRENT_DESCRIPTION: a tasty salad that will have you making it over and over again. easy to make!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, avocados, mozzarella cheese, marjoram, extra virgin olive oil, salt
+---
+TITLE: Avocado Salad  Ensalada De Aguacate
+CURRENT_DESCRIPTION: while this originates in cuba it's typical of latin cusines throughout mexico and south america.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: red onion, red wine vinegar, avocados, olive oil, salt and black pepper
+---
+TITLE: Avocado Salad In Ginger And Orange Sauce
+CURRENT_DESCRIPTION: great flavours in this dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, bananas, strawberries, orange, juice of, fresh gingerroot, water
+---
+TITLE: Avocado Salad Lettuce Wraps
+CURRENT_DESCRIPTION: a yummy avocado salad with corn and tomatoes wrapped in lettuce! healthy and delicious! adapted from living and raw foods.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, tomatoes, jalapeno pepper, red onions, fresh garlic cloves, fresh cilantro
+---
+TITLE: Avocado Salad Toss
+CURRENT_DESCRIPTION: a nice twist on taco salad. i have taken this to potlucks at work and everyone loved it. makes a nice meal in the summer when it's too hot to cook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lettuce, dark red kidney beans, tomatoes, green chili, black olives, avocado
+---
+TITLE: Avocado Salad With Black Olive Dressing
+CURRENT_DESCRIPTION: quick and simple
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: orange juice, extra virgin olive oil, kalamata olive, garlic clove, honey, salt and black pepper
+---
+TITLE: Avocado Salad With Bleu Cheese   Bacon
+CURRENT_DESCRIPTION: avocados are one of the most
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: avocados, boston lettuce, tomatoes, bacon, blue cheese, grapefruit juice
+---
+TITLE: Avocado Salad With Cumin Lime Mayo  Dressing
+CURRENT_DESCRIPTION: delish! adapted from everyday with racheal ray magazine!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: extra virgin olive oil, mayonnaise, fresh lime juice, honey, ground cumin, salt and pepper
+---
+TITLE: Avocado Salad With Ginger Dressing
+CURRENT_DESCRIPTION: this recipe is from super food ideas magazine in australia.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sugar snap peas, avocados, mixed greens, mirin, rice vinegar, gingerroot
+---
+TITLE: Avocado Salad With Hearts Of Palm
+CURRENT_DESCRIPTION: a nice salad adapted from veggie ventures. if you have never had hearts of palm, they are very good! the dressing makes more than enough to feed 4.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh cilantro, garlic, lemon, zest of, lemon, juice of, sugar, salt
+---
+TITLE: Avocado Salad With Pomegranate Drizzle
+CURRENT_DESCRIPTION: this salad was a pleasant surprise, it was light, refreshing and full of flavor. we really enjoyed the way the different flavors and textures blended in this dish to create a tasty salad, nothing was overpowering.  the tangy, sweet, rich pomegranate juice really enhanced this dish and pulled it all together.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pomegranate juice, corn syrup, white balsamic vinegar, extra virgin olive oil, salt, red pepper flakes
+---
+TITLE: Avocado Salad With Tomato Relish
+CURRENT_DESCRIPTION: this recipe was published in favorite brand name classic mexican recipes and makes a wonderful salad for a mexican theme dinner.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cider vinegar, fresh orange juice, orange peel, salt, black pepper, olive oil

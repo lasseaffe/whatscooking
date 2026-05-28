@@ -1,0 +1,198 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&family=Inter:wght@400;500;600&display=swap');
+  * { box-sizing: border-box; }
+
+  /* Simulate the page behind the modal */
+  .page-behind {
+    background: #120A04;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    height: 420px;
+    border: 1px solid #2A1804;
+  }
+
+  /* Simulated page content behind */
+  .page-bg-content {
+    padding: 16px;
+    opacity: 0.35;
+    filter: blur(1px);
+  }
+  .page-bg-row { height: 10px; background: rgba(239,227,206,0.15); border-radius: 4px; margin-bottom: 8px; }
+
+  /* The overlay */
+  .modal-overlay {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 12px;
+  }
+
+  /* The modal itself — compact bottom sheet */
+  .modal-sheet {
+    width: 100%;
+    background: #1C1009;
+    border-top: 1px solid #2A1804;
+    border-radius: 16px 16px 0 0;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+  }
+
+  /* Drag handle */
+  .drag-handle {
+    width: 36px; height: 4px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 2px;
+    margin: 10px auto 0;
+  }
+
+  /* Hero row: image left, title + stats right */
+  .hero-row {
+    display: flex; gap: 12px;
+    padding: 12px 14px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .hero-thumb {
+    width: 72px; height: 72px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #5A2E10, #2A1208);
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero-thumb-img { width: 100%; height: 100%; background: linear-gradient(135deg, #6A3515 0%, #2A1208 100%); }
+  .hero-info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+  .hero-cuisine {
+    font-size: 8px; text-transform: uppercase; letter-spacing: 3px;
+    color: #F4A261; font-weight: 600; margin-bottom: 3px;
+  }
+  .hero-title {
+    font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 15px; color: #EFE3CE; margin: 0 0 6px;
+    line-height: 1.2;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .stat-row { display: flex; gap: 10px; }
+  .stat-pill {
+    display: flex; align-items: center; gap: 3px;
+    font-size: 10px; color: #A08060; font-weight: 500;
+  }
+  .stat-pill-icon { font-size: 11px; }
+
+  /* Description — one line only */
+  .desc-line {
+    padding: 8px 14px;
+    font-size: 11px; color: rgba(239,227,206,0.45);
+    font-style: italic; line-height: 1.4;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+
+  /* Ingredients — horizontal scrolling pills */
+  .ing-section { padding: 8px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .ing-label { font-size: 8px; text-transform: uppercase; letter-spacing: 2px; color: #6B4A32; margin-bottom: 6px; font-weight: 600; }
+  .ing-pills { display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none; }
+  .ing-pill {
+    flex-shrink: 0;
+    font-size: 10px; padding: 3px 8px; border-radius: 20px;
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+    color: rgba(239,227,206,0.65);
+    white-space: nowrap;
+  }
+  .ing-pill-more { color: #F4A261; border-color: rgba(244,162,97,0.2); background: rgba(244,162,97,0.06); }
+
+  /* Dietary tags */
+  .diet-row { display: flex; gap: 4px; padding: 6px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); flex-wrap: wrap; }
+  .diet-tag { font-size: 9px; padding: 2px 7px; border-radius: 20px; background: rgba(130,142,111,0.12); color: #828E6F; border: 1px solid rgba(130,142,111,0.18); }
+
+  /* CTA row */
+  .cta-row { display: flex; gap: 8px; padding: 10px 14px 14px; }
+  .cta-primary {
+    flex: 1; padding: 9px 0; border-radius: 10px; text-align: center;
+    font-size: 12px; font-weight: 700; color: white;
+    background: linear-gradient(135deg, #C85A2F, #E8834A);
+    box-shadow: 0 3px 14px rgba(200,90,47,0.4);
+  }
+  .cta-secondary {
+    padding: 9px 12px; border-radius: 10px;
+    font-size: 12px; font-weight: 600;
+    border: 1px solid rgba(244,162,97,0.25); color: #F4A261;
+    background: rgba(244,162,97,0.06);
+    white-space: nowrap;
+  }
+</style>
+
+<h2>Recipe Preview — Compact Bottom Sheet</h2>
+<p class="subtitle">Sits at ~80% page height. Just enough to decide — then tap "Full recipe" to go deeper.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:8px;">
+      <div class="page-behind">
+        <!-- Simulated page content behind -->
+        <div class="page-bg-content">
+          <div class="page-bg-row" style="width:60%"></div>
+          <div class="page-bg-row" style="width:80%"></div>
+          <div class="page-bg-row" style="width:45%"></div>
+        </div>
+        <!-- Modal overlay + sheet -->
+        <div class="modal-overlay">
+          <div class="modal-sheet">
+            <div class="drag-handle"></div>
+
+            <!-- Hero row: thumbnail + title + quick stats -->
+            <div class="hero-row">
+              <div class="hero-thumb"><div class="hero-thumb-img"></div></div>
+              <div class="hero-info">
+                <div class="hero-cuisine">Italian · Desserts</div>
+                <div class="hero-title">Apple Hazelnut Cookies</div>
+                <div class="stat-row">
+                  <span class="stat-pill"><span class="stat-pill-icon">⏱</span> 45 min</span>
+                  <span class="stat-pill"><span class="stat-pill-icon">🔥</span> 93 kcal</span>
+                  <span class="stat-pill"><span class="stat-pill-icon">👤</span> 12</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- One-line description -->
+            <div class="desc-line">"Crisp, apple-season cookies with toasted hazelnuts and brown sugar."</div>
+
+            <!-- Ingredients as horizontal pills -->
+            <div class="ing-section">
+              <div class="ing-label">Ingredients · 8 items</div>
+              <div class="ing-pills">
+                <span class="ing-pill">Brown sugar</span>
+                <span class="ing-pill">Shortening</span>
+                <span class="ing-pill">Egg</span>
+                <span class="ing-pill">Vanilla</span>
+                <span class="ing-pill">Flour</span>
+                <span class="ing-pill ing-pill-more">+3 more →</span>
+              </div>
+            </div>
+
+            <!-- Dietary -->
+            <div class="diet-row">
+              <span class="diet-tag">vegetarian</span>
+              <span class="diet-tag">nut-free</span>
+            </div>
+
+            <!-- CTAs -->
+            <div class="cta-row">
+              <div class="cta-primary">♥ Save to plan</div>
+              <div class="cta-secondary">Full recipe →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Compact bottom sheet ★</h3>
+      <p>Thumbnail + title + 3 stats in one row. Description as a single italic line. Ingredients as scrollable pills. Two CTAs. Feels like a preview, not a replacement for the full page.</p>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,2145 @@
+TITLE: Aromatic Turkey Curry
+CURRENT_DESCRIPTION: another recipe off my mother mandy, although it says turkey i have found that any poultry or meat can be used in this recipe and you can also replace the cream for creme fresh if you are watching the weight.
+i use chicken stock but veg stock just as tasty
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, garlic clove, fresh ginger, turmeric, cumin
+---
+TITLE: Aromatic Vegetable Fried Rice  Su Cai Chao Fan
+CURRENT_DESCRIPTION: apparently the secret of great fried rice is to first toss the cooked rice in peanut oil and then mix in the seasoned vegetables. this rice calls for a clear vegetable stock. you can use a highly processed and scary store bought one :) but for a really authentic and impressive flavour you can go to the minimal effort of making your own. the recipe i use is recipe#424266 cooking time does not include preparing the rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: peanut oil, garlic clove, cooked long-grain rice, salt, sesame oil, garlic cloves
+---
+TITLE: Aron S Stir Fry
+CURRENT_DESCRIPTION: with shrimp, mushrooms, tomatoes, scallions, and tofu this is a delicacy that i rarely get to have. darn shrimp!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: shrimp, mushrooms, tomatoes, scallions, tofu, soy sauce
+---
+TITLE: Around The World Marinade For Beef Or Chicken
+CURRENT_DESCRIPTION: i wanted to develop a marinade that was different than what we had been using.  i introduced my dh to tandoori and he loves it.  he also loves asian and mexican food, so 'voila'.  we used a skirt steak the first time and when there should have been seconds there were none. he wants to try it on chicken next week.  time is for prep time of marinade and minimum marinade time.  cook times will vary with meat selection.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, soy sauce, dried onion, garlic cloves, lime juice, lemon juice
+---
+TITLE: Aroz Con Pollo  Chicken With Rice
+CURRENT_DESCRIPTION: mild mexican chicken dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, cooking oil, long grain rice, onion, garlic, water
+---
+TITLE: Arrabiata Penne
+CURRENT_DESCRIPTION: a delightfully simple pasta dish with loads of flavour and more than a hint of chilli which blends so well with the tomato.
+
+ served with a generous sprinkling of parmesan cheese, crusty bread  and accompanied with a nice glass of red wine. its a meal to linger over.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: penne pasta, chopped tomatoes, olive oil, onion, garlic clove, chili flakes
+---
+TITLE: Arrabiata Sauce
+CURRENT_DESCRIPTION: refer to pomodoro sauce recipe for basic tomato sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomato sauce, chile, garlic, olive oil, fresh parsley leaves, salt
+---
+TITLE: Arrabiatta Pork Meatball Spaghetti
+CURRENT_DESCRIPTION: pork meatballs in a tasty spicy italian tomato sauce served with spaghetti.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, extra virgin olive oil, garlic cloves, dried chili pepper flakes, fresh basil, salt & freshly ground black pepper
+---
+TITLE: Arrabiatta Sauce
+CURRENT_DESCRIPTION: this is a great favorite of anyone who loves spicy sauces for pasta and can be made either vegetarian or with my way with a good italian pancetta. the ultimate way is to use fresh tomatoes and not canned but canned works as well to save time. the amount of herbs and hot pepper can be adjusted to your own tastes but this guideline is awesome.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, hot red chili peppers, red bell pepper, garlic cloves, olive oil, pancetta
+---
+TITLE: Arrachera  Skirt Steak Tacos
+CURRENT_DESCRIPTION: i make this every once in a while and it is fantastic. i noticed there are only a couple of recipes for this on here and neither of them call to marinade the steak in beer, which is how i've seen it done traditionally and how i was taught so i thought i'd try to describe how i make it. i also made up a chicken version that is really good too that i'll try to post eventually.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skirt steaks, onion, garlic cloves, adobo seasoning, cumin, pico de gallo
+---
+TITLE: Arrachera Beef Marinade
+CURRENT_DESCRIPTION: when not in mexico i use this recipe to make my own arrachera beef, a marinaded flank steak.   the beef is perfect for tacos, fajitas or chili. please note that cooking time is actually the minimum time needed to marinade.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flank steaks, garlic, olive oil, tequila, fresh lime juice, coarse salt
+---
+TITLE: Arriba   Baked Winter Squash Mexican Style
+CURRENT_DESCRIPTION: autumn is my favorite time of year to cook! this recipe
+can be prepared either spicy or sweet, your choice!
+two of my posted mexican-inspired seasoning mix recipes are offered as suggestions.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: winter squash, mexican seasoning, mixed spice, honey, butter, olive oil
+---
+TITLE: Arriba Enchiladas
+CURRENT_DESCRIPTION: zesty and hearty chicken enchiladas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, flour, salsa, green chilies, onion, garlic clove
+---
+TITLE: Arrosto Insalata Di Cavolfiore Italian Cauliflower Salad
+CURRENT_DESCRIPTION: yummy authentic italian ingredients of black olives, anchovies and capers, make this the wonderful salad for an italian menu.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: anchovies, black olives, capers, cauliflower, red bell pepper, garlic cloves
+---
+TITLE: Arrowroot Biscuits
+CURRENT_DESCRIPTION: this is a gluten free recipe that i tweaked a bit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, white sugar, egg, vanilla extract, gluten-free flour, arrowroot
+---
+TITLE: Arrowroot Squares
+CURRENT_DESCRIPTION: arrowroot squares.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: arrowroot cookies, walnuts, eggs, salt, cocoa, butter
+---
+TITLE: Arroz A La Mexicana Traditional Mexican Rice
+CURRENT_DESCRIPTION: you won't get that
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, medium grain rice, onion, garlic, tomatoes, chicken broth
+---
+TITLE: Arroz Al Horno  Baked Spanish Rice
+CURRENT_DESCRIPTION: recipe posted for zwt5 from top tours of spain site.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, ground pork, potato, chickpeas, tomatoes, chorizo sausages
+---
+TITLE: Arroz Amarillo Con Garbanzos  Saffrron Rice With Chickpeas
+CURRENT_DESCRIPTION: a wonderful cuban dish which i used to eat in mi chinita, a cuban-chinese  restaurant in chelsea in new york city. from a recipe in a taste of old cuba.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chickpeas, garlic cloves, salt, chorizo sausages, olive oil, onion
+---
+TITLE: Arroz Blanco
+CURRENT_DESCRIPTION: taken from the great american brand name recipes cookbook.
+i changed the ingredients to fit my vegitarian preference.  
+this is the base for another rice recipe my family loves (green rice)
+
+i actually sautee on the stove top but then
+cook the rice in my rice cooker.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: margarine, white onion, garlic cloves, long grain white rice, vegetable broth
+---
+TITLE: Arroz Blanco  Mexican White Rice
+CURRENT_DESCRIPTION: when most people think of mexican rice, they think of the typical tomato-flavored rice.  when i've been in mexico, however, i've been served this type of white rice often.  this recipe is authentic mexican and comes from rick bayless.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, salt, vegetable oil, white rice, white onion, garlic cloves
+---
+TITLE: Arroz Blanco  White Rice
+CURRENT_DESCRIPTION: this recipe appeared in a cooking light magazine
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, vegetable oil, onion, garlic, hot water
+---
+TITLE: Arroz Blanco Con Verduras  White Rice W  Vegetables
+CURRENT_DESCRIPTION: from mexico....posted for zaar world tour
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, cream cheese, rice, vegetable oil, garlic cloves, green onions
+---
+TITLE: Arroz Blanco Ii
+CURRENT_DESCRIPTION: a simpler  version of mexican white rice.this is the way the dh and family make rice to go with mole and other dishes with rich sauces.the broth is taken directly from the pot of boiling chicken for the mole,or whatever other dish is being made.if you are using cold broth it needs to be heated up first.this is not a flavorful rice pilaf,but a softer  rice dish that's almost soupy and only flavored by the broth and  large chunks of tender garlic.if,like me,you prefer a drier ,fluffier texture,you can use only 4 cups of broth.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, oil, garlic cloves, chicken broth, salt
+---
+TITLE: Arroz Brasileiro  Brazilian Rice
+CURRENT_DESCRIPTION: a delicious brazilian rice.  from the cookbook "world of cooking - the pbs series."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onions, rice, hot chicken broth, italian plum tomatoes, salt
+---
+TITLE: Arroz Brasileiro Rice With Tomatoes And Onions
+CURRENT_DESCRIPTION: this is one of those basic side dishes that in and of itself hasn't a lot of spice - but you can jazz it up with just about any spice you want - use your imagination - curry is one of my fav's
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, long-grain rice, chicken stock, water, tomatoes
+---
+TITLE: Arroz C Atum
+CURRENT_DESCRIPTION: this is a cape verdean classic. i grew up in an area with a large cape verdean population and this was a common quick, easy, and traditional dinner at several of my friends' houses. for best results use portuguese or cape verdean canned tuna in oil.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, green pepper, olive oil, tuna, tomatoes
+---
+TITLE: Arroz Caldo
+CURRENT_DESCRIPTION: (revised january 2016, corrected number of servings.)
+in my family we call this "filipino sick people chicken & rice soup". it is a classic filipino dish, but it's mild and easy to eat when you're under the weather, and it really does make you feel better.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, onion, garlic, fresh ginger, salt, pepper
+---
+TITLE: Arroz Central Cafe  Central Cafe Rice
+CURRENT_DESCRIPTION: this is a local dish. central cafe is a nice little restaurant and this recipe comes from seasoned with sun. a wonderful cookbook by the junior leage of el paso. i made a few changes..of course! the original recipe calls for long grain rice and long green chiles, roasted and peeled. you can make it their way or mine, your choice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: basmati rice, white onion, jalapeno pepper, garlic, butter, olive oil
+---
+TITLE: Arroz Con Calabacin  Rice With Zucchini
+CURRENT_DESCRIPTION: for zwt 5.  from the foods and wines of spain.
+could be used as a: 
+main dish-serves 4.
+side dish-serves 6
+
+update:  have changed directions per reviewers suggestion.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, sweet red pepper, tomatoes, garlic clove, onion, zucchini
+---
+TITLE: Arroz Con Cebolla  Rice With Onions
+CURRENT_DESCRIPTION: this is a favorite back home. love this rice along with some churrasco steak!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bacon, french onion soup, long grain rice, water, onion
+---
+TITLE: Arroz Con Chile Verde  Green Chile Rice
+CURRENT_DESCRIPTION: quick and easy rice dish for your next mexican meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, monterey jack cheese, instant rice, sour cream, salt, green chilies
+---
+TITLE: Arroz Con Dulce
+CURRENT_DESCRIPTION: puerto rican style rice pudding..... yummy and easy to do.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, water, evaporated milk, condensed milk, coconut milk, shredded coconut
+---
+TITLE: Arroz Con Frijoles A L Espanola
+CURRENT_DESCRIPTION: an inexpensive rice and bean dish, livened with the flavors of spain.  the saffron is optional because it is expensive, however, if you already have it on hand it costs you nothing and you may as well use it, right?  i use frozen peas and carrots, but just about any frozen vegetables will work - try a
+broccoli and cauliflower mix.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, saffron, olive oil, onion, green bell pepper, jalapeno pepper
+---
+TITLE: Arroz Con Gandules
+CURRENT_DESCRIPTION: this is one of my favorite meals. it's a meal within itself, but it's also great served as a side dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, water, pigeon peas, onion, green bell pepper, garlic clove
+---
+TITLE: Arroz Con Gandules   Rice And Beans
+CURRENT_DESCRIPTION: this savory dish has many variations through out all the spanish speaking countries, this is the puerto rican version.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sofrito sauce, pigeon peas, tomato sauce, salt, spam, cooking oil
+---
+TITLE: Arroz Con Gandules  Rice And Pigeon Peas
+CURRENT_DESCRIPTION: got this recipe from el boricua.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: medium grain rice, pork, hot water, sofrito sauce, pigeon peas, salt
+---
+TITLE: Arroz Con Gandules  Rice And Pigeon Peas  A Puerto Rican Fav
+CURRENT_DESCRIPTION: this dish is a main staple for me.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, pigeon peas, sazon goya, tomato sauce, chicken bouillon, sofrito sauce
+---
+TITLE: Arroz Con Gandules  Rice With Pigeon Peas
+CURRENT_DESCRIPTION: this is a recipe that my mother-in-law taught me how to make.  it is from puerto rico and is a traditional dish for many meals.  gandules (or pigeon peas) is a type of bean and can be found in most spanish or latin stores; they are distributed and labeled by goya.  bijol can also be found in spanish stores, in a small yellow round container.  it is a yellow food coloring spice, something like paprika or turmeric.
+this is a great recipe…everyone who tries it raves about it.  it’s worth hunting for the ingredients…i guarantee it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt pork, cubed ham, rice, tomato sauce, diced tomatoes, pigeon peas
+---
+TITLE: Arroz Con Gandules Y Leche De Coco
+CURRENT_DESCRIPTION: this recipe  goes well with baked chicken or pork chops. as always a nice side salad to make it great! with the touch of coconut milk, this recipe will bring a touch of the puerto rico in to your kitchen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: coconut milk, sazon goya with coriander and annatto, pigeon peas, ham, tomato sauce, oil
+---
+TITLE: Arroz Con Leche
+CURRENT_DESCRIPTION: this is a very tasty, and easy treat. there are several different ways to make it, depending on where the recipe is coming from, my mom used to make it very simple. this recipe is adapted from a site called euroresidentes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, milk, granulated sugar, lemon peel, cinnamon
+---
+TITLE: Arroz Con Leche   Rice Pudding
+CURRENT_DESCRIPTION: arroz con leche is one of my favorite desserts. this version is sweet, and creamy.
+the rice pudding will thicken more as it cools, so be careful not to overcook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long-grain white rice, cinnamon sticks, water, milk, salt, butter
+---
+TITLE: Arroz Con Leche  Spanish Rice Pudding
+CURRENT_DESCRIPTION: from spain-recipes.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: milk, cinnamon stick, lemon rind, salt, short-grain white rice, egg yolks
+---
+TITLE: Arroz Con Pollo
+CURRENT_DESCRIPTION: i could not stop thinking about the arroz con pollo by jorge ayala that won the thowdown with bobby flay. it looked so good.... so i decided to try and find it on the internet, but to no avail. i have no idea what jorge's tastes like but i wanna try it! in the meantime, i came up with a version that is pretty tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: kosher salt, granulated garlic, ground cumin, granulated onion, paprika, fresh ground black pepper
+---
+TITLE: arroz con pollo    mi favorito
+CURRENT_DESCRIPTION: this recipe has never failed me. it tastes like comfort food, but looks fancy enough for a dinner party.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chickens, dried oregano, black pepper, salt, olive oil, green pepper
+---
+TITLE: Arroz Con Pollo    Mi Favorito
+CURRENT_DESCRIPTION: this recipe has never failed me. it tastes like comfort food, but looks fancy enough for a dinner party.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chickens, dried oregano, black pepper, salt, olive oil, green pepper
+---
+TITLE: Arroz Con Pollo   Delicioso Style
+CURRENT_DESCRIPTION: this is an ingrid hoffmann recipe. she grew up eating this at least once a week in columbia. she says that there are never leftovers when she makes this recipe. if you need a faster fix, you can use frozen mixed peas and carrots and frozen green beans instead of fresh.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, yellow onion, chicken broth, light beer, adobo seasoning, worcestershire sauce
+---
+TITLE: Arroz Con Pollo  Baked Chicken And Rice
+CURRENT_DESCRIPTION: a very flavorful and attractive dish. so easy if you have a large ovenproof skillet. just transfer the whole thing from stove top to oven.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken, salt, pepper, olive oil, onion, green pepper
+---
+TITLE: Arroz Con Pollo  Chicken And Rice
+CURRENT_DESCRIPTION: serve this simple and satisfying mexican dish with hot tortillas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, nonstick cooking spray, white rice, diced tomatoes, cumin, garlic
+---
+TITLE: Arroz Con Pollo  Chicken With Rice
+CURRENT_DESCRIPTION: this is the way my grandmother made it.  i make it this way all the time.  it's good and delicious!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless chicken breasts, long grain rice, tomato sauce, chicken bouillon cubes, garlic cloves, green bell pepper
+---
+TITLE: Arroz Con Pollo  Cuban Chicken
+CURRENT_DESCRIPTION: this has tons of flavor!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken drumsticks, chicken thighs, salt and pepper, dried oregano, dried chili pepper flakes, oil
+---
+TITLE: Arroz Con Pollo  Dominican Style Chicken   Rice
+CURRENT_DESCRIPTION: one pot--so simple! my mil, who is from the dominican republic, has always made this. every since the very first time she made it for me, it has been my favorite dish. even my kids, ages 12 & 5 and are incredibly picky, will eat this meal. we usually make it with a side salad and fried plantains like in recipe #187281. oh and the house smells incredible while this is cooking!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, salt, pepper, garlic cloves, apple cider vinegar, tomato paste
+---
+TITLE: arroz con pollo  mccall s cooking school
+CURRENT_DESCRIPTION: classic spanish casserole of chicken, vegetables and saffron rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chickens, dried oregano leaves, pepper, salt, olives, green pepper
+---
+TITLE: Arroz Con Pollo  Mccall S Cooking School
+CURRENT_DESCRIPTION: classic spanish casserole of chicken, vegetables and saffron rice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roasting chickens, dried oregano leaves, pepper, salt, olives, green pepper
+---
+TITLE: Arroz Con Pollo  Rice With Chicken
+CURRENT_DESCRIPTION: my neighbour gave me this recipe as we were renovating the kitchen and i didn’t have an oven for 6 months.  i cooked everything outside on the bbq and luckily i had a wok burner connected to the bbq.  this dish is very easy and very yummy.  i think arroz con pollo means ‘rice with chicken’ in spanish.  enjoy we did :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, chicken fillet, garlic clove, onions, red capsicum, green capsicum
+---
+TITLE: Arroz Con Pollo 1 Dish Meal
+CURRENT_DESCRIPTION: this is a recipe i came up with to use up a whole bunch of salsa that i made (see leah's food processor salsa). my favorite mexican dish is arroz con pollo, and have a hard time finding any restaurants that make it to my liking. this is a simple and delicious dish. please note that this recipe uses rice that is already cooked.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken, cooking oil, button mushroom, onion, garlic cloves, salsa
+---
+TITLE: Arroz Con Pollo A La Tica
+CURRENT_DESCRIPTION: one of the most typical dishes in costa rica is arroz con (fill in the blank).  it can be chicken, beef, pork, or shrimp.  but most commonly it is made with chicken, because its affordable and many folks grow chickens in their backyards!
+
+this is my take on arroz con pollo - or chicken with rice.  my housekeeper has shared her lunch with me on many an occasion, and it is always wonderful.  last week, i finally asked her how to make it and she rattled off directions.  i don't know if i captured everything or not, but we think it tastes pretty good for a first try.
+
+this recipe includes a sauce called lizano.  i'm told it can be found in the hispanic section of some grocery stores in the states, or from specialty online retailers.  i don't know because i never knew this sauce until we moved to costa rica.  if i find a subsitution or a source, i'll edit this recipe to include the information.
+update:  couldn't find a source, but the closest you may come is worcestershire sauce.  just go easy on it, as lizano is not as strong tasting as worcestershire.
+enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, carrot, green beans, onion, red pepper, olive oil
+---
+TITLE: Arroz Con Pollo Burritos
+CURRENT_DESCRIPTION: these big rice and chicken burritos are easy to make and sure to please!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked chicken, long grain white rice, taco seasoning, water, tomato sauce, tomatoes
+---
+TITLE: Arroz Con Pollo Chapina  Guatemalan Chicken And Rice
+CURRENT_DESCRIPTION: an absolutely delicious guatamalan recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: skinless chicken pieces, corn oil, salt, black pepper, onion, garlic clove
+---
+TITLE: Arroz Con Pollo Salad
+CURRENT_DESCRIPTION: this is a delicious and healthy salad i like to have for dinner or lunch. i got it from women's health and fitness magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: romaine lettuce, cooked brown rice, mild chili pepper, tomatoes, cucumber, skinless chicken breasts
+---
+TITLE: Arroz Con Pollo Valenciana    Columbia Restaurant  Chicken
+CURRENT_DESCRIPTION: this is a recipe from the famous cuban "columbia restuarant" site. there are several restaurants here in the tampa area and a few other major florida cities.  my ds's girlfriend just loves this restaurant, so i looked online for their recipes and found them on their own site.  serve this along with the "columbia salad" recipe i posted, recipe#473755 for a true experience.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fryer chickens, onions, green pepper, tomatoes, garlic cloves, olive oil
+---
+TITLE: Arroz Con Pollo With Salsa Verde
+CURRENT_DESCRIPTION: 'tis the tale of yet another chicken who should have thought twice before she crossed the road.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole chickens, olive oil, salt & freshly ground black pepper, ground cumin, dried oregano, sweet paprika
+---
+TITLE: Arroz Con Pollo With Salsa Verde  Rice And Chicken Casserole
+CURRENT_DESCRIPTION: i think this one is from foodtv but i don't remember which program. the smell while it cooks will have your neighbors stopping by for a
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, fresh ground black pepper, ground cumin, mexican oregano, hungarian paprika, cayenne
+---
+TITLE: Arroz Con Pollo Y Frijoles
+CURRENT_DESCRIPTION: from the back of a rosarita refried beans can. kids were amazingly excited about it. i went mild on the ro-tel.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken thighs, garlic salt, fresh coarse ground black pepper, nonstick cooking spray, long-grain rice, tomatoes and green chilies
+---
+TITLE: Arroz Con Queso   Rice With Cheese  Bolivia
+CURRENT_DESCRIPTION: i used this recipe for week 32 of my food blog, "travel by stove." i am attempting to cook on meal from every nation on earth, and bolivia is my 32nd stop. unless otherwise noted, my travel by stove recipes are taken from authentic or traditional sources, and this recipe has been posted without any alternations or additions to the ingredients. this bolivian side dish is made with a fresh farmer's cheese; "kolla" (traditionally used) is saltier than queso fresco, so when making this be sure to taste and add salt according to your preferences.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: short-grain rice, queso fresco, garlic, red onion, milk, water
+---
+TITLE: Arroz Con Queso  Cheesy Rice
+CURRENT_DESCRIPTION: i combined a recipe a had from the monthly co-op newsletter and recipe no. 77683.  preparation does not include time to cook rice.  you can cheat and buy the frozen brown rice from trader joe's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked brown rice, black beans, garlic cloves, vegetable oil, onion, ground cumin
+---
+TITLE: Arroz Con Queso  Rice With Cheese
+CURRENT_DESCRIPTION: my friend jolene gave me this one. i think she got it from
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked rice, black-eyed peas, garlic, onion, chilies, ricotta cheese
+---
+TITLE: Arroz Con Salchichas  Vienna Sausages
+CURRENT_DESCRIPTION: make this recipe along with red beans and some sweet plantains on the side.  yuuuuummm!  from elboricua.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: long grain rice, sofrito sauce, sazon goya con culantro y achiote, vienna sausages, tomato sauce, salt
+---
+TITLE: Arroz Con Tofu
+CURRENT_DESCRIPTION: here's a veganized version of my mom's delicious arroz con pollo (mexican chicken and rice).  i was really craving it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tofu, olive oil, onion, garlic clove, thyme, nutmeg
+---
+TITLE: Arroz De Cabidela
+CURRENT_DESCRIPTION: this is a traditional portuguese chicken and rice dish. found on-line and posted for zaar world tour 5.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, chicken pieces, tomatoes, roasted red peppers, onions, garlic cloves
+---
+TITLE: Arroz De Coco E Papaia  Angola
+CURRENT_DESCRIPTION: this recipe is from week nine of my food blog, "travel by stove." i am attempting to cook one meal from every country on earth, and angola is my ninth stop. this is an angolan side dish made from rice, coconut milk and papayas.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice, salt, ground cinnamon, coconut milk, water, papaya
+---
+TITLE: Arroz De Marisco
+CURRENT_DESCRIPTION: arroz de marisco is a very well know recipe. there are many version of it. this is an easy and quite soupy one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned tomatoes, fish stock, olive oil, salsa verde, onion, garlic cloves
+---
+TITLE: Arroz De Mexico  Mexican Rice
+CURRENT_DESCRIPTION: another favorite from my little "low fat mexican recipes" book.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable oil, rice, fat free chicken broth, onion, green bell pepper, frozen peas
+---
+TITLE: Arroz de Tomate with Salmorejo
+CURRENT_DESCRIPTION: 46K likes, 0 comments - sophsplantkitchen on November 5, 2023: "Arroz de tomate 🇵🇹 inspired dish with Salmorejo, blistered cherry tomatoes and cashew pesto sauce @sophsplantkitchen @georgieeats
+
+This is our take on the simple, tasty tomato rice dish, adding the Spanish Salmorejo for an extra boost of flavour (inspired by @senhor.uva - a must visit if you’re in Lisbon) 
+
+We used pulped seasonal tomatoes from the local farmers market, but you can use whole chopped large tomatoes (no need to des
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 4 tbsp good quality olive oil, 0.5 whole large onion or small onion, finely diced, pinch salt, 0.5 whole red bell pepper, finely diced, 4 cloves garlic cloves, crushed, 0.5 whole fresh red chilli, finely diced
+---
+TITLE: Arroz Doce  Portuguese Sweet Rice
+CURRENT_DESCRIPTION: this was always a family staple and while searching the portuguese recipes, i noticed it wasn't there and i just have to add it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, white rice, milk, sugar, fresh lemon rind, cinnamon
+---
+TITLE: Arroz Guatemalteco
+CURRENT_DESCRIPTION: this is from guatamala.  this recipe came from mayantraditions.com. it is posted for zwt4.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: white rice, peanut oil, mixed vegetables, chicken broth, salt and pepper
+---
+TITLE: arroz imperial con pollo   imperial rice with chicken
+CURRENT_DESCRIPTION: a favorite recipe among miami-based cubans. it is ideal for a luncheon or even for a brunch(so they tell me) because it is light, yet flavorful. slightly labor-intensive but it is well worth the work. great comfort food! serve with an argentinian merlot trumpeter or beringer alluvium white. also, a nice salad of mixed greens and a deliciously cool fresh fruit dish. found on cooksrecipes.com where i was able to put the exact quantities along with the ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, bacon, olive oil, onions, green bell pepper, green onions
+---
+TITLE: Arroz Imperial Con Pollo   Imperial Rice With Chicken
+CURRENT_DESCRIPTION: a favorite recipe among miami-based cubans. it is ideal for a luncheon or even for a brunch(so they tell me) because it is light, yet flavorful. slightly labor-intensive but it is well worth the work. great comfort food! serve with an argentinian merlot trumpeter or beringer alluvium white. also, a nice salad of mixed greens and a deliciously cool fresh fruit dish. found on cooksrecipes.com where i was able to put the exact quantities along with the ingredients.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, bacon, olive oil, onions, green bell pepper, green onions
+---
+TITLE: Arroz Mexicana   Mexican Rice
+CURRENT_DESCRIPTION: this is a really good mexican rice recipe. i thought my kids would never want anything but the "spanish rice" that comes in a box, but as they grew their tastes matured too, thank goodness! i like to use fresh raw peas and corn kernels when possible. try this, i think you'll like it! update: thanks to my zaar friends rita and paula, i've edited my mistake in the amount of broth originally posted to 3 1/2 cups.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, olive oil, garlic clove, carrot, raw rice, dried ancho chile powder
+---
+TITLE: Arroz Moro  White Rice With Cuban Black Beans
+CURRENT_DESCRIPTION: black beans and rice cooked together with spices are one of the best side dishes to accompany any meal! i found this recipe while browsing the internet and it is so good!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black beans, cooked white rice, sofrito sauce, salt and pepper, cumin, oregano
+---
+TITLE: Arroz Na Gallinha
+CURRENT_DESCRIPTION: i made this recipe myself, specifically for the contest.  i tried it out at home, and it was delicious!  the spices were good, and it was very filling.  the rest of my family loved it, too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, yellow onion, chicken broth, chicken thighs, basmati rice, garlic powder
+---
+TITLE: Arroz Pilaf
+CURRENT_DESCRIPTION: when we cook tex-mex this recipe from cheryl and bill jamison is the one we use.  it is a fantastic side dish that has it's own wonderful  flavor - one that complements and doesn't compete with grilled meats, burritos, stews, tacos....whatever we serve.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: oil, garlic cloves, onion, rice, roma tomatoes, chili powder
+---
+TITLE: Arroz Tapado
+CURRENT_DESCRIPTION: this colombian dish features chicken and pork.  from the cooking blog my colombian recipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pork belly, pork ribs, chicken legs, rice, chicken stock, peas
+---
+TITLE: Arroz Verde  Green Rice
+CURRENT_DESCRIPTION: this is a very good rice to serve with enchiladas, or any mexican meal.  served with lime wedges, this goes really well with fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: poblano peppers, green bell pepper, long-grain white rice, garlic clove, fresh cilantro, flat leaf parsley
+---
+TITLE: Arroz Verde  Mexican Green Rice
+CURRENT_DESCRIPTION: nice mexican twist on boring old rice. if you can't find parboiled rice at your grocery store, long-grain rice may be substituted, but just won't be quite as yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken broth, poblano peppers, jalapeno, scallions, fresh cilantro, fresh parsley
+---
+TITLE: Arroz Verde Mexicano
+CURRENT_DESCRIPTION: mexican green rice. for this recipe, i tested morelos' rice from mexico. use regular long grain white rice if morelos' is not available. from better homes and gardens. sometimes spanish rice just doesn't cut it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh parsley leaves, fresh cilantro leaves, white onion, water, green chili pepper, lime juice
+---
+TITLE: Art Major Easy Oven Bbq Chicken
+CURRENT_DESCRIPTION: i made up this recipe the other night for my roommate and i when we were low on ingredients (and energy...) and it ended up being really good without being high in fat or calories.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breast halves, barbecue sauce, onion, reduced-fat cheddar cheese, garlic powder, fresh black pepper
+---
+TITLE: Art S Chili
+CURRENT_DESCRIPTION: this is our friend art's recipe and it is pretty darn good, and fairly easy to make.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ground chuck, yellow onion, chili beans, diced tomatoes, tomato sauce, tomato paste
+---
+TITLE: Art S French Bread  Not Bread Machine
+CURRENT_DESCRIPTION: a recipe i got from a boss of mine years ago. use low-fat yogurt if you want a more sour taste. cooking time includes both time for dough to rise twice and time for baking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: yogurt, hot water, yeast, salt, sugar, gluten flour
+---
+TITLE: Art S Funky Grilled Cheese
+CURRENT_DESCRIPTION: i got the idea for this sandwich from art's tavern in glen arbor, mi.  it's so delicious, one of my favorite ways to eat grilled cheese.  for best results, use real cheese, not processed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bread, swiss cheese, american cheese, tomatoes, onion, banana pepper
+---
+TITLE: Art Smith S Goat Cheese Drop Biscuits
+CURRENT_DESCRIPTION: this recipe is by oprah's former chef who now owns table fifty-two, a restaurant in chicago. these biscuits are served to their diners. they are a fairly flat biscuit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: self-rising flour, baking powder, baking soda, salt, butter, goat cheese
+---
+TITLE: Arthur Treacher S Fish
+CURRENT_DESCRIPTION: found on the web in response to a recipe request.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fish fillets, all-purpose flour, pancake mix, club soda, onion powder, seasoning salt
+---
+TITLE: Artichoke   Black Olive Baked Chicken
+CURRENT_DESCRIPTION: simple simple simple...takes no time to prepare. serve with your favorite potato casserole and a some coleslaw.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, marinated artichoke hearts, sliced ripe olives, chicken broth, fresh tarragon
+---
+TITLE: Artichoke   Cannellini Bean Dip
+CURRENT_DESCRIPTION: served with crispy toasted bagel crisps.
+from australian good taste magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bagels, olive oil, cannellini beans, marinated artichokes, spring onions, salt & freshly ground black pepper
+---
+TITLE: Artichoke   Cheese Dip
+CURRENT_DESCRIPTION: i know there are lots of artichoke dip recipes around, but this one is my favorite!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mozzarella cheese, parmesan cheese, mayonnaise, artichoke hearts, onion, salt
+---
+TITLE: Artichoke   Cheese Strudel
+CURRENT_DESCRIPTION: your friends will love you for making these artichoke appetizers! they are worth the effort. great do ahead recipe, they freeze well i like to use 1 6oz jar in oil and 2 6oz jars in water or you may substitute 1 10 oz can for 2 6 oz jars. it works even if you are 2 oz short. be sure to drain extremly well or the filling will be mushy
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, onion, garlic, cream cheese, cottage cheese, eggs
+---
+TITLE: Artichoke   Cranberry Stuffing
+CURRENT_DESCRIPTION: for easier chopping, freeze cranberries and chop with food processor fitted with metal blade. those little suckers like to get away from you. also, i don't generally like to stuff a bird out of the fear of food poisoning. other well seasoned chefs know what they're doing though, so i included those instructions too. i like to use rachel ray's tip using muffin tins for individual 'stuffin muffins'.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, carrots, onion, breadcrumbs, cranberries, dried thyme
+---
+TITLE: Artichoke   Garlic Linguine
+CURRENT_DESCRIPTION: if you love artichokes and garlic, you'll enjoy this dish. i adapted it from a dish a friend makes. i serve it as a side dish with baked chicken. i sometimes throw in some peeled shrimp for a different taste and it becomes a main dish. a good salad and some crusty bread makes it a good meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: linguine, marinated artichoke hearts, garlic, dried basil leaves, dried oregano leaves, dried thyme leaves
+---
+TITLE: Artichoke   Onion Frittata
+CURRENT_DESCRIPTION: frittata for lunch?
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, brown onion, marinated artichoke hearts, eggs, garlic clove, salt & freshly ground black pepper
+---
+TITLE: Artichoke   Rice  Salad
+CURRENT_DESCRIPTION: this is my absolute favorite dish! it is different but very yummy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken rice-a-roni, green onions, green pepper, black olives, marinated artichoke hearts, marinade
+---
+TITLE: Artichoke   Rice Salad
+CURRENT_DESCRIPTION: my mom always makes this for any lunch or brunch we have at her house. it is delicious and is always a big hit. i like to make it a day ahead to give the flavors time to marry.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: uncle ben, ,, ,, ,, ,, ,
+---
+TITLE: Artichoke   Shrimp Casserole W  A Scandinavian Twist
+CURRENT_DESCRIPTION: dill is very popular in scandinavia. my family really liked this. dh described it as "comforting and all the flavors go together great!"  posted for zwt6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: linguine, shrimp, cream cheese, green onions, dill, lemon juice
+---
+TITLE: Artichoke   Spinach Bruschetta
+CURRENT_DESCRIPTION: this recipe is similar to the spinach & artichoke dip everyone loves--it comes together quickly and can easily be doubled or tripled, depending on your needs. from toh.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, romano cheese, plum tomato, red onion, baby spinach, mayonnaise
+---
+TITLE: Artichoke   Spinach Dip
+CURRENT_DESCRIPTION: the marinated artichokes add a little bit of tang. i created this because i wanted something unusual and with more zip.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, sour cream, ranch dressing mix, frozen spinach, marinated artichoke hearts, red onion
+---
+TITLE: Artichoke   Spinach Dip  No Mayo
+CURRENT_DESCRIPTION: i have an aversion to mayo (even if it is hidden in dips). i found this recipe about 5 years ago and it is now a holiday staple. yummy with tortilla chips, pita slices or even smeared on french bread!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen creamed spinach, marinated artichoke hearts, artichoke heart, cream cheese, onion, parmesan cheese
+---
+TITLE: Artichoke   Spinach Dip From J  Baldwin S
+CURRENT_DESCRIPTION: this is one of many recipes from jeff baldwin's restaurants in clinton twps, mi. i have taken many of jeff's culinary classes which are such fun !!
+it is our favorite friday night, have to get out, place to go !! jeff serves great food, has the best staff from anywhere else we go. we usually sit in the bar area where we can have a full dinner, or just appetizers. jeff just added tapas to his great menu !! you will see me posting many of his recipes which i have made everyone of them myself at home ! enjoy 
+( jeff also uses this dip for a stuffing with fish or chicken. he also stuffs it into artichoke bottoms or wraps it in phyllo dough !! )
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, baby spinach, breadcrumbs, mayonnaise, parmesan cheese, garlic
+---
+TITLE: Artichoke   Turkey Country Salad
+CURRENT_DESCRIPTION: serve italian bread or hard rolls with this main dish salad. this is also a perfect salad to serve using leftover roast turkey, chicken, pork or beef...any of which will work nicely.  recipe courtesy of cooksrecipes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, balsamic vinegar, fresh coarse ground black pepper, mixed greens, button mushrooms, deli turkey
+---
+TITLE: Artichoke   White Bean Soup
+CURRENT_DESCRIPTION: if you love beans, you will love this recipe.  i also used a can of great northern beans and omitted the croutons to lower the calories.  [adapted from the culinary institute of america].
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, cannellini beans, garlic clove, olive oil, low sodium chicken broth, salt
+---
+TITLE: Artichoke  Cauliflower   Shrimp Ensalata
+CURRENT_DESCRIPTION: this serves 2 as the main meal or 4 as a side salad.lovely combination of flavors. do not over cook the cauliflower and make sure it is cool before tossing with other ingredients
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cauliflower, water-packed artichoke hearts, pitted black olives, fresh shrimp, lettuce leaf, lemon, rind of
+---
+TITLE: Artichoke  Chicken Casserole
+CURRENT_DESCRIPTION: this is an easy dish, but nice enough for company. my bunko group raved about it! serve it with a ceasar salad and crusty bread. i got it from meals.com - no author was listed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, mushroom, green onion, butter, garlic salt, artichoke hearts
+---
+TITLE: Artichoke  Garlic Parmesan Dip
+CURRENT_DESCRIPTION: this recipe is a hit wherever i take it. i copied it from a friend at a baby shower because i liked it so much. i love it for its simplicity and great taste!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, parmesan cheese, mayonnaise, garlic, wheatables crackers
+---
+TITLE: artichoke  jalapeno and parmesan dip
+CURRENT_DESCRIPTION: this dip looks really good - it sounds like one that we enjoy from costco. you can change the heat of this depending upon how much jalapeno you add.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, parmesan cheese, jalapenos, marinated artichoke hearts, tabasco sauce, kosher salt
+---
+TITLE: Artichoke  Jalapeno And Parmesan Dip
+CURRENT_DESCRIPTION: this dip looks really good - it sounds like one that we enjoy from costco. you can change the heat of this depending upon how much jalapeno you add.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, parmesan cheese, jalapenos, marinated artichoke hearts, tabasco sauce, kosher salt
+---
+TITLE: Artichoke  Leek  And Ham Quiche Filling
+CURRENT_DESCRIPTION: only one word describes this quiche....wow!!  it is so flavorful and rich that it is best served as an appetizer.   use with the quiche crust #200939.  both are from jan roberts-doninguez's "the onion cookbook".
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, garlic cloves, leek, ham, swiss cheese, parmesan cheese
+---
+TITLE: Artichoke  Lemon   Parmesan Pasta
+CURRENT_DESCRIPTION: a simple pasta supper that's packed with italian flavor.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, marinated artichoke hearts, lemon, parmesan cheese, basil, olive oil
+---
+TITLE: Artichoke  Olive And Goat S Cheese Pizza
+CURRENT_DESCRIPTION: a simple after-work dinner, low in fat, easy to prepare, delicious and inexpensive.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: prepared pizza crust, pasta sauce, marinated artichokes, kalamata olives, garlic clove, goat
+---
+TITLE: Artichoke  Pancetta And Spinach Frittata
+CURRENT_DESCRIPTION: great accompanied by fresh fruit and mimosas made with prosecco.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, pancetta, shallot, fresh spinach, eggs, artichoke hearts
+---
+TITLE: Artichoke  Pesto   Sun Dried Tomato Pizza With Three Cheeses
+CURRENT_DESCRIPTION: i used to bartend at romano's macaroni grill.  i thought their food was gross and it really is among the unhealthiest food you can find, but i enjoyed their basil pesto chicken pizza, which i ate often.  i don't think it's even on the menu anymore, and it's been years since i've had it so i wouldn't call this recipe as an exact copycat... but it's close enough for me.  i include artichokes and red pepper flakes, which mac grill did not use. the chicken is pretty much optional- i often make this vegetarian.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pizza dough, mozzarella cheese, parmesan cheese, chicken breast, artichoke hearts, sun-dried tomato
+---
+TITLE: artichoke  potato  and cheese casserole
+CURRENT_DESCRIPTION: this dish is a little different. think of it as potatoes au gratin with artichokes added. it's hearty, rich, and very satisfying! from chef paul prudhomme's fiery foods that i love cookbook. enjoy! you can replace the 4 artichokes with 2 cans of artichoke hearts to make this quicker.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salt, dried basil, caraway seeds, paprika, dried hot chili peppers, dried thyme
+---
+TITLE: Artichoke  Provolone Cheese And Salami Sandwiches
+CURRENT_DESCRIPTION: this is a yummy sandwich! i like to use foccacia bread instead of the rolls. also, i just use the oil from the artichokes and sun-dried tomatoes instead of adding the evoo. sometimtes i add mayo on 1 side of the bread, as i am a mayo addict. lol prep time does not include refrigeration time. adapted from bon appétit,  august 2003. hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, sun-dried tomato packed in oil, parmesan cheese, fresh basil, extra virgin olive oil, italian rolls
+---
+TITLE: Artichoke  Red Pepper   Potato Salad
+CURRENT_DESCRIPTION: a beautiful and delicious potato salad served mildly chilled or at room temperature.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichokes, red peppers, red potatoes, green onion, fresh lemon juice, salt and pepper
+---
+TITLE: Artichoke  Spinach   Asiago Casserole
+CURRENT_DESCRIPTION: entered for rsc#11. my friends at work loved it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, fresh spinach, shallots, garlic, butter, flour
+---
+TITLE: Artichoke  Spinach   Feta Stuffed Shells
+CURRENT_DESCRIPTION: from the december 2006 cooking light. sounds awesome and i didn't want to lose track of it. i hope you enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dried oregano, pepperoncini pepper, fire-roasted tomatoes, no-salt-added tomato sauce, provolone cheese, feta
+---
+TITLE: Artichoke  Spinach   Sun Dried Tomato Dip
+CURRENT_DESCRIPTION: update: my recipe was just published in the taste of home holidays & celebrations 2011 cookbook.
+tangy & creamy, this artichoke dip boasts the colorful addition of sun-dried tomatoes. serve with plain or multi-grain baked tortilla chips.  developed for ready set cook #11 - january 2008
+update 2/27/2013:  thanks to racrgal for a really productive conversation regarding making this recipe in advance.  that led me to run a series of tests.  *i made four versions and found that it can be made a day in advance and refrigerated before baking, or made months in advance; frozen and then thawed before baking.  both oil-packed and dry-packed sun-dried tomatoes were tested to make sure the oil did not cause bleeding during thawing.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, mayonnaise, shallots, garlic, artichoke hearts, frozen spinach
+---
+TITLE: Artichoke Ale Dip
+CURRENT_DESCRIPTION: from jim coleman, host of the flavors of america on pbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen artichoke hearts, cream cheese, ale, parmesan cheese, breadcrumbs, egg whites
+---
+TITLE: Artichoke And Asparagus Salad
+CURRENT_DESCRIPTION: from italy.  time does not include chilling time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, asparagus, salt water, egg, heavy cream, mayonnaise
+---
+TITLE: Artichoke And Bacon Dip
+CURRENT_DESCRIPTION: this dip is so tangy and delicious that it willdisappear quickly so you may want to double the recipe!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, mayonnaise, lemon juice, bacon, onions
+---
+TITLE: Artichoke And Broccoli Frittata   Crustless Quiche
+CURRENT_DESCRIPTION: a frittata (also known as crustless quiche) is a perfect palette for colorful vegetables and strongly flavored cheeses. what i love about frittatas is that they are one of the few egg dishes that are delicious at room temperature and can be stored in the refrigerator (or even frozen) for days. this one is not just for breakfast - try it for lunch or dinner with a salad or steamed veggies. eat hot or at room temperature - leftovers can be heated in toaster oven or microwave. i designed this recipe to be gluten-free, using my homemade fresh gluten-free italian breadcrumbs - but you can use any type of breadcrumbs you like.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, milk, marinated artichoke hearts, fresh broccoli florets, garlic cloves, onion
+---
+TITLE: Artichoke And Cannellini Bean Dip
+CURRENT_DESCRIPTION: serve with grissini
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, cannellini beans, parmesan cheese, flat leaf parsley, olive oil
+---
+TITLE: Artichoke And Cheese Dip
+CURRENT_DESCRIPTION: ooey gooey and so good.  i got this recipe from my cross-country coach in college (ironic, yes).  we all ate it up.  he served it with frito's.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheddar cheese, cream cheese, sour cream, green onions, garlic powder, butter
+---
+TITLE: Artichoke And Chicken Bake
+CURRENT_DESCRIPTION: this easy but elegant entree first appeared in "quick cooking" magazine. someone posted this at the somersize website, which is where i found it. i usually have this over a bed of fried spinach or zucchini ribbons.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water-packed artichoke hearts, parmesan cheese, mayonnaise, garlic powder, boneless skinless chicken breast halves
+---
+TITLE: Artichoke And Chicken Casserole
+CURRENT_DESCRIPTION: this is one of my favorite meals to make and take for lunch the next day. it won first place at the county fair.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, salt and pepper, olive oil, artichoke hearts in brine, cream of chicken soup, water
+---
+TITLE: Artichoke And Corn Salsa
+CURRENT_DESCRIPTION: a different type of salsa from the usual tomato based salsa but this is a great way to use artichokes during artichoke season using the leaves (or chips) as dippers. recipe source: shoppers newsletter.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, ears of corn, red bell pepper, onion, jicama, serrano chilies
+---
+TITLE: Artichoke And Crab Toasts
+CURRENT_DESCRIPTION: this is a very easy recipe with a lot of flavor. the english muffins can be replaced with baguettes, french bread, or other base.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichokes, crabmeat, mayonnaise, onion, parmesan cheese, english muffins
+---
+TITLE: Artichoke And Fennel Caponata
+CURRENT_DESCRIPTION: i love caponata and this is such a colorful and interesting alternative to the classic eggplant version.  this is going on my holiday cocktail party buffet with crostini.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, celery, fennel bulb, garlic cloves, golden raisin
+---
+TITLE: Artichoke And Fennel Salad
+CURRENT_DESCRIPTION: a great antipasta.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fennel bulbs, artichoke hearts, tomatoes, brine-cured black olives, anchovy fillet, olive oil
+---
+TITLE: Artichoke And Garbanzo Bean Dip   Sandra Lee
+CURRENT_DESCRIPTION: from semi-homemade, sandra lee.  a friend brought this to a gathering recently and was kind enough to share the recipe.  better than hummus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garbanzo beans, artichoke hearts, italian salad dressing mix, extra virgin olive oil, fresh lemon juice, bread round
+---
+TITLE: Artichoke And Garbanzo Stew
+CURRENT_DESCRIPTION: found this in sunset magazine. it says it's good over rice or with slices of hearty bread. add a tossed salad and it's a meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, salt, garlic cloves, red chili pepper flakes, carrots
+---
+TITLE: Artichoke And Garlic Dip
+CURRENT_DESCRIPTION: people rave about this very simple dip when i take it to parties or serve it at my own.  i like it because it's so simple and always a hit.  i got this recipe from a friend in the 80's.  i don't know the origins.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, parmesan cheese, oil, garlic cloves, round loaf italian bread
+---
+TITLE: Artichoke And Goat Cheese Calzette
+CURRENT_DESCRIPTION: from an old bunco friend....main ingredients that i dearly love, so you can't go wrong with this one imo!  (can also sub crab meat for the artichokes - have never done this, but it should be delish!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, goat cheese, monterey jack cheese, ricotta cheese, garlic cloves, fresh parsley
+---
+TITLE: Artichoke And Green Olive Dip
+CURRENT_DESCRIPTION: this recipe came from lauren and ann purcell
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, extra virgin olive oil, fresh lemon juice, garlic clove, green olives, fresh ground pepper
+---
+TITLE: Artichoke And Jack Dip With Pita Chips
+CURRENT_DESCRIPTION: i am a huge fan of dips. i came across this one, and i swear, once i have time, i'll try it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, taco seasoning mix, pita breads, mayonnaise, cream cheese, garlic salt
+---
+TITLE: Artichoke And Mushroom Italian  Style
+CURRENT_DESCRIPTION: this is a little twist from the normal artichoke casserole we normally find because of the added tomato an pine nuts. nice combo of flavors, makes this dish tasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushroom, butter, white wine, artichoke hearts, bacon, tomato sauce
+---
+TITLE: artichoke and mushroom lasagna
+CURRENT_DESCRIPTION: i found this recipe at epicurious.com and i'm definitely going to have to try it soon. my mouth is watering!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, mushroom, garlic cloves, frozen artichoke hearts, dry vermouth, all-purpose flour
+---
+TITLE: Artichoke And Mushroom Lasagna
+CURRENT_DESCRIPTION: i found this recipe at epicurious.com and i'm definitely going to have to try it soon. my mouth is watering!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, mushroom, garlic cloves, frozen artichoke hearts, dry vermouth, all-purpose flour
+---
+TITLE: Artichoke And Mushroom Pasta
+CURRENT_DESCRIPTION: i got this on a card from the grocery store.  i have not tried it yet, but am posting it here for safe keeping.  let me know how it turns out!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rotini pasta, olive oil, mushrooms, garlic cloves, dried oregano, frozen artichoke hearts
+---
+TITLE: Artichoke And Olive Marinara Sauce
+CURRENT_DESCRIPTION: a fast and tasty sauce for a pasta supper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, onion, pepperoncini peppers, olive oil, dry white wine, plum tomatoes
+---
+TITLE: Artichoke And Pasta Salad
+CURRENT_DESCRIPTION: from cooking light magazine. i love cold salads in the summertime. this one is exceptional. i often use the artichokes hearts in the jar with olive oil and spices already in it. you may need to adjust for that unless using the plain hearts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, olive oil, water, lemon juice, dried basil, dried oregano
+---
+TITLE: Artichoke And Pine Nut Pesto
+CURRENT_DESCRIPTION: here is a delicious and very simple pesto recipe by gwyneth paltrow. it's great as a spread for good bread or crackers!  i really love this quick and easy pesto. it's a winner!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke heart, pine nuts, extra virgin olive oil, garlic clove, parmesan cheese, coarse salt
+---
+TITLE: Artichoke And Potato Hash
+CURRENT_DESCRIPTION: now i hope that everyone remembers growing up making roast beef, corned beef or chicken hash.  throw in a little of this, a little of that ... carrots, potatoes, celery, some gravy or broth, some seasoning, etc and presto.  throw a couple of eggs on top and dinner was served.  well this is more of a hash i love to serve with grilled steak rather than a main course, but it is still a method.  now i like to make a large batch of this, but if you just want a small side dish or want to make it more of a main course it is easy to adjust.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, red potatoes, onions, scallions, capers, garlic
+---
+TITLE: Artichoke And Prosciutto Panini
+CURRENT_DESCRIPTION: originally from "food & wine" 10/2000
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ciabatta rolls, extra virgin olive oil, salt & freshly ground black pepper, prosciutto, artichoke hearts, arugula leaves
+---
+TITLE: Artichoke And Red Pepper Frittata  Ww 4 Points
+CURRENT_DESCRIPTION: so versatile, i could eat eggs for breakfast, lunch and dinner.  that sentiment seems to be widely shared given the number of dishes from the world over featuring this staple. this italian dish is my take on a weight watcher's recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil flavored cooking spray, onion, garlic clove, potato, artichoke hearts, roasted red pepper
+---
+TITLE: Artichoke And Red Pepper Risotto
+CURRENT_DESCRIPTION: i love risotto! the vegetarian broth is vital to give it flavour - i use a broth concentrate and use twice the amount for risotto. the colour is equally important so consider a mix of red/green/yellow/orange peppers. make sure your risotto is a little bit 'wet' in the end, so the dish doesn't get dried out and pasty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: vegetable broth, red bell pepper, artichoke heart, olive oil, onion, arborio rice
+---
+TITLE: Artichoke And Ripe Olive Tuna Salad
+CURRENT_DESCRIPTION: an unusual and rich flavor combination! serve this salad with sliced tomato on a bed of lettuce or on french bread. adapted from delish on msn.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chunk light tuna, canned artichoke heart, ripe olives, mayonnaise, lemon juice, fresh oregano
+---
+TITLE: Artichoke And Smoked Gouda Crustless Quiche
+CURRENT_DESCRIPTION: simple and elegant quiche - wonderful low-calorie meal or appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, parmesan cheese, smoked gouda cheese, shallots, egg whites, egg substitute
+---
+TITLE: Artichoke And Soybean Soup
+CURRENT_DESCRIPTION: this is a lovely simple recipe from andrew weil. totally healthy!....and so fast to make. i added just a bit of my own style.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, soybeans, sweet onion, garlic, fresh gingerroot, olive oil
+---
+TITLE: Artichoke And Spinach Salad
+CURRENT_DESCRIPTION: yum
+
+chilling time not included in preparation time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh spinach, salad oil, garlic flavored vinegar, artichoke hearts, roquefort cheese
+---
+TITLE: Artichoke And Sun Dried Tomato Quiche
+CURRENT_DESCRIPTION: a nice combination of ingredients in this quiche.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: eggs, half-and-half, garlic cloves, salt, fresh ground pepper, monterey jack cheese
+---
+TITLE: Artichoke And Tomato Pasta Sauce
+CURRENT_DESCRIPTION: a good alternative to the store bought sauces.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes with juice, artichoke heart, white wine, garlic, onion soup mix, tomato paste
+---
+TITLE: Artichoke And Tuna Panini With Garbanzo Bean Spread
+CURRENT_DESCRIPTION: i saw this on the cooking channel. looked yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garbanzo beans, garlic, of fresh mint, lemon zest, lemon juice, olive oil
+---
+TITLE: Artichoke And Zucchini Salad
+CURRENT_DESCRIPTION: marinated zucchini and artichokes tossed with romaine and fresh mushrooms
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: zucchini, artichoke hearts, romaine lettuce, parsley, fresh mushrooms, olive oil
+---
+TITLE: Artichoke Appetizer Dip
+CURRENT_DESCRIPTION: from my church's cookbook. i think it would be good served with toasted pita bread or tortilla chips. haven't tried it yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, mayonnaise, parmesan cheese, mozzarella cheese, garlic salt
+---
+TITLE: Artichoke Appetizers
+CURRENT_DESCRIPTION: artichokes, garlic and cheese what a nice way to start off your holiday parties!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated crescent dinner rolls, mozzarella cheese, romano cheese, mayonnaise, garlic clove, artichoke hearts
+---
+TITLE: Artichoke Asiago Squares
+CURRENT_DESCRIPTION: recipe by the amazing anna olsen.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichokes, frozen spinach, onion, garlic clove, lemon juice, fresh oregano
+---
+TITLE: Artichoke Avocado Shrimp Salad
+CURRENT_DESCRIPTION: the shrimp, artichoke bottoms and avocados just combine to make such a wonderful summer salad ....  wow.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooked shrimp, artichoke bottoms, tomatoes, green onion tops, fresh basil, avocado
+---
+TITLE: Artichoke Babies With Shrimp And Feta
+CURRENT_DESCRIPTION: a wonderful appetizer! baby artichokes with shrimp with feta in a garlic vinagrette. i've even added fresh wilted spinach. :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby artichokes, salt, lemon juice, flour, extra virgin olive oil, garlic cloves
+---
+TITLE: Artichoke Bacon Potato Salad
+CURRENT_DESCRIPTION: i created this recipe because i tasted an artichoke and bacon pasta salad i liked and thought that the same concept would be good as a potato salad. this can be made more healthy by using fat-free mayo and turkey bacon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: potatoes, mayonnaise, garlic, marinated artichoke hearts, parmesan cheese, onion
+---
+TITLE: Artichoke Baked Ziti
+CURRENT_DESCRIPTION: diet, who is on a diet, not me. i found this recipe on another web site and made it with low fat substitutes and it was beyond creamy and rich and decadent. try it!! i cut the recipe in half and it still served 6.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, ziti pasta, mayonnaise, sour cream, green onion, parmesan cheese
+---
+TITLE: Artichoke Balls
+CURRENT_DESCRIPTION: they are soooooooooo good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cheese, eggs, breadcrumbs, onion, mixed cheese, garlic
+---
+TITLE: Artichoke Bean Dip
+CURRENT_DESCRIPTION: this is really good and takes no time at all to make. eat on toasted bread or carrot and celery sticks. you can also try it as a spread for a wrap with grilled chicken and tomato slices. toss with pasta for an instant pasta sauce.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: navy beans, marinated artichoke hearts, lemon juice, garlic clove, green onions, salt and pepper
+---
+TITLE: Artichoke Benedict
+CURRENT_DESCRIPTION: i love artichokes and eggs benedict. when i found this recipe i immediatly made it for breakfast the next morning. it is a beautiful and elegant breakfast dish that is great for a special occasion or romatic morning.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, canadian bacon, eggs, egg yolks, water, lemon juice
+---
+TITLE: Artichoke Bisque
+CURRENT_DESCRIPTION: this recipe is a wonderful cold day soup but also light enough for spring and summer meals.  perfect with a grilled cheese sandwich or salad.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water-packed artichoke hearts, cream of celery soup, chicken broth, half-and-half, lemon, juice of, italian salad dressing mix
+---
+TITLE: Artichoke Blue Cheese Butter
+CURRENT_DESCRIPTION: canned artichokes with blue cheese butter dressing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned artichoke hearts, butter, blue cheese, garlic clove, shallot, lime
+---
+TITLE: Artichoke Bread
+CURRENT_DESCRIPTION: this always gets rave reviews. great as an accompaniment to any meal or as an appetizer.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, garlic cloves, butter, marinated artichoke hearts, monterey jack cheese, sour cream
+---
+TITLE: Artichoke Breakfast Burritos
+CURRENT_DESCRIPTION: this recipe won the fresh artichoke recipe contest in castroville california and was created by julia perez magana.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bulk italian sausage, olive oil, onion, garlic clove, jalapeno, tomatoes
+---
+TITLE: Artichoke Brie Dip
+CURRENT_DESCRIPTION: this dip is total decadence for artichoke or brie lovers!  served warm with party rye, sourdough bread or crackers, it is sure to be a hit! you can use marinated or water pack artichokes depending on your personal preference.  i remove the rind from the brie prior to use.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, cream cheese, mayonnaise, green onions, oregano, salt
+---
+TITLE: Artichoke Bruschetta
+CURRENT_DESCRIPTION: a really great tapa that will get you many compliments. really simple to make. the original recipe was by roxanne. i have served this at many of my "wine and tapa" parties and was always pleased by the response.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, tomatoes, romano cheese, red onion, garlic cloves, mayonnaise
+---
+TITLE: Artichoke Caviar
+CURRENT_DESCRIPTION: this tart and tangy appetizer is made from finely chopped artichokes combined with other tasty greek favorites.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke heart, feta cheese, chopped pimiento, onions, garlic, lemon juice
+---
+TITLE: Artichoke Cheese Balls
+CURRENT_DESCRIPTION: mama's artichoke cheese balls.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, olive oil, garlic cloves, eggs, breadcrumbs, parmesan cheese
+---
+TITLE: Artichoke Cheese Dip
+CURRENT_DESCRIPTION: there are a lot of dip recipes out there, but this one is my all-time favorite.  it is so easy to make and the recipe is always requested.  you better sample it before you put it out for your guests because there won't be any left for you later.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, parmesan cheese, water-packed artichoke hearts, sour cream, cream cheese, garlic cloves
+---
+TITLE: Artichoke Cheese Oven Omelet
+CURRENT_DESCRIPTION: you will love this cheesy artichoke omelet and appreciate the easy cleanup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: salsa, water-packed artichoke hearts, monterey jack cheese, cheddar cheese, parmesan cheese, eggs
+---
+TITLE: Artichoke Cheese Quiche
+CURRENT_DESCRIPTION: description missing
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: 24 soda crackers, crushed, 2 jars marinated artichoke hearts, drained and chopped, 3 or 4 green onions, minced, 1 c. grated Cheddar cheese, 1 c. grated Jack cheese, 3 eggs
+---
+TITLE: Artichoke Cheese Spread
+CURRENT_DESCRIPTION: too bad i'm the only one in my house that likes artichokes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, green onion top, artichoke hearts, parmesan cheese, garlic cloves, olive oil
+---
+TITLE: Artichoke Cheesecake
+CURRENT_DESCRIPTION: another impressive appetizer from houston jr. league, stop and smell the rosemary. display on a raised cake stand for a beautiful presentation. calls for 8 sheets phyllo dough, but for some reason i mistakenly only used 4, and it turned out just fine, just with a thinner crust!  also, although i made this according to the recipe specifications, i think next time i might use an entire 6 oz. jar of marinated artichokes, rather than just the 3 oz. - just fyi!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: unsalted butter, phyllo dough, marinated artichoke hearts, cream cheese, feta cheese, fresh oregano
+---
+TITLE: Artichoke Chicken   Sandra Lee  Semi Homemade
+CURRENT_DESCRIPTION: this recipe is from the august/september issue of sandra lee's magazine. it is so delicious and so unique. this is great for having company over as it is a great presentation, is tasty and is pretty easy to make. the lemon zest makes it as does the capers, spinach and bacon pieces. oh so good.
+impress the in-laws, dinner party guests or just you. enjoy chefdlh
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: all-purpose flour, salt, ground black pepper, boneless skinless chicken thighs, extra virgin olive oil, chicken broth
+---
+TITLE: Artichoke Chicken Bake
+CURRENT_DESCRIPTION: i got this recipe from the label on a can of artichokes. the sauce is really tasty -- kind of tex mex. i like to sprinkle with cheese after it comes out of the oven. beware of adding salt to this recipe as the soup, salsa, olives and cheese have plenty.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: condensed golden mushroom soup, green chili salsa, cumin, boneless skinless chicken breasts, artichoke hearts, black olives
+---
+TITLE: Artichoke Chicken Calzones
+CURRENT_DESCRIPTION: i found this one in a cooking light article and i just finished eating seconds. which is something i usually can refrain from doing. but this was so yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, salt, black pepper, minced garlic clove, fresh spinach leaves, provolone cheese
+---
+TITLE: Artichoke Chicken Pasta W Sun Dried Tomatoes
+CURRENT_DESCRIPTION: found in a taste of home quick cooking i use whole wheat pasta good and easy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: bow tie pasta, boneless skinless chicken breasts, dried oregano, salt, pepper, olive oil
+---
+TITLE: Artichoke Chicken Saute
+CURRENT_DESCRIPTION: adapted from quick cooking magazine.  this is a good recipe when you need a very quick-to-fix meal on the table.  i have made it with the chicken broth option, as i didn't have white wine the night i made it (i don't drink, so unless i buy wine for a recipe - it's not something i have readily available in the pantry). i used shrimp and with the chicken broth, i thought it was a bit bland and added 1/2 tsp. garlic powder (rounded), 1/4 tsp. onion powder (rounded), and 1/2 cup parmesan cheese to make it more to our liking.  i also used evaporated fat free milk instead of the heavy cream to make it lighter and more healthy.  if you use the wine, you may not need these extra additions.  the magazine also suggests using broccoli or asparagus in place of the artichike hearts, if desired.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, sweet red pepper, butter, cooked chicken, marinated artichoke hearts, fresh mushrooms
+---
+TITLE: Artichoke Chickpea Hummus
+CURRENT_DESCRIPTION: a great low fat hummus.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, chickpeas, greek yogurt, water, lemon juice, dried parsley
+---
+TITLE: Artichoke Chowder
+CURRENT_DESCRIPTION: vegan chowder
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, garlic cloves, shallot, vegetable stock, butter, milk
+---
+TITLE: Artichoke Crab Bake
+CURRENT_DESCRIPTION: from a can of "fanci food premium gourmet artichoke hearts."  i used fat-free mayo and reduced fat cheese, and i added fresh mushrooms, garlic, thyme, and a dash of old bay.  make it your own!  this is easy, elegant, versatile, and healthy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: lump crabmeat, swiss cheese, green pepper, onion, salt, mayonnaise
+---
+TITLE: Artichoke Crab Spread  For The Crock Pot
+CURRENT_DESCRIPTION: this is a great tasting dip that can be put together quickly.  it has a thick spread consistency, but can easily be thinned with milk for dip with chips based on personal preference.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, cream cheese, green onions, imitation crabmeat, parmesan cheese, lemon juice
+---
+TITLE: Artichoke Crostini
+CURRENT_DESCRIPTION: this is an excellent, quick, appetizer. impress your guests with this crowd pleaser. doubles and triples really well. you will love it!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baguette, marinated artichoke hearts, hearts of palm, mayonnaise, sour cream, parmesan cheese
+---
+TITLE: Artichoke Dip
+CURRENT_DESCRIPTION: yummm.... posted in reply to request.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, sour cream, cream cheese, parmesan cheese, salt
+---
+TITLE: Artichoke Dip Bread  Slice And Serve
+CURRENT_DESCRIPTION: this one is from a blog called closet cooking and it looks divine! you bake the dip on top of the bread so all you have to do is bake, slice and serve!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, green onions, garlic cloves, cream cheese, mayonnaise, sour cream
+---
+TITLE: Artichoke Dip That S Always In Demand
+CURRENT_DESCRIPTION: this dip came from a family friend about 7 years ago. its the most requested item i've ever seen. people always expect me to make it for every little event and get quite upset when there isn't a "warm dip item" about. i tend to keep the ingredients on hand so i can whip up a batch if its called for.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: round sourdough loaf, mayonnaise, parmesan cheese, artichoke hearts packed in oil, garlic cloves
+---
+TITLE: Artichoke Dip With Parmesan And Mozzarella
+CURRENT_DESCRIPTION: i had this dip at my dad's house during christmas.  it was really delicious, and normally i don't even like mayo based dips!  we ate it with crackers, bread, and tortilla chips.  this is made in the microwave, but if you like all the crusty stuff on top, stick it under the broiler for a minute or two afterwards to brown it.  since i have not made this myself yet and the recipe as written does not have cooking times, the cooking time is a guess, but i would just cook it a minute or two at a time and keep a close watch on it.  i did a search and looked through all the relevant matches here for artichoke dip, and did not find this one.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, mozzarella cheese, light mayonnaise, parmesan cheese, onions, tabasco sauce
+---
+TITLE: Artichoke Fajitas
+CURRENT_DESCRIPTION: a very different kind of fajita.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, bell pepper, artichoke hearts, tortillas, cooked brown rice, smoked gouda cheese
+---
+TITLE: Artichoke Fettuccine
+CURRENT_DESCRIPTION: made this with fresh fettuccine, very light and oh soooo good
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, artichoke bottom, onion, salt & pepper, chicken stock
+---
+TITLE: Artichoke Filling For Ravioli Or Tortellini
+CURRENT_DESCRIPTION: an excellent no-fuss pasta filling
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: leek, artichoke hearts, butter, salt & freshly ground black pepper, olive oil, eggs
+---
+TITLE: Artichoke Flatbread Grilled
+CURRENT_DESCRIPTION: this recipe sounds absolutely delicious!  i found it in better homes and gardens july 2010 issue.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: whole wheat flat bread, olive oil, fresh spinach, goat cheese, marinated artichoke hearts, tomatoes
+---
+TITLE: Artichoke French Bread
+CURRENT_DESCRIPTION: this is a recipe i make quite often to bring to parties. very easy and yummy.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french bread, butter, sesame seeds, garlic cloves, sour cream, monterey jack cheese
+---
+TITLE: artichoke frittata
+CURRENT_DESCRIPTION: reprinted from cooking for two or more by the pampered chef test kitchens.
+"the marinated artichokes in this classic italian egg dish lend it a delicious, tart flavor."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced-fat cream cheese, garlic clove, fresh coarse ground black pepper, eggs, marinated artichoke hearts, fresh basil
+---
+TITLE: Artichoke Frittata
+CURRENT_DESCRIPTION: reprinted from cooking for two or more by the pampered chef test kitchens.
+"the marinated artichokes in this classic italian egg dish lend it a delicious, tart flavor."
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: reduced-fat cream cheese, garlic clove, fresh coarse ground black pepper, eggs, marinated artichoke hearts, fresh basil
+---
+TITLE: Artichoke Garlic And Bacon Muffins
+CURRENT_DESCRIPTION: this is a savory muffin that is really tasty. it can be vegetarian or not by using or skipping the bacon.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh breadcrumb, garlic clove, butter, egg, water, unbleached flour
+---
+TITLE: Artichoke Garlic Bread
+CURRENT_DESCRIPTION: a twist on garlic bread!  you can use 2 small baguettes instead of the larger one.  do not use the marinated artichoke hearts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: french baguette, garlic cloves, sesame seeds, butter, sour cream, monterey jack cheese
+---
+TITLE: Artichoke Gratin   Giada De Laurentiis
+CURRENT_DESCRIPTION: recipe courtesy of giada de laurentiis from the food network.  a really great side dish if you are wanting to do something different for a change.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic clove, frozen artichoke heart, fresh parsley leaves, salt, fresh ground black pepper
+---
+TITLE: Artichoke Gratinata
+CURRENT_DESCRIPTION: this is a giada delaurentis recipe that i just love. the breadcrumbs and butter over the top, browned nicely, makes this a delicious dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic clove, frozen artichoke heart, fresh parsley, salt, black pepper
+---
+TITLE: Artichoke Guacamole
+CURRENT_DESCRIPTION: a great take on guacamole! serve with toasted pita chips or scooped onto crostini or grilled chicken, steak, or salmon! recipe courtesy of the olives table by todd english and sally sampson  and published in delicious living magazine.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke bottoms, red onion, beefsteak tomato, fresh lemon juice, extra virgin olive oil, toasted sesame oil
+---
+TITLE: Artichoke Heart And Anchovy Carbonara
+CURRENT_DESCRIPTION: this recipe came about because my partner loves carbonara but i don't eat pancetta. the anchovy flavor is quite mild, but if you are an anchovy fan (like me) you could certainly double the amount. this is not a typical carbonara but the method is pretty much the same. you could also make this with other types of pasta. i use frozen artichoke hearts that are quartered, but marinated ones could be used as well. i hope you like this recipe as much as we do!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spaghetti, eggs, parmesan cheese, ground black pepper, frozen artichoke hearts, anchovies packed in oil
+---
+TITLE: Artichoke Heart And Green Chili Ramekins
+CURRENT_DESCRIPTION: i recently came across these appetizers and thought these sounded delicious for an appetizer or to serve with a spicy meal! recipe source: bon appetit (december 1986)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water-packed artichoke hearts, red bell pepper, parmesan cheese, mayonnaise, green chili, garlic
+---
+TITLE: Artichoke Heart And Red Pepper Bites
+CURRENT_DESCRIPTION: these are really easy to make and everyone loves them. they are great to keep in the freezer and just pop into the oven when guest show up unexpectedly, or when you have the munchies. i usually like to roast my own peppers, but have used roasted peppers from a jar as well. if you can't get artichoke hearts packed in oil just drain the liquid and use two tablespoons of your favorite olive oil.  to make this recipe passover-friendly, just sub matzoh meal for the breadcrumbs.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, bell peppers, onion, garlic, eggs, cheddar cheese
+---
+TITLE: Artichoke Heart And Tomato Salad
+CURRENT_DESCRIPTION: use this as a side or as a filling for a pita sandwich with hummus. cooking time is chilling time. from moosewood restaurant.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: tomatoes, canned artichoke hearts, olive oil, wine vinegar, garlic clove, fresh tarragon
+---
+TITLE: Artichoke Heart Chicken
+CURRENT_DESCRIPTION: a dish my husband made for me and i never get sick of it! can easily be turned into a vegetarian dish by omitting the chicken. however, if you decide not to include the chicken i would reduce the cooking time. i just go by the tomatoes appearance (withered).
+edit: if you are using jarred marinated artichokes, do not add anymore oil. it seems to be too oily that way.
+i also add sliced mushrooms to this dish for the vegetarian version.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: boneless skinless chicken breasts, garlic cloves, olive oil, cherry tomatoes, oregano, rice
+---
+TITLE: Artichoke Heart Dip
+CURRENT_DESCRIPTION: people usually rave about this one!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, parmesan cheese, water-packed artichoke hearts, garlic powder, paprika
+---
+TITLE: Artichoke Heart Frittata
+CURRENT_DESCRIPTION: great brunch dish, or for a light supper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen artichoke heart, zucchini, onion, green pepper, garlic, vegetable oil
+---
+TITLE: Artichoke Heart Salad
+CURRENT_DESCRIPTION: fast 5-ingredient salad. adds an elegant touch to last-minute dinners.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, sliced ripe olives, green pepper, green onion, italian salad dressing
+---
+TITLE: Artichoke Hearts  Green Peas And Mushrooms In A Lemon Sauce
+CURRENT_DESCRIPTION: another winner from the mediterranean vegan kitchen. i have to tell you that i shamelessly cheat with this recipe and use frozen artichoke hearts from trader joe's-saves a significant amount of time. use fresh artichokes if you wish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen artichoke hearts, fresh lemon juice, olive oil, brown button mushrooms, green peas, vegetable broth
+---
+TITLE: Artichoke Hearts  La Grcque
+CURRENT_DESCRIPTION: a recipe for mushroom lovers, a different salad to refresh your summer days. posted for zaar world tours: greece, since this is a recipe in the greek style.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, white wine vinegar, tomato puree, garlic clove, fresh thyme, salt
+---
+TITLE: Artichoke Hearts Au Gratin
+CURRENT_DESCRIPTION: i love artichokes!! i love this with a grilled steak. cook and prep times are approximate.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, garlic clove, butter, salt, pepper, flour
+---
+TITLE: Artichoke Hearts In Lemon Parsley Sauce
+CURRENT_DESCRIPTION: from the williams-sonoma "vegetable" cookbook.  dh and i enjoyed this as a side to a lemon chicken recipe.  choose either fresh or frozen artichokes (the default when listing this would not let me write "or").  we used frozen artichoke hearts from trader joe's and it turned out really nice.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, frozen artichoke hearts, lemon, capers, extra virgin olive oil, yellow onions
+---
+TITLE: Artichoke Hearts In Mustard Sauce
+CURRENT_DESCRIPTION: i have a community cookbook from an auto glass company and this was submitted by grace williams, state farms, st. petersburg.  oven and microwave instuctions given.  i haven't tried this yet.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, sour cream, mayonnaise, dijon mustard, worcestershire sauce, garlic clove
+---
+TITLE: Artichoke Hearts Salad
+CURRENT_DESCRIPTION: prep time does not include cooking the rice or artichokes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: sour cream, curry powder, artichoke hearts, green onions, pineapple, cooked rice
+---
+TITLE: Artichoke Leaves With Parmesan Basil Aioli
+CURRENT_DESCRIPTION: i found this recipe in one of my favorite appetizer books: cocktail food: 50 finger foods with attitude by mary corpening barber and sara corpening whiteford.  this book has been one of my favorites, and has loads of party planning tips in the beginning chapter, and most recipes have beautifully composed photos to help you know where you are going with the end product.  one of the best things about the recipes are the do-ahead tips.  these tips are great if you are planning a big to do, or if you like to have things in the freezer for those "just in case" moments.  all the recipes have cute names too, like "leaves of glory" for the artichoke leaves, or "spear ecstasy" for asparagus spears with a lemon-tarragon dipping sauce.  this one should be on any party host's book shelf.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, lemon, mayonnaise, parmesan cheese, fresh basil, lemon juice
+---
+TITLE: Artichoke Linguine
+CURRENT_DESCRIPTION: this is an easy, elegant and yummy pasta recipe. it has a mild flavor. it is my husbands favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, olive oil, flour, chicken stock, garlic cloves, fresh parsley
+---
+TITLE: Artichoke Mashed Potatoes
+CURRENT_DESCRIPTION: i found this one web surfing and thought it sounded intersting, since i love both artichokes and potatoes.  ;) it didn't specify the size of can for the artichokes, but this is what i found for average non-marinated - adjust to taste.  ;)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: idaho potatoes, artichoke hearts, butter, milk, salt & pepper
+---
+TITLE: Artichoke Mushroom Caps
+CURRENT_DESCRIPTION: a want-to-try recipe from quick cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cream cheese, mayonnaise, marinated artichoke hearts, parmesan cheese, green onions, fresh mushrooms
+---
+TITLE: Artichoke Mushroom Pie
+CURRENT_DESCRIPTION: this is a dish i used to make a lot as a newly wed (the first time!) i have served it as an appetizer or side dish and once as a main dish. it's a nice addition to a brunch as well.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: frozen 9-inch deep dish pie shells, garlic, artichoke hearts, mushrooms, eggs, mozzarella cheese
+---
+TITLE: Artichoke Nibbles
+CURRENT_DESCRIPTION: better make planty of these- they disappear fast! originally from an april 1978 issue of bon appetit.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, onion, garlic clove, eggs, fine breadcrumbs, salt
+---
+TITLE: Artichoke Olive Chicken Bake
+CURRENT_DESCRIPTION: this is not a creamy sauce pasta, but a juicy type sauce.  this is from country casseroles cookbook.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta, olive oil, onion, green pepper, cooked chicken, italian-style diced tomatoes
+---
+TITLE: Artichoke Omelette
+CURRENT_DESCRIPTION: not just another omelette.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: light butter, onion, eggs, artichoke hearts, green olives, milk
+---
+TITLE: Artichoke Onion Frittata
+CURRENT_DESCRIPTION: 101 things to do with a pancake mix
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, onion, marinated artichoke hearts, water, eggs, pancake mix
+---
+TITLE: Artichoke Pad Thai
+CURRENT_DESCRIPTION: for a lighter take on the classic thai dish, a can of artichokes serves as a hearty meat substitute. the picture shows the preparation with maifun noodles, but the method is the same with rice noodles.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: rice noodles, green onions, garlic cloves, ginger, tamarind paste, honey
+---
+TITLE: Artichoke Paella
+CURRENT_DESCRIPTION: from vegetarian 100 everyday recipes cookbook, this is a great paella!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: saffron thread, hot water, olive oil, onion, zucchini, garlic cloves
+---
+TITLE: Artichoke Parmesan Canapes
+CURRENT_DESCRIPTION: super simple but elegant appetizer. from the hors d'oeuvre book by c. castle.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, mayonnaise, onion, parmesan cheese, bread
+---
+TITLE: Artichoke Parmesan Dip
+CURRENT_DESCRIPTION: this is a copy cat recipe. when i lived in bellevue i would buy this dip from top foods. the last time there i saved the container and wrote down the ingredients listed. this is my interpretation of that recipe. i hope you like it.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water-packed artichoke hearts, mayonnaise, parmesan cheese, garlic powder, salt, white pepper
+---
+TITLE: Artichoke Parmesan Phyllo Cups
+CURRENT_DESCRIPTION: they look gourmet...but they're oh, so easy to prepare.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, parmesan cheese, garlic salt, fresh lemon juice, cream cheese, miniature phyllo cups
+---
+TITLE: Artichoke Parmesan Sourdough Stuffing
+CURRENT_DESCRIPTION: this comes from sunset magazine most requested thanksgiving recipes, created by leslie parsons in 1994. up to 1 day ahead, make stuffing, put in casserole, cover and chill. allow about 1 hour to bake.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushroom, butter, olive oil, onions, celery, garlic
+---
+TITLE: Artichoke Parmesan Turnovers
+CURRENT_DESCRIPTION: from vegetarian times, may/june 2006.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: granny smith apple, mayonnaise, apple cider vinegar, frozen puff pastry, artichoke hearts, low-fat cream cheese
+---
+TITLE: Artichoke Pasta
+CURRENT_DESCRIPTION: a quick weeknight supper.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichokes, garlic clove, fresh parsley, thyme, linguine, lemon, juice of
+---
+TITLE: Artichoke Pasta Casserole
+CURRENT_DESCRIPTION: easy and tasty. it is a regular at our dinner table.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pasta shells, artichoke hearts, butter, mushroom, red onion, parmesan cheese
+---
+TITLE: Artichoke Pasta Salad
+CURRENT_DESCRIPTION: a colorful salad that will dress up any meal needs to chill 4 hours
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: farfalle pasta, artichoke hearts, mushroom, cherry tomatoes, broccoli floret, pitted black olives
+---
+TITLE: Artichoke Pate
+CURRENT_DESCRIPTION: a great little recipe served as a pre-dinner appertiser for guests or as a nibbly dish with drinks.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichoke hearts, fresh breadcrumb, parsley, garlic cloves, extra virgin olive oil, sourdough baguette
+---
+TITLE: Artichoke Pesto
+CURRENT_DESCRIPTION: very good pesto. simple and different. this can also be spread over toasted ciabatta slices.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: dry penne pasta, artichoke hearts, fresh parsley leaves, walnuts, lemon, juice and zest of, garlic clove
+---
+TITLE: Artichoke Pesto Flounder With Asiago Crust
+CURRENT_DESCRIPTION: this was created for rsc #11.  i combined two favorite ways that i like to prepare fish.  one with a cheese crust and one coated with pesto.  the combination seems like a natural. the egg wash might seem like an unnecessary step, but after experimentation, i found that the cheese had more even coverage when you use  it.  you could use another flaky white fish if you prefer.  if you have any pesto left over, you could put a dollop on top of the fish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: flounder fillets, asiago cheese, parmesan cheese, flour, egg whites, olive oil
+---
+TITLE: Artichoke Pesto Hummus
+CURRENT_DESCRIPTION: serve this dip with warm pita bread wedges or raw vegetables.  hummus makes a nice change from mayo in sandwiches
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chickpeas, artichoke hearts, olive oil, tahini, lemon juice, cold water
+---
+TITLE: Artichoke Pesto Pasta
+CURRENT_DESCRIPTION: here's a unique pesto made with artichoke hearts.  we make the pesto on the weekend, bring it to room temperature, and toss it with hot pasta for a quick weeknight meal.  it makes a great side dish too with chicken, steak or fish.  from sunset's "kitchen cabinet" (submitted by kathryn murdock of moss beach, ca).
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pine nuts, water-packed artichoke hearts, parmesan cheese, cream cheese, onion, dijon mustard
+---
+TITLE: Artichoke Pie
+CURRENT_DESCRIPTION: this is extremely easy to make and always a big hit! it makes a great appetizer or side dish! i love artichoke hearts!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, garlic, artichoke hearts, italian seasoned breadcrumbs, parmesan cheese, 9 inch pie shell
+---
+TITLE: Artichoke Pizza
+CURRENT_DESCRIPTION: this is a vegetarian gourmet pizza - sometimes i want pizza but pepperoni feast is just too much!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: black olives, marinated artichokes, chestnut mushrooms, mozzarella cheese, tomato sauce, prepared pizza crust
+---
+TITLE: Artichoke Potato Gratin
+CURRENT_DESCRIPTION: a sophisticated twist on the classic gratin.  serve this at your next dinner party to amaze your guests.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: gruyere cheese, half-and-half cream, yukon gold potatoes, marinated artichoke hearts, salt, dried thyme
+---
+TITLE: Artichoke Prosciutto Gratin
+CURRENT_DESCRIPTION: serve with a crusty bread. you could also chop up the artichokes and prosciutto before baking and serve as a bruschetta or dip.  some folks substitute 1/4 cup blue for 1/4 cup of the cream cheese.  rich!  decadent!  yum!
+
+courtesy epicurious.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, prosciutto, whipping cream, gorgonzola, pine nuts, parmesan cheese
+---
+TITLE: Artichoke Quesadillas
+CURRENT_DESCRIPTION: if you like artichokes, you will love these artichoke quesadillas.  they are so simple to make and the taste is outstanding!  they can be served as an appetizer or as a light lunch/dinner with rice and beans (or something else) on the side.   this recipe is from azfamily.com.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic clove, marinated artichoke hearts, basil leaves, flour tortillas, monterey jack cheese, poblano chile
+---
+TITLE: Artichoke Quiche
+CURRENT_DESCRIPTION: this quiche makes a yummy, light dinner. serve with a mug of soup, and a small tossed salad to complete the meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, garlic cloves, eggs, pecorino romano cheese, mozzarella cheese, olive oil
+---
+TITLE: Artichoke Ravioli With Brown Butter Shrimp
+CURRENT_DESCRIPTION: a nice pasta dish that i created to use pre-made artichoke ravioli from trader joe's that i had, but feel free to substitute whatever ravioli you wish.
+note:  nutrition info will be incorrect, as the ravioli is not included.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: ravioli, shrimp, salt, butter, chicken broth, lemon
+---
+TITLE: Artichoke Rice Salad
+CURRENT_DESCRIPTION: this is one of the few recipes that i prefer to use a packaged mix.  you may add some cooked shrimp or chicken to this salad for a tasty change.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken rice-a-roni, marinated artichoke hearts, mayonnaise, curry powder, green olives, green pepper
+---
+TITLE: Artichoke Risotto
+CURRENT_DESCRIPTION: a vegetarian and vegan favorite that can be served as a side dish or entree. another great recipe adapted from a weight loss tracking website. note: carnaroli rice is a popular italian rice used specifically for risotto's. coming from the arborio rice
+family the grain is larger and can absorb more liquid than other rices. you can find this rice in italian markets or specialty foods in your local grocery stores.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, unsalted margarine, onion, carnaroli rice, soymilk, apple juice
+---
+TITLE: Artichoke Roll
+CURRENT_DESCRIPTION: this recipe comes from the jefferson-day house in hudson, wisconsin. they serve this to guests as they check in. artichoke lovers will love this recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: refrigerated crescent dinner rolls, parmesan cheese, mayonnaise, marinated artichoke hearts, sweet red peppers, nonstick cooking spray
+---
+TITLE: artichoke salad
+CURRENT_DESCRIPTION: i have seen this recipe on my favorite channel (food network) and it looked so colorful with all the veggies , that i decided to make it in the same day for my parent in laws together with acharuli xachapuri (georgian cheese bread) that made a great combination. thank god, all went well and they loved both dishes:). i made some changes in the original recipe as always and it worked pretty well. the saltiness of capers and marinated peppers and artichokes is balanced with nice chunks of fresh mozzarella and little pieces of celery give crunch and great texture to the softness of those veggies. here it is my artichoke salad with  basil pesto dressing and  grilled chicken breasts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke heart, capers, marinated roasted red peppers, fresh mozzarella cheese, cherry tomatoes, celery
+---
+TITLE: Artichoke Salad
+CURRENT_DESCRIPTION: i have seen this recipe on my favorite channel (food network) and it looked so colorful with all the veggies , that i decided to make it in the same day for my parent in laws together with acharuli xachapuri (georgian cheese bread) that made a great combination. thank god, all went well and they loved both dishes:). i made some changes in the original recipe as always and it worked pretty well. the saltiness of capers and marinated peppers and artichokes is balanced with nice chunks of fresh mozzarella and little pieces of celery give crunch and great texture to the softness of those veggies. here it is my artichoke salad with  basil pesto dressing and  grilled chicken breasts.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke heart, capers, marinated roasted red peppers, fresh mozzarella cheese, cherry tomatoes, celery
+---
+TITLE: Artichoke Salad With Oranges
+CURRENT_DESCRIPTION: african recipe found on world recipes.com's website. posted for zaar world tour 4.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, lemon, oranges, radishes, kalamata olives, extra virgin olive oil
+---
+TITLE: Artichoke Sauce With Linguini
+CURRENT_DESCRIPTION: yummy pasta recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, butter, flour, chicken broth, garlic cloves, canned artichoke hearts
+---
+TITLE: Artichoke Sausage Stuffing   Dressing
+CURRENT_DESCRIPTION: from quick fix meals.  we actually couldn't find turkey sausage, so we got uncased pork sausage from whole foods, cooked it in the pan, drained the fat, and did everything else exactly as stated.  very tasty!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: turkey sausage, sliced mushrooms, yellow onion, garlic cloves, poultry seasoning, french baguette
+---
+TITLE: Artichoke Saute
+CURRENT_DESCRIPTION: my family loves artichokes so i try to be creative. i adapted this recipe from a few others and we really enjoy it. hope you do too!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garlic, boiling water, olive oil, artichoke hearts, onions, fresh lemon juice
+---
+TITLE: Artichoke Shrimp Linguine
+CURRENT_DESCRIPTION: found this gem in a "taste of home" magazine.  it was submitted by daniel spengler of seattle, washington.  excellent light pasta dish that can easily be made into a vegetarian dish by omitting the shrimp and adding mushrooms, asparagus, sun dried tomatoes and spinach.  i used the wine instead of the chicken broth.  as is or "doctored up", this is a great recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: linguine, sweet red pepper, garlic, green onion, olive oil, butter
+---
+TITLE: Artichoke Souffle Pie
+CURRENT_DESCRIPTION: this looks complicated but i assure you it is worth every bit of effort and if you follow the steps it will come out perfect every time your family or guests will oooooh at the sight of this dish. perfect for a brunch where you have other already prepared dishes.. the recipe #24485 can be made the day before and just warmed.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: pie crust, butter, flour, dill weed, salt, pepper
+---
+TITLE: Artichoke Soup
+CURRENT_DESCRIPTION: healthy, vegetarian and delicious!!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: leeks, olive oil, garlic cloves, potato, salt and pepper, artichoke hearts
+---
+TITLE: Artichoke Spinach Casserole
+CURRENT_DESCRIPTION: a want-to-try recipe from best of country cooking.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mushroom, chicken broth, all-purpose flour, evaporated milk, frozen chopped spinach, tomatoes
+---
+TITLE: Artichoke Spinach Dip
+CURRENT_DESCRIPTION: i got this recipe from a "southern belle" cookbook from charleston, south carolina.
+i usually add a lot more garlic.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, frozen spinach, mayonnaise, parmesan cheese, garlic clove, salt
+---
+TITLE: Artichoke Spinach Dip From Olive Garden
+CURRENT_DESCRIPTION: from top secret recipes http://www.topsecretrecipes.com
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: canned artichoke hearts, cream cheese, spinach, parmesan cheese, red pepper flakes, salt
+---
+TITLE: Artichoke Spinach Feta Bread
+CURRENT_DESCRIPTION: this is a very easy recipe as you use frozen bread dough but the results are fabulous!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: feta cheese, cream cheese, dried oregano, salt, artichoke hearts, frozen chopped spinach
+---
+TITLE: Artichoke Spinach Frittata
+CURRENT_DESCRIPTION: this is a very good lowfat version of a crustless quiche that i adapted from several recipes. fat can be further reduced by using canned artichoke hearts in water.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: egg substitute, onion, saltine crackers, marinated artichoke hearts, reduced-fat sharp cheddar cheese, mozzarella cheese
+---
+TITLE: Artichoke Spinach Hummus
+CURRENT_DESCRIPTION: this is a home-made version of basha artichoke spinach hommus.  i love it but live too far away from cosco to get it, so i made up my own.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: garbanzo beans, tahini, marinated artichoke hearts, extra virgin olive oil, lemon juice, water
+---
+TITLE: Artichoke Spinach Lasagna
+CURRENT_DESCRIPTION: a great option for vegetarian lasagna. you will greatly enjoy the mix of vegetables in this dish! *note:  pasta sauce can be a white or red but i have found that if i'm freezing it, that the red works out best for me...none the less, i believe the original recipe does call for a white sauce.  thanks marg (caymandesigns) for pointing it out.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: cooking spray, lasagna noodles, onion, garlic cloves, vegetable broth, fresh rosemary
+---
+TITLE: Artichoke Spinach Salad
+CURRENT_DESCRIPTION: this might have been in toh, but my neighbor made this recently for pitch-in party.  it was so pleasing to the eye and colorful, that we all enjoyed it even before eating.  the dressing was just perfect, used sparingly, and everyone copied her recipe.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh spinach, scallions, hard-boiled eggs, fresh mushrooms, sliced water chestnuts, marinated artichokes
+---
+TITLE: Artichoke Spinach Soup
+CURRENT_DESCRIPTION: a great tasting vegetable soup.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: spinach, artichoke hearts, vegetable stock, onion, butter, half-and-half
+---
+TITLE: artichoke spinach strata
+CURRENT_DESCRIPTION: a wonderful comfort food with a pleasing blend of flavors. this dish is great for brunch or as a side dish for a cold winter’s dinner or as a main dish for a light dinner (it's a very versatile dish!) the flavors need to meld in a strata – so make this the night before for a brunch dish or the morning before if you are serving it for dinner (you could even prepare it the night before for the next evening’s dinner). the preparation time does not include the refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach leaves, marinated artichoke hearts, milk, dry white wine, italian bread, eggs
+---
+TITLE: Artichoke Spinach Strata
+CURRENT_DESCRIPTION: a wonderful comfort food with a pleasing blend of flavors. this dish is great for brunch or as a side dish for a cold winter’s dinner or as a main dish for a light dinner (it's a very versatile dish!) the flavors need to meld in a strata – so make this the night before for a brunch dish or the morning before if you are serving it for dinner (you could even prepare it the night before for the next evening’s dinner). the preparation time does not include the refrigeration time.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: baby spinach leaves, marinated artichoke hearts, milk, dry white wine, italian bread, eggs
+---
+TITLE: Artichoke Squares
+CURRENT_DESCRIPTION: i love artichokes, especially when they're marinated and this recipe looked like it would be yummy! no, i haven't tried it, but the holidays are just around the corner and that means parties! and parties mean food and this recipe gives me an idea of what to bring!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: marinated artichokes, onion, eggs, soda crackers, salt, pepper
+---
+TITLE: Artichoke Stuffed Chicken Breast  But With A Different Hat
+CURRENT_DESCRIPTION: this is based on recipe #350909, and i thought i would try it a bit differently one night.  it's done basically the same, just roasted red bell pepper and provolone cheese on top, instead of mozzarella.  enjoy!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: chicken breasts, marinated artichoke hearts, sweet onion, mozzarella cheese, parmesan cheese, garlic powder
+---
+TITLE: Artichoke Stuffed Chicken Breasts
+CURRENT_DESCRIPTION: chicken breasts stuffed with artichoke mixture
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, dried thyme, red pepper flakes, artichoke hearts, basil, garlic
+---
+TITLE: Artichoke Stuffed Manicotti   Weight Watchers
+CURRENT_DESCRIPTION: this is from a 2004 weight watchers magazine.  only 4 points per serving (serving = 2 manicotti) - sounds delicious!  haven't tried it yet, will update this when i do....(i will use fat-free ricotta)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: manicotti, water-packed artichoke hearts, part-skim ricotta cheese, parmesan cheese, scallion top, salt
+---
+TITLE: Artichoke Stuffed Mushrooms
+CURRENT_DESCRIPTION: i found this recipe in the nov 2001 issue of southern living and thought i would share it with you.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: fresh large mushrooms, onion, olive oil, dry white wine, soft breadcrumbs, artichoke hearts
+---
+TITLE: Artichoke Stuffing
+CURRENT_DESCRIPTION: a versatile stuffing, you could easily switch the artichoke to cauliflower, spinach, or some other vegetable
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, garlic cloves, olive oil, cooked brown rice, stale bread, artichoke hearts
+---
+TITLE: Artichoke Stukku
+CURRENT_DESCRIPTION: a lovely sauce that can be used as a dip or spread or stirred through hot pasta, just like pesto.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts in brine, lemon, olive oil, marjoram, parsley, garlic cloves
+---
+TITLE: Artichoke Sun Dried Tomato Pizza
+CURRENT_DESCRIPTION: mark loves this pizza, i make half this pizza and half the green pepper, onion, olive, and mushroom pizza. the herbs measurements are approximate, use to your own taste.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: warm water, yeast, sugar, salt, olive oil, flour
+---
+TITLE: Artichoke Tart
+CURRENT_DESCRIPTION: this is a very low fat and tasty snack or even a lite dinner, and only 1 ww point per tart
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: wonton wrappers, low-fat cheddar cheese, fat free cream cheese, cayenne pepper, brown mustard, sweet red peppers
+---
+TITLE: Artichoke Toasts
+CURRENT_DESCRIPTION: easy and delicious! most of the work can be done ahead and then just pop them into the broiler when your guests arrive.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, green onions, parmesan cheese, mayonnaise, rye cocktail bread
+---
+TITLE: Artichoke Tomato Bruschetta
+CURRENT_DESCRIPTION: the mozzarella cheese is only optional, i like to sprinkle a small amount on the top after broiling, adjust the garlic amount to suit taste, use *only* roma (plum) tomatoes for this or the mixture will be too watery.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: roma tomato, garlic, marinated artichoke hearts, parmesan cheese, red onion, mayonnaise
+---
+TITLE: Artichoke Veal Chops
+CURRENT_DESCRIPTION: tender veal chops are browned and then roasted with bell peppers and artichokes. a fabulous springtime meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: veal chops, cracked black pepper, cooking spray, green pepper, sweet pepper, reduced-sodium fat-free chicken broth
+---
+TITLE: Artichoke Wonton Cups
+CURRENT_DESCRIPTION: if you adore artichokes, you should adore this cheesy appetizer. this takes your next gathering to the sophisticated level. great for special occasions, if you are having a large get together you will probably want to double this recipe, and keep it warm.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: parmesan cheese, mayonnaise, onion powder, garlic powder, mozzarella cheese, water-packed artichoke hearts
+---
+TITLE: Artichokes  How To Cook
+CURRENT_DESCRIPTION: the basic method of cooking artichokes.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: water, salt, lemon juice, olive oil, bay leaf, peppercorns
+---
+TITLE: Artichokes A La Polita
+CURRENT_DESCRIPTION: a lovely dish.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, lemon, potato, carrots, lemons, juice of, spring onions
+---
+TITLE: Artichokes And Aioli Sauce
+CURRENT_DESCRIPTION: this appetizer looks beautiful when served with a little parsley around the sauce in the center of the artichoke.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: olive oil, lemons, bay leaves, salt, pepper, artichokes
+---
+TITLE: Artichokes And Ham In Creamy Mushroom Sauce
+CURRENT_DESCRIPTION: the ingredients in this dish combine beautifully. perfect for a special occasion (or when my mum feels like spoiling dad :)
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: butter, dry mustard, ham, mushrooms, dry white wine, cheese
+---
+TITLE: Artichokes And Shells
+CURRENT_DESCRIPTION: i came up with this one night to satisfy both my husband's wish for an olive oil-based pasta dish, and my craving for artichokes. we really enjoyed this hot and also the next day for lunch as a cold pasta salad. cooking times are approximate since i didn't keep track, but it is a fairly good guess. everything should only be cooked until heated through and the sauce is thickened.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: small shell pasta, water-packed artichoke hearts, tomatoes, black olives, bell pepper, onion
+---
+TITLE: Artichokes Chilled With Champagne Vinaigrette
+CURRENT_DESCRIPTION: got this low fat recipe from on line and tweaked!
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichokes, lemon, garlic cloves, champagne vinegar, fresh lemon juice, shallot
+---
+TITLE: Artichokes French
+CURRENT_DESCRIPTION: we used to enjoy this dish a lot while living in western ny.  it is not so popular in all areas of the country.  when we moved away from the area a friend passed this recipe on to me, knowing how much my family enjoyed it so, that we could enjoy it regardless of where we were living.  if you like dishes like chicken french, veal french, etc. & you are a fan of artichokes, this too will become a favorite.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: artichoke hearts, all-purpose flour, salt and pepper, eggs, butter, white wine
+---
+TITLE: Artichokes Gourmet
+CURRENT_DESCRIPTION: i love artichokes and love finding new and diffrent ways of preparing them. this is quite good.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: onion, green pepper, oil, artichoke hearts, egg, thyme
+---
+TITLE: Artichokes Parisienne
+CURRENT_DESCRIPTION: i love artichokes. this recipe is delicious with poached eggs and a tangy sauce - a wonderful light meal.
+CUISINE: unknown
+OCCASION: unknown
+METHOD: unknown
+KEY_INGREDIENTS: mayonnaise, capers, onions, cornichons, fresh parsley, fresh lemon juice

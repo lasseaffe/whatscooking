@@ -8,6 +8,27 @@ export type MealStatus = "planning" | "active" | "completed";
 export type MealType = "breakfast" | "lunch" | "dinner" | "snack";
 export type RecipeSource = "spoonacular" | "ai" | "curated" | "social" | "user";
 
+// ============================================================
+// Heritage & Culture
+// ============================================================
+
+export interface CulturalJourneyStop {
+  emoji: string;
+  name: string;
+  note: string;
+}
+
+export interface CulturalJourney {
+  stops: CulturalJourneyStop[];
+  period: string;
+}
+
+export interface HeritageNotes {
+  originStory: string;
+  culturalOccasion: string;
+  keyIngredientNote: string;
+}
+
 export type DietaryFilter =
   | "vegetarian"
   | "vegan"
@@ -112,6 +133,8 @@ export interface Recipe {
   allergen_flags?: AllergenKey[];
   has_baby_variant?: boolean;
   baby_variant_recipe_id?: string | null;
+  // Drinks cultures — culture-specific pro metadata
+  drink_meta?: Record<string, unknown>;
 }
 
 // ============================================================

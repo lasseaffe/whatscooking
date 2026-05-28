@@ -6,19 +6,21 @@ import { useState } from "react";
 import {
   LayoutDashboard, UtensilsCrossed, Calendar, ShoppingBasket,
   ChefHat, Heart, BookOpen, Globe, Target,
-  PartyPopper, User, Settings, X, LogOut, Leaf, Trophy, Swords,
+  PartyPopper, User, Settings, X, LogOut, Leaf, Trophy, Swords, GlassWater,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 
 const PRIMARY_TABS = [
-  { href: "/dashboard", label: "Home",    icon: LayoutDashboard },
-  { href: "/discover",  label: "Recipes", icon: UtensilsCrossed },
-  { href: "/plans",     label: "Plans",   icon: Calendar },
-  { href: "/pantry",    label: "Pantry",  icon: ShoppingBasket },
+  { href: "/",           label: "Home",      icon: LayoutDashboard },
+  { href: "/discover",   label: "Discover",  icon: UtensilsCrossed },
+  { href: "/my-recipes", label: "My Recipes",icon: Heart },
+  { href: "/cookbooks",  label: "Cookbooks", icon: BookOpen },
+  { href: "/plans",      label: "Plans",     icon: Calendar },
 ];
 
 const MORE_ITEMS = [
+  { href: "/drinks",         label: "Drinks",          icon: GlassWater },
   { href: "/challenge",      label: "Challenge Mode",  icon: Swords },
   { href: "/saved",          label: "Saved Recipes",   icon: Heart },
   { href: "/my-recipes",     label: "My Recipes",      icon: BookOpen },

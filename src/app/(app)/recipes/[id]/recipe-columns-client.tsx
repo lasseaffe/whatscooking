@@ -46,42 +46,45 @@ function phaseOrder(p: Phase): number {
 function PhaseStepper({ phase, cookingDone, onPhaseClick }: { phase: Phase; cookingDone: boolean; onPhaseClick: (p: Phase) => void }) {
   const currentOrder = phaseOrder(phase);
   return (
-    <div className="flex items-center gap-1 px-5 pt-5 pb-3">
+    <div className="flex items-center px-5 pt-5 pb-3">
       {PHASE_STEPS.map((step, i) => {
         const stepOrder = i;
         const isDone = currentOrder > stepOrder || (step.key === "cook" && cookingDone && phase !== "cook");
         const isCurrent = step.key === phase || (step.key === "cook" && (phase === "post-pantry" || phase === "post-review"));
         return (
-          <div key={step.key} className="flex items-center gap-1 flex-1 last:flex-none">
-            <div className="flex items-center gap-1.5">
-              <button
-                onClick={() => step.key !== "done" && onPhaseClick(step.key as Phase)}
-                style={{ background: "none", border: "none", padding: 0 }}
-              >
+          <div key={step.key} className="flex items-center flex-1">
+            <button
+              onClick={() => step.key !== "done" && onPhaseClick(step.key as Phase)}
+              className="flex items-center gap-2 flex-1 justify-center rounded-full transition-all"
+              style={{
+                background: isCurrent ? "rgba(244,162,97,0.16)" : "transparent",
+                border: isCurrent ? "1px solid rgba(244,162,97,0.45)" : "1px solid transparent",
+                padding: "6px 12px",
+              }}
+            >
               <div
                 className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shrink-0 transition-all"
                 style={{
                   background: isDone
-                    ? "rgba(130,142,111,0.35)"
+                    ? "#828E6F"
                     : isCurrent
-                      ? "var(--wc-pal-accent, #B07D56)"
-                      : "rgba(42,24,8,0.5)",
-                  color: isDone ? "#828E6F" : isCurrent ? "#fff" : "#5A3A28",
-                  border: isCurrent ? "none" : isDone ? "1px solid rgba(130,142,111,0.3)" : "1px solid rgba(42,24,8,0.6)",
+                      ? "var(--wc-accent-saffron, #F4A261)"
+                      : "transparent",
+                  color: isDone || isCurrent ? "#1A0E04" : "#A8845E",
+                  border: isDone || isCurrent ? "none" : "1.5px solid rgba(168,132,94,0.5)",
                 }}
               >
                 {isDone ? "✓" : step.roman}
               </div>
               <span
-                className="text-xs font-semibold hidden sm:block"
-                style={{ color: isDone ? "#828E6F" : isCurrent ? "var(--wc-pal-accent, #B07D56)" : "#4A3020" }}
+                className="text-sm font-semibold min-w-0 truncate"
+                style={{ color: isDone ? "#828E6F" : isCurrent ? "var(--wc-accent-saffron, #F4A261)" : "#A8845E" }}
               >
                 {step.label}
               </span>
-              </button>
-            </div>
+            </button>
             {i < PHASE_STEPS.length - 1 && (
-              <div className="flex-1 h-px mx-1" style={{ background: isDone ? "rgba(130,142,111,0.3)" : "rgba(42,24,8,0.4)" }} />
+              <div className="h-[2px] mx-2 shrink-0 rounded-full" style={{ width: 28, background: isDone ? "#828E6F" : "rgba(168,132,94,0.3)" }} />
             )}
           </div>
         );
@@ -1402,20 +1405,32 @@ export function RecipeColumnsClient({
 
   return (
     <div
-      className="flex flex-col lg:flex-row"
+      className="relative flex flex-col lg:flex-row lg:items-stretch"
       style={{
         minHeight: "calc(100vh - 96px)",
-        alignItems: "flex-start",
+        background: "#0d0d0c",
       }}
     >
+      {/* Faint kitchen-pattern grain over the solid surface — replaces the page
+          illustration bleeding through the old translucent panels */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0"
+        style={{
+          backgroundImage: "url('/kitchen-pattern.png')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "4200px auto",
+          opacity: 0.05,
+          zIndex: 0,
+        }}
+      />
       {/* ── INGREDIENTS PANEL (left half of right side on desktop, full-width on mobile) ── */}
       <div
-        className={`flex flex-col shrink-0 w-full lg:sticky lg:top-0 lg:max-h-[calc(100vh-96px)] ${ingredientsCollapsed ? "" : "lg:w-[38%]"}`}
+        className={`relative z-[1] flex flex-col shrink-0 w-full lg:sticky lg:top-0 lg:max-h-[calc(100vh-96px)] ${ingredientsCollapsed ? "" : "lg:w-[38%]"}`}
         style={{
           width: ingredientsCollapsed ? "48px" : undefined,
           minWidth: ingredientsCollapsed ? "48px" : undefined,
-          borderRight: "1px solid rgba(42,24,8,0.5)",
-          background: "rgba(18,12,7,0.4)",
+          borderRight: "1px solid rgba(42,24,8,0.6)",
           overflowY: ingredientsCollapsed ? "hidden" : "auto",
           overflowX: "hidden",
           transition: "width 0.3s ease, min-width 0.3s ease",
@@ -1454,7 +1469,7 @@ export function RecipeColumnsClient({
                 <Utensils style={{ width: 15, height: 15, color: "var(--wc-pal-accent, #B07D56)" }} />
               </div>
               <div className="flex-1 min-w-0">
-                <div className="text-xs font-bold uppercase tracking-widest" style={{ color: "#4A3020" }}>Phase II</div>
+                <div className="text-xs font-bold uppercase tracking-widest" style={{ color: "#A8845E" }}>Phase II</div>
                 <div className="text-base font-bold" style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
                   Ingredients
                 </div>
@@ -1472,7 +1487,7 @@ export function RecipeColumnsClient({
             </div>
             {/* Serving size multiplier — desktop only */}
             <div className="hidden lg:flex items-center gap-2 mb-3 pl-10">
-              <span className="text-xs font-semibold" style={{ color: "#4A3020" }}>Servings</span>
+              <span className="text-xs font-semibold" style={{ color: "#A8845E" }}>Servings</span>
               <ServingControl base={base} current={servings} onChange={setServings} />
               {multiplier !== 1 && (
                 <span className="text-xs font-semibold tabular-nums" style={{ color: "rgba(176,125,86,0.55)" }}>
@@ -1515,10 +1530,7 @@ export function RecipeColumnsClient({
 
       {/* ── INSTRUCTIONS + PHASE RUNNER (right half) ── */}
       <div
-        className="flex-1 flex flex-col min-w-0 lg:overflow-y-auto lg:max-h-[calc(100vh-96px)]"
-        style={{
-          background: "rgba(22,14,8,0.3)",
-        }}
+        className="relative z-[1] flex-1 flex flex-col min-w-0 lg:overflow-y-auto lg:max-h-[calc(100vh-96px)]"
       >
         {/* Phase progress stepper */}
         <PhaseStepper phase={phase} cookingDone={cookingDone} onPhaseClick={(p) => setPhase(p)} />
@@ -1610,8 +1622,8 @@ export function RecipeColumnsClient({
               <PhaseHeader roman="V" label="Restore" emoji="♻️" />
               <ZeroWasteGuide title={recipeTitle} ingredients={ingredients} />
               <PhaseActions
-                onDone={() => router.push("/dashboard")}
-                onSkip={() => router.push("/dashboard")}
+                onDone={() => router.push("/")}
+                onSkip={() => router.push("/")}
                 doneLabel="All done!"
               />
             </div>
