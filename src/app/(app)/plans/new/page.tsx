@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { CalendarDays, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
+import { FeatureGateBanner } from "@/components/upgrade/FeatureGateBanner"
 
 const DIETARY_OPTIONS = [
   'vegetarian', 'vegan', 'gluten-free', 'dairy-free',
@@ -19,6 +20,7 @@ export default function NewPlanPage() {
   const [showCustom, setShowCustom] = useState(true);
   const [creating, setCreating] = useState(false);
   const [error, setError] = useState('');
+  const [planLimitReached, setPlanLimitReached] = useState(false);
 
   function toggleDiet(tag: string) {
     setDietaryFilters((prev) =>
@@ -44,6 +46,12 @@ export default function NewPlanPage() {
           meals_per_day: mealsPerDay,
         }),
       });
+
+      if (res.status === 402) {
+        setPlanLimitReached(true);
+        setCreating(false);
+        return;
+      }
 
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
@@ -147,6 +155,13 @@ export default function NewPlanPage() {
           </div>
         )}
       </section>
+
+      {planLimitReached && (
+        <FeatureGateBanner
+          feature="Multiple meal plans"
+          description="Pro Cook unlocks unlimited plans — for meal prep, different diets, or planning weeks ahead."
+        />
+      )}
 
       {error && <p className="text-sm mb-3" style={{ color: '#E67E22' }}>{error}</p>}
 

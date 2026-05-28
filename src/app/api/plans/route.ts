@@ -35,6 +35,28 @@ export async function POST(req: NextRequest) {
 
   if (!title?.trim()) return NextResponse.json({ error: "Title is required" }, { status: 400 });
 
+  // Gate: free users can only have 1 active plan
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('tier')
+    .eq('id', user.id)
+    .single()
+
+  if (profile?.tier !== 'pro') {
+    const { count } = await supabase
+      .from('meal_plans')
+      .select('*', { count: 'exact', head: true })
+      .eq('user_id', user.id)
+      .in('status', ['planning', 'active'])
+
+    if ((count ?? 0) >= 1) {
+      return NextResponse.json(
+        { error: 'plan_limit_reached', upgrade_url: '/settings?upgrade=1' },
+        { status: 402 }
+      )
+    }
+  }
+
   const { data: plan, error } = await supabase
     .from("meal_plans")
     .insert({
