@@ -13,6 +13,11 @@ import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
 import { isDrink } from "@/lib/drinks";
 import { DrinkProPanel } from "@/components/drinks/drink-pro-panel";
+import { RecipeEditButton } from "./recipe-edit-button";
+import { CultureJourneyBanner } from "@/components/recipe/culture-journey-banner";
+import { RecipeHeritageSidebar } from "@/components/recipe/recipe-heritage-sidebar";
+import type { CulturalJourney, HeritageNotes } from "@/lib/types";
+import { CUISINES } from "@/lib/cuisines";
 
 export default async function RecipePage({
   params,
@@ -70,6 +75,21 @@ export default async function RecipePage({
   const featureTags: FeatureTag[] = (recipeTags ?? [])
     .map((rt) => rt.wc_feature_tags as unknown as FeatureTag)
     .filter(Boolean);
+
+  const isCulturallySignificant = recipeData.is_culturally_significant === true;
+  const culturalJourney = isCulturallySignificant
+    ? (recipeData.cultural_journey as CulturalJourney | null)
+    : null;
+  const heritageNotes = isCulturallySignificant
+    ? (recipeData.heritage_notes as HeritageNotes | null)
+    : null;
+  const cuisineEntry = recipeData.cuisine_type
+    ? CUISINES.find((c) =>
+        c.dbValues.some(
+          (v) => v.toLowerCase() === recipeData.cuisine_type?.toLowerCase()
+        )
+      ) ?? null
+    : null;
 
   const prepTime = recipeData.prep_time_minutes ?? 0;
   const cookTime = recipeData.cook_time_minutes ?? 0;
@@ -154,18 +174,34 @@ export default async function RecipePage({
               </p>
             )}
 
-            {/* Title */}
-            <h1
-              style={{
-                color: "var(--wc-text, #EFE3CE)",
-                fontFamily: "'Libre Baskerville', Georgia, serif",
-                fontSize: "clamp(2rem, 5vw, 3rem)",
-                lineHeight: 1.1,
-                fontWeight: 700,
-              }}
-            >
-              {displayTitle}
-            </h1>
+            {/* Title + edit button */}
+            <div className="flex items-start gap-3">
+              <h1
+                className="flex-1"
+                style={{
+                  color: "var(--wc-text, #EFE3CE)",
+                  fontFamily: "'Libre Baskerville', Georgia, serif",
+                  fontSize: "clamp(2rem, 5vw, 3rem)",
+                  lineHeight: 1.1,
+                  fontWeight: 700,
+                }}
+              >
+                {displayTitle}
+              </h1>
+              <div className="mt-2 shrink-0">
+                <RecipeEditButton
+                  recipeId={id}
+                  initialTitle={displayTitle}
+                  initialDescription={recipeData.description ?? null}
+                  initialInstructions={instructions}
+                />
+              </div>
+            </div>
+
+            {/* Cultural journey banner */}
+            {culturalJourney && (
+              <CultureJourneyBanner journey={culturalJourney} />
+            )}
 
             {/* Description / tagline */}
             {recipeData.description && (
@@ -274,7 +310,10 @@ export default async function RecipePage({
       </div>
 
       {/* ══ RECIPE COLUMNS — ingredients + instructions ══ */}
-      <div style={{ borderBottom: "1px solid rgba(42,24,8,0.6)" }}>
+      <div
+        className={heritageNotes && cuisineEntry ? "lg:grid lg:grid-cols-[1fr_220px] lg:gap-6 lg:items-start lg:px-10" : ""}
+        style={{ borderBottom: "1px solid rgba(42,24,8,0.6)" }}
+      >
         <RecipeColumnsClient
           recipeId={id}
           initialIngredients={ingredients}
@@ -286,7 +325,27 @@ export default async function RecipePage({
           dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
           baseServings={recipeData.servings ?? null}
         />
+        {heritageNotes && cuisineEntry && (
+          <div className="hidden lg:block pt-8 pb-4">
+            <RecipeHeritageSidebar
+              notes={heritageNotes}
+              cuisineSlug={cuisineEntry.slug}
+              cuisineName={cuisineEntry.name}
+            />
+          </div>
+        )}
       </div>
+
+      {/* Mobile heritage sidebar — stacks below recipe columns */}
+      {heritageNotes && cuisineEntry && (
+        <div className="lg:hidden px-6 pt-6">
+          <RecipeHeritageSidebar
+            notes={heritageNotes}
+            cuisineSlug={cuisineEntry.slug}
+            cuisineName={cuisineEntry.name}
+          />
+        </div>
+      )}
 
       {/* ══ DRINK PRO PANEL — shown only for drink recipes ══ */}
       {isDrink((recipeData.dish_types ?? []) as string[]) && (

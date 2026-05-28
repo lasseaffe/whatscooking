@@ -4,7 +4,7 @@ interface Props {
   journey: CulturalJourney | null | undefined;
 }
 
-export default function CultureJourneyBanner({ journey }: Props) {
+export function CultureJourneyBanner({ journey }: Props) {
   if (!journey) return null;
 
   return (

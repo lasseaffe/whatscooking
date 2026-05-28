@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import CultureJourneyBanner from "../culture-journey-banner";
+import { CultureJourneyBanner } from "../culture-journey-banner";
 import type { CulturalJourney } from "@/lib/types";
 
 const journey: CulturalJourney = {
