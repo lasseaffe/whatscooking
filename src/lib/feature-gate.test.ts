@@ -36,7 +36,30 @@ describe('checkFeatureGate', () => {
     const result = await checkFeatureGate('user-1', 'recipe_extract')
 
     expect(result.allowed).toBe(true)
+    expect(result.remaining).toBeNull()
     expect(mockSelect).not.toHaveBeenCalled()
+  })
+
+  it('throws when profile fetch fails (does not silently demote pro user)', async () => {
+    mockSingle.mockResolvedValue({ data: null, error: { message: 'connection refused' } })
+
+    await expect(checkFeatureGate('user-1', 'recipe_extract')).rejects.toThrow(
+      'feature-gate: profile fetch failed: connection refused'
+    )
+  })
+
+  it('throws when usage count query fails (does not fail open)', async () => {
+    mockSelect.mockReturnValue({
+      eq: jest.fn().mockReturnValue({
+        eq: jest.fn().mockReturnValue({
+          gte: jest.fn().mockResolvedValue({ count: null, error: { message: 'timeout' } }),
+        }),
+      }),
+    })
+
+    await expect(checkFeatureGate('user-1', 'recipe_extract')).rejects.toThrow(
+      'feature-gate: usage count failed: timeout'
+    )
   })
 
   it('allows free user under weekly limit', async () => {
@@ -104,5 +127,15 @@ describe('logFeatureUsage', () => {
     expect(mockInsert).toHaveBeenCalledWith(
       expect.objectContaining({ user_id: 'user-1', feature: 'recipe_extract' })
     )
+  })
+
+  it('logs error when insert fails but does not throw', async () => {
+    mockInsert.mockResolvedValue({ error: { message: 'db error' } })
+    const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {})
+
+    await expect(logFeatureUsage('user-1', 'recipe_extract')).resolves.not.toThrow()
+    expect(consoleSpy).toHaveBeenCalled()
+
+    consoleSpy.mockRestore()
   })
 })

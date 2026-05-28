@@ -4,8 +4,8 @@ export type GatedFeature = 'recipe_extract' | 'meal_weave' | 'batch_import'
 
 export interface GateResult {
   allowed: boolean
-  remaining: number  // Infinity for pro users
-  resets_at: Date    // approximate rolling window reset
+  remaining: number | null  // null means no limit (pro users)
+  resets_at: Date           // approximate rolling window reset
 }
 
 // Free tier weekly limits. batch_import = 0 means pro-only.
@@ -21,18 +21,22 @@ export async function checkFeatureGate(
 ): Promise<GateResult> {
   const supabase = await createClient()
 
-  const { data: profile } = await supabase
+  const { data: profile, error: profileError } = await supabase
     .from('profiles')
     .select('tier, tier_expires_at')
     .eq('id', userId)
     .single()
+
+  if (profileError) {
+    throw new Error(`feature-gate: profile fetch failed: ${profileError.message}`)
+  }
 
   const isPro =
     profile?.tier === 'pro' &&
     (!profile.tier_expires_at || new Date(profile.tier_expires_at) > new Date())
 
   if (isPro) {
-    return { allowed: true, remaining: Infinity, resets_at: new Date() }
+    return { allowed: true, remaining: null, resets_at: new Date() }
   }
 
   const limit = FREE_WEEKLY_LIMITS[feature]
@@ -42,12 +46,16 @@ export async function checkFeatureGate(
 
   const windowStart = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
 
-  const { count } = await supabase
+  const { count, error: countError } = await supabase
     .from('ai_usage_log')
     .select('*', { count: 'exact', head: true })
     .eq('user_id', userId)
     .eq('feature', feature)
     .gte('used_at', windowStart.toISOString())
+
+  if (countError) {
+    throw new Error(`feature-gate: usage count failed: ${countError.message}`)
+  }
 
   const used = count ?? 0
   const remaining = Math.max(0, limit - used)
@@ -63,5 +71,10 @@ export async function logFeatureUsage(
   metadata?: Record<string, unknown>
 ): Promise<void> {
   const supabase = await createClient()
-  await supabase.from('ai_usage_log').insert({ user_id: userId, feature, metadata })
+  const { error } = await supabase
+    .from('ai_usage_log')
+    .insert({ user_id: userId, feature, metadata })
+  if (error) {
+    console.error('feature-gate: failed to log usage', { userId, feature, error: error.message })
+  }
 }
