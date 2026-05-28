@@ -1,10 +1,18 @@
 // src/lib/lemonsqueezy.ts
 
+import { createHmac, timingSafeEqual } from 'crypto'
+
+function requireEnv(name: string): string {
+  const v = process.env[name]
+  if (!v) throw new Error(`Missing required environment variable: ${name}`)
+  return v
+}
+
 const LS_BASE = 'https://api.lemonsqueezy.com/v1'
 
 function lsHeaders() {
   return {
-    Authorization: `Bearer ${process.env.LS_API_KEY!}`,
+    Authorization: `Bearer ${requireEnv('LS_API_KEY')}`,
     'Content-Type': 'application/vnd.api+json',
     Accept: 'application/vnd.api+json',
   }
@@ -23,8 +31,8 @@ export async function createCheckoutUrl(
 ): Promise<string> {
   const variantId =
     plan === 'annual'
-      ? process.env.LS_ANNUAL_VARIANT_ID!
-      : process.env.LS_MONTHLY_VARIANT_ID!
+      ? requireEnv('LS_ANNUAL_VARIANT_ID')
+      : requireEnv('LS_MONTHLY_VARIANT_ID')
 
   const res = await fetch(`${LS_BASE}/checkouts`, {
     method: 'POST',
@@ -38,11 +46,11 @@ export async function createCheckoutUrl(
             custom: { user_id: userId },
           },
           product_options: {
-            redirect_url: `${process.env.NEXT_PUBLIC_APP_URL}/settings?upgraded=1`,
+            redirect_url: `${requireEnv('NEXT_PUBLIC_APP_URL')}/settings?upgraded=1`,
           },
         },
         relationships: {
-          store: { data: { type: 'stores', id: process.env.LS_STORE_ID! } },
+          store: { data: { type: 'stores', id: requireEnv('LS_STORE_ID') } },
           variant: { data: { type: 'variants', id: variantId } },
         },
       },
@@ -55,20 +63,26 @@ export async function createCheckoutUrl(
   }
 
   const json = await res.json()
-  return json.data.attributes.url as string
+  const url = json?.data?.attributes?.url
+  if (typeof url !== 'string') {
+    throw new Error('LemonSqueezy: unexpected checkout response shape')
+  }
+  return url
 }
 
 /**
  * Verify a LemonSqueezy webhook signature.
  * Signature is HMAC-SHA256 of the raw request body using LS_WEBHOOK_SECRET.
  */
-export async function verifyWebhookSignature(
+export function verifyWebhookSignature(
   rawBody: string,
   signature: string
-): Promise<boolean> {
-  const { createHmac } = await import('crypto')
-  const expected = createHmac('sha256', process.env.LS_WEBHOOK_SECRET!)
+): boolean {
+  const expected = createHmac('sha256', requireEnv('LS_WEBHOOK_SECRET'))
     .update(rawBody)
     .digest('hex')
-  return expected === signature
+  const expectedBuf = Buffer.from(expected, 'hex')
+  const signatureBuf = Buffer.from(signature, 'hex')
+  if (expectedBuf.length !== signatureBuf.length) return false
+  return timingSafeEqual(expectedBuf, signatureBuf)
 }
