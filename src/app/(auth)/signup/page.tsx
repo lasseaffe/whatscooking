@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { ChefHat } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 
@@ -19,8 +19,10 @@ const DIETARY_PREFERENCES = [
   { value: "mediterranean", label: "Mediterranean" },
 ];
 
-export default function SignupPage() {
+function SignupPageInner() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const refCode = searchParams.get("ref");
   const [step, setStep] = useState<"account" | "preferences">("account");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,6 +30,12 @@ export default function SignupPage() {
   const [selectedPrefs, setSelectedPrefs] = useState<string[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (refCode) {
+      document.cookie = `wc_ref=${refCode}; path=/; max-age=604800`; // 7 days
+    }
+  }, [refCode]);
 
   function togglePref(value: string) {
     setSelectedPrefs((prev) =>
@@ -69,10 +77,28 @@ export default function SignupPage() {
       return;
     }
 
+    // Resolve referral code to user ID
+    let referredById: string | null = null;
+    const refCookie = document.cookie
+      .split('; ')
+      .find(row => row.startsWith('wc_ref='))
+      ?.split('=')[1];
+
+    if (refCookie) {
+      const { data: referrer } = await supabase
+        .from('profiles')
+        .select('id')
+        .eq('referral_code', refCookie)
+        .neq('id', data.user.id)  // don't self-refer
+        .single();
+      if (referrer) referredById = referrer.id;
+    }
+
     await supabase.from("profiles").upsert({
       id: data.user.id,
       full_name: fullName,
       dietary_preferences: selectedPrefs,
+      referred_by: referredById,  // null if no referral
     });
     await supabase.from("user_preferences").upsert({
       user_id: data.user.id,
@@ -167,5 +193,13 @@ export default function SignupPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={null}>
+      <SignupPageInner />
+    </Suspense>
   );
 }

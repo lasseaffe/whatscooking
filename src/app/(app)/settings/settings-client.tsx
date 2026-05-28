@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Palette, Moon, Sun, Bell, ChefHat, Check, Trash2, AlertTriangle, Loader2, Shield, ExternalLink, BookOpen, Wand2, CheckCircle2, XCircle, BarChart2, Zap } from "lucide-react";
 import { UsageMeter } from "@/components/upgrade/UsageMeter";
@@ -234,6 +234,38 @@ function PlaywrightFixerButton() {
   );
 }
 
+function CopyReferralLink() {
+  const [copied, setCopied] = useState(false);
+  const [referralCode, setReferralCode] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch('/api/billing/usage')
+      .then(r => r.json())
+      .then(d => setReferralCode(d.referral_code ?? null))
+      .catch(() => {});
+  }, []);
+
+  async function handleCopy() {
+    if (!referralCode) return;
+    const url = `${window.location.origin}/signup?ref=${referralCode}`;
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  if (!referralCode) return null;
+
+  return (
+    <button
+      onClick={handleCopy}
+      className="text-xs font-medium transition-colors"
+      style={{ color: copied ? "#7fba7f" : "#C97D2E" }}
+    >
+      {copied ? "Copied!" : "Copy invite link →"}
+    </button>
+  );
+}
+
 interface SettingsClientProps {
   trackIntake: boolean;
   userId: string | null;
@@ -325,6 +357,14 @@ export function SettingsClient({ trackIntake: initialTrackIntake, userId }: Sett
         <p className="text-xs" style={{ color: "#5A3A20" }}>
           Cancel anytime. Annual plan saves 3 months vs monthly.
         </p>
+
+        <div className="mt-4 pt-3" style={{ borderTop: "1px solid rgba(58,36,22,0.4)" }}>
+          <p className="text-xs mb-1.5" style={{ color: "#7A5A40" }}>Earn free months</p>
+          <p className="text-xs mb-2.5" style={{ color: "#5A3A20" }}>
+            Refer a friend who subscribes → you get 1 free month, they get 15% off.
+          </p>
+          <CopyReferralLink />
+        </div>
       </Section>
 
       {/* ── Appearance ── */}
