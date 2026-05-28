@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { HeroSection } from "@/components/landing/HeroSection";
+import { ScrollStrip } from "@/components/landing/ScrollStrip";
 import { SwiperSection } from "@/components/landing/SwiperSection";
 import { FeatureCarousel } from "@/components/landing/FeatureCarousel";
 import { RecipeShowcase } from "@/components/landing/RecipeShowcase";
@@ -17,9 +18,13 @@ type Recipe = {
   calories: number | null;
 };
 
+type TrendingRecipe = Recipe & { likes_count: number | null };
+
 export default async function LandingPage() {
   const supabase = await createClient();
 
+  // Hero recipe — still pulled from DB for metadata (title, cuisine, time, kcal)
+  // but the image is replaced by the curated allowlist in HeroSection
   const { data: topRecipes } = await supabase
     .from("recipes")
     .select("id, title, image_url, cuisine_type, cook_time_minutes, calories")
@@ -30,7 +35,10 @@ export default async function LandingPage() {
 
   const heroRecipe: Recipe = topRecipes && topRecipes.length > 0
     ? topRecipes[Math.floor(Math.random() * topRecipes.length)]
-    : { id: '', title: "Tonight's Recipe", image_url: null, cuisine_type: null, cook_time_minutes: null, calories: null };
+    : { id: '', title: "Birria Tacos", image_url: null, cuisine_type: "Mexican", cook_time_minutes: 75, calories: 620 };
+
+  // Curated index — server-randomised so it's stable per SSR render
+  const curatedIndex = Math.floor(Math.random() * 9);
 
   const { data: stripRecipes } = await supabase
     .from("recipes")
@@ -48,6 +56,18 @@ export default async function LandingPage() {
     .order("created_at", { ascending: false })
     .limit(10);
 
+  // Trending — try likes_count, fall back to most recent
+  const { data: trendingRaw } = await supabase
+    .from("recipes")
+    .select("id, title, image_url, cuisine_type, cook_time_minutes, calories, likes_count")
+    .not("image_url", "is", null)
+    .order("likes_count", { ascending: false, nullsFirst: false })
+    .limit(5);
+
+  const trendingRecipes: TrendingRecipe[] = (trendingRaw && trendingRaw.length >= 3)
+    ? trendingRaw
+    : (swiperRecipes ?? []).slice(0, 5).map(r => ({ ...r, likes_count: null }));
+
   return (
     <>
       {/* Fixed header */}
@@ -61,9 +81,16 @@ export default async function LandingPage() {
         </div>
       </header>
 
-      <HeroSection heroRecipe={heroRecipe} stripRecipes={stripRecipes ?? []} />
+      {/* Hero — 70svh, cinematic image left + cooking mode panel right */}
+      <HeroSection heroRecipe={heroRecipe} curatedIndex={curatedIndex} />
 
-      <SwiperSection heroRecipe={heroRecipe} moreRecipes={swiperRecipes ?? []} />
+      {/* Scroll strip — hidden on mobile, decorative on desktop */}
+      <div className="hidden md:block" style={{ position: 'relative', overflow: 'hidden', height: 220, borderTop: '1px solid rgba(201,169,110,0.08)', background: 'var(--bg-primary, #0a0503)' }}>
+        <ScrollStrip recipes={stripRecipes ?? []} />
+      </div>
+
+      {/* Swiper section — 60vh, card left + trending right */}
+      <SwiperSection heroRecipe={heroRecipe} moreRecipes={swiperRecipes ?? []} trendingRecipes={trendingRecipes} />
 
       <FeatureCarousel />
 

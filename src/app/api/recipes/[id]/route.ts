@@ -11,10 +11,13 @@ export async function PATCH(
 ) {
   try {
     const { id } = await params;
-    const body = await req.json() as { title?: string; description?: string };
+    const body = await req.json() as { title?: string; description?: string; instructions?: string[] };
     const allowed: Record<string, unknown> = {};
     if (typeof body.title === "string") allowed.title = body.title.trim();
     if (typeof body.description === "string") allowed.description = body.description.trim();
+    if (Array.isArray(body.instructions)) {
+      allowed.instructions = body.instructions.map((s) => (typeof s === "string" ? s.trim() : "")).filter(Boolean);
+    }
     if (Object.keys(allowed).length === 0) {
       return NextResponse.json({ error: "No valid fields" }, { status: 400 });
     }

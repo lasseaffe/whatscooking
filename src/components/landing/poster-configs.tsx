@@ -207,10 +207,12 @@ export const carbonaraPoster: PosterConfig = {
 
 export const ramenPoster: PosterConfig = {
   no: 'No. II',
-  layout: 'fullbleed-photo',
-  background: '#F0E8D6',
+  layout: 'fullbleed-strip',
+  background: '#0E0608',
+  stripColor: '#8b2020',
+  stripLabel: 'No.II · ラーメン',
   titleFont: 'dm-serif',
-  textColor: '#1A1008',
+  textColor: '#EFE3CE',
   accentColor: 'rgba(196,30,58,0.6)',
   provenance: ['日本 · 福岡県', '明治時代より'],
   provenanceEn: ['Japan · Fukuoka Prefecture', 'Since the Meiji era'],
@@ -241,8 +243,8 @@ export const ramenPoster: PosterConfig = {
   monogram: <RamenMonogram />,
   dividerOrnament: <SunMonDivider />,
   langClass: 'jp',
-  photoFadeColor: '#F0E8D6',
-  borderHoverColor: 'rgba(196,30,58,0.35)',
+  photoFadeColor: '#0E0608',
+  borderHoverColor: 'rgba(139,32,32,0.5)',
   washes: 'radial-gradient(ellipse 55% 40% at 85% 20%, rgba(196,30,58,0.09) 0%, transparent 60%), radial-gradient(ellipse 45% 35% at 12% 78%, rgba(44,62,110,0.08) 0%, transparent 55%)',
 }
 
@@ -288,8 +290,8 @@ export const croissantPoster: PosterConfig = {
 
 export const fattoushPoster: PosterConfig = {
   no: 'No. IV',
-  layout: 'fullbleed-photo',
-  background: '#0E1D35',
+  layout: 'bilingual-columns',
+  background: '#0C1810',
   titleFont: 'dm-serif',
   textColor: '#F5EDDB',
   accentColor: 'rgba(212,150,42,0.65)',
@@ -317,20 +319,37 @@ export const fattoushPoster: PosterConfig = {
     source: 'كل مطبخ لبناني · منذ الأزل',
     sourceEn: 'Every Lebanese kitchen · Est. indefinitely',
   },
+  bilingualIngredients: [
+    { ar: 'خبز محمّص · مكسّر باليد', en: 'Toasted pita · torn by hand' },
+    { ar: 'خس · فجل · خيار', en: 'Romaine · radish · cucumber' },
+    { ar: 'بندورة ناضجة · بصل أخضر', en: 'Ripe tomato · spring onion' },
+    { ar: 'نعنع طازج · بقلة', en: 'Fresh mint · purslane' },
+    { ar: 'سماق · دبس الرمان · زيت زيتون', en: 'Sumac · pomegranate molasses · olive oil' },
+  ],
+  bilingualDescription: {
+    ar: 'السماق لا يُنكّه — يُجادل. أضف أكثر مما تظن.',
+    en: "Sumac doesn't season — it argues. Throw more than you think.",
+  },
   imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=500&q=80',
   imageAlt: 'Fattoush',
   monogram: <FattoushMonogram />,
   dividerOrnament: <KhatamDivider />,
   langClass: 'ar',
-  photoFadeColor: '#0E1D35',
+  photoFadeColor: '#0C1810',
   borderHoverColor: 'rgba(212,150,42,0.4)',
   washes: 'radial-gradient(ellipse 60% 45% at 18% 22%, rgba(192,57,43,0.10) 0%, transparent 60%), radial-gradient(ellipse 50% 40% at 88% 78%, rgba(125,155,78,0.09) 0%, transparent 55%)',
 }
 
 export const birriasPoster: PosterConfig = {
   no: 'No. V',
-  layout: 'fullbleed-photo',
-  background: '#130A04',
+  layout: 'diagonal-slash',
+  background: '#1E0A02',
+  slashColors: ['rgba(180,30,10,0.65)', 'rgba(232,100,10,0.5)', 'rgba(212,160,42,0.35)'],
+  metaPills: [
+    { label: '75 min', color: 'rgba(196,90,10,0.22)', border: 'rgba(244,162,97,0.75)' },
+    { label: 'Chile Adobo', color: 'rgba(180,30,10,0.18)', border: 'rgba(255,160,140,0.6)' },
+    { label: 'Jalisco', color: 'rgba(212,160,42,0.14)', border: 'rgba(212,160,42,0.65)' },
+  ],
   titleFont: 'dm-serif',
   textColor: '#F5EDDB',
   accentColor: 'rgba(232,71,10,0.72)',
@@ -364,7 +383,7 @@ export const birriasPoster: PosterConfig = {
   monogram: <BirriasMonogram />,
   dividerOrnament: <AztecCrossDivider />,
   langClass: 'es',
-  photoFadeColor: '#130A04',
+  photoFadeColor: '#1E0A02',
   borderHoverColor: 'rgba(232,71,10,0.4)',
   washes: 'radial-gradient(ellipse 65% 50% at 22% 18%, rgba(232,71,10,0.14) 0%, transparent 58%), radial-gradient(ellipse 50% 45% at 82% 80%, rgba(180,30,10,0.11) 0%, transparent 55%)',
 }

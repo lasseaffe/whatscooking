@@ -1,5 +1,4 @@
 'use client';
-import { useRef, useEffect } from 'react';
 
 interface Recipe {
   id: string;
@@ -9,7 +8,6 @@ interface Recipe {
 
 interface ScrollStripProps {
   recipes: Recipe[];
-  onImageVisible: (imageUrl: string) => void;
 }
 
 function buildColumns(recipes: Recipe[]): Recipe[][] {
@@ -21,26 +19,8 @@ function buildColumns(recipes: Recipe[]): Recipe[][] {
 const COL_DURATIONS = ['18s', '22s', '16s'];
 const COL_DELAYS = ['0s', '-6s', '-10s'];
 
-export function ScrollStrip({ recipes, onImageVisible }: ScrollStripProps) {
+export function ScrollStrip({ recipes }: ScrollStripProps) {
   const cols = buildColumns(recipes);
-  const observerRef = useRef<IntersectionObserver | null>(null);
-
-  useEffect(() => {
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.find(e => e.isIntersecting);
-        if (visible) {
-          const img = visible.target as HTMLElement;
-          const url = img.dataset.imageUrl;
-          if (url) onImageVisible(url);
-        }
-      },
-      { threshold: 0.5 }
-    );
-    const imgs = document.querySelectorAll('[data-image-url]');
-    imgs.forEach(img => observerRef.current?.observe(img));
-    return () => observerRef.current?.disconnect();
-  }, [onImageVisible]);
 
   return (
     <>

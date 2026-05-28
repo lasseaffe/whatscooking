@@ -1,8 +1,26 @@
 'use client';
 import { useCallback } from 'react';
 import Link from 'next/link';
-import { ScrollStrip } from './ScrollStrip';
 import { useAmbilight } from './useAmbilight';
+import { CookingModePanel } from './CookingModePanel';
+import { useIsMobile } from '@/hooks/useIsMobile';
+
+// Curated Unsplash IDs: landscape, food-only, no burnt-in text
+const CURATED_IMAGE_IDS = [
+  'photo-1565299585323-38d6b0865b47', // Birria Tacos
+  'photo-1555507036-ab1f4038808a',    // Croissant
+  'photo-1569050467447-ce54b3bbc37d', // Ramen
+  'photo-1540189549336-e6e99c3679fe', // Fattoush salad
+  'photo-1504674900247-0877df9cc836', // Food spread
+  'photo-1544025162-d76694265947',    // Slow cook
+  'photo-1555396273-367ea4eb4db5',    // Fire grill
+  'photo-1565299624946-b28f40a0ae38', // Pizza
+  'photo-1612874742237-6526221588e3', // Carbonara
+];
+
+export function buildCuratedImageUrl(id: string) {
+  return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1400&q=85`;
+}
 
 interface HeroRecipe {
   id: string;
@@ -15,11 +33,14 @@ interface HeroRecipe {
 
 interface HeroSectionProps {
   heroRecipe: HeroRecipe;
-  stripRecipes: { id: string; title: string; image_url: string | null }[];
+  // curatedIndex passed from server so it's stable per render
+  curatedIndex: number;
 }
 
-export function HeroSection({ heroRecipe, stripRecipes }: HeroSectionProps) {
-  const ambilightColor = useAmbilight(heroRecipe.image_url, true);
+export function HeroSection({ heroRecipe, curatedIndex }: HeroSectionProps) {
+  const isMobile = useIsMobile();
+  const imageUrl = buildCuratedImageUrl(CURATED_IMAGE_IDS[curatedIndex % CURATED_IMAGE_IDS.length]);
+  const ambilightColor = useAmbilight(imageUrl, true);
 
   const handleScrollToSwiper = useCallback(() => {
     const el = document.getElementById('swiper-section');
@@ -35,85 +56,87 @@ export function HeroSection({ heroRecipe, stripRecipes }: HeroSectionProps) {
   return (
     <section
       className="relative w-full"
-      style={{ height: '100svh', minHeight: 600, overflow: 'clip', background: ambilightColor }}
+      style={{
+        height: isMobile ? '60svh' : '70svh',
+        minHeight: isMobile ? 380 : 480,
+        overflow: 'clip',
+        background: ambilightColor,
+        display: 'grid',
+        gridTemplateColumns: isMobile ? '1fr' : '1fr 36%',
+      }}
     >
-      {/* Ken Burns background image */}
-      {heroRecipe.image_url && (
+      {/* ── Left: cinematic image ── */}
+      <div className="relative" style={{ overflow: 'hidden' }}>
+        {/* Ken Burns background */}
         <div
           className="absolute pointer-events-none"
           style={{ inset: '-5%', animation: 'kenBurns 8s ease-in-out infinite alternate' }}
         >
           <img
-            src={heroRecipe.image_url}
+            src={imageUrl}
             alt={heroRecipe.title}
             className="w-full h-full object-cover"
           />
         </div>
-      )}
 
-      {/* Vignette */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{ zIndex: 3, background: 'radial-gradient(ellipse 120% 100% at 35% 50%, transparent 30%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.85) 100%)' }}
-      />
+        {/* Vignette — left-weighted so copy stays readable, right fades to panel */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            zIndex: 3,
+            background: [
+              'linear-gradient(to right, rgba(10,5,3,0.85) 0%, rgba(10,5,3,0.3) 55%, rgba(10,5,3,0.7) 100%)',
+              'linear-gradient(to top, rgba(10,5,3,0.6) 0%, transparent 50%)',
+            ].join(', '),
+          }}
+        />
 
-      {/* Scroll strip */}
-      <ScrollStrip recipes={stripRecipes} onImageVisible={() => {}} />
-
-      {/* Dish info — bottom left */}
-      <div
-        className="absolute"
-        style={{ left: '6%', bottom: '28%', zIndex: 6, animation: 'fadeInUp 0.8s ease-out both' }}
-      >
-        <p style={{ fontSize: 10, letterSpacing: 5, color: 'rgba(244,162,97,0.6)', marginBottom: 10, textTransform: 'uppercase' }}>
-          Tonight&apos;s Recommendation
-        </p>
-        <h1
-          style={{ fontSize: 'clamp(32px,5vw,60px)', fontStyle: 'italic', fontWeight: 400, lineHeight: 1.1, color: 'rgba(239,227,206,0.95)', textShadow: '0 4px 32px rgba(0,0,0,0.7)' }}
+        {/* Dish info — bottom left */}
+        <div
+          className="absolute"
+          style={{ left: '8%', bottom: '26%', zIndex: 6, animation: 'fadeInUp 0.8s ease-out both' }}
         >
-          {heroRecipe.title}
-        </h1>
-        {meta && (
-          <p style={{ marginTop: 12, fontSize: 11, letterSpacing: 3, color: 'rgba(244,162,97,0.5)' }}>
-            {meta}
+          <p style={{ fontSize: 10, letterSpacing: 5, color: 'rgba(244,162,97,0.6)', marginBottom: 10, textTransform: 'uppercase' }}>
+            Tonight&apos;s Recommendation
           </p>
-        )}
+          <h1
+            style={{ fontSize: 'clamp(28px,4vw,52px)', fontStyle: 'italic', fontWeight: 400, lineHeight: 1.1, color: 'rgba(239,227,206,0.95)', textShadow: '0 4px 32px rgba(0,0,0,0.7)' }}
+          >
+            {heroRecipe.title}
+          </h1>
+          {meta && (
+            <p style={{ marginTop: 12, fontSize: 11, letterSpacing: 3, color: 'rgba(244,162,97,0.5)' }}>
+              {meta}
+            </p>
+          )}
+        </div>
+
+        {/* CTAs */}
+        <div
+          className="absolute flex gap-3 items-center"
+          style={{ left: '8%', bottom: '12%', zIndex: 6, animation: 'fadeInUp 0.8s ease-out 0.3s both' }}
+        >
+          <Link
+            href="/auth/signup"
+            className="inline-block"
+            style={{ background: '#8B2635', color: 'rgba(239,227,206,0.95)', padding: '13px 26px', fontSize: 11, letterSpacing: 3, borderRadius: 2, textTransform: 'uppercase', textDecoration: 'none' }}
+          >
+            Get Started
+          </Link>
+          <button
+            onClick={handleScrollToSwiper}
+            style={{ background: 'transparent', color: 'rgba(239,227,206,0.6)', border: '1px solid rgba(239,227,206,0.2)', padding: '12px 22px', fontSize: 11, letterSpacing: 3, borderRadius: 2, cursor: 'pointer', textTransform: 'uppercase', fontFamily: 'inherit' }}
+          >
+            Explore Recipes
+          </button>
+        </div>
+
+        {/* Thin bottom rule */}
+        <div className="absolute bottom-0 left-0 right-0" style={{ height: 1, background: 'linear-gradient(90deg,transparent,rgba(244,162,97,0.2),transparent)', zIndex: 6 }} />
       </div>
 
-      {/* CTAs */}
-      <div
-        className="absolute flex gap-3 items-center"
-        style={{ left: '6%', bottom: '14%', zIndex: 6, animation: 'fadeInUp 0.8s ease-out 0.3s both' }}
-      >
-        <Link
-          href="/auth/signup"
-          className="inline-block"
-          style={{ background: '#8B2635', color: 'rgba(239,227,206,0.95)', padding: '14px 28px', fontSize: 12, letterSpacing: 3, borderRadius: 2, textTransform: 'uppercase', textDecoration: 'none' }}
-        >
-          Get Started
-        </Link>
-        <button
-          onClick={handleScrollToSwiper}
-          style={{ background: 'transparent', color: 'rgba(239,227,206,0.6)', border: '1px solid rgba(239,227,206,0.2)', padding: '13px 24px', fontSize: 12, letterSpacing: 3, borderRadius: 2, cursor: 'pointer', textTransform: 'uppercase', fontFamily: 'inherit' }}
-        >
-          Explore Recipes
-        </button>
-      </div>
-
-      {/* Scroll hint */}
-      <button
-        onClick={handleScrollToSwiper}
-        className="absolute flex flex-col items-center gap-1.5"
-        style={{ bottom: '4%', left: '50%', transform: 'translateX(-50%)', zIndex: 6, background: 'none', border: 'none', cursor: 'pointer', animation: 'fadeInUp 0.8s ease-out 0.6s both' }}
-      >
-        <span style={{ fontSize: 9, letterSpacing: 4, color: 'rgba(239,227,206,0.35)', textTransform: 'uppercase' }}>
-          Swipe Tonight&apos;s Dinner
-        </span>
-        <div style={{ width: 20, height: 20, borderRight: '1px solid rgba(239,227,206,0.3)', borderBottom: '1px solid rgba(239,227,206,0.3)', transform: 'rotate(45deg)', animation: 'arrowBounce 1.5s ease-in-out infinite' }} />
-      </button>
-
-      {/* Thin bottom rule */}
-      <div className="absolute bottom-0 left-0 right-0" style={{ height: 1, background: 'linear-gradient(90deg,transparent,rgba(244,162,97,0.2),transparent)', zIndex: 6 }} />
+      {/* ── Right: cooking mode panel — hidden on mobile ── */}
+      {!isMobile && <CookingModePanel />}
     </section>
   );
 }

@@ -164,11 +164,15 @@ export function usePlannerState(planId: string, initialStatus: PlanStatus, initi
       });
       if (res.ok) {
         const out = await res.json();
+        // Weave/reweave is a deliberate action — persist immediately (no debounce
+        // window) and tell the watcher effect not to double-write this value.
+        skipNextPersist.current = true;
         setWeave(out);
         setStatus('woven');
+        void persistEntries(out);
       }
     } finally { setLoading(false); }
-  }, [planId, weave]);
+  }, [planId, weave, persistEntries]);
 
   const setFilters = useCallback((patch: Partial<PinboardFilters>) => {
     setFiltersState(prev => {

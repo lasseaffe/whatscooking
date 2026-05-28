@@ -107,7 +107,7 @@ export async function CookbookShelf() {
       </div>
 
       <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-        {withCounts.map((cb) => (
+        {withCounts.map((cb, i) => (
           <CookbookCard
             key={cb.id}
             href={`/cookbooks/${cb.slug}`}
@@ -115,6 +115,7 @@ export async function CookbookShelf() {
             count={cb.recipeCount}
             accent={cb.theme_color ?? '#8B2635'}
             coverImageUrl={cb.cover_image_url}
+            volNum={i + 1}
           />
         ))}
         {withCounts.length === 0 && (

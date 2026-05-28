@@ -1,26 +1,43 @@
 "use client";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { X, BookOpen, Globe2, ShoppingBasket } from "lucide-react";
+import { X, BookOpen, Globe2, ShoppingBasket, Shuffle, Sparkles } from "lucide-react";
 import type { FusionDish, FusionCategory } from "@/lib/fusion-foods";
 import { FUSION_CATEGORIES, CULINARY_BRIDGES } from "@/lib/fusion-foods";
+import { FusionGeneratorModal } from "@/components/fusion/fusion-generator-modal";
 
 interface Props {
   dishes: FusionDish[];
 }
 
 export function FusionClient({ dishes }: Props) {
+  const router = useRouter();
   const [activeCategory, setActiveCategory] = useState<FusionCategory | "All">("All");
+  const [activeDietaryTag, setActiveDietaryTag] = useState<string | null>(null);
   const [selected, setSelected] = useState<FusionDish | null>(null);
+  const [showGenerator, setShowGenerator] = useState(false);
 
-  const filtered = activeCategory === "All"
-    ? dishes
-    : dishes.filter((d) => d.category === activeCategory);
+  const allDietaryTags = Array.from(
+    new Set(dishes.flatMap((d) => d.dietaryTags ?? []))
+  ).sort();
+
+  const filtered = dishes.filter((d) => {
+    if (activeCategory !== "All" && d.category !== activeCategory) return false;
+    if (activeDietaryTag && !d.dietaryTags?.includes(activeDietaryTag)) return false;
+    return true;
+  });
+
+  function pickRandom() {
+    if (filtered.length === 0) return;
+    const pick = filtered[Math.floor(Math.random() * filtered.length)];
+    router.push(`/cuisines/fusion/${pick.id}`);
+  }
 
   return (
     <>
-      {/* ── Category filter pills ── */}
-      <div className="flex gap-2 overflow-x-auto pb-2 mb-8 scrollbar-none">
+      {/* ── Category filter pills + Random button ── */}
+      <div className="flex flex-wrap gap-2 pb-2 mb-4">
         {(["All", ...FUSION_CATEGORIES] as const).map((cat) => (
           <button
             key={cat}
@@ -35,7 +52,43 @@ export function FusionClient({ dishes }: Props) {
             {cat}
           </button>
         ))}
+        <button
+          onClick={pickRandom}
+          className="shrink-0 px-4 py-1.5 rounded-full text-xs font-semibold ml-auto flex items-center gap-1.5"
+          style={{ background: "#C8522A", color: "#fff" }}
+        >
+          <Shuffle className="w-3 h-3" />
+          Random Fusion
+        </button>
+        <button
+          onClick={() => setShowGenerator(true)}
+          className="shrink-0 px-4 py-1.5 rounded-full text-xs font-semibold flex items-center gap-1.5"
+          style={{ background: "#FBF6EE", color: "#C8522A", border: "1px solid #C8522A40" }}
+        >
+          <Sparkles className="w-3 h-3" />
+          Generate a fusion
+        </button>
       </div>
+
+      {/* ── Dietary tag filter pills ── */}
+      {allDietaryTags.length > 0 && (
+        <div className="flex gap-2 overflow-x-auto pb-2 mb-8 scrollbar-none">
+          {allDietaryTags.map((tag) => (
+            <button
+              key={tag}
+              onClick={() => setActiveDietaryTag(activeDietaryTag === tag ? null : tag)}
+              className="shrink-0 px-3 py-1 rounded-full text-xs font-medium transition-all capitalize"
+              style={{
+                background: activeDietaryTag === tag ? "#4A6830" : "rgba(74,104,48,0.12)",
+                color: activeDietaryTag === tag ? "#fff" : "#4A6830",
+                border: `1px solid ${activeDietaryTag === tag ? "#4A6830" : "rgba(74,104,48,0.3)"}`,
+              }}
+            >
+              {tag}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* ── Recipe grid ── */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-14">
@@ -82,6 +135,11 @@ export function FusionClient({ dishes }: Props) {
       {/* ── Recipe modal ── */}
       {selected && (
         <RecipeModal dish={selected} onClose={() => setSelected(null)} />
+      )}
+
+      {/* ── AI Fusion Generator modal ── */}
+      {showGenerator && (
+        <FusionGeneratorModal onClose={() => setShowGenerator(false)} />
       )}
     </>
   );
@@ -226,12 +284,21 @@ function RecipeModal({ dish, onClose }: { dish: FusionDish; onClose: () => void 
             </ol>
           </div>
 
+          {/* View full recipe link */}
+          <Link
+            href={`/cuisines/fusion/${dish.id}`}
+            className="inline-flex items-center gap-1.5 text-sm font-semibold px-4 py-2 rounded-xl mb-4 w-full justify-center"
+            style={{ background: "#C8522A", color: "#fff" }}
+          >
+            View Full Recipe →
+          </Link>
+
           {/* Source */}
           <a
             href={dish.sourceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs underline"
+            className="text-xs underline block text-center"
             style={{ color: "rgba(239,227,206,0.3)" }}
           >
             Original source

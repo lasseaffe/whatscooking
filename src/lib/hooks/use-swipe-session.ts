@@ -76,6 +76,8 @@ export function useSwipeSession(
   const [dragging, setDragging] = useState(false);
   const [dragX, setDragX] = useState(0);
   const [dragY, setDragY] = useState(0);
+  const draggingRef = useRef(false);
+  const dragXRef = useRef(0);
   const startX = useRef(0);
   const startY = useRef(0);
   const moved = useRef(false);
@@ -104,6 +106,7 @@ export function useSwipeSession(
 
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     if (exiting) return;
+    draggingRef.current = true;
     setDragging(true);
     moved.current = false;
     startX.current = e.clientX;
@@ -112,27 +115,32 @@ export function useSwipeSession(
   }, [exiting]);
 
   const onPointerMove = useCallback((e: React.PointerEvent) => {
-    if (!dragging) return;
+    if (!draggingRef.current) return;
     const dx = e.clientX - startX.current;
     const dy = e.clientY - startY.current;
     if (Math.abs(dx) > TAP_THRESHOLD || Math.abs(dy) > TAP_THRESHOLD) moved.current = true;
+    dragXRef.current = dx;
     setDragX(dx);
     setDragY(dy);
-  }, [dragging]);
+  }, []);
 
   const onPointerUp = useCallback(() => {
-    if (!dragging) return;
+    if (!draggingRef.current) return;
+    draggingRef.current = false;
     setDragging(false);
     if (!moved.current && currentCard) {
       setPreviewRecipe(currentCard);
+      dragXRef.current = 0;
       setDragX(0);
       setDragY(0);
       return;
     }
-    if (dragX > SWIPE_THRESHOLD) commitSwipe("right");
-    else if (dragX < -SWIPE_THRESHOLD) commitSwipe("left");
+    const finalDragX = dragXRef.current;
+    dragXRef.current = 0;
+    if (finalDragX > SWIPE_THRESHOLD) commitSwipe("right");
+    else if (finalDragX < -SWIPE_THRESHOLD) commitSwipe("left");
     else { setDragX(0); setDragY(0); }
-  }, [dragging, currentCard, dragX, commitSwipe]);
+  }, [dragging, currentCard, commitSwipe]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -185,6 +193,7 @@ export function useSwipeSession(
     setExiting(null);
     setDragX(0);
     setDragY(0);
+    draggingRef.current = false;
     setDragging(false);
   }, [recipes]);
 

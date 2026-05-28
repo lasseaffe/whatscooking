@@ -51,6 +51,12 @@ const NAV_GROUPS: NavGroup[] = [
         desc: "",
       },
       {
+        href: "/explore",
+        label: "Explore",
+        icon: Compass,
+        desc: "Browse TheMealDB & Spoonacular",
+      },
+      {
         href: "/challenge",
         label: "Challenge Mode",
         icon: Swords,

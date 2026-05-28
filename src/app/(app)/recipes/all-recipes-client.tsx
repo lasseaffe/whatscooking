@@ -22,6 +22,7 @@ type Recipe = {
   cook_time_minutes?: number | null;
   difficulty_level?: string | null;
   required_utensils?: string[] | null;
+  source?: string | null;
 };
 
 type TagGroup = { label: string; emoji: string; tags: string[] };
@@ -125,6 +126,12 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
                 <Clock className="w-3 h-3" />{totalTime}m
               </span>
             )}
+            {recipe.source === "imported" && (
+              <span className="text-xs font-semibold px-2 py-0.5 rounded-full"
+                style={{ background: "rgba(107,114,128,0.25)", color: "#9CA3AF", border: "1px solid rgba(107,114,128,0.3)" }}>
+                Imported
+              </span>
+            )}
             {recipe.cuisine_type && (
               <span className="text-xs px-1.5 py-0.5 rounded-full" style={{ background: "rgba(90,50,20,0.3)", color: "#C8865A" }}>
                 {recipe.cuisine_type}
@@ -165,6 +172,12 @@ function RecipeCard({ recipe, view, showAdaptBadge }: { recipe: Recipe; view: "g
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,10,4,0.7) 0%, transparent 55%)" }} />
+        {recipe.source === "imported" && (
+          <span className="absolute top-2 left-2 text-xs font-semibold px-2 py-0.5 rounded-full z-10"
+            style={{ background: "rgba(107,114,128,0.85)", color: "#fff" }}>
+            Imported
+          </span>
+        )}
         {recipe.difficulty_level && (
           <span className="absolute top-2 right-2 text-xs px-1.5 py-0.5 rounded-full font-medium capitalize"
             style={{ background: "rgba(0,0,0,0.5)", color: "#EFE3CE" }}>
@@ -246,6 +259,9 @@ export function AllRecipesClient({
   const [utensilFilters, setUtensilFilters] = useState<string[]>([]);
   const [utensilMode, setUtensilMode] = useState<"positive" | "negative">("negative");
 
+  const [activeTab, setActiveTab] = useState<"all" | "imported">("all");
+  const [showImported, setShowImported] = useState(true);
+
   const [displayedRecipes, setDisplayedRecipes] = useState<Recipe[]>(initialRecipes);
   const [page, setPage] = useState(0);
   const [total, setTotal] = useState(initialTotal);
@@ -260,6 +276,8 @@ export function AllRecipesClient({
     diets: Set<string>;
     difficulty: string | null;
     append: boolean;
+    tab?: "all" | "imported";
+    showImported?: boolean;
   }) => {
     setIsLoading(true);
     const params = new URLSearchParams({ page: String(opts.page), limit: "50" });
@@ -267,6 +285,8 @@ export function AllRecipesClient({
     if (opts.difficulty)    params.set("difficulty", opts.difficulty);
     const allTags = [...opts.tags, ...opts.diets].filter(Boolean);
     if (allTags.length)     params.set("tags", allTags.join(","));
+    if (opts.tab === "imported") params.set("source", "imported");
+    else if (opts.showImported === false) params.set("excludeSource", "imported");
 
     try {
       const res = await fetch(`/api/recipes/list?${params}`);
@@ -297,7 +317,7 @@ export function AllRecipesClient({
     setActiveTags((prev) => {
       const next = new Set(prev);
       next.has(tag) ? next.delete(tag) : next.add(tag);
-      fetchRecipes({ page: 0, search: query, tags: next, diets: activeDiets, difficulty: activeDifficulty, append: false });
+      fetchRecipes({ page: 0, search: query, tags: next, diets: activeDiets, difficulty: activeDifficulty, append: false, tab: activeTab, showImported });
       return next;
     });
   };
@@ -306,7 +326,7 @@ export function AllRecipesClient({
     setActiveDiets((prev) => {
       const next = new Set(prev);
       next.has(diet) ? next.delete(diet) : next.add(diet);
-      fetchRecipes({ page: 0, search: query, tags: activeTags, diets: next, difficulty: activeDifficulty, append: false });
+      fetchRecipes({ page: 0, search: query, tags: activeTags, diets: next, difficulty: activeDifficulty, append: false, tab: activeTab, showImported });
       return next;
     });
   };
@@ -341,6 +361,27 @@ export function AllRecipesClient({
         </p>
       </div>
 
+      {/* ── Tab bar ── */}
+      <div className="px-6 pb-3 flex items-center gap-2">
+        {(["all", "imported"] as const).map((tab) => (
+          <button
+            key={tab}
+            onClick={() => {
+              setActiveTab(tab);
+              fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false, tab, showImported });
+            }}
+            className="px-4 py-1.5 rounded-full text-sm font-medium transition-all capitalize"
+            style={{
+              background: activeTab === tab ? "rgba(244,162,97,0.18)" : "transparent",
+              color: activeTab === tab ? "#F4A261" : "#6B5040",
+              border: `1px solid ${activeTab === tab ? "rgba(244,162,97,0.5)" : "rgba(90,50,20,0.3)"}`,
+            }}
+          >
+            {tab === "all" ? "All Recipes" : "Imported"}
+          </button>
+        ))}
+      </div>
+
       {/* ── Search bar + controls ── */}
       <div className="px-6 pb-4 flex items-center gap-2">
         <div className="flex-1 relative">
@@ -354,7 +395,7 @@ export function AllRecipesClient({
               setQuery(val);
               if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
               searchTimerRef.current = setTimeout(() => {
-                fetchRecipes({ page: 0, search: val, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false });
+                fetchRecipes({ page: 0, search: val, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false, tab: activeTab, showImported });
               }, 300);
             }}
             className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm border outline-none"
@@ -473,7 +514,7 @@ export function AllRecipesClient({
                 <button key={d} onClick={() => {
                   const next = activeDifficulty === d ? null : d;
                   setActiveDifficulty(next);
-                  fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: next, append: false });
+                  fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: next, append: false, tab: activeTab, showImported });
                 }}
                   className="text-xs px-2.5 py-1 rounded-full border capitalize transition-all hover:scale-105"
                   style={{
@@ -487,6 +528,25 @@ export function AllRecipesClient({
               ))}
             </div>
           </div>
+
+          {/* Show imported toggle */}
+          {activeTab === "all" && (
+            <div>
+              <label className="flex items-center gap-2 text-sm cursor-pointer select-none" style={{ color: "#9A7A58" }}>
+                <input
+                  type="checkbox"
+                  checked={showImported}
+                  onChange={(e) => {
+                    const val = e.target.checked;
+                    setShowImported(val);
+                    fetchRecipes({ page: 0, search: query, tags: activeTags, diets: activeDiets, difficulty: activeDifficulty, append: false, tab: activeTab, showImported: val });
+                  }}
+                  className="rounded accent-amber-500"
+                />
+                Show imported recipes
+              </label>
+            </div>
+          )}
 
           {/* Collapsible category groups */}
           <div>
@@ -595,6 +655,8 @@ export function AllRecipesClient({
               diets: activeDiets,
               difficulty: activeDifficulty,
               append: true,
+              tab: activeTab,
+              showImported,
             })}
             className="px-8 py-3 rounded-2xl text-sm font-semibold transition-all disabled:opacity-50"
             style={{

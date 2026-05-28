@@ -1,5 +1,38 @@
 # What's Cooking — Implementation Changelog
 
+## [Unreleased] — 2026-05-28
+
+### Task 8: RecipeHeritageSidebar Component + Tests
+
+**What:** Added `RecipeHeritageSidebar` — a presentational sidebar component displaying recipe cultural heritage and origin stories.
+
+**Implementation:**
+- `src/components/recipe/recipe-heritage-sidebar.tsx` — Renders heritage notes (origin story, cultural occasion, key ingredient note) with dark theme styling. Returns `null` when `notes` is undefined. Includes a back-link to the cuisine page.
+- `src/lib/types.ts` — Added `HeritageNotes` interface with three string fields.
+- `src/components/recipe/__tests__/recipe-heritage-sidebar.test.tsx` — 6 test cases covering null rendering, label display, content rendering, and cuisine back-link.
+
+**Tests:** All 6 tests pass. No state, no async. Component integrates with `HeritageAtlasSection` from prior commits.
+
+**Styling:** Dark theme (#0d0b1e bg, #a78bfa labels, #f59e0b section headers, #94a3b8 body text).
+
+## [Unreleased] — 2026-05-26
+
+### Fix migration drift + add a drift-check CI guard
+
+**Problem:** Several committed migrations were never applied to the live DB (`oruplzhfmtehsjbnsoms`), which 404'd every plan-detail page: `[id]/page.tsx` selects `meal_plans.person_count` / `track_intake` (from `20260521_social_macros.sql`), the columns didn't exist, the query errored → `notFound()`. The list page (which doesn't select them) kept working, masking it.
+
+**Applied to the DB (via Supabase MCP, idempotent):**
+- `20260521_social_macros.sql` — `meal_plans.person_count` + `track_intake`, `profiles.track_intake`, `profile_follows` table (+ its RLS policies). Also hardened the committed file: wrapped the `create policy` statements in `do $$ … exception when duplicate_object` guards so re-runs can't fail.
+- `20260521000000_user_themes.sql` — `user_themes` table + RLS (the ledger had a *phantom* applied-row for it but the table never existed).
+- `20260526170000_imported_source.sql` — `recipes.original_source` / `original_source_url`, `profiles.show_imported_recipes`. Removed the file's stray `ALTER TYPE recipe_source ADD VALUE` line (no such enum exists — `recipes.source` is `text`).
+
+**New — drift-check workflow (prevents recurrence):**
+- `supabase/migrations/20260526160000_migration_drift_helper.sql` — `public.applied_migration_versions()` (security-definer, `service_role`-only) so CI can read the `supabase_migrations` ledger with the existing service key (PostgREST doesn't expose that schema).
+- `scripts/check-migration-drift.mjs` — fails if any committed migration's version isn't applied; small ALLOW-list for legacy out-of-band/mis-versioned files. `npm run migrations:check`.
+- `.github/workflows/db-drift-check.yml` — runs the check on push to `master` + PRs touching `supabase/migrations/**` (read-only; uses existing `SUPABASE_URL` + `SUPABASE_SERVICE_KEY`).
+
+**Verification:** Browser — all plan-detail pages load again (no 404); the woven builder hydrates from persisted entries and the macro panel reads "PER PERSON" (person_count live). `npm run migrations:check` → ✅ all 26 committed migration versions applied. The check proved itself by catching the unapplied `imported_source` migration during setup. Note: the check is version/ledger-based — it catches "committed but never applied", not a phantom ledger row.
+
 ## [Unreleased] — 2026-05-21
 
 ### Meal Plan Builder — Persist the woven week (close the rehydration gap + reconnect cook)
@@ -9,9 +42,9 @@
 **Changed:**
 - `src/app/api/plans/[id]/entries/route.ts` — `PUT` now persists the full entry shape (`source`, `is_leftover`, `locked`, `position`) and maps each entry's ephemeral weave `clientid` → a generated row `uuid`, writing `parent_clientid` as the parent's uuid so leftover→cook-day links survive the atomic delete/insert.
 - `src/app/api/plans/[id]/weave/route.ts` — added a `GET` handler that rebuilds the `WeaveResponse` (`entries` + recipe metadata + a pantry-aware recomputed `summary` via `computeSummary`) from `meal_entries`; returns `{ empty: true }` when none. Reuses the existing pantry/recipe-meta logic.
-- `src/app/(app)/plans/[id]/use-planner-state.ts` — on mount, when the plan status is `woven`/`cooking`, hydrate the grid from `GET …/weave`; persist the current week to `meal_entries` (debounced 600ms) on every weave change (initial weave, reweave, swap, remove, pin), skipping the write triggered by hydration. New `persistEntries` helper attaches macros from the weave recipe metadata.
+- `src/app/(app)/plans/[id]/use-planner-state.ts` — on mount, when the plan status is `woven`/`cooking`, hydrate the grid from `GET …/weave`; persist the current week to `meal_entries`, skipping the write triggered by hydration. **Weave/reweave persists immediately** (deliberate action, no debounce window — bulletproof), while rapid edits (swap/remove/pin) coalesce through a 600ms debounce. A single `skipNextPersist` ref keeps `runWeave`'s immediate write from being double-written by the `weave`-watching effect. New `persistEntries` helper attaches macros from the weave recipe metadata.
 
-**Verification:** `tsc` clean and `eslint` clean on all three files. Browser-verified (port 3002): weave → `PUT /entries 200` (persisted) → **reload hydrates straight to the woven view** (macro band + menu grid) instead of planning; **"Start cooking" now shows the woven week** and the shopping list is populated from the same entries.
+**Verification:** `tsc` clean and `eslint` clean on all three files. Browser-verified end-to-end (port 3002): weave → `PUT /entries 200` (persisted) → **reload hydrates straight to the woven view** (macro band + menu grid) instead of planning; **"Start cooking" shows the woven week** with a populated shopping list. (The later immediate-persist refinement is a 4-line change validated by `tsc`/`eslint`; browser re-verification on `feat/wc-theme-studio` is currently blocked by an unrelated pre-existing 404 on the plan-detail route, whose query selects `person_count, track_intake` columns that are not yet present in the DB.)
 
 ### Meal Plan Builder — "Editorial Kitchen" redesign (Part B of builder redesign)
 

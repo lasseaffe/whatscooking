@@ -8,16 +8,18 @@ interface Props {
   recipeId: string;
   initialTitle: string;
   initialDescription?: string | null;
+  initialInstructions?: string[] | null;
   iconSize?: number;
   className?: string;
   style?: React.CSSProperties;
-  onSaved?: (title: string, description: string) => void;
+  onSaved?: (title: string, description: string, instructions: string[]) => void;
 }
 
 export function EditRecipeButton({
   recipeId,
   initialTitle,
   initialDescription,
+  initialInstructions,
   iconSize = 13,
   className,
   style,
@@ -26,6 +28,9 @@ export function EditRecipeButton({
   const [open, setOpen] = useState(false);
   const [title, setTitle] = useState(initialTitle);
   const [description, setDescription] = useState(initialDescription ?? "");
+  const [instructionsText, setInstructionsText] = useState(
+    (initialInstructions ?? []).join("\n")
+  );
   const [status, setStatus] = useState<"idle" | "saving" | "done">("idle");
   const [mounted, setMounted] = useState(false);
   useEffect(() => { setMounted(true); }, []);
@@ -33,18 +38,25 @@ export function EditRecipeButton({
   // Keep local state in sync if parent re-renders with new data
   useEffect(() => { setTitle(initialTitle); }, [initialTitle]);
   useEffect(() => { setDescription(initialDescription ?? ""); }, [initialDescription]);
+  useEffect(() => { setInstructionsText((initialInstructions ?? []).join("\n")); }, [initialInstructions]);
 
   async function handleSave(e: React.FormEvent) {
     e.preventDefault();
     setStatus("saving");
+    const parsedInstructions = instructionsText
+      .split("\n")
+      .map((s) => s.trim())
+      .filter(Boolean);
     try {
+      const body: Record<string, unknown> = { title: title.trim(), description: description.trim() };
+      if (initialInstructions !== undefined) body.instructions = parsedInstructions;
       const res = await fetch(`/api/recipes/${recipeId}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: title.trim(), description: description.trim() }),
+        body: JSON.stringify(body),
       });
       if (res.ok) {
-        onSaved?.(title.trim(), description.trim());
+        onSaved?.(title.trim(), description.trim(), parsedInstructions);
         setStatus("done");
         setTimeout(() => { setOpen(false); setStatus("idle"); }, 1200);
       } else {
@@ -105,8 +117,8 @@ export function EditRecipeButton({
           onClick={(e) => e.stopPropagation()}
         >
           <div
-            className="relative w-full sm:max-w-sm rounded-t-3xl sm:rounded-2xl shadow-2xl p-6 pb-8"
-            style={{ background: "#1C1209" }}
+            className="relative w-full sm:max-w-lg rounded-t-3xl sm:rounded-2xl shadow-2xl p-6 pb-8 overflow-y-auto"
+            style={{ background: "#1C1209", maxHeight: "90dvh" }}
             onPointerDown={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between mb-4">
@@ -153,6 +165,22 @@ export function EditRecipeButton({
                   style={{ borderColor: "#3A2416", background: "#161009", color: "#EFE3CE" }}
                 />
               </div>
+              {initialInstructions !== undefined && (
+                <div>
+                  <label className="block text-xs font-semibold mb-1" style={{ color: "#8A6A4A" }}>
+                    Instructions <span style={{ color: "#4A3020", fontWeight: 400 }}>(one step per line)</span>
+                  </label>
+                  <textarea
+                    value={instructionsText}
+                    onChange={(e) => setInstructionsText(e.target.value)}
+                    onClick={(e) => e.stopPropagation()}
+                    rows={10}
+                    placeholder={"Step 1…\nStep 2…\nStep 3…"}
+                    className="w-full rounded-xl px-4 py-2.5 text-sm resize-y outline-none border font-mono"
+                    style={{ borderColor: "#3A2416", background: "#161009", color: "#EFE3CE", lineHeight: 1.7 }}
+                  />
+                </div>
+              )}
               <button
                 type="submit"
                 disabled={status !== "idle"}

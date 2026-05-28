@@ -1,15 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { ScrollStrip } from '@/components/landing/ScrollStrip';
 
-// jsdom does not implement IntersectionObserver — provide a no-op mock
-beforeAll(() => {
-  global.IntersectionObserver = class {
-    observe() {}
-    unobserve() {}
-    disconnect() {}
-  } as unknown as typeof IntersectionObserver;
-});
-
 const recipes = [
   { id: '1', title: 'Carbonara', image_url: '/img1.jpg' },
   { id: '2', title: 'Tagine', image_url: '/img2.jpg' },
@@ -21,13 +12,13 @@ const recipes = [
 
 describe('ScrollStrip', () => {
   it('renders all recipe titles', () => {
-    render(<ScrollStrip recipes={recipes} onImageVisible={() => {}} />);
+    render(<ScrollStrip recipes={recipes} />);
     expect(screen.getAllByText('Carbonara').length).toBeGreaterThan(0);
     expect(screen.getAllByText('Tagine').length).toBeGreaterThan(0);
   });
 
   it('renders three columns', () => {
-    const { container } = render(<ScrollStrip recipes={recipes} onImageVisible={() => {}} />);
+    const { container } = render(<ScrollStrip recipes={recipes} />);
     expect(container.querySelectorAll('[data-col]').length).toBe(3);
   });
 });
