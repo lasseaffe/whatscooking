@@ -5,6 +5,8 @@ import { getCuisineBySlug } from "@/lib/cuisines";
 import { RecipeCard } from "@/components/recipe-card";
 import { ArrowLeft, UtensilsCrossed } from "lucide-react";
 import type { Recipe } from "@/lib/types";
+import { HeritageAtlasSection } from "@/components/cuisine/heritage-atlas-section";
+import { cuisineWikipediaCache } from "@/lib/cuisine-wikipedia-cache";
 
 export const dynamic = "force-dynamic";
 
@@ -16,6 +18,8 @@ export default async function CuisineDetailPage({
   const { slug } = await params;
   const cuisine = getCuisineBySlug(slug);
   if (!cuisine) notFound();
+
+  const wikiEntry = cuisineWikipediaCache[slug] ?? null;
 
   const supabase = await createClient();
 
@@ -76,6 +80,12 @@ export default async function CuisineDetailPage({
             </div>
           </div>
         </div>
+
+        <HeritageAtlasSection
+          cuisine={cuisine}
+          wikiExtract={wikiEntry?.extract}
+          wikiSource={wikiEntry?.source}
+        />
       </div>
 
       {/* Recipes */}
