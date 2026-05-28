@@ -93,4 +93,26 @@ describe("HeritageAtlasSection", () => {
     const link = screen.getByRole("link", { name: /Wikipedia/i });
     expect(link).toHaveAttribute("href", "https://en.wikipedia.org/wiki/French_cuisine");
   });
+
+  it("wikiExtract prop overrides cuisine.historyExtract", () => {
+    render(
+      <HeritageAtlasSection
+        cuisine={FULL_CUISINE}
+        wikiExtract="Override extract from Wikipedia prop"
+      />
+    );
+    expect(screen.getByText("Override extract from Wikipedia prop")).toBeInTheDocument();
+    expect(screen.queryByText(/French cuisine has shaped/)).not.toBeInTheDocument();
+  });
+
+  it("wikiSource prop overrides cuisine.historySource as link href", () => {
+    render(
+      <HeritageAtlasSection
+        cuisine={FULL_CUISINE}
+        wikiSource="https://en.wikipedia.org/wiki/Override"
+      />
+    );
+    const link = screen.getByRole("link", { name: /Wikipedia/i });
+    expect(link).toHaveAttribute("href", "https://en.wikipedia.org/wiki/Override");
+  });
 });

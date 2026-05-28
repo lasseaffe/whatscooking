@@ -2,17 +2,18 @@ import type { CuisineInfo } from "@/lib/cuisines";
 
 interface Props {
   cuisine: CuisineInfo;
+  wikiExtract?: string;
+  wikiSource?: string;
 }
 
 /**
  * HeritageAtlasSection — purely presentational.
  * Renders cultural heritage data for an enriched cuisine.
  * Returns null when no heritage fields are present.
+ * wikiExtract/wikiSource props take precedence over cuisine.historyExtract/historySource.
  */
-export function HeritageAtlasSection({ cuisine }: Props) {
+export function HeritageAtlasSection({ cuisine, wikiExtract, wikiSource }: Props) {
   const {
-    historyExtract,
-    historySource,
     stapleIngredients,
     coreTechniques,
     culturalOccasions,
@@ -20,8 +21,11 @@ export function HeritageAtlasSection({ cuisine }: Props) {
     color,
   } = cuisine;
 
+  const extract = wikiExtract ?? cuisine.historyExtract;
+  const source = wikiSource ?? cuisine.historySource;
+
   const hasContent =
-    historyExtract ||
+    extract ||
     (stapleIngredients && stapleIngredients.length > 0) ||
     (coreTechniques && coreTechniques.length > 0) ||
     (culturalOccasions && culturalOccasions.length > 0) ||
@@ -38,18 +42,18 @@ export function HeritageAtlasSection({ cuisine }: Props) {
       style={{ "--heritage-accent": accent } as React.CSSProperties}
     >
       {/* History extract */}
-      {historyExtract && (
+      {extract && (
         <div className="heritage-atlas__history">
           <h3 className="heritage-atlas__heading">History</h3>
-          <p className="heritage-atlas__extract">{historyExtract}</p>
-          {historySource && (
+          <p className="heritage-atlas__extract">{extract}</p>
+          {source && (
             <a
-              href={historySource}
+              href={source}
               target="_blank"
               rel="noopener noreferrer"
               className="heritage-atlas__source"
             >
-              Wikipedia
+              Source: Wikipedia
             </a>
           )}
         </div>
