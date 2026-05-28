@@ -5,22 +5,26 @@ const mockSelect = jest.fn()
 const mockInsert = jest.fn()
 const mockSingle = jest.fn()
 
+const mockFromFn = jest.fn((table: string) => {
+  if (table === 'profiles') {
+    return {
+      select: jest.fn(() => ({ eq: jest.fn(() => ({ single: mockSingle })) })),
+    }
+  }
+  if (table === 'ai_usage_log') {
+    return {
+      select: mockSelect,
+      insert: mockInsert,
+    }
+  }
+})
+
 jest.mock('@/lib/supabase/server', () => ({
-  createClient: jest.fn(() => ({
-    from: jest.fn((table: string) => {
-      if (table === 'profiles') {
-        return {
-          select: jest.fn(() => ({ eq: jest.fn(() => ({ single: mockSingle })) })),
-        }
-      }
-      if (table === 'ai_usage_log') {
-        return {
-          select: mockSelect,
-          insert: mockInsert,
-        }
-      }
-    }),
-  })),
+  createClient: jest.fn(async () => ({ from: mockFromFn })),
+}))
+
+jest.mock('@/lib/supabase/service', () => ({
+  createServiceClient: jest.fn(() => ({ from: mockFromFn })),
 }))
 
 describe('checkFeatureGate', () => {
