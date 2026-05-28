@@ -26,6 +26,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF2FA",
     heroImage: "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=800&q=80",
     dbValues: ["French", "french"],
+    wikiTitle: "French cuisine",
   },
   {
     slug: "italian",
