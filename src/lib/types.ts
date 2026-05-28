@@ -12,6 +12,17 @@ export type RecipeSource = "spoonacular" | "ai" | "curated" | "social" | "user";
 // Heritage & Culture
 // ============================================================
 
+export interface CulturalJourneyStop {
+  emoji: string;
+  name: string;
+  note: string;
+}
+
+export interface CulturalJourney {
+  stops: CulturalJourneyStop[];
+  period: string;
+}
+
 export interface HeritageNotes {
   originStory: string;
   culturalOccasion: string;
