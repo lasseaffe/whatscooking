@@ -1,3 +1,16 @@
+export interface CultureItem {
+  emoji: string;
+  name: string;
+  note: string;
+}
+
+export interface CultureBridge {
+  dish: string;
+  from: string;
+  story: string;
+  recipeMatch: string;
+}
+
 export interface CuisineInfo {
   slug: string;
   name: string;
@@ -10,6 +23,14 @@ export interface CuisineInfo {
   bg: string;    // card background
   heroImage: string; // Unsplash photo URL for card header
   dbValues: string[]; // matches recipe.cuisine_type values
+  // Cultural heritage fields (optional — enriched cuisines only)
+  wikiTitle?: string;
+  historyExtract?: string;
+  historySource?: string;
+  stapleIngredients?: CultureItem[];
+  coreTechniques?: CultureItem[];
+  culturalOccasions?: string[];
+  crossCultureBridges?: CultureBridge[];
 }
 
 export const CUISINES: CuisineInfo[] = [
@@ -27,6 +48,46 @@ export const CUISINES: CuisineInfo[] = [
     heroImage: "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=800&q=80",
     dbValues: ["French", "french"],
     wikiTitle: "French cuisine",
+    stapleIngredients: [
+      { emoji: "🧈", name: "Butter", note: "Cultural core" },
+      { emoji: "🍷", name: "Wine", note: "Identity symbol" },
+      { emoji: "🧀", name: "Cheese", note: "400+ varieties" },
+      { emoji: "🌿", name: "Herbes de Provence", note: "Southern staple" },
+      { emoji: "🥖", name: "Bread", note: "Daily ritual" },
+    ],
+    coreTechniques: [
+      { emoji: "🔥", name: "Confit", note: "Medieval preservation" },
+      { emoji: "🥣", name: "Braise", note: "Low & slow" },
+      { emoji: "🥞", name: "Laminate", note: "Pastry mastery" },
+      { emoji: "🕯️", name: "Flambé", note: "Tableside drama" },
+    ],
+    culturalOccasions: [
+      "☕ Morning café ritual",
+      "🎭 Bastille Day feasts",
+      "🍽️ Sunday family lunch",
+      "💍 Wedding celebrations",
+      "🥂 New Year's réveillon",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Croissant",
+        from: "Ottoman Empire via Vienna",
+        story: "When Ottoman forces lifted the Siege of Vienna in 1683, Viennese bakers shaped pastries into crescents to commemorate the victory. The 'kipferl' was adapted into the modern laminated croissant after Marie Antoinette brought the concept to Paris — where French bakers added butter-laminated dough to transform it into an icon.",
+        recipeMatch: "croissant",
+      },
+      {
+        dish: "Crème brûlée",
+        from: "Catalonia",
+        story: "Both France and Catalonia claim the caramelised sugar crust dessert — the Catalan 'crema catalana' predates the French recipe in documented records. The shared technique likely evolved in parallel along the Pyrenean border.",
+        recipeMatch: "crème brûlée",
+      },
+      {
+        dish: "Baguette",
+        from: "Austria",
+        story: "The long, thin bread shape was popularised in France partly through Viennese baking traditions brought by August Zang in the 1840s. Steam-injected ovens — an Austrian innovation — gave the baguette its characteristic crisp crust.",
+        recipeMatch: "baguette",
+      },
+    ],
   },
   {
     slug: "italian",
@@ -40,6 +101,46 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FDF0EE",
     heroImage: "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&q=80",
     dbValues: ["Italian", "italian"],
+    wikiTitle: "Italian cuisine",
+    stapleIngredients: [
+      { emoji: "🫒", name: "Olive oil", note: "Foundation of everything" },
+      { emoji: "🍅", name: "Tomato", note: "Columbian exchange arrival" },
+      { emoji: "🍝", name: "Pasta", note: "Arab-influenced dry pasta" },
+      { emoji: "🧀", name: "Parmigiano", note: "Medieval monastery origin" },
+    ],
+    coreTechniques: [
+      { emoji: "🌡️", name: "Al dente", note: "Precise pasta texture" },
+      { emoji: "🥘", name: "Slow simmer", note: "Ragù patience" },
+      { emoji: "🍚", name: "Risotto stir", note: "Starch-release method" },
+      { emoji: "🔥", name: "Wood-fired", note: "Pizza Napoletana DOC" },
+    ],
+    culturalOccasions: [
+      "🍝 Sunday family pranzo (lunch)",
+      "🐟 Christmas Eve Feast of Seven Fishes",
+      "🎭 Carnevale fritters & sweets",
+      "🕊️ Easter colomba cake",
+      "🍷 Harvest Vendemmia feasts",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Pasta",
+        from: "Arab traders via Sicily",
+        story: "Dry pasta was introduced to Sicily by Arab traders during the 9th–11th century Norman-Arab period. The Arabs brought dried durum wheat pasta ('itriyya') that could survive long sea voyages — Italy refined the shape vocabulary over centuries.",
+        recipeMatch: "pasta",
+      },
+      {
+        dish: "Pizza with tomato",
+        from: "Americas (Columbian Exchange)",
+        story: "The tomato arrived in Europe from Mesoamerica in the 16th century but was considered poisonous by many Europeans for 200 years. Neapolitan peasants adopted it as food first — the tomato-topped pizza was born in Naples in the 18th century.",
+        recipeMatch: "pizza",
+      },
+      {
+        dish: "Espresso",
+        from: "Ottoman coffee culture",
+        story: "Coffee arrived in Italy via Ottoman trade routes in the 16th century. Venice was the first European city with coffeehouses. Italian engineering later transformed the brewing method into the pressure-extracted espresso.",
+        recipeMatch: "espresso",
+      },
+    ],
   },
   {
     slug: "spanish",
@@ -53,6 +154,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FDF7EE",
     heroImage: "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=800&q=80",
     dbValues: ["Spanish", "spanish"],
+    wikiTitle: "Spanish cuisine",
+    stapleIngredients: [
+      { emoji: "🫒", name: "Olive oil", note: "Spain = world's largest producer" },
+      { emoji: "🌶️", name: "Smoked paprika", note: "Pimentón — Moorish legacy" },
+      { emoji: "🧄", name: "Garlic", note: "Sofrito foundation" },
+      { emoji: "🍋", name: "Saffron", note: "Most expensive spice" },
+      { emoji: "🥩", name: "Jamón ibérico", note: "36-month air-cured ritual" },
+    ],
+    coreTechniques: [
+      { emoji: "🍳", name: "Socarrat (paella crust)", note: "Toasted rice base" },
+      { emoji: "🍽️", name: "Tapas sharing culture", note: "Bar-to-bar hopping" },
+      { emoji: "🏺", name: "Jamón curing", note: "Sierra microclimate aging" },
+      { emoji: "🥣", name: "Cold emulsification", note: "Gazpacho technique" },
+    ],
+    culturalOccasions: [
+      "🍅 La Tomatina tomato festival",
+      "🐂 San Fermín running of the bulls feasts",
+      "✝️ Holy Week torrijas (Spanish French toast)",
+      "🎄 Christmas turrones & polvorones",
+      "🍷 Harvest Vendimia wine festivals",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Tortilla española",
+        from: "Americas (Columbian Exchange)",
+        story: "The potato arrived in Spain from the Andes in the 16th century — considered poisonous for decades. Once adopted, the Spanish omelette (tortilla) became one of Spain's most iconic dishes. Without the Columbian exchange, Spain's national tapa would not exist.",
+        recipeMatch: "tortilla española",
+      },
+      {
+        dish: "Gazpacho",
+        from: "Moorish Andalusia",
+        story: "Gazpacho predates the tomato — the original Moorish version was a bread, olive oil, garlic, and vinegar paste. The Moors introduced sophisticated cold soup techniques to Andalusia during the 8th-15th century occupation. Tomatoes were added only after the Columbian exchange.",
+        recipeMatch: "gazpacho",
+      },
+    ],
   },
   {
     slug: "portuguese",
@@ -66,6 +202,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF7F2",
     heroImage: "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=800&q=80",
     dbValues: ["Portuguese", "portuguese"],
+    wikiTitle: "Portuguese cuisine",
   },
   {
     slug: "greek",
@@ -79,6 +216,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF2FA",
     heroImage: "https://images.unsplash.com/photo-1576867757603-05b134ebc379?w=800&q=80",
     dbValues: ["Greek", "greek", "Mediterranean"],
+    wikiTitle: "Greek cuisine",
+    stapleIngredients: [
+      { emoji: "🫒", name: "Olive oil", note: "Liquid gold — gift of Athena" },
+      { emoji: "🧀", name: "Feta", note: "PDO protected since 2002" },
+      { emoji: "🍋", name: "Lemon", note: "Citrus of the Mediterranean" },
+      { emoji: "🌿", name: "Oregano", note: "Mountain herb identity" },
+      { emoji: "🐑", name: "Lamb", note: "Easter & feast animal" },
+    ],
+    coreTechniques: [
+      { emoji: "🔥", name: "Kleftiko (sealed roast)", note: "Slow pit-roasting" },
+      { emoji: "🫙", name: "Phyllo layering", note: "Paper-thin pastry" },
+      { emoji: "🍽️", name: "Mezze sharing", note: "Small plates culture" },
+      { emoji: "🍢", name: "Souvlaki spit", note: "2,500-year tradition" },
+    ],
+    culturalOccasions: [
+      "✝️ Easter magiritsa soup (midnight feast)",
+      "🎉 Name day celebrations (bigger than birthdays)",
+      "🙏 Orthodox Lenten fasting dishes (nistisima)",
+      "💍 Greek wedding koufeta almonds",
+      "☀️ Summer panigyri village festival",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Baklava",
+        from: "Ottoman Empire",
+        story: "Baklava's layered phyllo and nut filling was perfected in the Ottoman imperial kitchens of Topkapı Palace. Greece, Turkey, and multiple Middle Eastern cuisines all claim it — in reality it evolved across the whole Eastern Mediterranean under Ottoman influence over 500 years.",
+        recipeMatch: "baklava",
+      },
+      {
+        dish: "Moussaka",
+        from: "Ottoman & Arab culinary tradition",
+        story: "The layered eggplant dish has roots in medieval Arab cuisine ('musaqqa'a'). The Ottoman version spread across the Balkans. The modern Greek moussaka with béchamel sauce was codified by chef Nikos Tselementes in the 1920s, influenced by French haute cuisine.",
+        recipeMatch: "moussaka",
+      },
+    ],
   },
 
   // ── AMERICAS ─────────────────────────────────────────────────
@@ -94,6 +266,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF7EF",
     heroImage: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80",
     dbValues: ["Mexican", "mexican"],
+    wikiTitle: "Mexican cuisine",
+    stapleIngredients: [
+      { emoji: "🌽", name: "Corn (masa)", note: "Sacred Mesoamerican grain" },
+      { emoji: "🌶️", name: "Chili", note: "10,000 years of cultivation" },
+      { emoji: "🍫", name: "Chocolate", note: "Aztec cacao ritual" },
+      { emoji: "🥑", name: "Avocado", note: "Originated in Mexico" },
+      { emoji: "🫘", name: "Black beans", note: "Pre-Columbian staple" },
+    ],
+    coreTechniques: [
+      { emoji: "🌽", name: "Nixtamalisation", note: "3,000-year lime process" },
+      { emoji: "🫙", name: "Stone grinding", note: "Molcajete & metate" },
+      { emoji: "♨️", name: "Comal grilling", note: "Clay griddle tradition" },
+      { emoji: "🍲", name: "Mole building", note: "30+ ingredient depth" },
+    ],
+    culturalOccasions: [
+      "💀 Día de los Muertos ofrendas (altar food)",
+      "🎀 Quinceañera feasts",
+      "🇲🇽 Independence Day chiles en nogada",
+      "🎄 Christmas Eve tamales",
+      "🌽 Harvest Día de la Santa Cruz",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Tacos al pastor",
+        from: "Lebanese shawarma immigrants",
+        story: "Lebanese immigrants arrived in Mexico in the 1920s-1930s, bringing the vertical spit-roasted shawarma tradition. Mexican cooks substituted lamb for pork, added chili and pineapple, and the trompo became the defining apparatus of tacos al pastor.",
+        recipeMatch: "al pastor",
+      },
+      {
+        dish: "Churros",
+        from: "Spain / Portugal",
+        story: "Churros arrived in Mexico during Spanish colonisation. Some historians trace the original pastry to Portuguese sailors who encountered Chinese youtiao (fried dough sticks) and adapted it. Mexico added chocolate dipping sauce — something not traditionally paired with churros in Spain.",
+        recipeMatch: "churro",
+      },
+    ],
   },
   {
     slug: "tex-mex",
@@ -107,6 +314,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FFF0E8",
     heroImage: "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?w=800&q=80",
     dbValues: ["Tex-Mex", "tex-mex", "Texmex"],
+    wikiTitle: "Tex-Mex cuisine",
   },
 
   // ── EAST ASIA ────────────────────────────────────────────────
@@ -122,6 +330,47 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF0EE",
     heroImage: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&q=80",
     dbValues: ["Japanese", "japanese"],
+    wikiTitle: "Japanese cuisine",
+    stapleIngredients: [
+      { emoji: "🍚", name: "Rice", note: "Sacred grain, currency" },
+      { emoji: "🍱", name: "Dashi", note: "Umami foundation" },
+      { emoji: "🧂", name: "Soy sauce", note: "Ancient ferment" },
+      { emoji: "🫙", name: "Miso", note: "Koji fermentation" },
+      { emoji: "🍶", name: "Sake", note: "Ritual & cooking" },
+    ],
+    coreTechniques: [
+      { emoji: "🔪", name: "Katachi knife work", note: "Form as philosophy" },
+      { emoji: "🫙", name: "Fermentation", note: "Miso, tsukemono, shoyu" },
+      { emoji: "♨️", name: "Umami layering", note: "5th taste mastery" },
+      { emoji: "🍡", name: "Sticky rice steam", note: "Glutinous precision" },
+    ],
+    culturalOccasions: [
+      "🎍 New Year's osechi ryōri boxes",
+      "🌸 Cherry blossom hanami picnics",
+      "👻 Obon festival offerings to ancestors",
+      "🍱 Daily bento culture & craft",
+      "🎑 Tsukimi moon-viewing dumplings",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Tempura",
+        from: "Portuguese Jesuit missionaries",
+        story: "Portuguese missionaries brought the technique of frying vegetables in seasoned batter to Japan in the 16th century. Japanese cooks refined it into tempura — adding rice flour for translucency and transforming a Catholic Friday tradition into one of Japan's most iconic dishes.",
+        recipeMatch: "tempura",
+      },
+      {
+        dish: "Ramen",
+        from: "Chinese lamian noodles",
+        story: "Ramen descends from Chinese wheat noodles brought to Japan by Chinese immigrants in the Meiji era. Japanese cooks localised the dish with tare seasoning, pork-bone broth, and regional variation — eventually creating something entirely distinct from its origin.",
+        recipeMatch: "ramen",
+      },
+      {
+        dish: "Tonkatsu",
+        from: "German Wiener Schnitzel",
+        story: "In the Meiji-era Westernisation push, Japanese chefs adapted the German breaded veal cutlet into tonkatsu using pork and panko breadcrumbs. The accompanying tonkatsu sauce is itself a Japanese riff on Worcestershire sauce — a British condiment.",
+        recipeMatch: "tonkatsu",
+      },
+    ],
   },
   {
     slug: "vietnamese",
@@ -135,6 +384,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF7EE",
     heroImage: "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80",
     dbValues: ["Vietnamese", "vietnamese"],
+    wikiTitle: "Vietnamese cuisine",
   },
   {
     slug: "chinese",
@@ -148,6 +398,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF0EE",
     heroImage: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=800&q=80",
     dbValues: ["Chinese", "chinese", "Cantonese", "Sichuan", "Szechuan"],
+    wikiTitle: "Chinese cuisine",
+    stapleIngredients: [
+      { emoji: "🧂", name: "Soy sauce", note: "2,500-year ferment" },
+      { emoji: "🫚", name: "Sesame oil", note: "Ancient finishing oil" },
+      { emoji: "🌶️", name: "Doubanjiang", note: "Sichuan spice paste" },
+      { emoji: "🧅", name: "Scallions & ginger", note: "Aromatic foundation" },
+      { emoji: "🍚", name: "Rice & noodles", note: "North/South divide" },
+    ],
+    coreTechniques: [
+      { emoji: "🔥", name: "Wok hei", note: "Breath of the wok" },
+      { emoji: "🫙", name: "Fermentation", note: "Doubanjiang, baijiu, douchi" },
+      { emoji: "🍲", name: "Red-braise", note: "Soy & sugar slow cook" },
+      { emoji: "🥟", name: "Dim sum steam", note: "Yum cha tradition" },
+    ],
+    culturalOccasions: [
+      "🧧 Lunar New Year dumplings (jiaozi)",
+      "🌕 Mid-Autumn Festival mooncakes",
+      "❄️ Winter Solstice tangyuan",
+      "🎊 8-course wedding banquet",
+      "🍵 Daily tea culture (cha)",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Chop suey",
+        from: "Chinese-American railroad workers",
+        story: "Chop suey was invented by Chinese immigrant workers in 19th-century America — a quick stir-fry of available scraps served to non-Chinese customers. It became a defining dish of Chinese-American cuisine with no direct equivalent in China.",
+        recipeMatch: "chop suey",
+      },
+      {
+        dish: "Peking duck",
+        from: "Imperial court Yuan dynasty",
+        story: "Peking duck was first documented in Yuan dynasty imperial manuals (1330 AD). The roasting method was refined across the Ming and Qing imperial courts before becoming available to the public in Beijing's restaurants in the 19th century.",
+        recipeMatch: "peking duck",
+      },
+    ],
   },
   {
     slug: "korean",
@@ -161,6 +446,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF2EE",
     heroImage: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=800&q=80",
     dbValues: ["Korean", "korean"],
+    wikiTitle: "Korean cuisine",
   },
   {
     slug: "thai",
@@ -174,6 +460,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF7EE",
     heroImage: "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=800&q=80",
     dbValues: ["Thai", "thai"],
+    wikiTitle: "Thai cuisine",
+    stapleIngredients: [
+      { emoji: "🐟", name: "Fish sauce", note: "Umami backbone" },
+      { emoji: "🌿", name: "Lemongrass", note: "Aromatic identity" },
+      { emoji: "🥥", name: "Coconut milk", note: "Southern richness" },
+      { emoji: "🌶️", name: "Bird's eye chili", note: "Intense heat" },
+      { emoji: "🍋", name: "Kaffir lime leaf", note: "Floral citrus note" },
+    ],
+    coreTechniques: [
+      { emoji: "🔨", name: "Mortar pounding", note: "Paste by hand — not blender" },
+      { emoji: "🔥", name: "Wok stir-fry", note: "High-heat speed" },
+      { emoji: "🍚", name: "Sticky rice steam", note: "Bamboo basket method" },
+      { emoji: "🎨", name: "Kae sa luk (carving)", note: "Royal fruit & vegetable art" },
+    ],
+    culturalOccasions: [
+      "💧 Songkran water festival foods",
+      "🏮 Loy Krathong lotus offerings",
+      "🙏 Temple merit-making (tamboon) food",
+      "👑 Royal ceremony ceremonial dishes",
+      "🌙 Buddhist fasting & offering days",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Pad Thai",
+        from: "WWII nationalism + Chinese noodle immigrants",
+        story: "Pad Thai was invented as a nationalist project in the 1930s-40s — PM Plaek Phibunsongkhram promoted rice noodles to reduce rice consumption during wartime scarcity. The dish fused Chinese stir-fry technique with Thai flavours.",
+        recipeMatch: "pad thai",
+      },
+      {
+        dish: "Massaman curry",
+        from: "Persian & Muslim traders",
+        story: "Massaman curry (from 'Mussulman' — Muslim) was introduced to Thailand's royal court by Persian and Malay Muslim traders in the 17th century. The use of warm whole spices (cardamom, cinnamon, star anise) reflects the Persian spice trade route.",
+        recipeMatch: "massaman",
+      },
+    ],
   },
 
   // ── SOUTH ASIA ───────────────────────────────────────────────
@@ -189,6 +510,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FDF7EE",
     heroImage: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
     dbValues: ["Indian", "indian"],
+    wikiTitle: "Indian cuisine",
+    stapleIngredients: [
+      { emoji: "💛", name: "Turmeric", note: "4,000 years of use" },
+      { emoji: "🧈", name: "Ghee", note: "Vedic sacred fat" },
+      { emoji: "🌿", name: "Cumin", note: "Ancient trade spice" },
+      { emoji: "🫘", name: "Dal (lentils)", note: "Protein of the poor" },
+      { emoji: "🌾", name: "Rice & Wheat", note: "Regional staple divide" },
+    ],
+    coreTechniques: [
+      { emoji: "🔥", name: "Tadka (tempering)", note: "Blooming spices in fat" },
+      { emoji: "🫙", name: "Fermentation", note: "Idli, dosa, lassi" },
+      { emoji: "🏺", name: "Tandoor oven", note: "Clay pit at 480°C" },
+      { emoji: "♨️", name: "Dum (sealed steam)", note: "Biryani technique" },
+    ],
+    culturalOccasions: [
+      "🪔 Diwali sweets (mithai)",
+      "🕌 Eid biryani & sewaiyan",
+      "🎨 Holi thandai & gujiya",
+      "💍 Shaadi (wedding) multi-day feasts",
+      "🌙 Ramadan sehri & iftar spreads",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Biryani",
+        from: "Persia via Mughal court",
+        story: "Biryani descends from Persian pilaf. Mughal emperors brought Persian cooks to India in the 16th century — the dish evolved as it absorbed Indian spices, saffron, and dum cooking. Each region (Hyderabad, Lucknow, Kolkata) developed its own distinct style.",
+        recipeMatch: "biryani",
+      },
+      {
+        dish: "Vindaloo",
+        from: "Portuguese Goa",
+        story: "Vindaloo derives from the Portuguese 'carne de vinha d'alhos' — meat marinated in wine and garlic. Portuguese settlers brought the dish to Goa in the 15th century. Goan cooks replaced wine vinegar with toddy vinegar, added dried Kashmiri chilies, and intensified the spicing.",
+        recipeMatch: "vindaloo",
+      },
+    ],
   },
 
   // ── NORTH AFRICA / MIDDLE EAST ───────────────────────────────
@@ -204,6 +560,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF2EE",
     heroImage: "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=800&q=80",
     dbValues: ["Moroccan", "moroccan"],
+    wikiTitle: "Moroccan cuisine",
   },
   {
     slug: "tunisian",
@@ -217,6 +574,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF0EE",
     heroImage: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
     dbValues: ["Tunisian", "tunisian"],
+    wikiTitle: "Tunisian cuisine",
   },
   {
     slug: "lebanese",
@@ -230,6 +588,41 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF7F2",
     heroImage: "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=800&q=80",
     dbValues: ["Lebanese", "lebanese", "Middle Eastern"],
+    wikiTitle: "Middle Eastern cuisine",
+    stapleIngredients: [
+      { emoji: "🌿", name: "Za'atar", note: "Ancient herb blend" },
+      { emoji: "🍋", name: "Sumac", note: "Tart berry spice" },
+      { emoji: "🧄", name: "Tahini", note: "Sesame paste foundation" },
+      { emoji: "🍎", name: "Pomegranate", note: "Symbol of fertility & plenty" },
+      { emoji: "🐑", name: "Lamb", note: "Festive & ritual meat" },
+    ],
+    coreTechniques: [
+      { emoji: "🔥", name: "Mangal grilling", note: "Open charcoal fire" },
+      { emoji: "🍽️", name: "Mezze spreading", note: "Abundance display ritual" },
+      { emoji: "🌯", name: "Flatbread wrapping", note: "Lavash & pita tradition" },
+      { emoji: "🫙", name: "Preserved lemons", note: "North African technique" },
+    ],
+    culturalOccasions: [
+      "🌙 Ramadan iftar breaking-fast spreads",
+      "🐑 Eid al-Adha whole lamb feast",
+      "🌸 Nowruz (Persian New Year) sabzi polo",
+      "💍 Wedding mezze abundance tables",
+      "☕ Arabic coffee ceremony (hospitality ritual)",
+    ],
+    crossCultureBridges: [
+      {
+        dish: "Shawarma → Tacos al pastor",
+        from: "Lebanese diaspora to Mexico",
+        story: "Lebanese immigrants brought the vertical rotisserie spit to Mexico in the 1920s. Mexican cooks adapted lamb shawarma into tacos al pastor using pork, dried chili marinades, and pineapple — creating one of the world's most successful food diaspora stories.",
+        recipeMatch: "shawarma",
+      },
+      {
+        dish: "Coffee ceremony",
+        from: "Ethiopia & Yemen origin",
+        story: "Coffee was first cultivated in Ethiopia's Kaffa region and Yemen's Mocha port. Arab traders spread it through the Ottoman empire, where the world's first coffeehouses opened in Constantinople in 1475 — a century before coffee reached Europe.",
+        recipeMatch: "coffee",
+      },
+    ],
   },
   {
     slug: "egyptian",
@@ -243,6 +636,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF7EE",
     heroImage: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
     dbValues: ["Egyptian", "egyptian"],
+    wikiTitle: "Egyptian cuisine",
   },
 
   // ── SUB-SAHARAN AFRICA ────────────────────────────────────────
@@ -258,6 +652,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF7EE",
     heroImage: "https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?w=800&q=80",
     dbValues: ["Nigerian", "nigerian"],
+    wikiTitle: "Nigerian cuisine",
   },
   {
     slug: "ghanaian",
@@ -271,6 +666,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FDF8EE",
     heroImage: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=800&q=80",
     dbValues: ["Ghanaian", "ghanaian"],
+    wikiTitle: "Ghanaian cuisine",
   },
   {
     slug: "ethiopian",
@@ -284,6 +680,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF0EE",
     heroImage: "https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?w=800&q=80",
     dbValues: ["Ethiopian", "ethiopian"],
+    wikiTitle: "Ethiopian cuisine",
   },
   {
     slug: "senegalese",
@@ -297,6 +694,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF7F0",
     heroImage: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
     dbValues: ["Senegalese", "senegalese"],
+    wikiTitle: "Senegalese cuisine",
   },
   {
     slug: "south-african",
@@ -310,6 +708,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#EEF2FA",
     heroImage: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
     dbValues: ["South African", "south african"],
+    wikiTitle: "South African cuisine",
   },
   {
     slug: "kenyan",
@@ -323,6 +722,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FAF2EE",
     heroImage: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
     dbValues: ["Kenyan", "kenyan"],
+    wikiTitle: "Kenyan cuisine",
   },
   {
     slug: "ivorian",
@@ -336,6 +736,7 @@ export const CUISINES: CuisineInfo[] = [
     bg: "#FDF7EE",
     heroImage: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=800&q=80",
     dbValues: ["Ivorian", "ivorian", "Côte d'Ivoire"],
+    wikiTitle: "Ivorian cuisine",
   },
   // ── FUSION (sentinel — not shown in continent grid) ──────────
   {

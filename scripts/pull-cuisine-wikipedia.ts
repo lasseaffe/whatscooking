@@ -103,7 +103,8 @@ async function main() {
   for (const [slug, { extract, source }] of Object.entries(cache)) {
     const safeExtract = extract.replace(/`/g, "'").replace(/\\/g, "\\\\");
     const safeSource = source.replace(/`/g, "'");
-    lines.push(`  ${slug}: {`);
+    const safeSlug = /[^a-zA-Z0-9_$]/.test(slug) ? `"${slug}"` : slug;
+    lines.push(`  ${safeSlug}: {`);
     lines.push(`    extract: \`${safeExtract}\`,`);
     lines.push(`    source: \`${safeSource}\`,`);
     lines.push(`  },`);
