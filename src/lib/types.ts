@@ -135,6 +135,26 @@ export interface Recipe {
   baby_variant_recipe_id?: string | null;
   // Drinks cultures — culture-specific pro metadata
   drink_meta?: Record<string, unknown>;
+  // Component recipe fields
+  is_component?: boolean;
+  component_type?: ComponentType | null;
+}
+
+export type ComponentType =
+  | 'sauce' | 'dressing' | 'marinade' | 'base'
+  | 'paste' | 'spice_blend' | 'condiment' | 'batter';
+
+export interface RecipeComponentLink {
+  id: string;
+  parent_recipe_id: string;
+  component_recipe_id: string;
+  ingredient_group_label: string;
+  display_order: number;
+  created_at: string;
+}
+
+export interface RecipeComponentWithRecipe extends RecipeComponentLink {
+  component: Recipe;
 }
 
 // ============================================================
