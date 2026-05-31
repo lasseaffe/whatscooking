@@ -14,7 +14,7 @@ export default async function MyRecipesPage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  const [{ data: recipes }, { data: swipeLikes }] = await Promise.all([
+  const [{ data: recipes }, { data: swipeLikes }, { data: savedIds }] = await Promise.all([
     supabase
       .from("recipes")
       .select("id, title, description, image_url, dish_types, dietary_tags, prep_time_minutes, cook_time_minutes, calories, is_published, created_at")
@@ -28,7 +28,25 @@ export default async function MyRecipesPage() {
       .eq("user_id", user!.id)
       .order("liked_at", { ascending: false })
       .limit(50),
+
+    supabase
+      .from("recipe_saves")
+      .select("recipe_id")
+      .eq("user_id", user!.id),
   ]);
+
+  const savedRecipeIds = (savedIds ?? []).map((s) => s.recipe_id as string);
+  const { data: savedComponentsRaw } = savedRecipeIds.length > 0
+    ? await supabase
+        .from("recipes")
+        .select("id, title, description, image_url, component_type, cook_time_minutes, prep_time_minutes")
+        .eq("is_component", true)
+        .in("id", savedRecipeIds)
+    : { data: [] };
+  const savedComponents = (savedComponentsRaw ?? []) as {
+    id: string; title: string; description: string | null; image_url: string | null;
+    component_type: string; cook_time_minutes: number | null;
+  }[];
 
   const swipeRecipes = (swipeLikes ?? []).map((row: { liked_at: string; recipe: unknown }) => row.recipe as {
     id: string; title: string; image_url: string | null; cuisine_type: string | null;
@@ -60,7 +78,7 @@ export default async function MyRecipesPage() {
 
       <div className="space-y-10">
         <PublishCTA />
-        <MyRecipesClient initialRecipes={recipes ?? []} />
+        <MyRecipesClient initialRecipes={recipes ?? []} savedComponents={savedComponents} />
 
         {/* Swipe Liked Recipes */}
         {swipeRecipes.length > 0 && (
