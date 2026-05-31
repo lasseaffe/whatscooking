@@ -43,7 +43,7 @@ describe("ComponentCardStrip", () => {
 
   it("renders type label and cook time", () => {
     render(<ComponentCardStrip links={links} onView={jest.fn()} />);
-    expect(screen.getByText(/Sauce/)).toBeInTheDocument();
+    expect(screen.getByText(/^Sauce · 15 min$/)).toBeInTheDocument();
     expect(screen.getByText(/15 min/)).toBeInTheDocument();
   });
 
