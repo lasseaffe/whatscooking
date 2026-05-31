@@ -8,6 +8,8 @@ import { RecipeColumnsClient } from "./recipe-columns-client";
 import { extractAndSaveRecipe } from "@/lib/extract-recipe";
 import { RecipeHeroImage } from "./recipe-hero-image";
 import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "./cooking-mode-wrapper";
+import { RecipeStateProvider } from "./recipe-state-context";
+import { RecipeIngredientsPanel } from "./recipe-ingredients-panel";
 import { TagInput } from "@/components/tag-input";
 import type { FeatureTag } from "@/components/tag-input";
 import { FamilyFitBar } from "@/components/family-fit-bar";
@@ -16,8 +18,12 @@ import { DrinkProPanel } from "@/components/drinks/drink-pro-panel";
 import { RecipeEditButton } from "./recipe-edit-button";
 import { CultureJourneyBanner } from "@/components/recipe/culture-journey-banner";
 import { RecipeHeritageSidebar } from "@/components/recipe/recipe-heritage-sidebar";
-import type { CulturalJourney, HeritageNotes } from "@/lib/types";
+import type { CulturalJourney, HeritageNotes, RecipeComponentWithRecipe } from "@/lib/types";
+import { EcosystemPortal } from "@/components/ecosystem/EcosystemPortal";
+import { detectGrowableIngredients, getRecipePortalState } from "@/lib/ecosystem";
 import { CUISINES } from "@/lib/cuisines";
+import { ComponentFullPageBanner } from "@/components/recipe/component-full-page-banner";
+import { ComponentUseInStrip } from "@/components/recipe/component-use-in-strip";
 
 export default async function RecipePage({
   params,
@@ -47,7 +53,7 @@ export default async function RecipePage({
     if (extracted) recipeData = extracted as typeof recipe;
   }
 
-  const [{ data: ratingsData }, { data: commentsData }, { data: saveData }, { data: myRating }, { data: pantryData }, { data: recipeTags }, { data: householdMembers }] = await Promise.all([
+  const [{ data: ratingsData }, { data: commentsData }, { data: saveData }, { data: myRating }, { data: pantryData }, { data: recipeTags }, { data: householdMembers }, { data: componentLinksRaw }, { data: componentParentsRaw }] = await Promise.all([
     supabase.from("recipe_ratings").select("taste,difficulty,prep_time_rating,value_for_effort,presentation").eq("recipe_id", id),
     supabase.from("recipe_comments").select("*, profile:profiles(full_name, id)").eq("recipe_id", id).order("created_at", { ascending: false }),
     supabase.from("recipe_saves").select("recipe_id").eq("user_id", user!.id).eq("recipe_id", id).maybeSingle(),
@@ -55,6 +61,8 @@ export default async function RecipePage({
     supabase.from("pantry_items").select("id, name, quantity").eq("user_id", user!.id),
     supabase.from("wc_recipe_feature_tags").select("tag_id, wc_feature_tags(id, name, label)").eq("recipe_id", id),
     supabase.from("household_members").select("id, display_name, avatar_emoji, age_group, filter_strictness, owner_user_id, linked_user_id, created_at").eq("owner_user_id", user!.id),
+    supabase.from("recipe_component_links").select("id, ingredient_group_label, display_order, component_recipe_id, component:recipes!component_recipe_id(id, title, description, image_url, component_type, cook_time_minutes, prep_time_minutes, servings, ingredients, difficulty_level)").eq("parent_recipe_id", id).order("display_order"),
+    supabase.from("recipe_component_links").select("parent_recipe_id, parent:recipes!parent_recipe_id(id, title, image_url)").eq("component_recipe_id", id),
   ]);
 
   // Fetch member ingredient preferences for FamilyFitBar
@@ -75,6 +83,22 @@ export default async function RecipePage({
   const featureTags: FeatureTag[] = (recipeTags ?? [])
     .map((rt) => rt.wc_feature_tags as unknown as FeatureTag)
     .filter(Boolean);
+
+  const componentLinks: RecipeComponentWithRecipe[] = (componentLinksRaw ?? [])
+    .filter((l) => l.component != null)
+    .map((l) => ({
+      id: l.id,
+      parent_recipe_id: id,
+      component_recipe_id: l.component_recipe_id,
+      ingredient_group_label: l.ingredient_group_label,
+      display_order: l.display_order,
+      created_at: "",
+      component: l.component as unknown as RecipeComponentWithRecipe["component"],
+    }));
+
+  const componentParents = (componentParentsRaw ?? [])
+    .filter((p) => p.parent != null)
+    .map((p) => p.parent as unknown as { id: string; title: string; image_url: string | null });
 
   const isCulturallySignificant = recipeData.is_culturally_significant === true;
   const culturalJourney = isCulturallySignificant
@@ -103,6 +127,13 @@ export default async function RecipePage({
   const ratingCount = ratingsData?.length ?? 0;
 
   const ingredients = (recipeData.ingredients ?? []) as { name: string; amount?: number; unit?: string }[];
+
+  // Ecosystem portal: detect growable ingredients and fetch Tillr match state
+  const ingredientNames = ingredients.map((i) => i.name ?? "");
+  const growableIngredients = await detectGrowableIngredients(ingredientNames);
+  const recipePortalState = growableIngredients.length > 0
+    ? await getRecipePortalState({ wcUserId: user!.id, growableIngredients })
+    : null;
   const instructions = (recipeData.instructions ?? []) as string[];
 
   // Generate a sensible title for premium/instagram recipes
@@ -122,9 +153,14 @@ export default async function RecipePage({
       instructions={instructions}
       ingredients={ingredients}
     >
-      {/* ══ MOBILE HERO IMAGE — full-bleed, hidden on desktop ══ */}
+      <RecipeStateProvider
+        initialIngredients={ingredients}
+        initialInstructions={instructions}
+        baseServings={recipeData.servings ?? 2}
+      >
+      {/* ══ MOBILE HERO IMAGE — full-bleed with title overlay, hidden on desktop ══ */}
       {recipeData.image_url && (
-        <div className="lg:hidden relative w-full" style={{ height: "56vw", maxHeight: 300, minHeight: 160 }}>
+        <div className="lg:hidden relative w-full" style={{ height: "62vw", maxHeight: 340, minHeight: 200 }}>
           <RecipeHeroImage
             recipeId={id}
             imageUrl={recipeData.image_url}
@@ -137,10 +173,41 @@ export default async function RecipePage({
             focal_y={recipeData.focal_y}
             editable
           />
-          {/* Gradient fade into page background */}
+          {/* Scrim + title overlay — keeps the title legible over any photo */}
           <div
-            className="absolute bottom-0 left-0 right-0 h-16 pointer-events-none"
-            style={{ background: "linear-gradient(to bottom, transparent, var(--wc-bg, #0d0a07))" }}
+            className="absolute inset-x-0 bottom-0 px-6 pt-16 pb-5 pointer-events-none"
+            style={{ background: "linear-gradient(to top, var(--wc-bg, #0d0a07) 8%, rgba(13,10,7,0.78) 45%, transparent)" }}
+          >
+            {recipeData.cuisine_type && (
+              <p className="text-[11px] font-bold uppercase tracking-widest mb-1" style={{ color: "#F4A261" }}>
+                {recipeData.cuisine_type}
+              </p>
+            )}
+            <h1
+              style={{
+                color: "#fff",
+                fontFamily: "'Libre Baskerville', Georgia, serif",
+                fontSize: "clamp(1.6rem, 7vw, 2.1rem)",
+                lineHeight: 1.1,
+                fontWeight: 700,
+                textShadow: "0 2px 12px rgba(0,0,0,0.5)",
+              }}
+            >
+              {displayTitle}
+            </h1>
+          </div>
+        </div>
+      )}
+
+      {/* ══ BUILDING BLOCK BANNER — shown only when this recipe is a component ══ */}
+      {recipeData.is_component && (
+        <div className="px-6 lg:px-10 pt-4">
+          <ComponentFullPageBanner
+            isComponent={!!recipeData.is_component}
+            componentType={(recipeData.component_type as import("@/lib/types").ComponentType) ?? null}
+            parentRecipeCount={componentParents.length}
+            firstParentTitle={componentParents[0]?.title ?? null}
+            firstParentId={componentParents[0]?.id ?? null}
           />
         </div>
       )}
@@ -159,23 +226,59 @@ export default async function RecipePage({
           <ChevronLeft style={{ width: 16, height: 16 }} /> Back to recipes
         </Link>
 
-        <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12 items-start">
+        {/* ══ DESKTOP TOP ROW — image + Cook (left) · ingredients (right) ══ */}
+        <div className="hidden lg:flex gap-10 items-start mb-8">
+          {/* Left: image anchor + Cook CTA (F-shape) */}
+          <div className="w-[44%] shrink-0 flex flex-col gap-4" style={{ maxWidth: 520 }}>
+            <div className="rounded-2xl overflow-hidden" style={{ height: "clamp(260px, 34vw, 420px)" }}>
+              <RecipeHeroImage
+                recipeId={id}
+                imageUrl={recipeData.image_url}
+                title={displayTitle}
+                cuisine={recipeData.cuisine_type}
+                dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
+                sourceUrl={recipeData.source_url}
+                sourceName={recipeData.source_name}
+                focal_x={recipeData.focal_x}
+                focal_y={recipeData.focal_y}
+                editable
+              />
+            </div>
+            {instructions.length > 0 && <CookingModeCTA />}
+          </div>
+          {/* Right: ingredients panel + ecosystem portal */}
+          <div className="flex-1 min-w-0 flex flex-col gap-4">
+            <RecipeIngredientsPanel
+              recipeId={id}
+              sourceUrl={recipeData.source_url ?? null}
+              isPremium={isPremiumOrHack}
+              pantryItems={(pantryData ?? []) as { id: string; name: string; quantity?: string | null }[]}
+              recipeTitle={displayTitle}
+            />
+            {recipePortalState && growableIngredients.length > 0 && (
+              <EcosystemPortal
+                portalState={recipePortalState}
+                growableIngredients={growableIngredients}
+              />
+            )}
+          </div>
+        </div>
 
-          {/* ── Left: title + metadata ── */}
-          <div className="flex-1 flex flex-col gap-4 lg:py-2">
+        {/* ══ TITLE + METADATA — full width below the image/ingredients row ══ */}
+        <div className="flex flex-col gap-4">
 
-            {/* Origin label */}
+            {/* Origin label — desktop only (mobile shows it in the hero overlay) */}
             {recipeData.cuisine_type && (
               <p
-                className="text-xs font-bold uppercase tracking-widest"
+                className="hidden lg:block text-xs font-bold uppercase tracking-widest"
                 style={{ color: "#C8522A" }}
               >
                 {recipeData.cuisine_type}
               </p>
             )}
 
-            {/* Title + edit button */}
-            <div className="flex items-start gap-3">
+            {/* Title + edit button — desktop only (mobile shows title in overlay) */}
+            <div className="hidden lg:flex items-start gap-3">
               <h1
                 className="flex-1"
                 style={{
@@ -196,6 +299,16 @@ export default async function RecipePage({
                   initialInstructions={instructions}
                 />
               </div>
+            </div>
+
+            {/* Mobile-only edit button (title is in the hero overlay) */}
+            <div className="lg:hidden -mt-1">
+              <RecipeEditButton
+                recipeId={id}
+                initialTitle={displayTitle}
+                initialDescription={recipeData.description ?? null}
+                initialInstructions={instructions}
+              />
             </div>
 
             {/* Cultural journey banner */}
@@ -284,29 +397,20 @@ export default async function RecipePage({
 
           </div>
 
-          {/* ── Right: recipe image panel + Cooking Mode CTA ── */}
-          <div className="w-full lg:w-[42%] shrink-0 flex flex-col gap-4" style={{ maxWidth: 520 }}>
-            <div
-              className="rounded-2xl overflow-hidden"
-              style={{ height: "clamp(260px, 38vw, 420px)" }}
-            >
-              <RecipeHeroImage
-                recipeId={id}
-                imageUrl={recipeData.image_url}
-                title={displayTitle}
-                cuisine={recipeData.cuisine_type}
-                dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
-                sourceUrl={recipeData.source_url}
-                sourceName={recipeData.source_name}
-                focal_x={recipeData.focal_x}
-                focal_y={recipeData.focal_y}
-                editable
-              />
-            </div>
-            {/* Large Cooking Mode CTA — below hero image */}
+          {/* ── Mobile: ingredients panel (image + title live in the hero overlay above) ── */}
+          <div className="lg:hidden mt-6">
+            <RecipeIngredientsPanel
+              recipeId={id}
+              sourceUrl={recipeData.source_url ?? null}
+              isPremium={isPremiumOrHack}
+              pantryItems={(pantryData ?? []) as { id: string; name: string; quantity?: string | null }[]}
+              recipeTitle={displayTitle}
+            />
+          </div>
+          {/* Mobile: Cook CTA (renders as a sticky bottom bar on small screens) */}
+          <div className="lg:hidden mt-4">
             {instructions.length > 0 && <CookingModeCTA />}
           </div>
-        </div>
       </div>
 
       {/* ══ RECIPE COLUMNS — ingredients + instructions ══ */}
@@ -316,14 +420,10 @@ export default async function RecipePage({
       >
         <RecipeColumnsClient
           recipeId={id}
-          initialIngredients={ingredients}
-          initialInstructions={instructions}
-          sourceUrl={recipeData.source_url ?? null}
-          isPremium={isPremiumOrHack}
           pantryItems={(pantryData ?? []) as { id: string; name: string; quantity?: string | null }[]}
           recipeTitle={displayTitle}
           dietaryTags={(recipeData.dietary_tags ?? []) as string[]}
-          baseServings={recipeData.servings ?? null}
+          componentLinks={componentLinks}
         />
         {heritageNotes && cuisineEntry && (
           <div className="hidden lg:block pt-8 pb-4">
@@ -366,6 +466,12 @@ export default async function RecipePage({
       {/* Sentinel — CTA unsticks when this enters viewport */}
       <div id="cta-sentinel" />
 
+      {componentParents.length > 0 && (
+        <div className="px-6 lg:px-10 max-w-5xl mx-auto">
+          <ComponentUseInStrip parents={componentParents} />
+        </div>
+      )}
+
       <div className="px-6 py-8 max-w-5xl mx-auto space-y-8">
         <RecipeInteractions
           recipeId={id}
@@ -387,6 +493,7 @@ export default async function RecipePage({
         </section>
       )}
 
+      </RecipeStateProvider>
     </CookingModeWrapper>
   );
 }
