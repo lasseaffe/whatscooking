@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useCallback, useEffect, useRef, useMemo } from "react";
-import { Utensils, BookOpen, ChevronLeft, ChevronRight, SkipForward, CheckCircle2, Star, ThumbsUp, ThumbsDown, Loader2, Minus, Plus, ShoppingCart, Lightbulb, Archive, ChevronDown, PackageMinus, Users, AlertTriangle, Send, RefreshCw } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, SkipForward, CheckCircle2, Star, ThumbsUp, ThumbsDown, Loader2, Minus, Plus, ShoppingCart, Lightbulb, Archive, ChevronDown, PackageMinus, Users, AlertTriangle, Send, RefreshCw } from "lucide-react";
 import { addToShoppingList } from "@/lib/shopping-list";
-import { IngredientsColumn } from "./ingredients-column";
+import { useRecipeState } from "./recipe-state-context";
 import { useCookingMode } from "@/lib/cooking-mode-context";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
 import { adaptIngredients, DIETARY_LABELS, DIETARY_COLORS } from "@/lib/dietary-substitutions";
@@ -13,6 +13,10 @@ import { LivingCookbookTicker } from "@/components/living-cookbook-ticker";
 import { TableStylist } from "@/components/table-stylist";
 import { ZeroWasteGuide } from "@/components/zero-waste-guide";
 import { AnimatedTabs, type Tab } from "@/components/ui/animated-tabs";
+import type { RecipeComponentWithRecipe } from "@/lib/types";
+import { ComponentIngredientGroup } from "@/components/recipe/component-ingredient-group";
+import { ComponentCardStrip } from "@/components/recipe/component-card-strip";
+import { ComponentSheet } from "@/components/recipe/component-sheet";
 
 type Ingredient = { name: string; amount?: number | null; unit?: string | null };
 type PantryItem = { id: string; name: string; quantity?: string | null };
@@ -21,14 +25,10 @@ type Phase = "cook" | "post-pantry" | "post-review" | "serve" | "restore";
 
 interface Props {
   recipeId: string;
-  initialIngredients: Ingredient[];
-  initialInstructions: string[];
-  sourceUrl: string | null;
-  isPremium: boolean;
   pantryItems: PantryItem[];
   recipeTitle: string;
   dietaryTags: string[];
-  baseServings?: number | null;
+  componentLinks?: RecipeComponentWithRecipe[];
 }
 
 // ── Phase stepper ─────────────────────────────────────────────
@@ -491,7 +491,7 @@ function AddToStorageButton({ recipeTitle }: { recipeTitle: string }) {
 }
 
 // ── Serving size multiplier ───────────────────────────────────
-function ServingControl({
+export function ServingControl({
   base,
   current,
   onChange,
@@ -533,7 +533,7 @@ function ServingControl({
 // ── Metric/Imperial toggle ────────────────────────────────────
 type UnitSystem = "metric" | "imperial";
 
-function UnitToggle({ value, onChange }: { value: UnitSystem; onChange: (v: UnitSystem) => void }) {
+export function UnitToggle({ value, onChange }: { value: UnitSystem; onChange: (v: UnitSystem) => void }) {
   return (
     <div
       className="inline-flex items-center rounded-full p-0.5 text-xs font-semibold"
@@ -572,7 +572,7 @@ function convertUnit(amount: number | null | undefined, unit: string | null | un
 }
 
 // ── Interactive ingredient checklist (no DB, useState only) ─────
-function InteractiveIngredients({
+export function InteractiveIngredients({
   ingredients,
   unitSystem,
   multiplier,
@@ -1077,23 +1077,6 @@ function NumberedInstructions({
 
   return (
     <div className="mt-4 flex flex-col" style={{ minHeight: 320 }}>
-      {/* Step pill + counter row */}
-      <div className="flex items-center justify-between mb-6">
-        {!allDone && (
-          <span
-            className="text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full"
-            style={{ background: "rgba(180,90,40,0.18)", color: "#C8522A", letterSpacing: "0.12em" }}
-          >
-            Step {currentStep + 1}
-          </span>
-        )}
-        {!allDone && (
-          <span className="text-xs font-semibold" style={{ color: "#5A3A28" }}>
-            {currentStep + 1} / {instructions.length}
-          </span>
-        )}
-      </div>
-
       {allDone ? (
         <div className="flex-1 flex flex-col items-center justify-center gap-3 py-12">
           <CheckCircle2 style={{ width: 36, height: 36, color: "#828E6F" }} />
@@ -1103,29 +1086,53 @@ function NumberedInstructions({
         </div>
       ) : (
         <div className="flex-1">
-          {/* Big editorial heading */}
-          <h2
-            className="font-bold leading-tight mb-4"
-            style={{
-              color: "#EFE3CE",
-              fontFamily: "'Libre Baskerville', Georgia, serif",
-              fontSize: "clamp(1.6rem, 4vw, 2.4rem)",
-              lineHeight: 1.15,
-            }}
-          >
-            {stepTitle(step)}
-          </h2>
+          {/* ── Focus Card: matches the full-screen Cooking Mode step surface ── */}
+          <div className="wc-focus-card">
+            {/* Single canonical step indicator: clickable dot row + count */}
+            <div className="wc-step-dots" style={{ marginBottom: 16 }}>
+              {instructions.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  onClick={() => goToStep(i)}
+                  aria-label={`Go to step ${i + 1}`}
+                  className={`wc-step-dot${
+                    i === currentStep ? " wc-step-dot--active" : i < currentStep ? " wc-step-dot--done" : ""
+                  }`}
+                  style={{ border: "none", cursor: "pointer", padding: 0 }}
+                />
+              ))}
+              <span className="wc-step-count">STEP {currentStep + 1}/{instructions.length}</span>
+            </div>
 
-          {/* Full step body */}
-          <p
-            className="leading-relaxed mb-5"
-            style={{ color: "#B09070", fontSize: "0.95rem", lineHeight: 1.8 }}
-          >
-            {step}
-          </p>
+            {/* Big editorial heading */}
+            <h2
+              className="font-bold leading-tight mb-3"
+              style={{
+                color: "#EFE3CE",
+                fontFamily: "var(--font-fraunces, 'Libre Baskerville', Georgia, serif)",
+                fontSize: "clamp(1.6rem, 4vw, 2.4rem)",
+                lineHeight: 1.15,
+                letterSpacing: "-0.01em",
+              }}
+            >
+              {stepTitle(step)}
+            </h2>
 
-          {tip && <ChefTipBox tip={tip} />}
-          <InlineSOSHelper stepText={step} />
+            {/* Full step body */}
+            <p
+              className="leading-relaxed"
+              style={{ color: "#B09070", fontSize: "clamp(1rem, 2vw, 1.1rem)", lineHeight: 1.75 }}
+            >
+              {step}
+            </p>
+
+            {tip && <div className="mt-4"><ChefTipBox tip={tip} /></div>}
+          </div>
+
+          <div className="mt-4">
+            <InlineSOSHelper stepText={step} />
+          </div>
         </div>
       )}
 
@@ -1281,7 +1288,7 @@ function splitIntoPhaseTabs(
 }
 
 // ── Cook This — add missing to shopping list ─────────────────
-function CookThisButton({
+export function CookThisButton({
   ingredients,
 }: {
   ingredients: { name: string; amount?: number | null; unit?: string | null }[];
@@ -1360,50 +1367,52 @@ function CookThisButton({
 // ── Main component ────────────────────────────────────────────
 export function RecipeColumnsClient({
   recipeId,
-  initialIngredients,
-  initialInstructions,
-  sourceUrl,
-  isPremium,
   pantryItems,
   recipeTitle,
   dietaryTags,
-  baseServings,
+  componentLinks = [],
 }: Props) {
-  const [ingredients, setIngredients] = useState<Ingredient[]>(initialIngredients);
-  const [instructions, setInstructions] = useState<string[]>(initialInstructions);
+  // Ingredients now live in the page header (RecipeIngredientsPanel); this body
+  // renders only the instructions + phase runner. Shared state still flows through
+  // RecipeStateProvider so the header and this runner stay in sync.
+  const { ingredients, instructions } = useRecipeState();
   const [phase, setPhase] = useState<Phase>("cook");
   const [cookingDone, setCookingDone] = useState(false);
   const [activePhaseTab, setActivePhaseTab] = useState<string>(() => {
     const PREP_KEYWORDS = /\b(prepare|prep|chop|dice|slice|mince|peel|wash|rinse|marinate|season|mix|combine|measure|gather|cut|trim|soak)\b/i;
-    return initialInstructions.length > 4 && PREP_KEYWORDS.test(initialInstructions[0] ?? "") ? "prep" : "cook";
+    return instructions.length > 4 && PREP_KEYWORDS.test(instructions[0] ?? "") ? "prep" : "cook";
   });
-  const [unitSystem, setUnitSystem] = useState<UnitSystem>("metric");
-  const base = baseServings ?? 4;
-  const [servings, setServings] = useState(base);
-  const multiplier = servings / base;
-  const { active: cookingModeActive, setCurrentStepText } = useCookingMode();
-  const [ingredientsCollapsed, setIngredientsCollapsed] = useState(false);
+  const { setCurrentStepText } = useCookingMode();
   const router = useRouter();
 
-  useEffect(() => {
-    if (cookingModeActive) setIngredientsCollapsed(true);
-  }, [cookingModeActive]);
-
-  function handleExtracted(recipe: Record<string, unknown>) {
-    if (Array.isArray(recipe.ingredients) && recipe.ingredients.length > 0) {
-      setIngredients(recipe.ingredients as Ingredient[]);
-    }
-    if (Array.isArray(recipe.instructions) && recipe.instructions.length > 0) {
-      setInstructions(recipe.instructions as string[]);
-    }
-  }
+  const [activeComponentLink, setActiveComponentLink] = useState<RecipeComponentWithRecipe | null>(null);
 
   const handleCookingComplete = useCallback(() => {
     setCookingDone(true);
     setPhase("post-pantry");
   }, []);
 
+  function handleViewComponent(componentId: string) {
+    const link = componentLinks.find((l) => l.component.id === componentId) ?? null;
+    setActiveComponentLink(link);
+  }
+
+  function handleOpenFullComponent(componentId: string) {
+    setActiveComponentLink(null);
+    router.push(`/recipes/${componentId}`);
+  }
+
+  async function handleSaveComponent(componentId: string) {
+    setActiveComponentLink(null);
+    await fetch("/api/recipes/save", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ recipeId: componentId }),
+    });
+  }
+
   return (
+    <>
     <div
       className="relative flex flex-col lg:flex-row lg:items-stretch"
       style={{
@@ -1424,111 +1433,16 @@ export function RecipeColumnsClient({
           zIndex: 0,
         }}
       />
-      {/* ── INGREDIENTS PANEL (left half of right side on desktop, full-width on mobile) ── */}
-      <div
-        className={`relative z-[1] flex flex-col shrink-0 w-full lg:sticky lg:top-0 lg:max-h-[calc(100vh-96px)] ${ingredientsCollapsed ? "" : "lg:w-[38%]"}`}
-        style={{
-          width: ingredientsCollapsed ? "48px" : undefined,
-          minWidth: ingredientsCollapsed ? "48px" : undefined,
-          borderRight: "1px solid rgba(42,24,8,0.6)",
-          overflowY: ingredientsCollapsed ? "hidden" : "auto",
-          overflowX: "hidden",
-          transition: "width 0.3s ease, min-width 0.3s ease",
-          flexShrink: 0,
-        }}
-      >
-        {ingredientsCollapsed ? (
-          <button
-            type="button"
-            onClick={() => setIngredientsCollapsed(false)}
-            className="flex flex-col items-center gap-2.5 w-full h-full justify-start transition-opacity hover:opacity-80"
-            style={{ padding: "24px 0 0 0", color: "var(--wc-pal-accent, #B07D56)" }}
-            aria-label="Expand Ingredients"
-          >
-            <Utensils style={{ width: 16, height: 16 }} />
-            <span
-              style={{
-                writingMode: "vertical-rl",
-                transform: "rotate(180deg)",
-                fontSize: "0.62rem",
-                fontWeight: 700,
-                letterSpacing: "0.12em",
-                textTransform: "uppercase",
-                color: "#5A3A28",
-                marginTop: 8,
-              }}
-            >
-              Ingredients
-            </span>
-          </button>
-        ) : (
-          <div className="p-5">
-            <div className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 rounded-xl flex items-center justify-center shrink-0"
-                style={{ background: "rgba(42,24,8,0.7)", border: "1px solid rgba(90,50,20,0.4)" }}>
-                <Utensils style={{ width: 15, height: 15, color: "var(--wc-pal-accent, #B07D56)" }} />
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="text-xs font-bold uppercase tracking-widest" style={{ color: "#A8845E" }}>Phase II</div>
-                <div className="text-base font-bold" style={{ color: "var(--wc-text, #EFE3CE)", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
-                  Ingredients
-                </div>
-              </div>
-              <UnitToggle value={unitSystem} onChange={setUnitSystem} />
-              <button
-                type="button"
-                onClick={() => setIngredientsCollapsed(true)}
-                className="p-1.5 rounded-lg ml-1 transition-opacity hover:opacity-70"
-                style={{ color: "#4A3020" }}
-                title="Collapse ingredients"
-              >
-                <ChevronLeft style={{ width: 14, height: 14 }} />
-              </button>
-            </div>
-            {/* Serving size multiplier — desktop only */}
-            <div className="hidden lg:flex items-center gap-2 mb-3 pl-10">
-              <span className="text-xs font-semibold" style={{ color: "#A8845E" }}>Servings</span>
-              <ServingControl base={base} current={servings} onChange={setServings} />
-              {multiplier !== 1 && (
-                <span className="text-xs font-semibold tabular-nums" style={{ color: "rgba(176,125,86,0.55)" }}>
-                  ×{parseFloat(multiplier.toFixed(2))}
-                </span>
-              )}
-            </div>
-            {/* Mobile-only serving control */}
-            <div className="flex lg:hidden items-center gap-3 px-5 py-3 border-b" style={{ borderColor: "rgba(42,24,8,0.3)" }}>
-              <span className="text-xs font-semibold" style={{ color: "#8A6A4A" }}>Servings</span>
-              <ServingControl base={base ?? 2} current={servings} onChange={setServings} />
-              <UnitToggle value={unitSystem} onChange={setUnitSystem} />
-            </div>
-            {ingredients.length > 0 ? (
-              <>
-                {pantryItems && pantryItems.length >= 0 && (
-                  <CookThisButton ingredients={ingredients} />
-                )}
-                <InteractiveIngredients
-                  ingredients={ingredients}
-                  unitSystem={unitSystem}
-                  multiplier={multiplier}
-                  pantryItems={pantryItems}
-                  recipeTitle={recipeTitle}
-                />
-              </>
-            ) : (
-              <IngredientsColumn
-                recipeId={recipeId}
-                initialIngredients={ingredients}
-                sourceUrl={sourceUrl}
-                isPremium={isPremium}
-                onExtracted={handleExtracted}
-                pantryItems={pantryItems}
-              />
-            )}
-          </div>
-        )}
-      </div>
+      {/* ── COMPONENT INGREDIENT GROUPS — shown above instructions when recipe has building blocks ── */}
+      {componentLinks.length > 0 && (
+        <div className="relative z-[1] px-5 pt-4 flex flex-col gap-2">
+          {componentLinks.map((link) => (
+            <ComponentIngredientGroup key={link.id} link={link} onView={handleViewComponent} />
+          ))}
+        </div>
+      )}
 
-      {/* ── INSTRUCTIONS + PHASE RUNNER (right half) ── */}
+      {/* ── INSTRUCTIONS + PHASE RUNNER (full width) ── */}
       <div
         className="relative z-[1] flex-1 flex flex-col min-w-0 lg:overflow-y-auto lg:max-h-[calc(100vh-96px)]"
       >
@@ -1637,7 +1551,19 @@ export function RecipeColumnsClient({
             </div>
           )}
         </div>
+        {componentLinks.length > 0 && (
+          <div className="px-5 pb-6">
+            <ComponentCardStrip links={componentLinks} onView={handleViewComponent} />
+          </div>
+        )}
       </div>
     </div>
+    <ComponentSheet
+      link={activeComponentLink}
+      onClose={() => setActiveComponentLink(null)}
+      onOpenFull={handleOpenFullComponent}
+      onSave={handleSaveComponent}
+    />
+    </>
   );
 }

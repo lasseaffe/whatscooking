@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ChefHat, Clock, Flame, Globe, Lock, Trash2 } from "lucide-react";
 import { PublishToggle } from "./publish-toggle";
 import { ConfirmDeleteDialog } from "@/components/confirm-delete-dialog";
+import { COMPONENT_TYPE_EMOJI, COMPONENT_TYPE_LABELS } from "@/lib/component-types";
+import type { ComponentType } from "@/lib/types";
 
 type Recipe = {
   id: string;
@@ -19,7 +21,12 @@ type Recipe = {
   created_at: string;
 };
 
-export function MyRecipesClient({ initialRecipes }: { initialRecipes: Recipe[] }) {
+type ComponentSummary = {
+  id: string; title: string; description: string | null; image_url: string | null;
+  component_type: string; cook_time_minutes: number | null;
+};
+
+export function MyRecipesClient({ initialRecipes, savedComponents = [] }: { initialRecipes: Recipe[]; savedComponents?: ComponentSummary[] }) {
   const [recipes, setRecipes] = useState<Recipe[]>(initialRecipes);
   const [pending, setPending] = useState<string | null>(null); // id to confirm delete
 
@@ -108,6 +115,56 @@ export function MyRecipesClient({ initialRecipes }: { initialRecipes: Recipe[] }
           })}
         </div>
       )}
+
+      {/* ── MY BUILDING BLOCKS ── */}
+      <div className="mt-10">
+        <h2 className="text-base font-bold mb-4" style={{ color: "#EFE3CE" }}>
+          🧩 My Building Blocks
+        </h2>
+        {savedComponents.length === 0 ? (
+          <div
+            className="rounded-2xl border p-10 text-center"
+            style={{ borderColor: "#F5E6D3", borderStyle: "dashed" }}
+          >
+            <p className="text-2xl mb-2">🧩</p>
+            <p className="text-sm font-medium mb-1" style={{ color: "#EFE3CE" }}>
+              No building blocks saved yet
+            </p>
+            <p className="text-xs mb-4" style={{ color: "#8A6A4A" }}>
+              Tap &quot;Save to my components&quot; when viewing a sauce, dressing, or marinade.
+            </p>
+            <Link
+              href="/discover"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold"
+              style={{ background: "#C85A2F", color: "#fff" }}
+            >
+              Browse building blocks
+            </Link>
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {savedComponents.map((c) => (
+              <Link
+                key={c.id}
+                href={`/recipes/${c.id}`}
+                className="rounded-xl p-4 transition-opacity hover:opacity-80"
+                style={{ background: "#1C1209", border: "1px solid #3A2416" }}
+              >
+                <span className="text-2xl mb-2 block">
+                  {COMPONENT_TYPE_EMOJI[(c.component_type as ComponentType)] ?? "🧩"}
+                </span>
+                <p className="font-bold text-sm mb-0.5" style={{ color: "#e87c3e" }}>
+                  {c.title}
+                </p>
+                <p className="text-xs" style={{ color: "#6B4E36" }}>
+                  {COMPONENT_TYPE_LABELS[(c.component_type as ComponentType)] ?? c.component_type}
+                  {c.cook_time_minutes ? ` · ${c.cook_time_minutes} min` : ""}
+                </p>
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
     </>
   );
 }

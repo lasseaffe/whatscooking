@@ -135,6 +135,42 @@ export interface Recipe {
   baby_variant_recipe_id?: string | null;
   // Drinks cultures — culture-specific pro metadata
   drink_meta?: Record<string, unknown>;
+  // Component recipe fields
+  is_component?: boolean;
+  component_type?: ComponentType | null;
+  // Variation fields (used when is_variation = true)
+  is_variation?: boolean;
+  parent_id?: string | null;
+  variation_type?: VariationType | null;
+  variation_notes?: string | null;
+  variation_overrides?: VariationOverrides | null;
+  // Virtual field returned by /api/components
+  variation_count?: number;
+}
+
+export type ComponentType =
+  | 'sauce' | 'dressing' | 'marinade' | 'base'
+  | 'paste' | 'spice_blend' | 'condiment' | 'batter';
+
+export type VariationType = 'profile_swap' | 'dietary' | 'regional' | 'twist';
+
+export interface VariationOverrides {
+  added_ingredients?: Array<{ amount: number; unit: string; name: string }>;
+  removed_ingredients?: string[];
+  step_notes?: string;
+}
+
+export interface RecipeComponentLink {
+  id: string;
+  parent_recipe_id: string;
+  component_recipe_id: string;
+  ingredient_group_label: string;
+  display_order: number;
+  created_at: string;
+}
+
+export interface RecipeComponentWithRecipe extends RecipeComponentLink {
+  component: Recipe;
 }
 
 // ============================================================

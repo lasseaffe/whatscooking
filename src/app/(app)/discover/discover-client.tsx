@@ -21,6 +21,8 @@ import { useDietaryMode } from "@/lib/dietary-mode-context";
 import { FilterDrawer, type FilterState as DrawerFilterState } from "@/components/filter-drawer";
 import { HeroFilterCard, type HeroFilterState } from "@/components/hero-filter-card";
 import { SetBgMode } from "@/components/set-bg-mode";
+import type { ComponentType } from "@/lib/types";
+import { ALL_COMPONENT_TYPES, COMPONENT_TYPE_LABELS, COMPONENT_TYPE_EMOJI } from "@/lib/component-types";
 
 const TIME_OPTIONS = [
   { label: "≤ 15 min", value: 15 },
@@ -72,12 +74,31 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
   const [showFilterDrawer, setShowFilterDrawer] = useState(false);
   const [viewMode, setViewMode] = useState<"grid" | "list" | "gallery">("grid");
   const recipesRef = useRef<HTMLElement>(null);
+  const [activeMainTab, setActiveMainTab] = useState<"recipes" | "components">("recipes");
+  const [components, setComponents] = useState<{ id: string; title: string; description: string | null; component_type: ComponentType; cook_time_minutes: number | null; variation_count?: number }[]>([]);
+  const [componentTypeFilter, setComponentTypeFilter] = useState<ComponentType | null>(null);
+  const [componentLoading, setComponentLoading] = useState(false);
 
   // Restore persisted preference on mount
   useEffect(() => {
     const saved = localStorage.getItem("wc-view-mode") as "grid" | "list" | "gallery" | null;
     if (saved) setViewMode(saved);
   }, []);
+
+  async function fetchComponents(type: ComponentType | null) {
+    setComponentLoading(true);
+    const url = type ? `/api/components?type=${type}` : "/api/components";
+    const res = await fetch(url);
+    const json = await res.json();
+    setComponents(json.components ?? []);
+    setComponentLoading(false);
+  }
+
+  useEffect(() => {
+    if (activeMainTab === "components") {
+      fetchComponents(componentTypeFilter);
+    }
+  }, [activeMainTab, componentTypeFilter]);
 
   function handleViewMode(val: Set<React.Key>) {
     const next = [...val][0] as "grid" | "list" | "gallery";
@@ -248,6 +269,89 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
         </div>
       </div>
 
+      {/* ── MAIN TAB SWITCHER ───────────────────────────────────── */}
+      <div className="px-6 sm:px-10 max-w-5xl mx-auto w-full">
+        <div className="flex gap-0 border-b" style={{ borderColor: "#3a2a22" }}>
+          <button
+            onClick={() => setActiveMainTab("recipes")}
+            className="px-4 py-2.5 text-sm font-medium transition-colors"
+            style={{
+              color: activeMainTab === "recipes" ? "#e87c3e" : "#888",
+              borderBottom: activeMainTab === "recipes" ? "2px solid #e87c3e" : "2px solid transparent",
+            }}
+          >
+            Recipes
+          </button>
+          <button
+            onClick={() => setActiveMainTab("components")}
+            className="px-4 py-2.5 text-sm font-medium transition-colors"
+            style={{
+              color: activeMainTab === "components" ? "#e87c3e" : "#888",
+              borderBottom: activeMainTab === "components" ? "2px solid #e87c3e" : "2px solid transparent",
+            }}
+          >
+            🧩 Building Blocks
+          </button>
+        </div>
+      </div>
+
+      {/* ── COMPONENTS TAB CONTENT ──────────────────────────────── */}
+      {activeMainTab === "components" && (
+        <section className="px-6 sm:px-10 py-6 max-w-5xl mx-auto w-full flex-1">
+          <div className="flex gap-2 overflow-x-auto pb-2 mb-5">
+            <button
+              onClick={() => setComponentTypeFilter(null)}
+              className="flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium"
+              style={{ background: !componentTypeFilter ? "#c0521a" : "#2d1e14", color: !componentTypeFilter ? "#ffe0cc" : "#aaa", border: "1px solid #3a2a22" }}
+            >
+              All
+            </button>
+            {ALL_COMPONENT_TYPES.map((t) => (
+              <button
+                key={t}
+                onClick={() => setComponentTypeFilter(t)}
+                className="flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium"
+                style={{ background: componentTypeFilter === t ? "#c0521a" : "#2d1e14", color: componentTypeFilter === t ? "#ffe0cc" : "#aaa", border: "1px solid #3a2a22" }}
+              >
+                {COMPONENT_TYPE_EMOJI[t]} {COMPONENT_TYPE_LABELS[t]}
+              </button>
+            ))}
+          </div>
+          {componentLoading ? (
+            <p className="text-sm text-center py-8" style={{ color: "#888" }}>Loading...</p>
+          ) : components.length === 0 ? (
+            <div className="text-center py-12">
+              <p className="text-3xl mb-3">🧩</p>
+              <p className="text-sm font-medium mb-1" style={{ color: "#ccc" }}>No building blocks yet</p>
+              <p className="text-xs" style={{ color: "#888" }}>Components surface as you explore recipes.</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {components.map((c) => (
+                <Link
+                  key={c.id}
+                  href={`/recipes/${c.id}`}
+                  className="rounded-xl p-4 transition-opacity hover:opacity-80"
+                  style={{ background: "#2d1e14", border: "1px solid #3a2a22" }}
+                >
+                  <span className="text-2xl mb-2 block">{COMPONENT_TYPE_EMOJI[c.component_type]}</span>
+                  <p className="font-bold text-sm mb-0.5" style={{ color: "#e87c3e" }}>{c.title}</p>
+                  <p className="text-xs" style={{ color: "#888" }}>
+                    {COMPONENT_TYPE_LABELS[c.component_type]}{c.cook_time_minutes ? ` · ${c.cook_time_minutes} min` : ""}
+                  </p>
+                  {(c.variation_count ?? 0) > 0 && (
+                    <p className="text-[10px] mt-1 font-medium" style={{ color: "rgba(232,124,62,0.7)" }}>
+                      +{c.variation_count} variations
+                    </p>
+                  )}
+                </Link>
+              ))}
+            </div>
+          )}
+        </section>
+      )}
+
+      {activeMainTab === "recipes" && <>
       {/* ── FOR YOU — personalised suggestions ─────────────────── */}
       {!hasFilters && (
         <SuggestionPanel allRecipes={initialRecipes} />
@@ -573,6 +677,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
           </div>
         )}
       </section>
+      </>}
     </div>
   );
 }
