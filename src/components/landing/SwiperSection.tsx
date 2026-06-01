@@ -138,8 +138,8 @@ export function SwiperSection({ heroRecipe, moreRecipes, trendingRecipes }: Swip
   const currentCard = deck[deck.length - 1];
   const nextCard = deck[deck.length - 2];
 
-  const likeOpacity = Math.max(0, Math.min(1, (dragX - 20) / 60));
-  const nopeOpacity = Math.max(0, Math.min(1, (-dragX - 20) / 60));
+  const likeOpacity = Math.max(0, Math.min(1, (dragX - 5) / 35));
+  const nopeOpacity = Math.max(0, Math.min(1, (-dragX - 5) / 35));
 
   function cardTransform(): React.CSSProperties {
     let tx = dragX, ty = dragY * 0.3, rotate = dragX * ROTATION_FACTOR;
@@ -238,6 +238,15 @@ export function SwiperSection({ heroRecipe, moreRecipes, trendingRecipes }: Swip
                     <img src={currentCard.image_url} alt={currentCard.title} className="absolute inset-0 w-full h-full object-cover" />
                   )}
                   <div className="absolute inset-0" style={{ background: 'linear-gradient(transparent 40%,rgba(0,0,0,0.78) 100%)' }} />
+
+                  {/* Drag direction tint */}
+                  <div className="absolute inset-0 pointer-events-none" style={{
+                    background: dragX > 0
+                      ? `rgba(46,204,113,${Math.min(0.28, likeOpacity * 0.28)})`
+                      : `rgba(248,113,113,${Math.min(0.28, nopeOpacity * 0.28)})`,
+                    zIndex: 3,
+                    transition: dragging ? 'none' : 'background 0.25s ease-out',
+                  }} />
 
                   {/* Like stamp */}
                   {likeOpacity > 0 && (

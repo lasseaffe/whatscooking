@@ -37,17 +37,17 @@ const stripRecipes = [
 
 describe('HeroSection', () => {
   it('renders the hero dish title', () => {
-    render(<HeroSection heroRecipe={heroRecipe} stripRecipes={stripRecipes} />);
+    render(<HeroSection heroRecipe={heroRecipe} />);
     expect(screen.getByText('Spaghetti Carbonara')).toBeInTheDocument();
   });
 
   it('renders GET STARTED CTA', () => {
-    render(<HeroSection heroRecipe={heroRecipe} stripRecipes={stripRecipes} />);
+    render(<HeroSection heroRecipe={heroRecipe} />);
     expect(screen.getByText('Get Started')).toBeInTheDocument();
   });
 
   it('renders scroll hint', () => {
-    render(<HeroSection heroRecipe={heroRecipe} stripRecipes={stripRecipes} />);
+    render(<HeroSection heroRecipe={heroRecipe} />);
     expect(screen.getByText("Swipe Tonight's Dinner")).toBeInTheDocument();
   });
 });

@@ -17,12 +17,12 @@ const moreRecipes = [
 
 describe('SwiperSection', () => {
   it('renders the hero recipe as first card', () => {
-    render(<SwiperSection heroRecipe={heroRecipe} moreRecipes={moreRecipes} />);
+    render(<SwiperSection heroRecipe={heroRecipe} moreRecipes={moreRecipes} trendingRecipes={[]} />);
     expect(screen.getByText('Lamb Tagine')).toBeInTheDocument();
   });
 
   it('has the correct section id for scroll targeting', () => {
-    const { container } = render(<SwiperSection heroRecipe={heroRecipe} moreRecipes={moreRecipes} />);
+    const { container } = render(<SwiperSection heroRecipe={heroRecipe} moreRecipes={moreRecipes} trendingRecipes={[]} />);
     expect(container.querySelector('#swiper-section')).toBeInTheDocument();
   });
 });

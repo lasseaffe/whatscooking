@@ -203,6 +203,7 @@ export const carbonaraPoster: PosterConfig = {
   photoFadeColor: '#130c07',
   borderHoverColor: 'rgba(139,37,19,0.4)',
   washes: 'none',
+  href: '/discover?q=carbonara',
 }
 
 export const ramenPoster: PosterConfig = {
@@ -246,6 +247,7 @@ export const ramenPoster: PosterConfig = {
   photoFadeColor: '#0E0608',
   borderHoverColor: 'rgba(139,32,32,0.5)',
   washes: 'radial-gradient(ellipse 55% 40% at 85% 20%, rgba(196,30,58,0.09) 0%, transparent 60%), radial-gradient(ellipse 45% 35% at 12% 78%, rgba(44,62,110,0.08) 0%, transparent 55%)',
+  href: '/discover?q=ramen',
 }
 
 export const croissantPoster: PosterConfig = {
@@ -286,6 +288,7 @@ export const croissantPoster: PosterConfig = {
   photoFadeColor: '#EFE4CE',
   borderHoverColor: 'rgba(180,130,110,0.4)',
   washes: 'radial-gradient(ellipse 70% 50% at 15% 20%, rgba(210,160,148,0.26) 0%, transparent 65%), radial-gradient(ellipse 55% 45% at 88% 82%, rgba(148,172,148,0.20) 0%, transparent 60%), radial-gradient(ellipse 45% 35% at 10% 85%, rgba(172,158,192,0.16) 0%, transparent 55%)',
+  href: '/discover?q=croissant',
 }
 
 export const fattoushPoster: PosterConfig = {
@@ -338,6 +341,7 @@ export const fattoushPoster: PosterConfig = {
   photoFadeColor: '#0C1810',
   borderHoverColor: 'rgba(212,150,42,0.4)',
   washes: 'radial-gradient(ellipse 60% 45% at 18% 22%, rgba(192,57,43,0.10) 0%, transparent 60%), radial-gradient(ellipse 50% 40% at 88% 78%, rgba(125,155,78,0.09) 0%, transparent 55%)',
+  href: '/discover?q=fattoush',
 }
 
 export const birriasPoster: PosterConfig = {
@@ -386,6 +390,7 @@ export const birriasPoster: PosterConfig = {
   photoFadeColor: '#1E0A02',
   borderHoverColor: 'rgba(232,71,10,0.4)',
   washes: 'radial-gradient(ellipse 65% 50% at 22% 18%, rgba(232,71,10,0.14) 0%, transparent 58%), radial-gradient(ellipse 50% 45% at 82% 80%, rgba(180,30,10,0.11) 0%, transparent 55%)',
+  href: '/discover?q=birria',
 }
 
 export const ALL_POSTERS: PosterConfig[] = [

@@ -44,6 +44,8 @@ export type PosterConfig = {
   // diagonal-slash layout only
   slashColors?: [string, string, string] // [base, mid, accent]
   metaPills?: { label: string; color: string; border: string }[]
+  // click destination
+  href?: string
 }
 
 // ─── Language tooltip CSS ──────────────────────────────────────────────────────
