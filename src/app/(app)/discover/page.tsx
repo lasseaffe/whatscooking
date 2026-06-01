@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { CUISINES } from "@/lib/cuisines";
 import { DiscoverFeedClient } from "./discover-feed-client";
+import { WcSeasonNudge } from "@/components/wc-season-nudge";
 
 export const dynamic = "force-dynamic";
 
@@ -148,6 +149,9 @@ export default async function DiscoverPage() {
   return (
     <>
       <TonightsEditionHeader featuredTitle={swipeRecipes?.[0]?.title ?? "Tonight's Recipes"} />
+      <div style={{ padding: "16px 16px 0", maxWidth: 640, margin: "0 auto" }}>
+        <WcSeasonNudge />
+      </div>
       <DiscoverFeedClient
         swipeRecipes={swipeRecipes ?? []}
         trendingRecipes={trendingRaw ?? []}

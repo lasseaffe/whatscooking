@@ -165,10 +165,17 @@ export default async function WorldCup2026Page() {
 
       {/* ── My Matchdays ── */}
       <section className="mb-12">
-        <div className="flex items-center gap-2 mb-4">
+        <div className="flex items-center justify-between gap-2 mb-4">
           <h2 className="text-lg font-bold" style={{ color: "#EFE3CE", fontFamily: "'Libre Baskerville', Georgia, serif" }}>
             {followedCodes.length > 0 ? "Your matchdays" : "Matchdays to come"}
           </h2>
+          <Link
+            href="/world-cup-2026/leaderboard"
+            className="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full"
+            style={{ color: "#F4A261", background: "rgba(244,162,97,0.1)", border: "1px solid rgba(244,162,97,0.25)" }}
+          >
+            <Trophy className="w-3.5 h-3.5" /> Leaderboard
+          </Link>
         </div>
         <WcMyMatchdays fixtures={matchdays} followedCodes={followedCodes} />
       </section>

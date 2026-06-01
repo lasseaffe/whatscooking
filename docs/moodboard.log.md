@@ -19,6 +19,21 @@ Newest entry on top. Top 5 entries are rendered in the in-app moodboard Change L
 - Consider extracting a shared low-level `useSwipeDeck` primitive so landing + Discover can't drift again (deferred — data shapes differ).
 - Household "Kitchen Groups" currently folds into the `/household` hub (no standalone groups page exists yet); promote to its own nav child once a groups UI ships.
 
+## 2026-06-02 — World Cup 2026 Waves 2–3: watch squads, share cards, leaderboard, season nudge
+
+### Changed
+
+- **Watch parties** (Wave 2): a matchday row's "Start a watch party" now opens a squad-picker sheet (Just me / existing squad / new squad) and creates a real event with the **Matchday Menu pre-seeded** into the itinerary; squads reuse `kitchen_groups`. New proactive **"Rally your squad"** banner atop My Matchdays for the soonest followed match.
+- **Shareable Matchday Menu** (Wave 3): public-ish menu page at `/world-cup-2026/menu/[home]-[away]` + branded **OG share card** (`opengraph-image`, pitch-green gradient, flags, "MATCHDAY MENU" eyebrow, What's Cooking lockup) — feeds social sharing of a game-night spread.
+- **"Cooked the World" leaderboard** (`/world-cup-2026/leaderboard`): ranks chefs by nations cooked then dishes shared, aggregated from `wc_match_photos`; medal rows, "You" highlight, and a branded first-mover empty state (no blank div).
+- **Season nudge**: dismissible (`localStorage`) pitch-green prompt on Discover linking to the hub — "The World Cup is kicking off ⚽ — pick your teams."
+
+### Ideas / next steps
+
+- Leaderboard shows "Chef ••••" placeholders for others — wire real display names once a profiles name field is confirmed; add per-squad leaderboard view.
+- Surface the season nudge on the home/landing surface too (currently Discover only).
+- OG card is text+flags (Satori emoji limits) — could add a subtle pitch texture / dish thumbnails later.
+
 ## 2026-06-02 — World Cup 2026 reapproach: allegiance-driven "matchday" surface
 
 ### Changed
