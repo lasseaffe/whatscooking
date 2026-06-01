@@ -37,9 +37,6 @@ export default async function LandingPage() {
     ? topRecipes[Math.floor(Math.random() * topRecipes.length)]
     : { id: '', title: "Birria Tacos", image_url: null, cuisine_type: "Mexican", cook_time_minutes: 75, calories: 620 };
 
-  // Curated index — server-randomised so it's stable per SSR render
-  const curatedIndex = Math.floor(Math.random() * 9);
-
   const { data: stripRecipes } = await supabase
     .from("recipes")
     .select("id, title, image_url")
@@ -76,16 +73,16 @@ export default async function LandingPage() {
           What&apos;s Cooking
         </Link>
         <div className="flex items-center gap-4">
-          <Link href="/auth/login" style={{ fontSize: 11, letterSpacing: 2, color: 'rgba(239,227,206,0.6)', textDecoration: 'none', textTransform: 'uppercase' }}>Sign in</Link>
-          <Link href="/auth/signup" style={{ fontSize: 11, letterSpacing: 2, color: 'rgba(239,227,206,0.9)', textDecoration: 'none', textTransform: 'uppercase', background: '#8B2635', padding: '8px 16px', borderRadius: 2 }}>Get Started</Link>
+          <Link href="/login" style={{ fontSize: 11, letterSpacing: 2, color: 'rgba(239,227,206,0.6)', textDecoration: 'none', textTransform: 'uppercase' }}>Sign in</Link>
+          <Link href="/signup" style={{ fontSize: 11, letterSpacing: 2, color: 'rgba(239,227,206,0.9)', textDecoration: 'none', textTransform: 'uppercase', background: '#8B2635', padding: '8px 16px', borderRadius: 2 }}>Get Started</Link>
         </div>
       </header>
 
       {/* Hero — 70svh, cinematic image left + cooking mode panel right */}
-      <HeroSection heroRecipe={heroRecipe} curatedIndex={curatedIndex} />
+      <HeroSection heroRecipe={heroRecipe} />
 
       {/* Scroll strip — hidden on mobile, decorative on desktop */}
-      <div className="hidden md:block" style={{ position: 'relative', overflow: 'hidden', height: 220, borderTop: '1px solid rgba(201,169,110,0.08)', background: 'var(--bg-primary, #0a0503)' }}>
+      <div className="hidden md:block" style={{ position: 'relative', overflow: 'hidden', height: 220, marginTop: 48, borderTop: '1px solid rgba(201,169,110,0.08)', background: 'var(--bg-primary, #0a0503)' }}>
         <ScrollStrip recipes={stripRecipes ?? []} />
       </div>
 

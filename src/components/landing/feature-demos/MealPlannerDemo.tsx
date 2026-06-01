@@ -1,10 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
 
-// Mirrors plans-client.tsx plan card grid exactly:
-// bg #1C1209, border #3A2416, 2xl radius, 80px thumbnail, Active badge,
-// thumbnail carousel fade, third card snaps in.
-
 const PLANS = [
   {
     title: 'Weeknight Rotation',
@@ -25,22 +21,43 @@ const PLANS = [
       'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=200&q=70',
     ],
   },
-  {
-    title: 'Date Night Series',
-    status: 'Active',
-    meals: '6 meals · 3 evenings',
-    dietary: 'Romantic · Under 1hr',
-    images: [
-      'https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=200&q=70',
-    ],
-  },
+]
+
+const DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI']
+const MEAL_LABELS = ['BREAKFAST', 'LUNCH', 'DINNER']
+
+type Slot = { title: string; img: string } | null
+
+const WEEK_SLOTS: Slot[][] = [
+  // Mon         Tue           Wed          Thu         Fri
+  [
+    { title: 'Avocado Toast', img: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c820?w=120&q=60' },
+    null,
+    { title: 'Greek Yogurt Bowl', img: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=120&q=60' },
+    null,
+    { title: 'Overnight Oats', img: 'https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?w=120&q=60' },
+  ],
+  [
+    { title: 'Caesar Salad', img: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=120&q=60' },
+    { title: 'Ramen', img: 'https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=120&q=60' },
+    null,
+    { title: 'Fattoush', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=120&q=60' },
+    { title: 'Soup & Bread', img: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=120&q=60' },
+  ],
+  [
+    { title: 'Birria Tacos', img: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=120&q=60' },
+    { title: 'Carbonara', img: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=120&q=60' },
+    { title: 'Grilled Salmon', img: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=120&q=60' },
+    null,
+    { title: 'Pizza Night', img: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=120&q=60' },
+  ],
 ]
 
 export function MealPlannerDemo() {
   const [thumbIdx, setThumbIdx] = useState(0)
   const [thumbFade, setThumbFade] = useState(true)
-  const [thirdVisible, setThirdVisible] = useState(false)
   const [badgePulse, setBadgePulse] = useState(false)
+  const [gridVisible, setGridVisible] = useState(false)
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -54,7 +71,7 @@ export function MealPlannerDemo() {
   }, [])
 
   useEffect(() => {
-    const t = setTimeout(() => setThirdVisible(true), 1500)
+    const t = setTimeout(() => setGridVisible(true), 400)
     return () => clearTimeout(t)
   }, [])
 
@@ -67,87 +84,166 @@ export function MealPlannerDemo() {
   }, [])
 
   return (
-    <div style={{ width: '100%', maxWidth: 480, display: 'flex', flexDirection: 'column', gap: 10 }}>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 4 }}>
-        <span style={{ fontFamily: 'var(--font-baskerville, Georgia, serif)', fontSize: 16, fontWeight: 700, color: '#EFE3CE' }}>
-          My Meal Plans
+    <div style={{ width: '100%', maxWidth: 520, display: 'flex', flexDirection: 'column', gap: 10 }}>
+      {/* Plan cards row */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 2 }}>
+        <span style={{ fontFamily: 'var(--font-baskerville, Georgia, serif)', fontSize: 14, fontWeight: 700, color: '#EFE3CE' }}>
+          Weeknight Rotation
         </span>
-        <button style={{
-          display: 'flex', alignItems: 'center', gap: 5,
-          background: '#C8522A', color: 'white',
-          fontSize: 11, padding: '6px 12px', borderRadius: 10,
-          border: 'none', cursor: 'default', fontFamily: 'inherit',
-        }}>
-          + New plan
-        </button>
-      </div>
-
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
-        {PLANS.map((plan, i) => {
-          if (i === 2 && !thirdVisible) return null
-          return (
-            <div key={plan.title} style={{
-              background: '#1C1209',
-              border: '1px solid #3A2416',
-              borderRadius: 16,
-              overflow: 'hidden',
-              animation: i === 2 && thirdVisible ? 'mpCardSnapIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both' : undefined,
-            }}>
-              <div style={{ height: 80, position: 'relative', background: 'linear-gradient(135deg,#241809,#2A1B0D)' }}>
-                {plan.images[0] && (
-                  <img
-                    src={i === 0 ? plan.images[thumbIdx] : plan.images[0]}
-                    alt={plan.title}
-                    style={{
-                      position: 'absolute', inset: 0, width: '100%', height: '100%',
-                      objectFit: 'cover',
-                      filter: 'brightness(0.85) saturate(0.9)',
-                      opacity: i === 0 ? (thumbFade ? 1 : 0) : 1,
-                      transition: 'opacity 250ms ease',
-                    }}
-                  />
-                )}
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(13,9,7,0.55) 0%, transparent 60%)' }} />
-              </div>
-              <div style={{ padding: '10px 12px' }}>
-                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 6, marginBottom: 4 }}>
-                  <span style={{ fontSize: 12, fontWeight: 600, color: '#EFE3CE', lineHeight: 1.3 }}>{plan.title}</span>
-                  <span style={{
-                    fontSize: 10, padding: '2px 7px', borderRadius: 20, flexShrink: 0,
-                    background: plan.status === 'Active' ? '#2A1808' : '#1A1A08',
-                    color: plan.status === 'Active' ? '#C8522A' : '#C89818',
-                    border: `1px solid ${plan.status === 'Active' ? '#C8522A30' : '#C8981830'}`,
-                    boxShadow: plan.status === 'Active' && badgePulse && i === 0 ? '0 0 6px rgba(200,82,42,0.4)' : 'none',
-                    transition: 'box-shadow 0.3s ease',
-                  }}>
-                    {plan.status}
-                  </span>
-                </div>
-                <div style={{ fontSize: 10, color: '#6B4E36', marginBottom: 2 }}>{plan.meals}</div>
-                <div style={{ fontSize: 10, color: '#6B4E36', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{plan.dietary}</div>
-              </div>
-            </div>
-          )
-        })}
-
-        <div style={{
-          background: 'rgba(26,16,8,0.3)', border: '1px dashed #3A2416', borderRadius: 16,
-          height: 130, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6,
-        }}>
-          <div style={{
-            width: 28, height: 28, borderRadius: 8,
-            background: 'rgba(200,82,42,0.12)', border: '1px solid rgba(200,82,42,0.25)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: 14, color: '#C8522A',
-          }}>+</div>
-          <span style={{ fontSize: 11, fontWeight: 600, color: '#8A6A4A' }}>New plan</span>
+        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+          <span style={{
+            fontSize: 9, padding: '2px 7px', borderRadius: 20,
+            background: '#2A1808', color: '#C8522A',
+            border: '1px solid rgba(200,82,42,0.3)',
+            boxShadow: badgePulse ? '0 0 6px rgba(200,82,42,0.4)' : 'none',
+            transition: 'box-shadow 0.3s ease',
+            letterSpacing: 1,
+          }}>ACTIVE</span>
+          <span style={{ fontSize: 9, color: '#6B4E36', letterSpacing: 1 }}>14 MEALS · 7 DAYS</span>
         </div>
       </div>
 
+      {/* Weekly grid */}
+      <div style={{ position: 'relative' }}>
+        {/* Day headers */}
+        <div style={{ display: 'grid', gridTemplateColumns: '44px repeat(5, 1fr)', gap: 3, marginBottom: 3 }}>
+          <div />
+          {DAYS.map(day => (
+            <div key={day} style={{
+              fontSize: 8, letterSpacing: 1.5, color: 'rgba(244,162,97,0.5)',
+              textAlign: 'center', fontFamily: 'var(--font-geist-mono, monospace)',
+            }}>
+              {day}
+            </div>
+          ))}
+        </div>
+
+        {/* Meal rows */}
+        {MEAL_LABELS.map((mealLabel, rowIdx) => (
+          <div key={mealLabel} style={{ display: 'grid', gridTemplateColumns: '44px repeat(5, 1fr)', gap: 3, marginBottom: 3 }}>
+            {/* Row label */}
+            <div style={{
+              fontSize: 7, letterSpacing: 1, color: 'rgba(239,227,206,0.25)',
+              display: 'flex', alignItems: 'center',
+              fontFamily: 'var(--font-geist-mono, monospace)',
+              lineHeight: 1.2,
+            }}>
+              {mealLabel}
+            </div>
+
+            {/* Cells */}
+            {DAYS.map((_, colIdx) => {
+              const slot = WEEK_SLOTS[rowIdx][colIdx]
+              const cellIdx = rowIdx * 5 + colIdx
+              return (
+                <div
+                  key={colIdx}
+                  style={{
+                    height: 52,
+                    borderRadius: 6,
+                    overflow: 'hidden',
+                    opacity: gridVisible ? 1 : 0,
+                    animation: gridVisible ? `cellFadeIn 0.35s ease both` : 'none',
+                    animationDelay: `${cellIdx * 45}ms`,
+                    ...(slot ? {
+                      background: 'linear-gradient(135deg,#241809,#2A1B0D)',
+                      border: '1px solid #3A2416',
+                      position: 'relative',
+                    } : {
+                      background: 'rgba(26,16,8,0.3)',
+                      border: '1px dashed rgba(58,36,22,0.6)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }),
+                  }}
+                >
+                  {slot ? (
+                    <>
+                      <img
+                        src={slot.img}
+                        alt={slot.title}
+                        style={{
+                          position: 'absolute', inset: 0,
+                          width: '100%', height: '100%',
+                          objectFit: 'cover',
+                          filter: 'brightness(0.75) saturate(0.85)',
+                        }}
+                      />
+                      <div style={{
+                        position: 'absolute', inset: 0,
+                        background: 'linear-gradient(to top, rgba(10,5,3,0.75) 0%, transparent 60%)',
+                      }} />
+                      <span style={{
+                        position: 'absolute', bottom: 3, left: 4, right: 4,
+                        fontSize: 7, color: 'rgba(239,227,206,0.88)',
+                        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                        lineHeight: 1.2,
+                      }}>
+                        {slot.title}
+                      </span>
+                    </>
+                  ) : (
+                    <span style={{ fontSize: 12, color: 'rgba(200,82,42,0.4)' }}>+</span>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        ))}
+      </div>
+
+      {/* Mini plan thumbnails */}
+      <div style={{ display: 'flex', gap: 6, marginTop: 4 }}>
+        {PLANS.map((plan, i) => (
+          <div key={plan.title} style={{
+            flex: 1,
+            background: '#1C1209',
+            border: '1px solid #3A2416',
+            borderRadius: 10,
+            overflow: 'hidden',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            padding: '6px 8px',
+          }}>
+            <div style={{ width: 32, height: 32, borderRadius: 6, overflow: 'hidden', flexShrink: 0, position: 'relative', background: '#241809' }}>
+              {plan.images[0] && (
+                <img
+                  src={i === 0 ? plan.images[thumbIdx] : plan.images[0]}
+                  alt={plan.title}
+                  style={{
+                    position: 'absolute', inset: 0, width: '100%', height: '100%',
+                    objectFit: 'cover',
+                    filter: 'brightness(0.85)',
+                    opacity: i === 0 ? (thumbFade ? 1 : 0) : 1,
+                    transition: 'opacity 250ms ease',
+                  }}
+                />
+              )}
+            </div>
+            <div>
+              <div style={{ fontSize: 10, fontWeight: 600, color: '#EFE3CE', lineHeight: 1.3 }}>{plan.title}</div>
+              <div style={{ fontSize: 8, color: '#6B4E36', marginTop: 1 }}>{plan.meals}</div>
+            </div>
+          </div>
+        ))}
+        <div style={{
+          width: 50, flexShrink: 0,
+          background: 'rgba(26,16,8,0.3)', border: '1px dashed #3A2416', borderRadius: 10,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          fontSize: 14, color: '#C8522A',
+        }}>+</div>
+      </div>
+
       <style>{`
+        @keyframes cellFadeIn {
+          0%   { opacity: 0; transform: scale(0.88); }
+          100% { opacity: 1; transform: scale(1); }
+        }
         @keyframes mpCardSnapIn {
-          0% { transform: translateX(30px) scale(0.9); opacity: 0; }
-          80% { transform: translateX(-2px) scale(1.02); opacity: 1; }
+          0%   { transform: translateX(30px) scale(0.9); opacity: 0; }
+          80%  { transform: translateX(-2px) scale(1.02); opacity: 1; }
           100% { transform: translateX(0) scale(1); opacity: 1; }
         }
       `}</style>

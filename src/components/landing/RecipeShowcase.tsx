@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { ALL_POSTERS } from './poster-configs'
 import { RecipePoster } from './RecipePoster'
 
@@ -44,20 +45,50 @@ export function RecipeShowcase() {
         }}
       >
         {ALL_POSTERS.map((poster, i) => (
-          <div
+          <Link
             key={poster.no}
+            href={poster.href ?? '/discover'}
+            style={{ textDecoration: 'none', flexShrink: 0, display: 'block' }}
             onMouseEnter={() => setHoveredIdx(i)}
             onMouseLeave={() => setHoveredIdx(null)}
-            style={{
-              flexShrink: 0,
-              width: hoveredIdx === i ? 'min(420px, 80vw)' : 'min(280px, 70vw)',
-              transition: 'width 400ms cubic-bezier(0.4,0,0.2,1)',
-              overflow: 'hidden',
-              position: 'relative',
-            }}
           >
-            <RecipePoster config={poster} index={i} />
-          </div>
+            <div
+              style={{
+                width: hoveredIdx === i ? 'min(420px, 80vw)' : 'min(280px, 70vw)',
+                transition: 'width 400ms cubic-bezier(0.4,0,0.2,1)',
+                overflow: 'hidden',
+                position: 'relative',
+                cursor: 'pointer',
+              }}
+            >
+              <RecipePoster config={poster} index={i} />
+              {/* "View recipe →" overlay on hover */}
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                right: 0,
+                padding: '20px 16px 14px',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.72))',
+                opacity: hoveredIdx === i ? 1 : 0,
+                transition: 'opacity 300ms ease',
+                display: 'flex',
+                justifyContent: 'flex-end',
+                pointerEvents: 'none',
+                zIndex: 20,
+              }}>
+                <span style={{
+                  fontSize: 10,
+                  letterSpacing: 3,
+                  color: 'rgba(244,162,97,0.9)',
+                  textTransform: 'uppercase',
+                  fontFamily: 'var(--font-geist-mono, monospace)',
+                }}>
+                  View recipe →
+                </span>
+              </div>
+            </div>
+          </Link>
         ))}
       </div>
     </section>

@@ -5,22 +5,7 @@ import { useAmbilight } from './useAmbilight';
 import { CookingModePanel } from './CookingModePanel';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
-// Curated Unsplash IDs: landscape, food-only, no burnt-in text
-const CURATED_IMAGE_IDS = [
-  'photo-1565299585323-38d6b0865b47', // Birria Tacos
-  'photo-1555507036-ab1f4038808a',    // Croissant
-  'photo-1569050467447-ce54b3bbc37d', // Ramen
-  'photo-1540189549336-e6e99c3679fe', // Fattoush salad
-  'photo-1504674900247-0877df9cc836', // Food spread
-  'photo-1544025162-d76694265947',    // Slow cook
-  'photo-1555396273-367ea4eb4db5',    // Fire grill
-  'photo-1565299624946-b28f40a0ae38', // Pizza
-  'photo-1612874742237-6526221588e3', // Carbonara
-];
-
-export function buildCuratedImageUrl(id: string) {
-  return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1400&q=85`;
-}
+const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=1400&q=85';
 
 interface HeroRecipe {
   id: string;
@@ -33,13 +18,11 @@ interface HeroRecipe {
 
 interface HeroSectionProps {
   heroRecipe: HeroRecipe;
-  // curatedIndex passed from server so it's stable per render
-  curatedIndex: number;
 }
 
-export function HeroSection({ heroRecipe, curatedIndex }: HeroSectionProps) {
+export function HeroSection({ heroRecipe }: HeroSectionProps) {
   const isMobile = useIsMobile();
-  const imageUrl = buildCuratedImageUrl(CURATED_IMAGE_IDS[curatedIndex % CURATED_IMAGE_IDS.length]);
+  const imageUrl = heroRecipe.image_url ?? FALLBACK_IMAGE;
   const ambilightColor = useAmbilight(imageUrl, true);
 
   const handleScrollToSwiper = useCallback(() => {
@@ -117,7 +100,7 @@ export function HeroSection({ heroRecipe, curatedIndex }: HeroSectionProps) {
           style={{ left: '8%', bottom: '12%', zIndex: 6, animation: 'fadeInUp 0.8s ease-out 0.3s both' }}
         >
           <Link
-            href="/auth/signup"
+            href="/signup"
             className="inline-block"
             style={{ background: '#8B2635', color: 'rgba(239,227,206,0.95)', padding: '13px 26px', fontSize: 11, letterSpacing: 3, borderRadius: 2, textTransform: 'uppercase', textDecoration: 'none' }}
           >
