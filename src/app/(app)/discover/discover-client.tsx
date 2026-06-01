@@ -75,7 +75,7 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
   const [viewMode, setViewMode] = useState<"grid" | "list" | "gallery">("grid");
   const recipesRef = useRef<HTMLElement>(null);
   const [activeMainTab, setActiveMainTab] = useState<"recipes" | "components">("recipes");
-  const [components, setComponents] = useState<{ id: string; title: string; description: string | null; component_type: ComponentType; cook_time_minutes: number | null }[]>([]);
+  const [components, setComponents] = useState<{ id: string; title: string; description: string | null; component_type: ComponentType; cook_time_minutes: number | null; variation_count?: number }[]>([]);
   const [componentTypeFilter, setComponentTypeFilter] = useState<ComponentType | null>(null);
   const [componentLoading, setComponentLoading] = useState(false);
 
@@ -339,6 +339,11 @@ export function DiscoverClient({ initialRecipes, initialQ, initialType, initialD
                   <p className="text-xs" style={{ color: "#888" }}>
                     {COMPONENT_TYPE_LABELS[c.component_type]}{c.cook_time_minutes ? ` · ${c.cook_time_minutes} min` : ""}
                   </p>
+                  {(c.variation_count ?? 0) > 0 && (
+                    <p className="text-[10px] mt-1 font-medium" style={{ color: "rgba(232,124,62,0.7)" }}>
+                      +{c.variation_count} variations
+                    </p>
+                  )}
                 </Link>
               ))}
             </div>

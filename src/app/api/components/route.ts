@@ -13,6 +13,7 @@ export async function GET(request: Request) {
     .from("recipes")
     .select("id, title, description, image_url, component_type, cook_time_minutes, prep_time_minutes, difficulty_level, servings, ingredients")
     .eq("is_component", true)
+    .or("is_variation.is.null,is_variation.eq.false")
     .range(offset, offset + limit - 1)
     .order("title");
 
@@ -26,5 +27,26 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json({ components: data ?? [] });
+  // Fetch variation counts for all returned canonicals in one query
+  const ids = (data ?? []).map((c) => c.id);
+  const { data: varCounts } = ids.length > 0
+    ? await supabase
+        .from("recipes")
+        .select("parent_id")
+        .eq("is_component", true)
+        .eq("is_variation", true)
+        .in("parent_id", ids)
+    : { data: [] };
+
+  const countMap: Record<string, number> = {};
+  for (const row of varCounts ?? []) {
+    if (row.parent_id) countMap[row.parent_id] = (countMap[row.parent_id] ?? 0) + 1;
+  }
+
+  const components = (data ?? []).map((c) => ({
+    ...c,
+    variation_count: countMap[c.id] ?? 0,
+  }));
+
+  return NextResponse.json({ components });
 }

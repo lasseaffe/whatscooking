@@ -24,6 +24,7 @@ import { detectGrowableIngredients, getRecipePortalState } from "@/lib/ecosystem
 import { CUISINES } from "@/lib/cuisines";
 import { ComponentFullPageBanner } from "@/components/recipe/component-full-page-banner";
 import { ComponentUseInStrip } from "@/components/recipe/component-use-in-strip";
+import { ComponentVariationsSection } from "@/components/recipe/component-variations-section";
 
 export default async function RecipePage({
   params,
@@ -470,6 +471,11 @@ export default async function RecipePage({
         <div className="px-6 lg:px-10 max-w-5xl mx-auto">
           <ComponentUseInStrip parents={componentParents} />
         </div>
+      )}
+
+      {/* Variations section — only shown on canonical (non-variation) components */}
+      {recipeData.is_component && !recipeData.is_variation && (
+        <ComponentVariationsSection canonicalId={id} />
       )}
 
       <div className="px-6 py-8 max-w-5xl mx-auto space-y-8">
