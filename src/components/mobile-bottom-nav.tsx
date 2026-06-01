@@ -7,6 +7,7 @@ import {
   LayoutDashboard, UtensilsCrossed, Calendar, ShoppingBasket,
   ChefHat, Heart, BookOpen, Globe, Target,
   PartyPopper, User, Settings, X, LogOut, Leaf, Trophy, Swords, GlassWater,
+  Users, Home, ShoppingCart,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useDietaryMode } from "@/lib/dietary-mode-context";
@@ -29,6 +30,10 @@ const MORE_ITEMS = [
   { href: "/world-cup-2026",  label: "World Cup 2026",  icon: Trophy },
   { href: "/calorie-tracker",label: "Nutrient Tracker",icon: Target },
   { href: "/dinner-parties", label: "Dinner Party",    icon: PartyPopper },
+  { href: "/family",         label: "Family",          icon: Users },
+  { href: "/household",      label: "Household",        icon: Home },
+  { href: "/pantry",         label: "My Pantry",       icon: ShoppingBasket },
+  { href: "/shopping-list",  label: "Shopping List",   icon: ShoppingCart },
   { href: "/profile",        label: "Profile",         icon: User },
   { href: "/settings",       label: "Settings",        icon: Settings },
 ];

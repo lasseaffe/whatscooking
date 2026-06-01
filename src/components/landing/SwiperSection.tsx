@@ -46,6 +46,7 @@ export function SwiperSection({ heroRecipe, moreRecipes, trendingRecipes }: Swip
   const [dragY, setDragY] = useState(0);
   const [dragging, setDragging] = useState(false);
   const [exiting, setExiting] = useState<'left' | 'right' | null>(null);
+  const draggingRef = useRef(false);
   const startX = useRef(0);
   const startY = useRef(0);
   const dragXRef = useRef(0);
@@ -108,6 +109,7 @@ export function SwiperSection({ heroRecipe, moreRecipes, trendingRecipes }: Swip
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     if (exiting) return;
     markInteracted();
+    draggingRef.current = true;
     setDragging(true);
     moved.current = false;
     startX.current = e.clientX;
@@ -116,24 +118,25 @@ export function SwiperSection({ heroRecipe, moreRecipes, trendingRecipes }: Swip
   }, [exiting]);
 
   const onPointerMove = useCallback((e: React.PointerEvent) => {
-    if (!dragging) return;
+    if (!draggingRef.current) return;
     const dx = e.clientX - startX.current;
     const dy = e.clientY - startY.current;
     if (Math.abs(dx) > 6 || Math.abs(dy) > 6) moved.current = true;
     dragXRef.current = dx;
     setDragX(dx);
     setDragY(dy);
-  }, [dragging]);
+  }, []);
 
   const onPointerUp = useCallback(() => {
-    if (!dragging) return;
+    if (!draggingRef.current) return;
+    draggingRef.current = false;
     setDragging(false);
     const finalDragX = dragXRef.current;
     dragXRef.current = 0;
     if (finalDragX > SWIPE_THRESHOLD) commitSwipe('right');
     else if (finalDragX < -SWIPE_THRESHOLD) commitSwipe('left');
     else { setDragX(0); setDragY(0); }
-  }, [dragging, commitSwipe]);
+  }, [commitSwipe]);
 
   const currentCard = deck[deck.length - 1];
   const nextCard = deck[deck.length - 2];

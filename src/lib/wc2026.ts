@@ -76,3 +76,12 @@ export const CONF_COLORS: Record<string, string> = {
 export function getNationBySlug(slug: string): WCNation | undefined {
   return WC2026_NATIONS.find((n) => n.countrySlug === slug);
 }
+
+/**
+ * Map an ISO-2 (or GB subdivision) code to a flagcdn.com file code.
+ * flagcdn.com only serves ISO 3166-1 alpha-2, so England/Scotland fall back to GB.
+ */
+export function flagcdnCode(iso2: string): string {
+  if (iso2 === "GB-ENG" || iso2 === "GB-SCT") return "gb";
+  return iso2.toLowerCase();
+}

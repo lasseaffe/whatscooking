@@ -7,6 +7,39 @@
 
 ---
 
+## 0. World Cup 2026 recipes — run the local-LLM generator
+
+Generates ≥10 full recipes for every WC nation (48 × 10 = 480) into BOTH a migration SQL
+file and the `WC_RECIPES` map. Needs a local Ollama-compatible LLM running.
+
+```bash
+# 1. Start your local LLM (Ollama on :11434) and pull a chat model:
+ollama pull llama3.1:8b        # or set WC_LLM_MODEL to one you already have
+
+# 2. Generate (resumable — re-run to retry any skipped dishes):
+npx tsx scripts/generate-wc-recipes.ts                 # full 480 (takes a while)
+npx tsx scripts/generate-wc-recipes.ts --only egypt    # one nation
+npx tsx scripts/generate-wc-recipes.ts --dry-run       # wiring test, no LLM
+
+# 3. Outputs:
+#    supabase/migrations/20260602010000_wc2026_recipes_seed.sql  (push via CI / supabase db push)
+#    src/lib/wc2026-recipes.ts                                    (committed to git)
+
+# 4. After seeding, backfill images for the new rows:
+node scripts/fix-bad-images-v2.mjs
+```
+
+Notes: `image_url` is seeded NULL and backfilled in step 4. Recipes upsert idempotently on
+`source_url` (`https://whatscooking.app/wc2026/<country>/<dish>`), so re-pushing is safe.
+The qwen2.5vl:7b model currently installed is a vision model; pull a text chat model for best results.
+
+- [ ] 0a — local LLM running + chat model pulled
+- [ ] 0b — `generate-wc-recipes.ts` run to completion (cached_total = 480)
+- [ ] 0c — migration pushed to Supabase
+- [ ] 0d — images backfilled for WC recipes
+
+---
+
 ## 1. Collaborative Kitchen / Shopping Groups
 
 These steps are required for the kitchen groups and shared shopping list to function.

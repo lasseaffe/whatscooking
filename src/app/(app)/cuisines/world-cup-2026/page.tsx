@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Trophy } from "lucide-react";
-import { WC2026_NATIONS, CONF_COLORS } from "@/lib/wc2026";
+import { WC2026_NATIONS, CONF_COLORS, flagcdnCode } from "@/lib/wc2026";
 import { createClient } from "@/lib/supabase/server";
 
 export const dynamic = "force-dynamic";
@@ -94,14 +94,14 @@ export default async function WCCuisinesPage() {
                     className="group rounded-2xl overflow-hidden border transition-all hover:shadow-lg"
                     style={{ borderColor: `${color}30`, background: "#0F0A06" }}
                   >
-                    <div className="relative h-28 overflow-hidden">
+                    <div className="relative h-28 overflow-hidden flex items-center justify-center" style={{ background: "#0A0500" }}>
                       <img
-                        src={nation.heroImage}
-                        alt={nation.name}
+                        src={`https://flagcdn.com/w320/${flagcdnCode(nation.iso2)}.png`}
+                        alt={`${nation.name} flag`}
+                        loading="lazy"
                         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                       />
-                      <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,5,0,0.75) 0%, transparent 60%)" }} />
-                      <span className="absolute bottom-2 left-3 text-2xl">{nation.flag}</span>
+                      <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(10,5,0,0.78) 0%, transparent 55%)" }} />
                       {count > 0 && (
                         <span
                           className="absolute top-2 right-2 text-xs font-bold px-1.5 py-0.5 rounded-full"

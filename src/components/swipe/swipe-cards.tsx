@@ -25,6 +25,11 @@ export function RecipeCard({
   recipe: SwipeRecipe;
   likeOpacity: number;
   nopeOpacity: number;
+  /** Optional deck-lifted handlers passed by swipe-client; the card renders its
+   *  own save/info affordances, so these are accepted but currently unused here. */
+  saved?: boolean;
+  onToggleSave?: () => void;
+  onInfo?: () => void;
 }) {
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
@@ -124,24 +129,22 @@ export function RecipePreviewSheet({
   onSkip: () => void;
 }) {
   const [showIngredients, setShowIngredients] = useState(true);
-  const [showInstructions, setShowInstructions] = useState(false);
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const diff = recipe.difficulty_level ? DIFFICULTY_CONFIG[recipe.difficulty_level] : null;
 
   return (
-    <div className="fixed inset-0 flex flex-col" style={{ zIndex: 9990, background: "rgba(0,0,0,0.75)" }} onClick={onClose}>
-      <div className="mt-auto max-h-[92vh] overflow-y-auto rounded-t-3xl"
+    <div className="fixed inset-0 flex items-center justify-center p-4" style={{ zIndex: 9990, background: "rgba(0,0,0,0.78)" }} onClick={onClose}>
+      <div className="w-full max-w-sm max-h-[80vh] overflow-y-auto rounded-3xl shadow-2xl"
         style={{ background: "#1C1209" }}
         onClick={(e) => e.stopPropagation()}>
 
-        <div className="relative h-56 overflow-hidden rounded-t-3xl">
+        <div className="relative h-40 overflow-hidden rounded-t-3xl">
           {recipe.image_url ? (
             <img src={recipe.image_url} alt={recipe.title} className="w-full h-full object-cover" />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-5xl" style={{ background: "#2A1804" }}>🍽️</div>
           )}
           <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,8,2,0.92) 0%, transparent 60%)" }} />
-          <div className="absolute top-3 left-1/2 -translate-x-1/2 w-10 h-1 rounded-full opacity-40" style={{ background: "#8A6A4A" }} />
           <div className="absolute bottom-4 left-5 right-5">
             <div className="flex items-center gap-2 mb-2 flex-wrap">
               {recipe.cuisine_type && (
@@ -237,30 +240,6 @@ export function RecipePreviewSheet({
                           {ing.amount != null ? ing.amount : ""} {ing.unit ?? ""}
                         </span>
                       )}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
-
-          {(recipe.instructions ?? []).length > 0 && (
-            <div className="mb-5 rounded-2xl overflow-hidden" style={{ border: "1px solid #3A2416" }}>
-              <button onClick={() => setShowInstructions((s) => !s)}
-                className="w-full flex items-center justify-between px-4 py-3"
-                style={{ background: "#2A1804" }}>
-                <span className="font-semibold text-sm" style={{ color: "#EFE3CE" }}>
-                  Instructions ({recipe.instructions?.length ?? 0} steps)
-                </span>
-                {showInstructions ? <ChevronUp className="w-4 h-4" style={{ color: "#8A6A4A" }} /> : <ChevronDown className="w-4 h-4" style={{ color: "#8A6A4A" }} />}
-              </button>
-              {showInstructions && (
-                <div className="px-4 py-3 flex flex-col gap-3">
-                  {(recipe.instructions ?? []).map((step, i) => (
-                    <div key={i} className="flex gap-3">
-                      <span className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5"
-                        style={{ background: "#3A2010", color: "#C85A2F" }}>{i + 1}</span>
-                      <p className="text-sm leading-relaxed flex-1" style={{ color: "#A69180" }}>{step}</p>
                     </div>
                   ))}
                 </div>

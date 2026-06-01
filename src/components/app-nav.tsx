@@ -6,6 +6,7 @@ import {
   ChefHat, UtensilsCrossed, ShoppingBasket, Calendar, PartyPopper,
   Target, LogOut, Globe, Trophy, Compass, Swords,
   ChevronRight, ShoppingCart, Leaf, BookOpen, Plus, Heart, GlassWater,
+  Users, Home,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -105,6 +106,29 @@ const NAV_GROUPS: NavGroup[] = [
           { href: "/cookbooks",     label: "Browse Cookbooks", icon: BookOpen, desc: "" },
           { href: "/cookbooks/new", label: "New Cookbook",     icon: Plus,     desc: "" },
         ],
+      },
+    ],
+  },
+  {
+    group: "Household",
+    items: [
+      {
+        href: "/family",
+        label: "Family",
+        icon: Users,
+        desc: "Members, diets & kid-friendly meals",
+        children: [
+          { href: "/family",         label: "Family Hub",     icon: Users,   desc: "" },
+          { href: "/family/members", label: "Family Members", icon: Users,   desc: "" },
+          { href: "/family/recipes", label: "Family Recipes", icon: Heart,   desc: "" },
+          { href: "/family/guides",  label: "Guides",         icon: BookOpen, desc: "" },
+        ],
+      },
+      {
+        href: "/household",
+        label: "Household",
+        icon: Home,
+        desc: "Shared kitchen, members & groups",
       },
       {
         href: "/pantry",
