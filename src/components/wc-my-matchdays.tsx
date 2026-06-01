@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { ChevronDown, CalendarDays, MapPin, Popcorn } from "lucide-react";
 import { getTeamByCode, teamColor, teamFlagUrl } from "@/lib/wc2026-teams";
 import { WcMatchdayMenu } from "@/components/wc-matchday-menu";
+import { WcWatchPartyButton } from "@/components/wc-watch-party-button";
 
 export type Fixture = {
   id: string;
@@ -75,15 +75,6 @@ function MatchdayRow({ fixture, followed }: { fixture: Fixture; followed: Set<st
   const mine = followed.has(fixture.home_code) || followed.has(fixture.away_code);
   const accent = mine ? SAFFRON : "#7C8C6A";
 
-  const partyParams = new URLSearchParams({
-    theme: "worldcup",
-    match: `${fixture.home_code}-${fixture.away_code}`,
-    home: fixture.home_code,
-    away: fixture.away_code,
-    date: fixture.match_date,
-    fixture: fixture.id,
-  });
-
   return (
     <div
       style={{
@@ -140,32 +131,58 @@ function MatchdayRow({ fixture, followed }: { fixture: Fixture; followed: Set<st
             homeColor={home ? teamColor(home) : SAFFRON}
             awayColor={away ? teamColor(away) : SAFFRON}
           />
-          <Link
-            href={`/dinner-parties/new?${partyParams}`}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: 8,
-              padding: "10px 12px",
-              borderRadius: 12,
-              background: "#C8522A",
-              color: "#fff",
-              fontSize: "0.78rem",
-              fontWeight: 700,
-              textDecoration: "none",
-            }}
-          >
-            <Popcorn size={15} /> Start a watch party for this match
-          </Link>
+          <WcWatchPartyButton fixtureId={fixture.id} />
         </div>
       )}
     </div>
   );
 }
 
+function nextDayPhrase(iso: string) {
+  const d = new Date(iso);
+  const today = new Date();
+  const diffDays = Math.round((d.setHours(0, 0, 0, 0) - today.setHours(0, 0, 0, 0)) / 86400000);
+  if (diffDays <= 0) return "today";
+  if (diffDays === 1) return "tomorrow";
+  if (diffDays < 7) return `this ${new Intl.DateTimeFormat(undefined, { weekday: "long" }).format(new Date(iso))}`;
+  return `on ${new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" }).format(new Date(iso))}`;
+}
+
+/** Proactive "rally your squad" prompt for the soonest followed match. */
+function AutoSuggest({ fixture, followed }: { fixture: Fixture; followed: Set<string> }) {
+  const mineCode = followed.has(fixture.home_code) ? fixture.home_code : fixture.away_code;
+  const myTeam = getTeamByCode(mineCode);
+  const oppCode = mineCode === fixture.home_code ? fixture.away_code : fixture.home_code;
+  const opp = getTeamByCode(oppCode);
+  return (
+    <div
+      style={{
+        borderRadius: 16,
+        padding: "14px 16px",
+        marginBottom: 18,
+        background: "linear-gradient(135deg, rgba(200,82,42,0.18), rgba(244,162,97,0.08))",
+        border: "1px solid rgba(244,162,97,0.35)",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+        <Popcorn size={16} style={{ color: SAFFRON }} />
+        <span style={{ fontSize: "0.66rem", fontWeight: 800, letterSpacing: "0.08em", textTransform: "uppercase", color: SAFFRON }}>
+          Rally your squad
+        </span>
+      </div>
+      <p style={{ fontSize: "0.9rem", fontWeight: 700, color: PARCHMENT, marginBottom: 10 }}>
+        {myTeam?.flag} {myTeam?.name ?? mineCode} play {opp?.name ?? oppCode} {nextDayPhrase(fixture.match_date)} — host a watch party with a ready-made menu.
+      </p>
+      <WcWatchPartyButton fixtureId={fixture.id} />
+    </div>
+  );
+}
+
 export function WcMyMatchdays({ fixtures, followedCodes }: { fixtures: Fixture[]; followedCodes: string[] }) {
   const followed = new Set(followedCodes);
+  const nextMine = followedCodes.length > 0
+    ? fixtures.find((f) => followed.has(f.home_code) || followed.has(f.away_code))
+    : undefined;
 
   if (fixtures.length === 0) {
     return (
@@ -197,6 +214,7 @@ export function WcMyMatchdays({ fixtures, followedCodes }: { fixtures: Fixture[]
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+      {nextMine && <AutoSuggest fixture={nextMine} followed={followed} />}
       {Array.from(byDay.entries()).map(([day, dayFixtures]) => (
         <div key={day}>
           <div style={{ display: "flex", alignItems: "center", gap: 7, marginBottom: 9 }}>
