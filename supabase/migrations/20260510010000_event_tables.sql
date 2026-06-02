@@ -81,6 +81,19 @@ ALTER TABLE event_location_votes  ENABLE ROW LEVEL SECURITY;
 ALTER TABLE event_playlist_tracks ENABLE ROW LEVEL SECURITY;
 
 -- Allow read for host and guests
+DROP POLICY IF EXISTS "event_menu_read"      ON event_menu_items;
+DROP POLICY IF EXISTS "event_timeline_read"  ON event_timeline_items;
+DROP POLICY IF EXISTS "event_shopping_read"  ON event_shopping_items;
+DROP POLICY IF EXISTS "event_location_read"  ON event_location_options;
+DROP POLICY IF EXISTS "event_votes_read"     ON event_location_votes;
+DROP POLICY IF EXISTS "event_tracks_read"    ON event_playlist_tracks;
+DROP POLICY IF EXISTS "event_shopping_write" ON event_shopping_items;
+DROP POLICY IF EXISTS "event_location_write" ON event_location_options;
+DROP POLICY IF EXISTS "event_votes_write"    ON event_location_votes;
+DROP POLICY IF EXISTS "event_tracks_write"   ON event_playlist_tracks;
+DROP POLICY IF EXISTS "event_menu_write"     ON event_menu_items;
+DROP POLICY IF EXISTS "event_timeline_write" ON event_timeline_items;
+
 CREATE POLICY "event_menu_read"      ON event_menu_items      FOR SELECT USING (
   EXISTS (SELECT 1 FROM dinner_parties      WHERE id = party_id AND host_id = auth.uid())
   OR EXISTS (SELECT 1 FROM dinner_party_guests WHERE party_id = event_menu_items.party_id AND user_id = auth.uid())

@@ -10,6 +10,9 @@ create table if not exists public.profile_follows (
 
 alter table public.profile_follows enable row level security;
 
+drop policy if exists "users manage own follows" on public.profile_follows;
+drop policy if exists "anyone reads follows"     on public.profile_follows;
+
 create policy "users manage own follows"
   on public.profile_follows
   for all
