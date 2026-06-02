@@ -1543,9 +1543,84 @@ html[data-theme="light"] {
   right: 0;
   z-index: 40;
   padding: 12px 16px;
-  background: linear-gradient(to top, var(--wc-floor, #1F1B19) 70%, transparent);
+  background: var(--wc-floor, #1F1B19);
   display: flex;
   gap: 8px;
+}
+
+/* ── Focus Card — shared step surface for both cooking surfaces ──
+   Used by full-screen Cooking Mode and the inline phase runner so the
+   two step experiences read as one design. */
+.wc-focus-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 22px 24px;
+  background: linear-gradient(160deg, #16110b 0%, #100c08 100%);
+  border: 1px solid rgba(180, 120, 60, 0.22);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Light / Sabbath palette variant — component sets data-palette="light"
+   based on the same runtime getPaletteIsLight() check used elsewhere. */
+.wc-focus-card[data-palette="light"] {
+  background: linear-gradient(160deg, #fffaf3 0%, #fdf4e7 100%);
+  border-color: rgba(176, 125, 86, 0.25);
+  box-shadow: 0 8px 30px rgba(120, 90, 60, 0.12);
+}
+
+/* Step-dot progress row (single, canonical step indicator) */
+.wc-step-dots {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.wc-step-dot {
+  height: 4px;
+  width: 8px;
+  border-radius: 2px;
+  background: #3a2416;
+  transition: width 0.25s ease, background 0.25s ease;
+}
+.wc-step-dot--active {
+  width: 18px;
+  background: var(--wc-accent-saffron, #F4A261);
+}
+.wc-step-dot--done {
+  background: rgba(130, 142, 111, 0.6);
+}
+.wc-step-count {
+  margin-left: auto;
+  font-family: "Geist Mono", "Courier New", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: #5a3a28;
+}
+
+/* Duration chip — docked inside the card */
+.wc-duration-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(244, 162, 97, 0.1);
+  border: 1px solid rgba(244, 162, 97, 0.25);
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-family: "Geist Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  color: var(--wc-accent-saffron, #F4A261);
+}
+
+/* In-card tip pill */
+.wc-card-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: rgba(244, 162, 97, 0.06);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  color: #d4aa80;
+  line-height: 1.5;
 }
 
 /* Phase IV table setting tabs */

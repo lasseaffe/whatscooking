@@ -10,6 +10,7 @@ import { DoDont } from "./sections/DoDont";
 import { Iconography } from "./sections/Iconography";
 import { Motion } from "./sections/Motion";
 import { ChangeLogPreview } from "./sections/ChangeLogPreview";
+import { RecipePageTemplate } from "./sections/RecipePageTemplate";
 
 export const metadata: Metadata = {
   title: "Moodboard — What's Cooking",
@@ -27,6 +28,7 @@ const TOC = [
   { id: "dodont",     label: "Do / Don't" },
   { id: "icons",      label: "Iconography" },
   { id: "motion",     label: "Motion" },
+  { id: "recipe-template", label: "Recipe Page Template" },
   { id: "changelog",  label: "Change Log" },
 ];
 
@@ -79,6 +81,7 @@ export default function MoodboardPage() {
           <DoDont />
           <Iconography />
           <Motion />
+          <RecipePageTemplate />
           <ChangeLogPreview />
         </div>
       </div>
