@@ -53,7 +53,7 @@ export async function CookbookShelf() {
             justifyContent: 'flex-end',
             paddingRight: 32,
           }}>
-            <Link href="/auth/login" style={{
+            <Link href="/login" style={{
               display: 'inline-block',
               fontSize: 11,
               letterSpacing: 2,

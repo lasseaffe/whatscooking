@@ -67,3 +67,6 @@ pipeline/rotation_state.json
 datasets/foodcom/
 datasets/recipenlg/
 Llama-3.2-1B/
+
+# Supabase CLI local temp state (regenerated)
+supabase/.temp/
