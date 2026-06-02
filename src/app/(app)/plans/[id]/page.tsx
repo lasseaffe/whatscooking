@@ -5,6 +5,8 @@ import { ArrowLeft } from "lucide-react";
 import { PlanBuilder } from "./plan-builder";
 import type { PlanStatus, PinboardFilters } from "./use-planner-state";
 import { SavedRecipeFit } from "./saved-recipe-fit";
+import { EcosystemPortal } from "@/components/ecosystem/EcosystemPortal";
+import { detectGrowableIngredients, getRecipePortalState } from "@/lib/ecosystem";
 
 export const dynamic = "force-dynamic";
 
@@ -35,6 +37,28 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
   void planError;
   if (!plan || plan.user_id !== user!.id) notFound();
 
+  // Ecosystem: fetch upcoming meal plan items + their ingredient names to detect garden matches
+  const { data: upcomingItems } = await supabase
+    .from("meal_plan_items")
+    .select("recipe_id, planned_date, recipes(ingredients)")
+    .eq("plan_id", id)
+    .gte("planned_date", new Date().toISOString().split("T")[0])
+    .order("planned_date")
+    .limit(14);
+
+  let planPortalState = null;
+  let planGrowableIngredients: string[] = [];
+  if (upcomingItems && upcomingItems.length > 0) {
+    const allIngNames = upcomingItems.flatMap((item) => {
+      const ings = (Array.isArray(item.recipes) ? item.recipes[0]?.ingredients : (item.recipes as { ingredients?: unknown } | null)?.ingredients) ?? [];
+      return (ings as { name?: string }[]).map((i) => i.name ?? "").filter(Boolean);
+    });
+    planGrowableIngredients = await detectGrowableIngredients(allIngNames);
+    if (planGrowableIngredients.length > 0) {
+      planPortalState = await getRecipePortalState({ wcUserId: user!.id, growableIngredients: planGrowableIngredients });
+    }
+  }
+
   const hasGoals = Object.keys((plan.nutritional_goals ?? {}) as Record<string, number>).length > 0;
   const trackingEnabled = hasGoals || !!plan.track_intake || !!(profile?.track_intake);
 
@@ -63,6 +87,16 @@ export default async function PlanDetailPage({ params }: { params: Promise<{ id:
           {plan.status}
         </span>
       </div>
+
+      {/* Ecosystem: garden → meal plan bridge */}
+      {planPortalState && planGrowableIngredients.length > 0 && (
+        <div className="mb-6">
+          <EcosystemPortal
+            portalState={planPortalState}
+            growableIngredients={planGrowableIngredients}
+          />
+        </div>
+      )}
 
       {/* New stacked builder: Pinboard + Weave */}
       <PlanBuilder
