@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Lightbulb, List, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2 } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, Play, Pause, RotateCcw, Home, UtensilsCrossed, Plus, Star, CheckCircle2, Trash2 } from "lucide-react";
 import { StepVisualization } from "@/components/step-visualization";
 import { TypewriterText } from "@/components/ui/TypewriterText";
 import { useCookingMode } from "@/lib/cooking-mode-context";
@@ -847,12 +847,7 @@ export function CookingModeScreen({
   const bgColor = paletteIsLight ? "#FDFAF6" : "#0d0d0c";
   const headingColor = paletteIsLight ? "#1a0f08" : "#EFE3CE";
   const bodyColor = paletteIsLight ? "#4a3224" : "#b0a090";
-  const proTipBg = paletteIsLight ? "rgba(176,125,86,0.10)" : "rgba(244,162,97,0.08)";
-  const proTipBorder = paletteIsLight ? "1px solid rgba(176,125,86,0.2)" : "1px solid rgba(244,162,97,0.18)";
   const illustrationOpacity = paletteIsLight ? 0.5 : 0.35;
-  const scrimGradient = paletteIsLight
-    ? `linear-gradient(to top, ${bgColor} 55%, rgba(253,250,246,0.7) 85%, transparent)`
-    : `linear-gradient(to top, ${bgColor} 50%, rgba(13,13,12,0.65) 82%, transparent)`;
 
   const stepDuration = parseStepDuration(enrichedText);
 
@@ -1009,21 +1004,9 @@ export function CookingModeScreen({
               borderBottom: "1px solid rgba(176,125,86,0.15)",
             }}
           >
-            {/* Left: step counter */}
-            <div style={{ minWidth: 80 }}>
-              <span
-                style={{
-                  fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
-                  fontSize: 10,
-                  fontWeight: 600,
-                  letterSpacing: "0.2em",
-                  color: "#B07D56",
-                  textTransform: "uppercase",
-                }}
-              >
-                Step {step + 1} of {total}
-              </span>
-            </div>
+            {/* Left: spacer — step counter now lives once, inside the focus card.
+                Exit stays as the ✕ on the right of this bar. */}
+            <div style={{ minWidth: 80 }} aria-hidden="true" />
 
             {/* Center: recipe name */}
             <span
@@ -1098,89 +1081,62 @@ export function CookingModeScreen({
           {/* Step content — scrolls independently */}
           <div className="flex-1 overflow-y-auto max-w-2xl mx-auto w-full">
 
-            {/* ── Step card with ghost illustration background ── */}
+            {/* ── Focus Card: the step lives in a contained, centred card ── */}
             <div
               style={{
                 position: "relative",
                 minHeight: 340,
-                overflow: "hidden",
-                padding: "0 0 24px",
+                display: "flex",
+                alignItems: "center",
+                padding: "24px 24px 8px",
               }}
             >
-              {/* Ghost illustration — absolute, centred, behind everything */}
+              {/* Step illustration — deliberate anchor on the right, behind the card */}
               <div
+                aria-hidden="true"
                 style={{
                   position: "absolute",
-                  inset: 0,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
+                  right: -8,
+                  top: "50%",
+                  transform: "translateY(-50%)",
                   opacity: illustrationOpacity,
                   pointerEvents: "none",
                   zIndex: 0,
+                  maxWidth: "46%",
                 }}
               >
                 <StepVisualization stepText={enrichedText} mode="background" />
               </div>
 
-              {/* Gradient scrim — rises from bottom to keep text readable */}
+              {/* The card itself */}
               <div
-                style={{
-                  position: "absolute",
-                  inset: 0,
-                  background: scrimGradient,
-                  pointerEvents: "none",
-                  zIndex: 1,
-                }}
-              />
-
-              {/* Text content — sits above illustration + scrim */}
-              <div
-                style={{
-                  position: "relative",
-                  zIndex: 2,
-                  paddingTop: 140,
-                  paddingLeft: 28,
-                  paddingRight: 28,
-                }}
+                className="wc-focus-card"
+                data-palette={paletteIsLight ? "light" : undefined}
+                style={{ position: "relative", zIndex: 1, width: "100%" }}
               >
-                {/* Step counter + duration */}
-                <p
-                  style={{
-                    fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
-                    fontSize: 10,
-                    fontWeight: 600,
-                    letterSpacing: "0.2em",
-                    color: "#B07D56",
-                    textTransform: "uppercase",
-                    marginBottom: 4,
-                  }}
-                >
-                  STEP {step + 1} OF {total}
-                </p>
-                {stepDuration && (
-                  <p
-                    style={{
-                      fontFamily: "'Geist Mono', 'Courier New', monospace",
-                      fontSize: 12,
-                      fontWeight: 400,
-                      color: "rgba(244,162,97,0.8)",
-                      marginBottom: 12,
-                    }}
-                  >
-                    {stepDuration}
-                  </p>
-                )}
+                {/* Single canonical step indicator: dot row + count */}
+                <div className="wc-step-dots" style={{ marginBottom: 14 }}>
+                  {instructions.map((_, i) => (
+                    <span
+                      key={i}
+                      className={`wc-step-dot${
+                        i === step ? " wc-step-dot--active" : i < step ? " wc-step-dot--done" : ""
+                      }`}
+                    />
+                  ))}
+                  <span className="wc-step-count">STEP {step + 1}/{total}</span>
+                </div>
 
-                {/* Step heading — Fraunces */}
+                {/* Step heading — Fraunces, large */}
                 <h1
                   style={{
                     fontFamily: "var(--font-fraunces, 'Libre Baskerville', serif)",
-                    fontSize: "clamp(24px, 6vw, 28px)",
+                    fontSize: "clamp(28px, 5vw, 40px)",
                     fontWeight: 700,
                     color: headingColor,
-                    lineHeight: 1.25,
-                    marginBottom: 16,
+                    lineHeight: 1.18,
+                    letterSpacing: "-0.01em",
+                    marginBottom: 12,
                   }}
                 >
                   <AnnotatedText text={heading} onGlossaryClick={handleGlossaryClick} />
@@ -1191,11 +1147,11 @@ export function CookingModeScreen({
                   <p
                     style={{
                       fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
-                      fontSize: "clamp(15px, 4vw, 17px)",
+                      fontSize: "clamp(16px, 2.2vw, 19px)",
                       fontWeight: 400,
                       color: bodyColor,
-                      lineHeight: 1.75,
-                      marginBottom: 20,
+                      lineHeight: 1.7,
+                      marginBottom: 16,
                       opacity: bodyLoading ? 0.5 : 1,
                       transition: "opacity 0.3s",
                     }}
@@ -1207,39 +1163,29 @@ export function CookingModeScreen({
                   </p>
                 )}
 
-                {/* Voice response card — replaces pro-tip when voice active */}
-                {voiceEnabled && oracleCard.type ? (
-                  <VoiceResponseCard card={oracleCard} />
-                ) : proTip ? (
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "flex-start",
-                      gap: 8,
-                      padding: "10px 14px",
-                      borderRadius: 12,
-                      background: proTipBg,
-                      border: proTipBorder,
-                    }}
-                  >
-                    <span style={{ color: "#F4A261", fontSize: 11, flexShrink: 0, paddingTop: 1 }}>✦</span>
+                {/* Docked footer: duration chip + tip / voice card */}
+                <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: 8 }}>
+                  {stepDuration && (
+                    <span className="wc-duration-chip">{stepDuration}</span>
+                  )}
+                  {voiceEnabled && oracleCard.type ? (
+                    <div style={{ flex: "1 1 100%" }}>
+                      <VoiceResponseCard card={oracleCard} />
+                    </div>
+                  ) : proTip ? (
                     <span
-                      style={{
-                        fontFamily: "var(--font-plus-jakarta-sans, sans-serif)",
-                        fontSize: 13,
-                        fontWeight: 500,
-                        color: paletteIsLight ? "#6b5444" : "#d4aa80",
-                        lineHeight: 1.55,
-                      }}
+                      className="wc-card-tip"
+                      style={{ color: paletteIsLight ? "#6b5444" : "#d4aa80" }}
                     >
+                      <span style={{ color: "#F4A261", flexShrink: 0 }}>✦</span>
                       {proTip}
                     </span>
-                  </div>
-                ) : null}
+                  ) : null}
+                </div>
               </div>
             </div>
 
-            {/* Timer tray + SOS — below the illustration card */}
+            {/* Timer tray + SOS — below the focus card */}
             <div className="px-7 pb-4 flex flex-col gap-3">
               <TimerTray
                 timers={timers}

@@ -182,46 +182,57 @@ export function FocalPointEditor({
         </div>
       )}
 
-      {/* Edit / Save / Cancel buttons */}
-      <div
-        className="absolute bottom-3 right-3 flex items-center gap-2"
-        style={{ zIndex: 10 }}
-        onClick={(e) => e.stopPropagation()}
-      >
-        {editing ? (
-          <>
-            <button
-              onClick={cancel}
-              disabled={saving}
-              className="text-xs px-3 py-1.5 rounded-lg font-medium transition-opacity hover:opacity-80"
-              style={{ background: "rgba(13,9,7,0.8)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.6)", backdropFilter: "blur(4px)" }}
-            >
-              Cancel
-            </button>
-            <button
-              onClick={save}
-              disabled={saving}
-              className="text-xs px-3 py-1.5 rounded-lg font-semibold transition-opacity hover:opacity-80"
-              style={{ background: "#C8522A", color: "#FFF5E6" }}
-            >
-              {saving ? "Saving…" : "Save crop"}
-            </button>
-          </>
-        ) : (
+      {/* Adjust crop — idle: icon-only at top-left; active: save/cancel at bottom-right */}
+      {editing ? (
+        <div
+          className="absolute bottom-3 right-3 flex items-center gap-2"
+          style={{ zIndex: 10 }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            onClick={cancel}
+            disabled={saving}
+            className="text-xs px-3 py-1.5 rounded-lg font-medium transition-opacity hover:opacity-80"
+            style={{ background: "rgba(13,9,7,0.8)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.6)", backdropFilter: "blur(4px)" }}
+          >
+            Cancel
+          </button>
+          <button
+            onClick={save}
+            disabled={saving}
+            className="text-xs px-3 py-1.5 rounded-lg font-semibold transition-opacity hover:opacity-80"
+            style={{ background: "#C8522A", color: "#FFF5E6" }}
+          >
+            {saving ? "Saving…" : "Save crop"}
+          </button>
+        </div>
+      ) : (
+        <div
+          className="absolute right-2 z-10"
+          style={{ bottom: 52 }}
+          onClick={(e) => e.stopPropagation()}
+        >
           <button
             onClick={() => setEditing(true)}
-            className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-medium transition-opacity hover:opacity-80"
-            style={{ background: "rgba(13,9,7,0.75)", color: "#8A6A4A", border: "1px solid rgba(58,36,22,0.5)", backdropFilter: "blur(4px)" }}
+            className="flex items-center justify-center rounded-full transition-opacity hover:opacity-90"
+            style={{
+              width: 28,
+              height: 28,
+              background: "rgba(13,9,7,0.72)",
+              border: "1px solid rgba(58,36,22,0.5)",
+              backdropFilter: "blur(4px)",
+              color: "#8A6A4A",
+            }}
             title="Adjust image crop"
+            aria-label="Adjust image crop"
           >
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
               <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" strokeLinecap="round" strokeLinejoin="round"/>
               <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            Adjust crop
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
