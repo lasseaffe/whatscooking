@@ -79,6 +79,10 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
   const [displayDescription, setDisplayDescription] = useState(recipe.description ?? "");
   const [localImageUrl, setLocalImageUrl] = useState<string | null | undefined>(recipe.image_url);
 
+  useEffect(() => {
+    setLocalImageUrl(recipe.image_url);
+  }, [recipe.image_url]);
+
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const isPremium = recipe.is_premium;
   const difficulty = (recipe as Recipe & { difficulty_level?: string | null }).difficulty_level;
