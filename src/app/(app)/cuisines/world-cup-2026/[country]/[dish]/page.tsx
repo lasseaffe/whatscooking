@@ -6,6 +6,8 @@ import { getDishRecipe, getDishSlug } from "@/lib/wc2026-recipes";
 import { createClient } from "@/lib/supabase/server";
 import { CookingModeWrapper, CookingModeCTA, MobileStickyCTA } from "@/app/(app)/recipes/[id]/cooking-mode-wrapper";
 import { RecipeColumnsClient } from "@/app/(app)/recipes/[id]/recipe-columns-client";
+import { RecipeStateProvider } from "@/app/(app)/recipes/[id]/recipe-state-context";
+import { RecipeIngredientsPanel } from "@/app/(app)/recipes/[id]/recipe-ingredients-panel";
 import { SOSCookingHelper } from "@/components/sos-cooking-helper";
 
 export const dynamic = "force-dynamic";
@@ -171,21 +173,31 @@ export default async function WCDishPage({
         </div>
       </div>
 
-      {/* ══ RECIPE COLUMNS — ingredients + instructions ══ */}
+      {/* ══ RECIPE COLUMNS — ingredients (header panel) + instructions ══ */}
       {recipe ? (
-        <div style={{ borderBottom: "1px solid rgba(42,24,8,0.6)" }}>
-          <RecipeColumnsClient
-            recipeId={`wc2026-${country}-${dish}`}
-            initialIngredients={ingredients}
-            initialInstructions={instructions}
-            sourceUrl={null}
-            isPremium={false}
-            pantryItems={(pantryData ?? []) as { id: string; name: string; quantity?: string | null }[]}
-            recipeTitle={displayName}
-            dietaryTags={[]}
-            baseServings={baseServings}
-          />
-        </div>
+        <RecipeStateProvider
+          initialIngredients={ingredients}
+          initialInstructions={instructions}
+          baseServings={baseServings}
+        >
+          <div className="px-6 lg:px-10 pt-2 pb-6">
+            <RecipeIngredientsPanel
+              recipeId={`wc2026-${country}-${dish}`}
+              sourceUrl={null}
+              isPremium={false}
+              pantryItems={(pantryData ?? []) as { id: string; name: string; quantity?: string | null }[]}
+              recipeTitle={displayName}
+            />
+          </div>
+          <div style={{ borderBottom: "1px solid rgba(42,24,8,0.6)" }}>
+            <RecipeColumnsClient
+              recipeId={`wc2026-${country}-${dish}`}
+              pantryItems={(pantryData ?? []) as { id: string; name: string; quantity?: string | null }[]}
+              recipeTitle={displayName}
+              dietaryTags={[]}
+            />
+          </div>
+        </RecipeStateProvider>
       ) : (
         /* No recipe data yet */
         <div className="px-6 py-10 text-center">

@@ -1,15 +1,11 @@
 import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
-import { spawn } from "child_process";
 import { writeFile, mkdir, appendFile } from "fs/promises";
 import path from "path";
+import { findImageForRecipe } from "@/lib/image-pipeline";
 
 export const runtime = "nodejs";
 
-const PYTHON = process.env.PYTHON_PATH ?? "python";
-const SCRIPTS_DIR = path.join(process.cwd(), "scripts", "ingestion");
-const HERO_SHOT = path.join(SCRIPTS_DIR, "hero_shot.py");
-const SITE_SCREENSHOTTER = path.join(SCRIPTS_DIR, "site_screenshotter.py");
 const OUT_DIR = path.join(process.cwd(), "public", "recipe-images");
 const FIXES_LOG = path.join(process.cwd(), "recipe-fixes.json");
 const FIXES_DIR = path.join(process.cwd(), "fixes");
@@ -37,37 +33,6 @@ async function persistFix(entry: FixLogEntry): Promise<void> {
   );
 }
 
-function isInstagram(url: string): boolean {
-  return url.toLowerCase().includes("instagram.com");
-}
-
-/**
- * Fire-and-forget image fix.
- * Routes to hero_shot.py for Instagram URLs, site_screenshotter.py for everything else.
- */
-function triggerImageFix(recipeId: string, sourceUrl: string): void {
-  const outPath = path.join(OUT_DIR, `${recipeId}.jpg`);
-
-  let script: string;
-  let args: string[];
-
-  if (isInstagram(sourceUrl)) {
-    script = HERO_SHOT;
-    args = [script, sourceUrl, "--out", outPath];
-    const cookiesFile = process.env.INSTAGRAM_COOKIES_FILE;
-    if (cookiesFile) args.push("--cookies", cookiesFile);
-  } else {
-    script = SITE_SCREENSHOTTER;
-    args = [script, sourceUrl, "--out", outPath, "--format", "jpg"];
-  }
-
-  const child = spawn(PYTHON, args, { detached: true, stdio: "ignore" });
-  child.unref();
-
-  const router = isInstagram(sourceUrl) ? "hero_shot" : "site_screenshotter";
-  console.log(`[recipe-reports] fix triggered (${router}) for ${recipeId} ← ${sourceUrl}`);
-}
-
 export async function POST(req: NextRequest) {
   try {
     const supabase = await createClient();
@@ -83,37 +48,58 @@ export async function POST(req: NextRequest) {
 
     let fixFilePath: string | null = null;
     let fixStatus: "applied" | "pending" | "pending_review" | null = null;
-    let resolvedSourceUrl: string | null = sourceUrl;
-
-    // Resolve source_url from DB if not provided
-    if (!resolvedSourceUrl && recipeId && issueType === "faulty_image") {
-      const { data } = await supabase
-        .from("recipes")
-        .select("source_url")
-        .eq("id", recipeId)
-        .single();
-      resolvedSourceUrl = data?.source_url ?? null;
-    }
+    let newImageUrl: string | null = null;
 
     if (issueType === "faulty_image" && file && recipeId) {
-      // User-supplied image — save directly, skip scraper
+      // User-supplied image — save directly, skip pipeline
       const buffer = Buffer.from(await file.arrayBuffer());
       await mkdir(OUT_DIR, { recursive: true });
       const dest = path.join(OUT_DIR, `${recipeId}.jpg`);
       await writeFile(dest, buffer);
       fixFilePath = `public/recipe-images/${recipeId}.jpg`;
       fixStatus = "applied";
+      newImageUrl = `/recipe-images/${recipeId}.jpg`;
 
       // Update Supabase image_url immediately
       await supabase
         .from("recipes")
-        .update({ image_url: `/${fixFilePath}` })
+        .update({ image_url: newImageUrl })
         .eq("id", recipeId);
 
-    } else if (issueType === "faulty_image" && recipeId && resolvedSourceUrl) {
-      // No user file — fall back to scraper
-      fixStatus = "pending";
-      triggerImageFix(recipeId, resolvedSourceUrl);
+    } else if (issueType === "faulty_image" && recipeId) {
+      // No user file — run pipeline, excluding the source that was just reported bad
+      const { data: recipeData } = await supabase
+        .from("recipes")
+        .select("title, cuisine_type, image_source_credit")
+        .eq("id", recipeId)
+        .single();
+
+      const currentSource = (recipeData?.image_source_credit as { source?: string } | null)?.source;
+      const excludeSources = currentSource ? [currentSource] : [];
+
+      const result = await findImageForRecipe(
+        {
+          id: recipeId,
+          title: recipeData?.title ?? recipeName ?? recipeId,
+          cuisine_type: recipeData?.cuisine_type,
+        },
+        { excludeSources }
+      );
+
+      if (result) {
+        newImageUrl = result.imageUrl;
+        fixStatus = "applied";
+        const { error: updateErr } = await supabase.from("recipes").update({
+          image_url: result.imageUrl,
+          image_status: "ok",
+          image_legal_tier: result.tier,
+          image_source_credit: result.credit,
+        }).eq("id", recipeId);
+        if (updateErr) console.error("[recipe-reports] image update failed:", updateErr.message);
+      } else {
+        fixStatus = "pending";
+        await supabase.from("recipes").update({ image_status: "needs_manual" }).eq("id", recipeId);
+      }
 
     } else if (issueType === "wrong_info" && file && recipeId) {
       // Save txt for admin review
@@ -134,7 +120,7 @@ export async function POST(req: NextRequest) {
         recipe_name: recipeName ?? null,
         issue_type: issueType,
         description: (description ?? "").trim() || null,
-        source_url: resolvedSourceUrl,
+        source_url: sourceUrl,
         fix_file_path: fixFilePath,
         fix_status: fixStatus,
         reporter_id: user?.id ?? null,
@@ -163,8 +149,9 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({
       ok: true,
-      fixTriggered: issueType === "faulty_image" && !file && !!resolvedSourceUrl,
-      fixApplied:   fixStatus === "applied",
+      fixTriggered: issueType === "faulty_image" && !file,
+      fixApplied: fixStatus === "applied",
+      newImageUrl,
     });
   } catch (err) {
     console.error("[recipe-reports POST]", err);

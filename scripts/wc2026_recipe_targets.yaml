@@ -1,7 +1,7 @@
 # World Cup 2026 Recipe Targets
 # Used by the ddgs + recipe-scrapers pipeline
 # Update current_count after each pipeline run
-# Min needed: 5 per nation
+# Min needed: 10 per nation (raised from 5 — see scripts/generate-wc-recipes.ts)
 
 targets:
   # HOST

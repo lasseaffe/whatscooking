@@ -25,7 +25,7 @@ export const moodboard = {
     philosophy:
       "Culinary Parchment. Warm, earthy, editorial. Recipes are objects worthy of typesetting — display serif headings, sturdy sans body, and a brass-and-stone palette that reads like the inside of a well-loved kitchen. Five dark palette personalities + one Tactile Elegance light mode ship by default. The site adapts; the voice stays.",
     pillars: [
-      "Recipes are typography. Set them like a book, not a feed.",
+      "Recipes are typography. Set them like a book, not a feed — see §12 Recipe Page Template for the full spatial contract.",
       "Six palette personalities: five dark + Tactile Elegance light mode (terracotta/linen/forest green).",
       "Context-sensitive backgrounds: hero pages at full opacity, functional pages dimmed, cooking mode near-invisible.",
       "Pantry-first matching. Discovery serves cooking, not the other way around.",
@@ -143,6 +143,17 @@ export const moodboard = {
       right: {
         label: "Three thin bands, scannable at a glance",
         html: '<div style="display:flex;flex-direction:column;gap:1px;width:96px;padding:8px;background:#1A120A"><div style="height:4px;border-radius:2px;background:color-mix(in srgb,#C8522A 14%,transparent);position:relative"><div style="position:absolute;inset:0;width:70%;background:#C8522A;border-radius:2px"></div></div><div style="height:4px;border-radius:2px;background:color-mix(in srgb,#4A8C5C 14%,transparent);position:relative"><div style="position:absolute;inset:0;width:100%;background:color-mix(in srgb,#4A8C5C 70%,transparent);border-radius:2px"></div></div><div style="height:4px;border-radius:2px;background:color-mix(in srgb,#6B4E36 35%,transparent);position:relative"><div style="position:absolute;inset:0;width:55%;background:#D7A04A;border-radius:2px"></div></div></div>',
+      },
+    },
+    {
+      topic: "World Cup matchday (allegiance, not generic hype)",
+      wrong: {
+        label: "Generic 'big game' hype card",
+        html: '<div style="background:#10131A;border:1px solid #2A3550;border-radius:12px;padding:16px;text-align:center"><div style="color:#6E8BFF;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px">⚽ Big Game Tonight!</div><div style="color:#fff;font-size:18px;font-weight:900;margin:4px 0">Don\'t miss the action</div><button style="background:#6E8BFF;color:#fff;border:none;border-radius:999px;padding:10px 20px;font-weight:800;text-transform:uppercase;margin-top:8px">Watch Now</button></div>',
+      },
+      right: {
+        label: "Allegiance matchday row — flags, your-team tag, ready-to-cook",
+        html: '<div style="background:rgba(12,9,5,0.6);border:1px solid rgba(244,162,97,0.3);border-radius:16px;padding:12px 14px"><div style="display:flex;justify-content:space-between;color:#F4A261;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px"><span>Your matchday · Group D</span><span style="color:rgba(239,227,206,0.55);font-family:ui-monospace,monospace">20:00</span></div><div style="display:flex;align-items:center;gap:8px;margin-top:8px;color:#EFE3CE;font-weight:700;font-size:14px"><span>🇧🇷 Brazil</span><span style="color:rgba(239,227,206,0.35);font-size:11px">VS</span><span style="margin-left:auto">Australia 🇦🇺</span></div><div style="margin-top:8px;color:rgba(239,227,206,0.45);font-size:11px">🍿 Half-time snacks + signature dishes from both nations</div></div>',
       },
     },
     {

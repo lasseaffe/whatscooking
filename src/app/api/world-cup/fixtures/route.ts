@@ -5,6 +5,13 @@ import { createClient } from "@/lib/supabase/server";
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const todayOnly = searchParams.get("today") === "1";
+  const upcomingOnly = searchParams.get("upcoming") === "1";
+  // ?teams=US,BR — fixtures where either side is a followed nation code.
+  const teams = (searchParams.get("teams") ?? "")
+    .split(",")
+    .map((c) => c.trim())
+    .filter(Boolean);
+  const limitParam = Number(searchParams.get("limit"));
 
   const supabase = await createClient();
 
@@ -21,6 +28,17 @@ export async function GET(request: Request) {
     query = query
       .gte("match_date", dayStart.toISOString())
       .lte("match_date", dayEnd.toISOString());
+  } else if (upcomingOnly) {
+    query = query.gte("match_date", new Date().toISOString());
+  }
+
+  if (teams.length > 0) {
+    const list = `(${teams.join(",")})`;
+    query = query.or(`home_code.in.${list},away_code.in.${list}`);
+  }
+
+  if (Number.isFinite(limitParam) && limitParam > 0) {
+    query = query.limit(limitParam);
   }
 
   const { data, error } = await query;

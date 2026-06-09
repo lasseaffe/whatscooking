@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Trophy, Utensils } from "lucide-react";
-import { WC2026_NATIONS, CONF_COLORS, getNationBySlug } from "@/lib/wc2026";
+import { WC2026_NATIONS, CONF_COLORS, getNationBySlug, flagcdnCode } from "@/lib/wc2026";
 import { getDishSlug } from "@/lib/wc2026-recipes";
 import { createClient } from "@/lib/supabase/server";
 
@@ -41,10 +41,10 @@ export default async function WCCountryPage({ params }: { params: Promise<{ coun
       </div>
 
       {/* Hero */}
-      <div className="relative rounded-3xl overflow-hidden mb-8" style={{ height: 300 }}>
+      <div className="relative rounded-3xl overflow-hidden mb-8" style={{ height: 300, background: "#0A0500" }}>
         <img
-          src={nation.heroImage}
-          alt={nation.name}
+          src={`https://flagcdn.com/w1280/${flagcdnCode(nation.iso2)}.png`}
+          alt={`${nation.name} flag`}
           className="w-full h-full object-cover"
         />
         <div

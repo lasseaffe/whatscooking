@@ -17,6 +17,8 @@ type IssueType = (typeof ISSUE_TYPES)[number]["value"];
 interface ReportButtonProps {
   recipeId: string;
   recipeName: string;
+  /** Called immediately when the API auto-swaps a bad image — use to update local display */
+  onImageSwapped?: (newUrl: string) => void;
   /** Extra class for the trigger button */
   className?: string;
   /** Inline style for the trigger button */
@@ -25,11 +27,12 @@ interface ReportButtonProps {
   iconSize?: number;
 }
 
-export function ReportButton({ recipeId, recipeName, className, style, iconSize = 13 }: ReportButtonProps) {
+export function ReportButton({ recipeId, recipeName, onImageSwapped, className, style, iconSize = 13 }: ReportButtonProps) {
   const [open, setOpen] = useState(false);
   const [issueType, setIssueType] = useState<IssueType>("faulty_image");
   const [description, setDescription] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "done">("idle");
+  const [swapped, setSwapped] = useState(false);
   const [mounted, setMounted] = useState(false);
   useEffect(() => { setMounted(true); }, []);
   const [attachedFile, setAttachedFile] = useState<File | null>(null);
@@ -45,7 +48,14 @@ export function ReportButton({ recipeId, recipeName, className, style, iconSize 
       fd.append("description", description);
       if (attachedFile) fd.append("file", attachedFile);
 
-      await fetch("/api/recipe-reports", { method: "POST", body: fd });
+      const res = await fetch("/api/recipe-reports", { method: "POST", body: fd });
+      if (res.ok && issueType === "faulty_image") {
+        const json = await res.json() as { newImageUrl?: string };
+        if (json.newImageUrl) {
+          onImageSwapped?.(json.newImageUrl);
+          setSwapped(true);
+        }
+      }
     } catch { /* fail silently for UX */ }
     setStatus("done");
     setTimeout(() => {
@@ -53,6 +63,7 @@ export function ReportButton({ recipeId, recipeName, className, style, iconSize 
       setStatus("idle");
       setDescription("");
       setAttachedFile(null);
+      setSwapped(false);
     }, 1400);
   }
 
@@ -205,7 +216,8 @@ export function ReportButton({ recipeId, recipeName, className, style, iconSize 
             >
               {status === "idle"    && "Submit report"}
               {status === "sending" && "Sending…"}
-              {status === "done"    && "✓ Report saved — thanks!"}
+              {status === "done" && swapped  && "✓ Image swapped — thanks!"}
+              {status === "done" && !swapped && "✓ Report saved — thanks!"}
             </button>
           </div>
         </div>,

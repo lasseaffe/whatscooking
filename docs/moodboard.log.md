@@ -4,6 +4,103 @@ Newest entry on top. Top 5 entries are rendered in the in-app moodboard Change L
 
 ---
 
+## 2026-06-02 — Household nav group, swipe parity, compact recipe peek, flag-forward WC cards
+
+### Changed
+
+- **New "Household" sidebar group** (in `app-nav.tsx` `NAV_GROUPS`, after "My Kitchen"): consolidates the shared/family side of the app — **Family** (Hub, Members, Recipes, Guides), **Household** (shared kitchen, members & groups), and **My Pantry** (+ Shopping List, moved out of "My Kitchen"). "My Kitchen" now holds only personal items (My Recipes, Cookbooks). Mirrored into the mobile "More" sheet. New IA vocabulary: **Household** as the umbrella for family + shared-kitchen + pantry.
+- **Swipe feel parity:** the landing-page card now tracks the pointer 1:1 like Discover's deck (drag guarded by a synchronous ref, not stale state) — the swipe gesture is now consistent across landing and `/discover`.
+- **Recipe peek card:** the card-tap preview changed from a near-fullscreen bottom sheet (`max-h-[92vh]`) to a **compact centered modal** (`max-w-sm`, `max-h-[80vh]`). Lists ingredients + macros + "Full Recipe Page" CTA; **inline step-by-step instructions removed** (they live on the full recipe page). A "peek, then commit" pattern — quick triage without leaving the deck.
+- **Flag-forward World Cup country cards:** `/cuisines/world-cup-2026` listing cards and the country-detail hero now show the nation's **real flag** (flagcdn.com, via new `flagcdnCode()` helper with GB-subdivision fallback) instead of a generic food photo — a nation is represented by its flag, not a random dish.
+
+### Ideas / next steps
+
+- Seed ≥10 real recipes per WC nation so every flag card reads a "10 recipes" count (in progress — content marathon, batched by confederation).
+- Consider extracting a shared low-level `useSwipeDeck` primitive so landing + Discover can't drift again (deferred — data shapes differ).
+- Household "Kitchen Groups" currently folds into the `/household` hub (no standalone groups page exists yet); promote to its own nav child once a groups UI ships.
+
+## 2026-06-02 — World Cup 2026 Waves 2–3: watch squads, share cards, leaderboard, season nudge
+
+### Changed
+
+- **Watch parties** (Wave 2): a matchday row's "Start a watch party" now opens a squad-picker sheet (Just me / existing squad / new squad) and creates a real event with the **Matchday Menu pre-seeded** into the itinerary; squads reuse `kitchen_groups`. New proactive **"Rally your squad"** banner atop My Matchdays for the soonest followed match.
+- **Shareable Matchday Menu** (Wave 3): public-ish menu page at `/world-cup-2026/menu/[home]-[away]` + branded **OG share card** (`opengraph-image`, pitch-green gradient, flags, "MATCHDAY MENU" eyebrow, What's Cooking lockup) — feeds social sharing of a game-night spread.
+- **"Cooked the World" leaderboard** (`/world-cup-2026/leaderboard`): ranks chefs by nations cooked then dishes shared, aggregated from `wc_match_photos`; medal rows, "You" highlight, and a branded first-mover empty state (no blank div).
+- **Season nudge**: dismissible (`localStorage`) pitch-green prompt on Discover linking to the hub — "The World Cup is kicking off ⚽ — pick your teams."
+
+### Ideas / next steps
+
+- Leaderboard shows "Chef ••••" placeholders for others — wire real display names once a profiles name field is confirmed; add per-squad leaderboard view.
+- Surface the season nudge on the home/landing surface too (currently Discover only).
+- OG card is text+flags (Satori emoji limits) — could add a subtle pitch texture / dish thumbnails later.
+
+## 2026-06-02 — World Cup 2026 reapproach: allegiance-driven "matchday" surface
+
+### Changed
+
+- World Cup hub (`/world-cup-2026`) reframed from a collection-driven **Passport Challenge** to an allegiance-driven **"Your Table"** experience. New IA top-to-bottom: **My Teams** hero → **team picker** (inline when empty, behind a disclosure once teams are followed) → **My Matchdays** feed → **Passport** demoted into a collapsed `<details>` section.
+- New "stadium night" sub-surface vocabulary, consistent with the existing WC palette (pitch-green `#0A1A08`, parchment `#EFE3CE`, saffron `#F4A261`, Libre Baskerville serif headings, confederation accent colors): **Matchday Menu** (single-evening: half-time snacks + both nations' signature dishes), **Your matchday / Featured match** row tags, primary-team **star** affordance.
+- Team chips use confederation accent as the *fill* when followed (high-contrast dark text on saffron/green), hollow when not — a tactile, kitchen-readable toggle rather than a generic checkbox list.
+- Retired the floating today-only `WcMatchdayPanel` from the hub; its watch-party + (soon) photo affordances are absorbed into expandable matchday rows.
+
+### Ideas / next steps
+
+- Wave 2: persistent **Watch Squads** (reuse `kitchen_groups`) + auto-suggested per-match events seeded with the matchday menu; needs a "Watch Squad" vocabulary entry once the UI lands.
+- Wave 3: shareable **Matchday Menu card** (OG image) + **"Cooked the World"** leaderboard (built on `wc_match_photos`) + dismissible season nudge on discover/home.
+- Menu items still lean on title/cuisine matching against `recipes`; seeding a few canonical sports-snack recipes would lift fidelity above the curated fallbacks.
+- Drift: new surfaces use inline hex consistent with the established WC theme (not global tokens) — folded into the existing WC-theme allowance, not the core palette.
+
+## 2026-05-30 — Recipe header: image-left F-shape + ingredients lifted to header
+
+### Changed
+
+- Recipe page header restructured to honor the F-shape reading pattern: the hero image + Start Cooking CTA now anchor the **left** (~44%), and the interactive ingredients panel fills the freed **right** column. Title + metadata move full-width **below** the image/ingredients row.
+- Mobile header reflow: full-bleed hero with a **title-on-image overlay** (gradient scrim for legibility on any photo), then meta/description, then the ingredients panel, then a **sticky bottom Cook bar**.
+- New shared state seam (`RecipeStateProvider`) keeps servings / unit system / ingredient list in sync between the header ingredients panel and the instructions/phase runner below.
+
+### Ideas / next steps
+
+- ✅ DONE (same day): §12 Recipe Page Template updated to image-left + ingredients-right + title-below (Zone 1) and Focus Card instructions runner (Zone 2), legend rewritten incl. mobile overlay/sticky-cook note.
+- ✅ DONE (same day): removed the now-dead body ingredients sidebar in recipe-columns-client.
+- Tooling: `scripts/check-moodboard-drift.mjs` now exists (was referenced by `npm run moodboard:check` but missing). Advisory hex-drift scan, warn-only. First run flags 88 inline hexes outside the palette — a backlog to triage into tokens or the script's allow-list over time.
+
+## 2026-05-30 — Cooking Mode "Focus Card" + step-counter unification
+
+### Changed
+
+- New shared step surface `.wc-focus-card` (warm gradient, ember-tinted border, soft shadow) used by BOTH the full-screen Cooking Mode and the inline phase runner, so the two step experiences read as one design. Light/Sabbath variant via `.wc-focus-card[data-palette="light"]`.
+- New canonical step indicator: `.wc-step-dots` / `.wc-step-dot` (active = elongated saffron pill, done = sage, upcoming = cocoa) + `.wc-step-count` mono label. This is now the ONLY step counter — removed the duplicate "Step X of Y" that previously rendered in both the mobile top bar AND the step body of full-screen Cooking Mode.
+- Step type scaled up for kitchen legibility: full-screen heading `clamp(28→40px)`, body `clamp(16→19px)`.
+- Step illustration moved from faint full-bleed ghost to a deliberate right-side anchor behind the Focus Card.
+- Duration + chef tip now dock inside the card (`.wc-duration-chip`, `.wc-card-tip`) instead of floating loose.
+- Removed the `.cook-next-bar` top gradient glow (flat floor now).
+- All new classes reuse existing brand tokens — no new tokens introduced.
+
+### Ideas / next steps
+
+- Recipe header restructure still pending: image-left F-shape anchor + Cook CTA under image + ingredients lifted to the right column (needs a RecipeStateProvider to share servings/units between header ingredients and body instructions). This will require updating §12 Recipe Page Template's spatial contract.
+- Mobile header reflow pending: title-on-image overlay + sticky bottom Cook bar.
+- Consider migrating the inline runner's richer `ChefTipBox` to the slimmer `.wc-card-tip` pill for full parity.
+
+---
+
+## 2026-05-29 — §12 Recipe Page Template added to moodboard
+
+### Changed
+
+- **New moodboard section §12 "Recipe Page Template"** documents the spatial contract for every recipe detail page with a live, annotated render using real design tokens.
+- Three annotated zones with dashed border labels: Zone 1 (editorial header — cuisine label + Fraunces title + italic description + metrics row + time bar + dietary tags + hero image + Cooking Mode CTA), Zone 2 (recipe columns — ingredients 38% with checkboxes/pantry badges/metric toggle, instructions with phase stepper + saffron-highlighted active step), Zone 3 (interactions — save/comment/star rating + comment thread).
+- Legend panel below the template lists every element per zone for quick scanning.
+- Added `RecipePageTemplate` section to moodboard TOC and page.
+- Identity pillar updated to reference §12 as the canonical spatial contract.
+
+### Ideas / next steps
+
+- Add a mobile-breakpoint variant (single column, full-bleed hero) to the template section.
+- Add the DrinkProPanel variant (shown only for drink dish types) as a sub-template.
+
+---
+
 ## 2026-05-21 — Meal Plan Builder: Editorial Kitchen redesign
 
 ### Changed
