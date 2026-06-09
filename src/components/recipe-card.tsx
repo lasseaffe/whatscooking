@@ -11,6 +11,7 @@ import { FocalPointEditor } from "@/components/focal-point-editor";
 import { motion } from "framer-motion";
 import { isDrink } from "@/lib/drinks";
 import { DrinkMetaHint } from "@/components/drinks/drink-meta-hint";
+import { recipeUrl } from "@/lib/recipe-url";
 
 function usePrefersReducedMotion() {
   const [reduced, setReduced] = useState(false);
@@ -76,13 +77,14 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
   const reduced = usePrefersReducedMotion();
   const [displayTitle, setDisplayTitle] = useState(recipe.title);
   const [displayDescription, setDisplayDescription] = useState(recipe.description ?? "");
+  const [localImageUrl, setLocalImageUrl] = useState<string | null | undefined>(recipe.image_url);
 
   const totalTime = (recipe.prep_time_minutes ?? 0) + (recipe.cook_time_minutes ?? 0);
   const isPremium = recipe.is_premium;
   const difficulty = (recipe as Recipe & { difficulty_level?: string | null }).difficulty_level;
 
   function handleClick() {
-    router.push(`/recipes/${recipe.id}`);
+    router.push(recipeUrl(recipe.title, recipe.id));
   }
 
   const handleSave = useCallback((e: React.MouseEvent) => {
@@ -111,7 +113,7 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
       <div className="absolute inset-0">
         <FocalPointEditor
           recipeId={recipe.id}
-          imageUrl={recipe.image_url}
+          imageUrl={localImageUrl}
           title={recipe.title}
           cuisine={(recipe as Recipe & { cuisine_type?: string | null }).cuisine_type}
           dietaryTags={recipe.dietary_tags}
@@ -165,7 +167,11 @@ export function RecipeCard({ recipe, featured = false, rating, mealPlanMatch, in
 
       {/* Report + Edit buttons — bottom-left */}
       <div className="absolute bottom-2 left-2 z-10 flex items-center gap-1">
-        <ReportButton recipeId={recipe.id} recipeName={displayTitle} />
+        <ReportButton
+            recipeId={recipe.id}
+            recipeName={displayTitle}
+            onImageSwapped={(url) => setLocalImageUrl(url)}
+          />
         <EditRecipeButton
           recipeId={recipe.id}
           initialTitle={displayTitle}
