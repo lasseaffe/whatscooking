@@ -121,26 +121,38 @@ test('findImageForRecipe: returns null when all sources exhausted', async () => 
 });
 
 test('findImageForRecipe: tries ingredient fallback when title search fails', async () => {
-  // All title queries return empty; ingredient fallback ("Chicken Tikka Masala") hits Pixabay
-  // Pass 1: call 1 = pixabay title, call 2 = wikimedia search, call 3 = unsplash
-  // Pass 2: call 4 = pixabay fallback with "Chicken%20Tikka%20Masala" in URL
-  let callCount = 0;
+  // "Easy Stew" → buildIngredientQuery strips "Easy " → fallback = "Stew"
+  // Title query URL contains "Easy%20Stew"; fallback URL contains "q=Stew" without "Easy".
+  // URL discrimination alone (no callCount) distinguishes title pass from fallback pass.
   global.fetch = jest.fn().mockImplementation(async (url: string) => {
-    callCount++;
-    const isPixabayFallback =
-      typeof url === 'string' &&
-      url.includes('Chicken%20Tikka%20Masala') &&
-      callCount > 3;
+    const isFallback = typeof url === 'string' && url.includes('q=Stew') && !url.includes('Easy');
     return {
       ok: true,
       json: async () =>
-        isPixabayFallback
+        isFallback
           ? { hits: [PIXABAY_HIT] }
           : { hits: [], query: { search: [] }, results: [] },
     };
   });
 
-  const recipe: RecipeLike = { id: 'r2', title: 'Easy Chicken Tikka Masala' };
+  const recipe: RecipeLike = { id: 'r2', title: 'Easy Stew' };
   const result = await findImageForRecipe(recipe, OPTS);
   expect(result?.credit.source).toBe('pixabay');
+});
+
+test('findImageForRecipe: gracefully handles ok:false fetch response', async () => {
+  global.fetch = jest.fn().mockResolvedValue({
+    ok: false,
+    json: async () => ({}),
+  } as unknown as Response);
+
+  const result = await findImageForRecipe(RECIPE, OPTS);
+  expect(result).toBeNull(); // pipeline must not throw
+});
+
+test('findImageForRecipe: gracefully handles fetch network error', async () => {
+  global.fetch = jest.fn().mockRejectedValue(new Error('network'));
+
+  const result = await findImageForRecipe(RECIPE, OPTS);
+  expect(result).toBeNull(); // pipeline must not throw
 });
