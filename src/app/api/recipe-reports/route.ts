@@ -58,7 +58,7 @@ export async function POST(req: NextRequest) {
       await writeFile(dest, buffer);
       fixFilePath = `public/recipe-images/${recipeId}.jpg`;
       fixStatus = "applied";
-      newImageUrl = `/${fixFilePath}`;
+      newImageUrl = `/recipe-images/${recipeId}.jpg`;
 
       // Update Supabase image_url immediately
       await supabase
@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
         {
           id: recipeId,
           title: recipeData?.title ?? recipeName ?? recipeId,
-          cuisine_type: (recipeData as Record<string, unknown>)?.cuisine_type as string | null | undefined,
+          cuisine_type: recipeData?.cuisine_type,
         },
         { excludeSources }
       );
