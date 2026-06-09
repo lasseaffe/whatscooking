@@ -49,11 +49,8 @@ const FOOD_KEYWORDS = new Set([
 ]);
 
 export function hasFoodKeyword(text: string): boolean {
-  const lower = text.toLowerCase();
-  for (const kw of FOOD_KEYWORDS) {
-    if (lower.includes(kw)) return true;
-  }
-  return false;
+  const words = text.toLowerCase().split(/[\s,./\\-]+/);
+  return words.some((w) => FOOD_KEYWORDS.has(w));
 }
 
 // ── Fetch helper ──────────────────────────────────────────────────────────────
@@ -80,6 +77,8 @@ async function fetchJson(url: string, headers: Record<string, string> = {}): Pro
 // Docs: https://pixabay.com/api/docs/
 
 async function searchPixabay(query: string, apiKey: string): Promise<ImageResult | null> {
+  // Pixabay requires the key as a URL param (their documented API).
+  // This function must only be called server-side — never import from client components.
   const url =
     `https://pixabay.com/api/?key=${apiKey}` +
     `&q=${encodeURIComponent(query)}` +
@@ -196,7 +195,7 @@ async function searchUnsplash(query: string, apiKey: string): Promise<ImageResul
 // Strips common title prefixes to get a more specific ingredient/dish keyword.
 
 const STRIP_PREFIXES =
-  /^(easy|quick|best|simple|classic|homemade|traditional|authentic|perfect|amazing|delicious|creamy|crispy|crunchy|fluffy|cheesy|spicy|healthy|old-fashioned|restaurant.style|copycat|one.pot|slow.cooker|instant.pot|air.fryer)\s+/gi;
+  /^(easy|quick|best|simple|classic|homemade|traditional|authentic|perfect|amazing|delicious|creamy|crispy|crunchy|fluffy|cheesy|spicy|healthy|old-fashioned|restaurant.style|copycat|one.pot|slow.cooker|instant.pot|air.fryer)\s+/i;
 
 export function buildIngredientQuery(title: string): string {
   const stripped = title.replace(STRIP_PREFIXES, '').trim();
