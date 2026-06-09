@@ -170,21 +170,15 @@ async function main() {
 
   const processed = loadProgress();
   const seenUrls = new Set();
-  let fixed = 0, skipped = 0, failed = 0, offset = 0;
+  let fixed = 0, skipped = 0, failed = 0;
 
   while (fixed + skipped + failed < LIMIT) {
-    let query = supabase
+    const { data: recipes, error } = await supabase
       .from('recipes')
       .select('id, title, image_url, image_status, image_source_credit')
       .in('image_status', ['duplicate', 'fallback', 'missing', 'broken', 'needs_manual'])
       .order('id')
-      .range(offset, offset + BATCH_SIZE - 1);
-
-    if (processed.size > 0) {
-      query = query.not('id', 'in', `(${[...processed].map((id) => `'${id}'`).join(',')})`);
-    }
-
-    const { data: recipes, error } = await query;
+      .range(0, BATCH_SIZE - 1);
 
     if (error) { console.error('[fix-images-smart] DB error:', error.message); break; }
     if (!recipes?.length) { console.log('[fix-images-smart] No more recipes to process.'); break; }
@@ -199,7 +193,8 @@ async function main() {
       if (!result) {
         console.log(`  ✗ no image found — ${recipe.title}`);
         if (!DRY_RUN) {
-          await supabase.from('recipes').update({ image_status: 'needs_manual' }).eq('id', recipe.id);
+          const { error: markErr } = await supabase.from('recipes').update({ image_status: 'needs_manual' }).eq('id', recipe.id);
+          if (markErr) console.error(`  [DB] needs_manual update failed for ${recipe.id}: ${markErr.message}`);
         }
         failed++;
         continue;
@@ -214,12 +209,13 @@ async function main() {
       seenUrls.add(result.imageUrl);
 
       if (!DRY_RUN) {
-        await supabase.from('recipes').update({
+        const { error: updateErr } = await supabase.from('recipes').update({
           image_url: result.imageUrl,
           image_status: 'ok',
           image_legal_tier: result.tier,
           image_source_credit: result.credit,
         }).eq('id', recipe.id);
+        if (updateErr) console.error(`  [DB] image update failed for ${recipe.id}: ${updateErr.message}`);
       }
 
       console.log(`  ✓ [${result.credit.source}] ${recipe.title}`);
@@ -230,7 +226,6 @@ async function main() {
     console.log(`  Batch done — fixed: ${fixed}, skipped: ${skipped}, failed: ${failed}`);
 
     if (recipes.length < BATCH_SIZE) break;
-    offset += BATCH_SIZE;
     await new Promise((r) => setTimeout(r, BATCH_DELAY_MS));
   }
 
